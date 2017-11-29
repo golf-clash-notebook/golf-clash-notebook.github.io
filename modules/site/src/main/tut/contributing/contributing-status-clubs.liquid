@@ -1,0 +1,36 @@
+
+{% comment %}
+  TODO: Sigh... 'concat' filter doesn't seem to work.
+{% endcomment %}
+
+{% assign drivers = site.data.clubs.drivers %}
+{% assign woods = site.data.clubs.woods %}
+{% assign longirons = site.data.clubs.longirons %}
+{% assign shortirons = site.data.clubs.shortirons %}
+{% assign wedges = site.data.clubs.wedges %}
+{% assign roughirons = site.data.clubs.roughirons %}
+{% assign sandwedges = site.data.clubs.sandwedges %}
+
+{% assign numDrivers = drivers | size %}
+{% assign numWoods = woods | size %}
+{% assign numLongIrons = longirons | size %}
+{% assign numShortIrons = shortirons | size %}
+{% assign numWedges = wedges | size %}
+{% assign numRoughIrons = roughirons | size %}
+{% assign numSandWedges = sandwedges | size %}
+
+{% assign numClubs = numDrivers | plus: numWoods | plus: numLongIrons | plus: numShortIrons | plus: numWedges | plus: numRoughIrons | plus: numSandWedges %}
+
+{% capture describedClubNames %}
+  {% for club in drivers %}
+    {% if club.description contains 'Help Wanted' %}
+    {% else %}
+      {{ club.name }}
+    {% endif %}
+  {% endfor %}
+{% endcapture %}
+
+{% assign describedClubs = describedClubNames | split: ' ' | size %}
+{% assign describedClubPercent = describedClubs | times: 100 | divided_by: numClubs %}
+
+{% include_relative contributing/contributing-status-progress-bar.liquid label='Clubs' percentage=describedClubPercent value=describedClubs max=numClubs %}

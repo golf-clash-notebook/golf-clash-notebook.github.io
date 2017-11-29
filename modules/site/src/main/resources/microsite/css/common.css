@@ -1,0 +1,199 @@
+
+.col-flex {
+  display: flex;
+}
+
+.row-flex {
+  display: flex;
+  align-items: center;
+}
+
+.img-inline {
+  display: inline;
+}
+
+.img-grayscale {
+  filter: grayscale(100%);
+}
+
+.text-prototype {
+  font-family: "RedactedScriptRegular";
+}
+
+.text-tiny {
+  font-size: 70%;
+}
+
+.text-small {
+  font-size: 85%;
+}
+
+.text-semi-muted {
+  color: #aaa;
+}
+
+.img-center {
+    display: block;
+    margin: 0 auto;
+}
+
+.btn-toggle-rookie {
+  background-color: #ccc;
+  border-color: #666;
+  color: #333;
+}
+
+.btn-toggle-rookie.active {
+  background-color: #77bf00;
+  border-color: #305f1a;
+  color: #ffffff;
+}
+
+.btn-toggle-pro {
+  background-color: #ccc;
+  border-color: #666;
+  color: #333;
+}
+
+.btn-toggle-pro.active {
+  background-color: #22c2ce;
+  border-color: #126a7e;
+  color: #ffffff;
+}
+
+.btn-toggle-masters {
+  background-color: #ccc;
+  border-color: #666;
+  color: #333;
+}
+
+.btn-toggle-masters.active {
+  background-color: #cc25ee;
+  border-color: #661798;
+  color: #ffffff;
+}
+
+/** Common card with thumbnail, title and body. */
+
+.gcn-card {
+  display: flex;
+  flex-direction: column;
+  overflow-x: auto;
+}
+
+.gcn-card > .panel-heading {
+  position: relative;
+}
+
+.gcn-card > .panel-heading > .thumbnail {
+  display: inline-block;
+  left: 12px;
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 52px;
+  height: 52px;
+  margin-bottom: 0;
+}
+
+.gcn-card > .panel-heading > .thumbnail > i {
+  margin: 6px 0;
+}
+
+.gcn-card > .panel-heading > .title {
+  margin-left: 54px;
+  display: inline-block;
+}
+
+.gcn-card > .panel-heading > .title > a {
+  color: #555;
+}
+
+.gcn-card > .panel-heading > .pull-right {
+  display: inline-block;
+  position: absolute;
+  top: 50%;
+  right: 12px;
+  transform: translateY(-50%);
+}
+
+.gcn-card > .panel-body {
+  flex: 1;
+}
+
+.gcn-card > .table-responsive > table > thead > tr > th {
+  text-align: center;
+}
+
+.gcn-card > .table-responsive > table > tbody > tr > td {
+  text-align: center;
+}
+
+/* Common resource element usually used to link to YouTube, Twitch, etc. */
+
+.gcn-resource > a {
+  color: #666;
+}
+
+.gcn-resource > a > i {
+  padding-right: 5px;
+}
+
+/* Common thumbnail element with an image and a text caption */
+
+.gcn-thumbnail {
+  display: inline-block;
+}
+
+.gcn-thumbnail > a {
+  color: #7b7b7e;
+  display: inline-block;
+  padding: 10px 0;
+}
+
+/** Color of golf clash cards. */
+
+.text-common {
+  color: #4A78C8;
+}
+
+.text-epic {
+  color: #A8366F;
+}
+
+.text-rare {
+  color: #E28B29;
+}
+
+/** Brand colors. */
+
+.text-facebook {
+  color: #5167AF;
+}
+
+.text-reddit {
+  color: #DC591C;
+}
+
+.text-twitch {
+  color: #473C7A;
+}
+
+.text-twitter {
+  color: #609EF0;
+}
+
+.text-youtube {
+  color: #D93D1A;
+}
+
+.progress-thin {
+  height: 8px;
+  margin: 0;
+}
+
+.pad-4  { padding: 4px; }
+.pad-8  { padding: 8px; }
+.pad-12 { padding: 12px; }
+.pad-16 { padding: 16px; }

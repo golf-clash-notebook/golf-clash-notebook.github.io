@@ -1,0 +1,47 @@
+name: Thanksgiving
+date: '2017-11-20'
+resources:
+  - title: Golf Clash Tommy - Weekend
+    url: https://www.youtube.com/watch?v=-dL585v1XF4
+  - title: ItsRJTV - Weekend
+    url: https://www.youtube.com/watch?v=vqVn3_vrW8I
+  - title: Golf Clash Tommy - Opening Back 9
+    url: https://www.youtube.com/watch?v=unlUKHRNqmo
+  - title: Golf Clash Tommy - Opening Front 9
+    url: https://www.youtube.com/watch?v=x0uELjLmMMY
+  - title: ItsRJTV - Opening
+    url: https://www.youtube.com/watch?v=XLPdPR6WHpo
+  - title: Golf Clash Tommy - Qualifier
+    url: https://www.youtube.com/watch?v=WKGUAVKwa4o
+  - title: ItsRJTV - Qualifier
+    url: https://www.youtube.com/watch?v=X25gZWy1LAY
+  - title: Golf Clash Tommy - Practice
+    url: https://www.youtube.com/watch?v=QcWdoS9WYNw
+holes:
+  - number: 1
+    course: Thanksgiving
+    course-hole: 1
+  - number: 2
+    course: Thanksgiving
+    course-hole: 2
+  - number: 3
+    course: Thanksgiving
+    course-hole: 3
+  - number: 4
+    course: Thanksgiving
+    course-hole: 4
+  - number: 5
+    course: Thanksgiving
+    course-hole: 5
+  - number: 6
+    course: Thanksgiving
+    course-hole: 6
+  - number: 7
+    course: Thanksgiving
+    course-hole: 7
+  - number: 8
+    course: Thanksgiving
+    course-hole: 8
+  - number: 9
+    course: Thanksgiving
+    course-hole: 9

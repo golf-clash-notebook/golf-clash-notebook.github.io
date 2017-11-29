@@ -1,0 +1,84 @@
+
+page_gen-dirs: true
+
+page_gen:
+  - index_files: true
+    data: 'courses.CreepyCliffs.holes'
+    template: 'course-hole-template'
+    name: 'number'
+    dir: 'courses/CreepyCliffs'
+  - index_files: true
+    data: 'courses.GlenmonarchEstate.holes'
+    template: 'course-hole-template'
+    name: 'number'
+    dir: 'courses/GlenmonarchEstate'
+  - index_files: true
+    data: 'courses.GokashoBay.holes'
+    template: 'course-hole-template'
+    name: 'number'
+    dir: 'courses/GokashoBay'
+  - index_files: true
+    data: 'courses.GreenochPoint.holes'
+    template: 'course-hole-template'
+    name: 'number'
+    dir: 'courses/GreenochPoint'
+  - index_files: true
+    data: 'courses.HauntedHills.holes'
+    template: 'course-hole-template'
+    name: 'number'
+    dir: 'courses/HauntedHills'
+  - index_files: true
+    data: 'courses.JuniperPoint.holes'
+    template: 'course-hole-template'
+    name: 'number'
+    dir: 'courses/JuniperPoint'
+  - index_files: true
+    data: 'courses.MeadowCastle.holes'
+    template: 'course-hole-template'
+    name: 'number'
+    dir: 'courses/MeadowCastle'
+  - index_files: true
+    data: 'courses.NamhaeCliffs.holes'
+    template: 'course-hole-template'
+    name: 'number'
+    dir: 'courses/NamhaeCliffs'
+  - index_files: true
+    data: 'courses.SakuraHills.holes'
+    template: 'course-hole-template'
+    name: 'number'
+    dir: 'courses/SakuraHills'
+  - index_files: true
+    data: 'courses.SantaVentura.holes'
+    template: 'course-hole-template'
+    name: 'number'
+    dir: 'courses/SantaVentura'
+  - index_files: true
+    data: 'courses.SouthernPines.holes'
+    template: 'course-hole-template'
+    name: 'number'
+    dir: 'courses/SouthernPines'
+  - index_files: true
+    data: 'courses.SunshineGlades.holes'
+    template: 'course-hole-template'
+    name: 'number'
+    dir: 'courses/SunshineGlades'
+  - index_files: true
+    data: 'courses.Thanksgiving.holes'
+    template: 'course-hole-template'
+    name: 'number'
+    dir: 'courses/Thanksgiving'
+  - index_files: true
+    data: 'courses.TheMilano.holes'
+    template: 'course-hole-template'
+    name: 'number'
+    dir: 'courses/TheMilano'
+  - index_files: true
+    data: 'courses.TheOasis.holes'
+    template: 'course-hole-template'
+    name: 'number'
+    dir: 'courses/TheOasis'
+  - index_files: true
+    data: 'courses.VineyardAcres.holes'
+    template: 'course-hole-template'
+    name: 'number'
+    dir: 'courses/VineyardAcres'

@@ -1,0 +1,14 @@
+name: The Milano
+holes:
+  - course: The Milano
+    number: 1
+    par: 3
+  - course: The Milano
+    number: 2
+    par: 4
+  - course: The Milano
+    number: 3
+    par: 5
+  - course: The Milano
+    number: 4
+    par: 5

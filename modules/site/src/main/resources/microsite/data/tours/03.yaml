@@ -1,0 +1,13 @@
+number: 3
+name: Asia Pacific
+courses:
+  - name: Gokasho Bay
+  - name: Namhae Cliffs
+  - name: Sakura Hills
+description: >
+  Help Wanted
+resources:
+  - title: Golf Clash Tommy - Tour 3 Guides
+    url: https://www.youtube.com/watch?v=WI_jyhHYghY&list=PL8bCSk5yWdFJ4oVDWRWIFECpFrJkn6RO9
+  - title: Golf Clash Tommy - Road To Glory - Episode 2
+    url: https://youtu.be/0Fdl4pi8ick?t=17m33s

@@ -1,0 +1,19 @@
+### Scala ###
+*.class
+*.log
+
+### SBT ###
+.cache
+.history
+.lib/
+_site/
+dist/
+local.sbt
+target/
+project/project
+project/target
+
+### Editor Specific ###
+*.sublime*
+.vscode
+

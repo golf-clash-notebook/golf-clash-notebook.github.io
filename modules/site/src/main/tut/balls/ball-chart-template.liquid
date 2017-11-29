@@ -1,0 +1,54 @@
+
+<table class="table table-centered table-squished table-content-centered table-borderless table-equal-columns table-responsive">
+  <thead>
+    <tr>
+      <th></th>
+      <th>Wind<br>Resistance</th>
+      <th>Side Spin</th>
+      <th>Power</th>
+      <th><img src="/img/golfclash/other/Gem-thumb.png" alt="Cost" class="img-center img-responsive"></th>
+    </tr>
+  </thead>
+  <tbody>
+    {% for ballKey in include.ballKeyArray %}
+
+      {% assign ball = site.data.balls[ballKey] %}
+      {% assign ballPath = ball.name | remove: "The" | remove: " " | remove: "'" %}
+
+      <tr>
+        <td>
+          <img src="/img/golfclash/balls/{{ ballPath }}-thumb.png" title="{{ ball.name }}" alt="{{ ball.name }}" class="img-center img-responsive" style="width: 36px;">
+        </td>
+        <td>
+          {% if ball.wind-resistance > 0 %}
+            <img src="/img/golfclash/balls/WindResistance{{ ball.wind-resistance }}-thumb.png" title="Wind Resistance {{ ball.wind-resistance }}" alt="Wind Resistance {{ ball.wind-resistance }}" class="img-center img-responsive">
+          {% else %}
+            <i class="fa fa-times text-danger" aria-hidden="true"></i>
+          {% endif %}
+        </td>
+        <td>
+          {% if ball.side-spin > 0 %}
+            <img src="/img/golfclash/balls/SideSpin{{ ball.side-spin }}-thumb.png" title="Side Spin {{ ball.side-spin }}" alt="Side Spin {{ ball.side-spin }}" class="img-center img-responsive">
+          {% else %}
+            <i class="fa fa-times text-danger" aria-hidden="true"></i>
+          {% endif %}
+        </td>
+        <td>
+          {% if ball.power > 0 %}
+            <img src="/img/golfclash/balls/Power{{ ball.power }}-thumb.png" title="Power {{ ball.side-spin }}" alt="Power {{ ball.side-spin }}" class="img-center img-responsive">
+          {% else %}
+            <i class="fa fa-times text-danger" aria-hidden="true"></i>
+          {% endif %}
+        </td>
+        <td>
+          {% if ball.cost != "n/a" %}
+            <h4>{{ ball.cost }}</h4>
+          {% else %}
+            <i class="fa fa-times text-danger" title="Not for Purchase" aria-hidden="true"></i>
+          {% endif %}
+        </td>
+      </tr>
+
+    {% endfor %}
+  </tbody>
+</table>

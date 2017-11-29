@@ -1,0 +1,76 @@
+
+<div class="row">
+  <div class="col-md-6 col-md-offset-3 col-sm-12">
+    <p class="lead text-center">Tour {{ include.tour.number }} - {{ include.tour.name }}</p>
+    {% if include.tour.courses | size > 0 %}
+      <div class="pull-left text-left">
+        <div class="tour-courses">
+          {% for course in include.tour.courses %}
+            {% assign coursePath = course.name | remove: " " | remove: "'" %}
+            <a class="tour-course" href="/courses/{{ coursePath }}/">
+              <img src="/img/golfclash/courses/{{ coursePath }}/thumb.png" alt="{{ courseName }}">
+            </a>
+            <div class="tour-course-caption text-tiny text-center text-semi-muted">{{ course.name }}</div>
+            {% if forloop.rindex > 1 %}
+              <hr>
+            {% endif %}
+          {% endfor %}
+        </div>
+      </div>
+    {% endif %}
+    {% if include.tour.clubs | size > 0 %}
+      <div class="pull-right text-right">
+        <div class="club-recommendation-list">
+          {% for club in include.tour.clubs %}
+            {% assign clubPath = club.name | remove: "The" | remove: " " | remove: "'" %}
+            <img class="club-recommendation-item" src="/img/golfclash/clubs/{{ clubPath }}.png" alt="{{ club.name }}">
+            <div class="text-tiny text-center text-semi-muted">{{ club.name }}</div>
+            {% if forloop.rindex > 1 %}
+              <hr>
+            {% endif %}
+          {% endfor %}
+        </div>
+      </div>
+    {% endif %}
+    {% if include.tour.description contains 'Help Wanted' %}
+      <p class="text-prototype">
+        {% lipsum 3 10 30 %}
+      </p>
+    {% else %}
+      <p>
+        {{ include.tour.description }}
+      </p>
+    {% endif %}
+  </div>
+</div>
+
+{% if include.tour.resources != undefined and include.tour.resources != empty %}
+  <div class="row">
+    <div class="col-md-6 col-md-offset-3 col-sm-12">
+      <p class="lead text-center">Resources</p>
+      <div class="list-group">
+        {% for resource in include.tour.resources %}
+
+          {% capture resourceIcon %}
+            {% if resource.url contains 'facebook' %}
+              <i class="fa fa-facebook-official text-facebook" aria-hidden="true"></i>
+            {% elsif resource.url contains 'reddit' %}
+              <i class="fa fa-reddit text-reddit" aria-hidden="true"></i>
+            {% elsif resource.url contains 'twitch' %}
+              <i class="fa fa-twitch text-twitch" aria-hidden="true"></i>
+            {% elsif resource.url contains 'twitter' %}
+              <i class="fa fa-twitter text-twitter" aria-hidden="true"></i>
+            {% elsif resource.url contains 'youtube' or resource.url contains 'youtu.be' %}
+              <i class="fa fa-youtube-play text-youtube" aria-hidden="true"></i>
+            {% else %}
+              <i class="fa fa-book" aria-hidden="true"></i>
+            {% endif %}
+          {% endcapture %}
+
+          <li class="list-group-item gcn-resource text-small"><a href="{{ resource.url }}" target="_blank">{{ resourceIcon }} {{ resource.title }}</a></li>
+
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+{% endif %}

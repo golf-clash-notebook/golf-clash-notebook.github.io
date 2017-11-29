@@ -1,0 +1,67 @@
+
+{% assign tournamentPath = include.tournament.name | remove: " " %}
+
+<img class="img-responsive img-center" src="/img/golfclash/tournaments/titles/{{ tournamentPath }}.png">
+
+<br>
+
+<div class="row">
+
+  <div class="col-lg-8 col-md-8 col-sm-12">
+
+    {% assign numHoles = include.tournament.holes | size %}
+
+    {% for hole in include.tournament.holes %}
+
+      {% assign holeCoursePath = hole.course | remove: " " %}
+      {% assign courseHoleIx = hole.course-hole | minus: 1 %}
+
+      {% assign par = site.data.courses[holeCoursePath].holes[courseHoleIx].par %}
+
+      <div class="col-lg-4 col-md-4 col-sm-12 text-center">
+        <div class="thumbnail gcn-thumbnail">
+          <div>Hole {{ hole.number }} - Par {{ par }}</div>
+          <br>
+          <a href="/courses/{{ holeCoursePath }}/{{ hole.course-hole }}/">
+            <img src="/img/golfclash/courses/{{ holeCoursePath }}/{{ hole.course-hole }}-thumb.png">
+          </a>
+        </div>
+      </div>
+
+    {% endfor %}
+
+  </div>
+
+  <div class="col-lg-4 col-md-4 col-sm-12">
+
+    <h3 class="page-header text-center">Resources</h3>
+
+    <div class="list-group">
+      {% for resource in include.tournament.resources %}
+
+        {% capture resourceIcon %}
+          {% if resource.url contains 'facebook' %}
+            <i class="fa fa-facebook-official text-facebook" aria-hidden="true"></i>
+          {% elsif resource.url contains 'reddit' %}
+            <i class="fa fa-reddit text-reddit" aria-hidden="true"></i>
+          {% elsif resource.url contains 'twitch' %}
+            <i class="fa fa-twitch text-twitch" aria-hidden="true"></i>
+          {% elsif resource.url contains 'twitter' %}
+            <i class="fa fa-twitter text-twitter" aria-hidden="true"></i>
+          {% elsif resource.url contains 'youtube' or resource.url contains 'youtu.be' %}
+            <i class="fa fa-youtube-play text-youtube" aria-hidden="true"></i>
+          {% else %}
+            <i class="fa fa-book" aria-hidden="true"></i>
+          {% endif %}
+        {% endcapture %}
+
+        <li class="list-group-item gcn-resource text-small"><a href="{{ resource.url }}" target="_blank">{{ resourceIcon }} {{ resource.title }}</a></li>
+
+      {% endfor %}
+
+    </div>
+
+  </div>
+
+</div>
+

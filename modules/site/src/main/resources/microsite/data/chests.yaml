@@ -1,0 +1,241 @@
+
+- tour: 1
+  wooden:
+    total: 2
+  silver:
+    total: 11
+  gold:
+    total: 16
+    rare: 3
+  platinum:
+    total: -1
+    rare: -1
+    epic: -1
+  king:
+    total: -1
+    rare: -1
+    epic: -1
+- tour: 2
+  wooden:
+    total: -1
+    rare: -1
+    epic: -1
+  silver:
+    total: 13
+  gold:
+    total: 19
+    rare: 4
+  platinum:
+    total: 24
+    rare: 6
+    epic: 1
+  king:
+    total: 61
+    rare: 24
+    epic: 5
+- tour: 3
+  wooden:
+    total: -1
+    rare: -1
+    epic: -1
+  silver:
+    total: 16
+  gold:
+    total: 21
+    rare: 5
+  platinum:
+    total: -1
+    rare: -1
+    epic: -1
+  king:
+    total: 73
+    rare: 29
+    epic: 6
+- tour: 4
+  wooden:
+    total: -1
+    rare: -1
+    epic: -1
+  silver:
+    total: 19
+  gold:
+    total: 22
+    rare: 5
+  platinum:
+    total: -1
+    rare: -1
+    epic: -1
+  king:
+    total: -1
+    rare: -1
+    epic: -1
+- tour: 5
+  wooden:
+    total: -1
+    rare: -1
+    epic: -1
+  silver:
+    total: 21
+  gold:
+    total: 23
+    rare: 5
+  platinum:
+    total: 46
+    rare: 11
+    epic: 2
+  king:
+    total: 89
+    rare: 36
+    epic: 6
+- tour: 6
+  wooden:
+    total: -1
+    rare: -1
+    epic: -1
+  silver:
+    total: 23
+  gold:
+    total: 25
+    rare: 6
+  platinum:
+    total: 50
+    rare: 12
+    epic: 2
+  king:
+    total: -1
+    rare: -1
+    epic: -1
+- tour: 7
+  wooden:
+    total: -1
+    rare: -1
+    epic: -1
+  silver:
+    total: 25
+  gold:
+    total: 27
+    rare: 7
+  platinum:
+    total: -1
+    rare: -1
+    epic: -1
+  king:
+    total: -1
+    rare: -1
+    epic: -1
+- tour: 8
+  wooden:
+    total: -1
+    rare: -1
+    epic: -1
+  silver:
+    total: 26
+  gold:
+    total: 28
+    rare: 8
+  platinum:
+    total: 60
+    rare: 15
+    epic: 2
+  king:
+    total: -1
+    rare: -1
+    epic: -1
+- tour: 9
+  wooden:
+    total: 11
+  silver:
+    total: -1
+    rare: -1
+    epic: -1
+  gold:
+    total: -1
+    rare: -1
+    epic: -1
+  platinum:
+    total: -1
+    rare: -1
+    epic: -1
+  king:
+    total: 112
+    rare: 46
+    epic: 7
+- tour: 10
+  wooden:
+    total: 11
+  silver:
+    total: -1
+    rare: -1
+    epic: -1
+  gold:
+    total: 31
+    rare: 9
+  platinum:
+    total: 66
+    rare: 16
+    epic: 2
+  king:
+    total: 117
+    rare: 48
+    epic: 8
+- tour: 11
+  wooden:
+    total: -1
+    rare: -1
+    epic: -1
+  silver:
+    total: 30
+  gold:
+    total: -1
+    rare: -1
+    epic: -1
+  platinum:
+    total: -1
+    rare: -1
+    epic: -1
+  king:
+    total: -1
+    rare: -1
+    epic: -1
+- tour: 12
+  wooden:
+    total: -1
+    rare: -1
+    epic: -1
+  silver:
+    total: -1
+    rare: -1
+    epic: -1
+  gold:
+    total: -1
+    rare: -1
+    epic: -1
+  platinum:
+    total: -1
+    rare: -1
+    epic: -1
+  king:
+    total: -1
+    rare: -1
+    epic: -1
+- tour: 13
+  wooden:
+    total: -1
+    rare: -1
+    epic: -1
+  silver:
+    total: -1
+    rare: -1
+    epic: -1
+  gold:
+    total: -1
+    rare: -1
+    epic: -1
+  platinum:
+    total: -1
+    rare: -1
+    epic: -1
+  king:
+    total: -1
+    rare: -1
+    epic: -1

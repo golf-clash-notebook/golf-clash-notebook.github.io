@@ -1,0 +1,30 @@
+name: Sunshine Open
+date: '2017-08-07'
+holes:
+  - number: 1
+    course: Sunshine Glades
+    course-hole: 1
+  - number: 2
+    course: Sunshine Glades
+    course-hole: 3
+  - number: 3
+    course: Sunshine Glades
+    course-hole: 2
+  - number: 4
+    course: Sunshine Glades
+    course-hole: 4
+  - number: 5
+    course: Southern Pines
+    course-hole: 6
+  - number: 6
+    course: Southern Pines
+    course-hole: 3
+  - number: 7
+    course: Southern Pines
+    course-hole: 9
+  - number: 8
+    course: Southern Pines
+    course-hole: 8
+  - number: 9
+    course: Southern Pines
+    course-hole: 1

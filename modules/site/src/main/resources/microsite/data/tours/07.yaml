@@ -1,0 +1,22 @@
+number: 7
+name: West Coast Pro Series
+courses:
+  - name: Juniper Point
+  - name: Santa Ventura
+  - name: Vineyard Acres
+clubs:
+- name: Sniper
+- name: Guardian
+description: >
+  Help Wanted
+resources:
+  - title: Golf Clash Tommy - Tour 7 Guides
+    url: https://www.youtube.com/watch?v=y9CMtWuSCC4&list=PL8bCSk5yWdFLZfiQRU20feS3fIP7Mykjc
+  - title: Golf Clash Tommy - Road To Glory - Episode 9
+    url: https://youtu.be/bEjuNogGD0Q?t=17m7s
+  - title: Golf Clash Tommy - Road To Glory - Episode 10
+    url: https://youtu.be/KjS9c7ZP91c
+  - title: Golf Clash Tommy - Road To Glory - Episode 11
+    url: https://youtu.be/yVL9rzQkbeA
+  - title: Golf Clash Tommy - Road To Glory - Episode 12
+    url: https://youtu.be/N2w8hbImpB4

@@ -1,0 +1,33 @@
+
+.club-category-card {
+  padding: 8px 16px;
+}
+
+.club-category-card a {
+  display: block !important;
+}
+
+.club-stat-table > tbody > tr > th {
+  white-space: nowrap;
+}
+
+.clubs-thumb {
+  margin-bottom: 1.5em;
+  text-align: center;
+}
+
+.wind-chart {
+  min-height: 275px;
+  min-width: 275px;
+}
+
+@media (max-height: 360px) {
+  .wind-chart {
+    min-height: 200px;
+    min-width: 200px;
+  }
+}
+
+.wind-chart > nav > ul > li > a {
+  cursor: default;
+}
