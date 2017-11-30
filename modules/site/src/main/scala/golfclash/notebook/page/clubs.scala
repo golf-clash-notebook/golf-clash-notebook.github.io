@@ -52,8 +52,9 @@ object clubs {
               .asInstanceOf[js.Dynamic]
               .popover(
                 js.Dynamic.literal(
-                  "html"    -> true,
-                  "content" -> (() => createWindChart(club))
+                  "html"      -> true,
+                  "content"   -> (() => createWindChart(club)),
+                  "container" -> "body"
                 )
               )
 
