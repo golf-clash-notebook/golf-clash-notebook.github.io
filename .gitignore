@@ -1,3 +1,6 @@
+
+modules/site/src/main/resources/microsite/js/golf-clash-notebook-site.*
+
 ### Scala ###
 *.class
 *.log
