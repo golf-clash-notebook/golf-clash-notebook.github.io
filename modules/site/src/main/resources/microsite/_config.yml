@@ -82,3 +82,8 @@ page_gen:
     template: 'course-hole-template'
     name: 'number'
     dir: 'courses/VineyardAcres'
+  - index_files: true
+    data: 'courses.WinterLinks.holes'
+    template: 'course-hole-template'
+    name: 'number'
+    dir: 'courses/WinterLinks'
