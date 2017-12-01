@@ -6,6 +6,54 @@ permalink: /tournaments/
 position: 40
 ---
 
+
+<div class="row">
+
+  <div class="col-lg-8 col-lg-offset-2 col-sm-12">
+
+    <p class="lead text-center">Tournaments</p>
+
+    {% capture dateAndKeys %}
+      {% for tag in site.data.tournaments %}
+        {{ tag[1].date }}:{{ tag[0] }}
+      {% endfor %}
+    {% endcapture %}
+
+    {% assign sortedComposite = dateAndKeys | split: ' ' | sort %}
+
+    {% capture sortedKeys %}
+      {% for x in sortedComposite %}
+        {{ x | split: ':' | last }}
+      {% endfor %}
+    {% endcapture %}
+
+    {% assign keyArray = sortedKeys | split: ' ' | reverse %}
+    {% assign mod2 = keyArray | size | modulo: 2 %}
+
+    {% for key in keyArray %}
+
+      {% capture columnClasses %}
+        {% if mod2 == 1 and forloop.last %}
+          col-md-6 col-md-offset-3 col-sm-6 col-sm-offset-3 col-xs-12
+        {% else %}
+          col-md-6 col-xs-12
+        {% endif %}
+      {% endcapture %}
+
+      <div class="{{ columnClasses | strip }} text-center pad-16">
+        <a href="/tournaments/{{ key }}/">
+          <img class="img-responsive img-center" src="/img/golfclash/tournaments/titles/{{ key }}.png">
+        </a>
+      </div>
+
+    {% endfor %}
+
+  </div>
+
+</div>
+
+<hr>
+
 <div class="row">
 
   <div class="col-md-4 col-md-offset-4 col-sm-12">
@@ -51,53 +99,6 @@ position: 40
     <p class="text-prototype">
       Help Wanted: {% lipsum 2 10 20 %}
     </p>
-  </div>
-
-</div>
-
-<hr>
-
-<div class="row">
-
-  <div class="col-lg-8 col-lg-offset-2 col-sm-12">
-
-    <p class="lead text-center">Tournaments</p>
-
-    {% capture dateAndKeys %}
-      {% for tag in site.data.tournaments %}
-        {{ tag[1].date }}:{{ tag[0] }}
-      {% endfor %}
-    {% endcapture %}
-
-    {% assign sortedComposite = dateAndKeys | split: ' ' | sort %}
-
-    {% capture sortedKeys %}
-      {% for x in sortedComposite %}
-        {{ x | split: ':' | last }}
-      {% endfor %}
-    {% endcapture %}
-
-    {% assign keyArray = sortedKeys | split: ' ' | reverse %}
-    {% assign mod2 = keyArray | size | modulo: 2 %}
-
-    {% for key in keyArray %}
-
-      {% capture columnClasses %}
-        {% if mod2 == 1 and forloop.last %}
-          col-md-6 col-md-offset-3 col-sm-6 col-sm-offset-3 col-xs-12
-        {% else %}
-          col-md-6 col-xs-12
-        {% endif %}
-      {% endcapture %}
-
-      <div class="{{ columnClasses | strip }} text-center pad-16">
-        <a href="/tournaments/{{ key }}/">
-          <img class="img-responsive img-center" src="/img/golfclash/tournaments/titles/{{ key }}.png">
-        </a>
-      </div>
-
-    {% endfor %}
-
   </div>
 
 </div>

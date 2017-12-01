@@ -13,7 +13,7 @@ permalink: /clubs/drivers/
   <div class="col-md-6 col-md-offset-3 col-sm-12">
     <p class="lead text-center">Resources</p>
     <div class="list-group">
-      <li class="list-group-item gcn-resource text-small"><a href="https://youtu.be/qzj-W6EOWbk" target="_blank"><i class="fa fa-youtube-play text-youtube" aria-hidden="true"></i> Golf Clash Tommy - Driver Guide</a></li>
+      <li class="list-group-item gcn-resource text-small"><a href="https://youtu.be/qzj-W6EOWbk" target="_blank" rel=noopener><i class="fa fa-youtube-play text-youtube" aria-hidden="true"></i> Golf Clash Tommy - Driver Guide</a></li>
     </div>
   </div>
 </div>

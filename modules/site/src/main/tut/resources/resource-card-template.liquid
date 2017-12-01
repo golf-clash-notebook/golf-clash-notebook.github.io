@@ -20,7 +20,7 @@
     <div class="thumbnail">
       {{ resourceIcon }}
     </div>
-    <h4 class="title"><a href="{{ include.resource.url }}" target="_blank">{{ include.resource.name }}</a></h4>
+    <h4 class="title"><a href="{{ include.resource.url }}" target="_blank" rel=noopener>{{ include.resource.name }}</a></h4>
   </div>
   <div class="panel-body">
     {% if include.resource.description contains 'Help Wanted' %}
