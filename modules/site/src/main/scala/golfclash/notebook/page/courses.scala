@@ -34,34 +34,35 @@ object courses {
   val segmentDuration = 1.1
 
   val init = () => {
-    initGuides()
+    jQuery(".course-hole-map")
+      .one("load", initGuides())
+      .each({ (img: Element) =>
+        if (img.asInstanceOf[js.Dynamic].complete.asInstanceOf[Boolean])
+          jQuery(img).trigger("load")
+      })
     initLevelButtonToggles()
   }
 
   def initGuides() = {
 
-    jQuery(".course-hole-map").one(
-      "load", { () =>
-        val numSegments =
-          jQuery(".guide-path")
-            .map(e => jQuery(e).data("guide-segment"))
-            .toArray
-            .map(_.asInstanceOf[Int])
-            .sorted
-            .lastOption
-            .map(_ + 1)
-            .getOrElse(0)
+    val numSegments =
+      jQuery(".guide-path")
+        .map(e => jQuery(e).data("guide-segment"))
+        .toArray
+        .map(_.asInstanceOf[Int])
+        .sorted
+        .lastOption
+        .map(_ + 1)
+        .getOrElse(0)
 
-        jQuery(".guide-path").each(element => initGuidePath(element))
-        jQuery(".guide-point").each(element => initGuidePoint(element))
-        jQuery(".guide-image-annotation").each(
-          (ix, element) =>
-            initGuideImageAnnotation(element, numSegments * segmentDuration + (ix * 0.25))
-        )
-
-        showLevel("Rookie")
-      }
+    jQuery(".guide-path").each(element => initGuidePath(element))
+    jQuery(".guide-point").each(element => initGuidePoint(element))
+    jQuery(".guide-image-annotation").each(
+      (ix, element) =>
+        initGuideImageAnnotation(element, numSegments * segmentDuration + (ix * 0.25))
     )
+
+    showLevel("Rookie")
 
   }
 

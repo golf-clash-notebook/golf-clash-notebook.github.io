@@ -110,7 +110,7 @@ lazy val siteSettings = Seq(
     "io.monix"      %%% "monix"          % MonixV
   ),
   micrositeName := "Golf Clash Notebook",
-  micrositeDescription := "An Open Guide to Mastering Golf Clash",
+  micrositeDescription := "An Open Source Guide to Mastering Golf Clash",
   micrositeAuthor := "Golf Clash Notebook Contributors",
   micrositeGithubOwner := "golf-clash-notebook",
   micrositeGithubRepo := "golf-clash-notebook.github.io",
@@ -130,7 +130,7 @@ lazy val siteSettings = Seq(
   micrositeFooterText := None,
   siteSubdirName in ScalaUnidoc := "api",
   addMappingsToSiteDir(mappings in (ScalaUnidoc, packageDoc), siteSubdirName in ScalaUnidoc),
-  includeFilter in makeSite := "*.html" | "*.css" | "*.png" | "*.svg" | "*.jpg" | "*.gif" | "*.js" | "*.js.map" | "*.swf" | "*.yml" | "*.md" | "*.liquid" | "*.json" | "*.ttf" | "*.otf" | "*.woff" | "*.woff2",
+  includeFilter in makeSite := "*.html" | "*.css" | "*.png" | "*.svg" | "*.jpg" | "*.gif" | "*.js" | "*.js.map" | "*.swf" | "*.yml" | "*.md" | "*.liquid" | "*.json" | "*.ttf" | "*.otf" | "*.woff" | "*.woff2" | "*.webmanifest" | "*.xml",
   fork in tut := true,
   scalacOptions in Tut ~= (_.filterNot(Set("-Ywarn-unused-import", "-Ywarn-dead-code"))),
   fork in (ScalaUnidoc, unidoc) := true,

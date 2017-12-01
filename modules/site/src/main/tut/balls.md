@@ -46,33 +46,6 @@ position: 50
       Help Wanted: {% lipsum 2 10 20 %}
     </p>
 
-    {% if site.data.balls.resources != undefined and site.data.balls.resources != empty %}
-      <p class="lead text-center">Resources</p>
-      <div class="list-group">
-        {% for resource in site.data.balls.resources %}
-
-          {% capture resourceIcon %}
-            {% if resource.url contains 'facebook' %}
-              <i class="fa fa-facebook-official text-facebook" aria-hidden="true"></i>
-            {% elsif resource.url contains 'reddit' %}
-              <i class="fa fa-reddit text-reddit" aria-hidden="true"></i>
-            {% elsif resource.url contains 'twitch' %}
-              <i class="fa fa-twitch text-twitch" aria-hidden="true"></i>
-            {% elsif resource.url contains 'twitter' %}
-              <i class="fa fa-twitter text-twitter" aria-hidden="true"></i>
-            {% elsif resource.url contains 'youtube' or resource.url contains 'youtu.be' %}
-              <i class="fa fa-youtube-play text-youtube" aria-hidden="true"></i>
-            {% else %}
-              <i class="fa fa-book" aria-hidden="true"></i>
-            {% endif %}
-          {% endcapture %}
-
-          <li class="list-group-item gcn-resource text-small"><a href="{{ resource.url }}" target="_blank">{{ resourceIcon }} {{ resource.title }}</a></li>
-
-        {% endfor %}
-      </div>
-    {% endif %}
-
   </div>
   <div class="col-sm-12 visible-sm visible-xs">
     <hr>
@@ -135,3 +108,36 @@ position: 50
   {% endfor %}
 
 </div>
+
+{% if site.data.balls.resources != undefined and site.data.balls.resources != empty %}
+
+  <div class="row">
+    <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 col-sm-12">
+      <p class="lead text-center">Resources</p>
+      <div class="list-group">
+        {% for resource in site.data.balls.resources %}
+
+          {% capture resourceIcon %}
+            {% if resource.url contains 'facebook' %}
+              <i class="fa fa-facebook-official text-facebook" aria-hidden="true"></i>
+            {% elsif resource.url contains 'reddit' %}
+              <i class="fa fa-reddit text-reddit" aria-hidden="true"></i>
+            {% elsif resource.url contains 'twitch' %}
+              <i class="fa fa-twitch text-twitch" aria-hidden="true"></i>
+            {% elsif resource.url contains 'twitter' %}
+              <i class="fa fa-twitter text-twitter" aria-hidden="true"></i>
+            {% elsif resource.url contains 'youtube' or resource.url contains 'youtu.be' %}
+              <i class="fa fa-youtube-play text-youtube" aria-hidden="true"></i>
+            {% else %}
+              <i class="fa fa-book" aria-hidden="true"></i>
+            {% endif %}
+          {% endcapture %}
+
+          <li class="list-group-item gcn-resource text-small"><a href="{{ resource.url }}" target="_blank" rel=noopener>{{ resourceIcon }} {{ resource.title }}</a></li>
+
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+
+{% endif %}
