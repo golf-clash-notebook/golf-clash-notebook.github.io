@@ -3,27 +3,748 @@ holes:
   - course: Winter Links
     number: 1
     par: 3
+    description: >
+      Help Wanted
+    clubRecommendations:
+      - level: Rookie
+        clubs:
+          - Viper
+          - Sniper
+      - level: Pro
+        clubs:
+          - Sniper
+          - Quarterback
+      - level: Masters
+        clubs:
+          - Quarterback
+          - Rocket
+    resources:
+      - title: Golf Clash Tommy - Rookie Guide
+        url: https://youtu.be/C-_rIqp2Xy4
+      - title: Golf Clash Tommy - Pro / Expert Guide
+        url: https://youtu.be/XidDMOEzg-w
+    overlays:
+      size: [315, 808]
+      guides:
+      - name: Black Path
+        text: >
+          Help Wanted
+        levels:
+          - name: Rookie
+            svg: >
+              <path d="M 149 540 C 191 343 191 343 189 183" stroke="black" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="0" />
+              <circle cx="149" cy="540" r="6" fill="black" class="guide-point" data-guide-segment="0" />
+              <circle cx="189" cy="183" r="6" fill="black" class="guide-point" data-guide-segment="1" />
+          - name: Pro
+            svg: >
+              <path d="M 144 604 C 191 343 191 343 189 183" stroke="black" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="0" />
+              <circle cx="144" cy="604" r="6" fill="black" class="guide-point" data-guide-segment="0" />
+              <circle cx="189" cy="183" r="6" fill="black" class="guide-point" data-guide-segment="1" />
+          - name: Masters
+            svg: >
+              <path d="M 140 669 C 191 343 191 343 189 183" stroke="black" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="0" />
+              <circle cx="140" cy="669" r="6" fill="black" class="guide-point" data-guide-segment="0" />
+              <circle cx="189" cy="183" r="6" fill="black" class="guide-point" data-guide-segment="1" />
+      - name: White Path
+        text: >
+          Help Wanted
+        levels:
+          - name: Rookie
+            svg: >
+              <path d="M 149 540 L 164 222" stroke="white" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="0" />
+              <circle cx="149" cy="540" r="6" fill="white" class="guide-point" data-guide-segment="0" />
+              <circle cx="164" cy="222" r="6" fill="white" class="guide-point" data-guide-segment="1" />
+          - name: Pro
+            svg: >
+              <path d="M 144 604 L 164 222" stroke="white" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="0" />
+              <circle cx="144" cy="604" r="6" fill="white" class="guide-point" data-guide-segment="0" />
+              <circle cx="164" cy="222" r="6" fill="white" class="guide-point" data-guide-segment="1" />
+          - name: Masters
+            svg: >
+              <path d="M 140 669 L 164 222" stroke="white" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="0" />
+              <circle cx="140" cy="669" r="6" fill="white" class="guide-point" data-guide-segment="0" />
+              <circle cx="164" cy="222" r="6" fill="white" class="guide-point" data-guide-segment="1" />
+      - name: Yellow Path
+        text: >
+          Help Wanted
+        levels:
+          - name: Rookie
+            svg: >
+              <path d="M 149 540 C 105 365 105 365 139 186" stroke="yellow" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="0" />
+              <circle cx="149" cy="540" r="6" fill="yellow" class="guide-point" data-guide-segment="0" />
+              <circle cx="139" cy="186" r="6" fill="yellow" class="guide-point" data-guide-segment="1" />
+          - name: Pro
+            svg: >
+              <path d="M 144 604 C 105 365 105 365 139 186" stroke="yellow" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="0" />
+              <circle cx="144" cy="604" r="6" fill="yellow" class="guide-point" data-guide-segment="0" />
+              <circle cx="139" cy="186" r="6" fill="yellow" class="guide-point" data-guide-segment="1" />
+          - name: Masters
+            svg: >
+              <path d="M 140 669 C 105 365 105 365 139 186" stroke="yellow" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="0" />
+              <circle cx="140" cy="669" r="6" fill="yellow" class="guide-point" data-guide-segment="0" />
+              <circle cx="139" cy="186" r="6" fill="yellow" class="guide-point" data-guide-segment="1" />
+      annotations:
+        - name: Green
+          svg: >
+            <g class="guide-image-annotation">
+              <circle cx="177" cy="127" r="4" fill="white" />
+              <path d="M 290 290 L 177 127" stroke="white" fill="transparent" stroke-width="3"/>
+              <image xlink:href="/img/golfclash/courses/WinterLinks/annotations/1-Green.png" x="215" y="215" width="150" height="150" />
+            </g>
   - course: Winter Links
     number: 2
     par: 4
+    description: >
+      Help Wanted
+    clubRecommendations:
+      - level: Rookie
+        clubs:
+          - Viper
+          - Guardian
+      - level: Pro
+        clubs:
+          - Sniper
+          - Guardian
+      - level: Masters
+        clubs:
+          - Sniper
+          - Guardian
+    resources:
+      - title: Golf Clash Tommy - Rookie Guide
+        url: https://youtu.be/YyqF-n_c2JQ
+      - title: Golf Clash Tommy - Pro / Expert Guide
+        url: https://youtu.be/XidDMOEzg-w
+    overlays:
+      size: [401, 1039]
+      guides:
+      - name: Black Path
+        text: >
+          Help Wanted
+        levels:
+          - name: Rookie
+            svg: >
+              <path d="M 239 808 L 277 318" stroke="black" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="0" />
+              <path d="M 277 318 L 198 166" stroke="black" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="1" />
+              <path d="M 198 166 L 190 109" stroke="black" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="2" />
+              <circle cx="239" cy="808" r="6" fill="black" class="guide-point" data-guide-segment="0" />
+              <circle cx="277" cy="318" r="6" fill="black" class="guide-point" data-guide-segment="1" />
+              <circle cx="198" cy="166" r="6" fill="black" class="guide-point" data-guide-segment="2" />
+              <circle cx="190" cy="109" r="6" fill="black" class="guide-point" data-guide-segment="3" />
+          - name: Pro
+            svg: >
+              <path d="M 244 860 L 277 318" stroke="black" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="0" />
+              <path d="M 277 318 L 198 166" stroke="black" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="1" />
+              <path d="M 198 166 L 190 109" stroke="black" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="2" />
+              <circle cx="244" cy="860" r="6" fill="black" class="guide-point" data-guide-segment="0" />
+              <circle cx="277" cy="318" r="6" fill="black" class="guide-point" data-guide-segment="1" />
+              <circle cx="198" cy="166" r="6" fill="black" class="guide-point" data-guide-segment="2" />
+              <circle cx="190" cy="109" r="6" fill="black" class="guide-point" data-guide-segment="3" />
+          - name: Masters
+            svg: >
+              <path d="M 249 914 L 277 318" stroke="black" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="0" />
+              <path d="M 277 318 L 198 166" stroke="black" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="1" />
+              <path d="M 198 166 L 190 109" stroke="black" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="2" />
+              <circle cx="249" cy="914" r="6" fill="black" class="guide-point" data-guide-segment="0" />
+              <circle cx="277" cy="318" r="6" fill="black" class="guide-point" data-guide-segment="1" />
+              <circle cx="198" cy="166" r="6" fill="black" class="guide-point" data-guide-segment="2" />
+              <circle cx="190" cy="109" r="6" fill="black" class="guide-point" data-guide-segment="3" />
+      - name: White Path
+        text: >
+          Help Wanted
+        levels:
+          - name: Rookie
+            svg: >
+              <path d="M 239 808 L 223 236" stroke="white" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="0" />
+              <path d="M 223 236 L 190 109" stroke="white" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="1" />
+              <circle cx="239" cy="808" r="6" fill="white" class="guide-point" data-guide-segment="0" />
+              <circle cx="223" cy="236" r="6" fill="white" class="guide-point" data-guide-segment="1" />
+              <circle cx="190" cy="109" r="6" fill="white" class="guide-point" data-guide-segment="2" />
+          - name: Pro
+            svg: >
+              <path d="M 244 860 L 223 236" stroke="white" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="0" />
+              <path d="M 223 236 L 190 109" stroke="white" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="1" />
+              <circle cx="244" cy="860" r="6" fill="white" class="guide-point" data-guide-segment="0" />
+              <circle cx="223" cy="236" r="6" fill="white" class="guide-point" data-guide-segment="1" />
+              <circle cx="190" cy="109" r="6" fill="white" class="guide-point" data-guide-segment="2" />
+          - name: Masters
+            svg: >
+              <path d="M 249 914 L 223 236" stroke="white" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="0" />
+              <path d="M 223 236 L 190 109" stroke="white" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="1" />
+              <circle cx="249" cy="914" r="6" fill="white" class="guide-point" data-guide-segment="0" />
+              <circle cx="223" cy="236" r="6" fill="white" class="guide-point" data-guide-segment="1" />
+              <circle cx="190" cy="109" r="6" fill="white" class="guide-point" data-guide-segment="2" />
+      - name: Yellow Path
+        text: >
+          Help Wanted
+        levels:
+          - name: Rookie
+            svg: >
+              <path d="M 239 808 L 164 403" stroke="yellow" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="0" />
+              <path d="M 164 403 L 136 271" stroke="yellow" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="1" />
+              <path d="M 136 271 L 190 109" stroke="yellow" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="2" />
+              <circle cx="239" cy="808" r="6" fill="yellow" class="guide-point" data-guide-segment="0" />
+              <circle cx="164" cy="403" r="6" fill="yellow" class="guide-point" data-guide-segment="1" />
+              <circle cx="136" cy="271" r="6" fill="yellow" class="guide-point" data-guide-segment="2" />
+              <circle cx="190" cy="109" r="6" fill="yellow" class="guide-point" data-guide-segment="3" />
+          - name: Pro
+            svg: >
+              <path d="M 244 860 L 164 403" stroke="yellow" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="0" />
+              <path d="M 164 403 L 136 271" stroke="yellow" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="1" />
+              <path d="M 136 271 L 190 109" stroke="yellow" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="2" />
+              <circle cx="244" cy="860" r="6" fill="yellow" class="guide-point" data-guide-segment="0" />
+              <circle cx="164" cy="403" r="6" fill="yellow" class="guide-point" data-guide-segment="1" />
+              <circle cx="136" cy="271" r="6" fill="yellow" class="guide-point" data-guide-segment="2" />
+              <circle cx="190" cy="109" r="6" fill="yellow" class="guide-point" data-guide-segment="3" />
+          - name: Masters
+            svg: >
+              <path d="M 249 914 L 164 403" stroke="yellow" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="0" />
+              <path d="M 164 403 L 136 271" stroke="yellow" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="1" />
+              <path d="M 136 271 L 190 109" stroke="yellow" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="2" />
+              <circle cx="249" cy="914" r="6" fill="yellow" class="guide-point" data-guide-segment="0" />
+              <circle cx="164" cy="403" r="6" fill="yellow" class="guide-point" data-guide-segment="1" />
+              <circle cx="136" cy="271" r="6" fill="yellow" class="guide-point" data-guide-segment="2" />
+              <circle cx="190" cy="109" r="6" fill="yellow" class="guide-point" data-guide-segment="3" />
+      annotations:
+        - name: Green
+          svg: >
+            <g class="guide-image-annotation">
+              <circle cx="200" cy="114" r="4" fill="white" />
+              <path d="M 315 225 L 200 114" stroke="white" fill="transparent" stroke-width="3"/>
+              <image xlink:href="/img/golfclash/courses/WinterLinks/annotations/2-Green.png" x="250" y="150" width="150" height="150" />
+            </g>
   - course: Winter Links
     number: 3
     par: 4
+    description: >
+      Help Wanted
+    clubRecommendations:
+      - level: Rookie
+        clubs:
+          - Big Topper
+      - level: Pro
+        clubs:
+          - Big Topper
+          - Apocalypse
+      - level: Masters
+        clubs:
+          - Apocalypse
+    resources:
+      - title: Golf Clash Tommy - Rookie Guide
+        url: https://youtu.be/QOYTwKgzNMk
+      - title: Golf Clash Tommy - Pro / Expert Guide
+        url: https://youtu.be/ypCULOeXldA
+    overlays:
+      size: [402, 840]
+      guides:
+      - name: Black Path
+        text: >
+          Help Wanted
+        levels:
+          - name: Rookie
+            svg: >
+              <path d="M 177 652 C 283 485 283 485 309 269" stroke="black" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="0" />
+              <path d="M 309 269 L 315 179" stroke="black" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="1" />
+              <path d="M 315 179 L 310 148" stroke="black" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="2" />
+              <circle cx="177" cy="652" r="6" fill="black" class="guide-point" data-guide-segment="0" />
+              <circle cx="309" cy="269" r="6" fill="black" class="guide-point" data-guide-segment="1" />
+              <circle cx="315" cy="179" r="6" fill="black" class="guide-point" data-guide-segment="2" />
+              <circle cx="310" cy="148" r="6" fill="black" class="guide-point" data-guide-segment="3" />
+          - name: Pro
+            svg: >
+              <path d="M 183 702 C 283 485 283 485 309 269" stroke="black" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="0" />
+              <path d="M 309 269 L 315 179" stroke="black" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="1" />
+              <path d="M 315 179 L 310 148" stroke="black" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="2" />
+              <circle cx="183" cy="702" r="6" fill="black" class="guide-point" data-guide-segment="0" />
+              <circle cx="309" cy="269" r="6" fill="black" class="guide-point" data-guide-segment="1" />
+              <circle cx="315" cy="179" r="6" fill="black" class="guide-point" data-guide-segment="2" />
+              <circle cx="310" cy="148" r="6" fill="black" class="guide-point" data-guide-segment="3" />
+          - name: Masters
+            svg: >
+              <path d="M 189 754 C 283 485 283 485 309 269" stroke="black" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="0" />
+              <path d="M 309 269 L 315 179" stroke="black" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="1" />
+              <path d="M 315 179 L 310 148" stroke="black" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="2" />
+              <circle cx="189" cy="754" r="6" fill="black" class="guide-point" data-guide-segment="0" />
+              <circle cx="309" cy="269" r="6" fill="black" class="guide-point" data-guide-segment="1" />
+              <circle cx="315" cy="179" r="6" fill="black" class="guide-point" data-guide-segment="2" />
+              <circle cx="310" cy="148" r="6" fill="black" class="guide-point" data-guide-segment="3" />
+      - name: White Path
+        text: >
+          Help Wanted
+        levels:
+          - name: Rookie
+            svg: >
+              <path d="M 177 652 L 213 243" stroke="white" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="0" />
+              <path d="M 213 243 L 310 148" stroke="white" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="1" />
+              <circle cx="177" cy="652" r="6" fill="white" class="guide-point" data-guide-segment="0" />
+              <circle cx="213" cy="243" r="6" fill="white" class="guide-point" data-guide-segment="1" />
+              <circle cx="310" cy="148" r="6" fill="white" class="guide-point" data-guide-segment="2" />
+          - name: Pro
+            svg: >
+              <path d="M 183 702 L 213 243" stroke="white" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="0" />
+              <path d="M 213 243 L 310 148" stroke="white" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="1" />
+              <circle cx="183" cy="702" r="6" fill="white" class="guide-point" data-guide-segment="0" />
+              <circle cx="213" cy="243" r="6" fill="white" class="guide-point" data-guide-segment="1" />
+              <circle cx="310" cy="148" r="6" fill="white" class="guide-point" data-guide-segment="2" />
+          - name: Masters
+            svg: >
+              <path d="M 189 754 L 213 243" stroke="white" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="0" />
+              <path d="M 213 243 L 310 148" stroke="white" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="1" />
+              <circle cx="189" cy="754" r="6" fill="white" class="guide-point" data-guide-segment="0" />
+              <circle cx="213" cy="243" r="6" fill="white" class="guide-point" data-guide-segment="1" />
+              <circle cx="310" cy="148" r="6" fill="white" class="guide-point" data-guide-segment="2" />
+      annotations:
+        - name: Green
+          svg: >
+            <g class="guide-image-annotation">
+              <circle cx="283" cy="164" r="4" fill="white" />
+              <path d="M 87 262 L 283 164" stroke="white" fill="transparent" stroke-width="3"/>
+              <image xlink:href="/img/golfclash/courses/WinterLinks/annotations/3-Green.png" x="0" y="175" width="175" height="175" />
+            </g>
   - course: Winter Links
     number: 4
     par: 3
+    description: >
+      Help Wanted
+    clubRecommendations:
+      - level: Rookie
+        clubs:
+          - Quarterback
+      - level: Pro
+        clubs:
+          - Extra Mile
+          - Quarterback
+      - level: Masters
+        clubs:
+          - Quarterback
+          - Apocalypse
+    resources:
+      - title: Golf Clash Tommy - Rookie Guide
+        url: https://youtu.be/cJltWboXO7I
+      - title: Golf Clash Tommy - Pro / Expert Guide
+        url: https://youtu.be/7c22tCAGL8Y
+    overlays:
+      size: [452, 802]
+      guides:
+      - name: Black Path
+        text: >
+          Help Wanted
+        levels:
+          - name: Rookie
+            svg: >
+              <path d="M 288 566 C 174 339 174 339 187 168" stroke="black" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="0" />
+              <circle cx="288" cy="566" r="6" fill="black" class="guide-point" data-guide-segment="0" />
+              <circle cx="187" cy="168" r="6" fill="black" class="guide-point" data-guide-segment="1" />
+          - name: Pro
+            svg: >
+              <path d="M 280 621 C 174 339 174 339 187 168" stroke="black" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="0" />
+              <circle cx="280" cy="621" r="6" fill="black" class="guide-point" data-guide-segment="0" />
+              <circle cx="187" cy="168" r="6" fill="black" class="guide-point" data-guide-segment="1" />
+          - name: Masters
+            svg: >
+              <path d="M 272 678 C 174 339 174 339 187 168" stroke="black" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="0" />
+              <circle cx="272" cy="678" r="6" fill="black" class="guide-point" data-guide-segment="0" />
+              <circle cx="187" cy="168" r="6" fill="black" class="guide-point" data-guide-segment="1" />
+      annotations:
+        - name: Green
+          svg: >
+            <g class="guide-image-annotation">
+              <circle cx="244" cy="146" r="4" fill="white" />
+              <path d="M 87 87 L 244 146" stroke="white" fill="transparent" stroke-width="3"/>
+              <image xlink:href="/img/golfclash/courses/WinterLinks/annotations/4-Green.png" x="0" y="0" width="175" height="175" />
+            </g>
   - course: Winter Links
     number: 5
     par: 5
+    description: >
+      Help Wanted
+    clubRecommendations:
+      - level: Rookie
+        clubs:
+          - Viper
+          - Sniper
+      - level: Pro
+        clubs:
+          - Sniper
+          - Guardian
+      - level: Masters
+        clubs:
+          - Sniper
+          - Guardian
+    resources:
+      - title: Golf Clash Tommy - Rookie Guide
+        url: https://youtu.be/jKKuUy0OdpU
+      - title: Golf Clash Tommy - Pro / Expert Guide
+        url: https://youtu.be/EpWgxujmDXY
+    overlays:
+      size: [495, 1006]
+      guides:
+      - name: Black Path
+        text: >
+          Help Wanted
+        levels:
+          - name: Rookie
+            svg: >
+              <path d="M 216 778 C 275 530 275 530 270 290" stroke="black" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="0" />
+              <path d="M 270 290 L 368 134" stroke="black" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="1" />
+              <circle cx="216" cy="778" r="6" fill="black" class="guide-point" data-guide-segment="0" />
+              <circle cx="270" cy="290" r="6" fill="black" class="guide-point" data-guide-segment="1" />
+              <circle cx="368" cy="134" r="6" fill="black" class="guide-point" data-guide-segment="2" />
+          - name: Pro
+            svg: >
+              <path d="M 231 825 C 275 530 275 530 270 290" stroke="black" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="0" />
+              <path d="M 270 290 L 368 134" stroke="black" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="1" />
+              <circle cx="231" cy="825" r="6" fill="black" class="guide-point" data-guide-segment="0" />
+              <circle cx="270" cy="290" r="6" fill="black" class="guide-point" data-guide-segment="1" />
+              <circle cx="368" cy="134" r="6" fill="black" class="guide-point" data-guide-segment="2" />
+          - name: Masters
+            svg: >
+              <path d="M 246 874 C 275 530 275 530 270 290" stroke="black" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="0" />
+              <path d="M 270 290 L 368 134" stroke="black" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="1" />
+              <circle cx="246" cy="874" r="6" fill="black" class="guide-point" data-guide-segment="0" />
+              <circle cx="270" cy="290" r="6" fill="black" class="guide-point" data-guide-segment="1" />
+              <circle cx="368" cy="134" r="6" fill="black" class="guide-point" data-guide-segment="2" />
+      - name: Red Path
+        text: >
+          Help Wanted
+        levels:
+          - name: Rookie
+            svg: >
+              <path d="M 264 284 L 385 100" stroke="red" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="1" />
+              <circle cx="264" cy="284" r="6" fill="red" class="guide-point" data-guide-segment="1" />
+              <circle cx="385" cy="100" r="6" fill="red" class="guide-point" data-guide-segment="2" />
+          - name: Pro
+            svg: >
+              <path d="M 264 284 L 385 100" stroke="red" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="1" />
+              <circle cx="264" cy="284" r="6" fill="red" class="guide-point" data-guide-segment="1" />
+              <circle cx="385" cy="100" r="6" fill="red" class="guide-point" data-guide-segment="2" />
+          - name: Masters
+            svg: >
+              <path d="M 264 284 L 385 100" stroke="red" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="1" />
+              <circle cx="264" cy="284" r="6" fill="red" class="guide-point" data-guide-segment="1" />
+              <circle cx="385" cy="100" r="6" fill="red" class="guide-point" data-guide-segment="2" />
+      annotations:
+        - name: Green
+          svg: >
+            <g class="guide-image-annotation">
+              <circle cx="356" cy="119" r="4" fill="white" />
+              <path d="M 100 200 L 356 119" stroke="white" fill="transparent" stroke-width="3"/>
+              <image xlink:href="/img/golfclash/courses/WinterLinks/annotations/5-Green.png" x="0" y="100" width="200" height="200" />
+            </g>
   - course: Winter Links
     number: 6
     par: 4
+    description: >
+      Help Wanted
+    clubRecommendations:
+      - level: Rookie
+        clubs:
+          - Quarterback
+          - Extra Mile
+      - level: Pro
+        clubs:
+          - Quarterback
+          - Apocalypse
+      - level: Masters
+        clubs:
+          - Apocalypse
+    resources:
+      - title: Golf Clash Tommy - Rookie Guide
+        url: https://youtu.be/d5_OpMCVils
+      - title: Golf Clash Tommy - Pro / Expert Guide
+        url: https://youtu.be/Cx11OPhVD28
+    overlays:
+      size: [364, 814]
+      guides:
+      - name: Black Path
+        text: >
+          Help Wanted
+        levels:
+          - name: Rookie
+            svg: >
+              <path d="M 196 602 L 151 252" stroke="black" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="0" />
+              <path d="M 151 252 L 156 130" stroke="black" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="1" />
+              <circle cx="196" cy="602" r="6" fill="black" class="guide-point" data-guide-segment="0" />
+              <circle cx="151" cy="252" r="6" fill="black" class="guide-point" data-guide-segment="1" />
+              <circle cx="156" cy="130" r="6" fill="black" class="guide-point" data-guide-segment="2" />
+          - name: Pro
+            svg: >
+              <path d="M 197 667 L 151 252" stroke="black" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="0" />
+              <path d="M 151 252 L 156 130" stroke="black" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="1" />
+              <circle cx="197" cy="667" r="6" fill="black" class="guide-point" data-guide-segment="0" />
+              <circle cx="151" cy="252" r="6" fill="black" class="guide-point" data-guide-segment="1" />
+              <circle cx="156" cy="130" r="6" fill="black" class="guide-point" data-guide-segment="2" />
+          - name: Masters
+            svg: >
+              <path d="M 197 734 L 151 252" stroke="black" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="0" />
+              <path d="M 151 252 L 156 130" stroke="black" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="1" />
+              <circle cx="197" cy="734" r="6" fill="black" class="guide-point" data-guide-segment="0" />
+              <circle cx="151" cy="252" r="6" fill="black" class="guide-point" data-guide-segment="1" />
+              <circle cx="156" cy="130" r="6" fill="black" class="guide-point" data-guide-segment="2" />
+      - name: White Path
+        text: >
+          Help Wanted
+        levels:
+          - name: Rookie
+            svg: >
+              <path d="M 196 602 L 169 144" stroke="white" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="0" />
+              <circle cx="196" cy="602" r="6" fill="white" class="guide-point" data-guide-segment="0" />
+              <circle cx="169" cy="144" r="6" fill="white" class="guide-point" data-guide-segment="1" />
+          - name: Pro
+            svg: >
+              <path d="M 197 667 L 169 144" stroke="white" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="0" />
+              <circle cx="197" cy="667" r="6" fill="white" class="guide-point" data-guide-segment="0" />
+              <circle cx="169" cy="144" r="6" fill="white" class="guide-point" data-guide-segment="1" />
+          - name: Masters
+            svg: >
+              <path d="M 197 734 L 169 144" stroke="white" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="0" />
+              <circle cx="197" cy="734" r="6" fill="white" class="guide-point" data-guide-segment="0" />
+              <circle cx="169" cy="144" r="6" fill="white" class="guide-point" data-guide-segment="1" />
+      annotations:
+        - name: Green
+          svg: >
+            <g class="guide-image-annotation">
+              <circle cx="170" cy="110" r="4" fill="white" />
+              <path d="M 287 237 L 170 110" stroke="white" fill="transparent" stroke-width="3"/>
+              <image xlink:href="/img/golfclash/courses/WinterLinks/annotations/6-Green.png" x="200" y="150" width="175" height="175" />
+            </g>
   - course: Winter Links
     number: 7
     par: 5
+    description: >
+      Help Wanted
+    clubRecommendations:
+      - level: Rookie
+        clubs:
+          - Big Dawg
+      - level: Pro
+        clubs:
+          - Sniper
+          - Cataclysm
+      - level: Masters
+        clubs:
+          - Sniper
+          - Cataclysm
+    resources:
+      - title: Golf Clash Tommy - Rookie Guide
+        url: https://youtu.be/pu1YhoUm5Hk
+      - title: Golf Clash Tommy - Pro / Expert Guide
+        url: https://youtu.be/yBljRbztAng
+    overlays:
+      size: [478, 1017]
+      guides:
+      - name: Black Path
+        text: >
+          Help Wanted
+        levels:
+          - name: Rookie
+            svg: >
+              <path d="M 267 788 L 150 484" stroke="black" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="0" />
+              <path d="M 150 484 L 139 339" stroke="black" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="1" />
+              <path d="M 139 339 C 178 197 178 197 272 141" stroke="black" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="2" />
+              <path d="M 272 141 L 348 108" stroke="black" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="3" />
+              <circle cx="267" cy="788" r="6" fill="black" class="guide-point" data-guide-segment="0" />
+              <circle cx="150" cy="484" r="6" fill="black" class="guide-point" data-guide-segment="1" />
+              <circle cx="139" cy="339" r="6" fill="black" class="guide-point" data-guide-segment="2" />
+              <circle cx="272" cy="141" r="6" fill="black" class="guide-point" data-guide-segment="3" />
+              <circle cx="348" cy="108" r="6" fill="black" class="guide-point" data-guide-segment="4" />
+          - name: Pro
+            svg: >
+              <path d="M 275 839 L 150 484" stroke="black" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="0" />
+              <path d="M 150 484 L 139 339" stroke="black" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="1" />
+              <path d="M 139 339 C 178 197 178 197 272 141" stroke="black" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="2" />
+              <path d="M 272 141 L 348 108" stroke="black" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="3" />
+              <circle cx="275" cy="839" r="6" fill="black" class="guide-point" data-guide-segment="0" />
+              <circle cx="150" cy="484" r="6" fill="black" class="guide-point" data-guide-segment="1" />
+              <circle cx="139" cy="339" r="6" fill="black" class="guide-point" data-guide-segment="2" />
+              <circle cx="272" cy="141" r="6" fill="black" class="guide-point" data-guide-segment="3" />
+              <circle cx="348" cy="108" r="6" fill="black" class="guide-point" data-guide-segment="4" />
+          - name: Masters
+            svg: >
+              <path d="M 282 890 L 150 484" stroke="black" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="0" />
+              <path d="M 150 484 L 139 339" stroke="black" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="1" />
+              <path d="M 139 339 C 178 197 178 197 272 141" stroke="black" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="2" />
+              <path d="M 272 141 L 348 108" stroke="black" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="3" />
+              <circle cx="282" cy="890" r="6" fill="black" class="guide-point" data-guide-segment="0" />
+              <circle cx="150" cy="484" r="6" fill="black" class="guide-point" data-guide-segment="1" />
+              <circle cx="139" cy="339" r="6" fill="black" class="guide-point" data-guide-segment="2" />
+              <circle cx="272" cy="141" r="6" fill="black" class="guide-point" data-guide-segment="3" />
+              <circle cx="348" cy="108" r="6" fill="black" class="guide-point" data-guide-segment="4" />
+      - name: White Path
+        text: >
+          Help Wanted
+        levels:
+          - name: Rookie
+            svg: >
+              <path d="M 267 788 L 150 484" stroke="white" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="0" />
+              <path d="M 150 484 L 140 382" stroke="white" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="1" />
+              <path d="M 140 382 L 348 125" stroke="white" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="2" />
+              <circle cx="267" cy="788" r="6" fill="white" class="guide-point" data-guide-segment="0" />
+              <circle cx="150" cy="484" r="6" fill="white" class="guide-point" data-guide-segment="1" />
+              <circle cx="140" cy="382" r="6" fill="white" class="guide-point" data-guide-segment="2" />
+              <circle cx="348" cy="125" r="6" fill="white" class="guide-point" data-guide-segment="3" />
+          - name: Pro
+            svg: >
+              <path d="M 275 839 L 150 484" stroke="white" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="0" />
+              <path d="M 150 484 L 140 382" stroke="white" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="1" />
+              <path d="M 140 382 L 348 125" stroke="white" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="2" />
+              <circle cx="275" cy="839" r="6" fill="white" class="guide-point" data-guide-segment="0" />
+              <circle cx="150" cy="484" r="6" fill="white" class="guide-point" data-guide-segment="1" />
+              <circle cx="140" cy="382" r="6" fill="white" class="guide-point" data-guide-segment="2" />
+              <circle cx="348" cy="125" r="6" fill="white" class="guide-point" data-guide-segment="3" />
+          - name: Masters
+            svg: >
+              <path d="M 282 890 L 150 484" stroke="white" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="0" />
+              <path d="M 150 484 L 140 382" stroke="white" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="1" />
+              <path d="M 140 382 L 348 125" stroke="white" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="2" />
+              <circle cx="282" cy="890" r="6" fill="white" class="guide-point" data-guide-segment="0" />
+              <circle cx="150" cy="484" r="6" fill="white" class="guide-point" data-guide-segment="1" />
+              <circle cx="140" cy="382" r="6" fill="white" class="guide-point" data-guide-segment="2" />
+              <circle cx="348" cy="125" r="6" fill="white" class="guide-point" data-guide-segment="3" />
+      annotations:
+        - name: Green
+          svg: >
+            <g class="guide-image-annotation">
+              <circle cx="335" cy="103" r="4" fill="white" />
+              <path d="M 87 122 L 335 103" stroke="white" fill="transparent" stroke-width="3"/>
+              <image xlink:href="/img/golfclash/courses/WinterLinks/annotations/7-Green.png" x="0" y="45" width="175" height="175" />
+            </g>
   - course: Winter Links
     number: 8
     par: 3
+    description: >
+      Help Wanted
+    clubRecommendations:
+      - level: Rookie
+        clubs:
+          - Quarterback
+          - Sniper
+      - level: Pro
+        clubs:
+          - Quarterback
+      - level: Masters
+        clubs:
+          - Extra Mile
+          - Apocalypse
+    resources:
+      - title: Golf Clash Tommy - Rookie Guide
+        url: https://youtu.be/969zgx27pGQ
+      - title: Golf Clash Tommy - Pro / Expert Guide
+        url: https://youtu.be/bNHtJz0HIkw
+    overlays:
+      size: [435, 814]
+      guides:
+      - name: Black Path
+        text: >
+          Help Wanted
+        levels:
+          - name: Rookie
+            svg: >
+              <path d="M 222 567 C 135 342 135 342 159 164" stroke="black" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="0" />
+              <circle cx="222" cy="567" r="6" fill="black" class="guide-point" data-guide-segment="0" />
+              <circle cx="159" cy="164" r="6" fill="black" class="guide-point" data-guide-segment="1" />
+          - name: Pro
+            svg: >
+              <path d="M 220 628 C 135 342 135 342 159 164" stroke="black" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="0" />
+              <circle cx="220" cy="628" r="6" fill="black" class="guide-point" data-guide-segment="0" />
+              <circle cx="159" cy="164" r="6" fill="black" class="guide-point" data-guide-segment="1" />
+          - name: Masters
+            svg: >
+              <path d="M 216 690 C 135 342 135 342 159 164" stroke="black" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="0" />
+              <circle cx="216" cy="690" r="6" fill="black" class="guide-point" data-guide-segment="0" />
+              <circle cx="159" cy="164" r="6" fill="black" class="guide-point" data-guide-segment="1" />
+      - name: White Path
+        text: >
+          Help Wanted
+        levels:
+          - name: Rookie
+            svg: >
+              <path d="M 222 567 C 297 392 297 392 287 222" stroke="white" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="0" />
+              <circle cx="222" cy="567" r="6" fill="white" class="guide-point" data-guide-segment="0" />
+              <circle cx="287" cy="222" r="6" fill="white" class="guide-point" data-guide-segment="1" />
+          - name: Pro
+            svg: >
+              <path d="M 220 628 C 297 392 297 392 287 222" stroke="white" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="0" />
+              <circle cx="220" cy="628" r="6" fill="white" class="guide-point" data-guide-segment="0" />
+              <circle cx="287" cy="222" r="6" fill="white" class="guide-point" data-guide-segment="1" />
+          - name: Masters
+            svg: >
+              <path d="M 216 690 C 297 392 297 392 287 222" stroke="white" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="0" />
+              <circle cx="216" cy="690" r="6" fill="white" class="guide-point" data-guide-segment="0" />
+              <circle cx="287" cy="222" r="6" fill="white" class="guide-point" data-guide-segment="1" />
+      annotations:
+        - name: Green
+          svg: >
+            <g class="guide-image-annotation">
+              <circle cx="210" cy="150" r="4" fill="white" />
+              <path d="M 75 75 L 210 150" stroke="white" fill="transparent" stroke-width="3"/>
+              <image xlink:href="/img/golfclash/courses/WinterLinks/annotations/8-Green.png" x="0" y="0" width="150" height="150" />
+            </g>
   - course: Winter Links
     number: 9
     par: 5
+    description: >
+      Help Wanted
+    clubRecommendations:
+      - level: Rookie
+        clubs:
+          - Big Dawg
+      - level: Pro
+        clubs:
+          - Sniper
+      - level: Masters
+        clubs:
+          - Sniper
+          - Cataclysm
+    resources:
+      - title: Golf Clash Tommy - Rookie Guide
+        url: https://youtu.be/Rzt9RdD5g08
+      - title: Golf Clash Tommy - Pro / Expert Guide
+        url: https://youtu.be/zJIW1YQnaBo
+    overlays:
+      size: [659, 1114]
+      guides:
+      - name: Black Path
+        text: >
+          Help Wanted
+        levels:
+          - name: Rookie
+            svg: >
+              <path d="M 295 871 C 202 701 202 701 220 516" stroke="black" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="0" />
+              <path d="M 220 516 L 232 348" stroke="black" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="1" />
+              <path d="M 232 348 C 282 264 282 264 314 170" stroke="black" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="2" />
+              <path d="M 314 170 L 338 114" stroke="black" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="3" />
+              <circle cx="295" cy="871" r="6" fill="black" class="guide-point" data-guide-segment="0" />
+              <circle cx="220" cy="516" r="6" fill="black" class="guide-point" data-guide-segment="1" />
+              <circle cx="232" cy="348" r="6" fill="black" class="guide-point" data-guide-segment="2" />
+              <circle cx="314" cy="170" r="6" fill="black" class="guide-point" data-guide-segment="3" />
+              <circle cx="338" cy="114" r="6" fill="black" class="guide-point" data-guide-segment="4" />
+          - name: Pro
+            svg: >
+              <path d="M 297 921 C 202 701 202 701 220 516" stroke="black" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="0" />
+              <path d="M 220 516 L 232 348" stroke="black" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="1" />
+              <path d="M 232 348 C 282 264 282 264 314 170" stroke="black" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="2" />
+              <path d="M 314 170 L 338 114" stroke="black" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="3" />
+              <circle cx="297" cy="921" r="6" fill="black" class="guide-point" data-guide-segment="0" />
+              <circle cx="220" cy="516" r="6" fill="black" class="guide-point" data-guide-segment="1" />
+              <circle cx="232" cy="348" r="6" fill="black" class="guide-point" data-guide-segment="2" />
+              <circle cx="314" cy="170" r="6" fill="black" class="guide-point" data-guide-segment="3" />
+              <circle cx="338" cy="114" r="6" fill="black" class="guide-point" data-guide-segment="4" />
+          - name: Masters
+            svg: >
+              <path d="M 299 973 C 202 701 202 701 220 516" stroke="black" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="0" />
+              <path d="M 220 516 L 232 348" stroke="black" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="1" />
+              <path d="M 232 348 C 282 264 282 264 314 170" stroke="black" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="2" />
+              <path d="M 314 170 L 338 114" stroke="black" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="3" />
+              <circle cx="299" cy="973" r="6" fill="black" class="guide-point" data-guide-segment="0" />
+              <circle cx="220" cy="516" r="6" fill="black" class="guide-point" data-guide-segment="1" />
+              <circle cx="232" cy="348" r="6" fill="black" class="guide-point" data-guide-segment="2" />
+              <circle cx="314" cy="170" r="6" fill="black" class="guide-point" data-guide-segment="3" />
+              <circle cx="338" cy="114" r="6" fill="black" class="guide-point" data-guide-segment="4" />
+      annotations:
+        - name: Green
+          svg: >
+            <g class="guide-image-annotation">
+              <circle cx="330" cy="107" r="4" fill="white" />
+              <path d="M 137 237 L 330 107" stroke="white" fill="transparent" stroke-width="3"/>
+              <image xlink:href="/img/golfclash/courses/WinterLinks/annotations/9-Green.png" x="50" y="150" width="175" height="175" />
+            </g>

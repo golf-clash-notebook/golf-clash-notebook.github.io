@@ -35,25 +35,25 @@ holes:
         levels:
           - name: Rookie
             svg:
-              <path d="M 362 692 L 332 336" stroke="black" fill="transparent" stroke-width="3" class="guide-path guide-colored" data-guide-segment="0" />
-              <path d="M 332 336 L 435 135" stroke="black" fill="transparent" stroke-width="3" class="guide-path guide-colored" data-guide-segment="1" />
-              <circle cx="362" cy="692" r="6" fill="black" class="guide-point guide-colored" data-guide-segment="0" />
-              <circle cx="332" cy="336" r="6" fill="black" class="guide-point guide-colored" data-guide-segment="1" />
-              <circle cx="435" cy="135" r="6" fill="black" class="guide-point guide-colored" data-guide-segment="2" />
+              <path d="M 362 692 L 332 336" stroke="black" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="0" />
+              <path d="M 332 336 L 435 135" stroke="black" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="1" />
+              <circle cx="362" cy="692" r="6" fill="black" class="guide-point" data-guide-segment="0" />
+              <circle cx="332" cy="336" r="6" fill="black" class="guide-point" data-guide-segment="1" />
+              <circle cx="435" cy="135" r="6" fill="black" class="guide-point" data-guide-segment="2" />
           - name: Pro
             svg: >
-              <path d="M 391 715 L 332 336" stroke="black" fill="transparent" stroke-width="3" class="guide-path guide-colored" data-guide-segment="0" />
-              <path d="M 332 336 L 435 135" stroke="black" fill="transparent" stroke-width="3" class="guide-path guide-colored" data-guide-segment="1" />
-              <circle cx="391" cy="715" r="6" fill="black" class="guide-point guide-colored" data-guide-segment="0" />
-              <circle cx="332" cy="336" r="6" fill="black" class="guide-point guide-colored" data-guide-segment="1" />
-              <circle cx="435" cy="135" r="6" fill="black" class="guide-point guide-colored" data-guide-segment="2" />
+              <path d="M 391 715 L 332 336" stroke="black" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="0" />
+              <path d="M 332 336 L 435 135" stroke="black" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="1" />
+              <circle cx="391" cy="715" r="6" fill="black" class="guide-point" data-guide-segment="0" />
+              <circle cx="332" cy="336" r="6" fill="black" class="guide-point" data-guide-segment="1" />
+              <circle cx="435" cy="135" r="6" fill="black" class="guide-point" data-guide-segment="2" />
           - name: Masters
             svg: >
-              <path d="M 424 737 L 332 336" stroke="black" fill="transparent" stroke-width="3" class="guide-path guide-colored" data-guide-segment="0" />
-              <path d="M 332 336 L 435 135" stroke="black" fill="transparent" stroke-width="3" class="guide-path guide-colored" data-guide-segment="1" />
-              <circle cx="424" cy="737" r="6" fill="black" class="guide-point guide-colored" data-guide-segment="0" />
-              <circle cx="332" cy="336" r="6" fill="black" class="guide-point guide-colored" data-guide-segment="1" />
-              <circle cx="435" cy="135" r="6" fill="black" class="guide-point guide-colored" data-guide-segment="2" />
+              <path d="M 424 737 L 332 336" stroke="black" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="0" />
+              <path d="M 332 336 L 435 135" stroke="black" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="1" />
+              <circle cx="424" cy="737" r="6" fill="black" class="guide-point" data-guide-segment="0" />
+              <circle cx="332" cy="336" r="6" fill="black" class="guide-point" data-guide-segment="1" />
+              <circle cx="435" cy="135" r="6" fill="black" class="guide-point" data-guide-segment="2" />
       - name: White Path
         text: >
           A safer shot if you're not confident with your driver. Use right curl / side spin and
@@ -61,25 +61,25 @@ holes:
         levels:
           - name: Rookie
             svg: >
-              <path d="M 362 692 C 245 515 245 515 218 310" stroke="white" fill="transparent" stroke-width="3" class="guide-path guide-colored" data-guide-segment="0" />
-              <path d="M 218 310 L 415 143" stroke="white" fill="transparent" stroke-width="3" class="guide-path guide-colored" data-guide-segment="1" />
-              <circle cx="362" cy="692" r="6" fill="white" class="guide-point guide-colored" data-guide-segment="0" />
-              <circle cx="218" cy="310" r="6" fill="white" class="guide-point guide-colored" data-guide-segment="1" />
-              <circle cx="415" cy="143" r="6" fill="white" class="guide-point guide-colored" data-guide-segment="2" />
+              <path d="M 362 692 C 245 515 245 515 218 310" stroke="white" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="0" />
+              <path d="M 218 310 L 415 143" stroke="white" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="1" />
+              <circle cx="362" cy="692" r="6" fill="white" class="guide-point" data-guide-segment="0" />
+              <circle cx="218" cy="310" r="6" fill="white" class="guide-point" data-guide-segment="1" />
+              <circle cx="415" cy="143" r="6" fill="white" class="guide-point" data-guide-segment="2" />
           - name: Pro
             svg: >
-              <path d="M 391 715 C 245 515 245 515 218 310" stroke="white" fill="transparent" stroke-width="3" class="guide-path guide-colored" data-guide-segment="0" />
-              <path d="M 218 310 L 415 143" stroke="white" fill="transparent" stroke-width="3" class="guide-path guide-colored" data-guide-segment="1" />
-              <circle cx="391" cy="715" r="6" fill="white" class="guide-point guide-colored" data-guide-segment="0" />
-              <circle cx="218" cy="310" r="6" fill="white" class="guide-point guide-colored" data-guide-segment="1" />
-              <circle cx="415" cy="143" r="6" fill="white" class="guide-point guide-colored" data-guide-segment="2" />
+              <path d="M 391 715 C 245 515 245 515 218 310" stroke="white" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="0" />
+              <path d="M 218 310 L 415 143" stroke="white" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="1" />
+              <circle cx="391" cy="715" r="6" fill="white" class="guide-point" data-guide-segment="0" />
+              <circle cx="218" cy="310" r="6" fill="white" class="guide-point" data-guide-segment="1" />
+              <circle cx="415" cy="143" r="6" fill="white" class="guide-point" data-guide-segment="2" />
           - name: Masters
             svg: >
-              <path d="M 424 737 C 245 515 245 515 218 310" stroke="white" fill="transparent" stroke-width="3" class="guide-path guide-colored" data-guide-segment="0" />
-              <path d="M 218 310 L 415 143" stroke="white" fill="transparent" stroke-width="3" class="guide-path guide-colored" data-guide-segment="1" />
-              <circle cx="424" cy="737" r="6" fill="white" class="guide-point guide-colored" data-guide-segment="0" />
-              <circle cx="218" cy="310" r="6" fill="white" class="guide-point guide-colored" data-guide-segment="1" />
-              <circle cx="415" cy="143" r="6" fill="white" class="guide-point guide-colored" data-guide-segment="2" />
+              <path d="M 424 737 C 245 515 245 515 218 310" stroke="white" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="0" />
+              <path d="M 218 310 L 415 143" stroke="white" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="1" />
+              <circle cx="424" cy="737" r="6" fill="white" class="guide-point" data-guide-segment="0" />
+              <circle cx="218" cy="310" r="6" fill="white" class="guide-point" data-guide-segment="1" />
+              <circle cx="415" cy="143" r="6" fill="white" class="guide-point" data-guide-segment="2" />
       annotations:
         - name: Green
           svg: >
