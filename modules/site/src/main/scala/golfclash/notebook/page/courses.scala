@@ -34,12 +34,18 @@ object courses {
   val segmentDuration = 1.1
 
   val init = () => {
-    jQuery(".course-hole-map")
+    jQuery("img.course-hole-map")
       .one("load", initGuides())
       .each({ (img: Element) =>
-        if (img.asInstanceOf[js.Dynamic].complete.asInstanceOf[Boolean])
-          jQuery(img).trigger("load")
+        try {
+          if (img.asInstanceOf[js.Dynamic].complete.asInstanceOf[Boolean])
+            jQuery(img).trigger("load")
+        } catch {
+          case t: Throwable =>
+            println(s"Error triggering course hole map load: ${t.printStackTrace()}")
+        }
       })
+
     initLevelButtonToggles()
   }
 

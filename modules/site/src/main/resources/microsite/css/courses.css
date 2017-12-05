@@ -39,10 +39,6 @@ circle.guide-point {
   transform-box: fill-box;
 }
 
-.guide-colored {
-  z-index: 10000;
-}
-
 .guide-image-annotation > circle {
   display: none;
   transform: scale(0.0);

@@ -3,7 +3,7 @@ import microsites._
 name := "golf-clash-notebook"
 
 scalaVersion in ThisBuild := "2.12.4"
-organization in ThisBuild := "golfclashnotebook"
+organization in ThisBuild := "golf-clash-notebook"
 organizationName in ThisBuild := "Golf Clash Notebook"
 
 ////////////////////////////////////////////////////////////////////////////////
