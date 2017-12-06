@@ -46,8 +46,8 @@ position: 0
     {% endif %}
 
     <p>
-      An open source encyclopedia of sorts for Golf Clash. Here you'll find guides, descriptions,
-      tips and more for the game of Golf Clash that may help you along your way.
+      An open source encyclopedia of sorts for Golf Clash. Here you'll find a compilation of guides,
+      descriptions, tips and more for the game of Golf Clash that may help you along your way.
     </p>
 
     <p>
