@@ -31,3 +31,7 @@
 .wind-chart > nav > ul > li > a {
   cursor: default;
 }
+
+.btn-wind-chart {
+  padding: 5px 25px;
+}

@@ -6,7 +6,7 @@ permalink: /chests/
 position: 55
 ---
 
-<p class="lead text-center">Chest Contents</p>
+<h1 class="gcn-page-header">Chest Contents</h1>
 
 <div class="row">
 

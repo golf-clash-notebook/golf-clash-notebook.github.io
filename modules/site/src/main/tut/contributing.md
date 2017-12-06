@@ -10,9 +10,7 @@ position: 100
 
   <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 col-sm-12">
 
-    <p class="lead text-center">Help Make Golf Clash Notebook Better!</p>
-
-    {% include_relative contributing/contributing-status.liquid %}
+    <h1 class="gcn-page-header">Help Make Golf Clash Notebook Better!</h1>
 
     <br>
 
@@ -37,6 +35,10 @@ position: 100
       Another place to start is search for the words 'Help Wanted' in the code base and see what you
       find. I've tried marking most simple issues with that phrase (e.g. club, ball and tour descriptions).
     </p>
+
+    <br>
+
+    {% include_relative contributing/contributing-status.liquid %}
 
   </div>
 

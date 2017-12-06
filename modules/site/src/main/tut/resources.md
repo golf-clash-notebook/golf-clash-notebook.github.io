@@ -8,7 +8,7 @@ position: 80
 
 <div class="row">
   <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 col-sm-12">
-    <p class="lead text-center">A list of more resources to look at in your quest for domination.</p>
+    <h1 class="gcn-page-header">More resources to look at in your quest for domination.</h1>
     <hr>
   </div>
 </div>

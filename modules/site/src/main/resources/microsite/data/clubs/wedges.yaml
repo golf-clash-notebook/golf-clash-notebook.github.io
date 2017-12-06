@@ -19,12 +19,12 @@
 - name: The Boomerang
   description: >
     Help Wanted
-  power:     [ 39,  41,  41,  42,  42,  44,  -1]
-  accuracy:  [  0,   0,   9,   9,  25,  25,  -1]
-  topspin:   [ 10,  10,  10,  27,  27,  37,  -1]
-  backspin:  [ 79,  79,  95,  95, 100, 100,  -1]
-  curl:      [ 64,  83,  83,  83, 100, 100,  -1]
-  ballguide: [1.9, 2.1, 2.2, 2.7, 2.7, 3.3,  -1]
+  power:     [ 39,  41,  41,  42,  42,  44,  45]
+  accuracy:  [  0,   0,   9,   9,  25,  25,  41]
+  topspin:   [ 10,  10,  10,  27,  27,  37,  37]
+  backspin:  [ 79,  79,  95,  95, 100, 100, 100]
+  curl:      [ 64,  83,  83,  83, 100, 100, 100]
+  ballguide: [1.9, 2.1, 2.2, 2.7, 2.7, 3.3, 3.6]
 - name: The DownInOne
   description: >
     Help Wanted

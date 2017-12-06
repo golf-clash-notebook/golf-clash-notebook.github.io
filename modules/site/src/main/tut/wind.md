@@ -10,7 +10,7 @@ position: 60
 
   <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 col-sm-12">
 
-    <p class="lead text-center">A few resources on how to account for wind.</p>
+    <h1 class="gcn-page-header">Resources explaining how to account for wind.</h1>
 
     <br>
 
