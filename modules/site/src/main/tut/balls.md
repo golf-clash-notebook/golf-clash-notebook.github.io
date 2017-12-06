@@ -35,7 +35,7 @@ position: 50
 
 <div class="row">
   <div class="col-md-5 col-md-offset-1 col-sm-12">
-    <p class="lead text-center">Ball Guide</p>
+    <h1 class="gcn-page-header">Ball Guide</h1>
     <p class="text-prototype">
       Help Wanted: {% lipsum 2 10 20 %}
     </p>

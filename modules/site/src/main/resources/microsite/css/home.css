@@ -1,0 +1,24 @@
+
+.gcn-news-list {
+  float: right !important;
+  padding: 6px 24px;
+  max-width: 300px;
+}
+
+.gcn-news-list > .list-group {
+  margin-bottom: 0;
+}
+
+/** News list header. **/
+.gcn-news-list > .list-group > .list-group-item:nth-child(1) {
+  color: #fff;
+  background-color: #192a37;
+}
+
+@media (max-width: 500px) {
+  .gcn-news-list {
+    float: none !important;
+    margin: 0 auto;
+    max-width: 100%;
+  }
+}

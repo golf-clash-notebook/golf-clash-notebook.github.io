@@ -6,11 +6,44 @@ permalink: /
 position: 0
 ---
 
+{% capture dateAndKeys %}
+  {% for tag in site.data.news %}
+    {{ tag[1].date }}:{{ tag[0] }}
+  {% endfor %}
+{% endcapture %}
+
+{% assign sortedComposite = dateAndKeys | split: ' ' | sort %}
+
+{% capture sortedKeys %}
+  {% for x in sortedComposite %}
+    {{ x | split: ':' | last }}
+  {% endfor %}
+{% endcapture %}
+
+{% assign newsKeyArray = sortedKeys | split: ' ' | reverse %}
+
 <div class="row">
 
   <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 col-sm-12">
 
-    <p class="lead text-center">Golf Clash Notebook</p>
+    <h1 class="gcn-page-header">Golf Clash Notebook</h1>
+
+    {% if newsKeyArray != empty %}
+      <div class="gcn-news-list">
+        <div class="list-group">
+          <div class="list-group-item">Recent News</div>
+          {% for newsKey in newsKeyArray limit: 3 %}
+            {% assign newsItem = site.data.news[newsKey] %}
+            {% assign newsContent = newsItem.content | strip %}
+            <div class="list-group-item">
+              <h5 class="list-group-item-heading">{{ newsItem.title }}</h5>
+              <div><small class="text-semi-muted">{{ newsItem.timestamp | date_to_long_string }}</small></div>
+              <p class="list-group-item-text text-small">{{ newsContent }}</p>
+            </div>
+          {% endfor %}
+        </div>
+      </div>
+    {% endif %}
 
     <p>
       An open source encyclopedia of sorts for Golf Clash. Here you'll find guides, descriptions,

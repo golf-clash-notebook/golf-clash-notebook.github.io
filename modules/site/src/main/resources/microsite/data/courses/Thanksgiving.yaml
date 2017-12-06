@@ -4,9 +4,7 @@ holes:
     number: 1
     par: 4
     description: >
-      This is a prototypical risk/reward hole where taking a bigger risk up front will lead to bigger
-      rewards as you hit your approach into the green. Don't be intimidated by the peninsula on the
-      right side of the fairway. It's easier to hit than you might think at first.
+      Help Wanted
     clubRecommendations:
       - level: Rookie
         clubs:
@@ -29,9 +27,7 @@ holes:
       guides:
       - name: Black Path
         text: >
-          Riskier than playing off to the left but if you manage to bounce it over the bunker,
-          you'll leave yourself with only a long or short iron into the green for a decent chance
-          at an eagle
+          Help Wanted
         levels:
           - name: Rookie
             svg:
@@ -56,8 +52,7 @@ holes:
               <circle cx="435" cy="135" r="6" fill="black" class="guide-point" data-guide-segment="2" />
       - name: White Path
         text: >
-          A safer shot if you're not confident with your driver. Use right curl / side spin and
-          lay up in the fairway. That will leave you with a wood into the green.
+          Help Wanted
         levels:
           - name: Rookie
             svg: >

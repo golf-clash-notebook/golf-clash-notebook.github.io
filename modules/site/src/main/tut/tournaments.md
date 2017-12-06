@@ -6,12 +6,9 @@ permalink: /tournaments/
 position: 40
 ---
 
-
 <div class="row">
 
   <div class="col-lg-8 col-lg-offset-2 col-sm-12">
-
-    <p class="lead text-center">Tournaments</p>
 
     {% capture dateAndKeys %}
       {% for tag in site.data.tournaments %}

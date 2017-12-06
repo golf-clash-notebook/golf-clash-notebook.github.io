@@ -138,7 +138,7 @@ object common {
         js.Dynamic.literal(
           "offset" -> js.Dynamic.literal(
             "top" -> { () =>
-              100
+              80
             }
           )
         )

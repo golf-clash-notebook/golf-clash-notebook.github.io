@@ -3,10 +3,10 @@
     Help Wanted
   power:     [ 84,  84,  95,  95, 103, 103, 108]
   accuracy:  [  5,  19,  19,  27,  27,  27,  46]
-  topspin:   [ 15,  21,  21,  39,  39,  39,  52]
+  topspin:   [ 15,  21,  21,  39,  39,  52,  52]
   backspin:  [ 35,  35,  35,  48,  48,  48,  71]
-  curl:      [ 35,  35,  51,  51,  78,  78,  88]
-  ballguide: [1.5, 2.1, 2.3, 2.3, 2.5, 2.5, 3.1]
+  curl:      [ 35,  35,  51,  51,  78,  88,  88]
+  ballguide: [1.5, 2.1, 2.3, 2.3, 2.5, 3.1, 3.1]
 - name: The Desert Storm
   description: >
     Help Wanted

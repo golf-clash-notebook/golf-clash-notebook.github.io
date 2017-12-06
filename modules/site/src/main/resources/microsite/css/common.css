@@ -1,4 +1,24 @@
 
+.gcn-page-header {
+  color: #7b7b7e;
+  font-size: 24px;
+  font-weight: 300;
+  line-height: 1.4;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.gcn-page-subheader {
+  color: #7b7b7e;
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 1.4;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
 .col-flex {
   display: flex;
 }
@@ -197,3 +217,4 @@
 .pad-8  { padding: 8px; }
 .pad-12 { padding: 12px; }
 .pad-16 { padding: 16px; }
+.pad-24 { padding: 24px; }

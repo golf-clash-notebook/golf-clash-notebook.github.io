@@ -10,7 +10,7 @@ position: 70
 
   <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 col-sm-12">
 
-    <p class="lead text-center">Answers to the most common Golf Clash questions.</p>
+    <h1 class="gcn-page-header">Answers to the most common Golf Clash questions.</h1>
 
     <p class="text-center">
       <a href="https://github.com/golf-clash-notebook/golf-clash-notebook.github.io/issues/new" class="btn btn-info" role="button">Add to the FAQ</a>

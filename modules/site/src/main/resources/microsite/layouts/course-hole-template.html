@@ -12,8 +12,8 @@ section: "courses"
 
 <div class="row hidden-lg hidden-md">
   <div class="col-lg-12">
-    <h3 class="text-center">{{ page.course }}</h3>
-    <h5 class="text-center">Hole {{ page.number }} - Par {{ page.par }}</h5>
+    <h1 class="gcn-page-header">{{ page.course }}</h1>
+    <h2 class="gcn-page-subheader">Hole {{ page.number }} - Par {{ page.par }}</h2>
     <nav class="text-center" aria-label="Course hole navigation">
       <ul class="pagination pagination-sm justify-content-center">
         {% for hole in (1..numHoles) %}

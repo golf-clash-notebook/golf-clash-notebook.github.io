@@ -31,11 +31,10 @@ import org.scalajs.jquery._
 
 object courses {
 
-  val segmentDuration = 1.1
-
   val init = () => {
+
     jQuery("img.course-hole-map")
-      .one("load", initGuides())
+      .one("load", () => { initGuides(); showLevel("Rookie") })
       .each({ (img: Element) =>
         try {
           if (img.asInstanceOf[js.Dynamic].complete.asInstanceOf[Boolean])
@@ -49,59 +48,117 @@ object courses {
     initLevelButtonToggles()
   }
 
+  def initLevelButtonToggles() = {
+    jQuery(".guide-button-toggles").find("input").each { input: Element =>
+      jQuery(input).change { evt: JQueryEventObject =>
+        val level = jQuery(evt.target).attr("id").asInstanceOf[String]
+        showLevel(level)
+      }
+    }
+  }
+
+  def showLevel(level: String) = {
+
+    // Text descriptions
+    jQuery(s"[class*=guide-text]:not([class*=$level])").addClass("hidden")
+    jQuery(s".${level}-guide-text").removeClass("hidden")
+
+    // Club recommendations
+    jQuery(s"[class*=club-recommendations]:not([class*=$level])").addClass("hidden")
+    jQuery(s".${level}-club-recommendations").removeClass("hidden")
+
+    // Overlays
+    jQuery(s"[class*=guide-overlay]:not([class*=$level])").children().hide()
+    jQuery(s".${level}-guide-overlay").children().show()
+  }
+
   def initGuides() = {
+    jQuery(s"[class*=-guide-overlay]").map { element =>
+      for {
+        classAttr <- jQuery(element).attr("class").toOption
+        classes = classAttr.split(" ")
+        levelClass <- classes.find(_.contains("-guide-overlay"))
+        level = levelClass.replaceAll("-guide-overlay", "")
+      } yield {
 
-    val numSegments =
-      jQuery(".guide-path")
-        .map(e => jQuery(e).data("guide-segment"))
-        .toArray
-        .map(_.asInstanceOf[Int])
-        .sorted
-        .lastOption
-        .map(_ + 1)
-        .getOrElse(0)
+        val lengths =
+          (0 until numGuides(level)).map { guideNum =>
+            guideLength(level, guideNum)
+          }
 
-    jQuery(".guide-path").each(element => initGuidePath(element))
-    jQuery(".guide-point").each(element => initGuidePoint(element))
-    jQuery(".guide-image-annotation").each(
-      (ix, element) =>
-        initGuideImageAnnotation(element, numSegments * segmentDuration + (ix * 0.25))
-    )
+        (0 until numGuides(level)).map { guideNum =>
+          initGuidePaths(level, guideNum)
+          initGuidePoints(level, guideNum)
+        }
 
-    showLevel("Rookie")
+        val maxLength       = lengths.foldLeft(0)(_.max(_))
+        val annotationDelay = pathLengthToDuration(maxLength)
 
+        jQuery(".guide-image-annotation").each(
+          (ix, element) => initGuideImageAnnotation(element, annotationDelay + (ix * 0.25))
+        )
+
+      }
+    }
   }
 
-  def initGuidePath(path: Element) = {
-
-    val jqPath      = jQuery(path)
-    val pathDynamic = path.asInstanceOf[js.Dynamic]
-
-    val pathLength  = pathDynamic.getTotalLength()
-    val pathSegment = jqPath.data("guide-segment").asInstanceOf[Int]
-
-    jqPath
-      .stop()
-      .show()
-      .css("stroke-dasharray", pathLength)
-      .css("stroke-dashoffset", pathLength)
-      .css("animation", s"guidePathDashOffset ${segmentDuration}s linear forwards")
-      .css("animation-delay", s"${pathSegment * segmentDuration}s")
-
+  def numGuides(level: String): Int = {
+    jQuery(s".$level-guide-overlay").length
   }
 
-  def initGuidePoint(point: Element) = {
+  def guideLength(level: String, guideNum: Int): Int = {
+    jQuery(s".$level-guide-overlay:eq($guideNum) > .guide-path")
+      .map(_.asInstanceOf[js.Dynamic].getTotalLength())
+      .toArray
+      .map(_.asInstanceOf[Int])
+      .foldLeft(0)(_ + _)
+  }
 
-    val jqPoint = jQuery(point)
+  def segmentLength(level: String, guideNum: Int, segmentNum: Int): Int = {
+    jQuery(s".$level-guide-overlay:eq($guideNum) > .guide-path[data-guide-segment='$segmentNum']")
+      .map(_.asInstanceOf[js.Dynamic].getTotalLength())
+      .toArray
+      .map(_.asInstanceOf[Int])
+      .headOption
+      .getOrElse(0)
+  }
 
-    val pointSegment = jqPoint.data("guide-segment").asInstanceOf[Int]
+  def lengthBeforeSegment(level: String, guideNum: Int, segmentNum: Int): Int = {
+    (0 to (segmentNum - 1)).map(segmentLength(level, guideNum, _)).foldLeft(0)(_ + _)
+  }
 
-    jqPoint
-      .stop()
-      .show()
-      .css("animation", s"guidePointScale 0.5s ease-out forwards")
-      .css("animation-delay", s"${(pointSegment * segmentDuration).max(0)}s")
+  def pathLengthToDuration(pathLength: Int): Double = {
+    pathLength / 300d
+  }
 
+  def initGuidePaths(level: String, guideNum: Int) = {
+    jQuery(s".$level-guide-overlay:eq($guideNum) > .guide-path").each { element =>
+      val segmentNum   = jQuery(element).data("guide-segment").asInstanceOf[Int]
+      val lengthBefore = lengthBeforeSegment(level, guideNum, segmentNum)
+      val length       = segmentLength(level, guideNum, segmentNum)
+
+      jQuery(element)
+        .stop()
+        .show()
+        .css("stroke-dasharray", length)
+        .css("stroke-dashoffset", length)
+        .css("animation", s"guidePathDashOffset ${pathLengthToDuration(length)}s linear forwards")
+        .css("animation-delay", s"${pathLengthToDuration(lengthBefore)}s")
+    }
+  }
+
+  def initGuidePoints(level: String, guideNum: Int) = {
+    jQuery(s".$level-guide-overlay:eq($guideNum) > .guide-point").each { element =>
+      val segmentNum   = jQuery(element).data("guide-segment").asInstanceOf[Int]
+      val lengthBefore = lengthBeforeSegment(level, guideNum, segmentNum)
+
+      jQuery(element)
+        .stop()
+        .show()
+        .css("animation", s"guidePointScale 0.5s ease-out forwards")
+        .css("animation-delay", s"${pathLengthToDuration(lengthBefore)}s")
+
+    }
   }
 
   def initGuideImageAnnotation(annotation: Element, delay: Double) = {
@@ -154,31 +211,6 @@ object courses {
           )
           .css("animation-delay", s"${annotationCircleAnimationDelay}s")
       }
-
-  }
-
-  def initLevelButtonToggles() = {
-    jQuery(".guide-button-toggles").find("input").each { input: Element =>
-      jQuery(input).change { evt: JQueryEventObject =>
-        val level = jQuery(evt.target).attr("id").asInstanceOf[String]
-        showLevel(level)
-      }
-    }
-  }
-
-  def showLevel(level: String) = {
-
-    // Text descriptions
-    jQuery(s"[class*=guide-text]:not([class*=$level])").addClass("hidden")
-    jQuery(s".${level}-guide-text").removeClass("hidden")
-
-    // Club recommendations
-    jQuery(s"[class*=club-recommendations]:not([class*=$level])").addClass("hidden")
-    jQuery(s".${level}-club-recommendations").removeClass("hidden")
-
-    // Overlays
-    jQuery(s"[class*=guide-overlay]:not([class*=$level])").children().hide()
-    jQuery(s".${level}-guide-overlay").children().show()
   }
 
 }
