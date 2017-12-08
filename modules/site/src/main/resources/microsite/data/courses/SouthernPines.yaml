@@ -6,6 +6,74 @@ holes:
   - course: Southern Pines
     number: 2
     par: 3
+    description: >
+      Help Wanted
+    clubRecommendations:
+      - level: Rookie
+        clubs:
+          - Sniper
+          - Hammerhead
+      - level: Pro
+        clubs:
+          - Quarterback
+          - Rocket
+      - level: Masters
+        clubs:
+          - Apocalypse
+    resources:
+    overlays:
+      size: [546, 1020]
+      guides:
+      - name: Black Path
+        text: >
+          Help Wanted
+        levels:
+          - name: Rookie
+            svg:
+              <path d="M 226 736 C 160 466 160 466 217 316" stroke="black" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="0" />
+              <path d="M 217 316 L 249 211" stroke="black" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="1" />
+              <circle cx="226" cy="736" r="6" fill="black" class="guide-point" data-guide-segment="0" />
+              <circle cx="217" cy="316" r="6" fill="black" class="guide-point" data-guide-segment="1" />
+              <circle cx="249" cy="211" r="6" fill="black" class="guide-point" data-guide-segment="2" />
+          - name: Pro
+            svg:
+              <path d="M 222 817 C 160 466 160 466 217 316" stroke="black" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="0" />
+              <path d="M 217 316 L 249 211" stroke="black" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="1" />
+              <circle cx="222" cy="817" r="6" fill="black" class="guide-point" data-guide-segment="0" />
+              <circle cx="217" cy="316" r="6" fill="black" class="guide-point" data-guide-segment="1" />
+              <circle cx="249" cy="211" r="6" fill="black" class="guide-point" data-guide-segment="2" />
+          - name: Masters
+            svg:
+              <path d="M 219 898 C 160 466 160 466 217 316" stroke="black" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="0" />
+              <path d="M 217 316 L 249 211" stroke="black" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="1" />
+              <circle cx="219" cy="898" r="6" fill="black" class="guide-point" data-guide-segment="0" />
+              <circle cx="217" cy="316" r="6" fill="black" class="guide-point" data-guide-segment="1" />
+              <circle cx="249" cy="211" r="6" fill="black" class="guide-point" data-guide-segment="2" />
+      - name: White Path
+        text: >
+          Help Wanted
+        levels:
+          - name: Rookie
+            svg:
+              <path d="M 226 736 C 306 476 306 476 285 315" stroke="white" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="0" />
+              <path d="M 285 315 L 279 210" stroke="white" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="1" />
+              <circle cx="226" cy="736" r="6" fill="white" class="guide-point" data-guide-segment="0" />
+              <circle cx="285" cy="315" r="6" fill="white" class="guide-point" data-guide-segment="1" />
+              <circle cx="279" cy="210" r="6" fill="white" class="guide-point" data-guide-segment="2" />
+          - name: Pro
+            svg:
+              <path d="M 222 817 C 306 476 306 476 285 315" stroke="white" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="0" />
+              <path d="M 285 315 L 279 210" stroke="white" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="1" />
+              <circle cx="222" cy="817" r="6" fill="white" class="guide-point" data-guide-segment="0" />
+              <circle cx="285" cy="315" r="6" fill="white" class="guide-point" data-guide-segment="1" />
+              <circle cx="279" cy="210" r="6" fill="white" class="guide-point" data-guide-segment="2" />
+          - name: Masters
+            svg:
+              <path d="M 219 898 C 306 476 306 476 285 315" stroke="white" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="0" />
+              <path d="M 285 315 L 279 210" stroke="white" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="1" />
+              <circle cx="219" cy="898" r="6" fill="white" class="guide-point" data-guide-segment="0" />
+              <circle cx="285" cy="315" r="6" fill="white" class="guide-point" data-guide-segment="1" />
+              <circle cx="279" cy="210" r="6" fill="white" class="guide-point" data-guide-segment="2" />
   - course: Southern Pines
     number: 3
     par: 4

@@ -3,12 +3,184 @@ holes:
   - course: Santa Ventura
     number: 1
     par: 3
+    description: >
+      Help Wanted
+    clubRecommendations:
+      - level: Rookie
+        clubs:
+          - Backbone
+          - Goliath
+      - level: Pro
+        clubs:
+          - Guardian
+          - Sniper
+      - level: Masters
+        clubs:
+          - Guardian
+          - Quarterback
+    resources:
+    overlays:
+      size: [377, 873]
+      guides:
+      - name: Black Path
+        text: >
+          Help Wanted
+        levels:
+          - name: Rookie
+            svg:
+              <path d="M 163 641 L 199 194" stroke="black" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="0" />
+              <circle cx="163" cy="641" r="6" fill="black" class="guide-point" data-guide-segment="0" />
+              <circle cx="199" cy="194" r="6" fill="black" class="guide-point" data-guide-segment="1" />
+          - name: Pro
+            svg:
+              <path d="M 198 723 L 199 194" stroke="black" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="0" />
+              <circle cx="198" cy="723" r="6" fill="black" class="guide-point" data-guide-segment="0" />
+              <circle cx="199" cy="194" r="6" fill="black" class="guide-point" data-guide-segment="1" />
+          - name: Masters
+            svg:
+              <path d="M 223 799 L 199 194" stroke="black" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="0" />
+              <circle cx="223" cy="799" r="6" fill="black" class="guide-point" data-guide-segment="0" />
+              <circle cx="199" cy="194" r="6" fill="black" class="guide-point" data-guide-segment="1" />
   - course: Santa Ventura
     number: 2
     par: 4
+    description: >
+      Help Wanted
+    clubRecommendations:
+      - level: Rookie
+        clubs:
+          - Thorn
+          - Hornet
+      - level: Pro
+        clubs:
+          - Thorn
+          - Hornet
+      - level: Masters
+        clubs:
+          - Thorn
+          - Hornet
+    resources:
+    overlays:
+      size: [360, 929]
+      guides:
+      - name: Black Path
+        text: >
+          Help Wanted
+        levels:
+          - name: Rookie
+            svg:
+              <path d="M 131 764 C 99 456 99 456 154 237" stroke="black" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="0" />
+              <path d="M 154 237 L 217 134" stroke="black" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="1" />
+              <circle cx="131" cy="764" r="6" fill="black" class="guide-point" data-guide-segment="0" />
+              <circle cx="154" cy="237" r="6" fill="black" class="guide-point" data-guide-segment="1" />
+              <circle cx="217" cy="134" r="6" fill="black" class="guide-point" data-guide-segment="2" />
+          - name: Pro
+            svg:
+              <path d="M 139 818 C 99 456 99 456 154 237" stroke="black" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="0" />
+              <path d="M 154 237 L 217 134" stroke="black" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="1" />
+              <circle cx="139" cy="818" r="6" fill="black" class="guide-point" data-guide-segment="0" />
+              <circle cx="154" cy="237" r="6" fill="black" class="guide-point" data-guide-segment="1" />
+              <circle cx="217" cy="134" r="6" fill="black" class="guide-point" data-guide-segment="2" />
+          - name: Masters
+            svg:
+              <path d="M 154 870 C 99 456 99 456 154 237" stroke="black" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="0" />
+              <path d="M 154 237 L 217 134" stroke="black" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="1" />
+              <circle cx="154" cy="870" r="6" fill="black" class="guide-point" data-guide-segment="0" />
+              <circle cx="154" cy="237" r="6" fill="black" class="guide-point" data-guide-segment="1" />
+              <circle cx="217" cy="134" r="6" fill="black" class="guide-point" data-guide-segment="2" />
   - course: Santa Ventura
     number: 3
     par: 5
+    description: >
+      Help Wanted
+    clubRecommendations:
+      - level: Rookie
+        clubs:
+          - Big Dawg
+      - level: Pro
+        clubs:
+          - Big Dawg
+          - Cataclysm
+      - level: Masters
+        clubs:
+          - Hammerhead
+          - Cataclysm
+    resources:
+    overlays:
+      size: [411, 1104]
+      guides:
+      - name: Black Path
+        text: >
+          Help Wanted
+        levels:
+          - name: Rookie
+            svg:
+              <path d="M 94 944 C 192 790 192 790 242 622" stroke="black" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="0" />
+              <path d="M 242 622 L 273 463" stroke="black" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="1" />
+              <path d="M 273 463 L 113 149" stroke="black" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="2" />
+              <circle cx="94" cy="944" r="6" fill="black" class="guide-point" data-guide-segment="0" />
+              <circle cx="242" cy="622" r="6" fill="black" class="guide-point" data-guide-segment="1" />
+              <circle cx="273" cy="463" r="6" fill="black" class="guide-point" data-guide-segment="2" />
+              <circle cx="113" cy="149" r="6" fill="black" class="guide-point" data-guide-segment="3" />
+          - name: Pro
+            svg:
+              <path d="M 78 996 C 192 790 192 790 242 622" stroke="black" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="0" />
+              <path d="M 242 622 L 273 463" stroke="black" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="1" />
+              <path d="M 273 463 L 113 149" stroke="black" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="2" />
+              <circle cx="78" cy="996" r="6" fill="black" class="guide-point" data-guide-segment="0" />
+              <circle cx="242" cy="622" r="6" fill="black" class="guide-point" data-guide-segment="1" />
+              <circle cx="273" cy="463" r="6" fill="black" class="guide-point" data-guide-segment="2" />
+              <circle cx="113" cy="149" r="6" fill="black" class="guide-point" data-guide-segment="3" />
+          - name: Masters
+            svg:
+              <path d="M 54 1045 C 192 790 192 790 242 622" stroke="black" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="0" />
+              <path d="M 242 622 L 273 463" stroke="black" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="1" />
+              <path d="M 273 463 L 113 149" stroke="black" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="2" />
+              <circle cx="54" cy="1045" r="6" fill="black" class="guide-point" data-guide-segment="0" />
+              <circle cx="242" cy="622" r="6" fill="black" class="guide-point" data-guide-segment="1" />
+              <circle cx="273" cy="463" r="6" fill="black" class="guide-point" data-guide-segment="2" />
+              <circle cx="113" cy="149" r="6" fill="black" class="guide-point" data-guide-segment="3" />
   - course: Santa Ventura
     number: 4
     par: 4
+    description: >
+      Help Wanted
+    clubRecommendations:
+      - level: Rookie
+        clubs:
+          - Viper
+      - level: Pro
+        clubs:
+          - Sniper
+      - level: Masters
+        clubs:
+          - Sniper
+    resources:
+    overlays:
+      size: [312, 1111]
+      guides:
+      - name: Black Path
+        text: >
+          Help Wanted
+        levels:
+          - name: Rookie
+            svg:
+              <path d="M 89 945 C 198 626 198 626 200 430" stroke="black" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="0" />
+              <path d="M 200 430 L 116 126" stroke="black" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="1" />
+              <circle cx="89" cy="945" r="6" fill="black" class="guide-point" data-guide-segment="0" />
+              <circle cx="200" cy="430" r="6" fill="black" class="guide-point" data-guide-segment="1" />
+              <circle cx="116" cy="126" r="6" fill="black" class="guide-point" data-guide-segment="2" />
+          - name: Pro
+            svg:
+              <path d="M 88 995 C 198 626 198 626 200 430" stroke="black" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="0" />
+              <path d="M 200 430 L 116 126" stroke="black" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="1" />
+              <circle cx="88" cy="995" r="6" fill="black" class="guide-point" data-guide-segment="0" />
+              <circle cx="200" cy="430" r="6" fill="black" class="guide-point" data-guide-segment="1" />
+              <circle cx="116" cy="126" r="6" fill="black" class="guide-point" data-guide-segment="2" />
+          - name: Masters
+            svg:
+              <path d="M 88 1043 C 198 626 198 626 200 430" stroke="black" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="0" />
+              <path d="M 200 430 L 116 126" stroke="black" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="1" />
+              <circle cx="88" cy="1043" r="6" fill="black" class="guide-point" data-guide-segment="0" />
+              <circle cx="200" cy="430" r="6" fill="black" class="guide-point" data-guide-segment="1" />
+              <circle cx="116" cy="126" r="6" fill="black" class="guide-point" data-guide-segment="2" />
