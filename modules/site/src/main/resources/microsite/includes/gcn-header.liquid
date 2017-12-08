@@ -1,0 +1,41 @@
+<header id="site-header">
+    <div class="navbar-wrapper">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-6">
+                    <a href="/" class="brand">
+                        <div class="icon-wrapper"><span>Golf Clash Notebook</span></div>
+                    </a>
+                </div>
+                <div class="col-xs-6">
+                    <nav class="text-right">
+                        <ul class="">
+                            <li><a href="https://github.com/golf-clash-notebook/golf-clash-notebook.github.io/"><i class="fab fa-github"></i><span class="hidden-xs pad-4">GitHub</span></a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="jumbotron">
+        <div class="container"></div>
+    </div>
+    <!-- Affix wrapper to avoid Bootstrap affix flickering -->
+    <div id="nav-affix-wrapper">
+      <div id="nav-container">
+          <button type="button" class="btn btn-link nav-scroll nav-scroll-left"><i class="fas fa-chevron-left" aria-hidden="true"></i></button>
+          <ul class="horizontalNav">
+
+              {% assign pages = site.pages | sort:'position'  %}
+
+              {% for p in pages %}
+                {% if p.position != null %}
+                  <li><a class="{% if p.url == page.url %} active {% endif %}" href="{{ site.baseurl }}{{ p.url }}">{{ p.title }}</a></li>
+                {% endif %}
+              {% endfor %}
+
+          </ul>
+          <button type="button" class="btn btn-link nav-scroll nav-scroll-right"><i class="fas fa-chevron-right" aria-hidden="true"></i></button>
+      </div>
+    </div>
+</header>

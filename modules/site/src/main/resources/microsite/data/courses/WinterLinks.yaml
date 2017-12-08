@@ -409,9 +409,9 @@ holes:
         levels:
           - name: Rookie
             svg: >
-              <path d="M 216 778 C 275 530 275 530 264 284" stroke="red" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="0" />
+              <path d="M 216 778 C 275 530 275 530 264 284" stroke="transparent" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="0" />
               <path d="M 264 284 L 385 100" stroke="red" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="1" />
-              <circle cx="216" cy="778" r="6" fill="red" class="guide-point" data-guide-segment="0" />
+              <circle cx="216" cy="778" r="6" fill="transparent" class="guide-point" data-guide-segment="0" />
               <circle cx="264" cy="284" r="6" fill="red" class="guide-point" data-guide-segment="1" />
               <circle cx="385" cy="100" r="6" fill="red" class="guide-point" data-guide-segment="2" />
           - name: Pro

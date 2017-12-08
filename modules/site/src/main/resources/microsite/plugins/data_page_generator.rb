@@ -85,6 +85,11 @@ module Jekyll
                 records = records[level]
               end
             end
+
+            if(records.is_a?(Hash))
+              records = records.values
+            end
+
             records = records.select { |r| r[data_spec['filter']] } if data_spec['filter']
             records.each do |record|
               site.pages << DataPage.new(site, site.source, index_files, dir, record, name, template, extension)

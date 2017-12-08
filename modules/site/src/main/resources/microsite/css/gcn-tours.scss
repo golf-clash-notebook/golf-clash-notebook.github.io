@@ -1,4 +1,3 @@
-
 .tour-header {
   margin-top: 5px;
 }
@@ -10,11 +9,11 @@
   margin-bottom: 8px;
   margin-left: 16px;
   padding: 8px;
-}
 
-.club-recommendation-list > hr {
-  margin-bottom: 10px;
-  margin-top: 10px;
+  > hr {
+    margin-bottom: 10px;
+    margin-top: 10px;
+  }
 }
 
 .club-recommendation-item {
@@ -35,21 +34,23 @@
   display: inline-block;
   margin-right: 16px;
   padding: 8px;
+
+  > hr {
+    margin-bottom: 15px;
+    margin-top: 15px;
+  }
 }
 
-.tour-courses > hr {
-  margin-bottom: 15px;
-  margin-top: 15px;
-}
+.tour-course {
+  + .tour-course {
+    margin-top: 8px;
+  }
 
-.tour-course + .tour-course {
-  margin-top: 8px;
-}
-
-.tour-course > img {
-  display: block;
-  margin: 0;
-  width: 96px;
+  > img {
+    display: block;
+    margin: 0;
+    width: 96px;
+  }
 }
 
 @media (max-width: 768px) {

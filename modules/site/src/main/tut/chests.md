@@ -12,7 +12,7 @@ position: 55
 
   <div class="col-lg-10 col-lg-offset-1 col-md-12 table-responsive">
 
-  <table class="table table-centered table-content-centered table-squished table-nowrap">
+  <table class="table table-bordered table-centered table-content-centered table-squished table-nowrap">
     <thead>
       <tr>
         <th class="text-center">Tour</th>

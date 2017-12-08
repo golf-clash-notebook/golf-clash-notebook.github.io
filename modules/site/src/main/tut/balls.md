@@ -52,11 +52,16 @@ position: 50
   </div>
   <div class="col-md-5 col-sm-12">
 
-    {% include_relative balls/ball-chart-template.liquid ballKeyArray=ballKeyArray %}
+    <div class="ball-chart-container">
 
-    <p class="text-center text-small text-semi-muted">
-      This chart <strong><em>attempts</em></strong> to rank the balls based on wind resistance, side spin and power. Of course, every hole is different so a given ball may be better for a certain set of circumstances.
-    </p>
+      {% include_relative balls/ball-chart-template.liquid ballKeyArray=ballKeyArray %}
+
+      <p class="text-center text-small text-semi-muted pad-8">
+        This chart <strong><em>attempts</em></strong> to generally rank the balls based on wind
+        resistance, side spin and power. Of course, every hole is different so a given ball may be
+        better for a certain set of circumstances.
+      </p>
+    </div>
 
   </div>
 </div>
@@ -119,17 +124,17 @@ position: 50
 
           {% capture resourceIcon %}
             {% if resource.url contains 'facebook' %}
-              <i class="fa fa-facebook-official text-facebook" aria-hidden="true"></i>
+              <i class="fab fa-facebook text-facebook" aria-hidden="true"></i>
             {% elsif resource.url contains 'reddit' %}
-              <i class="fa fa-reddit text-reddit" aria-hidden="true"></i>
+              <i class="fab fa-reddit text-reddit" aria-hidden="true"></i>
             {% elsif resource.url contains 'twitch' %}
-              <i class="fa fa-twitch text-twitch" aria-hidden="true"></i>
+              <i class="fab fa-twitch text-twitch" aria-hidden="true"></i>
             {% elsif resource.url contains 'twitter' %}
-              <i class="fa fa-twitter text-twitter" aria-hidden="true"></i>
+              <i class="fab fa-twitter text-twitter" aria-hidden="true"></i>
             {% elsif resource.url contains 'youtube' or resource.url contains 'youtu.be' %}
-              <i class="fa fa-youtube-play text-youtube" aria-hidden="true"></i>
+              <i class="fab fa-youtube text-youtube" aria-hidden="true"></i>
             {% else %}
-              <i class="fa fa-book" aria-hidden="true"></i>
+              <i class="fas fa-book" aria-hidden="true"></i>
             {% endif %}
           {% endcapture %}
 

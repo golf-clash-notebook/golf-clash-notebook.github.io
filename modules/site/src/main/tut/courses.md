@@ -40,10 +40,17 @@ position: 20
       {% endcapture %}
 
       <div class="{{ columnClasses | strip }} text-center">
-        <div class="thumbnail gcn-thumbnail">
-          <a href="/courses/{{ coursePath }}">{{ course.name }}</a>
-          <br>
-          <a href="/courses/{{ coursePath }}/"><img class="img-responsive img-center" src="/img/golfclash/courses/{{ coursePath }}/thumb.png"></a>
+        <div class="panel panel-default">
+          <div class="panel-heading">
+            <a href="/courses/{{ coursePath }}/">
+              {{ course.name }}
+            </a>
+          </div>
+          <div class="panel-body">
+            <a href="/courses/{{ coursePath }}/">
+              <img class="img-responsive img-center" src="/img/golfclash/courses/{{ coursePath }}/thumb.png">
+            </a>
+          </div>
         </div>
       </div>
 

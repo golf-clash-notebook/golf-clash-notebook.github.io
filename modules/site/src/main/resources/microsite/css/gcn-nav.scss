@@ -1,0 +1,68 @@
+/** Fix Boostrap affix flicker: https://finiteheap.com/webdev/2014/12/26/bootstrap-affix-flickering.html **/
+
+#site-header > .navbar-wrapper {
+  margin-top: 30px;
+}
+
+#nav-affix-wrapper {
+  height: 48px;
+}
+
+#nav-container {
+  display: flex;
+  justify-content: center;
+  z-index: 10000;
+
+  > ul.horizontalNav {
+    box-sizing: border-box;
+    white-space: nowrap;
+    border: none;
+    padding: 0 8px;
+    position: relative;
+    overflow: hidden;
+  }
+
+  &.affix {
+    background-color: #192a37;
+    background: url(../img/jumbotron_pattern.png) fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 10000;
+    transition-duration: 0.2s;
+  }
+}
+
+ul.horizontalNav {
+  li {
+    display: inline-block;
+    float: none;
+
+    a {
+      color: #fff;
+    }
+  }
+
+  > li > a.active {
+    border-bottom: 3px solid white;
+  }
+}
+
+@media (max-width: 768px) {
+  #site-header > div.affix.mobile-nav-hide {
+    transform: translateY(-52px);
+    transition-duration: 0.2s;
+  }
+}
+
+.nav-scroll {
+  color: #fff;
+  padding: 0 8px;
+  visibility: hidden;
+  outline: none;
+
+  &:link, &:visited, &:hover, &:focus, &:active {
+    color: #fff;
+    outline: none;
+  }
+}

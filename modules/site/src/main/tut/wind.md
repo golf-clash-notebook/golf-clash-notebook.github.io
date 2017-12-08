@@ -35,17 +35,17 @@ position: 60
 
           {% capture resourceIcon %}
             {% if resource.url contains 'facebook' %}
-              <i class="fa fa-facebook-official text-facebook" aria-hidden="true"></i>
+              <i class="fab fa-facebook text-facebook" aria-hidden="true"></i>
             {% elsif resource.url contains 'reddit' %}
-              <i class="fa fa-reddit text-reddit" aria-hidden="true"></i>
+              <i class="fab fa-reddit text-reddit" aria-hidden="true"></i>
             {% elsif resource.url contains 'twitch' %}
-              <i class="fa fa-twitch text-twitch" aria-hidden="true"></i>
+              <i class="fab fa-twitch text-twitch" aria-hidden="true"></i>
             {% elsif resource.url contains 'twitter' %}
-              <i class="fa fa-twitter text-twitter" aria-hidden="true"></i>
+              <i class="fab fa-twitter text-twitter" aria-hidden="true"></i>
             {% elsif resource.url contains 'youtube' or resource.url contains 'youtu.be' %}
-              <i class="fa fa-youtube-play text-youtube" aria-hidden="true"></i>
+              <i class="fab fa-youtube text-youtube" aria-hidden="true"></i>
             {% else %}
-              <i class="fa fa-book" aria-hidden="true"></i>
+              <i class="fas fa-book" aria-hidden="true"></i>
             {% endif %}
           {% endcapture %}
 

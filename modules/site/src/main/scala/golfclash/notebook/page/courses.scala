@@ -128,7 +128,7 @@ object courses {
   }
 
   def pathLengthToDuration(pathLength: Int): Double = {
-    pathLength / 300d
+    pathLength / 250d
   }
 
   def initGuidePaths(level: String, guideNum: Int) = {

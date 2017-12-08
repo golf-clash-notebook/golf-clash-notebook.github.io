@@ -1,7 +1,18 @@
 
+sass:
+  style: compressed
+  load_paths:
+    - _sass
+    - css
+
 page_gen-dirs: true
 
 page_gen:
+  - index_files: true
+    data: 'tournaments'
+    template: 'tournament-notes-template'
+    name: 'tournament-name'
+    dir: 'tournaments/notes'
   - index_files: true
     data: 'courses.CreepyCliffs.holes'
     template: 'course-hole-template'

@@ -28,12 +28,17 @@
       {% endcapture %}
 
       <div class="{{ columnClasses | strip }} text-center">
-        <div class="thumbnail gcn-thumbnail">
-          <div>Hole {{ hole.number }} - Par {{ hole.par }}</div>
-          <br>
-          <a href="/courses/{{ coursePath }}/{{ hole.number }}/">
-            <img src="/img/golfclash/courses/{{ coursePath }}/{{ hole.number }}-thumb.png">
-          </a>
+        <div class="panel panel-default">
+          <div class="panel-heading">
+            <a href="/courses/{{ coursePath }}/{{ hole.number }}/">
+              Hole {{ hole.number }} - Par {{ hole.par }}
+            </a>
+          </div>
+          <div class="panel-body">
+            <a href="/courses/{{ coursePath }}/{{ hole.number }}/">
+              <img class="img-responsive img-center" src="/img/golfclash/courses/{{ coursePath }}/{{ hole.number }}-thumb.png">
+            </a>
+          </div>
         </div>
       </div>
 

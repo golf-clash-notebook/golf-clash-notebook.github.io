@@ -18,6 +18,12 @@ position: 70
 
     <hr>
 
+    <h4>How do I manage my bankroll?</h4>
+
+    <p class="text-prototype">
+      Help Wanted: {% lipsum 2 5 25 %}
+    </p>
+
     <h4>When should I move up to Tour 'X'?</h4>
 
     <p class="text-prototype">

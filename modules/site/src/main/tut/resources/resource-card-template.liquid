@@ -1,17 +1,17 @@
 
 {% capture resourceIcon %}
   {% if include.resource.url contains 'facebook' %}
-    <i class="fa fa-2x fa-facebook-official text-facebook" aria-hidden="true"></i>
+    <i class="fab fa-2x fa-facebook text-facebook" aria-hidden="true"></i>
   {% elsif include.resource.url contains 'reddit' %}
-    <i class="fa fa-2x fa-reddit text-reddit" aria-hidden="true"></i>
+    <i class="fab fa-2x fa-reddit text-reddit" aria-hidden="true"></i>
   {% elsif include.resource.url contains 'twitch' %}
-    <i class="fa fa-2x fa-twitch text-twitch" aria-hidden="true"></i>
+    <i class="fab fa-2x fa-twitch text-twitch" aria-hidden="true"></i>
   {% elsif include.resource.url contains 'twitter' %}
-    <i class="fa fa-2x fa-twitter text-twitter" aria-hidden="true"></i>
+    <i class="fab fa-2x fa-twitter text-twitter" aria-hidden="true"></i>
   {% elsif include.resource.url contains 'youtube' %}
-    <i class="fa fa-2x fa-youtube-play text-youtube" aria-hidden="true"></i>
+    <i class="fab fa-2x fa-youtube text-youtube" aria-hidden="true"></i>
   {% else %}
-    <i class="fa fa-2x fa-globe" aria-hidden="true"></i>
+    <i class="fas fa-2x fa-globe" aria-hidden="true"></i>
   {% endif %}
 {% endcapture %}
 

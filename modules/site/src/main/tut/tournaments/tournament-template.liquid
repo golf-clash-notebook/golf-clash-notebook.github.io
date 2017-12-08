@@ -1,5 +1,5 @@
 
-{% assign tournamentPath = include.tournament.name | remove: " " %}
+{% assign tournamentPath = include.tournament.tournament-name | remove: " " %}
 
 <img class="img-responsive img-center" src="/img/golfclash/tournaments/titles/{{ tournamentPath }}.png">
 
@@ -19,12 +19,17 @@
       {% assign par = site.data.courses[holeCoursePath].holes[courseHoleIx].par %}
 
       <div class="col-lg-4 col-md-4 col-sm-12 text-center">
-        <div class="thumbnail gcn-thumbnail">
-          <div>Hole {{ hole.number }} - Par {{ par }}</div>
-          <br>
-          <a href="/courses/{{ holeCoursePath }}/{{ hole.course-hole }}/">
-            <img src="/img/golfclash/courses/{{ holeCoursePath }}/{{ hole.course-hole }}-thumb.png">
-          </a>
+        <div class="panel panel-default">
+          <div class="panel-heading">
+            <a href="/courses/{{ holeCoursePath }}/{{ hole.course-hole }}/">
+              Hole {{ hole.number }} - Par {{ par }}
+            </a>
+          </div>
+          <div class="panel-body">
+            <a href="/courses/{{ holeCoursePath }}/{{ hole.course-hole }}/">
+              <img class="img-responsive img-center" src="/img/golfclash/courses/{{ holeCoursePath }}/{{ hole.course-hole }}-thumb.png">
+            </a>
+          </div>
         </div>
       </div>
 
@@ -36,22 +41,31 @@
 
     <h3 class="page-header text-center">Resources</h3>
 
+    <div class="text-center">
+      <a href="/img/golfclash/tournaments/notesheets/{{ tournamentPath }}.pdf" target="_blank" rel="noopener">
+        <span class="far fa-file-pdf fa-2x text-danger" aria-hidden="true"></span>
+        <span class="text-danger center-block">Note Sheet</span>
+      </a>
+    </div>
+
+    <br>
+
     <div class="list-group">
       {% for resource in include.tournament.resources %}
 
         {% capture resourceIcon %}
           {% if resource.url contains 'facebook' %}
-            <i class="fa fa-facebook-official text-facebook" aria-hidden="true"></i>
+            <i class="fab fa-facebook text-facebook" aria-hidden="true"></i>
           {% elsif resource.url contains 'reddit' %}
-            <i class="fa fa-reddit text-reddit" aria-hidden="true"></i>
+            <i class="fab fa-reddit text-reddit" aria-hidden="true"></i>
           {% elsif resource.url contains 'twitch' %}
-            <i class="fa fa-twitch text-twitch" aria-hidden="true"></i>
+            <i class="fab fa-twitch text-twitch" aria-hidden="true"></i>
           {% elsif resource.url contains 'twitter' %}
-            <i class="fa fa-twitter text-twitter" aria-hidden="true"></i>
+            <i class="fab fa-twitter text-twitter" aria-hidden="true"></i>
           {% elsif resource.url contains 'youtube' or resource.url contains 'youtu.be' %}
-            <i class="fa fa-youtube-play text-youtube" aria-hidden="true"></i>
+            <i class="fab fa-youtube text-youtube" aria-hidden="true"></i>
           {% else %}
-            <i class="fa fa-book" aria-hidden="true"></i>
+            <i class="fas fa-book" aria-hidden="true"></i>
           {% endif %}
         {% endcapture %}
 
@@ -63,5 +77,5 @@
 
   </div>
 
-</div>
 
+</div>

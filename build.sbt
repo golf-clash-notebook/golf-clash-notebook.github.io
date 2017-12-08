@@ -118,7 +118,7 @@ lazy val siteSettings = Seq(
   micrositeHighlightTheme := "atom-one-light",
   micrositeHomepage := "https://www.github.com/golf-clash-notebook/golf-clash-notebook.github.io",
   micrositePalette := Map(
-    "brand-primary"   -> "#2875b0",
+    "brand-primary"   -> "#192a37",
     "brand-secondary" -> "#192a37",
     "brand-tertiary"  -> "#0c171f",
     "gray-dark"       -> "#49494b",
@@ -130,7 +130,7 @@ lazy val siteSettings = Seq(
   micrositeFooterText := None,
   siteSubdirName in ScalaUnidoc := "api",
   addMappingsToSiteDir(mappings in (ScalaUnidoc, packageDoc), siteSubdirName in ScalaUnidoc),
-  includeFilter in makeSite := "*.html" | "*.css" | "*.png" | "*.svg" | "*.jpg" | "*.gif" | "*.js" | "*.js.map" | "*.swf" | "*.yml" | "*.md" | "*.liquid" | "*.json" | "*.ttf" | "*.otf" | "*.woff" | "*.woff2" | "*.webmanifest" | "*.xml",
+  includeFilter in makeSite := "*.html" | "*.css" | "*.png" | "*.svg" | "*.jpg" | "*.gif" | "*.js" | "*.js.map" | "*.swf" | "*.yml" | "*.md" | "*.liquid" | "*.json" | "*.ttf" | "*.otf" | "*.woff" | "*.woff2" | "*.webmanifest" | "*.xml" | "*.pdf",
   fork in tut := true,
   scalacOptions in Tut ~= (_.filterNot(Set("-Ywarn-unused-import", "-Ywarn-dead-code"))),
   fork in (ScalaUnidoc, unidoc) := true,

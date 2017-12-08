@@ -1,0 +1,12 @@
+
+{% assign hole = include.hole %}
+{% assign holeCoursePath = hole.course | remove: " " %}
+{% assign holeCourseIx = hole.course-hole | minus: 1 %}
+{% assign hole = site.data.courses[holeCoursePath].holes[holeCourseIx] %}
+
+<div class="col-lg-6 note-col">
+  <div class="paper text-left margin-4">
+    <h4 class="note-hole-title text-semi-muted">Hole {{ hole.number }} - Par {{ hole.par }}</h4>
+    <img class="note-hole-thumbnail img-responsive" src="/img/golfclash/courses/{{ holeCoursePath }}/{{ hole.number }}.png">
+  </div>
+</div>
