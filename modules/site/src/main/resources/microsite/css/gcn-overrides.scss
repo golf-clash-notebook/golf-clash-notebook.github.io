@@ -1,0 +1,46 @@
+/** General Bootstrap stuff... **/
+
+.btn {
+  border-radius: 0px;
+}
+
+.popover {
+  max-width: 800px !important;
+}
+
+/** Fixed Footer **/
+
+#site-footer {
+  background-color: #192a37;
+  padding: 20px 0;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 2000;
+}
+
+@media (max-width: 768px) {
+  #site-footer {
+    display: none;
+  }
+}
+
+/* Account for our fixed footer. */
+
+#content {
+  padding-top: 25px;
+  padding-bottom: 40px;
+}
+
+/** Turn jumbotron into mediumtron. **/
+
+.jumbotron {
+  padding-top: 80px;
+  padding-bottom: 40px;
+  margin-bottom: -48px;
+
+  /* TODO: This may be an issue with sbt-microsites */
+  background-size: 15px 14px !important;
+
+}

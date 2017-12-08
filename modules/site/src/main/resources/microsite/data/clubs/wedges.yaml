@@ -1,0 +1,72 @@
+- name: The Dart
+  description: >
+    Help Wanted
+  power:     [ 35,  35,  37,  37,  39,  39,  39,  41,  41,  41]
+  accuracy:  [ 10,  22,  22,  30,  30,  43,  43,  47,  60,  64]
+  topspin:   [  0,   0,   0,   0,   7,   7,  15,  15,  22,  22]
+  backspin:  [  0,   0,   9,   9,  23,  23,  32,  32,  32,  47]
+  curl:      [ 10,  10,  10,  19,  19,  28,  54,  54,  72,  72]
+  ballguide: [1.7, 1.9, 2.1, 2.5, 2.5, 2.8, 2.8, 3.0, 3.0, 3.3]
+- name: The Firefly
+  description: >
+    Help Wanted
+  power:     [ 35,  35,  37,  37,  37,  38,  38]
+  accuracy:  [ 30,  30,  39,  39,  44,  44,  61]
+  topspin:   [ 72,  72,  72,  81, 100, 100, 100]
+  backspin:  [  5,  15,  15,  15,  27,  45,  51]
+  curl:      [ 20,  29,  29,  61,  61,  83,  83]
+  ballguide: [3.2, 3.6, 3.8, 4.1, 4.1, 4.1, 4.5]
+- name: The Boomerang
+  description: >
+    Help Wanted
+  power:     [ 39,  41,  41,  42,  42,  44,  45]
+  accuracy:  [  0,   0,   9,   9,  25,  25,  41]
+  topspin:   [ 10,  10,  10,  27,  27,  37,  37]
+  backspin:  [ 79,  79,  95,  95, 100, 100, 100]
+  curl:      [ 64,  83,  83,  83, 100, 100, 100]
+  ballguide: [1.9, 2.1, 2.2, 2.7, 2.7, 3.3, 3.6]
+- name: The DownInOne
+  description: >
+    Help Wanted
+  power:     [ 41,  43,  44,  44,  44,  44,  44,  44]
+  accuracy:  [ 80,  80,  89,  89, 100, 100, 100, 100]
+  topspin:   [  0,  15,  15,  39,  55,  63,  89, 100]
+  backspin:  [  0,   0,  15,  15,  20,  36,  47,  64]
+  curl:      [ 45,  54,  54,  64,  64,  84,  84,  94]
+  ballguide: [1.0, 1.0, 1.0, 1.3, 1.3, 1.3, 1.5, 1.5]
+- name: The Skewer
+  description: >
+    Help Wanted
+  power:     [ 36,  36,  39,  39,  39,  39,  40,  42,  42,  42]
+  accuracy:  [ 25,  29,  29,  41,  41,  50,  50,  58,  58,  71]
+  topspin:   [ 25,  25,  25,  32,  32,  39,  39,  39,  62,  62]
+  backspin:  [ 40,  49,  54,  54,  68,  68,  77,  77,  87,  87]
+  curl:      [ 26,  26,  26,  43,  43,  70,  70,  79,  79,  88]
+  ballguide: [2.0, 2.4, 2.7, 2.7, 3.0, 3.0, 3.4, 3.4, 3.5, 3.8]
+- name: The Endbringer
+  description: >
+    Help Wanted
+  power:     [ 39,  41,  41,  43,  43,  44,  44]
+  accuracy:  [ 70,  70,  79,  79,  95,  95, 100]
+  topspin:   [ 30,  30,  38,  38,  56,  56,  85]
+  backspin:  [ 20,  25,  25,  36,  36,  54,  54]
+  curl:      [ 17,  45,  45,  56,  56,  79, 100]
+  ballguide: [3.6, 3.6, 4.0, 4.0, 4.2, 4.2, 4.2]
+- name: The Rapier
+  description: >
+    Help Wanted
+  power:     [ 38,  38,  38,  38,  40,  40,  42,  42]
+  accuracy:  [ 45,  54,  58,  58,  63,  72,  87,  87]
+  topspin:   [ 49,  71,  71,  87,  87,  95,  95, 100]
+  backspin:  [ 60,  60,  70,  75,  75,  91,  91, 100]
+  curl:      [ 50,  50,  50,  79,  79,  79,  79,  79]
+  ballguide: [2.7, 2.8, 3.2, 3.2, 3.6, 3.6, 3.7, 4.2]
+- name: Golden Wedge
+  description: >
+    Help Wanted
+  power:     [ 39]
+  accuracy:  [ 30]
+  topspin:   [ 20]
+  backspin:  [ 20]
+  curl:      [ 20]
+  ballguide: [1.7]

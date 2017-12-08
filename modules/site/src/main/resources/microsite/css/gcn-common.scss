@@ -1,0 +1,283 @@
+.gcn-page-header {
+  color: #7b7b7e;
+  font-size: 24px;
+  font-weight: 300;
+  line-height: 1.4;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.gcn-page-subheader {
+  color: #7b7b7e;
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 1.4;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.col-flex {
+  display: flex;
+}
+
+.row-flex {
+  display: flex;
+  align-items: center;
+}
+
+.img-inline {
+  display: inline;
+}
+
+.img-grayscale {
+  filter: grayscale(100%);
+}
+
+.text-prototype {
+  font-family: "RedactedScriptRegular";
+}
+
+.text-tiny {
+  font-size: 70%;
+}
+
+.text-small {
+  font-size: 85%;
+}
+
+.text-semi-muted {
+  color: #aaa;
+}
+
+.img-center {
+  display: block;
+  margin: 0 auto;
+}
+
+.btn-toggle-rookie {
+  background-color: #ccc;
+  border-color: #666;
+  color: #333;
+
+  &.active {
+    background-color: #77bf00;
+    border-color: #305f1a;
+    color: #ffffff;
+  }
+}
+
+.btn-toggle-pro {
+  background-color: #ccc;
+  border-color: #666;
+  color: #333;
+
+  &.active {
+    background-color: #22c2ce;
+    border-color: #126a7e;
+    color: #ffffff;
+  }
+}
+
+.btn-toggle-masters {
+  background-color: #ccc;
+  border-color: #666;
+  color: #333;
+
+  &.active {
+    background-color: #cc25ee;
+    border-color: #661798;
+    color: #ffffff;
+  }
+}
+
+/** Common card with thumbnail, title and body. */
+
+.gcn-card {
+  display: flex;
+  flex-direction: column;
+  overflow-x: auto;
+
+  > {
+    .panel-heading {
+      position: relative;
+
+      > {
+        .thumbnail {
+          display: inline-block;
+          left: 12px;
+          position: absolute;
+          text-align: center;
+          top: 50%;
+          transform: translateY(-50%);
+          max-width: 52px;
+          max-height: 52px;
+          margin-bottom: 0;
+
+          > i {
+            margin: 6px 0;
+          }
+        }
+
+        .title {
+          margin-left: 54px;
+          display: inline-block;
+
+          > a {
+            color: #555;
+          }
+        }
+
+        .pull-right {
+          display: inline-block;
+          position: absolute;
+          top: 50%;
+          right: 12px;
+          transform: translateY(-50%);
+        }
+      }
+    }
+
+    .panel-body {
+      flex: 1;
+    }
+
+    .table-responsive > table > {
+      thead > tr > th, tbody > tr > td {
+        text-align: center;
+      }
+    }
+  }
+}
+
+/* Common resource element usually used to link to YouTube, Twitch, etc. */
+
+.gcn-resource > a {
+  color: #666;
+
+  > i {
+    padding-right: 5px;
+  }
+}
+
+/* Common thumbnail element with an image and a text caption */
+
+.gcn-thumbnail {
+  display: inline-block;
+
+  > a {
+    color: #7b7b7e;
+    display: inline-block;
+    padding: 10px 0;
+  }
+}
+
+/** Color of golf clash cards. */
+
+.text-common {
+  color: #4A78C8;
+}
+
+.text-epic {
+  color: #A8366F;
+}
+
+.text-rare {
+  color: #E28B29;
+}
+
+/** Brand colors. */
+
+.text-facebook {
+  color: #5167AF;
+}
+
+.text-reddit {
+  color: #DC591C;
+}
+
+.text-twitch {
+  color: #473C7A;
+}
+
+.text-twitter {
+  color: #609EF0;
+}
+
+.text-youtube {
+  color: #D93D1A;
+}
+
+.progress-thin {
+  height: 8px;
+  margin: 0;
+}
+
+.font-300 {
+  font-weight: 300;
+}
+
+.font-400 {
+  font-weight: 400;
+}
+
+.font-500 {
+  font-weight: 500;
+}
+
+.font-600 {
+  font-weight: 600;
+}
+
+.font-700 {
+  font-weight: 700;
+}
+
+.font-800 {
+  font-weight: 800;
+}
+
+.font-900 {
+  font-weight: 900;
+}
+
+.pad-4 {
+  padding: 4px;
+}
+
+.pad-8 {
+  padding: 8px;
+}
+
+.pad-12 {
+  padding: 12px;
+}
+
+.pad-16 {
+  padding: 16px;
+}
+
+.pad-24 {
+  padding: 24px;
+}
+
+.margin-4 {
+  margin: 4px;
+}
+
+.margin-8 {
+  margin: 8px;
+}
+
+.margin-12 {
+  margin: 12px;
+}
+
+.margin-16 {
+  margin: 16px;
+}
+
+.margin-24 {
+  margin: 24px;
+}

@@ -1,0 +1,14 @@
+name: The Oasis
+holes:
+  - course: The Oasis
+    number: 1
+    par: 3
+  - course: The Oasis
+    number: 2
+    par: 4
+  - course: The Oasis
+    number: 3
+    par: 5
+  - course: The Oasis
+    number: 4
+    par: 3

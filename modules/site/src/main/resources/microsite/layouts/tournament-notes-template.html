@@ -1,0 +1,46 @@
+---
+layout: gcn-bare
+---
+
+{% assign tournamentPath = page.tournament-name | remove: " " %}
+{% assign numHoles = page.holes | size %}
+
+<div class="tournament-notes">
+
+{% for tournamentHole in page.holes %}
+
+  {% assign loopMod2 = forloop.index0 | modulo: 2 %}
+
+  {% assign firstHoleIx = forloop.index0 %}
+  {% assign secondHoleIx = forloop.index0 | plus: 1 %}
+
+  {% assign firstTournamentHole = page.holes[firstHoleIx] %}
+  {% assign secondTournamentHole = page.holes[secondHoleIx] %}
+
+  {% if forloop.first %}
+
+     <div class="row">
+
+      <div class="col-lg-6 note-col">
+        <img class="note-tournament-image img-responsive img-center pad-16" src="/img/golfclash/tournaments/titles/{{ tournamentPath }}.png">
+        <h3 class="center-block text-center text-semi-muted">{{ page.date | date_to_long_string }}</h3>
+      </div>
+
+      {% include tournament-hole-note-template.liquid hole=firstTournamentHole %}
+
+    </div>
+
+  {% elsif loopMod2 == 1 %}
+
+    <div class="row">
+
+      {% include tournament-hole-note-template.liquid hole=firstTournamentHole %}
+      {% include tournament-hole-note-template.liquid hole=secondTournamentHole %}
+
+    </div>
+
+  {% endif %}
+
+{% endfor %}
+
+</div>

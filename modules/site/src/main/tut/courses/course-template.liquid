@@ -1,0 +1,49 @@
+
+{% assign coursePath = include.course.name | remove: " " %}
+
+{% assign numHoles = include.course.holes | size %}
+{% assign mod2 = include.course.holes | size | modulo: 2 %}
+{% assign mod3 = include.course.holes | size | modulo: 3 %}
+
+<p class="lead text-center">{{ include.course.name }}</p>
+
+<div class="row">
+
+  <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 col-sm-12">
+
+    {% for hole in include.course.holes %}
+
+      {% capture columnClasses %}
+        {% if mod3 == 1 and forloop.last %}
+          col-md-4 col-md-offset-4 col-sm-6 col-xs-12
+        {% elsif mod3 == 2 and forloop.rindex == 2 %}
+          col-md-4 col-md-offset-2 col-sm-6 col-xs-12
+        {% elsif mod3 == 2 and forloop.last %}
+          col-md-4 col-md-offset-0 col-sm-6 col-sm-offset-3 col-xs-12
+        {% elsif mod2 == 1 and forloop.last %}
+          col-md-4 col-md-offset-0 col-sm-6 col-sm-offset-3 col-xs-12
+        {% else %}
+          col-md-4 col-sm-6 col-xs-12
+        {% endif %}
+      {% endcapture %}
+
+      <div class="{{ columnClasses | strip }} text-center">
+        <div class="panel panel-default">
+          <div class="panel-heading">
+            <a href="/courses/{{ coursePath }}/{{ hole.number }}/">
+              Hole {{ hole.number }} - Par {{ hole.par }}
+            </a>
+          </div>
+          <div class="panel-body">
+            <a href="/courses/{{ coursePath }}/{{ hole.number }}/">
+              <img class="img-responsive img-center" src="/img/golfclash/courses/{{ coursePath }}/{{ hole.number }}-thumb.png">
+            </a>
+          </div>
+        </div>
+      </div>
+
+    {% endfor %}
+
+  </div>
+
+</div>

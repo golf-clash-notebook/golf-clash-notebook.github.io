@@ -1,0 +1,35 @@
+tournament-name: Winter Links
+date: '2017-12-04'
+resources:
+  - title: Golf Clash Tommy - Qualifier
+    url: https://youtu.be/0Ib2VBe3mUU
+  - title: ItsRJTV - Qualifier
+    url: https://youtu.be/e3-kQe9F8TE
+holes:
+  - number: 1
+    course: Winter Links
+    course-hole: 1
+  - number: 2
+    course: Winter Links
+    course-hole: 2
+  - number: 3
+    course: Winter Links
+    course-hole: 3
+  - number: 4
+    course: Winter Links
+    course-hole: 4
+  - number: 5
+    course: Winter Links
+    course-hole: 5
+  - number: 6
+    course: Winter Links
+    course-hole: 6
+  - number: 7
+    course: Winter Links
+    course-hole: 7
+  - number: 8
+    course: Winter Links
+    course-hole: 8
+  - number: 9
+    course: Winter Links
+    course-hole: 9

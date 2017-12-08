@@ -1,0 +1,146 @@
+
+{% assign clubPath = include.club.name | remove: "The" | remove: " " | remove: "'" %}
+{% assign maxLevel = include.club.power | size %}
+
+<div class="panel panel-default gcn-card">
+  <div class="panel-heading">
+    <div class="thumbnail">
+      <img src="/img/golfclash/clubs/{{ clubPath }}.png" alt="{{ include.club.name }}">
+    </div>
+    <h4 class="title">{{ include.club.name }}</h4>
+    <div class="pull-right">
+      <a class="btn btn-default btn-xs btn-wind-chart hidden" role="button" data-toggle="popover" data-placement="auto left" data-html="true" data-club-name="{{ include.club.name }}">Wind Chart</a>
+    </div>
+  </div>
+  {% if include.club.description contains 'Help Wanted' %}
+    <div class="panel-body text-prototype">
+      {% lipsum 2 10 20 %}
+    </div>
+  {% else %}
+    <div class="panel-body">
+      {{ include.club.description }}
+    </div>
+  {% endif %}
+  <div class="table-responsive">
+    <table class="club-stat-table table table-condensed">
+      <thead>
+        <tr>
+          <th></th>
+          {% for level in (1..10) %}
+            <th>{{ forloop.index }}</th>
+          {% endfor %}
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th>Power</th>
+          {% for level in (0..9) %}
+            {% assign power = include.club.power[level] %}
+            {% if level < maxLevel %}
+              {% assign lastIndex = forloop.index0 | minus: 1 | max: 0 %}
+              {% if include.club.power[level] < 0 %}
+                <td>???</td>
+              {% elsif forloop.first or include.club.power[lastIndex] == include.club.power[forloop.index0] %}
+                <td>{{ power }}</td>
+              {% else %}
+                <td class="success">{{ power }}</td>
+              {% endif %}
+            {% else %}
+              <td class="danger">n/a</td>
+            {% endif %}
+          {% endfor %}
+        </tr>
+        <tr>
+          <th>Accuracy</th>
+          {% for level in (0..9) %}
+            {% assign accuracy = include.club.accuracy[level] %}
+            {% if level < maxLevel %}
+              {% assign lastIndex = forloop.index0 | minus: 1 | max: 0 %}
+              {% if include.club.accuracy[level] < 0 %}
+                <td>???</td>
+              {% elsif forloop.first or include.club.accuracy[lastIndex] == include.club.accuracy[forloop.index0] %}
+                <td>{{ accuracy }}</td>
+              {% else %}
+                <td class="success">{{ accuracy }}</td>
+              {% endif %}
+            {% else %}
+              <td class="danger">n/a</td>
+            {% endif %}
+          {% endfor %}
+        </tr>
+        <tr>
+          <th>Top Spin</th>
+          {% for level in (0..9) %}
+            {% assign topspin = include.club.topspin[level] %}
+            {% if level < maxLevel %}
+              {% assign lastIndex = forloop.index0 | minus: 1 | max: 0 %}
+              {% if include.club.topspin[level] < 0 %}
+                <td>???</td>
+              {% elsif forloop.first or include.club.topspin[lastIndex] == include.club.topspin[forloop.index0] %}
+                <td>{{ topspin }}</td>
+              {% else %}
+                <td class="success">{{ topspin }}</td>
+              {% endif %}
+            {% else %}
+              <td class="danger">n/a</td>
+            {% endif %}
+          {% endfor %}
+        </tr>
+        <tr>
+          <th>Back Spin</th>
+          {% for level in (0..9) %}
+            {% assign backspin = include.club.backspin[level] %}
+            {% if level < maxLevel %}
+              {% assign lastIndex = forloop.index0 | minus: 1 | max: 0 %}
+              {% if include.club.backspin[level] < 0 %}
+                <td>???</td>
+              {% elsif forloop.first or include.club.backspin[lastIndex] == include.club.backspin[forloop.index0] %}
+                <td>{{ backspin }}</td>
+              {% else %}
+                <td class="success">{{ backspin }}</td>
+              {% endif %}
+            {% else %}
+              <td class="danger">n/a</td>
+            {% endif %}
+          {% endfor %}
+        </tr>
+        <tr>
+          <th>Curl</th>
+          {% for level in (0..9) %}
+            {% assign curl = include.club.curl[level] %}
+            {% if level < maxLevel %}
+              {% assign lastIndex = forloop.index0 | minus: 1 | max: 0 %}
+              {% if include.club.curl[level] < 0 %}
+                <td>???</td>
+              {% elsif forloop.first or include.club.curl[lastIndex] == include.club.curl[forloop.index0] %}
+                <td>{{ curl }}</td>
+              {% else %}
+                <td class="success">{{ curl }}</td>
+              {% endif %}
+            {% else %}
+              <td class="danger">n/a</td>
+            {% endif %}
+          {% endfor %}
+        </tr>
+        <tr>
+          <th>Ball Guide</th>
+          {% for level in (0..9) %}
+            {% assign ballguide = include.club.ballguide[level] %}
+            {% if level < maxLevel %}
+              {% assign lastIndex = forloop.index0 | minus: 1 | max: 0 %}
+              {% if include.club.ballguide[level] < 0 %}
+                <td>???</td>
+              {% elsif forloop.first or include.club.ballguide[lastIndex] == include.club.ballguide[forloop.index0] %}
+                <td>{{ ballguide }}</td>
+              {% else %}
+                <td class="success">{{ ballguide }}</td>
+              {% endif %}
+            {% else %}
+              <td class="danger">n/a</td>
+            {% endif %}
+          {% endfor %}
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>

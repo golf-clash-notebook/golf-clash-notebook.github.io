@@ -1,0 +1,28 @@
+.club-stat-table > tbody > tr > th {
+  white-space: nowrap;
+}
+
+.clubs-thumb {
+  margin-bottom: 1.5em;
+  text-align: center;
+}
+
+.wind-chart {
+  min-height: 275px;
+  min-width: 275px;
+
+  > nav > ul > li > a {
+    cursor: default;
+  }
+}
+
+@media (max-height: 360px) {
+  .wind-chart {
+    min-height: 200px;
+    min-width: 200px;
+  }
+}
+
+.btn-wind-chart {
+  padding: 5px 25px;
+}

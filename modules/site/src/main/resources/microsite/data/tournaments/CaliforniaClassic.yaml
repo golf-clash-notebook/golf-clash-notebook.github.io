@@ -1,0 +1,30 @@
+tournament-name: California Classic
+date: '2017-11-06'
+holes:
+  - number: 1
+    course: Santa Ventura
+    course-hole: 3
+  - number: 2
+    course: Santa Ventura
+    course-hole: 2
+  - number: 3
+    course: Santa Ventura
+    course-hole: 1
+  - number: 4
+    course: Santa Ventura
+    course-hole: 4
+  - number: 5
+    course: Vineyard Acres
+    course-hole: 6
+  - number: 6
+    course: Juniper Point
+    course-hole: 1
+  - number: 7
+    course: Juniper Point
+    course-hole: 2
+  - number: 8
+    course: Juniper Point
+    course-hole: 4
+  - number: 9
+    course: Juniper Point
+    course-hole: 3

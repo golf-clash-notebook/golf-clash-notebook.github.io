@@ -1,0 +1,14 @@
+name: Santa Ventura
+holes:
+  - course: Santa Ventura
+    number: 1
+    par: 3
+  - course: Santa Ventura
+    number: 2
+    par: 4
+  - course: Santa Ventura
+    number: 3
+    par: 5
+  - course: Santa Ventura
+    number: 4
+    par: 4

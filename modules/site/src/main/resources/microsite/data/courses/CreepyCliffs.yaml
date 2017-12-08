@@ -1,0 +1,29 @@
+name: Creepy Cliffs
+holes:
+  - course: Creepy Cliffs
+    number: 1
+    par: 5
+  - course: Creepy Cliffs
+    number: 2
+    par: 3
+  - course: Creepy Cliffs
+    number: 3
+    par: 4
+  - course: Creepy Cliffs
+    number: 4
+    par: 3
+  - course: Creepy Cliffs
+    number: 5
+    par: 5
+  - course: Creepy Cliffs
+    number: 6
+    par: 3
+  - course: Creepy Cliffs
+    number: 7
+    par: 4
+  - course: Creepy Cliffs
+    number: 8
+    par: 4
+  - course: Creepy Cliffs
+    number: 9
+    par: 5

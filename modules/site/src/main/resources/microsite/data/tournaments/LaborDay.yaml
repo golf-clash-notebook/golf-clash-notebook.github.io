@@ -1,0 +1,30 @@
+tournament-name: Labor Day
+date: '2017-09-04'
+holes:
+  - number: 1
+    course: Santa Ventura
+    course-hole: 1
+  - number: 2
+    course: Santa Ventura
+    course-hole: 4
+  - number: 3
+    course: Santa Ventura
+    course-hole: 3
+  - number: 4
+    course: Southern Pines
+    course-hole: 2
+  - number: 5
+    course: Southern Pines
+    course-hole: 7
+  - number: 6
+    course: Southern Pines
+    course-hole: 4
+  - number: 7
+    course: The Milano
+    course-hole: 2
+  - number: 8
+    course: The Milano
+    course-hole: 1
+  - number: 9
+    course: The Milano
+    course-hole: 3

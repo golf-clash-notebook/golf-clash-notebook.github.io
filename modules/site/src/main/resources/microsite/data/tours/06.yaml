@@ -1,0 +1,24 @@
+number: 6
+name: U.S. Champions
+courses:
+  - name: Santa Ventura
+  - name: Southern Pines
+  - name: Sunshine Glades
+  - name: The Milano
+clubs:
+- name: Big Dawg
+description: >
+  Help Wanted
+resources:
+  - title: Golf Clash Tommy - Tour 6 Guides
+    url: https://www.youtube.com/watch?v=wFJOigxa9JA&list=PL8bCSk5yWdFIpWGLvTTSVPNCBLZU26Cwg
+  - title: Golf Clash Tommy - Road To Glory - Episode 5
+    url: https://youtu.be/a3LBqcfFaug?t=1h8m59s
+  - title: Golf Clash Tommy - Road To Glory - Episode 6
+    url: https://youtu.be/oLv2MQbYgvA
+  - title: Golf Clash Tommy - Road To Glory - Episode 7
+    url: https://youtu.be/8W7fCzagqWs
+  - title: Golf Clash Tommy - Road To Glory - Episode 8
+    url: https://youtu.be/sgI7zfH7k1g
+  - title: Golf Clash Tommy - Road To Glory - Episode 9
+    url: https://youtu.be/bEjuNogGD0Q

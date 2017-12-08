@@ -1,0 +1,71 @@
+.hole-map-container {
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.hole-map-overlays {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.hole-map-svg {
+  display: inline;
+  height: 100%;
+  width: 100%;
+}
+
+.guide-button-toggles {
+  display: flex;
+
+  > label {
+    flex: 1;
+    margin: 0 5px;
+    padding: 0 10px;
+  }
+}
+
+path.guide-path {
+  display: none;
+}
+
+circle.guide-point {
+  display: none;
+  transform: scale(0);
+  transform-origin: center;
+  transform-box: fill-box;
+}
+
+.guide-image-annotation > {
+  circle {
+    display: none;
+    transform: scale(0);
+    transform-origin: center;
+    transform-box: fill-box;
+  }
+
+  path {
+    display: none;
+  }
+
+  image {
+    display: none;
+    transform: scale(0);
+    transform-origin: center;
+    transform-box: fill-box;
+  }
+}
+
+@keyframes guidePathDashOffset {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+@keyframes guidePointScale {
+  to {
+    transform: scale(1);
+  }
+}

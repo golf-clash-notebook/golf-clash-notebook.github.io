@@ -1,0 +1,30 @@
+tournament-name: Haunted Hills
+date: '2017-10-09'
+holes:
+  - number: 1
+    course: Haunted Hills
+    course-hole: 1
+  - number: 2
+    course: Haunted Hills
+    course-hole: 2
+  - number: 3
+    course: Haunted Hills
+    course-hole: 3
+  - number: 4
+    course: Haunted Hills
+    course-hole: 4
+  - number: 5
+    course: Haunted Hills
+    course-hole: 5
+  - number: 6
+    course: Haunted Hills
+    course-hole: 6
+  - number: 7
+    course: Haunted Hills
+    course-hole: 7
+  - number: 8
+    course: Haunted Hills
+    course-hole: 8
+  - number: 9
+    course: Haunted Hills
+    course-hole: 9

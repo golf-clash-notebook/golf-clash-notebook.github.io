@@ -1,0 +1,15 @@
+number: 5
+name: World Links
+courses:
+  - name: Greenoch Point
+  - name: Juniper Point
+  - name: Namhae Cliffs
+description: >
+  Help Wanted
+resources:
+  - title: Golf Clash Tommy - Tour 5 Guides
+    url: https://www.youtube.com/watch?v=_P-7r14EfHM&list=PL8bCSk5yWdFLV3Q6AXs9QsoyN7z0fD1uN
+  - title: Golf Clash Tommy - Road To Glory - Episode 4
+    url: https://youtu.be/oSF6co1-_vw?t=17m25s
+  - title: Golf Clash Tommy - Road To Glory - Episode 5
+    url: https://youtu.be/a3LBqcfFaug
