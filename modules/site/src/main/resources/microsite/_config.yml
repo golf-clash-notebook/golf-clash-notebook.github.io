@@ -12,7 +12,7 @@ page_gen:
     data: 'tournaments'
     template: 'tournament-notes-template'
     name: 'tournament-name'
-    dir: 'tournaments/notes'
+    dir: 'tournaments/notesheets'
   - index_files: true
     data: 'courses.CreepyCliffs.holes'
     template: 'course-hole-template'
