@@ -3,12 +3,256 @@ holes:
   - course: Juniper Point
     number: 1
     par: 3
+    description: >
+      Help Wanted
+    clubRecommendations:
+      - level: Rookie
+        clubs:
+          - Backbone
+          - Goliath
+      - level: Pro
+        clubs:
+          - Guardian
+          - Sniper
+      - level: Masters
+        clubs:
+          - Rocket
+          - Quarterback
+    resources:
+    overlays:
+      size: [446, 843]
+      guides:
+      - name: Black Path
+        text: >
+          Help Wanted
+        levels:
+          - name: Rookie
+            svg:
+              <path d="M 234 577 L 242 154" stroke="black" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="0" />
+              <circle cx="234" cy="577" r="6" fill="black" class="guide-point" data-guide-segment="0" />
+              <circle cx="242" cy="154" r="6" fill="black" class="guide-point" data-guide-segment="1" />
+          - name: Pro
+            svg:
+              <path d="M 232 660 L 242 154" stroke="black" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="0" />
+              <circle cx="232" cy="660" r="6" fill="black" class="guide-point" data-guide-segment="0" />
+              <circle cx="242" cy="154" r="6" fill="black" class="guide-point" data-guide-segment="1" />
+          - name: Masters
+            svg:
+              <path d="M 230 747 L 242 154" stroke="black" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="0" />
+              <circle cx="230" cy="747" r="6" fill="black" class="guide-point" data-guide-segment="0" />
+              <circle cx="242" cy="154" r="6" fill="black" class="guide-point" data-guide-segment="1" />
   - course: Juniper Point
     number: 2
     par: 4
+    description: >
+      Help Wanted
+    clubRecommendations:
+      - level: Rookie
+        clubs:
+          - Thorn
+          - Hornet
+      - level: Pro
+        clubs:
+          - Goliath
+          - Backbone
+      - level: Masters
+        clubs:
+          - Sniper
+    resources:
+    overlays:
+      size: [396, 938]
+      guides:
+      - name: Black Path
+        text: >
+          Help Wanted
+        levels:
+          - name: Rookie
+            svg:
+              <path d="M 203 674 L 177 244" stroke="black" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="0" />
+              <path d="M 177 244 L 214 130" stroke="black" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="1" />
+              <circle cx="203" cy="674" r="6" fill="black" class="guide-point" data-guide-segment="0" />
+              <circle cx="177" cy="244" r="6" fill="black" class="guide-point" data-guide-segment="1" />
+              <circle cx="214" cy="130" r="6" fill="black" class="guide-point" data-guide-segment="2" />
+          - name: Pro
+            svg:
+              <path d="M 206 723 L 177 244" stroke="black" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="0" />
+              <path d="M 177 244 L 214 130" stroke="black" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="1" />
+              <circle cx="206" cy="723" r="6" fill="black" class="guide-point" data-guide-segment="0" />
+              <circle cx="177" cy="244" r="6" fill="black" class="guide-point" data-guide-segment="1" />
+              <circle cx="214" cy="130" r="6" fill="black" class="guide-point" data-guide-segment="2" />
+          - name: Masters
+            svg:
+              <path d="M 208 773 L 177 244" stroke="black" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="0" />
+              <path d="M 177 244 L 214 130" stroke="black" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="1" />
+              <circle cx="208" cy="773" r="6" fill="black" class="guide-point" data-guide-segment="0" />
+              <circle cx="177" cy="244" r="6" fill="black" class="guide-point" data-guide-segment="1" />
+              <circle cx="214" cy="130" r="6" fill="black" class="guide-point" data-guide-segment="2" />
+      - name: White Path
+        text: >
+          Help Wanted
+        levels:
+          - name: Rookie
+            svg:
+              <path d="M 203 674 L 242 252" stroke="white" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="0" />
+              <path d="M 242 252 L 226 132" stroke="white" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="1" />
+              <circle cx="203" cy="674" r="6" fill="white" class="guide-point" data-guide-segment="0" />
+              <circle cx="242" cy="252" r="6" fill="white" class="guide-point" data-guide-segment="1" />
+              <circle cx="226" cy="132" r="6" fill="white" class="guide-point" data-guide-segment="2" />
+          - name: Pro
+            svg:
+              <path d="M 206 723 L 242 252" stroke="white" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="0" />
+              <path d="M 242 252 L 226 132" stroke="white" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="1" />
+              <circle cx="206" cy="723" r="6" fill="white" class="guide-point" data-guide-segment="0" />
+              <circle cx="242" cy="252" r="6" fill="white" class="guide-point" data-guide-segment="1" />
+              <circle cx="226" cy="132" r="6" fill="white" class="guide-point" data-guide-segment="2" />
+          - name: Masters
+            svg:
+              <path d="M 208 773 L 242 252" stroke="white" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="0" />
+              <path d="M 242 252 L 226 132" stroke="white" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="1" />
+              <circle cx="208" cy="773" r="6" fill="white" class="guide-point" data-guide-segment="0" />
+              <circle cx="242" cy="252" r="6" fill="white" class="guide-point" data-guide-segment="1" />
+              <circle cx="226" cy="132" r="6" fill="white" class="guide-point" data-guide-segment="2" />
   - course: Juniper Point
     number: 3
     par: 5
+    description: >
+      Help Wanted
+    clubRecommendations:
+      - level: Rookie
+        clubs:
+          - Viper
+          - Sniper
+      - level: Pro
+        clubs:
+          - Sniper
+          - Guardian
+      - level: Masters
+        clubs:
+          - Cataclysm
+          - Guardian
+    resources:
+    overlays:
+      size: [449, 1085]
+      guides:
+      - name: Black Path
+        text: >
+          Help Wanted
+        levels:
+          - name: Rookie
+            svg:
+              <path d="M 191 838 L 195 382" stroke="black" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="0" />
+              <path d="M 195 382 L 263 137" stroke="black" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="1" />
+              <circle cx="191" cy="838" r="6" fill="black" class="guide-point" data-guide-segment="0" />
+              <circle cx="195" cy="382" r="6" fill="black" class="guide-point" data-guide-segment="1" />
+              <circle cx="263" cy="137" r="6" fill="black" class="guide-point" data-guide-segment="2" />
+          - name: Pro
+            svg:
+              <path d="M 184 887 L 195 382" stroke="black" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="0" />
+              <path d="M 195 382 L 263 137" stroke="black" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="1" />
+              <circle cx="184" cy="887" r="6" fill="black" class="guide-point" data-guide-segment="0" />
+              <circle cx="195" cy="382" r="6" fill="black" class="guide-point" data-guide-segment="1" />
+              <circle cx="263" cy="137" r="6" fill="black" class="guide-point" data-guide-segment="2" />
+          - name: Masters
+            svg:
+              <path d="M 176 940 L 195 382" stroke="black" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="0" />
+              <path d="M 195 382 L 263 137" stroke="black" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="1" />
+              <circle cx="176" cy="940" r="6" fill="black" class="guide-point" data-guide-segment="0" />
+              <circle cx="195" cy="382" r="6" fill="black" class="guide-point" data-guide-segment="1" />
+              <circle cx="263" cy="137" r="6" fill="black" class="guide-point" data-guide-segment="2" />
+      - name: White Path
+        text: >
+          Help Wanted
+        levels:
+          - name: Rookie
+            svg:
+              <path d="M 191 838 C 142 500 142 500 263 290" stroke="white" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="0" />
+              <path d="M 263 290 L 272 138" stroke="white" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="1" />
+              <circle cx="191" cy="838" r="6" fill="white" class="guide-point" data-guide-segment="0" />
+              <circle cx="263" cy="290" r="6" fill="white" class="guide-point" data-guide-segment="1" />
+              <circle cx="272" cy="138" r="6" fill="white" class="guide-point" data-guide-segment="2" />
+          - name: Pro
+            svg:
+              <path d="M 184 887 C 142 500 142 500 263 290" stroke="white" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="0" />
+              <path d="M 263 290 L 272 138" stroke="white" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="1" />
+              <circle cx="184" cy="887" r="6" fill="white" class="guide-point" data-guide-segment="0" />
+              <circle cx="263" cy="290" r="6" fill="white" class="guide-point" data-guide-segment="1" />
+              <circle cx="272" cy="138" r="6" fill="white" class="guide-point" data-guide-segment="2" />
+          - name: Masters
+            svg:
+              <path d="M 176 940 C 142 500 142 500 263 290" stroke="white" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="0" />
+              <path d="M 263 290 L 272 138" stroke="white" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="1" />
+              <circle cx="176" cy="940" r="6" fill="white" class="guide-point" data-guide-segment="0" />
+              <circle cx="263" cy="290" r="6" fill="white" class="guide-point" data-guide-segment="1" />
+              <circle cx="272" cy="138" r="6" fill="white" class="guide-point" data-guide-segment="2" />
   - course: Juniper Point
     number: 4
     par: 4
+    description: >
+      Help Wanted
+    clubRecommendations:
+      - level: Rookie
+        clubs:
+          - Backbone
+          - Goliath
+      - level: Pro
+        clubs:
+          - Backbone
+          - Goliath
+      - level: Masters
+        clubs:
+          - Backbone
+          - Goliath
+    resources:
+    overlays:
+      size: [395, 863]
+      guides:
+      - name: Black Path
+        text: >
+          Help Wanted
+        levels:
+          - name: Rookie
+            svg:
+              <path d="M 118 690 L 182 266" stroke="black" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="0" />
+              <path d="M 182 266 L 157 112" stroke="black" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="1" />
+              <circle cx="118" cy="690" r="6" fill="black" class="guide-point" data-guide-segment="0" />
+              <circle cx="182" cy="266" r="6" fill="black" class="guide-point" data-guide-segment="1" />
+              <circle cx="157" cy="112" r="6" fill="black" class="guide-point" data-guide-segment="2" />
+          - name: Pro
+            svg:
+              <path d="M 100 744 L 182 266" stroke="black" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="0" />
+              <path d="M 182 266 L 157 112" stroke="black" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="1" />
+              <circle cx="100" cy="744" r="6" fill="black" class="guide-point" data-guide-segment="0" />
+              <circle cx="182" cy="266" r="6" fill="black" class="guide-point" data-guide-segment="1" />
+              <circle cx="157" cy="112" r="6" fill="black" class="guide-point" data-guide-segment="2" />
+          - name: Masters
+            svg:
+              <path d="M 82 797 L 182 266" stroke="black" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="0" />
+              <path d="M 182 266 L 157 112" stroke="black" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="1" />
+              <circle cx="82" cy="797" r="6" fill="black" class="guide-point" data-guide-segment="0" />
+              <circle cx="182" cy="266" r="6" fill="black" class="guide-point" data-guide-segment="1" />
+              <circle cx="157" cy="112" r="6" fill="black" class="guide-point" data-guide-segment="2" />
+      - name: White Path
+        text: >
+          Help Wanted
+        levels:
+          - name: Rookie
+            svg:
+              <path d="M 118 690 L 247 277" stroke="white" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="0" />
+              <path d="M 247 277 L 165 116" stroke="white" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="1" />
+              <circle cx="118" cy="690" r="6" fill="white" class="guide-point" data-guide-segment="0" />
+              <circle cx="247" cy="277" r="6" fill="white" class="guide-point" data-guide-segment="1" />
+              <circle cx="165" cy="116" r="6" fill="white" class="guide-point" data-guide-segment="2" />
+          - name: Pro
+            svg:
+              <path d="M 100 744 L 247 277" stroke="white" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="0" />
+              <path d="M 247 277 L 165 116" stroke="white" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="1" />
+              <circle cx="100" cy="744" r="6" fill="white" class="guide-point" data-guide-segment="0" />
+              <circle cx="247" cy="277" r="6" fill="white" class="guide-point" data-guide-segment="1" />
+              <circle cx="165" cy="116" r="6" fill="white" class="guide-point" data-guide-segment="2" />
+          - name: Masters
+            svg:
+              <path d="M 82 797 L 247 277" stroke="white" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="0" />
+              <path d="M 247 277 L 165 116" stroke="white" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="1" />
+              <circle cx="82" cy="797" r="6" fill="white" class="guide-point" data-guide-segment="0" />
+              <circle cx="247" cy="277" r="6" fill="white" class="guide-point" data-guide-segment="1" />
+              <circle cx="165" cy="116" r="6" fill="white" class="guide-point" data-guide-segment="2" />
