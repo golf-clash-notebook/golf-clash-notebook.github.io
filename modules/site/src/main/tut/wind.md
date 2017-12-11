@@ -34,19 +34,7 @@ position: 60
         {% for resource in site.data.wind.resources %}
 
           {% capture resourceIcon %}
-            {% if resource.url contains 'facebook' %}
-              <i class="fab fa-facebook text-facebook" aria-hidden="true"></i>
-            {% elsif resource.url contains 'reddit' %}
-              <i class="fab fa-reddit text-reddit" aria-hidden="true"></i>
-            {% elsif resource.url contains 'twitch' %}
-              <i class="fab fa-twitch text-twitch" aria-hidden="true"></i>
-            {% elsif resource.url contains 'twitter' %}
-              <i class="fab fa-twitter text-twitter" aria-hidden="true"></i>
-            {% elsif resource.url contains 'youtube' or resource.url contains 'youtu.be' %}
-              <i class="fab fa-youtube text-youtube" aria-hidden="true"></i>
-            {% else %}
-              <i class="fas fa-book" aria-hidden="true"></i>
-            {% endif %}
+            {% include resources/icon.liquid resource=resource %}
           {% endcapture %}
 
           <li class="list-group-item gcn-resource text-small"><a href="{{ resource.url }}" target="_blank" rel="noopener">{{ resourceIcon }} {{ resource.title }}</a></li>

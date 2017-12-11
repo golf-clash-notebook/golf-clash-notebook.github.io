@@ -1,5 +1,16 @@
 tournament-name: UK Champions
 date: '2017-07-17'
+resources:
+  - title: Golf Clash Tommy - Weekend Round - Front 9
+    url: https://youtu.be/Qb6fiVNmcKI
+  - title: Golf Clash Tommy - Weekend Round - Back 9
+    url: https://youtu.be/Whlap__rZbU
+  - title: Golf Clash Tommy - Opening Round - Front 9
+    url: https://youtu.be/b2iaUr3_wwU
+  - title: Golf Clash Tommy - Opening Round - Back 9
+    url: https://youtu.be/5R9ow-EQRks
+  - title: Golf Clash Tommy - Qualifying Round
+    url: https://youtu.be/Pi2pAXwK4yE
 holes:
   - number: 1
     course: Greenoch Point

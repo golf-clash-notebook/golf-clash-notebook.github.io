@@ -8,21 +8,23 @@
 }
 
 .wind-chart {
-  min-height: 275px;
-  min-width: 275px;
+
+  > svg {
+    display: block;
+    margin: 0 auto;
+    max-height: 60vh;
+    max-width: 60vh;
+  }
 
   > nav > ul > li > a {
     cursor: default;
   }
 }
 
-@media (max-height: 360px) {
-  .wind-chart {
-    min-height: 200px;
-    min-width: 200px;
-  }
+.btn-wind-chart {
+  padding: 5px 25px;
 }
 
-.btn-wind-chart {
+.btn-wind-chart-modal {
   padding: 5px 25px;
 }

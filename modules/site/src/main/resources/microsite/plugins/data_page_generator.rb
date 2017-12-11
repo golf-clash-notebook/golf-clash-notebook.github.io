@@ -1,6 +1,12 @@
 # Generate pages from individual records in yml files
 # (c) 2014-2016 Adolfo Villafiorita
 # Distributed under the conditions of the MIT License
+#
+# Note: This a a modified version from 'https://github.com/avillafiorita/jekyll-datapage_gen'
+#   - Supports hashes
+#   - Supports using templates outside '_layouts' directory
+#   - Supports template files with extension other than '.html'
+#   - Supports passing in custom data
 
 module Jekyll
 
@@ -13,7 +19,7 @@ module Jekyll
       return name.tr(
   "ÀÁÂÃÄÅàáâãäåĀāĂăĄąÇçĆćĈĉĊċČčÐðĎďĐđÈÉÊËèéêëĒēĔĕĖėĘęĚěĜĝĞğĠġĢģĤĥĦħÌÍÎÏìíîïĨĩĪīĬĭĮįİıĴĵĶķĸĹĺĻļĽľĿŀŁłÑñŃńŅņŇňŉŊŋÑñÒÓÔÕÖØòóôõöøŌōŎŏŐőŔŕŖŗŘřŚśŜŝŞşŠšſŢţŤťŦŧÙÚÛÜùúûüŨũŪūŬŭŮůŰűŲųŴŵÝýÿŶŷŸŹźŻżŽž",
   "AAAAAAaaaaaaAaAaAaCcCcCcCcCcDdDdDdEEEEeeeeEeEeEeEeEeGgGgGgGgHhHhIIIIiiiiIiIiIiIiIiJjKkkLlLlLlLlLlNnNnNnNnnNnNnOOOOOOooooooOoOoOoRrRrRrSsSsSsSssTtTtTtUUUUuuuuUuUuUuUuUuUuWwYyyYyYZzZzZz"
-).downcase.strip.gsub(' ', '-').gsub(/[^\w.-]/, '')
+).strip.gsub(' ', '').gsub(/[^\w.-]/, '')
     end
   end
 
@@ -29,7 +35,7 @@ module Jekyll
     # - `name` is the key in `data` which determines the output filename
     # - `template` is the name of the template for generating the page
     # - `extension` is the extension for the generated file
-    def initialize(site, base, index_files, dir, data, name, template, extension)
+    def initialize(site, base, index_files, dir, data, name, template, extension, extra)
       @site = site
       @base = base
 
@@ -42,9 +48,15 @@ module Jekyll
       @dir = dir + (index_files ? "/" + filename + "/" : "")
       @name = (index_files ? "index" : filename) + "." + extension.to_s
 
+      templateDir = File.dirname(template)
+      templateName = File.basename(template)
+
       self.process(@name)
-      self.read_yaml(File.join(base, '_layouts'), template + ".html")
+      self.read_yaml(templateDir, templateName)
       self.data['title'] = data[name]
+
+      self.data.merge!(extra)
+
       # add all the information defined in _data for the current record to the
       # current page (so that we can access it with liquid tags)
       self.data.merge!(data)
@@ -73,8 +85,9 @@ module Jekyll
           name = data_spec['name']
           dir = data_spec['dir'] || data_spec['data']
           extension = data_spec['extension'] || "html"
+          extra = data_spec['extra'] || Hash.new
 
-          if site.layouts.key? template
+          if(File.file?(template))
             # records is the list of records defined in _data.yml
             # for which we want to generate different pages
             records = nil
@@ -86,16 +99,17 @@ module Jekyll
               end
             end
 
+            # If data is a hash, just extract the values
             if(records.is_a?(Hash))
               records = records.values
             end
 
             records = records.select { |r| r[data_spec['filter']] } if data_spec['filter']
             records.each do |record|
-              site.pages << DataPage.new(site, site.source, index_files, dir, record, name, template, extension)
+              site.pages << DataPage.new(site, site.source, index_files, dir, record, name, template, extension, extra)
             end
           else
-            puts "error. could not find template #{template}" if not site.layouts.key? template
+            puts "error. could not find template #{template}"
           end
         end
       end

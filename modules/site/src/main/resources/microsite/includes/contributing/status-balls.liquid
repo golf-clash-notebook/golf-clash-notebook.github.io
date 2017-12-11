@@ -1,0 +1,16 @@
+
+{% assign numBalls = site.data.balls | size %}
+
+{% capture describedBallNames %}
+  {% for ballHash in site.data.balls %}
+    {% if ballHash[1].description contains 'Help Wanted' %}
+    {% else %}
+      {{ ballHash[1].name }}
+    {% endif %}
+  {% endfor %}
+{% endcapture %}
+
+{% assign describedBalls = describedBallNames | split: ' ' | size %}
+{% assign describedBallPercent = describedBalls | times: 100 | divided_by: numBalls %}
+
+{% include contributing/status-progress-bar.liquid label='Balls' percentage=describedBallPercent value=describedBalls max=numBalls %}

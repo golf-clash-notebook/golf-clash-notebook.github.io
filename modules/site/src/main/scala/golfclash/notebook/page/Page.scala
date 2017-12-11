@@ -36,10 +36,13 @@ object Page {
   case object Clubs       extends Page("/clubs/", Some(clubs.init))
   case object Courses     extends Page("/courses/", Some(courses.init))
   case object Home        extends Page("/")
-  case object Tournaments extends Page("/tournaments/")
+  case object Tournaments extends Page("/tournaments/", Some(tournaments.init))
   case object Tours       extends Page("/tours/")
 
-  private val all = List(Balls, Clubs, Courses, Home, Tournaments, Tours)
+  // TODO: Probably want to use regex and be a little more specific which page we're on
+  // (e.g. tournament list page, tournament hole page, etc.)
+  // Currently, Home will match anything that falls through
+  private val all = List(Balls, Clubs, Courses, Tournaments, Tours, Home)
 
   def forUrlPath(path: String): Option[Page] = {
     all.find(page => path.startsWith(page.baseUrl))

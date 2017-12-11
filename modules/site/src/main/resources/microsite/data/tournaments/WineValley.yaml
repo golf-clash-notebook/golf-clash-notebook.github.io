@@ -1,5 +1,16 @@
 tournament-name: Wine Valley
 date: '2017-09-18'
+resources:
+  - title: Golf Clash Tommy - Weekend Round - Front 9
+    url: https://youtu.be/7BECStIXtYs
+  - title: Golf Clash Tommy - Weekend Round - Back 9
+    url: https://youtu.be/9LD8jK724No
+  - title: Golf Clash Tommy - Opening Round - Front 9
+    url: https://youtu.be/_V2SrfCzVLc
+  - title: Golf Clash Tommy - Opening Round - Back 9
+    url: https://youtu.be/KEuIi1F2P-I
+  - title: Golf Clash Tommy - Qualifying Round
+    url: https://youtu.be/mJ-3VxYg1hM
 holes:
   - number: 1
     course: Vineyard Acres

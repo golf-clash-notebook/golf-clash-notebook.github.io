@@ -1,0 +1,180 @@
+---
+layout: gcn-layout
+title: "{{ page.tournament-name }} - Hole {{ page.number }}"
+section: "courses"
+---
+
+{% assign tournamentPath = page.tournament-name | remove: " " %}
+{% assign coursePath = page.course | remove: " " %}
+
+{% assign tournament = site.data.tournaments[tournamentPath] %}
+
+{% assign holeCourseIx = page.course-hole | minus: 1 %}
+{% assign hole = site.data.courses[coursePath].holes[holeCourseIx] %}
+
+{% assign numHoles = tournament.holes | size %}
+
+<div class="row hidden-lg hidden-md">
+  <div class="col-lg-12">
+    <img class="hole-tournament-title-image img-responsive img-center" src="/img/golfclash/tournaments/titles/{{ tournamentPath }}.png">
+    <h2 class="gcn-page-subheader">Hole {{ page.number }} - Par {{ hole.par }}</h2>
+    <nav class="text-center" aria-label="Course hole navigation">
+      <ul class="pagination pagination-sm justify-content-center">
+        {% for hole in (1..numHoles) %}
+          {% if hole == page.number %}
+            <li class="page-item active"><a class="page-link" href="#">{{ hole }}</a></li>
+          {% else %}
+            <li class="page-item"><a class="page-link" href="/tournaments/{{ tournamentPath }}/{{ hole }}/">{{ hole }}</a></li>
+          {% endif %}
+        {% endfor %}
+      </ul>
+    </nav>
+  </div>
+  <div class="col-lg-12">
+    <hr>
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-md-8 col-sm-12">
+    <div>
+      <div class="hole-map-container">
+        <div class="hole-map">
+          <img src="/img/golfclash/courses/{{ coursePath }}/{{ hole.number }}.png" alt="Hole {{ page.number }} Map" title="Hole {{ page.number }} Map" class="course-hole-map img-responsive img-center">
+        </div>
+
+        {% if hole.overlays.size %}
+
+          {% assign width = hole.overlays.size | first %}
+          {% assign height = hole.overlays.size | last %}
+
+          <div class="hole-map-overlays">
+            <svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewbox="0 0 {{ width }} {{ height }}" class="hole-map-svg">
+              {% for guide in hole.overlays.guides %}
+                {% for level in guide.levels %}
+                  {% assign levelName = level.name %}
+                  <g class="{{ levelName }}-guide-overlay">
+                    {{ level.svg }}
+                  </g>
+                {% endfor %}
+              {% endfor %}
+              {% for annotation in hole.overlays.annotations %}
+                {{ annotation.svg }}
+              {% endfor %}
+            </svg>
+          </div>
+        {% endif %}
+
+      </div>
+    </div>
+  </div>
+  <div class="col-md-4 col-md-offset-0 col-sm-10 col-sm-offset-1 col-xs-12">
+    <div class="visible-lg visible-md">
+      <img class="hole-tournament-title-image img-responsive img-center" src="/img/golfclash/tournaments/titles/{{ tournamentPath }}.png">
+      <h5 class="text-center">Hole {{ page.number }} - Par {{ hole.par }}</h5>
+      <nav class="text-center" aria-label="Course hole navigation">
+        <ul class="pagination pagination-sm justify-content-center">
+          {% for hole in (1..numHoles) %}
+            {% if hole == page.number %}
+              <li class="page-item active"><a class="page-link" href="#">{{ hole }}</a></li>
+            {% else %}
+              <li class="page-item"><a class="page-link" href="/tournaments/{{ tournamentPath }}/{{ hole }}/">{{ hole }}</a></li>
+            {% endif %}
+          {% endfor %}
+        </ul>
+      </nav>
+    </div>
+
+    <div class="btn-group guide-button-toggles" data-toggle="buttons">
+      <label class="btn btn-toggle-rookie active">
+        <input type="radio" name="level" id="Rookie" autocomplete="off" checked> Rookie
+      </label>
+      <label class="btn btn-toggle-pro">
+        <input type="radio" name="level" id="Pro" autocomplete="off"> Pro / Expert
+      </label>
+      <label class="btn btn-toggle-masters">
+        <input type="radio" name="level" id="Masters" autocomplete="off"> Masters
+      </label>
+    </div>
+
+    {% for clubRecommendations in hole.clubRecommendations %}
+      {% assign recommendationLevel = clubRecommendations.level %}
+
+      {% capture initalVisibility %}
+        {% if recommendationLevel != 'Rookie' %}
+          hidden
+        {% endif %}
+      {% endcapture %}
+
+      <div class="pull-right {{ recommendationLevel }}-club-recommendations {{ initalVisibility }}">
+        <div class="club-recommendation-list" style="margin-top: 25px;">
+          {% for club in clubRecommendations.clubs %}
+            {% assign clubPath = club | remove: "The" | remove: " " | remove: "'" %}
+            <img class="club-recommendation-item" src="/img/golfclash/clubs/{{ clubPath }}.png" alt="{{ club }}">
+            <div class="club-recommendation-item-caption text-tiny text-center text-semi-muted">{{ club.name }}</div>
+            {% if forloop.rindex > 1 %}
+              <hr>
+            {% endif %}
+          {% endfor %}
+        </div>
+      </div>
+    {% endfor %}
+
+    {% if hole.description == undefined or hole.description contains 'Help Wanted' %}
+      <p class="text-prototype" style="margin-top: 20px;">
+        {% lipsum 2 5 10 %}
+      </p>
+    {% else %}
+      <p style="margin-top: 20px;">
+        {{ hole.description }}
+      </p>
+    {% endif %}
+
+    {% for guide in hole.overlays.guides %}
+      {% for level in guide.levels %}
+        {% assign levelName = level.name %}
+
+          {% if guide.text contains 'Help Wanted' %}
+            <p class="text-prototype {{ levelName }}-guide-text hidden" style="margin-top: 20px;">
+              {% lipsum 2 5 10 %}
+            </p>
+          {% else %}
+            <h4 class="{{ levelName }}-guide-text hidden">{{ guide.name }}</h4>
+            <p class="{{ levelName }}-guide-text hidden" style="margin-top: 20px;">
+              {{ guide.text }}
+            </p>
+          {% endif %}
+
+      {% endfor %}
+    {% endfor %}
+
+    {% if hole.aliases != undefined and hole.aliases != empty %}
+
+      <h3 class="text-center">Aliases</h3>
+      <div class="list-group">
+      {% for alias in hole.aliases %}
+        {% assign aliasCoursePath = alias.course | remove: " " %}
+          <li class="list-group-item gcn-resource text-small"><a href="/courses/{{ aliasCoursePath }}/{{ alias.hole }}/">{{ alias.course }} - Hole {{ alias.hole }}</a></li>
+      {% endfor %}
+
+    {% endif %}
+
+    {% if hole.resources and hole.resources != empty %}
+
+      <h3 class="text-center">Additional Resources</h3>
+      <div class="list-group">
+        {% for resource in hole.resources %}
+
+          {% capture resourceIcon %}
+            {% include resources/icon.liquid resource=resource %}
+          {% endcapture %}
+
+          <li class="list-group-item gcn-resource text-small"><a href="{{ resource.url }}" target="_blank" rel="noopener">{{ resourceIcon }} {{ resource.title }}</a></li>
+        {% endfor %}
+      </div>
+      <ul>
+    {% endif %}
+
+  </div>
+
+</div>

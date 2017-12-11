@@ -11,7 +11,7 @@
 #nav-container {
   display: flex;
   justify-content: center;
-  z-index: 10000;
+  z-index: 1000;
 
   > ul.horizontalNav {
     box-sizing: border-box;
@@ -28,7 +28,7 @@
     top: 0;
     left: 0;
     right: 0;
-    z-index: 10000;
+    z-index: 1000;
     transition-duration: 0.2s;
   }
 }

@@ -1,5 +1,12 @@
 tournament-name: 4th Of July
 date: '2017-07-03'
+resources:
+  - title: Golf Clash Tommy - Opening Round - Front 9
+    url: https://youtu.be/qJETaAOWyz8
+  - title: Golf Clash Tommy - Opening Round - Back 9
+    url: https://youtu.be/0gUrKlvMRuE
+  - title: Golf Clash Tommy - Qualifying Round
+    url: https://youtu.be/ryyPOh11QfU
 holes:
   - number: 1
     course: The Milano

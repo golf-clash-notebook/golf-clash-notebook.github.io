@@ -1,5 +1,14 @@
 tournament-name: Sakura Classic
 date: '2017-08-21'
+resources:
+  - title: Golf Clash Tommy - Weekend Round - Front 9
+    url: https://youtu.be/AfgxcnNzxGc
+  - title: Golf Clash Tommy - Weekend Round - Back 9
+    url: https://youtu.be/SqE3pxRQO3g
+  - title: Golf Clash Tommy - Opening Round - Front 9
+    url: https://youtu.be/qtgRmHvM4WY
+  - title: Golf Clash Tommy - Qualifying Round
+    url: https://youtu.be/FdpvF7LnsuU
 holes:
   - number: 1
     course: Sakura Hills

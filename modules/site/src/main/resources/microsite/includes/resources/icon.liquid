@@ -1,0 +1,24 @@
+
+{% if include.size == undefined %}
+  {% assign iconSize = 1 %}
+{% else %}
+  {% assign iconSize = include.size %}
+{% endif %}
+
+{% capture icon %}
+  {% if resource.url contains 'facebook' %}
+    <i class="fab fa-facebook text-facebook fa-{{ iconSize }}x" aria-hidden="true"></i>
+  {% elsif resource.url contains 'reddit' %}
+    <i class="fab fa-reddit text-reddit fa-{{ iconSize }}x" aria-hidden="true"></i>
+  {% elsif resource.url contains 'twitch' %}
+    <i class="fab fa-twitch text-twitch fa-{{ iconSize }}x" aria-hidden="true"></i>
+  {% elsif resource.url contains 'twitter' %}
+    <i class="fab fa-twitter text-twitter fa-{{ iconSize }}x" aria-hidden="true"></i>
+  {% elsif resource.url contains 'youtube' or resource.url contains 'youtu.be' %}
+    <i class="fab fa-youtube text-youtube fa-{{ iconSize }}x" aria-hidden="true"></i>
+  {% else %}
+    <i class="fas fa-book fa-{{ iconSize }}x" aria-hidden="true"></i>
+  {% endif %}
+{% endcapture %}
+
+{{ icon }}

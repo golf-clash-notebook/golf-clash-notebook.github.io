@@ -1,0 +1,54 @@
+---
+layout: gcn-bare
+---
+
+{% assign coursePath = page.course-name | remove: " " %}
+{% assign numHoles = page.holes | size %}
+
+<div class="tournament-notes">
+
+<div class="row">
+
+<div class="col-lg-6 col-lg-offset-3 note-col">
+  <h1 class="center-block text-center text-semi-muted">{{ page.course-name }}</h1>
+  <h5 class="center-block text-center text-semi-muted pad-12">
+    <span class="tournament-notes-level"><i class="far fa-square"></i> Rookie</span>
+    <span class="tournament-notes-level"><i class="far fa-square"></i> Pro</span>
+    <span class="tournament-notes-level"><i class="far fa-square"></i> Expert</span>
+    <span class="tournament-notes-level"><i class="far fa-square"></i> Masters</span>
+  </h5>
+</div>
+
+{% for hole in page.holes %}
+
+  {% assign loopMod2 = forloop.index0 | modulo: 2 %}
+
+  {% assign firstHoleIx = forloop.index0 %}
+  {% assign secondHoleIx = forloop.index0 | plus: 1 %}
+
+  {% assign firstHole = page.holes[firstHoleIx] %}
+  {% assign secondHole = page.holes[secondHoleIx] %}
+
+  {% if loopMod2 == 0 and forloop.last %}
+
+    <div class="row">
+
+      <div class="col-lg-3"></div>
+      {% include courses/hole-note-template.liquid hole=firstHole %}
+
+    </div>
+
+  {% elsif loopMod2 == 0 %}
+
+    <div class="row">
+
+      {% include courses/hole-note-template.liquid hole=firstHole %}
+      {% include courses/hole-note-template.liquid hole=secondHole %}
+
+    </div>
+
+  {% endif %}
+
+{% endfor %}
+
+</div>

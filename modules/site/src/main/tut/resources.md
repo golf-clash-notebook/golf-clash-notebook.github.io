@@ -26,10 +26,10 @@ position: 80
       <div class="row">
         <div class="col-lg-8 col-lg-offset-2 col-sm-12">
           <div class="col-md-6 col-sm-12 col-flex" data-mh="resource-card">
-            {% include_relative resources/resource-card-template.liquid resource=currentRes %}
+            {% include resources/card-template.liquid resource=currentRes %}
           </div>
           <div class="col-md-6 col-sm-12 col-flex" data-mh="resource-card">
-            {% include_relative resources/resource-card-template.liquid resource=nextRes %}
+            {% include resources/card-template.liquid resource=nextRes %}
           </div>
         </div>
       </div>
@@ -37,7 +37,7 @@ position: 80
       <div class="row">
         <div class="col-lg-8 col-lg-offset-2 col-sm-12">
           <div class="col-md-6 col-md-offset-3 col-sm-12 col-flex" data-mh="resource-card">
-            {% include_relative resources/resource-card-template.liquid resource=resource %}
+            {% include resources/card-template.liquid resource=resource %}
           </div>
         </div>
       </div>
