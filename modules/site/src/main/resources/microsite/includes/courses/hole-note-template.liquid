@@ -1,0 +1,9 @@
+
+{% assign holeCoursePath = include.hole.course | remove: " " %}
+
+<div class="col-lg-6 note-col">
+  <div class="paper text-left margin-4">
+    <h4 class="note-hole-title text-semi-muted">Hole {{ include.hole.number }} - Par {{ include.hole.par }}</h4>
+    <img class="note-hole-thumbnail img-responsive" src="/img/golfclash/courses/{{ holeCoursePath }}/{{ include.hole.number }}.png">
+  </div>
+</div>

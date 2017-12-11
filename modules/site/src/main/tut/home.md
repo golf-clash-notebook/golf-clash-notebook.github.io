@@ -10,11 +10,9 @@ position: 0
 
   <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 col-sm-12">
 
-    <h1 class="gcn-page-header">Golf Clash Notebook</h1>
-
     <br>
 
-    {% include_relative news/news-feed-widget.liquid %}
+    {% include news/feed-widget.liquid %}
 
     <p>
       An open source compilation of all things Golf Clash. Here you'll find guides, descriptions,
@@ -35,8 +33,8 @@ position: 0
 
     <p>
       Also, be sure to check out the <a href="/resources/">Resources</a>
-      page which provides links to other pages that have a lot of quality content. Also feel free
-      to <a href="/contributing/">contribute</a>, <a href="https://github.com/golf-clash-notebook/golf-clash-notebook.github.io/issues/new">create an issue</a>, or open a pull request at the <a href="https://github.com/golf-clash-notebook/golf-clash-notebook.github.io">GitHub</a> site.
+      page which provides links to other pages that have a lot of quality content. And lastly, feel
+      free to <a href="/contributing/">contribute</a>, <a href="https://github.com/golf-clash-notebook/golf-clash-notebook.github.io/issues/new">create an issue</a>, or open a pull request at the <a href="https://github.com/golf-clash-notebook/golf-clash-notebook.github.io">GitHub</a> site.
     </p>
 
     <hr>

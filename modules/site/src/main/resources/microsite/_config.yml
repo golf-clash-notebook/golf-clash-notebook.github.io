@@ -8,93 +8,230 @@ sass:
 page_gen-dirs: true
 
 page_gen:
+
+  ##### Courses #####
+
+  - index_files: true
+    data: 'courses'
+    template: '_includes/courses/individual-template.liquid'
+    name: 'course-name'
+    dir: 'courses'
+
+  ##### Course Note Sheets #####
+
+  - index_files: true
+    data: 'courses'
+    template: '_includes/courses/notes-template.liquid'
+    name: 'course-name'
+    dir: 'courses/notesheets'
+
+  ##### Tours #####
+
+  - index_files: true
+    data: 'tours'
+    template: '_includes/tours/individual-template.liquid'
+    name: 'number'
+    dir: 'tours'
+
+  ##### Tournaments #####
+
   - index_files: true
     data: 'tournaments'
-    template: 'tournament-notes-template'
+    template: '_includes/tournaments/individual-template.liquid'
+    name: 'tournament-name'
+    dir: 'tournaments'
+
+  ##### Tournament Note Sheets #####
+
+  - index_files: true
+    data: 'tournaments'
+    template: '_includes/tournaments/notes-template.liquid'
     name: 'tournament-name'
     dir: 'tournaments/notesheets'
+
+  ################################################################
+  # TODO: Would be nice to modify page generator to support some #
+  # kind of nesting synax (e.g. data: 'courses.*.holes')         #
+  ################################################################
+
+  ##### Course Holes #####
+
   - index_files: true
     data: 'courses.CreepyCliffs.holes'
-    template: 'course-hole-template'
+    template: '_includes/courses/hole-template.liquid'
     name: 'number'
     dir: 'courses/CreepyCliffs'
   - index_files: true
     data: 'courses.GlenmonarchEstate.holes'
-    template: 'course-hole-template'
+    template: '_includes/courses/hole-template.liquid'
     name: 'number'
     dir: 'courses/GlenmonarchEstate'
   - index_files: true
     data: 'courses.GokashoBay.holes'
-    template: 'course-hole-template'
+    template: '_includes/courses/hole-template.liquid'
     name: 'number'
     dir: 'courses/GokashoBay'
   - index_files: true
     data: 'courses.GreenochPoint.holes'
-    template: 'course-hole-template'
+    template: '_includes/courses/hole-template.liquid'
     name: 'number'
     dir: 'courses/GreenochPoint'
   - index_files: true
     data: 'courses.HauntedHills.holes'
-    template: 'course-hole-template'
+    template: '_includes/courses/hole-template.liquid'
     name: 'number'
     dir: 'courses/HauntedHills'
   - index_files: true
     data: 'courses.JuniperPoint.holes'
-    template: 'course-hole-template'
+    template: '_includes/courses/hole-template.liquid'
     name: 'number'
     dir: 'courses/JuniperPoint'
   - index_files: true
     data: 'courses.MeadowCastle.holes'
-    template: 'course-hole-template'
+    template: '_includes/courses/hole-template.liquid'
     name: 'number'
     dir: 'courses/MeadowCastle'
   - index_files: true
     data: 'courses.NamhaeCliffs.holes'
-    template: 'course-hole-template'
+    template: '_includes/courses/hole-template.liquid'
     name: 'number'
     dir: 'courses/NamhaeCliffs'
   - index_files: true
     data: 'courses.SakuraHills.holes'
-    template: 'course-hole-template'
+    template: '_includes/courses/hole-template.liquid'
     name: 'number'
     dir: 'courses/SakuraHills'
   - index_files: true
     data: 'courses.SantaVentura.holes'
-    template: 'course-hole-template'
+    template: '_includes/courses/hole-template.liquid'
     name: 'number'
     dir: 'courses/SantaVentura'
   - index_files: true
     data: 'courses.SouthernPines.holes'
-    template: 'course-hole-template'
+    template: '_includes/courses/hole-template.liquid'
     name: 'number'
     dir: 'courses/SouthernPines'
   - index_files: true
     data: 'courses.SunshineGlades.holes'
-    template: 'course-hole-template'
+    template: '_includes/courses/hole-template.liquid'
     name: 'number'
     dir: 'courses/SunshineGlades'
   - index_files: true
     data: 'courses.Thanksgiving.holes'
-    template: 'course-hole-template'
+    template: '_includes/courses/hole-template.liquid'
     name: 'number'
     dir: 'courses/Thanksgiving'
   - index_files: true
     data: 'courses.TheMilano.holes'
-    template: 'course-hole-template'
+    template: '_includes/courses/hole-template.liquid'
     name: 'number'
     dir: 'courses/TheMilano'
   - index_files: true
     data: 'courses.TheOasis.holes'
-    template: 'course-hole-template'
+    template: '_includes/courses/hole-template.liquid'
     name: 'number'
     dir: 'courses/TheOasis'
   - index_files: true
     data: 'courses.VineyardAcres.holes'
-    template: 'course-hole-template'
+    template: '_includes/courses/hole-template.liquid'
     name: 'number'
     dir: 'courses/VineyardAcres'
   - index_files: true
     data: 'courses.WinterLinks.holes'
-    template: 'course-hole-template'
+    template: '_includes/courses/hole-template.liquid'
     name: 'number'
     dir: 'courses/WinterLinks'
+
+  ##### Tournament Holes #####
+
+  - index_files: true
+    data: 'tournaments.AsiaPacific.holes'
+    template: '_includes/tournaments/hole-template.liquid'
+    name: 'number'
+    dir: 'tournaments/AsiaPacific'
+    extra:
+      tournament-name: 'Asia Pacific'
+  - index_files: true
+    data: 'tournaments.WestCoast.holes'
+    template: '_includes/tournaments/hole-template.liquid'
+    name: 'number'
+    dir: 'tournaments/WestCoast'
+    extra:
+      tournament-name: 'West Coast'
+  - index_files: true
+    data: 'tournaments.4thOfJuly.holes'
+    template: '_includes/tournaments/hole-template.liquid'
+    name: 'number'
+    dir: 'tournaments/4thOfJuly'
+    extra:
+      tournament-name: '4th Of July'
+  - index_files: true
+    data: 'tournaments.UKChampions.holes'
+    template: '_includes/tournaments/hole-template.liquid'
+    name: 'number'
+    dir: 'tournaments/UKChampions'
+    extra:
+      tournament-name: 'UK Champions'
+  - index_files: true
+    data: 'tournaments.SunshineOpen.holes'
+    template: '_includes/tournaments/hole-template.liquid'
+    name: 'number'
+    dir: 'tournaments/SunshineOpen'
+    extra:
+      tournament-name: 'Sunshine Open'
+  - index_files: true
+    data: 'tournaments.SakuraClassic.holes'
+    template: '_includes/tournaments/hole-template.liquid'
+    name: 'number'
+    dir: 'tournaments/SakuraClassic'
+    extra:
+      tournament-name: 'Sakura Classic'
+  - index_files: true
+    data: 'tournaments.LaborDay.holes'
+    template: '_includes/tournaments/hole-template.liquid'
+    name: 'number'
+    dir: 'tournaments/LaborDay'
+    extra:
+      tournament-name: 'Labor Day'
+  - index_files: true
+    data: 'tournaments.WineValley.holes'
+    template: '_includes/tournaments/hole-template.liquid'
+    name: 'number'
+    dir: 'tournaments/WineValley'
+    extra:
+      tournament-name: 'Wine Valley'
+  - index_files: true
+    data: 'tournaments.HauntedHills.holes'
+    template: '_includes/tournaments/hole-template.liquid'
+    name: 'number'
+    dir: 'tournaments/HauntedHills'
+    extra:
+      tournament-name: 'Haunted Hills'
+  - index_files: true
+    data: 'tournaments.CreepyCliffs.holes'
+    template: '_includes/tournaments/hole-template.liquid'
+    name: 'number'
+    dir: 'tournaments/CreepyCliffs'
+    extra:
+      tournament-name: 'Creepy Cliffs'
+  - index_files: true
+    data: 'tournaments.CaliforniaClassic.holes'
+    template: '_includes/tournaments/hole-template.liquid'
+    name: 'number'
+    dir: 'tournaments/CaliforniaClassic'
+    extra:
+      tournament-name: 'California Classic'
+  - index_files: true
+    data: 'tournaments.Thanksgiving.holes'
+    template: '_includes/tournaments/hole-template.liquid'
+    name: 'number'
+    dir: 'tournaments/Thanksgiving'
+    extra:
+      tournament-name: 'Thanksgiving'
+  - index_files: true
+    data: 'tournaments.WinterLinks.holes'
+    template: '_includes/tournaments/hole-template.liquid'
+    name: 'number'
+    dir: 'tournaments/WinterLinks'
+    extra:
+      tournament-name: 'Winter Links'

@@ -5,4 +5,4 @@ section: "clubs"
 permalink: /clubs/shortirons/
 ---
 
-{% include_relative clubs-template.liquid categoryName="Short Irons" clubs=site.data.clubs.shortirons %}
+{% include clubs/category-template.liquid categoryName="Short Irons" clubs=site.data.clubs.shortirons %}

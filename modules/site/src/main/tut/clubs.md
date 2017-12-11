@@ -3,7 +3,7 @@ layout: gcn-layout
 title:  "Clubs"
 section: "clubs"
 permalink: /clubs/
-position: 30
+position: 40
 ---
 
 <div class="row">

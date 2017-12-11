@@ -41,6 +41,8 @@ object clubs {
   def initWindCharts() = {
 
     Club.All.map { allClubs =>
+      // Popover for larger screens
+
       jQuery("""[data-toggle="popover"]""").each { e: Element =>
         val clubName = jQuery(e).data("club-name").asInstanceOf[String]
 
@@ -53,7 +55,7 @@ object clubs {
               .popover(
                 js.Dynamic.literal(
                   "html"      -> true,
-                  "content"   -> (() => createWindChart(club)),
+                  "content"   -> (() => createWindChart(club).render),
                   "container" -> "body"
                 )
               )
@@ -66,8 +68,44 @@ object clubs {
           }
         }
       }
-    }.runAsync
 
+      // Modal for mobile
+
+      jQuery(""".btn-wind-chart-modal""").each { e: Element =>
+        val clubName  = jQuery(e).data("club-name").asInstanceOf[String]
+        val maybeClub = allClubs.find(_.name.toLowerCase.equals(clubName.toLowerCase))
+
+        maybeClub match {
+          case Some(club) => {
+            jQuery(e).click { () =>
+              jQuery("#modal-wind-chart").remove()
+              jQuery("body").append(createWindChartModal("modal-wind-chart", club).render);
+              jQuery("#modal-wind-chart").asInstanceOf[js.Dynamic].modal("show")
+            }
+
+            jQuery(e).removeClass("hidden")
+          }
+          case None => {
+            println(s"Oops couldn't find club for name: $clubName")
+          }
+        }
+
+      }
+
+    }.runAsync
+  }
+
+  def createWindChartModal(chartId: String, club: Club) = {
+
+    import scalatags.JsDom.all._
+
+    div(id := chartId, cls := "modal fade", tabindex := "-1", role := "dialog")(
+      div(cls := "modal-dialog modal-sm", role := "document")(
+        div(cls := "modal-content")(
+          createWindChart(club)
+        )
+      )
+    )
   }
 
   def createWindChart(club: Club) = {
@@ -80,7 +118,7 @@ object clubs {
 
     div(cls := "wind-chart")(
       div(cls := "text-center")(strong(club.name)),
-      svg(viewBox := "0 0 100 100", preserveAspectRatio := "xMidYMid")(
+      svg(viewBox := "0 0 100 100", preserveAspectRatio := "xMidYMid meet")(
         circle(
           cx := "50%",
           cy := "50%",
@@ -183,19 +221,20 @@ object clubs {
       ),
       tag("nav")(cls := "text-center")(
         ul(cls := s"club-pagination-${club.##} pagination pagination-sm justify-content-center")(
-          ((1 to club.maxLevel).map { level =>
-            val classes =
-              if (club.accuracy(level - 1) < 0) "disabled" else if (level == 1) "active" else ""
-            val onClickF = if (club.accuracy(level - 1) < 0) { () =>
-              ()
-            } else { () =>
-              updateRings(club, level)
-            }
+          ((1 to 10).map { level =>
+            val disabled = level > club.maxLevel || club.accuracy(level - 1) < 0
+            val classes  = if (disabled) "disabled" else if (level == 1) "active" else ""
+            val onClickF =
+              if (disabled) { () =>
+                ()
+              } else { () =>
+                updateRings(club, level)
+              }
             li(cls := "page-item " ++ classes)(a(cls := "page-link", onclick := onClickF)(level))
           }): _*
         )
       )
-    ).render
+    )
 
   }
 

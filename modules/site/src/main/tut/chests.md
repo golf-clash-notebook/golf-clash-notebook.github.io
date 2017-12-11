@@ -35,11 +35,11 @@ position: 55
 
         <tr>
           <th>{{ tour }}</th>
-          <td>{% include_relative chests/chest-stats-template.liquid chest=wooden %}</td>
-          <td>{% include_relative chests/chest-stats-template.liquid chest=silver %}</td>
-          <td>{% include_relative chests/chest-stats-template.liquid chest=gold %}</td>
-          <td>{% include_relative chests/chest-stats-template.liquid chest=platinum %}</td>
-          <td>{% include_relative chests/chest-stats-template.liquid chest=king %}</td>
+          <td>{% include chests/stats-template.liquid chest=wooden %}</td>
+          <td>{% include chests/stats-template.liquid chest=silver %}</td>
+          <td>{% include chests/stats-template.liquid chest=gold %}</td>
+          <td>{% include chests/stats-template.liquid chest=platinum %}</td>
+          <td>{% include chests/stats-template.liquid chest=king %}</td>
         </tr>
       {% endfor %}
     </tbody>

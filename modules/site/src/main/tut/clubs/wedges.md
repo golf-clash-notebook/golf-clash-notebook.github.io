@@ -5,4 +5,4 @@ section: "clubs"
 permalink: /clubs/wedges/
 ---
 
-{% include_relative clubs-template.liquid categoryName="Wedges" clubs=site.data.clubs.wedges %}
+{% include clubs/category-template.liquid categoryName="Wedges" clubs=site.data.clubs.wedges %}

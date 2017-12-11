@@ -3,7 +3,7 @@ layout: gcn-layout
 title:  "Courses"
 section: "courses"
 permalink: /courses/
-position: 20
+position: 30
 ---
 
 <div class="row">
@@ -23,7 +23,7 @@ position: 20
     {% for courseKey in sortedKeys %}
 
       {% assign course = site.data.courses[courseKey] %}
-      {% assign coursePath = course.name | remove: " " | remove: "'" %}
+      {% assign coursePath = course.course-name | remove: " " | remove: "'" %}
 
       {% capture columnClasses %}
         {% if mod3 == 1 and forloop.last %}
@@ -43,7 +43,7 @@ position: 20
         <div class="panel panel-default">
           <div class="panel-heading">
             <a href="/courses/{{ coursePath }}/">
-              {{ course.name }}
+              {{ course.course-name }}
             </a>
           </div>
           <div class="panel-body">

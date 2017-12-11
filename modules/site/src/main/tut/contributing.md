@@ -38,7 +38,7 @@ position: 100
 
     <br>
 
-    {% include_relative contributing/contributing-status.liquid %}
+    {% include contributing/status.liquid %}
 
   </div>
 

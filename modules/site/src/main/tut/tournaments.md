@@ -3,7 +3,7 @@ layout: gcn-layout
 title:  "Tournaments"
 section: "tournaments"
 permalink: /tournaments/
-position: 40
+position: 10
 ---
 
 <div class="row">

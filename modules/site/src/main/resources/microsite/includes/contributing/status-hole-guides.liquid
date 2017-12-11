@@ -1,0 +1,29 @@
+
+{% capture holeData %}
+  {% for courseHash in site.data.courses %}
+    {% assign course = courseHash[1] %}
+    {% for hole in course.holes %}
+      {{ hole.course }}:{{ hole.number }}
+    {% endfor %}
+  {% endfor %}
+{% endcapture %}
+
+{% assign numHoles = holeData | split: ' ' | size %}
+
+{% capture describedHoleNames %}
+  {% for courseHash in site.data.courses %}
+    {% assign course = courseHash[1] %}
+    {% for hole in course.holes %}
+      {% if hole.overlays.guides == undefined %}
+      {% elsif hole.overlays.guides == empty %}
+      {% else %}
+        {{ hole.course }}:{{ hole.number }}
+      {% endif %}
+    {% endfor %}
+  {% endfor %}
+{% endcapture %}
+
+{% assign describedHoles = describedHoleNames | split: ' ' | size %}
+{% assign describedHolePercent = describedHoles | times: 100 | divided_by: numHoles %}
+
+{% include contributing/status-progress-bar.liquid label='Hole Guides' percentage=describedHolePercent value=describedHoles max=numHoles %}

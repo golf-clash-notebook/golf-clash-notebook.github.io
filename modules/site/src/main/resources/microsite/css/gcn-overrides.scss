@@ -1,11 +1,22 @@
 /** General Bootstrap stuff... **/
 
+.use {
+  padding: 30px 0;
+}
+
 .btn {
   border-radius: 0px;
 }
 
 .popover {
   max-width: 800px !important;
+}
+
+/* Account for our fixed footer. */
+
+#content {
+  padding-top: 10px;
+  padding-bottom: 40px;
 }
 
 /** Fixed Footer **/
@@ -21,16 +32,15 @@
 }
 
 @media (max-width: 768px) {
+
   #site-footer {
-    display: none;
+    position: static;
   }
-}
 
-/* Account for our fixed footer. */
-
-#content {
-  padding-top: 25px;
-  padding-bottom: 40px;
+  /* Account for our (un)fixed footer. */
+  #content {
+    padding-bottom: 0;
+  }
 }
 
 /** Turn jumbotron into mediumtron. **/
@@ -42,5 +52,8 @@
 
   /* TODO: This may be an issue with sbt-microsites */
   background-size: 15px 14px !important;
+}
 
+.table-responsive {
+  border: 0;
 }

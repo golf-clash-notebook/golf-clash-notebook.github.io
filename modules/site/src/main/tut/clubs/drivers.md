@@ -5,7 +5,7 @@ section: "clubs"
 permalink: /clubs/drivers/
 ---
 
-{% include_relative clubs-template.liquid categoryName="Drivers" clubs=site.data.clubs.drivers %}
+{% include clubs/category-template.liquid categoryName="Drivers" clubs=site.data.clubs.drivers %}
 
 <hr>
 

@@ -54,7 +54,7 @@ position: 50
 
     <div class="ball-chart-container">
 
-      {% include_relative balls/ball-chart-template.liquid ballKeyArray=ballKeyArray %}
+      {% include balls/chart-template.liquid ballKeyArray=ballKeyArray %}
 
       <p class="text-center text-small text-semi-muted pad-8">
         This chart <strong><em>attempts</em></strong> to generally rank the balls based on wind
@@ -90,11 +90,11 @@ position: 50
       <div class="row">
         <a id="{{ ballKey }}"></a>
         <div class="col-md-5 col-md-offset-1 col-sm-12 col-flex" data-mh="ball-card">
-          {% include_relative balls/ball-details-template.liquid ball=ball %}
+          {% include balls/details-template.liquid ball=ball %}
         </div>
         <a id="{{ nextBallKey }}"></a>
         <div class="col-md-5 col-sm-12 col-flex" data-mh="ball-card">
-          {% include_relative balls/ball-details-template.liquid ball=nextBall %}
+          {% include balls/details-template.liquid ball=nextBall %}
         </div>
       </div>
 
@@ -103,7 +103,7 @@ position: 50
       <div class="row">
         <a id="{{ ballKey }}"></a>
         <div class="col-md-6 col-md-offset-3 col-sm-12 col-flex" data-mh="ball-card">
-          {% include_relative balls/ball-details-template.liquid ball=ball %}
+          {% include balls/details-template.liquid ball=ball %}
         </div>
       </div>
 
@@ -123,19 +123,7 @@ position: 50
         {% for resource in site.data.balls.resources %}
 
           {% capture resourceIcon %}
-            {% if resource.url contains 'facebook' %}
-              <i class="fab fa-facebook text-facebook" aria-hidden="true"></i>
-            {% elsif resource.url contains 'reddit' %}
-              <i class="fab fa-reddit text-reddit" aria-hidden="true"></i>
-            {% elsif resource.url contains 'twitch' %}
-              <i class="fab fa-twitch text-twitch" aria-hidden="true"></i>
-            {% elsif resource.url contains 'twitter' %}
-              <i class="fab fa-twitter text-twitter" aria-hidden="true"></i>
-            {% elsif resource.url contains 'youtube' or resource.url contains 'youtu.be' %}
-              <i class="fab fa-youtube text-youtube" aria-hidden="true"></i>
-            {% else %}
-              <i class="fas fa-book" aria-hidden="true"></i>
-            {% endif %}
+            {% include resources/icon.liquid resource=resource %}
           {% endcapture %}
 
           <li class="list-group-item gcn-resource text-small"><a href="{{ resource.url }}" target="_blank" rel="noopener">{{ resourceIcon }} {{ resource.title }}</a></li>
