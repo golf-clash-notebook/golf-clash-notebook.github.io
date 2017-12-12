@@ -102,7 +102,15 @@ object clubs {
     div(id := chartId, cls := "modal fade", tabindex := "-1", role := "dialog")(
       div(cls := "modal-dialog modal-sm", role := "document")(
         div(cls := "modal-content")(
-          createWindChart(club)
+          div(cls := "modal-header pad-8")(
+            button(`type` := "button", cls := "close", data("dismiss") := "modal")(
+              span(cls := "text-extra-large")("\u00D7")
+            ),
+            h4(cls := "modal-title")(club.name)
+          ),
+          div(cls := "modal-body")(
+            createWindChart(club)
+          )
         )
       )
     )
@@ -117,7 +125,6 @@ object clubs {
     val windPerRing = 1 + ((100 - club.accuracy(0)) * 0.02)
 
     div(cls := "wind-chart")(
-      div(cls := "text-center")(strong(club.name)),
       svg(viewBox := "0 0 100 100", preserveAspectRatio := "xMidYMid meet")(
         circle(
           cx := "50%",

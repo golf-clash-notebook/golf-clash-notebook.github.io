@@ -11,6 +11,12 @@ resources:
     url: https://youtu.be/CR5vZbc71qg
   - title: Golf Clash Tommy - Qualifying Round
     url: https://youtu.be/qQf4S6iI9Bk
+  - title: Golf Clash Tommy - Rookie Guide
+    url: https://youtu.be/yiFddK4Aa-E
+  - title: Golf Clash Tommy - Pro/Expert Guide
+    url: https://youtu.be/qCGDu3ajPj4
+  - title: Golf Clash Tommy - Text Guides
+    url: https://imgur.com/a/9c8fw
 holes:
   - number: 1
     course: Santa Ventura

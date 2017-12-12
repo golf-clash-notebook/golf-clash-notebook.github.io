@@ -20,12 +20,6 @@ position: 60
       Help Wanted: {% lipsum 2 5 25 %}
     </p>
 
-    <h4>Your method here!</h4>
-
-    <p class="text-prototype">
-      Help Wanted: {% lipsum 2 5 25 %}
-    </p>
-
     <br>
 
     {% if site.data.wind.resources != undefined and site.data.wind.resources != empty %}

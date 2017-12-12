@@ -1,4 +1,44 @@
 
+<div class="text-center pad-12">
+  <div class="ball-rank-slider-container">
+    <div><strong>Side Spin</strong></div>
+    <input id="side-spin-slider" type="text"
+            data-provide="slider"
+            data-slider-ticks="[1, 2, 3, 4, 5]"
+            data-slider-min="1"
+            data-slider-max="5"
+            data-slider-step="1"
+            data-slider-value="3"
+            data-slider-tooltip="hide" />
+  </div>
+  <div class="ball-rank-slider-container">
+    <div><strong>Wind Resistance</strong></div>
+    <input id="wind-resistance-slider" type="text"
+            data-provide="slider"
+            data-slider-ticks="[1, 2, 3, 4, 5]"
+            data-slider-min="1"
+            data-slider-max="5"
+            data-slider-step="1"
+            data-slider-value="4"
+            data-slider-tooltip="hide" />
+  </div>
+  <div class="ball-rank-slider-container">
+    <div><strong>Power</strong></div>
+    <input id="power-slider" type="text"
+            data-provide="slider"
+            data-slider-ticks="[1, 2, 3, 4, 5]"
+            data-slider-ticks-labels='["Less Is More", "Don&#39;t Care", "Sure", "More Please", "Need It!"]'
+            data-slider-min="1"
+            data-slider-max="5"
+            data-slider-step="1"
+            data-slider-value="5"
+            data-slider-tooltip="hide" />
+  </div>
+  <button id="perform-ranking-btn" type="button" class="btn btn-primary btn-sm rank-btn">Rank em`</button>
+</div>
+
+<hr class="margin-12">
+
 <table class="table table-centered table-squished table-content-centered table-borderless table-equal-columns table-responsive">
   <thead>
     <tr>
@@ -15,7 +55,7 @@
       {% assign ball = site.data.balls[ballKey] %}
       {% assign ballPath = ball.name | remove: "The" | remove: " " | remove: "'" %}
 
-      <tr>
+      <tr class="ball-table-row" id="{{ ballPath }}-ranking-row" data-name="{{ ballPath }}" data-wind-resistance="{{ ball.wind-resistance }}" data-side-spin="{{ ball.side-spin }}" data-power="{{ ball.power }}">
         <td>
           <img src="/img/golfclash/balls/{{ ballPath }}-thumb.png" title="{{ ball.name }}" alt="{{ ball.name }}" class="img-center img-responsive" style="width: 36px;">
         </td>
@@ -35,7 +75,7 @@
         </td>
         <td>
           {% if ball.power > 0 %}
-            <img src="/img/golfclash/balls/Power{{ ball.power }}-thumb.png" title="Power {{ ball.side-spin }}" alt="Power {{ ball.side-spin }}" class="img-center img-responsive">
+            <img src="/img/golfclash/balls/Power{{ ball.power }}-thumb.png" title="Power {{ ball.power }}" alt="Power {{ ball.power }}" class="img-center img-responsive">
           {% else %}
             <i class="fas fa-times text-danger" aria-hidden="true"></i>
           {% endif %}

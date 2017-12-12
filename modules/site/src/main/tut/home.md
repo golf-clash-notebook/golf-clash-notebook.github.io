@@ -71,7 +71,7 @@ position: 0
 
       <div class="media">
         <div class="media-left">
-          <i class="fab fa-reddit fa-3x text-reddit" aria-hidden="true"></i>
+          <i class="fab fa-reddit-square fa-3x text-reddit" aria-hidden="true"></i>
         </div>
         <div class="media-body">
           <h4 class="media-heading">/u/SeeZee21</h4>

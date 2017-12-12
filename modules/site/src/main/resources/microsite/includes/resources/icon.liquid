@@ -6,19 +6,23 @@
 {% endif %}
 
 {% capture icon %}
-  {% if resource.url contains 'facebook' %}
+  {% if include.resource.url contains 'facebook' %}
     <i class="fab fa-facebook text-facebook fa-{{ iconSize }}x" aria-hidden="true"></i>
-  {% elsif resource.url contains 'reddit' %}
-    <i class="fab fa-reddit text-reddit fa-{{ iconSize }}x" aria-hidden="true"></i>
-  {% elsif resource.url contains 'twitch' %}
+  {% elsif include.resource.url contains 'reddit' %}
+    <i class="fab fa-reddit-square text-reddit fa-{{ iconSize }}x" aria-hidden="true"></i>
+  {% elsif include.resource.url contains 'twitch' %}
     <i class="fab fa-twitch text-twitch fa-{{ iconSize }}x" aria-hidden="true"></i>
-  {% elsif resource.url contains 'twitter' %}
+  {% elsif include.resource.url contains 'twitter' %}
     <i class="fab fa-twitter text-twitter fa-{{ iconSize }}x" aria-hidden="true"></i>
-  {% elsif resource.url contains 'youtube' or resource.url contains 'youtu.be' %}
+  {% elsif include.resource.url contains 'youtube' or include.resource.url contains 'youtu.be' %}
     <i class="fab fa-youtube text-youtube fa-{{ iconSize }}x" aria-hidden="true"></i>
+  {% elsif include.resource.url contains 'imgur.com/a/' %}
+    <i class="far fa-images text-imgur fa-{{ iconSize }}x" aria-hidden="true"></i>
+  {% elsif include.resource.url contains 'imgur' %}
+    <i class="far fa-image text-imgur fa-{{ iconSize }}x" aria-hidden="true"></i>
   {% else %}
     <i class="fas fa-book fa-{{ iconSize }}x" aria-hidden="true"></i>
   {% endif %}
 {% endcapture %}
 
-{{ icon }}
+{{ icon | strip }}
