@@ -1,0 +1,27 @@
+
+#faq-container {
+  position: relative;
+}
+
+#faq-scrollspy-nav {
+  position: fixed;
+  top: 175px;
+
+  > .nav {
+    li {
+
+      &.active {
+        border-left: 2px solid #192a37;
+
+        a {
+          color: #333;
+        }
+      }
+
+      a {
+        padding: 4px 15px;
+      }
+
+    }
+  }
+}

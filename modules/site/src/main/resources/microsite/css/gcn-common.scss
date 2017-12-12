@@ -47,6 +47,14 @@
   font-size: 85%;
 }
 
+.text-large {
+  font-size: 125%;
+}
+
+.text-extra-large {
+  font-size: 150%;
+}
+
 .text-semi-muted {
   color: #aaa;
 }
@@ -193,6 +201,10 @@
   color: #5167AF;
 }
 
+.text-imgur {
+  color: #1BB76E;
+}
+
 .text-reddit {
   color: #DC591C;
 }
@@ -262,6 +274,10 @@
   padding: 24px;
 }
 
+.pad-32 {
+  padding: 32px;
+}
+
 .margin-4 {
   margin: 4px;
 }
@@ -280,4 +296,8 @@
 
 .margin-24 {
   margin: 24px;
+}
+
+.margin-32 {
+  margin: 32px;
 }

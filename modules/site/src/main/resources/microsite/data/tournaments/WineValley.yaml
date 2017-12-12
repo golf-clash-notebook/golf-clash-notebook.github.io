@@ -11,6 +11,12 @@ resources:
     url: https://youtu.be/KEuIi1F2P-I
   - title: Golf Clash Tommy - Qualifying Round
     url: https://youtu.be/mJ-3VxYg1hM
+  - title: Golf Clash Tommy - Rookie Guide
+    url: https://youtu.be/IvlQP8lpY6k
+  - title: Golf Clash Tommy - Pro/Expert Guide
+    url: https://youtu.be/y9CMtWuSCC4
+  - title: Golf Clash Tommy - Text Guides
+    url: https://imgur.com/a/vMhsw
 holes:
   - number: 1
     course: Vineyard Acres

@@ -4,3 +4,45 @@
   border-radius: 5px;
   padding: 0 12px;
 }
+
+.slider {
+  &.slider-horizontal {
+
+    width: 90%;
+
+    > .slider-track {
+      height: 6px;
+      margin-top: -6px;
+    }
+  }
+}
+
+.slider-tick-label {
+  font-size: 75%;
+}
+
+.slider-tick {
+  width: 15px;
+  height: 15px;
+  &.in-selection {
+    background-image: none !important;
+    background: #3879d9;
+  }
+}
+
+.slider-handle {
+  background-image: none !important;
+  background: lighten(#192a37, 5%);
+  width: 15px;
+  height: 15px;
+}
+
+.slider-selection {
+  background-image: none !important;
+  background: #3879d9;
+}
+
+.rank-btn {
+  padding: 2px 32px;
+  margin-top: 16px;
+}

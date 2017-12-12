@@ -6,32 +6,16 @@ permalink: /balls/
 position: 50
 ---
 
-{% assign windImportance = 0.35 %}
-{% assign sideSpinImportance = 0.15 %}
-{% assign powerImportance = 0.50 %}
-
-{% capture costAndKeys %}
+{% capture ballKeys %}
   {% for tag in site.data.balls %}
     {% comment %}Filter out ball resources...{% endcomment %}
     {% if tag[1].name != undefined %}
-      {% assign weightedWindRating = tag[1].wind-resistance | times: windImportance %}
-      {% assign weightedSideSpinRating = tag[1].side-spin | times: sideSpinImportance %}
-      {% assign weightedPowerRating = tag[1].power | times: powerImportance %}
-      {% assign rating = weightedWindRating | plus: weightedSideSpinRating | plus: weightedPowerRating | round: 3 %}
-      {{ rating }}:{{ tag[0] }}
+      {{ tag[0] }}
     {% endif %}
   {% endfor %}
 {% endcapture %}
 
-{% assign sortedComposite = costAndKeys | split: ' ' | sort %}
-
-{% capture sortedKeys %}
-  {% for x in sortedComposite %}
-    {{ x | split: ':' | last }}
-  {% endfor %}
-{% endcapture %}
-
-{% assign ballKeyArray = sortedKeys | split: ' ' %}
+{% assign ballKeyArray = ballKeys | split: ' ' %}
 
 <div class="row">
   <div class="col-md-5 col-md-offset-1 col-sm-12">
@@ -56,11 +40,6 @@ position: 50
 
       {% include balls/chart-template.liquid ballKeyArray=ballKeyArray %}
 
-      <p class="text-center text-small text-semi-muted pad-8">
-        This chart <strong><em>attempts</em></strong> to generally rank the balls based on wind
-        resistance, side spin and power. Of course, every hole is different so a given ball may be
-        better for a certain set of circumstances.
-      </p>
     </div>
 
   </div>

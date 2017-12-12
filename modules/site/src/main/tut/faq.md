@@ -6,9 +6,25 @@ permalink: /faq/
 position: 70
 ---
 
+{% capture categoryAndPosition %}
+  {% for tag in site.data.faq %}
+    {{ tag[1].position }}:{{ tag[0] }}
+  {% endfor %}
+{% endcapture %}
+
+{% assign sortedComposite = categoryAndPosition | split: ' ' | sort %}
+
+{% capture sortedCategories %}
+  {% for x in sortedComposite %}
+    {{ x | split: ':' | last }}
+  {% endfor %}
+{% endcapture %}
+
+{% assign sortedCategoryArray = sortedCategories | split: ' ' | reverse %}
+
 <div class="row">
 
-  <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 col-sm-12">
+  <div id="faq-container" class="col-lg-10 col-sm-9 col-xs-12">
 
     <h1 class="gcn-page-header">Answers to the most common Golf Clash questions.</h1>
 
@@ -18,65 +34,43 @@ position: 70
 
     <hr>
 
-    <h4>How do I manage my bankroll?</h4>
+    {% for faqCategoryKey in sortedCategoryArray %}
+      {% assign faqCategory = site.data.faq[faqCategoryKey] %}
 
-    <p class="text-prototype">
-      Help Wanted: {% lipsum 2 5 25 %}
-    </p>
+      {% assign categoryId = faqCategory.category | remove: " " %}
 
-    <h4>When should I move up to Tour 'X'?</h4>
+      <h3 id="{{ categoryId }}" class="text-center text-semi-muted margin-32">{{ faqCategory.category }}</h3>
 
-    <p class="text-prototype">
-      Help Wanted: {% lipsum 2 5 25 %}
-    </p>
+      {% for question in faqCategory.questions %}
+        <h4>{{ question.question }}</h4>
 
-    <h4>Which tournament level should I enter?</h4>
+        {% if question.answer contains 'Help Wanted' %}
+          <p class="text-prototype">
+            Help Wanted: {% lipsum 2 5 20 %}
+          </p>
+        {% else %}
+          <p>
+            {{ question.answer }}
+          </p>
+        {% endif %}
+      {% endfor %}
+    {% endfor %}
 
-    <p class="text-prototype">
-      Help Wanted: {% lipsum 2 5 25 %}
-    </p>
+  </div>
 
-    <h4>What are the tiebreakers for tournaments?</h4>
+  <div class="col-lg-2 col-sm-3 hidden-xs">
 
-    <p class="text-prototype">
-      Help Wanted: {% lipsum 2 5 25 %}
-    </p>
-
-    <h4>How should I spend my gems?</h4>
-
-    <p class="text-prototype">
-      Help Wanted: {% lipsum 2 5 25 %}
-    </p>
-
-    <h4>What are the odds of getting a Silver / Gold / Platinum chest?</h4>
-
-    <p class="text-prototype">
-      Help Wanted: {% lipsum 2 5 25 %}
-    </p>
-
-    <h4>Is it worth spending gems in the club shop?</h4>
-
-    <p class="text-prototype">
-      Help Wanted: {% lipsum 2 5 25 %}
-    </p>
-
-    <h4>When will I unlock The Apocalypse / Cataclysm / Endbringer / etc.?</h4>
-
-    <p class="text-prototype">
-      Help Wanted: {% lipsum 2 5 25 %}
-    </p>
-
-    <h4>When will The Apocalypse / Cataclysm / Endbringer / show up in the club shop?</h4>
-
-    <p class="text-prototype">
-      Help Wanted: {% lipsum 2 5 25 %}
-    </p>
-
-    <h4>How long did it take you to upgrade your putter?</h4>
-
-    <p class="text-prototype">
-      Help Wanted: {% lipsum 2 5 25 %}
-    </p>
+    <div id="faq-scrollspy-nav">
+      <ul class="nav">
+        {% for faqCategoryKey in sortedCategoryArray %}
+          {% assign faqCategory = site.data.faq[faqCategoryKey] %}
+          {% assign categoryId = faqCategory.category | remove: " " %}
+          <li>
+            <a class="text-semi-muted" href="#{{ categoryId }}">{{ faqCategory.category }}</a>
+          </li>
+        {% endfor %}
+      </ul>
+    </div>
 
   </div>
 

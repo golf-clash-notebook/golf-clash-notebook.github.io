@@ -2,19 +2,25 @@ tournament-name: Thanksgiving
 date: '2017-11-20'
 resources:
   - title: Golf Clash Tommy - Weekend Round
-    url: https://www.youtube.com/watch?v=-dL585v1XF4
+    url: https://youtu.be/-dL585v1XF4
   - title: ItsRJTV - Weekend Round
-    url: https://www.youtube.com/watch?v=vqVn3_vrW8I
+    url: https://youtu.be/vqVn3_vrW8I
   - title: Golf Clash Tommy - Opening Round Front 9
-    url: https://www.youtube.com/watch?v=x0uELjLmMMY
+    url: https://youtu.be/x0uELjLmMMY
   - title: Golf Clash Tommy - Opening Round Back 9
-    url: https://www.youtube.com/watch?v=unlUKHRNqmo
+    url: https://youtu.be/unlUKHRNqmo
   - title: ItsRJTV - Opening Round
-    url: https://www.youtube.com/watch?v=XLPdPR6WHpo
+    url: https://youtu.be/XLPdPR6WHpo
   - title: Golf Clash Tommy - Qualifying Round
-    url: https://www.youtube.com/watch?v=WKGUAVKwa4o
+    url: https://youtu.be/WKGUAVKwa4o
   - title: ItsRJTV - Qualifying Round
-    url: https://www.youtube.com/watch?v=X25gZWy1LAY
+    url: https://youtu.be/X25gZWy1LAY
+  - title: Golf Clash Tommy - Rookie Guide
+    url: https://youtu.be/8-yX15MVw9s
+  - title: Golf Clash Tommy - Pro/Expert Guide
+    url: https://youtu.be/YLn1TA5wIuE
+  - title: Golf Clash Tommy - Text Guides
+    url: https://imgur.com/a/Kiobz
 holes:
   - number: 1
     course: Thanksgiving

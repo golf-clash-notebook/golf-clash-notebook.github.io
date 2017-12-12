@@ -1,7 +1,7 @@
 
 {% assign ballPath = include.ball.name | remove: "The" | remove: " " | remove: "'" %}
 
-<div class="panel panel-default gcn-card">
+<div id="{{ ballPath }}-details-card" class="ball-details-card panel panel-default gcn-card">
   <div class="panel-heading">
     <div class="thumbnail">
       <img src="/img/golfclash/balls/{{ ballPath }}-thumb.png" alt="{{ ballPath }}" class="img-center img-responsive">

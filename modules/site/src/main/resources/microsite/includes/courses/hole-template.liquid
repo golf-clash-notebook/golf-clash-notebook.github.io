@@ -102,7 +102,7 @@ section: "courses"
         {% endif %}
       {% endcapture %}
 
-      <div class="pull-right {{ recommendationLevel }}-club-recommendations {{ initalVisibility }}">
+      <div class="pull-right {{ recommendationLevel }}-club-recommendations {{ initalVisibility | strip }}">
         <div class="club-recommendation-list" style="margin-top: 25px;">
           {% for club in clubRecommendations.clubs %}
             {% assign clubPath = club | remove: "The" | remove: " " | remove: "'" %}

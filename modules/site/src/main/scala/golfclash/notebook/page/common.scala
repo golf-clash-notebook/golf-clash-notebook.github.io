@@ -58,9 +58,7 @@ object common {
     scrollLeftButton.mousedown(_ => scrollNav(-15))
     scrollRightButton.mousedown(_ => scrollNav(15))
     scrollLeftButton.on("tap", (e: js.Any) => scrollNav(-15))
-    scrollLeftButton.on("tapAndHold", (e: js.Any) => scrollNav(-15))
     scrollRightButton.on("tap", (e: js.Any) => scrollNav(15))
-    scrollRightButton.on("tapAndHold", (e: js.Any) => scrollNav(15))
 
     horizontalNav.asInstanceOf[js.Dynamic].touch()
 
