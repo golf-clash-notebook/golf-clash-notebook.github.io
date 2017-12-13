@@ -31,13 +31,11 @@ install:
 - gem install jekyll -v 3.6.2
 
 script:
-  - if [ "$TRAVIS_BRANCH" = "dev" -a "$TRAVIS_PULL_REQUEST" = "false" ]; then
-      git reset --hard HEAD;
-      git clean -f;
-      git checkout dev;
-      git pull origin dev;
-      sbt site/makeMicrosite;
-    fi
+  git reset --hard HEAD;
+  git clean -f;
+  git checkout dev;
+  git pull origin dev;
+  sbt site/makeMicrosite;
 
 deploy:
   provider: pages
@@ -47,3 +45,4 @@ deploy:
   target_branch: master
   on:
     branch: dev
+    condition: $TRAVIS_PULL_REQUEST = false
