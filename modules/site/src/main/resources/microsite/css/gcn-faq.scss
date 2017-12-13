@@ -4,8 +4,10 @@
 }
 
 #faq-scrollspy-nav {
-  position: fixed;
-  top: 175px;
+
+  &.affix {
+    top: 80px;
+  }
 
   > .nav {
     li {
@@ -24,4 +26,18 @@
 
     }
   }
+}
+
+.faq-category-header {
+  padding-top: 48px;
+  margin: 0;
+}
+
+.faq-question {
+  margin-top: 18px;
+}
+
+.faq-answer {
+  margin-left: 6px;
+  margin-bottom: 0;
 }

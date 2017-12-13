@@ -1,14 +1,20 @@
 
 .ball-chart-container {
   border: 1px solid lightgray;
-  border-radius: 5px;
+  border-radius: 3px;
   padding: 0 12px;
+}
+
+.ball-table-container {
+  max-height: 600px;
+  overflow-x: hidden;
+  overflow-y: auto;
 }
 
 .slider {
   &.slider-horizontal {
 
-    width: 90%;
+    width: 100%;
 
     > .slider-track {
       height: 6px;
@@ -26,7 +32,7 @@
   height: 15px;
   &.in-selection {
     background-image: none !important;
-    background: #3879d9;
+    background: lighten(#192a37, 30%);
   }
 }
 
@@ -39,10 +45,5 @@
 
 .slider-selection {
   background-image: none !important;
-  background: #3879d9;
-}
-
-.rank-btn {
-  padding: 2px 32px;
-  margin-top: 16px;
+  background: lighten(#192a37, 30%);
 }

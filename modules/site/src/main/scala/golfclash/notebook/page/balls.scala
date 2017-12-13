@@ -33,15 +33,15 @@ import org.scalajs.dom.Element
 
 object balls {
 
-  case class RankingWeights(windResistance: Int, sideSpin: Int, power: Int)
+  case class RankingWeights(windResistance: Double, sideSpin: Double, power: Double)
 
   val init = () => {
 
-    showRankings(rank(ballList, generateRankingWeights()))
-
-    jQuery("#perform-ranking-btn").click { () =>
-      showRankings(rank(ballList, generateRankingWeights()))
+    List(sideSpinSlider, windResistanceSlider, powerSlider).foreach { slider =>
+      slider.on("change", () => showRankings(rank(ballList, generateRankingWeights())))
     }
+
+    showRankings(rank(ballList, generateRankingWeights()))
   }
 
   def rank(balls: List[Ball], weights: RankingWeights): List[Ball] = {
@@ -53,16 +53,25 @@ object balls {
   }
 
   def generateRankingWeights(): RankingWeights = {
-    val windResistanceWeight = getSliderValue("wind-resistance-slider") - 2
-    val sideSpinWeight       = getSliderValue("side-spin-slider") - 2
-    val powerWeight          = getSliderValue("power-slider") - 2
+    // Slight modifications here so that balls with same stats are ranked identically
+    // and ball with different stats (but add up to same rank score) are always slighly different
+    val powerWeight          = getSliderValue("power-slider") - 2.001
+    val windResistanceWeight = getSliderValue("wind-resistance-slider") - 2.0001
+    val sideSpinWeight       = getSliderValue("side-spin-slider") - 2.00001
 
     RankingWeights(windResistanceWeight, sideSpinWeight, powerWeight)
   }
 
-  def getSliderValue(sliderId: String): Int = {
-    val slider = jQuery(s"#${sliderId}").asInstanceOf[js.Dynamic].slider()
-    slider.slider("getValue").asInstanceOf[Int]
+  def getSliderValue(sliderId: String): Double = {
+    getSlider(sliderId).slider("getValue").asInstanceOf[Double]
+  }
+
+  def windResistanceSlider = getSlider("wind-resistance-slider")
+  def sideSpinSlider       = getSlider("side-spin-slider")
+  def powerSlider          = getSlider("power-slider")
+
+  def getSlider(sliderId: String) = {
+    jQuery(s"#${sliderId}").asInstanceOf[js.Dynamic].slider()
   }
 
   lazy val ballList: List[Ball] = {

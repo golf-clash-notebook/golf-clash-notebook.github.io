@@ -1,0 +1,9 @@
+category: Wind
+position: 60
+questions:
+  - question: >
+      I adjusted according to the wind per ring calculation (1 ring per 1 MPH) biut it was still off, why?
+    answer: >
+      The listed adjustment figures assume maximum club power, and a level terrain. If you are using
+      less than the clubs max power, the adjustment is less. If you're shooting uphill the
+      adjustment is less. If you're shooting downhill the adjustment is more.

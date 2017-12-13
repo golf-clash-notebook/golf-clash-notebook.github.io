@@ -1,9 +1,11 @@
 category: Tournaments
 position: 20
 questions:
-  - question: Which tournament level should I enter?
+  - question: >
+      Which tournament level should I enter?
     answer: >
       Help Wanted
-  - question: What are the tiebreakers for tournaments?
+  - question: >
+      What are the tiebreakers for tournaments?
     answer: >
       Help Wanted

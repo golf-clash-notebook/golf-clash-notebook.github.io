@@ -11,6 +11,10 @@
       color: #fff;
       background-color: #192a37;
     }
+
+    > .list-group-item:nth-child(n+2) {
+      padding-top: 2px;
+    }
   }
 }
 

@@ -1,0 +1,62 @@
+category: Known Game Issues
+position: 70
+questions:
+  - question: >
+      I checked a player's stats and saw their longest drive was an unrealistic number (like 1000)
+      yards. Is this a cheat? If not, how did it happen?
+    answer: >
+      This is a known issue and not a cheat. A while back there was a bug that caused crazy wind
+      (like 1700 mph) on some holes. The ball would blow completely off the course and crash the
+      game.
+  - question: >
+      My opponent ran out of time on his shot, but somehow wound up on the green!
+    answer: >
+      This is a known issue and not a cheat. Occasionally your device will fail to receive your
+      opponent's shot, it is a network sync issue. This makes it look like they have timed out and
+      why their next shot looks so strange.
+  - question: >
+      I think I am playing a bot/replay. How can I tell?
+    answer: >
+      <p>
+        This is a known issue and not a cheat. The guaranteed way to tell is if you see the ball
+        spin overlay flash up briefly just prior to your opponent's shot, as others have mentioned.
+        You generally don't see it on their initial drive but it will definitely happen on most or
+        all of their subsequent shots, including the putt. It looks like this or this, and will
+        always show full topspin. You'll never see this playing against a live opponent, but will
+        always see it against a replay.
+      </p>
+      <p>
+        Another indicator is that your opponent doesn't use emojis when you expect, or send oddly
+        timed emojis (they're just out of sync emojis from their previous game). The ball basket
+        also might occasionally pop up in-between their shots as well. These don't always happen,
+        but you definitely notice when you do.
+      </p>
+      <p>
+        Also, replays where the player will run the timer down to zero, but it'll stay on zero for
+        several seconds while the replay finishes taking their shot.
+      </p>
+      <p>
+        And if it's taken more than about 30 seconds to find a match up, there's a good chance
+        you'll be playing against a replay, which you'll know for sure as soon as you either see or
+        don't see the ball spin overlay pop up prior to your opponent's second shot. This is
+        possible.
+      </p>
+      <blockquote class="text-small">
+        <p>
+          <strong>What happens when there are no players available in 1v1?</strong>
+        </p>
+        <p>
+          Very rarely, in less than 3.9% of all games, there are no live players close enough to
+          your trophy level to start a game quickly. In this situation, we will match you against
+          an opponent with a similar trophy level who played the hole recently but who isn't online
+          at that moment.
+        </p>
+        <p>
+          We are able to do this because we store the shots that players take on each hole they
+          play. This opponent is selected randomly, and we try to make the experience as close as
+          possible to playing a live player - the goal being that the overall win rate is in line
+          with the live player vs live player experience. The outcome of the match will only affect
+          the Trophies, Coins and stats of the live player.
+        </p>
+        <footer>The GolfClash FAQ on Matchmaking</footer>
+      </blockquote>

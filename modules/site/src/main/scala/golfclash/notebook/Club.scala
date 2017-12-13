@@ -24,6 +24,12 @@
 
 package golfclash.notebook
 
+import io.circe.generic.auto._
+import io.circe.parser._
+
+import org.scalajs.dom.ext.Ajax
+import org.scalajs.dom.XMLHttpRequest
+
 import monix.eval.Task
 import monix.execution.Scheduler.Implicits.global
 
@@ -44,28 +50,48 @@ case class Club(
 
 object Club {
 
-  import io.circe.generic.auto._
-  import io.circe.parser._
+  sealed abstract class Category(val name: String) extends Product with Serializable
+  object Category {
+    case object Drivers    extends Category("Drivers")
+    case object Woods      extends Category("Woods")
+    case object LongIrons  extends Category("LongIrons")
+    case object ShortIrons extends Category("ShortIrons")
+    case object Wedges     extends Category("Wedges")
+    case object RoughIrons extends Category("RoughIrons")
+    case object SandWedges extends Category("SandWedges")
 
-  import org.scalajs.dom.ext.Ajax
-  import org.scalajs.dom.XMLHttpRequest
+    private[this] val All =
+      List(Drivers, Woods, LongIrons, ShortIrons, Wedges, RoughIrons, SandWedges)
+
+    def fromString(category: String): Option[Category] = {
+      All.find(_.name.toLowerCase == category.toLowerCase)
+    }
+  }
+
+  val Drivers: Task[List[Club]]    = loadClubs(Category.Drivers)
+  val Woods: Task[List[Club]]      = loadClubs(Category.Woods)
+  val LongIrons: Task[List[Club]]  = loadClubs(Category.LongIrons)
+  val ShortIrons: Task[List[Club]] = loadClubs(Category.ShortIrons)
+  val Wedges: Task[List[Club]]     = loadClubs(Category.Wedges)
+  val RoughIrons: Task[List[Club]] = loadClubs(Category.RoughIrons)
+  val SandWedges: Task[List[Club]] = loadClubs(Category.SandWedges)
 
   val All: Task[List[Club]] = {
     for {
-      drivers    <- loadClubs("drivers")
-      woods      <- loadClubs("woods")
-      longIrons  <- loadClubs("longirons")
-      shortIrons <- loadClubs("shortirons")
-      wedges     <- loadClubs("wedges")
-      roughIrons <- loadClubs("roughirons")
-      sandWedges <- loadClubs("sandwedges")
+      drivers    <- Drivers
+      woods      <- Woods
+      longIrons  <- LongIrons
+      shortIrons <- ShortIrons
+      wedges     <- Wedges
+      roughIrons <- RoughIrons
+      sandWedges <- SandWedges
     } yield drivers ::: woods ::: longIrons ::: shortIrons ::: wedges ::: roughIrons ::: sandWedges
-  }.memoizeOnSuccess
+  }
 
-  private def loadClubs(category: String): Task[List[Club]] =
+  private def loadClubs(category: Category): Task[List[Club]] =
     Task
       .fromFuture(
-        Ajax.get(s"/data/clubs/${category}.json").map { s: XMLHttpRequest =>
+        Ajax.get(s"/data/clubs/${category.name.toLowerCase}.json").map { s: XMLHttpRequest =>
           val clubsOrErr =
             for {
               json  <- parse(s.responseText)

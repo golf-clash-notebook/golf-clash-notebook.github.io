@@ -32,9 +32,9 @@ position: 0
     </p>
 
     <p>
-      Also, be sure to check out the <a href="/resources/">Resources</a>
-      page which provides links to other pages that have a lot of quality content. And lastly, feel
-      free to <a href="/contributing/">contribute</a>, <a href="https://github.com/golf-clash-notebook/golf-clash-notebook.github.io/issues/new">create an issue</a>, or open a pull request at the <a href="https://github.com/golf-clash-notebook/golf-clash-notebook.github.io">GitHub</a> site.
+      Be sure to check out the <a href="/resources/">Resources</a> page which provides links to
+      other pages that have a lot of quality content. And lastly, feel free to
+      <a href="/contributing/">contribute</a>, <a href="https://github.com/golf-clash-notebook/golf-clash-notebook.github.io/issues/new">create an issue</a>, or open a pull request at the <a href="https://github.com/golf-clash-notebook/golf-clash-notebook.github.io">GitHub</a> site.
     </p>
 
     <hr>

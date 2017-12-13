@@ -20,7 +20,7 @@ position: 70
   {% endfor %}
 {% endcapture %}
 
-{% assign sortedCategoryArray = sortedCategories | split: ' ' | reverse %}
+{% assign sortedCategoryArray = sortedCategories | split: ' ' %}
 
 <div class="row">
 
@@ -32,26 +32,24 @@ position: 70
       <a href="https://github.com/golf-clash-notebook/golf-clash-notebook.github.io/issues/new" class="btn btn-info" role="button">Add to the FAQ</a>
     </p>
 
-    <hr>
-
     {% for faqCategoryKey in sortedCategoryArray %}
       {% assign faqCategory = site.data.faq[faqCategoryKey] %}
 
       {% assign categoryId = faqCategory.category | remove: " " %}
 
-      <h3 id="{{ categoryId }}" class="text-center text-semi-muted margin-32">{{ faqCategory.category }}</h3>
+      <h3 id="{{ categoryId }}" class="faq-category-header text-center text-semi-muted">{{ faqCategory.category }}</h3>
 
       {% for question in faqCategory.questions %}
-        <h4>{{ question.question }}</h4>
+        <h4 class="faq-question">{{ question.question }}</h4>
 
         {% if question.answer contains 'Help Wanted' %}
-          <p class="text-prototype">
-            Help Wanted: {% lipsum 2 5 20 %}
+          <p class="faq-answer text-prototype">
+            Help Wanted: {% lipsum 1 10 15 %}
           </p>
         {% else %}
-          <p>
+          <div class="faq-answer">
             {{ question.answer }}
-          </p>
+          </div>
         {% endif %}
       {% endfor %}
     {% endfor %}
@@ -60,7 +58,7 @@ position: 70
 
   <div class="col-lg-2 col-sm-3 hidden-xs">
 
-    <div id="faq-scrollspy-nav">
+    <div id="faq-scrollspy-nav" data-spy="affix" data-offset-top="60" >
       <ul class="nav">
         {% for faqCategoryKey in sortedCategoryArray %}
           {% assign faqCategory = site.data.faq[faqCategoryKey] %}
