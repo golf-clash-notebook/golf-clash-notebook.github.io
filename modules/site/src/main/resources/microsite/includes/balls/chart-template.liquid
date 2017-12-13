@@ -1,7 +1,8 @@
 
-<div class="text-center pad-12">
+<div class="text-center pad-32">
+  <h1 class="gcn-page-header">Ball Rankings</h1>
   <div class="ball-rank-slider-container">
-    <div><strong>Side Spin</strong></div>
+    <div class="text-small">Side Spin</div>
     <input id="side-spin-slider" type="text"
             data-provide="slider"
             data-slider-ticks="[1, 2, 3, 4, 5]"
@@ -12,7 +13,7 @@
             data-slider-tooltip="hide" />
   </div>
   <div class="ball-rank-slider-container">
-    <div><strong>Wind Resistance</strong></div>
+    <div class="text-small">Wind Resistance</div>
     <input id="wind-resistance-slider" type="text"
             data-provide="slider"
             data-slider-ticks="[1, 2, 3, 4, 5]"
@@ -23,7 +24,7 @@
             data-slider-tooltip="hide" />
   </div>
   <div class="ball-rank-slider-container">
-    <div><strong>Power</strong></div>
+    <div class="text-small">Power</div>
     <input id="power-slider" type="text"
             data-provide="slider"
             data-slider-ticks="[1, 2, 3, 4, 5]"
@@ -34,61 +35,62 @@
             data-slider-value="5"
             data-slider-tooltip="hide" />
   </div>
-  <button id="perform-ranking-btn" type="button" class="btn btn-primary btn-sm rank-btn">Rank em`</button>
 </div>
 
-<hr class="margin-12">
+<hr class="margin-4">
 
-<table class="table table-centered table-squished table-content-centered table-borderless table-equal-columns table-responsive">
-  <thead>
-    <tr>
-      <th></th>
-      <th>Wind<br>Resistance</th>
-      <th>Side Spin</th>
-      <th>Power</th>
-      <th><img src="/img/golfclash/other/Gem-thumb.png" alt="Cost" class="img-center img-responsive"></th>
-    </tr>
-  </thead>
-  <tbody>
-    {% for ballKey in include.ballKeyArray %}
-
-      {% assign ball = site.data.balls[ballKey] %}
-      {% assign ballPath = ball.name | remove: "The" | remove: " " | remove: "'" %}
-
-      <tr class="ball-table-row" id="{{ ballPath }}-ranking-row" data-name="{{ ballPath }}" data-wind-resistance="{{ ball.wind-resistance }}" data-side-spin="{{ ball.side-spin }}" data-power="{{ ball.power }}">
-        <td>
-          <img src="/img/golfclash/balls/{{ ballPath }}-thumb.png" title="{{ ball.name }}" alt="{{ ball.name }}" class="img-center img-responsive" style="width: 36px;">
-        </td>
-        <td>
-          {% if ball.wind-resistance > 0 %}
-            <img src="/img/golfclash/balls/WindResistance{{ ball.wind-resistance }}-thumb.png" title="Wind Resistance {{ ball.wind-resistance }}" alt="Wind Resistance {{ ball.wind-resistance }}" class="img-center img-responsive">
-          {% else %}
-            <i class="fas fa-times text-danger" aria-hidden="true"></i>
-          {% endif %}
-        </td>
-        <td>
-          {% if ball.side-spin > 0 %}
-            <img src="/img/golfclash/balls/SideSpin{{ ball.side-spin }}-thumb.png" title="Side Spin {{ ball.side-spin }}" alt="Side Spin {{ ball.side-spin }}" class="img-center img-responsive">
-          {% else %}
-            <i class="fas fa-times text-danger" aria-hidden="true"></i>
-          {% endif %}
-        </td>
-        <td>
-          {% if ball.power > 0 %}
-            <img src="/img/golfclash/balls/Power{{ ball.power }}-thumb.png" title="Power {{ ball.power }}" alt="Power {{ ball.power }}" class="img-center img-responsive">
-          {% else %}
-            <i class="fas fa-times text-danger" aria-hidden="true"></i>
-          {% endif %}
-        </td>
-        <td>
-          {% if ball.cost != "n/a" %}
-            <h4>{{ ball.cost }}</h4>
-          {% else %}
-            <i class="fas fa-times text-danger" title="Not for Purchase" aria-hidden="true"></i>
-          {% endif %}
-        </td>
+<div class="ball-table-container">
+  <table class="table table-centered table-squished table-content-centered table-borderless table-equal-columns table-responsive">
+    <thead>
+      <tr>
+        <th></th>
+        <th>Wind<br>Resistance</th>
+        <th>Side Spin</th>
+        <th>Power</th>
+        <th><img src="/img/golfclash/other/Gem-thumb.png" alt="Cost" class="img-center img-responsive"></th>
       </tr>
+    </thead>
+    <tbody>
+      {% for ballKey in include.ballKeyArray %}
 
-    {% endfor %}
-  </tbody>
-</table>
+        {% assign ball = site.data.balls[ballKey] %}
+        {% assign ballPath = ball.name | remove: "The" | remove: " " | remove: "'" %}
+
+        <tr class="ball-table-row" id="{{ ballPath }}-ranking-row" data-name="{{ ballPath }}" data-wind-resistance="{{ ball.wind-resistance }}" data-side-spin="{{ ball.side-spin }}" data-power="{{ ball.power }}">
+          <td>
+            <img src="/img/golfclash/balls/{{ ballPath }}-thumb.png" title="{{ ball.name }}" alt="{{ ball.name }}" class="img-center img-responsive" style="width: 36px;">
+          </td>
+          <td>
+            {% if ball.wind-resistance > 0 %}
+              <img src="/img/golfclash/balls/WindResistance{{ ball.wind-resistance }}-thumb.png" title="Wind Resistance {{ ball.wind-resistance }}" alt="Wind Resistance {{ ball.wind-resistance }}" class="img-center img-responsive">
+            {% else %}
+              <i class="fas fa-times text-danger" aria-hidden="true"></i>
+            {% endif %}
+          </td>
+          <td>
+            {% if ball.side-spin > 0 %}
+              <img src="/img/golfclash/balls/SideSpin{{ ball.side-spin }}-thumb.png" title="Side Spin {{ ball.side-spin }}" alt="Side Spin {{ ball.side-spin }}" class="img-center img-responsive">
+            {% else %}
+              <i class="fas fa-times text-danger" aria-hidden="true"></i>
+            {% endif %}
+          </td>
+          <td>
+            {% if ball.power > 0 %}
+              <img src="/img/golfclash/balls/Power{{ ball.power }}-thumb.png" title="Power {{ ball.power }}" alt="Power {{ ball.power }}" class="img-center img-responsive">
+            {% else %}
+              <i class="fas fa-times text-danger" aria-hidden="true"></i>
+            {% endif %}
+          </td>
+          <td>
+            {% if ball.cost != "n/a" %}
+              <h4>{{ ball.cost }}</h4>
+            {% else %}
+              <i class="fas fa-times text-danger" title="Not for Purchase" aria-hidden="true"></i>
+            {% endif %}
+          </td>
+        </tr>
+
+      {% endfor %}
+    </tbody>
+  </table>
+</div>

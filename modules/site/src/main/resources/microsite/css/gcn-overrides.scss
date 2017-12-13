@@ -30,6 +30,12 @@
   bottom: 0;
   left: 0;
   z-index: 2000;
+
+  div {
+    a {
+      color: rgba(255, 255, 255, 0.6);
+    }
+  }
 }
 
 @media (max-width: 768px) {
@@ -57,4 +63,10 @@
 
 .table-responsive {
   border: 0;
+}
+
+blockquote {
+  footer {
+    color: #777;
+  }
 }

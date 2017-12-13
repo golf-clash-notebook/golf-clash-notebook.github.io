@@ -137,13 +137,15 @@ object hole {
       val lengthBefore = lengthBeforeSegment(level, guideNum, segmentNum)
       val length       = segmentLength(level, guideNum, segmentNum)
 
-      jQuery(element)
-        .stop()
-        .show()
-        .css("stroke-dasharray", length)
-        .css("stroke-dashoffset", length)
-        .css("animation", s"guidePathDashOffset ${pathLengthToDuration(length)}s linear forwards")
-        .css("animation-delay", s"${pathLengthToDuration(lengthBefore)}s")
+      val pathElement = jQuery(element).stop().show()
+
+      if (!util.isIE()) {
+        pathElement
+          .css("stroke-dasharray", length)
+          .css("stroke-dashoffset", length)
+          .css("animation", s"guidePathDashOffset ${pathLengthToDuration(length)}s linear forwards")
+          .css("animation-delay", s"${pathLengthToDuration(lengthBefore)}s")
+      }
     }
   }
 
@@ -152,11 +154,13 @@ object hole {
       val segmentNum   = jQuery(element).data("guide-segment").asInstanceOf[Int]
       val lengthBefore = lengthBeforeSegment(level, guideNum, segmentNum)
 
-      jQuery(element)
-        .stop()
-        .show()
-        .css("animation", s"guidePointScale 0.5s ease-out forwards")
-        .css("animation-delay", s"${pathLengthToDuration(lengthBefore)}s")
+      val pointElement = jQuery(element).stop().show()
+
+      if (!util.isIE()) {
+        pointElement
+          .css("animation", s"guidePointScale 0.5s ease-out forwards")
+          .css("animation-delay", s"${pathLengthToDuration(lengthBefore)}s")
+      }
 
     }
   }
@@ -173,23 +177,21 @@ object hole {
 
     val jqAnnotation = jQuery(annotation)
 
-    jqAnnotation
-      .find("image")
-      .stop()
-      .show()
-      .css("animation", s"guidePointScale ${annotationImageAnimationDuration}s ease-out forwards")
-      .css("animation-delay", s"${annotationImageAnimationDelay}s")
+    val imageElement      = jqAnnotation.find("image").stop().show()
+    val connectorElements = jqAnnotation.find("path").stop().show()
+    val pointElements     = jqAnnotation.find("circle").stop().show()
 
-    jqAnnotation
-      .find("path")
-      .stop()
-      .each { path: Element =>
+    if (!util.isIE()) {
+      imageElement
+        .css("animation", s"guidePointScale ${annotationImageAnimationDuration}s ease-out forwards")
+        .css("animation-delay", s"${annotationImageAnimationDelay}s")
+
+      connectorElements.each { path: Element =>
         val pathDynamic = path.asInstanceOf[js.Dynamic]
 
         val pathLength = pathDynamic.getTotalLength()
 
         jQuery(path)
-          .show()
           .css("stroke-dasharray", pathLength)
           .css("stroke-dashoffset", pathLength)
           .css(
@@ -199,18 +201,16 @@ object hole {
           .css("animation-delay", s"${annotationLineAnimationDelay}s")
       }
 
-    jqAnnotation
-      .find("circle")
-      .stop()
-      .each { path: Element =>
+      pointElements.each { path: Element =>
         jQuery(path)
-          .show()
           .css(
             "animation",
             s"guidePointScale ${annotationCircleAnimationDuration}s ease-out forwards"
           )
           .css("animation-delay", s"${annotationCircleAnimationDelay}s")
       }
+    }
+
   }
 
 }

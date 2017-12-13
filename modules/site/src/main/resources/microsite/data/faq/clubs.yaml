@@ -1,6 +1,13 @@
 category: Clubs
-position: 30
+position: 40
 questions:
-  - question: How long did it take you to upgrade your putter?
+  - question: >
+      Where can I find stats for all the clubs?
+    answer: >
+      In addition to <a href="/clubs">Golf Clash Notebook</a>, you can find very good spreadsheets
+      <a href="https://docs.google.com/spreadsheets/d/1RRGpx3mszPXxSoEAASKKJIsbEjjzHf1O96YnhXC2tok/edit?usp=drivesdk" target="_blank" rel="noopener">here</a> and a more in depth one
+      <a href="https://docs.google.com/spreadsheets/d/15E32sH-6VJ563I6gnhbhWXHN4dqGKSM11L8OMSbGyAg/edit?usp=drivesdk" target="_blank" rel="noopener">here</a>.
+  - question: >
+      How long did it take you to upgrade your putter?
     answer: >
       Help Wanted

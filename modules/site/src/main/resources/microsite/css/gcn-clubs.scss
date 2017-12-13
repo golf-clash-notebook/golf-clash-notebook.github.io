@@ -28,3 +28,24 @@
 .btn-wind-chart-modal {
   padding: 5px 10px;
 }
+
+/** Club rankings **/
+
+#club-category-select {
+  margin: 24px 0;
+}
+
+#club-rankings-container {
+  table {
+    tbody {
+      tr {
+        padding: 0 8px;
+      }
+    }
+  }
+}
+
+.club-ranking-row-image {
+  display: inline;
+  width: 48px;
+}

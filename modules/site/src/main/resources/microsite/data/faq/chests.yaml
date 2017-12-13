@@ -1,6 +1,14 @@
 category: Chests
-position: 80
+position: 50
 questions:
-  - question: What are the odds of getting a Silver / Gold / Platinum chest?
+  - question: >
+      What are the odds of getting a Silver / Gold / Platinum chest?
     answer: >
       Help Wanted
+  - question: >
+      What clubs can I get in a Pin Chest?
+    answer: >
+      Any club from the highest tour you have unlocked can appear in the pin chest. You don't even
+      need to play that tour. For example, once you unlock tour seven, any club can be found in a
+      pin chest. The tour you get your pins in doesn't matter for the clubs, but it does for the
+      coins and gems. The higher tour, the more gems and coins.

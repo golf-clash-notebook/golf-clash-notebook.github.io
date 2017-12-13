@@ -22,31 +22,15 @@
  * SOFTWARE.
  */
 
-package golfclash.notebook.page
+package golfclash.notebook
 
 import scala.scalajs.js
 
-sealed abstract class Page(val baseUrl: String, val init: Option[js.Function0[_]] = None)
-    extends Product
-    with Serializable
+object util {
 
-object Page {
-
-  case object Balls       extends Page("/balls/", Some(balls.init))
-  case object ClubRanker  extends Page("/clubs/ranker/", Some(clubranker.init))
-  case object Clubs       extends Page("/clubs/", Some(clubs.init))
-  case object Courses     extends Page("/courses/", Some(courses.init))
-  case object FAQ         extends Page("/faq/", Some(faq.init))
-  case object Home        extends Page("/")
-  case object Tournaments extends Page("/tournaments/", Some(tournaments.init))
-  case object Tours       extends Page("/tours/")
-
-  // TODO: Probably want to use regex and be a little more specific which page we're on
-  // (e.g. tournament list page, tournament hole page, etc.)
-  // Currently, Home will match anything that falls through
-  private val all = List(Balls, ClubRanker, Clubs, Courses, FAQ, Tournaments, Tours, Home)
-
-  def forUrlPath(path: String): Option[Page] = {
-    all.find(page => path.startsWith(page.baseUrl))
+  def isIE(): Boolean = {
+    val ua = js.Dynamic.global.window.navigator.userAgent.asInstanceOf[String]
+    List("MSIE", "Trident/", "Edge/").exists(ua.indexOf(_) >= 0)
   }
+
 }
