@@ -2,7 +2,7 @@
 layout: gcn-layout
 title:  "Club Ranker"
 section: "clubs"
-permalink: /clubs/ranker
+permalink: /clubs/ranker/
 ---
 
 <div class="row">

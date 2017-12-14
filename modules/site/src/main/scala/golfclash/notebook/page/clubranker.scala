@@ -84,9 +84,18 @@ object clubranker {
       clubCategory <- selectedClubCategory
       clubLevelsT  <- ClubLevels.get(clubCategory)
     } {
-      clubLevelsT.map { clubLevels =>
-        showRankings(rank(clubLevels, currentWeights()))
-      }.runAsync
+      clubLevelsT
+        .map { clubLevels =>
+          showRankings(rank(clubLevels, currentWeights()))
+        }
+        .runAsync
+        .onComplete {
+          case scala.util.Success(_) => ()
+          case scala.util.Failure(ex) => {
+            println("Failed to initialize club ranker: " + ex)
+            ex.printStackTrace()
+          }
+        }
     }
   }
 
