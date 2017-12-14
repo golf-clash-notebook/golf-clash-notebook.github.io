@@ -57,6 +57,11 @@ page_gen:
   ##### Course Holes #####
 
   - index_files: true
+    data: 'courses.Christmas.holes'
+    template: '_includes/courses/hole-template.liquid'
+    name: 'number'
+    dir: 'courses/Christmas'
+  - index_files: true
     data: 'courses.CreepyCliffs.holes'
     template: '_includes/courses/hole-template.liquid'
     name: 'number'
@@ -235,3 +240,10 @@ page_gen:
     dir: 'tournaments/WinterLinks'
     extra:
       tournament-name: 'Winter Links'
+  - index_files: true
+    data: 'tournaments.Christmas.holes'
+    template: '_includes/tournaments/hole-template.liquid'
+    name: 'number'
+    dir: 'tournaments/Christmas'
+    extra:
+      tournament-name: 'Christmas'

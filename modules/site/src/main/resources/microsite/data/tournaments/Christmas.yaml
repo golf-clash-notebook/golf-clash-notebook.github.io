@@ -1,0 +1,30 @@
+tournament-name: Christmas
+date: '2017-12-18'
+holes:
+  - number: 1
+    course: Christmas
+    course-hole: 1
+  - number: 2
+    course: Christmas
+    course-hole: 2
+  - number: 3
+    course: Christmas
+    course-hole: 3
+  - number: 4
+    course: Christmas
+    course-hole: 4
+  - number: 5
+    course: Christmas
+    course-hole: 5
+  - number: 6
+    course: Christmas
+    course-hole: 6
+  - number: 7
+    course: Christmas
+    course-hole: 7
+  - number: 8
+    course: Christmas
+    course-hole: 8
+  - number: 9
+    course: Christmas
+    course-hole: 9
