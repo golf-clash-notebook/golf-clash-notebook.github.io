@@ -15,8 +15,8 @@ position: 0
     {% include news/feed-widget.liquid %}
 
     <p>
-      An open source compilation of all things Golf Clash. Here you'll find guides, descriptions,
-      tips and more for the game of Golf Clash that may help you along your way.
+      An open source compilation of all things Golf Clash. Here you'll find past guides,
+      descriptions, tips and more for the game of Golf Clash that may help you along your way.
     </p>
 
     <p>
@@ -41,7 +41,7 @@ position: 0
 
     <p class="text-center pad-24">
       In addition to all of the <a href="https://github.com/golf-clash-notebook/golf-clash-notebook.github.io/graphs/contributors/" target="_blank" rel="noopener">Golf Clash Notebook contributors</a>, a few shoutouts to people
-      whose contributions to the community have made this site better. A big thank you!
+      whose contributions to the community have made this site what it is. A big thank you!
     </p>
 
     <div class="center-block">
@@ -79,6 +79,8 @@ position: 0
         </div>
       </div>
     </div>
+
+    <br><br><br>
 
   </div>
 

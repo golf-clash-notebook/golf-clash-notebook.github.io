@@ -96,7 +96,8 @@ permalink: /clubs/ranker/
             <th>Back Spin</th>
             <th>Curl</th>
             <th>Ball Guide</th>
-            </tr>
+            <th>Score</th>
+          </tr>
         </thead>
         <tbody>
         </tbody>
