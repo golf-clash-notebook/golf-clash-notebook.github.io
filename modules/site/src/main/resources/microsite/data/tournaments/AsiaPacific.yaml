@@ -3,13 +3,13 @@ date: '2017-05-22'
 holes:
   - number: 1
     course: Gokasho Bay
-    course-hole: 2
+    course-hole: 8
   - number: 2
     course: Gokasho Bay
-    course-hole: 1
+    course-hole: 3
   - number: 3
     course: Gokasho Bay
-    course-hole: 3
+    course-hole: 6
   - number: 4
     course: Sakura Hills
     course-hole: 3
