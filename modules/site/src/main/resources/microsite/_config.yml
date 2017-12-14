@@ -122,11 +122,6 @@ page_gen:
     name: 'number'
     dir: 'courses/SunshineGlades'
   - index_files: true
-    data: 'courses.Thanksgiving.holes'
-    template: '_includes/courses/hole-template.liquid'
-    name: 'number'
-    dir: 'courses/Thanksgiving'
-  - index_files: true
     data: 'courses.TheMilano.holes'
     template: '_includes/courses/hole-template.liquid'
     name: 'number'

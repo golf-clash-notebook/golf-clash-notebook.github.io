@@ -65,7 +65,7 @@ position: 0
         </div>
         <div class="media-body">
           <h4 class="media-heading">Joni Koskinen</h4>
-          His <a href="https://docs.google.com/spreadsheets/d/15E32sH-6VJ563I6gnhbhWXHN4dqGKSM11L8OMSbGyAg/edit#gid=71066884" target="_blank" rel="noopener">club stat spreadsheet</a> helped me fill in some missing holes.
+          His <a href="https://docs.google.com/spreadsheets/d/15E32sH-6VJ563I6gnhbhWXHN4dqGKSM11L8OMSbGyAg/edit#gid=71066884" target="_blank" rel="noopener">club stat spreadsheet</a> helped fill in some missing holes.
         </div>
       </div>
 
