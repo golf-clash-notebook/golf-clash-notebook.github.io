@@ -1,0 +1,29 @@
+course-name: Christmas
+holes:
+  - course: Christmas
+    number: 1
+    par: 3
+  - course: Christmas
+    number: 2
+    par: 4
+  - course: Christmas
+    number: 3
+    par: 5
+  - course: Christmas
+    number: 4
+    par: 3
+  - course: Christmas
+    number: 5
+    par: 4
+  - course: Christmas
+    number: 6
+    par: 5
+  - course: Christmas
+    number: 7
+    par: 4
+  - course: Christmas
+    number: 8
+    par: 3
+  - course: Christmas
+    number: 9
+    par: 5
