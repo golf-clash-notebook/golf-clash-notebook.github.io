@@ -30,11 +30,12 @@ import org.scalajs.jquery.jQuery
 
 import scalatags.JsDom.all._
 
+import cats.implicits._
 import monix.execution.Scheduler.Implicits.global
 
 object clubranker {
 
-  case class RankedClub(clubLevel: ClubLevel, score: Double)
+  case class RankedClub(clubLevel: ClubLevel, score: Double, tier: Int = 1)
 
   case class ClubLevel(name: String,
                        level: Int,
@@ -141,7 +142,7 @@ object clubranker {
     Club.Category.Woods      -> ClubRankWeights(25, 20, 0, 20, 20, 15),
     Club.Category.LongIrons  -> ClubRankWeights(25, 30, 0, 25, 0, 20),
     Club.Category.ShortIrons -> ClubRankWeights(15, 40, 0, 15, 0, 30),
-    Club.Category.Wedges     -> ClubRankWeights(25, 30, 0, 20, 0, 25),
+    Club.Category.Wedges     -> ClubRankWeights(10, 30, 20, 0, 0, 40),
     Club.Category.RoughIrons -> ClubRankWeights(40, 25, 5, 15, 5, 10),
     Club.Category.SandWedges -> ClubRankWeights(30, 35, 0, 15, 0, 20)
   )
@@ -162,28 +163,47 @@ object clubranker {
     val minCurl      = clubLevels.map(_.curl.toDouble).min
     val minBallGuide = clubLevels.map(_.ballguide.toDouble).min
 
-    clubLevels
-      .map { clubLevel =>
-        val powerRating     = (clubLevel.power - minPower) / (maxPower - minPower)
-        val accuracyRating  = (clubLevel.accuracy - minAccuracy) / (maxAccuracy - minAccuracy)
-        val topspinRating   = (clubLevel.topspin - minTopSpin) / (maxTopSpin - minTopSpin)
-        val backspinRating  = (clubLevel.backspin - minBackSpin) / (maxBackSpin - minBackSpin)
-        val curlRating      = (clubLevel.curl - minCurl) / (maxCurl - minCurl)
-        val ballguideRating = (clubLevel.ballguide - minBallGuide) / (maxBallGuide - minBallGuide)
+    assignTiers(
+      clubLevels
+        .map { clubLevel =>
+          val powerRating     = (clubLevel.power - minPower) / (maxPower - minPower)
+          val accuracyRating  = (clubLevel.accuracy - minAccuracy) / (maxAccuracy - minAccuracy)
+          val topspinRating   = (clubLevel.topspin - minTopSpin) / (maxTopSpin - minTopSpin)
+          val backspinRating  = (clubLevel.backspin - minBackSpin) / (maxBackSpin - minBackSpin)
+          val curlRating      = (clubLevel.curl - minCurl) / (maxCurl - minCurl)
+          val ballguideRating = (clubLevel.ballguide - minBallGuide) / (maxBallGuide - minBallGuide)
 
-        val score =
-          powerRating * weights.power +
-            accuracyRating * weights.accuracy +
-            topspinRating * weights.topspin +
-            backspinRating * weights.backspin +
-            curlRating * weights.curl +
-            ballguideRating * weights.ballguide
+          val score =
+            powerRating * weights.power +
+              accuracyRating * weights.accuracy +
+              topspinRating * weights.topspin +
+              backspinRating * weights.backspin +
+              curlRating * weights.curl +
+              ballguideRating * weights.ballguide
 
-        RankedClub(clubLevel, score)
+          RankedClub(clubLevel, score)
 
+        }
+        .sortBy(-_.score)
+    )
+  }
+
+  def assignTiers(rankedClubs: List[RankedClub]): List[RankedClub] = {
+
+    rankedClubs
+      .sortBy(-_.score)
+      .scanLeft(none[RankedClub]) {
+        case (lastClubOpt, currentClub) =>
+          lastClubOpt match {
+            case None => currentClub.copy(tier = 1).some
+            case Some(lastClub) => {
+              val scoreRatio  = 1 - ((lastClub.score - currentClub.score) / currentClub.score)
+              val currentTier = if (scoreRatio < 0.97) lastClub.tier + 1 else lastClub.tier
+              currentClub.copy(tier = currentTier.min(10)).some
+            }
+          }
       }
-      .sortBy(_.score)
-      .reverse
+      .flatten
   }
 
   def createClubLevels(clubs: List[Club]) = {
@@ -255,16 +275,22 @@ object clubranker {
       rankedClub.clubLevel.name.replaceAll("The", "").replaceAll(" ", "").replaceAll("'", "")
     val clubImagePath = s"""/img/golfclash/clubs/$sanitizedName.png"""
 
-    tr(cls := "club-ranking-row")(
-      td(img(cls := "club-ranking-row-image img-responsive")(src := clubImagePath)),
+    tr(cls := s"club-ranking-row tier-${rankedClub.tier}-club")(
+      td(span(cls := "text-tiny")(f"${rankedClub.score * 100}%.2f")),
+      td(
+        img(
+          cls := "club-ranking-row-image img-responsive",
+          src := clubImagePath,
+          title := rankedClub.clubLevel.name
+        )
+      ),
       td(span(rankedClub.clubLevel.level)),
       td(span(rankedClub.clubLevel.power)),
       td(span(rankedClub.clubLevel.accuracy)),
       td(span(rankedClub.clubLevel.topspin)),
       td(span(rankedClub.clubLevel.backspin)),
       td(span(rankedClub.clubLevel.curl)),
-      td(span(rankedClub.clubLevel.ballguide)),
-      td(span(f"${rankedClub.score * 100}%.2f"))
+      td(span(rankedClub.clubLevel.ballguide))
     )
   }
 

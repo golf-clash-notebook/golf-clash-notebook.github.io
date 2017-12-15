@@ -54,3 +54,16 @@ ul.club-pagination {
   display: inline;
   width: 48px;
 }
+
+.club-ranking-row {
+  &.tier-1-club { border-left: 3px solid hsla(130, 70.0%, 45.0%, 0.9); }
+  &.tier-2-club { border-left: 3px solid hsla(110, 70.0%, 45.0%, 0.9); }
+  &.tier-3-club { border-left: 3px solid hsla(80, 70.0%, 45.0%, 0.9); }
+  &.tier-4-club { border-left: 3px solid hsla(60, 70.0%, 45.0%, 0.75); }
+  &.tier-5-club { border-left: 3px solid hsla(40, 70.0%, 45.0%, 0.8); }
+  &.tier-6-club { border-left: 3px solid hsla(20, 70.0%, 45.0%, 0.90); }
+  &.tier-7-club { border-left: 3px solid hsla(10, 70.0%, 45.0%, 0.95); }
+  &.tier-8-club { border-left: 3px solid hsla(0, 70.0%, 45.0%, 1.0); }
+  &.tier-9-club { border-left: 3px solid hsla(0, 70.0%, 45.0%, 1.0); }
+  &.tier-10-club { border-left: 3px solid hsla(0, 70.0%, 45.0%, 1.0); }
+}

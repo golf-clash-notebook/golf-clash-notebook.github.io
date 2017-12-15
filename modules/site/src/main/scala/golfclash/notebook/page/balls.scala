@@ -54,10 +54,10 @@ object balls {
 
   def generateRankingWeights(): RankingWeights = {
     // Slight modifications here so that balls with same stats are ranked identically
-    // and ball with different stats (but add up to same rank score) are always slighly different
-    val powerWeight          = getSliderValue("power-slider") - 2.001
-    val windResistanceWeight = getSliderValue("wind-resistance-slider") - 2.0001
-    val sideSpinWeight       = getSliderValue("side-spin-slider") - 2.00001
+    // and ball with different stats (but result in same rank score) are always slighly different
+    val powerWeight          = getSliderValue("power-slider") - 0.001
+    val windResistanceWeight = getSliderValue("wind-resistance-slider") - 0.0001
+    val sideSpinWeight       = getSliderValue("side-spin-slider") - 0.00001
 
     RankingWeights(windResistanceWeight, sideSpinWeight, powerWeight)
   }

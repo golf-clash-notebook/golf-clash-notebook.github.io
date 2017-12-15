@@ -88,6 +88,7 @@ permalink: /clubs/ranker/
       <table class="table table-centered table-squished table-content-centered table-borderless table-striped">
         <thead>
           <tr>
+            <th>Score</th>
             <th>Club</th>
             <th>Level</th>
             <th>Power</th>
@@ -96,7 +97,6 @@ permalink: /clubs/ranker/
             <th>Back Spin</th>
             <th>Curl</th>
             <th>Ball Guide</th>
-            <th>Score</th>
           </tr>
         </thead>
         <tbody>
