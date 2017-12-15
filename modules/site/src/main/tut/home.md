@@ -48,7 +48,7 @@ position: 0
       <div class="media">
         <div class="media-left">
           <a href="https://www.facebook.com/teamgolfclashtommy/" target="_blank" rel="noopener">
-            <i class="fab fa-facebook fa-3x text-facebook" aria-hidden="true"></i>
+            <i class="fab fa-facebook fa-3x fa-fw text-facebook" aria-hidden="true"></i>
           </a>
         </div>
         <div class="media-body">
@@ -60,7 +60,7 @@ position: 0
       <div class="media">
         <div class="media-left">
           <a href="https://www.youtube.com/channel/UCovksimHM7c7dKVb6oRVUhg" target="_blank" rel="noopener">
-            <i class="fab fa-youtube fa-3x text-youtube" aria-hidden="true"></i>
+            <i class="fab fa-youtube fa-3x fa-fw text-youtube" aria-hidden="true"></i>
           </a>
         </div>
         <div class="media-body">
@@ -71,7 +71,7 @@ position: 0
 
       <div class="media">
         <div class="media-left">
-          <i class="fab fa-reddit-square fa-3x text-reddit" aria-hidden="true"></i>
+          <i class="fab fa-reddit-square fa-3x fa-fw text-reddit" aria-hidden="true"></i>
         </div>
         <div class="media-body">
           <h4 class="media-heading">/u/SeeZee21</h4>
