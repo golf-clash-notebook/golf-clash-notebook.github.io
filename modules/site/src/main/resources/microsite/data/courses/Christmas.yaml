@@ -3,27 +3,51 @@ holes:
   - course: Christmas
     number: 1
     par: 3
+    resources:
+      - title: Golf Clash Tommy - Pro / Expert Guide
+        url: https://youtu.be/5eD98UTd9To
   - course: Christmas
     number: 2
     par: 4
+    resources:
+      - title: Golf Clash Tommy - Pro / Expert Guide
+        url: https://youtu.be/Ndtx4NSNbRU
   - course: Christmas
     number: 3
     par: 5
+    resources:
+      - title: Golf Clash Tommy - Pro / Expert Guide
+        url: https://youtu.be/BCbkszGMJRs
   - course: Christmas
     number: 4
     par: 3
+    resources:
+      - title: Golf Clash Tommy - Pro / Expert Guide
+        url: https://youtu.be/UiqQckxEaW0
   - course: Christmas
     number: 5
     par: 4
+    resources:
+      - title: Golf Clash Tommy - Pro / Expert Guide
+        url: https://youtu.be/zIdvvBrv17U
   - course: Christmas
     number: 6
     par: 5
   - course: Christmas
     number: 7
     par: 4
+    resources:
+      - title: Golf Clash Tommy - Pro / Expert Guide
+        url: https://youtu.be/22ha-0ywIsE
   - course: Christmas
     number: 8
     par: 3
+    resources:
+      - title: Golf Clash Tommy - Pro / Expert Guide
+        url: https://youtu.be/e6z-H27OkiI
   - course: Christmas
     number: 9
     par: 5
+    resources:
+      - title: Golf Clash Tommy - Pro / Expert Guide
+        url: https://youtu.be/t7zQqNFN0uY
