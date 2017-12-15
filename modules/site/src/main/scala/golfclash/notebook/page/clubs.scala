@@ -106,7 +106,7 @@ object clubs {
             button(`type` := "button", cls := "close", data("dismiss") := "modal")(
               span(cls := "text-extra-large")("\u00D7")
             ),
-            h4(cls := "modal-title")(club.name)
+            h4(cls := "modal-title text-center")(club.name)
           ),
           div(cls := "modal-body")(
             createWindChart(club)
@@ -227,7 +227,9 @@ object clubs {
         )(f"${windPerRing * 1}%.1f")
       ),
       tag("nav")(cls := "text-center")(
-        ul(cls := s"club-pagination-${club.##} pagination pagination-sm justify-content-center")(
+        ul(
+          cls := s"club-pagination club-pagination-${club.##} pagination pagination-sm justify-content-center"
+        )(
           ((1 to 10).map { level =>
             val disabled = level > club.maxLevel || club.accuracy(level - 1) < 0
             val classes  = if (disabled) "disabled" else if (level == 1) "active" else ""
