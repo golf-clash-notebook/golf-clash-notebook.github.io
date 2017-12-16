@@ -53,7 +53,7 @@ object clubranker {
                              rawCurl: Double,
                              rawBallguide: Double) {
 
-    val total = rawPower + rawAccuracy + rawTopspin + rawBackspin + rawCurl + rawBallguide
+    val total = (rawPower + rawAccuracy + rawTopspin + rawBackspin + rawCurl + rawBallguide).max(1)
 
     val power     = rawPower / total
     val accuracy  = rawAccuracy / total
@@ -290,7 +290,7 @@ object clubranker {
       td(span(rankedClub.clubLevel.topspin)),
       td(span(rankedClub.clubLevel.backspin)),
       td(span(rankedClub.clubLevel.curl)),
-      td(span(rankedClub.clubLevel.ballguide))
+      td(span(f"${rankedClub.clubLevel.ballguide}%.1f"))
     )
   }
 
