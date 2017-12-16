@@ -1,5 +1,14 @@
 tournament-name: Christmas
 date: '2017-12-18'
+resources:
+- title: Golf Clash Tommy - Rookie Guide
+  url: https://youtu.be/GyZCYn6MpXg
+- title: Golf Clash Tommy - Pro/Expert Guide
+  url: https://youtu.be/PNyUPfOV37w
+- title: Golf Clash Tommy - Masters Guide
+  url: https://youtu.be/YOdp_ih6Bak
+- title: Golf Clash Tommy - Text Guides
+  url: https://imgur.com/a/4GYQE
 holes:
   - number: 1
     course: Christmas

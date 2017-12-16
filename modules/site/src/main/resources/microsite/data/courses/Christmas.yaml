@@ -4,50 +4,69 @@ holes:
     number: 1
     par: 3
     resources:
+      - title: Golf Clash Tommy - Rookie Guide
+        url: https://youtu.be/a9scRSxwBK4
       - title: Golf Clash Tommy - Pro / Expert Guide
         url: https://youtu.be/5eD98UTd9To
   - course: Christmas
     number: 2
     par: 4
     resources:
+      - title: Golf Clash Tommy - Rookie Guide
+        url: https://youtu.be/7MOHX955E-w
       - title: Golf Clash Tommy - Pro / Expert Guide
         url: https://youtu.be/Ndtx4NSNbRU
   - course: Christmas
     number: 3
     par: 5
     resources:
+      - title: Golf Clash Tommy - Rookie Guide
+        url: https://youtu.be/AmXS816DEJU
       - title: Golf Clash Tommy - Pro / Expert Guide
         url: https://youtu.be/BCbkszGMJRs
   - course: Christmas
     number: 4
     par: 3
     resources:
+      - title: Golf Clash Tommy - Rookie Guide
+        url: https://youtu.be/ZsF7A5dMbeo
       - title: Golf Clash Tommy - Pro / Expert Guide
         url: https://youtu.be/UiqQckxEaW0
   - course: Christmas
     number: 5
     par: 4
     resources:
+      - title: Golf Clash Tommy - Rookie Guide
+        url: https://youtu.be/QSjwbZGiP4E
       - title: Golf Clash Tommy - Pro / Expert Guide
         url: https://youtu.be/zIdvvBrv17U
   - course: Christmas
     number: 6
     par: 5
+    resources:
+      - title: Golf Clash Tommy - Rookie Guide
+        url: https://youtu.be/AdzVN4OZxK4
   - course: Christmas
     number: 7
     par: 4
     resources:
+      - title: Golf Clash Tommy - Rookie Guide
+        url: https://youtu.be/q1ovD0vKq3c
       - title: Golf Clash Tommy - Pro / Expert Guide
         url: https://youtu.be/22ha-0ywIsE
   - course: Christmas
     number: 8
     par: 3
     resources:
+      - title: Golf Clash Tommy - Rookie Guide
+        url: https://youtu.be/VQracmOtRUQ
       - title: Golf Clash Tommy - Pro / Expert Guide
         url: https://youtu.be/e6z-H27OkiI
   - course: Christmas
     number: 9
     par: 5
     resources:
+      - title: Golf Clash Tommy - Rookie Guide
+        url: https://youtu.be/8CUt1chgy1w
       - title: Golf Clash Tommy - Pro / Expert Guide
         url: https://youtu.be/t7zQqNFN0uY
