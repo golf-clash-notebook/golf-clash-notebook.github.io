@@ -24,7 +24,10 @@ position: 100
     </p>
 
     <p>
-      The easiest way to help out it to <a href="https://github.com/golf-clash-notebook/golf-clash-notebook.github.io/issues/new">open an issue</a>
+      The easiest way to help out it to <a href="https://www.reddit.com/user/cranst0n" target="_blank" rel="noopener">PM me on Reddit</a>.
+      I'll listen to any ideas, take any missing chests on the chart, club descriptions, etc. If
+      you're used to using GitHub then you can
+      <a href="https://github.com/golf-clash-notebook/golf-clash-notebook.github.io/issues/new">open an issue</a>
       and describe what problem(s) you see or what could be added that would improve the overall quality
       of the site. This will require a Github account. If you don't have one already, you can create one
       <a href="https://github.com/join">here</a>. Once you create an issue, I'll work on getting a response back to
