@@ -10,7 +10,7 @@ permalink: /clubs/ranker/
 
     <h1 class="gcn-page-header">Club Ranker</h1>
 
-    <div class="club-ranker-controls pad-32">
+    <div class="club-ranker-controls">
 
       <select id="club-category-select" class="form-control">
         <option value="Drivers">Drivers</option>
