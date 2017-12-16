@@ -149,9 +149,8 @@
     rare: -1
     epic: -1
   gold:
-    total: -1
-    rare: -1
-    epic: -1
+    total: 30
+    rare: 9
   platinum:
     total: -1
     rare: -1
@@ -186,17 +185,16 @@
   silver:
     total: 30
   gold:
-    total: -1
-    rare: -1
-    epic: -1
+    total: 32
+    rare: 10
   platinum:
-    total: -1
-    rare: -1
-    epic: -1
+    total: 69
+    rare: 17
+    epic: 2
   king:
-    total: -1
-    rare: -1
-    epic: -1
+    total: 120
+    rare: 49
+    epic: 8
 - tour: 12
   wooden:
     total: -1
