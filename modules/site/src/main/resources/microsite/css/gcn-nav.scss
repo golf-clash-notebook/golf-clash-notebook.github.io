@@ -48,7 +48,7 @@ ul.horizontalNav {
 }
 
 @media (max-width: 768px) {
-  #site-header > div.affix.mobile-nav-hide {
+  #nav-container.affix.mobile-nav-hide {
     transform: translateY(-52px);
     transition-duration: 0.2s;
   }

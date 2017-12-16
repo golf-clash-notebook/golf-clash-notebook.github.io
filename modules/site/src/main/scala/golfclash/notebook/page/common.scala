@@ -176,9 +176,9 @@ object common {
       val st = jQuery(dom.window).scrollTop()
 
       if (st < lastScrollTop) {
-        jQuery("#site-header > div.affix").addClass("mobile-nav-hide")
+        jQuery("#nav-container").addClass("mobile-nav-hide")
       } else {
-        jQuery("#site-header > div.affix").removeClass("mobile-nav-hide")
+        jQuery("#nav-container").removeClass("mobile-nav-hide")
       }
 
       lastScrollTop = st
