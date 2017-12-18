@@ -3,12 +3,23 @@ holes:
   - course: The Oasis
     number: 1
     par: 3
+    description: >
+      Help Wanted
   - course: The Oasis
     number: 2
     par: 4
+    description: >
+      Help Wanted
+    resources:
+      - title: Golf Clash Tommy - Pro / Expert Guide
+        url: https://youtu.be/OLLBwlG6C7s
   - course: The Oasis
     number: 3
     par: 5
+    description: >
+      Help Wanted
   - course: The Oasis
     number: 4
     par: 3
+    description: >
+      Help Wanted
