@@ -10,11 +10,11 @@
 {% endcapture %}
 
 <div class="row row-flex">
-  <div class="col-xs-3 col-xs-offset-1 text-right">{{ include.label }}</div>
-  <div class="col-xs-6">
+  <div class="col-xs-5 text-right text-small">{{ include.label }}</div>
+  <div class="col-xs-4">
     <div class="progress progress-thin">
       <div class="progress-bar {{ progressBarClass }}" role="progressbar" aria-valuenow="{{ include.value }}" aria-valuemin="0" aria-valuemax="{{ include.max }}" style="width: {{ include.percentage }}%; min-width: 0.3em;">
-        <span class="sr-only">{{ include.label }}</span>
+        <span class="text-small sr-only">{{ include.label }}</span>
       </div>
     </div>
   </div>
