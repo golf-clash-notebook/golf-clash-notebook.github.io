@@ -73,32 +73,38 @@ object hole {
   }
 
   def initGuides() = {
-    jQuery(s"[class*=-guide-overlay]").map { element =>
-      for {
-        classAttr <- jQuery(element).attr("class").toOption
-        classes = classAttr.split(" ")
-        levelClass <- classes.find(_.contains("-guide-overlay"))
-        level = levelClass.replaceAll("-guide-overlay", "")
-      } yield {
+    if (jQuery(s"[class*=-guide-overlay]").length > 0) {
+      jQuery(s"[class*=-guide-overlay]").map { element =>
+        for {
+          classAttr <- jQuery(element).attr("class").toOption
+          classes = classAttr.split(" ")
+          levelClass <- classes.find(_.contains("-guide-overlay"))
+          level = levelClass.replaceAll("-guide-overlay", "")
+        } yield {
 
-        val lengths =
+          val lengths =
+            (0 until numGuides(level)).map { guideNum =>
+              guideLength(level, guideNum)
+            }
+
           (0 until numGuides(level)).map { guideNum =>
-            guideLength(level, guideNum)
+            initGuidePaths(level, guideNum)
+            initGuidePoints(level, guideNum)
           }
 
-        (0 until numGuides(level)).map { guideNum =>
-          initGuidePaths(level, guideNum)
-          initGuidePoints(level, guideNum)
+          val maxLength       = lengths.foldLeft(0)(_.max(_))
+          val annotationDelay = pathLengthToDuration(maxLength)
+
+          jQuery(".guide-image-annotation").each(
+            (ix, element) => initGuideImageAnnotation(element, annotationDelay + (ix * 0.25))
+          )
+
         }
-
-        val maxLength       = lengths.foldLeft(0)(_.max(_))
-        val annotationDelay = pathLengthToDuration(maxLength)
-
-        jQuery(".guide-image-annotation").each(
-          (ix, element) => initGuideImageAnnotation(element, annotationDelay + (ix * 0.25))
-        )
-
       }
+    } else {
+      jQuery(".guide-image-annotation").each(
+        (ix, element) => initGuideImageAnnotation(element, 0.25 + (ix * 0.25))
+      )
     }
   }
 
