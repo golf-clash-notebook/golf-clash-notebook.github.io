@@ -8,6 +8,18 @@ holes:
         url: https://youtu.be/a9scRSxwBK4
       - title: Golf Clash Tommy - Pro / Expert Guide
         url: https://youtu.be/5eD98UTd9To
+      - title: Zachary Jones - Qualifying Round - Rookie
+        url: https://youtu.be/B6e7DJpE3o4
+    overlays:
+      size: [435, 810]
+      annotations:
+        - name: Green
+          svg: >
+            <g class="guide-image-annotation">
+              <circle cx="232" cy="216" r="4" fill="white" />
+              <path d="M 100 300 L 232 216" stroke="white" fill="transparent" stroke-width="3"/>
+              <image xlink:href="/img/golfclash/courses/Christmas/annotations/1-Green.png" x="0" y="200" width="200" height="200" />
+            </g>
   - course: Christmas
     number: 2
     par: 4
@@ -16,6 +28,18 @@ holes:
         url: https://youtu.be/7MOHX955E-w
       - title: Golf Clash Tommy - Pro / Expert Guide
         url: https://youtu.be/Ndtx4NSNbRU
+      - title: Zachary Jones - Qualifying Round - Rookie
+        url: https://youtu.be/MYt1Ao5NRus
+    overlays:
+      size: [448, 1107]
+      annotations:
+        - name: Green
+          svg: >
+            <g class="guide-image-annotation">
+              <circle cx="135" cy="158" r="4" fill="white" />
+              <path d="M 350 100 L 135 158" stroke="white" fill="transparent" stroke-width="3"/>
+              <image xlink:href="/img/golfclash/courses/Christmas/annotations/2-Green.png" x="250" y="0" width="200" height="200" />
+            </g>
   - course: Christmas
     number: 3
     par: 5
@@ -24,6 +48,18 @@ holes:
         url: https://youtu.be/AmXS816DEJU
       - title: Golf Clash Tommy - Pro / Expert Guide
         url: https://youtu.be/BCbkszGMJRs
+      - title: Zachary Jones - Qualifying Round - Rookie
+        url: https://youtu.be/9_AkC7DfP3w
+    overlays:
+      size: [382, 1085]
+      annotations:
+        - name: Green
+          svg: >
+            <g class="guide-image-annotation">
+              <circle cx="193" cy="113" r="4" fill="white" />
+              <path d="M 87 237 L 193 113" stroke="white" fill="transparent" stroke-width="3"/>
+              <image xlink:href="/img/golfclash/courses/Christmas/annotations/3-Green.png" x="0" y="150" width="175" height="175" />
+            </g>
   - course: Christmas
     number: 4
     par: 3
@@ -32,6 +68,18 @@ holes:
         url: https://youtu.be/ZsF7A5dMbeo
       - title: Golf Clash Tommy - Pro / Expert Guide
         url: https://youtu.be/UiqQckxEaW0
+      - title: Zachary Jones - Qualifying Round - Rookie
+        url: https://youtu.be/WOszoxzUGQ4
+    overlays:
+      size: [382, 821]
+      annotations:
+        - name: Green
+          svg: >
+            <g class="guide-image-annotation">
+              <circle cx="186" cy="167" r="4" fill="white" />
+              <path d="M 87 317 L 186 167" stroke="white" fill="transparent" stroke-width="3"/>
+              <image xlink:href="/img/golfclash/courses/Christmas/annotations/4-Green.png" x="0" y="230" width="175" height="175" />
+            </g>
   - course: Christmas
     number: 5
     par: 4
@@ -40,12 +88,36 @@ holes:
         url: https://youtu.be/QSjwbZGiP4E
       - title: Golf Clash Tommy - Pro / Expert Guide
         url: https://youtu.be/zIdvvBrv17U
+      - title: Zachary Jones - Qualifying Round - Rookie
+        url: https://youtu.be/GN2T2gDqtok
+    overlays:
+      size: [402, 838]
+      annotations:
+        - name: Green
+          svg: >
+            <g class="guide-image-annotation">
+              <circle cx="147" cy="109" r="4" fill="white" />
+              <path d="M 87 237 L 147 109" stroke="white" fill="transparent" stroke-width="3"/>
+              <image xlink:href="/img/golfclash/courses/Christmas/annotations/5-Green.png" x="0" y="150" width="175" height="175" />
+            </g>
   - course: Christmas
     number: 6
     par: 5
     resources:
       - title: Golf Clash Tommy - Rookie Guide
         url: https://youtu.be/AdzVN4OZxK4
+      - title: Zachary Jones - Qualifying Round - Rookie
+        url: https://youtu.be/eyHXKoVf0AE
+    overlays:
+      size: [374, 1095]
+      annotations:
+        - name: Green
+          svg: >
+            <g class="guide-image-annotation">
+              <circle cx="198" cy="139" r="4" fill="white" />
+              <path d="M 87 237 L 198 139" stroke="white" fill="transparent" stroke-width="3"/>
+              <image xlink:href="/img/golfclash/courses/Christmas/annotations/6-Green.png" x="0" y="150" width="175" height="175" />
+            </g>
   - course: Christmas
     number: 7
     par: 4
@@ -54,6 +126,18 @@ holes:
         url: https://youtu.be/q1ovD0vKq3c
       - title: Golf Clash Tommy - Pro / Expert Guide
         url: https://youtu.be/22ha-0ywIsE
+      - title: Zachary Jones - Qualifying Round - Rookie
+        url: https://youtu.be/5RaocmALONw
+    overlays:
+      size: [310, 1047]
+      annotations:
+        - name: Green
+          svg: >
+            <g class="guide-image-annotation">
+              <circle cx="168" cy="128" r="4" fill="white" />
+              <path d="M 272 237 L 168 128" stroke="white" fill="transparent" stroke-width="3"/>
+              <image xlink:href="/img/golfclash/courses/Christmas/annotations/7-Green.png" x="185" y="150" width="175" height="175" />
+            </g>
   - course: Christmas
     number: 8
     par: 3
@@ -62,6 +146,18 @@ holes:
         url: https://youtu.be/VQracmOtRUQ
       - title: Golf Clash Tommy - Pro / Expert Guide
         url: https://youtu.be/e6z-H27OkiI
+      - title: Zachary Jones - Qualifying Round - Rookie
+        url: https://youtu.be/f81eMaha8Lo
+    overlays:
+      size: [450, 912]
+      annotations:
+        - name: Green
+          svg: >
+            <g class="guide-image-annotation">
+              <circle cx="217" cy="232" r="4" fill="white" />
+              <path d="M 100 425 L 217 232" stroke="white" fill="transparent" stroke-width="3"/>
+              <image xlink:href="/img/golfclash/courses/Christmas/annotations/8-Green.png" x="0" y="325" width="200" height="200" />
+            </g>
   - course: Christmas
     number: 9
     par: 5
@@ -70,3 +166,15 @@ holes:
         url: https://youtu.be/8CUt1chgy1w
       - title: Golf Clash Tommy - Pro / Expert Guide
         url: https://youtu.be/t7zQqNFN0uY
+      - title: Zachary Jones - Qualifying Round - Rookie
+        url: https://youtu.be/K9HrMlHZZR8
+    overlays:
+      size: [423, 1096]
+      annotations:
+        - name: Green
+          svg: >
+            <g class="guide-image-annotation">
+              <circle cx="285" cy="125" r="4" fill="white" />
+              <path d="M 100 100 L 285 125" stroke="white" fill="transparent" stroke-width="3"/>
+              <image xlink:href="/img/golfclash/courses/Christmas/annotations/9-Green.png" x="0" y="0" width="200" height="200" />
+            </g>

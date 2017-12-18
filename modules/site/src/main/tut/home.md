@@ -15,8 +15,8 @@ position: 0
     {% include news/feed-widget.liquid %}
 
     <p>
-      An open source compilation of all things Golf Clash. Here you'll find past guides,
-      descriptions, tips and more for the game of Golf Clash that may help you along your way.
+      An open source compilation of Golf Clash content. Here you'll find past guides, descriptions,
+      tips and more for the game of Golf Clash that may help you along your way.
     </p>
 
     <p>
