@@ -3,27 +3,198 @@ holes:
   - course: Glenmonarch Estate
     number: 1
     par: 3
+    description: >
+      Help Wanted
+    clubRecommendations:
+      - level: Rookie
+        clubs:
+          - Sniper
+          - Hammerhead
+      - level: Pro
+        clubs:
+          - Sniper
+      - level: Masters
+        clubs:
+          - Cataclysm
+    resources:
+      - title: Golf Clash Tommy - Rookie Guide
+        url: https://youtu.be/5aEO_6rZ-rQ
+      - title: Golf Clash Tommy - Pro / Expert Guide
+        url: https://youtu.be/JSA-RfTGtOM
   - course: Glenmonarch Estate
     number: 2
     par: 4
+    description: >
+      Help Wanted
+    clubRecommendations:
+      - level: Rookie
+        clubs:
+          - Backbone
+      - level: Pro
+        clubs:
+          - Backbone
+          - Goliath
+      - level: Masters
+        clubs:
+          - Cataclysm
+    resources:
+      - title: Golf Clash Tommy - Rookie Guide
+        url: https://youtu.be/Vfew6LaSc8g
+      - title: Golf Clash Tommy - Pro / Expert Guide
+        url: https://youtu.be/35JcT84SfV0
   - course: Glenmonarch Estate
     number: 3
     par: 5
+    description: >
+      Help Wanted
+    clubRecommendations:
+      - level: Rookie
+        clubs:
+          - Big Dawg
+      - level: Pro
+        clubs:
+          - Big Dawg
+          - Cataclysm
+      - level: Masters
+        clubs:
+          - Cataclysm
+    resources:
+      - title: Golf Clash Tommy - Rookie Guide
+        url: https://youtu.be/ZXX8qgujE0Q
+      - title: Golf Clash Tommy - Pro / Expert Guide
+        url: https://youtu.be/sJuuI9l2mok
   - course: Glenmonarch Estate
     number: 4
     par: 4
+    description: >
+      Help Wanted
+    clubRecommendations:
+      - level: Rookie
+        clubs:
+          - Thorn
+          - Hornet
+      - level: Pro
+        clubs:
+          - Thorn
+          - Hornet
+      - level: Masters
+        clubs:
+          - Thorn
+          - Hornet
+    resources:
+      - title: Golf Clash Tommy - Rookie Guide
+        url: https://youtu.be/HmQsemFxHO8
+      - title: Golf Clash Tommy - Pro / Expert Guide
+        url: https://youtu.be/9oQALnWovtg
   - course: Glenmonarch Estate
     number: 5
     par: 3
+    description: >
+      Help Wanted
+    clubRecommendations:
+      - level: Rookie
+        clubs:
+          - Goliath
+          - Backbone
+      - level: Pro
+        clubs:
+          - Sniper
+      - level: Masters
+        clubs:
+          - Quarterback
+    resources:
+      - title: Golf Clash Tommy - Rookie Guide
+        url: https://youtu.be/8iDrg_KtfNk
+      - title: Golf Clash Tommy - Pro / Expert Guide
+        url: https://youtu.be/0ZVqQldvitI
   - course: Glenmonarch Estate
     number: 6
     par: 3
+    description: >
+      Help Wanted
+    clubRecommendations:
+      - level: Rookie
+        clubs:
+          - Sniper
+          - Hammerhead
+      - level: Pro
+        clubs:
+          - Sniper
+          - Rocket
+      - level: Masters
+        clubs:
+          - Quarterback
+          - Rocket
+    resources:
+      - title: Golf Clash Tommy - Rookie Guide
+        url: https://youtu.be/-MT9H11Z6g0
+      - title: Golf Clash Tommy - Pro / Expert Guide
+        url: https://youtu.be/SYSbnuzJC0I
   - course: Glenmonarch Estate
     number: 7
     par: 4
+    description: >
+      Help Wanted
+    clubRecommendations:
+      - level: Rookie
+        clubs:
+          - Saturn
+          - Thorn
+          - Machete
+      - level: Pro
+        clubs:
+          - Saturn
+          - Thorn
+          - Machete
+      - level: Masters
+        clubs:
+          - Saturn
+          - Thorn
+          - Machete
+    resources:
+      - title: Golf Clash Tommy - Rookie Guide
+        url: https://youtu.be/3MhzZ-oj9qA
+      - title: Golf Clash Tommy - Pro / Expert Guide
+        url: https://youtu.be/HTToPE1-oIc
   - course: Glenmonarch Estate
     number: 8
     par: 5
+    description: >
+      Help Wanted
+    clubRecommendations:
+      - level: Rookie
+        clubs:
+          - Big Dawg
+      - level: Pro
+        clubs:
+          - Big Dawg
+          - Cataclysm
+      - level: Masters
+        clubs:
+          - Cataclysm
+    resources:
+      - title: Golf Clash Tommy - Rookie Guide
+        url: https://youtu.be/CV-LjJvfI3k
+      - title: Golf Clash Tommy - Pro / Expert Guide
+        url: https://youtu.be/bzmCM9lhghA
   - course: Glenmonarch Estate
     number: 9
     par: 5
+    description: >
+      Help Wanted
+    clubRecommendations:
+      - level: Rookie
+        clubs:
+          - Big Dawg
+      - level: Pro
+        clubs:
+          - Big Dawg
+          - Cataclysm
+      - level: Masters
+        clubs:
+          - Cataclysm
+    resources:
+      - title: Golf Clash Tommy - Rookie Guide
+        url: https://youtu.be/vTj5PTG3C2c
+      - title: Golf Clash Tommy - Pro / Expert Guide
+        url: https://youtu.be/aYEXM5i6X8s

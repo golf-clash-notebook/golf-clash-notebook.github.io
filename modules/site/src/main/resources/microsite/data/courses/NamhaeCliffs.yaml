@@ -3,27 +3,199 @@ holes:
   - course: Namhae Cliffs
     number: 1
     par: 3
+    description: >
+      Help Wanted
+    clubRecommendations:
+      - level: Rookie
+        clubs:
+          - Viper
+      - level: Pro
+        clubs:
+          - Sniper
+          - Guardian
+      - level: Masters
+        clubs:
+          - Quarterback
+          - Rock
+    resources:
+      - title: Golf Clash Tommy - Rookie Guide
+        url: https://youtu.be/_P-7r14EfHM
+      - title: Golf Clash Tommy - Pro / Expert Guide
+        url: https://youtu.be/eGn08aahpbA
   - course: Namhae Cliffs
     number: 2
     par: 4
+    description: >
+      Help Wanted
+    clubRecommendations:
+      - level: Rookie
+        clubs:
+          - Backbone
+          - Goliath
+      - level: Pro
+        clubs:
+          - Backbone
+          - Goliath
+      - level: Masters
+        clubs:
+          - Backbone
+          - Goliath
+    resources:
+      - title: Golf Clash Tommy - Rookie Guide
+        url: https://youtu.be/uzjjih08CU4
+      - title: Golf Clash Tommy - Pro / Expert Guide
+        url: https://youtu.be/TyPd5XXB5Uo
   - course: Namhae Cliffs
     number: 3
     par: 5
+    description: >
+      Help Wanted
+    clubRecommendations:
+      - level: Rookie
+        clubs:
+          - Big Dawg
+          - Viper
+      - level: Pro
+        clubs:
+          - Big Dawg
+          - Sniper
+          - Cataclysm
+      - level: Masters
+        clubs:
+    resources:
+      - title: Golf Clash Tommy - Rookie Guide
+        url: https://youtu.be/Y4QYL1QApeU
+      - title: Golf Clash Tommy - Pro / Expert Guide
+        url: https://youtu.be/AOjxE7NUgSc
   - course: Namhae Cliffs
     number: 4
     par: 4
+    description: >
+      Help Wanted
+    clubRecommendations:
+      - level: Rookie
+        clubs:
+          - Backbone
+          - Thorn
+      - level: Pro
+        clubs:
+          - Backbone
+          - Thorn
+      - level: Masters
+        clubs:
+          - Apocalypse
+    resources:
+      - title: Golf Clash Tommy - Rookie Guide
+        url: https://youtu.be/yJE8ebKBz0Y
+      - title: Golf Clash Tommy - Pro / Expert Guide
+        url: https://youtu.be/6aFmOUgZ76o
   - course: Namhae Cliffs
     number: 5
     par: 3
+    description: >
+      Help Wanted
+    clubRecommendations:
+      - level: Rookie
+        clubs:
+          - Thorn
+          - Hornet
+      - level: Pro
+        clubs:
+          - Backbone
+          - Goliath
+      - level: Masters
+        clubs:
+          - Goliath
+    resources:
+      - title: Golf Clash Tommy - Rookie Guide
+        url: https://youtu.be/rwltIlXaFIU
+      - title: Golf Clash Tommy - Pro / Expert Guide
+        url: https://youtu.be/spNAKlWs6lU
   - course: Namhae Cliffs
     number: 6
     par: 3
+    description: >
+      Help Wanted
+    clubRecommendations:
+      - level: Rookie
+        clubs:
+          - Backbone
+          - Goliath
+      - level: Pro
+        clubs:
+          - Backbone
+          - Goliath
+      - level: Masters
+        clubs:
+          - Guardian
+          - Sniper
+    resources:
+      - title: Golf Clash Tommy - Rookie Guide
+        url: https://youtu.be/81R4HQpnu4c
+      - title: Golf Clash Tommy - Pro / Expert Guide
+        url: https://youtu.be/kqwFFzKFazM
   - course: Namhae Cliffs
     number: 7
     par: 4
+    description: >
+      Help Wanted
+    clubRecommendations:
+      - level: Rookie
+        clubs:
+          - Thorn
+          - Hornet
+      - level: Pro
+        clubs:
+          - Thorn
+          - Hornet
+      - level: Masters
+        clubs:
+          - Thorn
+          - Hornet
+    resources:
+      - title: Golf Clash Tommy - Rookie Guide
+        url: https://youtu.be/7-M6m-QRrOw
+      - title: Golf Clash Tommy - Pro / Expert Guide
+        url: https://youtu.be/Poyunyd0TSE
   - course: Namhae Cliffs
     number: 8
     par: 5
+    description: >
+      Help Wanted
+    clubRecommendations:
+      - level: Rookie
+        clubs:
+          - Big Dawg
+      - level: Pro
+        clubs:
+          - Big Dawg
+          - Cataclysm
+      - level: Masters
+        clubs:
+          - Cataclysm
+    resources:
+      - title: Golf Clash Tommy - Rookie Guide
+        url: https://youtu.be/WmKir4A1lVE
+      - title: Golf Clash Tommy - Pro / Expert Guide
+        url: https://youtu.be/SLJvKi8-uIo
   - course: Namhae Cliffs
     number: 9
     par: 5
+    description: >
+      Help Wanted
+    clubRecommendations:
+      - level: Rookie
+        clubs:
+          - Big Dawg
+      - level: Pro
+        clubs:
+          - Big Dawg
+          - Cataclysm
+      - level: Masters
+        clubs:
+          - Cataclysm
+    resources:
+      - title: Golf Clash Tommy - Rookie Guide
+        url: https://youtu.be/bZmJ9jhFZS8
+      - title: Golf Clash Tommy - Pro / Expert Guide
+        url: https://youtu.be/f9f6OQKtTQU

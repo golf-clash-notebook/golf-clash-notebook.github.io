@@ -3,12 +3,28 @@ holes:
   - course: Sunshine Glades
     number: 1
     par: 3
+    resources:
+      - title: Golf Clash Tommy - Rookie Guide
+        url: https://youtu.be/X-g3gu4sRqY
+      - title: Golf Clash Tommy - Pro / Expert Guide
+        url: https://youtu.be/Pbd-bxOeP1Q
   - course: Sunshine Glades
     number: 2
     par: 4
+    resources:
+      - title: Golf Clash Tommy - Pro / Expert Guide
+        url: https://youtu.be/Y2K1-fpwLmQ
   - course: Sunshine Glades
     number: 3
     par: 5
+    resources:
+      - title: Golf Clash Tommy - Rookie Guide
+        url: https://youtu.be/o7Cp8S6m4w4
+      - title: Golf Clash Tommy - Pro / Expert Guide
+        url: https://youtu.be/uAorNoFskVY
   - course: Sunshine Glades
     number: 4
     par: 5
+    resources:
+      - title: Golf Clash Tommy - Rookie Guide
+        url: https://youtu.be/aWLlqXT1xzY

@@ -3,27 +3,199 @@ holes:
   - course: Greenoch Point
     number: 1
     par: 3
+    description: >
+      Help Wanted
+    clubRecommendations:
+      - level: Rookie
+        clubs:
+          - Viper
+          - Sniper
+      - level: Pro
+        clubs:
+          - Sniper
+          - Quarterback
+      - level: Masters
+        clubs:
+          - Quarterback
+          - Rocket
+    resources:
+      - title: Golf Clash Tommy - Rookie Guide
+        url: https://youtu.be/C-_rIqp2Xy4
+      - title: Golf Clash Tommy - Pro / Expert Guide
+        url: https://youtu.be/XidDMOEzg-w
   - course: Greenoch Point
     number: 2
     par: 4
+    description: >
+      Help Wanted
+    clubRecommendations:
+      - level: Rookie
+        clubs:
+          - Big Topper
+      - level: Pro
+        clubs:
+          - Big Topper
+          - Apocalypse
+      - level: Masters
+        clubs:
+          - Apocalypse
+    resources:
+      - title: Golf Clash Tommy - Rookie Guide
+        url: https://youtu.be/QOYTwKgzNMk
+      - title: Golf Clash Tommy - Pro / Expert Guide
+        url: https://youtu.be/ypCULOeXldA
   - course: Greenoch Point
     number: 3
     par: 3
+    description: >
+      Help Wanted
+    clubRecommendations:
+      - level: Rookie
+        clubs:
+          - Quarterback
+          - Sniper
+      - level: Pro
+        clubs:
+          - Quarterback
+      - level: Masters
+        clubs:
+          - Extra Mile
+          - Apocalypse
+    resources:
+      - title: Golf Clash Tommy - Rookie Guide
+        url: https://youtu.be/969zgx27pGQ
+      - title: Golf Clash Tommy - Pro / Expert Guide
+        url: https://youtu.be/bNHtJz0HIkw
   - course: Greenoch Point
     number: 4
     par: 4
+    description: >
+      Help Wanted
+    clubRecommendations:
+      - level: Rookie
+        clubs:
+          - Viper
+          - Guardian
+      - level: Pro
+        clubs:
+          - Sniper
+          - Guardian
+      - level: Masters
+        clubs:
+          - Sniper
+          - Guardian
+    resources:
+      - title: Golf Clash Tommy - Rookie Guide
+        url: https://youtu.be/YyqF-n_c2JQ
+      - title: Golf Clash Tommy - Pro / Expert Guide
+        url: https://youtu.be/XidDMOEzg-w
   - course: Greenoch Point
     number: 5
     par: 3
+    description: >
+      Help Wanted
+    clubRecommendations:
+      - level: Rookie
+        clubs:
+          - Quarterback
+      - level: Pro
+        clubs:
+          - Extra Mile
+          - Quarterback
+      - level: Masters
+        clubs:
+          - Quarterback
+          - Apocalypse
+    resources:
+      - title: Golf Clash Tommy - Rookie Guide
+        url: https://youtu.be/cJltWboXO7I
+      - title: Golf Clash Tommy - Pro / Expert Guide
+        url: https://youtu.be/7c22tCAGL8Y
   - course: Greenoch Point
     number: 6
     par: 5
+    description: >
+      Help Wanted
+    clubRecommendations:
+      - level: Rookie
+        clubs:
+          - Big Dawg
+      - level: Pro
+        clubs:
+          - Sniper
+      - level: Masters
+        clubs:
+          - Sniper
+          - Cataclysm
+    resources:
+      - title: Golf Clash Tommy - Rookie Guide
+        url: https://youtu.be/Rzt9RdD5g08
+      - title: Golf Clash Tommy - Pro / Expert Guide
+        url: https://youtu.be/zJIW1YQnaBo
   - course: Greenoch Point
     number: 7
     par: 5
+    description: >
+      Help Wanted
+    clubRecommendations:
+      - level: Rookie
+        clubs:
+          - Viper
+          - Sniper
+      - level: Pro
+        clubs:
+          - Sniper
+          - Guardian
+      - level: Masters
+        clubs:
+          - Sniper
+          - Guardian
+    resources:
+      - title: Golf Clash Tommy - Rookie Guide
+        url: https://youtu.be/jKKuUy0OdpU
+      - title: Golf Clash Tommy - Pro / Expert Guide
+        url: https://youtu.be/EpWgxujmDXY
   - course: Greenoch Point
     number: 8
     par: 4
+    description: >
+      Help Wanted
+    clubRecommendations:
+      - level: Rookie
+        clubs:
+          - Quarterback
+          - Extra Mile
+      - level: Pro
+        clubs:
+          - Quarterback
+          - Apocalypse
+      - level: Masters
+        clubs:
+          - Apocalypse
+    resources:
+      - title: Golf Clash Tommy - Rookie Guide
+        url: https://youtu.be/d5_OpMCVils
+      - title: Golf Clash Tommy - Pro / Expert Guide
+        url: https://youtu.be/Cx11OPhVD28
   - course: Greenoch Point
     number: 9
     par: 5
+    description: >
+      Help Wanted
+    clubRecommendations:
+      - level: Rookie
+        clubs:
+          - Big Dawg
+      - level: Pro
+        clubs:
+          - Sniper
+          - Cataclysm
+      - level: Masters
+        clubs:
+          - Sniper
+          - Cataclysm
+    resources:
+      - title: Golf Clash Tommy - Rookie Guide
+        url: https://youtu.be/pu1YhoUm5Hk
+      - title: Golf Clash Tommy - Pro / Expert Guide
+        url: https://youtu.be/yBljRbztAng
