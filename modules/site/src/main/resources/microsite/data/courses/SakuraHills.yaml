@@ -3,27 +3,59 @@ holes:
   - course: Sakura Hills
     number: 1
     par: 3
+    resources:
+      - title: Golf Clash Tommy - Rookie Guide
+        url: https://youtu.be/WI_jyhHYghY
+      - title: Golf Clash Tommy - Pro / Expert Guide
+        url: https://youtu.be/haCEch_MaJ0
   - course: Sakura Hills
     number: 2
     par: 4
+    resources:
+      - title: Golf Clash Tommy - Rookie Guide
+        url: https://youtu.be/stgyvO6iyig
+      - title: Golf Clash Tommy - Pro / Expert Guide
+        url: https://youtu.be/NgjimHyDgVc
   - course: Sakura Hills
     number: 3
     par: 4
   - course: Sakura Hills
     number: 4
     par: 5
+    resources:
+      - title: Golf Clash Tommy - Rookie Guide
+        url: https://youtu.be/vpgMGpG7rxs
   - course: Sakura Hills
     number: 5
     par: 3
+    resources:
+      - title: Golf Clash Tommy - Rookie Guide
+        url: https://youtu.be/0sQWlMXtYY8
+      - title: Golf Clash Tommy - Pro / Expert Guide
+        url: https://youtu.be/VDrSX_M0_tE
   - course: Sakura Hills
     number: 6
     par: 5
+    resources:
+      - title: Golf Clash Tommy - Rookie Guide
+        url: https://youtu.be/DInf-UCpuUU
+      - title: Golf Clash Tommy - Pro / Expert Guide
+        url: https://youtu.be/UhYMgk4_76U
   - course: Sakura Hills
     number: 7
     par: 4
+    resources:
+      - title: Golf Clash Tommy - Pro / Expert Guide
+        url: https://youtu.be/JxhbMrKO5UY
   - course: Sakura Hills
     number: 8
     par: 3
+    resources:
+      - title: Golf Clash Tommy - Rookie Guide
+        url: https://youtu.be/haCEch_MaJ0
   - course: Sakura Hills
     number: 9
     par: 5
+    resources:
+      - title: Golf Clash Tommy - Rookie Guide
+        url: https://youtu.be/4N44QwKPtAM

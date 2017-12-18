@@ -18,6 +18,10 @@ holes:
         clubs:
           - Rocket
     resources:
+      - title: Golf Clash Tommy - Rookie Guide
+        url: https://youtu.be/dvsLZuYZRO0
+      - title: Golf Clash Tommy - Pro / Expert Guide
+        url:
     overlays:
       size: [349, 840]
       guides:
@@ -76,6 +80,10 @@ holes:
         clubs:
           - Sniper
     resources:
+      - title: Golf Clash Tommy - Rookie Guide
+        url: https://youtu.be/vLjMAUwj73Y
+      - title: Golf Clash Tommy - Pro / Expert Guide
+        url: https://youtu.be/HTmhrIiFNpw
     overlays:
       size: [398, 905]
       guides:
@@ -145,6 +153,10 @@ holes:
         clubs:
           - Apocalypse
     resources:
+      - title: Golf Clash Tommy - Rookie Guide
+        url: https://youtu.be/HfICAAVGAq0
+      - title: Golf Clash Tommy - Pro / Expert Guide
+        url: https://youtu.be/T_ybdEexedM
     overlays:
       size: [397, 907]
       guides:
@@ -216,6 +228,10 @@ holes:
         clubs:
           - Goliath
     resources:
+      - title: Golf Clash Tommy - Rookie Guide
+        url: https://youtu.be/db1Ekss0D2I
+      - title: Golf Clash Tommy - Pro / Expert Guide
+        url: https://youtu.be/hFrJVdFWLZ8
     overlays:
       size: [405, 944]
       guides:
@@ -292,6 +308,10 @@ holes:
         clubs:
           - Cataclysm
     resources:
+      - title: Golf Clash Tommy - Rookie Guide
+        url: https://youtu.be/K1enoJcl9Es
+      - title: Golf Clash Tommy - Pro / Expert Guide
+        url: https://youtu.be/dJc0H5oDnCg
     overlays:
       size: [494, 1067]
       guides:
@@ -375,6 +395,10 @@ holes:
         clubs:
           - Rocket
     resources:
+      - title: Golf Clash Tommy - Rookie Guide
+        url: https://youtu.be/PjePLTY29lE
+      - title: Golf Clash Tommy - Pro / Expert Guide
+        url: https://youtu.be/ebrGA_8TIXk
     overlays:
       size: [298, 839]
       guides:
@@ -416,6 +440,10 @@ holes:
           - Guardian
           - Sniper
     resources:
+      - title: Golf Clash Tommy - Rookie Guide
+        url: https://youtu.be/E-nE2_k4l4U
+      - title: Golf Clash Tommy - Pro / Expert Guide
+        url: https://youtu.be/QvsEqzyEl4g
     overlays:
       size: [514, 944]
       guides:
@@ -461,6 +489,10 @@ holes:
         clubs:
           - Guardian
     resources:
+      - title: Golf Clash Tommy - Rookie Guide
+        url: https://youtu.be/wop2hu72bRI
+      - title: Golf Clash Tommy - Pro / Expert Guide
+        url: https://youtu.be/zve1N4qZwVU
     overlays:
       size: [676, 921]
       guides:
@@ -500,6 +532,10 @@ holes:
         clubs:
           - Cataclysm
     resources:
+      - title: Golf Clash Tommy - Rookie Guide
+        url: https://youtu.be/xeh3pO6UwnM
+      - title: Golf Clash Tommy - Pro / Expert Guide
+        url: https://youtu.be/7ygwWzwjFUU
     overlays:
       size: [417, 1074]
       guides:

@@ -16,6 +16,11 @@ holes:
       - level: Masters
         clubs:
           - Quarterback
+    resources:
+      - title: Golf Clash Tommy - Rookie Guide
+        url: https://youtu.be/8iDrg_KtfNk
+      - title: Golf Clash Tommy - Pro / Expert Guide
+        url: https://youtu.be/0ZVqQldvitI
     overlays:
       size: [340, 885]
       guides:
@@ -79,6 +84,11 @@ holes:
       - level: Masters
         clubs:
           - Cataclysm
+    resources:
+      - title: Golf Clash Tommy - Rookie Guide
+        url: https://youtu.be/ZXX8qgujE0Q
+      - title: Golf Clash Tommy - Pro / Expert Guide
+        url: https://youtu.be/sJuuI9l2mok
     overlays:
       size: [698, 1074]
       guides:
@@ -160,6 +170,11 @@ holes:
       - level: Masters
         clubs:
           - Cataclysm
+    resources:
+      - title: Golf Clash Tommy - Rookie Guide
+        url: https://youtu.be/5aEO_6rZ-rQ
+      - title: Golf Clash Tommy - Pro / Expert Guide
+        url: https://youtu.be/JSA-RfTGtOM
     overlays:
       size: [412, 853]
       guides:
@@ -236,6 +251,11 @@ holes:
       - level: Masters
         clubs:
           - Cataclysm
+    resources:
+      - title: Golf Clash Tommy - Rookie Guide
+        url: https://youtu.be/CV-LjJvfI3k
+      - title: Golf Clash Tommy - Pro / Expert Guide
+        url: https://youtu.be/bzmCM9lhghA
     overlays:
       size: [540, 1059]
       guides:
@@ -292,6 +312,11 @@ holes:
       - level: Masters
         clubs:
           - Cataclysm
+    resources:
+      - title: Golf Clash Tommy - Rookie Guide
+        url: https://youtu.be/Vfew6LaSc8g
+      - title: Golf Clash Tommy - Pro / Expert Guide
+        url: https://youtu.be/35JcT84SfV0
     overlays:
       size: [375, 978]
       guides:
@@ -369,6 +394,11 @@ holes:
         clubs:
           - Thorn
           - Hornet
+    resources:
+      - title: Golf Clash Tommy - Rookie Guide
+        url: https://youtu.be/HmQsemFxHO8
+      - title: Golf Clash Tommy - Pro / Expert Guide
+        url: https://youtu.be/9oQALnWovtg
     overlays:
       size: [412, 901]
       guides:
@@ -440,6 +470,11 @@ holes:
         clubs:
           - Quarterback
           - Rocket
+    resources:
+      - title: Golf Clash Tommy - Rookie Guide
+        url: https://youtu.be/-MT9H11Z6g0
+      - title: Golf Clash Tommy - Pro / Expert Guide
+        url: https://youtu.be/SYSbnuzJC0I
     overlays:
       size: [332, 882]
       guides:
@@ -502,6 +537,11 @@ holes:
           - Saturn
           - Thorn
           - Machete
+    resources:
+      - title: Golf Clash Tommy - Rookie Guide
+        url: https://youtu.be/3MhzZ-oj9qA
+      - title: Golf Clash Tommy - Pro / Expert Guide
+        url: https://youtu.be/HTToPE1-oIc
     overlays:
       size: [383, 861]
       guides:
@@ -546,6 +586,11 @@ holes:
       - level: Masters
         clubs:
           - Cataclysm
+    resources:
+      - title: Golf Clash Tommy - Rookie Guide
+        url: https://youtu.be/vTj5PTG3C2c
+      - title: Golf Clash Tommy - Pro / Expert Guide
+        url: https://youtu.be/aYEXM5i6X8s
     overlays:
       size: [404, 1089]
       guides:

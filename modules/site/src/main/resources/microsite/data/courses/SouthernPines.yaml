@@ -3,6 +3,11 @@ holes:
   - course: Southern Pines
     number: 1
     par: 4
+    resources:
+      - title: Golf Clash Tommy - Rookie Guide
+        url: https://youtu.be/wFJOigxa9JA
+      - title: Golf Clash Tommy - Pro / Expert Guide
+        url: https://youtu.be/-UH9ZYMr9a8
   - course: Southern Pines
     number: 2
     par: 3
@@ -21,6 +26,8 @@ holes:
         clubs:
           - Apocalypse
     resources:
+      - title: Golf Clash Tommy - Rookie Guide
+        url: https://youtu.be/2TKiSbBLyWU
     overlays:
       size: [546, 1020]
       guides:
@@ -77,6 +84,11 @@ holes:
   - course: Southern Pines
     number: 3
     par: 4
+    resources:
+      - title: Golf Clash Tommy - Rookie Guide
+        url: https://youtu.be/kE1TNCK1_WM
+      - title: Golf Clash Tommy - Pro / Expert Guide
+        url: https://youtu.be/V3Rt5IjcSEA
   - course: Southern Pines
     number: 4
     par: 5
@@ -94,6 +106,10 @@ holes:
         clubs:
           - Cataclysm
     resources:
+      - title: Golf Clash Tommy - Rookie Guide
+        url: https://youtu.be/uYF_E_WmeTM
+      - title: Golf Clash Tommy - Pro / Expert Guide
+        url: https://youtu.be/lj4Ktp_p6gU
     overlays:
       size: [721, 1063]
       guides:
@@ -199,9 +215,17 @@ holes:
   - course: Southern Pines
     number: 5
     par: 5
+    resources:
+      - title: Golf Clash Tommy - Rookie Guide
+        url: https://youtu.be/VOJ1bqfiovk
   - course: Southern Pines
     number: 6
     par: 3
+    resources:
+      - title: Golf Clash Tommy - Rookie Guide
+        url: https://youtu.be/ugbECbn2pYs
+      - title: Golf Clash Tommy - Pro / Expert Guide
+        url: https://youtu.be/0kznKnNiBoY
   - course: Southern Pines
     number: 7
     par: 4
@@ -220,6 +244,10 @@ holes:
         clubs:
           - Cataclysm
     resources:
+      - title: Golf Clash Tommy - Rookie Guide
+        url: https://youtu.be/p3W75qc6PWo
+      - title: Golf Clash Tommy - Pro / Expert Guide
+        url: https://youtu.be/kOXxhEdIxkk
     overlays:
       size: [585, 1050]
       guides:
@@ -307,6 +335,16 @@ holes:
   - course: Southern Pines
     number: 8
     par: 5
+    resources:
+      - title: Golf Clash Tommy - Rookie Guide
+        url: https://youtu.be/1xoJF0osa8Q
+      - title: Golf Clash Tommy - Pro / Expert Guide
+        url: https://youtu.be/soYVAZ3ybqk
   - course: Southern Pines
     number: 9
     par: 3
+    resources:
+      - title: Golf Clash Tommy - Rookie Guide
+        url: https://youtu.be/MxFXNWyvfDo
+      - title: Golf Clash Tommy - Pro / Expert Guide
+        url: https://youtu.be/-Bavgs1SmGk
