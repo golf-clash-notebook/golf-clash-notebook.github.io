@@ -175,7 +175,7 @@ object common {
     jQuery(dom.window).scroll { event: js.Any =>
       val st = jQuery(dom.window).scrollTop()
 
-      if (st < lastScrollTop) {
+      if (st > lastScrollTop) {
         jQuery("#nav-container").addClass("mobile-nav-hide")
       } else {
         jQuery("#nav-container").removeClass("mobile-nav-hide")
