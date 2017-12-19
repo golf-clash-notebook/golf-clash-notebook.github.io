@@ -37,7 +37,73 @@ position: 0
       <a href="/contributing/">contribute</a>, <a href="https://github.com/golf-clash-notebook/golf-clash-notebook.github.io/issues/new">create an issue</a>, or open a pull request at the <a href="https://github.com/golf-clash-notebook/golf-clash-notebook.github.io">GitHub</a> site.
     </p>
 
+  </div>
+
+</div>
+
+<div class="row">
+  <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 col-sm-12">
     <hr>
+  </div>
+</div>
+
+<div class="row">
+
+  <div class="col-xs-12" data-mh="feature-card">
+    <h2 class="feature-title text-center text-semi-muted gcn-page-header">Features</h2>
+  </div>
+
+  <div class="col-lg-3 col-lg-offset-0 col-md-4 col-md-offset-2 col-sm-5 col-sm-offset-1 col-xs-10 col-xs-offset-1 col-flex" data-mh="feature-card">
+    <div class="site-feature-card text-center">
+      <h4>Animated Hole Guides</h4>
+      <p class="feature-description text-small text-semi-muted">
+        When you run into a tricky hole, find it in the notebook and you'll get see which ways will lead you to success.
+      </p>
+      <a href="/courses/SouthernPines/4/" class="btn btn-primary feature-link" role="button">Check it Out</a>
+    </div>
+  </div>
+
+  <div class="col-lg-3 col-lg-offset-0 col-md-4 col-sm-5 col-sm-offset-0 col-xs-10 col-xs-offset-1 col-flex" data-mh="feature-card">
+    <div class="site-feature-card text-center">
+      <h4>Tournament Note Sheets</h4>
+      <p class="feature-description text-small text-semi-muted">
+        A quick printout will get you set up to take all the notes you'll need to conquer any holes that get thrown your way.
+      </p>
+      <a href="/img/golfclash/tournaments/notesheets/Christmas.pdf" class="btn btn-primary feature-link" role="button">Check it Out</a>
+    </div>
+  </div>
+
+  <div class="col-lg-3 col-lg-offset-0 col-md-4 col-md-offset-2 col-sm-5 col-sm-offset-1 col-xs-10 col-xs-offset-1 col-flex" data-mh="feature-card">
+    <div class="site-feature-card text-center">
+      <h4>Club Ranking</h4>
+      <p class="feature-description text-small text-semi-muted">
+        Completely customizable ranking tool will show you which clubs you should be using on the course.
+      </p>
+      <a href="/clubs/ranker/" class="btn btn-primary feature-link" role="button">Check it Out</a>
+    </div>
+  </div>
+
+  <div class="col-lg-3 col-lg-offset-0 col-md-4 col-sm-5 col-sm-offset-0 col-xs-10 col-xs-offset-1 col-flex" data-mh="feature-card">
+    <div class="site-feature-card text-center">
+      <h4>Ball Ranking</h4>
+      <p class="feature-description text-small text-semi-muted">
+        Tell it what attributes you're looking for in a ball and it'll find you a match made in heaven.
+      </p>
+      <a href="/balls/" class="btn btn-primary feature-link" role="button">Check it Out</a>
+    </div>
+  </div>
+
+</div>
+
+<div class="row">
+  <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 col-sm-12">
+    <hr>
+  </div>
+</div>
+
+<div class="row">
+
+  <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 col-sm-12">
 
     <p class="text-center pad-24">
       In addition to all of the <a href="https://github.com/golf-clash-notebook/golf-clash-notebook.github.io/graphs/contributors/" target="_blank" rel="noopener">Golf Clash Notebook contributors</a>, a few shoutouts to people

@@ -41,3 +41,37 @@
     margin-left: 220px;
   }
 }
+
+/** Feature cards... **/
+
+.feature-title {
+  margin-top: 0px;
+  margin-bottom: 32px;
+}
+
+.site-feature-card {
+
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+
+  border-top: 3px solid #192a37;
+  border-left: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  border-radius: 3px;
+
+  margin-bottom: 24px;
+  padding: 4px 12px 12px 12px;
+
+  > p.feature-description {
+    flex: 1;
+  }
+
+  > a.feature-link {
+    border-radius: 3px;
+    margin: 0 auto;
+    padding: 4px 24px;
+  }
+
+}
