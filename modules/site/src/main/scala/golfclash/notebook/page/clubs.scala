@@ -184,7 +184,7 @@ object clubs {
           alignmentBaseline := "middle",
           fontFamily := "Lato",
           fontSize := "5"
-        )(f"${windPerRing * 5}%.1f"),
+        )(windRingText(5, windPerRing)),
         text(
           id := s"${club.##}-ring-4",
           x := "50%",
@@ -194,7 +194,7 @@ object clubs {
           alignmentBaseline := "middle",
           fontFamily := "Lato",
           fontSize := "5"
-        )(f"${windPerRing * 4}%.1f"),
+        )(windRingText(4, windPerRing)),
         text(
           id := s"${club.##}-ring-3",
           x := "50%",
@@ -204,7 +204,7 @@ object clubs {
           alignmentBaseline := "middle",
           fontFamily := "Lato",
           fontSize := "5"
-        )(f"${windPerRing * 3}%.1f"),
+        )(windRingText(3, windPerRing)),
         text(
           id := s"${club.##}-ring-2",
           x := "50%",
@@ -214,7 +214,7 @@ object clubs {
           alignmentBaseline := "middle",
           fontFamily := "Lato",
           fontSize := "5"
-        )(f"${windPerRing * 2}%.1f"),
+        )(windRingText(2, windPerRing)),
         text(
           id := s"${club.##}-ring-1",
           x := "50%",
@@ -224,7 +224,7 @@ object clubs {
           alignmentBaseline := "middle",
           fontFamily := "Lato",
           fontSize := "5"
-        )(f"${windPerRing * 1}%.1f")
+        )(windRingText(1, windPerRing))
       ),
       tag("nav")(cls := "text-center")(
         ul(
@@ -259,8 +259,16 @@ object clubs {
     jQuery(s".club-pagination-${club.##} > li:eq(${level - 1})").addClass("active")
 
     (1 to 5).foreach { ringNum =>
-      jQuery(s"#${club.##}-ring-${ringNum}").text(f"${windPerRing * ringNum}%.1f")
+      jQuery(s"#${club.##}-ring-${ringNum}").text(formatWindRingText(windPerRing * ringNum))
     }
+  }
+
+  def windRingText(ring: Int, windPerRing: Double): String = {
+    formatWindRingText(ring * windPerRing)
+  }
+
+  def formatWindRingText(wind: Double): String = {
+    f"$wind%.2f"
   }
 
 }
