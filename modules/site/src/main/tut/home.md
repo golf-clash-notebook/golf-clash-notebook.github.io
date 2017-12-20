@@ -57,7 +57,7 @@ position: 0
     <div class="site-feature-card text-center">
       <h4>Animated Hole Guides</h4>
       <p class="feature-description text-small text-semi-muted">
-        When you run into a tricky hole, find it in the notebook and you'll get see which ways will lead you to success.
+        When you run into a tricky hole, find it in the notebook and you'll see which ways will lead you to success.
       </p>
       <a href="/courses/SouthernPines/4/" class="btn btn-primary feature-link" role="button">Check it Out</a>
     </div>
