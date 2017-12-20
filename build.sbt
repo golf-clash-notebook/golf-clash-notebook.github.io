@@ -130,7 +130,7 @@ lazy val siteSettings = Seq(
   micrositeFooterText := None,
   siteSubdirName in ScalaUnidoc := "api",
   addMappingsToSiteDir(mappings in (ScalaUnidoc, packageDoc), siteSubdirName in ScalaUnidoc),
-  includeFilter in makeSite := "*.html" | "*.css" | "*.png" | "*.svg" | "*.jpg" | "*.gif" | "*.js" | "*.js.map" | "*.swf" | "*.yml" | "*.md" | "*.liquid" | "*.json" | "*.ttf" | "*.otf" | "*.woff" | "*.woff2" | "*.webmanifest" | "*.xml" | "*.pdf",
+  includeFilter in makeSite := "*.html" | "*.css" | "*.png" | "*.svg" | "*.jpg" | "*.gif" | "*.js" | "*.js.map" | "*.swf" | "*.yml" | "*.md" | "*.liquid" | "*.json" | "*.ttf" | "*.otf" | "*.woff" | "*.woff2" | "*.webmanifest" | "*.xml" | "*.pdf" | "CNAME",
   fork in tut := true,
   scalacOptions in Tut ~= (_.filterNot(Set("-Ywarn-unused-import", "-Ywarn-dead-code"))),
   fork in (ScalaUnidoc, unidoc) := true,
