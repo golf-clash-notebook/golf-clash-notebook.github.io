@@ -3,6 +3,19 @@ holes:
   - course: Southern Pines
     number: 1
     par: 4
+    description: >
+      Help Wanted
+    clubRecommendations:
+      - level: Rookie
+        clubs:
+          - Sniper
+          - Goliath
+      - level: Pro
+        clubs:
+          - Sniper
+      - level: Masters
+        clubs:
+          - Sniper
     resources:
       - title: Golf Clash Tommy - Rookie Guide
         url: https://youtu.be/wFJOigxa9JA
@@ -84,6 +97,20 @@ holes:
   - course: Southern Pines
     number: 3
     par: 4
+    description: >
+      Help Wanted
+    clubRecommendations:
+      - level: Rookie
+        clubs:
+          - Sniper
+          - Big Dawg
+      - level: Pro
+        clubs:
+          - Cataclysm
+          - Sniper
+      - level: Masters
+        clubs:
+          - Cataclysm
     resources:
       - title: Golf Clash Tommy - Rookie Guide
         url: https://youtu.be/kE1TNCK1_WM
@@ -221,6 +248,19 @@ holes:
   - course: Southern Pines
     number: 6
     par: 3
+    description: >
+      Help Wanted
+    clubRecommendations:
+      - level: Rookie
+        clubs:
+          - Sniper
+      - level: Pro
+        clubs:
+          - Sniper
+          - Extra Mile
+      - level: Masters
+        clubs:
+          - Extra Mile
     resources:
       - title: Golf Clash Tommy - Rookie Guide
         url: https://youtu.be/ugbECbn2pYs
@@ -335,6 +375,20 @@ holes:
   - course: Southern Pines
     number: 8
     par: 5
+    description: >
+      Help Wanted
+    clubRecommendations:
+      - level: Rookie
+        clubs:
+          - Sniper
+          - Big Dawg
+      - level: Pro
+        clubs:
+          - Cataclysm
+          - Sniper
+      - level: Masters
+        clubs:
+          - Cataclysm
     resources:
       - title: Golf Clash Tommy - Rookie Guide
         url: https://youtu.be/1xoJF0osa8Q
@@ -343,6 +397,20 @@ holes:
   - course: Southern Pines
     number: 9
     par: 3
+    description: >
+      Help Wanted
+    clubRecommendations:
+      - level: Rookie
+        clubs:
+          - Quarterback
+          - Rock
+      - level: Pro
+        clubs:
+          - Apocalypse
+          - Extra Mile
+      - level: Masters
+        clubs:
+          - Apocalypse
     resources:
       - title: Golf Clash Tommy - Rookie Guide
         url: https://youtu.be/MxFXNWyvfDo
