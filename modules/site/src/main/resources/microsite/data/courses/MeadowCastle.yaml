@@ -3,12 +3,86 @@ holes:
   - course: Meadow Castle
     number: 1
     par: 3
+    description: >
+      Help Wanted
+    clubRecommendations:
+    resources:
+    overlays:
+      size: [504, 811]
+      guides:
+      - name: Black Path
+        text: >
+          Help Wanted
+        levels:
+          - name: Rookie
+            svg:
+              <path d="M 245 622 L 267 250" stroke="black" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="0" />
+              <circle cx="245" cy="622" r="6" fill="black" class="guide-point" data-guide-segment="0" />
+              <circle cx="267" cy="250" r="6" fill="black" class="guide-point" data-guide-segment="1" />
   - course: Meadow Castle
     number: 2
     par: 4
+    description: >
+      Help Wanted
+    clubRecommendations:
+      - level: Rookie
+        clubs:
+          - Rocket
+    resources:
+    overlays:
+      size: [376, 828]
+      guides:
+      - name: Black Path
+        text: >
+          Help Wanted
+        levels:
+          - name: Rookie
+            svg:
+              <path d="M 189 682 L 180 165" stroke="black" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="0" />
+              <path d="M 180 165 L 153 112" stroke="black" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="1" />
+              <circle cx="189" cy="682" r="6" fill="black" class="guide-point" data-guide-segment="0" />
+              <circle cx="180" cy="165" r="6" fill="black" class="guide-point" data-guide-segment="1" />
+              <circle cx="153" cy="112" r="6" fill="black" class="guide-point" data-guide-segment="2" />
   - course: Meadow Castle
     number: 3
     par: 5
+    description: >
+      Help Wanted
+    clubRecommendations:
+      - level: Rookie
+        clubs:
+          - Rocket
+    resources:
+    overlays:
+      size: [349, 905]
+      guides:
+      - name: Black Path
+        text: >
+          Help Wanted
+        levels:
+          - name: Rookie
+            svg:
+              <path d="M 123 804 L 147 279" stroke="black" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="0" />
+              <path d="M 147 279 L 248 112" stroke="black" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="1" />
+              <circle cx="123" cy="804" r="6" fill="black" class="guide-point" data-guide-segment="0" />
+              <circle cx="147" cy="279" r="6" fill="black" class="guide-point" data-guide-segment="1" />
+              <circle cx="248" cy="112" r="6" fill="black" class="guide-point" data-guide-segment="2" />
   - course: Meadow Castle
     number: 4
     par: 3
+    description: >
+      Help Wanted
+    clubRecommendations:
+    resources:
+    overlays:
+      size: [373, 805]
+      guides:
+      - name: Black Path
+        text: >
+          Help Wanted
+        levels:
+          - name: Rookie
+            svg:
+              <path d="M 182 704 L 213 210" stroke="black" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="0" />
+              <circle cx="182" cy="704" r="6" fill="black" class="guide-point" data-guide-segment="0" />
+              <circle cx="213" cy="210" r="6" fill="black" class="guide-point" data-guide-segment="1" />
