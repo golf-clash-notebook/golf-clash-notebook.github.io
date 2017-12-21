@@ -126,7 +126,7 @@ section: "courses"
 
     {% if hole.description == undefined or hole.description contains 'Help Wanted' %}
       <p class="text-prototype" style="margin-top: 20px;">
-        {% lipsum 2 5 10 %}
+        {% lipsum 1 5 10 %}
       </p>
     {% else %}
       <p style="margin-top: 20px;">
@@ -142,7 +142,7 @@ section: "courses"
 
           {% if guide.text contains 'Help Wanted' %}
             <p class="text-prototype {{ levelName }}-guide-text hidden" style="margin-top: 20px;">
-              {% lipsum 2 5 10 %}
+              {% lipsum 1 5 10 %}
             </p>
           {% else %}
             <p class="{{ levelName }}-guide-text hidden" style="margin-top: 20px;">
