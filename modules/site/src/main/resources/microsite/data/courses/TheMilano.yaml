@@ -21,6 +21,8 @@ holes:
         url: https://youtu.be/1NtLdnSy8VY
       - title: Golf Clash Tommy - Pro / Expert Guide
         url: https://youtu.be/HsHv0ff1XLw
+      - title: Golf Clash Tommy - Text Guide
+        url: https://i.imgur.com/zqsdml6.jpg
     overlays:
       size: [550, 813]
       guides:
@@ -83,8 +85,10 @@ holes:
     resources:
       - title: Golf Clash Tommy - Rookie Guide
         url: https://youtu.be/YQjoqiuQaiw
-      - title: Golf Clash Tommy - Pro Guide
+      - title: Golf Clash Tommy - Pro / Expert Guide
         url: https://youtu.be/r6c_yhWXHOI
+      - title: Golf Clash Tommy - Text Guide
+        url: https://i.imgur.com/8xXnY1g.jpg
     overlays:
       size: [464, 834]
       guides:
@@ -159,6 +163,8 @@ holes:
         url: https://youtu.be/F-t_aKxKyYo
       - title: Golf Clash Tommy - Pro / Expert Guide
         url: https://youtu.be/DE_2w3IzrfA
+      - title: Golf Clash Tommy - Text Guide
+        url: https://i.imgur.com/4xUcD2X.jpg
     overlays:
       size: [451, 1091]
       guides:
