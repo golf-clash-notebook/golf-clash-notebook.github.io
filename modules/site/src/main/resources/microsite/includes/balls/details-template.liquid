@@ -19,13 +19,13 @@
       {% endif %}
     </div>
   </div>
-  <div class="panel-body text-prototype">
+  <div class="panel-body">
     {% if include.ball.description contains 'Help Wanted' %}
       <div class="panel-body text-prototype">
         {% lipsum 1 10 30 %}
       </div>
     {% else %}
-      <div class="panel-body">
+      <div class="panel-body text-content">
         {{ include.ball.description }}
       </div>
     {% endif %}
