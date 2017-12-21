@@ -59,6 +59,11 @@
   color: #aaa;
 }
 
+.text-backwards {
+  unicode-bidi: bidi-override;
+  direction: rtl;
+}
+
 .img-center {
   display: block;
   margin: 0 auto;

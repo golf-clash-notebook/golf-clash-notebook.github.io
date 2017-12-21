@@ -24,7 +24,7 @@ position: 100
     </p>
 
     <p>
-      The easiest way to help out it to <a href="https://www.reddit.com/user/cranst0n" target="_blank" rel="noopener">PM me on Reddit</a>.
+      The easiest way to help out it to send an e-mail to <span class="font-600 text-backwards">oi.koobetonhsalcflog@pleh</span>.
       I'll listen to any ideas, take any missing chests on the chart, club descriptions, etc. If
       you're used to using GitHub then you can
       <a href="https://github.com/golf-clash-notebook/golf-clash-notebook.github.io/issues/new">open an issue</a>
