@@ -1,7 +1,7 @@
 - name: The Rocket
   description: >
     This is almost certainly the first driver you'll unlock. Switch to it immediately since anything
-    is better than the beginner driver. It doesn't add any distance to start with but the added
+    is better than the beginner driver. It doesn't add any distance to start, but the added
     accuracy will keep you out of trouble. Beyond that, just wait until you unlock the Extra Mile
     and switch to that. Once you get this club to level 9+, the backspin makes it a possibility for
     tournament Par 3's from the back tees.
@@ -61,10 +61,10 @@
   ballguide: [3.4, 4.1, 4.1, 4.4, 4.4, 4.4, 4.4, 4.4]
 - name: Thor's Hammer
   description: >
-    This is the first driver you'll probably unlock that might turn you away from the allure of The
-    Extra Mile's distance. Thor's Hammer gives you much better accuracy and similar top spin. Once
-    you hit levels 4 and 5, you'll have a real pickle on your hands of which driver to use unless
-    you've already leveled up The Apocalypse.
+    Thor's Hammer is the first driver you'll probably unlock that might turn you away from the
+    allure of The Extra Mile's distance. It gives you much better accuracy and similar top spin.
+    Once you hit levels 4 and 5, you'll have a real pickle on your hands of which driver to use
+    unless you've already leveled up The Apocalypse.
   power:     [220, 220, 222, 229, 232, 232, 232]
   accuracy:  [ 50,  64,  64,  64,  64,  64,  92]
   topspin:   [ 45,  45,  56,  56,  67,  85,  98]
@@ -85,7 +85,8 @@
   ballguide: [2.0, 2.5, 2.5, 3.0, 3.0, 3.0, 3.9]
 - name: Golden Driver
   description: >
-    This is the driver you'll get in the Golden Shot mini-game. Nuff` said.
+    This is the driver you'll get in the Golden Shot mini-game. Similar to a mid level Rocket with
+    less ball guide.
   power:     [202]
   accuracy:  [ 83]
   topspin:   [ 50]

@@ -1,6 +1,8 @@
 - name: The Grim Reaper
   description: >
-    Help Wanted
+    The lack of distance means that by the time you manage to max it and make it a mediocre club,
+    you will definately have better option available. The only time you should be playing with the
+    Grim Reaper is if your only other option is the Beginner Long Iron.
   power:     [115, 115, 115, 115, 115, 116, 116]
   accuracy:  [ 30,  30,  42,  60,  60,  60,  81]
   topspin:   [  0,  12,  12,  12,  12,  12,  28]
@@ -9,7 +11,10 @@
   ballguide: [2.0, 2.6, 2.8, 2.8, 3.0, 3.4, 3.4]
 - name: The Backbone
   description: >
-    Help Wanted
+    The Backbone is a solid long iron to start off and starts to get pretty good once you get it
+    to level 9. Thankfully it's a common so that won't take as long as other options. Most people
+    will play this club or the Goliath on their way to the top. It all depends on whether you
+    prefer distance or accuracy. In all the other meaningful long iron stats, they're pretty close.
   power:     [118, 118, 119, 119, 119, 120, 120, 123, 127, 127]
   accuracy:  [ 30,  40,  40,  50,  66,  66,  76,  76,  82,  92]
   topspin:   [ 10,  10,  10,  10,  21,  21,  39,  39,  39,  39]
@@ -18,7 +23,9 @@
   ballguide: [1.5, 1.7, 2.0, 2.5, 2.5, 2.9, 2.9, 3.4, 3.4, 3.6]
 - name: The Goliath
   description: >
-    Help Wanted
+    The other main contender (Backbone) in the long iron category (at least until you level up the
+    B52 or max the Tsunami). The distance is very good from level 1 but you may miss the backspin
+    until you can get it to level 5+. Overall, a solid option for almost any hole.
   power:     [130, 132, 132, 132, 135, 135, 135, 135]
   accuracy:  [  0,   0,  16,  28,  28,  34,  52,  52]
   topspin:   [ 66,  84,  90,  90,  90, 100, 100, 100]
@@ -27,7 +34,9 @@
   ballguide: [2.3, 2.3, 2.7, 2.9, 2.9, 3.5, 3.5, 3.9]
 - name: The Saturn
   description: >
-    Help Wanted
+    If you're looking for backspin in a long iron, this is the place you should start. It does
+    sacrifice some distance and accuracy though. You can pair it with a special ball on some
+    tournament holes to come up with a good solution for some tricky Par 3's.
   power:     [115, 115, 115, 119, 119, 119, 120, 120, 124, 124]
   accuracy:  [ 20,  20,  35,  35,  35,  51,  51,  51,  56,  56]
   topspin:   [ 20,  20,  26,  26,  37,  37,  48,  66,  66,  66]
@@ -36,7 +45,11 @@
   ballguide: [1.7, 2.2, 2.5, 2.7, 2.7, 2.9, 3.4, 3.4, 3.7, 3.9]
 - name: The B52
   description: >
-    Help Wanted
+    Arguably the best long iron once you get it maxed. It lacks spin control when compared to other
+    clubs which limits it's usefulness. Think about using this club at level 3+ for longer Par 3
+    tournament holes where spin isn't necessary but distance is. In those situations, it can often
+    be a better option than the Goliath because it's just as long, more accurate and comes with a
+    really nice ball guide.
   power:     [127, 127, 132, 135, 135, 135, 135]
   accuracy:  [ 62,  73,  79,  79,  98,  98, 100]
   topspin:   [  0,   0,  13,  33,  33,  55,  55]
@@ -45,7 +58,9 @@
   ballguide: [3.4, 3.6, 3.6, 3.8, 3.8, 3.8, 4.5]
 - name: The Grizzly
   description: >
-    Help Wanted
+    While the accuracy and ball guide are nice in The Grizzly, most of the other stats don't really
+    measure up to what you'll probably have available once you unlock it. Chances are you won't
+    really use this one since it's a rare and will take a bit of time to become relevant.
   power:     [122, 122, 122, 122, 122, 126, 126, 126]
   accuracy:  [ 73,  73,  73,  73,  90,  90,  90,  90]
   topspin:   [  0,  18,  18,  18,  18,  18,  18,  18]
@@ -54,7 +69,9 @@
   ballguide: [3.0, 3.0, 3.0, 3.0, 3.0, 3.0, 3.6, 3.6]
 - name: The Tsunami
   description: >
-    Help Wanted
+    Can't really talk about using this one until it hits <em>at least</em> level 5 and even at that
+    point there will likely be a much stronger argument to opt for the Backbone, Goliath or B52.
+    The ball guide alone is a good reason to avoid this club.
   power:     [127, 129, 133, 133, 134, 134, 135]
   accuracy:  [ 23,  23,  29,  41,  60,  60,  81]
   topspin:   [100, 100, 100, 100, 100, 100, 100]
@@ -63,7 +80,8 @@
   ballguide: [1.2, 1.4, 2.0, 2.2, 2.2, 2.7, 3.1]
 - name: Golden Long Iron
   description: >
-    Help Wanted
+    This is the long iron you'll get in the Golden Shot mini-game. Similar stats to a mid-level
+    Backbone, but with better spin available.
   power:     [120]
   accuracy:  [ 66]
   topspin:   [ 50]
