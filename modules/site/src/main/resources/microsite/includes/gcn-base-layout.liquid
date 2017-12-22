@@ -3,7 +3,11 @@
 
   <head>
 
-    <title>Golf Clash Notebook</title>
+    {% if page.title != undefined and page.title != empty %}
+      <title>Golf Clash Notebook - {{ page.title }}</title>
+    {% else %}
+      <title>Golf Clash Notebook</title>
+    {% endif %}
 
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
