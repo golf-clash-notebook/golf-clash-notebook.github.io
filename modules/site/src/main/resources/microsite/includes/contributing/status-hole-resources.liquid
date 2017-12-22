@@ -3,7 +3,7 @@
   {% for courseHash in site.data.courses %}
     {% assign course = courseHash[1] %}
     {% for hole in course.holes %}
-      {{ hole.course }}:{{ hole.number }}
+      Hole
     {% endfor %}
   {% endfor %}
 {% endcapture %}
@@ -17,7 +17,7 @@
       {% if hole.resources == undefined %}
       {% elsif hole.resources == empty %}
       {% else %}
-        {{ hole.course }}:{{ hole.number }}
+        HoleHasResources
       {% endif %}
     {% endfor %}
   {% endfor %}

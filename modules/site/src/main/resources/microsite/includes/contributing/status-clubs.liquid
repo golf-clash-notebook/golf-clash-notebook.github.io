@@ -25,12 +25,48 @@
   {% for club in drivers %}
     {% if club.description contains 'Help Wanted' %}
     {% else %}
-      {{ club.name }}
+      ClubIsDescribed
+    {% endif %}
+  {% endfor %}
+  {% for club in woods %}
+    {% if club.description contains 'Help Wanted' %}
+    {% else %}
+      ClubIsDescribed
+    {% endif %}
+  {% endfor %}
+  {% for club in longirons %}
+    {% if club.description contains 'Help Wanted' %}
+    {% else %}
+      ClubIsDescribed
+    {% endif %}
+  {% endfor %}
+  {% for club in shortirons %}
+    {% if club.description contains 'Help Wanted' %}
+    {% else %}
+      ClubIsDescribed
+    {% endif %}
+  {% endfor %}
+  {% for club in wedges %}
+    {% if club.description contains 'Help Wanted' %}
+    {% else %}
+      ClubIsDescribed
+    {% endif %}
+  {% endfor %}
+  {% for club in roughirons %}
+    {% if club.description contains 'Help Wanted' %}
+    {% else %}
+      ClubIsDescribed
+    {% endif %}
+  {% endfor %}
+  {% for club in sandwedges %}
+    {% if club.description contains 'Help Wanted' %}
+    {% else %}
+      ClubIsDescribed
     {% endif %}
   {% endfor %}
 {% endcapture %}
 
-{% assign describedClubs = describedClubNames | split: ' ' | size %}
+{% assign describedClubs = describedClubNames | strip_newlines | split: ' ' | size %}
 {% assign describedClubPercent = describedClubs | times: 100 | divided_by: numClubs %}
 
 {% include contributing/status-progress-bar.liquid label='Clubs' percentage=describedClubPercent value=describedClubs max=numClubs %}
