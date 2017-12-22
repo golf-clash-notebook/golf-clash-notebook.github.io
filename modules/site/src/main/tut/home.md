@@ -14,24 +14,24 @@ position: 0
 
     {% include news/feed-widget.liquid %}
 
-    <p>
+    <p class="text-content">
       An open source compilation of Golf Clash content. Here you'll find past guides, descriptions,
       tips and more for the game of Golf Clash that may help you along your way.
     </p>
 
-    <p>
+    <p class="text-content">
       This site was built because there is a lot of great content on the web to help you along
       your way but it's all pretty scattered. This site attempts to organize it all so you can
       spend a little less time searching and a little more time learning.
     </p>
 
-    <p>
+    <p class="text-content">
       This site is very much a work in progress and wouldn't be possible without the great work
       already done by other golf clash players. As you look through the site you'll probably see a
       lot of filler text. That's to let you know that it needs to be filled in and you can do it!
     </p>
 
-    <p>
+    <p class="text-content">
       Be sure to check out the <a href="/resources/">Resources</a> page which provides links to
       other pages that have a lot of quality content. And lastly, feel free to
       <a href="/contributing/">contribute</a>, <a href="https://github.com/golf-clash-notebook/golf-clash-notebook.github.io/issues/new">create an issue</a>, or open a pull request at the <a href="https://github.com/golf-clash-notebook/golf-clash-notebook.github.io">GitHub</a> site.

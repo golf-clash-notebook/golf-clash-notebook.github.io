@@ -138,9 +138,9 @@
     rare: 15
     epic: 2
   king:
-    total: -1
-    rare: -1
-    epic: -1
+    total: 107
+    rare: 44
+    epic: 7
 - tour: 9
   wooden:
     total: 11
