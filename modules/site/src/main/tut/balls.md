@@ -43,13 +43,13 @@ position: 50
       It's fairly common to see Quasars and Navigators on Tour 7+ and that's the first time you
       should be using them. By that point, your free, pin and 1 vs. 1 chests will cover the cost of
       them in the shop. Only in the most extreme circumstances should you consider breaking out a
-      Katana or Titan. You're <em>much</em> better off saving those for higher tours and
+      Katana or Titan. You're much better off saving those for higher tours and
       tournaments.
     </p>
 
     <p class="text-content">
       Speaking of tournaments, that is the absolute best way to get a build the stockpile of balls
-      that you need. Finishing in the top 10 or 25 in a couple tournaments will get you well on
+      that you'll need. Finishing in the top 10 or 25 in a couple tournaments will get you well on
       your way to where you can use the balls you've won to win more (and better) balls in the
       future.
     </p>
