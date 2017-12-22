@@ -24,6 +24,8 @@ page_gen:
     template: '_includes/courses/notes-template.liquid'
     name: 'course-name'
     dir: 'courses/notesheets'
+    extra:
+      title-suffix: ' Notesheet'
 
   ##### Tours #####
 
@@ -32,6 +34,8 @@ page_gen:
     template: '_includes/tours/individual-template.liquid'
     name: 'number'
     dir: 'tours'
+    extra:
+      title-prefix: 'Tour '
 
   ##### Tournaments #####
 
@@ -40,6 +44,8 @@ page_gen:
     template: '_includes/tournaments/individual-template.liquid'
     name: 'tournament-name'
     dir: 'tournaments'
+    extra:
+      title-suffix: ' Tournament'
 
   ##### Tournament Note Sheets #####
 
@@ -48,6 +54,8 @@ page_gen:
     template: '_includes/tournaments/notes-template.liquid'
     name: 'tournament-name'
     dir: 'tournaments/notesheets'
+    extra:
+      title-suffix: ' Tournament Notesheet'
 
   ################################################################
   # TODO: Would be nice to modify page generator to support some #
@@ -61,86 +69,120 @@ page_gen:
     template: '_includes/courses/hole-template.liquid'
     name: 'number'
     dir: 'courses/Christmas'
+    extra:
+      title-prefix: 'Christmas - Hole '
   - index_files: true
     data: 'courses.CreepyCliffs.holes'
     template: '_includes/courses/hole-template.liquid'
     name: 'number'
     dir: 'courses/CreepyCliffs'
+    extra:
+      title-prefix: 'Creepy Cliffs - Hole '
   - index_files: true
     data: 'courses.GlenmonarchEstate.holes'
     template: '_includes/courses/hole-template.liquid'
     name: 'number'
     dir: 'courses/GlenmonarchEstate'
+    extra:
+      title-prefix: 'Glenmonarch Estate - Hole '
   - index_files: true
     data: 'courses.GokashoBay.holes'
     template: '_includes/courses/hole-template.liquid'
     name: 'number'
     dir: 'courses/GokashoBay'
+    extra:
+      title-prefix: 'Gokasho Bay - Hole '
   - index_files: true
     data: 'courses.GreenochPoint.holes'
     template: '_includes/courses/hole-template.liquid'
     name: 'number'
     dir: 'courses/GreenochPoint'
+    extra:
+      title-prefix: 'Greenoch Point - Hole '
   - index_files: true
     data: 'courses.HauntedHills.holes'
     template: '_includes/courses/hole-template.liquid'
     name: 'number'
     dir: 'courses/HauntedHills'
+    extra:
+      title-prefix: 'Haunted Hills - Hole '
   - index_files: true
     data: 'courses.JuniperPoint.holes'
     template: '_includes/courses/hole-template.liquid'
     name: 'number'
     dir: 'courses/JuniperPoint'
+    extra:
+      title-prefix: 'Juniper Point - Hole '
   - index_files: true
     data: 'courses.MeadowCastle.holes'
     template: '_includes/courses/hole-template.liquid'
     name: 'number'
     dir: 'courses/MeadowCastle'
+    extra:
+      title-prefix: 'Meadow Castle - Hole '
   - index_files: true
     data: 'courses.NamhaeCliffs.holes'
     template: '_includes/courses/hole-template.liquid'
     name: 'number'
     dir: 'courses/NamhaeCliffs'
+    extra:
+      title-prefix: 'Namhae Cliffs - Hole '
   - index_files: true
     data: 'courses.SakuraHills.holes'
     template: '_includes/courses/hole-template.liquid'
     name: 'number'
     dir: 'courses/SakuraHills'
+    extra:
+      title-prefix: 'Sakura Hills - Hole '
   - index_files: true
     data: 'courses.SantaVentura.holes'
     template: '_includes/courses/hole-template.liquid'
     name: 'number'
     dir: 'courses/SantaVentura'
+    extra:
+      title-prefix: 'Santa Ventura - Hole '
   - index_files: true
     data: 'courses.SouthernPines.holes'
     template: '_includes/courses/hole-template.liquid'
     name: 'number'
     dir: 'courses/SouthernPines'
+    extra:
+      title-prefix: 'Southern Pines - Hole '
   - index_files: true
     data: 'courses.SunshineGlades.holes'
     template: '_includes/courses/hole-template.liquid'
     name: 'number'
     dir: 'courses/SunshineGlades'
+    extra:
+      title-prefix: 'Sunshine Glades - Hole '
   - index_files: true
     data: 'courses.TheMilano.holes'
     template: '_includes/courses/hole-template.liquid'
     name: 'number'
     dir: 'courses/TheMilano'
+    extra:
+      title-prefix: 'The Milano - Hole '
   - index_files: true
     data: 'courses.TheOasis.holes'
     template: '_includes/courses/hole-template.liquid'
     name: 'number'
     dir: 'courses/TheOasis'
+    extra:
+      title-prefix: 'The Oasis - Hole '
   - index_files: true
     data: 'courses.VineyardAcres.holes'
     template: '_includes/courses/hole-template.liquid'
     name: 'number'
     dir: 'courses/VineyardAcres'
+    extra:
+      title-prefix: 'Vineyard Acres - Hole '
   - index_files: true
     data: 'courses.WinterLinks.holes'
     template: '_includes/courses/hole-template.liquid'
     name: 'number'
     dir: 'courses/WinterLinks'
+    extra:
+      title-prefix: 'Winter Links - Hole '
 
   ##### Tournament Holes #####
 
@@ -150,6 +192,7 @@ page_gen:
     name: 'number'
     dir: 'tournaments/AsiaPacific'
     extra:
+      title-prefix: 'Asia Pacific Tournament - Hole '
       tournament-name: 'Asia Pacific'
   - index_files: true
     data: 'tournaments.WestCoast.holes'
@@ -157,6 +200,7 @@ page_gen:
     name: 'number'
     dir: 'tournaments/WestCoast'
     extra:
+      title-prefix: 'West Coast Tournament - Hole '
       tournament-name: 'West Coast'
   - index_files: true
     data: 'tournaments.4thOfJuly.holes'
@@ -164,6 +208,7 @@ page_gen:
     name: 'number'
     dir: 'tournaments/4thOfJuly'
     extra:
+      title-prefix: '4th Of July Tournament - Hole '
       tournament-name: '4th Of July'
   - index_files: true
     data: 'tournaments.UKChampions.holes'
@@ -171,6 +216,7 @@ page_gen:
     name: 'number'
     dir: 'tournaments/UKChampions'
     extra:
+      title-prefix: 'UK Champions Tournament - Hole '
       tournament-name: 'UK Champions'
   - index_files: true
     data: 'tournaments.SunshineOpen.holes'
@@ -178,6 +224,7 @@ page_gen:
     name: 'number'
     dir: 'tournaments/SunshineOpen'
     extra:
+      title-prefix: 'Sunshine Open Tournament - Hole '
       tournament-name: 'Sunshine Open'
   - index_files: true
     data: 'tournaments.SakuraClassic.holes'
@@ -185,6 +232,7 @@ page_gen:
     name: 'number'
     dir: 'tournaments/SakuraClassic'
     extra:
+      title-prefix: 'Sakura Classic Tournament - Hole '
       tournament-name: 'Sakura Classic'
   - index_files: true
     data: 'tournaments.LaborDay.holes'
@@ -192,6 +240,7 @@ page_gen:
     name: 'number'
     dir: 'tournaments/LaborDay'
     extra:
+      title-prefix: 'Labor Day Tournament - Hole '
       tournament-name: 'Labor Day'
   - index_files: true
     data: 'tournaments.WineValley.holes'
@@ -199,6 +248,7 @@ page_gen:
     name: 'number'
     dir: 'tournaments/WineValley'
     extra:
+      title-prefix: 'Wine Valley Tournament - Hole '
       tournament-name: 'Wine Valley'
   - index_files: true
     data: 'tournaments.HauntedHills.holes'
@@ -206,6 +256,7 @@ page_gen:
     name: 'number'
     dir: 'tournaments/HauntedHills'
     extra:
+      title-prefix: 'Haunted Hills Tournament - Hole '
       tournament-name: 'Haunted Hills'
   - index_files: true
     data: 'tournaments.CreepyCliffs.holes'
@@ -213,6 +264,7 @@ page_gen:
     name: 'number'
     dir: 'tournaments/CreepyCliffs'
     extra:
+      title-prefix: 'Creepy Cliffs Tournament - Hole '
       tournament-name: 'Creepy Cliffs'
   - index_files: true
     data: 'tournaments.CaliforniaClassic.holes'
@@ -220,6 +272,7 @@ page_gen:
     name: 'number'
     dir: 'tournaments/CaliforniaClassic'
     extra:
+      title-prefix: 'California Classic Tournament - Hole '
       tournament-name: 'California Classic'
   - index_files: true
     data: 'tournaments.Thanksgiving.holes'
@@ -227,6 +280,7 @@ page_gen:
     name: 'number'
     dir: 'tournaments/Thanksgiving'
     extra:
+      title-prefix: 'Thanksgiving Tournament - Hole '
       tournament-name: 'Thanksgiving'
   - index_files: true
     data: 'tournaments.WinterLinks.holes'
@@ -234,6 +288,7 @@ page_gen:
     name: 'number'
     dir: 'tournaments/WinterLinks'
     extra:
+      title-prefix: 'Winter Links Tournament - Hole '
       tournament-name: 'Winter Links'
   - index_files: true
     data: 'tournaments.Christmas.holes'
@@ -241,4 +296,5 @@ page_gen:
     name: 'number'
     dir: 'tournaments/Christmas'
     extra:
+      title-prefix: 'Christmas Tournament - Hole '
       tournament-name: 'Christmas'

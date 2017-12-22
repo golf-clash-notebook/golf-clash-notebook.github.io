@@ -55,6 +55,14 @@ module Jekyll
       self.read_yaml(templateDir, templateName)
       self.data['title'] = data[name]
 
+      if !extra['title-prefix'].nil?
+        self.data['title'] = "#{extra['title-prefix']}#{data[name]}"
+      end
+
+      if !extra['title-suffix'].nil?
+        self.data['title'] = "#{self.data['title']}#{extra['title-suffix']}"
+      end
+
       self.data.merge!(extra)
 
       # add all the information defined in _data for the current record to the
