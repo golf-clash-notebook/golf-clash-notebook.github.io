@@ -5,7 +5,7 @@
   {% for ballHash in site.data.balls %}
     {% if ballHash[1].description contains 'Help Wanted' %}
     {% else %}
-      {{ ballHash[1].name }}
+      BallIsDescribed
     {% endif %}
   {% endfor %}
 {% endcapture %}
