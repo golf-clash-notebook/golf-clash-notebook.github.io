@@ -4,7 +4,18 @@ questions:
   - question: >
       What are the odds of getting a Silver / Gold / Platinum chest?
     answer: >
-      Help Wanted
+      <p>
+        <strong>With absolutely no data to back it up</strong>, a <strong><em>rough</em></strong>
+        estimate for the odds of getting each chest from a 1 vs. 1 match are:
+      </p>
+      <dl class="dl-horizontal">
+        <dt>Silver</dt>
+        <dd>3:4</dd>
+        <dt>Gold</dt>
+        <dd>1:4</dd>
+        <dt>Platinum</dt>
+        <dd>1:100</dd>
+      </dl>
   - question: >
       What clubs can I get in a Pin Chest?
     answer: >
