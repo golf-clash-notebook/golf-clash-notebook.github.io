@@ -28,7 +28,7 @@ position: 60
         {% for resource in site.data.wind.resources %}
 
           {% capture resourceIcon %}
-            {% include resources/icon.liquid resource=resource %}
+            {% include resources/icon.liquid resource=resource iconSize='lg' %}
           {% endcapture %}
 
           <li class="list-group-item gcn-resource text-small"><a href="{{ resource.url }}" target="_blank" rel="noopener">{{ resourceIcon }} {{ resource.title }}</a></li>
