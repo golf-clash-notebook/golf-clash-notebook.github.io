@@ -187,6 +187,14 @@ page_gen:
   ##### Tournament Holes #####
 
   - index_files: true
+    data: 'tournaments.USChampions.holes'
+    template: '_includes/tournaments/hole-template.liquid'
+    name: 'number'
+    dir: 'tournaments/USChampions'
+    extra:
+      title-prefix: 'US Champions Tournament - Hole '
+      tournament-name: 'US Champions'
+  - index_files: true
     data: 'tournaments.AsiaPacific.holes'
     template: '_includes/tournaments/hole-template.liquid'
     name: 'number'
