@@ -1,0 +1,20 @@
+name: Expert 1
+bonus: 70
+promoted: 15
+prizes:
+  - places: [1]
+    chest:
+      type: King
+      tour: 5
+  - places: [2]
+    chest:
+      type: Platinum
+      tour: 8
+  - places: [3]
+    chest:
+      type: Gold
+      tour: 8
+  - places: [4, 5, 6, 7, 8, 9, 10]
+    chest:
+      type: Silver
+      tour: 8
