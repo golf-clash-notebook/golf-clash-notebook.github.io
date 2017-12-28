@@ -1,0 +1,31 @@
+tournament-name: US Champions
+date: '2017-04-03'
+resources:
+holes:
+  - number: 1
+    course: Southern Pines
+    course-hole: 1
+  - number: 2
+    course: Southern Pines
+    course-hole: 2
+  - number: 3
+    course: Southern Pines
+    course-hole: 3
+  - number: 4
+    course: Southern Pines
+    course-hole: 4
+  - number: 5
+    course: Southern Pines
+    course-hole: 5
+  - number: 6
+    course: Southern Pines
+    course-hole: 6
+  - number: 7
+    course: Southern Pines
+    course-hole: 7
+  - number: 8
+    course: Southern Pines
+    course-hole: 8
+  - number: 9
+    course: Southern Pines
+    course-hole: 9
