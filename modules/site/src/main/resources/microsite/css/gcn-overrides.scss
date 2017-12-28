@@ -1,5 +1,15 @@
 /** General Bootstrap stuff... **/
 
+html {
+  height: 100%
+
+}
+
+body {
+  background-color: #192a37 !important;
+  min-height: 100%;
+}
+
 .use {
   padding-top: 20px;
   padding-bottom: 30px;
@@ -16,6 +26,10 @@
 #content {
   padding-top: 10px;
   padding-bottom: 10px;
+}
+
+#site-main {
+  background-color: #fff;
 }
 
 #site-footer {
