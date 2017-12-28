@@ -71,9 +71,7 @@
     epic: -1
 - tour: 5
   wooden:
-    total: -1
-    rare: -1
-    epic: -1
+    total: 6
   silver:
     total: 21
   gold:
