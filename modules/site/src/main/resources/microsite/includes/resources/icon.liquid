@@ -1,27 +1,27 @@
 
-{% if include.size == undefined %}
-  {% assign iconSize = 1 %}
+{% if include.iconSize == undefined or include.iconSize == empty %}
+  {% assign iconSizeModifier = '1x' %}
 {% else %}
-  {% assign iconSize = include.size %}
+  {% assign iconSizeModifier = include.iconSize %}
 {% endif %}
 
 {% capture icon %}
   {% if include.resource.url contains 'facebook' %}
-    <i class="fab fa-facebook fa-fw text-facebook fa-{{ iconSize }}x" aria-hidden="true"></i>
+    <i class="fab fa-facebook fa-fw text-facebook fa-{{ iconSizeModifier }}" aria-hidden="true"></i>
   {% elsif include.resource.url contains 'reddit' %}
-    <i class="fab fa-reddit-square fa-fw text-reddit fa-{{ iconSize }}x" aria-hidden="true"></i>
+    <i class="fab fa-reddit-square fa-fw text-reddit fa-{{ iconSizeModifier }}" aria-hidden="true"></i>
   {% elsif include.resource.url contains 'twitch' %}
-    <i class="fab fa-twitch fa-fw text-twitch fa-{{ iconSize }}x" aria-hidden="true"></i>
+    <i class="fab fa-twitch fa-fw text-twitch fa-{{ iconSizeModifier }}" aria-hidden="true"></i>
   {% elsif include.resource.url contains 'twitter' %}
-    <i class="fab fa-twitter fa-fw text-twitter fa-{{ iconSize }}x" aria-hidden="true"></i>
+    <i class="fab fa-twitter fa-fw text-twitter fa-{{ iconSizeModifier }}" aria-hidden="true"></i>
   {% elsif include.resource.url contains 'youtube' or include.resource.url contains 'youtu.be' %}
-    <i class="fab fa-youtube fa-fw text-youtube fa-{{ iconSize }}x" aria-hidden="true"></i>
+    <i class="fab fa-youtube fa-fw text-youtube fa-{{ iconSizeModifier }}" aria-hidden="true"></i>
   {% elsif include.resource.url contains 'imgur.com/a/' %}
-    <i class="far fa-images fa-fw text-imgur fa-{{ iconSize }}x" aria-hidden="true"></i>
+    <i class="far fa-images fa-fw text-imgur fa-{{ iconSizeModifier }}" aria-hidden="true"></i>
   {% elsif include.resource.url contains 'imgur' %}
-    <i class="far fa-image fa-fw text-imgur fa-{{ iconSize }}x" aria-hidden="true"></i>
+    <i class="far fa-image fa-fw text-imgur fa-{{ iconSizeModifier }}" aria-hidden="true"></i>
   {% else %}
-    <i class="fas fa-book fa-{{ iconSize }}x fa-fw" aria-hidden="true"></i>
+    <i class="fas fa-book fa-{{ iconSizeModifier }} fa-fw" aria-hidden="true"></i>
   {% endif %}
 {% endcapture %}
 
