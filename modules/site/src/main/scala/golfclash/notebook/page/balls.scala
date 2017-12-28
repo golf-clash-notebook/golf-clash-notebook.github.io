@@ -31,9 +31,12 @@ import scala.scalajs.js.timers._
 import org.scalajs.jquery._
 import org.scalajs.dom.Element
 
+import cats.implicits._
+
 object balls {
 
   case class RankingWeights(windResistance: Double, sideSpin: Double, power: Double)
+  case class RankedBall(ball: Ball, score: Double, tier: Int = 1)
 
   val init = () => {
 
@@ -44,12 +47,33 @@ object balls {
     showRankings(rank(ballList, generateRankingWeights()))
   }
 
-  def rank(balls: List[Ball], weights: RankingWeights): List[Ball] = {
-    balls.sortBy { ball =>
-      (ball.windResistance * weights.windResistance) +
-        (ball.sideSpin * weights.sideSpin) +
-        (ball.power * weights.power)
-    }.reverse
+  def rank(balls: List[Ball], weights: RankingWeights): List[RankedBall] = {
+    assignTiers(
+      balls
+        .map { ball =>
+          val score = (ball.windResistance * weights.windResistance) + (ball.sideSpin * weights.sideSpin) + (ball.power * weights.power)
+          RankedBall(ball, score)
+        }
+        .sortBy(_.score)
+        .reverse
+    )
+  }
+
+  def assignTiers(rankedBalls: List[RankedBall]): List[RankedBall] = {
+    rankedBalls
+      .sortBy(-_.score)
+      .scanLeft(none[RankedBall]) {
+        case (lastBallOpt, currentBall) =>
+          lastBallOpt match {
+            case None => currentBall.copy(tier = 1).some
+            case Some(lastBall) => {
+              val scoreRatio  = 1 - ((lastBall.score - currentBall.score) / currentBall.score)
+              val currentTier = if (scoreRatio < 0.97) lastBall.tier + 1 else lastBall.tier
+              currentBall.copy(tier = currentTier.min(10)).some
+            }
+          }
+      }
+      .flatten
   }
 
   def generateRankingWeights(): RankingWeights = {
@@ -90,7 +114,7 @@ object balls {
       .sortBy(_.name)
   }
 
-  def showRankings(rankedBalls: List[Ball]): Unit = {
+  def showRankings(rankedBalls: List[RankedBall]): Unit = {
     updateRankChart(rankedBalls)
     updateBallDetails(rankedBalls)
 
@@ -103,7 +127,7 @@ object balls {
     ()
   }
 
-  def updateRankChart(rankedBalls: List[Ball]): Unit = {
+  def updateRankChart(rankedBalls: List[RankedBall]): Unit = {
     updateBallElements(
       rankedBalls,
       ball => s"#${ball.path}-ranking-row",
@@ -111,7 +135,7 @@ object balls {
     )
   }
 
-  def updateBallDetails(rankedBalls: List[Ball]): Unit = {
+  def updateBallDetails(rankedBalls: List[RankedBall]): Unit = {
     updateBallElements(
       rankedBalls,
       ball => s"#${ball.path}-details-card",
@@ -119,11 +143,18 @@ object balls {
     )
   }
 
-  def updateBallElements(rankedBalls: List[Ball],
+  def updateBallElements(rankedBalls: List[RankedBall],
                          elementId: Ball => String,
                          replacementSelector: Int => String): Unit = {
-    val ballElements = rankedBalls.map { ball =>
-      jQuery(elementId(ball)).clone()
+
+    val ballElements = rankedBalls.map { rankedBall =>
+      val newCard = jQuery(elementId(rankedBall.ball)).clone()
+      val newCardClasses =
+        newCard.attr("class").getOrElse("").split(" ").filterNot(_.startsWith("tier"))
+      newCard.attr("class", newCardClasses.mkString(" "))
+      newCard.addClass(s"tier-${rankedBall.tier}-ball")
+
+      newCard
     }
 
     ballElements.zipWithIndex.foreach {

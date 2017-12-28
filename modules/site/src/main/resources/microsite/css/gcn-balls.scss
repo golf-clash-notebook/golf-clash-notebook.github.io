@@ -6,9 +6,29 @@
 }
 
 .ball-table-container {
+  margin-bottom: 16px;
   max-height: 650px;
   overflow-x: hidden;
   overflow-y: auto;
+
+  table tbody {
+    .ball-table-row {
+      &.tier-1-ball { border-left: 3px solid hsla(130, 70.0%, 45.0%, 0.9); }
+      &.tier-2-ball { border-left: 3px solid hsla(110, 70.0%, 45.0%, 0.9); }
+      &.tier-3-ball { border-left: 3px solid hsla(80, 70.0%, 45.0%, 0.9); }
+      &.tier-4-ball { border-left: 3px solid hsla(60, 70.0%, 45.0%, 0.75); }
+      &.tier-5-ball { border-left: 3px solid hsla(40, 70.0%, 45.0%, 0.8); }
+      &.tier-6-ball { border-left: 3px solid hsla(20, 70.0%, 45.0%, 0.90); }
+      &.tier-7-ball { border-left: 3px solid hsla(10, 70.0%, 45.0%, 0.95); }
+      &.tier-8-ball { border-left: 3px solid hsla(0, 70.0%, 45.0%, 1.0); }
+      &.tier-9-ball { border-left: 3px solid hsla(0, 70.0%, 45.0%, 1.0); }
+      &.tier-10-ball { border-left: 3px solid hsla(0, 70.0%, 45.0%, 1.0); }
+
+      td:first-of-type {
+        padding-left: 16px;
+      }
+    }
+  }
 }
 
 .slider {

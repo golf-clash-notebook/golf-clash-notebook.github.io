@@ -189,7 +189,6 @@ object clubranker {
   }
 
   def assignTiers(rankedClubs: List[RankedClub]): List[RankedClub] = {
-
     rankedClubs
       .sortBy(-_.score)
       .scanLeft(none[RankedClub]) {
