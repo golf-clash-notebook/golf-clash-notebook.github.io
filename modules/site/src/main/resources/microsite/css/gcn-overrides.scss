@@ -13,40 +13,20 @@
   max-width: 800px !important;
 }
 
-/* Account for our fixed footer. */
-
 #content {
   padding-top: 10px;
-  padding-bottom: 40px;
+  padding-bottom: 10px;
 }
-
-/** Fixed Footer **/
 
 #site-footer {
   background-color: #192a37;
   padding: 15px 0;
-  position: fixed;
-  right: 0;
-  bottom: 0;
-  left: 0;
   z-index: 2000;
 
   div {
     a {
       color: rgba(255, 255, 255, 0.6);
     }
-  }
-}
-
-@media (max-width: 768px) {
-
-  #site-footer {
-    position: static;
-  }
-
-  /* Account for our (un)fixed footer. */
-  #content {
-    padding-bottom: 0;
   }
 }
 
