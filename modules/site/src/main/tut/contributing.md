@@ -14,7 +14,7 @@ position: 100
 
     <br>
 
-    <h4>How Can You Help?</h4>
+    <h4 class="text-center">How Can You Help?</h4>
 
     <p>
       There are a lot of different ways you can help improve the quality of this site. Any effort
@@ -39,10 +39,63 @@ position: 100
       find. I've tried marking most simple issues with that phrase (e.g. club, ball and tour descriptions).
     </p>
 
-    <br>
-
-    {% include contributing/status.liquid %}
-
   </div>
 
+</div>
+
+<br>
+
+<div class="row">
+
+  <a id="ContributorList"></a>
+
+  <div class="col-xs-12">
+    <h4 class="text-center margin-4">
+      King Makers
+    </h4>
+    <div class="text-center text-semi-muted">
+      Heroes among us who've made the site better through content and ideas!
+    </div>
+  </div>
+
+  <div class="col-md-10 col-md-offset-1 col-xs-12">
+    <hr>
+  </div>
+
+  {% assign contributorsMod2 = site.data.contributors | size | modulo: 2 %}
+
+  {% for contributor in site.data.contributors %}
+
+    {% assign loopMod2 = forloop.index0 | modulo: 2 %}
+
+    {% capture columnClasses %}
+      {% if contributorsMod2 == 1 and forloop.last %}
+        col-sm-6 col-sm-offset-3
+      {% elsif loopMod2 == 0 %}
+        col-sm-5 col-sm-offset-1
+      {% else %}
+        col-sm-5
+      {% endif %}
+    {% endcapture %}
+
+    <div class="{{ columnClasses | strip }} text-center">
+      <div class="pad-8">
+        <strong>{{ contributor.name }}</strong>
+        <br>
+        <span class="text-semi-muted">{{ contributor.contributions }}</span>
+      </div>
+    </div>
+  {% endfor %}
+
+  <div class="col-md-10 col-md-offset-1 col-xs-12">
+    <hr>
+  </div>
+
+</div>
+
+<div class="row">
+  <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 col-sm-12">
+    <h4 class="text-center">Site Progress</h4>
+    {% include contributing/status.liquid %}
+  </div>
 </div>

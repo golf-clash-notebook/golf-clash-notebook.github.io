@@ -106,8 +106,8 @@ position: 0
   <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 col-sm-12">
 
     <p class="text-center pad-24">
-      In addition to all of the <a href="https://github.com/golf-clash-notebook/golf-clash-notebook.github.io/graphs/contributors/" target="_blank" rel="noopener">Golf Clash Notebook contributors</a>, a few shoutouts to people
-      whose contributions to the community have made this site what it is. A big thank you!
+      A few shoutouts to people whose contributions to the community have made this site what it is.
+      A big thank you!
     </p>
 
     <div class="center-block">
@@ -145,6 +145,10 @@ position: 0
         </div>
       </div>
     </div>
+
+    <p class="text-center text-semi-muted pad-24">
+      A full list of site contributors can be found on the <a href="/contributing#ContributorList">Contributors</a> page.
+    </p>
 
     <br><br><br>
 
