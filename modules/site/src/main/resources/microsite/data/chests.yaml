@@ -12,9 +12,9 @@
     rare: -1
     epic: -1
   king:
-    total: -1
-    rare: -1
-    epic: -1
+    total: 48
+    rare: 18
+    epic: 5
 - tour: 2
   wooden:
     total: -1
@@ -62,9 +62,9 @@
     total: 22
     rare: 5
   platinum:
-    total: -1
-    rare: -1
-    epic: -1
+    total: 40
+    rare: 10
+    epic: 2
   king:
     total: -1
     rare: -1
