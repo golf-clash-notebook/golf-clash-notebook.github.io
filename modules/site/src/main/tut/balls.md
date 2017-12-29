@@ -48,10 +48,9 @@ position: 50
     </p>
 
     <p class="text-content">
-      Speaking of tournaments, that is the absolute best way to get a build the stockpile of balls
-      that you'll need. Finishing in the top 10 or 25 in a couple tournaments will get you well on
-      your way to where you can use the balls you've won to win more (and better) balls in the
-      future.
+      Speaking of tournaments, that is the absolute best way to build the stockpile of balls that
+      you'll need. Finishing in the top 10 or 25 in a couple tournaments will get you well on your
+      way to where you can use the balls you've won to win more (and better) balls in the future.
     </p>
 
   </div>
