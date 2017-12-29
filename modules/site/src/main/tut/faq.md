@@ -28,10 +28,6 @@ position: 70
 
     <h1 class="gcn-page-header">Answers to the most common Golf Clash questions.</h1>
 
-    <p class="text-center">
-      <a href="https://github.com/golf-clash-notebook/golf-clash-notebook.github.io/issues/new" class="btn btn-info" role="button">Add to the FAQ</a>
-    </p>
-
     {% for faqCategoryKey in sortedCategoryArray %}
       {% assign faqCategory = site.data.faq[faqCategoryKey] %}
 

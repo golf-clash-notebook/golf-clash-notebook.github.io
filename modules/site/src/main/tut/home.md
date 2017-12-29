@@ -150,8 +150,6 @@ position: 0
       A full list of site contributors can be found on the <a href="/contributing#ContributorList">Contributors</a> page.
     </p>
 
-    <br><br><br>
-
   </div>
 
 </div>
