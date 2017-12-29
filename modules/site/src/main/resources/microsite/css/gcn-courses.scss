@@ -17,6 +17,11 @@
   width: 100%;
 }
 
+h4[class$='guide-text'] {
+  margin-bottom: 4px;
+  margin-top: 16px;
+}
+
 .guide-button-toggles {
   display: flex;
 
