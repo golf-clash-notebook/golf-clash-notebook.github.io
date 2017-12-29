@@ -1,0 +1,13 @@
+
+.resources-list {
+  display: inline-block;
+  text-align: left;
+
+  li a h4 {
+    margin: 6px 0;
+
+    span {
+      margin-right: 6px;
+    }
+  }
+}
