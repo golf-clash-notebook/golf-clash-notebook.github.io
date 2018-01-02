@@ -135,17 +135,23 @@ section: "courses"
       {% for level in guide.levels %}
         {% assign levelName = level.name %}
 
-          <h4 class="{{ levelName }}-guide-text hidden">{{ guide.name }}</h4>
-
-          {% if guide.text contains 'Help Wanted' %}
-            <p class="text-prototype {{ levelName }}-guide-text hidden">
-              {% lipsum 1 5 10 %}
-            </p>
-          {% else %}
-            <p class="{{ levelName }}-guide-text hidden">
-              {{ guide.text }}
-            </p>
+        {% capture initalVisibility %}
+          {% if levelName != 'Rookie' %}
+            hidden
           {% endif %}
+        {% endcapture %}
+
+        <h4 class="{{ levelName }}-guide-text {{ initalVisibility | strip }}">{{ guide.name }}</h4>
+
+        {% if guide.text contains 'Help Wanted' %}
+          <p class="text-prototype {{ levelName }}-guide-text {{ initalVisibility | strip }}">
+            {% lipsum 1 5 10 %}
+          </p>
+        {% else %}
+          <p class="{{ levelName }}-guide-text {{ initalVisibility | strip }}">
+            {{ guide.text }}
+          </p>
+        {% endif %}
 
       {% endfor %}
     {% endfor %}
