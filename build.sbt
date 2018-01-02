@@ -7,9 +7,9 @@ organization in ThisBuild := "golf-clash-notebook"
 organizationName in ThisBuild := "Golf Clash Notebook"
 
 ////////////////////////////////////////////////////////////////////////////////
-val CatsV          = "1.0.0-RC1"
-val CatsEffectV    = "0.5"
-val CirceV         = "0.9.0-M2"
+val CatsV          = "1.0.1"
+val CatsEffectV    = "0.7"
+val CirceV         = "0.9.0"
 val MonixV         = "3.0.0-M2"
 val ScalaCheckV    = "1.13.5"
 val ScalaTagsV     = "0.6.7"
@@ -18,7 +18,6 @@ val ScalaJSJqueryV = "0.9.2"
 ////////////////////////////////////////////////////////////////////////////////
 
 scalafmtOnCompile in ThisBuild := true
-scalafmtTestOnCompile in ThisBuild := true
 
 lazy val `golf-clash-notebook` = (project in file("."))
   .aggregate(site)
