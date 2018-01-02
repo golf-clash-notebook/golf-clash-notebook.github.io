@@ -30,7 +30,10 @@ holes:
       guides:
       - name: Black Path
         text: >
-          Help Wanted
+          This is a Par 3 where you'll be able to make a hole in one a bit easier than many of the
+          other Par 3's in  the game. Use the right to left slope to make the ball fall down to the
+          pin. Also try to go a bit past the pin with good backspin and it will stop in the hole or
+          close to it. Stay away from the bunkers.
         levels:
           - name: Rookie
             svg:
@@ -74,7 +77,13 @@ holes:
       guides:
       - name: Black Path
         text: >
-          Help Wanted
+          The normal way to play this hole. The reason is your second shot will have a better angle
+          at the pin. Try to get your ball going straight with your driver using curl and sidespin.
+          It's very import that you not put yourself behind a tree or in the middle bunker before
+          the trees. Doing either of those things will make it really hard to reach the green in
+          two. Keep in mind your second shot is uphill and won't be affected by the wind that much.
+          <strong><em>Don't hit the front of the green with your drive. It's an impossible putt to
+          make.</em></strong>
         levels:
           - name: Rookie
             svg:
@@ -99,7 +108,10 @@ holes:
               <circle cx="214" cy="130" r="6" fill="black" class="guide-point" data-guide-segment="2" />
       - name: White Path
         text: >
-          Help Wanted
+          This path is only an option because you can put yourself closer to the hole than you can
+          playing down the left side. Be sure to play with a short iron with decent backspin so you
+          don't have issues going over the bunker and staying on a short green. Avoid the rough and
+          bunkers at all costs.
         levels:
           - name: Rookie
             svg:
@@ -152,7 +164,10 @@ holes:
       guides:
       - name: Black Path
         text: >
-          Help Wanted
+          The common way to play the hole (depending on the wind) is to bounce your drive before
+          the left fairway bunker with max topspin. You could also try going directly over that
+          bunker with 4 to 5 bars of topspin. Stay away from the bunkers and landing short in the
+          rough. Otherwise it shouldn't be a problem to reach the green in two.
         levels:
           - name: Rookie
             svg:
@@ -177,7 +192,9 @@ holes:
               <circle cx="263" cy="137" r="6" fill="black" class="guide-point" data-guide-segment="2" />
       - name: White Path
         text: >
-          Help Wanted
+          With great tailwind you can gamble a little and max your driver with some curl. Try to
+          land your drive next to the trees with plenty of sidespin and max topspin. That will
+          leave a long or short iron into the green.
         levels:
           - name: Rookie
             svg:
@@ -230,7 +247,10 @@ holes:
       guides:
       - name: Black Path
         text: >
-          Help Wanted
+          This path is a better option with tailwind or a very little wind. With tailwind you can
+          try to go long, bounce over the cliff, and roll directly onto the green. With a very
+          gentle wind you can use backspin on your drive and stay short of the cliff, leaving a
+          better approach to the green than playing to the right.
         levels:
           - name: Rookie
             svg:
@@ -255,7 +275,12 @@ holes:
               <circle cx="157" cy="112" r="6" fill="black" class="guide-point" data-guide-segment="2" />
       - name: White Path
         text: >
-          Help Wanted
+          This is the common way to play the hole. You'll
+          be able to reach the green from anywhere in the
+          fairway. Just be sure to avoid the bunker in the
+          middle of the fairway. The green slopes towards
+          the back so use a long iron with at least 2 to 3
+          bars of backspin.
         levels:
           - name: Rookie
             svg:
