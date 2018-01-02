@@ -1,0 +1,24 @@
+name: Rookie 2
+bonus: 20
+promoted: 25
+prizes:
+  - places: [1]
+    chest:
+      type: Platinum
+      tour: 3
+  - places: [2]
+    chest:
+      type: Gold
+      tour: 3
+  - places: [3]
+    chest:
+      type: Silver
+      tour: 3
+  - places: [4, 5, 6, 7, 8, 9, 10]
+    chest:
+      type: Wooden
+      tour: 8
+  - places: [11, 12, 13, 14, 15]
+    chest:
+      type: Wooden
+      tour: 4
