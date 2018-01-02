@@ -414,7 +414,12 @@ holes:
       guides:
       - name: Black Path
         text: >
-          Help Wanted
+          This is a really, really hard Par 3. It's difficult to see in the picture that the
+          fairway in front of the green slopes uphill and right to left. This means you'll need to
+          use sidespin to over adjust your shot so you always try to have a straight line for your
+          ball when it hits the ground. Otherwise, you may find yourself in the rough.
+          <strong><em>DO NOT</em></strong> use max backspin on this one. Use as little amount of
+          spin as possible.
         levels:
           - name: Rookie
             svg:

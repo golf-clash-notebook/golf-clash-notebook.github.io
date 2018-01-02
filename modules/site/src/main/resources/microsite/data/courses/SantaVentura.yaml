@@ -30,7 +30,8 @@ holes:
       guides:
       - name: Black Path
         text: >
-          Help Wanted
+          This is a great opportunity to get a hole in one. Keep in mind that the green slopes left
+          to right so you should aim a bit to the left side of the pin.
         levels:
           - name: Rookie
             svg:
@@ -75,7 +76,11 @@ holes:
       guides:
       - name: Black Path
         text: >
-          Help Wanted
+          This is an easy Par 4. The thing to keep in mind here it to always give yourself a chance
+          to hit it in for an eagle. Stay in the fairway and you'll have a short iron to to pin.
+          The only way this hole becomes hard is with a lot of headwind on the teeshot. Use the
+          back of the green to let the ball fall back down towards the hole as it slopes back to
+          front.
         levels:
           - name: Rookie
             svg:
@@ -127,7 +132,11 @@ holes:
       guides:
       - name: Black Path
         text: >
-          Help Wanted
+          There's really only one way to play this hole. Curl your drive slightly with as much left
+          side spin you can get on your ball. Be aware of the bunker in the middle of the fairway
+          just after the creek. Your second shot will be looooong so be sure to use a wood with a
+          lot of distance. <strong>DO NOT</strong> land short on the green because it will be hard
+          to reach the pin from there.
         levels:
           - name: Rookie
             svg:
@@ -181,7 +190,11 @@ holes:
       guides:
       - name: Black Path
         text: >
-          Help Wanted
+          The drawing definately makes this hole seem easier than it really is. Know that out of
+          bounds is <strong>really</strong> close to the rough, so trying to pull off a hero drive
+          will bring OB into play. You're usually better off hitting a calm drive to the middle of
+          the fairway. The 2nd shot is a decent chance to land an albatross. You can go past the
+          pin and let the green bring it back to the hole so don't be afraid to go for it.
         levels:
           - name: Rookie
             svg:
