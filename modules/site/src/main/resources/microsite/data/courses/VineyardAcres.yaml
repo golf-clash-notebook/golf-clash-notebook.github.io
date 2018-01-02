@@ -27,7 +27,9 @@ holes:
       guides:
       - name: Black Path
         text: >
-          Help Wanted
+          An excellent chance at a hole in one. You should hit the fairway just before the bunker
+          to get the second bounce on the fringe. Use 2 - 2.5 bars of backspin and the ball should
+          release right to the hole.
         levels:
           - name: Rookie
             svg:
@@ -46,7 +48,9 @@ holes:
               <circle cx="182" cy="237" r="6" fill="black" class="guide-point" data-guide-segment="1" />
       - name: White Path
         text: >
-          Help Wanted
+          Using a club with a lot of backspin you can take this path. You'll also need to add a bit
+          of curl to get it close to the pin. If you closely watch the green you will see that if
+          you bounce within 10 yards of the pin, the green will help your ball stay.
         levels:
           - name: Rookie
             svg:
@@ -91,7 +95,10 @@ holes:
       guides:
       - name: Black Path
         text: >
-          Help Wanted
+          Play your driver straight up to give yourself a straight and open second shot to the
+          green. When you approach the green, you will need 2 - 4 bars of backspin. This is one
+          that you can definately put in for an eagle. Missing left or right though can land you
+          in a bunker.
         levels:
           - name: Rookie
             svg:
@@ -116,7 +123,8 @@ holes:
               <circle cx="108" cy="111" r="6" fill="black" class="guide-point" data-guide-segment="2" />
       - name: White Path
         text: >
-          Help Wanted
+          Bounce your drive over the small strip of rough. Don't use too much topspin to avoid
+          rolling through the fairway. Hitting the green with a rough iron is much more difficult.
         levels:
           - name: Rookie
             svg:
@@ -166,7 +174,9 @@ holes:
       guides:
       - name: Black Path
         text: >
-          Help Wanted
+          This is the safest way to play the hole and leave yourself with at least a good chance to
+          chip it in. Play it straight down the fairway and bounce over the bunker / rough. Use
+          maximum topspin on whatever driver you use.
         levels:
           - name: Rookie
             svg:
@@ -191,7 +201,9 @@ holes:
               <circle cx="244" cy="134" r="6" fill="black" class="guide-point" data-guide-segment="2" />
       - name: White Path
         text: >
-          Help Wanted
+          This is typically only an option from the first tee where you have a driver / ball
+          combination that can carry over the bunker. From the back tees you'll need some good
+          tailwind. 2 bars of topspin should be good.
         levels:
           - name: Rookie
             svg:
@@ -243,7 +255,10 @@ holes:
       guides:
       - name: Black Path
         text: >
-          Help Wanted
+          The typical way to play the hole. Bounce before the water to the second fairway. If you
+          run into really bad headwind you'll have to layup before the water. For the second shot,
+          go as close to the top as possible with no more than 6 bars of backspin. Any more than
+          that and the ball will roll past the pin into the front rough.
         levels:
           - name: Rookie
             svg:
@@ -274,7 +289,8 @@ holes:
               <circle cx="307" cy="87" r="6" fill="black" class="guide-point" data-guide-segment="3" />
       - name: White Path
         text: >
-          Help Wanted
+          This is only an option with tailwind. A driver with a lot of topspin may even be able to
+          reach the green.
         levels:
           - name: Rookie
             svg:
@@ -325,7 +341,10 @@ holes:
       guides:
       - name: Black Path
         text: >
-          Help Wanted
+          With tailwind or a long enough driver this is the way to go to get to the green in two.
+          Roll your drive out as far as possible. From there you can either bounce your second shot
+          over the rough in front of the green or hit directly into the rough so it will roll out
+          to the hole.
         levels:
           - name: Rookie
             svg:
@@ -356,7 +375,9 @@ holes:
               <circle cx="136" cy="134" r="6" fill="black" class="guide-point" data-guide-segment="3" />
       - name: White Path
         text: >
-          Help Wanted
+          A tough option and very difficult to reach the green in two. With headwind or sidewind,
+          layup short of the trees and play your second shot up close to the green. You'll have a
+          wedge left to get your eagle.
         levels:
           - name: Rookie
             svg:
@@ -466,7 +487,11 @@ holes:
       guides:
       - name: Black Path
         text: >
-          Help Wanted
+          It may seem like an easy Par 4 but it's not. The fairway slopes severly from right to
+          left so you can't just play a straight shot. Try to avoid the right side of the fairway.
+          Use a driver with plenty of curl and a ball with sidespin to adapt. The second shot
+          requires a wood with decent backspin. Use the back of the green to spin the ball down to
+          the pin.
         levels:
           - name: Rookie
             svg:
@@ -517,7 +542,9 @@ holes:
       guides:
       - name: Black Path
         text: >
-          Help Wanted
+          A pretty straight forward Par 3. <strong>You should keep in mind to hit the ball directly
+          on the green</strong>. The fairway in front of the green is sloped uphill and leads to
+          irregular bounces so avoid it.
         levels:
           - name: Rookie
             svg:
@@ -562,7 +589,10 @@ holes:
       guides:
       - name: Black Path
         text: >
-          Help Wanted
+          A trickier tee shot, but will give you a much better angle on your second shot to the
+          left side of the next fairway. Landing as far left on that fairway will leave a much
+          straighter and open shot to the green. Use the back of the green to draw the ball back
+          down to the pin.
         levels:
           - name: Rookie
             svg:
@@ -593,7 +623,9 @@ holes:
               <circle cx="314" cy="78" r="6" fill="black" class="guide-point" data-guide-segment="3" />
       - name: White Path
         text: >
-          Help Wanted
+          This is a much easier teeshot but can present more problems for your second and third
+          shots since they will require more precision and curl. Use the back to front sloped
+          green on your approach to have the ball roll down to the hole.
         levels:
           - name: Rookie
             svg:
