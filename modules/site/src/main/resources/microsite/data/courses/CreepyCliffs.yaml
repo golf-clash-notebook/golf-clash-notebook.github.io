@@ -28,7 +28,10 @@ holes:
       guides:
       - name: Yellow Path
         text: >
-          Help Wanted
+          The best way to go as long as you have enough distance / wind to reach the green on your
+          second shot. You'll need to place your drive as close to the end of the fairway as
+          possible to have a chance. Land your second shot in the rough and have it roll out onto
+          the green.
         levels:
           - name: Rookie
             svg:
@@ -53,7 +56,8 @@ holes:
               <circle cx="185" cy="98" r="6" fill="yellow" class="guide-point" data-guide-segment="2" />
       - name: Red Path
         text: >
-          Help Wanted
+          Without the needed tailwind on your second shot you'll have to lay up at the end of the
+          second fairway. This should leave you with a short iron or wedge into the green.
         levels:
           - name: Rookie
             svg:
@@ -84,7 +88,8 @@ holes:
               <circle cx="202" cy="78" r="6" fill="red" class="guide-point" data-guide-segment="3" />
       - name: White Path
         text: >
-          Help Wanted
+          <em>Might</em> be possible to go this way from the first tee but still a stretch to pull
+          off. Playing this way from the back tees is borderline insanity.
         levels:
           - name: Rookie
             svg:
@@ -143,7 +148,9 @@ holes:
       guides:
       - name: Yellow Path
         text: >
-          Help Wanted
+          May seem like an easy Par 3 at first but the landing spot slopes from left to right so
+          you need to straighten the ball with curl or some left sidespin. The green also slopes
+          severely from left to right just to the right of the pin so stay left!
         levels:
           - name: Rookie
             svg:
@@ -189,7 +196,9 @@ holes:
       guides:
       - name: White Path
         text: >
-          Help Wanted
+          With sidewind or tailwind you will be able to reach the second fairway for your first
+          bounce. Use max topspin and try to get as close as possible to the green. Be aware that
+          OB is very close on either side.
         levels:
           - name: Rookie
             svg:
@@ -214,7 +223,9 @@ holes:
               <circle cx="124" cy="108" r="6" fill="white" class="guide-point" data-guide-segment="2" />
       - name: Yellow Path
         text: >
-          Help Wanted
+          With a headwind or difficult sidewind you'll need to bounce your drive on the first
+          fairway over to the next. The fairway is a bit tricky and can take some weird bounces.
+          You should be able to reach the green if you find the rough though.
         levels:
           - name: Rookie
             svg:
@@ -272,7 +283,10 @@ holes:
       guides:
       - name: Yellow Path
         text: >
-          Help Wanted
+          Going short or long on this one are both punished. The bunker sits in front and the green
+          slopes front to back just beyond the pin. Use 3 bars of backspin from the second tee and
+          no more than 0.5 bars of backspin from the first tee. Definately an opportunity for a
+          hole in one.
         levels:
           - name: Rookie
             svg:
@@ -325,7 +339,8 @@ holes:
       guides:
       - name: White Path
         text: >
-          Help Wanted
+          With side or tail wind this is the preferred way to play. Max topspin and a wide fairway
+          should leave you with a second shot to the green.
         levels:
           - name: Rookie
             svg:
@@ -350,7 +365,11 @@ holes:
               <circle cx="406" cy="110" r="6" fill="white" class="guide-point" data-guide-segment="2" />
       - name: Yellow Path
         text: >
-          Help Wanted
+          With a good tailwind you can bounce your drive on the island and hop over to the next
+          fairway for a better chance at the albatross. With a stiff headwind that limits your
+          distance on the left side, you can use about 4 bars of backspin and layup on the island
+          fairway. Hitting your second shot from the island is way downhill so the wind will have
+          a <strong>MUCH</strong> bigger effect on your ball.
         levels:
           - name: Rookie
             svg:
@@ -408,7 +427,10 @@ holes:
       guides:
       - name: Yellow Path
         text: >
-          Help Wanted
+          Many people will drop into the water on this one even if it looks like an easy hole.
+          The wind will have a greater effect on your ball so adjust for about 20% more wind than
+          you see. With a headwind you shouldn't use much backspin at all as the ball will
+          basically stop when it hits the ground.
         levels:
           - name: Rookie
             svg:
@@ -461,7 +483,8 @@ holes:
       guides:
       - name: Yellow Path
         text: >
-          Help Wanted
+          A pretty easy Par 4 where there's no danger of not making the green in two. Important
+          thing is to at least leave yourself a good chance of SHIPPING it in.
         levels:
           - name: Rookie
             svg:
@@ -520,7 +543,10 @@ holes:
       guides:
       - name: Yellow Path
         text: >
-          Help Wanted
+          With a tailwind you will have a chance to go directly onto the green. It's risky though,
+          since missing the bounce on the island will lead to the water. Avoid this way unless
+          you have straight tailwind. Also avoid going really short on the green. You won't be
+          able to reach with your putt.
         levels:
           - name: Rookie
             svg:
@@ -545,7 +571,8 @@ holes:
               <circle cx="140" cy="100" r="6" fill="yellow" class="guide-point" data-guide-segment="2" />
       - name: White Path
         text: >
-          Help Wanted
+          Without a good tailwind this is the way to go. Simple, safe drive in the fairway will
+          leave you with a long or short iron to the pin.
         levels:
           - name: Rookie
             svg:
@@ -596,7 +623,10 @@ holes:
       guides:
       - name: White Path
         text: >
-          Help Wanted
+          This is a tricky drive that can easily end up in the rough or bunker. With a tailwind you
+          may be able to go directly over or you can bounce it with 1 bar of backspin. Use the
+          island to bounce your next shot onto the green. You could use the right fairway for your
+          second shot but it will require a massive curl with sidespin to pull it off.
         levels:
           - name: Rookie
             svg:
@@ -627,7 +657,10 @@ holes:
               <circle cx="95" cy="80" r="6" fill="white" class="guide-point" data-guide-segment="3" />
       - name: Yellow Path
         text: >
-          Help Wanted
+          This is the safer and generally easier approach. Get as close to the end of the fairway
+          as possible. You'll need to use some backspin on your drive because the fairway slopes
+          down <strong>severely</strong> at the very end. That will leave you with a pretty
+          straight shot into the green and a chance at an albatross.
         levels:
           - name: Rookie
             svg:
