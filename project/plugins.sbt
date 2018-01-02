@@ -1,7 +1,7 @@
 // Comment to get more information during initialization
 logLevel := Level.Warn
 
-addSbtPlugin("com.lucidchart"    % "sbt-scalafmt"   % "1.14")
+addSbtPlugin("com.geirsson"      % "sbt-scalafmt"   % "1.4.0")
 addSbtPlugin("com.timushev.sbt"  % "sbt-updates"    % "0.3.3")
 addSbtPlugin("de.heikoseeberger" % "sbt-header"     % "4.0.0")
 addSbtPlugin("com.eed3si9n"      % "sbt-unidoc"     % "0.4.1")
