@@ -28,7 +28,8 @@ holes:
       guides:
       - name: Black Path
         text: >
-          Help Wanted
+          This is the most popular way to play the hole. Be precise with your adjustment or you'll
+          end up in the rough or more likely the bunker. It's a pretty good shot a hole in one.
         levels:
           - name: Rookie
             svg:
@@ -47,7 +48,9 @@ holes:
               <circle cx="270" cy="225" r="6" fill="black" class="guide-point" data-guide-segment="1" />
       - name: White Path
         text: >
-          Help Wanted
+          Recommended if you have a wood with really good backspin (e.g. The Guardian). This is
+          also a good way to play if you get some tricky wind and hitting the small fairway island
+          isn't easy. Using curl, sidespin and backspin you can definately get this one close.
         levels:
           - name: Rookie
             svg:
@@ -94,7 +97,9 @@ holes:
       guides:
       - name: Black Path
         text: >
-          Help Wanted
+          You'll be able to reach the green from anywhere here unless you find the short bunker.
+          Play your drive up so you can get an open shot to the green. A GREAT possibility to chip
+          it in for an eagle.
         levels:
           - name: Rookie
             svg:
@@ -119,7 +124,9 @@ holes:
               <circle cx="319" cy="120" r="6" fill="black" class="guide-point" data-guide-segment="2" />
       - name: White Path
         text: >
-          Help Wanted
+          With good tailwind you can play this way. Bounce your drive on the small fairway with
+          A LOT of topspin and with a little luck you'll get over the bunker and roll onto the
+          green. Be aware of the water which comes into play if you hit a bad drive.
         levels:
           - name: Rookie
             svg:
@@ -170,7 +177,9 @@ holes:
       guides:
       - name: Black Path
         text: >
-          Help Wanted
+          The normal way to play the hole. Don't overpower your drive if you don't have to. The
+          most important thing is to stay in the fairway so you can reach the green in two. If
+          you avoid the rough and bunkers you should be fine.
         levels:
           - name: Rookie
             svg:
@@ -195,7 +204,8 @@ holes:
               <circle cx="307" cy="99" r="6" fill="black" class="guide-point" data-guide-segment="2" />
       - name: Yellow Path
         text: >
-          Help Wanted
+          A tougher option that requires good tailwind to reach the right fairway. If you can pull
+          it off, you'll have an easier chance at the pin with a long iron.
         levels:
           - name: Rookie
             svg:
