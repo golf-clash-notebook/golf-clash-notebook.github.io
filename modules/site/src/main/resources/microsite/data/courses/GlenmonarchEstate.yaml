@@ -28,7 +28,8 @@ holes:
       guides:
       - name: Yellow Path
         text: >
-          Help Wanted
+          Bounce your teeshot between the bunkers with 2 bars of backspin with headwind and 2.5 - 3
+          bars of backspin with a tailwind. Easiest approach from the second tee.
         levels:
           - name: Rookie
             svg:
@@ -47,7 +48,8 @@ holes:
               <circle cx="178" cy="222" r="6" fill="yellow" class="guide-point" data-guide-segment="1" />
       - name: White Path
         text: >
-          Help Wanted
+          Land your teeshot in the rough just beyond the bunker with 1.5 in backspin to get your
+          ball to roll down to to he hole. Easiest approach from the first tee.
         levels:
           - name: Rookie
             svg:
@@ -66,7 +68,8 @@ holes:
               <circle cx="172" cy="159" r="6" fill="white" class="guide-point" data-guide-segment="1" />
       - name: Black Path
         text: >
-          Help Wanted
+          A challenging and risky way to play the hole. A wood club with a lot of backspin is
+          preferred. Use curl and backspin to get it close.
         levels:
           - name: Rookie
             svg:
@@ -111,7 +114,9 @@ holes:
       guides:
       - name: Yellow Path
         text: >
-          Help Wanted
+          This is the normal way to play this hole. Using curl, topspin and sidepin put your ball
+          as close to the top of the fairway as possible. That will leave you with a short iron to
+          the green.
         levels:
           - name: Rookie
             svg:
@@ -142,7 +147,10 @@ holes:
               <circle cx="169" cy="80" r="6" fill="yellow" class="guide-point" data-guide-segment="3" />
       - name: White Path
         text: >
-          Help Wanted
+          This path is only an option with a tailwind of at least 7 with a Berserker and 8 - 10
+          with a Titan or Kingmaker. Go all in and make sure to land the bounce on the small
+          fairway. Land the second bounce in the rough before the green to slow the ball onto
+          the green.
         levels:
           - name: Rookie
             svg:
@@ -193,7 +201,11 @@ holes:
       guides:
       - name: Yellow Path
         text: >
-          Help Wanted
+          Normal way to play the hole. With head or sidewind place your drive as close to the end
+          of the fairway as possible. Use curl on your second shot and go directly over to the next
+          fairway or you can use the smaller fairway to bounce over. If you get enough tailwind you
+          can try to bounce your drive just shy of the bunker and use a lot of topspin to bounce
+          to the third fairway platform. Birdie hole in general.
         levels:
           - name: Rookie
             svg:
@@ -224,7 +236,9 @@ holes:
               <circle cx="335" cy="97" r="6" fill="yellow" class="guide-point" data-guide-segment="3" />
       - name: White Path
         text: >
-          Help Wanted
+          Play the same drive as you would in the other approach. For your second shot you play
+          into the small fairway way off on the right. From there you can hit the green. This is
+          a decent option if your drive goes too short.
         levels:
           - name: Rookie
             svg:
@@ -283,7 +297,8 @@ holes:
       guides:
       - name: Yellow Path
         text: >
-          Help Wanted
+          The normal way to play the hole. Bounce before the rough on the right and you'll have a
+          short iron left for your second shot. Big chance for an eagle!
         levels:
           - name: Rookie
             svg:
@@ -308,7 +323,9 @@ holes:
               <circle cx="218" cy="136" r="6" fill="yellow" class="guide-point" data-guide-segment="2" />
       - name: White Path
         text: >
-          Help Wanted
+          With tailwind, you have a possibility to make the green in one. You'll need to use a
+          Titan or Berserker depending on how good the tailwind is. Use a slight amount of curl
+          with some left sidepin. Use the rough to slow the ball onto the green.
         levels:
           - name: Rookie
             svg:
@@ -359,7 +376,9 @@ holes:
       guides:
       - name: Yellow Path
         text: >
-          Help Wanted
+          Use the fairway platform to bounce over to the green and let the ball roll out to the
+          pin. Important to only use 1 bar of backspin with tailwind and half a bar of topspin
+          with headwind. Recommended approach with head or tailwind.
         levels:
           - name: Rookie
             svg:
@@ -384,7 +403,9 @@ holes:
               <circle cx="163" cy="151" r="6" fill="yellow" class="guide-point" data-guide-segment="2" />
       - name: White Path
         text: >
-          Help Wanted
+          There is a big piece of rough you can hit into using this approach. Use 2 bars of topspin
+          with headwind and 1 bar of topspin with a tailwind. A nice way to play the hole with
+          sidewind.
         levels:
           - name: Rookie
             svg:
@@ -431,7 +452,8 @@ holes:
       guides:
       - name: Yellow Path
         text: >
-          Help Wanted
+          This is the recommended way for most cases. The risk is putting it in the water if you
+          misjudge a headwind or tailwind. 1 bar of backspin is the normal adjustment.
         levels:
           - name: Rookie
             svg:
@@ -450,7 +472,10 @@ holes:
               <circle cx="113" cy="217" r="6" fill="yellow" class="guide-point" data-guide-segment="1" />
       - name: White Path
         text: >
-          Help Wanted
+          This is an approach mostly used from the second tee. Use a Quarterback or a
+          <strong>MAXED</strong> Rocket to get some really good backspin. Use almost max backspin
+          to take the water out of play. Keep in mind that max backspin can result in some much
+          different bounces than normal.
         levels:
           - name: Rookie
             svg:
@@ -500,7 +525,10 @@ holes:
       guides:
       - name: White Path
         text: >
-          Help Wanted
+          This may seem like an easy Par 4 but demands all the backspin you can get. Change your
+          bag so you have all clubs with a lot of backspin. Don't forget your rough iron. The pin
+          sits on the front edge of the green so you won't be able to chip it in with less than
+          8 bars of backspin. Stay away from the water!
         levels:
           - name: Rookie
             svg:
@@ -551,7 +579,12 @@ holes:
       guides:
       - name: White Path
         text: >
-          Help Wanted
+          A really hard Par 5 which leaves no room for mistakes. Use plenty of curl on your drive
+          combined with all the left spin your ball can give. <strong>DON'T</strong> use too much
+          topspin which can cause your ball to roll through the fairway and into the rough or
+          bunker. Second shot requires a wood with length. Bounce your ball over the rough patch
+          to make it stay on the green. Don't go for the albatross. Rather, put yourself safely on
+          the green for an eagle instead of bringing the bunker on the left into play.
         levels:
           - name: Rookie
             svg:
@@ -614,7 +647,12 @@ holes:
       guides:
       - name: White Path
         text: >
-          Help Wanted
+          This is a <strong><em>very long</em></strong> Par 5 which will require you to bring your
+          A-game. Put your drive up as close to the end of the first fairway as possible. You'll
+          still be left with a hard shot to reach the green in two. If you have the wind, you can
+          bounce your second shot over the bunker or you can land your ball directly in the rough
+          with a lot of topspin and let it release onto the green. Either way is a difficult shot
+          to pull off.
         levels:
           - name: Rookie
             svg:
