@@ -65,3 +65,11 @@ blockquote {
     color: #777;
   }
 }
+
+::selection {
+  background: #0095ff; /* WebKit/Blink Browsers */
+}
+
+::-moz-selection {
+  background: #0095ff; /* Gecko Browsers */
+}
