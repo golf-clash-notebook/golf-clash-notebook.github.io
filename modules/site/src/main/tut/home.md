@@ -42,15 +42,9 @@ position: 0
 </div>
 
 <div class="row">
-  <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 col-sm-12">
-    <hr>
-  </div>
-</div>
 
-<div class="row">
-
-  <div class="col-xs-12" data-mh="feature-card">
-    <h2 class="feature-title text-center text-semi-muted gcn-page-header">Features</h2>
+  <div class="col-xs-12">
+    <hr class="hr-text text-large" data-content="Features">
   </div>
 
   <div class="col-lg-3 col-lg-offset-0 col-md-4 col-md-offset-2 col-sm-5 col-sm-offset-1 col-xs-10 col-xs-offset-1 col-flex" data-mh="feature-card">

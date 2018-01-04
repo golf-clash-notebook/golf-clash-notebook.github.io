@@ -1,6 +1,8 @@
+level: 3
 name: Rookie 3
-bonus: 30
+perks: 30
 promoted: 25
+relegated: 20
 prizes:
   - places: [1]
     chest:

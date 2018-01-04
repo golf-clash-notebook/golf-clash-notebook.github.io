@@ -1,0 +1,32 @@
+
+{% capture placesString %}
+
+  {% assign numPlaces = include.prize.places | size %}
+
+  {% if numPlaces == undefined or numPlaces < 1 %}
+  {% elsif numPlaces == 1 %}
+    {% assign place = include.prize.places | first %}
+    {% capture suffix %}
+      {% include divisions/place-suffix.liquid place=place %}
+    {% endcapture %}
+    {{ place | strip }}{{ suffix | strip }}
+  {% else %}
+    {% assign place0 = include.prize.places | first %}
+    {% assign place1 = include.prize.places | last %}
+
+    {% capture suffix0 %}
+      {% include divisions/place-suffix.liquid place=place0 %}
+    {% endcapture %}
+    {% capture suffix1 %}
+      {% include divisions/place-suffix.liquid place=place1 %}
+    {% endcapture %}
+
+    {{ place0 | strip }}{{ suffix0 | strip }} - {{ place1 | strip }}{{ suffix1 | strip }}
+  {% endif %}
+{% endcapture %}
+
+<div>
+  <h4><strong>{{ placesString | strip }}</strong></h4>
+  <img src="/img/golfclash/chests/{{ include.prize.chest.type }}-thumb.png" title="{{ include.prize.chest.type }} Chest">
+  <h5 class="text-small text-semi-muted">Tour {{ include.prize.chest.tour }}</h5>
+</div>

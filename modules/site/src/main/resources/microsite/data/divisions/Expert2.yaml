@@ -1,6 +1,8 @@
+level: 8
 name: Expert 2
-bonus: 80
+perks: 80
 promoted: 15
+relegated: 20
 prizes:
   - places: [1]
     chest:

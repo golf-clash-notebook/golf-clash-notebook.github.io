@@ -1,0 +1,66 @@
+
+{% assign divisionPath = include.division.name | remove: " " %}
+
+<div class="panel panel-default gcn-card" data-mh="division-card">
+  <div class="panel-heading">
+    <div class="thumbnail thumbnail-centered thumbnail-plain">
+      <img class="img-responsive" src="/img/golfclash/divisions/{{ divisionPath }}.png" title="{{ include.division.name }}" alt="{{ include.division.name }}">
+    </div>
+    <h4 class="title"></h4>
+  </div>
+  <div class="panel-body">
+    <div class="row">
+      <div class="col-xs-4" data-mh="division-stats-card">
+        <div class="text-center">
+          <img class="img-responsive center-block" src="/img/golfclash/divisions/Perks-thumb.png">
+          <h4><strong>{{ include.division.perks }}%</strong></h4>
+        </div>
+      </div>
+      <div class="col-xs-4" data-mh="division-stats-card">
+        <div class="text-center">
+          <img class="img-responsive center-block" src="/img/golfclash/other/Promoted-thumb.png">
+          {% if include.division.promoted != undefined and include.division.promoted != empty %}
+            <h4><strong>{{ include.division.promoted }}</strong></h4>
+          {% else %}
+            <h4><strong>???</strong></h4>
+          {% endif %}
+        </div>
+      </div>
+      <div class="col-xs-4" data-mh="division-stats-card">
+        <div class="text-center">
+          <img class="img-responsive center-block" src="/img/golfclash/other/Relegated-thumb.png">
+          {% if include.division.relegated != undefined and include.division.relegated != empty %}
+            <h4><strong>{{ include.division.relegated }}</strong></h4>
+          {% else %}
+            <h4><strong>???</strong></h4>
+          {% endif %}
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="row margin-0">
+
+    {% if include.division.prizes != undefined and include.division.prizes != empty %}
+      <div class="col-xs-12 text-center">
+        <hr class="hr-text margin-0" data-content="Prizes">
+      </div>
+
+      {% assign prizesMod2 = include.division.prizes | size | modulo: 2 %}
+
+      {% for prize in include.division.prizes %}
+
+        {% capture columnClasses %}
+          {% if prizesMod2 == 1 and forloop.last %}
+            col-xs-6 col-xs-offset-3
+          {% else %}
+            col-xs-6
+          {% endif %}
+        {% endcapture %}
+
+        <div class="{{ columnClasses | strip }} text-center">
+          {% include divisions/prize-template.liquid prize=prize %}
+        </div>
+      {% endfor %}
+    {% endif %}
+  </div>
+</div>

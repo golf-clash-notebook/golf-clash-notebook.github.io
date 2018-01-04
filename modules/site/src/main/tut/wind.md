@@ -3,7 +3,7 @@ layout: gcn-layout
 title:  "Wind"
 section: "wind"
 permalink: /wind/
-position: 60
+position: 65
 ---
 
 <div class="row">
