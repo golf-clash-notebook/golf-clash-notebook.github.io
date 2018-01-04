@@ -7,11 +7,10 @@ permalink: /clubs/drivers/
 
 {% include clubs/category-template.liquid categoryName="Drivers" clubs=site.data.clubs.drivers %}
 
-<hr>
+<hr class="hr-text" data-content="Resources">
 
 <div class="row">
   <div class="col-md-6 col-md-offset-3 col-sm-12">
-    <p class="lead text-center">Resources</p>
     <div class="list-group">
       <li class="list-group-item gcn-resource text-small">
         <a href="https://youtu.be/qzj-W6EOWbk" target="_blank" rel="noopener">

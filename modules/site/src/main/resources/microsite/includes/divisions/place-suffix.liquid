@@ -1,0 +1,18 @@
+
+{% assign lastDigit = include.place | slice: -1 %}
+
+{% capture placeSuffix %}
+  {% if include.place >= 10 and include.place <= 20 %}
+    th
+  {% elsif lastDigit == '1' %}
+    st
+  {% elsif lastDigit == '2' %}
+    nd
+  {% elsif lastDigit == '3' %}
+    rd
+  {% else %}
+    th
+  {% endif %}
+{% endcapture %}
+
+{{ placeSuffix | strip }}

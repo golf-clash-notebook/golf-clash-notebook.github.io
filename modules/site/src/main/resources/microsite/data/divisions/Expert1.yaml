@@ -1,6 +1,8 @@
+level: 7
 name: Expert 1
-bonus: 70
+perks: 70
 promoted: 15
+relegated: 20
 prizes:
   - places: [1]
     chest:

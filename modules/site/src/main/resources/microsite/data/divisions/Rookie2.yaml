@@ -1,6 +1,8 @@
+level: 2
 name: Rookie 2
-bonus: 20
+perks: 20
 promoted: 25
+relegated: 15
 prizes:
   - places: [1]
     chest:

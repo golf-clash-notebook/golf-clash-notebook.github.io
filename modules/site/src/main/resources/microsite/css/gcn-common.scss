@@ -135,6 +135,16 @@
           > i {
             margin: 6px 0;
           }
+
+          &.thumbnail-centered {
+            left: 50%;
+            transform: translate(-50%, -50%);
+          }
+
+          &.thumbnail-plain {
+            background-color: transparent;
+            border: none;
+          }
         }
 
         .title {
@@ -187,6 +197,43 @@
     color: #7b7b7e;
     display: inline-block;
     padding: 10px 0;
+  }
+}
+
+/** HR with text in the middle **/
+.hr-text {
+  line-height: 1em;
+  position: relative;
+  outline: 0;
+  border: 0;
+  color: black;
+  text-align: center;
+  height: 1.5em;
+  opacity: .5;
+
+  &:before {
+    content: '';
+    // use the linear-gradient for the fading effect
+    // use a solid background color for a solid bar
+    background: linear-gradient(to right, transparent, #818078, transparent);
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 100%;
+    height: 1px;
+  }
+
+  &:after {
+    content: attr(data-content);
+    position: relative;
+    display: inline-block;
+    color: black;
+
+    padding: 0 .5em;
+    line-height: 1.5em;
+    // this is really the only tricky part, you need to specify the background color of the container element...
+    color: #818078;
+    background-color: #fcfcfa;
   }
 }
 
@@ -263,6 +310,10 @@
   font-weight: 900;
 }
 
+.pad-0 {
+  padding: 0px;
+}
+
 .pad-4 {
   padding: 4px;
 }
@@ -285,6 +336,10 @@
 
 .pad-32 {
   padding: 32px;
+}
+
+.margin-0 {
+  margin: 0px;
 }
 
 .margin-4 {
