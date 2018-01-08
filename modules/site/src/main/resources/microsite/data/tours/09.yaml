@@ -9,3 +9,8 @@ description: >
 resources:
   - title: Golf Clash Tommy - Tour 9 Guides
     url: https://www.youtube.com/watch?v=HsHv0ff1XLw&list=PL8bCSk5yWdFJ98JEODtzy1dQSRGohp3u6
+entry-fee: 1000000
+max-trophies: 900
+trophies-per-win: 25
+trophies-per-loss: 25
+three-stake-special-cost: 1682

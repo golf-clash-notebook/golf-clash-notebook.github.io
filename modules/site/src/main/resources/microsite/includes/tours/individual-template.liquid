@@ -7,9 +7,89 @@ section: "tours"
 {% assign numCourses = page.courses | size %}
 {% assign numClubs = page.clubs | size %}
 
+{% assign minimumGamesToMax = page.max-trophies | plus: 0.0 | divided_by: page.trophies-per-win | ceil %}
+{% assign trophyDifferential = page.trophies-per-win | minus: page.trophies-per-loss %}
+
+{% capture trophyDifferentialPrefix %}
+  {% if trophyDifferential >= 0 %}
+    +
+  {% endif %}
+{% endcapture %}
+
+{% capture trophyDifferentialClass %}
+  {% if trophyDifferential < 0 %}
+    text-danger
+  {% elsif trophyDifferential > 0 %}
+    text-success
+  {% endif %}
+{% endcapture %}
+
+{% capture tourKeys %}
+  {% for tag in site.data.tours %}
+    {{ tag[0] }}
+  {% endfor %}
+{% endcapture %}
+
+{% assign sortedKeys = tourKeys | split: ' ' | sort %}
+
+{% assign maxTourKey = sortedKeys | last %}
+{% assign maxTour = site.data.tours[maxTourKey].number %}
+{% assign previousTour = page.number | minus: 1 %}
+{% assign nextTour = page.number | plus: 1 %}
+
+{% capture previousTourBtnClass %}
+  {% if previousTour <= 0 %}
+    invisible
+  {% endif %}
+{% endcapture %}
+
+{% capture nextTourBtnClass %}
+  {% if nextTour <= 0 %}
+    invisible
+  {% endif %}
+{% endcapture %}
+
 <div class="row">
   <div class="col-md-6 col-md-offset-3 col-sm-12">
-    <p class="lead text-center">Tour {{ page.number }} - {{ page.tour-name }}</p>
+    <div class="lead text-center"> Tour {{ page.number }} - {{ page.tour-name }}</div>
+
+    <div class="tour-stats-panel">
+      <div class="row">
+        <div class="col-md-4 col-xs-6 text-center">
+          <div class="text-large font-600">{{ page.entry-fee }}</div>
+          <div class="text-small text-semi-muted">Entry Fee</div>
+        </div>
+        <div class="col-md-4 col-xs-6 text-center">
+          <div class="text-large font-600">{{ page.max-trophies }}</div>
+          <div class="text-small text-semi-muted">Max Trophies</div>
+        </div>
+        <div class="col-md-4 col-xs-6 text-center">
+          {% if page.three-stake-special-cost > 0 %}
+            <div class="text-large font-600"><img src="/img/golfclash/other/Gem-thumb.png"> {{ page.three-stake-special-cost }}</div>
+          {% else %}
+            <div class="text-large font-600">???</div>
+          {% endif %}
+          <div class="text-small text-semi-muted">3 Stake Special</div>
+        </div>
+        <div class="col-md-4 col-xs-6 text-center">
+          <div class="text-large font-600">{{ page.trophies-per-win }}</div>
+          <div class="text-small text-semi-muted">Trophies / Win</div>
+        </div>
+        <div class="col-md-4 col-xs-6 text-center">
+          <div class="text-large font-600">{{ page.trophies-per-loss }}</div>
+          <div class="text-small text-semi-muted">Trophies / Loss</div>
+        </div>
+        <div class="col-md-4 col-xs-6 text-center">
+          <div class="text-large font-600 {{ trophyDifferentialClass}}">{{ trophyDifferentialPrefix | strip }}{{ trophyDifferential }}</div>
+          <div class="text-small text-semi-muted">Trophy Differential</div>
+        </div>
+        <div class="col-md-4 col-md-offset-4 col-xs-6 col-xs-offset-3 text-center">
+          <div class="text-large font-600">{{ minimumGamesToMax }}</div>
+          <div class="text-small text-semi-muted">Minimum Games</div>
+        </div>
+      </div>
+    </div>
+
     {% if numCourses > 0 %}
       <div class="pull-left text-left">
         <div class="tour-courses">
@@ -49,6 +129,20 @@ section: "tours"
         {{ page.description }}
       </p>
     {% endif %}
+    <div>
+      {% if previousTour > 0 %}
+        <a class="btn btn-default pull-left btn-tour-pagination {{ previousTourBtnClass | strip }}" href="/tours/{{ previousTour }}" role="button">
+          <i class="fas fa-angle-left fa-lg"></i>
+          <span class="btn-label text-small">Tour {{ previousTour }}</span>
+        </a>
+      {% endif %}
+      {% if nextTour <= maxTour %}
+        <a class="btn btn-default pull-right btn-tour-pagination {{ nextTourBtnClass | strip }}"" href="/tours/{{ nextTour }}" role="button">
+          <span class="btn-label text-small">Tour {{ nextTour }}<span>
+          <i class="fas fa-angle-right fa-lg"></i>
+        </a>
+      {% endif %}
+    </div>
   </div>
 </div>
 

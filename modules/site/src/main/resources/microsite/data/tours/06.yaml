@@ -22,3 +22,8 @@ resources:
     url: https://youtu.be/sgI7zfH7k1g
   - title: Golf Clash Tommy - Road To Glory - Episode 9
     url: https://youtu.be/bEjuNogGD0Q
+entry-fee: 30000
+max-trophies: 500
+trophies-per-win: 18
+trophies-per-loss: 13
+three-stake-special-cost: 464
