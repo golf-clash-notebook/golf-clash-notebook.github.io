@@ -1,6 +1,7 @@
 course-name: Winter Links
 holes:
-  - course: Winter Links
+  - id: 54ae0c59-8518-40ca-8d30-0580f1403baf
+    course: Winter Links
     number: 1
     par: 3
     description: >
@@ -98,7 +99,8 @@ holes:
               <path d="M 290 290 L 177 127" stroke="white" fill="transparent" stroke-width="3"/>
               <image xlink:href="/img/golfclash/courses/WinterLinks/annotations/1-Green.png" x="215" y="215" width="150" height="150" />
             </g>
-  - course: Winter Links
+  - id: 6278b891-b740-405d-b50e-fb2d7d51f701
+    course: Winter Links
     number: 2
     par: 4
     description: >
@@ -228,7 +230,8 @@ holes:
               <path d="M 315 225 L 200 114" stroke="white" fill="transparent" stroke-width="3"/>
               <image xlink:href="/img/golfclash/courses/WinterLinks/annotations/2-Green.png" x="250" y="150" width="150" height="150" />
             </g>
-  - course: Winter Links
+  - id: e94dfbeb-f8d3-4a38-817b-50dd90f499f6
+    course: Winter Links
     number: 3
     par: 4
     description: >
@@ -322,7 +325,8 @@ holes:
               <path d="M 87 262 L 283 164" stroke="white" fill="transparent" stroke-width="3"/>
               <image xlink:href="/img/golfclash/courses/WinterLinks/annotations/3-Green.png" x="0" y="175" width="175" height="175" />
             </g>
-  - course: Winter Links
+  - id: 25ee67c7-f844-4d12-ae35-0876c69211c5
+    course: Winter Links
     number: 4
     par: 3
     description: >
@@ -379,7 +383,8 @@ holes:
               <path d="M 87 87 L 244 146" stroke="white" fill="transparent" stroke-width="3"/>
               <image xlink:href="/img/golfclash/courses/WinterLinks/annotations/4-Green.png" x="0" y="0" width="175" height="175" />
             </g>
-  - course: Winter Links
+  - id: 7a0b650d-6339-4c34-a391-beaf9b5874d5
+    course: Winter Links
     number: 5
     par: 5
     description: >
@@ -468,7 +473,8 @@ holes:
               <path d="M 100 200 L 356 119" stroke="white" fill="transparent" stroke-width="3"/>
               <image xlink:href="/img/golfclash/courses/WinterLinks/annotations/5-Green.png" x="0" y="100" width="200" height="200" />
             </g>
-  - course: Winter Links
+  - id: c8bfcf6b-dd84-4db4-827f-694839f7ff60
+    course: Winter Links
     number: 6
     par: 4
     description: >
@@ -551,7 +557,8 @@ holes:
               <path d="M 287 237 L 170 110" stroke="white" fill="transparent" stroke-width="3"/>
               <image xlink:href="/img/golfclash/courses/WinterLinks/annotations/6-Green.png" x="200" y="150" width="175" height="175" />
             </g>
-  - course: Winter Links
+  - id: 6de9d41d-f723-4a64-b279-c021634ed8e6
+    course: Winter Links
     number: 7
     par: 5
     description: >
@@ -660,7 +667,8 @@ holes:
               <path d="M 87 122 L 335 103" stroke="white" fill="transparent" stroke-width="3"/>
               <image xlink:href="/img/golfclash/courses/WinterLinks/annotations/7-Green.png" x="0" y="45" width="175" height="175" />
             </g>
-  - course: Winter Links
+  - id: 195308db-3b43-4161-b2b9-d517669b17c4
+    course: Winter Links
     number: 8
     par: 3
     description: >
@@ -738,7 +746,8 @@ holes:
               <path d="M 75 75 L 210 150" stroke="white" fill="transparent" stroke-width="3"/>
               <image xlink:href="/img/golfclash/courses/WinterLinks/annotations/8-Green.png" x="0" y="0" width="150" height="150" />
             </g>
-  - course: Winter Links
+  - id: c8617a92-c408-4bb8-9fd1-342d5fdcaded
+    course: Winter Links
     number: 9
     par: 5
     description: >

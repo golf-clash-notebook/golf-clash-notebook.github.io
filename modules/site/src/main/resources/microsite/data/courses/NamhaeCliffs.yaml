@@ -1,6 +1,7 @@
 course-name: Namhae Cliffs
 holes:
-  - course: Namhae Cliffs
+  - id: 33424886-13ab-48b2-9813-5d9b336d02c5
+    course: Namhae Cliffs
     number: 1
     par: 3
     description: >
@@ -67,7 +68,8 @@ holes:
               <circle cx="147" cy="691" r="6" fill="white" class="guide-point" data-guide-segment="0" />
               <circle cx="200" cy="186" r="6" fill="white" class="guide-point" data-guide-segment="1" />
               <circle cx="205" cy="133" r="6" fill="white" class="guide-point" data-guide-segment="2" />
-  - course: Namhae Cliffs
+  - id: 1b8f133e-bd1e-45e7-994c-c04eccfec9fe
+    course: Namhae Cliffs
     number: 2
     par: 4
     description: >
@@ -149,7 +151,8 @@ holes:
               <circle cx="170" cy="777" r="6" fill="white" class="guide-point" data-guide-segment="0" />
               <circle cx="310" cy="216" r="6" fill="white" class="guide-point" data-guide-segment="1" />
               <circle cx="204" cy="128" r="6" fill="white" class="guide-point" data-guide-segment="2" />
-  - course: Namhae Cliffs
+  - id: e17fa3e6-d1a1-4409-808e-6586d953c82b
+    course: Namhae Cliffs
     number: 3
     par: 5
     description: >
@@ -250,7 +253,8 @@ holes:
               <circle cx="450" cy="431" r="6" fill="yellow" class="guide-point" data-guide-segment="1" />
               <circle cx="483" cy="274" r="6" fill="yellow" class="guide-point" data-guide-segment="2" />
               <circle cx="479" cy="144" r="6" fill="yellow" class="guide-point" data-guide-segment="3" />
-  - course: Namhae Cliffs
+  - id: b36bd13b-7845-4963-bd11-08c127f504fb
+    course: Namhae Cliffs
     number: 4
     par: 4
     description: >
@@ -339,7 +343,8 @@ holes:
               <circle cx="239" cy="447" r="6" fill="yellow" class="guide-point" data-guide-segment="1" />
               <circle cx="220" cy="373" r="6" fill="yellow" class="guide-point" data-guide-segment="2" />
               <circle cx="226" cy="143" r="6" fill="yellow" class="guide-point" data-guide-segment="3" />
-  - course: Namhae Cliffs
+  - id: ddf6d9bc-b6a0-48a0-9f4d-64d4c31de579
+    course: Namhae Cliffs
     number: 5
     par: 3
     description: >
@@ -394,7 +399,8 @@ holes:
               <circle cx="148" cy="710" r="6" fill="white" class="guide-point" data-guide-segment="0" />
               <circle cx="167" cy="248" r="6" fill="white" class="guide-point" data-guide-segment="1" />
               <circle cx="170" cy="184" r="6" fill="white" class="guide-point" data-guide-segment="2" />
-  - course: Namhae Cliffs
+  - id: 2c2d5d55-e1b7-4637-9549-985266ed7f76
+    course: Namhae Cliffs
     number: 6
     par: 3
     description: >
@@ -443,7 +449,8 @@ holes:
               <path d="M 144 719 L 203 216" stroke="white" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="0" />
               <circle cx="144" cy="719" r="6" fill="white" class="guide-point" data-guide-segment="0" />
               <circle cx="203" cy="216" r="6" fill="white" class="guide-point" data-guide-segment="1" />
-  - course: Namhae Cliffs
+  - id: 305e76c6-2b29-4968-a9e8-524ed3fa0e1a
+    course: Namhae Cliffs
     number: 7
     par: 4
     description: >
@@ -503,7 +510,8 @@ holes:
               <circle cx="259" cy="229" r="6" fill="white" class="guide-point" data-guide-segment="1" />
               <circle cx="255" cy="131" r="6" fill="white" class="guide-point" data-guide-segment="2" />
               <circle cx="140" cy="105" r="6" fill="white" class="guide-point" data-guide-segment="3" />
-  - course: Namhae Cliffs
+  - id: 99622020-58b3-46ee-b6fe-4c434c789964
+    course: Namhae Cliffs
     number: 8
     par: 5
     description: >
@@ -597,7 +605,8 @@ holes:
               <circle cx="238" cy="322" r="6" fill="yellow" class="guide-point" data-guide-segment="1" />
               <circle cx="148" cy="118" r="6" fill="yellow" class="guide-point" data-guide-segment="2" />
               <circle cx="122" cy="86" r="6" fill="yellow" class="guide-point" data-guide-segment="3" />
-  - course: Namhae Cliffs
+  - id: 1aa2046e-9086-427e-afca-cd5c959bd5d0
+    course: Namhae Cliffs
     number: 9
     par: 5
     description: >

@@ -16,11 +16,11 @@ position: 55
     <thead>
       <tr>
         <th class="text-center">Tour</th>
-        <th class="text-center"><img src="/img/golfclash/chests/Wooden-thumb.png" title="Wooden Chest"></th>
-        <th class="text-center"><img src="/img/golfclash/chests/Silver-thumb.png" title="Silver Chest"></th>
-        <th class="text-center"><img src="/img/golfclash/chests/Gold-thumb.png" title="Gold Chest"></th>
-        <th class="text-center"><img src="/img/golfclash/chests/Platinum-thumb.png" title="Platinum Chest"></th>
-        <th class="text-center"><img src="/img/golfclash/chests/King-thumb.png" title="King Chest"></th>
+        <th class="text-center"><img src="/img/golfclash/chests/Wooden-64x39.png" title="Wooden Chest"></th>
+        <th class="text-center"><img src="/img/golfclash/chests/Silver-64x39.png" title="Silver Chest"></th>
+        <th class="text-center"><img src="/img/golfclash/chests/Gold-64x39.png" title="Gold Chest"></th>
+        <th class="text-center"><img src="/img/golfclash/chests/Platinum-64x39.png" title="Platinum Chest"></th>
+        <th class="text-center"><img src="/img/golfclash/chests/King-64x39.png" title="King Chest"></th>
       </tr>
     </thead>
     <tbody>
@@ -46,9 +46,9 @@ position: 55
     <tfoot>
       <tr>
         <th class="text-right" colspan="6">
-          <img class="pad-4" src="/img/golfclash/chests/Epic-thumb.png"> Guaranteed Epics
-          <img class="pad-4" src="/img/golfclash/chests/Rare-thumb.png"> Guaranteed Rares
-          <img class="pad-4" src="/img/golfclash/chests/Common-thumb.png"> Guaranteed Total
+          <img class="pad-4" src="/img/golfclash/chests/Epic-16x12.png"> Guaranteed Epics
+          <img class="pad-4" src="/img/golfclash/chests/Rare-16x12.png"> Guaranteed Rares
+          <img class="pad-4" src="/img/golfclash/chests/Common-16x12.png"> Guaranteed Total
         </th>
       </tr>
     </tfoot>

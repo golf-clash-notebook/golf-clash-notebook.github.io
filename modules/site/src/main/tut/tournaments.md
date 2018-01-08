@@ -39,7 +39,7 @@ position: 10
 
       <div class="{{ columnClasses | strip }} text-center pad-16">
         <a href="/tournaments/{{ key }}/">
-          <img class="img-responsive img-center" src="/img/golfclash/tournaments/titles/{{ key }}.png">
+          <img class="img-responsive img-center" src="/img/golfclash/tournaments/titles/{{ key }}-550x200.png">
         </a>
       </div>
 

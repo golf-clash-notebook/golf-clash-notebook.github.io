@@ -1,6 +1,7 @@
 course-name: Vineyard Acres
 holes:
-  - course: Vineyard Acres
+  - id: f97340e9-7d74-41c8-bd92-64785b42eb0f
+    course: Vineyard Acres
     number: 1
     par: 3
     description: >
@@ -67,7 +68,8 @@ holes:
               <path d="M 153 694 C 106 375 106 375 163 205" stroke="white" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="0" />
               <circle cx="153" cy="694" r="6" fill="white" class="guide-point" data-guide-segment="0" />
               <circle cx="163" cy="205" r="6" fill="white" class="guide-point" data-guide-segment="1" />
-  - course: Vineyard Acres
+  - id: 4c95334d-0695-4d41-9390-ce3b1dc8845f
+    course: Vineyard Acres
     number: 2
     par: 4
     description: >
@@ -147,7 +149,8 @@ holes:
               <circle cx="189" cy="810" r="6" fill="white" class="guide-point" data-guide-segment="0" />
               <circle cx="202" cy="267" r="6" fill="white" class="guide-point" data-guide-segment="1" />
               <circle cx="107" cy="116" r="6" fill="white" class="guide-point" data-guide-segment="2" />
-  - course: Vineyard Acres
+  - id: 16adf86e-de5c-40c4-b78d-dc0a947f044b
+    course: Vineyard Acres
     number: 3
     par: 4
     description: >
@@ -226,7 +229,8 @@ holes:
               <circle cx="243" cy="813" r="6" fill="white" class="guide-point" data-guide-segment="0" />
               <circle cx="197" cy="250" r="6" fill="white" class="guide-point" data-guide-segment="1" />
               <circle cx="241" cy="128" r="6" fill="white" class="guide-point" data-guide-segment="2" />
-  - course: Vineyard Acres
+  - id: 49e3d49a-1647-4347-8f75-3e7fbb32d80c
+    course: Vineyard Acres
     number: 4
     par: 5
     description: >
@@ -313,7 +317,8 @@ holes:
               <circle cx="136" cy="823" r="6" fill="white" class="guide-point" data-guide-segment="0" />
               <circle cx="270" cy="264" r="6" fill="white" class="guide-point" data-guide-segment="1" />
               <circle cx="313" cy="87" r="6" fill="white" class="guide-point" data-guide-segment="2" />
-  - course: Vineyard Acres
+  - id: 7326d6ba-9310-4eaa-94c8-775412515e23
+    course: Vineyard Acres
     number: 5
     par: 5
     description: >
@@ -406,7 +411,8 @@ holes:
               <circle cx="347" cy="501" r="6" fill="white" class="guide-point" data-guide-segment="1" />
               <circle cx="175" cy="148" r="6" fill="white" class="guide-point" data-guide-segment="2" />
               <circle cx="126" cy="113" r="6" fill="white" class="guide-point" data-guide-segment="3" />
-  - course: Vineyard Acres
+  - id: 944bdfca-0abc-41a5-ac97-7e38291f7893
+    course: Vineyard Acres
     number: 6
     par: 3
     description: >
@@ -457,7 +463,8 @@ holes:
               <path d="M 162 777 L 143 207" stroke="black" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="0" />
               <circle cx="162" cy="777" r="6" fill="black" class="guide-point" data-guide-segment="0" />
               <circle cx="143" cy="207" r="6" fill="black" class="guide-point" data-guide-segment="1" />
-  - course: Vineyard Acres
+  - id: 726b08c9-a742-45bb-8050-62c552395bbd
+    course: Vineyard Acres
     number: 7
     par: 4
     description: >
@@ -514,7 +521,8 @@ holes:
               <circle cx="396" cy="838" r="6" fill="black" class="guide-point" data-guide-segment="0" />
               <circle cx="126" cy="287" r="6" fill="black" class="guide-point" data-guide-segment="1" />
               <circle cx="286" cy="103" r="6" fill="black" class="guide-point" data-guide-segment="2" />
-  - course: Vineyard Acres
+  - id: acb911f4-c603-4715-b11c-f848ee34bbaf
+    course: Vineyard Acres
     number: 8
     par: 3
     description: >
@@ -561,7 +569,8 @@ holes:
               <path d="M 354 803 L 356 308" stroke="black" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="0" />
               <circle cx="354" cy="803" r="6" fill="black" class="guide-point" data-guide-segment="0" />
               <circle cx="356" cy="308" r="6" fill="black" class="guide-point" data-guide-segment="1" />
-  - course: Vineyard Acres
+  - id: c2bbf390-d162-4a06-9d9b-5d0e7f5b64ef
+    course: Vineyard Acres
     number: 9
     par: 5
     description: >

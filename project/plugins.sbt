@@ -2,8 +2,8 @@
 logLevel := Level.Warn
 
 addSbtPlugin("com.geirsson"      % "sbt-scalafmt"   % "1.4.0")
-addSbtPlugin("com.timushev.sbt"  % "sbt-updates"    % "0.3.3")
+addSbtPlugin("com.timushev.sbt"  % "sbt-updates"    % "0.3.4")
 addSbtPlugin("de.heikoseeberger" % "sbt-header"     % "4.1.0")
 addSbtPlugin("com.eed3si9n"      % "sbt-unidoc"     % "0.4.1")
-addSbtPlugin("com.47deg"         % "sbt-microsites" % "0.7.14")
-addSbtPlugin("org.scala-js"      % "sbt-scalajs"    % "0.6.21")
+addSbtPlugin("com.47deg"         % "sbt-microsites" % "0.7.15")
+addSbtPlugin("org.scala-js"      % "sbt-scalajs"    % "0.6.22")

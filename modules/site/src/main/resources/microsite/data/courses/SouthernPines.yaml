@@ -1,6 +1,7 @@
 course-name: Southern Pines
 holes:
-  - course: Southern Pines
+  - id: 35b5f6cf-916c-404d-9a57-aeb2ec0a693c
+    course: Southern Pines
     number: 1
     par: 4
     description: >
@@ -35,7 +36,8 @@ holes:
         # url: https://youtu.be/wFJOigxa9JA
       # - title: Golf Clash Tommy - Pro / Expert Guide
         # url: https://youtu.be/-UH9ZYMr9a8
-  - course: Southern Pines
+  - id: da61ce03-5e0f-47ed-844c-f5a98c55f846
+    course: Southern Pines
     number: 2
     par: 3
     description: >
@@ -113,7 +115,8 @@ holes:
               <circle cx="219" cy="898" r="6" fill="white" class="guide-point" data-guide-segment="0" />
               <circle cx="285" cy="315" r="6" fill="white" class="guide-point" data-guide-segment="1" />
               <circle cx="279" cy="210" r="6" fill="white" class="guide-point" data-guide-segment="2" />
-  - course: Southern Pines
+  - id: 6981cb76-96b7-4704-bf2d-9cff4254681d
+    course: Southern Pines
     number: 3
     par: 4
     description: >
@@ -149,7 +152,8 @@ holes:
 #        url: https://youtu.be/kE1TNCK1_WM
 #      - title: Golf Clash Tommy - Pro / Expert Guide
 #        url: https://youtu.be/V3Rt5IjcSEA
-  - course: Southern Pines
+  - id: a0d9b22c-70e6-43c4-8022-27387295e9c1
+    course: Southern Pines
     number: 4
     par: 5
     description: >
@@ -282,13 +286,17 @@ holes:
               <circle cx="495" cy="459" r="6" fill="yellow" class="guide-point" data-guide-segment="1" />
               <circle cx="505" cy="295" r="6" fill="yellow" class="guide-point" data-guide-segment="2" />
               <circle cx="375" cy="150" r="6" fill="yellow" class="guide-point" data-guide-segment="3" />
-  - course: Southern Pines
+  - id: b52a8bb1-2cb2-4de9-8e82-a02d180d7d54
+    course: Southern Pines
     number: 5
     par: 5
+    description: >
+      Help Wanted
     resources:
       - title: Golf Clash Tommy - Rookie Guide
         url: https://youtu.be/VOJ1bqfiovk
-  - course: Southern Pines
+  - id: 8b2a0801-dd19-4d25-a7e1-d7503c8fc7ae
+    course: Southern Pines
     number: 6
     par: 3
     description: >
@@ -309,7 +317,8 @@ holes:
         url: https://youtu.be/ugbECbn2pYs
       - title: Golf Clash Tommy - Pro / Expert Guide
         url: https://youtu.be/0kznKnNiBoY
-  - course: Southern Pines
+  - id: c6e85c42-f3f2-4baa-ab54-65b2a17eea75
+    course: Southern Pines
     number: 7
     par: 4
     description: >
@@ -423,7 +432,8 @@ holes:
               <circle cx="417" cy="957" r="6" fill="yellow" class="guide-point" data-guide-segment="0" />
               <circle cx="414" cy="428" r="6" fill="yellow" class="guide-point" data-guide-segment="1" />
               <circle cx="452" cy="155" r="6" fill="yellow" class="guide-point" data-guide-segment="2" />
-  - course: Southern Pines
+  - id: 7d5e9469-77d3-4e9e-a302-9e96ed8873d5
+    course: Southern Pines
     number: 8
     par: 5
     description: >
@@ -445,7 +455,8 @@ holes:
         url: https://youtu.be/1xoJF0osa8Q
       - title: Golf Clash Tommy - Pro / Expert Guide
         url: https://youtu.be/soYVAZ3ybqk
-  - course: Southern Pines
+  - id: 951df375-d0d3-495e-95c0-d9c0ad97aa7d
+    course: Southern Pines
     number: 9
     par: 3
     description: >

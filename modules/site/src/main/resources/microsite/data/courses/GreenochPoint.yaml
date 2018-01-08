@@ -1,6 +1,7 @@
 course-name: Greenoch Point
 holes:
-  - course: Greenoch Point
+  - id: 747aa53b-baa8-4b00-9062-124a689bda07
+    course: Greenoch Point
     number: 1
     par: 3
     description: >
@@ -88,7 +89,8 @@ holes:
               <path d="M 173 690 C 107 329 107 329 154 186" stroke="yellow" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="0" />
               <circle cx="173" cy="690" r="6" fill="yellow" class="guide-point" data-guide-segment="0" />
               <circle cx="154" cy="186" r="6" fill="yellow" class="guide-point" data-guide-segment="1" />
-  - course: Greenoch Point
+  - id: 92955dbf-72aa-4d34-af81-fc7c01635e83
+    course: Greenoch Point
     number: 2
     par: 4
     description: >
@@ -172,7 +174,8 @@ holes:
               <circle cx="282" cy="782" r="6" fill="white" class="guide-point" data-guide-segment="0" />
               <circle cx="229" cy="270" r="6" fill="white" class="guide-point" data-guide-segment="1" />
               <circle cx="300" cy="160" r="6" fill="white" class="guide-point" data-guide-segment="2" />
-  - course: Greenoch Point
+  - id: 41fae3d6-5eb6-415f-8bff-1ad1d00463b4
+    course: Greenoch Point
     number: 3
     par: 3
     description: >
@@ -240,7 +243,8 @@ holes:
               <path d="M 252 755 C 311 382 311 382 286 237" stroke="white" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="0" />
               <circle cx="252" cy="755" r="6" fill="white" class="guide-point" data-guide-segment="0" />
               <circle cx="286" cy="237" r="6" fill="white" class="guide-point" data-guide-segment="1" />
-  - course: Greenoch Point
+  - id: 6ea3d593-3acb-4552-821b-b784c19e0672
+    course: Greenoch Point
     number: 4
     par: 4
     description: >
@@ -370,7 +374,8 @@ holes:
               <circle cx="161" cy="405" r="6" fill="yellow" class="guide-point" data-guide-segment="1" />
               <circle cx="141" cy="269" r="6" fill="yellow" class="guide-point" data-guide-segment="2" />
               <circle cx="193" cy="116" r="6" fill="yellow" class="guide-point" data-guide-segment="3" />
-  - course: Greenoch Point
+  - id: 3126ece9-c725-4c4f-917a-f8fb6460ab6f
+    course: Greenoch Point
     number: 5
     par: 3
     description: >
@@ -417,7 +422,8 @@ holes:
               <path d="M 424 926 C 200 521 200 521 187 218" stroke="black" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="0" />
               <circle cx="424" cy="926" r="6" fill="black" class="guide-point" data-guide-segment="0" />
               <circle cx="187" cy="218" r="6" fill="black" class="guide-point" data-guide-segment="1" />
-  - course: Greenoch Point
+  - id: d77beb00-9da0-48f3-9c4e-3754ed7bdd16
+    course: Greenoch Point
     number: 6
     par: 5
     description: >
@@ -484,7 +490,8 @@ holes:
               <circle cx="259" cy="389" r="6" fill="black" class="guide-point" data-guide-segment="2" />
               <circle cx="323" cy="189" r="6" fill="black" class="guide-point" data-guide-segment="3" />
               <circle cx="361" cy="129" r="6" fill="black" class="guide-point" data-guide-segment="4" />
-  - course: Greenoch Point
+  - id: af37d3ac-7089-4ff1-9568-64bcce20c496
+    course: Greenoch Point
     number: 7
     par: 5
     description: >
@@ -563,7 +570,8 @@ holes:
               <circle cx="306" cy="947" r="6" fill="red" class="guide-point" data-guide-segment="0" />
               <circle cx="272" cy="280" r="6" fill="red" class="guide-point" data-guide-segment="1" />
               <circle cx="399" cy="93" r="6" fill="red" class="guide-point" data-guide-segment="2" />
-  - course: Greenoch Point
+  - id: 5d5a7c43-779c-41f5-ac7a-c282e5fec23b
+    course: Greenoch Point
     number: 8
     par: 4
     description: >
@@ -636,7 +644,8 @@ holes:
               <path d="M 208 712 L 165 167" stroke="white" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="0" />
               <circle cx="208" cy="712" r="6" fill="white" class="guide-point" data-guide-segment="0" />
               <circle cx="165" cy="167" r="6" fill="white" class="guide-point" data-guide-segment="1" />
-  - course: Greenoch Point
+  - id: 55b61526-0bd1-4c3d-8ac5-eeccc29998ca
+    course: Greenoch Point
     number: 9
     par: 5
     description: >

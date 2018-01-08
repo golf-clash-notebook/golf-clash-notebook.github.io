@@ -1,6 +1,7 @@
 course-name: Sunshine Glades
 holes:
-  - course: Sunshine Glades
+  - id: f30c2f43-c8dc-4762-bc7b-77b6d196d0e2
+    course: Sunshine Glades
     number: 1
     par: 3
     description: >
@@ -36,7 +37,8 @@ holes:
 #        url: https://youtu.be/X-g3gu4sRqY
 #      - title: Golf Clash Tommy - Pro / Expert Guide
 #        url: https://youtu.be/Pbd-bxOeP1Q
-  - course: Sunshine Glades
+  - id: 78852573-8b79-49e7-999a-e7a20b220baf
+    course: Sunshine Glades
     number: 2
     par: 4
     description: >
@@ -55,7 +57,8 @@ holes:
     resources:
       - title: Golf Clash Tommy - Pro / Expert Guide
         url: https://youtu.be/Y2K1-fpwLmQ
-  - course: Sunshine Glades
+  - id: ceec18c9-cda1-436d-bdb1-1f2454b46436
+    course: Sunshine Glades
     number: 3
     par: 5
     description: >
@@ -88,7 +91,8 @@ holes:
         url: https://youtu.be/fQMfImOGS9o
       # - title: Golf Clash Tommy - Pro / Expert Guide
         # url: https://youtu.be/uAorNoFskVY
-  - course: Sunshine Glades
+  - id: a427fbaf-3e27-411a-8a51-3a5bd53e2605
+    course: Sunshine Glades
     number: 4
     par: 5
     description: >

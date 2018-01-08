@@ -9,7 +9,7 @@ organizationName in ThisBuild := "Golf Clash Notebook"
 ////////////////////////////////////////////////////////////////////////////////
 val CatsV          = "1.0.1"
 val CatsEffectV    = "0.8"
-val CirceV         = "0.9.0"
+val CirceV         = "0.9.1"
 val MonixV         = "3.0.0-M3"
 val ScalaCheckV    = "1.13.5"
 val ScalaTagsV     = "0.6.7"
@@ -20,13 +20,22 @@ val ScalaJSJqueryV = "0.9.2"
 scalafmtOnCompile in ThisBuild := true
 
 lazy val `golf-clash-notebook` = (project in file("."))
-  .aggregate(site)
-  .dependsOn(site)
+  .aggregate(firebase, markedjs, site)
+  .dependsOn(firebase, markedjs, site)
 
 lazy val site = (project in file("modules/site"))
   .settings(moduleSettings("site"): _*)
   .settings(siteSettings)
+  .dependsOn(firebase, markedjs)
   .enablePlugins(AutomateHeaderPlugin, MicrositesPlugin, ScalaJSPlugin, ScalaUnidocPlugin)
+
+lazy val firebase = (project in file("modules/firebase"))
+  .settings(moduleSettings("firebase"): _*)
+  .enablePlugins(AutomateHeaderPlugin, ScalaJSPlugin, ScalaUnidocPlugin)
+
+lazy val markedjs = (project in file("modules/markedjs"))
+  .settings(moduleSettings("markedjs"): _*)
+  .enablePlugins(AutomateHeaderPlugin, ScalaJSPlugin, ScalaUnidocPlugin)
 
 /////////////////////////////////////////
 
@@ -86,7 +95,8 @@ lazy val commonSettings = Seq(
     // "-Ywarn-unused:params",           // Warn if a value parameter is unused.
     "-Ywarn-unused:patvars",             // Warn if a variable bound in a pattern is unused.
     "-Ywarn-unused:privates",            // Warn if a private member is unused.
-    "-Ywarn-value-discard"               // Warn when non-Unit expression results are unused.
+    "-Ywarn-value-discard",              // Warn when non-Unit expression results are unused.
+    "-P:scalajs:sjsDefinedByDefault"     // https://www.scala-js.org/doc/interoperability/sjs-defined-js-classes.html
     // format: on
   ),
   scalacOptions in (Compile, console) ~= (_ filterNot Set( "-Xfatal-warnings", "-Ywarn-dead-code", "-Ywarn-unused:imports")),

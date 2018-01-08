@@ -1,6 +1,7 @@
 course-name: Christmas
 holes:
-  - course: Christmas
+  - id: 2cb5ab94-1384-4df1-8de6-f8a85b40b9f9
+    course: Christmas
     number: 1
     par: 3
     description: >
@@ -99,7 +100,8 @@ holes:
               <path d="M 100 300 L 215 244" stroke="white" fill="transparent" stroke-width="3"/>
               <image xlink:href="/img/golfclash/courses/Christmas/annotations/1-Green.png" x="0" y="200" width="200" height="200" />
             </g>
-  - course: Christmas
+  - id: 59c09a8a-33b2-4870-8483-3e3d45eab4ba
+    course: Christmas
     number: 2
     par: 4
     description: >
@@ -192,7 +194,8 @@ holes:
               <path d="M 350 100 L 135 158" stroke="white" fill="transparent" stroke-width="3"/>
               <image xlink:href="/img/golfclash/courses/Christmas/annotations/2-Green.png" x="250" y="0" width="200" height="200" />
             </g>
-  - course: Christmas
+  - id: 2bde31cb-61bf-421b-9031-409a396ddd3b
+    course: Christmas
     number: 3
     par: 5
     description: >
@@ -298,7 +301,8 @@ holes:
               <path d="M 87 237 L 193 113" stroke="white" fill="transparent" stroke-width="3"/>
               <image xlink:href="/img/golfclash/courses/Christmas/annotations/3-Green.png" x="0" y="150" width="175" height="175" />
             </g>
-  - course: Christmas
+  - id: 4e7a6bb4-16ca-40c6-8ea3-ba80f2dbcd86
+    course: Christmas
     number: 4
     par: 3
     description: >
@@ -377,7 +381,8 @@ holes:
               <path d="M 87 317 L 186 167" stroke="white" fill="transparent" stroke-width="3"/>
               <image xlink:href="/img/golfclash/courses/Christmas/annotations/4-Green.png" x="0" y="230" width="175" height="175" />
             </g>
-  - course: Christmas
+  - id: c3afd005-7b62-42d9-b262-134085af7f25
+    course: Christmas
     number: 5
     par: 4
     description: >
@@ -447,7 +452,8 @@ holes:
               <path d="M 87 237 L 147 109" stroke="white" fill="transparent" stroke-width="3"/>
               <image xlink:href="/img/golfclash/courses/Christmas/annotations/5-Green.png" x="0" y="150" width="175" height="175" />
             </g>
-  - course: Christmas
+  - id: 773e7eeb-3125-4ce4-a95a-d56321392b51
+    course: Christmas
     number: 6
     par: 5
     description: >
@@ -549,7 +555,8 @@ holes:
               <path d="M 87 237 L 198 139" stroke="white" fill="transparent" stroke-width="3"/>
               <image xlink:href="/img/golfclash/courses/Christmas/annotations/6-Green.png" x="0" y="150" width="175" height="175" />
             </g>
-  - course: Christmas
+  - id: 8f6e03cb-a10b-465d-b112-7ca73ac9fd02
+    course: Christmas
     number: 7
     par: 4
     description: >
@@ -652,7 +659,8 @@ holes:
               <path d="M 272 237 L 168 128" stroke="white" fill="transparent" stroke-width="3"/>
               <image xlink:href="/img/golfclash/courses/Christmas/annotations/7-Green.png" x="185" y="150" width="175" height="175" />
             </g>
-  - course: Christmas
+  - id: af4e56bd-11c9-481b-ab5a-3e83c1def286
+    course: Christmas
     number: 8
     par: 3
     description: >
@@ -730,7 +738,8 @@ holes:
               <path d="M 100 425 L 217 232" stroke="white" fill="transparent" stroke-width="3"/>
               <image xlink:href="/img/golfclash/courses/Christmas/annotations/8-Green.png" x="0" y="325" width="200" height="200" />
             </g>
-  - course: Christmas
+  - id: 02e3949a-abdb-41b1-b6f0-87e28045c307
+    course: Christmas
     number: 9
     par: 5
     description: >
