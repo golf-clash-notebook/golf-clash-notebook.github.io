@@ -29,10 +29,23 @@ import scala.scalajs.js
 import org.scalajs.dom.Element
 import org.scalajs.jquery._
 
+import cats.implicits._
+import golfclash.notebook.core._
+import markedjs._
+import monix.execution.Scheduler.Implicits.global
+
 object hole {
 
-  val init = () => {
+  var PageHoleData    = none[HoleData]
+  var CurrentHoleNote = none[HoleNote]
 
+  val init = () => {
+    initHoleMap()
+    initLevelButtonToggles()
+    initHoleNotes()
+  }
+
+  def initHoleMap() = {
     jQuery("img.course-hole-map")
       .one("load", () => { initGuides(); showLevel("Rookie") })
       .each({ (img: Element) =>
@@ -44,8 +57,6 @@ object hole {
             println(s"Error triggering course hole map load: ${t.printStackTrace()}")
         }
       })
-
-    initLevelButtonToggles()
   }
 
   def initLevelButtonToggles() = {
@@ -116,16 +127,17 @@ object hole {
     jQuery(s".$level-guide-overlay:eq($guideNum) > .guide-path")
       .map(_.asInstanceOf[js.Dynamic].getTotalLength())
       .toArray
-      .map(_.asInstanceOf[Int])
-      .foldLeft(0)(_ + _)
+      .map(_.asInstanceOf[Double])
+      .foldLeft(0)(_ + _.toInt)
   }
 
   def segmentLength(level: String, guideNum: Int, segmentNum: Int): Int = {
     jQuery(s".$level-guide-overlay:eq($guideNum) > .guide-path[data-guide-segment='$segmentNum']")
       .map(_.asInstanceOf[js.Dynamic].getTotalLength())
       .toArray
-      .map(_.asInstanceOf[Int])
+      .map(_.asInstanceOf[Double])
       .headOption
+      .map(_.toInt)
       .getOrElse(0)
   }
 
@@ -216,6 +228,219 @@ object hole {
           .css("animation-delay", s"${annotationCircleAnimationDelay}s")
       }
     }
+
+  }
+
+  def initHoleNotes() = {
+
+    auth.CurrentUser.foreach { currentUser =>
+      currentUser match {
+        case Some(user) => {
+          PageHoleData.map { data =>
+            store
+              .holeNotesForUser(user, data.id)
+              .map { userNotes =>
+                userNotes.foreach(addNote)
+              }
+              .runAsync
+          }
+
+          jQuery("#user-notes").removeClass("hidden")
+          jQuery(".gcn-btn-add-hole-note, .gcn-btn-hole-note-tutorial").removeClass("hidden")
+          ()
+        }
+        case None => {
+          jQuery(".gcn-hole-note").remove()
+          jQuery("#user-notes").addClass("hidden")
+          jQuery(".gcn-btn-add-hole-note, .gcn-btn-hole-note-tutorial").addClass("hidden")
+          ()
+        }
+      }
+    }
+
+    PageHoleData = Some(HoleData(jQuery("#hole-data").data("hole-id").asInstanceOf[String]))
+
+    jQuery("#hole-note-edit-modal").on("hidden.bs.modal", (e: js.Any) => clearNoteForm())
+
+    jQuery("#hole-note-add-btn").click { () =>
+      jQuery("#hole-note-edit-modal").asInstanceOf[js.Dynamic].modal("show")
+    }
+
+    jQuery("#note-cancel-btn").click { () =>
+      CurrentHoleNote = None
+      clearNoteForm()
+    }
+
+    jQuery("#note-cancel-delete-btn").click { () =>
+      CurrentHoleNote = None
+    }
+
+    jQuery("#note-save-btn").click { () =>
+      CurrentHoleNote match {
+        case Some(noteToUpdate) => {
+          noteFromForm.map { newNote =>
+            store
+              .updateNote(
+                noteToUpdate.copy(
+                  category = newNote.category,
+                  content = newNote.content
+                )
+              )
+              .map { updatedNote =>
+                updateNote(updatedNote)
+              }
+              .runAsync
+          }
+        }
+        case None => {
+          noteFromForm.map { newNote =>
+            store
+              .saveNote(newNote)
+              .map { savedNote =>
+                addNote(savedNote)
+              }
+              .runAsync
+          }
+        }
+      }
+
+      jQuery("#hole-note-edit-modal").asInstanceOf[js.Dynamic].modal("hide")
+      clearNoteForm()
+      CurrentHoleNote = None
+    }
+
+    jQuery("#note-delete-btn").click { () =>
+      CurrentHoleNote match {
+        case Some(note) => {
+          deleteNote(note)
+        }
+        case None => ()
+      }
+    }
+  }
+
+  def addNote(note: HoleNote) = {
+    jQuery("#user-notes").append(createNoteElement(note).render)
+    sortNoteElements()
+  }
+
+  def editNote(note: HoleNote) = {
+    CurrentHoleNote = Some(note)
+
+    jQuery("#noteId").`val`(note.id.getOrElse(""))
+    jQuery("#noteCategory").`val`(note.category)
+    jQuery("#noteContents").`val`(note.content)
+    jQuery("#hole-note-edit-modal").asInstanceOf[js.Dynamic].modal("show")
+  }
+
+  def updateNote(note: HoleNote) = {
+    note.id.map { id =>
+      store.updateNote(note)
+      jQuery(s""".gcn-hole-note[data-note-id="$id"]""").replaceWith(createNoteElement(note).render)
+    }
+
+    sortNoteElements()
+  }
+
+  def confirmDeleteNote(note: HoleNote) = {
+    note.id.map { id =>
+      CurrentHoleNote = Some(note)
+      jQuery("#deleteNoteId").`val`(id)
+      jQuery("#hole-note-confirm-delete-modal").asInstanceOf[js.Dynamic].modal("show")
+    }
+  }
+
+  def deleteNote(note: HoleNote) = {
+    note.id.map { id =>
+      store
+        .deleteNote(note)
+        .map { _ =>
+          jQuery(s""".gcn-hole-note[data-note-id="$id"]""").remove()
+          jQuery("#hole-note-confirm-delete-modal").asInstanceOf[js.Dynamic].modal("hide")
+          CurrentHoleNote = None
+        }
+        .runAsync
+    }
+  }
+
+  def clearNoteForm(): Unit = {
+    jQuery("#noteId").`val`("")
+    jQuery("#noteCategory").`val`("general")
+    jQuery("#noteContents").`val`("")
+    ()
+  }
+
+  def noteFromForm(): Option[HoleNote] = {
+    for {
+      user     <- auth.CurrentUser()
+      holeData <- PageHoleData
+    } yield {
+      val id       = Some(jQuery("#noteId").`val`.asInstanceOf[String]).filter(_.nonEmpty)
+      val category = jQuery("#noteCategory").`val`.asInstanceOf[String]
+      val content  = jQuery("#noteContents").`val`.asInstanceOf[String]
+      HoleNote(id, user.uid, holeData.id, category, content)
+    }
+  }
+
+  def sortNoteElements() = {
+    val sortedElements =
+      jQuery(".gcn-hole-note").toArray.toList
+        .sortWith { (noteElementA, noteElementB) =>
+          val categoryA = jQuery(noteElementA).data("note-category").asInstanceOf[String]
+          val categoryB = jQuery(noteElementB).data("note-category").asInstanceOf[String]
+          categoryToInt(categoryA) < categoryToInt(categoryB)
+        }
+
+    jQuery("#user-notes").children().not(":first").remove()
+    sortedElements.foreach(e => jQuery("#user-notes").append(e))
+  }
+
+  def categoryToInt(category: String) = {
+    category match {
+      case "general" => 0
+      case "masters" => 1
+      case "expert"  => 2
+      case "pro"     => 3
+      case "rookie"  => 4
+      case _         => 5
+    }
+  }
+
+  def createNoteElement(note: HoleNote) = {
+
+    import scalatags.JsDom.all._
+
+    div(
+      cls := s"gcn-hole-note gcn-hole-note-${note.category}",
+      data("note-id") := note.id.getOrElse(""),
+      data("note-category") := note.category
+    )(
+      div(cls := "toolbar")(
+        button(
+          `type` := "button",
+          onclick := { () =>
+            editNote(note)
+          },
+          cls := "btn btn-link",
+          title := "Edit"
+        )(
+          i(cls := "far fa-edit")
+        ),
+        button(
+          `type` := "button",
+          onclick := { () =>
+            confirmDeleteNote(note)
+          },
+          cls := "btn btn-link",
+          title := "Delete"
+        )(
+          i(cls := "fas fa-trash")
+        )
+      ),
+      div(cls := "note-contents")(
+        raw(MarkedJs(note.content))
+      )
+    )
 
   }
 

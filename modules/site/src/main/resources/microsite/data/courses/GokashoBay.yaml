@@ -1,6 +1,7 @@
 course-name: Gokasho Bay
 holes:
-  - course: Gokasho Bay
+  - id: 3e3986fa-be14-4521-932c-dc005a19549a
+    course: Gokasho Bay
     number: 1
     par: 4
     description: >
@@ -89,7 +90,8 @@ holes:
               <path d="M 150 120 L 440 120" stroke="white" fill="transparent" stroke-width="3"/>
               <image xlink:href="/img/golfclash/courses/GokashoBay/annotations/1-Green.png" x="50" y="20" width="200" height="200" />
             </g>
-  - course: Gokasho Bay
+  - id: b06d3cae-e333-47eb-a97b-6d62b7b7cc7c
+    course: Gokasho Bay
     number: 2
     par: 5
     description: >
@@ -183,7 +185,8 @@ holes:
               <path d="M 75 75 L 192 100" stroke="white" fill="transparent" stroke-width="3"/>
               <image xlink:href="/img/golfclash/courses/GokashoBay/annotations/2-Green.png" x="0" y="0" width="150" height="150" />
             </g>
-  - course: Gokasho Bay
+  - id: 9f41dd16-0e99-4844-93b2-11b0aa1814d7
+    course: Gokasho Bay
     number: 3
     par: 3
     description: >
@@ -241,7 +244,8 @@ holes:
               <path d="M 100 100 L 235 195" stroke="white" fill="transparent" stroke-width="3"/>
               <image xlink:href="/img/golfclash/courses/GokashoBay/annotations/3-Green.png" x="0" y="0" width="200" height="200" />
             </g>
-  - course: Gokasho Bay
+  - id: 96835e31-f31c-4f59-b448-e34c894ef6f9
+    course: Gokasho Bay
     number: 4
     par: 4
     description: >
@@ -303,7 +307,8 @@ holes:
               <path d="M 400 110 L 200 217" stroke="white" fill="transparent" stroke-width="3"/>
               <image xlink:href="/img/golfclash/courses/GokashoBay/annotations/4-Green.png" x="300" y="10" width="200" height="200" />
             </g>
-  - course: Gokasho Bay
+  - id: f75f7893-e55e-4d43-8c67-769fa499827b
+    course: Gokasho Bay
     number: 5
     par: 3
     description: >
@@ -381,7 +386,8 @@ holes:
               <path d="M 100 100 L 233 265" stroke="white" fill="transparent" stroke-width="3"/>
               <image xlink:href="/img/golfclash/courses/GokashoBay/annotations/5-Green.png" x="0" y="0" width="200" height="200" />
             </g>
-  - course: Gokasho Bay
+  - id: 607ca95c-57f4-4f6c-9836-3b63d14effff
+    course: Gokasho Bay
     number: 6
     par: 5
     description: >
@@ -480,7 +486,8 @@ holes:
               <path d="M 75 75 L 201 88" stroke="white" fill="transparent" stroke-width="3"/>
               <image xlink:href="/img/golfclash/courses/GokashoBay/annotations/6-Green.png" x="0" y="0" width="150" height="150" />
             </g>
-  - course: Gokasho Bay
+  - id: b1d61c9b-c8a0-48e8-904e-cd6cb21fbe56
+    course: Gokasho Bay
     number: 7
     par: 3
     description: >
@@ -577,7 +584,8 @@ holes:
               <path d="M 328 422 L 199 298" stroke="white" fill="transparent" stroke-width="3"/>
               <image xlink:href="/img/golfclash/courses/GokashoBay/annotations/7-Green.png" x="228" y="322" width="200" height="200" />
             </g>
-  - course: Gokasho Bay
+  - id: ee1e67ec-30e7-4605-99cd-0c1b709c1035
+    course: Gokasho Bay
     number: 8
     par: 4
     description: >
@@ -671,7 +679,8 @@ holes:
               <path d="M 75 285 L 188 203" stroke="white" fill="transparent" stroke-width="3"/>
               <image xlink:href="/img/golfclash/courses/GokashoBay/annotations/8-Green.png" x="0" y="210" width="150" height="150" />
             </g>
-  - course: Gokasho Bay
+  - id: 7e653bf5-6141-41f0-90a0-11042470f533
+    course: Gokasho Bay
     number: 9
     par: 5
     description: >

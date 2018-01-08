@@ -40,7 +40,7 @@ position: 20
 
       <div class="{{ columnClasses | strip }} text-center pad-16">
         <a href="/tours/{{ tour.number }}/">
-          <img class="img-responsive img-center" src="/img/golfclash/tours/{{ tour.number }}-thumb.png">
+          <img class="img-responsive img-center" src="/img/golfclash/tours/{{ tour.number }}-256x256.png">
         </a>
       </div>
 

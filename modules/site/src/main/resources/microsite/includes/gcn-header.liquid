@@ -2,16 +2,36 @@
   <div class="navbar-wrapper">
     <div class="container">
       <div class="row">
-        <div class="col-xs-6">
+        <div class="col-sm-6 col-xs-3">
           <a href="/" class="brand">
             <div class="icon-wrapper"><span>Golf Clash Notebook</span></div>
           </a>
         </div>
-        <div class="col-xs-6">
-          <nav class="text-right">
-            <ul>
-            </ul>
-          </nav>
+        <div class="col-sm-6 col-xs-9">
+          <ul class="nav navbar-nav navbar-right text-right">
+            <li id="login-btn" class="hidden">
+              <a role="button" class="nav-link" data-toggle="modal" data-target="#sign-in-modal">
+                <i class="fas fa-sign-in-alt text-extra-large"></i>
+                <span>Sign In</span>
+              </a>
+            </li>
+            <li id="logged-in-menu" class="dropdown hidden">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                <img id="username-photo-img" class="img-circle hidden">
+                <span id="username-menu-item">User</span>
+                <i class="fas fa-caret-down"></i>
+              </a>
+              <ul class="dropdown-menu">
+                <li role="separator" class="divider"></li>
+                <li>
+                  <a id="logout-btn" role="button" class="nav-link">
+                    <i class="fas fa-sign-out-alt text-extra-large"></i>
+                    <span>Sign Out</span>
+                  </a>
+                </li>
+              </ul>
+            </li>
+          </ul>
         </div>
       </div>
     </div>

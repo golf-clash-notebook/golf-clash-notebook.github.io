@@ -1,0 +1,52 @@
+<div id="hole-note-edit-modal" class="modal fade" tabindex="-1" role="dialog">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-body">
+        <div class="row margin-8">
+          <div class="col-xs-12 pad-4">
+            <input type="hidden" class="form-control" id="noteId">
+            <select class="form-control" id="noteCategory">
+              <option value="general">General</option>
+              <option value="rookie">Rookie</option>
+              <option value="pro">Pro</option>
+              <option value="expert">Expert</option>
+              <option value="masters">Masters</option>
+            </select>
+          </div>
+        </div>
+        <div class="row margin-8">
+          <div class="col-xs-12">
+            <textarea id="noteContents" class="form-control"></textarea>
+          </div>
+        </div>
+        <div class="row margin-8">
+          <div class="col-xs-12 text-right">
+            <button id="note-cancel-btn" type="button" class="btn btn-default btn-slim" data-dismiss="modal">Cancel</button>
+            <button id="note-save-btn" type="button" class="btn btn-primary btn-slim"><i class="far fa-save"></i> Save</button>
+          </div>
+        </div>
+      </div>
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+
+<div id="hole-note-confirm-delete-modal" class="modal fade" tabindex="-1" role="dialog">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-body">
+        <input type="hidden" class="form-control" id="deleteNoteId">
+        <div class="row margin-8">
+          <div class="col-xs-12 text-center">
+            Are you sure you want to delete this note?
+          </div>
+        </div>
+        <div class="row margin-8">
+          <div class="col-xs-12 text-center">
+            <button id="note-cancel-delete-btn" type="button" class="btn btn-default btn-slim" data-dismiss="modal">Cancel</button>
+            <button id="note-delete-btn" type="button" class="btn btn-danger btn-slim"><i class="fas fa-trash"></i> Delete</button>
+          </div>
+        </div>
+      </div>
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->

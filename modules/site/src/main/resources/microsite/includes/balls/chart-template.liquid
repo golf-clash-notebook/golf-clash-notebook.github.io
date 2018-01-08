@@ -45,7 +45,7 @@
         <th>Wind<br>Resistance</th>
         <th>Side Spin</th>
         <th>Power</th>
-        <th><img src="/img/golfclash/other/Gem-thumb.png" alt="Cost" class="img-center img-responsive"></th>
+        <th><img src="/img/golfclash/other/Gem-24x24.png" alt="Cost" class="img-center img-responsive"></th>
       </tr>
     </thead>
     <tbody>
@@ -56,25 +56,25 @@
 
         <tr class="ball-table-row" id="{{ ballPath }}-ranking-row" data-name="{{ ballPath }}" data-wind-resistance="{{ ball.wind-resistance }}" data-side-spin="{{ ball.side-spin }}" data-power="{{ ball.power }}">
           <td>
-            <img src="/img/golfclash/balls/{{ ballPath }}-thumb.png" title="{{ ball.name }}" alt="{{ ball.name }}" class="img-center img-responsive" style="width: 36px;">
+            <img src="/img/golfclash/balls/{{ ballPath }}-64x64.png" title="{{ ball.name }}" alt="{{ ball.name }}" class="img-center img-responsive" style="width: 36px;">
           </td>
           <td>
             {% if ball.wind-resistance > 0 %}
-              <img src="/img/golfclash/balls/WindResistance{{ ball.wind-resistance }}-annotated-thumb.png" title="Wind Resistance {{ ball.wind-resistance }}" alt="Wind Resistance {{ ball.wind-resistance }}" class="img-center img-responsive">
+              <img src="/img/golfclash/balls/WindResistance{{ ball.wind-resistance }}-annotated-32x32.png" title="Wind Resistance {{ ball.wind-resistance }}" alt="Wind Resistance {{ ball.wind-resistance }}" class="img-center img-responsive">
             {% else %}
               <i class="fas fa-times text-danger" aria-hidden="true"></i>
             {% endif %}
           </td>
           <td>
             {% if ball.side-spin > 0 %}
-              <img src="/img/golfclash/balls/SideSpin{{ ball.side-spin }}-annotated-thumb.png" title="Side Spin {{ ball.side-spin }}" alt="Side Spin {{ ball.side-spin }}" class="img-center img-responsive">
+              <img src="/img/golfclash/balls/SideSpin{{ ball.side-spin }}-annotated-32x32.png" title="Side Spin {{ ball.side-spin }}" alt="Side Spin {{ ball.side-spin }}" class="img-center img-responsive">
             {% else %}
               <i class="fas fa-times text-danger" aria-hidden="true"></i>
             {% endif %}
           </td>
           <td>
             {% if ball.power > 0 %}
-              <img src="/img/golfclash/balls/Power{{ ball.power }}-annotated-thumb.png" title="Power {{ ball.power }}" alt="Power {{ ball.power }}" class="img-center img-responsive">
+              <img src="/img/golfclash/balls/Power{{ ball.power }}-annotated-32x32.png" title="Power {{ ball.power }}" alt="Power {{ ball.power }}" class="img-center img-responsive">
             {% else %}
               <i class="fas fa-times text-danger" aria-hidden="true"></i>
             {% endif %}

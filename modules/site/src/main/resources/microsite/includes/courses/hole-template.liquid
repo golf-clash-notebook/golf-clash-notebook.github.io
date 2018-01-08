@@ -10,12 +10,14 @@ section: "courses"
 
 {% assign numHoles = site.data.courses[coursePath].holes | size %}
 
+<div id="hole-data" class="hidden" data-hole-id="{{ page.id }}"></div>
+
 <div class="row hidden-lg hidden-md">
   <div class="col-lg-12">
     <h1 class="gcn-page-header">{{ page.course }}</h1>
     <h2 class="gcn-page-subheader">Hole {{ page.number }} - Par {{ page.par }}</h2>
     <nav class="text-center" aria-label="Course hole navigation">
-      <ul class="pagination pagination-sm justify-content-center">
+      <ul class="pagination pagination-sm justify-content-center margin-8">
         {% for hole in (1..numHoles) %}
           {% if hole == page.number %}
             <li class="page-item active"><a class="page-link" href="#">{{ page.number }}</a></li>
@@ -32,7 +34,7 @@ section: "courses"
 </div>
 
 <div class="row">
-  <div class="col-md-8 col-sm-12">
+  <div class="col-md-6 col-sm-12">
     <div>
       <div class="hole-map-container">
         <div class="hole-map">
@@ -64,12 +66,12 @@ section: "courses"
       </div>
     </div>
   </div>
-  <div class="col-md-4 col-md-offset-0 col-sm-10 col-sm-offset-1 col-xs-12">
+  <div class="col-md-6 col-md-offset-0 col-sm-10 col-sm-offset-1 col-xs-12">
     <div class="visible-lg visible-md">
       <h3 class="text-center">{{ page.course }}</h3>
       <h5 class="text-center">Hole {{ page.number }} - Par {{ page.par }}</h5>
       <nav class="text-center" aria-label="Course hole navigation">
-        <ul class="pagination pagination-sm justify-content-center">
+        <ul class="pagination pagination-sm justify-content-center margin-8">
           {% for hole in (1..numHoles) %}
             {% if hole == page.number %}
               <li class="page-item active"><a class="page-link" href="#">{{ page.number }}</a></li>
@@ -81,17 +83,41 @@ section: "courses"
       </nav>
     </div>
 
-    <div class="btn-group guide-button-toggles" data-toggle="buttons">
-      <label class="btn btn-toggle-rookie active">
-        <input type="radio" name="level" id="Rookie" autocomplete="off" checked> Rookie
-      </label>
-      <label class="btn btn-toggle-pro">
-        <input type="radio" name="level" id="Pro" autocomplete="off"> Pro / Expert
-      </label>
-      <label class="btn btn-toggle-masters">
-        <input type="radio" name="level" id="Masters" autocomplete="off"> Masters
-      </label>
+    <div id="user-notes" class="hidden">
+      <hr class="hr-text margin-4" data-content="My Notes">
     </div>
+
+    <div class="text-center">
+      <button id="hole-note-add-btn" type="button" class="btn btn-primary btn-slim gcn-btn-add-hole-note center-block hidden">
+        <i class="fas fa-sticky-note"></i>
+        <span>Add Hole Note</span>
+      </button>
+      <a class="btn btn-default gcn-btn-hole-note-tutorial" href="/holenotes" target="_blank" rel="noopener">
+        <i class="far fa-question-circle"></i>
+      </a>
+    </div>
+
+    <hr class="hr-text margin-4" data-content="">
+
+    {% if hole.overlays.guides != undefined and hole.overlays.guides != empty %}
+
+      <div class="text-semi-muted text-center margin-12">
+        Guide courtesy of <a href="https://www.facebook.com/teamgolfclashtommy/" target="_blank" rel="noopener"><i class="fab fa-facebook fa-fw text-facebook" aria-hidden="true"></i> Team Golf Clash Tommy</a>.
+      </div>
+
+      <div class="btn-group guide-button-toggles" data-toggle="buttons">
+        <label class="btn btn-toggle-rookie active">
+          <input type="radio" name="level" id="Rookie" autocomplete="off" checked> Rookie
+        </label>
+        <label class="btn btn-toggle-pro">
+          <input type="radio" name="level" id="Pro" autocomplete="off"> Pro / Expert
+        </label>
+        <label class="btn btn-toggle-masters">
+          <input type="radio" name="level" id="Masters" autocomplete="off"> Masters
+        </label>
+      </div>
+
+    {% endif %}
 
     {% for clubRecommendations in hole.clubRecommendations %}
       {% assign recommendationLevel = clubRecommendations.level %}
@@ -106,7 +132,7 @@ section: "courses"
         <div class="club-recommendation-list" style="margin-top: 25px;">
           {% for club in clubRecommendations.clubs %}
             {% assign clubPath = club | remove: "The" | remove: " " | remove: "'" %}
-            <img class="club-recommendation-item" src="/img/golfclash/clubs/{{ clubPath }}.png" alt="{{ club }}">
+            <img class="club-recommendation-item" src="/img/golfclash/clubs/{{ clubPath }}-256x256.png" alt="{{ club }}">
             <div class="club-recommendation-item-caption text-tiny text-center text-semi-muted">{{ club.name }}</div>
             {% if forloop.rindex > 1 %}
               <hr>
@@ -123,37 +149,33 @@ section: "courses"
       </p>
     {% endif %}
 
-    {% for guide in hole.overlays.guides %}
-      {% for level in guide.levels %}
-        {% assign levelName = level.name %}
+    {% if hole.overlays.guides != undefined or hole.overlays.guides != empty %}
+      <div>
+        {% for guide in hole.overlays.guides %}
+          {% for level in guide.levels %}
+            {% assign levelName = level.name %}
 
-        {% capture initalVisibility %}
-          {% if levelName != 'Rookie' %}
-            hidden
-          {% endif %}
-        {% endcapture %}
+            {% capture initalVisibility %}
+              {% if levelName != 'Rookie' %}
+                hidden
+              {% endif %}
+            {% endcapture %}
 
-        <h4 class="{{ levelName }}-guide-text {{ initalVisibility | strip }}">{{ guide.name }}</h4>
+            <h4 class="{{ levelName }}-guide-text {{ initalVisibility | strip }}">{{ guide.name }}</h4>
 
-        {% if guide.text contains 'Help Wanted' %}
-          <p class="text-prototype {{ levelName }}-guide-text {{ initalVisibility | strip }}">
-            {% lipsum 1 5 10 %}
-          </p>
-        {% else %}
-          <p class="{{ levelName }}-guide-text {{ initalVisibility | strip }}">
-            {{ guide.text }}
-          </p>
-        {% endif %}
-
-      {% endfor %}
-    {% endfor %}
-
-    <div class="text-small text-semi-muted text-center">
-      All Guides courtesy of <a href="https://www.facebook.com/teamgolfclashtommy/" target="_blank" rel="noopener">
-        <i class="fab fa-facebook fa-fw text-facebook" aria-hidden="true"></i>
-        Team Golf Clash Tommy
-      </a>.
-    </div>
+            {% if guide.text contains 'Help Wanted' %}
+              <p class="text-prototype {{ levelName }}-guide-text {{ initalVisibility | strip }}">
+                {% lipsum 1 5 10 %}
+              </p>
+            {% else %}
+              <p class="{{ levelName }}-guide-text {{ initalVisibility | strip }}">
+                {{ guide.text }}
+              </p>
+            {% endif %}
+          {% endfor %}
+        {% endfor %}
+      </div>
+    {% endif %}
 
     {% if hole.aliases != undefined and hole.aliases != empty %}
 
@@ -183,5 +205,7 @@ section: "courses"
     {% endif %}
 
   </div>
+
+  {% include holes/hole-note-edit-modal.liquid %}
 
 </div>

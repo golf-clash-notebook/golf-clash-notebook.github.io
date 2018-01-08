@@ -1,0 +1,96 @@
+
+.gcn-btn-add-hole-note {
+  background-color: #5187b0;
+  border-color: #32546d;
+  color: #fff;
+  display: inline-block;
+  font-size: 85%;
+  margin: 8px auto 4px auto;
+
+  span {
+    margin-left: 6px;
+  }
+
+}
+
+.gcn-btn-hole-note-tutorial {
+  border: none;
+  color: #999;
+  margin: 8px 8px 4px;
+  padding: 0;
+}
+
+#noteContents {
+  border: 1px solid #ccc;
+  min-height: 125px;
+  width: 100%;
+}
+
+.gcn-hole-note {
+
+  border-left: 2px solid #eee;
+  margin-bottom: 4px;
+  padding: 12px 12px 6px 12px;
+  position: relative;
+
+  div.toolbar {
+    float: right;
+    text-align: right;
+
+    button {
+      color: #888;
+      font-size: 1.05em;
+      padding: 0 3px;
+    }
+  }
+
+  div.note-contents {
+
+    p {
+      margin: 0 0 4px;
+    }
+
+    img {
+      vertical-align: middle;
+    }
+  }
+}
+
+.gcn-hole-note h4 {
+  margin-top: 0;
+  margin-bottom: 2px;
+}
+.gcn-hole-note p:last-child {
+  margin-bottom: 0;
+}
+.gcn-hole-note code,
+.gcn-hole-note .highlight {
+  background-color: #fff;
+}
+
+/* Themes for different contexts */
+
+.gcn-hole-note-general {
+  border-color: #5187b0;
+  background-color: #e5edf3;
+}
+
+.gcn-hole-note-rookie {
+  background-color: #ebf5e6;
+  border-color: #77bf00;
+}
+
+.gcn-hole-note-pro {
+  background-color: #e1f8fa;
+  border-color: #22c2ce;
+}
+
+.gcn-hole-note-expert {
+  background-color: #fff4d8;
+  border-color: #ffba00;
+}
+
+.gcn-hole-note-masters {
+  background-color: #f7dbfc;
+  border-color: #cc25ee;
+}

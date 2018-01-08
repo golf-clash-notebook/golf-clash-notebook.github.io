@@ -67,6 +67,14 @@ blockquote {
   }
 }
 
+@media (max-width: 767px) {
+  .navbar-nav .open .dropdown-menu {
+    background-color: #fff !important;
+    border: none !important;
+    float: right !important;
+  }
+}
+
 ::selection {
   background: #0095ff; /* WebKit/Blink Browsers */
 }

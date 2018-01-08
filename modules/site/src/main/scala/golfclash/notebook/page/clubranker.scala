@@ -272,7 +272,7 @@ object clubranker {
 
     val sanitizedName =
       rankedClub.clubLevel.name.replaceAll("The", "").replaceAll(" ", "").replaceAll("'", "")
-    val clubImagePath = s"""/img/golfclash/clubs/$sanitizedName.png"""
+    val clubImagePath = s"""/img/golfclash/clubs/$sanitizedName-64x64.png"""
 
     tr(cls := s"club-ranking-row tier-${rankedClub.tier}-club")(
       td(span(cls := "text-tiny")(f"${rankedClub.score * 100}%.2f")),

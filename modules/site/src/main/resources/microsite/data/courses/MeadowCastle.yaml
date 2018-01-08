@@ -1,6 +1,7 @@
 course-name: Meadow Castle
 holes:
-  - course: Meadow Castle
+  - id: e967ec4e-43a8-4aa6-ad57-caf3cafffb4c
+    course: Meadow Castle
     number: 1
     par: 3
     description: >
@@ -19,7 +20,8 @@ holes:
               <path d="M 245 622 L 267 250" stroke="black" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="0" />
               <circle cx="245" cy="622" r="6" fill="black" class="guide-point" data-guide-segment="0" />
               <circle cx="267" cy="250" r="6" fill="black" class="guide-point" data-guide-segment="1" />
-  - course: Meadow Castle
+  - id: db93f490-8d7e-4bef-9313-e27ec0baf0a1
+    course: Meadow Castle
     number: 2
     par: 4
     description: >
@@ -43,7 +45,8 @@ holes:
               <circle cx="189" cy="682" r="6" fill="black" class="guide-point" data-guide-segment="0" />
               <circle cx="180" cy="165" r="6" fill="black" class="guide-point" data-guide-segment="1" />
               <circle cx="153" cy="112" r="6" fill="black" class="guide-point" data-guide-segment="2" />
-  - course: Meadow Castle
+  - id: a2d21b3a-fd52-4655-aba6-f66efad7064c
+    course: Meadow Castle
     number: 3
     par: 5
     description: >
@@ -67,7 +70,8 @@ holes:
               <circle cx="123" cy="804" r="6" fill="black" class="guide-point" data-guide-segment="0" />
               <circle cx="147" cy="279" r="6" fill="black" class="guide-point" data-guide-segment="1" />
               <circle cx="248" cy="112" r="6" fill="black" class="guide-point" data-guide-segment="2" />
-  - course: Meadow Castle
+  - id: d8eaa677-44c4-459c-a1f7-c6347521a276
+    course: Meadow Castle
     number: 4
     par: 3
     description: >

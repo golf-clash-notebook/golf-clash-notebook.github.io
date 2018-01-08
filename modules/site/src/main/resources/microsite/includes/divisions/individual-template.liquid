@@ -4,7 +4,7 @@
 <div class="panel panel-default gcn-card" data-mh="division-card">
   <div class="panel-heading">
     <div class="thumbnail thumbnail-centered thumbnail-plain">
-      <img class="img-responsive" src="/img/golfclash/divisions/{{ divisionPath }}.png" title="{{ include.division.name }}" alt="{{ include.division.name }}">
+      <img class="img-responsive" src="/img/golfclash/divisions/{{ divisionPath }}-64x64.png" title="{{ include.division.name }}" alt="{{ include.division.name }}">
     </div>
     <h4 class="title"></h4>
   </div>
@@ -12,13 +12,13 @@
     <div class="row">
       <div class="col-xs-4" data-mh="division-stats-card">
         <div class="text-center">
-          <img class="img-responsive center-block" src="/img/golfclash/divisions/Perks-thumb.png">
+          <img class="img-responsive center-block" src="/img/golfclash/divisions/Perks-32x20.png">
           <h4><strong>{{ include.division.perks }}%</strong></h4>
         </div>
       </div>
       <div class="col-xs-4" data-mh="division-stats-card">
         <div class="text-center">
-          <img class="img-responsive center-block" src="/img/golfclash/other/Promoted-thumb.png">
+          <img class="img-responsive center-block" src="/img/golfclash/other/Promoted-24x24.png">
           {% if include.division.promoted != undefined and include.division.promoted != empty %}
             <h4><strong>{{ include.division.promoted }}</strong></h4>
           {% else %}
@@ -28,7 +28,7 @@
       </div>
       <div class="col-xs-4" data-mh="division-stats-card">
         <div class="text-center">
-          <img class="img-responsive center-block" src="/img/golfclash/other/Relegated-thumb.png">
+          <img class="img-responsive center-block" src="/img/golfclash/other/Relegated-24x24.png">
           {% if include.division.relegated != undefined and include.division.relegated != empty %}
             <h4><strong>{{ include.division.relegated }}</strong></h4>
           {% else %}

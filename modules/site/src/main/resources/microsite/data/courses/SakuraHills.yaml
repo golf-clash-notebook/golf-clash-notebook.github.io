@@ -1,6 +1,7 @@
 course-name: Sakura Hills
 holes:
-  - course: Sakura Hills
+  - id: 855c43fb-cf83-4d15-8d1e-c868cbc64b63
+    course: Sakura Hills
     number: 1
     par: 3
     description: >
@@ -76,7 +77,8 @@ holes:
               <circle cx="143" cy="759" r="6" fill="white" class="guide-point" data-guide-segment="0" />
               <circle cx="165" cy="211" r="6" fill="white" class="guide-point" data-guide-segment="1" />
               <circle cx="153" cy="150" r="6" fill="white" class="guide-point" data-guide-segment="2" />
-  - course: Sakura Hills
+  - id: ed81ce0a-a7bb-4228-a7a6-004ce5da2db4
+    course: Sakura Hills
     number: 2
     par: 4
     description: >
@@ -131,7 +133,8 @@ holes:
               <circle cx="223" cy="405" r="6" fill="white" class="guide-point" data-guide-segment="1" />
               <circle cx="217" cy="299" r="6" fill="white" class="guide-point" data-guide-segment="2" />
               <circle cx="302" cy="116" r="6" fill="white" class="guide-point" data-guide-segment="3" />
-  - course: Sakura Hills
+  - id: bb9f55d2-057b-4082-af8b-24a14696a2f6
+    course: Sakura Hills
     number: 3
     par: 4
     description: >
@@ -202,7 +205,8 @@ holes:
               <circle cx="192" cy="799" r="6" fill="black" class="guide-point" data-guide-segment="0" />
               <circle cx="145" cy="252" r="6" fill="black" class="guide-point" data-guide-segment="1" />
               <circle cx="325" cy="81" r="6" fill="black" class="guide-point" data-guide-segment="2" />
-  - course: Sakura Hills
+  - id: 2fe001cd-916c-4309-a941-f06033af2383
+    course: Sakura Hills
     number: 4
     par: 5
     description: >
@@ -286,7 +290,8 @@ holes:
               <circle cx="160" cy="413" r="6" fill="black" class="guide-point" data-guide-segment="1" />
               <circle cx="203" cy="228" r="6" fill="black" class="guide-point" data-guide-segment="2" />
               <circle cx="181" cy="113" r="6" fill="black" class="guide-point" data-guide-segment="3" />
-  - course: Sakura Hills
+  - id: f9ceacbe-b884-4436-85ce-a52427abc0fd
+    course: Sakura Hills
     number: 5
     par: 3
     description: >
@@ -329,7 +334,8 @@ holes:
               <path d="M 183 743 C 119 417 119 417 151 256" stroke="white" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="0" />
               <circle cx="183" cy="743" r="6" fill="white" class="guide-point" data-guide-segment="0" />
               <circle cx="151" cy="256" r="6" fill="white" class="guide-point" data-guide-segment="1" />
-  - course: Sakura Hills
+  - id: 3af2f2c8-9548-41ce-9f04-be46b432d324
+    course: Sakura Hills
     number: 6
     par: 5
     description: >
@@ -415,7 +421,8 @@ holes:
               <circle cx="165" cy="387" r="6" fill="black" class="guide-point" data-guide-segment="1" />
               <circle cx="188" cy="283" r="6" fill="black" class="guide-point" data-guide-segment="2" />
               <circle cx="127" cy="97" r="6" fill="black" class="guide-point" data-guide-segment="3" />
-  - course: Sakura Hills
+  - id: 361c1105-b234-4760-887b-5f0f516807ed
+    course: Sakura Hills
     number: 7
     par: 4
     description: >
@@ -467,7 +474,8 @@ holes:
               <circle cx="249" cy="826" r="6" fill="white" class="guide-point" data-guide-segment="0" />
               <circle cx="180" cy="220" r="6" fill="white" class="guide-point" data-guide-segment="1" />
               <circle cx="285" cy="136" r="6" fill="white" class="guide-point" data-guide-segment="2" />
-  - course: Sakura Hills
+  - id: cee9be91-e83d-4724-8218-4f9db92c6be2
+    course: Sakura Hills
     number: 8
     par: 3
     description: >
@@ -508,7 +516,8 @@ holes:
               <path d="M 203 745 L 183 234" stroke="white" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="0" />
               <circle cx="203" cy="745" r="6" fill="white" class="guide-point" data-guide-segment="0" />
               <circle cx="183" cy="234" r="6" fill="white" class="guide-point" data-guide-segment="1" />
-  - course: Sakura Hills
+  - id: d8d0764c-8275-4bdf-9f02-09d3c5edbe90
+    course: Sakura Hills
     number: 9
     par: 5
     description: >

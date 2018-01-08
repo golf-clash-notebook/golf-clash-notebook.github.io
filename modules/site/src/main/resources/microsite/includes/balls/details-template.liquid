@@ -4,18 +4,18 @@
 <div id="{{ ballPath }}-details-card" class="ball-details-card panel panel-default gcn-card">
   <div class="panel-heading">
     <div class="thumbnail">
-      <img src="/img/golfclash/balls/{{ ballPath }}-thumb.png" alt="{{ ballPath }}" class="img-center img-responsive">
+      <img src="/img/golfclash/balls/{{ ballPath }}-64x64.png" alt="{{ ballPath }}" class="img-center img-responsive">
     </div>
     <h4 class="title">{{ include.ball.name }}</h4>
     <div class="pull-right">
       {% if include.ball.wind-resistance > 0 %}
-        <img style="display: inline" src="/img/golfclash/balls/WindResistance{{ include.ball.wind-resistance }}-annotated-thumb.png" title="Wind Resistance {{ ball.wind-resistance }}" alt="Wind Resistance {{ include.ball.wind-resistance }}" class="img-center img-responsive">
+        <img style="display: inline" src="/img/golfclash/balls/WindResistance{{ include.ball.wind-resistance }}-annotated-32x32.png" title="Wind Resistance {{ ball.wind-resistance }}" alt="Wind Resistance {{ include.ball.wind-resistance }}" class="img-center img-responsive">
       {% endif %}
       {% if include.ball.side-spin > 0 %}
-        <img style="display: inline" src="/img/golfclash/balls/SideSpin{{ include.ball.side-spin }}-annotated-thumb.png" title="Side Spin {{ ball.side-spin }}" alt="Side Spin {{ include.ball.side-spin }}" class="img-center img-responsive">
+        <img style="display: inline" src="/img/golfclash/balls/SideSpin{{ include.ball.side-spin }}-annotated-32x32.png" title="Side Spin {{ ball.side-spin }}" alt="Side Spin {{ include.ball.side-spin }}" class="img-center img-responsive">
       {% endif %}
       {% if include.ball.power > 0 %}
-        <img style="display: inline" src="/img/golfclash/balls/Power{{ include.ball.power }}-annotated-thumb.png" title="Power {{ ball.side-spin }}" alt="Power {{ include.ball.power }}" class="img-center img-responsive">
+        <img style="display: inline" src="/img/golfclash/balls/Power{{ include.ball.power }}-annotated-32x32.png" title="Power {{ ball.side-spin }}" alt="Power {{ include.ball.power }}" class="img-center img-responsive">
       {% endif %}
     </div>
   </div>
@@ -33,7 +33,7 @@
   <div class="panel-footer">
     <div class="pull-right">
       {% if include.ball.cost != "n/a" %}
-        <strong style="margin-right: 5px">{{ include.ball.cost }}</strong> <img src="/img/golfclash/other/Gem-thumb.png" alt="Cost" class="img-inline img-responsive">
+        <strong style="margin-right: 5px">{{ include.ball.cost }}</strong> <img src="/img/golfclash/other/Gem-24x24.png" alt="Cost" class="img-inline img-responsive">
       {% else %}
         <span>Not in Store</span>
       {% endif %}

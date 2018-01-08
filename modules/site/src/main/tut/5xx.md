@@ -12,7 +12,7 @@ permalink: /5xx.html
 
     <p class="lead text-center">Something went wrong on the server!</p>
 
-    <img class="img-center img-responsive" src="/img/golfclash/other/BrokenClub-thumb.png">
+    <img class="img-center img-responsive" src="/img/golfclash/other/BrokenClub-bw-400x165.png">
 
   </div>
 

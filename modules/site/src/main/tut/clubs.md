@@ -25,7 +25,7 @@ position: 40
         </div>
         <div class="panel-body">
           <a href="/clubs/drivers/">
-            <img class="img-responsive img-center" src="/img/golfclash/clubs/drivers-thumb.png">
+            <img class="img-responsive img-center" src="/img/golfclash/clubs/drivers-256x256.png">
           </a>
         </div>
       </div>
@@ -38,7 +38,7 @@ position: 40
         </div>
         <div class="panel-body">
           <a href="/clubs/woods/">
-            <img class="img-responsive img-center" src="/img/golfclash/clubs/woods-thumb.png">
+            <img class="img-responsive img-center" src="/img/golfclash/clubs/woods-256x256.png">
           </a>
         </div>
       </div>
@@ -51,7 +51,7 @@ position: 40
         </div>
         <div class="panel-body">
           <a href="/clubs/longirons/">
-            <img class="img-responsive img-center" src="/img/golfclash/clubs/longirons-thumb.png">
+            <img class="img-responsive img-center" src="/img/golfclash/clubs/longirons-256x256.png">
           </a>
         </div>
       </div>
@@ -64,7 +64,7 @@ position: 40
         </div>
         <div class="panel-body">
           <a href="/clubs/shortirons/">
-            <img class="img-responsive img-center" src="/img/golfclash/clubs/shortirons-thumb.png">
+            <img class="img-responsive img-center" src="/img/golfclash/clubs/shortirons-256x256.png">
           </a>
         </div>
       </div>
@@ -77,7 +77,7 @@ position: 40
         </div>
         <div class="panel-body">
           <a href="/clubs/wedges/">
-            <img class="img-responsive img-center" src="/img/golfclash/clubs/wedges-thumb.png">
+            <img class="img-responsive img-center" src="/img/golfclash/clubs/wedges-256x256.png">
           </a>
         </div>
       </div>
@@ -90,7 +90,7 @@ position: 40
         </div>
         <div class="panel-body">
           <a href="/clubs/roughirons/">
-            <img class="img-responsive img-center" src="/img/golfclash/clubs/roughirons-thumb.png">
+            <img class="img-responsive img-center" src="/img/golfclash/clubs/roughirons-256x256.png">
           </a>
         </div>
       </div>
@@ -103,7 +103,7 @@ position: 40
         </div>
         <div class="panel-body">
           <a href="/clubs/sandwedges/">
-            <img class="img-responsive img-center" src="/img/golfclash/clubs/sandwedges-thumb.png">
+            <img class="img-responsive img-center" src="/img/golfclash/clubs/sandwedges-256x256.png">
           </a>
         </div>
       </div>

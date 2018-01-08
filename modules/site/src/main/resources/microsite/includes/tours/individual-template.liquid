@@ -65,7 +65,7 @@ section: "tours"
         </div>
         <div class="col-md-4 col-xs-6 text-center">
           {% if page.three-stake-special-cost > 0 %}
-            <div class="text-large font-600"><img src="/img/golfclash/other/Gem-thumb.png"> {{ page.three-stake-special-cost }}</div>
+            <div class="text-large font-600"><img src="/img/golfclash/other/Gem-24x24.png"> {{ page.three-stake-special-cost }}</div>
           {% else %}
             <div class="text-large font-600">???</div>
           {% endif %}
@@ -111,7 +111,7 @@ section: "tours"
         <div class="club-recommendation-list">
           {% for club in page.clubs %}
             {% assign clubPath = club.name | remove: "The" | remove: " " | remove: "'" %}
-            <img class="club-recommendation-item" src="/img/golfclash/clubs/{{ clubPath }}.png" alt="{{ club.name }}">
+            <img class="club-recommendation-item" src="/img/golfclash/clubs/{{ clubPath }}-256x256.png" alt="{{ club.name }}">
             <div class="text-tiny text-center text-semi-muted">{{ club.name }}</div>
             {% if forloop.rindex > 1 %}
               <hr>

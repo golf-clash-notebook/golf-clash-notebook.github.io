@@ -1,6 +1,7 @@
 course-name: Santa Ventura
 holes:
-  - course: Santa Ventura
+  - id: 30a00d7f-7319-473d-8156-d3f933f853e4
+    course: Santa Ventura
     number: 1
     par: 3
     description: >
@@ -48,7 +49,8 @@ holes:
               <path d="M 223 799 L 199 194" stroke="black" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="0" />
               <circle cx="223" cy="799" r="6" fill="black" class="guide-point" data-guide-segment="0" />
               <circle cx="199" cy="194" r="6" fill="black" class="guide-point" data-guide-segment="1" />
-  - course: Santa Ventura
+  - id: 24fea90b-eadc-4a99-85b2-1efea61c6e85
+    course: Santa Ventura
     number: 2
     par: 4
     description: >
@@ -103,7 +105,8 @@ holes:
               <circle cx="154" cy="870" r="6" fill="black" class="guide-point" data-guide-segment="0" />
               <circle cx="154" cy="237" r="6" fill="black" class="guide-point" data-guide-segment="1" />
               <circle cx="217" cy="134" r="6" fill="black" class="guide-point" data-guide-segment="2" />
-  - course: Santa Ventura
+  - id: f9a598d5-e52b-476c-8e38-a8cb4bd7f76e
+    course: Santa Ventura
     number: 3
     par: 5
     description: >
@@ -165,7 +168,8 @@ holes:
               <circle cx="242" cy="622" r="6" fill="black" class="guide-point" data-guide-segment="1" />
               <circle cx="273" cy="463" r="6" fill="black" class="guide-point" data-guide-segment="2" />
               <circle cx="113" cy="149" r="6" fill="black" class="guide-point" data-guide-segment="3" />
-  - course: Santa Ventura
+  - id: 1906dee0-0a85-4adc-adbf-acaff2bc3f6f
+    course: Santa Ventura
     number: 4
     par: 4
     description: >
