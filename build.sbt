@@ -8,9 +8,9 @@ organizationName in ThisBuild := "Golf Clash Notebook"
 
 ////////////////////////////////////////////////////////////////////////////////
 val CatsV          = "1.0.1"
-val CatsEffectV    = "0.7"
+val CatsEffectV    = "0.8"
 val CirceV         = "0.9.0"
-val MonixV         = "3.0.0-M2"
+val MonixV         = "3.0.0-M3"
 val ScalaCheckV    = "1.13.5"
 val ScalaTagsV     = "0.6.7"
 val ScalaTestV     = "3.0.4"
