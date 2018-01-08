@@ -43,7 +43,7 @@ position: 65
     <br>
 
     {% if site.data.wind.resources != undefined and site.data.wind.resources != empty %}
-      <p class="lead text-center">Resources</p>
+      <hr class="hr-text text-large" data-content="Resources">
       <div class="list-group">
         {% for resource in site.data.wind.resources %}
 
