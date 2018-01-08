@@ -12,3 +12,8 @@ resources:
     url: https://youtu.be/SQOnUehCn6k
   - title: Golf Clash Tommy - Tour 11 Guides
     url: https://www.youtube.com/watch?v=-UH9ZYMr9a8&list=PL8bCSk5yWdFIBrU1zqwNSidZHCmS5UOpu
+entry-fee: 10000000
+max-trophies: 1000
+trophies-per-win: 38
+trophies-per-loss: 42
+three-stake-special-cost: 4167

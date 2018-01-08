@@ -5,8 +5,8 @@ courses:
   - name: Santa Ventura
   - name: Vineyard Acres
 clubs:
-- name: Sniper
 - name: Guardian
+- name: Sniper
 description: >
   Help Wanted
 resources:
@@ -20,3 +20,8 @@ resources:
     url: https://youtu.be/yVL9rzQkbeA
   - title: Golf Clash Tommy - Road To Glory - Episode 12
     url: https://youtu.be/N2w8hbImpB4
+entry-fee: 100000
+max-trophies: 600
+trophies-per-win: 20
+trophies-per-loss: 16
+three-stake-special-cost: 883
