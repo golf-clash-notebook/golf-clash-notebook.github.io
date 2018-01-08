@@ -29,11 +29,11 @@ position: 70
     <h1 class="gcn-page-header">Answers to the most common Golf Clash questions.</h1>
 
     {% for faqCategoryKey in sortedCategoryArray %}
-      {% assign faqCategory = site.data.faq[faqCategoryKey] %}
 
+      {% assign faqCategory = site.data.faq[faqCategoryKey] %}
       {% assign categoryId = faqCategory.category | remove: " " %}
 
-      <h3 id="{{ categoryId }}" class="faq-category-header text-center text-semi-muted">{{ faqCategory.category }}</h3>
+      <hr id="{{ categoryId }}" class="hr-text text-large" data-content="{{ faqCategory.category }}">
 
       {% for question in faqCategory.questions %}
         <h4 class="faq-question">{{ question.question }}</h4>
