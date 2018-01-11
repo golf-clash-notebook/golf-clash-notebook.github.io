@@ -1,4 +1,31 @@
 tournament-name: 1 Year Anniversary
-date:
+date: 2018-01-15
 resources:
 holes:
+  - number: 1
+    course: Namhae Cliffs
+    course-hole: 1
+  - number: 2
+    course: Namhae Cliffs
+    course-hole: 3
+  - number: 3
+    course: Greenoch Point
+    course-hole: 4
+  - number: 4
+    course: Sunshine Glades
+    course-hole: 3
+  - number: 5
+    course: Sunshine Glades
+    course-hole: 1
+  - number: 6
+    course: Southern Pines
+    course-hole: 1
+  - number: 7
+    course: Southern Pines
+    course-hole: 9
+  - number: 8
+    course: Southern Pines
+    course-hole: 3
+  - number: 9
+    course: The Oasis
+    course-hole: 3
