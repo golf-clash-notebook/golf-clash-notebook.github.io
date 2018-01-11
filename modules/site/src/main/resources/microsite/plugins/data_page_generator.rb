@@ -113,8 +113,11 @@ module Jekyll
             end
 
             records = records.select { |r| r[data_spec['filter']] } if data_spec['filter']
-            records.each do |record|
-              site.pages << DataPage.new(site, site.source, index_files, dir, record, name, template, extension, extra)
+
+            if !records.nil?
+              records.each do |record|
+                site.pages << DataPage.new(site, site.source, index_files, dir, record, name, template, extension, extra)
+              end
             end
           else
             puts "error. could not find template #{template}"

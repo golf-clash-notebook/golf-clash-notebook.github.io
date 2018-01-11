@@ -306,3 +306,11 @@ page_gen:
     extra:
       title-prefix: 'Christmas Tournament - Hole '
       tournament-name: 'Christmas'
+  - index_files: true
+    data: 'tournaments.1YearAnniversary.holes'
+    template: '_includes/tournaments/hole-template.liquid'
+    name: 'number'
+    dir: 'tournaments/1YearAnniversary'
+    extra:
+      title-prefix: '1 Year Anniversary Tournament - Hole '
+      tournament-name: '1 Year Anniversary'

@@ -8,68 +8,81 @@ section: "tournaments"
 
 <img class="img-responsive img-center" src="/img/golfclash/tournaments/titles/{{ tournamentPath }}.png">
 
-<h3 class="center-block text-center text-semi-muted">{{ page.date | date_to_long_string }}</h3>
+{% if page.date != undefined and page.date != empty %}
+  <h3 class="center-block text-center text-semi-muted">{{ page.date | date_to_long_string }}</h3>
+{% else %}
+  <h3 class="center-block text-center text-semi-muted">Coming Soon...</h3>
+  <!-- <h1 class="gcn-page-subheader text-center">Coming Soon...</h1> -->
+{% endif %}
 
 <br>
 
 <div class="row">
 
-  <div class="col-lg-8 col-md-8 col-sm-12">
+  {% if page.holes != undefined and page.holes != empty %}
 
-    {% assign numHoles = page.holes | size %}
+    <div class="col-lg-8 col-md-8 col-sm-12">
 
-    {% for hole in page.holes %}
+      {% assign numHoles = page.holes | size %}
 
-      {% assign holeCoursePath = hole.course | remove: " " %}
-      {% assign courseHoleIx = hole.course-hole | minus: 1 %}
+      {% for hole in page.holes %}
 
-      {% assign par = site.data.courses[holeCoursePath].holes[courseHoleIx].par %}
+        {% assign holeCoursePath = hole.course | remove: " " %}
+        {% assign courseHoleIx = hole.course-hole | minus: 1 %}
 
-      <div class="col-lg-4 col-md-4 col-sm-12 text-center">
-        <div class="panel panel-default">
-          <div class="panel-heading">
-            <a href="/tournaments/{{ tournamentPath }}/{{ hole.number }}/">
-              Hole {{ hole.number }} - Par {{ par }}
-            </a>
-          </div>
-          <div class="panel-body">
-            <a href="/tournaments/{{ tournamentPath }}/{{ hole.number }}/">
-              <img class="img-responsive img-center" src="/img/golfclash/courses/{{ holeCoursePath }}/{{ hole.course-hole }}-thumb.png">
-            </a>
+        {% assign par = site.data.courses[holeCoursePath].holes[courseHoleIx].par %}
+
+        <div class="col-lg-4 col-md-4 col-sm-12 text-center">
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <a href="/tournaments/{{ tournamentPath }}/{{ hole.number }}/">
+                Hole {{ hole.number }} - Par {{ par }}
+              </a>
+            </div>
+            <div class="panel-body">
+              <a href="/tournaments/{{ tournamentPath }}/{{ hole.number }}/">
+                <img class="img-responsive img-center" src="/img/golfclash/courses/{{ holeCoursePath }}/{{ hole.course-hole }}-thumb.png">
+              </a>
+            </div>
           </div>
         </div>
-      </div>
-
-    {% endfor %}
-
-  </div>
-
-  <div class="col-lg-4 col-md-4 col-sm-12">
-
-    <hr class="hr-text text-large" data-content="Resources">
-
-    <div class="list-group">
-      {% for resource in page.resources %}
-
-        {% capture resourceIcon %}
-          {% include resources/icon.liquid resource=resource iconSize='lg' %}
-        {% endcapture %}
-
-        <li class="list-group-item gcn-resource text-small"><a href="{{ resource.url }}" target="_blank" rel="noopener">{{ resourceIcon }} {{ resource.title }}</a></li>
 
       {% endfor %}
 
     </div>
 
-    <div class="text-center">
-      <div class="notesheet-link pad-12">
-        <a href="/img/golfclash/tournaments/notesheets/{{ tournamentPath }}.pdf" target="_blank" rel="noopener">
-          <span class="far fa-file-pdf fa-2x text-primary" aria-hidden="true"></span>
-          <span class="text-primary center-block">Note Sheet</span>
-        </a>
+    <div class="col-lg-4 col-md-4 col-sm-12">
+
+      <hr class="hr-text text-large" data-content="Resources">
+
+      <div class="list-group">
+        {% for resource in page.resources %}
+
+          {% capture resourceIcon %}
+            {% include resources/icon.liquid resource=resource iconSize='lg' %}
+          {% endcapture %}
+
+          <li class="list-group-item gcn-resource text-small"><a href="{{ resource.url }}" target="_blank" rel="noopener">{{ resourceIcon }} {{ resource.title }}</a></li>
+
+        {% endfor %}
+
       </div>
+
+      <div class="text-center">
+        <div class="notesheet-link pad-12">
+          <a href="/img/golfclash/tournaments/notesheets/{{ tournamentPath }}.pdf" target="_blank" rel="noopener">
+            <span class="far fa-file-pdf fa-2x text-primary" aria-hidden="true"></span>
+            <span class="text-primary center-block">Note Sheet</span>
+          </a>
+        </div>
+      </div>
+
     </div>
 
-  </div>
+  {% else %}
+    <div class="pad-16">
+      <img class="img-responsive img-center img-thumbnail" src="/img/ComingSoon.gif">
+    </div>
+  {% endif %}
 
 </div>
