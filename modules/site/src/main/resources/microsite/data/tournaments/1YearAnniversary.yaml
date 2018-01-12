@@ -1,6 +1,10 @@
 tournament-name: 1 Year Anniversary
 date: 2018-01-15
 resources:
+- title: Golf Clash Tommy - Rookie Guide
+  url: https://youtu.be/tAkLQZmftYw
+- title: Golf Clash Tommy - Pro / Expert Guide
+  url: https://youtu.be/pOJYJD_j0cQ
 holes:
   - number: 1
     course: Namhae Cliffs
