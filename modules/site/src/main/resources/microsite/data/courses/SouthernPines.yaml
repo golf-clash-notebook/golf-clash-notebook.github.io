@@ -21,10 +21,12 @@ holes:
         url: https://youtu.be/pQdEsFECspU
       - title: Golf Clash Tommy - Pro / Expert Guide
         url: https://youtu.be/wF0JpCaF3Rw
-      - title: Golf Clash Tommy - Rookie Guide
-        url: https://youtu.be/wFJOigxa9JA
-      - title: Golf Clash Tommy - Pro / Expert Guide
-        url: https://youtu.be/-UH9ZYMr9a8
+      - title: Golf Clash Tommy - Text Guide
+        url: https://i.imgur.com/HUOK6pA.png
+      # - title: Golf Clash Tommy - Rookie Guide
+        # url: https://youtu.be/wFJOigxa9JA
+      # - title: Golf Clash Tommy - Pro / Expert Guide
+        # url: https://youtu.be/-UH9ZYMr9a8
   - course: Southern Pines
     number: 2
     par: 3
@@ -125,10 +127,12 @@ holes:
         url: https://youtu.be/NAR7JRdqtJA
       - title: Golf Clash Tommy - Pro / Expert Guide
         url: https://youtu.be/2iyCvx3Afuw
-      - title: Golf Clash Tommy - Rookie Guide
-        url: https://youtu.be/kE1TNCK1_WM
-      - title: Golf Clash Tommy - Pro / Expert Guide
-        url: https://youtu.be/V3Rt5IjcSEA
+      - title: Golf Clash Tommy - Text Guide
+        url: https://i.imgur.com/f4pAF01.png
+#      - title: Golf Clash Tommy - Rookie Guide
+#        url: https://youtu.be/kE1TNCK1_WM
+#      - title: Golf Clash Tommy - Pro / Expert Guide
+#        url: https://youtu.be/V3Rt5IjcSEA
   - course: Southern Pines
     number: 4
     par: 5
@@ -447,7 +451,9 @@ holes:
         url: https://youtu.be/uZ_dALcr_qM
       - title: Golf Clash Tommy - Pro / Expert Guide
         url: https://youtu.be/sVUsLCNmGPw
-      - title: Golf Clash Tommy - Rookie Guide
-        url: https://youtu.be/MxFXNWyvfDo
-      - title: Golf Clash Tommy - Pro / Expert Guide
-        url: https://youtu.be/-Bavgs1SmGk
+      - title: Golf Clash Tommy - Text Guide
+        url: https://i.imgur.com/rw0doGq.jpg
+      # - title: Golf Clash Tommy - Rookie Guide
+        # url: https://youtu.be/MxFXNWyvfDo
+      # - title: Golf Clash Tommy - Pro / Expert Guide
+        # url: https://youtu.be/-Bavgs1SmGk
