@@ -18,12 +18,20 @@ holes:
           - Quarterback
           - Rock
     resources:
-      - title: Golf Clash Tommy - Pro / Expert Guide
-        url: https://youtu.be/D4UBnLSsOVI
       - title: Golf Clash Tommy - Rookie Guide
         url: https://youtu.be/_P-7r14EfHM
+      - title: Golf Clash Tommy - Pro / Expert Guide
+        url: https://youtu.be/D4UBnLSsOVI
       - title: Golf Clash Tommy - Text Guide
         url: https://i.imgur.com/vbCJGq9.png
+      - title: Kevin Warren - Rookie
+        url: https://youtu.be/V4tw3HvEqQI
+      - title: Kevin Warren - Pro / Expert
+        url: https://youtu.be/9MOFCKGt79c
+      - title: Zachary Jones - Rookie
+        url: https://youtu.be/72joVRC0X5E
+      - title: Zachary Jones - Pro / Expert
+        url: https://youtu.be/Hk0ucNkcAuI
       # - title: Golf Clash Tommy - Text Guide
       #   url: https://i.imgur.com/20UTitp.jpg
       # - title: Golf Clash Tommy - Pro / Expert Guide
@@ -166,6 +174,14 @@ holes:
         url: https://youtu.be/Y4QYL1QApeU
       - title: Golf Clash Tommy - Text Guide
         url: https://i.imgur.com/E2SFC2H.png
+      - title: Kevin Warren - Rookie
+        url: https://youtu.be/1qu-NmiTO6E
+      - title: Kevin Warren - Pro / Expert
+        url: https://youtu.be/2cnyxoTVUrE
+      - title: Zachary Jones - Rookie
+        url: https://youtu.be/gyXPg1YcGJA
+      - title: Zachary Jones - Pro / Expert
+        url: https://youtu.be/GB8RQ08Qv4M
       # - title: Golf Clash Tommy - Pro / Expert Guide
         # url: https://youtu.be/AOjxE7NUgSc
       # - title: Golf Clash Tommy - Text Guide
