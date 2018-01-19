@@ -1,6 +1,14 @@
 tournament-name: 1 Year Anniversary
 date: 2018-01-15
 resources:
+- title: Cam Alvesteffer - Opening Round
+  url: https://youtu.be/kFRnZGmvwdg
+- title: ItsRJTV - Opening Round
+  url: https://youtu.be/L8s63XodTXE
+- title: Golf Clash Tommy - Qualifying Round
+  url: https://youtu.be/lxkyVOMpBAY
+- title: ItsRJTV - Qualifying Round
+  url: https://youtu.be/1R6H9BDhJ7g
 - title: Golf Clash Tommy - Rookie Guide
   url: https://youtu.be/tAkLQZmftYw
 - title: Golf Clash Tommy - Pro / Expert Guide
@@ -9,8 +17,6 @@ resources:
   url: https://youtu.be/ItPDM8T1wnA
 - title: Golf Clash Tommy - Text Guides
   url: https://imgur.com/a/0626g
-- title: ItsRJTV - Qualifying Round
-  url: https://youtu.be/1R6H9BDhJ7g
 holes:
   - number: 1
     course: Namhae Cliffs
