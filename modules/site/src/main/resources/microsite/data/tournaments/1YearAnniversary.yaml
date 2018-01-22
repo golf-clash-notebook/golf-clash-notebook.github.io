@@ -1,15 +1,27 @@
 tournament-name: 1 Year Anniversary
 date: 2018-01-15
 resources:
-- title: Golf Clash Tommy - Opening Round
+- title: Golf Clash Tommy - Weekend Round (Masters)
+  url: https://youtu.be/ggUKMb7xyNg
+- title: Cam Alvesteffer - Weekend Round (Expert)
+  url: https://youtu.be/pH829X3ovNs
+- title: Cam Alvesteffer - Weekend Round (Pro)
+  url: https://youtu.be/T80LFd_aKOk
+- title: Zachary Jones - Weekend Round (Expert)
+  url: https://youtu.be/uNiHjeIkuEY
+- title: Golf Clash Tommy - Opening Round (Masters)
   url: https://youtu.be/XZ0imuNcDYY
-- title: Cam Alvesteffer - Opening Round
+- title: Cam Alvesteffer - Opening Round (Masters)
+  url: https://youtu.be/usxCv1FukyA
+- title: Cam Alvesteffer - Opening Round (Expert)
   url: https://youtu.be/kFRnZGmvwdg
-- title: ItsRJTV - Opening Round
+- title: Cam Alvesteffer - Opening Round (Pro)
+  url: https://youtu.be/iNjsYD0u9fI
+- title: ItsRJTV - Opening Round (Pro)
   url: https://youtu.be/L8s63XodTXE
-- title: Golf Clash Tommy - Qualifying Round
+- title: Golf Clash Tommy - Qualifying Round (Masters)
   url: https://youtu.be/lxkyVOMpBAY
-- title: ItsRJTV - Qualifying Round
+- title: ItsRJTV - Qualifying Round (Pro)
   url: https://youtu.be/1R6H9BDhJ7g
 - title: Golf Clash Tommy - Rookie Guide
   url: https://youtu.be/tAkLQZmftYw
