@@ -183,17 +183,15 @@
     rare: -1
     epic: -1
   silver:
-    total: -1
-    rare: -1
-    epic: -1
+    total: 41
+    rare: 1
   gold:
-    total: -1
-    rare: -1
-    epic: -1
+    total: 53
+    rare: 13
   platinum:
-    total: -1
-    rare: -1
-    epic: -1
+    total: 83
+    rare: 20
+    epic: 3
   king:
     total: -1
     rare: -1
