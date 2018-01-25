@@ -1,8 +1,8 @@
 ---
 layout: gcn-layout
 title:  "Club Ranker"
-section: "clubs"
-permalink: /clubs/ranker/
+section: "tools"
+permalink: /tools/clubranker/
 ---
 
 <div class="row">

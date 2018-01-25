@@ -8,7 +8,7 @@ position: 40
 
 <div class="row">
   <div class="col-xs-12 text-center">
-    <a href="/clubs/ranker/" class="btn btn-primary" role="button">Club Ranker</a>
+    <a href="/tools/clubranker/" class="btn btn-primary" role="button">Club Ranker</a>
   </div>
 </div>
 

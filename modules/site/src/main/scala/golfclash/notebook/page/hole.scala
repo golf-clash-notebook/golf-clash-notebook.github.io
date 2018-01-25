@@ -238,7 +238,7 @@ object hole {
         case Some(user) => {
           PageHoleData.map { data =>
             (data.id :: data.aliases)
-              .traverse(holeId => store.holeNotesForUser(user, holeId))
+              .traverse(holeId => store.notes.holeNotesForUser(user, holeId))
               .map(_.flatten.foreach(addNote))
               .runAsync
           }
@@ -284,7 +284,7 @@ object hole {
       CurrentHoleNote match {
         case Some(noteToUpdate) => {
           noteFromForm.map { newNote =>
-            store
+            store.notes
               .updateNote(
                 noteToUpdate.copy(
                   category = newNote.category,
@@ -299,7 +299,7 @@ object hole {
         }
         case None => {
           noteFromForm.map { newNote =>
-            store
+            store.notes
               .saveNote(newNote)
               .map { savedNote =>
                 addNote(savedNote)
@@ -340,7 +340,7 @@ object hole {
 
   def updateNote(note: HoleNote) = {
     note.id.map { id =>
-      store.updateNote(note)
+      store.notes.updateNote(note)
       jQuery(s""".gcn-hole-note[data-note-id="$id"]""").replaceWith(createNoteElement(note).render)
     }
 
@@ -357,7 +357,7 @@ object hole {
 
   def deleteNote(note: HoleNote) = {
     note.id.map { id =>
-      store
+      store.notes
         .deleteNote(note)
         .map { _ =>
           jQuery(s""".gcn-hole-note[data-note-id="$id"]""").remove()

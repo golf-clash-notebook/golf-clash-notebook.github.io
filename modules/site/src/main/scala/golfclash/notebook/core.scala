@@ -33,4 +33,30 @@ object core {
                       category: String,
                       content: String)
 
+  case class ClubRatings(clubId: String, levelRatings: List[Double])
+  case class HoleClubRatings(
+    holeId: String,
+    ratings: Map[String, List[Double]]
+  ) {
+    def update(club: Club, level: Int, rating: Double): HoleClubRatings = {
+      val newRatings =
+        ratings
+          .get(club.id)
+          .map { oldRatings: List[Double] =>
+            ratings.updated(club.id, oldRatings.updated(level - 1, rating))
+          }
+          .getOrElse {
+            ratings.updated(
+              club.id,
+              List.tabulate(club.maxLevel)(ix => if (ix + 1 == level) rating else elo.InitialRating)
+            )
+          }
+
+      copy(ratings = newRatings)
+    }
+  }
+
+  object HoleClubRatings {
+    def empty(holeId: String) = HoleClubRatings(holeId, Map.empty[String, List[Double]])
+  }
 }

@@ -34,6 +34,7 @@ import monix.eval.Task
 import monix.execution.Scheduler.Implicits.global
 
 case class Club(
+  id: String,
   name: String,
   description: String,
   power: List[Int],
@@ -60,7 +61,7 @@ object Club {
     case object RoughIrons extends Category("RoughIrons")
     case object SandWedges extends Category("SandWedges")
 
-    private[this] val All =
+    val All =
       List(Drivers, Woods, LongIrons, ShortIrons, Wedges, RoughIrons, SandWedges)
 
     def fromString(category: String): Option[Category] = {
@@ -86,9 +87,9 @@ object Club {
       roughIrons <- RoughIrons
       sandWedges <- SandWedges
     } yield drivers ::: woods ::: longIrons ::: shortIrons ::: wedges ::: roughIrons ::: sandWedges
-  }
+  }.memoizeOnSuccess
 
-  private def loadClubs(category: Category): Task[List[Club]] =
+  def loadClubs(category: Category): Task[List[Club]] =
     Task
       .fromFuture(
         Ajax.get(s"/data/clubs/${category.name.toLowerCase}.json").map { s: XMLHttpRequest =>

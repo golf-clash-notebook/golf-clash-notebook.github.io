@@ -1,4 +1,5 @@
-- name: The Roughcutter
+- id: 9450a048-3278-49b9-b7e1-75dfbb8aa86a
+  name: The Roughcutter
   description: >
     The Roughcutter is an okay way to start your long lived affair with the rough. While it really
     lacks distance, the accuracy is good enough to get you where you need to be and knock in a few
@@ -9,7 +10,8 @@
   backspin:  [  0,   0,   0,   0,   6,   6,  20,  20]
   curl:      [ 15,  15,  36,  36,  51,  51,  59,  59]
   ballguide: [1.3, 1.9, 2.0, 2.4, 2.4, 2.8, 3.4, 3.6]
-- name: The Junglist
+- id: 19baa92d-125c-4837-aa4b-6b33fc82eb6f
+  name: The Junglist
   description: >
     While The Junglist has plenty of extra distance, the accuracy should give you pause since you
     can quickly end up in the rough for your next shot too if you're not careful. Chances are that
@@ -21,7 +23,8 @@
   backspin:  [ 30,  30,  36,  50,  57,  57,  72]
   curl:      [ 60,  67,  90,  90, 100, 100, 100]
   ballguide: [1.4, 1.8, 1.8, 2.4, 2.4, 2.8, 3.1]
-- name: The Machete
+- id: db327b65-9f5c-4ad9-80f3-2ca867380527
+  name: The Machete
   description: >
     This is a situational club for sure. Save it for tournament holes where you may end up in the
     rough up by the hole but back spin is a must in order to put it close to the hole (e.g.
@@ -33,7 +36,8 @@
   backspin:  [ 50,  56,  56,  72,  72,  78,  84,  84, 100, 100]
   curl:      [ 10,  10,  23,  23,  23,  43,  43,  57,  57,  71]
   ballguide: [1.0, 1.5, 1.5, 1.7, 2.2, 2.2, 2.2, 2.4, 2.4, 2.9]
-- name: The Off Roader
+- id: 40230c1a-93ba-4c2f-9adc-4eea5d585ec8
+  name: The Off Roader
   description: >
     The Off Roader is not a bad option if you manage to unlock it early. Compared to The
     Roughcutter, you get a lot more distance at the cost of accuracy with a nice bump in ball guide,
@@ -45,7 +49,8 @@
   backspin:  [ 40,  40,  53,  53,  67,  67,  82]
   curl:      [ 30,  30,  30,  54,  54,  54,  54]
   ballguide: [2.7, 3.0, 3.2, 3.2, 3.4, 4.1, 4.3]
-- name: The Razor
+- id: 5b0b8e3c-eac0-486b-be54-3a7a7d32f3c1
+  name: The Razor
   description: >
     The Razor is a very popular choice because of it's combination of accuracy and ball guide. With
     those two components, you have all you need to knock it in the hole from the rough. Just be
@@ -57,7 +62,8 @@
   backspin:  [ 10,  28,  28,  40,  46,  66,  66,  73]
   curl:      [  0,   0,   7,  29,  44,  44,  60,  60]
   ballguide: [3.1, 3.3, 3.8, 3.8, 3.8, 4.2, 4.2, 4.2]
-- name: The Amazon
+- id: 894145ab-d321-45a4-94b2-2490a140d249
+  name: The Amazon
   description: >
     Use The Amazon when distance out of the rough is the absolute most important thing you need.
     You'll have plenty of distance from the start and the top spin gives it an edge over any other
@@ -69,7 +75,8 @@
   backspin:  [ 60,  60,  79,  79,  86, 100, 100]
   curl:      [ 64,  64,  64,  80,  80,  80, 100]
   ballguide: [1.0, 1.2, 1.2, 1.8, 1.8, 2.2, 2.5]
-- name: Nirvana
+- id: 07fd10d8-198c-4c9e-bfd0-cbef5647be70
+  name: Nirvana
   description: >
     This is the rough iron that you should be aiming to get and build up. At level 4, there's a good
     chance it'll be the best all around choice. At level 5, you'll get another big bump and it

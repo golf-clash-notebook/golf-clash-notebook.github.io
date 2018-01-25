@@ -1,0 +1,9 @@
+---
+layout: null
+---
+
+[
+  {% for course in site.data.courses %}
+    "{{ course[1].course-name }}"{% if forloop.rindex > 1 %},{% endif %}
+  {% endfor %}
+]

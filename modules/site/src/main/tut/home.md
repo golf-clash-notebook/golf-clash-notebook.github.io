@@ -73,7 +73,7 @@ position: 0
       <p class="feature-description text-small text-semi-muted">
         Completely customizable ranking tool will show you which clubs you should be using on the course.
       </p>
-      <a href="/clubs/ranker/" class="btn btn-primary feature-link" role="button">Check it Out</a>
+      <a href="/tools/clubranker/" class="btn btn-primary feature-link" role="button">Check it Out</a>
     </div>
   </div>
 

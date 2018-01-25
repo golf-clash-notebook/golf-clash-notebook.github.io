@@ -1,4 +1,5 @@
-- name: The Horizon
+- id: 994535d6-e687-47cb-b1eb-e3762dd15fa0
+  name: The Horizon
   description: >
     Chances are you'll never use this club. It's not good at the lower levels and it's an epic,
     which means that by the time you manage to get enough cards to make it a mediocre club, you'll
@@ -9,7 +10,8 @@
   backspin:  [  0,  11,  11,  11,  24,  31,  31]
   curl:      [ 40,  40,  58,  64,  64,  64,  85]
   ballguide: [2.5, 3.1, 3.1, 3.5, 3.7, 3.7, 3.9]
-- name: The Viper
+- id: dc431baa-c088-42f1-80fd-3dff1cd5dc52
+  name: The Viper
   description: >
     You'll likely be using The Viper through the first 5 tours. It's a common which means you can
     level it up quickly and the stats, while not great, are also not terrible. It's more accurate
@@ -21,7 +23,8 @@
   backspin:  [ 20,  20,  30,  30,  30,  35,  35,  51,  51,  62]
   curl:      [ 10,  20,  20,  36,  36,  46,  46,  51,  67,  67]
   ballguide: [1.9, 2.0, 2.0, 2.4, 2.9, 2.9, 3.2, 3.2, 3.4, 3.9]
-- name: The Big Dawg
+- id: 8a766c85-a3a4-4d41-9836-2e175e422697
+  name: The Big Dawg
   description: >
     The distance here is really good at the cost of poor accuracy and ball guide. Work on seeing
     how the ball bounces with spin applied and you can use the Big Dawg very effectively. It's a
@@ -33,7 +36,8 @@
   backspin:  [ 10,  10,  26,  26,  38,  44,  44,  50]
   curl:      [ 50,  66,  66,  77,  77,  95, 100, 100]
   ballguide: [1.3, 1.5, 1.5, 2.1, 2.3, 2.3, 2.3, 2.9]
-- name: The Hammerhead
+- id: 70c32755-0b0d-493c-ba46-619e13da67e8
+  name: The Hammerhead
   description: >
     The first wood on the tour progression that has decent accuracy. On the down side, it's an epic
     and will take a long time to level up. This could definitely be an option for you earlier in the
@@ -44,7 +48,8 @@
   backspin:  [ 20,  31,  31,  50,  50,  63,  70]
   curl:      [ 65,  65,  71,  71,  77,  77,  98]
   ballguide: [2.7, 3.2, 3.2, 3.4, 3.9, 4.1, 4.1]
-- name: The Guardian
+- id: 7877ab7c-4c7c-4a9b-aed8-5552eecebb73
+  name: The Guardian
   description: >
     Backspin is the obvious stat that sticks out on this club and it's extremely useful in
     Tour 7 and 8 shootouts. It's <em>highly</em> recommended that you at least try it out on
@@ -57,7 +62,8 @@
   backspin:  [ 77,  82,  82,  82,  82, 100, 100, 100]
   curl:      [ 20,  20,  31,  31,  48,  48,  48,  67]
   ballguide: [1.9, 2.4, 2.6, 3.0, 3.0, 3.2, 3.8, 3.8]
-- name: The Sniper
+- id: 7caab84b-c86b-4bc6-8089-df90b67b2002
+  name: The Sniper
   description: >
     This is the other option typically used in Tours 7 and 8 for those people who love accuracy and
     ball guide. This club is hands down the best in those two areas. It's also one of the worst
@@ -70,7 +76,8 @@
   backspin:  [  0,   0,  10,  26,  31,  41,  46,  62,  73,  73]
   curl:      [ 23,  33,  48,  48,  59,  74,  74,  85,  85,  95]
   ballguide: [3.7, 3.8, 3.8, 4.0, 4.0, 4.0, 4.5, 4.5, 4.5, 4.5]
-- name: The Cataclysm
+- id: bc20f457-4fe9-4818-b95a-8c00f343ad63
+  name: The Cataclysm
   description: >
     This is usually considered one of the 'Big 3' clubs that you should unlock in the shop if you're
     lucky enough to have it show up. While it's not all that impressive to start with, it gets
@@ -84,7 +91,8 @@
   backspin:  [ 50,  50,  56,  56,  56,  76,  76]
   curl:      [ 73,  84,  84, 100, 100, 100, 100]
   ballguide: [2.4, 2.4, 2.8, 3.0, 3.6, 3.8, 4.3]
-- name: Golden Wood
+- id: ba107054-cd31-4be8-b42e-b4089f6f3ed2
+  name: Golden Wood
   description: >
     This is the wood you'll get in the Golden Shot mini-game. Kind of a mix between an
     entry level Guardian and a mid level Viper.
