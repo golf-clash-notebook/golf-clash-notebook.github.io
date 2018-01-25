@@ -1,7 +1,7 @@
 - name: The Grim Reaper
   description: >
     The lack of distance means that by the time you manage to max it and make it a mediocre club,
-    you will definately have better option available. The only time you should be playing with the
+    you will definitely have better option available. The only time you should be playing with the
     Grim Reaper is if your only other option is the Beginner Long Iron.
   power:     [115, 115, 115, 115, 115, 116, 116]
   accuracy:  [ 30,  30,  42,  60,  60,  60,  81]

@@ -10,14 +10,15 @@ holes:
       - level: Rookie
         clubs:
           - Viper
+          - Sniper
       - level: Pro
         clubs:
           - Sniper
-          - Guardian
+          - Quarterback
       - level: Masters
         clubs:
           - Quarterback
-          - Rock
+          - Thor's Hammer
     resources:
       - title: Golf Clash Tommy - Rookie Guide
         url: https://youtu.be/_P-7r14EfHM
@@ -42,10 +43,12 @@ holes:
       guides:
       - name: White Path
         text: >
-          Many people will drop into the water on this one even if it looks like an easy hole.
-          The wind will have a greater effect on your ball so adjust for about 20% more wind than
-          you see. With a headwind you shouldn't use much backspin at all as the ball will
-          basically stop when it hits the ground.
+          A really tough Par 3 where many people will drop into the water. Just focus on getting
+          your ball onto the green. With tailwind or sidewind you should use 4-5 bars of backspin.
+          With headwind, you should use a <strong>MAX</strong> of 1 bar of backspin because when
+          your ball hits the ground it will basically stop and bounce down into the creek. When
+          adjusting for the wind, you <strong>NEED to adjust for around 15-20% more than you
+          normally do due to the elevation change.</strong>
         levels:
           - name: Rookie
             svg:
@@ -160,16 +163,17 @@ holes:
     clubRecommendations:
       - level: Rookie
         clubs:
-          - Big Dawg
-          - Viper
+          - Big Topper
+          - Extra Mile
       - level: Pro
         clubs:
-          - Big Dawg
-          - Sniper
-          - Cataclysm
+          - Thor's Hammer
+          - Extra Mile
+          - Apocalypse
       - level: Masters
         clubs:
-          - Cataclysm
+          - Thor's Hammer
+          - Apocalypse
     resources:
       - title: Golf Clash Tommy - Pro / Expert Guide
         url: https://youtu.be/_sQZcTwr7yQ
@@ -194,8 +198,10 @@ holes:
       guides:
       - name: White Path
         text: >
-          With side or tail wind this is the preferred way to play. Max topspin and a wide fairway
-          should leave you with a second shot to the green.
+          With tailwind or sidewind (or if you're not comfortable with the black path), use this
+          approach. Use as much power and topspin as possible on your drive. You'll need to get as
+          far as you can to be able to reach the green with your second shot. You'll want to put a
+          wood with a lot of distance in your bag as well.
         levels:
           - name: Rookie
             svg:
@@ -218,41 +224,67 @@ holes:
               <circle cx="410" cy="918" r="6" fill="white" class="guide-point" data-guide-segment="0" />
               <circle cx="186" cy="343" r="6" fill="white" class="guide-point" data-guide-segment="1" />
               <circle cx="422" cy="160" r="6" fill="white" class="guide-point" data-guide-segment="2" />
-      - name: Yellow Path
+      - name: Black Path
         text: >
-          With a good tailwind you can bounce your drive on the island and hop over to the next
-          fairway for a better chance at the albatross. With a stiff headwind that limits your
-          distance on the left side, you can use about 4 bars of backspin and layup on the island
-          fairway. Hitting your second shot from the island is way downhill so the wind will have
-          a <strong>MUCH</strong> bigger effect on your ball.
+          With sidewind or headwind you can aim at the beginning of the island. Use max backspin to
+          make your ball stop before it hits the rough on the far side of the island. From there,
+          you'll have a wood into the green. <strong>The second shot wind adjustment should be
+          about 25-30% more due to the elevation change.</strong>
         levels:
           - name: Rookie
             svg:
-              <path d="M 388 827 L 450 431" stroke="yellow" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="0" />
-              <path d="M 450 431 L 483 274" stroke="yellow" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="1" />
-              <path d="M 483 274 L 479 144" stroke="yellow" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="2" />
-              <circle cx="388" cy="827" r="6" fill="yellow" class="guide-point" data-guide-segment="0" />
-              <circle cx="450" cy="431" r="6" fill="yellow" class="guide-point" data-guide-segment="1" />
-              <circle cx="483" cy="274" r="6" fill="yellow" class="guide-point" data-guide-segment="2" />
-              <circle cx="479" cy="144" r="6" fill="yellow" class="guide-point" data-guide-segment="3" />
+              <path d="M 388 827 L 461 409" stroke="black" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="0" />
+              <path d="M 461 409 L 481 138" stroke="black" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="1" />
+              <circle cx="388" cy="827" r="6" fill="black" class="guide-point" data-guide-segment="0" />
+              <circle cx="461" cy="409" r="6" fill="black" class="guide-point" data-guide-segment="1" />
+              <circle cx="481" cy="138" r="6" fill="black" class="guide-point" data-guide-segment="2" />
           - name: Pro
             svg:
-              <path d="M 403 869 L 450 431" stroke="yellow" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="0" />
-              <path d="M 450 431 L 483 274" stroke="yellow" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="1" />
-              <path d="M 483 274 L 479 144" stroke="yellow" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="2" />
-              <circle cx="403" cy="869" r="6" fill="yellow" class="guide-point" data-guide-segment="0" />
-              <circle cx="450" cy="431" r="6" fill="yellow" class="guide-point" data-guide-segment="1" />
-              <circle cx="483" cy="274" r="6" fill="yellow" class="guide-point" data-guide-segment="2" />
-              <circle cx="479" cy="144" r="6" fill="yellow" class="guide-point" data-guide-segment="3" />
+              <path d="M 403 869 L 461 409" stroke="black" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="0" />
+              <path d="M 461 409 L 481 138" stroke="black" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="1" />
+              <circle cx="403" cy="869" r="6" fill="black" class="guide-point" data-guide-segment="0" />
+              <circle cx="461" cy="409" r="6" fill="black" class="guide-point" data-guide-segment="1" />
+              <circle cx="481" cy="138" r="6" fill="black" class="guide-point" data-guide-segment="2" />
           - name: Masters
             svg:
-              <path d="M 410 918 L 450 431" stroke="yellow" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="0" />
-              <path d="M 450 431 L 483 274" stroke="yellow" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="1" />
-              <path d="M 483 274 L 479 144" stroke="yellow" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="2" />
-              <circle cx="410" cy="918" r="6" fill="yellow" class="guide-point" data-guide-segment="0" />
-              <circle cx="450" cy="431" r="6" fill="yellow" class="guide-point" data-guide-segment="1" />
-              <circle cx="483" cy="274" r="6" fill="yellow" class="guide-point" data-guide-segment="2" />
-              <circle cx="479" cy="144" r="6" fill="yellow" class="guide-point" data-guide-segment="3" />
+              <path d="M 410 918 L 461 409" stroke="black" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="0" />
+              <path d="M 461 409 L 481 138" stroke="black" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="1" />
+              <circle cx="410" cy="918" r="6" fill="black" class="guide-point" data-guide-segment="0" />
+              <circle cx="461" cy="409" r="6" fill="black" class="guide-point" data-guide-segment="1" />
+              <circle cx="481" cy="138" r="6" fill="black" class="guide-point" data-guide-segment="2" />
+      - name: Blue Path
+        text: >
+          With a tailwind you can get more aggresive and use max topspin to bounce on the island
+          and over to the next fairway. With a lot of tailwind and a lot of topspin, you may be
+          able to get the ball to the green.
+        levels:
+          - name: Rookie
+            svg:
+              <path d="M 388 827 L 450 431" stroke="blue" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="0" />
+              <path d="M 450 431 L 483 274" stroke="blue" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="1" />
+              <path d="M 483 274 L 468 144" stroke="blue" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="2" />
+              <circle cx="388" cy="827" r="6" fill="blue" class="guide-point" data-guide-segment="0" />
+              <circle cx="450" cy="431" r="6" fill="blue" class="guide-point" data-guide-segment="1" />
+              <circle cx="483" cy="274" r="6" fill="blue" class="guide-point" data-guide-segment="2" />
+              <circle cx="468" cy="144" r="6" fill="blue" class="guide-point" data-guide-segment="3" />
+          - name: Pro
+            svg:
+              <path d="M 403 869 L 450 431" stroke="blue" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="0" />
+              <path d="M 450 431 L 483 274" stroke="blue" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="1" />
+              <path d="M 483 274 L 468 144" stroke="blue" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="2" />
+              <circle cx="403" cy="869" r="6" fill="blue" class="guide-point" data-guide-segment="0" />
+              <circle cx="450" cy="431" r="6" fill="blue" class="guide-point" data-guide-segment="1" />
+              <circle cx="483" cy="274" r="6" fill="blue" class="guide-point" data-guide-segment="2" />
+              <circle cx="468" cy="144" r="6" fill="blue" class="guide-point" data-guide-segment="3" />
+          - name: Masters
+            svg:
+              <path d="M 410 918 L 450 431" stroke="blue" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="0" />
+              <path d="M 450 431 L 483 274" stroke="blue" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="1" />
+              <path d="M 483 274 L 468 144" stroke="blue" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="2" />
+              <circle cx="410" cy="918" r="6" fill="blue" class="guide-point" data-guide-segment="0" />
+              <circle cx="450" cy="431" r="6" fill="blue" class="guide-point" data-guide-segment="1" />
+              <circle cx="483" cy="274" r="6" fill="blue" class="guide-point" data-guide-segment="2" />
+              <circle cx="468" cy="144" r="6" fill="blue" class="guide-point" data-guide-segment="3" />
   - id: b36bd13b-7845-4963-bd11-08c127f504fb
     course: Namhae Cliffs
     number: 4
@@ -375,7 +407,7 @@ holes:
         text: >
           Going short or long on this one are both punished. The bunker sits in front and the green
           slopes front to back just beyond the pin. Use 3 bars of backspin from the second tee and
-          no more than 0.5 bars of backspin from the first tee. Definately an opportunity for a
+          no more than 0.5 bars of backspin from the first tee. Definitely an opportunity for a
           hole in one.
         levels:
           - name: Rookie
