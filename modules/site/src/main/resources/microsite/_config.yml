@@ -314,3 +314,11 @@ page_gen:
     extra:
       title-prefix: '1 Year Anniversary Tournament - Hole '
       tournament-name: '1 Year Anniversary'
+  - index_files: true
+    data: 'tournaments.Touchdown.holes'
+    template: '_includes/tournaments/hole-template.liquid'
+    name: 'number'
+    dir: 'tournaments/Touchdown'
+    extra:
+      title-prefix: 'Touchdown Tournament - Hole '
+      tournament-name: 'Touchdown'
