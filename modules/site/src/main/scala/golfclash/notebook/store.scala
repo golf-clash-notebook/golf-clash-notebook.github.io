@@ -42,105 +42,188 @@ object store {
       .firestore()
   }
 
-  def holeCollection(holeId: String) = {
-    db.collection("notes")
-      .doc(holeId)
-      .collection(holeId)
-  }
+  object notes {
 
-  def holeNotesForUser(user: User, holeId: String): Task[List[HoleNote]] = {
-
-    val promise = ScalaPromise[List[HoleNote]]()
-
-    holeCollection(holeId)
-      .where("userId", "==", user.uid)
-      .get()
-      .`then`(
-        querySnapshot => {
-          promise.success(
-            // TODO: Error handling!! For now we're just throwing away failed decodings...
-            querySnapshot.docs
-              .map(docSnapshot => decodeJs[HoleNote](docSnapshot.data()))
-              .toList
-              .collect { case Right(note) => note }
-          )
-        },
-        error => promise.failure(new RuntimeException(error.message))
-      )
-
-    Task.fromFuture(promise.future)
-  }
-
-  def saveNote(note: HoleNote): Task[HoleNote] = {
-
-    val promise = ScalaPromise[HoleNote]()
-
-    val newId  = java.util.UUID.randomUUID.toString
-    val toSave = note.copy(id = Some(newId))
-
-    holeCollection(note.holeId)
-      .add(toSave.asJson.asJsAny)
-      .`then`(
-        _ => promise.success(toSave),
-        error => promise.failure(new RuntimeException(error.message))
-      )
-
-    Task.fromFuture(promise.future)
-  }
-
-  def updateNote(note: HoleNote): Task[HoleNote] = {
-
-    val promise = ScalaPromise[HoleNote]()
-
-    note.id match {
-      case Some(noteId) => {
-        holeCollection(note.holeId)
-          .where("id", "==", noteId)
-          .get()
-          .`then`(
-            querySnapshot => {
-              querySnapshot.docs.foreach { docSnapshot =>
-                docSnapshot.ref.update(note.asJson.asJsAny)
-              }
-
-              promise.success(note)
-            },
-            error => promise.failure(new RuntimeException(error.message))
-          )
-      }
-      case None => {
-        promise.failure(new RuntimeException("Can't update a note with no ID!"))
-      }
+    def holeCollection(holeId: String) = {
+      db.collection("notes")
+        .doc(holeId)
+        .collection(holeId)
     }
 
-    Task.fromFuture(promise.future)
-  }
+    def holeNotesForUser(user: User, holeId: String): Task[List[HoleNote]] = {
 
-  def deleteNote(note: HoleNote): Task[Unit] = {
-    val promise = ScalaPromise[Unit]()
+      val promise = ScalaPromise[List[HoleNote]]()
 
-    note.id match {
-      case Some(noteId) => {
-        holeCollection(note.holeId)
-          .where("id", "==", noteId)
-          .get()
-          .`then`(
-            querySnapshot => {
-              querySnapshot.docs.foreach { docSnapshot =>
-                docSnapshot.ref.delete()
-              }
+      holeCollection(holeId)
+        .where("userId", "==", user.uid)
+        .get()
+        .`then`(
+          querySnapshot => {
+            promise.success(
+              // TODO: Error handling!! For now we're just throwing away failed decodings...
+              querySnapshot.docs
+                .map(docSnapshot => decodeJs[HoleNote](docSnapshot.data()))
+                .toList
+                .collect { case Right(note) => note }
+            )
+          },
+          error => promise.failure(new RuntimeException(error.message))
+        )
 
-              promise.success(())
-            },
-            error => promise.failure(new RuntimeException(error.message))
-          )
-      }
-      case None => {
-        promise.failure(new RuntimeException("Can't delete a note with no ID!"))
-      }
+      Task.fromFuture(promise.future)
     }
 
-    Task.fromFuture(promise.future)
+    def saveNote(note: HoleNote): Task[HoleNote] = {
+
+      val promise = ScalaPromise[HoleNote]()
+
+      val newId  = java.util.UUID.randomUUID.toString
+      val toSave = note.copy(id = Some(newId))
+
+      holeCollection(note.holeId)
+        .add(toSave.asJson.asJsAny)
+        .`then`(
+          _ => promise.success(toSave),
+          error => promise.failure(new RuntimeException(error.message))
+        )
+
+      Task.fromFuture(promise.future)
+    }
+
+    def updateNote(note: HoleNote): Task[HoleNote] = {
+
+      val promise = ScalaPromise[HoleNote]()
+
+      note.id match {
+        case Some(noteId) => {
+          holeCollection(note.holeId)
+            .where("id", "==", noteId)
+            .get()
+            .`then`(
+              querySnapshot => {
+                querySnapshot.docs.foreach { docSnapshot =>
+                  docSnapshot.ref.update(note.asJson.asJsAny)
+                }
+
+                promise.success(note)
+              },
+              error => promise.failure(new RuntimeException(error.message))
+            )
+        }
+        case None => {
+          promise.failure(new RuntimeException("Can't update a note with no ID!"))
+        }
+      }
+
+      Task.fromFuture(promise.future)
+    }
+
+    def deleteNote(note: HoleNote): Task[Unit] = {
+      val promise = ScalaPromise[Unit]()
+
+      note.id match {
+        case Some(noteId) => {
+          holeCollection(note.holeId)
+            .where("id", "==", noteId)
+            .get()
+            .`then`(
+              querySnapshot => {
+                querySnapshot.docs.foreach { docSnapshot =>
+                  docSnapshot.ref.delete()
+                }
+
+                promise.success(())
+              },
+              error => promise.failure(new RuntimeException(error.message))
+            )
+        }
+        case None => {
+          promise.failure(new RuntimeException("Can't delete a note with no ID!"))
+        }
+      }
+
+      Task.fromFuture(promise.future)
+    }
+
   }
 
+  object crowdcaddy {
+
+    def ratingsForHole(holeId: String): Task[Option[HoleClubRatings]] = {
+      val promise = ScalaPromise[Option[HoleClubRatings]]()
+
+      db.collection("crowdcaddy")
+        .doc(holeId)
+        .get()
+        .`then`(
+          docSnapshot => {
+            if (docSnapshot.exists) {
+              promise.success(decodeJs[HoleClubRatings](docSnapshot.data()).toOption)
+            } else {
+              promise.success(None)
+            }
+          },
+          error => promise.failure(new RuntimeException(error.message))
+        )
+
+      Task.fromFuture(promise.future)
+    }
+
+    def storeHoleRatings(holeId: String, clubsRatings: HoleClubRatings): Task[Unit] = {
+      val promise = ScalaPromise[Unit]()
+
+      db.collection("crowdcaddy")
+        .doc(holeId)
+        .set(clubsRatings.asJson.asJsAny)
+        .`then`(
+          _ => promise.success(()),
+          error => promise.failure(new RuntimeException(error.message))
+        )
+
+      Task.fromFuture(promise.future)
+    }
+
+  }
+
+  object holeranker {
+
+    // Simple wrapper around rating to create a JS object
+    private case class HoleRankerRating(rating: Double)
+
+    def ratingForHole(holeId: String): Task[Option[Double]] = {
+      val promise = ScalaPromise[Option[Double]]()
+
+      db.collection("holeranker")
+        .doc(holeId)
+        .get()
+        .`then`(
+          docSnapshot => {
+            if (docSnapshot.exists) {
+              promise.success(decodeJs[HoleRankerRating](docSnapshot.data()).toOption.map(_.rating))
+            } else {
+              promise.success(None)
+            }
+          },
+          error => promise.failure(new RuntimeException(error.message))
+        )
+
+      Task.fromFuture(promise.future)
+    }
+
+    def storeHoleRating(holeId: String, rating: Double): Task[Unit] = {
+      val promise = ScalaPromise[Unit]()
+
+      db.collection("holeranker")
+        .doc(holeId)
+        .set(HoleRankerRating(rating).asJson.asJsAny)
+        .`then`(
+          _ => promise.success(()),
+          error => promise.failure(new RuntimeException(error.message))
+        )
+
+      Task.fromFuture(promise.future)
+
+    }
+
+  }
 }

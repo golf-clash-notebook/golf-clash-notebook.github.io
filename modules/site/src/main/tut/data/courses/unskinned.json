@@ -1,0 +1,11 @@
+---
+layout: null
+---
+
+{% assign courses = site.data.courses | where: "skinned", "false" %}
+
+[
+  {% for course in courses %}
+    "{{ course.course-name }}"{% if forloop.rindex > 1 %},{% endif %}
+  {% endfor %}
+]

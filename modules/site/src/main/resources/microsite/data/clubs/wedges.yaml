@@ -1,4 +1,5 @@
-- name: The Dart
+- id: 614617c3-dcce-424b-8fdd-748ff265684b
+  name: The Dart
   description: >
     The first wedge that you'll unlock and use for the first few tours. It's certainly nothing
     special but the next 2 tours have epic wedges so you'll likely be stuck with this guy for
@@ -9,7 +10,8 @@
   backspin:  [  0,   0,   9,   9,  23,  23,  32,  32,  32,  47]
   curl:      [ 10,  10,  10,  19,  19,  28,  54,  54,  72,  72]
   ballguide: [1.7, 1.9, 2.1, 2.5, 2.5, 2.8, 2.8, 3.0, 3.0, 3.3]
-- name: The Firefly
+- id: e51cbd86-22f3-445c-87d0-8d5e09269237
+  name: The Firefly
   description: >
     When you get The Firefly unlocked there's a decent chance that it will be the best option at
     least until you can level up your Skewer. The main selling points are the top spin and ball
@@ -22,7 +24,8 @@
   backspin:  [  5,  15,  15,  15,  27,  45,  51]
   curl:      [ 20,  29,  29,  61,  61,  83,  83]
   ballguide: [3.2, 3.6, 3.8, 4.1, 4.1, 4.1, 4.5]
-- name: The Boomerang
+- id: 297ad32b-4d67-42ad-bdb0-eaf8fbfc0e6c
+  name: The Boomerang
   description: >
     Arguably the worst club in the game. Not the worst wedge...the worst club. So if you were
     thinking about using this club, save yourself some agony and don't.
@@ -32,7 +35,8 @@
   backspin:  [ 79,  79,  95,  95, 100, 100, 100]
   curl:      [ 64,  83,  83,  83, 100, 100, 100]
   ballguide: [1.9, 2.1, 2.2, 2.7, 2.7, 3.3, 3.6]
-- name: The DownInOne
+- id: 23e3d2e9-a24b-46e7-9279-2a7903f45bf0
+  name: The DownInOne
   description: >
     This is a pretty gimmicky club that you should probably never use in your day to day grinding.
     It <em>could</em> be useful for a situational tournament hole where you <strong>know</strong>
@@ -44,7 +48,8 @@
   backspin:  [  0,   0,  15,  15,  20,  36,  47,  64]
   curl:      [ 45,  54,  54,  64,  64,  84,  84,  94]
   ballguide: [1.0, 1.0, 1.0, 1.3, 1.3, 1.3, 1.5, 1.5]
-- name: The Skewer
+- id: 6943e11b-22d8-48f2-963c-03a8f92c15ab
+  name: The Skewer
   description: >
     After The Dart and Firefly (which you hopefully unlocked), The Skewer is probably the next
     wedge you'll use since it will have better accuracy than either of the previous 2. It's really
@@ -57,7 +62,8 @@
   backspin:  [ 40,  49,  54,  54,  68,  68,  77,  77,  87,  87]
   curl:      [ 26,  26,  26,  43,  43,  70,  70,  79,  79,  88]
   ballguide: [2.0, 2.4, 2.7, 2.7, 3.0, 3.0, 3.4, 3.4, 3.5, 3.8]
-- name: The Endbringer
+- id: 65d69246-f3f5-4b7a-95ac-8c4abd7a37e3
+  name: The Endbringer
   description: >
     The name says it all. This is a really good wedge out of the gate with it's accuracy but you
     may have already unlocked and leveled up your Rapier by the time you unlock this epic. The only
@@ -70,7 +76,8 @@
   backspin:  [ 20,  25,  25,  36,  36,  54,  54]
   curl:      [ 17,  45,  45,  56,  56,  79, 100]
   ballguide: [3.6, 3.6, 4.0, 4.0, 4.2, 4.2, 4.2]
-- name: The Rapier
+- id: 8e7a4667-ba23-415a-853c-ec0fa474c70f
+  name: The Rapier
   description: >
     Between The Endbringer and Rapier you have two very good clubs that will net you a lot of
     chip ins. If you're not using one of the two (save a maxed out Firefly), chances are you're
@@ -81,7 +88,8 @@
   backspin:  [ 60,  60,  70,  75,  75,  91,  91, 100]
   curl:      [ 50,  50,  50,  79,  79,  79,  79,  79]
   ballguide: [2.7, 2.8, 3.2, 3.2, 3.6, 3.6, 3.7, 4.2]
-- name: Golden Wedge
+- id: a5351dd9-63d3-45d6-a019-42aca9fde628
+  name: Golden Wedge
   description: >
     This is the wedge you'll get in the Golden Shot mini-game. If you find yourself using this club
     in the Golden Shot, you're doing it wrong.

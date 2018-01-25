@@ -1,0 +1,35 @@
+
+.hole-ranker-scenario-container {
+
+  position: relative;
+
+  #busy-spinner {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .hole-ranker-scenario {
+
+    .scenario-option {
+
+      img {
+        cursor: pointer;
+        margin-top: 16px;
+        max-height: 500px;
+      }
+
+      @media (max-width: 768px) { img { max-height: 350px; } }
+      @media (max-width: 500px) { img { max-height: 300px; } }
+      @media (max-width: 360px) { img { max-height: 250px; } }
+    }
+
+  }
+
+}
+
+#skip-scenario-btn {
+  display: block;
+  margin: 12px auto;
+}
