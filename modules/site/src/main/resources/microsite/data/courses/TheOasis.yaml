@@ -21,6 +21,18 @@ holes:
     par: 5
     description: >
       Help Wanted
+    clubRecommendations:
+      - level: Rookie
+        clubs:
+          - Viper
+          - Big Dawg
+      - level: Pro
+        clubs:
+          - Sniper
+      - level: Masters
+        clubs:
+          - Sniper
+          - Cataclysm
     resources:
       - title: Golf Clash Tommy - Pro / Expert Guide
         url: https://youtu.be/9icu9AiRK-g
@@ -34,6 +46,72 @@ holes:
         url: https://youtu.be/JSvj50or06c
       - title: Zachary Jones - Pro / Expert
         url: https://youtu.be/TKFY2gApISQ
+    overlays:
+      size: [402, 1035]
+      guides:
+      - name: Black Path
+        text: >
+          This is typically how you should play this hole. Bounce over the rough and over to the
+          second fairway. Don't use any more than 4 bars of topsin or you'll risk running through
+          the fairway into the rough or bunker in which case you won't be able to reach the green
+          in 2. With a tailwind don't use any more than 3 bars of topspin. You'll have a wood into
+          the green. Use some right sidespin on your approach to avoid the rough and greenside
+          bunker.
+        levels:
+          - name: Rookie
+            svg:
+              <path d="M 233 809 L 134 425" stroke="black" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="0" />
+              <path d="M 134 425 L 109 308" stroke="black" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="1" />
+              <path d="M 109 308 L 244 122" stroke="black" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="2" />
+              <circle cx="233" cy="809" r="6" fill="black" class="guide-point" data-guide-segment="0" />
+              <circle cx="134" cy="425" r="6" fill="black" class="guide-point" data-guide-segment="1" />
+              <circle cx="109" cy="308" r="6" fill="black" class="guide-point" data-guide-segment="2" />
+              <circle cx="244" cy="122" r="6" fill="black" class="guide-point" data-guide-segment="3" />
+          - name: Pro
+            svg:
+              <path d="M 240 863 L 134 425" stroke="black" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="0" />
+              <path d="M 134 425 L 109 308" stroke="black" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="1" />
+              <path d="M 109 308 L 244 122" stroke="black" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="2" />
+              <circle cx="240" cy="863" r="6" fill="black" class="guide-point" data-guide-segment="0" />
+              <circle cx="134" cy="425" r="6" fill="black" class="guide-point" data-guide-segment="1" />
+              <circle cx="109" cy="308" r="6" fill="black" class="guide-point" data-guide-segment="2" />
+              <circle cx="244" cy="122" r="6" fill="black" class="guide-point" data-guide-segment="3" />
+          - name: Masters
+            svg:
+              <path d="M 239 917 L 134 425" stroke="black" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="0" />
+              <path d="M 134 425 L 109 308" stroke="black" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="1" />
+              <path d="M 109 308 L 244 122" stroke="black" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="2" />
+              <circle cx="239" cy="917" r="6" fill="black" class="guide-point" data-guide-segment="0" />
+              <circle cx="134" cy="425" r="6" fill="black" class="guide-point" data-guide-segment="1" />
+              <circle cx="109" cy="308" r="6" fill="black" class="guide-point" data-guide-segment="2" />
+              <circle cx="244" cy="122" r="6" fill="black" class="guide-point" data-guide-segment="3" />
+      - name: White Path
+        text: >
+          This is a possibility when you get a powerful left to right wind with some tail wind. If
+          you have some curl on your driver you can put your drive close to the marker in the
+          picture. The second shot is definitely harder from this position.
+        levels:
+          - name: Rookie
+            svg:
+              <path d="M 233 809 C 150 510 150 510 226 337" stroke="white" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="0" />
+              <path d="M 226 337 L 252 125" stroke="white" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="1" />
+              <circle cx="233" cy="809" r="6" fill="white" class="guide-point" data-guide-segment="0" />
+              <circle cx="226" cy="337" r="6" fill="white" class="guide-point" data-guide-segment="1" />
+              <circle cx="252" cy="125" r="6" fill="white" class="guide-point" data-guide-segment="2" />
+          - name: Pro
+            svg:
+              <path d="M 240 863 C 150 510 150 510 226 337" stroke="white" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="0" />
+              <path d="M 226 337 L 252 125" stroke="white" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="1" />
+              <circle cx="240" cy="863" r="6" fill="white" class="guide-point" data-guide-segment="0" />
+              <circle cx="226" cy="337" r="6" fill="white" class="guide-point" data-guide-segment="1" />
+              <circle cx="252" cy="125" r="6" fill="white" class="guide-point" data-guide-segment="2" />
+          - name: Masters
+            svg:
+              <path d="M 239 917 C 150 510 150 510 226 337" stroke="white" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="0" />
+              <path d="M 226 337 L 252 125" stroke="white" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="1" />
+              <circle cx="239" cy="917" r="6" fill="white" class="guide-point" data-guide-segment="0" />
+              <circle cx="226" cy="337" r="6" fill="white" class="guide-point" data-guide-segment="1" />
+              <circle cx="252" cy="125" r="6" fill="white" class="guide-point" data-guide-segment="2" />
   - id: 1ac9e3f4-edfc-4c57-9635-5986e37c695b
     course: The Oasis
     number: 4
