@@ -47,7 +47,7 @@ section: "courses"
           <img src="/img/golfclash/courses/{{ coursePath }}/{{ hole.number }}.png" alt="Hole {{ page.number }} Map" title="Hole {{ page.number }} Map" class="course-hole-map img-responsive img-center">
         </div>
 
-        {% if hole.overlays.size %}
+        {% if hole.overlays.size and hole.overlays.hidden != true %}
 
           {% assign width = hole.overlays.size | first %}
           {% assign height = hole.overlays.size | last %}
@@ -107,7 +107,7 @@ section: "courses"
 
     <hr class="hr-text margin-4" data-content="">
 
-    {% if hole.overlays.guides != undefined and hole.overlays.guides != empty %}
+    {% if hole.overlays.guides != undefined and hole.overlays.guides != empty and hole.overlays.hidden != true %}
 
       <div class="text-semi-muted text-center margin-12">
         Guide courtesy of <a href="https://www.facebook.com/teamgolfclashtommy/" target="_blank" rel="noopener"><i class="fab fa-facebook fa-fw text-facebook" aria-hidden="true"></i> Team Golf Clash Tommy</a>.
@@ -125,39 +125,36 @@ section: "courses"
         </label>
       </div>
 
-    {% endif %}
+      {% for clubRecommendations in hole.clubRecommendations %}
+        {% assign recommendationLevel = clubRecommendations.level %}
 
-    {% for clubRecommendations in hole.clubRecommendations %}
-      {% assign recommendationLevel = clubRecommendations.level %}
+        {% capture initalVisibility %}
+          {% if recommendationLevel != 'Rookie' %}
+            hidden
+          {% endif %}
+        {% endcapture %}
 
-      {% capture initalVisibility %}
-        {% if recommendationLevel != 'Rookie' %}
-          hidden
-        {% endif %}
-      {% endcapture %}
-
-      <div class="pull-right {{ recommendationLevel }}-club-recommendations {{ initalVisibility | strip }}">
-        <div class="club-recommendation-list" style="margin-top: 25px;">
-          {% for club in clubRecommendations.clubs %}
-            {% assign clubPath = club | remove: "The" | remove: " " | remove: "'" %}
-            <img class="club-recommendation-item" src="/img/golfclash/clubs/{{ clubPath }}-256x256.png" alt="{{ club }}">
-            <div class="club-recommendation-item-caption text-tiny text-center text-semi-muted">{{ club.name }}</div>
-            {% if forloop.rindex > 1 %}
-              <hr>
-            {% endif %}
-          {% endfor %}
+        <div class="pull-right {{ recommendationLevel }}-club-recommendations {{ initalVisibility | strip }}">
+          <div class="club-recommendation-list" style="margin-top: 25px;">
+            {% for club in clubRecommendations.clubs %}
+              {% assign clubPath = club | remove: "The" | remove: " " | remove: "'" %}
+              <img class="club-recommendation-item" src="/img/golfclash/clubs/{{ clubPath }}-256x256.png" alt="{{ club }}">
+              <div class="club-recommendation-item-caption text-tiny text-center text-semi-muted">{{ club.name }}</div>
+              {% if forloop.rindex > 1 %}
+                <hr>
+              {% endif %}
+            {% endfor %}
+          </div>
         </div>
-      </div>
-    {% endfor %}
+      {% endfor %}
 
-    {% if hole.description == undefined or hole.description contains 'Help Wanted' %}
-    {% else %}
-      <p style="margin-top: 20px;">
-        {{ hole.description }}
-      </p>
-    {% endif %}
+      {% if hole.description == undefined or hole.description contains 'Help Wanted' %}
+      {% else %}
+        <p style="margin-top: 20px;">
+          {{ hole.description }}
+        </p>
+      {% endif %}
 
-    {% if hole.overlays.guides != undefined or hole.overlays.guides != empty %}
       <div>
         {% for guide in hole.overlays.guides %}
           {% for level in guide.levels %}
