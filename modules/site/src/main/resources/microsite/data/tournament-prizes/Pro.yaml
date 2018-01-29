@@ -1,0 +1,526 @@
+level: 1
+name: Pro
+tour: 6
+prizes:
+  - places: [1]
+    ball-tier: 2
+    ball-count: 150
+    coins: 3000000
+    chest:
+      tier: 1
+      total: 240
+      rare: 80
+      epic: 80
+  - places: [2]
+    ball-tier: 2
+    ball-count: 80
+    coins: 1500000
+    chest:
+      tier: 2
+      total: 196
+      rare: 76
+      epic: 40
+  - places: [3]
+    ball-tier: 2
+    ball-count: 60
+    coins: 900000
+    chest:
+      tier: 2
+      total: 177
+      rare: 73
+      epic: 24
+  - places: [4]
+    ball-tier: 2
+    ball-count: 40
+    coins: 600000
+    chest:
+      tier: 2
+      total: 165
+      rare: 69
+      epic: 16
+  - places: [5]
+    ball-tier: 2
+    ball-count: 40
+    coins: 570000
+    chest:
+      tier: 2
+      total: 161
+      rare: 66
+      epic: 15
+  - places: [6]
+    ball-tier: 2
+    ball-count: 40
+    coins: 540000
+    chest:
+      tier: 2
+      total: 158
+      rare: 63
+      epic: 15
+  - places: [7]
+    ball-tier: 2
+    ball-count: 40
+    coins: 510000
+    chest:
+      tier: 2
+      total: 154
+      rare: 60
+      epic: 14
+  - places: [8]
+    ball-tier: 2
+    ball-count: 40
+    coins: 490000
+    chest:
+      tier: 2
+      total: 133
+      rare: 40
+      epic: 13
+  - places: [9]
+    ball-tier: 2
+    ball-count: 40
+    coins: 470000
+    chest:
+      tier: 2
+      total: 131
+      rare: 38
+      epic: 13
+  - places: [10]
+    ball-tier: 2
+    ball-count: 40
+    coins: 450000
+    chest:
+      tier: 2
+      total: 128
+      rare: 36
+      epic: 12
+  - places: [11]
+    ball-tier: 2
+    ball-count: 25
+    coins: 300000
+    chest:
+      tier: 3
+      total: 122
+      rare: 34
+      epic: 8
+  - places: [12]
+    ball-tier: 2
+    ball-count: 25
+    coins: 290000
+    chest:
+      tier: 3
+      total: 121
+      rare: 33
+      epic: 8
+  - places: [13]
+    ball-tier: 2
+    ball-count: 25
+    coins: 280000
+    chest:
+      tier: 3
+      total: 118
+      rare: 31
+      epic: 7
+  - places: [14]
+    ball-tier: 2
+    ball-count: 25
+    coins: 270000
+    chest:
+      tier: 3
+      total: 117
+      rare: 30
+      epic: 7
+  - places: [15]
+    ball-tier: 2
+    ball-count: 25
+    coins: 260000
+    chest:
+      tier: 3
+      total: 115
+      rare: 28
+      epic: 7
+  - places: [16]
+    ball-tier: 2
+    ball-count: 25
+    coins: 250000
+    chest:
+      tier: 3
+      total: 113
+      rare: 27
+      epic: 6
+  - places: [17]
+    ball-tier: 2
+    ball-count: 25
+    coins: 240000
+    chest:
+      tier: 3
+      total: 112
+      rare: 26
+      epic: 6
+  - places: [18]
+    ball-tier: 2
+    ball-count: 25
+    coins: 230000
+    chest:
+      tier: 3
+      total: 110
+      rare: 24
+      epic: 6
+  - places: [19]
+    ball-tier: 2
+    ball-count: 25
+    coins: 220000
+    chest:
+      tier: 3
+      total: 108
+      rare: 23
+      epic: 5
+  - places: [20]
+    ball-tier: 2
+    ball-count: 25
+    coins: 210000
+    chest:
+      tier: 3
+      total: 107
+      rare: 22
+      epic: 5
+  - places: [21]
+    ball-tier: 2
+    ball-count: 25
+    coins: 200000
+    chest:
+      tier: 3
+      total: 106
+      rare: 21
+      epic: 5
+  - places: [22]
+    ball-tier: 2
+    ball-count: 25
+    coins: 190000
+    chest:
+      tier: 3
+      total: 105
+      rare: 20
+      epic: 5
+  - places: [23]
+    ball-tier: 2
+    ball-count: 25
+    coins: 180000
+    chest:
+      tier: 3
+      total: 97
+      rare: 13
+      epic: 4
+  - places: [24]
+    ball-tier: 2
+    ball-count: 25
+    coins: 170000
+    chest:
+      tier: 3
+      total: 97
+      rare: 13
+      epic: 4
+  - places: [25]
+    ball-tier: 2
+    ball-count: 25
+    coins: 160000
+    chest:
+      tier: 3
+      total: 96
+      rare: 12
+      epic: 4
+  - places: [26]
+    ball-tier: 4
+    ball-count: 25
+    coins: 110000
+    chest:
+      tier: 4
+      total: 95
+      rare: 12
+      epic: 3
+  - places: [27]
+    ball-tier: 4
+    ball-count: 25
+    coins: 100000
+    chest:
+      tier: 4
+      total: 94
+      rare: 11
+      epic: 3
+  - places: [28]
+    ball-tier: 4
+    ball-count: 25
+    coins: 95000
+    chest:
+      tier: 4
+      total: 92
+      rare: 10
+      epic: 2
+  - places: [29]
+    ball-tier: 4
+    ball-count: 25
+    coins: 90000
+    chest:
+      tier: 4
+      total: 92
+      rare: 10
+      epic: 2
+  - places: [30]
+    ball-tier: 4
+    ball-count: 25
+    coins: 86000
+    chest:
+      tier: 4
+      total: 92
+      rare: 10
+      epic: 2
+  - places: [31]
+    ball-tier: 4
+    ball-count: 25
+    coins: 82000
+    chest:
+      tier: 4
+      total: 91
+      rare: 9
+      epic: 2
+  - places: [32]
+    ball-tier: 4
+    ball-count: 25
+    coins: 78000
+    chest:
+      tier: 4
+      total: 91
+      rare: 9
+      epic: 2
+  - places: [33]
+    ball-tier: 4
+    ball-count: 25
+    coins: 74000
+    chest:
+      tier: 4
+      total: 90
+      rare: 8
+      epic: 2
+  - places: [34]
+    ball-tier: 4
+    ball-count: 25
+    coins: 70000
+    chest:
+      tier: 4
+      total: 90
+      rare: 8
+      epic: 2
+  - places: [35]
+    ball-tier: 4
+    ball-count: 25
+    coins: 67000
+    chest:
+      tier: 4
+      total: 89
+      rare: 7
+      epic: 2
+  - places: [36]
+    ball-tier: 4
+    ball-count: 25
+    coins: 64000
+    chest:
+      tier: 4
+      total: 89
+      rare: 7
+      epic: 2
+  - places: [37]
+    ball-tier: 4
+    ball-count: 25
+    coins: 61000
+    chest:
+      tier: 4
+      total: 89
+      rare: 7
+      epic: 2
+  - places: [38]
+    ball-tier: 4
+    ball-count: 25
+    coins: 58000
+    chest:
+      tier: 4
+      total: 88
+      rare: 6
+      epic: 2
+  - places: [39]
+    ball-tier: 4
+    ball-count: 25
+    coins: 55000
+    chest:
+      tier: 4
+      total: 88
+      rare: 6
+      epic: 2
+  - places: [40]
+    ball-tier: 4
+    ball-count: 25
+    coins: 52000
+    chest:
+      tier: 4
+      total: 88
+      rare: 6
+      epic: 2
+  - places: [41]
+    ball-tier: 4
+    ball-count: 25
+    coins: 50000
+    chest:
+      tier: 4
+      total: 88
+      rare: 6
+      epic: 2
+  - places: [42]
+    ball-tier: 4
+    ball-count: 25
+    coins: 48000
+    chest:
+      tier: 4
+      total: 88
+      rare: 6
+      epic: 2
+  - places: [43]
+    ball-tier: 4
+    ball-count: 25
+    coins: 46000
+    chest:
+      tier: 4
+      total: 87
+      rare: 5
+      epic: 2
+  - places: [44]
+    ball-tier: 4
+    ball-count: 25
+    coins: 44000
+    chest:
+      tier: 4
+      total: 87
+      rare: 5
+      epic: 2
+  - places: [45]
+    ball-tier: 4
+    ball-count: 25
+    coins: 42000
+    chest:
+      tier: 4
+      total: 87
+      rare: 5
+      epic: 2
+  - places: [46]
+    ball-tier: 4
+    ball-count: 25
+    coins: 40000
+    chest:
+      tier: 4
+      total: 87
+      rare: 5
+      epic: 2
+  - places: [47]
+    ball-tier: 4
+    ball-count: 25
+    coins: 38000
+    chest:
+      tier: 4
+      total: 87
+      rare: 5
+      epic: 2
+  - places: [48]
+    ball-tier: 4
+    ball-count: 25
+    coins: 37000
+    chest:
+      tier: 4
+      total: 85
+      rare: 3
+      epic: 2
+  - places: [49]
+    ball-tier: 4
+    ball-count: 25
+    coins: 36000
+    chest:
+      tier: 4
+      total: 85
+      rare: 3
+      epic: 2
+  - places: [50]
+    ball-tier: 4
+    ball-count: 25
+    coins: 35000
+    chest:
+      tier: 4
+      total: 85
+      rare: 3
+      epic: 2
+  - places: [51]
+    ball-tier: 4
+    ball-count: 15
+    coins: 23000
+    chest:
+      tier: 4
+      total: 85
+      rare: 3
+      epic: 2
+  - places: [52]
+    ball-tier: 4
+    ball-count: 15
+    coins: 22000
+    chest:
+      tier: 4
+      total: 85
+      rare: 3
+      epic: 2
+  - places: [53]
+    ball-tier: 4
+    ball-count: 15
+    coins: 21000
+    chest:
+      tier: 4
+      total: 85
+      rare: 3
+      epic: 2
+  - places: [54]
+    ball-tier: 4
+    ball-count: 15
+    coins: 20000
+    chest:
+      tier: 4
+      total: 85
+      rare: 3
+      epic: 2
+  - places: [55]
+    ball-tier: 4
+    ball-count: 15
+    coins: 19000
+    chest:
+      tier: 4
+      total: 84
+      rare: 2
+      epic: 2
+  - places: [56]
+    ball-tier: 4
+    ball-count: 15
+    coins: 18000
+    chest:
+      tier: 4
+      total: 84
+      rare: 2
+      epic: 2
+  - places: [57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75]
+    ball-tier: 4
+    ball-count: 15
+    coins: 17000
+    chest:
+      tier: 4
+      total: 84
+      rare: 2
+      epic: 2
+  - places: [76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100]
+    ball-tier: 5
+    ball-count: 9
+    coins: 10000
+    chest:
+      tier: 4
+      total: 84
+      rare: 2
+      epic: 2
