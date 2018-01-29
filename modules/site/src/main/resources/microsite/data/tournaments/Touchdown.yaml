@@ -1,6 +1,14 @@
 tournament-name: Touchdown
 date: 2018-01-29
 resources:
+  - title: Golf Clash Tommy - Rookie Guide
+    url: https://youtu.be/hLbtL7omoZM
+  - title: Golf Clash Tommy - Pro / Expert Guide
+    url: https://youtu.be/EefUZbIUoEc
+  - title: Golf Clash Tommy - Masters Guide
+    url: https://youtu.be/lvn1aeIyg3o
+  - title: Golf Clash Tommy - Text Guides
+    url: https://imgur.com/a/YYYaL
 holes:
   - number: 1
     course: Sakura Hills

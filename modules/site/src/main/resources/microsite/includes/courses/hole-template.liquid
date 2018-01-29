@@ -41,7 +41,7 @@ section: "courses"
           <img src="/img/golfclash/courses/{{ coursePath }}/{{ page.number }}.png" alt="Hole {{ page.number }} Map" title="Hole {{ page.number }} Map" class="course-hole-map img-responsive img-center">
         </div>
 
-        {% if hole.overlays.size %}
+        {% if hole.overlays.size and hole.overlays.hidden != true %}
 
           {% assign width = hole.overlays.size | first %}
           {% assign height = hole.overlays.size | last %}
