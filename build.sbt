@@ -13,9 +13,12 @@ val CirceV         = "0.9.1"
 val MonixV         = "3.0.0-M3"
 val ScalaCheckV    = "1.13.5"
 val ScalaTagsV     = "0.6.7"
-val ScalaTestV     = "3.0.4"
+val ScalaTestV     = "3.0.5"
 val ScalaJSJqueryV = "0.9.2"
 ////////////////////////////////////////////////////////////////////////////////
+
+// run dependencyUpdates whenever we [re]load.
+onLoad in Global := { s => "dependencyUpdates" :: s }
 
 scalafmtOnCompile in ThisBuild := true
 
