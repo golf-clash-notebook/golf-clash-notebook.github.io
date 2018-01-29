@@ -1,6 +1,26 @@
 level: 5
 name: Professional 2
 perks: 50
-promoted:
-relegated:
+promoted: 20
+relegated: 20
 prizes:
+  - places: [1]
+    chest:
+      type: King
+      tour: 3
+  - places: [2]
+    chest:
+      type: Platinum
+      tour: 6
+  - places: [3]
+    chest:
+      type: Gold
+      tour: 6
+  - places: [4, 5, 6, 7, 8, 9, 10]
+    chest:
+      type: Silver
+      tour: 6
+  - places: [11, 12, 13, 14, 15]
+    chest:
+      type: Wooden
+      tour: 10
