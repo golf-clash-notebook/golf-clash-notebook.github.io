@@ -24,6 +24,8 @@ holes:
         url: https://youtu.be/WI_jyhHYghY
       - title: Golf Clash Tommy - Pro / Expert Guide
         url: https://youtu.be/haCEch_MaJ0
+      - title: Zachary Jones - Rookie Guide
+        url: https://youtu.be/3oNWbTnWCXA
     overlays:
       hidden: true
       size: [300, 862]
@@ -100,6 +102,8 @@ holes:
         url: https://youtu.be/stgyvO6iyig
       - title: Golf Clash Tommy - Pro / Expert Guide
         url: https://youtu.be/NgjimHyDgVc
+      - title: Zachary Jones - Rookie Guide
+        url: https://youtu.be/lyvRF_71rYM
     overlays:
       hidden: true
       size: [442, 1016]
@@ -154,6 +158,10 @@ holes:
         clubs:
           - Sniper
     resources:
+      - title: Golf Clash Tommy - Rookie Guide
+        url: https://youtu.be/lklyjxmxr2s
+      - title: Zachary Jones - Rookie Guide
+        url: https://youtu.be/n8HX3R4agfM
     overlays:
       hidden: true
       size: [450, 892]
@@ -228,6 +236,10 @@ holes:
     resources:
       - title: Golf Clash Tommy - Rookie Guide
         url: https://youtu.be/vpgMGpG7rxs
+      - title: Golf Clash Tommy - Pro / Expert Guide
+        url: https://youtu.be/duAfD_1gIho
+      - title: Zachary Jones - Rookie Guide
+        url: https://youtu.be/W3oh1t8IkdA
     overlays:
       hidden: true
       size: [331, 1067]
@@ -316,6 +328,8 @@ holes:
         url: https://youtu.be/0sQWlMXtYY8
       - title: Golf Clash Tommy - Pro / Expert Guide
         url: https://youtu.be/VDrSX_M0_tE
+      - title: Zachary Jones - Rookie Guide
+        url: https://youtu.be/7WVamN6lDE4
     overlays:
       hidden: true
       size: [385, 920]
@@ -361,6 +375,8 @@ holes:
         url: https://youtu.be/DInf-UCpuUU
       - title: Golf Clash Tommy - Pro / Expert Guide
         url: https://youtu.be/UhYMgk4_76U
+      - title: Zachary Jones - Rookie Guide
+        url: https://youtu.be/fKM5KES2IwY
     overlays:
       hidden: true
       size: [302, 1039]
@@ -450,8 +466,14 @@ holes:
           - Guardian
           - Machete
     resources:
+      - title: Golf Clash Tommy - Rookie Guide
+        url: https://youtu.be/vkK0VHao3is
       - title: Golf Clash Tommy - Pro / Expert Guide
-        url: https://youtu.be/JxhbMrKO5UY
+        url: https://youtu.be/iV7utN---o8
+      - title: Zachary Jones - Rookie Guide
+        url: https://youtu.be/Kjdc0AXNCL0
+      # - title: Golf Clash Tommy - Pro / Expert Guide
+        # url: https://youtu.be/JxhbMrKO5UY
     overlays:
       hidden: true
       size: [475, 949]
@@ -501,6 +523,8 @@ holes:
     resources:
       - title: Golf Clash Tommy - Rookie Guide
         url: https://youtu.be/haCEch_MaJ0
+      - title: Zachary Jones - Rookie Guide
+        url: https://youtu.be/dzF_21ngs3w
     overlays:
       hidden: true
       size: [388, 887]
@@ -545,6 +569,10 @@ holes:
     resources:
       - title: Golf Clash Tommy - Rookie Guide
         url: https://youtu.be/4N44QwKPtAM
+      - title: Golf Clash Tommy - Pro / Expert Guide
+        url: https://youtu.be/IPjdff90Vc8
+      - title: Zachary Jones - Rookie Guide
+        url: https://youtu.be/jP3wGERL_WA
     overlays:
       hidden: true
       size: [392, 1009]
