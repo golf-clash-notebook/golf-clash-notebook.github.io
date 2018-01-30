@@ -237,11 +237,9 @@ object hole {
       currentUser match {
         case Some(user) => {
           PageHoleData.map { data =>
-            store
-              .holeNotesForUser(user, data.id)
-              .map { userNotes =>
-                userNotes.foreach(addNote)
-              }
+            (data.id :: data.aliases)
+              .traverse(holeId => store.holeNotesForUser(user, holeId))
+              .map(_.flatten.foreach(addNote))
               .runAsync
           }
 
@@ -258,7 +256,14 @@ object hole {
       }
     }
 
-    PageHoleData = Some(HoleData(jQuery("#hole-data").data("hole-id").asInstanceOf[String]))
+    PageHoleData = {
+      Some(
+        HoleData(
+          jQuery("#hole-data").data("hole-id").asInstanceOf[String],
+          jQuery("#hole-data").data("hole-aliases").asInstanceOf[js.Array[String]].toList
+        )
+      )
+    }
 
     jQuery("#hole-note-edit-modal").on("hidden.bs.modal", (e: js.Any) => clearNoteForm())
 
