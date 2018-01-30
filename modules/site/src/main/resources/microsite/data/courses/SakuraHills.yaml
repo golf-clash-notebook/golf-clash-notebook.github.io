@@ -26,6 +26,14 @@ holes:
         url: https://youtu.be/haCEch_MaJ0
       - title: Zachary Jones - Rookie Guide
         url: https://youtu.be/3oNWbTnWCXA
+      - title: Zachary Jones - Pro Guide
+        url: https://youtu.be/SYN4IefltBQ
+      - title: Zachary Jones - Expert Guide
+        url: https://youtu.be/H1oX1xQ77XE
+      - title: Zachary Jones - Masters Guide
+        url: https://youtu.be/pcLe8RHeCa8
+    aliases:
+      - e8e6844a-a3db-4f34-8800-633b230e2be5
     overlays:
       hidden: true
       size: [300, 862]
@@ -104,6 +112,14 @@ holes:
         url: https://youtu.be/NgjimHyDgVc
       - title: Zachary Jones - Rookie Guide
         url: https://youtu.be/lyvRF_71rYM
+      - title: Zachary Jones - Pro Guide
+        url: https://youtu.be/gQYNM78jSfM
+      - title: Zachary Jones - Expert Guide
+        url: https://youtu.be/ukVQUhdzv04
+      - title: Zachary Jones - Masters Guide
+        url: https://youtu.be/bnnudTlBqAg
+    aliases:
+      - 99374ec0-978d-47d2-9eb6-ec1cdb1d1f57
     overlays:
       hidden: true
       size: [442, 1016]
@@ -162,6 +178,14 @@ holes:
         url: https://youtu.be/lklyjxmxr2s
       - title: Zachary Jones - Rookie Guide
         url: https://youtu.be/n8HX3R4agfM
+      - title: Zachary Jones - Pro Guide
+        url: https://youtu.be/LWVqwtsrnLE
+      - title: Zachary Jones - Expert Guide
+        url: https://youtu.be/rP0RfsZl_Gc
+      - title: Zachary Jones - Masters Guide
+        url: https://youtu.be/u8gTvVB3OTU
+    aliases:
+      - 905fbf57-0bed-4383-8bdf-3a2db07f54d4
     overlays:
       hidden: true
       size: [450, 892]
@@ -240,6 +264,12 @@ holes:
         url: https://youtu.be/duAfD_1gIho
       - title: Zachary Jones - Rookie Guide
         url: https://youtu.be/W3oh1t8IkdA
+      - title: Zachary Jones - Pro Guide
+        url: https://youtu.be/sP2dh3bvdrU
+      - title: Zachary Jones - Expert Guide
+        url: https://youtu.be/kThI7-bPbW4
+    aliases:
+      - 5b78f5b8-1fd0-4a60-a56b-adb446589a5e
     overlays:
       hidden: true
       size: [331, 1067]
@@ -330,6 +360,12 @@ holes:
         url: https://youtu.be/VDrSX_M0_tE
       - title: Zachary Jones - Rookie Guide
         url: https://youtu.be/7WVamN6lDE4
+      - title: Zachary Jones - Pro Guide
+        url: https://youtu.be/awpP7d-yK-g
+      - title: Zachary Jones - Expert Guide
+        url: https://youtu.be/dAktqfWpkYY
+    aliases:
+      - 68714fc8-2d57-494f-ad86-5e9f0e4761c9
     overlays:
       hidden: true
       size: [385, 920]
@@ -377,6 +413,14 @@ holes:
         url: https://youtu.be/UhYMgk4_76U
       - title: Zachary Jones - Rookie Guide
         url: https://youtu.be/fKM5KES2IwY
+      - title: Zachary Jones - Pro Guide
+        url: https://youtu.be/1fMLP-lkSvg
+      - title: Zachary Jones - Expert Guide
+        url: https://youtu.be/zg7Oi98ibUw
+      - title: Zachary Jones - Masters Guide
+        url: https://youtu.be/kF1PbstWgkg
+    aliases:
+      - d811edb2-7fe5-4e38-a29c-995b1722634b
     overlays:
       hidden: true
       size: [302, 1039]
@@ -472,8 +516,14 @@ holes:
         url: https://youtu.be/iV7utN---o8
       - title: Zachary Jones - Rookie Guide
         url: https://youtu.be/Kjdc0AXNCL0
+      - title: Zachary Jones - Pro Guide
+        url: https://youtu.be/jQiolJ8PfXA
+      - title: Zachary Jones - Expert Guide
+        url: https://youtu.be/puNmIpuIn0o
       # - title: Golf Clash Tommy - Pro / Expert Guide
         # url: https://youtu.be/JxhbMrKO5UY
+    aliases:
+      - 035550dd-8da2-42af-b69b-677249421db5
     overlays:
       hidden: true
       size: [475, 949]
@@ -525,6 +575,14 @@ holes:
         url: https://youtu.be/haCEch_MaJ0
       - title: Zachary Jones - Rookie Guide
         url: https://youtu.be/dzF_21ngs3w
+      - title: Zachary Jones - Pro Guide
+        url: https://youtu.be/Bp2sX7Np8s8
+      - title: Zachary Jones - Expert Guide
+        url: https://youtu.be/TT3nsM6AjfQ
+      - title: Zachary Jones - Masters Guide
+        url: https://youtu.be/PMtGb184KJs
+    aliases:
+      - 2d79761e-7d37-40f5-9d96-80d4689b8705
     overlays:
       hidden: true
       size: [388, 887]
@@ -573,6 +631,14 @@ holes:
         url: https://youtu.be/IPjdff90Vc8
       - title: Zachary Jones - Rookie Guide
         url: https://youtu.be/jP3wGERL_WA
+      - title: Zachary Jones - Pro Guide
+        url: https://youtu.be/NeLjxD1-iWg
+      - title: Zachary Jones - Expert Guide
+        url: https://youtu.be/vXxGGh-XuSg
+      - title: Zachary Jones - Masters Guide
+        url: https://youtu.be/a93uxmgWIOE
+    aliases:
+      - f69eaec7-1010-4489-88c2-40dbc8ed2e40
     overlays:
       hidden: true
       size: [392, 1009]

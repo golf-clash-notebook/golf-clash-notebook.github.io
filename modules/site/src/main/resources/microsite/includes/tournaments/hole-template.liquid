@@ -14,7 +14,15 @@ section: "courses"
 
 {% assign numHoles = tournament.holes | size %}
 
-<div id="hole-data" class="hidden" data-hole-id="{{ hole.id }}"></div>
+{% capture holeAliasesJson %}
+  {% if hole.aliases != undefined and hole.aliases != empty %}
+    {{ hole.aliases | jsonify }}
+  {% else %}
+    []
+  {% endif %}
+{% endcapture %}
+
+<div id="hole-data" class="hidden" data-hole-id="{{ hole.id }}" data-hole-aliases='{{ holeAliasesJson | strip }}'></div>
 
 <div class="row hidden-lg hidden-md">
   <div class="col-lg-12">
@@ -180,17 +188,6 @@ section: "courses"
           {% endfor %}
         {% endfor %}
       </div>
-    {% endif %}
-
-    {% if hole.aliases != undefined and hole.aliases != empty %}
-
-      <h3 class="text-center">Aliases</h3>
-      <div class="list-group">
-      {% for alias in hole.aliases %}
-        {% assign aliasCoursePath = alias.course | remove: " " %}
-          <li class="list-group-item gcn-resource text-small"><a href="/courses/{{ aliasCoursePath }}/{{ alias.hole }}/">{{ alias.course }} - Hole {{ alias.hole }}</a></li>
-      {% endfor %}
-
     {% endif %}
 
     {% if hole.resources and hole.resources != empty %}

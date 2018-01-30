@@ -26,7 +26,7 @@ package golfclash.notebook
 
 object core {
 
-  case class HoleData(id: String)
+  case class HoleData(id: String, aliases: List[String])
   case class HoleNote(id: Option[String],
                       userId: String,
                       holeId: String,

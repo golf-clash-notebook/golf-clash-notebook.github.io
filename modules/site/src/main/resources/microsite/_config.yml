@@ -170,6 +170,13 @@ page_gen:
     extra:
       title-prefix: 'The Oasis - Hole '
   - index_files: true
+    data: 'courses.Touchdown.holes'
+    template: '_includes/courses/hole-template.liquid'
+    name: 'number'
+    dir: 'courses/Touchdown'
+    extra:
+      title-prefix: 'Touchdown - Hole '
+  - index_files: true
     data: 'courses.VineyardAcres.holes'
     template: '_includes/courses/hole-template.liquid'
     name: 'number'
