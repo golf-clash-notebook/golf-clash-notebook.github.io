@@ -28,13 +28,16 @@ import org.scalajs.dom
 import org.scalajs.jquery.jQuery
 import scala.scalajs.js
 
+import firebase._
 import golfclash.notebook.page._
 
 object GolfClashNotebookApp {
 
   def main(args: Array[String]): Unit = {
 
-    println("Welcome to the Golf Clash Notebook!")
+    println(s"Welcome to the Golf Clash Notebook! [${currentMode()}]")
+
+    Firebase.initializeApp(configForMode(currentMode()))
 
     jQuery(dom.document).ready { () =>
       common.init()
@@ -48,5 +51,39 @@ object GolfClashNotebookApp {
     }
     ()
   }
+
+  def currentMode(): Mode = {
+    if (js.Dynamic.global.window.location.host.asInstanceOf[String] == "golfclashnotebook.io") Prod
+    else Dev
+  }
+
+  def configForMode(mode: Mode) = {
+    mode match {
+      case Dev => {
+        FirebaseConfig(
+          "AIzaSyCcrJPaeo90K_9VwVo2KpRozYRf0BB1Xao",
+          "golf-clash-notebook-dev.firebaseapp.com",
+          "https://golf-clash-notebook-dev.firebaseio.com",
+          "golf-clash-notebook-dev",
+          "golf-clash-notebook-dev.appspot.com",
+          "895790990892"
+        )
+      }
+      case Prod => {
+        FirebaseConfig(
+          "AIzaSyDxRKAcs0vk1D3KKzNDRpBzhgowkaSmmvg",
+          "golf-clash-notebook.firebaseapp.com",
+          "https://golf-clash-notebook.firebaseio.com",
+          "golf-clash-notebook",
+          "golf-clash-notebook.appspot.com",
+          "101324820979"
+        )
+      }
+    }
+  }
+
+  sealed trait Mode extends Product with Serializable
+  case object Dev   extends Mode
+  case object Prod  extends Mode
 
 }

@@ -37,8 +37,40 @@ object Firebase extends js.Object {
   def auth(app: js.UndefOr[firebase.app.App] = js.undefined): firebase.auth.Auth = js.native
   def firestore(): firebase.firestore.Firestore                                  = js.native
 
-  // def initializeApp(options: FirebaseConfig, name: String = ???): firebase.app.App = js.native
+  def initializeApp(options: FirebaseConfig,
+                    name: js.UndefOr[String] = js.undefined): firebase.app.App = js.native
 
+}
+
+@js.native
+trait FirebaseConfig extends js.Object {
+  def apiKey: String                        = js.native
+  def authDomain: js.UndefOr[String]        = js.native
+  def databaseURL: js.UndefOr[String]       = js.native
+  def projectId: js.UndefOr[String]         = js.native
+  def storageBucket: js.UndefOr[String]     = js.native
+  def messagingSenderId: js.UndefOr[String] = js.native
+}
+
+object FirebaseConfig {
+  def apply(
+    apiKey: String,
+    authDomain: js.UndefOr[String] = js.undefined,
+    databaseURL: js.UndefOr[String] = js.undefined,
+    projectId: js.UndefOr[String] = js.undefined,
+    storageBucket: js.UndefOr[String] = js.undefined,
+    messagingSenderId: js.UndefOr[String] = js.undefined
+  ): FirebaseConfig =
+    js.Dynamic
+      .literal(
+        "apiKey"            -> apiKey,
+        "authDomain"        -> authDomain,
+        "databaseURL"       -> databaseURL,
+        "projectId"         -> projectId,
+        "storageBucket"     -> storageBucket,
+        "messagingSenderId" -> messagingSenderId
+      )
+      .asInstanceOf[FirebaseConfig]
 }
 
 @js.native
