@@ -33,3 +33,41 @@
   display: block;
   margin: 12px auto;
 }
+
+.hole-rating-card {
+
+  background-color: #f3f3f3;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 12px;
+
+  .col {
+    flex: 1;
+  }
+
+  .hole-thumb {
+    text-align: right;
+
+    img {
+      max-height: 128px;
+    }
+  }
+
+  .hole-description {
+    h3 {
+      margin-top: 12.5px;
+    }
+  }
+
+}
+
+.progress-bar-difficulty-0 { background-color: #007D00; }
+.progress-bar-difficulty-1 { background-color: #019501; }
+.progress-bar-difficulty-2 { background-color: #6EAE00; }
+.progress-bar-difficulty-3 { background-color: #C5C800; }
+.progress-bar-difficulty-4 { background-color: #FFDE00; }
+.progress-bar-difficulty-5 { background-color: #FFDF00; }
+.progress-bar-difficulty-6 { background-color: #FFDE00; }
+.progress-bar-difficulty-7 { background-color: #FFA800; }
+.progress-bar-difficulty-8 { background-color: #FF7000; }
+.progress-bar-difficulty-9 { background-color: #FD3900; }

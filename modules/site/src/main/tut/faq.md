@@ -3,7 +3,7 @@ layout: gcn-layout
 title:  "FAQ"
 section: "faq"
 permalink: /faq/
-position: 70
+position: 75
 ---
 
 {% capture categoryAndPosition %}

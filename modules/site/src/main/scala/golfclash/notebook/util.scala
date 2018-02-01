@@ -26,6 +26,7 @@ package golfclash.notebook
 
 import scala.scalajs.js
 
+import monix.eval.Task
 import monix.execution.{ Ack, Cancelable, Scheduler }
 import monix.reactive.{ Observable, OverflowStrategy }
 import monix.reactive.observers.Subscriber
@@ -75,6 +76,52 @@ object util {
     )(implicit scheduler: Scheduler): Var[A] = {
       new Var[A](initial, strategy)
     }
+  }
+
+  def printCurrentHoleRatings(): Task[Unit] = {
+    for {
+      holes   <- Hole.All
+      ratings <- Hole.Ratings
+    } yield {
+
+      ratings.sortBy(-_.rating).zipWithIndex.foreach {
+        case (HoleRating(holeId, rating), ix) =>
+          holes.find(_.id == holeId).map { hole =>
+            println(s"[$ix] [$rating] - ${hole.course} - Hole ${hole.number} - Par ${hole.par}")
+          }
+      }
+
+    }
+  }
+
+  def printRatingsYamlFromStore(): Task[Unit] = {
+    store.holeranker
+      .allRatings()
+      .map { ratings =>
+        println(
+          ratings
+            .map { holeRating =>
+              s"""|- holeId: ${holeRating.holeId}
+                  |  rating: ${holeRating.rating}""".stripMargin
+            }
+            .mkString("\n")
+        )
+      }
+
+  }
+
+  def printRatingsJsonFromStore(): Task[Unit] = {
+    store.holeranker
+      .allRatings()
+      .map { ratings =>
+        println(
+          ratings
+            .map { holeRating =>
+              s"""{ "holeId": "${holeRating.holeId}", "rating": ${holeRating.rating} }"""
+            }
+            .mkString("[", ",", "]")
+        )
+      }
   }
 
 }
