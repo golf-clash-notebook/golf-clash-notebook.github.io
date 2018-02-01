@@ -190,6 +190,29 @@ object store {
     // Simple wrapper around rating to create a JS object
     private case class HoleRankerRating(rating: Double)
 
+    def allRatings(): Task[List[HoleRating]] = {
+      val promise = ScalaPromise[List[HoleRating]]()
+
+      db.collection("holeranker")
+        .get()
+        .`then`(
+          collectionSnapshot => {
+            val allRatings =
+              collectionSnapshot.docs.toList
+                .map { docSnapshot =>
+                  decodeJs[HoleRankerRating](docSnapshot.data())
+                    .map(holeRating => HoleRating(docSnapshot.id, holeRating.rating))
+                }
+                .collect { case Right(holeRating) => holeRating }
+
+            promise.success(allRatings)
+          },
+          error => promise.failure(new RuntimeException(error.message)),
+        )
+
+      Task.fromFuture(promise.future)
+    }
+
     def ratingForHole(holeId: String): Task[Option[Double]] = {
       val promise = ScalaPromise[Option[Double]]()
 

@@ -47,6 +47,9 @@ object holeranker {
     }
 
     generateNewScenario().runAsync
+
+    // printCurrentHoleRatings()
+    // printRatingsJsonFromStore()
   }
 
   def generateNewScenario(): Task[Unit] = {

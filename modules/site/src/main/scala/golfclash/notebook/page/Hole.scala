@@ -42,10 +42,16 @@ case class Hole(
   par: Int,
 )
 
+case class HoleRating(holeId: String, rating: Double)
+
 object Hole {
 
   val All: Task[List[Hole]]       = loadFromNames(allCourseNames()).memoizeOnSuccess
   val Unskinned: Task[List[Hole]] = loadFromNames(unskinnedCourseNames()).memoizeOnSuccess
+
+  val Ratings: Task[List[HoleRating]] = {
+    load[List[HoleRating]]("/data/holeratings/currentratings.json", List.empty[HoleRating])
+  }
 
   private def loadFromNames(namesTask: Task[List[String]]) = {
     for {

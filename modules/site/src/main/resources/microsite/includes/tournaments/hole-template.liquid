@@ -22,6 +22,10 @@ section: "courses"
   {% endif %}
 {% endcapture %}
 
+{% capture difficultyProgressBar %}
+  {% include tools/hole-rating-difficulty-bar.liquid hole=hole %}
+{% endcapture %}
+
 <div id="hole-data" class="hidden" data-hole-id="{{ hole.id }}" data-hole-aliases='{{ holeAliasesJson | strip }}'></div>
 
 <div class="row hidden-lg hidden-md">
@@ -41,6 +45,7 @@ section: "courses"
         {% endfor %}
       </ul>
     </nav>
+    {{ difficultyProgressBar }}
   </div>
   <div class="col-lg-12">
     <hr>
@@ -97,6 +102,7 @@ section: "courses"
           {% endfor %}
         </ul>
       </nav>
+    {{ difficultyProgressBar }}
     </div>
 
     <div id="user-notes" class="hidden">

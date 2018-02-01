@@ -1,0 +1,66 @@
+
+{% assign sortedRatings = site.data.holeratings.currentratings | sort:'rating' %}
+
+{% assign minHoleRating = sortedRatings | first %}
+{% assign maxHoleRating = sortedRatings | last %}
+{% assign minRating = minHoleRating.rating %}
+{% assign maxRating = maxHoleRating.rating %}
+{% assign ratingRange = maxRating | minus: minRating %}
+
+{% capture holeRating %}
+  {% for holeRating in site.data.holeratings.currentratings %}
+    {% if holeRating.holeId == include.hole.id %}
+      {{ holeRating.rating | round: 2 }}
+    {% endif %}
+  {% endfor %}
+{% endcapture %}
+
+{% assign holeRating = holeRating | strip %}
+
+{% if holeRating == empty and include.hole.aliases != empty %}
+  {% assign aliasId = include.hole.aliases | first %}
+  {% capture holeRating %}
+    {% for holeRating in site.data.holeratings.currentratings %}
+      {% if holeRating.holeId == aliasId %}
+        {{ holeRating.rating | round: 2 }}
+      {% endif %}
+    {% endfor %}
+  {% endcapture %}
+{% elsif holeRating == empty %}
+  ???
+{% endif %}
+
+{% assign difficulty = holeRating | minus: minRating | divided_by: ratingRange %}
+{% assign difficultyPercentage = difficulty | times: 100 %}
+
+{% capture progressBarClass %}
+  {% if difficulty > 0.9 %}
+    progress-bar-difficulty-9
+  {% elsif difficulty > 0.8 %}
+    progress-bar-difficulty-8
+  {% elsif difficulty > 0.7 %}
+    progress-bar-difficulty-7
+  {% elsif difficulty > 0.6 %}
+    progress-bar-difficulty-6
+  {% elsif difficulty > 0.5 %}
+    progress-bar-difficulty-5
+  {% elsif difficulty > 0.4 %}
+    progress-bar-difficulty-4
+  {% elsif difficulty > 0.3 %}
+    progress-bar-difficulty-3
+  {% elsif difficulty > 0.2 %}
+    progress-bar-difficulty-2
+  {% elsif difficulty > 0.1 %}
+    progress-bar-difficulty-1
+  {% else %}
+    progress-bar-difficulty-0
+  {% endif %}
+{% endcapture %}
+
+  <div class="col-xs-5 text-right text-small pad-4">Difficulty</div>
+  <div class="col-xs-4 pad-4">
+    <div class="progress progress-thin">
+      <div class="progress-bar {{ progressBarClass }}" role="progressbar" aria-valuenow="{{ holeRating }}" aria-valuemin="{{ minRating }}" aria-valuemax="{{ maxRating }}" style="width: {{ difficultyPercentage }}%; min-width: 0.3em;">
+      </div>
+    </div>
+  </div>
