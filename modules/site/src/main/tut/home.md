@@ -12,7 +12,10 @@ position: 0
 
     <br>
 
-    {% include news/feed-widget.liquid %}
+    <div class="news-container">
+      {% include schedule/stream-schedule.liquid %}
+      {% include news/feed-widget.liquid %}
+    </div>
 
     <p class="text-content">
       An open source compilation of Golf Clash content. Here you'll find past guides, descriptions,

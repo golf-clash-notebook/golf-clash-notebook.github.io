@@ -1,7 +1,7 @@
 
 {% capture chestElem %}
   {% if include.chest.total < 0 or include.chest.rare < 0 or include.chest.epic < 0 %}
-    <span class="chest-card-count">&nbsp;&nbsp;&nbsp;</span> <img class="img-grayscale invisible" src="/img/golfclash/chests/Common-thumb.png"> <span class="chest-card-count">&nbsp;&nbsp;&nbsp;</span> <img class="img-grayscale invisible" src="/img/golfclash/chests/Common-thumb.png"> <span class="chest-card-count">&nbsp;&nbsp;&nbsp;</span> <img class="img-grayscale invisible" src="/img/golfclash/chests/Common-thumb.png">
+    <span class="chest-card-count">&nbsp;&nbsp;&nbsp;</span> <img class="img-grayscale invisible" src="/img/golfclash/chests/Common-16x12.png"> <span class="chest-card-count">&nbsp;&nbsp;&nbsp;</span> <img class="img-grayscale invisible" src="/img/golfclash/chests/Common-16x12.png"> <span class="chest-card-count">&nbsp;&nbsp;&nbsp;</span> <img class="img-grayscale invisible" src="/img/golfclash/chests/Common-16x12.png">
   {% else %}
     {% if include.chest.epic >= 100 %}
       <span class="chest-card-count">{{ include.chest.epic }}</span> <img src="/img/golfclash/chests/Epic-16x12.png">
@@ -10,7 +10,7 @@
     {% elsif include.chest.epic > 0 %}
       <span class="chest-card-count">&nbsp;&nbsp;{{ include.chest.epic }}</span> <img src="/img/golfclash/chests/Epic-16x12.png">
     {% else %}
-      <span class="chest-card-count">&nbsp;&nbsp;&nbsp;</span> <img class="img-grayscale invisible" src="/img/golfclash/chests/Epic-thumb.png">
+      <span class="chest-card-count">&nbsp;&nbsp;&nbsp;</span> <img class="img-grayscale invisible" src="/img/golfclash/chests/Epic-16x12.png">
     {% endif %}
     {% if include.chest.rare >= 100 %}
       <span class="chest-card-count">{{ include.chest.rare }}</span> <img src="/img/golfclash/chests/Rare-16x12.png">
@@ -19,7 +19,7 @@
     {% elsif include.chest.rare > 0 %}
       <span class="chest-card-count">&nbsp;&nbsp;{{ include.chest.rare }}</span> <img src="/img/golfclash/chests/Rare-16x12.png">
     {% else %}
-      <span class="chest-card-count">&nbsp;&nbsp;&nbsp;</span> <img class="img-grayscale invisible" src="/img/golfclash/chests/Rare-thumb.png">
+      <span class="chest-card-count">&nbsp;&nbsp;&nbsp;</span> <img class="img-grayscale invisible" src="/img/golfclash/chests/Rare-16x12.png">
     {% endif %}
     {% if include.chest.total >= 100 %}
       <span class="chest-card-count">&nbsp;{{ include.chest.total }}</span> <img src="/img/golfclash/chests/Common-16x12.png">
@@ -28,7 +28,7 @@
     {% elsif include.chest.total > 0 %}
       <span class="chest-card-count">&nbsp;&nbsp;{{ include.chest.total }}</span> <img src="/img/golfclash/chests/Common-16x12.png">
     {% else %}
-      <span class="chest-card-count">&nbsp;&nbsp;&nbsp;</span> <img class="img-grayscale invisible" src="/img/golfclash/chests/Common-thumb.png">
+      <span class="chest-card-count">&nbsp;&nbsp;&nbsp;</span> <img class="img-grayscale invisible" src="/img/golfclash/chests/Common-16x12.png">
     {% endif %}
   {% endif %}
 {% endcapture %}

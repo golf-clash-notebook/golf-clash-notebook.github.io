@@ -15,6 +15,7 @@ val ScalaCheckV    = "1.13.5"
 val ScalaTagsV     = "0.6.7"
 val ScalaTestV     = "3.0.5"
 val ScalaJSJqueryV = "0.9.2"
+val ScalaJavaTimeV = "2.0.0-M12"
 ////////////////////////////////////////////////////////////////////////////////
 
 // run dependencyUpdates whenever we [re]load.
@@ -112,14 +113,15 @@ lazy val commonSettings = Seq(
 
 lazy val siteSettings = Seq(
   libraryDependencies ++= Seq(
-    "be.doeraene"   %%% "scalajs-jquery" % ScalaJSJqueryV,
-    "com.lihaoyi"   %%% "scalatags"      % ScalaTagsV,
-    "io.circe"      %%% "circe-core"     % CirceV,
-    "io.circe"      %%% "circe-generic"  % CirceV,
-    "io.circe"      %%% "circe-parser"   % CirceV,
-    "org.typelevel" %%% "cats-core"      % CatsV,
-    "org.typelevel" %%% "cats-effect"    % CatsEffectV,
-    "io.monix"      %%% "monix"          % MonixV
+    "be.doeraene"       %%% "scalajs-jquery"  % ScalaJSJqueryV,
+    "com.lihaoyi"       %%% "scalatags"       % ScalaTagsV,
+    "io.circe"          %%% "circe-core"      % CirceV,
+    "io.circe"          %%% "circe-generic"   % CirceV,
+    "io.circe"          %%% "circe-parser"    % CirceV,
+    "org.typelevel"     %%% "cats-core"       % CatsV,
+    "org.typelevel"     %%% "cats-effect"     % CatsEffectV,
+    "io.monix"          %%% "monix"           % MonixV,
+    "io.github.cquiroz" %%% "scala-java-time" % ScalaJavaTimeV
   ),
   micrositeName := "Golf Clash Notebook",
   micrositeDescription := "An Open Source Guide to Mastering Golf Clash",
