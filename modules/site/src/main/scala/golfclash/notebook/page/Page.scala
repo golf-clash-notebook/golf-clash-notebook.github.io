@@ -32,24 +32,23 @@ sealed abstract class Page(val baseUrl: String, val init: Option[js.Function0[_]
 
 object Page {
 
-  case object Balls       extends Page("/balls/", Some(balls.init))
-  case object ClubRanker  extends Page("/tools/clubranker/", Some(clubranker.init))
-  case object Clubs       extends Page("/clubs/", Some(clubs.init))
-  case object Courses     extends Page("/courses/", Some(courses.init))
-  case object CrowdCaddy  extends Page("/crowdcaddy/", Some(crowdcaddy.init))
-  case object FAQ         extends Page("/faq/", Some(faq.init))
-  case object HoleRanker  extends Page("/tools/holeranker/", Some(holeranker.init))
-  case object Home        extends Page("/")
-  case object Tournaments extends Page("/tournaments/", Some(tournaments.init))
-  case object Tours       extends Page("/tours/")
+  case object Balls       extends Page("^/balls/$", Some(balls.init))
+  case object ClubRanker  extends Page("^/tools/clubranker/$", Some(clubranker.init))
+  case object Clubs       extends Page("^/clubs/", Some(clubs.init))
+  case object Courses     extends Page("^/courses/", Some(courses.init))
+  case object CrowdCaddy  extends Page("^/crowdcaddy/", Some(crowdcaddy.init))
+  case object FAQ         extends Page("^/faq/$", Some(faq.init))
+  case object HoleRanker  extends Page("^/tools/holeranker/$", Some(holeranker.init))
+  case object Home        extends Page("^/$", Some(home.init))
+  case object Tournaments extends Page("^/tournaments/", Some(tournaments.init))
+  case object Tours       extends Page("^/tours/")
 
-  // TODO: Probably want to use regex and be a little more specific which page we're on
-  // (e.g. tournament list page, tournament hole page, etc.)
-  // Currently, Home will match anything that falls through
-  private val all =
+  private val All =
     List(Balls, ClubRanker, Clubs, Courses, CrowdCaddy, FAQ, HoleRanker, Tournaments, Tours, Home)
 
   def forUrlPath(path: String): Option[Page] = {
-    all.find(page => path.startsWith(page.baseUrl))
+    All.find { page =>
+      (page.baseUrl.r).findFirstIn(path).isDefined
+    }
   }
 }
