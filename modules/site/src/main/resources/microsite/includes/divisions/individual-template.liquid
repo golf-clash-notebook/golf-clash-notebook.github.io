@@ -37,30 +37,30 @@
         </div>
       </div>
     </div>
-  </div>
-  <div class="row margin-0">
+    <div class="row margin-0">
 
-    {% if include.division.prizes != undefined and include.division.prizes != empty %}
-      <div class="col-xs-12 text-center">
-        <hr class="hr-text margin-0" data-content="Prizes">
-      </div>
-
-      {% assign prizesMod2 = include.division.prizes | size | modulo: 2 %}
-
-      {% for prize in include.division.prizes %}
-
-        {% capture columnClasses %}
-          {% if prizesMod2 == 1 and forloop.last %}
-            col-xs-6 col-xs-offset-3
-          {% else %}
-            col-xs-6
-          {% endif %}
-        {% endcapture %}
-
-        <div class="{{ columnClasses | strip }} text-center">
-          {% include divisions/prize-template.liquid prize=prize %}
+      {% if include.division.prizes != undefined and include.division.prizes != empty %}
+        <div class="col-xs-12 text-center">
+          <hr class="hr-text margin-0" data-content="Prizes">
         </div>
-      {% endfor %}
-    {% endif %}
+
+        {% assign prizesMod2 = include.division.prizes | size | modulo: 2 %}
+
+        {% for prize in include.division.prizes %}
+
+          {% capture columnClasses %}
+            {% if prizesMod2 == 1 and forloop.last %}
+              col-xs-8 col-xs-offset-2
+            {% else %}
+              col-xs-6
+            {% endif %}
+          {% endcapture %}
+
+          <div class="{{ columnClasses | strip }} text-center">
+            {% include divisions/prize-template.liquid prize=prize %}
+          </div>
+        {% endfor %}
+      {% endif %}
+    </div>
   </div>
 </div>
