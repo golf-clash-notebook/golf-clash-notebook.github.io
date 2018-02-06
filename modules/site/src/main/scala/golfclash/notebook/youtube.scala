@@ -28,6 +28,7 @@ import org.threeten.bp._
 
 import org.scalajs.dom.ext.Ajax
 
+import cats.implicits._
 import io.circe.generic.auto._
 import io.circe.parser._
 import monix.eval._
@@ -37,26 +38,26 @@ object youtube {
 
   case class Channel(name: String, id: String)
   case class YouTubeItemId(kind: String, videoId: String)
-  case class YouTubeLiveStreamingDetails(scheduledStartTime: String)
+  case class YouTubeSearchResultItem(id: YouTubeItemId)
+  case class YouTubeSnippet(title: Option[String], description: Option[String])
+  case class YouTubeLiveStreamingDetails(scheduledStartTime: Option[String],
+                                         scheduledEndTime: Option[String]) {
+    def startTime = scheduledStartTime.map(parseStreamTime)
+    def endTime   = scheduledEndTime.map(parseStreamTime)
+  }
+
+  case class UpcomingStreamInfo(snippet: YouTubeSnippet, details: YouTubeLiveStreamingDetails)
 
   sealed trait YouTubeStream extends Product with Serializable
 
-  case class LiveStream(id: YouTubeItemId) extends YouTubeStream {
-    def url: String = s"https://www.youtube.com/watch?v=${id.videoId}"
+  case class LiveStream(id: YouTubeItemId, snippet: YouTubeSnippet) extends YouTubeStream {
+    def title: String = snippet.title.getOrElse("Untitled")
+    def url: String   = s"https://www.youtube.com/watch?v=${id.videoId}"
   }
 
-  case class UpcomingStream(id: YouTubeItemId, dateTimeString: Option[String])
-      extends YouTubeStream {
-    def dateTime = {
-      dateTimeString
-        .map { string =>
-          OffsetDateTime
-            .parse(string, format.DateTimeFormatter.ISO_DATE_TIME)
-            .toZonedDateTime
-            .withZoneSameInstant(ZoneId.systemDefault)
-        }
-        .filter(_.isAfter(ZonedDateTime.now))
-    }
+  case class UpcomingStream(id: YouTubeItemId, info: UpcomingStreamInfo) extends YouTubeStream {
+    def title: String = info.snippet.title.getOrElse("Untitled")
+    def url: String   = s"https://www.youtube.com/watch?v=${id.videoId}"
   }
 
   def apiKey(): String = {
@@ -77,35 +78,15 @@ object youtube {
     }
   }
 
-  def getChannelLiveStream(apiKey: String, channelId: String): Task[Option[LiveStream]] = {
-    urlRequest(streamChannelQueryURL(apiKey, channelId, "live")).map { responseText =>
+  def getChannelLiveStream(channelId: String): Task[Option[LiveStream]] = {
+    urlRequest(streamChannelQueryURL(channelId, "live")).map { responseText =>
       parse(responseText) match {
         case Left(_) => None
         case Right(json) => {
           json.hcursor.downField("items").as[List[LiveStream]] match {
-            case Left(_)           => None
-            case Right(streamList) => streamList.headOption
-          }
-        }
-      }
-    }
-  }
-
-  def getChannelUpcomingStream(apiKey: String, channelId: String): Task[Option[UpcomingStream]] = {
-    urlRequest(streamChannelQueryURL(apiKey, channelId, "upcoming")).flatMap { responseText =>
-      parse(responseText) match {
-        case Left(_) => Task.now(None)
-        case Right(json) => {
-          json.hcursor.downField("items").as[List[UpcomingStream]] match {
-            case Left(_) => Task.now(None)
+            case Left(_) => None
             case Right(streamList) => {
               streamList.headOption
-                .map { upcomingStream =>
-                  getUpcomingStreamInfo(apiKey, upcomingStream.id.videoId).map { info =>
-                    info.map(i => UpcomingStream(upcomingStream.id, Some(i.scheduledStartTime)))
-                  }
-                }
-                .getOrElse(Task.now(None))
             }
           }
         }
@@ -113,31 +94,91 @@ object youtube {
     }
   }
 
-  def getUpcomingStreamInfo(apiKey: String,
-                            videoId: String): Task[Option[YouTubeLiveStreamingDetails]] = {
-    urlRequest(
-      s"https://www.googleapis.com/youtube/v3/videos?part=liveStreamingDetails&id=${videoId}&key=${apiKey}"
-    ).map { responseText =>
+  def getChannelUpcomingStreams(channelId: String): Task[List[UpcomingStream]] = {
+    urlRequest(streamChannelQueryURL(channelId, "upcoming")).flatMap { responseText =>
       parse(responseText) match {
-        case Left(_) => None
+        case Left(_) => Task.now(Nil)
         case Right(json) => {
-          json.hcursor
-            .downField("items")
-            .downArray
-            .downField("liveStreamingDetails")
-            .as[YouTubeLiveStreamingDetails]
-            .toOption
+          json.hcursor.downField("items").as[List[YouTubeSearchResultItem]] match {
+            case Left(_) => Task.now(Nil)
+            case Right(searchResults) => {
+              searchResults
+                .map { searchResult =>
+                  getUpcomingStreamInfo(searchResult.id.videoId).map { info =>
+                    info.map { i =>
+                      UpcomingStream(searchResult.id, i)
+                    }
+                  }
+                }
+                .sequence
+                .map { optionList =>
+                  optionList.flatten
+                    .sortBy(
+                      _.info.details.startTime.map(_.toEpochSecond).getOrElse(Long.MaxValue)
+                    )
+                    .filter {
+                      _.info.details.startTime match {
+                        case Some(startTime) =>
+                          startTime.isAfter(ZonedDateTime.now) && startTime
+                            .isBefore(ZonedDateTime.now.plusDays(7))
+                        case None => false
+                      }
+                    }
+                }
+            }
+          }
         }
       }
     }
   }
 
-  private[this] def streamChannelQueryURL(apiKey: String, channelId: String, streamType: String) = {
-    s"https://www.googleapis.com/youtube/v3/search?part=snippet&channelId=${channelId}&eventType=${streamType}&order=date&type=video&key=${apiKey}"
+  def getUpcomingStreamInfo(videoId: String): Task[Option[UpcomingStreamInfo]] = {
+    urlRequest(
+      s"https://www.googleapis.com/youtube/v3/videos?part=snippet,liveStreamingDetails&id=${videoId}&key=${apiKey()}"
+    ).map { responseText =>
+      parse(responseText) match {
+        case Left(_) => None
+        case Right(json) => {
+          val streamSnippet =
+            json.hcursor
+              .downField("items")
+              .downArray
+              .downField("snippet")
+              .as[YouTubeSnippet]
+              .toOption
+
+          val liveStreamDetails =
+            json.hcursor
+              .downField("items")
+              .downArray
+              .downField("liveStreamingDetails")
+              .as[YouTubeLiveStreamingDetails]
+              .toOption
+
+          for {
+            snippet <- streamSnippet
+            details <- liveStreamDetails
+          } yield {
+            UpcomingStreamInfo(snippet, details)
+          }
+        }
+      }
+    }
+  }
+
+  private[this] def streamChannelQueryURL(channelId: String, streamType: String) = {
+    s"https://www.googleapis.com/youtube/v3/search?part=snippet&channelId=${channelId}&eventType=${streamType}&order=date&type=video&key=${apiKey()}"
   }
 
   private[this] def urlRequest(url: String): Task[String] = {
     Task.fromFuture(Ajax.get(url).map(_.responseText))
+  }
+
+  private[this] def parseStreamTime(timeString: String): ZonedDateTime = {
+    OffsetDateTime
+      .parse(timeString, format.DateTimeFormatter.ISO_DATE_TIME)
+      .toZonedDateTime
+      .withZoneSameInstant(ZoneId.systemDefault)
   }
 
   //////////////////////////////////////////////////////////////////////////////////////////////////
