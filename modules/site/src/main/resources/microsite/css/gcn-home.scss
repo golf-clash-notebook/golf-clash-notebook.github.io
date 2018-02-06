@@ -52,8 +52,18 @@
       }
 
       .stream-title {
+        display: inline-block;
         margin-bottom: 4px;
         margin-top: 4px;
+      }
+
+      .stream-updating-spinner {
+        display: inline-block;
+        height: 16px;
+        position: absolute;
+        right: 16px;
+        top: 12px;
+        width: 16px;
       }
 
       .stream-schedule {

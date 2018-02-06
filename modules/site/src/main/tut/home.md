@@ -37,7 +37,7 @@ position: 0
     <p class="text-content">
       Be sure to check out the <a href="/resources/">Resources</a> page which provides links to
       other pages that have a lot of quality content. And lastly, all community contributions are
-      appreciated. You can find out how you can do just that on the <a href="/contributing/">Contributing Page.</a>.
+      appreciated. You can find out how you can do just that on the <a href="/contributing/">Contributing Page.</a>
     </p>
 
   </div>

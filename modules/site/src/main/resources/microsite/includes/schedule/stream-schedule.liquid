@@ -7,6 +7,11 @@
         <a href="https://www.youtube.com/channel/{{ channel.id }}" target="_blank" rel="noopener">
           <h5 class="list-group-item-heading stream-title">{{ channel.name }}</h5>
         </a>
+        <div class="orbit-spinner spinner-centered stream-updating-spinner">
+          <div class="orbit"></div>
+          <div class="orbit"></div>
+          <div class="orbit"></div>
+        </div>
         <div class="list-group-item-text stream-schedule text-small"></div>
       </div>
     {% endfor %}

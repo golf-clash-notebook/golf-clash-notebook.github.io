@@ -1,10 +1,4 @@
 
-# For testing purposes...
-#
-# - name: Ship It In!
-#   id: UC0aJpP4DgTL96qnQE5BA1Sw
-# - name: Golf Clash Notebook
-#   id: UC7-ipckX8mNL1ZqHLKje2WQ
 - name: Golf Clash Tommy
   id: UCUKgC5od0_VWyn4ztkevO0Q
 - name: ItsRJTV
@@ -15,3 +9,7 @@
   id: UCGc92mNj4Qb4CD0w3gKDWzw
 - name: Cam Alvesteffer
   id: UCrlKqzrwKpZIqMD4jcRr6Tg
+
+# For testing purposes...
+# - name: Golf Clash Notebook
+#   id: UC7-ipckX8mNL1ZqHLKje2WQ
