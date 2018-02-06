@@ -25,6 +25,8 @@
 package golfclash.notebook
 package page
 
+import scala.scalajs.js.timers._
+
 import org.scalajs.jquery._
 import org.scalajs.dom.Element
 import org.threeten.bp._
@@ -34,12 +36,23 @@ import scalatags.JsDom.all._
 
 object home {
 
-  private val dateTimeFormatter = format.DateTimeFormatter.ofPattern("d MMM @ hh:mm a")
+  private val dateTimeFormatter = format.DateTimeFormatter.ofPattern("d MMM @ h:mm a")
 
   val init = () => {
+    refreshStreamSchedule(true)
+
+    // Refresh every 3 minutes after initial...
+    setInterval(180000L) { refreshStreamSchedule(); () }
+  }
+
+  def refreshStreamSchedule(initial: Boolean = false) = {
 
     jQuery("#stream-schedule").find(".stream-item").map { e: Element =>
       val streamItem = jQuery(e)
+
+      if (initial) {
+        streamItem.find(".stream-updating-spinner").removeClass("hidden")
+      }
 
       streamItem.attr("data-channel-id").toOption match {
         case Some(channelId) => {
@@ -53,6 +66,7 @@ object home {
                 streamItem.addClass("live")
                 streamItem
                   .find(".stream-schedule")
+                  .empty()
                   .append(
                     a(
                       cls := "stream-schedule-item live-stream-link",
@@ -68,6 +82,7 @@ object home {
               case (_, Nil) => {
                 streamItem
                   .find(".stream-schedule")
+                  .empty()
                   .append(
                     div(cls := "stream-schedule-item")(
                       div(cls := "stream-schedule-item-title")(""),
@@ -76,6 +91,7 @@ object home {
                   )
               }
               case (_, upcomingStreams) => {
+                streamItem.find(".stream-schedule").empty()
                 upcomingStreams
                   .take(3)
                   .foreach { stream =>
@@ -101,6 +117,9 @@ object home {
                   }
               }
             }
+
+            streamItem.find(".stream-updating-spinner").addClass("hidden")
+
           }).runAsync
         }
         case None =>
