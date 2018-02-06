@@ -6,7 +6,7 @@
   .gcn-news-list {
 
     padding: 6px 24px;
-    max-width: 350px;
+    max-width: 375px;
 
     > .list-group {
       margin-bottom: 0;
@@ -27,7 +27,6 @@
 
     .stream-item {
 
-      display: flex;
       padding: 6px 12px;
 
       &.live {
@@ -40,9 +39,16 @@
           font-weight: 900;
         }
 
-        .stream-schedule-time {
+        .stream-schedule {
           font-weight: 900;
+
+          .stream-schedule-item {
+            .stream-schedule-item-time {
+              min-width: 75px;
+            }
+          }
         }
+
       }
 
       .stream-title {
@@ -50,10 +56,27 @@
         margin-top: 4px;
       }
 
-      .stream-schedule-time {
-        flex: 1;
+      .stream-schedule {
         padding: 4px 0;
-        text-align: right;
+
+        .stream-schedule-item {
+
+          display: flex;
+          margin-bottom: 4px;
+          margin-left: 4px;
+
+          .stream-schedule-item-title {
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+          }
+
+          .stream-schedule-item-time {
+            flex: 1;
+            min-width: 120px;
+            text-align: right;
+          }
+        }
       }
 
       .live-stream-link {

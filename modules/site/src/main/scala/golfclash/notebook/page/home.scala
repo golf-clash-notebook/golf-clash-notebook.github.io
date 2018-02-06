@@ -26,9 +26,9 @@ package golfclash.notebook
 package page
 
 import org.scalajs.jquery._
+import org.scalajs.dom.Element
 import org.threeten.bp._
 
-import cats.implicits._
 import monix.execution.Scheduler.Implicits.global
 import scalatags.JsDom.all._
 
@@ -38,52 +38,82 @@ object home {
 
   val init = () => {
 
-    youtube
-      .channels()
-      .flatMap { channels =>
-        channels
-          .map { channel =>
-            for {
-              liveStream     <- youtube.getChannelLiveStream(youtube.apiKey(), channel.id)
-              upcomingStream <- youtube.getChannelUpcomingStream(youtube.apiKey(), channel.id)
-            } yield {
+    jQuery("#stream-schedule").find(".stream-item").map { e: Element =>
+      val streamItem = jQuery(e)
 
-              val (itemClasses, scheduleText) =
-                (liveStream, upcomingStream) match {
-                  case (Some(live), _) =>
-                    (
-                      "live",
-                      a(
-                        href := live.url,
-                        cls := "live-stream-link",
-                        target := "_blank",
-                        rel := "noopener"
-                      )("LIVE")
-                    )
-                  case (None, Some(upcoming)) =>
-                    (
-                      "",
-                      upcoming.dateTime
-                        .map(dateTime => span(dateTime.format(dateTimeFormatter)))
-                        .getOrElse(span("Nothing Scheduled"))
-                    )
-                  case _ => ("", span("Nothing Scheduled"))
-                }
+      streamItem.attr("data-channel-id").toOption match {
+        case Some(channelId) => {
+          (for {
+            liveStream      <- youtube.getChannelLiveStream(channelId)
+            upcomingStreams <- youtube.getChannelUpcomingStreams(channelId)
+          } yield {
 
-              jQuery("#stream-schedule > .list-group").append(
-                div(cls := s"list-group-item stream-item $itemClasses")(
-                  a(href := s"https://www.youtube.com/channel/${channel.id}")(
-                    h5(cls := "list-group-item-heading stream-title")(channel.name)
-                  ),
-                  p(cls := "list-group-item-text stream-schedule-time text-small")(scheduleText)
-                ).render
-              )
+            (liveStream, upcomingStreams) match {
+              case (Some(live), _) => {
+                streamItem.addClass("live")
+                streamItem
+                  .find(".stream-schedule")
+                  .append(
+                    a(
+                      cls := "stream-schedule-item live-stream-link",
+                      href := live.url,
+                      target := "_blank",
+                      rel := "noopener"
+                    )(
+                      div(cls := "stream-schedule-item-title")(live.title),
+                      div(cls := "stream-schedule-item-time")("LIVE")
+                    ).render
+                  )
+              }
+              case (_, Nil) => {
+                streamItem
+                  .find(".stream-schedule")
+                  .append(
+                    div(cls := "stream-schedule-item")(
+                      div(cls := "stream-schedule-item-title")(""),
+                      div(cls := "stream-schedule-item-time")("Nothing Scheduled")
+                    ).render
+                  )
+              }
+              case (_, upcomingStreams) => {
+                upcomingStreams
+                  .take(3)
+                  .foreach { stream =>
+                    stream.info.details.startTime.map { startTime =>
+                      streamItem
+                        .find(".stream-schedule")
+                        .append(
+                          a(
+                            cls := "stream-schedule-item",
+                            href := stream.url,
+                            target := "_blank",
+                            rel := "noopener"
+                          )(
+                            div(cls := "stream-schedule-item-title")(
+                              stream.title
+                            ),
+                            div(cls := "stream-schedule-item-time")(
+                              startTime.format(dateTimeFormatter).toUpperCase
+                            )
+                          ).render
+                        )
+                    }
+                  }
+              }
             }
-          }
-          .sequence
-          .map(_ => jQuery("#stream-schedule").removeClass("hidden"))
+          }).runAsync
+        }
+        case None =>
+          streamItem
+            .find(".stream-schedule")
+            .append(
+              div(cls := "stream-schedule-item")(
+                div(cls := "stream-schedule-title")(""),
+                div(cls := "stream-schedule-time")("Nothing Scheduled")
+              ).render
+            )
       }
-      .runAsync
+    }
 
   }
 
