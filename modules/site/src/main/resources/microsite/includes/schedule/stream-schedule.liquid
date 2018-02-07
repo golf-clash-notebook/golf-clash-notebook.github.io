@@ -1,5 +1,5 @@
 
-<div id="stream-schedule" class="gcn-news-list gcn-stream-list">
+<div id="stream-schedule" class="gcn-news-list gcn-stream-list hidden">
   <div class="list-group">
     <div class="list-group-item">Stream Schedule</div>
     {% for channel in site.data.channels %}
@@ -7,7 +7,7 @@
         <a href="https://www.youtube.com/channel/{{ channel.id }}" target="_blank" rel="noopener">
           <h5 class="list-group-item-heading stream-title">{{ channel.name }}</h5>
         </a>
-        <div class="orbit-spinner spinner-centered stream-updating-spinner">
+        <div class="orbit-spinner spinner-centered stream-updating-spinner hidden">
           <div class="orbit"></div>
           <div class="orbit"></div>
           <div class="orbit"></div>

@@ -29,28 +29,6 @@
 
       padding: 6px 12px;
 
-      &.live {
-
-        background-color: #f00;
-        color: #fff;
-
-        .stream-title {
-          color: #fff;
-          font-weight: 900;
-        }
-
-        .stream-schedule {
-          font-weight: 900;
-
-          .stream-schedule-item {
-            .stream-schedule-item-time {
-              min-width: 75px;
-            }
-          }
-        }
-
-      }
-
       .stream-title {
         display: inline-block;
         margin-bottom: 4px;
@@ -85,12 +63,16 @@
             flex: 1;
             min-width: 120px;
             text-align: right;
+
+            .live-label {
+              background-color: #f00;
+              border-radius: 2px;
+              color: #fff;
+              font-weight: 900;
+              padding: 1px 4px;
+            }
           }
         }
-      }
-
-      .live-stream-link {
-        color: #fff;
       }
     }
   }
