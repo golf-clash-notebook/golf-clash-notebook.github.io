@@ -26,6 +26,9 @@ package golfclash.notebook
 
 import scala.concurrent.{ Promise => ScalaPromise }
 
+import org.threeten.bp._
+
+import cats.implicits._
 import io.circe.scalajs._
 import io.circe.generic.auto._
 import io.circe.syntax._
@@ -33,6 +36,8 @@ import golfclash.notebook.core._
 import firebase._
 import firebase.auth._
 import monix.eval._
+import monix.execution.Scheduler.Implicits.global
+import youtube.YouTubeStream
 
 object store {
 
@@ -248,5 +253,75 @@ object store {
 
     }
 
+  }
+
+  object scheduling {
+
+    val ExpiredThreshold = 10 * 60 * 1000d // 10 minutes
+
+    case class Schedule(lastUpdated: Long, channelStreams: Map[String, List[YouTubeStream]])
+
+    def current(): Task[Option[Schedule]] = {
+      cached().flatMap { maybeSchedule =>
+        maybeSchedule match {
+          case Some(cachedSchedule)
+              if (Instant.now.toEpochMilli - cachedSchedule.lastUpdated < ExpiredThreshold) => {
+            Task.now(maybeSchedule)
+          }
+          case _ => {
+            fresh().flatMap(store).map(Some(_))
+          }
+        }
+      }
+    }
+
+    private[this] def cached(): Task[Option[Schedule]] = {
+      val promise = ScalaPromise[Option[Schedule]]()
+
+      db.collection("youtube-schedule")
+        .doc("schedule")
+        .get()
+        .`then`(
+          docSnapshot => {
+            if (docSnapshot.exists) {
+              promise.success(decodeJs[Schedule](docSnapshot.data()).toOption)
+            } else {
+              fresh().flatMap(store).map(schedule => promise.success(Some(schedule))).runAsync
+            }
+          },
+          error => promise.success(None)
+        )
+
+      Task.fromFuture(promise.future)
+    }
+
+    private[this] def store(schedule: Schedule): Task[Schedule] = {
+      val promise = ScalaPromise[Schedule]()
+
+      db.collection("youtube-schedule")
+        .doc("schedule")
+        .set(schedule.asJson.asJsAny)
+        .`then`(
+          _ => promise.success(schedule),
+          error => promise.failure(new RuntimeException(error.message))
+        )
+
+      Task.fromFuture(promise.future)
+    }
+
+    private[this] def fresh(): Task[Schedule] = {
+      youtube.channels().flatMap { channelList =>
+        channelList
+          .map { channel =>
+            youtube.channelStreams(channel.id).map { streams =>
+              (channel.id -> streams)
+            }
+          }
+          .sequence
+          .map { channelInfos =>
+            Schedule(Instant.now.toEpochMilli, channelInfos.toMap)
+          }
+      }
+    }
   }
 }

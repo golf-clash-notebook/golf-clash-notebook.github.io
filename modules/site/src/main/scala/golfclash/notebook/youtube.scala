@@ -68,9 +68,9 @@ object youtube {
   }
 
   def channels(): Task[List[Channel]] = {
-    urlRequest("/data/channels.json").map { text =>
+    urlRequest("/data/channels.json").map { responseText =>
       (for {
-        json     <- parse(text)
+        json     <- parse(responseText)
         channels <- json.as[List[Channel]]
       } yield {
         channels
@@ -78,15 +78,23 @@ object youtube {
     }
   }
 
-  def getChannelLiveStream(channelId: String): Task[Option[LiveStream]] = {
+  def channelStreams(channelId: String): Task[List[YouTubeStream]] =
+    for {
+      liveStreams     <- channelLiveStreams(channelId)
+      upcomingStreams <- channelUpcomingStreams(channelId)
+    } yield {
+      liveStreams ::: upcomingStreams
+    }
+
+  private[this] def channelLiveStreams(channelId: String): Task[List[LiveStream]] = {
     urlRequest(streamChannelQueryURL(channelId, "live")).map { responseText =>
       parse(responseText) match {
-        case Left(_) => None
+        case Left(_) => Nil
         case Right(json) => {
           json.hcursor.downField("items").as[List[LiveStream]] match {
-            case Left(_) => None
+            case Left(_) => Nil
             case Right(streamList) => {
-              streamList.headOption
+              streamList
             }
           }
         }
@@ -94,7 +102,7 @@ object youtube {
     }
   }
 
-  def getChannelUpcomingStreams(channelId: String): Task[List[UpcomingStream]] = {
+  private[this] def channelUpcomingStreams(channelId: String): Task[List[UpcomingStream]] = {
     urlRequest(streamChannelQueryURL(channelId, "upcoming")).flatMap { responseText =>
       parse(responseText) match {
         case Left(_) => Task.now(Nil)
@@ -132,7 +140,7 @@ object youtube {
     }
   }
 
-  def getUpcomingStreamInfo(videoId: String): Task[Option[UpcomingStreamInfo]] = {
+  private[this] def getUpcomingStreamInfo(videoId: String): Task[Option[UpcomingStreamInfo]] = {
     urlRequest(
       s"https://www.googleapis.com/youtube/v3/videos?part=snippet,liveStreamingDetails&id=${videoId}&key=${apiKey()}"
     ).map { responseText =>

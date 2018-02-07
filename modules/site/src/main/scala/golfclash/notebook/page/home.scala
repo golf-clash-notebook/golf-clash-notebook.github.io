@@ -33,6 +33,7 @@ import org.threeten.bp._
 
 import monix.execution.Scheduler.Implicits.global
 import scalatags.JsDom.all._
+import youtube._
 
 object home {
 
@@ -41,99 +42,89 @@ object home {
   val init = () => {
     refreshStreamSchedule(true)
 
-    // Refresh every 3 minutes after initial...
-    setInterval(180000L) { refreshStreamSchedule(); () }
+    setInterval(store.scheduling.ExpiredThreshold) { refreshStreamSchedule(); () }
   }
 
   def refreshStreamSchedule(initial: Boolean = false) = {
 
-    jQuery("#stream-schedule").find(".stream-item").map { e: Element =>
-      val streamItem = jQuery(e)
-
-      if (initial) {
-        streamItem.find(".stream-updating-spinner").removeClass("hidden")
-      }
-
-      streamItem.attr("data-channel-id").toOption match {
-        case Some(channelId) => {
-          (for {
-            liveStream      <- youtube.getChannelLiveStream(channelId)
-            upcomingStreams <- youtube.getChannelUpcomingStreams(channelId)
-          } yield {
-
-            (liveStream, upcomingStreams) match {
-              case (Some(live), _) => {
-                streamItem.addClass("live")
-                streamItem
-                  .find(".stream-schedule")
-                  .empty()
-                  .append(
-                    a(
-                      cls := "stream-schedule-item live-stream-link",
-                      href := live.url,
-                      target := "_blank",
-                      rel := "noopener"
-                    )(
-                      div(cls := "stream-schedule-item-title")(live.title),
-                      div(cls := "stream-schedule-item-time")("LIVE")
-                    ).render
-                  )
-              }
-              case (_, Nil) => {
-                streamItem
-                  .find(".stream-schedule")
-                  .empty()
-                  .append(
-                    div(cls := "stream-schedule-item")(
-                      div(cls := "stream-schedule-item-title")(""),
-                      div(cls := "stream-schedule-item-time")("Nothing Scheduled")
-                    ).render
-                  )
-              }
-              case (_, upcomingStreams) => {
-                streamItem.find(".stream-schedule").empty()
-                upcomingStreams
-                  .take(3)
-                  .foreach { stream =>
-                    stream.info.details.startTime.map { startTime =>
-                      streamItem
-                        .find(".stream-schedule")
-                        .append(
-                          a(
-                            cls := "stream-schedule-item",
-                            href := stream.url,
-                            target := "_blank",
-                            rel := "noopener"
-                          )(
-                            div(cls := "stream-schedule-item-title")(
-                              stream.title
-                            ),
-                            div(cls := "stream-schedule-item-time")(
-                              startTime.format(dateTimeFormatter).toUpperCase
-                            )
-                          ).render
-                        )
-                    }
-                  }
-              }
-            }
-
-            streamItem.find(".stream-updating-spinner").addClass("hidden")
-
-          }).runAsync
-        }
-        case None =>
-          streamItem
-            .find(".stream-schedule")
-            .append(
-              div(cls := "stream-schedule-item")(
-                div(cls := "stream-schedule-title")(""),
-                div(cls := "stream-schedule-time")("Nothing Scheduled")
-              ).render
-            )
-      }
+    if (initial) {
+      jQuery(".stream-updating-spinner").removeClass("hidden")
     }
 
+    store.scheduling
+      .current()
+      .map { maybeSchedule =>
+        maybeSchedule match {
+          case Some(schedule) => {
+            schedule.channelStreams.foreach {
+              case (channelId, streamList) =>
+                jQuery(s""".stream-item[data-channel-id="${channelId}"]""").map { e: Element =>
+                  val streamItem = jQuery(e)
+
+                  if (streamList.nonEmpty) {
+                    streamItem.find(".stream-schedule").empty()
+                    streamList
+                      .sortWith {
+                        case (_: LiveStream, _) => false
+                        case (_, _: LiveStream) => true
+                        case _                  => false
+                      }
+                      .foreach { stream =>
+                        streamItem
+                          .find(".stream-schedule")
+                          .append(createStreamItem(stream).render)
+                      }
+                  } else {
+                    streamItem
+                      .find(".stream-schedule")
+                      .append(
+                        div(cls := "stream-schedule-item")(
+                          div(cls := "stream-schedule-item-title")(""),
+                          div(cls := "stream-schedule-item-time")("Offline")
+                        ).render
+                      )
+                  }
+
+                  streamItem.find(".stream-updating-spinner").addClass("hidden")
+                }
+            }
+          }
+          case None => ()
+        }
+      }
+      .runAsync
+
+  }
+
+  def createStreamItem(stream: YouTubeStream) = {
+    stream match {
+      case live: LiveStream => {
+        a(
+          cls := "stream-schedule-item live-stream-link",
+          href := live.url,
+          target := "_blank",
+          rel := "noopener"
+        )(
+          div(cls := "stream-schedule-item-title")(live.title),
+          div(cls := "stream-schedule-item-time")(span(cls := "live-label")("LIVE"))
+        )
+      }
+      case upcoming: UpcomingStream => {
+
+        val startTimeString =
+          upcoming.info.details.startTime.map(_.format(dateTimeFormatter).toUpperCase).getOrElse("")
+
+        a(
+          cls := "stream-schedule-item",
+          href := upcoming.url,
+          target := "_blank",
+          rel := "noopener"
+        )(
+          div(cls := "stream-schedule-item-title")(upcoming.title),
+          div(cls := "stream-schedule-item-time")(startTimeString)
+        )
+      }
+    }
   }
 
 }
