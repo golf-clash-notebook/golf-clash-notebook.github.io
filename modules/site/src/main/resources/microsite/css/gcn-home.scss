@@ -51,12 +51,12 @@
 
           display: flex;
           margin-bottom: 4px;
-          margin-left: 4px;
+          margin-left: 6px;
 
           .stream-schedule-item-title {
-            white-space: nowrap;
-            overflow: hidden;
-            text-overflow: ellipsis;
+            // white-space: nowrap;
+            // overflow: hidden;
+            // text-overflow: ellipsis;
           }
 
           .stream-schedule-item-time {
@@ -74,6 +74,12 @@
           }
         }
       }
+    }
+
+    .stream-item-footer {
+      background-color: #efefef;
+      padding: 4px 8px;
+      text-align: right;
     }
   }
 }

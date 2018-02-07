@@ -13,8 +13,8 @@ position: 0
     <br>
 
     <div class="news-container">
-      {% include schedule/stream-schedule.liquid %}
       {% include news/feed-widget.liquid %}
+      {% include schedule/stream-schedule.liquid %}
     </div>
 
     <p class="text-content">
