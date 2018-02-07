@@ -41,8 +41,7 @@ object home {
 
   val init = () => {
     refreshStreamSchedule(true)
-
-    setInterval(store.scheduling.ExpiredThreshold) { refreshStreamSchedule(); () }
+    setInterval(store.scheduling.ExpiredThreshold / 3) { refreshStreamSchedule(); () }
   }
 
   def refreshStreamSchedule(initial: Boolean = false) = {
@@ -69,6 +68,7 @@ object home {
                         case (_, _: LiveStream) => true
                         case _                  => false
                       }
+                      .take(3)
                       .foreach { stream =>
                         streamItem
                           .find(".stream-schedule")
@@ -77,6 +77,7 @@ object home {
                   } else {
                     streamItem
                       .find(".stream-schedule")
+                      .empty()
                       .append(
                         div(cls := "stream-schedule-item")(
                           div(cls := "stream-schedule-item-title")(""),

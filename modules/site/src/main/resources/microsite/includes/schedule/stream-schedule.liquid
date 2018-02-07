@@ -1,7 +1,7 @@
 
-<div id="stream-schedule" class="gcn-news-list gcn-stream-list hidden">
+<div id="stream-schedule" class="gcn-news-list gcn-stream-list">
   <div class="list-group">
-    <div class="list-group-item">Stream Schedule</div>
+    <div class="list-group-item">Stream Schedules</div>
     {% for channel in site.data.channels %}
       <div class="list-group-item stream-item" data-channel-id="{{ channel.id }}">
         <a href="https://www.youtube.com/channel/{{ channel.id }}" target="_blank" rel="noopener">
@@ -15,5 +15,8 @@
         <div class="list-group-item-text stream-schedule text-small"></div>
       </div>
     {% endfor %}
+    <div class="list-group-item stream-item-footer">
+      <div class="text-tiny text-right">Schedule updates may take up to 10 minutes to appear.</div>
+    </div>
   </div>
 </div>
