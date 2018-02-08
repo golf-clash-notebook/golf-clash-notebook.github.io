@@ -105,22 +105,23 @@ permalink: /tools/holeranker/
             {% endif %}
           {% endcapture %}
 
-          <div class="col-md-4 col-sm-6 col-xs-12">
-            <div class="hole-rating-card pad-12 {{ ratingTextClass | strip }}" style="border-left: 3px solid {{ ratingColor | strip }}">
-              <div class="col hole-thumb">
-                <img class="img-inline img-responsive" src="/img/golfclash/courses/{{ coursePath }}/{{ hole.number}}-thumb.png" >
+          <a href="/courses/{{ coursePath }}/{{ hole.number }}/">
+            <div class="col-md-4 col-sm-6 col-xs-12">
+              <div class="hole-rating-card pad-12 {{ ratingTextClass | strip }}" style="border-left: 3px solid {{ ratingColor | strip }}">
+                <div class="col hole-thumb">
+                  <img class="img-inline img-responsive" src="/img/golfclash/courses/{{ coursePath }}/{{ hole.number}}-thumb.png" >
+                </div>
+                <div class="col hole-description">
+                  <h4 class="text-semi-muted">{{ course.course-name }}</h4>
+                  <h5 class="text-semi-muted margin-left-8">Hole {{ hole.number }} - Par {{ hole.par }}</h5>
+                  <h5 class="text-semi-muted margin-left-8">
+                    <strong> {{ holeRating.rating | round: 2 }}</strong>
+                    <small class="text-semi-muted">({{ ratingChange | strip }})</small>
+                  </h5>
+                </div>
               </div>
-              <div class="col hole-description">
-                <h4 class="text-semi-muted">{{ course.course-name }}</h4>
-                <h5 class="text-semi-muted margin-left-8">Hole {{ hole.number }} - Par {{ hole.par }}</h5>
-                <h5 class="text-semi-muted margin-left-8">
-                  <strong> {{ holeRating.rating | round: 2 }}</strong>
-                  <small class="text-semi-muted">({{ ratingChange | strip }})</small>
-                </h5>
-              </div>
-
             </div>
-          </div>
+          </a>
         {% endif %}
       {% endfor %}
     {% endfor %}
