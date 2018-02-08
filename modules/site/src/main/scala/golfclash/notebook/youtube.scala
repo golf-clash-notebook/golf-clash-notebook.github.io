@@ -73,10 +73,10 @@ object youtube {
     "pro",
     "qualifying",
     "rookie",
-    "round"
+    "round",
     "tour",
     "tournament",
-    "weekend",
+    "weekend"
   )
 
   def apiKey(): String = {
