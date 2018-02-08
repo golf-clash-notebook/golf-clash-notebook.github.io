@@ -81,7 +81,7 @@ object home {
                       .append(
                         div(cls := "stream-schedule-item")(
                           div(cls := "stream-schedule-item-title")(""),
-                          div(cls := "stream-schedule-item-time")("Offline")
+                          div(cls := "stream-schedule-item-time text-danger")("Offline")
                         ).render
                       )
                   }

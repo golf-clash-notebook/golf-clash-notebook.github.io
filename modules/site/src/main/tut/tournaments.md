@@ -191,35 +191,7 @@ position: 10
     <a id="Tiebreakers"></a>
     <h4>Understanding Tiebreakers</h4>
     <p>
-      There are only 3 tiebreakers used throughout the tournament. The first tiebreaker used is
-      cumulative score for all rounds completed before the current round. That means if you and an
-      opponent score the same score in the Opening Round, the person with the lowest score in the
-      Qualifying Round would win the tiebreaker. In the Weekend Round, both the Qualifying Round
-      and Opening Round score added together would determine who wins.
-    </p>
-    <p>
-      If 2 players have the same cumulative score, then the next tiebreaker is the player who has
-      completed the most holes at that point. This is why it's important to
-      <strong><em>always</em></strong> finish your rounds.
-    </p>
-    <p>
-      The last tiebreaker used in situations where both players have the same cumulative score and
-      same number of holes played, is the player who finished their holes first. Some strategies
-      are available to try and overcome this somewhat arbitrary rule.
-      <dl>
-        <dt>Waiting to Open the App Until You're Ready to Play.</dt>
-        <dd>
-          When you advance to the next round, you'll be placed in a bracket the next time you open
-          the app after the round has started. It doesn't matter if you actually do anything in the
-          app. Just opening it will place you in a bracket and some of your opponents may be
-          playing immediately. By waiting until you're ready, you'll be one of the first to finish.
-        </dd>
-        <dt>Forfeiting Shootouts</dt>
-        <dd>
-          Not spending time to play shootouts will lead to a quicker round and finishing before
-          players who choose to play them.
-        </dd>
-      </dl>
+      <strong>New tiebreaking information incoming...</strong>
     </p>
     <p>
       At any time during your tournament play you'll be able to see any tiebreakers in use by
