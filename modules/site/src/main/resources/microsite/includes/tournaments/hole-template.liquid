@@ -198,6 +198,10 @@ section: "courses"
           {% endfor %}
         {% endfor %}
       </div>
+    {% else %}
+      <p class="text-center text-semi-muted">
+        Check the <a href="https://www.facebook.com/teamgolfclashtommy/" target="_blank" rel="noopener"><i class="fab fa-facebook fa-fw text-facebook" aria-hidden="true"></i>Team Golf Clash Tommy page</a> for the current tournament guides!
+      </p>
     {% endif %}
 
     {% if hole.resources and hole.resources != empty %}
