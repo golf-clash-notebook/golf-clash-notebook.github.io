@@ -3,7 +3,7 @@
   {% for courseHash in site.data.courses %}
     {% assign course = courseHash[1] %}
     {% for hole in course.holes %}
-      {{ hole.course }}:{{ hole.number }}
+      {{ hole.id }}:{{ hole.number }}
     {% endfor %}
   {% endfor %}
 {% endcapture %}
