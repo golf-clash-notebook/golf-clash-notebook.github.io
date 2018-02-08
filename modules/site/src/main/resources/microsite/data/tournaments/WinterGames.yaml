@@ -1,0 +1,31 @@
+tournament-name: Winter Games
+date: '2018-02-12'
+resources:
+holes:
+  - number: 1
+    course: Vineyard Acres
+    course-hole: 3
+  - number: 2
+    course: Vineyard Acres
+    course-hole: 6
+  - number: 3
+    course: Vineyard Acres
+    course-hole: 4
+  - number: 4
+    course: Vineyard Acres
+    course-hole: 8
+  - number: 5
+    course: Vineyard Acres
+    course-hole: 5
+  - number: 6
+    course: Vineyard Acres
+    course-hole: 2
+  - number: 7
+    course: Vineyard Acres
+    course-hole: 1
+  - number: 8
+    course: Vineyard Acres
+    course-hole: 7
+  - number: 9
+    course: Vineyard Acres
+    course-hole: 9
