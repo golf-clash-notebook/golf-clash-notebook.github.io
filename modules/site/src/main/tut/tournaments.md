@@ -130,8 +130,7 @@ position: 10
     <p>
       The second round will consist of the same 9 holes from the Qualifying Round but you'll need
       to play each hole twice for a total of 18 holes. This round is typically played on Thursday
-      and Friday so you'll have 2 days to complete it, although it's usually better to finish
-      quickly (see <a href="#Tiebreakers">Tiebreakers</a>). The bracket size for this round is 100
+      and Friday so you'll have 2 days to complete it. The bracket size for this round is 100
       people with the top 50 scores advancing. Unlike the Qualifying Round, you only get one chance
       to advance so if you end up in the bottom 50, your tournament is over and you'll leave without
       a prize. On the bright side, you will get a banner below your profile picture to show you made
@@ -174,11 +173,11 @@ position: 10
       On top of the entry fee, you also need to pay attention to the cost <em>per match</em>. If
       you make it through the entire tournament you'll end up playing 45 matches. It's unlikely
       that you would lose all of them unless you're totally out of your league but you may want to
-      play it safe. A very safe strategy would be to assume you'll only win 25% of your matches.
-      In that scenario, you would lose almost 25x the match fee. At the Pro level, that would mean
-      losing $250,000 (at $10,000 per match) on top of your tournament entry fee. Again, a 25% win
-      rate is a very conservative number. Adjust it to your liking. Decide for yourself if you're
-      able to handle that and go from there.
+      play it conservatively. A very safe strategy would be to assume you'll only win 25% of your
+      matches. In that scenario, you would lose almost 25x the match fee. At the Pro level, that
+      would mean losing $250,000 (at $10,000 per match) on top of your tournament entry fee. Again,
+      a 25% win rate is a very conservative number. Adjust it to your liking. Decide for yourself
+      if you're able to handle that and go from there.
     </p>
     <p>
       Lastly, you need to decide how good of a chance you have to make it to the weekend round.
@@ -191,8 +190,40 @@ position: 10
     <a id="Tiebreakers"></a>
     <h4>Understanding Tiebreakers</h4>
     <p>
-      <strong>New tiebreaking information incoming...</strong>
+      You can find the official tiebreaking rules on the <a href="https://playdemic.helpshift.com/a/golf-clash/?l=en&s=tournaments&f=what-happens-if-i-have-the-same-score-as-someone-else-in-my-tournament&p=all" target="_blank" rel="noopener">Official Playdemic site.</a> It will break down what tiebreakers are used in
+      each round throughout the tournament! Here's the quoted text from their website:
     </p>
+    <blockquote class="text-normal-size">
+      <p>
+        <h4>Qualification round</h4>
+        <ol>
+          <li>Number of completed tournament matches. The more matches completed during qualification the better.</li>
+          <li>Number of 'Impressive Scores'. We will compare the number of Albatrosses, then Eagles, then Birdies and then Pars that each player scored in the Qualification Round.</li>
+          <li>Players that are still tied after these rules will share the position.</li>
+        </ol>
+      </p>
+        <h4>Opening round</h4>
+        <ol>
+          <li>Qualifying Round scores will be compared - lower the better.</li>
+          <li>Number of completed tournament matches. The more matches completed during the tournament the better.</li>
+          <li>Number of 'Impressive Scores'. We will compare the number of Albatrosses, then Eagles, then Birdies and then Pars that each player scored in the Opening Round.</li>
+          <li>Number of 'Impressive Scores'. We will compare the number of Albatrosses, then Eagles, then Birdies and then Pars that each player scored in the Qualification Round.</li>
+          <li>Players that are still tied after these rules will share the position.</li>
+        </ol>
+      <p>
+        <h4>Weekend round</h4>
+        <ol>
+          <li>Opening Round scores will be compared - lower the better.</li>
+          <li>Qualifying Round scores will be compared - lower the better.</li>
+          <li>Number of completed tournament matches. The more matches completed during the tournament the better.</li>
+          <li>Number of 'Impressive Scores'. We will compare the number of Albatrosses, then Eagles, then Birdies and then Pars that each player scored in the Weekend Round.</li>
+          <li>Number of 'Impressive Scores'. We will compare the number of Albatrosses, then Eagles, then Birdies and then Pars that each player scored in the Opening Round.</li>
+          <li>Number of 'Impressive Scores'. We will compare the number of Albatrosses, then Eagles, then Birdies and then Pars that each player scored in the Qualification Round.</li>
+          <li>Players that are still tied after these rules will share the position and will receive the same prize.</li>
+        </ol>
+      </p>
+      <footer><a href="https://playdemic.helpshift.com/a/golf-clash/?l=en&s=tournaments&f=what-happens-if-i-have-the-same-score-as-someone-else-in-my-tournament&p=all" target="_blank" rel="noopener">Official Playdemic site.</a></footer>
+    </blockquote>
     <p>
       At any time during your tournament play you'll be able to see any tiebreakers in use by
       clicking on the equals icon
