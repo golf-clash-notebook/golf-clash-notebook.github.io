@@ -60,6 +60,25 @@ object youtube {
     def url: String   = s"https://www.youtube.com/watch?v=${id.videoId}"
   }
 
+  val StreamKeywordsFilter = List(
+    "clash",
+    "elite",
+    "expert",
+    "friendly",
+    "friendlies",
+    "golf",
+    "master",
+    "opening",
+    "practice",
+    "pro",
+    "qualifying",
+    "rookie",
+    "round"
+    "tour",
+    "tournament",
+    "weekend",
+  )
+
   def apiKey(): String = {
     GolfClashNotebookApp.currentMode() match {
       case GolfClashNotebookApp.Prod => "AIzaSyCn1DjohiZO2wYqyxqRyUpW-EKc9G0wzDw"
@@ -83,7 +102,15 @@ object youtube {
       liveStreams     <- channelLiveStreams(channelId)
       upcomingStreams <- channelUpcomingStreams(channelId)
     } yield {
-      liveStreams ::: upcomingStreams
+      (liveStreams ::: upcomingStreams).filter { stream =>
+        stream match {
+          case LiveStream(_, YouTubeSnippet(Some(title), _)) =>
+            StreamKeywordsFilter.exists(title.toLowerCase.contains)
+          case UpcomingStream(_, UpcomingStreamInfo(YouTubeSnippet(Some(title), _), _)) =>
+            StreamKeywordsFilter.exists(title.toLowerCase.contains)
+          case _ => false
+        }
+      }
     }
 
   private[this] def channelLiveStreams(channelId: String): Task[List[LiveStream]] = {
