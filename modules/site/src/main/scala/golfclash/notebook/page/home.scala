@@ -122,7 +122,7 @@ object home {
           rel := "noopener"
         )(
           div(cls := "stream-schedule-item-title")(upcoming.title),
-          div(cls := "stream-schedule-item-time")(startTimeString)
+          div(cls := "stream-schedule-item-time font-900")(startTimeString)
         )
       }
     }
