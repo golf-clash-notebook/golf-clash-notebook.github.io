@@ -26,6 +26,8 @@ holes:
           url: https://youtu.be/WI_jyhHYghY
         - title: Pro / Expert Guide
           url: https://youtu.be/haCEch_MaJ0
+        - title: Text Guide
+          url: https://i.imgur.com/B8Oah52.jpg
       - name: Zachary Jones
         resources:
           - title: Rookie Guide
@@ -87,6 +89,8 @@ holes:
           url: https://youtu.be/stgyvO6iyig
         - title: Pro / Expert Guide
           url: https://youtu.be/NgjimHyDgVc
+        - title: Text Guide
+          url: https://i.imgur.com/Gsl2Nan.jpg
       - name: Zachary Jones
         resources:
         - title: Rookie Guide
@@ -160,6 +164,8 @@ holes:
         resources:
         - title: Rookie Guide
           url: https://youtu.be/lklyjxmxr2s
+        - title: Text Guide
+          url: https://i.imgur.com/b2VlMW5.jpg
       - name: Zachary Jones
         resources:
         - title: Rookie Guide
@@ -260,6 +266,8 @@ holes:
           url: https://youtu.be/vpgMGpG7rxs
         - title: Pro / Expert Guide
           url: https://youtu.be/duAfD_1gIho
+        - title: Text Guide
+          url: https://i.imgur.com/fCV5mkl.jpg
       - name: Zachary Jones
         resources:
         - title: Rookie Guide
@@ -367,6 +375,8 @@ holes:
           url: https://youtu.be/0sQWlMXtYY8
         - title: Pro / Expert Guide
           url: https://youtu.be/VDrSX_M0_tE
+        - title: Text Guide
+          url: https://i.imgur.com/usSWHBZ.jpg
       - name: Zachary Jones
         resources:
         - title: Rookie Guide
@@ -430,6 +440,8 @@ holes:
           url: https://youtu.be/DInf-UCpuUU
         - title: Pro / Expert Guide
           url: https://youtu.be/UhYMgk4_76U
+        - title: Text Guide
+          url: https://i.imgur.com/MgaU31s.jpg
       - name: Zachary Jones
         resources:
         - title: Rookie Guide
@@ -560,21 +572,23 @@ holes:
     resource-creators:
       - name: Golf Clash Tommy
         resources:
-        - title: Golf Clash Tommy - Rookie Guide
+        - title: Rookie Guide
           url: https://youtu.be/vkK0VHao3is
-        - title: Golf Clash Tommy - Pro / Expert Guide
+        - title: Pro / Expert Guide
           url: https://youtu.be/iV7utN---o8
+        - title: Text Guide
+          url: https://i.imgur.com/KqRMw83.jpg
       # - title: Golf Clash Tommy - Pro / Expert Guide
         # url: https://youtu.be/JxhbMrKO5UY
       - name: Zachary Jones
         resources:
-          - title: Zachary Jones - Rookie Guide
+          - title: Rookie Guide
             url: https://youtu.be/Kjdc0AXNCL0
-          - title: Zachary Jones - Pro Guide
+          - title: Pro Guide
             url: https://youtu.be/jQiolJ8PfXA
-          - title: Zachary Jones - Expert Guide
+          - title: Expert Guide
             url: https://youtu.be/puNmIpuIn0o
-          - title: Zachary Jones - Masters Guide
+          - title: Masters Guide
             url: https://youtu.be/Xa3SI6V0kwU
     aliases:
       - 035550dd-8da2-42af-b69b-677249421db5
@@ -662,6 +676,8 @@ holes:
         resources:
         - title: Rookie Guide
           url: https://youtu.be/haCEch_MaJ0
+        - title: Text Guide
+          url: https://i.imgur.com/QF1Cxma.jpg
       - name: Zachary Jones
         resources:
         - title: Rookie Guide
@@ -726,6 +742,8 @@ holes:
           url: https://youtu.be/4N44QwKPtAM
         - title: Pro / Expert Guide
           url: https://youtu.be/IPjdff90Vc8
+        - title: Text Guide
+          url: https://i.imgur.com/MeaDv60.jpg
       - name: Zachary Jones
         resources:
         - title: Rookie Guide
@@ -736,7 +754,6 @@ holes:
           url: https://youtu.be/vXxGGh-XuSg
         - title: Masters Guide
           url: https://youtu.be/a93uxmgWIOE
-    resources:
     aliases:
       - f69eaec7-1010-4489-88c2-40dbc8ed2e40
     overlays:
