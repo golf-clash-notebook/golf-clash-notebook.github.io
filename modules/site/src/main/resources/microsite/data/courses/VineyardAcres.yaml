@@ -19,10 +19,12 @@ holes:
       - level: Masters
         clubs:
           - Rocket
-    resources:
-      - title: Golf Clash Tommy - Rookie Guide
+    resource-creators:
+    - name: Golf Clash Tommy
+      resources:
+      - title: Rookie Guide
         url: https://youtu.be/dvsLZuYZRO0
-      # - title: Golf Clash Tommy - Text Guide
+      # - title: Text Guide
       #   url: https://i.imgur.com/KsxzW8e.jpg
     overlays:
       hidden: true
@@ -87,12 +89,14 @@ holes:
       - level: Masters
         clubs:
           - Sniper
-    resources:
-      - title: Golf Clash Tommy - Rookie Guide
+    resource-creators:
+    - name: Golf Clash Tommy
+      resources:
+      - title: Rookie Guide
         url: https://youtu.be/vLjMAUwj73Y
-      - title: Golf Clash Tommy - Pro / Expert Guide
+      - title: Pro / Expert Guide
         url: https://youtu.be/HTmhrIiFNpw
-      # - title: Golf Clash Tommy - Text Guide
+      # - title: Text Guide
       #   url: https://i.imgur.com/pxMKTzK.jpg
     overlays:
       hidden: true
@@ -168,12 +172,14 @@ holes:
       - level: Masters
         clubs:
           - Apocalypse
-    resources:
-      - title: Golf Clash Tommy - Rookie Guide
+    resource-creators:
+    - name: Golf Clash Tommy
+      resources:
+      - title: Rookie Guide
         url: https://youtu.be/HfICAAVGAq0
-      - title: Golf Clash Tommy - Pro / Expert Guide
+      - title: Pro / Expert Guide
         url: https://youtu.be/T_ybdEexedM
-      # - title: Golf Clash Tommy - Text Guide
+      # - title: Text Guide
       #   url: https://i.imgur.com/7qEObk6.jpg
     overlays:
       hidden: true
@@ -251,12 +257,14 @@ holes:
       - level: Masters
         clubs:
           - Goliath
-    resources:
-      - title: Golf Clash Tommy - Rookie Guide
+    resource-creators:
+    - name: Golf Clash Tommy
+      resources:
+      - title: Rookie Guide
         url: https://youtu.be/db1Ekss0D2I
-      - title: Golf Clash Tommy - Pro / Expert Guide
+      - title: Pro / Expert Guide
         url: https://youtu.be/hFrJVdFWLZ8
-      # - title: Golf Clash Tommy - Text Guide
+      # - title: Text Guide
       #   url: https://i.imgur.com/N2WvgKI.jpg
     overlays:
       hidden: true
@@ -339,12 +347,14 @@ holes:
       - level: Masters
         clubs:
           - Cataclysm
-    resources:
-      - title: Golf Clash Tommy - Rookie Guide
+    resource-creators:
+    - name: Golf Clash Tommy
+      resources:
+      - title: Rookie Guide
         url: https://youtu.be/K1enoJcl9Es
-      - title: Golf Clash Tommy - Pro / Expert Guide
+      - title: Pro / Expert Guide
         url: https://youtu.be/dJc0H5oDnCg
-      # - title: Golf Clash Tommy - Text Guide
+      # - title: Text Guide
       #   url: https://i.imgur.com/9cONS47.jpg
     overlays:
       hidden: true
@@ -435,12 +445,14 @@ holes:
       - level: Masters
         clubs:
           - Rocket
-    resources:
-      - title: Golf Clash Tommy - Rookie Guide
+    resource-creators:
+    - name: Golf Clash Tommy
+      resources:
+      - title: Rookie Guide
         url: https://youtu.be/PjePLTY29lE
-      - title: Golf Clash Tommy - Pro / Expert Guide
+      - title: Pro / Expert Guide
         url: https://youtu.be/ebrGA_8TIXk
-      # - title: Golf Clash Tommy - Text Guide
+      # - title: Text Guide
       #   url: https://i.imgur.com/zBDUGVA.jpg
     overlays:
       hidden: true
@@ -489,12 +501,14 @@ holes:
         clubs:
           - Guardian
           - Sniper
-    resources:
-      - title: Golf Clash Tommy - Rookie Guide
+    resource-creators:
+    - name: Golf Clash Tommy
+      resources:
+      - title: Rookie Guide
         url: https://youtu.be/E-nE2_k4l4U
-      - title: Golf Clash Tommy - Pro / Expert Guide
+      - title: Pro / Expert Guide
         url: https://youtu.be/QvsEqzyEl4g
-      # - title: Golf Clash Tommy - Text Guide
+      # - title: Text Guide
       #   url: https://i.imgur.com/OttLDk8.jpg
     overlays:
       hidden: true
@@ -546,12 +560,14 @@ holes:
       - level: Masters
         clubs:
           - Guardian
-    resources:
-      - title: Golf Clash Tommy - Rookie Guide
+    resource-creators:
+    - name: Golf Clash Tommy
+      resources:
+      - title: Rookie Guide
         url: https://youtu.be/wop2hu72bRI
-      - title: Golf Clash Tommy - Pro / Expert Guide
+      - title: Pro / Expert Guide
         url: https://youtu.be/zve1N4qZwVU
-      # - title: Golf Clash Tommy - Text Guide
+      # - title: Text Guide
       #   url: https://i.imgur.com/BCyD6G2.jpg
     overlays:
       hidden: true
@@ -595,12 +611,14 @@ holes:
       - level: Masters
         clubs:
           - Cataclysm
-    resources:
-      - title: Golf Clash Tommy - Rookie Guide
+    resource-creators:
+    - name: Golf Clash Tommy
+      resources:
+      - title: Rookie Guide
         url: https://youtu.be/xeh3pO6UwnM
-      - title: Golf Clash Tommy - Pro / Expert Guide
+      - title: Pro / Expert Guide
         url: https://youtu.be/7ygwWzwjFUU
-      # - title: Golf Clash Tommy - Text Guide
+      # - title: Text Guide
       #   url: https://i.imgur.com/hgPCQkF.jpg
     overlays:
       hidden: true

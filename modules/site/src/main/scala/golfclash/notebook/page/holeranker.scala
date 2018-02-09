@@ -113,7 +113,9 @@ object holeranker {
         holeARank = holeRatings.indexWhere(_.holeId == holeA.id)
         holeBRank = holeRatings.indexWhere(_.holeId == holeB.id)
       } yield {
-        if (holeA != holeB && (holeARank - holeBRank).abs <= (holeRatings.size * 0.2) || count >= 10)
+        if (holeA == holeB)
+          go(count + 1)
+        else if ((holeARank - holeBRank).abs <= (holeRatings.size * 0.2) || count >= 10)
           Task.now(Scenario(holeA, holeB))
         else
           go(count + 1)

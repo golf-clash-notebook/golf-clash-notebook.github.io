@@ -1,26 +1,30 @@
 tournament-name: Creepy Cliffs
 date: '2017-10-23'
-resources:
-  - title: Golf Clash Tommy - Weekend Round
-    url: https://www.youtube.com/watch?v=6RW0vmgOxXE
-  - title: ItsRJTV - Weekend Round
-    url: https://youtu.be/GpeZY9d-fw0
-  - title: Golf Clash Tommy - Opening Round - Front 9
-    url: https://youtu.be/W8utk2B3D6c
-  - title: Golf Clash Tommy - Opening Round - Back 9
-    url: https://youtu.be/STu8WjxLIdI
-  - title: ItsRJTV - Opening Round
-    url: https://youtu.be/IM5qvJP5P8c
-  - title: Golf Clash Tommy - Qualifying Round
-    url: https://youtu.be/a4yDEh25aLc
-  - title: ItsRJTV - Qualifying Round
-    url: https://youtu.be/FGa8cp3z4yM
-  - title: Golf Clash Tommy - Rookie Guide
-    url: https://youtu.be/dTaltU6wYkg
-  - title: Golf Clash Tommy - Pro/Expert Guide
-    url: https://youtu.be/uYZ_LDmdmOA
-  - title: Golf Clash Tommy - Text Guides
-    url: https://imgur.com/a/keZJf
+resource-creators:
+  - name: Golf Clash Tommy
+    resources:
+    - title: Weekend Round
+      url: https://www.youtube.com/watch?v=6RW0vmgOxXE
+    - title: Opening Round - Front 9
+      url: https://youtu.be/W8utk2B3D6c
+    - title: Opening Round - Back 9
+      url: https://youtu.be/STu8WjxLIdI
+    - title: Qualifying Round
+      url: https://youtu.be/a4yDEh25aLc
+    - title: Rookie Guide
+      url: https://youtu.be/dTaltU6wYkg
+    - title: Pro/Expert Guide
+      url: https://youtu.be/uYZ_LDmdmOA
+    - title: Text Guides
+      url: https://imgur.com/a/keZJf
+  - name: ItsRJTV
+    resources:
+    - title: Weekend Round
+      url: https://youtu.be/GpeZY9d-fw0
+    - title: Opening Round
+      url: https://youtu.be/IM5qvJP5P8c
+    - title: Qualifying Round
+      url: https://youtu.be/FGa8cp3z4yM
 holes:
   - number: 1
     course: Creepy Cliffs

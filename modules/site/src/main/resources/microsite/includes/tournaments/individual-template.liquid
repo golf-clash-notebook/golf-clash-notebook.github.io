@@ -54,20 +54,11 @@ section: "tournaments"
 
       <hr class="hr-text text-large" data-content="Resources">
 
-      <div class="list-group">
-        {% for resource in page.resources %}
+      {% if page.resource-creators != undefined and page.resource-creators != empty %}
+        {% include resources/resources-list.liquid resources=page.resource-creators iconSize='lg' %}
+      {% endif %}
 
-          {% capture resourceIcon %}
-            {% include resources/icon.liquid resource=resource iconSize='lg' %}
-          {% endcapture %}
-
-          <li class="list-group-item gcn-resource text-small"><a href="{{ resource.url }}" target="_blank" rel="noopener">{{ resourceIcon }} {{ resource.title }}</a></li>
-
-        {% endfor %}
-
-      </div>
-
-      <div class="text-center">
+      <div class="text-center margin-top-32">
         <div class="notesheet-link pad-12">
           <a href="/img/golfclash/tournaments/notesheets/{{ tournamentPath }}.pdf" target="_blank" rel="noopener">
             <span class="far fa-file-pdf fa-2x text-primary" aria-hidden="true"></span>

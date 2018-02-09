@@ -13,9 +13,11 @@ holes:
     par: 4
     description: >
       Help Wanted
-    resources:
-      - title: Golf Clash Tommy - Pro / Expert Guide
-        url: https://youtu.be/OLLBwlG6C7s
+    resource-creators:
+      - name: Golf Clash Tommy
+        resources:
+        - title: Pro / Expert Guide
+          url: https://youtu.be/OLLBwlG6C7s
   - id: c6dee008-9374-4e0f-8ae5-d7b456a1e970
     course: The Oasis
     number: 3
@@ -34,19 +36,25 @@ holes:
         clubs:
           - Sniper
           - Cataclysm
-    resources:
-      - title: Golf Clash Tommy - Pro / Expert Guide
-        url: https://youtu.be/9icu9AiRK-g
-      - title: Golf Clash Tommy - Text Guide
-        url: https://i.imgur.com/EvqeqCp.png
-      - title: Kevin Warren - Rookie
-        url: https://youtu.be/RlyfIpMxHsI
-      - title: Kevin Warren - Pro / Expert
-        url: https://youtu.be/2riHdxasck0
-      - title: Zachary Jones - Rookie
-        url: https://youtu.be/JSvj50or06c
-      - title: Zachary Jones - Pro / Expert
-        url: https://youtu.be/TKFY2gApISQ
+    resource-creators:
+      - name: Golf Clash Tommy
+        resources:
+        - title: Pro / Expert Guide
+          url: https://youtu.be/9icu9AiRK-g
+        - title: Text Guide
+          url: https://i.imgur.com/EvqeqCp.png
+      - name: Zachary Jones
+        resources:
+        - title: Rookie
+          url: https://youtu.be/JSvj50or06c
+        - title: Pro / Expert
+          url: https://youtu.be/TKFY2gApISQ
+      - name: Kevin Warren
+        resources:
+        - title: Rookie
+          url: https://youtu.be/RlyfIpMxHsI
+        - title: Pro / Expert
+          url: https://youtu.be/2riHdxasck0
     overlays:
       size: [402, 1035]
       guides:

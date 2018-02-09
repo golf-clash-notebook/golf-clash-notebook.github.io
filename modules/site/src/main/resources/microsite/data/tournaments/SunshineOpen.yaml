@@ -1,16 +1,18 @@
 tournament-name: Sunshine Open
 date: '2017-08-07'
-resources:
-  - title: Golf Clash Tommy - Weekend Round - Front 9
-    url: https://youtu.be/VKTHMO5ogzs
-  - title: Golf Clash Tommy - Weekend Round - Back 9
-    url: https://youtu.be/Fc1RSh4CsHw
-  - title: Golf Clash Tommy - Opening Round - Part 1
-    url: https://youtu.be/RvT5wd7rMpY
-  - title: Golf Clash Tommy - Opening Round - Part 2
-    url: https://youtu.be/bk-1d7ReTcY
-  - title: Golf Clash Tommy - Qualifying Round
-    url: https://youtu.be/N9wF1cQf_Rk
+resource-creators:
+  - name: Golf Clash Tommy
+    resources:
+    - title: Weekend Round - Front 9
+      url: https://youtu.be/VKTHMO5ogzs
+    - title: Weekend Round - Back 9
+      url: https://youtu.be/Fc1RSh4CsHw
+    - title: Opening Round - Part 1
+      url: https://youtu.be/RvT5wd7rMpY
+    - title: Opening Round - Part 2
+      url: https://youtu.be/bk-1d7ReTcY
+    - title: Qualifying Round
+      url: https://youtu.be/N9wF1cQf_Rk
 holes:
   - number: 1
     course: Sunshine Glades

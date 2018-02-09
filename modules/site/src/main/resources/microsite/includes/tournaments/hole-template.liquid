@@ -204,20 +204,9 @@ section: "courses"
       </p>
     {% endif %}
 
-    {% if hole.resources and hole.resources != empty %}
-
+    {% if hole.resource-creators != undefined and hole.resource-creators != empty %}
       <hr class="hr-text text-large" data-content="Resources">
-      <div class="list-group">
-        {% for resource in hole.resources %}
-
-          {% capture resourceIcon %}
-            {% include resources/icon.liquid resource=resource iconSize='lg' %}
-          {% endcapture %}
-
-          <li class="list-group-item gcn-resource text-small"><a href="{{ resource.url }}" target="_blank" rel="noopener">{{ resourceIcon }} {{ resource.title }}</a></li>
-        {% endfor %}
-      </div>
-      <ul>
+      {% include resources/resources-list.liquid resources=hole.resource-creators iconSize='lg' %}
     {% endif %}
 
   </div>

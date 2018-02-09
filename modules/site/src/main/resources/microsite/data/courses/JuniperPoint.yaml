@@ -20,15 +20,17 @@ holes:
         clubs:
           - Rocket
           - Quarterback
-    resources:
-      - title: Golf Clash Tommy - Pro / Expert Guide
-        url: https://youtu.be/N120umy_9Ho
-      - title: Golf Clash Tommy - Rookie Guide
-        url: https://youtu.be/NCnys79fxJU
-      - title: Golf Clash Tommy - Pro / Expert Guide
-        url: https://youtu.be/1iClx4gwsO8
-      - title: Golf Clash Tommy - Text Guide
-        url: https://i.imgur.com/tBstKpS.jpg
+    resource-creators:
+      - name: Golf Clash Tommy
+        resources:
+        - title: Pro / Expert Guide
+          url: https://youtu.be/N120umy_9Ho
+        - title: Rookie Guide
+          url: https://youtu.be/NCnys79fxJU
+        - title: Pro / Expert Guide
+          url: https://youtu.be/1iClx4gwsO8
+        - title: Text Guide
+          url: https://i.imgur.com/tBstKpS.jpg
     overlays:
       size: [446, 843]
       guides:
@@ -72,13 +74,15 @@ holes:
       - level: Masters
         clubs:
           - Sniper
-    resources:
-      - title: Golf Clash Tommy - Pro / Expert Guide
-        url: https://youtu.be/ITyKGhv5E0I
-      - title: Golf Clash Tommy - Pro / Expert Guide
-        url: https://youtu.be/K2MAfU6Kcu0
-      - title: Golf Clash Tommy - Text Guide
-        url: https://i.imgur.com/50dckqd.jpg
+    resource-creators:
+      - name: Golf Clash Tommy
+        resources:
+        - title: Pro / Expert Guide
+          url: https://youtu.be/ITyKGhv5E0I
+        - title: Pro / Expert Guide
+          url: https://youtu.be/K2MAfU6Kcu0
+        - title: Text Guide
+          url: https://i.imgur.com/50dckqd.jpg
     overlays:
       size: [396, 938]
       guides:
@@ -160,13 +164,15 @@ holes:
         clubs:
           - Cataclysm
           - Guardian
-    resources:
-      - title: Golf Clash Tommy - Rookie Guide
-        url: https://youtu.be/m4oNutvTEKM
-      - title: Golf Clash Tommy - Pro / Expert Guide
-        url: https://youtu.be/gtpuEk3SBJM
-      - title: Golf Clash Tommy - Text Guide
-        url: https://i.imgur.com/KzHsOpd.jpg
+    resource-creators:
+      - name: Golf Clash Tommy
+        resources:
+        - title: Rookie Guide
+          url: https://youtu.be/m4oNutvTEKM
+        - title: Pro / Expert Guide
+          url: https://youtu.be/gtpuEk3SBJM
+        - title: Text Guide
+          url: https://i.imgur.com/KzHsOpd.jpg
     overlays:
       size: [449, 1085]
       guides:
@@ -244,15 +250,17 @@ holes:
         clubs:
           - Backbone
           - Goliath
-    resources:
-      - title: Golf Clash Tommy - Pro / Expert Guide
-        url: https://youtu.be/B8gCEkyGaHM
-      - title: Golf Clash Tommy - Rookie Guide
-        url: https://youtu.be/tlaY7E1H4ic
-      - title: Golf Clash Tommy - Pro / Expert Guide
-        url: https://youtu.be/J41Pl2WFgdk
-      - title: Golf Clash Tommy - Text Guide
-        url: https://i.imgur.com/HggW8CU.jpg
+    resource-creators:
+      - name: Golf Clash Tommy
+        resources:
+        - title: Pro / Expert Guide
+          url: https://youtu.be/B8gCEkyGaHM
+        - title: Rookie Guide
+          url: https://youtu.be/tlaY7E1H4ic
+        - title: Pro / Expert Guide
+          url: https://youtu.be/J41Pl2WFgdk
+        - title: Text Guide
+          url: https://i.imgur.com/HggW8CU.jpg
     overlays:
       size: [395, 863]
       guides:
@@ -286,12 +294,9 @@ holes:
               <circle cx="157" cy="112" r="6" fill="black" class="guide-point" data-guide-segment="2" />
       - name: White Path
         text: >
-          This is the common way to play the hole. You'll
-          be able to reach the green from anywhere in the
-          fairway. Just be sure to avoid the bunker in the
-          middle of the fairway. The green slopes towards
-          the back so use a long iron with at least 2 to 3
-          bars of backspin.
+          This is the common way to play the hole. You'll be able to reach the green from anywhere
+          in the fairway. Just be sure to avoid the bunker in the middle of the fairway. The green
+          slopes towards the back so use a long iron with at least 2 to 3 bars of backspin.
         levels:
           - name: Rookie
             svg:
