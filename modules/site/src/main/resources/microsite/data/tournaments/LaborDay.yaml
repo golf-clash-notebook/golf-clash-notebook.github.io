@@ -1,22 +1,24 @@
 tournament-name: Labor Day
 date: '2017-09-04'
-resources:
-  - title: Golf Clash Tommy - Weekend Round - Front 9
-    url: https://youtu.be/-A1F48xyaVg
-  - title: Golf Clash Tommy - Weekend Round - Back 9
-    url: https://youtu.be/EKkKPNm9SdU
-  - title: Golf Clash Tommy - Opening Round - Front 9
-    url: https://youtu.be/cvIi3hWtT_s
-  - title: Golf Clash Tommy - Opening Round - Back 9
-    url: https://youtu.be/CR5vZbc71qg
-  - title: Golf Clash Tommy - Qualifying Round
-    url: https://youtu.be/qQf4S6iI9Bk
-  - title: Golf Clash Tommy - Rookie Guide
-    url: https://youtu.be/yiFddK4Aa-E
-  - title: Golf Clash Tommy - Pro/Expert Guide
-    url: https://youtu.be/qCGDu3ajPj4
-  - title: Golf Clash Tommy - Text Guides
-    url: https://imgur.com/a/9c8fw
+resource-creators:
+  - name: Golf Clash Tommy
+    resources:
+    - title: Weekend Round - Front 9
+      url: https://youtu.be/-A1F48xyaVg
+    - title: Weekend Round - Back 9
+      url: https://youtu.be/EKkKPNm9SdU
+    - title: Opening Round - Front 9
+      url: https://youtu.be/cvIi3hWtT_s
+    - title: Opening Round - Back 9
+      url: https://youtu.be/CR5vZbc71qg
+    - title: Qualifying Round
+      url: https://youtu.be/qQf4S6iI9Bk
+    - title: Rookie Guide
+      url: https://youtu.be/yiFddK4Aa-E
+    - title: Pro/Expert Guide
+      url: https://youtu.be/qCGDu3ajPj4
+    - title: Text Guides
+      url: https://imgur.com/a/9c8fw
 holes:
   - number: 1
     course: Santa Ventura

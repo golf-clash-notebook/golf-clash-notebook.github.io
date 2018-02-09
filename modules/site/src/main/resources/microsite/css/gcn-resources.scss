@@ -11,3 +11,18 @@
     }
   }
 }
+
+.resource-creator-panel-group {
+
+  margin-bottom: 0;
+
+  .panel {
+    border-radius: 0;
+  }
+
+  .creator-collapse-link {
+    cursor: default;
+    display: block;
+    text-decoration: none;
+  }
+}

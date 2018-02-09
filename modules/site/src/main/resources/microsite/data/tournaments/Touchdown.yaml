@@ -1,60 +1,68 @@
 tournament-name: Touchdown
 date: '2018-01-29'
-resources:
-  - title: Golf Clash Tommy - Weekend Round (Masters)
-    url: https://youtu.be/sOW_WTDmhj4
-  - title: Golf Clash Tommy - Weekend Round (Expert)
-    url: https://youtu.be/MNNS1Rxc3cs
-  - title: Golf Clash Tommy - Weekend Round (Pro)
-    url: https://youtu.be/k-0xpBhqHTw
-  - title: Golf Clash Tommy - Weekend Round (Rookie)
-    url: https://youtu.be/XnPkczF8XxQ
-  - title: Cam Alvesteffer - Weekend Round (Masters)
-    url: https://youtu.be/XxbvuBWjm-4
-  - title: Cam Alvesteffer - Weekend Round (Expert)
-    url: https://youtu.be/Yy_fYftb9LM
-  - title: Cam Alvesteffer - Weekend Round (Expert)
-    url: https://youtu.be/IZzdNo0OdVI
-  - title: Zachary Jones - Weekend Round (Expert)
-    url: https://youtu.be/9LdWgScxXBs
-  - title: ItsRJTV - Weekend Round (Pro)
-    url: https://youtu.be/bKs1L0FjFeg
-  - title: Golf Clash Tommy - Opening Round (Masters)
-    url: https://youtu.be/4nuwpBQYjlc
-  - title: Golf Clash Tommy - Opening Round (Expert Pt.2)
-    url: https://youtu.be/3yPhQKbTKOA
-  - title: Golf Clash Tommy - Opening Round (Rookie & Expert Pt.1)
-    url: https://youtu.be/6VXm2NfjVoE
-  - title: Golf Clash Tommy - Opening Round (Pro)
-    url: https://youtu.be/HA6nR5RjGbs
-  - title: Cam Alvesteffer - Opening Round (Masters)
-    url: https://youtu.be/BcAdlnrFVlA
-  - title: Cam Alvesteffer - Opening Round (Expert)
-    url: https://youtu.be/e_yTSA80eNI
-  - title: Cam Alvesteffer - Opening Round (Expert)
-    url: https://youtu.be/fDOfojsDP9c
-  - title: Zachary Jones - Opening Round (Expert)
-    url: https://youtu.be/FyhkgKj-UO8
-  - title: ItsRJTV - Opening Round (Pro)
-    url: https://youtu.be/ZcCTrldveio
-  - title: Golf Clash Tommy - Qualifying Round (Masters)
-    url: https://youtu.be/MJK_pa9MqWk
-  - title: Golf Clash Tommy - Qualifying Round (Expert)
-    url: https://youtu.be/iuVIGvXGCe0
-  - title: Golf Clash Tommy - Qualifying Round (Pro)
-    url: https://youtu.be/wB1pKLFThBM
-  - title: Golf Clash Tommy - Qualifying Round (Rookie)
-    url: https://youtu.be/ALPg2zH1vIA
-  - title: ItsRJTV - Qualifying Round (Pro)
-    url: https://youtu.be/j3YUQjaSGy4
-  - title: Golf Clash Tommy - Rookie Guide
-    url: https://youtu.be/hLbtL7omoZM
-  - title: Golf Clash Tommy - Pro / Expert Guide
-    url: https://youtu.be/EefUZbIUoEc
-  - title: Golf Clash Tommy - Masters Guide
-    url: https://youtu.be/lvn1aeIyg3o
-  - title: Golf Clash Tommy - Text Guides
-    url: https://imgur.com/a/YYYaL
+resource-creators:
+  - name: Golf Clash Tommy
+    resources:
+    - title: Weekend Round (Masters)
+      url: https://youtu.be/sOW_WTDmhj4
+    - title: Weekend Round (Expert)
+      url: https://youtu.be/MNNS1Rxc3cs
+    - title: Weekend Round (Pro)
+      url: https://youtu.be/k-0xpBhqHTw
+    - title: Weekend Round (Rookie)
+      url: https://youtu.be/XnPkczF8XxQ
+    - title: Opening Round (Masters)
+      url: https://youtu.be/4nuwpBQYjlc
+    - title: Opening Round (Expert Pt.2)
+      url: https://youtu.be/3yPhQKbTKOA
+    - title: Opening Round (Rookie & Expert Pt.1)
+      url: https://youtu.be/6VXm2NfjVoE
+    - title: Opening Round (Pro)
+      url: https://youtu.be/HA6nR5RjGbs
+    - title: Qualifying Round (Masters)
+      url: https://youtu.be/MJK_pa9MqWk
+    - title: Qualifying Round (Expert)
+      url: https://youtu.be/iuVIGvXGCe0
+    - title: Qualifying Round (Pro)
+      url: https://youtu.be/wB1pKLFThBM
+    - title: Qualifying Round (Rookie)
+      url: https://youtu.be/ALPg2zH1vIA
+    - title: Rookie Guide
+      url: https://youtu.be/hLbtL7omoZM
+    - title: Pro / Expert Guide
+      url: https://youtu.be/EefUZbIUoEc
+    - title: Masters Guide
+      url: https://youtu.be/lvn1aeIyg3o
+    - title: Text Guides
+      url: https://imgur.com/a/YYYaL
+  - name: ItsRJTV
+    resources:
+    - title: Weekend Round (Pro)
+      url: https://youtu.be/bKs1L0FjFeg
+    - title: Opening Round (Pro)
+      url: https://youtu.be/ZcCTrldveio
+    - title: Qualifying Round (Pro)
+      url: https://youtu.be/j3YUQjaSGy4
+  - name: Zachary Jones
+    resources:
+    - title: Weekend Round (Expert)
+      url: https://youtu.be/9LdWgScxXBs
+    - title: Opening Round (Expert)
+      url: https://youtu.be/FyhkgKj-UO8
+  - name: Cam Alvesteffer
+    resources:
+    - title: Weekend Round (Masters)
+      url: https://youtu.be/XxbvuBWjm-4
+    - title: Weekend Round (Expert)
+      url: https://youtu.be/Yy_fYftb9LM
+    - title: Weekend Round (Expert)
+      url: https://youtu.be/IZzdNo0OdVI
+    - title: Opening Round (Masters)
+      url: https://youtu.be/BcAdlnrFVlA
+    - title: Opening Round (Expert)
+      url: https://youtu.be/e_yTSA80eNI
+    - title: Opening Round (Expert)
+      url: https://youtu.be/fDOfojsDP9c
 holes:
   - number: 1
     course: Touchdown

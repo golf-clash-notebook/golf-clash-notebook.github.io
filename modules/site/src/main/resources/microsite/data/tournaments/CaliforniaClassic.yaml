@@ -1,24 +1,28 @@
 tournament-name: California Classic
 date: '2017-11-06'
-resources:
-  - title: Golf Clash Tommy - Weekend Round
-    url: https://youtu.be/Zvd9x2TUwvk
-  - title: ItsRJTV - Weekend Round
-    url: https://youtu.be/s63b2uMLSQw
-  - title: Golf Clash Tommy - Opening Round
-    url: https://youtu.be/TRBzzQdqxts
-  - title: ItsRJTV - Opening Round
-    url: https://youtu.be/Al_gj1TBU3M
-  - title: Golf Clash Tommy - Qualifying Round
-    url: https://youtu.be/LY9ZC4EI6rU
-  - title: ItsRJTV - Qualifying Round
-    url: https://youtu.be/RN-snhoA2Ps
-  - title: Golf Clash Tommy - Rookie Guide
-    url: https://youtu.be/PAfuDTHkhbI
-  - title: Golf Clash Tommy - Pro/Expert Guide
-    url: https://youtu.be/8n18EWqM2Ag
-  - title: Golf Clash Tommy - Text Guides
-    url: https://imgur.com/a/Jbwwh
+resource-creators:
+  - name: Golf Clash Tommy
+    resources:
+    - title: Weekend Round
+      url: https://youtu.be/Zvd9x2TUwvk
+    - title: Opening Round
+      url: https://youtu.be/TRBzzQdqxts
+    - title: Qualifying Round
+      url: https://youtu.be/LY9ZC4EI6rU
+    - title: Rookie Guide
+      url: https://youtu.be/PAfuDTHkhbI
+    - title: Pro/Expert Guide
+      url: https://youtu.be/8n18EWqM2Ag
+    - title: Text Guides
+      url: https://imgur.com/a/Jbwwh
+  - name: ItsRJTV
+    resources:
+    - title: Weekend Round
+      url: https://youtu.be/s63b2uMLSQw
+    - title: Opening Round
+      url: https://youtu.be/Al_gj1TBU3M
+    - title: Qualifying Round
+      url: https://youtu.be/RN-snhoA2Ps
 holes:
   - number: 1
     course: Santa Ventura

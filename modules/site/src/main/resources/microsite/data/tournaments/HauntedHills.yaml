@@ -1,22 +1,26 @@
 tournament-name: Haunted Hills
 date: '2017-10-09'
-resources:
-  - title: Golf Clash Tommy - Weekend Round
-    url: https://youtu.be/ukstgrLxWNY
-  - title: ItsRJTV - Weekend Round
-    url: https://youtu.be/lPhledKOBjI
-  - title: Golf Clash Tommy - Opening Round - Front 9
-    url: https://youtu.be/RuNP-ydTuJY
-  - title: Golf Clash Tommy - Opening Round - Back 9
-    url: https://youtu.be/Q50ocbhDaS8
-  - title: ItsRJTV - Opening Round
-    url: https://youtu.be/O81G8cAxKrs
-  - title: Golf Clash Tommy - Qualifying Round
-    url: https://youtu.be/klRqKUCS1Zg
-  - title: ItsRJTV - Qualifying Round
-    url: https://youtu.be/tyhdlGhJ2cc
-  - title: Golf Clash Tommy - Text Guides
-    url: https://imgur.com/a/UU09Z
+resource-creators:
+  - name: Golf Clash Tommy
+    resources:
+    - title: Weekend Round
+      url: https://youtu.be/ukstgrLxWNY
+    - title: Opening Round - Front 9
+      url: https://youtu.be/RuNP-ydTuJY
+    - title: Opening Round - Back 9
+      url: https://youtu.be/Q50ocbhDaS8
+    - title: Qualifying Round
+      url: https://youtu.be/klRqKUCS1Zg
+    - title: Text Guides
+      url: https://imgur.com/a/UU09Z
+  - name: ItsRJTV
+    resources:
+    - title: Weekend Round
+      url: https://youtu.be/lPhledKOBjI
+    - title: Opening Round
+      url: https://youtu.be/O81G8cAxKrs
+    - title: Qualifying Round
+      url: https://youtu.be/tyhdlGhJ2cc
 holes:
   - number: 1
     course: Haunted Hills

@@ -1,0 +1,29 @@
+
+{% for creator in include.resources %}
+  <div class="panel-group resource-creator-panel-group" role="tablist">
+    <div class="panel panel-default">
+      <div class="panel-heading" role="tab" id="creatorGroupHeading{{ forloop.index0 }}">
+        <h4 class="panel-title">
+          <a href="#creatorGroup{{ forloop.index0 }}" class="creator-collapse-link collapsed" role="button" data-toggle="collapse" aria-expanded="false">
+            {{ creator.name }}
+            <i class="fas fa-chevron-down pull-right"></i>
+          </a>
+        </h4>
+      </div>
+      <div class="panel-collapse collapse" role="tabpanel" id="creatorGroup{{ forloop.index0 }}" aria-labelledby="creatorGroupHeading{{ forloop.index0 }}" aria-expanded="false">
+        <ul class="list-group">
+          {% for resource in creator.resources %}
+
+            {% capture resourceIcon %}
+              {% include resources/icon.liquid resource=resource iconSize='lg' %}
+            {% endcapture %}
+
+            <li class="list-group-item gcn-resource text-small">
+              <a href="{{ resource.url }}" target="_blank" rel="noopener">{{ resourceIcon }} {{ resource.title }}</a>
+            </li>
+          {% endfor %}
+        </ul>
+      </div>
+    </div>
+  </div>
+{% endfor %}

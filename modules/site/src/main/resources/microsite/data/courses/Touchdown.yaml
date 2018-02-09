@@ -8,17 +8,21 @@ holes:
     description: >
       Help Wanted
     clubRecommendations:
-    resources:
-      - title: Golf Clash Tommy - Rookie Guide
-        url: https://youtu.be/lklyjxmxr2s
-      - title: Zachary Jones - Rookie Guide
-        url: https://youtu.be/n8HX3R4agfM
-      - title: Zachary Jones - Pro Guide
-        url: https://youtu.be/LWVqwtsrnLE
-      - title: Zachary Jones - Expert Guide
-        url: https://youtu.be/rP0RfsZl_Gc
-      - title: Zachary Jones - Masters Guide
-        url: https://youtu.be/u8gTvVB3OTU
+    resource-creators:
+      - name: Golf Clash Tommy
+        resources:
+        - title: Rookie Guide
+          url: https://youtu.be/lklyjxmxr2s
+      - name: Zachary Jones
+        resources:
+        - title: Rookie Guide
+          url: https://youtu.be/n8HX3R4agfM
+        - title: Pro Guide
+          url: https://youtu.be/LWVqwtsrnLE
+        - title: Expert Guide
+          url: https://youtu.be/rP0RfsZl_Gc
+        - title: Masters Guide
+          url: https://youtu.be/u8gTvVB3OTU
     aliases:
       - bb9f55d2-057b-4082-af8b-24a14696a2f6
     overlays:
@@ -29,16 +33,20 @@ holes:
     description: >
       Help Wanted
     clubRecommendations:
-    resources:
-      - title: Golf Clash Tommy - Rookie Guide
+    resource-creators:
+    - name: Golf Clash Tommy
+      resources:
+      - title: Rookie Guide
         url: https://youtu.be/haCEch_MaJ0
-      - title: Zachary Jones - Rookie Guide
+    - name: Zachary Jones
+      resources:
+      - title: Rookie Guide
         url: https://youtu.be/dzF_21ngs3w
-      - title: Zachary Jones - Pro Guide
+      - title: Pro Guide
         url: https://youtu.be/Bp2sX7Np8s8
-      - title: Zachary Jones - Expert Guide
+      - title: Expert Guide
         url: https://youtu.be/TT3nsM6AjfQ
-      - title: Zachary Jones - Masters Guide
+      - title: Masters Guide
         url: https://youtu.be/PMtGb184KJs
     aliases:
       - cee9be91-e83d-4724-8218-4f9db92c6be2
@@ -50,18 +58,22 @@ holes:
     description: >
       Help Wanted
     clubRecommendations:
-    resources:
-      - title: Golf Clash Tommy - Rookie Guide
+    resource-creators:
+    - name: Golf Clash Tommy
+      resources:
+      - title: Rookie Guide
         url: https://youtu.be/DInf-UCpuUU
-      - title: Golf Clash Tommy - Pro / Expert Guide
+      - title: Pro / Expert Guide
         url: https://youtu.be/UhYMgk4_76U
-      - title: Zachary Jones - Rookie Guide
+    - name: Zachary Jones
+      resources:
+      - title: Rookie Guide
         url: https://youtu.be/fKM5KES2IwY
-      - title: Zachary Jones - Pro Guide
+      - title: Pro Guide
         url: https://youtu.be/1fMLP-lkSvg
-      - title: Zachary Jones - Expert Guide
+      - title: Expert Guide
         url: https://youtu.be/zg7Oi98ibUw
-      - title: Zachary Jones - Masters Guide
+      - title: Masters Guide
         url: https://youtu.be/kF1PbstWgkg
     aliases:
       - 3af2f2c8-9548-41ce-9f04-be46b432d324
@@ -73,18 +85,22 @@ holes:
     description: >
       Help Wanted
     clubRecommendations:
-    resources:
-      - title: Golf Clash Tommy - Rookie Guide
+    resource-creators:
+    - name: Golf Clash Tommy
+      resources:
+      - title: Rookie Guide
         url: https://youtu.be/WI_jyhHYghY
-      - title: Golf Clash Tommy - Pro / Expert Guide
+      - title: Pro / Expert Guide
         url: https://youtu.be/haCEch_MaJ0
-      - title: Zachary Jones - Rookie Guide
+    - name: Zachary Jones
+      resources:
+      - title: Rookie Guide
         url: https://youtu.be/3oNWbTnWCXA
-      - title: Zachary Jones - Pro Guide
+      - title: Pro Guide
         url: https://youtu.be/SYN4IefltBQ
-      - title: Zachary Jones - Expert Guide
+      - title: Expert Guide
         url: https://youtu.be/H1oX1xQ77XE
-      - title: Zachary Jones - Masters Guide
+      - title: Masters Guide
         url: https://youtu.be/pcLe8RHeCa8
     aliases:
       - 855c43fb-cf83-4d15-8d1e-c868cbc64b63
@@ -96,18 +112,22 @@ holes:
     description: >
       Help Wanted
     clubRecommendations:
-    resources:
-      - title: Golf Clash Tommy - Rookie Guide
+    resource-creators:
+    - name: Golf Clash Tommy
+      resources:
+      - title: Rookie Guide
         url: https://youtu.be/stgyvO6iyig
-      - title: Golf Clash Tommy - Pro / Expert Guide
+      - title: Pro / Expert Guide
         url: https://youtu.be/NgjimHyDgVc
-      - title: Zachary Jones - Rookie Guide
+    - name: Zachary Jones
+      resources:
+      - title: Rookie Guide
         url: https://youtu.be/lyvRF_71rYM
-      - title: Zachary Jones - Pro Guide
+      - title: Pro Guide
         url: https://youtu.be/gQYNM78jSfM
-      - title: Zachary Jones - Expert Guide
+      - title: Expert Guide
         url: https://youtu.be/ukVQUhdzv04
-      - title: Zachary Jones - Masters Guide
+      - title: Masters Guide
         url: https://youtu.be/bnnudTlBqAg
     aliases:
       - ed81ce0a-a7bb-4228-a7a6-004ce5da2db4
@@ -119,18 +139,22 @@ holes:
     description: >
       Help Wanted
     clubRecommendations:
-    resources:
-      - title: Golf Clash Tommy - Rookie Guide
+    resource-creators:
+    - name: Golf Clash Tommy
+      resources:
+      - title: Rookie Guide
         url: https://youtu.be/4N44QwKPtAM
-      - title: Golf Clash Tommy - Pro / Expert Guide
+      - title: Pro / Expert Guide
         url: https://youtu.be/IPjdff90Vc8
-      - title: Zachary Jones - Rookie Guide
+    - name: Zachary Jones
+      resources:
+      - title: Rookie Guide
         url: https://youtu.be/jP3wGERL_WA
-      - title: Zachary Jones - Pro Guide
+      - title: Pro Guide
         url: https://youtu.be/NeLjxD1-iWg
-      - title: Zachary Jones - Expert Guide
+      - title: Expert Guide
         url: https://youtu.be/vXxGGh-XuSg
-      - title: Zachary Jones - Masters Guide
+      - title: Masters Guide
         url: https://youtu.be/a93uxmgWIOE
     aliases:
       - d8d0764c-8275-4bdf-9f02-09d3c5edbe90
@@ -142,18 +166,22 @@ holes:
     description: >
       Help Wanted
     clubRecommendations:
-    resources:
-      - title: Golf Clash Tommy - Rookie Guide
+    resource-creators:
+    - name: Golf Clash Tommy
+      resources:
+      - title: Rookie Guide
         url: https://youtu.be/0sQWlMXtYY8
-      - title: Golf Clash Tommy - Pro / Expert Guide
+      - title: Pro / Expert Guide
         url: https://youtu.be/VDrSX_M0_tE
-      - title: Zachary Jones - Rookie Guide
+    - name: Zachary Jones
+      resources:
+      - title: Rookie Guide
         url: https://youtu.be/7WVamN6lDE4
-      - title: Zachary Jones - Pro Guide
+      - title: Pro Guide
         url: https://youtu.be/awpP7d-yK-g
-      - title: Zachary Jones - Expert Guide
+      - title: Expert Guide
         url: https://youtu.be/dAktqfWpkYY
-      - title: Zachary Jones - Masters Guide
+      - title: Masters Guide
         url: https://youtu.be/fiB9zCyj7rk
     aliases:
       - f9ceacbe-b884-4436-85ce-a52427abc0fd
@@ -165,21 +193,25 @@ holes:
     description: >
       Help Wanted
     clubRecommendations:
-    resources:
-      - title: Golf Clash Tommy - Rookie Guide
+    resource-creators:
+    - name: Golf Clash Tommy
+      resources:
+      - title: Rookie Guide
         url: https://youtu.be/vkK0VHao3is
-      - title: Golf Clash Tommy - Pro / Expert Guide
+      - title: Pro / Expert Guide
         url: https://youtu.be/iV7utN---o8
-      - title: Zachary Jones - Rookie Guide
+    # - title: Pro / Expert Guide
+      # url: https://youtu.be/JxhbMrKO5UY
+    - name: Zachary Jones
+      resources:
+      - title: Rookie Guide
         url: https://youtu.be/Kjdc0AXNCL0
-      - title: Zachary Jones - Pro Guide
+      - title: Pro Guide
         url: https://youtu.be/jQiolJ8PfXA
-      - title: Zachary Jones - Expert Guide
+      - title: Expert Guide
         url: https://youtu.be/puNmIpuIn0o
-      - title: Zachary Jones - Masters Guide
+      - title: Masters Guide
         url: https://youtu.be/Xa3SI6V0kwU
-      # - title: Golf Clash Tommy - Pro / Expert Guide
-        # url: https://youtu.be/JxhbMrKO5UY
     aliases:
       - 361c1105-b234-4760-887b-5f0f516807ed
     overlays:
@@ -190,18 +222,22 @@ holes:
     description: >
       Help Wanted
     clubRecommendations:
-    resources:
-      - title: Golf Clash Tommy - Rookie Guide
+    resource-creators:
+    - name: Golf Clash Tommy
+      resources:
+      - title: Rookie Guide
         url: https://youtu.be/vpgMGpG7rxs
-      - title: Golf Clash Tommy - Pro / Expert Guide
+      - title: Pro / Expert Guide
         url: https://youtu.be/duAfD_1gIho
-      - title: Zachary Jones - Rookie Guide
+    - name: Zachary Jones
+      resources:
+      - title: Rookie Guide
         url: https://youtu.be/W3oh1t8IkdA
-      - title: Zachary Jones - Pro Guide
+      - title: Pro Guide
         url: https://youtu.be/sP2dh3bvdrU
-      - title: Zachary Jones - Expert Guide
+      - title: Expert Guide
         url: https://youtu.be/kThI7-bPbW4
-      - title: Zachary Jones - Masters Guide
+      - title: Masters Guide
         url: https://youtu.be/BGXsMC_qs_g
     aliases:
       - 2fe001cd-916c-4309-a941-f06033af2383

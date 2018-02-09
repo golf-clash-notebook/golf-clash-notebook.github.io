@@ -1,32 +1,40 @@
 tournament-name: Christmas
 date: '2017-12-18'
-resources:
-- title: Golf Clash Tommy - Weekend Round
-  url: https://youtu.be/R3NLT6XkpoY
-- title: ItsRJTV - Weekend Round
-  url: https://youtu.be/qI3UteavU-c
-- title: Golf Clash Tommy - Opening Round - Front 9
-  url: https://youtu.be/8lodVN-qB1k
-- title: Golf Clash Tommy - Opening Round - Back 9
-  url: https://youtu.be/WRJpLCk15Gw
-- title: ItsRJTV - Opening Round
-  url: https://youtu.be/dCuPK8OYL_o
-- title: Cam Alvesteffer - Opening Round
-  url: https://youtu.be/TI1b8htYrLk
-- title: Golf Clash Tommy - Qualifying Round
-  url: https://youtu.be/KZ7jg5tmITY
-- title: ItsRJTV - Qualifying Round
-  url: https://youtu.be/FYWl8lDK70I
-- title: Singularity Golf Clash - Qualifying Round
-  url: https://youtu.be/CT7u-a3Wtow
-- title: Golf Clash Tommy - Rookie Guide
-  url: https://youtu.be/GyZCYn6MpXg
-- title: Golf Clash Tommy - Pro/Expert Guide
-  url: https://youtu.be/PNyUPfOV37w
-- title: Golf Clash Tommy - Masters Guide
-  url: https://youtu.be/YOdp_ih6Bak
-- title: Golf Clash Tommy - Text Guides
-  url: https://imgur.com/a/4GYQE
+resource-creators:
+  - name: Golf Clash Tommy
+    resources:
+    - title: Weekend Round
+      url: https://youtu.be/R3NLT6XkpoY
+    - title: Opening Round - Front 9
+      url: https://youtu.be/8lodVN-qB1k
+    - title: Opening Round - Back 9
+      url: https://youtu.be/WRJpLCk15Gw
+    - title: Qualifying Round
+      url: https://youtu.be/KZ7jg5tmITY
+    - title: Rookie Guide
+      url: https://youtu.be/GyZCYn6MpXg
+    - title: Pro/Expert Guide
+      url: https://youtu.be/PNyUPfOV37w
+    - title: Masters Guide
+      url: https://youtu.be/YOdp_ih6Bak
+    - title: Text Guides
+      url: https://imgur.com/a/4GYQE
+  - name: ItsRJTV
+    resources:
+    - title: Weekend Round
+      url: https://youtu.be/qI3UteavU-c
+    - title: Opening Round
+      url: https://youtu.be/dCuPK8OYL_o
+    - title: Qualifying Round
+      url: https://youtu.be/FYWl8lDK70I
+  - name: Cam Alvesteffer
+    resources:
+    - title: Opening Round
+      url: https://youtu.be/TI1b8htYrLk
+  - name: Singularity Golf Clash
+    resources:
+    - title: Qualifying Round
+      url: https://youtu.be/CT7u-a3Wtow
 holes:
   - number: 1
     course: Christmas
