@@ -47,9 +47,6 @@ object holeranker {
     }
 
     generateNewScenario().runAsync
-
-    // printCurrentHoleRatings()
-    // printRatingsJsonFromStore()
   }
 
   def generateNewScenario(): Task[Unit] = {
@@ -108,12 +105,22 @@ object holeranker {
   }
 
   def randomScenario: Task[Scenario] = {
-    for {
-      holeA <- randomHole
-      holeB <- randomHole.restartUntil(_ != holeA)
-    } yield {
-      Scenario(holeA, holeB)
+    def go(count: Int): Task[Scenario] = {
+      (for {
+        holeRatings <- Hole.Ratings
+        holeA       <- randomHole
+        holeB       <- randomHole
+        holeARank = holeRatings.indexWhere(_.holeId == holeA.id)
+        holeBRank = holeRatings.indexWhere(_.holeId == holeB.id)
+      } yield {
+        if (holeA != holeB && (holeARank - holeBRank).abs <= (holeRatings.size * 0.2) || count >= 10)
+          Task.now(Scenario(holeA, holeB))
+        else
+          go(count + 1)
+      }).flatten
     }
+
+    go(0)
   }
 
   def randomHole: Task[Hole] = {
