@@ -154,7 +154,7 @@ object youtube {
                     .filter {
                       _.info.details.startTime match {
                         case Some(startTime) =>
-                          startTime.isAfter(ZonedDateTime.now) && startTime
+                          startTime.isAfter(ZonedDateTime.now.minusMinutes(5)) && startTime
                             .isBefore(ZonedDateTime.now.plusDays(7))
                         case None => false
                       }
