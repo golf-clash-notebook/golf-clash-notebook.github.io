@@ -184,6 +184,13 @@ page_gen:
     extra:
       title-prefix: 'Vineyard Acres - Hole '
   - index_files: true
+    data: 'courses.WinterGames.holes'
+    template: '_includes/courses/hole-template.liquid'
+    name: 'number'
+    dir: 'courses/WinterGames'
+    extra:
+      title-prefix: 'Winter Links - Hole '
+  - index_files: true
     data: 'courses.WinterLinks.holes'
     template: '_includes/courses/hole-template.liquid'
     name: 'number'
