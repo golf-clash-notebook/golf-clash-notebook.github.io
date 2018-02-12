@@ -32,6 +32,8 @@ holes:
       resources:
       - title: Winter Games - Rookie
         url: https://youtu.be/P6iqa9cRjg0
+    aliases:
+      - 3f053109-7927-4eec-8c62-5cbbc4f37ff0
     overlays:
       hidden: true
       size: [349, 840]
@@ -110,6 +112,8 @@ holes:
       resources:
       - title: Winter Games - Rookie
         url: https://youtu.be/nYbGqy11qQo
+    aliases:
+      - f9cc317a-341d-4d0c-91a9-7fb2ee1061b2
     overlays:
       hidden: true
       size: [398, 905]
@@ -199,6 +203,8 @@ holes:
       resources:
       - title: Winter Games - Rookie
         url: https://youtu.be/SQZz2Dz1Ak8
+    aliases:
+      - 943116b8-1bcb-43df-829e-349c14933f1c
     overlays:
       hidden: true
       size: [397, 907]
@@ -290,6 +296,8 @@ holes:
       resources:
       - title: Winter Games - Rookie
         url: https://youtu.be/es0f2-x92H0
+    aliases:
+      - f3bfe4b1-7e86-4d69-8c09-312d69088bbd
     overlays:
       hidden: true
       size: [405, 944]
@@ -386,6 +394,8 @@ holes:
       resources:
       - title: Winter Games - Rookie
         url: https://youtu.be/9tlzifP6ImI
+    aliases:
+      - 9b676878-9162-47a8-ada9-a16a5456316d
     overlays:
       hidden: true
       size: [494, 1067]
@@ -490,6 +500,8 @@ holes:
       resources:
       - title: Winter Games - Rookie
         url: https://youtu.be/UPOdfbiUHLA
+    aliases:
+      - 4c3cbf6a-1b1b-4aa6-a413-6c5c96f6d377
     overlays:
       hidden: true
       size: [298, 839]
@@ -552,6 +564,8 @@ holes:
       resources:
       - title: Winter Games - Rookie
         url: https://youtu.be/rS3rfTAntf8
+    aliases:
+      - 1dea8658-46e4-47a8-ba66-52ff35f3eac2
     overlays:
       hidden: true
       size: [514, 944]
@@ -617,6 +631,8 @@ holes:
       resources:
       - title: Winter Games - Rookie
         url: https://youtu.be/LdbZycNmNHE
+    aliases:
+      - fa2478fa-bdf2-4b1c-9409-89d80f1e6359
     overlays:
       hidden: true
       size: [676, 921]
@@ -674,6 +690,8 @@ holes:
       resources:
       - title: Winter Games - Rookie
         url: https://youtu.be/TFXJIvQxUvM
+    aliases:
+      - d2d57c64-2462-4b50-8939-e5c660fcd5a5
     overlays:
       hidden: true
       size: [417, 1074]

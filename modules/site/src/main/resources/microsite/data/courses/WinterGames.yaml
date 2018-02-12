@@ -1,0 +1,325 @@
+course-name: Winter Games
+skinned: false
+holes:
+  - id: 943116b8-1bcb-43df-829e-349c14933f1c
+    course: Winter Games
+    number: 1
+    par: 4
+    description: >
+      Help Wanted
+    clubRecommendations:
+      - level: Rookie
+        clubs:
+          - Extra Mile
+      - level: Pro
+        clubs:
+          - Extra Mile
+      - level: Masters
+        clubs:
+          - Apocalypse
+    resource-creators:
+    - name: Golf Clash Tommy
+      resources:
+      - title: Rookie Guide
+        url: https://youtu.be/HfICAAVGAq0
+      - title: Pro / Expert Guide
+        url: https://youtu.be/T_ybdEexedM
+      - title: Masters Guide
+        url: https://youtu.be/oBnQtTM6TcE
+      - title: Text Guide
+        url: https://i.imgur.com/WrE1rS6.jpg
+    - name: Zachary Jones
+      resources:
+      - title: Winter Games - Rookie
+        url: https://youtu.be/SQZz2Dz1Ak8
+    aliases:
+      - 16adf86e-de5c-40c4-b78d-dc0a947f044b
+    overlays:
+      hidden: true
+  - id: 4c3cbf6a-1b1b-4aa6-a413-6c5c96f6d377
+    course: Winter Games
+    number: 2
+    par: 3
+    description: >
+      Help Wanted
+    clubRecommendations:
+      - level: Rookie
+        clubs:
+          - Viper
+          - Guardian
+      - level: Pro
+        clubs:
+          - Guardian
+          - Sniper
+      - level: Masters
+        clubs:
+          - Rocket
+    resource-creators:
+    - name: Golf Clash Tommy
+      resources:
+      - title: Rookie Guide
+        url: https://youtu.be/PjePLTY29lE
+      - title: Pro / Expert Guide
+        url: https://youtu.be/ebrGA_8TIXk
+      - title: Masters Guide
+        url: https://youtu.be/x-OeLQFle3g
+      - title: Text Guide
+        url: https://i.imgur.com/rAteuVA.jpg
+    - name: Zachary Jones
+      resources:
+      - title: Winter Games - Rookie
+        url: https://youtu.be/UPOdfbiUHLA
+    aliases:
+      - 944bdfca-0abc-41a5-ac97-7e38291f7893
+    overlays:
+      hidden: true
+  - id: f3bfe4b1-7e86-4d69-8c09-312d69088bbd
+    course: Winter Games
+    number: 3
+    par: 5
+    description: >
+      Help Wanted
+    clubRecommendations:
+      - level: Rookie
+        clubs:
+          - Backbone
+          - Saturn
+      - level: Pro
+        clubs:
+          - Backbone
+          - Saturn
+      - level: Masters
+        clubs:
+          - Goliath
+    resource-creators:
+    - name: Golf Clash Tommy
+      resources:
+      - title: Rookie Guide
+        url: https://youtu.be/db1Ekss0D2I
+      - title: Pro / Expert Guide
+        url: https://youtu.be/hFrJVdFWLZ8
+      - title: Masters Guide
+        url: https://youtu.be/fnLxtKgsd6g
+      - title: Text Guide
+        url: https://i.imgur.com/tq4KvbE.jpg
+    - name: Zachary Jones
+      resources:
+      - title: Winter Games - Rookie
+        url: https://youtu.be/es0f2-x92H0
+    aliases:
+      - 49e3d49a-1647-4347-8f75-3e7fbb32d80c
+    overlays:
+      hidden: true
+  - id: fa2478fa-bdf2-4b1c-9409-89d80f1e6359
+    course: Winter Games
+    number: 4
+    par: 3
+    description: >
+      Help Wanted
+    clubRecommendations:
+      - level: Rookie
+        clubs:
+          - Goliath
+          - Backbone
+      - level: Pro
+        clubs:
+          - Guardian
+      - level: Masters
+        clubs:
+          - Guardian
+    resource-creators:
+    - name: Golf Clash Tommy
+      resources:
+      - title: Rookie Guide
+        url: https://youtu.be/wop2hu72bRI
+      - title: Pro / Expert Guide
+        url: https://youtu.be/zve1N4qZwVU
+      - title: Masters Guide
+        url: https://youtu.be/lcbxLLCzVtY
+      - title: Text Guide
+        url: https://i.imgur.com/346nmKh.jpg
+    - name: Zachary Jones
+      resources:
+      - title: Winter Games - Rookie
+        url: https://youtu.be/LdbZycNmNHE
+    aliases:
+      - acb911f4-c603-4715-b11c-f848ee34bbaf
+    overlays:
+      hidden: true
+  - id: 9b676878-9162-47a8-ada9-a16a5456316d
+    course: Winter Games
+    number: 5
+    par: 5
+    description: >
+      Help Wanted
+    clubRecommendations:
+      - level: Rookie
+        clubs:
+          - Big Dawg
+      - level: Pro
+        clubs:
+          - Cataclysm
+          - Big Dawg
+      - level: Masters
+        clubs:
+          - Cataclysm
+    resource-creators:
+    - name: Golf Clash Tommy
+      resources:
+      - title: Rookie Guide
+        url: https://youtu.be/K1enoJcl9Es
+      - title: Pro / Expert Guide
+        url: https://youtu.be/dJc0H5oDnCg
+      - title: Masters Guide
+        url: https://youtu.be/Nw8G7F9zKMg
+      - title: Text Guide
+        url: https://i.imgur.com/GOYn9L0.jpg
+    aliases:
+      - 7326d6ba-9310-4eaa-94c8-775412515e23
+    overlays:
+      hidden: true
+  - id: f9cc317a-341d-4d0c-91a9-7fb2ee1061b2
+    course: Winter Games
+    number: 6
+    par: 4
+    description: >
+      Help Wanted
+    clubRecommendations:
+      - level: Rookie
+        clubs:
+          - Sniper
+          - Viper
+      - level: Pro
+        clubs:
+          - Sniper
+      - level: Masters
+        clubs:
+          - Sniper
+    resource-creators:
+    - name: Golf Clash Tommy
+      resources:
+      - title: Rookie Guide
+        url: https://youtu.be/vLjMAUwj73Y
+      - title: Pro / Expert Guide
+        url: https://youtu.be/HTmhrIiFNpw
+      - title: Masters Guide
+        url: https://youtu.be/p0AE8q1b9WU
+      - title: Text Guide
+        url: https://i.imgur.com/DLvS3Sn.jpg
+    - name: Zachary Jones
+      resources:
+      - title: Winter Games - Rookie
+        url: https://youtu.be/nYbGqy11qQo
+    aliases:
+      - 4c95334d-0695-4d41-9390-ce3b1dc8845f
+    overlays:
+      hidden: true
+  - id: 3f053109-7927-4eec-8c62-5cbbc4f37ff0
+    course: Winter Games
+    number: 7
+    par: 3
+    description: >
+      Help Wanted
+    clubRecommendations:
+      - level: Rookie
+        clubs:
+          - Backbone
+          - Goliath
+      - level: Pro
+        clubs:
+          - Sniper
+          - Guardian
+      - level: Masters
+        clubs:
+          - Rocket
+    resource-creators:
+    - name: Golf Clash Tommy
+      resources:
+      - title: Rookie Guide
+        url: https://youtu.be/dvsLZuYZRO0
+      - title: Masters Guide
+        url: https://youtu.be/BYvfiiSeRXM
+      - title: Text Guide
+        url: https://i.imgur.com/p9eASZA.jpg
+    - name: Zachary Jones
+      resources:
+      - title: Winter Games - Rookie
+        url: https://youtu.be/P6iqa9cRjg0
+    aliases:
+      - f97340e9-7d74-41c8-bd92-64785b42eb0f
+    overlays:
+      hidden: true
+  - id: 1dea8658-46e4-47a8-ba66-52ff35f3eac2
+    course: Winter Games
+    number: 8
+    par: 4
+    description: >
+      Help Wanted
+    clubRecommendations:
+      - level: Rookie
+        clubs:
+          - Viper
+          - Sniper
+      - level: Pro
+        clubs:
+          - Sniper
+          - Guardian
+      - level: Masters
+        clubs:
+          - Guardian
+          - Sniper
+    resource-creators:
+    - name: Golf Clash Tommy
+      resources:
+      - title: Rookie Guide
+        url: https://youtu.be/E-nE2_k4l4U
+      - title: Pro / Expert Guide
+        url: https://youtu.be/QvsEqzyEl4g
+      - title: Masters Guide
+        url: https://youtu.be/ApW34IHTDao
+      - title: Text Guide
+        url: https://i.imgur.com/mD6j1Fa.jpg
+    - name: Zachary Jones
+      resources:
+      - title: Winter Games - Rookie
+        url: https://youtu.be/rS3rfTAntf8
+    aliases:
+      - 726b08c9-a742-45bb-8050-62c552395bbd
+    overlays:
+      hidden: true
+  - id: d2d57c64-2462-4b50-8939-e5c660fcd5a5
+    course: Winter Games
+    number: 9
+    par: 5
+    description: >
+      Help Wanted
+    clubRecommendations:
+      - level: Rookie
+        clubs:
+          - Big Dawg
+      - level: Pro
+        clubs:
+          - Cataclysm
+          - Big Dawg
+      - level: Masters
+        clubs:
+          - Cataclysm
+    resource-creators:
+    - name: Golf Clash Tommy
+      resources:
+      - title: Rookie Guide
+        url: https://youtu.be/xeh3pO6UwnM
+      - title: Pro / Expert Guide
+        url: https://youtu.be/7ygwWzwjFUU
+      - title: Masters Guide
+        url: https://youtu.be/DKsA40rfQFQ
+      - title: Text Guide
+        url: https://i.imgur.com/PRVYsOZ.jpg
+    - name: Zachary Jones
+      resources:
+      - title: Winter Games - Rookie
+        url: https://youtu.be/TFXJIvQxUvM
+    aliases:
+      - c2bbf390-d162-4a06-9d9b-5d0e7f5b64ef
+    overlays:
+      hidden: true
