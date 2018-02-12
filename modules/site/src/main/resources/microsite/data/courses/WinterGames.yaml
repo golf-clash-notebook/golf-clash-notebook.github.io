@@ -32,6 +32,8 @@ holes:
       resources:
       - title: Winter Games - Rookie
         url: https://youtu.be/SQZz2Dz1Ak8
+      - title: Winter Games - Pro
+        url: https://youtu.be/oL5pgce0Jjw
     aliases:
       - 16adf86e-de5c-40c4-b78d-dc0a947f044b
     overlays:
@@ -69,6 +71,8 @@ holes:
       resources:
       - title: Winter Games - Rookie
         url: https://youtu.be/UPOdfbiUHLA
+      - title: Winter Games - Pro
+        url: https://youtu.be/Idv9j0oEMJ4
     aliases:
       - 944bdfca-0abc-41a5-ac97-7e38291f7893
     overlays:
@@ -106,6 +110,8 @@ holes:
       resources:
       - title: Winter Games - Rookie
         url: https://youtu.be/es0f2-x92H0
+      - title: Winter Games - Pro
+        url: https://youtu.be/fsi6obKeH8c
     aliases:
       - 49e3d49a-1647-4347-8f75-3e7fbb32d80c
     overlays:
@@ -142,6 +148,8 @@ holes:
       resources:
       - title: Winter Games - Rookie
         url: https://youtu.be/LdbZycNmNHE
+      - title: Winter Games - Pro
+        url: https://youtu.be/0C1j4bKpftg
     aliases:
       - acb911f4-c603-4715-b11c-f848ee34bbaf
     overlays:
@@ -174,6 +182,12 @@ holes:
         url: https://youtu.be/Nw8G7F9zKMg
       - title: Text Guide
         url: https://i.imgur.com/GOYn9L0.jpg
+    - name: Zachary Jones
+      resources:
+      - title: Winter Games - Rookie
+        url: https://youtu.be/9tlzifP6ImI
+      - title: Winter Games - Pro
+        url: https://youtu.be/7a5H69DS23Q
     aliases:
       - 7326d6ba-9310-4eaa-94c8-775412515e23
     overlays:
@@ -210,6 +224,8 @@ holes:
       resources:
       - title: Winter Games - Rookie
         url: https://youtu.be/nYbGqy11qQo
+      - title: Winter Games - Pro
+        url: https://youtu.be/Y1rolwKFnk4
     aliases:
       - 4c95334d-0695-4d41-9390-ce3b1dc8845f
     overlays:
@@ -245,6 +261,8 @@ holes:
       resources:
       - title: Winter Games - Rookie
         url: https://youtu.be/P6iqa9cRjg0
+      - title: Winter Games - Pro
+        url: https://youtu.be/WJkqnew4xMw
     aliases:
       - f97340e9-7d74-41c8-bd92-64785b42eb0f
     overlays:
@@ -283,6 +301,8 @@ holes:
       resources:
       - title: Winter Games - Rookie
         url: https://youtu.be/rS3rfTAntf8
+      - title: Winter Games - Pro
+        url: https://youtu.be/YgI5tEIKqss
     aliases:
       - 726b08c9-a742-45bb-8050-62c552395bbd
     overlays:
@@ -319,6 +339,8 @@ holes:
       resources:
       - title: Winter Games - Rookie
         url: https://youtu.be/TFXJIvQxUvM
+      - title: Winter Games - Pro
+        url: https://youtu.be/CJiPdlT4_ec
     aliases:
       - c2bbf390-d162-4a06-9d9b-5d0e7f5b64ef
     overlays:
