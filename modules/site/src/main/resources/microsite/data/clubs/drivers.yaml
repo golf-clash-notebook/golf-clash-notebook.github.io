@@ -70,7 +70,8 @@
     Thor's Hammer is the first driver you'll probably unlock that might turn you away from the
     allure of The Extra Mile's distance. It gives you much better accuracy and similar top spin.
     Once you hit levels 4 and 5, you'll have a real pickle on your hands of which driver to use
-    unless you've already leveled up The Apocalypse.
+    unless you've already leveled up The Apocalypse. This is a <strong><em>really</em></strong>
+    great club once you get it to level 5 and a popular option for higher tours.
   power:     [220, 220, 222, 229, 232, 232, 232]
   accuracy:  [ 50,  64,  64,  64,  64,  64,  92]
   topspin:   [ 45,  45,  56,  56,  67,  85,  98]
@@ -80,9 +81,9 @@
 - id: 5558e5e6-1c29-4a4f-9521-5055c78fa002
   name: The Apocalypse
   description: >
-    Hands down the best driver available once you get it to level 4 and even an viable option at 3.
+    Hands down the best driver available once you get it to level 4 and even a viable option at 3.
     Unfortunately, the rate you get cards for this beast is slow at best so it might be a while. A
-    <strong>long</strong> while. The distance is great, the accuracy is servicable, the curl is
+    <strong>long</strong> while. The distance is great, the accuracy is serviceable, the curl is
     awesome and the top spin comes in handy on more holes than you might think.
   power:     [229, 231, 231, 234, 240, 240, 240]
   accuracy:  [ 35,  35,  43,  66,  75,  75,  84]
