@@ -3,6 +3,8 @@ date: '2018-02-12'
 resource-creators:
   - name: Golf Clash Tommy
     resources:
+    - title: Qualifying Round (Masters & Pro)
+      url: https://youtu.be/dLkoujxbLkk
     - title: Qualifying Round (Pro)
       url: https://youtu.be/-92FvaAq5po
     - title: Qualifying Round (Rookie)

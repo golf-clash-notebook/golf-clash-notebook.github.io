@@ -1,5 +1,5 @@
 course-name: Winter Games
-skinned: false
+skinned: true
 holes:
   - id: 943116b8-1bcb-43df-829e-349c14933f1c
     course: Winter Games
@@ -33,7 +33,7 @@ holes:
     - name: Zachary Jones
       resources:
       - title: Winter Games - Rookie
-        url: https://youtu.be/SQZz2Dz1Ak8
+        url: https://youtu.be/6cZZilhfy2E
       - title: Winter Games - Pro
         url: https://youtu.be/oL5pgce0Jjw
     aliases:
