@@ -24,13 +24,13 @@ onLoad in Global := { s => "dependencyUpdates" :: s }
 scalafmtOnCompile in ThisBuild := true
 
 lazy val `golf-clash-notebook` = (project in file("."))
-  .aggregate(firebase, markedjs, site)
-  .dependsOn(firebase, markedjs, site)
+  .aggregate(firebase, jspdf, markedjs, site)
+  .dependsOn(firebase, jspdf, markedjs, site)
 
 lazy val site = (project in file("modules/site"))
   .settings(moduleSettings("site"): _*)
   .settings(siteSettings)
-  .dependsOn(firebase, markedjs)
+  .dependsOn(firebase, markedjs, jspdf)
   .enablePlugins(AutomateHeaderPlugin, MicrositesPlugin, ScalaJSPlugin, ScalaUnidocPlugin)
 
 lazy val firebase = (project in file("modules/firebase"))
@@ -39,6 +39,10 @@ lazy val firebase = (project in file("modules/firebase"))
 
 lazy val markedjs = (project in file("modules/markedjs"))
   .settings(moduleSettings("markedjs"): _*)
+  .enablePlugins(AutomateHeaderPlugin, ScalaJSPlugin, ScalaUnidocPlugin)
+
+lazy val jspdf = (project in file("modules/jspdf"))
+  .settings(moduleSettings("jspdf"): _*)
   .enablePlugins(AutomateHeaderPlugin, ScalaJSPlugin, ScalaUnidocPlugin)
 
 /////////////////////////////////////////

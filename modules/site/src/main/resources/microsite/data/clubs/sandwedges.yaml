@@ -1,5 +1,6 @@
 - id: 860beb2b-e5ae-471c-a641-5512bcaf7bce
   name: The Castaway
+  category: SandWedges
   description: >
     Not a great club to start and because it's an epic, it's more than likely you'll never want to
     play this one. And by the time you manage to max it out, there will be a lot of other clubs
@@ -12,6 +13,7 @@
   ballguide: [1.5, 2.1, 2.3, 2.3, 2.5, 3.1, 3.1]
 - id: 0118f351-74ef-4a6d-b457-0e6896dd51b7
   name: The Desert Storm
+  category: SandWedges
   description: >
     Probably the first sand wedge you'll unlock and it's too bad because it's one of the worst
     clubs in the game. It never really gets good so just hang on and suffer through until you can
@@ -24,6 +26,7 @@
   ballguide: [1.0, 1.0, 1.2, 1.2, 1.7, 1.7, 2.0, 2.0, 2.2, 2.7]
 - id: e9f659b6-54e2-453d-9d50-a4199f66a58d
   name: The Malibu
+  category: SandWedges
   description: >
     The Malibu is one of the two best sand wedges in the game and you should count on using it for
     95% of your games. The distance isn't great but the accuracy makes it very good at getting you
@@ -37,6 +40,7 @@
   ballguide: [2.9, 3.1, 3.1, 3.5, 3.5, 4.0, 4.0, 4.5]
 - id: fec82921-1521-457e-8695-02bc11f0e694
   name: The Sahara
+  category: SandWedges
   description: >
     Given how fast the needle moves when you're in the sand, accuracy is a real import stat. The
     Sahara has very little of it so this is not a popular club. The distance looks nice but more
@@ -49,6 +53,7 @@
   ballguide: [2.3, 2.5, 2.9, 3.1, 3.3, 3.5, 4.2]
 - id: d0265b86-39e9-4d65-b682-d500e807b7d2
   name: The Sand Lizard
+  category: SandWedges
   description: >
     The Sand Lizard is an interesting club because it's the only other real popular option than the
     Malibu (until you level up your Spitfire). It ticks all the boxes except for ball guide, which
@@ -61,6 +66,7 @@
   ballguide: [1.5, 1.7, 1.7, 2.2, 2.2, 2.5, 2.7, 2.7, 2.9, 3.4]
 - id: 39c05178-5bf2-4da9-aef4-4379e0823fed
   name: Houdini
+  category: SandWedges
   description: >
     Not a good choice. Even maxed out, this epic only sports accuracy of 69. At that point your
     Malibu will almost certainly be a better club. Back spin is not useful for a sand wedge so
@@ -73,6 +79,7 @@
   ballguide: [2.7, 2.8, 3.4, 3.4, 3.8, 3.8, 4.4, 4.6]
 - id: 903b7e49-662c-497a-83cc-eb86649862de
   name: Spitfire
+  category: SandWedges
   description: >
     When you're old and gray and manage to max the Spitfire, you'll have the best sand wedge in the
     game. Until then, it will be a situational comparison between it and The Malibu as to which is

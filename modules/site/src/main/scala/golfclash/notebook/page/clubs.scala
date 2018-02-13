@@ -122,7 +122,7 @@ object clubs {
     import scalatags.JsDom.svgAttrs.{ fontFamily => _, fontSize => _, id => _, tag => _, _ }
     import scalatags.JsDom.svgTags.{ tag => _, _ }
 
-    val windPerRing = 1 + ((100 - club.accuracy(0)) * 0.02)
+    val windPerRing = wind.windPerRing(club, 1)
 
     div(cls := "wind-chart")(
       svg(viewBox := "0 0 100 100", preserveAspectRatio := "xMidYMid meet")(
@@ -249,8 +249,7 @@ object clubs {
 
   def updateRings(club: Club, level: Int) = {
 
-    val acc         = club.accuracy(level - 1)
-    val windPerRing = 1 + ((100 - acc) * 0.02)
+    val windPerRing = wind.windPerRing(club, level)
 
     jQuery(s".club-pagination-${club.##} > li").each { e =>
       jQuery(e).removeClass("active")
