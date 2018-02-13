@@ -36,6 +36,7 @@ import monix.execution.Scheduler.Implicits.global
 case class Club(
   id: String,
   name: String,
+  category: String,
   description: String,
   power: List[Int],
   accuracy: List[Int],
@@ -45,7 +46,8 @@ case class Club(
   ballguide: List[Double]
 ) {
 
-  val maxLevel = power.size
+  val clubCategory: Option[Club.Category] = Club.Category.fromString(category)
+  val maxLevel                            = power.size
 
 }
 

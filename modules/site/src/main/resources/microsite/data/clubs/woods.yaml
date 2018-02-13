@@ -1,5 +1,6 @@
 - id: 994535d6-e687-47cb-b1eb-e3762dd15fa0
   name: The Horizon
+  category: Woods
   description: >
     Chances are you'll never use this club. It's not good at the lower levels and it's an epic,
     which means that by the time you manage to get enough cards to make it a mediocre club, you'll
@@ -12,6 +13,7 @@
   ballguide: [2.5, 3.1, 3.1, 3.5, 3.7, 3.7, 3.9]
 - id: dc431baa-c088-42f1-80fd-3dff1cd5dc52
   name: The Viper
+  category: Woods
   description: >
     You'll likely be using The Viper through the first 5 tours. It's a common which means you can
     level it up quickly and the stats, while not great, are also not terrible. It's more accurate
@@ -25,6 +27,7 @@
   ballguide: [1.9, 2.0, 2.0, 2.4, 2.9, 2.9, 3.2, 3.2, 3.4, 3.9]
 - id: 8a766c85-a3a4-4d41-9836-2e175e422697
   name: The Big Dawg
+  category: Woods
   description: >
     The distance here is really good at the cost of poor accuracy and ball guide. Work on seeing
     how the ball bounces with spin applied and you can use the Big Dawg very effectively. It's a
@@ -38,6 +41,7 @@
   ballguide: [1.3, 1.5, 1.5, 2.1, 2.3, 2.3, 2.3, 2.9]
 - id: 70c32755-0b0d-493c-ba46-619e13da67e8
   name: The Hammerhead
+  category: Woods
   description: >
     The first wood on the tour progression that has decent accuracy. On the down side, it's an epic
     and will take a long time to level up. This could definitely be an option for you earlier in the
@@ -50,6 +54,7 @@
   ballguide: [2.7, 3.2, 3.2, 3.4, 3.9, 4.1, 4.1]
 - id: 7877ab7c-4c7c-4a9b-aed8-5552eecebb73
   name: The Guardian
+  category: Woods
   description: >
     Backspin is the obvious stat that sticks out on this club and it's extremely useful in
     Tour 7 and 8 shootouts. It's <em>highly</em> recommended that you at least try it out on
@@ -64,6 +69,7 @@
   ballguide: [1.9, 2.4, 2.6, 3.0, 3.0, 3.2, 3.8, 3.8]
 - id: 7caab84b-c86b-4bc6-8089-df90b67b2002
   name: The Sniper
+  category: Woods
   description: >
     This is the other option typically used in Tours 7 and 8 for those people who love accuracy and
     ball guide. This club is hands down the best in those two areas. It's also one of the worst
@@ -78,6 +84,7 @@
   ballguide: [3.7, 3.8, 3.8, 4.0, 4.0, 4.0, 4.5, 4.5, 4.5, 4.5]
 - id: bc20f457-4fe9-4818-b95a-8c00f343ad63
   name: The Cataclysm
+  category: Woods
   description: >
     This is usually considered one of the 'Big 3' clubs that you should unlock in the shop if you're
     lucky enough to have it show up. While it's not all that impressive to start with, it gets
@@ -93,6 +100,7 @@
   ballguide: [2.4, 2.4, 2.8, 3.0, 3.6, 3.8, 4.3]
 - id: ba107054-cd31-4be8-b42e-b4089f6f3ed2
   name: Golden Wood
+  category: Woods
   description: >
     This is the wood you'll get in the Golden Shot mini-game. Kind of a mix between an
     entry level Guardian and a mid level Viper.

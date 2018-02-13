@@ -42,9 +42,23 @@ object Page {
   case object Home        extends Page("^/$", Some(home.init))
   case object Tournaments extends Page("^/tournaments/", Some(tournaments.init))
   case object Tours       extends Page("^/tours/")
+  case object WindChartCreator
+      extends Page("^/tools/windchartcreator/$", Some(windchartcreator.init))
 
   private val All =
-    List(Balls, ClubRanker, Clubs, Courses, CrowdCaddy, FAQ, HoleRanker, Tournaments, Tours, Home)
+    List(
+      Balls,
+      ClubRanker,
+      Clubs,
+      Courses,
+      CrowdCaddy,
+      FAQ,
+      HoleRanker,
+      Home,
+      Tournaments,
+      Tours,
+      WindChartCreator
+    )
 
   def forUrlPath(path: String): Option[Page] = {
     All.find { page =>

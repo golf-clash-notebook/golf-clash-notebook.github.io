@@ -20,6 +20,16 @@ position: 70
     </div>
   </div>
 
+  <div class="col-md-4 col-md-offset-0 col-xs-8 col-xs-offset-2 text-center col-flex hidden" data-mh="tool-card">
+    <div class="site-feature-card text-center">
+      <h4>Wind Chart Creator</h4>
+      <p class="feature-description text-small text-semi-muted">
+        Create a set of wind charts for your bag. Max, Mid & Min club distances!
+      </p>
+      <a href="/tools/windchartcreator/" class="btn btn-primary feature-link" role="button">Wind Chart Creator</a>
+    </div>
+  </div>
+
   <div class="col-md-4 col-md-offset-0 col-xs-8 col-xs-offset-2 text-center col-flex" data-mh="tool-card">
     <div class="site-feature-card text-center">
       <h4>Hole Ranker</h4>
