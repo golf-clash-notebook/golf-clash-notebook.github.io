@@ -80,17 +80,15 @@ object util {
 
   def printCurrentHoleRatings(): Task[Unit] = {
     for {
-      holes   <- Hole.All
+      holes   <- Hole.Unskinned
       ratings <- Hole.Ratings
     } yield {
-
       ratings.sortBy(-_.rating).zipWithIndex.foreach {
         case (HoleRating(holeId, rating), ix) =>
           holes.find(_.id == holeId).map { hole =>
             println(s"[$ix] [$rating] - ${hole.course} - Hole ${hole.number} - Par ${hole.par}")
           }
       }
-
     }
   }
 
