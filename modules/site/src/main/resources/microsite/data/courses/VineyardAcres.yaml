@@ -18,6 +18,7 @@ holes:
           - Guardian
       - level: Masters
         clubs:
+          - Guardian
           - Rocket
     resource-creators:
     - name: Golf Clash Tommy
@@ -63,9 +64,10 @@ holes:
               <circle cx="182" cy="237" r="6" fill="black" class="guide-point" data-guide-segment="1" />
       - name: White Path
         text: >
-          Using a club with a lot of backspin you can take this path. You'll also need to add a bit
-          of curl to get it close to the pin. If you closely watch the green you will see that if
-          you bounce within 10 yards of the pin, the green will help your ball stay.
+          Using a wood (Pro / Expert) or long iron (Rookie) with a lot of backspin you can take
+          this path. You'll also need to add a bit of curl to get it close to the pin. If you
+          closely watch the green you will see that if you bounce within 10 yards of the pin, the
+          green will help keep your ball on the green.
         levels:
           - name: Rookie
             svg:
@@ -91,7 +93,6 @@ holes:
     clubRecommendations:
       - level: Rookie
         clubs:
-          - Sniper
           - Viper
       - level: Pro
         clubs:
@@ -185,10 +186,12 @@ holes:
     clubRecommendations:
       - level: Rookie
         clubs:
+          - Quarterback
           - Extra Mile
       - level: Pro
         clubs:
-          - Extra Mile
+          - Apocalypse
+          - Thor's Hammer
       - level: Masters
         clubs:
           - Apocalypse
@@ -245,8 +248,8 @@ holes:
       - name: White Path
         text: >
           This is typically only an option from the first tee where you have a driver / ball
-          combination that can carry over the bunker. From the back tees you'll need some good
-          tailwind. 2 bars of topspin should be good.
+          combination that can carry you drive over the bunker. From the back tees you'll need some
+          good tailwind. 2 bars of topspin should be good.
         levels:
           - name: Rookie
             svg:
@@ -282,11 +285,12 @@ holes:
           - Saturn
       - level: Pro
         clubs:
-          - Backbone
           - Saturn
+          - Goliath
       - level: Masters
         clubs:
-          - Goliath
+          - Guardian
+          - Saturn
     resource-creators:
     - name: Golf Clash Tommy
       resources:
@@ -382,8 +386,8 @@ holes:
           - Big Dawg
       - level: Pro
         clubs:
-          - Cataclysm
           - Big Dawg
+          - Cataclysm
       - level: Masters
         clubs:
           - Cataclysm
@@ -415,7 +419,7 @@ holes:
           With tailwind or a long enough driver this is the way to go to get to the green in two.
           Roll your drive out as far as possible. From there you can either bounce your second shot
           over the rough in front of the green or hit directly into the rough so it will roll out
-          to the hole.
+          to the hole. This is not an easy eagle so a birdie is NOT a bad score.
         levels:
           - name: Rookie
             svg:
@@ -487,13 +491,13 @@ holes:
       - level: Rookie
         clubs:
           - Viper
-          - Guardian
       - level: Pro
         clubs:
           - Guardian
           - Sniper
       - level: Masters
         clubs:
+          - Guardian
           - Rocket
     resource-creators:
     - name: Golf Clash Tommy
@@ -521,9 +525,9 @@ holes:
       - name: Black Path
         text: >
           This is a really, really hard Par 3. It's difficult to see in the picture that the
-          fairway in front of the green slopes uphill and right to left. This means you'll need to
-          use sidespin to over adjust your shot so you always try to have a straight line for your
-          ball when it hits the ground. Otherwise, you may find yourself in the rough.
+          fairway in front of the green slopes uphill and slopes right to left. This means you'll
+          need to use sidespin to over adjust your shot so you always try to have a straight line
+          for your ball when it hits the ground. Otherwise, you may find yourself in the rough.
           <strong><em>DO NOT</em></strong> use max backspin on this one. Use as little amount of
           spin as possible.
         levels:
@@ -586,33 +590,73 @@ holes:
       guides:
       - name: Black Path
         text: >
-          It may seem like an easy Par 4 but it's not. The fairway slopes severly from right to
-          left so you can't just play a straight shot. Try to avoid the right side of the fairway.
-          Use a driver with plenty of curl and a ball with sidespin to adapt. The second shot
-          requires a wood with decent backspin. Use the back of the green to spin the ball down to
-          the pin.
+          This is a very tough par 4 with a fairway that slopes severely from right to left so
+          you'll need to use curl and sidespin to straighten out you drive once it hits the
+          fairway. Landing in the rough or bunker on your drive will mean you won't reach the green
+          in 2. For you second shot, go with the Guardian if it's level 4+. Go on the right side
+          with curl and left sidespin. Use 3 - 4 bars of backspin and use the back of the fairway
+          to make the ball fall nicely down to the green.
         levels:
           - name: Rookie
             svg:
-              <path d="M 345 747 C 156 506 156 506 126 287" stroke="black" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="0" />
-              <path d="M 126 287 L 286 103" stroke="black" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="1" />
+              <path d="M 345 747 C 212 573 212 573 179 413" stroke="black" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="0" />
+              <path d="M 179 413 L 136 292" stroke="black" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="1" />
+              <path d="M 136 292 C 268 218 268 218 320 104" stroke="black" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="2" />
               <circle cx="345" cy="747" r="6" fill="black" class="guide-point" data-guide-segment="0" />
-              <circle cx="126" cy="287" r="6" fill="black" class="guide-point" data-guide-segment="1" />
-              <circle cx="286" cy="103" r="6" fill="black" class="guide-point" data-guide-segment="2" />
+              <circle cx="179" cy="413" r="6" fill="black" class="guide-point" data-guide-segment="1" />
+              <circle cx="136" cy="292" r="6" fill="black" class="guide-point" data-guide-segment="2" />
+              <circle cx="320" cy="104" r="6" fill="black" class="guide-point" data-guide-segment="3" />
           - name: Pro
             svg:
-              <path d="M 370 792 C 156 506 156 506 126 287" stroke="black" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="0" />
-              <path d="M 126 287 L 286 103" stroke="black" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="1" />
-              <circle cx="370" cy="792" r="6" fill="black" class="guide-point" data-guide-segment="0" />
-              <circle cx="126" cy="287" r="6" fill="black" class="guide-point" data-guide-segment="1" />
-              <circle cx="286" cy="103" r="6" fill="black" class="guide-point" data-guide-segment="2" />
+              <path d="M 370 791 C 212 573 212 573 179 413" stroke="black" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="0" />
+              <path d="M 179 413 L 136 292" stroke="black" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="1" />
+              <path d="M 136 292 C 268 218 268 218 320 104" stroke="black" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="2" />
+              <circle cx="370" cy="791" r="6" fill="black" class="guide-point" data-guide-segment="0" />
+              <circle cx="179" cy="413" r="6" fill="black" class="guide-point" data-guide-segment="1" />
+              <circle cx="136" cy="292" r="6" fill="black" class="guide-point" data-guide-segment="2" />
+              <circle cx="320" cy="104" r="6" fill="black" class="guide-point" data-guide-segment="3" />
           - name: Masters
             svg:
-              <path d="M 396 838 C 156 506 156 506 126 287" stroke="black" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="0" />
-              <path d="M 126 287 L 286 103" stroke="black" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="1" />
+              <path d="M 396 838 C 212 573 212 573 179 413" stroke="black" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="0" />
+              <path d="M 179 413 L 136 292" stroke="black" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="1" />
+              <path d="M 136 292 C 268 218 268 218 320 104" stroke="black" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="2" />
               <circle cx="396" cy="838" r="6" fill="black" class="guide-point" data-guide-segment="0" />
-              <circle cx="126" cy="287" r="6" fill="black" class="guide-point" data-guide-segment="1" />
-              <circle cx="286" cy="103" r="6" fill="black" class="guide-point" data-guide-segment="2" />
+              <circle cx="179" cy="413" r="6" fill="black" class="guide-point" data-guide-segment="1" />
+              <circle cx="136" cy="292" r="6" fill="black" class="guide-point" data-guide-segment="2" />
+              <circle cx="320" cy="104" r="6" fill="black" class="guide-point" data-guide-segment="3" />
+      - name: White Path
+        text: >
+          This is the more aggressive approach. Use the fairway in front of the green and use 6 - 7
+          bars of backspin to keep the ball on the green. You can also go directly on the green
+          with max backspin and let the back of the green to roll the ball back down to the pin.
+        levels:
+          - name: Rookie
+            svg:
+              <path d="M 345 747 C 212 573 212 573 170 411" stroke="white" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="0" />
+              <path d="M 170 411 L 110 275" stroke="white" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="1" />
+              <path d="M 110 275 L 285 106" stroke="white" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="2" />
+              <circle cx="345" cy="747" r="6" fill="white" class="guide-point" data-guide-segment="0" />
+              <circle cx="170" cy="411" r="6" fill="white" class="guide-point" data-guide-segment="1" />
+              <circle cx="110" cy="275" r="6" fill="white" class="guide-point" data-guide-segment="2" />
+              <circle cx="285" cy="106" r="6" fill="white" class="guide-point" data-guide-segment="3" />
+          - name: Pro
+            svg:
+              <path d="M 370 791 C 212 573 212 573 170 411" stroke="white" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="0" />
+              <path d="M 170 411 L 110 275" stroke="white" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="1" />
+              <path d="M 110 275 L 285 106" stroke="white" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="2" />
+              <circle cx="370" cy="791" r="6" fill="white" class="guide-point" data-guide-segment="0" />
+              <circle cx="170" cy="411" r="6" fill="white" class="guide-point" data-guide-segment="1" />
+              <circle cx="110" cy="275" r="6" fill="white" class="guide-point" data-guide-segment="2" />
+              <circle cx="285" cy="106" r="6" fill="white" class="guide-point" data-guide-segment="3" />
+          - name: Masters
+            svg:
+              <path d="M 396 838 C 212 573 212 573 170 411" stroke="white" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="0" />
+              <path d="M 170 411 L 110 275" stroke="white" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="1" />
+              <path d="M 110 275 L 285 106" stroke="white" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="2" />
+              <circle cx="396" cy="838" r="6" fill="white" class="guide-point" data-guide-segment="0" />
+              <circle cx="170" cy="411" r="6" fill="white" class="guide-point" data-guide-segment="1" />
+              <circle cx="110" cy="275" r="6" fill="white" class="guide-point" data-guide-segment="2" />
+              <circle cx="285" cy="106" r="6" fill="white" class="guide-point" data-guide-segment="3" />
   - id: acb911f4-c603-4715-b11c-f848ee34bbaf
     course: Vineyard Acres
     number: 8
@@ -622,10 +666,11 @@ holes:
     clubRecommendations:
       - level: Rookie
         clubs:
-          - Goliath
           - Backbone
+          - Goliath
       - level: Pro
         clubs:
+          - Sniper
           - Guardian
       - level: Masters
         clubs:
@@ -686,8 +731,8 @@ holes:
           - Big Dawg
       - level: Pro
         clubs:
-          - Cataclysm
           - Big Dawg
+          - Cataclysm
       - level: Masters
         clubs:
           - Cataclysm
@@ -714,6 +759,41 @@ holes:
       hidden: true
       size: [417, 1074]
       guides:
+      - name: White Path
+        text: >
+          This is one of the toughest par 5s in the game. Not likely to reach the green in 2 without
+          a <strong><em>massive</em></strong> tailwind. Play your drive straight ahead as close to
+          the rough as possible and basically do the same for your second shot. Your 3rd shot will
+          require a small amount of curl and try to aim for the back of the green. There's a slope
+          that will feed the ball down to the pin.
+        levels:
+          - name: Rookie
+            svg:
+              <path d="M 146 863 L 157 451" stroke="white" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="0" />
+              <path d="M 157 451 L 213 165" stroke="white" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="1" />
+              <path d="M 213 165 C 249 105 249 105 316 81" stroke="white" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="2" />
+              <circle cx="146" cy="863" r="6" fill="white" class="guide-point" data-guide-segment="0" />
+              <circle cx="157" cy="451" r="6" fill="white" class="guide-point" data-guide-segment="1" />
+              <circle cx="213" cy="165" r="6" fill="white" class="guide-point" data-guide-segment="2" />
+              <circle cx="316" cy="81" r="6" fill="white" class="guide-point" data-guide-segment="3" />
+          - name: Pro
+            svg:
+              <path d="M 141 908 L 157 451" stroke="white" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="0" />
+              <path d="M 157 451 L 213 165" stroke="white" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="1" />
+              <path d="M 213 165 C 249 105 249 105 316 81" stroke="white" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="2" />
+              <circle cx="141" cy="908" r="6" fill="white" class="guide-point" data-guide-segment="0" />
+              <circle cx="157" cy="451" r="6" fill="white" class="guide-point" data-guide-segment="1" />
+              <circle cx="213" cy="165" r="6" fill="white" class="guide-point" data-guide-segment="2" />
+              <circle cx="316" cy="81" r="6" fill="white" class="guide-point" data-guide-segment="3" />
+          - name: Masters
+            svg:
+              <path d="M 138 955 L 157 451" stroke="white" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="0" />
+              <path d="M 157 451 L 213 165" stroke="white" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="1" />
+              <path d="M 213 165 C 249 105 249 105 316 81" stroke="white" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="2" />
+              <circle cx="138" cy="955" r="6" fill="white" class="guide-point" data-guide-segment="0" />
+              <circle cx="157" cy="451" r="6" fill="white" class="guide-point" data-guide-segment="1" />
+              <circle cx="213" cy="165" r="6" fill="white" class="guide-point" data-guide-segment="2" />
+              <circle cx="316" cy="81" r="6" fill="white" class="guide-point" data-guide-segment="3" />
       - name: Black Path
         text: >
           A trickier tee shot, but will give you a much better angle on your second shot to the
@@ -748,36 +828,3 @@ holes:
               <circle cx="308" cy="454" r="6" fill="black" class="guide-point" data-guide-segment="1" />
               <circle cx="133" cy="226" r="6" fill="black" class="guide-point" data-guide-segment="2" />
               <circle cx="314" cy="78" r="6" fill="black" class="guide-point" data-guide-segment="3" />
-      - name: White Path
-        text: >
-          This is a much easier teeshot but can present more problems for your second and third
-          shots since they will require more precision and curl. Use the back to front sloped
-          green on your approach to have the ball roll down to the hole.
-        levels:
-          - name: Rookie
-            svg:
-              <path d="M 146 863 L 157 451" stroke="white" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="0" />
-              <path d="M 157 451 L 213 165" stroke="white" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="1" />
-              <path d="M 213 165 C 249 105 249 105 316 81" stroke="white" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="2" />
-              <circle cx="146" cy="863" r="6" fill="white" class="guide-point" data-guide-segment="0" />
-              <circle cx="157" cy="451" r="6" fill="white" class="guide-point" data-guide-segment="1" />
-              <circle cx="213" cy="165" r="6" fill="white" class="guide-point" data-guide-segment="2" />
-              <circle cx="316" cy="81" r="6" fill="white" class="guide-point" data-guide-segment="3" />
-          - name: Pro
-            svg:
-              <path d="M 141 908 L 157 451" stroke="white" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="0" />
-              <path d="M 157 451 L 213 165" stroke="white" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="1" />
-              <path d="M 213 165 C 249 105 249 105 316 81" stroke="white" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="2" />
-              <circle cx="141" cy="908" r="6" fill="white" class="guide-point" data-guide-segment="0" />
-              <circle cx="157" cy="451" r="6" fill="white" class="guide-point" data-guide-segment="1" />
-              <circle cx="213" cy="165" r="6" fill="white" class="guide-point" data-guide-segment="2" />
-              <circle cx="316" cy="81" r="6" fill="white" class="guide-point" data-guide-segment="3" />
-          - name: Masters
-            svg:
-              <path d="M 138 955 L 157 451" stroke="white" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="0" />
-              <path d="M 157 451 L 213 165" stroke="white" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="1" />
-              <path d="M 213 165 C 249 105 249 105 316 81" stroke="white" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="2" />
-              <circle cx="138" cy="955" r="6" fill="white" class="guide-point" data-guide-segment="0" />
-              <circle cx="157" cy="451" r="6" fill="white" class="guide-point" data-guide-segment="1" />
-              <circle cx="213" cy="165" r="6" fill="white" class="guide-point" data-guide-segment="2" />
-              <circle cx="316" cy="81" r="6" fill="white" class="guide-point" data-guide-segment="3" />
