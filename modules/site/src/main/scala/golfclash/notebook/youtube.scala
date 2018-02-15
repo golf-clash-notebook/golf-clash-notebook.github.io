@@ -62,6 +62,7 @@ object youtube {
 
   val StreamKeywordsFilter = List(
     "clash",
+    "chris taylor",
     "elite",
     "expert",
     "friendly",
