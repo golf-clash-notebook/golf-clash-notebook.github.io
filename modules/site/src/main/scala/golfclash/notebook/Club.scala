@@ -53,7 +53,12 @@ case class Club(
 
 object Club {
 
-  sealed abstract class Category(val name: String) extends Product with Serializable
+  sealed abstract class Category(val name: String) extends Product with Serializable {
+    def printableName: String = {
+      name.map(char => if (char.isUpper) s" $char" else char.toString).mkString.trim
+    }
+  }
+
   object Category {
     case object Drivers    extends Category("Drivers")
     case object Woods      extends Category("Woods")

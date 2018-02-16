@@ -6,26 +6,38 @@ permalink: /tools/windchartcreator/
 ---
 
 <div class="row">
-  <div class="col-xs-12 text-center">
-    <div class="alert alert-warning text-center" role="alert">
-      <strong>If you're on this page, it's NOT ready for you! Come back later!</strong>
-    </div>
+  <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 col-sm-12">
+    <h1 class="gcn-page-header margin-bottom-0">Wind Chart Creator</h1>
+    <h2 class="gcn-page-subheader">Add up to 7 clubs to your own PDF.</h2>
   </div>
+  <br>
 </div>
 
-<div class="hidden">
+<div class="row">
 
-  <div class="row">
-    <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 col-sm-12">
-      <h1 class="gcn-page-header">Wind Chart Creator</h1>
-    </div>
-    <br>
+  <div class="col-sm-6 col-xs-12">
+    <form id="add-club-form" class="form-horizontal pad-32">
+      <div class="form-group">
+        <label for="club-select" class="col-xs-3 text-right">Club</label>
+        <div class="col-xs-9">
+          <select id="club-select" class="form-control"></select>
+        </div>
+      </div>
+      <div class="form-group">
+        <label for="club-level-select" class="col-xs-3 text-right">Level</label>
+        <div class="col-xs-9">
+          <select id="club-level-select" class="form-control" disabled></select>
+        </div>
+      </div>
+      <div class="col-xs-offset-3 col-xs-9 text-center">
+        <button id="club-add-btn" type="button" class="btn btn-default">Add Club</button>
+      </div>
+    </form>
   </div>
-
-  <div class="row">
-    <div class="col-xs-12 text-center">
-      <button id="create-wind-chart-btn" type="button" class="btn btn-primary">Create Chart!</button>
+  <div class="col-sm-6 col-xs-12">
+    <div id="current-club-list" class="margin-top-16"></div>
+    <div class="col-xs-12 text-center margin-top-16">
+      <button id="create-wind-chart-btn" type="button" class="btn btn-primary hidden">Create Chart!</button>
     </div>
   </div>
-
 </div>
