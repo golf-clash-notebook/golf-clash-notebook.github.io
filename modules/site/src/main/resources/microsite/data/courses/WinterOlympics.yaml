@@ -1,8 +1,8 @@
-course-name: Winter Games
+course-name: Winter Olympics
 skinned: true
 holes:
   - id: 943116b8-1bcb-43df-829e-349c14933f1c
-    course: Winter Games
+    course: Winter Olympics
     number: 1
     par: 4
     description: >
@@ -47,7 +47,6 @@ holes:
     aliases:
       - 16adf86e-de5c-40c4-b78d-dc0a947f044b
     overlays:
-      hidden: true
       size: [380, 809]
       guides:
       - name: Black Path
@@ -105,7 +104,7 @@ holes:
               <circle cx="181" cy="205" r="6" fill="white" class="guide-point" data-guide-segment="1" />
               <circle cx="239" cy="111" r="6" fill="white" class="guide-point" data-guide-segment="2" />
   - id: 4c3cbf6a-1b1b-4aa6-a413-6c5c96f6d377
-    course: Winter Games
+    course: Winter Olympics
     number: 2
     par: 3
     description: >
@@ -150,7 +149,6 @@ holes:
     aliases:
       - 944bdfca-0abc-41a5-ac97-7e38291f7893
     overlays:
-      hidden: true
       size: [372, 817]
       guides:
       - name: Black Path
@@ -178,7 +176,7 @@ holes:
               <circle cx="217" cy="753" r="6" fill="black" class="guide-point" data-guide-segment="0" />
               <circle cx="199" cy="200" r="6" fill="black" class="guide-point" data-guide-segment="1" />
   - id: f3bfe4b1-7e86-4d69-8c09-312d69088bbd
-    course: Winter Games
+    course: Winter Olympics
     number: 3
     par: 5
     description: >
@@ -224,7 +222,6 @@ holes:
     aliases:
       - 49e3d49a-1647-4347-8f75-3e7fbb32d80c
     overlays:
-      hidden: true
       size: [402, 914]
       guides:
       - name: Black Path
@@ -288,7 +285,7 @@ holes:
               <circle cx="260" cy="258" r="6" fill="white" class="guide-point" data-guide-segment="1" />
               <circle cx="296" cy="79" r="6" fill="white" class="guide-point" data-guide-segment="2" />
   - id: fa2478fa-bdf2-4b1c-9409-89d80f1e6359
-    course: Winter Games
+    course: Winter Olympics
     number: 4
     par: 3
     description: >
@@ -333,7 +330,6 @@ holes:
     aliases:
       - acb911f4-c603-4715-b11c-f848ee34bbaf
     overlays:
-      hidden: true
       size: [602, 800]
       guides:
       - name: Black Path
@@ -358,7 +354,7 @@ holes:
               <circle cx="286" cy="692" r="6" fill="black" class="guide-point" data-guide-segment="0" />
               <circle cx="266" cy="268" r="6" fill="black" class="guide-point" data-guide-segment="1" />
   - id: 9b676878-9162-47a8-ada9-a16a5456316d
-    course: Winter Games
+    course: Winter Olympics
     number: 5
     par: 5
     description: >
@@ -402,7 +398,6 @@ holes:
     aliases:
       - 7326d6ba-9310-4eaa-94c8-775412515e23
     overlays:
-      hidden: true
       size: [478, 1021]
       guides:
       - name: Black Path
@@ -473,7 +468,7 @@ holes:
               <circle cx="165" cy="125" r="6" fill="white" class="guide-point" data-guide-segment="2" />
               <circle cx="115" cy="88" r="6" fill="white" class="guide-point" data-guide-segment="3" />
   - id: f9cc317a-341d-4d0c-91a9-7fb2ee1061b2
-    course: Winter Games
+    course: Winter Olympics
     number: 6
     par: 4
     description: >
@@ -516,7 +511,6 @@ holes:
     aliases:
       - 4c95334d-0695-4d41-9390-ce3b1dc8845f
     overlays:
-      hidden: true
       size: [400, 885]
       guides:
       - name: Black Path
@@ -574,7 +568,7 @@ holes:
               <circle cx="203" cy="240" r="6" fill="white" class="guide-point" data-guide-segment="1" />
               <circle cx="109" cy="98" r="6" fill="white" class="guide-point" data-guide-segment="2" />
   - id: 3f053109-7927-4eec-8c62-5cbbc4f37ff0
-    course: Winter Games
+    course: Winter Olympics
     number: 7
     par: 3
     description: >
@@ -618,7 +612,6 @@ holes:
     aliases:
       - f97340e9-7d74-41c8-bd92-64785b42eb0f
     overlays:
-      hidden: true
       size: [284, 814]
       guides:
       - name: Black Path
@@ -665,7 +658,7 @@ holes:
               <circle cx="135" cy="700" r="6" fill="white" class="guide-point" data-guide-segment="0" />
               <circle cx="135" cy="165" r="6" fill="white" class="guide-point" data-guide-segment="1" />
   - id: 1dea8658-46e4-47a8-ba66-52ff35f3eac2
-    course: Winter Games
+    course: Winter Olympics
     number: 8
     par: 4
     description: >
@@ -711,7 +704,6 @@ holes:
     aliases:
       - 726b08c9-a742-45bb-8050-62c552395bbd
     overlays:
-      hidden: true
       size: [452, 914]
       guides:
       - name: Black Path
@@ -784,7 +776,7 @@ holes:
               <circle cx="118" cy="218" r="6" fill="white" class="guide-point" data-guide-segment="2" />
               <circle cx="308" cy="85" r="6" fill="white" class="guide-point" data-guide-segment="3" />
   - id: d2d57c64-2462-4b50-8939-e5c660fcd5a5
-    course: Winter Games
+    course: Winter Olympics
     number: 9
     par: 5
     description: >
@@ -828,7 +820,6 @@ holes:
     aliases:
       - c2bbf390-d162-4a06-9d9b-5d0e7f5b64ef
     overlays:
-      hidden: true
       size: [403, 1096]
       guides:
       - name: White Path
