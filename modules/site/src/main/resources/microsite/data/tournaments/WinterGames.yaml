@@ -3,6 +3,14 @@ date: '2018-02-12'
 resource-creators:
   - name: Golf Clash Tommy
     resources:
+    - title: Weekend Round (Expert & Masters)
+      url: https://youtu.be/qrAbFq-F7Do
+    - title: Weekend Round (Rookie & Pro)
+      url: https://youtu.be/MH4JyVBhVlI
+    - title: Opening Round (Masters)
+      url: https://youtu.be/c8kpAdxenHY
+    - title: Opening Round (Rookie & Pro)
+      url: https://youtu.be/ZyQ-4KtS_s4
     - title: Qualifying Round (Masters & Pro)
       url: https://youtu.be/dLkoujxbLkk
     - title: Qualifying Round (Pro)
@@ -17,31 +25,47 @@ resource-creators:
       url: https://youtu.be/-IMXvhDaJtE
     - title: Text Guide
       url: https://imgur.com/a/7IHeX
+  - name: Cam Alvesteffer
+    resources:
+    - title: Weekend Round (Expert 3/3)
+      url: https://youtu.be/S6L2fqTdwyc
+    - title: Weekend Round (Expert 2/3)
+      url: https://youtu.be/qFQobZw8zNs
+    - title: Weekend Round (Expert 1/3)
+      url: https://youtu.be/wwxJIN1TUBs
+    - title: Opening Round (Expert 3/3)
+      url: https://youtu.be/ill4QTFAhQk
+    - title: Opening Round (Expert 2/3)
+      url: https://youtu.be/rkQLq_8qF9Q
+    - title: Opening Round (Expert 1/3 - Back 9)
+      url: https://youtu.be/dsqumrQLWfE
+    - title: Opening Round (Expert 1/3 - Front 9)
+      url: https://youtu.be/UWW4ZSjHDug
 holes:
   - number: 1
-    course: Winter Games
+    course: Winter Olympics
     course-hole: 1
   - number: 2
-    course: Winter Games
+    course: Winter Olympics
     course-hole: 2
   - number: 3
-    course: Winter Games
+    course: Winter Olympics
     course-hole: 3
   - number: 4
-    course: Winter Games
+    course: Winter Olympics
     course-hole: 4
   - number: 5
-    course: Winter Games
+    course: Winter Olympics
     course-hole: 5
   - number: 6
-    course: Winter Games
+    course: Winter Olympics
     course-hole: 6
   - number: 7
-    course: Winter Games
+    course: Winter Olympics
     course-hole: 7
   - number: 8
-    course: Winter Games
+    course: Winter Olympics
     course-hole: 8
   - number: 9
-    course: Winter Games
+    course: Winter Olympics
     course-hole: 9

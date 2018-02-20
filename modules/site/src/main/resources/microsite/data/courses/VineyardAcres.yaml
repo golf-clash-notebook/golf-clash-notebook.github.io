@@ -46,7 +46,6 @@ holes:
     aliases:
       - 3f053109-7927-4eec-8c62-5cbbc4f37ff0
     overlays:
-      hidden: true
       size: [349, 840]
       guides:
       - name: Black Path
@@ -136,7 +135,6 @@ holes:
     aliases:
       - f9cc317a-341d-4d0c-91a9-7fb2ee1061b2
     overlays:
-      hidden: true
       size: [398, 905]
       guides:
       - name: Black Path
@@ -239,7 +237,6 @@ holes:
     aliases:
       - 943116b8-1bcb-43df-829e-349c14933f1c
     overlays:
-      hidden: true
       size: [397, 907]
       guides:
       - name: Black Path
@@ -343,7 +340,6 @@ holes:
     aliases:
       - f3bfe4b1-7e86-4d69-8c09-312d69088bbd
     overlays:
-      hidden: true
       size: [405, 944]
       guides:
       - name: Black Path
@@ -451,7 +447,6 @@ holes:
     aliases:
       - 9b676878-9162-47a8-ada9-a16a5456316d
     overlays:
-      hidden: true
       size: [494, 1067]
       guides:
       - name: Black Path
@@ -567,7 +562,6 @@ holes:
     aliases:
       - 4c3cbf6a-1b1b-4aa6-a413-6c5c96f6d377
     overlays:
-      hidden: true
       size: [298, 839]
       guides:
       - name: Black Path
@@ -641,7 +635,6 @@ holes:
     aliases:
       - 1dea8658-46e4-47a8-ba66-52ff35f3eac2
     overlays:
-      hidden: true
       size: [514, 944]
       guides:
       - name: Black Path
@@ -759,7 +752,6 @@ holes:
     aliases:
       - fa2478fa-bdf2-4b1c-9409-89d80f1e6359
     overlays:
-      hidden: true
       size: [676, 921]
       guides:
       - name: Black Path
@@ -828,7 +820,6 @@ holes:
     aliases:
       - d2d57c64-2462-4b50-8939-e5c660fcd5a5
     overlays:
-      hidden: true
       size: [417, 1074]
       guides:
       - name: White Path
