@@ -10,7 +10,7 @@ position: 70
 
   <h1 class="gcn-page-header">Collection of Golf Clash Tools.</h1>
 
-  <div class="col-md-4 col-xs-8 col-xs-offset-2 text-center col-flex" data-mh="tool-card">
+  <div class="col-md-4 col-md-offset-0 col-xs-8 col-xs-offset-2 text-center col-flex" data-mh="tool-card">
     <div class="site-feature-card text-center">
       <h4>Club Ranker</h4>
       <p class="feature-description text-small text-semi-muted">
