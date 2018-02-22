@@ -27,8 +27,8 @@ holes:
           url: https://youtu.be/ZystunLzXFo
         - title: Pro / Expert Guide
           url: https://youtu.be/JP2ntz_coBo
-        - title: Text Guide
-          url: https://i.imgur.com/MYtifkC.jpg
+        # - title: Text Guide
+        #   url: https://i.imgur.com/MYtifkC.jpg
     overlays:
       hidden: true
       size: [377, 873]
@@ -77,8 +77,8 @@ holes:
         resources:
         - title: Rookie Guide
           url: https://youtu.be/9RUMnOXgC_g
-        - title: Text Guide
-          url: https://i.imgur.com/t6eqi0c.jpg
+        # - title: Text Guide
+        #   url: https://i.imgur.com/t6eqi0c.jpg
     overlays:
       hidden: true
       size: [360, 929]
@@ -137,8 +137,8 @@ holes:
           url: https://youtu.be/YQjoqiuQaiw
         - title: Pro / Expert Guide
           url: https://youtu.be/C94hXJUrLWY
-        - title: Text Guide
-          url: https://i.imgur.com/yLwRNKs.jpg
+        # - title: Text Guide
+        #   url: https://i.imgur.com/yLwRNKs.jpg
     overlays:
       hidden: true
       size: [411, 1104]
@@ -199,8 +199,8 @@ holes:
         resources:
         - title: Rookie Guide
           url: https://youtu.be/UZzXnnDIWCs
-        - title: Text Guide
-          url: https://i.imgur.com/XdukWK9.jpg
+        # - title: Text Guide
+        #   url: https://i.imgur.com/XdukWK9.jpg
     overlays:
       hidden: true
       size: [312, 1111]
