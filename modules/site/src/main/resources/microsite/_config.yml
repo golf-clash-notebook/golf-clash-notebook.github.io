@@ -344,3 +344,11 @@ page_gen:
     extra:
       title-prefix: 'Winter Games Tournament - Hole '
       tournament-name: 'Winter Games'
+  - index_files: true
+    data: 'tournaments.Hollywood.holes'
+    template: '_includes/tournaments/hole-template.liquid'
+    name: 'number'
+    dir: 'tournaments/Hollywood'
+    extra:
+      title-prefix: 'Hollywood Tournament - Hole '
+      tournament-name: 'Hollywood'

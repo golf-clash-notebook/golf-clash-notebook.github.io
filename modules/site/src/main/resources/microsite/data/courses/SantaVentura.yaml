@@ -1,61 +1,9 @@
 course-name: Santa Ventura
 skinned: false
 holes:
-  - id: 30a00d7f-7319-473d-8156-d3f933f853e4
-    course: Santa Ventura
-    number: 1
-    par: 3
-    description: >
-      Help Wanted
-    clubRecommendations:
-      - level: Rookie
-        clubs:
-          - Backbone
-          - Goliath
-      - level: Pro
-        clubs:
-          - Guardian
-          - Sniper
-      - level: Masters
-        clubs:
-          - Guardian
-          - Quarterback
-    resource-creators:
-      - name: Golf Clash Tommy
-        resources:
-        - title: Rookie Guide
-          url: https://youtu.be/ZystunLzXFo
-        - title: Pro / Expert Guide
-          url: https://youtu.be/JP2ntz_coBo
-        # - title: Text Guide
-        #   url: https://i.imgur.com/MYtifkC.jpg
-    overlays:
-      hidden: true
-      size: [377, 873]
-      guides:
-      - name: Black Path
-        text: >
-          This is a great opportunity to get a hole in one. Keep in mind that the green slopes left
-          to right so you should aim a bit to the left side of the pin.
-        levels:
-          - name: Rookie
-            svg:
-              <path d="M 163 641 L 199 194" stroke="black" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="0" />
-              <circle cx="163" cy="641" r="6" fill="black" class="guide-point" data-guide-segment="0" />
-              <circle cx="199" cy="194" r="6" fill="black" class="guide-point" data-guide-segment="1" />
-          - name: Pro
-            svg:
-              <path d="M 198 723 L 199 194" stroke="black" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="0" />
-              <circle cx="198" cy="723" r="6" fill="black" class="guide-point" data-guide-segment="0" />
-              <circle cx="199" cy="194" r="6" fill="black" class="guide-point" data-guide-segment="1" />
-          - name: Masters
-            svg:
-              <path d="M 223 799 L 199 194" stroke="black" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="0" />
-              <circle cx="223" cy="799" r="6" fill="black" class="guide-point" data-guide-segment="0" />
-              <circle cx="199" cy="194" r="6" fill="black" class="guide-point" data-guide-segment="1" />
   - id: 24fea90b-eadc-4a99-85b2-1efea61c6e85
     course: Santa Ventura
-    number: 2
+    number: 1
     par: 4
     description: >
       Help Wanted
@@ -112,9 +60,126 @@ holes:
               <circle cx="154" cy="870" r="6" fill="black" class="guide-point" data-guide-segment="0" />
               <circle cx="154" cy="237" r="6" fill="black" class="guide-point" data-guide-segment="1" />
               <circle cx="217" cy="134" r="6" fill="black" class="guide-point" data-guide-segment="2" />
-  - id: f9a598d5-e52b-476c-8e38-a8cb4bd7f76e
+  - id: 30a00d7f-7319-473d-8156-d3f933f853e4
+    course: Santa Ventura
+    number: 2
+    par: 3
+    description: >
+      Help Wanted
+    clubRecommendations:
+      - level: Rookie
+        clubs:
+          - Backbone
+          - Goliath
+      - level: Pro
+        clubs:
+          - Guardian
+          - Sniper
+      - level: Masters
+        clubs:
+          - Guardian
+          - Quarterback
+    resource-creators:
+      - name: Golf Clash Tommy
+        resources:
+        - title: Rookie Guide
+          url: https://youtu.be/ZystunLzXFo
+        - title: Pro / Expert Guide
+          url: https://youtu.be/JP2ntz_coBo
+        # - title: Text Guide
+        #   url: https://i.imgur.com/MYtifkC.jpg
+    overlays:
+      hidden: true
+      size: [377, 873]
+      guides:
+      - name: Black Path
+        text: >
+          This is a great opportunity to get a hole in one. Keep in mind that the green slopes left
+          to right so you should aim a bit to the left side of the pin.
+        levels:
+          - name: Rookie
+            svg:
+              <path d="M 163 641 L 199 194" stroke="black" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="0" />
+              <circle cx="163" cy="641" r="6" fill="black" class="guide-point" data-guide-segment="0" />
+              <circle cx="199" cy="194" r="6" fill="black" class="guide-point" data-guide-segment="1" />
+          - name: Pro
+            svg:
+              <path d="M 198 723 L 199 194" stroke="black" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="0" />
+              <circle cx="198" cy="723" r="6" fill="black" class="guide-point" data-guide-segment="0" />
+              <circle cx="199" cy="194" r="6" fill="black" class="guide-point" data-guide-segment="1" />
+          - name: Masters
+            svg:
+              <path d="M 223 799 L 199 194" stroke="black" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="0" />
+              <circle cx="223" cy="799" r="6" fill="black" class="guide-point" data-guide-segment="0" />
+              <circle cx="199" cy="194" r="6" fill="black" class="guide-point" data-guide-segment="1" />
+  - id: 1906dee0-0a85-4adc-adbf-acaff2bc3f6f
     course: Santa Ventura
     number: 3
+    par: 5
+    description: >
+      Help Wanted
+    clubRecommendations:
+      - level: Rookie
+        clubs:
+          - Viper
+      - level: Pro
+        clubs:
+          - Sniper
+      - level: Masters
+        clubs:
+          - Sniper
+    resource-creators:
+      - name: Golf Clash Tommy
+        resources:
+        - title: Rookie Guide
+          url: https://youtu.be/UZzXnnDIWCs
+        # - title: Text Guide
+        #   url: https://i.imgur.com/XdukWK9.jpg
+    overlays:
+      hidden: true
+      size: [312, 1111]
+      guides:
+      - name: Black Path
+        text: >
+          The drawing definitely makes this hole seem easier than it really is. Know that out of
+          bounds is <strong>really</strong> close to the rough, so trying to pull off a hero drive
+          will bring OB into play. You're usually better off hitting a calm drive to the middle of
+          the fairway. The 2nd shot is a decent chance to land an albatross. You can go past the
+          pin and let the green bring it back to the hole so don't be afraid to go for it.
+        levels:
+          - name: Rookie
+            svg:
+              <path d="M 89 945 C 198 626 198 626 200 430" stroke="black" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="0" />
+              <path d="M 200 430 L 116 126" stroke="black" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="1" />
+              <circle cx="89" cy="945" r="6" fill="black" class="guide-point" data-guide-segment="0" />
+              <circle cx="200" cy="430" r="6" fill="black" class="guide-point" data-guide-segment="1" />
+              <circle cx="116" cy="126" r="6" fill="black" class="guide-point" data-guide-segment="2" />
+          - name: Pro
+            svg:
+              <path d="M 88 995 C 198 626 198 626 200 430" stroke="black" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="0" />
+              <path d="M 200 430 L 116 126" stroke="black" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="1" />
+              <circle cx="88" cy="995" r="6" fill="black" class="guide-point" data-guide-segment="0" />
+              <circle cx="200" cy="430" r="6" fill="black" class="guide-point" data-guide-segment="1" />
+              <circle cx="116" cy="126" r="6" fill="black" class="guide-point" data-guide-segment="2" />
+          - name: Masters
+            svg:
+              <path d="M 88 1043 C 198 626 198 626 200 430" stroke="black" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="0" />
+              <path d="M 200 430 L 116 126" stroke="black" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="1" />
+              <circle cx="88" cy="1043" r="6" fill="black" class="guide-point" data-guide-segment="0" />
+              <circle cx="200" cy="430" r="6" fill="black" class="guide-point" data-guide-segment="1" />
+              <circle cx="116" cy="126" r="6" fill="black" class="guide-point" data-guide-segment="2" />
+  - id: 1083f47b-b2a8-4dde-bfa2-0ea3b2a32073
+    course: Santa Ventura
+    number: 4
+    par: 3
+    description: >
+      Help Wanted
+    clubRecommendations:
+    resource-creators:
+    overlays:
+  - id: f9a598d5-e52b-476c-8e38-a8cb4bd7f76e
+    course: Santa Ventura
+    number: 5
     par: 5
     description: >
       Help Wanted
@@ -178,59 +243,39 @@ holes:
               <circle cx="242" cy="622" r="6" fill="black" class="guide-point" data-guide-segment="1" />
               <circle cx="273" cy="463" r="6" fill="black" class="guide-point" data-guide-segment="2" />
               <circle cx="113" cy="149" r="6" fill="black" class="guide-point" data-guide-segment="3" />
-  - id: 1906dee0-0a85-4adc-adbf-acaff2bc3f6f
+  - id: be8071a9-f4a3-4dcf-aaba-b3adf94fdafa
     course: Santa Ventura
-    number: 4
+    number: 6
+    par: 4
+    description: >
+      Help Wanted
+    clubRecommendations:
+    resource-creators:
+    overlays:
+  - id: 8f83166b-cd0e-426f-a2b6-fb659089b3fa
+    course: Santa Ventura
+    number: 7
+    par: 3
+    description: >
+      Help Wanted
+    clubRecommendations:
+    resource-creators:
+    overlays:
+  - id: 6f8e0144-ffbb-4f98-9585-e17626be6559
+    course: Santa Ventura
+    number: 8
+    par: 4
+    description: >
+      Help Wanted
+    clubRecommendations:
+    resource-creators:
+    overlays:
+  - id: 0e418963-9399-4d7b-b7ec-a5af5318e75d
+    course: Santa Ventura
+    number: 9
     par: 5
     description: >
       Help Wanted
     clubRecommendations:
-      - level: Rookie
-        clubs:
-          - Viper
-      - level: Pro
-        clubs:
-          - Sniper
-      - level: Masters
-        clubs:
-          - Sniper
     resource-creators:
-      - name: Golf Clash Tommy
-        resources:
-        - title: Rookie Guide
-          url: https://youtu.be/UZzXnnDIWCs
-        # - title: Text Guide
-        #   url: https://i.imgur.com/XdukWK9.jpg
     overlays:
-      hidden: true
-      size: [312, 1111]
-      guides:
-      - name: Black Path
-        text: >
-          The drawing definitely makes this hole seem easier than it really is. Know that out of
-          bounds is <strong>really</strong> close to the rough, so trying to pull off a hero drive
-          will bring OB into play. You're usually better off hitting a calm drive to the middle of
-          the fairway. The 2nd shot is a decent chance to land an albatross. You can go past the
-          pin and let the green bring it back to the hole so don't be afraid to go for it.
-        levels:
-          - name: Rookie
-            svg:
-              <path d="M 89 945 C 198 626 198 626 200 430" stroke="black" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="0" />
-              <path d="M 200 430 L 116 126" stroke="black" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="1" />
-              <circle cx="89" cy="945" r="6" fill="black" class="guide-point" data-guide-segment="0" />
-              <circle cx="200" cy="430" r="6" fill="black" class="guide-point" data-guide-segment="1" />
-              <circle cx="116" cy="126" r="6" fill="black" class="guide-point" data-guide-segment="2" />
-          - name: Pro
-            svg:
-              <path d="M 88 995 C 198 626 198 626 200 430" stroke="black" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="0" />
-              <path d="M 200 430 L 116 126" stroke="black" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="1" />
-              <circle cx="88" cy="995" r="6" fill="black" class="guide-point" data-guide-segment="0" />
-              <circle cx="200" cy="430" r="6" fill="black" class="guide-point" data-guide-segment="1" />
-              <circle cx="116" cy="126" r="6" fill="black" class="guide-point" data-guide-segment="2" />
-          - name: Masters
-            svg:
-              <path d="M 88 1043 C 198 626 198 626 200 430" stroke="black" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="0" />
-              <path d="M 200 430 L 116 126" stroke="black" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="1" />
-              <circle cx="88" cy="1043" r="6" fill="black" class="guide-point" data-guide-segment="0" />
-              <circle cx="200" cy="430" r="6" fill="black" class="guide-point" data-guide-segment="1" />
-              <circle cx="116" cy="126" r="6" fill="black" class="guide-point" data-guide-segment="2" />

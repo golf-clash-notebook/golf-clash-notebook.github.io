@@ -1,0 +1,31 @@
+tournament-name: Hollywood
+date: '2018-02-26'
+resource-creators:
+holes:
+  - number: 1
+    course: Santa Ventura
+    course-hole: 1
+  - number: 2
+    course: Santa Ventura
+    course-hole: 2
+  - number: 3
+    course: Santa Ventura
+    course-hole: 3
+  - number: 4
+    course: Santa Ventura
+    course-hole: 4
+  - number: 5
+    course: Santa Ventura
+    course-hole: 5
+  - number: 6
+    course: Santa Ventura
+    course-hole: 6
+  - number: 7
+    course: Santa Ventura
+    course-hole: 7
+  - number: 8
+    course: Santa Ventura
+    course-hole: 8
+  - number: 9
+    course: Santa Ventura
+    course-hole: 9
