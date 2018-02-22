@@ -30,6 +30,7 @@ holes:
         - title: Text Guide
           url: https://i.imgur.com/MYtifkC.jpg
     overlays:
+      hidden: true
       size: [377, 873]
       guides:
       - name: Black Path
@@ -79,6 +80,7 @@ holes:
         - title: Text Guide
           url: https://i.imgur.com/t6eqi0c.jpg
     overlays:
+      hidden: true
       size: [360, 929]
       guides:
       - name: Black Path
@@ -138,6 +140,7 @@ holes:
         - title: Text Guide
           url: https://i.imgur.com/yLwRNKs.jpg
     overlays:
+      hidden: true
       size: [411, 1104]
       guides:
       - name: Black Path
@@ -199,6 +202,7 @@ holes:
         - title: Text Guide
           url: https://i.imgur.com/XdukWK9.jpg
     overlays:
+      hidden: true
       size: [312, 1111]
       guides:
       - name: Black Path
