@@ -3,13 +3,13 @@ date: '2017-06-12'
 holes:
   - number: 1
     course: Santa Ventura
-    course-hole: 4
+    course-hole: 3
   - number: 2
     course: Santa Ventura
-    course-hole: 2
+    course-hole: 1
   - number: 3
     course: Santa Ventura
-    course-hole: 3
+    course-hole: 5
   - number: 4
     course: Vineyard Acres
     course-hole: 8
