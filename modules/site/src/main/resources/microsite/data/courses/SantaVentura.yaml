@@ -209,7 +209,7 @@ holes:
         - title: Rookie Guide
           url: https://youtu.be/YQjoqiuQaiw
         - title: Pro / Expert Guide
-          url: https://youtu.be/C94hXJUrLWY
+          url: https://youtu.be/re5qG3t2rXI
         # - title: Text Guide
         #   url: https://i.imgur.com/yLwRNKs.jpg
     overlays:
@@ -259,6 +259,10 @@ holes:
       Help Wanted
     clubRecommendations:
     resource-creators:
+      - name: Golf Clash Tommy
+        resources:
+        - title: Pro / Expert Guide
+          url: https://youtu.be/6iBXJlff4Hc
     overlays:
   - id: 8f83166b-cd0e-426f-a2b6-fb659089b3fa
     course: Santa Ventura
@@ -268,6 +272,10 @@ holes:
       Help Wanted
     clubRecommendations:
     resource-creators:
+      - name: Golf Clash Tommy
+        resources:
+        - title: Pro / Expert Guide
+          url: https://youtu.be/6Q_P65lXEb0
     overlays:
   - id: 6f8e0144-ffbb-4f98-9585-e17626be6559
     course: Santa Ventura
@@ -277,6 +285,10 @@ holes:
       Help Wanted
     clubRecommendations:
     resource-creators:
+      - name: Golf Clash Tommy
+        resources:
+        - title: Pro / Expert Guide
+          url: https://youtu.be/n2lbloxO5yA
     overlays:
   - id: 0e418963-9399-4d7b-b7ec-a5af5318e75d
     course: Santa Ventura
@@ -286,4 +298,8 @@ holes:
       Help Wanted
     clubRecommendations:
     resource-creators:
+      - name: Golf Clash Tommy
+        resources:
+        - title: Pro / Expert Guide
+          url: https://youtu.be/mq5_J-h5A5E
     overlays:
