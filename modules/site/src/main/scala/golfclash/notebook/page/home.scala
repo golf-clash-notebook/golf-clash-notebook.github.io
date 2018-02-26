@@ -29,7 +29,7 @@ import scala.scalajs.js.timers._
 
 import org.scalajs.jquery._
 import org.scalajs.dom.Element
-import org.threeten.bp._
+import java.time._
 
 import monix.execution.Scheduler.Implicits.global
 import scalatags.JsDom.all._
