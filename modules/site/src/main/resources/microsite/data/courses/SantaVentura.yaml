@@ -29,6 +29,10 @@ holes:
           url: https://youtu.be/350QPmJAcS8
         # - title: Text Guide
         #   url: https://i.imgur.com/t6eqi0c.jpg
+      - name: Zachary Jones
+        resources:
+        - title: Hollywood - Rookie
+          url: https://youtu.be/cf9YqgrxJ78
     overlays:
       hidden: true
       size: [360, 929]
@@ -90,6 +94,10 @@ holes:
           url: https://youtu.be/JP2ntz_coBo
         # - title: Text Guide
         #   url: https://i.imgur.com/MYtifkC.jpg
+      - name: Zachary Jones
+        resources:
+        - title: Hollywood - Rookie
+          url: https://youtu.be/c3lP0dLE27c
     overlays:
       hidden: true
       size: [377, 873]
@@ -139,6 +147,10 @@ holes:
           url: https://youtu.be/hpBfuCPkm2g
         # - title: Text Guide
         #   url: https://i.imgur.com/XdukWK9.jpg
+      - name: Zachary Jones
+        resources:
+        - title: Hollywood - Rookie
+          url: https://youtu.be/O-bwGaArgAU
     overlays:
       hidden: true
       size: [312, 1111]
@@ -184,6 +196,10 @@ holes:
         resources:
         - title: Pro / Expert Guide
           url: https://youtu.be/cg7o3FuiC78
+      - name: Zachary Jones
+        resources:
+        - title: Hollywood - Rookie
+          url: https://youtu.be/t9stZqjgRf8
     overlays:
   - id: f9a598d5-e52b-476c-8e38-a8cb4bd7f76e
     course: Santa Ventura
@@ -212,6 +228,10 @@ holes:
           url: https://youtu.be/re5qG3t2rXI
         # - title: Text Guide
         #   url: https://i.imgur.com/yLwRNKs.jpg
+      - name: Zachary Jones
+        resources:
+        - title: Hollywood - Rookie
+          url: https://youtu.be/HA6L2PYuhfI
     overlays:
       hidden: true
       size: [411, 1104]
@@ -263,6 +283,10 @@ holes:
         resources:
         - title: Pro / Expert Guide
           url: https://youtu.be/6iBXJlff4Hc
+      - name: Zachary Jones
+        resources:
+        - title: Hollywood - Rookie
+          url: https://youtu.be/LIx7DjFR4J8
     overlays:
   - id: 8f83166b-cd0e-426f-a2b6-fb659089b3fa
     course: Santa Ventura
@@ -276,6 +300,10 @@ holes:
         resources:
         - title: Pro / Expert Guide
           url: https://youtu.be/6Q_P65lXEb0
+      - name: Zachary Jones
+        resources:
+        - title: Hollywood - Rookie
+          url: https://youtu.be/AeWx-275rB4
     overlays:
   - id: 6f8e0144-ffbb-4f98-9585-e17626be6559
     course: Santa Ventura
@@ -289,6 +317,10 @@ holes:
         resources:
         - title: Pro / Expert Guide
           url: https://youtu.be/n2lbloxO5yA
+      - name: Zachary Jones
+        resources:
+        - title: Hollywood - Rookie
+          url: https://youtu.be/qGlFHpFKomU
     overlays:
   - id: 0e418963-9399-4d7b-b7ec-a5af5318e75d
     course: Santa Ventura
@@ -302,4 +334,8 @@ holes:
         resources:
         - title: Pro / Expert Guide
           url: https://youtu.be/mq5_J-h5A5E
+      - name: Zachary Jones
+        resources:
+        - title: Hollywood - Rookie
+          url: https://youtu.be/lonRHlEz_o8
     overlays:
