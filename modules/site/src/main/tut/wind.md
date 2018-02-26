@@ -39,6 +39,12 @@ position: 65
       elements. If reading isn't the way you like to learn, then definitely check out the video
       resources at the bottom of the page. They're all worth at least one view.
     </p>
+    <p>
+      Lastly, while you're learning the ring method, the amount of numbers you need to know can be
+      overwhelming. If you're having trouble keeping track of ring values for all of your clubs, be
+      sure to check out the <a href="/windchartcreator">Wind Chart Creator</a> tool that can make it
+      a little easier.
+    </p>
 
     <br>
 

@@ -39,6 +39,11 @@ object util {
     List("MSIE", "Trident/", "Edge/").exists(ua.indexOf(_) >= 0)
   }
 
+  def isFacebookBrowser(): Boolean = {
+    val ua = js.Dynamic.global.window.navigator.userAgent.asInstanceOf[String]
+    List("FBAN", "FBAV").exists(ua.indexOf(_) >= 0)
+  }
+
   final class Var[A] private (
     initial: A,
     strategy: OverflowStrategy.Synchronous[A]
