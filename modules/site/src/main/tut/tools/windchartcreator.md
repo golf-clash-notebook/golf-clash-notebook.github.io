@@ -13,6 +13,15 @@ permalink: /tools/windchartcreator/
   <br>
 </div>
 
+<div id="facebook-browser-warning" class="row hidden">
+  <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 col-sm-12">
+    <div class="alert alert-warning text-center" role="alert">
+      There's a known issue when trying to create a chart using Facebook's embedded
+      browser! For now, make sure you open this page using Chrome, Safari, Firefox, etc.
+    </div>
+  </div>
+</div>
+
 <div class="row">
 
   <div class="col-sm-6 col-xs-12">

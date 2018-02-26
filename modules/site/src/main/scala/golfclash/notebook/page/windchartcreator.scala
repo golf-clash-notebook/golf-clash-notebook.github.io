@@ -42,6 +42,10 @@ object windchartcreator {
 
   val init = () => {
 
+    if (util.isFacebookBrowser()) {
+      jQuery("#facebook-browser-warning").removeClass("hidden")
+    }
+
     Club.All.map { allClubsList =>
       Club.Category.All.foreach { clubCategory =>
         val categoryClubs = allClubsList.filter(_.clubCategory == Some(clubCategory))
