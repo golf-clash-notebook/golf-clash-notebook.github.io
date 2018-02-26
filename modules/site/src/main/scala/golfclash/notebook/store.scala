@@ -26,7 +26,7 @@ package golfclash.notebook
 
 import scala.concurrent.{ Promise => ScalaPromise }
 
-import org.threeten.bp._
+import java.time._
 
 import cats.implicits._
 import io.circe.scalajs._

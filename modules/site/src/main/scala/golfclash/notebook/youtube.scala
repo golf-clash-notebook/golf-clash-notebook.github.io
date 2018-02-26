@@ -24,7 +24,7 @@
 
 package golfclash.notebook
 
-import org.threeten.bp._
+import java.time._
 
 import org.scalajs.dom.ext.Ajax
 
@@ -211,10 +211,9 @@ object youtube {
   }
 
   private[this] def parseStreamTime(timeString: String): ZonedDateTime = {
-    OffsetDateTime
-      .parse(timeString, format.DateTimeFormatter.ISO_DATE_TIME)
-      .toZonedDateTime
-      .withZoneSameInstant(ZoneId.systemDefault)
+    Instant
+      .parse(timeString)
+      .atZone(ZoneId.systemDefault)
   }
 
   //////////////////////////////////////////////////////////////////////////////////////////////////

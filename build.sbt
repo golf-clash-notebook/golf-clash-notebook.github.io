@@ -7,15 +7,16 @@ organization in ThisBuild := "golf-clash-notebook"
 organizationName in ThisBuild := "Golf Clash Notebook"
 
 ////////////////////////////////////////////////////////////////////////////////
-val CatsV          = "1.0.1"
-val CatsEffectV    = "0.8"
-val CirceV         = "0.9.1"
-val MonixV         = "3.0.0-M3"
-val ScalaCheckV    = "1.13.5"
-val ScalaTagsV     = "0.6.7"
-val ScalaTestV     = "3.0.5"
-val ScalaJSJqueryV = "0.9.2"
-val ScalaJavaTimeV = "2.0.0-M12"
+val CatsV            = "1.0.1"
+val CatsEffectV      = "0.9"
+val CirceV           = "0.9.1"
+val MonixV           = "3.0.0-M3"
+val ScalaCheckV      = "1.13.5"
+val ScalaTagsV       = "0.6.7"
+val ScalaTestV       = "3.0.5"
+val ScalaJSJqueryV   = "0.9.2"
+val ScalaJavaTimeV   = "2.0.0-M13"
+val ScalaJavaTimeTzV = s"${ScalaJavaTimeV}_2018c"
 ////////////////////////////////////////////////////////////////////////////////
 
 // run dependencyUpdates whenever we [re]load.
@@ -117,15 +118,16 @@ lazy val commonSettings = Seq(
 
 lazy val siteSettings = Seq(
   libraryDependencies ++= Seq(
-    "be.doeraene"       %%% "scalajs-jquery"  % ScalaJSJqueryV,
-    "com.lihaoyi"       %%% "scalatags"       % ScalaTagsV,
-    "io.circe"          %%% "circe-core"      % CirceV,
-    "io.circe"          %%% "circe-generic"   % CirceV,
-    "io.circe"          %%% "circe-parser"    % CirceV,
-    "org.typelevel"     %%% "cats-core"       % CatsV,
-    "org.typelevel"     %%% "cats-effect"     % CatsEffectV,
-    "io.monix"          %%% "monix"           % MonixV,
-    "io.github.cquiroz" %%% "scala-java-time" % ScalaJavaTimeV
+    "be.doeraene"       %%% "scalajs-jquery"       % ScalaJSJqueryV,
+    "com.lihaoyi"       %%% "scalatags"            % ScalaTagsV,
+    "io.circe"          %%% "circe-core"           % CirceV,
+    "io.circe"          %%% "circe-generic"        % CirceV,
+    "io.circe"          %%% "circe-parser"         % CirceV,
+    "org.typelevel"     %%% "cats-core"            % CatsV,
+    "org.typelevel"     %%% "cats-effect"          % CatsEffectV,
+    "io.monix"          %%% "monix"                % MonixV,
+    "io.github.cquiroz" %%% "scala-java-time"      % ScalaJavaTimeV,
+    "io.github.cquiroz" %%% "scala-java-time-tzdb" % ScalaJavaTimeTzV
   ),
   micrositeName := "Golf Clash Notebook",
   micrositeDescription := "An Open Source Guide to Mastering Golf Clash",
