@@ -27,12 +27,16 @@ holes:
           url: https://youtu.be/9RUMnOXgC_g
         - title: Pro / Expert Guide
           url: https://youtu.be/350QPmJAcS8
-        # - title: Text Guide
-        #   url: https://i.imgur.com/t6eqi0c.jpg
+        - title: Text Guide
+          url: https://i.imgur.com/fXc3VqQ.png
       - name: Zachary Jones
         resources:
         - title: Hollywood - Rookie
           url: https://youtu.be/cf9YqgrxJ78
+        - title: Hollywood - Pro
+          url: https://youtu.be/utlhy28474o
+        - title: Hollywood - Masters
+          url: https://youtu.be/SRrePRcFBdY
     overlays:
       hidden: true
       size: [360, 929]
@@ -92,12 +96,16 @@ holes:
           url: https://youtu.be/ZystunLzXFo
         - title: Pro / Expert Guide
           url: https://youtu.be/JP2ntz_coBo
-        # - title: Text Guide
-        #   url: https://i.imgur.com/MYtifkC.jpg
+        - title: Text Guide
+          url: https://i.imgur.com/jl0Wrea.png
       - name: Zachary Jones
         resources:
         - title: Hollywood - Rookie
           url: https://youtu.be/c3lP0dLE27c
+        - title: Hollywood - Pro
+          url: https://youtu.be/BqsmaAvNqT8
+        - title: Hollywood - Masters
+          url: https://youtu.be/G7N_UKEfa-8
     overlays:
       hidden: true
       size: [377, 873]
@@ -142,15 +150,19 @@ holes:
       - name: Golf Clash Tommy
         resources:
         - title: Rookie Guide
-          url: https://youtu.be/UZzXnnDIWCs
+          url: https://youtu.be/Kdj1T3PfmtM
         - title: Pro / Expert Guide
           url: https://youtu.be/hpBfuCPkm2g
-        # - title: Text Guide
-        #   url: https://i.imgur.com/XdukWK9.jpg
+        - title: Text Guide
+          url: https://i.imgur.com/VoMshjC.png
       - name: Zachary Jones
         resources:
         - title: Hollywood - Rookie
           url: https://youtu.be/O-bwGaArgAU
+        - title: Hollywood - Pro
+          url: https://youtu.be/EfkH_W4N--Q
+        - title: Hollywood - Masters
+          url: https://youtu.be/o4XQFV8cla4
     overlays:
       hidden: true
       size: [312, 1111]
@@ -196,10 +208,16 @@ holes:
         resources:
         - title: Pro / Expert Guide
           url: https://youtu.be/cg7o3FuiC78
+        - title: Text Guide
+          url: https://i.imgur.com/5scCV9H.png
       - name: Zachary Jones
         resources:
         - title: Hollywood - Rookie
           url: https://youtu.be/t9stZqjgRf8
+        - title: Hollywood - Pro
+          url: https://youtu.be/nXJ8IoeFU6I
+        - title: Hollywood - Masters
+          url: https://youtu.be/0Kp_ztCN3eE
     overlays:
   - id: f9a598d5-e52b-476c-8e38-a8cb4bd7f76e
     course: Santa Ventura
@@ -226,12 +244,16 @@ holes:
           url: https://youtu.be/YQjoqiuQaiw
         - title: Pro / Expert Guide
           url: https://youtu.be/re5qG3t2rXI
-        # - title: Text Guide
-        #   url: https://i.imgur.com/yLwRNKs.jpg
+        - title: Text Guide
+          url: https://i.imgur.com/jGihJIl.png
       - name: Zachary Jones
         resources:
         - title: Hollywood - Rookie
           url: https://youtu.be/HA6L2PYuhfI
+        - title: Hollywood - Pro
+          url: https://youtu.be/6twS4sugApY
+        - title: Hollywood - Masters
+          url: https://youtu.be/SiRK0yw3wwo
     overlays:
       hidden: true
       size: [411, 1104]
@@ -281,12 +303,20 @@ holes:
     resource-creators:
       - name: Golf Clash Tommy
         resources:
+        - title: Rookie Guide
+          url: https://youtu.be/SnH56CI2YEM
         - title: Pro / Expert Guide
           url: https://youtu.be/6iBXJlff4Hc
+        - title: Text Guide
+          url: https://i.imgur.com/P3N6ONS.png
       - name: Zachary Jones
         resources:
         - title: Hollywood - Rookie
           url: https://youtu.be/LIx7DjFR4J8
+        - title: Hollywood - Pro
+          url: https://youtu.be/dOCKtBetY3s
+        - title: Hollywood - Masters
+          url: https://youtu.be/cCy2mhZ0xhM
     overlays:
   - id: 8f83166b-cd0e-426f-a2b6-fb659089b3fa
     course: Santa Ventura
@@ -298,12 +328,20 @@ holes:
     resource-creators:
       - name: Golf Clash Tommy
         resources:
+        - title: Rookie Guide
+          url: https://youtu.be/5BHwDbbIz1g
         - title: Pro / Expert Guide
           url: https://youtu.be/6Q_P65lXEb0
+        - title: Text Guide
+          url: https://i.imgur.com/aYBrzfN.png
       - name: Zachary Jones
         resources:
         - title: Hollywood - Rookie
           url: https://youtu.be/AeWx-275rB4
+        - title: Hollywood - Pro
+          url: https://youtu.be/U5tKhwZO6Xs
+        - title: Hollywood - Masters
+          url: https://youtu.be/_jq8GC12uus
     overlays:
   - id: 6f8e0144-ffbb-4f98-9585-e17626be6559
     course: Santa Ventura
@@ -315,12 +353,20 @@ holes:
     resource-creators:
       - name: Golf Clash Tommy
         resources:
+        - title: Rookie Guide
+          url: https://youtu.be/3mU5B89bCrg
         - title: Pro / Expert Guide
           url: https://youtu.be/n2lbloxO5yA
+        - title: Text Guide
+          url: https://i.imgur.com/tsWwOzF.png
       - name: Zachary Jones
         resources:
         - title: Hollywood - Rookie
           url: https://youtu.be/qGlFHpFKomU
+        - title: Hollywood - Pro
+          url: https://youtu.be/aPon299u0Vs
+        - title: Hollywood - Masters
+          url: https://youtu.be/mXrZzapLhQ8
     overlays:
   - id: 0e418963-9399-4d7b-b7ec-a5af5318e75d
     course: Santa Ventura
@@ -332,10 +378,18 @@ holes:
     resource-creators:
       - name: Golf Clash Tommy
         resources:
+        - title: Rookie Guide
+          url: https://youtu.be/RlxmLD25vdM
         - title: Pro / Expert Guide
           url: https://youtu.be/mq5_J-h5A5E
+        - title: Text Guide
+          url: https://i.imgur.com/dTyfGPL.png
       - name: Zachary Jones
         resources:
         - title: Hollywood - Rookie
           url: https://youtu.be/lonRHlEz_o8
+        - title: Hollywood - Pro
+          url: https://youtu.be/AkyHS4Xaw5s
+        - title: Hollywood - Masters
+          url: https://youtu.be/EctG4QR8_9U
     overlays:
