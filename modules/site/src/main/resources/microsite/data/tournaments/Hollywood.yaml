@@ -3,6 +3,8 @@ date: '2018-02-26'
 resource-creators:
   - name: Golf Clash Tommy
     resources:
+    - title: Qualifying Round (Masters)
+      url: https://youtu.be/tj0oiUDyjaE
     - title: Qualifying Round (Expert & Pro)
       url: https://youtu.be/aQAFRdsFVVc
     - title: Rookie Guide
@@ -13,6 +15,14 @@ resource-creators:
       url: https://youtu.be/WuaHpw83RAw
     - title: Text Guide
       url: https://imgur.com/a/Cyspe
+  - name: ItsRJTV
+    resources:
+    - title: Qualifying Round (Pro)
+      url: https://youtu.be/cjj25p2X2YE
+  - name: Chris Taylor
+    resources:
+    - title: Qualifying Round (Expert & Masters)
+      url: https://youtu.be/T8oOhIoNhkQ
 holes:
   - number: 1
     course: Santa Ventura
