@@ -3,6 +3,10 @@ date: '2018-02-26'
 resource-creators:
   - name: Golf Clash Tommy
     resources:
+    - title: Opening Round (Expert)
+      url: https://youtu.be/MV94Sseh4Ts
+    - title: Opening Round (Pro)
+      url: https://youtu.be/EO4dJV0Hzys
     - title: Qualifying Round (Masters)
       url: https://youtu.be/tj0oiUDyjaE
     - title: Qualifying Round (Expert & Pro)
@@ -21,6 +25,8 @@ resource-creators:
       url: https://youtu.be/cjj25p2X2YE
   - name: Chris Taylor
     resources:
+    - title: Opening Round (Masters)
+      url: https://youtu.be/jQFI48__vk8
     - title: Qualifying Round (Expert & Masters)
       url: https://youtu.be/T8oOhIoNhkQ
 holes:
