@@ -1,6 +1,22 @@
 level: 12
 name: Master 3
 perks: 140
-promoted:
-relegated:
+promoted: 0
+relegated: 20
 prizes:
+  - places: [1]
+    chest:
+      type: King
+      tour: 10
+  - places: [2]
+    chest:
+      type: Platinum
+      tour: 13
+  - places: [3]
+    chest:
+      type: Gold
+      tour: 13
+  - places: [4, 5, 6, 7, 8, 9, 10]
+    chest:
+      type: Silver
+      tour: 13
