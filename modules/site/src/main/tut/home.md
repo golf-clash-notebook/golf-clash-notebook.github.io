@@ -10,7 +10,13 @@ position: 0
 
   <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 col-sm-12">
 
-    <br>
+    {% if site.data.motd.message != undefined %}
+      <div class="alert alert-warning text-center" role="alert">
+        <strong>{{ site.data.motd.message }}</strong>
+      </div>
+    {% endif %}
+
+    <br class="visible-xs">
 
     <div class="news-container">
       {% include news/feed-widget.liquid %}
