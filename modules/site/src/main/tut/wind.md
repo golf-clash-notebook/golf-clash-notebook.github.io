@@ -42,8 +42,8 @@ position: 65
     <p>
       Lastly, while you're learning the ring method, the amount of numbers you need to know can be
       overwhelming. If you're having trouble keeping track of ring values for all of your clubs, be
-      sure to check out the <a href="/windchartcreator">Wind Chart Creator</a> tool that can make it
-      a little easier.
+      sure to check out the <a href="/tools/windchartcreator">Wind Chart Creator</a> tool that can
+      make it a little easier.
     </p>
 
     <br>

@@ -175,7 +175,6 @@ object windchartcreator {
           jQuery("#create-wind-chart-btn").addClass("hidden")
           jQuery("#club-add-btn").removeClass("hidden")
         }
-        case clubs if clubs.size >= 7 => jQuery("#club-add-btn").addClass("hidden")
         case _ => {
           jQuery("#create-wind-chart-btn").removeClass("hidden")
           jQuery("#club-add-btn").removeClass("hidden")
@@ -186,7 +185,7 @@ object windchartcreator {
     }
   }
 
-  def generateWindChart(clubs: List[ClubLevel]): Unit = {
+  def generateWindChart(allClubs: List[ClubLevel]): Unit = {
 
     val pdf = JSPdf("portrait", "in")
 
@@ -196,114 +195,142 @@ object windchartcreator {
     val clubRowHeight   = 1.35
     val clubColumnWidth = (8.5 - (pageXMargin * 2)) / 4
 
-    pdf.setTextColor(100d)
-    pdf.setFontSize(12d)
-
-    pdf.text(s"Max", 3.375, 1.0, "center")
-    pdf.text(s"Mid", 5.125, 1.0, "center")
-    pdf.text(s"Min", 6.875, 1.0, "center")
-
-    pdf.setTextColor(150d)
-    pdf.setFontSize(9d)
-
-    pdf.text(
-      "Driver, Wood, Long Iron, Short Iron [ Max | Mid | Min ] @ (100%, 87.5%, 75%).",
-      8.5 / 2,
-      10.68,
-      "center"
-    )
-    pdf.text(
-      "Wedge, Rough Iron, Sand Wedge [ Max | Mid | Min ] @ (100%, 50%, 25%).",
-      8.5 / 2,
-      10.85,
-      "center"
-    )
-    pdf.text(
-      "Wedge, Rough Iron, Sand Wedge mileage will vary. They are SWAGs!",
-      8.5 / 2,
-      11.02,
-      "center"
-    )
-
-    pdf.setFontSize(10d)
-    pdf.setLineWidth(0.0025)
-
-    clubs.toList.zipWithIndex
+    allClubs
+      .sliding(7, 7)
+      .zipWithIndex
       .map {
-        case (clubLevel, clubRow) =>
-          ClubImage(clubLevel.club).map { base64Image =>
-            val rowTopY            = pageYMargin + (clubRow * clubRowHeight)
-            val firstColumnCenterX = pageXMargin + (clubColumnWidth / 2)
+        case (pageClubs, pageNum) =>
+          if (pageNum > 0) pdf.addPage()
 
-            pdf.setTextColor(150d)
+          pdf.setTextColor(100d)
+          pdf.setFontSize(12d)
 
-            pdf.addImage(base64Image, "png", pageXMargin + 0.4, rowTopY + 0.2, 1.0, 1.0)
+          pdf.text(s"Max", 3.375, 1.0, "center")
+          pdf.text(s"Mid", 5.125, 1.0, "center")
+          pdf.text(s"Min", 6.875, 1.0, "center")
 
-            pdf.text(
-              s"""${clubLevel.club.name.replaceAll("The", "").trim} ${clubLevel.level}""",
-              firstColumnCenterX,
-              rowTopY + 1.27,
-              "center"
-            )
-            pdf.text(
-              s"Accuracy: ${clubLevel.club.accuracy(clubLevel.level - 1)}",
-              firstColumnCenterX,
-              rowTopY + 1.45,
-              "center"
-            )
+          pdf.setTextColor(150d)
+          pdf.setFontSize(9d)
 
-            pdf.setTextColor(0d)
+          pdf.text(
+            "Driver, Wood, Long Iron, Short Iron [ Max | Mid | Min ] @ (100%, 87.5%, 75%).",
+            8.5 / 2,
+            10.68,
+            "center"
+          )
+          pdf.text(
+            "Wedge, Rough Iron, Sand Wedge [ Max | Mid | Min ] @ (100%, 50%, 25%).",
+            8.5 / 2,
+            10.85,
+            "center"
+          )
+          pdf.text(
+            "Wedge, Rough Iron, Sand Wedge mileage will vary. They are SWAGs!",
+            8.5 / 2,
+            11.02,
+            "center"
+          )
 
-            val ClubPowers = clubPowersFor(clubLevel.club)
-            val RingColors = List(
-              (251.0, 255.0, 101.0),
-              (255.0, 195.0, 80.0),
-              (112.0, 197.0, 254.0),
-              (225.0, 225.0, 225.0),
-              (255.0, 255.0, 255.0)
-            )
+          pdf.setFontSize(10d)
+          pdf.setLineWidth(0.0025)
 
-            ClubPowers.zipWithIndex.foreach {
-              case (clubPowerRatio, clubColumn) =>
-                val chartCenterX       = pageXMargin + ((clubColumn + 1) * clubColumnWidth) + (clubColumnWidth / 2)
-                val chartTitleY        = rowTopY + 0.25
-                val chartY             = chartTitleY + 0.1
-                val ringRowHeight      = 0.23
-                val ringRowTextYOffset = 0.17
+          pageClubs.toList.zipWithIndex
+            .map {
+              case (clubLevel, clubRow) =>
+                ClubImage(clubLevel.club).map { base64Image =>
+                  val rowTopY            = pageYMargin + (clubRow * clubRowHeight)
+                  val firstColumnCenterX = pageXMargin + (clubColumnWidth / 2)
 
-                val windPerRing = wind.windPerRing(clubLevel.club, clubLevel.level)
+                  pdf.setPage(pageNum + 1)
 
-                RingColors.zipWithIndex.foreach {
-                  case ((ringColorR, ringColorG, ringColorB), ringNum) =>
-                    pdf.setFillColor(ringColorR, ringColorG, ringColorB)
-                    pdf.rect(
-                      chartCenterX - (clubColumnWidth / 3),
-                      chartY + (ringNum * ringRowHeight),
-                      (2 * clubColumnWidth / 3),
-                      ringRowHeight,
-                      "F"
-                    )
-                    pdf.text(
-                      f"${windPerRing * (ringNum + 1) / clubPowerRatio}%.2f",
-                      chartCenterX,
-                      chartY + (ringNum * ringRowHeight) + ringRowTextYOffset,
-                      "center"
-                    )
+                  pdf.setTextColor(150d)
+
+                  pdf.addImage(base64Image, "png", pageXMargin + 0.4, rowTopY + 0.2, 1.0, 1.0)
+
+                  pdf.text(
+                    s"""${clubLevel.club.name.replaceAll("The", "").trim} ${clubLevel.level}""",
+                    firstColumnCenterX,
+                    rowTopY + 1.27,
+                    "center"
+                  )
+                  pdf.text(
+                    s"Accuracy: ${clubLevel.club.accuracy(clubLevel.level - 1)}",
+                    firstColumnCenterX,
+                    rowTopY + 1.45,
+                    "center"
+                  )
+
+                  pdf.setTextColor(0d)
+
+                  val ClubPowers = clubPowersFor(clubLevel.club)
+                  val RingColors = List(
+                    (251.0, 255.0, 101.0),
+                    (255.0, 195.0, 80.0),
+                    (112.0, 197.0, 254.0),
+                    (225.0, 225.0, 225.0),
+                    (255.0, 255.0, 255.0)
+                  )
+
+                  ClubPowers.zipWithIndex.foreach {
+                    case (clubPowerRatio, clubColumn) =>
+                      val columnCenterX      = pageXMargin + ((clubColumn + 1) * clubColumnWidth) + (clubColumnWidth / 2)
+                      val chartTitleY        = rowTopY + 0.25
+                      val chartY             = chartTitleY + 0.1
+                      val ringRowHeight      = 0.23
+                      val ringRowTextYOffset = 0.17
+
+                      val windPerRing = wind.windPerRing(clubLevel.club, clubLevel.level)
+
+                      // Ring background colors
+                      (RingColors).zipWithIndex.foreach {
+                        case ((ringColorR, ringColorG, ringColorB), ringNum) =>
+                          pdf.setFillColor(ringColorR, ringColorG, ringColorB)
+                          pdf.rect(
+                            columnCenterX - (clubColumnWidth / 3),
+                            chartY + (ringNum * ringRowHeight),
+                            (2 * clubColumnWidth / 3),
+                            ringRowHeight,
+                            "F"
+                          )
+                      }
+
+                      // Ring wind values
+                      (0 until (RingColors.size * 2)).foreach { ringNum =>
+                        val subColumn        = ringNum / RingColors.size
+                        val subColumnCenterX = columnCenterX - (clubColumnWidth / 6) + (subColumn * clubColumnWidth / 3)
+
+                        pdf.text(
+                          f"${windPerRing * (ringNum + 1) / clubPowerRatio}%.2f",
+                          subColumnCenterX,
+                          chartY + (ringNum * ringRowHeight) + ringRowTextYOffset - (subColumn * (ringRowHeight * RingColors.size)),
+                          "center"
+                        )
+                      }
+
+                      pdf.setDrawColor(150.0, 150.0, 150.0)
+
+                      // Middle line seperator
+                      pdf.line(
+                        columnCenterX,
+                        chartY,
+                        columnCenterX,
+                        chartY + (ringRowHeight * 5)
+                      )
+
+                      // Outside border
+                      pdf.rect(
+                        columnCenterX - (clubColumnWidth / 3),
+                        chartY,
+                        (2 * clubColumnWidth / 3),
+                        ringRowHeight * 5,
+                        "D"
+                      )
+                  }
                 }
-
-                // Outside border
-
-                pdf.setDrawColor(150.0, 150.0, 150.0)
-                pdf.rect(
-                  chartCenterX - (clubColumnWidth / 3),
-                  chartY + (0 * ringRowHeight),
-                  (2 * clubColumnWidth / 3),
-                  ringRowHeight * 5,
-                  "D"
-                )
             }
-          }
       }
+      .toList
+      .flatten
       .sequence
       .map(_ => pdf.save("WindChart.pdf"))
       .runAsync
