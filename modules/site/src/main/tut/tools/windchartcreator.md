@@ -8,7 +8,7 @@ permalink: /tools/windchartcreator/
 <div class="row">
   <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 col-sm-12">
     <h1 class="gcn-page-header margin-bottom-0">Wind Chart Creator</h1>
-    <h2 class="gcn-page-subheader">Add up to 7 clubs to your own PDF.</h2>
+    <h2 class="gcn-page-subheader">Add your clubs and create your own PDF.</h2>
   </div>
   <br>
 </div>

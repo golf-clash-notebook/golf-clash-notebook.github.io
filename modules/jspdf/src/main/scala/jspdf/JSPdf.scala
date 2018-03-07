@@ -49,6 +49,8 @@ class JSPdf(options: js.UndefOr[js.Object] = js.undefined) extends js.Object {
   def addImage(base64: String, format: String, x: Double, y: Double, w: Double, h: Double): Unit =
     js.native
 
+  def addPage(): Unit = js.native
+
   def circle(x: Double, y: Double, r: Double, style: js.UndefOr[String] = js.undefined): JSPdf =
     js.native
 
@@ -57,6 +59,12 @@ class JSPdf(options: js.UndefOr[js.Object] = js.undefined) extends js.Object {
               rx: Double,
               ry: Double,
               style: js.UndefOr[String] = js.undefined): JSPdf = js.native
+
+  def line(x0: Double,
+           y0: Double,
+           x1: Double,
+           y1: Double,
+           style: js.UndefOr[String] = js.undefined): JSPdf = js.native
 
   def rect(x: Double,
            y: Double,
@@ -91,6 +99,8 @@ class JSPdf(options: js.UndefOr[js.Object] = js.undefined) extends js.Object {
   def setFontStyle(fontStyle: String): JSPdf = js.native
 
   def setLineWidth(width: Double): JSPdf = js.native
+
+  def setPage(pageNum: Int): Unit = js.native
 
   def setTextColor(ch1: Double | String,
                    ch2: js.UndefOr[Double | String] = js.undefined,
