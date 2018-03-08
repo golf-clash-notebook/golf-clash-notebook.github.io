@@ -1,0 +1,31 @@
+tournament-name: St. Patrick's
+date: '2018-03-12'
+resource-creators:
+holes:
+  - number: 1
+    course: Glenmonarch Estate
+    course-hole: 2
+  - number: 2
+    course: Glenmonarch Estate
+    course-hole: 1
+  - number: 3
+    course: Glenmonarch Estate
+    course-hole: 9
+  - number: 4
+    course: Glenmonarch Estate
+    course-hole: 5
+  - number: 5
+    course: Glenmonarch Estate
+    course-hole: 7
+  - number: 6
+    course: Glenmonarch Estate
+    course-hole: 3
+  - number: 7
+    course: Glenmonarch Estate
+    course-hole: 6
+  - number: 8
+    course: Glenmonarch Estate
+    course-hole: 4
+  - number: 9
+    course: Glenmonarch Estate
+    course-hole: 8
