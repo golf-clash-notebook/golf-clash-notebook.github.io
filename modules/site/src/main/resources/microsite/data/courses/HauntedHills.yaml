@@ -30,6 +30,7 @@ holes:
     aliases:
       - 3bf723fa-a6dc-4c9f-bb7c-840379a8e7c1
     overlays:
+      hidden: true
       size: [340, 885]
       guides:
       - name: Yellow Path
@@ -109,6 +110,7 @@ holes:
     aliases:
       - d880d1a0-1742-4356-aab1-0aed6a81ff61
     overlays:
+      hidden: true
       size: [698, 1074]
       guides:
       - name: Yellow Path
@@ -208,6 +210,7 @@ holes:
     aliases:
       - 32438d22-96fb-40af-9625-8491bfdfac2b
     overlays:
+      hidden: true
       size: [412, 853]
       guides:
       - name: Yellow Path
@@ -299,6 +302,7 @@ holes:
     aliases:
       - 929ce86e-c9e1-4065-bd31-2d09609fda26
     overlays:
+      hidden: true
       size: [540, 1059]
       guides:
       - name: Yellow Path
@@ -372,6 +376,7 @@ holes:
     aliases:
       - 956ca238-06a7-4aed-bd87-54b0f7638384
     overlays:
+      hidden: true
       size: [375, 978]
       guides:
       - name: Yellow Path
@@ -466,6 +471,7 @@ holes:
     aliases:
       - 982bb7ec-be4f-4400-a040-a21f816aacee
     overlays:
+      hidden: true
       size: [412, 901]
       guides:
       - name: Yellow Path
@@ -552,6 +558,7 @@ holes:
     aliases:
       - bbd7910c-52a4-44fe-93b9-bcea4676d02f
     overlays:
+      hidden: true
       size: [332, 882]
       guides:
       - name: Yellow Path
@@ -630,6 +637,7 @@ holes:
     aliases:
       - ea520478-83be-438b-b043-a78dc8b5ad6d
     overlays:
+      hidden: true
       size: [383, 861]
       guides:
       - name: Yellow Path
@@ -689,6 +697,7 @@ holes:
     aliases:
       - 15bc87ac-1b7f-4a74-8e88-8ac5c8492afc
     overlays:
+      hidden: true
       size: [404, 1089]
       guides:
       - name: Yellow Path
