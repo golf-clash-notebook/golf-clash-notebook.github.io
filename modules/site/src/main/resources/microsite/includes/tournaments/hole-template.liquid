@@ -4,7 +4,7 @@ title: "{{ page.tournament-name }} - Hole {{ page.number }}"
 section: "courses"
 ---
 
-{% assign tournamentPath = page.tournament-name | remove: " " %}
+{% assign tournamentPath = page.tournament-name | remove: " " | remove: "." | remove: "'" %}
 {% assign coursePath = page.course | remove: " " %}
 
 {% assign tournament = site.data.tournaments[tournamentPath] %}

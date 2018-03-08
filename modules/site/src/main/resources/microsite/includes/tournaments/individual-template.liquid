@@ -4,7 +4,7 @@ title:  "{{ page.tournament-name }}"
 section: "tournaments"
 ---
 
-{% assign tournamentPath = page.tournament-name | remove: " " %}
+{% assign tournamentPath = page.tournament-name | remove: " " | remove: "." | remove: "'" %}
 
 <img class="img-responsive img-center" src="/img/golfclash/tournaments/titles/{{ tournamentPath }}-550x200.png">
 

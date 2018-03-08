@@ -352,3 +352,11 @@ page_gen:
     extra:
       title-prefix: 'Hollywood Tournament - Hole '
       tournament-name: 'Hollywood'
+  - index_files: true
+    data: 'tournaments.StPatricks.holes'
+    template: '_includes/tournaments/hole-template.liquid'
+    name: 'number'
+    dir: 'tournaments/StPatricks'
+    extra:
+      title-prefix: 'St. Patrick''s Tournament - Hole '
+      tournament-name: 'St. Patrick''s'
