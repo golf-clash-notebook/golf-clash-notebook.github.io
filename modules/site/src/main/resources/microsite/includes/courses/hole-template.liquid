@@ -49,7 +49,7 @@ section: "courses"
           <img src="/img/golfclash/courses/{{ coursePath }}/{{ page.number }}.png" alt="Hole {{ page.number }} Map" title="Hole {{ page.number }} Map" class="course-hole-map img-responsive img-center">
         </div>
 
-        {% if hole.overlays.size and hole.overlays.hidden != true %}
+        {% if hole.overlays.size and hole.current-tournament != true %}
 
           {% assign width = hole.overlays.size | first %}
           {% assign height = hole.overlays.size | last %}
@@ -107,7 +107,7 @@ section: "courses"
 
     <hr class="hr-text margin-4" data-content="">
 
-    {% if hole.overlays.guides != undefined and hole.overlays.guides != empty and hole.overlays.hidden != true %}
+    {% if hole.overlays.guides != undefined and hole.overlays.guides != empty and hole.current-tournament != true %}
 
       <div class="text-semi-muted text-center margin-12">
         Guide courtesy of <a href="https://www.facebook.com/teamgolfclashtommy/" target="_blank" rel="noopener"><i class="fab fa-facebook fa-fw text-facebook" aria-hidden="true"></i> Team Golf Clash Tommy</a>.
@@ -188,7 +188,7 @@ section: "courses"
 
     {% if hole.resource-creators != undefined and hole.resource-creators != empty %}
       <hr class="hr-text text-large" data-content="Resources">
-      {% include resources/resources-list.liquid resources=page.resource-creators iconSize='lg' %}
+      {% include resources/resources-list.liquid resources=page.resource-creators iconSize='lg' hide-text-guides=hole.current-tournament %}
     {% endif %}
 
   </div>

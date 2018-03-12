@@ -14,13 +14,17 @@
         <ul class="list-group">
           {% for resource in creator.resources %}
 
-            {% capture resourceIcon %}
-              {% include resources/icon.liquid resource=resource iconSize='lg' %}
-            {% endcapture %}
+            {% unless include.hide-text-guides and resource.title contains 'Text Guide' %}
 
-            <li class="list-group-item gcn-resource text-small">
-              <a href="{{ resource.url }}" target="_blank" rel="noopener">{{ resourceIcon }} {{ resource.title }}</a>
-            </li>
+              {% capture resourceIcon %}
+                {% include resources/icon.liquid resource=resource iconSize='lg' %}
+              {% endcapture %}
+
+              <li class="list-group-item gcn-resource text-small">
+                <a href="{{ resource.url }}" target="_blank" rel="noopener">{{ resourceIcon }} {{ resource.title }}</a>
+              </li>
+
+            {% endunless %}
           {% endfor %}
         </ul>
       </div>
