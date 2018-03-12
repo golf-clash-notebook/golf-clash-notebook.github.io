@@ -2,6 +2,7 @@ course-name: Haunted Hills
 skinned: true
 holes:
   - id: 8be692b0-5d4f-4a46-a557-dd3cdff41f9c
+    current-tournament: true
     course: Haunted Hills
     number: 1
     par: 3
@@ -27,8 +28,8 @@ holes:
           url: https://youtu.be/0ZVqQldvitI
         - title: Masters Guide
           url: https://youtu.be/ZeQjN9Khjdc
-        # - title: Text Guide
-          # url: https://i.imgur.com/pgefP4i.jpg
+        - title: Text Guide
+          url: https://i.imgur.com/oHa3lUS.jpg
       - name: Zachary Jones
         resources:
         - title: St. Patrick's - Rookie
@@ -38,7 +39,6 @@ holes:
     aliases:
       - 3bf723fa-a6dc-4c9f-bb7c-840379a8e7c1
     overlays:
-      hidden: true
       size: [340, 885]
       guides:
       - name: Yellow Path
@@ -90,6 +90,7 @@ holes:
               <circle cx="168" cy="755" r="6" fill="white" class="guide-point" data-guide-segment="0" />
               <circle cx="165" cy="202" r="6" fill="white" class="guide-point" data-guide-segment="1" />
   - id: ad378689-bd45-439c-84c0-78fc4e5cc483
+    current-tournament: true
     course: Haunted Hills
     number: 2
     par: 5
@@ -115,8 +116,8 @@ holes:
           url: https://youtu.be/sJuuI9l2mok
         - title: Masters Guide
           url: https://youtu.be/eErTCZWm2e0
-        # - title: Text Guide
-          # url: https://i.imgur.com/graC2lo.png
+        - title: Text Guide
+          url: https://i.imgur.com/sPSr5e1.jpg
       - name: Zachary Jones
         resources:
         - title: St. Patrick's - Rookie
@@ -126,7 +127,6 @@ holes:
     aliases:
       - d880d1a0-1742-4356-aab1-0aed6a81ff61
     overlays:
-      hidden: true
       size: [698, 1074]
       guides:
       - name: Yellow Path
@@ -198,6 +198,7 @@ holes:
               <circle cx="410" cy="274" r="6" fill="white" class="guide-point" data-guide-segment="2" />
               <circle cx="529" cy="130" r="6" fill="white" class="guide-point" data-guide-segment="3" />
   - id: 9570b414-f125-4cca-8418-a7532e08aa3d
+    current-tournament: true
     course: Haunted Hills
     number: 3
     par: 3
@@ -223,8 +224,8 @@ holes:
           url: https://youtu.be/JSA-RfTGtOM
         - title: Masters Guide
           url: https://youtu.be/AnPTR5cCRlo
-        # - title: Text Guide
-          # url: https://i.imgur.com/mLIsHp3.jpg
+        - title: Text Guide
+          url: https://i.imgur.com/8SIo1XH.jpg
       - name: Zachary Jones
         resources:
         - title: St. Patrick's - Rookie
@@ -234,7 +235,6 @@ holes:
     aliases:
       - 32438d22-96fb-40af-9625-8491bfdfac2b
     overlays:
-      hidden: true
       size: [412, 853]
       guides:
       - name: Yellow Path
@@ -298,6 +298,7 @@ holes:
               <circle cx="166" cy="765" r="6" fill="red" class="guide-point" data-guide-segment="0" />
               <circle cx="171" cy="198" r="6" fill="red" class="guide-point" data-guide-segment="1" />
   - id: eaf44afd-cf3f-493f-916b-03e319206d71
+    current-tournament: true
     course: Haunted Hills
     number: 4
     par: 5
@@ -323,8 +324,8 @@ holes:
           url: https://youtu.be/WZZTJHxIh4Y
         - title: Masters Guide
           url: https://youtu.be/MYGLsu8XhaE
-        # - title: Text Guide
-          # url: https://i.imgur.com/OPaLH5g.jpg
+        - title: Text Guide
+          url: https://i.imgur.com/mf0PoXM.jpg
       - name: Zachary Jones
         resources:
         - title: St. Patrick's - Rookie
@@ -334,7 +335,6 @@ holes:
     aliases:
       - 929ce86e-c9e1-4065-bd31-2d09609fda26
     overlays:
-      hidden: true
       size: [540, 1059]
       guides:
       - name: Yellow Path
@@ -380,6 +380,7 @@ holes:
               <circle cx="165" cy="130" r="6" fill="yellow" class="guide-point" data-guide-segment="3" />
               <circle cx="123" cy="84" r="6" fill="yellow" class="guide-point" data-guide-segment="4" />
   - id: 8e86ac8d-f72a-435b-9312-35e382f506b4
+    current-tournament: true
     course: Haunted Hills
     number: 5
     par: 4
@@ -405,8 +406,8 @@ holes:
           url: https://youtu.be/35JcT84SfV0
         - title: Masters Guide
           url: https://youtu.be/Ssf6v0vbVV0
-        # - title: Text Guide
-          # url: https://i.imgur.com/4rvWrLX.jpg
+        - title: Text Guide
+          url: https://i.imgur.com/D2Z1Chk.jpg
       - name: Zachary Jones
         resources:
         - title: St. Patrick's - Rookie
@@ -416,7 +417,6 @@ holes:
     aliases:
       - 956ca238-06a7-4aed-bd87-54b0f7638384
     overlays:
-      hidden: true
       size: [375, 978]
       guides:
       - name: Yellow Path
@@ -481,6 +481,7 @@ holes:
               <circle cx="148" cy="292" r="6" fill="white" class="guide-point" data-guide-segment="1" />
               <circle cx="155" cy="157" r="6" fill="white" class="guide-point" data-guide-segment="2" />
   - id: f9c47bc5-7b4c-4709-9654-9979fed745a3
+    current-tournament: true
     course: Haunted Hills
     number: 6
     par: 4
@@ -508,8 +509,8 @@ holes:
           url: https://youtu.be/9oQALnWovtg
         - title: Masters Guide
           url: https://youtu.be/J7INW9n7MgE
-        # - title: Text Guide
-          # url: https://i.imgur.com/Tqf2WkJ.jpg
+        - title: Text Guide
+          url: https://i.imgur.com/zSo7emd.jpg
       - name: Zachary Jones
         resources:
         - title: St. Patrick's - Rookie
@@ -519,7 +520,6 @@ holes:
     aliases:
       - 982bb7ec-be4f-4400-a040-a21f816aacee
     overlays:
-      hidden: true
       size: [412, 901]
       guides:
       - name: Yellow Path
@@ -576,6 +576,7 @@ holes:
               <circle cx="281" cy="225" r="6" fill="white" class="guide-point" data-guide-segment="1" />
               <circle cx="232" cy="141" r="6" fill="white" class="guide-point" data-guide-segment="2" />
   - id: 9925b05f-a66f-4b16-80cd-e8ccd6458d69
+    current-tournament: true
     course: Haunted Hills
     number: 7
     par: 3
@@ -603,8 +604,8 @@ holes:
           url: https://youtu.be/SYSbnuzJC0I
         - title: Masters Guide
           url: https://youtu.be/oYlF7QYG4ls
-        # - title: Text Guide
-          # url: https://i.imgur.com/VydmTdl.jpg
+        - title: Text Guide
+          url: https://i.imgur.com/dIJ3Ekh.jpg
       - name: Zachary Jones
         resources:
         - title: St. Patrick's - Rookie
@@ -614,7 +615,6 @@ holes:
     aliases:
       - bbd7910c-52a4-44fe-93b9-bcea4676d02f
     overlays:
-      hidden: true
       size: [332, 882]
       guides:
       - name: Yellow Path
@@ -660,6 +660,7 @@ holes:
               <circle cx="157" cy="755" r="6" fill="white" class="guide-point" data-guide-segment="0" />
               <circle cx="205" cy="143" r="6" fill="white" class="guide-point" data-guide-segment="1" />
   - id: a7e7d3ee-22af-459b-a046-a7fc9d73446d
+    current-tournament: true
     course: Haunted Hills
     number: 8
     par: 4
@@ -690,8 +691,8 @@ holes:
           url: https://youtu.be/yNh-Cog-e8I
         - title: Masters Guide
           url: https://youtu.be/C1VDhskHu88
-        # - title: Text Guide
-          # url: https://i.imgur.com/8dGgWnd.jpg
+        - title: Text Guide
+          url: https://i.imgur.com/gZR0Yow.jpg
       - name: Zachary Jones
         resources:
         - title: St. Patrick's - Rookie
@@ -701,7 +702,6 @@ holes:
     aliases:
       - ea520478-83be-438b-b043-a78dc8b5ad6d
     overlays:
-      hidden: true
       size: [383, 861]
       guides:
       - name: Yellow Path
@@ -733,6 +733,7 @@ holes:
               <circle cx="249" cy="213" r="6" fill="yellow" class="guide-point" data-guide-segment="1" />
               <circle cx="192" cy="100" r="6" fill="yellow" class="guide-point" data-guide-segment="2" />
   - id: cb4e6479-839f-4a28-865f-7e537cc935e3
+    current-tournament: true
     course: Haunted Hills
     number: 9
     par: 5
@@ -758,8 +759,8 @@ holes:
           url: https://youtu.be/aYEXM5i6X8s
         - title: Masters Guide
           url: https://youtu.be/0xDIr5CcCoQ
-        # - title: Text Guide
-          # url: https://i.imgur.com/aFV0zV5.jpg
+        - title: Text Guide
+          url: https://i.imgur.com/nTYbP5g.jpg
       - name: Zachary Jones
         resources:
         - title: St. Patrick's - Rookie
@@ -769,7 +770,6 @@ holes:
     aliases:
       - 15bc87ac-1b7f-4a74-8e88-8ac5c8492afc
     overlays:
-      hidden: true
       size: [404, 1089]
       guides:
       - name: Yellow Path
