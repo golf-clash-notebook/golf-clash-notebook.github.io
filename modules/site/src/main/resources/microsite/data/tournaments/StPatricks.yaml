@@ -5,6 +5,12 @@ resource-creators:
     resources:
     - title: Rookie Guide
       url: https://youtu.be/0Adb3ZCIDLI
+    - title: Pro / Expert Guide
+      url: https://youtu.be/cIKX2UC3fDM
+    - title: Masters Guide
+      url: https://youtu.be/6Qe8gkFOMbc
+    - title: Text Guide
+      url: https://imgur.com/a/QuigF
 holes:
   - number: 1
     course: Glenmonarch Estate
