@@ -212,24 +212,18 @@ object windchartcreator {
           pdf.setTextColor(150d)
           pdf.setFontSize(9d)
 
-          pdf.text(
-            "Driver, Wood, Long Iron, Short Iron [ Max | Mid | Min ] @ (100%, 87.5%, 75%).",
-            8.5 / 2,
-            10.68,
-            "center"
-          )
-          pdf.text(
+          val captionFirstLine  = 10.65
+          val captionLineHeight = 0.17
+
+          List(
+            "Driver, Wood, Long Iron [ Max | Mid | Min ] @ (100%, 87.5%, 75%).",
+            "Short Iron [ Max | Mid | Min ] @ (100%, 75%, 50%).",
             "Wedge, Rough Iron, Sand Wedge [ Max | Mid | Min ] @ (100%, 50%, 25%).",
-            8.5 / 2,
-            10.85,
-            "center"
-          )
-          pdf.text(
-            "Wedge, Rough Iron, Sand Wedge mileage will vary. They are SWAGs!",
-            8.5 / 2,
-            11.02,
-            "center"
-          )
+            "Wedge, Rough Iron, Sand Wedge mileage will vary. They are SWAGs!"
+          ).zipWithIndex.foreach {
+            case (caption, lineNum) =>
+              pdf.text(caption, 8.5 / 2, captionFirstLine + (captionLineHeight * lineNum), "center")
+          }
 
           pdf.setFontSize(10d)
           pdf.setLineWidth(0.0025)
@@ -262,7 +256,8 @@ object windchartcreator {
 
                   pdf.setTextColor(0d)
 
-                  val ClubPowers = clubPowersFor(clubLevel.club)
+                  val ClubPowers = wind.clubPowersFor(clubLevel.club)
+
                   val RingColors = List(
                     (251.0, 255.0, 101.0),
                     (255.0, 195.0, 80.0),
@@ -337,19 +332,6 @@ object windchartcreator {
 
     ()
 
-  }
-
-  private[this] def clubPowersFor(club: Club): List[Double] = {
-    club.clubCategory
-      .map { clubCategory =>
-        clubCategory match {
-          case Club.Category.RoughIrons => List(1.0, 0.5, 0.25)
-          case Club.Category.SandWedges => List(1.0, 0.5, 0.25)
-          case Club.Category.Wedges     => List(1.0, 0.5, 0.25)
-          case _                        => List(1.0, 0.875, 0.75)
-        }
-      }
-      .getOrElse(List(1.0, 0.875, 0.75))
   }
 
 }

@@ -43,4 +43,18 @@ object wind {
     ((1 + ((100 - club.accuracy(level - 1)) * 0.02)) * windCategoryMultiplier) / power
   }
 
+  def clubPowersFor(club: Club): List[Double] = {
+    club.clubCategory
+      .map { clubCategory =>
+        clubCategory match {
+          case Club.Category.ShortIrons => List(1.0, 0.75, 0.5)
+          case Club.Category.Wedges     => List(1.0, 0.5, 0.25)
+          case Club.Category.RoughIrons => List(1.0, 0.5, 0.25)
+          case Club.Category.SandWedges => List(1.0, 0.5, 0.25)
+          case _                        => List(1.0, 0.875, 0.75)
+        }
+      }
+      .getOrElse(List(1.0, 0.875, 0.75))
+  }
+
 }
