@@ -1,0 +1,6 @@
+timestamp: 2018-03-14
+title: Wind Chart Correction
+content: >
+  The Min/Mid values for short irons generated in the <a href="/tools/windchartcreator/">Wind Chart Creator</a>
+  have been adjusted! The values are now 50% and 75% instead of 75% and 87.5%. Be sure to update
+  your copy! Special thanks to Jonas Peterson for noticing the error!

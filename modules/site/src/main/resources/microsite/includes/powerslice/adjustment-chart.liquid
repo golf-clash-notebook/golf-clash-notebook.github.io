@@ -1,0 +1,44 @@
+
+{% assign title = include.title %}
+{% assign accuracyCoefficient = include.accuracyCoefficient %}
+{% assign curlCoefficient = include.curlCoefficient %}
+{% assign alpha = include.alpha %}
+
+<div class="table-responsive">
+  <table class="club-stat-table table table-condensed">
+    <thead>
+      <tr>
+        <th>{{ title }}</th>
+        {% for level in (1..10) %}
+          <th class="text-center">{{ forloop.index }}</th>
+        {% endfor %}
+      </tr>
+    </thead>
+    <tbody>
+      {% for driver in site.data.clubs.drivers %}
+        {% assign maxLevel = driver.power | size %}
+        <tr>
+          <td>{{ driver.name }}</td>
+          {% for level in (0..9) %}
+            {% if level < maxLevel %}
+              {% assign accX = driver.accuracy[level] | times: accuracyCoefficient %}
+              {% assign crlX = driver.curl[level] | times: curlCoefficient %}
+              {% assign adjustmentRaw = accX | plus: crlX | plus: alpha %}
+              {% assign adjustment = adjustmentRaw | round: 1 %}
+              <td class="text-center">{{ adjustment }}</td>
+            {% else %}
+              <td class="danger text-center"><i class="fas fa-times text-danger" aria-hidden="true"></i></td>
+            {% endif %}
+          {% endfor %}
+        </tr>
+      {% endfor %}
+    </tbody>
+    <tfoot>
+      <tr>
+        <th class="text-right text-small" colspan="11" style="text-transform: uppercase;">
+          <strong><em>These are not proven values. They are a work in progress...</em></strong>
+        </th>
+      </tr>
+    </tfoot>
+  </table>
+</div>
