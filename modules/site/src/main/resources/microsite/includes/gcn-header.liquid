@@ -50,7 +50,7 @@
         {% assign pages = site.pages | sort:'position'  %}
 
         {% for p in pages %}
-          {% if p.position != null %}
+          {% if p.position != null and p.position >= 0 %}
             <li>
               <a class="{% if p.url == page.url %} active {% endif %}" href="{{ site.baseurl }}{{ p.url }}">{{ p.title }}</a>
             </li>
