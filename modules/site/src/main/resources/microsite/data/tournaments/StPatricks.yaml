@@ -13,6 +13,18 @@ resource-creators:
       url: https://youtu.be/6Qe8gkFOMbc
     - title: Text Guide
       url: https://imgur.com/a/QuigF
+  - name: ItsRJTV
+    resources:
+    - title: Opening Round (Pro)
+      url: https://youtu.be/GhnAlJWuM6I
+    - title: Qualifying Round (Pro)
+      url: https://youtu.be/srYKJiHfL5s
+  - name: Chris Taylor
+    resources:
+    - title: Qualifying Round (Masters)
+      url: https://youtu.be/eWRKasSdLLE?t=51m31s
+    - title: Qualifying Round (Expert)
+      url: https://youtu.be/E-YPL2nrb3E
 holes:
   - number: 1
     course: Glenmonarch Estate
