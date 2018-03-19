@@ -3,6 +3,16 @@ date: '2018-03-12'
 resource-creators:
   - name: Golf Clash Tommy
     resources:
+    - title: Weekend Round (Masters)
+      url: https://youtu.be/mMSUBY5yD3E
+    - title: Weekend Round (Expert)
+      url: https://youtu.be/AuIczy3CIY8
+    - title: Opening Round (Masters)
+      url: https://youtu.be/3tsqNXmXGZ4
+    - title: Opening Round (Expert)
+      url: https://youtu.be/SGZLJGqkTNo
+    - title: Qualifying Round (Masters)
+      url: https://youtu.be/br4B8iUTv6g
     - title: Qualifying Round (Expert)
       url: https://youtu.be/d3YYWml5-5g
     - title: Rookie Guide
@@ -15,12 +25,16 @@ resource-creators:
       url: https://imgur.com/a/QuigF
   - name: ItsRJTV
     resources:
+    - title: Weekend Round (Pro)
+      url: https://youtu.be/SLFNi8zikHk
     - title: Opening Round (Pro)
       url: https://youtu.be/GhnAlJWuM6I
     - title: Qualifying Round (Pro)
       url: https://youtu.be/srYKJiHfL5s
   - name: Chris Taylor
     resources:
+    - title: Weekend Round (Masters)
+      url: https://youtu.be/t2o18E1I3k0
     - title: Qualifying Round (Masters)
       url: https://youtu.be/eWRKasSdLLE?t=51m31s
     - title: Qualifying Round (Expert)
