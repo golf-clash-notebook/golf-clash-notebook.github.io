@@ -216,7 +216,8 @@ object windchartcreator {
           val captionLineHeight = 0.17
 
           List(
-            "Driver, Wood, Long Iron [ Max | Mid | Min ] @ (100%, 87.5%, 75%).",
+            "Driver, Wood [ Max | Mid | Min ] @ (100%, 87.5%, 75%).",
+            "Long Iron [ Max | Mid | Min ] @ (100%, 83%, 66%).",
             "Short Iron [ Max | Mid | Min ] @ (100%, 75%, 50%).",
             "Wedge, Rough Iron, Sand Wedge [ Max | Mid | Min ] @ (100%, 50%, 25%).",
             "Wedge, Rough Iron, Sand Wedge mileage will vary. They are SWAGs!"
@@ -237,26 +238,27 @@ object windchartcreator {
 
                   pdf.setPage(pageNum + 1)
 
-                  pdf.setTextColor(150d)
+                  pdf.setTextColor(50d)
 
                   pdf.addImage(base64Image, "png", pageXMargin + 0.4, rowTopY + 0.2, 1.0, 1.0)
 
                   pdf.text(
                     s"""${clubLevel.club.name.replaceAll("The", "").trim} ${clubLevel.level}""",
                     firstColumnCenterX,
-                    rowTopY + 1.27,
+                    rowTopY + 1.25,
                     "center"
                   )
                   pdf.text(
                     s"Accuracy: ${clubLevel.club.accuracy(clubLevel.level - 1)}",
                     firstColumnCenterX,
-                    rowTopY + 1.45,
+                    rowTopY + 1.41,
                     "center"
                   )
 
                   pdf.setTextColor(0d)
 
-                  val ClubPowers = wind.clubPowersFor(clubLevel.club)
+                  val ClubPowers =
+                    wind.clubPowersFor(clubLevel.club, clubLevel.level)
 
                   val RingColors = List(
                     (251.0, 255.0, 101.0),
@@ -267,7 +269,7 @@ object windchartcreator {
                   )
 
                   ClubPowers.zipWithIndex.foreach {
-                    case (clubPowerRatio, clubColumn) =>
+                    case (clubPower, clubColumn) =>
                       val columnCenterX      = pageXMargin + ((clubColumn + 1) * clubColumnWidth) + (clubColumnWidth / 2)
                       val chartTitleY        = rowTopY + 0.25
                       val chartY             = chartTitleY + 0.1
@@ -295,7 +297,7 @@ object windchartcreator {
                         val subColumnCenterX = columnCenterX - (clubColumnWidth / 6) + (subColumn * clubColumnWidth / 3)
 
                         pdf.text(
-                          f"${windPerRing * (ringNum + 1) / clubPowerRatio}%.2f",
+                          f"${windPerRing * (ringNum + 1) / clubPower}%.2f",
                           subColumnCenterX,
                           chartY + (ringNum * ringRowHeight) + ringRowTextYOffset - (subColumn * (ringRowHeight * RingColors.size)),
                           "center"
