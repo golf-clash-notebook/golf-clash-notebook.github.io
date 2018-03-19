@@ -1,0 +1,6 @@
+timestamp: 2018-03-19
+title: Another Wind Chart Correction
+content: >
+  Another week and another fix! The Min/Mid values for long irons generated in the
+  <a href="/tools/windchartcreator/">Wind Chart Creator</a> are now 66% and 83% instead of 75% and
+  87.5%. Stay tuned for more fine tuning...

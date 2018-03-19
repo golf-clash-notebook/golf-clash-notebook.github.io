@@ -53,20 +53,22 @@ case class Club(
 
 object Club {
 
-  sealed abstract class Category(val name: String) extends Product with Serializable {
+  sealed abstract class Category(val name: String, val maxDistance: Int)
+      extends Product
+      with Serializable {
     def printableName: String = {
       name.map(char => if (char.isUpper) s" $char" else char.toString).mkString.trim
     }
   }
 
   object Category {
-    case object Drivers    extends Category("Drivers")
-    case object Woods      extends Category("Woods")
-    case object LongIrons  extends Category("LongIrons")
-    case object ShortIrons extends Category("ShortIrons")
-    case object Wedges     extends Category("Wedges")
-    case object RoughIrons extends Category("RoughIrons")
-    case object SandWedges extends Category("SandWedges")
+    case object Drivers    extends Category("Drivers", 240)
+    case object Woods      extends Category("Woods", 180)
+    case object LongIrons  extends Category("LongIrons", 135)
+    case object ShortIrons extends Category("ShortIrons", 90)
+    case object Wedges     extends Category("Wedges", 45)
+    case object RoughIrons extends Category("RoughIrons", 135)
+    case object SandWedges extends Category("SandWedges", 120)
 
     val All =
       List(Drivers, Woods, LongIrons, ShortIrons, Wedges, RoughIrons, SandWedges)

@@ -43,18 +43,33 @@ object wind {
     ((1 + ((100 - club.accuracy(level - 1)) * 0.02)) * windCategoryMultiplier) / power
   }
 
-  def clubPowersFor(club: Club): List[Double] = {
-    club.clubCategory
-      .map { clubCategory =>
-        clubCategory match {
-          case Club.Category.ShortIrons => List(1.0, 0.75, 0.5)
-          case Club.Category.Wedges     => List(1.0, 0.5, 0.25)
-          case Club.Category.RoughIrons => List(1.0, 0.5, 0.25)
-          case Club.Category.SandWedges => List(1.0, 0.5, 0.25)
-          case _                        => List(1.0, 0.875, 0.75)
-        }
+  def clubPowersFor(club: Club, level: Int): List[Double] = {
+
+    // TODO: Assuming every club max power is 100% even though it's really not...
+    // val maxDistancePower = club.clubCategory
+    //   .map(category => (club.power(level - 1) / category.maxDistance.toDouble))
+    //   .getOrElse(1d)
+
+    val maxDistancePower = 1d
+
+    val minDistancePower =
+      club.clubCategory match {
+        case Some(Club.Category.Drivers)    => 0.75
+        case Some(Club.Category.Woods)      => 0.75
+        case Some(Club.Category.LongIrons)  => 0.66
+        case Some(Club.Category.ShortIrons) => 0.50
+        case Some(Club.Category.Wedges)     => 0.25
+        case Some(Club.Category.RoughIrons) => 0.25
+        case Some(Club.Category.SandWedges) => 0.25
+        case None                           => 0.75
       }
-      .getOrElse(List(1.0, 0.875, 0.75))
+
+    List(
+      maxDistancePower,
+      minDistancePower + ((maxDistancePower - minDistancePower) / 2),
+      minDistancePower
+    )
+
   }
 
 }
