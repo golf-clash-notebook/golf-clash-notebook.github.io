@@ -1,5 +1,6 @@
 
 {% assign title = include.title %}
+{% assign powerCoefficient = include.powerCoefficient %}
 {% assign accuracyCoefficient = include.accuracyCoefficient %}
 {% assign curlCoefficient = include.curlCoefficient %}
 {% assign alpha = include.alpha %}
@@ -21,9 +22,10 @@
           <td>{{ driver.name }}</td>
           {% for level in (0..9) %}
             {% if level < maxLevel %}
+              {% assign powerX = driver.power[level] | times: powerCoefficient %}
               {% assign accX = driver.accuracy[level] | times: accuracyCoefficient %}
               {% assign crlX = driver.curl[level] | times: curlCoefficient %}
-              {% assign adjustmentRaw = accX | plus: crlX | plus: alpha %}
+              {% assign adjustmentRaw = powerX | plus: accX | plus: crlX | plus: alpha %}
               {% assign adjustment = adjustmentRaw | round: 1 %}
               <td class="text-center">{{ adjustment }}</td>
             {% else %}
