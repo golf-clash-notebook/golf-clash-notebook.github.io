@@ -30,8 +30,8 @@ import org.scalajs.jquery.jQuery
 import cats.implicits._
 import firebase._
 import firebase.auth._
-import golfclash.notebook.util.Var
 import monix.execution.Scheduler.Implicits.global
+import monix.reactive.subjects.Var
 
 object auth {
 
@@ -46,7 +46,10 @@ object auth {
     Firebase
       .app()
       .auth()
-      .onAuthStateChanged(CurrentUser >>- _.toOption.filter(_ != null))
+      .onAuthStateChanged { user =>
+        CurrentUser := user.toOption.filter(_ != null)
+        ()
+      }
 
     // Drop the initial value so the first item is the value from Firebase...
     CurrentUser.drop(1).foreach { maybeUser =>

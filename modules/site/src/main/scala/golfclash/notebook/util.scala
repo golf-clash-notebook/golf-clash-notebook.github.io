@@ -27,10 +27,6 @@ package golfclash.notebook
 import scala.scalajs.js
 
 import monix.eval.Task
-import monix.execution.{ Ack, Cancelable, Scheduler }
-import monix.reactive.{ Observable, OverflowStrategy }
-import monix.reactive.observers.Subscriber
-import monix.reactive.subjects.ConcurrentSubject
 
 object util {
 
@@ -42,45 +38,6 @@ object util {
   def isFacebookBrowser(): Boolean = {
     val ua = js.Dynamic.global.window.navigator.userAgent.asInstanceOf[String]
     List("FBAN", "FBAV").exists(ua.indexOf(_) >= 0)
-  }
-
-  final class Var[A] private (
-    initial: A,
-    strategy: OverflowStrategy.Synchronous[A]
-  )(implicit scheduler: Scheduler)
-      extends Observable[A] { self =>
-
-    private[this] var value: A   = initial
-    private[this] val underlying = ConcurrentSubject.behavior(initial, strategy)
-
-    def unsafeSubscribeFn(subscriber: Subscriber[A]): Cancelable =
-      underlying.unsafeSubscribeFn(subscriber)
-
-    def apply(): A =
-      self.synchronized(value)
-
-    def >>(update: A): Ack =
-      self.synchronized {
-        value = update
-        underlying.onNext(update)
-      }
-
-    def >>-(update: A): Unit =
-      self.synchronized {
-        value = update
-        underlying.onNext(update)
-        ()
-      }
-
-  }
-
-  object Var {
-    def apply[A](
-      initial: A,
-      strategy: OverflowStrategy.Synchronous[A] = OverflowStrategy.Unbounded
-    )(implicit scheduler: Scheduler): Var[A] = {
-      new Var[A](initial, strategy)
-    }
   }
 
   def printCurrentHoleRatings(): Task[Unit] = {
