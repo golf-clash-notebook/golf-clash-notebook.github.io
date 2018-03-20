@@ -2,7 +2,6 @@ course-name: Haunted Hills
 skinned: true
 holes:
   - id: 8be692b0-5d4f-4a46-a557-dd3cdff41f9c
-    current-tournament: true
     course: Haunted Hills
     number: 1
     par: 3
@@ -11,13 +10,14 @@ holes:
     clubRecommendations:
       - level: Rookie
         clubs:
-          - Goliath
+          - Viper
           - Backbone
       - level: Pro
         clubs:
           - Sniper
       - level: Masters
         clubs:
+          - Sniper
           - Quarterback
     resource-creators:
       - name: Golf Clash Tommy
@@ -96,7 +96,6 @@ holes:
               <circle cx="168" cy="755" r="6" fill="white" class="guide-point" data-guide-segment="0" />
               <circle cx="165" cy="202" r="6" fill="white" class="guide-point" data-guide-segment="1" />
   - id: ad378689-bd45-439c-84c0-78fc4e5cc483
-    current-tournament: true
     course: Haunted Hills
     number: 2
     par: 5
@@ -112,6 +111,7 @@ holes:
           - Cataclysm
       - level: Masters
         clubs:
+          - Big Dawg
           - Cataclysm
     resource-creators:
       - name: Golf Clash Tommy
@@ -210,7 +210,6 @@ holes:
               <circle cx="410" cy="274" r="6" fill="white" class="guide-point" data-guide-segment="2" />
               <circle cx="529" cy="130" r="6" fill="white" class="guide-point" data-guide-segment="3" />
   - id: 9570b414-f125-4cca-8418-a7532e08aa3d
-    current-tournament: true
     course: Haunted Hills
     number: 3
     par: 3
@@ -219,14 +218,14 @@ holes:
     clubRecommendations:
       - level: Rookie
         clubs:
-          - Sniper
-          - Hammerhead
+          - Viper
+          - Backbone
       - level: Pro
         clubs:
           - Sniper
       - level: Masters
         clubs:
-          - Cataclysm
+          - Sniper
     resource-creators:
       - name: Golf Clash Tommy
         resources:
@@ -316,7 +315,6 @@ holes:
               <circle cx="166" cy="765" r="6" fill="red" class="guide-point" data-guide-segment="0" />
               <circle cx="171" cy="198" r="6" fill="red" class="guide-point" data-guide-segment="1" />
   - id: eaf44afd-cf3f-493f-916b-03e319206d71
-    current-tournament: true
     course: Haunted Hills
     number: 4
     par: 5
@@ -332,6 +330,7 @@ holes:
           - Cataclysm
       - level: Masters
         clubs:
+          - Big Dawg
           - Cataclysm
     resource-creators:
       - name: Golf Clash Tommy
@@ -404,7 +403,6 @@ holes:
               <circle cx="165" cy="130" r="6" fill="yellow" class="guide-point" data-guide-segment="3" />
               <circle cx="123" cy="84" r="6" fill="yellow" class="guide-point" data-guide-segment="4" />
   - id: 8e86ac8d-f72a-435b-9312-35e382f506b4
-    current-tournament: true
     course: Haunted Hills
     number: 5
     par: 4
@@ -413,14 +411,16 @@ holes:
     clubRecommendations:
       - level: Rookie
         clubs:
-          - Backbone
+          - Thorn
+          - Hornet
       - level: Pro
         clubs:
-          - Backbone
-          - Goliath
+          - Thorn
+          - Hornet
       - level: Masters
         clubs:
-          - Cataclysm
+          - Thorn
+          - Hornet
     resource-creators:
       - name: Golf Clash Tommy
         resources:
@@ -511,7 +511,6 @@ holes:
               <circle cx="148" cy="292" r="6" fill="white" class="guide-point" data-guide-segment="1" />
               <circle cx="155" cy="157" r="6" fill="white" class="guide-point" data-guide-segment="2" />
   - id: f9c47bc5-7b4c-4709-9654-9979fed745a3
-    current-tournament: true
     course: Haunted Hills
     number: 6
     par: 4
@@ -612,7 +611,6 @@ holes:
               <circle cx="281" cy="225" r="6" fill="white" class="guide-point" data-guide-segment="1" />
               <circle cx="232" cy="141" r="6" fill="white" class="guide-point" data-guide-segment="2" />
   - id: 9925b05f-a66f-4b16-80cd-e8ccd6458d69
-    current-tournament: true
     course: Haunted Hills
     number: 7
     par: 3
@@ -621,16 +619,15 @@ holes:
     clubRecommendations:
       - level: Rookie
         clubs:
-          - Sniper
-          - Hammerhead
+          - Viper
+          - Backbone
       - level: Pro
         clubs:
           - Sniper
-          - Rocket
       - level: Masters
         clubs:
+          - Sniper
           - Quarterback
-          - Rocket
     resource-creators:
       - name: Golf Clash Tommy
         resources:
@@ -702,7 +699,6 @@ holes:
               <circle cx="157" cy="755" r="6" fill="white" class="guide-point" data-guide-segment="0" />
               <circle cx="205" cy="143" r="6" fill="white" class="guide-point" data-guide-segment="1" />
   - id: a7e7d3ee-22af-459b-a046-a7fc9d73446d
-    current-tournament: true
     course: Haunted Hills
     number: 8
     par: 4
@@ -711,19 +707,16 @@ holes:
     clubRecommendations:
       - level: Rookie
         clubs:
-          - Saturn
           - Thorn
-          - Machete
+          - Saturn
       - level: Pro
         clubs:
-          - Saturn
           - Thorn
-          - Machete
+          - Saturn
       - level: Masters
         clubs:
-          - Saturn
           - Thorn
-          - Machete
+          - Saturn
     resource-creators:
       - name: Golf Clash Tommy
         resources:
@@ -781,7 +774,6 @@ holes:
               <circle cx="249" cy="213" r="6" fill="yellow" class="guide-point" data-guide-segment="1" />
               <circle cx="192" cy="100" r="6" fill="yellow" class="guide-point" data-guide-segment="2" />
   - id: cb4e6479-839f-4a28-865f-7e537cc935e3
-    current-tournament: true
     course: Haunted Hills
     number: 9
     par: 5
@@ -797,6 +789,7 @@ holes:
           - Cataclysm
       - level: Masters
         clubs:
+          - Big Dawg
           - Cataclysm
     resource-creators:
       - name: Golf Clash Tommy
