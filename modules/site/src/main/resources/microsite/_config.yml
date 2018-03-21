@@ -360,3 +360,11 @@ page_gen:
     extra:
       title-prefix: 'St. Patrick''s Tournament - Hole '
       tournament-name: 'St. Patrick''s'
+  - index_files: true
+    data: 'tournaments.EasterLinks.holes'
+    template: '_includes/tournaments/hole-template.liquid'
+    name: 'number'
+    dir: 'tournaments/EasterLinks'
+    extra:
+      title-prefix: 'Easter Links Tournament - Hole '
+      tournament-name: 'Easter Links'

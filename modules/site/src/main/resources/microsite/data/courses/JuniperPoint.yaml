@@ -1,10 +1,97 @@
 course-name: Juniper Point
 skinned: false
 holes:
-  - id: 48316f6b-6037-4b43-8eff-7d4c345a0929
+  - id: f73bea1d-3683-48f8-92e8-12abddd88d16
     current-tournament: true
     course: Juniper Point
     number: 1
+    par: 4
+    description: >
+      Help Wanted
+    clubRecommendations:
+      - level: Rookie
+        clubs:
+          - Backbone
+          - Goliath
+      - level: Pro
+        clubs:
+          - Backbone
+          - Goliath
+      - level: Masters
+        clubs:
+          - Backbone
+          - Goliath
+    resource-creators:
+      - name: Golf Clash Tommy
+        resources:
+        - title: Rookie Guide
+          url: https://youtu.be/tlaY7E1H4ic
+        - title: Pro / Expert Guide
+          url: https://youtu.be/lW5eyLRk65g
+        - title: Text Guide
+          url: https://i.imgur.com/HggW8CU.jpg
+    overlays:
+      size: [395, 863]
+      guides:
+      - name: Black Path
+        text: >
+          This path is a better option with tailwind or a very little wind. With tailwind you can
+          try to go long, bounce over the cliff, and roll directly onto the green. With a very
+          gentle wind you can use backspin on your drive and stay short of the cliff, leaving a
+          better approach to the green than playing to the right.
+        levels:
+          - name: Rookie
+            svg:
+              <path d="M 118 690 L 182 266" stroke="black" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="0" />
+              <path d="M 182 266 L 157 112" stroke="black" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="1" />
+              <circle cx="118" cy="690" r="6" fill="black" class="guide-point" data-guide-segment="0" />
+              <circle cx="182" cy="266" r="6" fill="black" class="guide-point" data-guide-segment="1" />
+              <circle cx="157" cy="112" r="6" fill="black" class="guide-point" data-guide-segment="2" />
+          - name: Pro
+            svg:
+              <path d="M 100 744 L 182 266" stroke="black" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="0" />
+              <path d="M 182 266 L 157 112" stroke="black" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="1" />
+              <circle cx="100" cy="744" r="6" fill="black" class="guide-point" data-guide-segment="0" />
+              <circle cx="182" cy="266" r="6" fill="black" class="guide-point" data-guide-segment="1" />
+              <circle cx="157" cy="112" r="6" fill="black" class="guide-point" data-guide-segment="2" />
+          - name: Masters
+            svg:
+              <path d="M 82 797 L 182 266" stroke="black" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="0" />
+              <path d="M 182 266 L 157 112" stroke="black" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="1" />
+              <circle cx="82" cy="797" r="6" fill="black" class="guide-point" data-guide-segment="0" />
+              <circle cx="182" cy="266" r="6" fill="black" class="guide-point" data-guide-segment="1" />
+              <circle cx="157" cy="112" r="6" fill="black" class="guide-point" data-guide-segment="2" />
+      - name: White Path
+        text: >
+          This is the common way to play the hole. You'll be able to reach the green from anywhere
+          in the fairway. Just be sure to avoid the bunker in the middle of the fairway. The green
+          slopes towards the back so use a long iron with at least 2 to 3 bars of backspin.
+        levels:
+          - name: Rookie
+            svg:
+              <path d="M 118 690 L 247 277" stroke="white" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="0" />
+              <path d="M 247 277 L 165 116" stroke="white" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="1" />
+              <circle cx="118" cy="690" r="6" fill="white" class="guide-point" data-guide-segment="0" />
+              <circle cx="247" cy="277" r="6" fill="white" class="guide-point" data-guide-segment="1" />
+              <circle cx="165" cy="116" r="6" fill="white" class="guide-point" data-guide-segment="2" />
+          - name: Pro
+            svg:
+              <path d="M 100 744 L 247 277" stroke="white" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="0" />
+              <path d="M 247 277 L 165 116" stroke="white" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="1" />
+              <circle cx="100" cy="744" r="6" fill="white" class="guide-point" data-guide-segment="0" />
+              <circle cx="247" cy="277" r="6" fill="white" class="guide-point" data-guide-segment="1" />
+              <circle cx="165" cy="116" r="6" fill="white" class="guide-point" data-guide-segment="2" />
+          - name: Masters
+            svg:
+              <path d="M 82 797 L 247 277" stroke="white" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="0" />
+              <path d="M 247 277 L 165 116" stroke="white" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="1" />
+              <circle cx="82" cy="797" r="6" fill="white" class="guide-point" data-guide-segment="0" />
+              <circle cx="247" cy="277" r="6" fill="white" class="guide-point" data-guide-segment="1" />
+              <circle cx="165" cy="116" r="6" fill="white" class="guide-point" data-guide-segment="2" />
+  - id: 48316f6b-6037-4b43-8eff-7d4c345a0929
+    current-tournament: true
+    course: Juniper Point
+    number: 2
     par: 3
     description: >
       Help Wanted
@@ -57,10 +144,115 @@ holes:
               <path d="M 230 747 L 242 154" stroke="black" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="0" />
               <circle cx="230" cy="747" r="6" fill="black" class="guide-point" data-guide-segment="0" />
               <circle cx="242" cy="154" r="6" fill="black" class="guide-point" data-guide-segment="1" />
+  - id: b31d9248-cdb3-4549-933a-9d596a7d81ee
+    current-tournament: true
+    course: Juniper Point
+    number: 3
+    par: 5
+    description: >
+      Help Wanted
+    clubRecommendations:
+      - level: Rookie
+        clubs:
+          - Viper
+          - Sniper
+      - level: Pro
+        clubs:
+          - Sniper
+          - Guardian
+      - level: Masters
+        clubs:
+          - Cataclysm
+          - Guardian
+    resource-creators:
+      - name: Golf Clash Tommy
+        resources:
+        - title: Rookie Guide
+          url: https://youtu.be/m4oNutvTEKM
+        - title: Pro / Expert Guide
+          url: https://youtu.be/hBvwkTOUscY
+        - title: Text Guide
+          url: https://i.imgur.com/KzHsOpd.jpg
+    overlays:
+      size: [449, 1085]
+      guides:
+      - name: Black Path
+        text: >
+          The common way to play the hole (depending on the wind) is to bounce your drive before
+          the left fairway bunker with max topspin. You could also try going directly over that
+          bunker with 4 to 5 bars of topspin. Stay away from the bunkers and landing short in the
+          rough. Otherwise it shouldn't be a problem to reach the green in two.
+        levels:
+          - name: Rookie
+            svg:
+              <path d="M 191 838 L 195 382" stroke="black" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="0" />
+              <path d="M 195 382 L 263 137" stroke="black" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="1" />
+              <circle cx="191" cy="838" r="6" fill="black" class="guide-point" data-guide-segment="0" />
+              <circle cx="195" cy="382" r="6" fill="black" class="guide-point" data-guide-segment="1" />
+              <circle cx="263" cy="137" r="6" fill="black" class="guide-point" data-guide-segment="2" />
+          - name: Pro
+            svg:
+              <path d="M 184 887 L 195 382" stroke="black" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="0" />
+              <path d="M 195 382 L 263 137" stroke="black" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="1" />
+              <circle cx="184" cy="887" r="6" fill="black" class="guide-point" data-guide-segment="0" />
+              <circle cx="195" cy="382" r="6" fill="black" class="guide-point" data-guide-segment="1" />
+              <circle cx="263" cy="137" r="6" fill="black" class="guide-point" data-guide-segment="2" />
+          - name: Masters
+            svg:
+              <path d="M 176 940 L 195 382" stroke="black" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="0" />
+              <path d="M 195 382 L 263 137" stroke="black" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="1" />
+              <circle cx="176" cy="940" r="6" fill="black" class="guide-point" data-guide-segment="0" />
+              <circle cx="195" cy="382" r="6" fill="black" class="guide-point" data-guide-segment="1" />
+              <circle cx="263" cy="137" r="6" fill="black" class="guide-point" data-guide-segment="2" />
+      - name: White Path
+        text: >
+          With great tailwind you can gamble a little and max your driver with some curl. Try to
+          land your drive next to the trees with plenty of sidespin and max topspin. That will
+          leave a long or short iron into the green.
+        levels:
+          - name: Rookie
+            svg:
+              <path d="M 191 838 C 142 500 142 500 263 290" stroke="white" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="0" />
+              <path d="M 263 290 L 272 138" stroke="white" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="1" />
+              <circle cx="191" cy="838" r="6" fill="white" class="guide-point" data-guide-segment="0" />
+              <circle cx="263" cy="290" r="6" fill="white" class="guide-point" data-guide-segment="1" />
+              <circle cx="272" cy="138" r="6" fill="white" class="guide-point" data-guide-segment="2" />
+          - name: Pro
+            svg:
+              <path d="M 184 887 C 142 500 142 500 263 290" stroke="white" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="0" />
+              <path d="M 263 290 L 272 138" stroke="white" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="1" />
+              <circle cx="184" cy="887" r="6" fill="white" class="guide-point" data-guide-segment="0" />
+              <circle cx="263" cy="290" r="6" fill="white" class="guide-point" data-guide-segment="1" />
+              <circle cx="272" cy="138" r="6" fill="white" class="guide-point" data-guide-segment="2" />
+          - name: Masters
+            svg:
+              <path d="M 176 940 C 142 500 142 500 263 290" stroke="white" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="0" />
+              <path d="M 263 290 L 272 138" stroke="white" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="1" />
+              <circle cx="176" cy="940" r="6" fill="white" class="guide-point" data-guide-segment="0" />
+              <circle cx="263" cy="290" r="6" fill="white" class="guide-point" data-guide-segment="1" />
+              <circle cx="272" cy="138" r="6" fill="white" class="guide-point" data-guide-segment="2" />
+  - id: c35b816e-75dd-4cda-83df-a4b6639d54f3
+    current-tournament: true
+    course: Juniper Point
+    number: 4
+    par: 3
+    description: >
+      Help Wanted
+    clubRecommendations:
+    overlays:
+  - id: c9d5cbe5-262e-49cb-a6f1-48e40918502a
+    current-tournament: true
+    course: Juniper Point
+    number: 5
+    par: 5
+    description: >
+      Help Wanted
+    clubRecommendations:
+    overlays:
   - id: 8f0fb665-4802-4f8f-a823-35b3cae6f26c
     current-tournament: true
     course: Juniper Point
-    number: 2
+    number: 6
     par: 4
     description: >
       Help Wanted
@@ -147,179 +339,30 @@ holes:
               <circle cx="208" cy="773" r="6" fill="white" class="guide-point" data-guide-segment="0" />
               <circle cx="242" cy="252" r="6" fill="white" class="guide-point" data-guide-segment="1" />
               <circle cx="226" cy="132" r="6" fill="white" class="guide-point" data-guide-segment="2" />
-  - id: b31d9248-cdb3-4549-933a-9d596a7d81ee
+  - id: 7777d535-cb89-4d83-b8a7-831cc61fbc66
     current-tournament: true
     course: Juniper Point
-    number: 3
-    par: 5
+    number: 7
+    par: 3
     description: >
       Help Wanted
     clubRecommendations:
-      - level: Rookie
-        clubs:
-          - Viper
-          - Sniper
-      - level: Pro
-        clubs:
-          - Sniper
-          - Guardian
-      - level: Masters
-        clubs:
-          - Cataclysm
-          - Guardian
-    resource-creators:
-      - name: Golf Clash Tommy
-        resources:
-        - title: Rookie Guide
-          url: https://youtu.be/m4oNutvTEKM
-        - title: Pro / Expert Guide
-          url: https://youtu.be/gtpuEk3SBJM
-        - title: Text Guide
-          url: https://i.imgur.com/KzHsOpd.jpg
     overlays:
-      size: [449, 1085]
-      guides:
-      - name: Black Path
-        text: >
-          The common way to play the hole (depending on the wind) is to bounce your drive before
-          the left fairway bunker with max topspin. You could also try going directly over that
-          bunker with 4 to 5 bars of topspin. Stay away from the bunkers and landing short in the
-          rough. Otherwise it shouldn't be a problem to reach the green in two.
-        levels:
-          - name: Rookie
-            svg:
-              <path d="M 191 838 L 195 382" stroke="black" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="0" />
-              <path d="M 195 382 L 263 137" stroke="black" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="1" />
-              <circle cx="191" cy="838" r="6" fill="black" class="guide-point" data-guide-segment="0" />
-              <circle cx="195" cy="382" r="6" fill="black" class="guide-point" data-guide-segment="1" />
-              <circle cx="263" cy="137" r="6" fill="black" class="guide-point" data-guide-segment="2" />
-          - name: Pro
-            svg:
-              <path d="M 184 887 L 195 382" stroke="black" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="0" />
-              <path d="M 195 382 L 263 137" stroke="black" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="1" />
-              <circle cx="184" cy="887" r="6" fill="black" class="guide-point" data-guide-segment="0" />
-              <circle cx="195" cy="382" r="6" fill="black" class="guide-point" data-guide-segment="1" />
-              <circle cx="263" cy="137" r="6" fill="black" class="guide-point" data-guide-segment="2" />
-          - name: Masters
-            svg:
-              <path d="M 176 940 L 195 382" stroke="black" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="0" />
-              <path d="M 195 382 L 263 137" stroke="black" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="1" />
-              <circle cx="176" cy="940" r="6" fill="black" class="guide-point" data-guide-segment="0" />
-              <circle cx="195" cy="382" r="6" fill="black" class="guide-point" data-guide-segment="1" />
-              <circle cx="263" cy="137" r="6" fill="black" class="guide-point" data-guide-segment="2" />
-      - name: White Path
-        text: >
-          With great tailwind you can gamble a little and max your driver with some curl. Try to
-          land your drive next to the trees with plenty of sidespin and max topspin. That will
-          leave a long or short iron into the green.
-        levels:
-          - name: Rookie
-            svg:
-              <path d="M 191 838 C 142 500 142 500 263 290" stroke="white" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="0" />
-              <path d="M 263 290 L 272 138" stroke="white" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="1" />
-              <circle cx="191" cy="838" r="6" fill="white" class="guide-point" data-guide-segment="0" />
-              <circle cx="263" cy="290" r="6" fill="white" class="guide-point" data-guide-segment="1" />
-              <circle cx="272" cy="138" r="6" fill="white" class="guide-point" data-guide-segment="2" />
-          - name: Pro
-            svg:
-              <path d="M 184 887 C 142 500 142 500 263 290" stroke="white" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="0" />
-              <path d="M 263 290 L 272 138" stroke="white" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="1" />
-              <circle cx="184" cy="887" r="6" fill="white" class="guide-point" data-guide-segment="0" />
-              <circle cx="263" cy="290" r="6" fill="white" class="guide-point" data-guide-segment="1" />
-              <circle cx="272" cy="138" r="6" fill="white" class="guide-point" data-guide-segment="2" />
-          - name: Masters
-            svg:
-              <path d="M 176 940 C 142 500 142 500 263 290" stroke="white" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="0" />
-              <path d="M 263 290 L 272 138" stroke="white" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="1" />
-              <circle cx="176" cy="940" r="6" fill="white" class="guide-point" data-guide-segment="0" />
-              <circle cx="263" cy="290" r="6" fill="white" class="guide-point" data-guide-segment="1" />
-              <circle cx="272" cy="138" r="6" fill="white" class="guide-point" data-guide-segment="2" />
-  - id: f73bea1d-3683-48f8-92e8-12abddd88d16
+  - id: 833ca5f4-813c-4b4c-8194-fd508a6611c6
     current-tournament: true
     course: Juniper Point
-    number: 4
+    number: 8
     par: 4
     description: >
       Help Wanted
     clubRecommendations:
-      - level: Rookie
-        clubs:
-          - Backbone
-          - Goliath
-      - level: Pro
-        clubs:
-          - Backbone
-          - Goliath
-      - level: Masters
-        clubs:
-          - Backbone
-          - Goliath
-    resource-creators:
-      - name: Golf Clash Tommy
-        resources:
-        - title: Pro / Expert Guide
-          url: https://youtu.be/B8gCEkyGaHM
-        - title: Rookie Guide
-          url: https://youtu.be/tlaY7E1H4ic
-        - title: Pro / Expert Guide
-          url: https://youtu.be/J41Pl2WFgdk
-        - title: Text Guide
-          url: https://i.imgur.com/HggW8CU.jpg
     overlays:
-      size: [395, 863]
-      guides:
-      - name: Black Path
-        text: >
-          This path is a better option with tailwind or a very little wind. With tailwind you can
-          try to go long, bounce over the cliff, and roll directly onto the green. With a very
-          gentle wind you can use backspin on your drive and stay short of the cliff, leaving a
-          better approach to the green than playing to the right.
-        levels:
-          - name: Rookie
-            svg:
-              <path d="M 118 690 L 182 266" stroke="black" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="0" />
-              <path d="M 182 266 L 157 112" stroke="black" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="1" />
-              <circle cx="118" cy="690" r="6" fill="black" class="guide-point" data-guide-segment="0" />
-              <circle cx="182" cy="266" r="6" fill="black" class="guide-point" data-guide-segment="1" />
-              <circle cx="157" cy="112" r="6" fill="black" class="guide-point" data-guide-segment="2" />
-          - name: Pro
-            svg:
-              <path d="M 100 744 L 182 266" stroke="black" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="0" />
-              <path d="M 182 266 L 157 112" stroke="black" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="1" />
-              <circle cx="100" cy="744" r="6" fill="black" class="guide-point" data-guide-segment="0" />
-              <circle cx="182" cy="266" r="6" fill="black" class="guide-point" data-guide-segment="1" />
-              <circle cx="157" cy="112" r="6" fill="black" class="guide-point" data-guide-segment="2" />
-          - name: Masters
-            svg:
-              <path d="M 82 797 L 182 266" stroke="black" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="0" />
-              <path d="M 182 266 L 157 112" stroke="black" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="1" />
-              <circle cx="82" cy="797" r="6" fill="black" class="guide-point" data-guide-segment="0" />
-              <circle cx="182" cy="266" r="6" fill="black" class="guide-point" data-guide-segment="1" />
-              <circle cx="157" cy="112" r="6" fill="black" class="guide-point" data-guide-segment="2" />
-      - name: White Path
-        text: >
-          This is the common way to play the hole. You'll be able to reach the green from anywhere
-          in the fairway. Just be sure to avoid the bunker in the middle of the fairway. The green
-          slopes towards the back so use a long iron with at least 2 to 3 bars of backspin.
-        levels:
-          - name: Rookie
-            svg:
-              <path d="M 118 690 L 247 277" stroke="white" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="0" />
-              <path d="M 247 277 L 165 116" stroke="white" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="1" />
-              <circle cx="118" cy="690" r="6" fill="white" class="guide-point" data-guide-segment="0" />
-              <circle cx="247" cy="277" r="6" fill="white" class="guide-point" data-guide-segment="1" />
-              <circle cx="165" cy="116" r="6" fill="white" class="guide-point" data-guide-segment="2" />
-          - name: Pro
-            svg:
-              <path d="M 100 744 L 247 277" stroke="white" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="0" />
-              <path d="M 247 277 L 165 116" stroke="white" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="1" />
-              <circle cx="100" cy="744" r="6" fill="white" class="guide-point" data-guide-segment="0" />
-              <circle cx="247" cy="277" r="6" fill="white" class="guide-point" data-guide-segment="1" />
-              <circle cx="165" cy="116" r="6" fill="white" class="guide-point" data-guide-segment="2" />
-          - name: Masters
-            svg:
-              <path d="M 82 797 L 247 277" stroke="white" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="0" />
-              <path d="M 247 277 L 165 116" stroke="white" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="1" />
-              <circle cx="82" cy="797" r="6" fill="white" class="guide-point" data-guide-segment="0" />
-              <circle cx="247" cy="277" r="6" fill="white" class="guide-point" data-guide-segment="1" />
-              <circle cx="165" cy="116" r="6" fill="white" class="guide-point" data-guide-segment="2" />
+  - id: 84427923-664c-4701-a1f5-58108b952647
+    current-tournament: true
+    course: Juniper Point
+    number: 9
+    par: 5
+    description: >
+      Help Wanted
+    clubRecommendations:
+    overlays:
