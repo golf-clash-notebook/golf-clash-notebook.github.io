@@ -1,6 +1,20 @@
 tournament-name: Easter Links
 date: '2018-03-26'
 resource-creators:
+  - name: Golf Clash Tommy
+    resources:
+    - title: Rookie Guide
+      url: https://youtu.be/IQmpD_cBAZU
+    - title: Pro / Expert Guide
+      url: https://youtu.be/It5eX51ACSk
+    - title: Masters Guide
+      url: https://youtu.be/zKAFpdkClOk
+    - title: Text Guide
+      url: https://imgur.com/a/bsRWw
+  - name: ItsRJTV
+    resources:
+    - title: Qualifying Round (Pro)
+      url: https://youtu.be/_6pONgtOU2Q
 holes:
   - number: 1
     course: Juniper Point

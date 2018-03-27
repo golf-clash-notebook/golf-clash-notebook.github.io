@@ -25,11 +25,25 @@ holes:
       - name: Golf Clash Tommy
         resources:
         - title: Rookie Guide
-          url: https://youtu.be/tlaY7E1H4ic
+          url: https://youtu.be/566-b0bG3mo
         - title: Pro / Expert Guide
           url: https://youtu.be/lW5eyLRk65g
         - title: Text Guide
-          url: https://i.imgur.com/HggW8CU.jpg
+          url: https://i.imgur.com/HuKrFpa.png
+      - name: Zachary Jones
+        resources:
+        - title: Easter Links - Rookie
+          url: https://youtu.be/ztmEKaHyfek
+        - title: Easter Links - Pro
+          url: https://youtu.be/Q-uRkfxogc0
+        - title: Easter Links - Expert
+          url: https://youtu.be/QwD-nCkOq8o
+        - title: Easter Links - Masters
+          url: https://youtu.be/vmS21Wcksns
+      - name: Kevin Warren
+        resources:
+        - title: Easter Links - Pro
+          url: https://youtu.be/zMLkC2AKp2w
     overlays:
       size: [395, 863]
       guides:
@@ -111,14 +125,26 @@ holes:
     resource-creators:
       - name: Golf Clash Tommy
         resources:
+        - title: Rookie Guide
+          url: https://youtu.be/u2UyvWYUgFw
         - title: Pro / Expert Guide
           url: https://youtu.be/N120umy_9Ho
-        - title: Rookie Guide
-          url: https://youtu.be/NCnys79fxJU
-        - title: Pro / Expert Guide
-          url: https://youtu.be/1iClx4gwsO8
         - title: Text Guide
-          url: https://i.imgur.com/tBstKpS.jpg
+          url: https://i.imgur.com/50Nv0bc.png
+      - name: Zachary Jones
+        resources:
+        - title: Easter Links - Rookie
+          url: https://youtu.be/bz93lqUWWDQ
+        - title: Easter Links - Pro
+          url: https://youtu.be/yyceKyTSMuc
+        - title: Easter Links - Expert
+          url: https://youtu.be/y3u3DH70U8Q
+        - title: Easter Links - Masters
+          url: https://youtu.be/B8t8q3-6G_U
+      - name: Kevin Warren
+        resources:
+        - title: Easter Links - Pro
+          url: https://youtu.be/pTWo6KQfAzc
     overlays:
       size: [446, 843]
       guides:
@@ -168,11 +194,25 @@ holes:
       - name: Golf Clash Tommy
         resources:
         - title: Rookie Guide
-          url: https://youtu.be/m4oNutvTEKM
+          url: https://youtu.be/qqPx7fbaU7o
         - title: Pro / Expert Guide
           url: https://youtu.be/hBvwkTOUscY
         - title: Text Guide
-          url: https://i.imgur.com/KzHsOpd.jpg
+          url: https://i.imgur.com/xwm2DLs.png
+      - name: Zachary Jones
+        resources:
+        - title: Easter Links - Rookie
+          url: https://youtu.be/va-l4vQusjY
+        - title: Easter Links - Pro
+          url: https://youtu.be/wqU0TNa9k-4
+        - title: Easter Links - Expert
+          url: https://youtu.be/AlG-P0WEus0
+        - title: Easter Links - Masters
+          url: https://youtu.be/O8k6kUwRJ9c
+      - name: Kevin Warren
+        resources:
+        - title: Easter Links - Pro
+          url: https://youtu.be/DObhHEcM60g
     overlays:
       size: [449, 1085]
       guides:
@@ -239,6 +279,29 @@ holes:
     description: >
       Help Wanted
     clubRecommendations:
+    resource-creators:
+      - name: Golf Clash Tommy
+        resources:
+        - title: Rookie Guide
+          url: https://youtu.be/AeRTFY2-1xU
+        - title: Pro / Expert Guide
+          url: https://youtu.be/vgBefPQh9gw
+        - title: Text Guide
+          url: https://i.imgur.com/hqBhiMY.png
+      - name: Zachary Jones
+        resources:
+        - title: Easter Links - Rookie
+          url: https://youtu.be/PlSS2h_d3Ms
+        - title: Easter Links - Pro
+          url: https://youtu.be/jXV88POkA0Y
+        - title: Easter Links - Expert
+          url: https://youtu.be/-YM3k51SlNs
+        - title: Easter Links - Masters
+          url: https://youtu.be/VdzrJXknN7E
+      - name: Kevin Warren
+        resources:
+        - title: Easter Links - Pro
+          url: https://youtu.be/X6OsTCzIPa8
     overlays:
   - id: c9d5cbe5-262e-49cb-a6f1-48e40918502a
     current-tournament: true
@@ -248,6 +311,29 @@ holes:
     description: >
       Help Wanted
     clubRecommendations:
+    resource-creators:
+      - name: Golf Clash Tommy
+        resources:
+        - title: Rookie Guide
+          url: https://youtu.be/l9OoxNbTfic
+        - title: Pro / Expert Guide
+          url: https://youtu.be/dL1ZeoDEavc
+        - title: Text Guide
+          url: https://i.imgur.com/M0dy267.png
+      - name: Zachary Jones
+        resources:
+        - title: Easter Links - Rookie
+          url: https://youtu.be/sD47eMDobdw
+        - title: Easter Links - Pro
+          url: https://youtu.be/bZnOY258-eI
+        - title: Easter Links - Expert
+          url: https://youtu.be/u07VyjJjtOc
+        - title: Easter Links - Masters
+          url: https://youtu.be/xjACuwARiw8
+      - name: Kevin Warren
+        resources:
+        - title: Easter Links - Pro
+          url: https://youtu.be/eZn-UXh0vYM
     overlays:
   - id: 8f0fb665-4802-4f8f-a823-35b3cae6f26c
     current-tournament: true
@@ -271,12 +357,26 @@ holes:
     resource-creators:
       - name: Golf Clash Tommy
         resources:
+        - title: Rookie Guide
+          url: https://youtu.be/nl88aJNj9Yg
         - title: Pro / Expert Guide
           url: https://youtu.be/ITyKGhv5E0I
-        - title: Pro / Expert Guide
-          url: https://youtu.be/K2MAfU6Kcu0
         - title: Text Guide
-          url: https://i.imgur.com/50dckqd.jpg
+          url: https://i.imgur.com/cfUw2IH.png
+      - name: Zachary Jones
+        resources:
+        - title: Easter Links - Rookie
+          url: https://youtu.be/UIKC5LWhzvk
+        - title: Easter Links - Pro
+          url: https://youtu.be/NkBg51_5JNE
+        - title: Easter Links - Expert
+          url: https://youtu.be/zLA63Bem0bo
+        - title: Easter Links - Masters
+          url: https://youtu.be/QMjnHeWopvg
+      - name: Kevin Warren
+        resources:
+        - title: Easter Links - Pro
+          url: https://youtu.be/mVd_x2Gzy_0
     overlays:
       size: [396, 938]
       guides:
@@ -347,6 +447,29 @@ holes:
     description: >
       Help Wanted
     clubRecommendations:
+    resource-creators:
+      - name: Golf Clash Tommy
+        resources:
+        - title: Rookie Guide
+          url: https://youtu.be/FZk5yxyD954
+        - title: Pro / Expert Guide
+          url: https://youtu.be/pGDkxhsmDyo
+        - title: Text Guide
+          url: https://i.imgur.com/MzaPHgq.png
+      - name: Zachary Jones
+        resources:
+        - title: Easter Links - Rookie
+          url: https://youtu.be/GAGo1dXZaE4
+        - title: Easter Links - Pro
+          url: https://youtu.be/G7icNQc1IhQ
+        - title: Easter Links - Expert
+          url: https://youtu.be/ZHQaC_3OSEI
+        - title: Easter Links - Masters
+          url: https://youtu.be/9mzF2QgQfHw
+      - name: Kevin Warren
+        resources:
+        - title: Easter Links - Pro
+          url: https://youtu.be/mw78vQ9ZwxA
     overlays:
   - id: 833ca5f4-813c-4b4c-8194-fd508a6611c6
     current-tournament: true
@@ -356,6 +479,29 @@ holes:
     description: >
       Help Wanted
     clubRecommendations:
+    resource-creators:
+      - name: Golf Clash Tommy
+        resources:
+        - title: Rookie Guide
+          url: https://youtu.be/I43RN1MnSd0
+        - title: Pro / Expert Guide
+          url: https://youtu.be/tRGa3gQsfU4
+        - title: Text Guide
+          url: https://i.imgur.com/WCTFGh7.png
+      - name: Zachary Jones
+        resources:
+        - title: Easter Links - Rookie
+          url: https://youtu.be/zldGDSS70Wg
+        - title: Easter Links - Pro
+          url: https://youtu.be/JX_4N1Bo01I
+        - title: Easter Links - Expert
+          url: https://youtu.be/vZEnjM0vIag
+        - title: Easter Links - Masters
+          url: https://youtu.be/FPRXVJZLYvY
+      - name: Kevin Warren
+        resources:
+        - title: Easter Links - Pro
+          url: https://youtu.be/PUHuKG0ge6I
     overlays:
   - id: 84427923-664c-4701-a1f5-58108b952647
     current-tournament: true
@@ -365,4 +511,27 @@ holes:
     description: >
       Help Wanted
     clubRecommendations:
+    resource-creators:
+      - name: Golf Clash Tommy
+        resources:
+        - title: Rookie Guide
+          url: https://youtu.be/I-ZA7NeRf-0
+        - title: Pro / Expert Guide
+          url: https://youtu.be/Yz_j0_MO4X8
+        - title: Text Guide
+          url: https://i.imgur.com/wryHVcT.png
+      - name: Zachary Jones
+        resources:
+        - title: Easter Links - Rookie
+          url: https://youtu.be/I4W9Gf7jSUs
+        - title: Easter Links - Pro
+          url: https://youtu.be/uXpO-aMFlLA
+        - title: Easter Links - Expert
+          url: https://youtu.be/oSBbg4mFzDc
+        - title: Easter Links - Masters
+          url: https://youtu.be/pbbdYfdy61o
+      - name: Kevin Warren
+        resources:
+        - title: Easter Links - Pro
+          url: https://youtu.be/pI3b2dZeEyY
     overlays:
