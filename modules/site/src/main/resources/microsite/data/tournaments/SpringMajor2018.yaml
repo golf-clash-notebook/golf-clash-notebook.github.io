@@ -1,0 +1,22 @@
+tournament-name: Spring Major 2018
+date: '2018-04-02'
+resource-creators:
+holes:
+  - number: 1
+    id: c6e85c42-f3f2-4baa-ab54-65b2a17eea75
+  - number: 2
+    id: 8b2a0801-dd19-4d25-a7e1-d7503c8fc7ae
+  - number: 3
+    id: 7d5e9469-77d3-4e9e-a302-9e96ed8873d5
+  - number: 4
+    id: 6981cb76-96b7-4704-bf2d-9cff4254681d
+  - number: 5
+    id: 951df375-d0d3-495e-95c0-d9c0ad97aa7d
+  - number: 6
+    id: b52a8bb1-2cb2-4de9-8e82-a02d180d7d54
+  - number: 7
+    id: 35b5f6cf-916c-404d-9a57-aeb2ec0a693c
+  - number: 8
+    id: da61ce03-5e0f-47ed-844c-f5a98c55f846
+  - number: 9
+    id: a0d9b22c-70e6-43c4-8022-27387295e9c1

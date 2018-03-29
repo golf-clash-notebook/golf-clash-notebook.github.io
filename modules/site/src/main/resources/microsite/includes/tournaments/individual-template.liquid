@@ -43,11 +43,11 @@ section: "tournaments"
           <div class="panel panel-default">
             <div class="panel-heading">
               <a href="/tournaments/{{ tournamentPath }}/{{ hole.number }}/">
-                Hole {{ hole.number }} - Par {{ hole.par }}
+                Hole {{ pageHole.number }} - Par {{ hole.par }}
               </a>
             </div>
             <div class="panel-body">
-              <a href="/tournaments/{{ tournamentPath }}/{{ hole.number }}/">
+              <a href="/tournaments/{{ tournamentPath }}/{{ pageHole.number }}/">
                 <img class="img-responsive img-center" src="/img/golfclash/courses/{{ holeCoursePath }}/{{ hole.number }}-thumb.png">
               </a>
             </div>
