@@ -41,29 +41,20 @@ resource-creators:
       url: https://youtu.be/E-YPL2nrb3E
 holes:
   - number: 1
-    course: Glenmonarch Estate
-    course-hole: 2
+    id: 956ca238-06a7-4aed-bd87-54b0f7638384
   - number: 2
-    course: Glenmonarch Estate
-    course-hole: 1
+    id: 32438d22-96fb-40af-9625-8491bfdfac2b
   - number: 3
-    course: Glenmonarch Estate
-    course-hole: 9
+    id: 15bc87ac-1b7f-4a74-8e88-8ac5c8492afc
   - number: 4
-    course: Glenmonarch Estate
-    course-hole: 5
+    id: 3bf723fa-a6dc-4c9f-bb7c-840379a8e7c1
   - number: 5
-    course: Glenmonarch Estate
-    course-hole: 7
+    id: ea520478-83be-438b-b043-a78dc8b5ad6d
   - number: 6
-    course: Glenmonarch Estate
-    course-hole: 3
+    id: d880d1a0-1742-4356-aab1-0aed6a81ff61
   - number: 7
-    course: Glenmonarch Estate
-    course-hole: 6
+    id: bbd7910c-52a4-44fe-93b9-bcea4676d02f
   - number: 8
-    course: Glenmonarch Estate
-    course-hole: 4
+    id: 982bb7ec-be4f-4400-a040-a21f816aacee
   - number: 9
-    course: Glenmonarch Estate
-    course-hole: 8
+    id: 929ce86e-c9e1-4065-bd31-2d09609fda26

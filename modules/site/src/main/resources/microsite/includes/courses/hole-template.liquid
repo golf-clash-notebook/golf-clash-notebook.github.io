@@ -4,11 +4,20 @@ title: "{{ page.course }} - Hole {{ page.number }}"
 section: "courses"
 ---
 
-{% assign coursePath = page.course | remove: " " %}
-{% assign holeIx = page.number | minus: 1 %}
-{% assign hole = site.data.courses[coursePath].holes[holeIx] %}
+{% assign coursePath = undefined %}
+{% assign hole = undefined %}
+{% assign numHoles = undefined %}
 
-{% assign numHoles = site.data.courses[coursePath].holes | size %}
+{% for courseHash in site.data.courses %}
+  {% assign course = courseHash[1] %}
+  {% for courseHole in course.holes %}
+    {% if courseHole.id == page.id %}
+      {% assign coursePath = courseHole.course | remove: " " %}
+      {% assign hole = courseHole %}
+      {% assign numHoles = course.holes | size %}
+    {% endif %}
+  {% endfor %}
+{% endfor %}
 
 {% capture holeAliasesJson %}
   {% if hole.aliases != undefined and hole.aliases != empty %}
@@ -26,11 +35,11 @@ section: "courses"
     <h2 class="gcn-page-subheader">Hole {{ page.number }} - Par {{ page.par }}</h2>
     <nav class="text-center" aria-label="Course hole navigation">
       <ul class="pagination pagination-sm justify-content-center margin-8">
-        {% for hole in (1..numHoles) %}
-          {% if hole == page.number %}
+        {% for holeIx in (1..numHoles) %}
+          {% if holeIx == page.number %}
             <li class="page-item active"><a class="page-link" href="#">{{ page.number }}</a></li>
           {% else %}
-            <li class="page-item"><a class="page-link" href="/courses/{{ coursePath }}/{{ hole }}/">{{ hole }}</a></li>
+            <li class="page-item"><a class="page-link" href="/courses/{{ coursePath }}/{{ holeIx }}/">{{ holeIx }}</a></li>
           {% endif %}
         {% endfor %}
       </ul>
@@ -80,11 +89,11 @@ section: "courses"
       <h5 class="text-center">Hole {{ page.number }} - Par {{ page.par }}</h5>
       <nav class="text-center" aria-label="Course hole navigation">
         <ul class="pagination pagination-sm justify-content-center margin-8">
-          {% for hole in (1..numHoles) %}
-            {% if hole == page.number %}
+          {% for holeIx in (1..numHoles) %}
+            {% if holeIx == page.number %}
               <li class="page-item active"><a class="page-link" href="#">{{ page.number }}</a></li>
             {% else %}
-              <li class="page-item"><a class="page-link" href="/courses/{{ coursePath }}/{{ hole }}/">{{ hole }}</a></li>
+              <li class="page-item"><a class="page-link" href="/courses/{{ coursePath }}/{{ holeIx }}/">{{ holeIx }}</a></li>
             {% endif %}
           {% endfor %}
         </ul>

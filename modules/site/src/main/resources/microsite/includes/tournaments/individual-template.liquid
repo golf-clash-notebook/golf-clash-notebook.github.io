@@ -24,23 +24,31 @@ section: "tournaments"
 
       {% assign numHoles = page.holes | size %}
 
-      {% for hole in page.holes %}
+      {% for pageHole in page.holes %}
 
-        {% assign holeCoursePath = hole.course | remove: " " %}
-        {% assign courseHoleIx = hole.course-hole | minus: 1 %}
+        {% assign holeCoursePath = undefined %}
+        {% assign hole = undefined %}
 
-        {% assign par = site.data.courses[holeCoursePath].holes[courseHoleIx].par %}
+        {% for courseHash in site.data.courses %}
+          {% assign course = courseHash[1] %}
+          {% for courseHole in course.holes %}
+            {% if courseHole.id == pageHole.id %}
+              {% assign holeCoursePath = courseHole.course | remove: " " %}
+              {% assign hole = courseHole %}
+            {% endif %}
+          {% endfor %}
+        {% endfor %}
 
         <div class="col-lg-4 col-md-4 col-sm-12 text-center">
           <div class="panel panel-default">
             <div class="panel-heading">
               <a href="/tournaments/{{ tournamentPath }}/{{ hole.number }}/">
-                Hole {{ hole.number }} - Par {{ par }}
+                Hole {{ hole.number }} - Par {{ hole.par }}
               </a>
             </div>
             <div class="panel-body">
               <a href="/tournaments/{{ tournamentPath }}/{{ hole.number }}/">
-                <img class="img-responsive img-center" src="/img/golfclash/courses/{{ holeCoursePath }}/{{ hole.course-hole }}-thumb.png">
+                <img class="img-responsive img-center" src="/img/golfclash/courses/{{ holeCoursePath }}/{{ hole.number }}-thumb.png">
               </a>
             </div>
           </div>

@@ -41,29 +41,20 @@ resource-creators:
       url: https://youtu.be/iNjsYD0u9fI
 holes:
   - number: 1
-    course: Namhae Cliffs
-    course-hole: 1
+    id: 33424886-13ab-48b2-9813-5d9b336d02c5
   - number: 2
-    course: Namhae Cliffs
-    course-hole: 3
+    id: e17fa3e6-d1a1-4409-808e-6586d953c82b
   - number: 3
-    course: Greenoch Point
-    course-hole: 4
+    id: 6ea3d593-3acb-4552-821b-b784c19e0672
   - number: 4
-    course: Sunshine Glades
-    course-hole: 3
+    id: ceec18c9-cda1-436d-bdb1-1f2454b46436
   - number: 5
-    course: Sunshine Glades
-    course-hole: 1
+    id: f30c2f43-c8dc-4762-bc7b-77b6d196d0e2
   - number: 6
-    course: Southern Pines
-    course-hole: 1
+    id: 35b5f6cf-916c-404d-9a57-aeb2ec0a693c
   - number: 7
-    course: Southern Pines
-    course-hole: 9
+    id: 951df375-d0d3-495e-95c0-d9c0ad97aa7d
   - number: 8
-    course: Southern Pines
-    course-hole: 3
+    id: 6981cb76-96b7-4704-bf2d-9cff4254681d
   - number: 9
-    course: The Oasis
-    course-hole: 3
+    id: c6dee008-9374-4e0f-8ae5-d7b456a1e970

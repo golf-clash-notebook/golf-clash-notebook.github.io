@@ -17,29 +17,20 @@ resource-creators:
       url: https://youtu.be/_6pONgtOU2Q
 holes:
   - number: 1
-    course: Juniper Point
-    course-hole: 1
+    id: f73bea1d-3683-48f8-92e8-12abddd88d16
   - number: 2
-    course: Juniper Point
-    course-hole: 2
+    id: 48316f6b-6037-4b43-8eff-7d4c345a0929
   - number: 3
-    course: Juniper Point
-    course-hole: 3
+    id: b31d9248-cdb3-4549-933a-9d596a7d81ee
   - number: 4
-    course: Juniper Point
-    course-hole: 4
+    id: c35b816e-75dd-4cda-83df-a4b6639d54f3
   - number: 5
-    course: Juniper Point
-    course-hole: 5
+    id: c9d5cbe5-262e-49cb-a6f1-48e40918502a
   - number: 6
-    course: Juniper Point
-    course-hole: 6
+    id: 8f0fb665-4802-4f8f-a823-35b3cae6f26c
   - number: 7
-    course: Juniper Point
-    course-hole: 7
+    id: 7777d535-cb89-4d83-b8a7-831cc61fbc66
   - number: 8
-    course: Juniper Point
-    course-hole: 8
+    id: 833ca5f4-813c-4b4c-8194-fd508a6611c6
   - number: 9
-    course: Juniper Point
-    course-hole: 9
+    id: 84427923-664c-4701-a1f5-58108b952647

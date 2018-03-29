@@ -15,29 +15,20 @@ resource-creators:
       url: https://youtu.be/N9wF1cQf_Rk
 holes:
   - number: 1
-    course: Sunshine Glades
-    course-hole: 1
+    id: f30c2f43-c8dc-4762-bc7b-77b6d196d0e2
   - number: 2
-    course: Sunshine Glades
-    course-hole: 3
+    id: ceec18c9-cda1-436d-bdb1-1f2454b46436
   - number: 3
-    course: Sunshine Glades
-    course-hole: 2
+    id: 78852573-8b79-49e7-999a-e7a20b220baf
   - number: 4
-    course: Sunshine Glades
-    course-hole: 4
+    id: a427fbaf-3e27-411a-8a51-3a5bd53e2605
   - number: 5
-    course: Southern Pines
-    course-hole: 6
+    id: 8b2a0801-dd19-4d25-a7e1-d7503c8fc7ae
   - number: 6
-    course: Southern Pines
-    course-hole: 3
+    id: 6981cb76-96b7-4704-bf2d-9cff4254681d
   - number: 7
-    course: Southern Pines
-    course-hole: 9
+    id: 951df375-d0d3-495e-95c0-d9c0ad97aa7d
   - number: 8
-    course: Southern Pines
-    course-hole: 8
+    id: 7d5e9469-77d3-4e9e-a302-9e96ed8873d5
   - number: 9
-    course: Southern Pines
-    course-hole: 1
+    id: 35b5f6cf-916c-404d-9a57-aeb2ec0a693c

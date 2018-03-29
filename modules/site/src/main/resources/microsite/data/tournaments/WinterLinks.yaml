@@ -29,29 +29,20 @@ resource-creators:
       url: https://youtu.be/e3-kQe9F8TE
 holes:
   - number: 1
-    course: Winter Links
-    course-hole: 1
+    id: 54ae0c59-8518-40ca-8d30-0580f1403baf
   - number: 2
-    course: Winter Links
-    course-hole: 2
+    id: 6278b891-b740-405d-b50e-fb2d7d51f701
   - number: 3
-    course: Winter Links
-    course-hole: 3
+    id: e94dfbeb-f8d3-4a38-817b-50dd90f499f6
   - number: 4
-    course: Winter Links
-    course-hole: 4
+    id: 25ee67c7-f844-4d12-ae35-0876c69211c5
   - number: 5
-    course: Winter Links
-    course-hole: 5
+    id: 7a0b650d-6339-4c34-a391-beaf9b5874d5
   - number: 6
-    course: Winter Links
-    course-hole: 6
+    id: c8bfcf6b-dd84-4db4-827f-694839f7ff60
   - number: 7
-    course: Winter Links
-    course-hole: 7
+    id: 6de9d41d-f723-4a64-b279-c021634ed8e6
   - number: 8
-    course: Winter Links
-    course-hole: 8
+    id: 195308db-3b43-4161-b2b9-d517669b17c4
   - number: 9
-    course: Winter Links
-    course-hole: 9
+    id: c8617a92-c408-4bb8-9fd1-342d5fdcaded
