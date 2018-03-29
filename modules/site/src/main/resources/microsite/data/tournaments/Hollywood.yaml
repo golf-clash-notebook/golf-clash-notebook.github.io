@@ -51,29 +51,20 @@ resource-creators:
       url: https://youtu.be/T8oOhIoNhkQ
 holes:
   - number: 1
-    course: Santa Ventura
-    course-hole: 1
+    id: 24fea90b-eadc-4a99-85b2-1efea61c6e85
   - number: 2
-    course: Santa Ventura
-    course-hole: 2
+    id: 30a00d7f-7319-473d-8156-d3f933f853e4
   - number: 3
-    course: Santa Ventura
-    course-hole: 3
+    id: 1906dee0-0a85-4adc-adbf-acaff2bc3f6f
   - number: 4
-    course: Santa Ventura
-    course-hole: 4
+    id: 1083f47b-b2a8-4dde-bfa2-0ea3b2a32073
   - number: 5
-    course: Santa Ventura
-    course-hole: 5
+    id: f9a598d5-e52b-476c-8e38-a8cb4bd7f76e
   - number: 6
-    course: Santa Ventura
-    course-hole: 6
+    id: be8071a9-f4a3-4dcf-aaba-b3adf94fdafa
   - number: 7
-    course: Santa Ventura
-    course-hole: 7
+    id: 8f83166b-cd0e-426f-a2b6-fb659089b3fa
   - number: 8
-    course: Santa Ventura
-    course-hole: 8
+    id: 6f8e0144-ffbb-4f98-9585-e17626be6559
   - number: 9
-    course: Santa Ventura
-    course-hole: 9
+    id: 0e418963-9399-4d7b-b7ec-a5af5318e75d

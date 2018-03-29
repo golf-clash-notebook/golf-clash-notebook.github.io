@@ -27,29 +27,20 @@ resource-creators:
       url: https://youtu.be/X25gZWy1LAY
 holes:
   - number: 1
-    course: Gokasho Bay
-    course-hole: 1
+    id: 3e3986fa-be14-4521-932c-dc005a19549a
   - number: 2
-    course: Gokasho Bay
-    course-hole: 2
+    id: b06d3cae-e333-47eb-a97b-6d62b7b7cc7c
   - number: 3
-    course: Gokasho Bay
-    course-hole: 3
+    id: 9f41dd16-0e99-4844-93b2-11b0aa1814d7
   - number: 4
-    course: Gokasho Bay
-    course-hole: 4
+    id: 96835e31-f31c-4f59-b448-e34c894ef6f9
   - number: 5
-    course: Gokasho Bay
-    course-hole: 5
+    id: f75f7893-e55e-4d43-8c67-769fa499827b
   - number: 6
-    course: Gokasho Bay
-    course-hole: 6
+    id: 607ca95c-57f4-4f6c-9836-3b63d14effff
   - number: 7
-    course: Gokasho Bay
-    course-hole: 7
+    id: b1d61c9b-c8a0-48e8-904e-cd6cb21fbe56
   - number: 8
-    course: Gokasho Bay
-    course-hole: 8
+    id: ee1e67ec-30e7-4605-99cd-0c1b709c1035
   - number: 9
-    course: Gokasho Bay
-    course-hole: 9
+    id: 7e653bf5-6141-41f0-90a0-11042470f533

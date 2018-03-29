@@ -23,29 +23,20 @@ resource-creators:
       url: https://youtu.be/tyhdlGhJ2cc
 holes:
   - number: 1
-    course: Haunted Hills
-    course-hole: 1
+    id: 8be692b0-5d4f-4a46-a557-dd3cdff41f9c
   - number: 2
-    course: Haunted Hills
-    course-hole: 2
+    id: ad378689-bd45-439c-84c0-78fc4e5cc483
   - number: 3
-    course: Haunted Hills
-    course-hole: 3
+    id: 9570b414-f125-4cca-8418-a7532e08aa3d
   - number: 4
-    course: Haunted Hills
-    course-hole: 4
+    id: eaf44afd-cf3f-493f-916b-03e319206d71
   - number: 5
-    course: Haunted Hills
-    course-hole: 5
+    id: 8e86ac8d-f72a-435b-9312-35e382f506b4
   - number: 6
-    course: Haunted Hills
-    course-hole: 6
+    id: f9c47bc5-7b4c-4709-9654-9979fed745a3
   - number: 7
-    course: Haunted Hills
-    course-hole: 7
+    id: 9925b05f-a66f-4b16-80cd-e8ccd6458d69
   - number: 8
-    course: Haunted Hills
-    course-hole: 8
+    id: a7e7d3ee-22af-459b-a046-a7fc9d73446d
   - number: 9
-    course: Haunted Hills
-    course-hole: 9
+    id: cb4e6479-839f-4a28-865f-7e537cc935e3

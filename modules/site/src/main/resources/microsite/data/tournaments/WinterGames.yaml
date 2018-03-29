@@ -43,29 +43,20 @@ resource-creators:
       url: https://youtu.be/UWW4ZSjHDug
 holes:
   - number: 1
-    course: Winter Olympics
-    course-hole: 1
+    id: 943116b8-1bcb-43df-829e-349c14933f1c
   - number: 2
-    course: Winter Olympics
-    course-hole: 2
+    id: 4c3cbf6a-1b1b-4aa6-a413-6c5c96f6d377
   - number: 3
-    course: Winter Olympics
-    course-hole: 3
+    id: f3bfe4b1-7e86-4d69-8c09-312d69088bbd
   - number: 4
-    course: Winter Olympics
-    course-hole: 4
+    id: fa2478fa-bdf2-4b1c-9409-89d80f1e6359
   - number: 5
-    course: Winter Olympics
-    course-hole: 5
+    id: 9b676878-9162-47a8-ada9-a16a5456316d
   - number: 6
-    course: Winter Olympics
-    course-hole: 6
+    id: f9cc317a-341d-4d0c-91a9-7fb2ee1061b2
   - number: 7
-    course: Winter Olympics
-    course-hole: 7
+    id: 3f053109-7927-4eec-8c62-5cbbc4f37ff0
   - number: 8
-    course: Winter Olympics
-    course-hole: 8
+    id: 1dea8658-46e4-47a8-ba66-52ff35f3eac2
   - number: 9
-    course: Winter Olympics
-    course-hole: 9
+    id: d2d57c64-2462-4b50-8939-e5c660fcd5a5

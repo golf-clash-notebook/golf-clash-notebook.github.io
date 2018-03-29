@@ -2,29 +2,20 @@ tournament-name: Asia Pacific
 date: '2017-05-22'
 holes:
   - number: 1
-    course: Gokasho Bay
-    course-hole: 8
+    id: ee1e67ec-30e7-4605-99cd-0c1b709c1035
   - number: 2
-    course: Gokasho Bay
-    course-hole: 3
+    id: 9f41dd16-0e99-4844-93b2-11b0aa1814d7
   - number: 3
-    course: Gokasho Bay
-    course-hole: 6
+    id: 607ca95c-57f4-4f6c-9836-3b63d14effff
   - number: 4
-    course: Sakura Hills
-    course-hole: 3
+    id: bb9f55d2-057b-4082-af8b-24a14696a2f6
   - number: 5
-    course: Sakura Hills
-    course-hole: 6
+    id: 3af2f2c8-9548-41ce-9f04-be46b432d324
   - number: 6
-    course: Sakura Hills
-    course-hole: 1
+    id: 855c43fb-cf83-4d15-8d1e-c868cbc64b63
   - number: 7
-    course: Namhae Cliffs
-    course-hole: 1
+    id: 33424886-13ab-48b2-9813-5d9b336d02c5
   - number: 8
-    course: Namhae Cliffs
-    course-hole: 2
+    id: 1b8f133e-bd1e-45e7-994c-c04eccfec9fe
   - number: 9
-    course: Namhae Cliffs
-    course-hole: 3
+    id: e17fa3e6-d1a1-4409-808e-6586d953c82b

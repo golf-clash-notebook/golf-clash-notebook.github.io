@@ -11,29 +11,20 @@ resource-creators:
       url: https://youtu.be/ryyPOh11QfU
 holes:
   - number: 1
-    course: The Milano
-    course-hole: 2
+    id: 03464ae3-a556-49ee-8526-b8b6d57450ab
   - number: 2
-    course: The Milano
-    course-hole: 1
+    id: 330d44fa-7e2d-4fda-bdb5-f96fa9c0258f
   - number: 3
-    course: The Milano
-    course-hole: 4
+    id: e848d24c-b050-49da-a898-83bee9ef0e97
   - number: 4
-    course: Glenmonarch Estate
-    course-hole: 3
+    id: d880d1a0-1742-4356-aab1-0aed6a81ff61
   - number: 5
-    course: Glenmonarch Estate
-    course-hole: 1
+    id: 32438d22-96fb-40af-9625-8491bfdfac2b
   - number: 6
-    course: Glenmonarch Estate
-    course-hole: 2
+    id: 956ca238-06a7-4aed-bd87-54b0f7638384
   - number: 7
-    course: The Oasis
-    course-hole: 4
+    id: 1ac9e3f4-edfc-4c57-9635-5986e37c695b
   - number: 8
-    course: The Oasis
-    course-hole: 2
+    id: 1df2d79f-079a-4259-a846-07523700f877
   - number: 9
-    course: The Oasis
-    course-hole: 3
+    id: c6dee008-9374-4e0f-8ae5-d7b456a1e970

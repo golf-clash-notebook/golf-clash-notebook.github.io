@@ -25,29 +25,20 @@ resource-creators:
       url: https://youtu.be/RN-snhoA2Ps
 holes:
   - number: 1
-    course: Santa Ventura
-    course-hole: 5
+    id: f9a598d5-e52b-476c-8e38-a8cb4bd7f76e
   - number: 2
-    course: Santa Ventura
-    course-hole: 1
+    id: 24fea90b-eadc-4a99-85b2-1efea61c6e85
   - number: 3
-    course: Santa Ventura
-    course-hole: 2
+    id: 30a00d7f-7319-473d-8156-d3f933f853e4
   - number: 4
-    course: Santa Ventura
-    course-hole: 3
+    id: 1906dee0-0a85-4adc-adbf-acaff2bc3f6f
   - number: 5
-    course: Vineyard Acres
-    course-hole: 6
+    id: 944bdfca-0abc-41a5-ac97-7e38291f7893
   - number: 6
-    course: Juniper Point
-    course-hole: 2
+    id: 48316f6b-6037-4b43-8eff-7d4c345a0929
   - number: 7
-    course: Juniper Point
-    course-hole: 1
+    id: f73bea1d-3683-48f8-92e8-12abddd88d16
   - number: 8
-    course: Juniper Point
-    course-hole: 6
+    id: 8f0fb665-4802-4f8f-a823-35b3cae6f26c
   - number: 9
-    course: Juniper Point
-    course-hole: 3
+    id: b31d9248-cdb3-4549-933a-9d596a7d81ee

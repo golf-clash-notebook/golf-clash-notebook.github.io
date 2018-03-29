@@ -21,29 +21,20 @@ resource-creators:
       url: https://imgur.com/a/9c8fw
 holes:
   - number: 1
-    course: Santa Ventura
-    course-hole: 2
+    id: 30a00d7f-7319-473d-8156-d3f933f853e4
   - number: 2
-    course: Santa Ventura
-    course-hole: 3
+    id: 1906dee0-0a85-4adc-adbf-acaff2bc3f6f
   - number: 3
-    course: Santa Ventura
-    course-hole: 5
+    id: f9a598d5-e52b-476c-8e38-a8cb4bd7f76e
   - number: 4
-    course: Southern Pines
-    course-hole: 2
+    id: da61ce03-5e0f-47ed-844c-f5a98c55f846
   - number: 5
-    course: Southern Pines
-    course-hole: 7
+    id: c6e85c42-f3f2-4baa-ab54-65b2a17eea75
   - number: 6
-    course: Southern Pines
-    course-hole: 4
+    id: a0d9b22c-70e6-43c4-8022-27387295e9c1
   - number: 7
-    course: The Milano
-    course-hole: 2
+    id: 03464ae3-a556-49ee-8526-b8b6d57450ab
   - number: 8
-    course: The Milano
-    course-hole: 1
+    id: 330d44fa-7e2d-4fda-bdb5-f96fa9c0258f
   - number: 9
-    course: The Milano
-    course-hole: 3
+    id: 81c04a24-b874-4b97-aeec-fa237bee470b
