@@ -368,3 +368,11 @@ page_gen:
     extra:
       title-prefix: 'Easter Links Tournament - Hole '
       tournament-name: 'Easter Links'
+  - index_files: true
+    data: 'tournaments.SpringMajor2018.holes'
+    template: '_includes/tournaments/hole-template.liquid'
+    name: 'number'
+    dir: 'tournaments/SpringMajor2018'
+    extra:
+      title-prefix: 'Spring Major 2018 Tournament - Hole '
+      tournament-name: 'Spring Major 2018'

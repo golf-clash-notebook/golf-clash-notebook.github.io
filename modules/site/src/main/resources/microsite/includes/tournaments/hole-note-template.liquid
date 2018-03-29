@@ -1,7 +1,16 @@
 
-{% assign holeCoursePath = include.hole.course | remove: " " %}
-{% assign holeCourseIx = include.hole.course-hole | minus: 1 %}
-{% assign courseHole = site.data.courses[holeCoursePath].holes[holeCourseIx] %}
+{% assign holeCoursePath = undefined %}
+{% assign courseHole = undefined %}
+
+{% for courseHash in site.data.courses %}
+  {% assign course = courseHash[1] %}
+  {% for hole in course.holes %}
+    {% if hole.id == include.hole.id %}
+      {% assign holeCoursePath = hole.course | remove: " " %}
+      {% assign courseHole = hole %}
+    {% endif %}
+  {% endfor %}
+{% endfor %}
 
 <div class="col-lg-6 note-col">
   <div class="paper text-left margin-4">

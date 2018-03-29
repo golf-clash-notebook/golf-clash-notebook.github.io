@@ -2,6 +2,7 @@ course-name: Southern Pines
 skinned: false
 holes:
   - id: 35b5f6cf-916c-404d-9a57-aeb2ec0a693c
+    current-tournament: true
     course: Southern Pines
     number: 1
     par: 4
@@ -106,6 +107,7 @@ holes:
               <circle cx="331" cy="254" r="6" fill="white" class="guide-point" data-guide-segment="1" />
               <circle cx="341" cy="128" r="6" fill="white" class="guide-point" data-guide-segment="2" />
   - id: da61ce03-5e0f-47ed-844c-f5a98c55f846
+    current-tournament: true
     course: Southern Pines
     number: 2
     par: 3
@@ -187,6 +189,7 @@ holes:
               <circle cx="285" cy="315" r="6" fill="white" class="guide-point" data-guide-segment="1" />
               <circle cx="279" cy="210" r="6" fill="white" class="guide-point" data-guide-segment="2" />
   - id: 6981cb76-96b7-4704-bf2d-9cff4254681d
+    current-tournament: true
     course: Southern Pines
     number: 3
     par: 4
@@ -323,6 +326,7 @@ holes:
               <circle cx="145" cy="293" r="6" fill="blue" class="guide-point" data-guide-segment="1" />
               <circle cx="194" cy="85" r="6" fill="blue" class="guide-point" data-guide-segment="2" />
   - id: a0d9b22c-70e6-43c4-8022-27387295e9c1
+    current-tournament: true
     course: Southern Pines
     number: 4
     par: 5
@@ -459,6 +463,7 @@ holes:
               <circle cx="505" cy="295" r="6" fill="yellow" class="guide-point" data-guide-segment="2" />
               <circle cx="375" cy="150" r="6" fill="yellow" class="guide-point" data-guide-segment="3" />
   - id: b52a8bb1-2cb2-4de9-8e82-a02d180d7d54
+    current-tournament: true
     course: Southern Pines
     number: 5
     par: 5
@@ -470,6 +475,7 @@ holes:
         - title: Rookie Guide
           url: https://youtu.be/VOJ1bqfiovk
   - id: 8b2a0801-dd19-4d25-a7e1-d7503c8fc7ae
+    current-tournament: true
     course: Southern Pines
     number: 6
     par: 3
@@ -494,6 +500,7 @@ holes:
         - title: Pro / Expert Guide
           url: https://youtu.be/0kznKnNiBoY
   - id: c6e85c42-f3f2-4baa-ab54-65b2a17eea75
+    current-tournament: true
     course: Southern Pines
     number: 7
     par: 4
@@ -611,6 +618,7 @@ holes:
               <circle cx="414" cy="428" r="6" fill="yellow" class="guide-point" data-guide-segment="1" />
               <circle cx="452" cy="155" r="6" fill="yellow" class="guide-point" data-guide-segment="2" />
   - id: 7d5e9469-77d3-4e9e-a302-9e96ed8873d5
+    current-tournament: true
     course: Southern Pines
     number: 8
     par: 5
@@ -636,6 +644,7 @@ holes:
         - title: Pro / Expert Guide
           url: https://youtu.be/soYVAZ3ybqk
   - id: 951df375-d0d3-495e-95c0-d9c0ad97aa7d
+    current-tournament: true
     course: Southern Pines
     number: 9
     par: 3
