@@ -82,7 +82,7 @@ object windchartcreator {
             if (club.name.toLowerCase.contains("sniper")) { addClubLevel(ClubLevel(10, club)) }
             if (club.name.toLowerCase.contains("backbone")) { addClubLevel(ClubLevel(10, club)) }
             if (club.name.toLowerCase.contains("hornet")) { addClubLevel(ClubLevel(7, club)) }
-            if (club.name.toLowerCase.contains("rapier")) { addClubLevel(ClubLevel(6, club)) }
+            if (club.name.toLowerCase.contains("rapier")) { addClubLevel(ClubLevel(7, club)) }
             if (club.name.toLowerCase.contains("nirvana")) { addClubLevel(ClubLevel(7, club)) }
             if (club.name.toLowerCase.contains("malibu")) { addClubLevel(ClubLevel(7, club)) }
           }
