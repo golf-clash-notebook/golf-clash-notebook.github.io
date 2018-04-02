@@ -2,7 +2,7 @@ course-name: Southern Pines
 skinned: false
 holes:
   - id: 35b5f6cf-916c-404d-9a57-aeb2ec0a693c
-    current-tournament: true
+    # current-tournament: true
     course: Southern Pines
     number: 1
     par: 4
@@ -25,21 +25,21 @@ holes:
       - name: Golf Clash Tommy
         resources:
         - title: Rookie Guide
-          url: https://youtu.be/pQdEsFECspU
+          url: https://youtu.be/6RXKKHcyd1g
         - title: Pro / Expert Guide
           url: https://youtu.be/wF0JpCaF3Rw
         - title: Text Guide
-          url: https://i.imgur.com/HUOK6pA.png
-      # - title: Rookie Guide
-        # url: https://youtu.be/wFJOigxa9JA
-      # - title: Pro / Expert Guide
-        # url: https://youtu.be/-UH9ZYMr9a8
+          url: https://i.imgur.com/YmwwFJp.png
       - name: Zachary Jones
         resources:
-        - title: Rookie
-          url: https://youtu.be/banZh8HE3ic
-        - title: Pro / Expert
-          url: https://youtu.be/FOB1Aan5fWs
+        - title: Spring Major - Rookie
+          url: https://youtu.be/rf38CUGJ8Qk
+        - title: Spring Major - Pro
+          url: https://youtu.be/KcjKsQsS2sE
+        - title: Spring Major - Expert
+          url: https://youtu.be/uX3BgDDFGfY
+        - title: Spring Major - Masters
+          url: https://youtu.be/dCTQTo6ykJ0
       - name: Kevin Warren
         resources:
         - title: Rookie
@@ -107,7 +107,7 @@ holes:
               <circle cx="331" cy="254" r="6" fill="white" class="guide-point" data-guide-segment="1" />
               <circle cx="341" cy="128" r="6" fill="white" class="guide-point" data-guide-segment="2" />
   - id: da61ce03-5e0f-47ed-844c-f5a98c55f846
-    current-tournament: true
+    # current-tournament: true
     course: Southern Pines
     number: 2
     par: 3
@@ -116,22 +116,33 @@ holes:
     clubRecommendations:
       - level: Rookie
         clubs:
-          - Sniper
-          - Hammerhead
+          - Viper
+          - Big Dawg
       - level: Pro
         clubs:
+          - Sniper
           - Quarterback
-          - Rocket
       - level: Masters
         clubs:
-          - Apocalypse
+          - Quarterback
+          - Thor's Hammer
     resource-creators:
       - name: Golf Clash Tommy
         resources:
         - title: Rookie Guide
-          url: https://youtu.be/2TKiSbBLyWU
+          url: https://youtu.be/9N45V7__Za8
         - title: Text Guide
-          url: https://i.imgur.com/4Y8UdX4.jpg
+          url: https://i.imgur.com/exj0Uvh.png
+      - name: Zachary Jones
+        resources:
+        - title: Spring Major - Rookie
+          url: https://youtu.be/XTqUOJPCLaw
+        - title: Spring Major - Pro
+          url: https://youtu.be/rGCg_f_BHjQ
+        - title: Spring Major - Expert
+          url: https://youtu.be/aGgEVyPkjYc
+        - title: Spring Major - Masters
+          url: https://youtu.be/VSDbTTp_dYg
     overlays:
       size: [546, 1020]
       guides:
@@ -189,7 +200,7 @@ holes:
               <circle cx="285" cy="315" r="6" fill="white" class="guide-point" data-guide-segment="1" />
               <circle cx="279" cy="210" r="6" fill="white" class="guide-point" data-guide-segment="2" />
   - id: 6981cb76-96b7-4704-bf2d-9cff4254681d
-    current-tournament: true
+    # current-tournament: true
     course: Southern Pines
     number: 3
     par: 4
@@ -211,21 +222,21 @@ holes:
       - name: Golf Clash Tommy
         resources:
         - title: Rookie Guide
-          url: https://youtu.be/NAR7JRdqtJA
+          url: https://youtu.be/poyaFYBG1Cs
         - title: Pro / Expert Guide
           url: https://youtu.be/2iyCvx3Afuw
         - title: Text Guide
-          url: https://i.imgur.com/f4pAF01.png
-#       - title: Rookie Guide
-#         url: https://youtu.be/kE1TNCK1_WM
-#       - title: Pro / Expert Guide
-#         url: https://youtu.be/V3Rt5IjcSEA
+          url: https://i.imgur.com/U4xfMGf.png
       - name: Zachary Jones
         resources:
-        - title: Rookie
-          url: https://youtu.be/pNQO147OxgQ
-        - title: Pro / Expert
-          url: https://youtu.be/94DIvC9GrKo
+        - title: Spring Major - Rookie
+          url: https://youtu.be/sLhmd9MsVkI
+        - title: Spring Major - Pro
+          url: https://youtu.be/9LFpoNdo40w
+        - title: Spring Major - Expert
+          url: https://youtu.be/ZMRMmFRLlls
+        - title: Spring Major - Masters
+          url: https://youtu.be/ZxvamSVTaW8
       - name: Kevin Warren
         resources:
         - title: Rookie
@@ -326,7 +337,7 @@ holes:
               <circle cx="145" cy="293" r="6" fill="blue" class="guide-point" data-guide-segment="1" />
               <circle cx="194" cy="85" r="6" fill="blue" class="guide-point" data-guide-segment="2" />
   - id: a0d9b22c-70e6-43c4-8022-27387295e9c1
-    current-tournament: true
+    # current-tournament: true
     course: Southern Pines
     number: 4
     par: 5
@@ -338,7 +349,7 @@ holes:
           - Big Dawg
       - level: Pro
         clubs:
-          - Big Dawg
+          - Sniper
           - Cataclysm
       - level: Masters
         clubs:
@@ -351,7 +362,17 @@ holes:
         - title: Pro / Expert Guide
           url: https://youtu.be/lj4Ktp_p6gU
         - title: Text Guide
-          url: https://i.imgur.com/l8K2Mtv.jpg
+          url: https://i.imgur.com/P5DuRag.png
+      - name: Zachary Jones
+        resources:
+        - title: Spring Major - Rookie
+          url: https://youtu.be/UpHIqgsVMxM
+        - title: Spring Major - Pro
+          url: https://youtu.be/V2ObSX9UQ8w
+        - title: Spring Major - Expert
+          url: https://youtu.be/gb1X6JL1Sgo
+        - title: Spring Major - Masters
+          url: https://youtu.be/AvfbeiGGgzE
     overlays:
       size: [721, 1063]
       guides:
@@ -371,7 +392,7 @@ holes:
               <circle cx="371" cy="843" r="6" fill="black" class="guide-point" data-guide-segment="0" />
               <circle cx="178" cy="520" r="6" fill="black" class="guide-point" data-guide-segment="1" />
               <circle cx="270" cy="313" r="6" fill="black" class="guide-point" data-guide-segment="2" />
-              <circle cx="348" cy="151" r="6" fill="black" class="guide-point" data-guide-segment="2" />
+              <circle cx="348" cy="151" r="6" fill="black" class="guide-point" data-guide-segment="3" />
           - name: Pro
             svg:
               <path d="M 373 885 L 178 520" stroke="black" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="0" />
@@ -380,7 +401,7 @@ holes:
               <circle cx="373" cy="885" r="6" fill="black" class="guide-point" data-guide-segment="0" />
               <circle cx="178" cy="520" r="6" fill="black" class="guide-point" data-guide-segment="1" />
               <circle cx="270" cy="313" r="6" fill="black" class="guide-point" data-guide-segment="2" />
-              <circle cx="348" cy="151" r="6" fill="black" class="guide-point" data-guide-segment="2" />
+              <circle cx="348" cy="151" r="6" fill="black" class="guide-point" data-guide-segment="3" />
           - name: Masters
             svg:
               <path d="M 374 931 L 178 520" stroke="black" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="0" />
@@ -389,7 +410,7 @@ holes:
               <circle cx="374" cy="931" r="6" fill="black" class="guide-point" data-guide-segment="0" />
               <circle cx="178" cy="520" r="6" fill="black" class="guide-point" data-guide-segment="1" />
               <circle cx="270" cy="313" r="6" fill="black" class="guide-point" data-guide-segment="2" />
-              <circle cx="348" cy="151" r="6" fill="black" class="guide-point" data-guide-segment="2" />
+              <circle cx="348" cy="151" r="6" fill="black" class="guide-point" data-guide-segment="3" />
       - name: White Path
         text: >
           Play this path if you get good tailwind. Bounce your drive before the bunker with max
@@ -463,19 +484,42 @@ holes:
               <circle cx="505" cy="295" r="6" fill="yellow" class="guide-point" data-guide-segment="2" />
               <circle cx="375" cy="150" r="6" fill="yellow" class="guide-point" data-guide-segment="3" />
   - id: b52a8bb1-2cb2-4de9-8e82-a02d180d7d54
-    current-tournament: true
+    # current-tournament: true
     course: Southern Pines
     number: 5
     par: 5
     description: >
       Help Wanted
+    clubRecommendations:
+      - level: Rookie
+        clubs:
+          - Big Topper
+          - Big Dawg
+      - level: Pro
+        clubs:
+          - Apocalypse
+      - level: Masters
+        clubs:
+          - Apocalypse
     resource-creators:
       - name: Golf Clash Tommy
         resources:
         - title: Rookie Guide
-          url: https://youtu.be/VOJ1bqfiovk
+          url: https://youtu.be/TqskRk-LW2s
+        - title: Text Guide
+          url: https://i.imgur.com/GM1oyM8.png
+      - name: Zachary Jones
+        resources:
+        - title: Spring Major - Rookie
+          url: https://youtu.be/Xm68MX9OMxE
+        - title: Spring Major - Pro
+          url: https://youtu.be/HpDtso9CICA
+        - title: Spring Major - Expert
+          url: https://youtu.be/YM4xxSwCxQk
+        - title: Spring Major - Masters
+          url: https://youtu.be/0qT1DhkUe70
   - id: 8b2a0801-dd19-4d25-a7e1-d7503c8fc7ae
-    current-tournament: true
+    # current-tournament: true
     course: Southern Pines
     number: 6
     par: 3
@@ -484,23 +528,36 @@ holes:
     clubRecommendations:
       - level: Rookie
         clubs:
-          - Sniper
+          - Viper
+          - Big Dawg
       - level: Pro
         clubs:
           - Sniper
-          - Extra Mile
+          - Quarterback
       - level: Masters
         clubs:
-          - Extra Mile
+          - Quarterback
     resource-creators:
       - name: Golf Clash Tommy
         resources:
         - title: Rookie Guide
-          url: https://youtu.be/ugbECbn2pYs
+          url: https://youtu.be/xKawBnyh60g
         - title: Pro / Expert Guide
           url: https://youtu.be/0kznKnNiBoY
+        - title: Text Guide
+          url: https://i.imgur.com/lNPCuaG.png
+      - name: Zachary Jones
+        resources:
+        - title: Spring Major - Rookie
+          url: https://youtu.be/Vta7yqSSCXY
+        - title: Spring Major - Pro
+          url: https://youtu.be/s6SjoPpatB0
+        - title: Spring Major - Expert
+          url: https://youtu.be/Dy4Nctu9JCE
+        - title: Spring Major - Masters
+          url: https://youtu.be/t01-CMrMKSc
   - id: c6e85c42-f3f2-4baa-ab54-65b2a17eea75
-    current-tournament: true
+    # current-tournament: true
     course: Southern Pines
     number: 7
     par: 4
@@ -510,24 +567,34 @@ holes:
     clubRecommendations:
       - level: Rookie
         clubs:
-          - Sniper
           - Big Dawg
       - level: Pro
         clubs:
           - Sniper
-          - Cataclysm
+          - Guardian
       - level: Masters
         clubs:
+          - Sniper
           - Cataclysm
     resource-creators:
       - name: Golf Clash Tommy
         resources:
         - title: Rookie Guide
-          url: https://youtu.be/p3W75qc6PWo
+          url: https://youtu.be/admDgTL3MzI
         - title: Pro / Expert Guide
           url: https://youtu.be/kOXxhEdIxkk
         - title: Text Guide
-          url: https://i.imgur.com/ipmvRqt.jpg
+          url: https://i.imgur.com/jEQDY9A.png
+      - name: Zachary Jones
+        resources:
+        - title: Spring Major - Rookie
+          url: https://youtu.be/BC6vfgBRn-0
+        - title: Spring Major - Pro
+          url: https://youtu.be/8u9YSsRJRdA
+        - title: Spring Major - Expert
+          url: https://youtu.be/BLu87EIz9vs
+        - title: Spring Major - Masters
+          url: https://youtu.be/ZjYCtoX6M7I
     overlays:
       size: [585, 1050]
       guides:
@@ -618,7 +685,7 @@ holes:
               <circle cx="414" cy="428" r="6" fill="yellow" class="guide-point" data-guide-segment="1" />
               <circle cx="452" cy="155" r="6" fill="yellow" class="guide-point" data-guide-segment="2" />
   - id: 7d5e9469-77d3-4e9e-a302-9e96ed8873d5
-    current-tournament: true
+    # current-tournament: true
     course: Southern Pines
     number: 8
     par: 5
@@ -627,12 +694,11 @@ holes:
     clubRecommendations:
       - level: Rookie
         clubs:
-          - Sniper
           - Big Dawg
       - level: Pro
         clubs:
+          - Big Dawg
           - Cataclysm
-          - Sniper
       - level: Masters
         clubs:
           - Cataclysm
@@ -640,11 +706,23 @@ holes:
       - name: Golf Clash Tommy
         resources:
         - title: Rookie Guide
-          url: https://youtu.be/1xoJF0osa8Q
+          url: https://youtu.be/qllMHLeIzDs
         - title: Pro / Expert Guide
           url: https://youtu.be/soYVAZ3ybqk
+        - title: Text Guide
+          url: https://i.imgur.com/F8NTkf2.png
+      - name: Zachary Jones
+        resources:
+        - title: Spring Major - Rookie
+          url: https://youtu.be/22myFE0gfC4
+        - title: Spring Major - Pro
+          url: https://youtu.be/mVXVVLi2XyU
+        - title: Spring Major - Expert
+          url: https://youtu.be/uMbw6if5Bko
+        - title: Spring Major - Masters
+          url: https://youtu.be/8Nfl11DIEvE
   - id: 951df375-d0d3-495e-95c0-d9c0ad97aa7d
-    current-tournament: true
+    # current-tournament: true
     course: Southern Pines
     number: 9
     par: 3
@@ -667,21 +745,21 @@ holes:
       - name: Golf Clash Tommy
         resources:
         - title: Rookie Guide
-          url: https://youtu.be/uZ_dALcr_qM
+          url: https://youtu.be/9B3LII_xtLE
         - title: Pro / Expert Guide
           url: https://youtu.be/sVUsLCNmGPw
         - title: Text Guide
-          url: https://i.imgur.com/rw0doGq.jpg
-        # - title: Rookie Guide
-          # url: https://youtu.be/MxFXNWyvfDo
-        # - title: Pro / Expert Guide
-          # url: https://youtu.be/-Bavgs1SmGk
+          url: https://i.imgur.com/PEsb9Tj.png
       - name: Zachary Jones
         resources:
-        - title: Rookie
-          url: https://youtu.be/jTfZLAMV-E8
-        - title: Pro / Expert
-          url: https://youtu.be/aLcYLDkb1yM
+        - title: Spring Major - Rookie
+          url: https://youtu.be/KvWvYgas8Hw
+        - title: Spring Major - Pro
+          url: https://youtu.be/r9nhlQhuZUo
+        - title: Spring Major - Expert
+          url: https://youtu.be/lfCjgSbhCpw
+        - title: Spring Major - Masters
+          url: https://youtu.be/LSZ0iUU--Zw
       - name: Kevin Warren
         resources:
         - title: Rookie

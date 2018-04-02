@@ -1,6 +1,16 @@
 tournament-name: Spring Major 2018
 date: '2018-04-02'
 resource-creators:
+  - name: Golf Clash Tommy
+    resources:
+    - title: Rookie Guide
+      url: https://youtu.be/FQNyuq9nL9g
+    - title: Pro / Expert Guide
+      url: https://youtu.be/pxVT76hXnws
+    - title: Masters Guide
+      url: https://youtu.be/kyAOrNpdPvo
+    - title: Text Guide
+      url: https://imgur.com/a/ZbdRZ
 holes:
   - number: 1
     id: c6e85c42-f3f2-4baa-ab54-65b2a17eea75
