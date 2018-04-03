@@ -131,18 +131,17 @@ object hole {
       .foldLeft(0)(_ + _.toInt)
   }
 
-  def segmentLength(level: String, guideNum: Int, segmentNum: Int): Int = {
+  def segmentLength(level: String, guideNum: Int, segmentNum: Int): List[Int] = {
     jQuery(s".$level-guide-overlay:eq($guideNum) > .guide-path[data-guide-segment='$segmentNum']")
       .map(_.asInstanceOf[js.Dynamic].getTotalLength())
       .toArray
-      .map(_.asInstanceOf[Double])
-      .headOption
-      .map(_.toInt)
-      .getOrElse(0)
+      .map(_.asInstanceOf[Double].toInt)
+      .toList
+    // .foldLeft(0)((max, segLength) => max.max(segLength.toInt))
   }
 
   def lengthBeforeSegment(level: String, guideNum: Int, segmentNum: Int): Int = {
-    (0 to (segmentNum - 1)).map(segmentLength(level, guideNum, _)).foldLeft(0)(_ + _)
+    (0 to (segmentNum - 1)).map(segmentLength(level, guideNum, _).min).foldLeft(0)(_ + _)
   }
 
   def pathLengthToDuration(pathLength: Int): Double = {
@@ -153,7 +152,7 @@ object hole {
     jQuery(s".$level-guide-overlay:eq($guideNum) > .guide-path").each { element =>
       val segmentNum   = jQuery(element).data("guide-segment").asInstanceOf[Int]
       val lengthBefore = lengthBeforeSegment(level, guideNum, segmentNum)
-      val length       = segmentLength(level, guideNum, segmentNum)
+      val length       = segmentLength(level, guideNum, segmentNum).max
 
       val pathElement = jQuery(element).stop().show()
 
