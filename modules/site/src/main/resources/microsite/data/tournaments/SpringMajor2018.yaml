@@ -3,6 +3,8 @@ date: '2018-04-02'
 resource-creators:
   - name: Golf Clash Tommy
     resources:
+    - title: Qualifying Round (Masters & Expert)
+      url: https://youtu.be/98CkvGXaNSY
     - title: Rookie Guide
       url: https://youtu.be/FQNyuq9nL9g
     - title: Pro / Expert Guide
@@ -11,6 +13,10 @@ resource-creators:
       url: https://youtu.be/kyAOrNpdPvo
     - title: Text Guide
       url: https://imgur.com/a/ZbdRZ
+  - name: Chris Taylor
+    resources:
+    - title: Qualifying Round (Masters & Expert)
+      url: https://youtu.be/ZXm3O5wK9pc
 holes:
   - number: 1
     id: c6e85c42-f3f2-4baa-ab54-65b2a17eea75
