@@ -53,6 +53,7 @@ holes:
         text: >
           This is the common way to play the hole. Get as far out as possible. <strong>It's very
           important to get beyond the trees to have a clear second shot into the green.</strong>
+          The more the trees come into play, the more curl you'll need to use on your second shot.
           If you have a left to right wind, make sure to not use max right spin on your approach
           otherwise you'll risk falling down the right slope and leave yourself with a very
           difficult chip.
@@ -148,9 +149,9 @@ holes:
       guides:
       - name: Black Path
         text: >
-          Use max left sidespin and half curl to the right. Combine that with 2 - 3 bars of
-          backspin with your driver or 0 - 1 bars of backspin with your wood. Make sure your
-          second bounce avoids the edge of the fringe or your ball may shoot off track.
+          This is a very tricky par 3. This approach is the most common way to play the hole. You
+          need both curl and sidespin to pull this one off. With driver use 2 bars of backspin and
+          with a wood use 0.5 bars.
         levels:
           - name: Rookie
             svg:
@@ -175,8 +176,9 @@ holes:
               <circle cx="249" cy="211" r="6" fill="black" class="guide-point" data-guide-segment="2" />
       - name: White Path
         text: >
-          Use max left sidespin, no curl and 2 bars of backspin. Only choose this way with your
-          driver and if the wind is in your face or is right to left.
+          This is probably the easiest way get a hole in one, and is probably the best way to play
+          the hole with a left to right wind. Use a couple bars of right sidespin and 2 bars of
+          backspin with a driver. With a wood, use topspin instead.
         levels:
           - name: Rookie
             svg:
@@ -199,6 +201,27 @@ holes:
               <circle cx="219" cy="898" r="6" fill="white" class="guide-point" data-guide-segment="0" />
               <circle cx="285" cy="315" r="6" fill="white" class="guide-point" data-guide-segment="1" />
               <circle cx="279" cy="210" r="6" fill="white" class="guide-point" data-guide-segment="2" />
+      - name: Blue Path
+        text: >
+          This is an option with a driver with at least 70 in backspin. You can land directly on
+          the green and take the bunkers out of play. With tailwind, you'll want a driver with at
+          least 80 in backspin.
+        levels:
+          - name: Rookie
+            svg:
+              <path d="M 226 736 L 259 245" stroke="blue" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="0" />
+              <circle cx="226" cy="736" r="6" fill="blue" class="guide-point" data-guide-segment="0" />
+              <circle cx="259" cy="245" r="6" fill="blue" class="guide-point" data-guide-segment="1" />
+          - name: Pro
+            svg:
+              <path d="M 222 817 L 259 245" stroke="blue" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="0" />
+              <circle cx="222" cy="817" r="6" fill="blue" class="guide-point" data-guide-segment="0" />
+              <circle cx="259" cy="245" r="6" fill="blue" class="guide-point" data-guide-segment="1" />
+          - name: Masters
+            svg:
+              <path d="M 219 898 L 259 245" stroke="blue" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="0" />
+              <circle cx="219" cy="898" r="6" fill="blue" class="guide-point" data-guide-segment="0" />
+              <circle cx="259" cy="245" r="6" fill="blue" class="guide-point" data-guide-segment="1" />
   - id: 6981cb76-96b7-4704-bf2d-9cff4254681d
     current-tournament: true
     course: Southern Pines
@@ -378,11 +401,10 @@ holes:
       guides:
       - name: Black Path
         text: >
-          This is the common way to play the hole with side or headwind. Place your drive up as
-          close to the rough as possible without going in. On your second shot you need to be sure
-          to avoid the center fairway bunker and the rough. You don't need to overpower your shot
-          because you won't reach anyway. If you avoid the bunker, you should have no problem
-          reaching the green in 3.
+          This is the most common way to play the hole. Lay up as close to the rough on the left as
+          possible. From there, you'll need a wood with good accuracy and ball guide. It's important
+          to keep your second shot out of the rough and bunkers. That will leave you with an easy
+          approach to the green.
         levels:
           - name: Rookie
             svg:
@@ -413,10 +435,9 @@ holes:
               <circle cx="348" cy="151" r="6" fill="black" class="guide-point" data-guide-segment="3" />
       - name: White Path
         text: >
-          Play this path if you get good tailwind. Bounce your drive before the bunker with max
-          topspin. If you get good wind on your second shot you may be able to get the green in
-          two. Otherwise, most of the time you'll be able to get over the strip of rough and leave
-          yourself with a short iron to the green.
+          With a tailwind you can go ALL IN. Carry the bunker with your drive and leave your ball
+          close to the 2nd black mark. From there, or even shorter, you can get to the green in two.
+          You'll need a wood with good distance to reach.
         levels:
           - name: Rookie
             svg:
@@ -451,38 +472,46 @@ holes:
               <circle cx="235" cy="405" r="6" fill="white" class="guide-point" data-guide-segment="2" />
               <circle cx="352" cy="198" r="6" fill="white" class="guide-point" data-guide-segment="3" />
               <circle cx="360" cy="151" r="6" fill="white" class="guide-point" data-guide-segment="4" />
-      - name: Yellow Path
+      - name: Blue/Orange Path
         text: >
-          This way is played basically the same as the Black Path. Just be sure to keep your ball
-          out of the rough or you'll have a hard time reaching the green.
+          This is a somewhat less common route. Play your drive up as close to the rough on the
+          right as possible. From there, depending on the wind, you can choose to either continue
+          up the right fairway or cross over the water. If you opt to go right, you'll need a wood
+          with a lot of distance as the shot is LOOONG.
         levels:
           - name: Rookie
             svg:
-              <path d="M 371 843 L 495 459" stroke="yellow" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="0" />
-              <path d="M 495 459 C 533 365 533 365 505 295" stroke="yellow" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="1" />
-              <path d="M 505 295 L 375 150" stroke="yellow" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="2" />
-              <circle cx="371" cy="843" r="6" fill="yellow" class="guide-point" data-guide-segment="0" />
-              <circle cx="495" cy="459" r="6" fill="yellow" class="guide-point" data-guide-segment="1" />
-              <circle cx="505" cy="295" r="6" fill="yellow" class="guide-point" data-guide-segment="2" />
-              <circle cx="375" cy="150" r="6" fill="yellow" class="guide-point" data-guide-segment="3" />
+              <path d="M 371 843 L 495 459" stroke="blue" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="0" />
+              <path d="M 495 459 C 533 365 533 365 505 295" stroke="blue" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="1" />
+              <path d="M 495 459 L 372 235" stroke="orange" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="1" />
+              <path d="M 505 295 L 375 150" stroke="blue" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="2" />
+              <circle cx="371" cy="843" r="6" fill="blue" class="guide-point" data-guide-segment="0" />
+              <circle cx="495" cy="459" r="6" fill="blue" class="guide-point" data-guide-segment="1" />
+              <circle cx="505" cy="295" r="6" fill="blue" class="guide-point" data-guide-segment="2" />
+              <circle cx="372" cy="235" r="6" fill="orange" class="guide-point" data-guide-segment="2" />
+              <circle cx="375" cy="150" r="6" fill="blue" class="guide-point" data-guide-segment="3" />
           - name: Pro
             svg:
-              <path d="M 373 885 L 495 459" stroke="yellow" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="0" />
-              <path d="M 495 459 C 533 365 533 365 505 295" stroke="yellow" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="1" />
-              <path d="M 505 295 L 375 150" stroke="yellow" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="2" />
-              <circle cx="373" cy="885" r="6" fill="yellow" class="guide-point" data-guide-segment="0" />
-              <circle cx="495" cy="459" r="6" fill="yellow" class="guide-point" data-guide-segment="1" />
-              <circle cx="505" cy="295" r="6" fill="yellow" class="guide-point" data-guide-segment="2" />
-              <circle cx="375" cy="150" r="6" fill="yellow" class="guide-point" data-guide-segment="3" />
+              <path d="M 373 885 L 495 459" stroke="blue" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="0" />
+              <path d="M 495 459 C 533 365 533 365 505 295" stroke="blue" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="1" />
+              <path d="M 495 459 L 372 235" stroke="orange" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="1" />
+              <path d="M 505 295 L 375 150" stroke="blue" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="2" />
+              <circle cx="373" cy="885" r="6" fill="blue" class="guide-point" data-guide-segment="0" />
+              <circle cx="495" cy="459" r="6" fill="blue" class="guide-point" data-guide-segment="1" />
+              <circle cx="505" cy="295" r="6" fill="blue" class="guide-point" data-guide-segment="2" />
+              <circle cx="372" cy="235" r="6" fill="orange" class="guide-point" data-guide-segment="2" />
+              <circle cx="375" cy="150" r="6" fill="blue" class="guide-point" data-guide-segment="3" />
           - name: Masters
             svg:
-              <path d="M 374 931 L 495 459" stroke="yellow" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="0" />
-              <path d="M 495 459 C 533 365 533 365 505 295" stroke="yellow" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="1" />
-              <path d="M 505 295 L 375 150" stroke="yellow" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="2" />
-              <circle cx="374" cy="931" r="6" fill="yellow" class="guide-point" data-guide-segment="0" />
-              <circle cx="495" cy="459" r="6" fill="yellow" class="guide-point" data-guide-segment="1" />
-              <circle cx="505" cy="295" r="6" fill="yellow" class="guide-point" data-guide-segment="2" />
-              <circle cx="375" cy="150" r="6" fill="yellow" class="guide-point" data-guide-segment="3" />
+              <path d="M 374 931 L 495 459" stroke="blue" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="0" />
+              <path d="M 495 459 C 533 365 533 365 505 295" stroke="blue" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="1" />
+              <path d="M 495 459 L 372 235" stroke="orange" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="1" />
+              <path d="M 505 295 L 375 150" stroke="blue" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="2" />
+              <circle cx="374" cy="931" r="6" fill="blue" class="guide-point" data-guide-segment="0" />
+              <circle cx="495" cy="459" r="6" fill="blue" class="guide-point" data-guide-segment="1" />
+              <circle cx="505" cy="295" r="6" fill="blue" class="guide-point" data-guide-segment="2" />
+              <circle cx="372" cy="235" r="6" fill="orange" class="guide-point" data-guide-segment="2" />
+              <circle cx="375" cy="150" r="6" fill="blue" class="guide-point" data-guide-segment="3" />
   - id: b52a8bb1-2cb2-4de9-8e82-a02d180d7d54
     current-tournament: true
     course: Southern Pines
@@ -518,6 +547,71 @@ holes:
           url: https://youtu.be/YM4xxSwCxQk
         - title: Spring Major - Masters
           url: https://youtu.be/0qT1DhkUe70
+    overlays:
+      size: [832, 1081]
+      guides:
+      - name: Black Path
+        text: >
+          What may seem like a boring way to play the hole is actually the best way to get a good
+          eagle opportunity. No matter what kind of wind you get, use max overpower on your drive
+          and then again use max overpower with your rough iron on your second shot. That should
+          leave you with a long or short iron to the green. Be sure to use the driver with the most
+          distance and rough iron with the most topspin.
+        levels:
+          - name: Rookie
+            svg:
+              <path d="M 444 831 L 558 453" stroke="black" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="0" />
+              <path d="M 558 453 L 636 260" stroke="black" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="1" />
+              <path d="M 636 260 C 641 198 641 198 618 128" stroke="black" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="2" />
+              <circle cx="444" cy="831" r="6" fill="black" class="guide-point" data-guide-segment="0" />
+              <circle cx="558" cy="453" r="6" fill="black" class="guide-point" data-guide-segment="1" />
+              <circle cx="636" cy="260" r="6" fill="black" class="guide-point" data-guide-segment="2" />
+              <circle cx="618" cy="128" r="6" fill="black" class="guide-point" data-guide-segment="3" />
+          - name: Pro
+            svg:
+              <path d="M 467 877 L 558 453" stroke="black" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="0" />
+              <path d="M 558 453 L 636 260" stroke="black" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="1" />
+              <path d="M 636 260 C 641 198 641 198 618 128" stroke="black" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="2" />
+              <circle cx="467" cy="877" r="6" fill="black" class="guide-point" data-guide-segment="0" />
+              <circle cx="558" cy="453" r="6" fill="black" class="guide-point" data-guide-segment="1" />
+              <circle cx="636" cy="260" r="6" fill="black" class="guide-point" data-guide-segment="2" />
+              <circle cx="618" cy="128" r="6" fill="black" class="guide-point" data-guide-segment="3" />
+          - name: Masters
+            svg:
+              <path d="M 485 911 L 558 453" stroke="black" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="0" />
+              <path d="M 558 453 L 636 260" stroke="black" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="1" />
+              <path d="M 636 260 C 641 198 641 198 618 128" stroke="black" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="2" />
+              <circle cx="485" cy="911" r="6" fill="black" class="guide-point" data-guide-segment="0" />
+              <circle cx="558" cy="453" r="6" fill="black" class="guide-point" data-guide-segment="1" />
+              <circle cx="636" cy="260" r="6" fill="black" class="guide-point" data-guide-segment="2" />
+              <circle cx="618" cy="128" r="6" fill="black" class="guide-point" data-guide-segment="3" />
+      - name: White Path
+        text: >
+          With tailwind or a tail/sidewind, you can go over the rough. Try to bounce just after the
+          rough and roll down the fairway. This will leave a good opportunity for an albatross but
+          at least an easy eagle.
+        levels:
+          - name: Rookie
+            svg:
+              <path d="M 444 831 L 594 419" stroke="white" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="0" />
+              <path d="M 594 419 C 659 267 659 267 628 139" stroke="white" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="1" />
+              <circle cx="444" cy="831" r="6" fill="white" class="guide-point" data-guide-segment="0" />
+              <circle cx="594" cy="419" r="6" fill="white" class="guide-point" data-guide-segment="1" />
+              <circle cx="628" cy="139" r="6" fill="white" class="guide-point" data-guide-segment="2" />
+          - name: Pro
+            svg:
+              <path d="M 467 877 L 594 419" stroke="white" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="0" />
+              <path d="M 594 419 C 659 267 659 267 628 139" stroke="white" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="1" />
+              <circle cx="467" cy="877" r="6" fill="white" class="guide-point" data-guide-segment="0" />
+              <circle cx="594" cy="419" r="6" fill="white" class="guide-point" data-guide-segment="1" />
+              <circle cx="628" cy="139" r="6" fill="white" class="guide-point" data-guide-segment="2" />
+          - name: Masters
+            svg:
+              <path d="M 485 911 L 594 419" stroke="white" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="0" />
+              <path d="M 594 419 C 659 267 659 267 628 139" stroke="white" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="1" />
+              <circle cx="485" cy="911" r="6" fill="white" class="guide-point" data-guide-segment="0" />
+              <circle cx="594" cy="419" r="6" fill="white" class="guide-point" data-guide-segment="1" />
+              <circle cx="628" cy="139" r="6" fill="white" class="guide-point" data-guide-segment="2" />
   - id: 8b2a0801-dd19-4d25-a7e1-d7503c8fc7ae
     current-tournament: true
     course: Southern Pines
@@ -556,6 +650,31 @@ holes:
           url: https://youtu.be/Dy4Nctu9JCE
         - title: Spring Major - Masters
           url: https://youtu.be/t01-CMrMKSc
+    overlays:
+      size: [325, 704]
+      guides:
+      - name: Black Path
+        text: >
+          There's really only one way to play this hole, going up through the narrow fairway. Use 2
+          bars of backspin with the driver and no bars using your wood. Use up to 5 bars of right
+          side spin depending on what ball you're using. You want the ball to roll to the back of
+          the green and fall back toward the pin.
+        levels:
+          - name: Rookie
+            svg:
+              <path d="M 176 483 C 142 267 142 267 162 148" stroke="black" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="0" />
+              <circle cx="176" cy="483" r="6" fill="black" class="guide-point" data-guide-segment="0" />
+              <circle cx="162" cy="148" r="6" fill="black" class="guide-point" data-guide-segment="1" />
+          - name: Pro
+            svg:
+              <path d="M 167 542 C 142 267 142 267 162 148" stroke="black" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="0" />
+              <circle cx="167" cy="542" r="6" fill="black" class="guide-point" data-guide-segment="0" />
+              <circle cx="162" cy="148" r="6" fill="black" class="guide-point" data-guide-segment="1" />
+          - name: Masters
+            svg:
+              <path d="M 159 603 C 142 267 142 267 162 148" stroke="black" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="0" />
+              <circle cx="159" cy="603" r="6" fill="black" class="guide-point" data-guide-segment="0" />
+              <circle cx="162" cy="148" r="6" fill="black" class="guide-point" data-guide-segment="1" />
   - id: c6e85c42-f3f2-4baa-ab54-65b2a17eea75
     current-tournament: true
     course: Southern Pines
@@ -600,9 +719,10 @@ holes:
       guides:
       - name: Black Path
         text: >
-          This is the way to go with sidewind or headwind. Place your drive as close as possible
-          to the rough. Bounce your second shot before the bunker or go to the left side of the
-          bunker with topspin and right sidespin to get up to the green.
+          This is a tough hole. With headwind or sidewind going left is the best way to go. Use
+          full topspin and some left sidespin with your drive. You want to get as close to the
+          rough as possible but NOT in it. That will leave you with a wood into the green. You'll
+          need a wood with plenty of distance.
         levels:
           - name: Rookie
             svg:
@@ -627,63 +747,64 @@ holes:
               <circle cx="429" cy="144" r="6" fill="black" class="guide-point" data-guide-segment="2" />
       - name: White Path
         text: >
-          Some players prefer to play their drive between the bunkers. This is only a good option
-          with side / tailwind. Bounce over the creek with max topspin and hit a long iron into
-          the green.
+          Only play this path with tailwind and you can go directly over the creek. Use max topspin
+          to get as far up the fairway as possible. That will likely leave you with a short iron
+          for your second shot.
         levels:
           - name: Rookie
             svg:
-              <path d="M 392 860 L 340 485" stroke="white" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="0" />
-              <path d="M 340 485 L 323 288" stroke="white" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="1" />
-              <path d="M 323 288 L 441 150" stroke="white" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="2" />
+              <path d="M 392 860 L 414 428" stroke="white" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="0" />
+              <path d="M 414 428 L 452 155" stroke="white" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="1" />
               <circle cx="392" cy="860" r="6" fill="white" class="guide-point" data-guide-segment="0" />
-              <circle cx="340" cy="485" r="6" fill="white" class="guide-point" data-guide-segment="1" />
-              <circle cx="323" cy="288" r="6" fill="white" class="guide-point" data-guide-segment="2" />
-              <circle cx="441" cy="150" r="6" fill="white" class="guide-point" data-guide-segment="3" />
+              <circle cx="414" cy="428" r="6" fill="white" class="guide-point" data-guide-segment="1" />
+              <circle cx="452" cy="155" r="6" fill="white" class="guide-point" data-guide-segment="2" />
           - name: Pro
             svg:
-              <path d="M 405 908 L 340 485" stroke="white" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="0" />
-              <path d="M 340 485 L 323 288" stroke="white" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="1" />
-              <path d="M 323 288 L 441 150" stroke="white" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="2" />
+              <path d="M 405 908 L 414 428" stroke="white" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="0" />
+              <path d="M 414 428 L 452 155" stroke="white" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="1" />
               <circle cx="405" cy="908" r="6" fill="white" class="guide-point" data-guide-segment="0" />
-              <circle cx="340" cy="485" r="6" fill="white" class="guide-point" data-guide-segment="1" />
-              <circle cx="323" cy="288" r="6" fill="white" class="guide-point" data-guide-segment="2" />
-              <circle cx="441" cy="150" r="6" fill="white" class="guide-point" data-guide-segment="3" />
+              <circle cx="414" cy="428" r="6" fill="white" class="guide-point" data-guide-segment="1" />
+              <circle cx="452" cy="155" r="6" fill="white" class="guide-point" data-guide-segment="2" />
           - name: Masters
             svg:
-              <path d="M 417 957 L 340 485" stroke="white" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="0" />
-              <path d="M 340 485 L 323 288" stroke="white" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="1" />
-              <path d="M 323 288 L 441 150" stroke="white" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="2" />
+              <path d="M 417 957 L 414 428" stroke="white" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="0" />
+              <path d="M 414 428 L 452 155" stroke="white" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="1" />
               <circle cx="417" cy="957" r="6" fill="white" class="guide-point" data-guide-segment="0" />
-              <circle cx="340" cy="485" r="6" fill="white" class="guide-point" data-guide-segment="1" />
-              <circle cx="323" cy="288" r="6" fill="white" class="guide-point" data-guide-segment="2" />
-              <circle cx="441" cy="150" r="6" fill="white" class="guide-point" data-guide-segment="3" />
-      - name: Yellow Path
+              <circle cx="414" cy="428" r="6" fill="white" class="guide-point" data-guide-segment="1" />
+              <circle cx="452" cy="155" r="6" fill="white" class="guide-point" data-guide-segment="2" />
+      - name: Blue Path
         text: >
-          Only play this path with tailwind. Bounce before or between the two fairway bunkers with
-          max topspin. This will leave you with a short iron into the green.
+          This is a riskier route where you aim between the bunkers and use a good amount of topspin
+          to get over to the next fairway. You'll need at least 5 bars of topspin to pull it off.
+          You'll have a short or long iron into the green.
         levels:
           - name: Rookie
             svg:
-              <path d="M 392 860 L 414 428" stroke="yellow" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="0" />
-              <path d="M 414 428 L 452 155" stroke="yellow" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="1" />
-              <circle cx="392" cy="860" r="6" fill="yellow" class="guide-point" data-guide-segment="0" />
-              <circle cx="414" cy="428" r="6" fill="yellow" class="guide-point" data-guide-segment="1" />
-              <circle cx="452" cy="155" r="6" fill="yellow" class="guide-point" data-guide-segment="2" />
+              <path d="M 392 860 L 340 485" stroke="blue" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="0" />
+              <path d="M 340 485 L 323 288" stroke="blue" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="1" />
+              <path d="M 323 288 L 441 150" stroke="blue" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="2" />
+              <circle cx="392" cy="860" r="6" fill="blue" class="guide-point" data-guide-segment="0" />
+              <circle cx="340" cy="485" r="6" fill="blue" class="guide-point" data-guide-segment="1" />
+              <circle cx="323" cy="288" r="6" fill="blue" class="guide-point" data-guide-segment="2" />
+              <circle cx="441" cy="150" r="6" fill="blue" class="guide-point" data-guide-segment="3" />
           - name: Pro
             svg:
-              <path d="M 405 908 L 414 428" stroke="yellow" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="0" />
-              <path d="M 414 428 L 452 155" stroke="yellow" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="1" />
-              <circle cx="405" cy="908" r="6" fill="yellow" class="guide-point" data-guide-segment="0" />
-              <circle cx="414" cy="428" r="6" fill="yellow" class="guide-point" data-guide-segment="1" />
-              <circle cx="452" cy="155" r="6" fill="yellow" class="guide-point" data-guide-segment="2" />
+              <path d="M 405 908 L 340 485" stroke="blue" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="0" />
+              <path d="M 340 485 L 323 288" stroke="blue" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="1" />
+              <path d="M 323 288 L 441 150" stroke="blue" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="2" />
+              <circle cx="405" cy="908" r="6" fill="blue" class="guide-point" data-guide-segment="0" />
+              <circle cx="340" cy="485" r="6" fill="blue" class="guide-point" data-guide-segment="1" />
+              <circle cx="323" cy="288" r="6" fill="blue" class="guide-point" data-guide-segment="2" />
+              <circle cx="441" cy="150" r="6" fill="blue" class="guide-point" data-guide-segment="3" />
           - name: Masters
             svg:
-              <path d="M 417 957 L 414 428" stroke="yellow" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="0" />
-              <path d="M 414 428 L 452 155" stroke="yellow" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="1" />
-              <circle cx="417" cy="957" r="6" fill="yellow" class="guide-point" data-guide-segment="0" />
-              <circle cx="414" cy="428" r="6" fill="yellow" class="guide-point" data-guide-segment="1" />
-              <circle cx="452" cy="155" r="6" fill="yellow" class="guide-point" data-guide-segment="2" />
+              <path d="M 417 957 L 340 485" stroke="blue" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="0" />
+              <path d="M 340 485 L 323 288" stroke="blue" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="1" />
+              <path d="M 323 288 L 441 150" stroke="blue" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="2" />
+              <circle cx="417" cy="957" r="6" fill="blue" class="guide-point" data-guide-segment="0" />
+              <circle cx="340" cy="485" r="6" fill="blue" class="guide-point" data-guide-segment="1" />
+              <circle cx="323" cy="288" r="6" fill="blue" class="guide-point" data-guide-segment="2" />
+              <circle cx="441" cy="150" r="6" fill="blue" class="guide-point" data-guide-segment="3" />
   - id: 7d5e9469-77d3-4e9e-a302-9e96ed8873d5
     current-tournament: true
     course: Southern Pines
@@ -721,6 +842,86 @@ holes:
           url: https://youtu.be/uMbw6if5Bko
         - title: Spring Major - Masters
           url: https://youtu.be/8Nfl11DIEvE
+    overlays:
+      size: [507, 1110]
+      guides:
+      - name: Black Path
+        text: >
+          This is a very tough par 5 to get an eagle on. If you DON'T have tailwind play the black
+          path. Bounce your drive over the sliver of rough to the small fairway on the left. From
+          there, depending on the wind, you can either bounce on the next small fairway to the last
+          fairway or use a lot of backspin to hold your second shot on that small fairway. That will
+          leave you with a difficult approach into the green. It's important to just keep your ball
+          on the green. Avoid using too much backspin or you may end up in the front greenside
+          bunker.
+        levels:
+          - name: Rookie
+            svg:
+              <path d="M 308 940 L 191 613" stroke="black" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="0" />
+              <path d="M 191 613 L 131 484" stroke="black" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="1" />
+              <path d="M 131 484 L 181 286" stroke="black" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="2" />
+              <path d="M 181 286 L 248 87" stroke="black" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="3" />
+              <circle cx="308" cy="940" r="6" fill="black" class="guide-point" data-guide-segment="0" />
+              <circle cx="191" cy="613" r="6" fill="black" class="guide-point" data-guide-segment="1" />
+              <circle cx="131" cy="484" r="6" fill="black" class="guide-point" data-guide-segment="2" />
+              <circle cx="181" cy="286" r="6" fill="black" class="guide-point" data-guide-segment="3" />
+              <circle cx="248" cy="87" r="6" fill="black" class="guide-point" data-guide-segment="4" />
+          - name: Pro
+            svg:
+              <path d="M 310 978 L 191 613" stroke="black" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="0" />
+              <path d="M 191 613 L 131 484" stroke="black" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="1" />
+              <path d="M 131 484 L 181 286" stroke="black" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="2" />
+              <path d="M 181 286 L 248 87" stroke="black" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="3" />
+              <circle cx="310" cy="978" r="6" fill="black" class="guide-point" data-guide-segment="0" />
+              <circle cx="191" cy="613" r="6" fill="black" class="guide-point" data-guide-segment="1" />
+              <circle cx="131" cy="484" r="6" fill="black" class="guide-point" data-guide-segment="2" />
+              <circle cx="181" cy="286" r="6" fill="black" class="guide-point" data-guide-segment="3" />
+              <circle cx="248" cy="87" r="6" fill="black" class="guide-point" data-guide-segment="4" />
+          - name: Masters
+            svg:
+              <path d="M 312 1016 L 191 613" stroke="black" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="0" />
+              <path d="M 191 613 L 131 484" stroke="black" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="1" />
+              <path d="M 131 484 L 181 286" stroke="black" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="2" />
+              <path d="M 181 286 L 248 87" stroke="black" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="3" />
+              <circle cx="312" cy="1016" r="6" fill="black" class="guide-point" data-guide-segment="0" />
+              <circle cx="191" cy="613" r="6" fill="black" class="guide-point" data-guide-segment="1" />
+              <circle cx="131" cy="484" r="6" fill="black" class="guide-point" data-guide-segment="2" />
+              <circle cx="181" cy="286" r="6" fill="black" class="guide-point" data-guide-segment="3" />
+              <circle cx="248" cy="87" r="6" fill="black" class="guide-point" data-guide-segment="4" />
+      - name: White Path
+        text: >
+          With tailwind, go ALL IN and get as far down the fairway as possible. Use the driver with
+          the most distance. For the second shot, you'll need a wood with a lot of distance to make
+          the green in two. You can go left or right with the second shot and let the ball roll
+          down to the pin.
+        levels:
+          - name: Rookie
+            svg:
+              <path d="M 308 940 L 287 468" stroke="white" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="0" />
+              <path d="M 287 468 L 284 326" stroke="white" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="1" />
+              <path d="M 284 326 C 232 205 232 205 252 91" stroke="white" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="2" />
+              <circle cx="308" cy="940" r="6" fill="white" class="guide-point" data-guide-segment="0" />
+              <circle cx="287" cy="468" r="6" fill="white" class="guide-point" data-guide-segment="1" />
+              <circle cx="284" cy="326" r="6" fill="white" class="guide-point" data-guide-segment="2" />
+              <circle cx="252" cy="91" r="6" fill="white" class="guide-point" data-guide-segment="3" />
+          - name: Pro
+            svg:
+              <path d="M 310 978 L 287 468" stroke="white" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="0" />
+              <path d="M 287 468 L 284 326" stroke="white" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="1" />
+              <path d="M 284 326 C 232 205 232 205 252 91" stroke="white" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="2" />
+              <circle cx="310" cy="978" r="6" fill="white" class="guide-point" data-guide-segment="0" />
+              <circle cx="287" cy="468" r="6" fill="white" class="guide-point" data-guide-segment="1" />
+              <circle cx="284" cy="326" r="6" fill="white" class="guide-point" data-guide-segment="2" />
+              <circle cx="252" cy="91" r="6" fill="white" class="guide-point" data-guide-segment="3" />
+          - name: Masters
+            svg:
+              <path d="M 312 1016 L 287 468" stroke="white" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="0" />
+              <path d="M 287 468 L 284 326" stroke="white" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="1" />
+              <path d="M 284 326 C 232 205 232 205 252 91" stroke="white" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="2" />
+              <circle cx="312" cy="1016" r="6" fill="white" class="guide-point" data-guide-segment="0" />
+              <circle cx="287" cy="468" r="6" fill="white" class="guide-point" data-guide-segment="1" />
+              <circle cx="284" cy="326" r="6" fill="white" class="guide-point" data-guide-segment="2" />
+              <circle cx="252" cy="91" r="6" fill="white" class="guide-point" data-guide-segment="3" />
   - id: 951df375-d0d3-495e-95c0-d9c0ad97aa7d
     current-tournament: true
     course: Southern Pines
@@ -813,10 +1014,8 @@ holes:
               <circle cx="460" cy="243" r="6" fill="white" class="guide-point" data-guide-segment="1" />
       - name: Blue Path
         text: >
-          This may be a better option when you get a wind
-          from left to right. Use max right sidespin with
-          1 - 3 bars of backspin. Bounce over the water
-          and down to the pin.
+          This may be a better option when you get a wind from left to right. Use max right
+          sidespin with 1 - 3 bars of backspin. Bounce over the water and down to the pin.
         levels:
           - name: Rookie
             svg:
@@ -835,11 +1034,9 @@ holes:
               <circle cx="307" cy="295" r="6" fill="blue" class="guide-point" data-guide-segment="1" />
       - name: Yellow Path
         text: >
-          This is generally only an option in the Rookie
-          division where winds are low. Place your first
-          bounce on the island and let the ball run out
-          towards the pin. Keep in mind that the bounce
-          on the island is inconsistent and unreliable.
+          This is generally only an option in the Rookie division where winds are low. Place your
+          first bounce on the island and let the ball run out towards the pin. Keep in mind that
+          the bounce on the island is inconsistent and unreliable.
         levels:
           - name: Rookie
             svg:
