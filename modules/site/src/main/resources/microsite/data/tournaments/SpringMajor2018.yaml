@@ -21,6 +21,12 @@ resource-creators:
     resources:
     - title: Qualifying Round (Masters & Expert)
       url: https://youtu.be/ZXm3O5wK9pc
+  - name: Jesse Both
+    resources:
+    - title: Rookie Guides
+      url: https://www.youtube.com/watch?v=iaknw3xOiy8&list=PL7y2DEPx8c_Ie9aBUo5vQvTZ7IKk7SsPU
+    - title: Pro Guides
+      url: https://www.youtube.com/watch?v=pf_WSFZkC7M&list=PL7y2DEPx8c_JFuGYV5ZpZhf27SRZUMdG0
 holes:
   - number: 1
     id: c6e85c42-f3f2-4baa-ab54-65b2a17eea75
