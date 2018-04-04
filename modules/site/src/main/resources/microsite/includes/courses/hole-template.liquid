@@ -205,3 +205,17 @@ section: "courses"
   {% include holes/hole-note-edit-modal.liquid %}
 
 </div>
+
+<div class="row visible-xs margin-top-32">
+  <nav class="text-center" aria-label="Course hole navigation">
+    <ul class="pagination pagination-sm justify-content-center margin-8">
+      {% for holeIx in (1..numHoles) %}
+        {% if holeIx == page.number %}
+          <li class="page-item active"><a class="page-link" href="#">{{ page.number }}</a></li>
+        {% else %}
+          <li class="page-item"><a class="page-link" href="/courses/{{ coursePath }}/{{ holeIx }}/">{{ holeIx }}</a></li>
+        {% endif %}
+      {% endfor %}
+    </ul>
+  </nav>
+</div>
