@@ -257,6 +257,7 @@ object windchartcreator {
           if (pageNum > 0) pdf.addPage()
 
           if (title.trim.nonEmpty) {
+            pdf.setTextColor(0d)
             pdf.setFontSize(16d)
             pdf.text(title, 4.25, pageYMargin, "center")
           }
