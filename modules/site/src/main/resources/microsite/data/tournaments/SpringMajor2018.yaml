@@ -3,6 +3,8 @@ date: '2018-04-02'
 resource-creators:
   - name: Golf Clash Tommy
     resources:
+    - title: Opening Round (Expert)
+      url: https://youtu.be/goK6yK31n8o
     - title: Qualifying Round (Masters & Expert)
       url: https://youtu.be/98CkvGXaNSY
     - title: Rookie Guide
@@ -15,10 +17,14 @@ resource-creators:
       url: https://imgur.com/a/ZbdRZ
   - name: ItsRJTV
     resources:
+    - title: Opening Round (Pro)
+      url: https://youtu.be/ARz_3qyYDUw
     - title: Qualifying Round (Pro)
       url: https://youtu.be/HWQYgT4BjJw
   - name: Chris Taylor
     resources:
+    - title: Opening Round (Masters)
+      url: https://youtu.be/mEww2MXVf40
     - title: Qualifying Round (Masters & Expert)
       url: https://youtu.be/ZXm3O5wK9pc
   - name: Jesse Both
