@@ -2,7 +2,7 @@
 layout: gcn-layout
 title:  "Terms & Conditions"
 section: "terms"
-permalink: /terms
+permalink: /terms/
 ---
 
 <div class="row">
