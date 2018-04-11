@@ -2,7 +2,7 @@
 layout: gcn-layout
 title:  "Privacy Policy"
 section: "privacy"
-permalink: /privacy
+permalink: /privacy/
 ---
 
 <div class="row">
