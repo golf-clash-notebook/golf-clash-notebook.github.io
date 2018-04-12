@@ -376,3 +376,11 @@ page_gen:
     extra:
       title-prefix: 'Spring Major 2018 Tournament - Hole '
       tournament-name: 'Spring Major 2018'
+  - index_files: true
+    data: 'tournaments.EarthDay.holes'
+    template: '_includes/tournaments/hole-template.liquid'
+    name: 'number'
+    dir: 'tournaments/EarthDay'
+    extra:
+      title-prefix: 'Earth Day Tournament - Hole '
+      tournament-name: 'Earth Day'
