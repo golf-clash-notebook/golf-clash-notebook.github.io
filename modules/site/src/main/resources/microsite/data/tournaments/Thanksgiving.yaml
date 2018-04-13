@@ -15,8 +15,8 @@ resource-creators:
       url: https://youtu.be/8-yX15MVw9s
     - title: Pro/Expert Guide
       url: https://youtu.be/YLn1TA5wIuE
-    - title: Text Guides
-      url: https://imgur.com/a/Kiobz
+#    - title: Text Guides
+#      url: https://imgur.com/a/Kiobz
   - name: ItsRJTV
     resources:
     - title: Weekend Round
