@@ -423,6 +423,8 @@ holes:
     resource-creators:
       - name: Golf Clash Tommy
         resources:
+        - title: Pro / Expert Guide
+          url: https://youtu.be/AgOtfQbt6ro
         - title: Text Guide
           url: https://i.imgur.com/wLtM7ml.png
     overlays:
@@ -629,6 +631,8 @@ holes:
         resources:
         - title: Rookie Guide
           url: https://youtu.be/9tmpDTU1e7I
+        - title: Pro / Expert Guide
+          url: https://youtu.be/To6s5EcKu6Q
         - title: Text Guide
           url: https://i.imgur.com/GIVxVd7.png
     overlays:

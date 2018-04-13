@@ -1,6 +1,14 @@
 tournament-name: Earth Day
 date: '2018-04-16'
 resource-creators:
+  - name: Golf Clash Tommy
+    resources:
+      - title: Rookie Guide
+        url: https://youtu.be/4J-yYQFpsZQ
+  - name: Jesse Both
+    resources:
+    - title: Rookie Guide
+      url: https://youtu.be/yLyWhQ6UMFI
 holes:
   - number: 1
     id: 3e3986fa-be14-4521-932c-dc005a19549a
