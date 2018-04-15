@@ -5,8 +5,16 @@ resource-creators:
     resources:
       - title: Rookie Guide
         url: https://youtu.be/4J-yYQFpsZQ
+      - title: Pro / Expert Guide
+        url: https://youtu.be/c67C7BlQdbg
+      - title: Pro / Expert Walkthrough
+        url: https://youtu.be/SBJeLNYA7Vk
+      - title: Masters Guide
+        url: https://youtu.be/YMNpR-Top3M
   - name: Jesse Both
     resources:
+    - title: Pro / Expert Guide
+      url: https://youtu.be/K2F2QBYh36E
     - title: Rookie Guide
       url: https://youtu.be/yLyWhQ6UMFI
 holes:
