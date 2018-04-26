@@ -8,6 +8,7 @@ holes:
     description: >
       Help Wanted
   - id: 1df2d79f-079a-4259-a846-07523700f877
+    current-tournament: true
     course: The Oasis
     number: 2
     par: 4
@@ -19,6 +20,7 @@ holes:
         - title: Pro / Expert Guide
           url: https://youtu.be/OLLBwlG6C7s
   - id: c6dee008-9374-4e0f-8ae5-d7b456a1e970
+    current-tournament: true
     course: The Oasis
     number: 3
     par: 5
@@ -122,6 +124,7 @@ holes:
               <circle cx="226" cy="337" r="6" fill="white" class="guide-point" data-guide-segment="1" />
               <circle cx="252" cy="125" r="6" fill="white" class="guide-point" data-guide-segment="2" />
   - id: 1ac9e3f4-edfc-4c57-9635-5986e37c695b
+    current-tournament: true
     course: The Oasis
     number: 4
     par: 3

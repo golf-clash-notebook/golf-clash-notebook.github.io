@@ -2,6 +2,7 @@ course-name: The Milano
 skinned: false
 holes:
   - id: 330d44fa-7e2d-4fda-bdb5-f96fa9c0258f
+    current-tournament: true
     course: The Milano
     number: 1
     par: 3
@@ -72,6 +73,7 @@ holes:
               <circle cx="307" cy="714" r="6" fill="white" class="guide-point" data-guide-segment="0" />
               <circle cx="233" cy="199" r="6" fill="white" class="guide-point" data-guide-segment="1" />
   - id: 03464ae3-a556-49ee-8526-b8b6d57450ab
+    current-tournament: true
     course: The Milano
     number: 2
     par: 4
@@ -157,6 +159,7 @@ holes:
               <circle cx="280" cy="264" r="6" fill="white" class="guide-point" data-guide-segment="1" />
               <circle cx="341" cy="149" r="6" fill="white" class="guide-point" data-guide-segment="2" />
   - id: 81c04a24-b874-4b97-aeec-fa237bee470b
+    current-tournament: true
     course: The Milano
     number: 3
     par: 5
