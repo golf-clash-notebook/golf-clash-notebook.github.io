@@ -1,0 +1,22 @@
+tournament-name: Cinco De Mayo
+date: '2018-04-30'
+resource-creators:
+holes:
+  - number: 1
+    id: 03464ae3-a556-49ee-8526-b8b6d57450ab
+  - number: 2
+    id: 330d44fa-7e2d-4fda-bdb5-f96fa9c0258f
+  - number: 3
+    id: c6dee008-9374-4e0f-8ae5-d7b456a1e970
+  - number: 4
+    id: 78852573-8b79-49e7-999a-e7a20b220baf
+  - number: 5
+    id: a427fbaf-3e27-411a-8a51-3a5bd53e2605
+  - number: 6
+    id: f30c2f43-c8dc-4762-bc7b-77b6d196d0e2
+  - number: 7
+    id: 1df2d79f-079a-4259-a846-07523700f877
+  - number: 8
+    id: 1ac9e3f4-edfc-4c57-9635-5986e37c695b
+  - number: 9
+    id: 81c04a24-b874-4b97-aeec-fa237bee470b

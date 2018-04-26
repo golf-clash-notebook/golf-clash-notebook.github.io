@@ -384,3 +384,11 @@ page_gen:
     extra:
       title-prefix: 'Earth Day Tournament - Hole '
       tournament-name: 'Earth Day'
+  - index_files: true
+    data: 'tournaments.CincoDeMayo.holes'
+    template: '_includes/tournaments/hole-template.liquid'
+    name: 'number'
+    dir: 'tournaments/CincoDeMayo'
+    extra:
+      title-prefix: 'Cinco De Mayo Tournament - Hole '
+      tournament-name: 'Cinco De Mayo'
