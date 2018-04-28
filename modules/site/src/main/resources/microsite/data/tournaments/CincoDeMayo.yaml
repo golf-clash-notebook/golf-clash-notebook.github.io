@@ -1,6 +1,16 @@
 tournament-name: Cinco De Mayo
 date: '2018-04-30'
 resource-creators:
+  - name: Golf Clash Tommy
+    resources:
+      - title: Rookie Guide
+        url: https://youtu.be/Mj7wFb8u0R0
+      - title: Pro / Expert Guide
+        url: https://youtu.be/UdUpOl4K_Cw
+  - name: Jesse Both
+    resources:
+    - title: Rookie Guide
+      url: https://www.youtube.com/playlist?list=PL7y2DEPx8c_KD1uujPen7gJ2p4fdtVMps
 holes:
   - number: 1
     id: 03464ae3-a556-49ee-8526-b8b6d57450ab
