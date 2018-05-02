@@ -3,12 +3,26 @@ date: '2018-04-30'
 resource-creators:
   - name: Golf Clash Tommy
     resources:
-      - title: Rookie Guide
-        url: https://youtu.be/Mj7wFb8u0R0
-      - title: Pro / Expert Guide
-        url: https://youtu.be/UdUpOl4K_Cw
+    - title: Qualifying Round (Masters)
+      url: https://youtu.be/00jdH1u7zKo
+    - title: Qualifying Round (Expert & Pro)
+      url: https://youtu.be/hrPR4zdfFbI
+    - title: Qualifying Round (Rookie)
+      url: https://youtu.be/72yI0fjXh6Y
+    - title: Rookie Guide
+      url: https://youtu.be/Mj7wFb8u0R0
+    - title: Pro / Expert Guide
+      url: https://youtu.be/UdUpOl4K_Cw
+  - name: ItsRJTV
+    resources:
+    - title: Qualifying Round (Pro)
+      url: https://youtu.be/zw3V-l55oJ0
   - name: Jesse Both
     resources:
+    - title: Qualifying Round (Pro)
+      url: https://youtu.be/3q1eOz7zVvk
+    - title: Pro Guide
+      url: https://www.youtube.com/playlist?list=PL7y2DEPx8c_L_yccLWl-F1Bk-M2UDj6Ta
     - title: Rookie Guide
       url: https://www.youtube.com/playlist?list=PL7y2DEPx8c_KD1uujPen7gJ2p4fdtVMps
 holes:
