@@ -2,16 +2,16 @@ import microsites._
 
 name := "golf-clash-notebook"
 
-scalaVersion in ThisBuild := "2.12.5"
+scalaVersion in ThisBuild := "2.12.6"
 organization in ThisBuild := "golf-clash-notebook"
 organizationName in ThisBuild := "Golf Clash Notebook"
 
 ////////////////////////////////////////////////////////////////////////////////
 val CatsV            = "1.1.0"
-val CatsEffectV      = "0.10"
+val CatsEffectV      = "0.10.1"
 val CirceV           = "0.9.3"
 val MonixV           = "3.0.0-RC1"
-val ScalaCheckV      = "1.13.5"
+val ScalaCheckV      = "1.14.0"
 val ScalaTagsV       = "0.6.7"
 val ScalaTestV       = "3.0.5"
 val ScalaJSJqueryV   = "0.9.3"
