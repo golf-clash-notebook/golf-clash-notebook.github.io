@@ -392,3 +392,11 @@ page_gen:
     extra:
       title-prefix: 'Cinco De Mayo Tournament - Hole '
       tournament-name: 'Cinco De Mayo'
+  - index_files: true
+    data: 'tournaments.RoyalOpen.holes'
+    template: '_includes/tournaments/hole-template.liquid'
+    name: 'number'
+    dir: 'tournaments/RoyalOpen'
+    extra:
+      title-prefix: 'Royal Open Tournament - Hole '
+      tournament-name: 'Royal Open'
