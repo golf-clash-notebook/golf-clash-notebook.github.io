@@ -68,6 +68,16 @@ position: 0
 
   <div class="col-lg-3 col-lg-offset-0 col-md-4 col-sm-5 col-sm-offset-0 col-xs-10 col-xs-offset-1 col-flex" data-mh="feature-card">
     <div class="site-feature-card text-center">
+      <h4>Custom Wind Charts</h4>
+      <p class="feature-description text-small text-semi-muted">
+        Create a wind chart specifically for your bag with adjustments for Min, Mid & Max club distances.
+      </p>
+      <a href="/tools/windchartcreator/" class="btn btn-primary feature-link" role="button">Check it Out</a>
+    </div>
+  </div>
+
+  <div class="col-lg-3 col-lg-offset-0 col-md-4 col-sm-5 col-sm-offset-0 col-xs-10 col-xs-offset-1 col-flex" data-mh="feature-card">
+    <div class="site-feature-card text-center">
       <h4>Tournament Note Sheets</h4>
       <p class="feature-description text-small text-semi-muted">
         A quick printout will get you set up to take all the notes you'll need to conquer any holes that get thrown your way.
@@ -83,16 +93,6 @@ position: 0
         Completely customizable ranking tool will show you which clubs you should be using on the course.
       </p>
       <a href="/tools/clubranker/" class="btn btn-primary feature-link" role="button">Check it Out</a>
-    </div>
-  </div>
-
-  <div class="col-lg-3 col-lg-offset-0 col-md-4 col-sm-5 col-sm-offset-0 col-xs-10 col-xs-offset-1 col-flex" data-mh="feature-card">
-    <div class="site-feature-card text-center">
-      <h4>Ball Ranking</h4>
-      <p class="feature-description text-small text-semi-muted">
-        Tell it what attributes you're looking for in a ball and it'll find you a match made in heaven.
-      </p>
-      <a href="/balls/" class="btn btn-primary feature-link" role="button">Check it Out</a>
     </div>
   </div>
 
