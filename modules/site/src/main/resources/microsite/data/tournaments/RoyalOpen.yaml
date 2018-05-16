@@ -1,6 +1,50 @@
 tournament-name: Royal Open
 date: '2018-05-14'
 resource-creators:
+  - name: Golf Clash Tommy
+    resources:
+    - title: Qualifying Round (Pro, Expert & Masters)
+      url: https://youtu.be/KGG04f4LSho
+    - title: Qualifying Round (Rookie)
+      url: https://youtu.be/1bqfLMrluCU
+    - title: Rookie Guide
+      url: https://youtu.be/Frce2fIOxJA
+    - title: Pro / Expert Guide
+      url: https://youtu.be/wrAYilJEe6I
+    - title: Masters Guide
+      url: https://youtu.be/pgYfRQcHGTY
+    - title: Ball Guide
+      url: https://youtu.be/2oijclowKYg
+    - title: Text Guide Walkthrough
+      url: https://youtu.be/nb2RN9xIDuU
+    - title: Text Guides
+      url: https://imgur.com/gallery/JT0rpOP
+  - name: ItsRJTV
+    resources:
+    - title: Qualifying Round (Pro)
+      url: https://youtu.be/RztxRL1hUqI
+  - name: Zachary Jones
+    resources:
+    - title: Rookie Guides
+      url: https://www.youtube.com/watch?v=I8RZ4ibvI-s&list=PL-a02LQCuLBS2Sg7S4KFy_pvp-0S_fcq3
+    - title: Pro Guides
+      url: https://www.youtube.com/watch?v=q1NBWcGJbwQ&list=PL-a02LQCuLBSdFN0eWnqG_2Ff6ZgX8XMU
+    - title: Expert Guides
+      url: https://www.youtube.com/watch?v=1POBLglGfw4&list=PL-a02LQCuLBSYddv_BgiQU7n-IASzikMb
+    - title: Masters Guides
+      url: https://www.youtube.com/watch?v=43OqL-CJC3E&list=PL-a02LQCuLBRc--YexTu92yMF8cn-cqMI
+  - name: Chris Taylor
+    resources:
+    - title: Qualifying Round (Pro)
+      url: https://youtu.be/Cvcf3Q-VyJ0
+    - title: Qualifying Round (Expert & Masters)
+      url: https://youtu.be/FbK6bLIDzfk
+  - name: Jesse Both
+    resources:
+    - title: Qualifying Round (Pro)
+      url: https://youtu.be/JrGiPZB1law
+    - title: Rookie Guide / Walkthrough
+      url: https://youtu.be/xKAY01ibsfI
 holes:
   - number: 1
     id: 747aa53b-baa8-4b00-9062-124a689bda07
