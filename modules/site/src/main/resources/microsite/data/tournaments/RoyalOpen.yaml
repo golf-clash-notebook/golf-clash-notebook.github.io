@@ -3,6 +3,18 @@ date: '2018-05-14'
 resource-creators:
   - name: Golf Clash Tommy
     resources:
+    - title: Weekend Round (Masters)
+      url: https://youtu.be/r5du7E1-2Ks
+    - title: Weekend Round (Expert)
+      url: https://youtu.be/DPbSPWONfG4
+    - title: Weekend Round (Pro)
+      url: https://youtu.be/8TrY5Yfad2Q
+    - title: Opening Round (Masters)
+      url: https://youtu.be/ROcV2Tmw0jk
+    - title: Opening Round (Pro & Expert)
+      url: https://youtu.be/3uA89EqYMbo
+    - title: Qualifying Round (Masters)
+      url: https://youtu.be/_nv8NrAFjug
     - title: Qualifying Round (Pro, Expert & Masters)
       url: https://youtu.be/KGG04f4LSho
     - title: Qualifying Round (Rookie)
@@ -21,10 +33,16 @@ resource-creators:
       url: https://imgur.com/gallery/JT0rpOP
   - name: ItsRJTV
     resources:
+    - title: Weekend Round (Pro)
+      url: https://youtu.be/wgTbAp_t9WQ
+    - title: Weekend Round (Rookie)
+      url: https://youtu.be/g5qoSkdtKCA
     - title: Qualifying Round (Pro)
       url: https://youtu.be/RztxRL1hUqI
   - name: Zachary Jones
     resources:
+    - title: Weekend Round (Expert)
+      url: https://youtu.be/hL55fZ7jlsc
     - title: Rookie Guides
       url: https://www.youtube.com/watch?v=I8RZ4ibvI-s&list=PL-a02LQCuLBS2Sg7S4KFy_pvp-0S_fcq3
     - title: Pro Guides
@@ -41,8 +59,14 @@ resource-creators:
       url: https://youtu.be/FbK6bLIDzfk
   - name: Jesse Both
     resources:
+    - title: Weekend Round (Rookie & Pro)
+      url: https://youtu.be/0rkf0TcQdcA
+    - title: Opening Round (Pro)
+      url: https://youtu.be/JF8z68rwyZY
     - title: Qualifying Round (Pro)
       url: https://youtu.be/JrGiPZB1law
+    - title: Qualifying Round (Rookie)
+      url: https://youtu.be/1W7_A3Ia0LE
     - title: Rookie Guide / Walkthrough
       url: https://youtu.be/xKAY01ibsfI
 holes:
