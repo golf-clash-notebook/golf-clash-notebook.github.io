@@ -1,81 +1,10 @@
 course-name: The Milano
 skinned: false
 holes:
-  - id: 330d44fa-7e2d-4fda-bdb5-f96fa9c0258f
-    current-tournament: true
-    course: The Milano
-    number: 1
-    par: 3
-    description: >
-      Help Wanted
-    clubRecommendations:
-      - level: Rookie
-        clubs:
-          - Goliath
-          - Backbone
-      - level: Pro
-        clubs:
-          - Guardian
-      - level: Masters
-        clubs:
-          - Guardian
-    resource-creators:
-      - name: Golf Clash Tommy
-        resources:
-        - title: Rookie Guide
-          url: https://youtu.be/CvCKj4dCsBs
-        - title: Pro / Expert Guide
-          url: https://youtu.be/HsHv0ff1XLw
-        - title: Text Guide
-          url: https://i.imgur.com/zqsdml6.jpg
-    overlays:
-      size: [550, 813]
-      guides:
-      - name: Black Path
-        text: >
-          This is the most popular way to play the hole. Be precise with your adjustment or you'll
-          end up in the rough or more likely the bunker. It's a pretty good shot a hole in one.
-        levels:
-          - name: Rookie
-            svg:
-              <path d="M 303 548 L 270 225" stroke="black" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="0" />
-              <circle cx="303" cy="548" r="6" fill="black" class="guide-point" data-guide-segment="0" />
-              <circle cx="270" cy="225" r="6" fill="black" class="guide-point" data-guide-segment="1" />
-          - name: Pro
-            svg:
-              <path d="M 305 630 L 270 225" stroke="black" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="0" />
-              <circle cx="305" cy="630" r="6" fill="black" class="guide-point" data-guide-segment="0" />
-              <circle cx="270" cy="225" r="6" fill="black" class="guide-point" data-guide-segment="1" />
-          - name: Masters
-            svg:
-              <path d="M 307 714 L 270 225" stroke="black" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="0" />
-              <circle cx="307" cy="714" r="6" fill="black" class="guide-point" data-guide-segment="0" />
-              <circle cx="270" cy="225" r="6" fill="black" class="guide-point" data-guide-segment="1" />
-      - name: White Path
-        text: >
-          Recommended if you have a wood with really good backspin (e.g. The Guardian). This is
-          also a good way to play if you get some tricky wind and hitting the small fairway island
-          isn't easy. Using curl, sidespin and backspin you can definitely get this one close.
-        levels:
-          - name: Rookie
-            svg:
-              <path d="M 303 548 C 207 381 207 381 233 199" stroke="white" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="0" />
-              <circle cx="303" cy="548" r="6" fill="white" class="guide-point" data-guide-segment="0" />
-              <circle cx="233" cy="199" r="6" fill="white" class="guide-point" data-guide-segment="1" />
-          - name: Pro
-            svg:
-              <path d="M 305 630 C 207 381 207 381 233 199" stroke="white" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="0" />
-              <circle cx="305" cy="630" r="6" fill="white" class="guide-point" data-guide-segment="0" />
-              <circle cx="233" cy="199" r="6" fill="white" class="guide-point" data-guide-segment="1" />
-          - name: Masters
-            svg:
-              <path d="M 307 714 C 207 381 207 381 233 199" stroke="white" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="0" />
-              <circle cx="307" cy="714" r="6" fill="white" class="guide-point" data-guide-segment="0" />
-              <circle cx="233" cy="199" r="6" fill="white" class="guide-point" data-guide-segment="1" />
   - id: 03464ae3-a556-49ee-8526-b8b6d57450ab
     current-tournament: true
     course: The Milano
-    number: 2
+    number: 1
     par: 4
     description: >
       Help Wanted
@@ -158,6 +87,13 @@ holes:
               <circle cx="106" cy="718" r="6" fill="white" class="guide-point" data-guide-segment="0" />
               <circle cx="280" cy="264" r="6" fill="white" class="guide-point" data-guide-segment="1" />
               <circle cx="341" cy="149" r="6" fill="white" class="guide-point" data-guide-segment="2" />
+  - id: bc96ba70-b8b9-468b-8a7f-fc4fc134826b
+    current-tournament: true
+    course: The Milano
+    number: 2
+    par: 3
+    description: >
+      Help Wanted
   - id: 81c04a24-b874-4b97-aeec-fa237bee470b
     current-tournament: true
     course: The Milano
@@ -241,8 +177,107 @@ holes:
               <circle cx="365" cy="1008" r="6" fill="yellow" class="guide-point" data-guide-segment="0" />
               <circle cx="303" cy="339" r="6" fill="yellow" class="guide-point" data-guide-segment="1" />
               <circle cx="326" cy="108" r="6" fill="yellow" class="guide-point" data-guide-segment="2" />
-  - id: e848d24c-b050-49da-a898-83bee9ef0e97
+  - id: 330d44fa-7e2d-4fda-bdb5-f96fa9c0258f
     current-tournament: true
     course: The Milano
     number: 4
+    par: 3
+    description: >
+      Help Wanted
+    clubRecommendations:
+      - level: Rookie
+        clubs:
+          - Goliath
+          - Backbone
+      - level: Pro
+        clubs:
+          - Guardian
+      - level: Masters
+        clubs:
+          - Guardian
+    resource-creators:
+      - name: Golf Clash Tommy
+        resources:
+        - title: Rookie Guide
+          url: https://youtu.be/CvCKj4dCsBs
+        - title: Pro / Expert Guide
+          url: https://youtu.be/HsHv0ff1XLw
+        - title: Text Guide
+          url: https://i.imgur.com/zqsdml6.jpg
+    overlays:
+      size: [550, 813]
+      guides:
+      - name: Black Path
+        text: >
+          This is the most popular way to play the hole. Be precise with your adjustment or you'll
+          end up in the rough or more likely the bunker. It's a pretty good shot a hole in one.
+        levels:
+          - name: Rookie
+            svg:
+              <path d="M 303 548 L 270 225" stroke="black" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="0" />
+              <circle cx="303" cy="548" r="6" fill="black" class="guide-point" data-guide-segment="0" />
+              <circle cx="270" cy="225" r="6" fill="black" class="guide-point" data-guide-segment="1" />
+          - name: Pro
+            svg:
+              <path d="M 305 630 L 270 225" stroke="black" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="0" />
+              <circle cx="305" cy="630" r="6" fill="black" class="guide-point" data-guide-segment="0" />
+              <circle cx="270" cy="225" r="6" fill="black" class="guide-point" data-guide-segment="1" />
+          - name: Masters
+            svg:
+              <path d="M 307 714 L 270 225" stroke="black" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="0" />
+              <circle cx="307" cy="714" r="6" fill="black" class="guide-point" data-guide-segment="0" />
+              <circle cx="270" cy="225" r="6" fill="black" class="guide-point" data-guide-segment="1" />
+      - name: White Path
+        text: >
+          Recommended if you have a wood with really good backspin (e.g. The Guardian). This is
+          also a good way to play if you get some tricky wind and hitting the small fairway island
+          isn't easy. Using curl, sidespin and backspin you can definitely get this one close.
+        levels:
+          - name: Rookie
+            svg:
+              <path d="M 303 548 C 207 381 207 381 233 199" stroke="white" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="0" />
+              <circle cx="303" cy="548" r="6" fill="white" class="guide-point" data-guide-segment="0" />
+              <circle cx="233" cy="199" r="6" fill="white" class="guide-point" data-guide-segment="1" />
+          - name: Pro
+            svg:
+              <path d="M 305 630 C 207 381 207 381 233 199" stroke="white" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="0" />
+              <circle cx="305" cy="630" r="6" fill="white" class="guide-point" data-guide-segment="0" />
+              <circle cx="233" cy="199" r="6" fill="white" class="guide-point" data-guide-segment="1" />
+          - name: Masters
+            svg:
+              <path d="M 307 714 C 207 381 207 381 233 199" stroke="white" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="0" />
+              <circle cx="307" cy="714" r="6" fill="white" class="guide-point" data-guide-segment="0" />
+              <circle cx="233" cy="199" r="6" fill="white" class="guide-point" data-guide-segment="1" />
+  - id: 343f3420-ee65-4e36-8d9b-51879943062d
+    current-tournament: true
+    course: The Milano
+    number: 5
+    par: 4
+    description: >
+      Help Wanted
+  - id: e11ff12d-d182-4e81-85b1-a63fa49fe1cc
+    current-tournament: true
+    course: The Milano
+    number: 6
+    par: 5
+    description: >
+      Help Wanted
+  - id: 751e265c-e5f5-4156-a482-f5fb73938f2a
+    current-tournament: true
+    course: The Milano
+    number: 7
+    par: 3
+    description: >
+      Help Wanted
+  - id: 2c9f5304-fca6-4bd1-91dc-e61bd032da92
+    current-tournament: true
+    course: The Milano
+    number: 8
+    par: 4
+    description: >
+      Help Wanted
+  - id: e848d24c-b050-49da-a898-83bee9ef0e97
+    current-tournament: true
+    course: The Milano
+    number: 9
     par: 5
