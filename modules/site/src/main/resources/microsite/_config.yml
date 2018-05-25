@@ -400,3 +400,11 @@ page_gen:
     extra:
       title-prefix: 'Royal Open Tournament - Hole '
       tournament-name: 'Royal Open'
+  - index_files: true
+    data: 'tournaments.VegasSundown.holes'
+    template: '_includes/tournaments/hole-template.liquid'
+    name: 'number'
+    dir: 'tournaments/VegasSundown'
+    extra:
+      title-prefix: 'Vegas Sundown Tournament - Hole '
+      tournament-name: 'Vegas Sundown'
