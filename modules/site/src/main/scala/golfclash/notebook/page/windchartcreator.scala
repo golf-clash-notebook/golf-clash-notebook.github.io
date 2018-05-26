@@ -47,16 +47,16 @@ object windchartcreator {
   ) extends Product
       with Serializable
 
-  case object Simple extends ChartMode("Simple", _ => 1.00, _ * 1.00)
   case object Power0 extends ChartMode("Power 0", _ * 1.00, _ * 1.00)
   case object Power1 extends ChartMode("Power 1", _ * 1.03, _ * 1.03)
   case object Power2 extends ChartMode("Power 2", _ * 1.05, _ * 1.05)
   case object Power3 extends ChartMode("Power 3", _ * 1.07, _ * 1.07)
   case object Power4 extends ChartMode("Power 4", _ * 1.10, _ * 1.10)
   case object Power5 extends ChartMode("Power 5", _ * 1.13, _ * 1.13)
+  case object Simple extends ChartMode("Simple", _ => 1.00, _ * 1.00)
 
   object ChartMode {
-    def All = List(Simple, Power0, Power1, Power2, Power3, Power4, Power5)
+    def All = List(Power0, Power1, Power2, Power3, Power4, Power5, Simple)
   }
 
   val init = () => {
