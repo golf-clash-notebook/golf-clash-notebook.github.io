@@ -1,0 +1,5 @@
+timestamp: 2018-05-30
+title: Wind Chart Refinement
+content: >
+  Sand wedge ring adjustment values have been slighly adjusted in the <a href="/tools/windchartcreator/">Wind Chart Creator</a> tool.
+  Max distance wedges (i.e. 120 yards) are now assumed to play at 1.6 MPH per ring instead of 1.8.
