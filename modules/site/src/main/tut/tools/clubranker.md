@@ -6,9 +6,27 @@ permalink: /tools/clubranker/
 ---
 
 <div class="row">
-  <div class="col-md-4 col-sm-6">
+
+  <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 col-sm-12">
 
     <h1 class="gcn-page-header">Club Ranker</h1>
+
+    <p>
+      Use the sliders below to weight each club attribute and get a ranking for all the clubs within
+      each category. Moving the sliders to the same position means you value those attributes
+      equally. If you're a big fan of topspin, slide it all the way to the right and watch as The
+      Big Topper climbs up the rankings. Prefer accuracy? Well then increase the weight and check
+      out which clubs rise and which fall.
+    </p>
+
+  </div>
+
+</div>
+
+<div class="row">
+
+  <div class="col-md-4 col-sm-6">
+
 
     <div class="club-ranker-controls">
 
