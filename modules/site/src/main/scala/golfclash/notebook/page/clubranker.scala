@@ -37,21 +37,25 @@ object clubranker {
 
   case class RankedClub(clubLevel: ClubLevel, score: Double, tier: Int = 1)
 
-  case class ClubLevel(name: String,
-                       level: Int,
-                       power: Int,
-                       accuracy: Int,
-                       topspin: Int,
-                       backspin: Int,
-                       curl: Int,
-                       ballguide: Double)
+  case class ClubLevel(
+    name: String,
+    level: Int,
+    power: Int,
+    accuracy: Int,
+    topspin: Int,
+    backspin: Int,
+    curl: Int,
+    ballguide: Double
+  )
 
-  case class ClubRankWeights(rawPower: Double,
-                             rawAccuracy: Double,
-                             rawTopspin: Double,
-                             rawBackspin: Double,
-                             rawCurl: Double,
-                             rawBallguide: Double) {
+  case class ClubRankWeights(
+    rawPower: Double,
+    rawAccuracy: Double,
+    rawTopspin: Double,
+    rawBackspin: Double,
+    rawCurl: Double,
+    rawBallguide: Double
+  ) {
 
     val total = (rawPower + rawAccuracy + rawTopspin + rawBackspin + rawCurl + rawBallguide).max(1)
 

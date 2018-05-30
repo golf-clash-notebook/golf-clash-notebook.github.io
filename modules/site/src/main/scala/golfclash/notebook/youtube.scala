@@ -40,8 +40,10 @@ object youtube {
   case class YouTubeItemId(kind: String, videoId: String)
   case class YouTubeSearchResultItem(id: YouTubeItemId)
   case class YouTubeSnippet(title: Option[String], description: Option[String])
-  case class YouTubeLiveStreamingDetails(scheduledStartTime: Option[String],
-                                         scheduledEndTime: Option[String]) {
+  case class YouTubeLiveStreamingDetails(
+    scheduledStartTime: Option[String],
+    scheduledEndTime: Option[String]
+  ) {
     def startTime = scheduledStartTime.map(parseStreamTime)
     def endTime   = scheduledEndTime.map(parseStreamTime)
   }

@@ -121,8 +121,10 @@ object auth {
   @JSGlobal("firebase.auth.OAuthProvider")
   class OAuthProvider(providerId: String) extends AuthProvider {
     def addScope(scope: String): OAuthProvider = js.native
-    def credential(idToken: js.UndefOr[String] = js.undefined,
-                   accessToken: js.UndefOr[String] = js.undefined): OAuthCredential =
+    def credential(
+      idToken: js.UndefOr[String] = js.undefined,
+      accessToken: js.UndefOr[String] = js.undefined
+    ): OAuthCredential =
       js.native
     def setCustomParameters(customOAuthParameters: js.Object): OAuthProvider = js.native
   }
@@ -157,8 +159,10 @@ object auth {
   @JSGlobal("firebase.auth.GoogleAuthProvider")
   object GoogleAuthProvider extends js.Object {
     def PROVIDER_ID: String = js.native
-    def credential(idToken: js.UndefOr[String] = js.undefined,
-                   accessToken: js.UndefOr[String] = js.undefined): OAuthCredential =
+    def credential(
+      idToken: js.UndefOr[String] = js.undefined,
+      accessToken: js.UndefOr[String] = js.undefined
+    ): OAuthCredential =
       js.native
   }
 
@@ -170,8 +174,10 @@ object auth {
   @JSGlobal("firebase.auth.TwitterAuthProvider")
   object TwitterAuthProvider extends js.Object {
     def PROVIDER_ID: String = js.native
-    def credential(idToken: js.UndefOr[String] = js.undefined,
-                   accessToken: js.UndefOr[String] = js.undefined): OAuthCredential =
+    def credential(
+      idToken: js.UndefOr[String] = js.undefined,
+      accessToken: js.UndefOr[String] = js.undefined
+    ): OAuthCredential =
       js.native
   }
 

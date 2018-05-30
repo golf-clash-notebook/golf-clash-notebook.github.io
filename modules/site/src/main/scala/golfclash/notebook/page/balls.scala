@@ -143,9 +143,11 @@ object balls {
     )
   }
 
-  def updateBallElements(rankedBalls: List[RankedBall],
-                         elementId: Ball => String,
-                         replacementSelector: Int => String): Unit = {
+  def updateBallElements(
+    rankedBalls: List[RankedBall],
+    elementId: Ball => String,
+    replacementSelector: Int => String
+  ): Unit = {
 
     val ballElements = rankedBalls.map { rankedBall =>
       val newCard = jQuery(elementId(rankedBall.ball)).clone()

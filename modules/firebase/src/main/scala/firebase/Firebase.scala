@@ -37,8 +37,10 @@ object Firebase extends js.Object {
   def auth(app: js.UndefOr[firebase.app.App] = js.undefined): firebase.auth.Auth = js.native
   def firestore(): firebase.firestore.Firestore                                  = js.native
 
-  def initializeApp(options: FirebaseConfig,
-                    name: js.UndefOr[String] = js.undefined): firebase.app.App = js.native
+  def initializeApp(
+    options: FirebaseConfig,
+    name: js.UndefOr[String] = js.undefined
+  ): firebase.app.App = js.native
 
 }
 
@@ -84,8 +86,10 @@ trait FirebaseError extends js.Object {
 @js.native
 trait Thenable[T, E] extends js.Object {
   def `catch`[U](onReject: js.Function1[E, U]): js.Dynamic = js.native
-  def `then`[U](onResolve: js.Function1[T, U],
-                onReject: js.Function1[E, U]): firebase.Thenable[U, E] =
+  def `then`[U](
+    onResolve: js.Function1[T, U],
+    onReject: js.Function1[E, U]
+  ): firebase.Thenable[U, E] =
     js.native
 }
 

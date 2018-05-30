@@ -27,11 +27,13 @@ package golfclash.notebook
 object core {
 
   case class HoleData(id: String, aliases: List[String])
-  case class HoleNote(id: Option[String],
-                      userId: String,
-                      holeId: String,
-                      category: String,
-                      content: String)
+  case class HoleNote(
+    id: Option[String],
+    userId: String,
+    holeId: String,
+    category: String,
+    content: String
+  )
 
   case class ClubRatings(clubId: String, levelRatings: List[Double])
   case class HoleClubRatings(
