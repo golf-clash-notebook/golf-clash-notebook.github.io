@@ -32,7 +32,7 @@ object wind {
     val windCategoryMultiplier = {
       club.clubCategory match {
         case Some(Club.Category.RoughIrons) => 1.8
-        case Some(Club.Category.SandWedges) => 1.8
+        case Some(Club.Category.SandWedges) => 1.6
         case _                              => 1
       }
     }
