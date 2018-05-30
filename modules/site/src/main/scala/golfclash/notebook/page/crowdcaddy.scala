@@ -54,10 +54,12 @@ object crowdcaddy {
 
     }
   }
-  case class ScenarioOutcome(scenario: Scenario,
-                             winner: ClubLevel,
-                             optionA: ClubRating,
-                             optionB: ClubRating)
+  case class ScenarioOutcome(
+    scenario: Scenario,
+    winner: ClubLevel,
+    optionA: ClubRating,
+    optionB: ClubRating
+  )
 
   private val rnd = new Random()
 
