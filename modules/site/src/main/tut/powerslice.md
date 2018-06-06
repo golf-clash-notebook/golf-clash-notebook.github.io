@@ -1,9 +1,9 @@
 ---
 layout: gcn-layout
-title:  "Power Slice / Hook"
+title:  "Power Slice"
 section: "powerslice"
 permalink: /powerslice/
-position: -1
+position: 72
 ---
 
 <h1 class="gcn-page-header">Power Slice Ring Adjustments</h1>
