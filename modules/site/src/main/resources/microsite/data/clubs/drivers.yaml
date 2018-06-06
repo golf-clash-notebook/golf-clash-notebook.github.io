@@ -21,7 +21,8 @@
     The Apocalypse. The distance this club has is unmatched except for those clubs. Of course, that
     extra distance comes at a price since the accuracy of The Extra Mile is pretty awful until you
     get it to level 7. Level 6 and 7 are significant upgrades and something to aim for to make the
-    Pro Series tours more managable.
+    Pro Series tours more managable. And if you have trouble hitting 'Perfect', consider using the
+    Quarterback or Rock instead if you have them leveled up enough.
   power:     [220, 220, 224, 226, 226, 234, 234, 236]
   accuracy:  [  0,   7,   7,   7,  29,  29,  45,  45]
   topspin:   [ 20,  30,  30,  45,  50,  50,  50,  67]
@@ -77,7 +78,8 @@
     allure of The Extra Mile's distance. It gives you much better accuracy and similar top spin.
     Once you hit levels 4 and 5, you'll have a real pickle on your hands of which driver to use
     unless you've already leveled up The Apocalypse. This is a <strong><em>really</em></strong>
-    great club once you get it to level 5 and a popular option for higher tours.
+    great club once you get it to level 5, and an absolute beast once you hit level 7. No wonder
+    it's a popular option for higher tours.
   power:     [220, 220, 222, 229, 232, 232, 232]
   accuracy:  [ 50,  64,  64,  64,  64,  64,  92]
   topspin:   [ 45,  45,  56,  56,  67,  85,  98]
@@ -88,7 +90,7 @@
   name: The Apocalypse
   category: Drivers
   description: >
-    Widely considered the best driver available once you get it to level 4 and a viable option at 3.
+    Widely considered the best driver available once you get it to level 5 and a viable option at 3.
     The only other driver that really compares when it's leveled up it the Thor's Hammer so between
     the two clubs, you should have everything you need for any given situation. Unfortunately, the
     rate you get cards for this beast is slow at best so it might be a while.
