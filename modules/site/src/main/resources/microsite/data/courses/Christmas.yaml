@@ -1,7 +1,8 @@
 course-name: Christmas
-skinned: false
+skinned: true
 holes:
   - id: 2cb5ab94-1384-4df1-8de6-f8a85b40b9f9
+    current-tournament: true
     course: Christmas
     number: 1
     par: 3
@@ -29,6 +30,8 @@ holes:
           url: https://youtu.be/5eD98UTd9To
         - title: Text Guide
           url: https://i.imgur.com/hhQUdui.png
+    aliases:
+      - f8596eb9-9b31-46c8-824d-da908b6ec621
     overlays:
       size: [435, 810]
       guides:
@@ -102,6 +105,7 @@ holes:
               <image xlink:href="/img/golfclash/courses/Christmas/annotations/1-Green.png" x="0" y="200" width="200" height="200" />
             </g>
   - id: 59c09a8a-33b2-4870-8483-3e3d45eab4ba
+    current-tournament: true
     course: Christmas
     number: 2
     par: 4
@@ -128,6 +132,8 @@ holes:
           url: https://youtu.be/Ndtx4NSNbRU
         - title: Text Guide
           url: https://i.imgur.com/JeehCzC.png
+    aliases:
+      - 16fb8928-e633-4973-b861-ab45323ebcdf
     overlays:
       size: [448, 1107]
       guides:
@@ -196,6 +202,7 @@ holes:
               <image xlink:href="/img/golfclash/courses/Christmas/annotations/2-Green.png" x="250" y="0" width="200" height="200" />
             </g>
   - id: 2bde31cb-61bf-421b-9031-409a396ddd3b
+    current-tournament: true
     course: Christmas
     number: 3
     par: 5
@@ -222,6 +229,8 @@ holes:
           url: https://youtu.be/BCbkszGMJRs
         - title: Text Guide
           url: https://i.imgur.com/gHamKb7.png
+    aliases:
+      - 42b1a784-4b07-48c0-af08-0adb081a5d1d
     overlays:
       size: [382, 1085]
       guides:
@@ -303,6 +312,7 @@ holes:
               <image xlink:href="/img/golfclash/courses/Christmas/annotations/3-Green.png" x="0" y="150" width="175" height="175" />
             </g>
   - id: 4e7a6bb4-16ca-40c6-8ea3-ba80f2dbcd86
+    current-tournament: true
     course: Christmas
     number: 4
     par: 3
@@ -329,6 +339,8 @@ holes:
           url: https://youtu.be/UiqQckxEaW0
         - title: Text Guide
           url: https://i.imgur.com/UjBSrnZ.png
+    aliases:
+      - 55ec9b30-4c36-4d8a-9a19-d759c4131d6c
     overlays:
       size: [382, 821]
       guides:
@@ -383,6 +395,7 @@ holes:
               <image xlink:href="/img/golfclash/courses/Christmas/annotations/4-Green.png" x="0" y="230" width="175" height="175" />
             </g>
   - id: c3afd005-7b62-42d9-b262-134085af7f25
+    current-tournament: true
     course: Christmas
     number: 5
     par: 4
@@ -409,6 +422,8 @@ holes:
           url: https://youtu.be/zIdvvBrv17U
         - title: Text Guide
           url: https://i.imgur.com/CDrWodR.jpg
+    aliases:
+      - 712d5ce0-7104-4c8b-a1dc-ce2a4e00d65c
     overlays:
       size: [402, 838]
       guides:
@@ -454,6 +469,7 @@ holes:
               <image xlink:href="/img/golfclash/courses/Christmas/annotations/5-Green.png" x="0" y="150" width="175" height="175" />
             </g>
   - id: 773e7eeb-3125-4ce4-a95a-d56321392b51
+    current-tournament: true
     course: Christmas
     number: 6
     par: 5
@@ -478,6 +494,8 @@ holes:
           url: https://youtu.be/AdzVN4OZxK4
         - title: Text Guide
           url: https://i.imgur.com/0jLncAe.png
+    aliases:
+      - a35bb713-65a2-4518-8542-c7e93236b5b6
     overlays:
       size: [374, 1095]
       guides:
@@ -557,6 +575,7 @@ holes:
               <image xlink:href="/img/golfclash/courses/Christmas/annotations/6-Green.png" x="0" y="150" width="175" height="175" />
             </g>
   - id: 8f6e03cb-a10b-465d-b112-7ca73ac9fd02
+    current-tournament: true
     course: Christmas
     number: 7
     par: 4
@@ -583,6 +602,8 @@ holes:
           url: https://youtu.be/22ha-0ywIsE
         - title: Text Guide
           url: https://i.imgur.com/czqlwoy.png
+    aliases:
+      - 8db73e0a-7925-46f1-8a20-dd302888e159
     overlays:
       size: [310, 1047]
       guides:
@@ -661,6 +682,7 @@ holes:
               <image xlink:href="/img/golfclash/courses/Christmas/annotations/7-Green.png" x="185" y="150" width="175" height="175" />
             </g>
   - id: af4e56bd-11c9-481b-ab5a-3e83c1def286
+    current-tournament: true
     course: Christmas
     number: 8
     par: 3
@@ -687,6 +709,8 @@ holes:
           url: https://youtu.be/e6z-H27OkiI
         - title: Text Guide
           url: https://i.imgur.com/spYFvmy.jpg
+    aliases:
+      - 4d434fd0-0f6a-454c-b8c1-e84a7bdf9465
     overlays:
       size: [450, 912]
       guides:
@@ -740,6 +764,7 @@ holes:
               <image xlink:href="/img/golfclash/courses/Christmas/annotations/8-Green.png" x="0" y="325" width="200" height="200" />
             </g>
   - id: 02e3949a-abdb-41b1-b6f0-87e28045c307
+    current-tournament: true
     course: Christmas
     number: 9
     par: 5
@@ -766,6 +791,8 @@ holes:
           url: https://youtu.be/t7zQqNFN0uY
         - title: Text Guide
           url: https://i.imgur.com/l0TG4ew.png
+    aliases:
+      - 06c3aa56-5bd2-45dc-bb0f-37985aff93ad
     overlays:
       size: [423, 1096]
       guides:

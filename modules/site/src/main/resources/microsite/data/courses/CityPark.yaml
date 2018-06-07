@@ -1,0 +1,84 @@
+course-name: City Park
+skinned: false
+holes:
+  - id: f8596eb9-9b31-46c8-824d-da908b6ec621
+    current-tournament: true
+    course: City Park
+    number: 1
+    par: 3
+    description: >
+      Help Wanted
+    aliases:
+      - 2cb5ab94-1384-4df1-8de6-f8a85b40b9f9
+  - id: 16fb8928-e633-4973-b861-ab45323ebcdf
+    current-tournament: true
+    course: City Park
+    number: 2
+    par: 4
+    description: >
+      Help Wanted
+    aliases:
+      - 59c09a8a-33b2-4870-8483-3e3d45eab4ba
+  - id: 42b1a784-4b07-48c0-af08-0adb081a5d1d
+    current-tournament: true
+    course: City Park
+    number: 3
+    par: 5
+    description: >
+      Help Wanted
+    aliases:
+      - 2bde31cb-61bf-421b-9031-409a396ddd3b
+  - id: 55ec9b30-4c36-4d8a-9a19-d759c4131d6c
+    current-tournament: true
+    course: City Park
+    number: 4
+    par: 3
+    description: >
+      Help Wanted
+    aliases:
+      - 4e7a6bb4-16ca-40c6-8ea3-ba80f2dbcd86
+  - id: 712d5ce0-7104-4c8b-a1dc-ce2a4e00d65c
+    current-tournament: true
+    course: City Park
+    number: 5
+    par: 4
+    description: >
+      Help Wanted
+    aliases:
+      - c3afd005-7b62-42d9-b262-134085af7f25
+  - id: a35bb713-65a2-4518-8542-c7e93236b5b6
+    current-tournament: true
+    course: City Park
+    number: 6
+    par: 5
+    description: >
+      Help Wanted
+    aliases:
+      - 773e7eeb-3125-4ce4-a95a-d56321392b51
+  - id: 8db73e0a-7925-46f1-8a20-dd302888e159
+    current-tournament: true
+    course: City Park
+    number: 7
+    par: 4
+    description: >
+      Help Wanted
+    aliases:
+      - 8f6e03cb-a10b-465d-b112-7ca73ac9fd02
+  - id: 4d434fd0-0f6a-454c-b8c1-e84a7bdf9465
+    current-tournament: true
+    course: City Park
+    number: 8
+    par: 3
+    description: >
+      Help Wanted
+    aliases:
+      - af4e56bd-11c9-481b-ab5a-3e83c1def286
+  - id: 06c3aa56-5bd2-45dc-bb0f-37985aff93ad
+    current-tournament: true
+    course: City Park
+    number: 9
+    par: 5
+    description: >
+      Help Wanted
+    aliases:
+      - 02e3949a-abdb-41b1-b6f0-87e28045c307

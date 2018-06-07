@@ -1,0 +1,22 @@
+tournament-name: New York Classic
+date: '2018-06-11'
+resource-creators:
+holes:
+  - number: 1
+    id: f8596eb9-9b31-46c8-824d-da908b6ec621
+  - number: 2
+    id: 16fb8928-e633-4973-b861-ab45323ebcdf
+  - number: 3
+    id: 42b1a784-4b07-48c0-af08-0adb081a5d1d
+  - number: 4
+    id: 55ec9b30-4c36-4d8a-9a19-d759c4131d6c
+  - number: 5
+    id: 712d5ce0-7104-4c8b-a1dc-ce2a4e00d65c
+  - number: 6
+    id: a35bb713-65a2-4518-8542-c7e93236b5b6
+  - number: 7
+    id: 8db73e0a-7925-46f1-8a20-dd302888e159
+  - number: 8
+    id: 4d434fd0-0f6a-454c-b8c1-e84a7bdf9465
+  - number: 9
+    id: 06c3aa56-5bd2-45dc-bb0f-37985aff93ad
