@@ -72,6 +72,13 @@ page_gen:
     extra:
       title-prefix: 'Christmas - Hole '
   - index_files: true
+    data: 'courses.CityPark.holes'
+    template: '_includes/courses/hole-template.liquid'
+    name: 'number'
+    dir: 'courses/CityPark'
+    extra:
+      title-prefix: 'City Park - Hole '
+  - index_files: true
     data: 'courses.CreepyCliffs.holes'
     template: '_includes/courses/hole-template.liquid'
     name: 'number'
@@ -408,3 +415,11 @@ page_gen:
     extra:
       title-prefix: 'Vegas Sundown Tournament - Hole '
       tournament-name: 'Vegas Sundown'
+  - index_files: true
+    data: 'tournaments.NewYorkClassic.holes'
+    template: '_includes/tournaments/hole-template.liquid'
+    name: 'number'
+    dir: 'tournaments/NewYorkClassic'
+    extra:
+      title-prefix: 'New York Classic Tournament - Hole '
+      tournament-name: 'New York Classic'
