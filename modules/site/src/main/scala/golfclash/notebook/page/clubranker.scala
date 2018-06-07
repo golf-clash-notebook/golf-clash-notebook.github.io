@@ -142,13 +142,13 @@ object clubranker {
   )
 
   val CategoryWeightPresets = Map(
-    Club.Category.Drivers    -> ClubRankWeights(70, 10, 10, 0, 10, 0),
-    Club.Category.Woods      -> ClubRankWeights(25, 20, 0, 20, 20, 15),
+    Club.Category.Drivers    -> ClubRankWeights(40, 25, 25, 0, 10, 0),
+    Club.Category.Woods      -> ClubRankWeights(20, 30, 0, 20, 15, 15),
     Club.Category.LongIrons  -> ClubRankWeights(25, 30, 0, 25, 0, 20),
-    Club.Category.ShortIrons -> ClubRankWeights(15, 40, 0, 15, 0, 30),
-    Club.Category.Wedges     -> ClubRankWeights(10, 30, 20, 0, 0, 40),
+    Club.Category.ShortIrons -> ClubRankWeights(15, 30, 0, 20, 0, 35),
+    Club.Category.Wedges     -> ClubRankWeights(10, 35, 20, 0, 0, 35),
     Club.Category.RoughIrons -> ClubRankWeights(40, 25, 5, 15, 5, 10),
-    Club.Category.SandWedges -> ClubRankWeights(30, 35, 0, 15, 0, 20)
+    Club.Category.SandWedges -> ClubRankWeights(50, 25, 0, 5, 0, 20)
   )
 
   def rank(clubLevels: List[ClubLevel], weights: ClubRankWeights): List[RankedClub] = {
