@@ -1,5 +1,6 @@
 
 {% assign title = include.title %}
+{% assign clubs = include.clubs %}
 {% assign powerCoefficient = include.powerCoefficient %}
 {% assign accuracyCoefficient = include.accuracyCoefficient %}
 {% assign curlCoefficient = include.curlCoefficient %}
@@ -16,15 +17,15 @@
       </tr>
     </thead>
     <tbody>
-      {% for driver in site.data.clubs.drivers %}
-        {% assign maxLevel = driver.power | size %}
+      {% for club in clubs %}
+        {% assign maxLevel = club.power | size %}
         <tr>
-          <td>{{ driver.name }}</td>
+          <td>{{ club.name }}</td>
           {% for level in (0..9) %}
             {% if level < maxLevel %}
-              {% assign powerX = driver.power[level] | times: powerCoefficient %}
-              {% assign accX = driver.accuracy[level] | times: accuracyCoefficient %}
-              {% assign crlX = driver.curl[level] | times: curlCoefficient %}
+              {% assign powerX = club.power[level] | times: powerCoefficient %}
+              {% assign accX = club.accuracy[level] | times: accuracyCoefficient %}
+              {% assign crlX = club.curl[level] | times: curlCoefficient %}
               {% assign adjustmentRaw = powerX | plus: accX | plus: crlX | plus: alpha %}
               {% assign adjustment = adjustmentRaw | round: 1 %}
               <td class="text-center">{{ adjustment }}</td>
