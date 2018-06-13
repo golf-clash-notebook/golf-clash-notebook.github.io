@@ -31,6 +31,7 @@ import scala.util.Try
 import org.scalajs.jquery.jQuery
 
 import cats.implicits._
+import golfclash.notebook.wind._
 import jspdf._
 import monix.eval.Task
 import monix.execution.Scheduler.Implicits.global
@@ -40,32 +41,13 @@ object windchartcreator {
 
   case class ClubLevel(level: Int, club: Club)
 
-  sealed abstract class ChartMode(
-    val name: String,
-    val maxPowerAdjustment: Double => Double,
-    val minPowerAdjustment: Double => Double
-  ) extends Product
-      with Serializable
-
-  case object Power0 extends ChartMode("Power 0", _ * 1.00, _ * 1.00)
-  case object Power1 extends ChartMode("Power 1", _ * 1.03, _ * 1.03)
-  case object Power2 extends ChartMode("Power 2", _ * 1.05, _ * 1.05)
-  case object Power3 extends ChartMode("Power 3", _ * 1.07, _ * 1.07)
-  case object Power4 extends ChartMode("Power 4", _ * 1.10, _ * 1.10)
-  case object Power5 extends ChartMode("Power 5", _ * 1.13, _ * 1.13)
-  case object Simple extends ChartMode("Simple", _ => 1.00, _ * 1.00)
-
-  object ChartMode {
-    def All = List(Power0, Power1, Power2, Power3, Power4, Power5, Simple)
-  }
-
   val init = () => {
 
     if (util.isFacebookBrowser()) {
       jQuery("#facebook-browser-warning").removeClass("hidden")
     }
 
-    ChartMode.All.foreach { mode =>
+    WindMode.All.foreach { mode =>
       val option = jQuery("<option>", js.Dynamic.literal("value" -> mode.name, "text" -> mode.name))
       jQuery("#mode-select").append(option)
     }
@@ -79,7 +61,7 @@ object windchartcreator {
           if (GolfClashNotebookApp.currentMode() == GolfClashNotebookApp.Dev) {
             // TODO: Development purposes...
             if (club.name.toLowerCase.contains("thor's")) {
-              addClubLevel(ClubLevel(5, club))
+              addClubLevel(ClubLevel(6, club))
             }
             if (club.name.toLowerCase.contains("sniper")) {
               addClubLevel(ClubLevel(10, club))
@@ -94,7 +76,7 @@ object windchartcreator {
               addClubLevel(ClubLevel(8, club))
             }
             if (club.name.toLowerCase.contains("nirvana")) {
-              addClubLevel(ClubLevel(7, club))
+              addClubLevel(ClubLevel(8, club))
             }
             if (club.name.toLowerCase.contains("malibu")) {
               addClubLevel(ClubLevel(8, club))
@@ -129,7 +111,7 @@ object windchartcreator {
 
       jQuery("#create-wind-chart-btn").click { () =>
         (for {
-          mode  <- currentChartMode
+          mode  <- currentWindMode
           title <- currentChartTitle
           clubs <- currentClubs
         } yield {
@@ -159,10 +141,10 @@ object windchartcreator {
     }
   }
 
-  def currentChartMode(): Task[Option[ChartMode]] = {
+  def currentWindMode(): Task[Option[WindMode]] = {
     Task {
       Try(jQuery("#mode-select").`val`.asInstanceOf[String]).toOption
-        .flatMap(value => ChartMode.All.find(_.name == value))
+        .flatMap(value => WindMode.All.find(_.name == value))
     }
   }
 
@@ -253,7 +235,7 @@ object windchartcreator {
     }
   }
 
-  def generateWindChart(mode: ChartMode, title: String, allClubs: List[ClubLevel]): Unit = {
+  def generateWindChart(mode: WindMode, title: String, allClubs: List[ClubLevel]): Unit = {
 
     val pdf = JSPdf("portrait", "in")
 
@@ -338,9 +320,9 @@ object windchartcreator {
                   )
 
                   List(
-                    maxPower(clubLevel, mode),
-                    midPower(clubLevel, mode),
-                    minPower(clubLevel, mode)
+                    maxPower(clubLevel.club, clubLevel.level, mode),
+                    midPower(clubLevel.club, clubLevel.level, mode),
+                    minPower(clubLevel.club, clubLevel.level, mode)
                   ).zipWithIndex.foreach {
                     case (clubPower, clubColumn) =>
                       val columnCenterX      = pageXMargin + ((clubColumn + 1) * clubColumnWidth) + (clubColumnWidth / 2)
@@ -349,7 +331,7 @@ object windchartcreator {
                       val ringRowHeight      = 0.23
                       val ringRowTextYOffset = 0.17
 
-                      val windPerRing = wind.windPerRing(clubLevel.club, clubLevel.level, clubPower)
+                      val windPerRingValue = windPerRing(clubLevel.club, clubLevel.level, clubPower)
 
                       // Ring background colors
                       (RingColors).zipWithIndex.foreach {
@@ -370,7 +352,7 @@ object windchartcreator {
                         val subColumnCenterX = columnCenterX - (clubColumnWidth / 6) + (subColumn * clubColumnWidth / 3)
 
                         pdf.text(
-                          f"${windPerRing * (ringNum + 1)}%.2f",
+                          f"${windPerRingValue * (ringNum + 1)}%.2f",
                           subColumnCenterX,
                           chartY + (ringNum * ringRowHeight) + ringRowTextYOffset - (subColumn * (ringRowHeight * RingColors.size)),
                           "center"
@@ -412,87 +394,6 @@ object windchartcreator {
 
     ()
 
-  }
-
-  def maxPower(clubLevel: ClubLevel, mode: ChartMode): Double = {
-    mode match {
-      case Simple => 1.0
-      case mode => {
-        mode.maxPowerAdjustment(
-          clubLevel.club.clubCategory
-            .map(
-              category =>
-                (clubLevel.club.power(clubLevel.level - 1) / category.maxDistance.toDouble)
-            )
-            .getOrElse(1d)
-        )
-      }
-    }
-  }
-
-  def midPower(clubLevel: ClubLevel, mode: ChartMode): Double = {
-    mode match {
-      case Simple => {
-        clubLevel.club.clubCategory match {
-          case Some(Club.Category.Drivers)    => 0.875
-          case Some(Club.Category.Woods)      => 0.875
-          case Some(Club.Category.LongIrons)  => 0.833
-          case Some(Club.Category.ShortIrons) => 0.750
-          case Some(Club.Category.Wedges)     => 0.500
-          case Some(Club.Category.RoughIrons) => 0.500
-          case Some(Club.Category.SandWedges) => 0.500
-          case None                           => 0.875
-        }
-      }
-      case mode => {
-
-        def averagePower(clubLevel: ClubLevel, mode: ChartMode): Double =
-          (minPower(clubLevel, mode) + maxPower(clubLevel, mode)) / 2
-
-        clubLevel.club.clubCategory match {
-          case Some(Club.Category.Drivers)    => averagePower(clubLevel, mode)
-          case Some(Club.Category.Woods)      => averagePower(clubLevel, mode)
-          case Some(Club.Category.LongIrons)  => averagePower(clubLevel, mode)
-          case Some(Club.Category.ShortIrons) => averagePower(clubLevel, mode)
-          case Some(Club.Category.Wedges)     => maxPower(clubLevel, mode) / 2
-          case Some(Club.Category.RoughIrons) => maxPower(clubLevel, mode) / 2
-          case Some(Club.Category.SandWedges) => maxPower(clubLevel, mode) / 2
-          case None                           => averagePower(clubLevel, mode)
-        }
-      }
-    }
-  }
-
-  def minPower(clubLevel: ClubLevel, mode: ChartMode): Double = {
-    mode match {
-      case Simple => {
-        clubLevel.club.clubCategory match {
-          case Some(Club.Category.Drivers)    => 0.75
-          case Some(Club.Category.Woods)      => 0.75
-          case Some(Club.Category.LongIrons)  => 0.66
-          case Some(Club.Category.ShortIrons) => 0.50
-          case Some(Club.Category.Wedges)     => 0.25
-          case Some(Club.Category.RoughIrons) => 0.25
-          case Some(Club.Category.SandWedges) => 0.25
-          case None                           => 0.75
-        }
-      }
-      case mode => {
-        clubLevel.club.clubCategory match {
-          case Some(Club.Category.Drivers)    => mode.minPowerAdjustment(0.75)
-          case Some(Club.Category.Woods)      => mode.minPowerAdjustment(0.75)
-          case Some(Club.Category.LongIrons)  => mode.minPowerAdjustment(0.66)
-          case Some(Club.Category.ShortIrons) => mode.minPowerAdjustment(0.50)
-          case Some(Club.Category.Wedges) =>
-            mode.minPowerAdjustment(maxPower(clubLevel, mode) / 4)
-          case Some(Club.Category.RoughIrons) =>
-            mode.minPowerAdjustment(maxPower(clubLevel, mode) / 4)
-          case Some(Club.Category.SandWedges) =>
-            mode.minPowerAdjustment(maxPower(clubLevel, mode) / 4)
-          case None => mode.minPowerAdjustment(0.75)
-        }
-      }
-    }
   }
 
 }
