@@ -1,6 +1,38 @@
 tournament-name: New York Classic
 date: '2018-06-11'
 resource-creators:
+  - name: Golf Clash Tommy
+    resources:
+    - title: Masters Walkthrough
+      url: https://youtu.be/OdAMoU_ohOM
+    - title: Expert Walkthrough
+      url: https://youtu.be/A2TFQY6QDeI
+    - title: Pro Walkthrough
+      url: https://youtu.be/Q-KRB90i-6Q
+    - title: Rookie Walkthrough
+      url: https://youtu.be/ZW2LToP-97c
+  - name: Zachary Jones
+    resources:
+    - title: Tournament Prep (Tour 11)
+      url: https://youtu.be/S_wXe_eHiE4
+    - title: Tournament Prep (Tour 6)
+      url: https://youtu.be/1KQlrfTcRWE
+  - name: ItsRJTV
+    resources:
+    - title: Qualifying Round (Pro)
+      url: https://youtu.be/wuxSVk3C31Q
+  - name: Cam Alvesteffer
+    resources:
+    - title: Qualifying Round (Masters)
+      url: https://youtu.be/C9Xiw0JOnDg
+  - name: Jesse Both
+    resources:
+    - title: Qualifying Round (Pro)
+      url: https://youtu.be/CLXIAAklHrM
+    - title: Qualifying Round (Rookie)
+      url: https://youtu.be/aSl2EHRwPDI
+    - title: Rookie & Pro Wind Guide
+      url: https://youtu.be/aSl2EHRwPDI
 holes:
   - number: 1
     id: f8596eb9-9b31-46c8-824d-da908b6ec621
