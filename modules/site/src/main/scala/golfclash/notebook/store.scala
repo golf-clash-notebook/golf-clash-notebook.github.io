@@ -212,7 +212,7 @@ object store {
 
             promise.success(allRatings)
           },
-          error => promise.failure(new RuntimeException(error.message)),
+          error => promise.failure(new RuntimeException(error.message))
         )
 
       Task.fromFuture(promise.future)

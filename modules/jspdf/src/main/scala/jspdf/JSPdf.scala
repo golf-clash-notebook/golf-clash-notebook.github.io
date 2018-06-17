@@ -33,7 +33,7 @@ object JSPdf {
     new JSPdf(
       js.Dynamic.literal(
         "orientation" -> orientation,
-        "unit"        -> unit,
+        "unit"        -> unit
       )
     )
 
