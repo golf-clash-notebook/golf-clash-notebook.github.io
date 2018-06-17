@@ -28,6 +28,10 @@ position: 75
 
     <h1 class="gcn-page-header">Answers to the most common Golf Clash questions.</h1>
 
+    <p class="text-center text-small">
+      In addition to the content here, you can find more at <a href="https://playdemic.helpshift.com/a/golf-clash/?p=all" target="_blank" rel="noopener">Playdemics Official FAQ</a>.
+    </p>
+
     {% for faqCategoryKey in sortedCategoryArray %}
 
       {% assign faqCategory = site.data.faq[faqCategoryKey] %}

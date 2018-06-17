@@ -39,7 +39,7 @@ case class Hole(
   id: String,
   course: String,
   number: Int,
-  par: Int,
+  par: Int
 )
 
 case class HoleRating(holeId: String, rating: Double)
