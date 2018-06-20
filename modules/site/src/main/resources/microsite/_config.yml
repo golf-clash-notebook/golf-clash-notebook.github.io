@@ -423,3 +423,11 @@ page_gen:
     extra:
       title-prefix: 'New York Classic Tournament - Hole '
       tournament-name: 'New York Classic'
+  - index_files: true
+    data: 'tournaments.FootballFever.holes'
+    template: '_includes/tournaments/hole-template.liquid'
+    name: 'number'
+    dir: 'tournaments/FootballFever'
+    extra:
+      title-prefix: 'Football Fever Tournament - Hole '
+      tournament-name: 'Football Fever'
