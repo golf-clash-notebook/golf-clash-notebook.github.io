@@ -1,0 +1,22 @@
+tournament-name: Football Fever
+date: '2018-06-25'
+resource-creators:
+holes:
+  - number: 1
+    id: 726b08c9-a742-45bb-8050-62c552395bbd
+  - number: 2
+    id: 944bdfca-0abc-41a5-ac97-7e38291f7893
+  - number: 3
+    id: d8d0764c-8275-4bdf-9f02-09d3c5edbe90
+  - number: 4
+    id: 49e3d49a-1647-4347-8f75-3e7fbb32d80c
+  - number: 5
+    id: f9ceacbe-b884-4436-85ce-a52427abc0fd
+  - number: 6
+    id: ed81ce0a-a7bb-4228-a7a6-004ce5da2db4
+  - number: 7
+    id: 1083f47b-b2a8-4dde-bfa2-0ea3b2a32073
+  - number: 8
+    id: 6f8e0144-ffbb-4f98-9585-e17626be6559
+  - number: 9
+    id: 0e418963-9399-4d7b-b7ec-a5af5318e75d
