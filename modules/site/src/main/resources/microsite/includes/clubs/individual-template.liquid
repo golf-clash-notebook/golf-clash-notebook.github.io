@@ -8,10 +8,6 @@
       <img src="/img/golfclash/clubs/{{ clubPath }}-64x64.png" alt="{{ include.club.name }}">
     </div>
     <h4 class="title">{{ include.club.name }}</h4>
-    <div class="pull-right">
-      <a class="btn btn-default btn-xs btn-wind-chart hidden-sm hidden-xs hidden" role="button" data-toggle="popover" data-placement="auto left" data-html="true" data-club-name="{{ include.club.name }}">Wind Chart</a>
-      <a class="btn btn-default btn-xs btn-wind-chart-modal hidden-lg hidden-md  hidden" role="button" data-club-name="{{ include.club.name }}">Wind Chart</a>
-    </div>
   </div>
   {% if include.club.description contains 'Help Wanted' %}
     <div class="panel-body text-prototype">
