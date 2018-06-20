@@ -191,19 +191,19 @@ page_gen:
     extra:
       title-prefix: 'Vineyard Acres - Hole '
   - index_files: true
-    data: 'courses.WinterGames.holes'
-    template: '_includes/courses/hole-template.liquid'
-    name: 'number'
-    dir: 'courses/WinterGames'
-    extra:
-      title-prefix: 'Winter Links - Hole '
-  - index_files: true
     data: 'courses.WinterLinks.holes'
     template: '_includes/courses/hole-template.liquid'
     name: 'number'
     dir: 'courses/WinterLinks'
     extra:
       title-prefix: 'Winter Links - Hole '
+  - index_files: true
+    data: 'courses.WinterOlympics.holes'
+    template: '_includes/courses/hole-template.liquid'
+    name: 'number'
+    dir: 'courses/WinterOlympics'
+    extra:
+      title-prefix: 'Winter WinterOlympics - Hole '
 
   ##### Tournament Holes #####
 

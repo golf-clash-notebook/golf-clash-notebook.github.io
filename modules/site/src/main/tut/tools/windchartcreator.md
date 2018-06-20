@@ -104,16 +104,6 @@ permalink: /tools/windchartcreator/
                 overkill, keep in mind the micro adjustments that may come when switching between
                 balls.
               </dd>
-              <dt>Simple</dt>
-              <dd>
-                This is typically what you'll see when you look at the various wind charts floating
-                around the web. And this was the method used on Golf Clash Notebook before the other
-                options were introduced so if you're happy with the chart you had, then go ahead and
-                stick with this. It basically assumes that every club in a given category
-                has the same max distance (e.g. Drivers: 240 yards, Woods: 180 yards, etc.). This
-                obviously isn't an accurate assumption but this mode will generally be 'accurate
-                enough' for most situations.
-              </dd>
             </dl>
           </div>
         </div>

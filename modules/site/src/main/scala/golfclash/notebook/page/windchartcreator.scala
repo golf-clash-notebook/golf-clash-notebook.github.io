@@ -78,8 +78,8 @@ object windchartcreator {
             if (club.name.toLowerCase.contains("nirvana")) {
               addClubLevel(ClubLevel(8, club))
             }
-            if (club.name.toLowerCase.contains("malibu")) {
-              addClubLevel(ClubLevel(8, club))
+            if (club.name.toLowerCase.contains("spitfire")) {
+              addClubLevel(ClubLevel(5, club))
             }
           }
 
@@ -115,7 +115,7 @@ object windchartcreator {
           title <- currentChartTitle
           clubs <- currentClubs
         } yield {
-          generateWindChart(mode.getOrElse(Simple), title, clubs)
+          generateWindChart(mode.getOrElse(Power0), title, clubs)
         }).runAsync
       }
     }.runAsync
