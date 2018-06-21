@@ -43,7 +43,8 @@ position: 65
       Lastly, while you're learning the ring method, the amount of numbers you need to know can be
       overwhelming. If you're having trouble keeping track of ring values for all of your clubs, be
       sure to check out the <a href="/tools/windchartcreator">Wind Chart Creator</a> tool that can
-      make it a little easier.
+      make it a little easier. If that tool isn't to your liking, the
+      <a href="https://public.tableau.com/profile/scott.marler#!/vizhome/RingNumberCalculator/RingNumberCalculator" target="_blank" rel="noopener">Golf Clash University Wind Ring Calculator</a> is worth checking out as well.
     </p>
 
     <br>
