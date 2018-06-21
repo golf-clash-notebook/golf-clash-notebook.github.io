@@ -479,6 +479,8 @@ object windchartcreator {
 
           val windRange = (BigDecimal(1.0) to BigDecimal(16.0) by BigDecimal(0.2))
 
+          pdf.text("Wind", pageXMargin, pageYMargin + 0.55, "center")
+
           windRange.zipWithIndex.foreach {
             case (wind, windRow) =>
               val windTextX = pageXMargin
