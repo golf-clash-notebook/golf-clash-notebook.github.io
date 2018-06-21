@@ -39,7 +39,23 @@ import scalatags.JsDom.all._
 
 object windchartcreator {
 
+  sealed abstract class ChartVariant(val name: String) extends Product with Serializable
+  case object WindPerRing                              extends ChartVariant("Wind Per Ring")
+  case object RingsPerWind                             extends ChartVariant("Rings Per Wind")
+
+  object ChartVariant {
+    val All = List(WindPerRing, RingsPerWind)
+  }
+
   case class ClubLevel(level: Int, club: Club)
+
+  val RingColors = List(
+    (251.0, 255.0, 101.0),
+    (255.0, 195.0, 80.0),
+    (112.0, 197.0, 254.0),
+    (225.0, 225.0, 225.0),
+    (255.0, 255.0, 255.0)
+  )
 
   val init = () => {
 
@@ -50,6 +66,12 @@ object windchartcreator {
     WindMode.All.foreach { mode =>
       val option = jQuery("<option>", js.Dynamic.literal("value" -> mode.name, "text" -> mode.name))
       jQuery("#mode-select").append(option)
+    }
+
+    ChartVariant.All.foreach { variant =>
+      val option =
+        jQuery("<option>", js.Dynamic.literal("value" -> variant.name, "text" -> variant.name))
+      jQuery("#variant-select").append(option)
     }
 
     Club.All.map { allClubsList =>
@@ -111,11 +133,12 @@ object windchartcreator {
 
       jQuery("#create-wind-chart-btn").click { () =>
         (for {
-          mode  <- currentWindMode
-          title <- currentChartTitle
-          clubs <- currentClubs
+          variant <- currentChartVariant
+          mode    <- currentWindMode
+          title   <- currentChartTitle
+          clubs   <- currentClubs
         } yield {
-          generateWindChart(mode.getOrElse(Power0), title, clubs)
+          generateChart(variant.getOrElse(WindPerRing), mode.getOrElse(Power0), title, clubs)
         }).runAsync
       }
     }.runAsync
@@ -145,6 +168,13 @@ object windchartcreator {
     Task {
       Try(jQuery("#mode-select").`val`.asInstanceOf[String]).toOption
         .flatMap(value => WindMode.All.find(_.name == value))
+    }
+  }
+
+  def currentChartVariant(): Task[Option[ChartVariant]] = {
+    Task {
+      Try(jQuery("#variant-select").`val`.asInstanceOf[String]).toOption
+        .flatMap(value => ChartVariant.All.find(_.name == value))
     }
   }
 
@@ -235,7 +265,19 @@ object windchartcreator {
     }
   }
 
-  def generateWindChart(mode: WindMode, title: String, allClubs: List[ClubLevel]): Unit = {
+  def generateChart(
+    variant: ChartVariant,
+    mode: WindMode,
+    title: String,
+    allClubs: List[ClubLevel]
+  ): Unit = {
+    variant match {
+      case WindPerRing  => generateWindPerRingChart(mode, title, allClubs)
+      case RingsPerWind => generateRingsPerWindChart(mode, title, allClubs)
+    }
+  }
+
+  def generateWindPerRingChart(mode: WindMode, title: String, allClubs: List[ClubLevel]): Unit = {
 
     val pdf = JSPdf("portrait", "in")
 
@@ -273,7 +315,7 @@ object windchartcreator {
           )
 
           val captionLineHeight = 0.17
-          val captionFirstLine  = 11.2 - (captions.size * captionLineHeight)
+          val captionFirstLine  = 11.25 - (captions.size * captionLineHeight)
 
           captions.zipWithIndex.foreach {
             case (caption, lineNum) =>
@@ -310,14 +352,6 @@ object windchartcreator {
                   )
 
                   pdf.setTextColor(0d)
-
-                  val RingColors = List(
-                    (251.0, 255.0, 101.0),
-                    (255.0, 195.0, 80.0),
-                    (112.0, 197.0, 254.0),
-                    (225.0, 225.0, 225.0),
-                    (255.0, 255.0, 255.0)
-                  )
 
                   List(
                     maxPower(clubLevel.club, clubLevel.level, mode),
@@ -394,6 +428,203 @@ object windchartcreator {
 
     ()
 
+  }
+
+  def generateRingsPerWindChart(mode: WindMode, title: String, allClubs: List[ClubLevel]): Unit = {
+
+    val pdf = JSPdf("portrait", "in")
+
+    val pageXMargin      = 0.75
+    val pageYMargin      = 0.85
+    val clubColumnOffset = 0.2
+
+    allClubs
+      .sliding(7, 7)
+      .zipWithIndex
+      .map {
+        case (pageClubs, pageNum) =>
+          if (pageNum > 0) pdf.addPage()
+
+          if (title.trim.nonEmpty) {
+            pdf.setTextColor(0d)
+            pdf.setFontSize(16d)
+            pdf.text(title, 4.25, pageYMargin, "center")
+          }
+
+          pdf.setFontSize(10d)
+          pdf.setTextColor(150d)
+          pdf.setFontSize(9d)
+
+          val captions = List(
+            s"Generated using ${mode.name} adjustments.",
+            "Wedge, Rough Iron, Sand Wedge mileage will vary. They are SWAGs!"
+          )
+
+          val captionLineHeight = 0.17
+          val captionFirstLine  = 11.3 - (captions.size * captionLineHeight)
+
+          captions.zipWithIndex.foreach {
+            case (caption, lineNum) =>
+              pdf.text(caption, 8.5 / 2, captionFirstLine + (captionLineHeight * lineNum), "center")
+          }
+
+          val clubColumnWidth = (7.0 - clubColumnOffset) / 7
+
+          pdf.setTextColor(30d)
+          pdf.setFontSize(8d)
+          pdf.setLineWidth(0.0005)
+
+          val windRowStartY = pageYMargin + 0.6
+          val windRowHeight = 0.122
+
+          val windRange = (BigDecimal(1.0) to BigDecimal(16.0) by BigDecimal(0.2))
+
+          windRange.zipWithIndex.foreach {
+            case (wind, windRow) =>
+              val windTextX = pageXMargin
+              val windTextY = windRowStartY + (windRow * windRowHeight) + windRowHeight - 0.02
+              pdf.text(f"${wind}%.1f", windTextX, windTextY, "center")
+          }
+
+          pageClubs.toList.zipWithIndex
+            .map {
+              case (clubLevel, clubColumn) =>
+                ClubImage(clubLevel.club).map { base64Image =>
+                  val columnCenterX = pageXMargin + clubColumnOffset + (clubColumnWidth * clubColumn) + (clubColumnWidth / 2)
+
+                  val imageX = columnCenterX - 0.25
+                  val imageY = pageYMargin
+
+                  pdf.setPage(pageNum + 1)
+
+                  pdf.addImage(base64Image, "png", imageX, imageY, 0.5, 0.5)
+
+                  pdf.setTextColor(100d)
+                  pdf.text(
+                    s"""${clubLevel.club.name.replaceAll("The", "").trim} ${clubLevel.level}""",
+                    columnCenterX,
+                    imageY + 0.55,
+                    "center"
+                  )
+                  pdf.setTextColor(30d)
+
+                  windRange.zipWithIndex.foreach {
+                    case (wind, windRow) =>
+                      val windPerRingMax = windPerRing(
+                        clubLevel.club,
+                        clubLevel.level,
+                        maxPower(clubLevel.club, clubLevel.level, mode)
+                      )
+                      val windPerRingMid = windPerRing(
+                        clubLevel.club,
+                        clubLevel.level,
+                        midPower(clubLevel.club, clubLevel.level, mode)
+                      )
+                      val windPerRingMin = windPerRing(
+                        clubLevel.club,
+                        clubLevel.level,
+                        minPower(clubLevel.club, clubLevel.level, mode)
+                      )
+
+                      val maxRings = wind.doubleValue / windPerRingMax
+                      val midRings = wind.doubleValue / windPerRingMid
+                      val minRings = wind.doubleValue / windPerRingMin
+
+                      val textY    = windRowStartY + (windRow * windRowHeight) + windRowHeight - 0.02
+                      val maxTextX = columnCenterX - (3 * clubColumnWidth / 11)
+                      val midTextX = columnCenterX
+                      val minTextX = columnCenterX + (3 * clubColumnWidth / 11)
+
+                      val (maxRingColorR, maxRingColorG, maxRingColorB) =
+                        RingColors((maxRings - 0.1).max(0).floor.toInt % RingColors.size)
+                      val (midRingColorR, midRingColorG, midRingColorB) =
+                        RingColors((midRings - 0.1).max(0).floor.toInt % RingColors.size)
+                      val (minRingColorR, minRingColorG, minRingColorB) =
+                        RingColors((minRings - 0.1).max(0).floor.toInt % RingColors.size)
+
+                      pdf.setFillColor(maxRingColorR, maxRingColorG, maxRingColorB)
+                      pdf.rect(
+                        columnCenterX - (2 * clubColumnWidth / 5),
+                        windRowStartY + (windRow * windRowHeight),
+                        (4 * clubColumnWidth / 15) + 0.0075,
+                        windRowHeight,
+                        "F"
+                      )
+
+                      pdf.setFillColor(midRingColorR, midRingColorG, midRingColorB)
+                      pdf.rect(
+                        columnCenterX - (clubColumnWidth / 8),
+                        windRowStartY + (windRow * windRowHeight),
+                        (4 * clubColumnWidth / 15) + 0.0075,
+                        windRowHeight,
+                        "F"
+                      )
+
+                      pdf.setFillColor(minRingColorR, minRingColorG, minRingColorB)
+                      pdf.rect(
+                        columnCenterX + (clubColumnWidth / 8),
+                        windRowStartY + (windRow * windRowHeight),
+                        (4 * clubColumnWidth / 15) + 0.0075,
+                        windRowHeight,
+                        "F"
+                      )
+
+                      pdf.setTextColor(30d)
+                      pdf.text(f"${(maxRings * 10).floor / 10}%.1f", maxTextX, textY, "center")
+                      pdf.text(f"${(midRings * 10).floor / 10}%.1f", midTextX, textY, "center")
+                      pdf.text(f"${(minRings * 10).floor / 10}%.1f", minTextX, textY, "center")
+                  }
+
+                  // Table and cell borders
+                  pdf.setDrawColor(0)
+                  pdf.setFillColor(255)
+
+                  pdf.rect(
+                    columnCenterX - (2 * clubColumnWidth / 5),
+                    windRowStartY,
+                    (4 * clubColumnWidth / 5),
+                    windRowHeight * windRange.size,
+                    "D"
+                  )
+
+                  pdf.line(
+                    columnCenterX - (clubColumnWidth / 8),
+                    windRowStartY,
+                    columnCenterX - (clubColumnWidth / 8),
+                    windRowStartY + (windRowHeight * windRange.size)
+                  )
+
+                  pdf.line(
+                    columnCenterX + (clubColumnWidth / 8),
+                    windRowStartY,
+                    columnCenterX + (clubColumnWidth / 8),
+                    windRowStartY + (windRowHeight * windRange.size)
+                  )
+
+                  (1 to windRange.size - 1).foreach { windRow =>
+                    pdf.line(
+                      columnCenterX - (2 * clubColumnWidth / 5),
+                      windRowStartY + (windRow * windRowHeight),
+                      columnCenterX + (2 * clubColumnWidth / 5),
+                      windRowStartY + (windRow * windRowHeight)
+                    )
+                  }
+                }
+
+            }
+      }
+      .toList
+      .flatten
+      .sequence
+      .map { _ =>
+        val filename =
+          if (title.nonEmpty) s"WindChart-${title}.pdf"
+          else "WindChart.pdf"
+        pdf.save(filename)
+      }
+      .runAsync
+
+    ()
   }
 
 }

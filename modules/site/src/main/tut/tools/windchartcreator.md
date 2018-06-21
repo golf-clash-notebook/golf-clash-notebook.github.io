@@ -48,7 +48,7 @@ permalink: /tools/windchartcreator/
     <form id="add-club-form" class="form-horizontal pad-32">
       <div id="current-club-list" class="margin-top-16 margin-bottom-16"></div>
       <div class="form-group">
-        <label for="mode-select" class="col-xs-3 text-right margin-top-6">Title <span class="text-tiny font-500">(optional)</span></label>
+        <label for="title-input" class="col-xs-3 text-right margin-top-6">Title <span class="text-tiny font-500">(optional)</span></label>
         <div class="col-xs-9">
           <input id="title-input" type="text" maxLength="48" class="form-control">
         </div>
@@ -62,6 +62,14 @@ permalink: /tools/windchartcreator/
         </label>
         <div class="col-xs-9">
           <select id="mode-select" class="form-control"></select>
+        </div>
+      </div>
+      <div class="form-group">
+        <label for="variant-select" class="col-xs-3 text-right margin-top-6">
+          Variant
+        </label>
+        <div class="col-xs-9">
+          <select id="variant-select" class="form-control"></select>
         </div>
       </div>
       <div class="col-xs-12 text-center margin-top-16">
