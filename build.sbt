@@ -32,19 +32,19 @@ lazy val site = (project in file("modules/site"))
   .settings(moduleSettings("site"): _*)
   .settings(siteSettings)
   .dependsOn(firebase, markedjs, jspdf)
-  .enablePlugins(AutomateHeaderPlugin, MicrositesPlugin, ScalaJSPlugin, ScalaUnidocPlugin)
+  .enablePlugins(AutomateHeaderPlugin, MicrositesPlugin, ScalaJSPlugin)
 
 lazy val firebase = (project in file("modules/firebase"))
   .settings(moduleSettings("firebase"): _*)
-  .enablePlugins(AutomateHeaderPlugin, ScalaJSPlugin, ScalaUnidocPlugin)
+  .enablePlugins(AutomateHeaderPlugin, ScalaJSPlugin)
 
 lazy val markedjs = (project in file("modules/markedjs"))
   .settings(moduleSettings("markedjs"): _*)
-  .enablePlugins(AutomateHeaderPlugin, ScalaJSPlugin, ScalaUnidocPlugin)
+  .enablePlugins(AutomateHeaderPlugin, ScalaJSPlugin)
 
 lazy val jspdf = (project in file("modules/jspdf"))
   .settings(moduleSettings("jspdf"): _*)
-  .enablePlugins(AutomateHeaderPlugin, ScalaJSPlugin, ScalaUnidocPlugin)
+  .enablePlugins(AutomateHeaderPlugin, ScalaJSPlugin)
 
 /////////////////////////////////////////
 
@@ -148,12 +148,9 @@ lazy val siteSettings = Seq(
     "white-color"     -> "#ffffff"
   ),
   micrositeFooterText := None,
-  siteSubdirName in ScalaUnidoc := "api",
-  addMappingsToSiteDir(mappings in (ScalaUnidoc, packageDoc), siteSubdirName in ScalaUnidoc),
   includeFilter in makeSite := "CNAME" | "*.css" | "*.gif" | "*.html" | "*.jpg" | "*.js" | "*.js.map" | "*.json" | "*.liquid" | "*.md" | "*.otf" | "*.pdf" | "*.png" | "*.svg" | "*.swf" | "*.ttf" | "*.txt" | "*.webmanifest" | "*.woff" | "*.woff2" | "*.xml" | "*.yml",
   fork in tut := true,
   scalacOptions in Tut ~= (_.filterNot(Set("-Ywarn-unused-import", "-Ywarn-dead-code"))),
-  fork in (ScalaUnidoc, unidoc) := true,
   scalaJSUseMainModuleInitializer := true,
   makeMicrosite := (makeMicrosite dependsOn (fullOptJS in Compile)).value,
   artifactPath in(Compile, fastOptJS) := ((baseDirectory).value / "src" / "main" / "resources" / "microsite" / "js" / ((moduleName in (Compile, fastOptJS)).value + ".js")),
