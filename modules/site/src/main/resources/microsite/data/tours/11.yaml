@@ -1,10 +1,9 @@
 number: 11
 tour-name: U.S. Champions Pro Series
 courses:
-  - name: Santa Ventura
+  - name: City Park
   - name: Southern Pines
   - name: Sunshine Glades
-  - name: The Milano
 description: >
   Help Wanted
 resources:
