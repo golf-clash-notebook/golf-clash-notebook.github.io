@@ -34,7 +34,7 @@ object Page {
 
   case object Balls       extends Page("^/balls/$", Some(balls.init))
   case object ClubRanker  extends Page("^/tools/clubranker/$", Some(clubranker.init))
-  case object Clubs       extends Page("^/clubs/")
+  case object Clubs       extends Page("^/clubs/", Some(clubs.init))
   case object Courses     extends Page("^/courses/", Some(courses.init))
   case object CrowdCaddy  extends Page("^/crowdcaddy/", Some(crowdcaddy.init))
   case object FAQ         extends Page("^/faq/$", Some(faq.init))
