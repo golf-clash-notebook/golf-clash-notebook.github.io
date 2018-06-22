@@ -17,6 +17,15 @@ This table addresses [#136](https://github.com/golf-clash-notebook/golf-clash-no
 | ![Map][Christmas-7]         | Christmas           |        7       |      4C     |
 | ![Map][Christmas-8]         | Christmas           |        8       |      3C     |
 | ![Map][Christmas-9]         | Christmas           |        9       |      5B     |
+| ![Map][CityPark-1]          | City Park           |        1       |       3     |
+| ![Map][CityPark-2]          | City Park           |        2       |       4     |
+| ![Map][CityPark-3]          | City Park           |        3       |      5C     |
+| ![Map][CityPark-4]          | City Park           |        4       |      3B     |
+| ![Map][CityPark-5]          | City Park           |        5       |      4B     |
+| ![Map][CityPark-6]          | City Park           |        6       |       5     |
+| ![Map][CityPark-7]          | City Park           |        7       |      4C     |
+| ![Map][CityPark-8]          | City Park           |        8       |      3C     |
+| ![Map][CityPark-9]          | City Park           |        9       |      5B     |
 | ![Map][CreepyCliffs-1]      | Creepy Cliffs       |        1       |      5C     |
 | ![Map][CreepyCliffs-2]      | Creepy Cliffs       |        2       |      3C     |
 | ![Map][CreepyCliffs-3]      | Creepy Cliffs       |        3       |      4B     |
@@ -179,6 +188,18 @@ This table addresses [#136](https://github.com/golf-clash-notebook/golf-clash-no
 
 <!--- ############################################################################################################## -->
 
+[CityPark-1]: https://github.com/golf-clash-notebook/golf-clash-notebook.github.io/blob/dev/modules/site/src/main/resources/microsite/img/golfclash/courses/CityPark/1-thumb.png?raw=true
+[CityPark-2]: https://github.com/golf-clash-notebook/golf-clash-notebook.github.io/blob/dev/modules/site/src/main/resources/microsite/img/golfclash/courses/CityPark/2-thumb.png?raw=true
+[CityPark-3]: https://github.com/golf-clash-notebook/golf-clash-notebook.github.io/blob/dev/modules/site/src/main/resources/microsite/img/golfclash/courses/CityPark/3-thumb.png?raw=true
+[CityPark-4]: https://github.com/golf-clash-notebook/golf-clash-notebook.github.io/blob/dev/modules/site/src/main/resources/microsite/img/golfclash/courses/CityPark/4-thumb.png?raw=true
+[CityPark-5]: https://github.com/golf-clash-notebook/golf-clash-notebook.github.io/blob/dev/modules/site/src/main/resources/microsite/img/golfclash/courses/CityPark/5-thumb.png?raw=true
+[CityPark-6]: https://github.com/golf-clash-notebook/golf-clash-notebook.github.io/blob/dev/modules/site/src/main/resources/microsite/img/golfclash/courses/CityPark/6-thumb.png?raw=true
+[CityPark-7]: https://github.com/golf-clash-notebook/golf-clash-notebook.github.io/blob/dev/modules/site/src/main/resources/microsite/img/golfclash/courses/CityPark/7-thumb.png?raw=true
+[CityPark-8]: https://github.com/golf-clash-notebook/golf-clash-notebook.github.io/blob/dev/modules/site/src/main/resources/microsite/img/golfclash/courses/CityPark/8-thumb.png?raw=true
+[CityPark-9]: https://github.com/golf-clash-notebook/golf-clash-notebook.github.io/blob/dev/modules/site/src/main/resources/microsite/img/golfclash/courses/CityPark/9-thumb.png?raw=true
+
+<!--- ############################################################################################################## -->
+
 [CreepyCliffs-1]: https://github.com/golf-clash-notebook/golf-clash-notebook.github.io/blob/dev/modules/site/src/main/resources/microsite/img/golfclash/courses/CreepyCliffs/1-thumb.png?raw=true
 [CreepyCliffs-2]: https://github.com/golf-clash-notebook/golf-clash-notebook.github.io/blob/dev/modules/site/src/main/resources/microsite/img/golfclash/courses/CreepyCliffs/2-thumb.png?raw=true
 [CreepyCliffs-3]: https://github.com/golf-clash-notebook/golf-clash-notebook.github.io/blob/dev/modules/site/src/main/resources/microsite/img/golfclash/courses/CreepyCliffs/3-thumb.png?raw=true
@@ -317,6 +338,11 @@ This table addresses [#136](https://github.com/golf-clash-notebook/golf-clash-no
 [TheMilano-2]: https://github.com/golf-clash-notebook/golf-clash-notebook.github.io/blob/dev/modules/site/src/main/resources/microsite/img/golfclash/courses/TheMilano/2-thumb.png?raw=true
 [TheMilano-3]: https://github.com/golf-clash-notebook/golf-clash-notebook.github.io/blob/dev/modules/site/src/main/resources/microsite/img/golfclash/courses/TheMilano/3-thumb.png?raw=true
 [TheMilano-4]: https://github.com/golf-clash-notebook/golf-clash-notebook.github.io/blob/dev/modules/site/src/main/resources/microsite/img/golfclash/courses/TheMilano/4-thumb.png?raw=true
+[TheMilano-5]: https://github.com/golf-clash-notebook/golf-clash-notebook.github.io/blob/dev/modules/site/src/main/resources/microsite/img/golfclash/courses/TheMilano/5-thumb.png?raw=true
+[TheMilano-6]: https://github.com/golf-clash-notebook/golf-clash-notebook.github.io/blob/dev/modules/site/src/main/resources/microsite/img/golfclash/courses/TheMilano/6-thumb.png?raw=true
+[TheMilano-7]: https://github.com/golf-clash-notebook/golf-clash-notebook.github.io/blob/dev/modules/site/src/main/resources/microsite/img/golfclash/courses/TheMilano/7-thumb.png?raw=true
+[TheMilano-8]: https://github.com/golf-clash-notebook/golf-clash-notebook.github.io/blob/dev/modules/site/src/main/resources/microsite/img/golfclash/courses/TheMilano/8-thumb.png?raw=true
+[TheMilano-9]: https://github.com/golf-clash-notebook/golf-clash-notebook.github.io/blob/dev/modules/site/src/main/resources/microsite/img/golfclash/courses/TheMilano/9-thumb.png?raw=true
 
 <!--- ############################################################################################################## -->
 
