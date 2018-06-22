@@ -311,7 +311,7 @@ object windchartcreator {
 
           val captions = List(
             s"Generated using ${mode.name} adjustments.",
-            "Wedge, Rough Iron, Sand Wedge mileage will vary. They are SWAGs!"
+            "Rough Iron & Sand Wedge mileage will vary. They are SWAGs!"
           )
 
           val captionLineHeight = 0.17
@@ -434,9 +434,8 @@ object windchartcreator {
 
     val pdf = JSPdf("portrait", "in")
 
-    val pageXMargin      = 0.75
-    val pageYMargin      = 0.85
-    val clubColumnOffset = 0.2
+    val pageXMargin = 0.75
+    val pageYMargin = 0.85
 
     allClubs
       .sliding(7, 7)
@@ -457,7 +456,7 @@ object windchartcreator {
 
           val captions = List(
             s"Generated using ${mode.name} adjustments.",
-            "Wedge, Rough Iron, Sand Wedge mileage will vary. They are SWAGs!"
+            "Rough Iron & Sand Wedge mileage will vary. They are SWAGs!"
           )
 
           val captionLineHeight = 0.17
@@ -468,7 +467,7 @@ object windchartcreator {
               pdf.text(caption, 8.5 / 2, captionFirstLine + (captionLineHeight * lineNum), "center")
           }
 
-          val clubColumnWidth = (7.0 - clubColumnOffset) / 7
+          val clubColumnWidth = 1.0
 
           pdf.setTextColor(30d)
           pdf.setFontSize(8d)
@@ -479,20 +478,11 @@ object windchartcreator {
 
           val windRange = (BigDecimal(1.0) to BigDecimal(16.0) by BigDecimal(0.2))
 
-          pdf.text("Wind", pageXMargin, pageYMargin + 0.55, "center")
-
-          windRange.zipWithIndex.foreach {
-            case (wind, windRow) =>
-              val windTextX = pageXMargin
-              val windTextY = windRowStartY + (windRow * windRowHeight) + windRowHeight - 0.02
-              pdf.text(f"${wind}%.1f", windTextX, windTextY, "center")
-          }
-
           pageClubs.toList.zipWithIndex
             .map {
               case (clubLevel, clubColumn) =>
                 ClubImage(clubLevel.club).map { base64Image =>
-                  val columnCenterX = pageXMargin + clubColumnOffset + (clubColumnWidth * clubColumn) + (clubColumnWidth / 2)
+                  val columnCenterX = pageXMargin + (clubColumnWidth * clubColumn) + (clubColumnWidth / 2)
 
                   val imageX = columnCenterX - 0.25
                   val imageY = pageYMargin
@@ -501,7 +491,7 @@ object windchartcreator {
 
                   pdf.addImage(base64Image, "png", imageX, imageY, 0.5, 0.5)
 
-                  pdf.setTextColor(100d)
+                  pdf.setTextColor(80d)
                   pdf.text(
                     s"""${clubLevel.club.name.replaceAll("The", "").trim} ${clubLevel.level}""",
                     columnCenterX,
@@ -543,6 +533,17 @@ object windchartcreator {
                         RingColors((midRings - 0.1).max(0).floor.toInt % RingColors.size)
                       val (minRingColorR, minRingColorG, minRingColorB) =
                         RingColors((minRings - 0.1).max(0).floor.toInt % RingColors.size)
+
+                      pdf.setFontSize(6d)
+                      pdf.setTextColor(120d)
+                      pdf.text(
+                        f"${wind}%.1f",
+                        (columnCenterX - (clubColumnWidth / 2)),
+                        textY - 0.01,
+                        "center"
+                      )
+                      pdf.setTextColor(30d)
+                      pdf.setFontSize(8d)
 
                       pdf.setFillColor(maxRingColorR, maxRingColorG, maxRingColorB)
                       pdf.rect(
