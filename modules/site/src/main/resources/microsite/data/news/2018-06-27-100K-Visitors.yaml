@@ -1,0 +1,19 @@
+timestamp: 2018-06-27
+title: <button class="btn-success btn-xs" data-toggle="modal" data-target="#100k-visitors-modal">100,000 Visitors!</button>
+content: >
+  We've just eclipsed the 100K visitor mark over the past month! Thanks to all of you who've used and helped improve the site!
+  <!-- Mode Info Modal -->
+  <div class="modal fade" id="100k-visitors-modal" tabindex="-1" role="dialog" aria-labelledby="100K Visitors">
+    <div class="modal-dialog modal-lg" role="document">
+      <div class="modal-content">
+        <div class="modal-body pad-4">
+          <div class="row">
+            <div class="col-xs-12">
+              <button type="button" class="close pull-right margin-right-8" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+              <img src="/img/100kUniqueVisitors.png" alt="100K Visitors!" class="img-center img-responsive">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
