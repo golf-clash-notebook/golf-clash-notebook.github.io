@@ -13,6 +13,15 @@ permalink: /tools/windchartcreator/
   <br>
 </div>
 
+<div class="row">
+  <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 col-sm-12">
+    <div class="well well-sm text-center">
+      Please read the <button class="btn btn-link pad-0" data-toggle="modal" data-target="#disclaimer-modal">DISCLAIMER</button>
+      before you create or use any wind chart.
+    </div>
+  </div>
+</div>
+
 <div id="facebook-browser-warning" class="row hidden">
   <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 col-sm-12">
     <div class="alert alert-warning text-center" role="alert">
@@ -80,7 +89,58 @@ permalink: /tools/windchartcreator/
 
 </div>
 
-<!-- Info Modal -->
+<!-- Disclaimer Modal -->
+<div class="modal fade" id="disclaimer-modal" tabindex="-1" role="dialog" aria-labelledby="Chart Disclaimer">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-body">
+        <div class="row margin-8">
+          <div class="col-xs-12">
+            <button type="button" class="close pull-right" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <h4>Wind Chart Disclaimer</h4>
+            <p>
+              Before you use this chart, or any other wind adjustment tool, it's important to know
+              that it's only a tool to <strong><em>approximate</em></strong> how much you need to
+              adjust your target to account for wind. It will <strong><em>NOT</em></strong> give
+              you an adjustment that will be exact for every situation, and in some situations it
+              will not be very precise.
+            </p>
+            <p>
+              There are many variables that determine how a shot will behave during it's flight.
+              This chart only accounts for 2 of them: accuracy and distance. It's not even 100%
+              certain that this chart accounts for them accurately. In addition to those variables,
+              elevation, wind direction, wind intensity, curl,
+              <a href="https://twitter.com/GolfClashGame/status/1003659369626701825" target="_blank" rel="noopener">Magnus Effect</a>,
+              and others will all change the way your ball behaves in relation to the ball guide.
+              There are plenty of situations where these other variables will dominate the shot
+              path.
+            </p>
+            <p>
+              With that being said, this chart can still be very useful for providing baseline
+              adjustments that you can refine through experience and getting a feel for how other
+              effects will change your ball flight. As you continue to play the game, you'll
+              hopefully get a sense of which holes and which shots require adjustments that don't
+              follow this chart as closely as others. When you're able to do that, you'll find
+              yourself winning more matches and scoring better in tournaments.
+            </p>
+            <p>
+              And if you can't remember if a particular shot requires a different adjustment, this
+              chart is always available as a fallback to give you a standard measurement to base
+              your future shots on.
+            </p>
+          </div>
+        </div>
+        <div class="row margin-8">
+          <div class="col-xs-12 text-center">
+            <button type="button" class="btn btn-default btn-slim" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Mode Info Modal -->
 <div class="modal fade" id="mode-info-modal" tabindex="-1" role="dialog" aria-labelledby="Chart Mode Information">
   <div class="modal-dialog" role="document">
     <div class="modal-content">
