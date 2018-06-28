@@ -30,14 +30,22 @@ holes:
           url: https://i.imgur.com/B8Oah52.jpg
       - name: Zachary Jones
         resources:
-          - title: Touchdown - Rookie Guide
-            url: https://youtu.be/3oNWbTnWCXA
-          - title: Touchdown - Pro Guide
-            url: https://youtu.be/SYN4IefltBQ
-          - title: Touchdown - Expert Guide
-            url: https://youtu.be/H1oX1xQ77XE
-          - title: Touchdown - Masters Guide
-            url: https://youtu.be/pcLe8RHeCa8
+        - title: Tour 8 Shootout - Strong Tailwind
+          url: https://youtu.be/XRrtauUEp2c
+        - title: Tour 8 Shootout - Left to Right Wind Pointed at 2 O`clock
+          url: https://youtu.be/eXhog7M16rw
+        - title: Tour 8 Shootout - Left to Right Wind
+          url: https://youtu.be/l9AlNSxhXnY
+        - title: Tour 8 Shootout - Tailwind
+          url: https://youtu.be/dlhecQuXHfA
+        - title: Touchdown - Rookie Guide
+          url: https://youtu.be/3oNWbTnWCXA
+        - title: Touchdown - Pro Guide
+          url: https://youtu.be/SYN4IefltBQ
+        - title: Touchdown - Expert Guide
+          url: https://youtu.be/H1oX1xQ77XE
+        - title: Touchdown - Masters Guide
+          url: https://youtu.be/pcLe8RHeCa8
     aliases:
       - e8e6844a-a3db-4f34-8800-633b230e2be5
     overlays:
@@ -393,6 +401,16 @@ holes:
           url: https://youtu.be/tgvz84j-NNo?t=4m7s
         - title: Tour 8 Shootout - 2 O`clock Wind
           url: https://youtu.be/8eOxzKWnlAk?t=4m4s
+        - title: Tour 8 Shootout - Hard Left to Right Wind
+          url: https://youtu.be/rtJJUtlljow
+        - title: Tour 8 Shootout - Tailwinds
+          url: https://youtu.be/qjxIf0ij72I
+        - title: Tour 8 Shootout - Headwind
+          url: https://youtu.be/tykgglHT7KA
+        - title: Tour 8 Shootout - Headwind Pointed at 5 O`clock
+          url: https://youtu.be/qpxCTZkVLnk
+        - title: Tour 8 Shootout - Left to Right Wind
+          url: https://youtu.be/ea5LHGY6Wts
         - title: Touchdown - Rookie Guide
           url: https://youtu.be/7WVamN6lDE4
         - title: Touchdown - Pro Guide
@@ -702,6 +720,16 @@ holes:
           url: https://youtu.be/2pk5l7SEOlY?t=4m3s
         - title: Tour 8 Shootout - 4 O`Clock Wind
           url: https://youtu.be/3JEXqL9mXVk?t=5m35s
+        - title: Tour 8 Shootout - Tailwind
+          url: https://youtu.be/WnEUZXFkggk
+        - title: Tour 8 Shootout - Wind Pointed at 430
+          url: https://youtu.be/3vfqiYg1eXA
+        - title: Tour 8 Shootout - Wind Pointed at 3 O`clock
+          url: https://youtu.be/ClH6TgU7oI4
+        - title: Tour 8 Shootout - Tailwind Pointed Right
+          url: https://youtu.be/wvj56w7zKi0
+        - title: Tour 8 Shootout - Headwind
+          url: https://youtu.be/kISEW8xp3cw
         - title: Touchdown - Rookie Guide
           url: https://youtu.be/dzF_21ngs3w
         - title: Touchdown - Pro Guide

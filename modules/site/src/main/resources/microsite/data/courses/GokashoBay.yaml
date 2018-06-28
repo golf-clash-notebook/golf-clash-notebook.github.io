@@ -234,6 +234,18 @@ holes:
           url: https://youtu.be/vMRLi8HOloE?t=4m4s
         - title: Tour 8 Shootout - 12 O`clock Wind
           url: https://youtu.be/Led9LWSMwdk?t=4m6s
+        - title: Tour 8 Shootout - Strong Wind Pointed at 8 O`clock
+          url: https://youtu.be/SCRf93sMl4I
+        - title: Tour 8 Shootout - Strong Tailwind Pointed at 11 O`clock
+          url: https://youtu.be/5-4l_AtVnzo
+        - title: Tour 8 Shootout - Strong Left to Right Wind
+          url: https://youtu.be/BxK5b1Azx-M
+        - title: Tour 8 Shootout - Left to Right Wind
+          url: https://youtu.be/HN8WiiYBVSc
+        - title: Tour 8 Shootout - Wind Pointed at 730
+          url: https://youtu.be/P5HSsxeecCU
+        - title: Tour 8 Shootout - Headwind Tips
+          url: https://youtu.be/K8rX1N3isf4
     overlays:
       size: [471, 820]
       guides:
@@ -368,6 +380,14 @@ holes:
         resources:
         - title: Tour 8 Shootout - 4 O`clock Wind
           url: https://youtu.be/DDp6jIHMVJ4?t=4m29s
+        - title: Tour 8 Shootout - Headwind Pointed at 7 O`clock
+          url: https://youtu.be/ozXSALy2qKQ
+        - title: Tour 8 Shootout - Strong Tailwind
+          url: https://youtu.be/D9-IIf6WMbc
+        - title: Tour 8 Shootout - Left to Right Wind
+          url: https://youtu.be/M24Ri7hgOhM
+        - title: Tour 8 Shootout - Headwind
+          url: https://youtu.be/tR6YlHIkq4s
     overlays:
       size: [453, 814]
       guides:
@@ -559,10 +579,20 @@ holes:
           url: https://youtu.be/STTtOybLriw
         - title: Text Guide
           url: https://i.imgur.com/dM6TwPp.png
-      - name: Zachary Jone
+      - name: Zachary Jones
         resources:
         - title: Tour 8 Shootout - 12 O`clock Wind
           url: https://youtu.be/mWNloaLtPm0?t=5m44s
+        - title: Tour 8 Shootout - Tailwind
+          url: https://youtu.be/9TAktTMvMF0
+        - title: Tour 8 Shootout - Headwind
+          url: https://youtu.be/4PAqEkBtiu0
+        - title: Tour 8 Shootout - Headwind
+          url: https://youtu.be/j-esELzlfko
+        - title: Tour 8 Shootout - Right to Left Wind
+          url: https://youtu.be/prcQrO_cuys
+        - title: Tour 8 Shootout - Left to Right Wind
+          url: https://youtu.be/ynd0Pz3Ml58
     overlays:
       size: [373, 876]
       guides:
