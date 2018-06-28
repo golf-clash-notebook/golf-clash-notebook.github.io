@@ -7,6 +7,15 @@ holes:
     par: 3
     description: >
       Help Wanted
+    resource-creators:
+      - name: Zachary Jones
+        resources:
+        - title: Tour 9 Shootout - 9 O`clock Wind
+          url: https://youtu.be/VxSryzvnFfU
+        - title: Tour 9 Shootout - 3 O`clock Wind
+          url: https://youtu.be/yeHlOqWU9fc?t=6m5s
+        - title: Tour 9 Shootout - 12 O`clock Wind
+          url: https://youtu.be/sPj4GOxIYpY?t=5m41s
   - id: 1df2d79f-079a-4259-a846-07523700f877
     course: The Oasis
     number: 2
@@ -18,6 +27,12 @@ holes:
         resources:
         - title: Pro / Expert Guide
           url: https://youtu.be/OLLBwlG6C7s
+      - name: Zachary Jones
+        resources:
+        - title: Tour 9 - 1 O`clock Wind
+          url: https://youtu.be/sPj4GOxIYpY
+        - title: Tour 9 - Strategy and Tips
+          url: https://youtu.be/1Io5cpzvVkY
   - id: c6dee008-9374-4e0f-8ae5-d7b456a1e970
     course: The Oasis
     number: 3
@@ -47,6 +62,8 @@ holes:
           url: https://i.imgur.com/EvqeqCp.png
       - name: Zachary Jones
         resources:
+        - title: Tour 9 - Tips and Shot Advice
+          url: https://youtu.be/M5HPboEea0U?t=5m18s
         - title: Rookie
           url: https://youtu.be/JSvj50or06c
         - title: Pro / Expert
@@ -134,3 +151,9 @@ holes:
         resources:
         - title: Rookie Guide
           url: https://youtu.be/sJYXB4wjI0k
+      - name: Zachary Jones
+        resources:
+        - title: Tour 9 Shootout - Strong 1 O`clock Wind
+          url: https://youtu.be/qxplK4G0uUA?t=4m22s
+        - title: Tour 9 Shootout - Wind Pointed at 930
+          url: https://youtu.be/FwMBKpprwrY

@@ -29,6 +29,32 @@ holes:
           url: https://youtu.be/r6c_yhWXHOI
         - title: Text Guide
           url: https://i.imgur.com/8xXnY1g.jpg
+      - name: Zachary Jones
+        resources:
+        - title: Tour 9 - Layup Tips and Strategy
+          url: https://youtu.be/arhWV9o2PQk
+        - title: Tour 9 - Layup Technique. Tips and Tricks
+          url: https://youtu.be/4OLm15NDynU
+        - title: Tour 9 - Tailwind
+          url: https://youtu.be/NsPPkgnAYXc
+        - title: Vegas - Rookie
+          url: https://youtu.be/NqXji6JAXV4
+        - title: Vegas - Rookie
+          url: https://youtu.be/SxyBll7FI1g
+        - title: Vegas - Pro
+          url: https://youtu.be/fSaEUNKFNSc
+        - title: Vegas - Pro
+          url: https://youtu.be/z3c7owAy-zg
+        - title: Vegas - Expert
+          url: https://youtu.be/un88XWp4_Ow
+        - title: Vegas - Expert
+          url: https://youtu.be/v0mIjKYPmlE
+        - title: Vegas - Expert
+          url: https://youtu.be/-o4Vcf_j8xw
+        - title: Vegas - Masters
+          url: https://youtu.be/SR9RZwG_TFY
+        - title: Vegas - Masters
+          url: https://youtu.be/MPwZk60IALE
     overlays:
       size: [464, 834]
       guides:
@@ -92,6 +118,29 @@ holes:
     par: 3
     description: >
       Help Wanted
+    resource-creators:
+      - name: Zachary Jones
+        resources:
+        - title: Vegas - Rookie
+          url: https://youtu.be/CvWAmFTVzBw
+        - title: Vegas - Rookie
+          url: https://youtu.be/ad986mBoV3Q
+        - title: Vegas - Rookie
+          url: https://youtu.be/akQoAGNZsBw
+        - title: Vegas - Pro
+          url: https://youtu.be/1i56MBrwkC0
+        - title: Vegas - Pro
+          url: https://youtu.be/_bDYkfaXovI
+        - title: Vegas - Expert
+          url: https://youtu.be/0lgfQwkY9LU
+        - title: Vegas - Expert
+          url: https://youtu.be/ux422KA0iuU
+        - title: Vegas - Expert
+          url: https://youtu.be/4L_o3fpCqsE
+        - title: Vegas - Masters
+          url: https://youtu.be/fIwcdRdUk2E
+        - title: Vegas - Masters
+          url: https://youtu.be/zjade-vt7SE
   - id: 81c04a24-b874-4b97-aeec-fa237bee470b
     course: The Milano
     number: 3
@@ -118,6 +167,32 @@ holes:
           url: https://youtu.be/DE_2w3IzrfA
         - title: Text Guide
           url: https://i.imgur.com/4xUcD2X.jpg
+      - name: Zachary Jones
+        resources:
+        - title: Tour 9 - Strategy and Tips
+          url: https://youtu.be/hOso9yyi2_g
+        - title: Tour 9 - Tips and Strategies
+          url: https://youtu.be/ZnD7JwQJVh8
+        - title: Vegas - Rookie
+          url: https://youtu.be/1M-m3JffHgw
+        - title: Vegas - Rookie
+          url: https://youtu.be/2jGWeIMabHg
+        - title: Vegas - Rookie
+          url: https://youtu.be/ULY7yQ3l45g
+        - title: Vegas - Pro
+          url: https://youtu.be/EqM_JblyHZQ
+        - title: Vegas - Pro
+          url: https://youtu.be/828PVD8KiFE
+        - title: Vegas - Expert
+          url: https://youtu.be/poAaMqJADIU
+        - title: Vegas - Expert
+          url: https://youtu.be/iXn6gHHELK4
+        - title: Vegas - Expert
+          url: https://youtu.be/8l7jNpUGSs0
+        - title: Vegas - Masters
+          url: https://youtu.be/RmlLP1nOpfc
+        - title: Vegas - Masters
+          url:
     overlays:
       size: [451, 1091]
       guides:
@@ -200,6 +275,32 @@ holes:
           url: https://youtu.be/HsHv0ff1XLw
         - title: Text Guide
           url: https://i.imgur.com/zqsdml6.jpg
+      - name: Zachary Jones
+        resources:
+        - title: Tour 9 Shootout - Tailwind Pointed at 11 O`clock
+          url: https://youtu.be/gh_mkRoLDhU
+        - title: Tour 9 Shootout - Tailwind Pointed at 1 O`clock
+          url: https://youtu.be/aCeeUW6kxZA?t=4m47s
+        - title: Tour 9 Shootout - Wind Pointed at 9 O`clock
+          url: https://youtu.be/dXlL09DQGkQ?t=5m30s
+        - title: Vegas - Rookie
+          url: https://youtu.be/v8vKevbJ808
+        - title: Vegas - Rookie
+          url: https://youtu.be/-Dpv-HJr0Aw
+        - title: Vegas - Pro
+          url: https://youtu.be/dIy4cXtcbSY
+        - title: Vegas - Pro
+          url: https://youtu.be/hlMOJvW8gpk
+        - title: Vegas - Expert
+          url: https://youtu.be/Gj9EvvVdzes
+        - title: Vegas - Expert
+          url: https://youtu.be/RUZd05D3e6I
+        - title: Vegas - Expert
+          url: https://youtu.be/-n8NfPQWBOI
+        - title: Vegas - Masters
+          url: https://youtu.be/fDKWpbgVJx8
+        - title: Vegas - Masters
+          url: https://youtu.be/mvw-WsSGPIg
     overlays:
       size: [550, 813]
       guides:
@@ -250,25 +351,140 @@ holes:
     par: 4
     description: >
       Help Wanted
+    resource-creators:
+      - name: Zachary Jones
+        resources:
+        - title: Vegas - Rookie
+          url: https://youtu.be/MOurM3wxvpo
+        - title: Vegas - Rookie
+          url: https://youtu.be/VK3aL410zTE
+        - title: Vegas - Rookie
+          url: https://youtu.be/kVmf2d_qBSw
+        - title: Vegas - Pro
+          url: https://youtu.be/NYjuqVqBCtY
+        - title: Vegas - Pro
+          url: https://youtu.be/BrJGBUg0Ffg
+        - title: Vegas - Expert
+          url: https://youtu.be/GseWP6CBJDE
+        - title: Vegas - Expert
+          url: https://youtu.be/Wc6vtthI_Ts
+        - title: Vegas - Expert
+          url: https://youtu.be/RlYZuj_d_To
+        - title: Vegas - Masters
+          url: https://youtu.be/JP2fabqZxU0
+        - title: Vegas - Masters
+          url: https://youtu.be/CgDoheMpqJQ
   - id: e11ff12d-d182-4e81-85b1-a63fa49fe1cc
     course: The Milano
     number: 6
     par: 5
     description: >
       Help Wanted
+    resource-creators:
+      - name: Zachary Jones
+        resources:
+        - title: Vegas - Rookie
+          url: https://youtu.be/rXMl-BU4QNM
+        - title: Vegas - Rookie
+          url: https://youtu.be/4XJHSDJsr0I
+        - title: Vegas - Rookie
+          url: https://youtu.be/YeTjRagDg2Y
+        - title: Vegas - Pro
+          url: https://youtu.be/0Or8iXEabFI
+        - title: Vegas - Pro
+          url: https://youtu.be/gJyyGEUYHf0
+        - title: Vegas - Expert
+          url: https://youtu.be/iM1Wu0pkF3E
+        - title: Vegas - Expert
+          url: https://youtu.be/UFQHDICDJho
+        - title: Vegas - Expert
+          url: https://youtu.be/-0zhRX5J8YY
+        - title: Vegas - Masters
+          url: https://youtu.be/KWYmS1Mb8s4
+        - title: Vegas - Masters
+          url: https://youtu.be/IC_ZMbnkyTk
   - id: 751e265c-e5f5-4156-a482-f5fb73938f2a
     course: The Milano
     number: 7
     par: 3
     description: >
       Help Wanted
+    resource-creators:
+      - name: Zachary Jones
+        resources:
+        - title: Vegas - Rookie
+          url: https://youtu.be/M63AMtQl2WI
+        - title: Vegas - Rookie
+          url: https://youtu.be/m2U_YwjCP-4
+        - title: Vegas - Rookie
+          url: https://youtu.be/bhWbrIW9hDk
+        - title: Vegas - Pro
+          url: https://youtu.be/Ah9NmThiEJQ
+        - title: Vegas - Pro
+          url: https://youtu.be/Ubexc2E5SUw
+        - title: Vegas - Expert
+          url: https://youtu.be/kT5WQEkeJHY
+        - title: Vegas - Expert
+          url: https://youtu.be/U1gRwz69iAY
+        - title: Vegas - Expert
+          url: https://youtu.be/WH6le1AnAGc
+        - title: Vegas - Masters
+          url: https://youtu.be/XvDIFyrrB9Y
+        - title: Vegas - Masters
+          url: https://youtu.be/cbFbXJo9SGo
   - id: 2c9f5304-fca6-4bd1-91dc-e61bd032da92
     course: The Milano
     number: 8
     par: 4
     description: >
       Help Wanted
+    resource-creators:
+      - name: Zachary Jones
+        resources:
+        - title: Vegas - Rookie
+          url: https://youtu.be/Z7GYqMg1jzo
+        - title: Vegas - Rookie
+          url: https://youtu.be/w3OyuxJdXWU
+        - title: Vegas - Rookie
+          url: https://youtu.be/sHCStpK8Gfs
+        - title: Vegas - Pro
+          url: https://youtu.be/-Bs9txAT3eM
+        - title: Vegas - Pro
+          url: https://youtu.be/kUEnMqb08Pw
+        - title: Vegas - Expert
+          url: https://youtu.be/OVo7QSV22B0
+        - title: Vegas - Expert
+          url: https://youtu.be/ptBS5Rv-EsE
+        - title: Vegas - Expert
+          url: https://youtu.be/QwVk8bmcEKw
+        - title: Vegas - Masters
+          url: https://youtu.be/TkGdvGQsoJA
+        - title: Vegas - Masters
+          url: https://youtu.be/tZcd9xP2f1c
   - id: e848d24c-b050-49da-a898-83bee9ef0e97
     course: The Milano
     number: 9
     par: 5
+    resource-creators:
+      - name: Zachary Jones
+        resources:
+        - title: Vegas - Rookie
+          url: https://youtu.be/FfgmVMrqQTM
+        - title: Vegas - Rookie
+          url: https://youtu.be/cM33-_5KXNk
+        - title: Vegas - Rookie
+          url: https://youtu.be/cob7ykmpzq0
+        - title: Vegas - Pro
+          url: https://youtu.be/L_pv6UgAqG0
+        - title: Vegas - Pro
+          url: https://youtu.be/J32Cb5hjOWw
+        - title: Vegas - Expert
+          url: https://youtu.be/oVCr8P48Hps
+        - title: Vegas - Expert
+          url: https://youtu.be/Fas8DXj6C-k
+        - title: Vegas - Expert
+          url: https://youtu.be/Oawgf2TwpNM
+        - title: Vegas - Masters
+          url: https://youtu.be/3vqstv77Gbk
+        - title: Vegas - Masters
+          url: https://youtu.be/Xk7WfaNqOXc
