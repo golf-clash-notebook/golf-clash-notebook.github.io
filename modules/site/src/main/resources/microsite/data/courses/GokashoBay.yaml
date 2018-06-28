@@ -28,6 +28,14 @@ holes:
           url: https://youtu.be/RkXTI0mq37U
         - title: Text Guide
           url: https://i.imgur.com/2oXqL5o.png
+      - name: Zachary Jones
+        resources:
+        - title: Tour 8 - Tailwind
+          url: https://youtu.be/tgvz84j-NNo
+        - title: Tour 8 - 10 O`clock Wind
+          url: https://youtu.be/VWQzA0ry-oY
+        - title: Tour 8 - Headwind
+          url: https://youtu.be/Led9LWSMwdk
     overlays:
       size: [619, 983]
       guides:
@@ -218,6 +226,14 @@ holes:
           url: https://youtu.be/qjR7-cNYqss
         - title: Text Guide
           url: https://i.imgur.com/j3c9GLp.png
+      - name: Zachary Jones
+        resources:
+        - title: Tour 8 Shootout - Headwind
+          url: https://youtu.be/VWQzA0ry-oY?t=4m9s
+        - title: Tour 8 Shootout - 1 O`clock Wind
+          url: https://youtu.be/vMRLi8HOloE?t=4m4s
+        - title: Tour 8 Shootout - 12 O`clock Wind
+          url: https://youtu.be/Led9LWSMwdk?t=4m6s
     overlays:
       size: [471, 820]
       guides:
@@ -277,6 +293,10 @@ holes:
           url: https://youtu.be/VaWW15CzWMU
         - title: Text Guide
           url: https://i.imgur.com/wxunEcM.png
+      - name: Zachary Jones
+        resources:
+        - title: Tour 8 - Tips and Strategy
+          url: https://youtu.be/3m9Cv63sgYc
     overlays:
       size: [543, 980]
       guides:
@@ -344,6 +364,10 @@ holes:
           url: https://youtu.be/AH3A-b9N1-w
         - title: Text Guide
           url: https://i.imgur.com/YkasezK.png
+      - name: Zachary Jones
+        resources:
+        - title: Tour 8 Shootout - 4 O`clock Wind
+          url: https://youtu.be/DDp6jIHMVJ4?t=4m29s
     overlays:
       size: [453, 814]
       guides:
@@ -421,6 +445,12 @@ holes:
           url: https://youtu.be/AgOtfQbt6ro
         - title: Text Guide
           url: https://i.imgur.com/wLtM7ml.png
+      - name: Zachary Jones
+        resources:
+        - title: Tour 8 - Strategy with Guardian
+          url: https://youtu.be/GgNq3CMRhjk
+        - title: Tour 8 - Layup Technique with Hard Wind
+          url: https://youtu.be/dxHN4NKN8N8
     overlays:
       size: [409, 1004]
       guides:
@@ -529,6 +559,10 @@ holes:
           url: https://youtu.be/STTtOybLriw
         - title: Text Guide
           url: https://i.imgur.com/dM6TwPp.png
+      - name: Zachary Jone
+        resources:
+        - title: Tour 8 Shootout - 12 O`clock Wind
+          url: https://youtu.be/mWNloaLtPm0?t=5m44s
     overlays:
       size: [373, 876]
       guides:
@@ -627,6 +661,10 @@ holes:
           url: https://youtu.be/To6s5EcKu6Q
         - title: Text Guide
           url: https://i.imgur.com/GIVxVd7.png
+      - name: Zachary Jones
+        resources:
+        - title: Tour 8 - 3 O`clock Wind
+          url: https://youtu.be/8eOxzKWnlAk
     overlays:
       size: [469, 1029]
       guides:
@@ -728,6 +766,10 @@ holes:
           url: https://youtu.be/bh2rD28PWy8
         - title: Text Guide
           url: https://i.imgur.com/CkyzS1h.png
+      - name: Zachary Jones
+        resources:
+        - title: Tour 8 - Strategy and Tips with Headwind
+          url: https://youtu.be/1Mu5L6-8K5U
     overlays:
       size: [553, 1017]
       guides:
