@@ -34,6 +34,18 @@ holes:
   #        url: https://youtu.be/Pbd-bxOeP1Q
       - name: Zachary Jones
         resources:
+        - title: Tour 11 Shootout - Tailwind Tips
+          url: https://youtu.be/AOTxq-P1tmA
+        - title: Tour 11 Shootout - Strong Wind Pointed at 8-9 O`clock
+          url: https://youtu.be/wiOErUdZTJ8
+        - title: Tour 11 Shootout - Left to Right Wind
+          url: https://youtu.be/SHwCaqhmILA
+        - title: Tour 11 Shootout - Right to Left Cross Wind
+          url: https://youtu.be/RJWXLrfhE3s
+        - title: Tour 11 Shootout - Tailwind Pointed at 1030
+          url: https://youtu.be/SFt2hGFoGsg
+        - title: Tour 11 Shootout - Left to Right Wind
+          url: https://youtu.be/R3tArU6nx0A
         - title: Rookie
           url: https://youtu.be/Uy0URjPkTPE
         - title: Pro / Expert
@@ -93,6 +105,10 @@ holes:
         resources:
         - title: Pro / Expert Guide
           url: https://youtu.be/Y2K1-fpwLmQ
+      - name: Zachary Jones
+        resources:
+        - title: Tour 11 - Wind Pointed at 2 O`clock
+          url: https://youtu.be/-bPv0x9GK-E
   - id: ceec18c9-cda1-436d-bdb1-1f2454b46436
     course: Sunshine Glades
     number: 3
