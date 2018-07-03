@@ -14,7 +14,7 @@ val MonixV           = "3.0.0-RC1"
 val ScalaCheckV      = "1.14.0"
 val ScalaTagsV       = "0.6.7"
 val ScalaTestV       = "3.0.5"
-val ScalaJSJqueryV   = "0.9.3"
+val ScalaJSJqueryV   = "0.9.4"
 val ScalaJavaTimeV   = "2.0.0-M13"
 val ScalaJavaTimeTzV = s"${ScalaJavaTimeV}_2018c"
 ////////////////////////////////////////////////////////////////////////////////
