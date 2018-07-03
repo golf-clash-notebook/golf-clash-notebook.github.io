@@ -64,7 +64,6 @@ object youtube {
 
   val StreamKeywordsFilter = List(
     "clash",
-    "chris taylor",
     "elite",
     "expert",
     "friendly",
@@ -72,8 +71,10 @@ object youtube {
     "golf",
     "master",
     "opening",
+    "opener",
     "practice",
     "pro",
+    "qualifier",
     "qualifying",
     "rookie",
     "round",
@@ -109,8 +110,12 @@ object youtube {
         stream match {
           case LiveStream(_, YouTubeSnippet(Some(title), _)) =>
             StreamKeywordsFilter.exists(title.toLowerCase.contains)
+          case LiveStream(_, YouTubeSnippet(_, Some(description))) =>
+            StreamKeywordsFilter.exists(description.toLowerCase.contains)
           case UpcomingStream(_, UpcomingStreamInfo(YouTubeSnippet(Some(title), _), _)) =>
             StreamKeywordsFilter.exists(title.toLowerCase.contains)
+          case UpcomingStream(_, UpcomingStreamInfo(YouTubeSnippet(_, Some(description)), _)) =>
+            StreamKeywordsFilter.exists(description.toLowerCase.contains)
           case _ => false
         }
       }
