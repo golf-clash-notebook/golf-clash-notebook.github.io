@@ -81,15 +81,14 @@ object windchartcreator {
           jQuery("<optgroup>", js.Dynamic.literal("label" -> clubCategory.printableName))
         categoryClubs.foreach { club =>
           if (GolfClashNotebookApp.currentMode() == GolfClashNotebookApp.Dev) {
-            // TODO: Development purposes...
             if (club.name.toLowerCase.contains("thor's")) {
               addClubLevel(ClubLevel(6, club))
             }
             if (club.name.toLowerCase.contains("sniper")) {
               addClubLevel(ClubLevel(10, club))
             }
-            if (club.name.toLowerCase.contains("backbone")) {
-              addClubLevel(ClubLevel(10, club))
+            if (club.name.toLowerCase.contains("b52")) {
+              addClubLevel(ClubLevel(6, club))
             }
             if (club.name.toLowerCase.contains("hornet")) {
               addClubLevel(ClubLevel(8, club))
@@ -535,9 +534,9 @@ object windchartcreator {
                         RingColors((minRings - 0.1).max(0).floor.toInt % RingColors.size)
 
                       pdf.setFontSize(6d)
-                      pdf.setTextColor(120d)
+                      pdf.setTextColor(60d)
                       pdf.text(
-                        f"${wind}%.1f",
+                        f"${wind.doubleValue}%.1f",
                         (columnCenterX - (clubColumnWidth / 2)),
                         textY - 0.01,
                         "center"
