@@ -431,3 +431,11 @@ page_gen:
     extra:
       title-prefix: 'Football Fever Tournament - Hole '
       tournament-name: 'Football Fever'
+  - index_files: true
+    data: 'tournaments.DesertOpen.holes'
+    template: '_includes/tournaments/hole-template.liquid'
+    name: 'number'
+    dir: 'tournaments/DesertOpen'
+    extra:
+      title-prefix: 'Desert Open Tournament - Hole '
+      tournament-name: 'Desert Open'
