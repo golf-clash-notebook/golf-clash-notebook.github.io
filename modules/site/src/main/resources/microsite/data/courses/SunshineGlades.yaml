@@ -46,10 +46,22 @@ holes:
           url: https://youtu.be/SFt2hGFoGsg
         - title: Tour 11 Shootout - Left to Right Wind
           url: https://youtu.be/R3tArU6nx0A
-        - title: Rookie
-          url: https://youtu.be/Uy0URjPkTPE
-        - title: Pro / Expert
-          url: https://youtu.be/02QGY-kjoJ0
+        - title: Cinco De Mayo - Rookie
+          url: https://youtu.be/Ngcob84tT9A
+        - title: Cinco De Mayo - Pro
+          url: https://youtu.be/Sx6K5dRcH1g
+        - title: Cinco De Mayo - Pro
+          url: https://youtu.be/CANOmZJJD5c
+        - title: Cinco De Mayo - Expert
+          url: https://youtu.be/PnhGH77vNow
+        - title: Cinco De Mayo - Expert
+          url: https://youtu.be/bhMQqJdcQPc
+        - title: Cinco De Mayo - Expert
+          url: https://youtu.be/dNZuO4FHjxI
+        - title: Cinco De Mayo - Masters
+          url: https://youtu.be/DCA8PblmXC0
+        - title: Cinco De Mayo - Masters
+          url: https://youtu.be/jyT4UXk-z4Q
       - name: Kevin Warren
         resources:
         - title: Rookie
@@ -109,6 +121,22 @@ holes:
         resources:
         - title: Tour 11 - Wind Pointed at 2 O`clock
           url: https://youtu.be/-bPv0x9GK-E
+        - title: Cinco De Mayo - Rookie
+          url: https://youtu.be/Xi_v1pZbDSM
+        - title: Cinco De Mayo - Pro
+          url: https://youtu.be/JMA5grCF7VI
+        - title: Cinco De Mayo - Pro
+          url: https://youtu.be/-chBco5nCyY
+        - title: Cinco De Mayo - Expert
+          url: https://youtu.be/sFdn_lsotRI
+        - title: Cinco De Mayo - Expert
+          url: https://youtu.be/ui5XcQfLj78
+        - title: Cinco De Mayo - Expert
+          url: https://youtu.be/Hm-2HKccrXY
+        - title: Cinco De Mayo - Masters
+          url: https://youtu.be/HoWN7gJYlEc
+        - title: Cinco De Mayo - Masters
+          url: https://youtu.be/FRsEFFV8yRo
   - id: ceec18c9-cda1-436d-bdb1-1f2454b46436
     course: Sunshine Glades
     number: 3
@@ -270,3 +298,21 @@ holes:
         resources:
         - title: Rookie Guide
           url: https://youtu.be/PPRTrJyIX1E
+      - name: Zachary Jones
+        resources:
+        - title: Cinco De Mayo - Rookie
+          url: https://youtu.be/ehRss9x6wfE
+        - title: Cinco De Mayo - Pro
+          url: https://youtu.be/YU_H_NirQAI
+        - title: Cinco De Mayo - Pro
+          url: https://youtu.be/g65pBvxkJ4c
+        - title: Cinco De Mayo - Expert
+          url: https://youtu.be/DCAXqFVvC0w
+        - title: Cinco De Mayo - Expert
+          url: https://youtu.be/Te_1ErcdV04
+        - title: Cinco De Mayo - Expert
+          url: https://youtu.be/H1j8tpmUjZw
+        - title: Cinco De Mayo - Masters
+          url: https://youtu.be/2sTmzW8RgOM
+        - title: Cinco De Mayo - Masters
+          url: https://youtu.be/dbqOENRIuHE

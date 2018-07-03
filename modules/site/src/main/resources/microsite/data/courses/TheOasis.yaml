@@ -33,6 +33,22 @@ holes:
           url: https://youtu.be/sPj4GOxIYpY
         - title: Tour 9 - Strategy and Tips
           url: https://youtu.be/1Io5cpzvVkY
+        - title: Cinco De Mayo - Rookie
+          url: https://youtu.be/FAaEtnA1Fcs
+        - title: Cinco De Mayo - Pro
+          url: https://youtu.be/pGC7oldHTqw
+        - title: Cinco De Mayo - Pro
+          url: https://youtu.be/ipHPDpsoe3A
+        - title: Cinco De Mayo - Expert
+          url: https://youtu.be/G23TJq4Kb2M
+        - title: Cinco De Mayo - Expert
+          url: https://youtu.be/6EYmwakIMhk
+        - title: Cinco De Mayo - Expert
+          url: https://youtu.be/7OurfkzzqSU
+        - title: Cinco De Mayo - Masters
+          url: https://youtu.be/7ihDfwlpucM
+        - title: Cinco De Mayo - Masters
+          url: https://youtu.be/adtohTMEq4I
   - id: c6dee008-9374-4e0f-8ae5-d7b456a1e970
     course: The Oasis
     number: 3
@@ -64,10 +80,22 @@ holes:
         resources:
         - title: Tour 9 - Tips and Shot Advice
           url: https://youtu.be/M5HPboEea0U?t=5m18s
-        - title: Rookie
-          url: https://youtu.be/JSvj50or06c
-        - title: Pro / Expert
-          url: https://youtu.be/TKFY2gApISQ
+        - title: Cinco De Mayo - Rookie
+          url: https://youtu.be/6ACLBxotpdU
+        - title: Cinco De Mayo - Pro
+          url: https://youtu.be/4bJD_mwt3kY
+        - title: Cinco De Mayo - Pro
+          url: https://youtu.be/btUR7TPrV4g
+        - title: Cinco De Mayo - Expert
+          url: https://youtu.be/Q4iFQY4ngLc
+        - title: Cinco De Mayo - Expert
+          url: https://youtu.be/QET4CHXzKCU
+        - title: Cinco De Mayo - Expert
+          url: https://youtu.be/mLIAoIGBbnE
+        - title: Cinco De Mayo - Masters
+          url: https://youtu.be/umARmqsZOfg
+        - title: Cinco De Mayo - Masters
+          url: https://youtu.be/1KC6p5Om5eg
       - name: Kevin Warren
         resources:
         - title: Rookie
@@ -157,3 +185,19 @@ holes:
           url: https://youtu.be/qxplK4G0uUA?t=4m22s
         - title: Tour 9 Shootout - Wind Pointed at 930
           url: https://youtu.be/FwMBKpprwrY
+        - title: Cinco De Mayo - Rookie
+          url: https://youtu.be/WdTlerXQhNY
+        - title: Cinco De Mayo - Pro
+          url: https://youtu.be/FSQxLdMaPYA
+        - title: Cinco De Mayo - Pro
+          url: https://youtu.be/WJ50AViPRxE
+        - title: Cinco De Mayo - Expert
+          url: https://youtu.be/lxWxOrubWX8
+        - title: Cinco De Mayo - Expert
+          url: https://youtu.be/6_MuHqNTXig
+        - title: Cinco De Mayo - Expert
+          url: https://youtu.be/nrc8GzdB6e8
+        - title: Cinco De Mayo - Masters
+          url: https://youtu.be/Dfnj34hekoM
+        - title: Cinco De Mayo - Masters
+          url: https://youtu.be/DWrVe6OWQcA

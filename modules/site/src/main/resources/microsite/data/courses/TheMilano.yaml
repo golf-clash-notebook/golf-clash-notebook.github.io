@@ -225,8 +225,6 @@ holes:
           url: https://youtu.be/8l7jNpUGSs0
         - title: Vegas - Masters
           url: https://youtu.be/RmlLP1nOpfc
-        - title: Vegas - Masters
-          url:
     overlays:
       size: [451, 1091]
       guides:
