@@ -260,7 +260,6 @@ holes:
               <circle cx="205" cy="305" r="6" fill="white" class="guide-point" data-guide-segment="1" />
               <circle cx="174" cy="119" r="6" fill="white" class="guide-point" data-guide-segment="2" />
   - id: 1083f47b-b2a8-4dde-bfa2-0ea3b2a32073
-    current-tournament: true
     course: Santa Ventura
     number: 4
     par: 3
@@ -694,7 +693,6 @@ holes:
               <circle cx="168" cy="150" r="6" fill="white" class="guide-point" data-guide-segment="1" />
               <circle cx="248" cy="128" r="6" fill="white" class="guide-point" data-guide-segment="2" />
   - id: 6f8e0144-ffbb-4f98-9585-e17626be6559
-    current-tournament: true
     course: Santa Ventura
     number: 8
     par: 4
@@ -819,7 +817,6 @@ holes:
               <circle cx="82" cy="251" r="6" fill="blue" class="guide-point" data-guide-segment="1" />
               <circle cx="201" cy="76" r="6" fill="blue" class="guide-point" data-guide-segment="2" />
   - id: 0e418963-9399-4d7b-b7ec-a5af5318e75d
-    current-tournament: true
     course: Santa Ventura
     number: 9
     par: 5
