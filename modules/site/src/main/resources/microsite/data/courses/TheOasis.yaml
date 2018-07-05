@@ -31,6 +31,8 @@ holes:
           url: https://i.imgur.com/EvqeqCp.png
       - name: Zachary Jones
         resources:
+        - title: Tour 9 - Redesign Left Approach
+          url: https://youtu.be/Vvxplfs5kW4
         - title: Tour 9 - Tips and Shot Advice
           url: https://youtu.be/M5HPboEea0U?t=5m18s
         - title: Cinco De Mayo - Rookie
@@ -128,6 +130,17 @@ holes:
     par: 4
     description: >
       Help Wanted
+    resource-creators:
+      - name: Zachary Jones
+        resources:
+        - title: Tour 9 - Strong Tailwind Drive
+          url: https://youtu.be/O7wAISdzLPE
+        - title: Tour 9 - Lay Up Drive with Rock Sniper Approach
+          url: https://youtu.be/2E6VSUY1KxU
+        - title: Tour 9 - Rock, Sniper and Eagle Bonus
+          url: https://youtu.be/2Wc2UaZQ-UM
+        - title: Tour 9 - Rock Driver, Sniper Approach
+          url: https://youtu.be/_eSvK3WK_F4
   - id: 1ac9e3f4-edfc-4c57-9635-5986e37c695b
     current-tournament: true
     course: The Oasis
@@ -142,6 +155,10 @@ holes:
           url: https://youtu.be/sJYXB4wjI0k
       - name: Zachary Jones
         resources:
+        - title: Tour 9 Shootout - Redesign Tips and Tricks, Crosswind at 8 O`clock
+          url: https://youtu.be/uE5BTd35EWQ
+        - title: Tour 9 Shootout - Redesign Tailwind Pointed at 1 O`clock
+          url: https://youtu.be/LU3wn2RHnUc
         - title: Tour 9 Shootout - Strong 1 O`clock Wind
           url: https://youtu.be/qxplK4G0uUA?t=4m22s
         - title: Tour 9 Shootout - Wind Pointed at 930
@@ -176,6 +193,20 @@ holes:
           url: https://youtu.be/OLLBwlG6C7s
       - name: Zachary Jones
         resources:
+        - title: Tour 9 - Redesign Strong Head Wind
+          url: https://youtu.be/03RjA247L3A
+        - title: Tour 9 - Lay Up Drive With EB Approach
+          url: https://youtu.be/wiIdYMTRcTU
+        - title: Tour 9 - Redesigned with Rough Iron Layup Birdie
+          url: https://youtu.be/KKJ-q4FRxyo
+        - title: Tour 9 - Redesign with Headwind Drive Rough Approach
+          url: https://youtu.be/n_sHQUf1beA
+        - title: Tour 9 - Tailwind Tips with Sniper Approach
+          url: https://youtu.be/9FKfRXUWH0U
+        - title: Tour 9 - Tips for Headwinds and Sniper Approach
+          url: https://youtu.be/D-cFpCzkncM
+        - title: Tour 9 - First Fairway Layup to green Sniper Approach
+          url: https://youtu.be/KdfOrI9XOJ0
         - title: Tour 9 - 1 O`clock Wind
           url: https://youtu.be/sPj4GOxIYpY
         - title: Tour 9 - Strategy and Tips
@@ -219,6 +250,13 @@ holes:
     par: 5
     description: >
       Help Wanted
+    resource-creators:
+      - name: Zachary Jones
+        resources:
+        - title: Tour 9 - Rock with Sniper Approach Alternate Approach with Headwinds
+          url: https://youtu.be/X1vmYX4k4K8
+        - title: Tour 9 - Rock Driver, Sniper Tailwind Approach
+          url: https://youtu.be/b7oF247HWAU
   - id: 02e6cf86-01d0-4da0-aec1-cb2ee25c49ce
     current-tournament: true
     course: The Oasis
@@ -226,6 +264,11 @@ holes:
     par: 3
     description: >
       Help Wanted
+    resource-creators:
+      - name: Zachary Jones
+        resources:
+        - title: Tour 9 Shootout - Headwind Pointed at 430 with Rock Driver
+          url: https://youtu.be/4lKlmexjS2Q
   - id: d930d568-3f38-4b7f-bf9f-7b40f41cafaa
     current-tournament: true
     course: The Oasis
@@ -233,6 +276,21 @@ holes:
     par: 4
     description: >
       Help Wanted
+    resource-creators:
+      - name: Zachary Jones
+        resources:
+        - title: Tour 9 - Wind Pointed at 10 O`clock
+          url: https://youtu.be/UghVWYkcPl8
+        - title: Tour 9 - Rough Iron Approach into the Green
+          url: https://youtu.be/ZJSYOVcJ9HE
+        - title: Tour 9 - Crosswind Tips with Long Iron Approach
+          url: https://youtu.be/pQWwlEZJY78
+        - title: Tour 9 - Strong Headwind with Rock Driver Long Iron Approach
+          url: https://youtu.be/vnT0F_xRqI4
+        - title: Tour 9 - Strong Headwind Long Iron Approach
+          url: https://youtu.be/yq9-M_YvORI
+        - title: Tour 9 - Alternate Green Approach with Long Iron
+          url: https://youtu.be/WoYbVsvAgzw
   - id: dd39ce9a-7156-4b50-b308-5e5ccc3b453a
     current-tournament: true
     course: The Oasis
@@ -240,3 +298,16 @@ holes:
     par: 5
     description: >
       Help Wanted
+    resource-creators:
+      - name: Zachary Jones
+        resources:
+        - title: Tour 9 - Tailwind Drive with Long Iron Approach
+          url: https://youtu.be/RinPCRaF7KU
+        - title: Tour 9 - Scramble Teeshot Rough Approach
+          url: https://youtu.be/EMcrsnFNgXQ
+        - title: Tour 9 - Rock, Sniper Approach
+          url: https://youtu.be/k6pXZW01VxM
+        - title: Tour 9 - Rock Driver
+          url: https://youtu.be/8BdFIl12H1g
+        - title: Tour 9 - Redesign With Rock Driver
+          url: https://youtu.be/5RmVVI_1IT0
