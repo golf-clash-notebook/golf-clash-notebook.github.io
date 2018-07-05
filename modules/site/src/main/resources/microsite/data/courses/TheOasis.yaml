@@ -33,6 +33,8 @@ holes:
         resources:
         - title: Tour 9 - Redesign Left Approach
           url: https://youtu.be/Vvxplfs5kW4
+        - title: Tour 9 - Redesign With Rock Driver
+          url: https://youtu.be/5RmVVI_1IT0
         - title: Tour 9 - Tips and Shot Advice
           url: https://youtu.be/M5HPboEea0U?t=5m18s
         - title: Cinco De Mayo - Rookie
@@ -133,6 +135,10 @@ holes:
     resource-creators:
       - name: Zachary Jones
         resources:
+        - title: Tour 9 - Rock Driver and Sniper Approach
+          url: https://youtu.be/4ZPr-8frjxg
+        - title: Tour 9 - Rock Driver and Nirvana Recovery Tips and Strategy
+          url: https://youtu.be/966aLpDtGyE
         - title: Tour 9 - Strong Tailwind Drive
           url: https://youtu.be/O7wAISdzLPE
         - title: Tour 9 - Lay Up Drive with Rock Sniper Approach
@@ -253,6 +259,8 @@ holes:
     resource-creators:
       - name: Zachary Jones
         resources:
+        - title: Tour 9 - Headwind Alternate Left Fairway Sniper Shot Tips and Strategy
+          url: https://youtu.be/U8HWzq-BT6U
         - title: Tour 9 - Rock with Sniper Approach Alternate Approach with Headwinds
           url: https://youtu.be/X1vmYX4k4K8
         - title: Tour 9 - Rock Driver, Sniper Tailwind Approach
@@ -267,6 +275,10 @@ holes:
     resource-creators:
       - name: Zachary Jones
         resources:
+        - title: Tour 9 Shootout - Sniper Tailwind Approach and Strategy for Success
+          url: https://youtu.be/Ug912wV1V3A
+        - title: Tour 9 Shootout - Rock Driver Tailwind Strategy and Tips
+          url: https://youtu.be/kLsOXBAhemY
         - title: Tour 9 Shootout - Headwind Pointed at 430 with Rock Driver
           url: https://youtu.be/4lKlmexjS2Q
   - id: d930d568-3f38-4b7f-bf9f-7b40f41cafaa
@@ -309,5 +321,3 @@ holes:
           url: https://youtu.be/k6pXZW01VxM
         - title: Tour 9 - Rock Driver
           url: https://youtu.be/8BdFIl12H1g
-        - title: Tour 9 - Redesign With Rock Driver
-          url: https://youtu.be/5RmVVI_1IT0
