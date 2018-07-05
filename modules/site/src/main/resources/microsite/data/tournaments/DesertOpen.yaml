@@ -2,3 +2,21 @@ tournament-name: Desert Open
 date: '2018-07-09'
 resource-creators:
 holes:
+  - number: 1
+    id: c6dee008-9374-4e0f-8ae5-d7b456a1e970
+  - number: 2
+    id: 33ef32c9-c4f7-4b76-a1b2-308087d173d6
+  - number: 3
+    id: 1ac9e3f4-edfc-4c57-9635-5986e37c695b
+  - number: 4
+    id: 1df2d79f-079a-4259-a846-07523700f877
+  - number: 5
+    id: ef1b5866-306c-4a68-aa35-e385558a6889
+  - number: 6
+    id: 47f0b5ec-1aea-4429-aee3-805c23fa6bda
+  - number: 7
+    id: 02e6cf86-01d0-4da0-aec1-cb2ee25c49ce
+  - number: 8
+    id: d930d568-3f38-4b7f-bf9f-7b40f41cafaa
+  - number: 9
+    id: dd39ce9a-7156-4b50-b308-5e5ccc3b453a

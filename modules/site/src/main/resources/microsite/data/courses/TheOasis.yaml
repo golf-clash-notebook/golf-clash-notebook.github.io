@@ -1,60 +1,10 @@
 course-name: The Oasis
 skinned: false
 holes:
-  - id: ef1b5866-306c-4a68-aa35-e385558a6889
-    current-tournament: true
-    course: The Oasis
-    number: 1
-    par: 3
-    description: >
-      Help Wanted
-    resource-creators:
-      - name: Zachary Jones
-        resources:
-        - title: Tour 9 Shootout - 9 O`clock Wind
-          url: https://youtu.be/VxSryzvnFfU
-        - title: Tour 9 Shootout - 3 O`clock Wind
-          url: https://youtu.be/yeHlOqWU9fc?t=6m5s
-        - title: Tour 9 Shootout - 12 O`clock Wind
-          url: https://youtu.be/sPj4GOxIYpY?t=5m41s
-  - id: 1df2d79f-079a-4259-a846-07523700f877
-    current-tournament: true
-    course: The Oasis
-    number: 2
-    par: 4
-    description: >
-      Help Wanted
-    resource-creators:
-      - name: Golf Clash Tommy
-        resources:
-        - title: Pro / Expert Guide
-          url: https://youtu.be/OLLBwlG6C7s
-      - name: Zachary Jones
-        resources:
-        - title: Tour 9 - 1 O`clock Wind
-          url: https://youtu.be/sPj4GOxIYpY
-        - title: Tour 9 - Strategy and Tips
-          url: https://youtu.be/1Io5cpzvVkY
-        - title: Cinco De Mayo - Rookie
-          url: https://youtu.be/FAaEtnA1Fcs
-        - title: Cinco De Mayo - Pro
-          url: https://youtu.be/pGC7oldHTqw
-        - title: Cinco De Mayo - Pro
-          url: https://youtu.be/ipHPDpsoe3A
-        - title: Cinco De Mayo - Expert
-          url: https://youtu.be/G23TJq4Kb2M
-        - title: Cinco De Mayo - Expert
-          url: https://youtu.be/6EYmwakIMhk
-        - title: Cinco De Mayo - Expert
-          url: https://youtu.be/7OurfkzzqSU
-        - title: Cinco De Mayo - Masters
-          url: https://youtu.be/7ihDfwlpucM
-        - title: Cinco De Mayo - Masters
-          url: https://youtu.be/adtohTMEq4I
   - id: c6dee008-9374-4e0f-8ae5-d7b456a1e970
     current-tournament: true
     course: The Oasis
-    number: 3
+    number: 1
     par: 5
     description: >
       Help Wanted
@@ -171,10 +121,17 @@ holes:
               <circle cx="239" cy="917" r="6" fill="white" class="guide-point" data-guide-segment="0" />
               <circle cx="226" cy="337" r="6" fill="white" class="guide-point" data-guide-segment="1" />
               <circle cx="252" cy="125" r="6" fill="white" class="guide-point" data-guide-segment="2" />
+  - id: 33ef32c9-c4f7-4b76-a1b2-308087d173d6
+    current-tournament: true
+    course: The Oasis
+    number: 2
+    par: 4
+    description: >
+      Help Wanted
   - id: 1ac9e3f4-edfc-4c57-9635-5986e37c695b
     current-tournament: true
     course: The Oasis
-    number: 4
+    number: 3
     par: 3
     description: >
       Help Wanted
@@ -205,3 +162,81 @@ holes:
           url: https://youtu.be/Dfnj34hekoM
         - title: Cinco De Mayo - Masters
           url: https://youtu.be/DWrVe6OWQcA
+  - id: 1df2d79f-079a-4259-a846-07523700f877
+    current-tournament: true
+    course: The Oasis
+    number: 4
+    par: 4
+    description: >
+      Help Wanted
+    resource-creators:
+      - name: Golf Clash Tommy
+        resources:
+        - title: Pro / Expert Guide
+          url: https://youtu.be/OLLBwlG6C7s
+      - name: Zachary Jones
+        resources:
+        - title: Tour 9 - 1 O`clock Wind
+          url: https://youtu.be/sPj4GOxIYpY
+        - title: Tour 9 - Strategy and Tips
+          url: https://youtu.be/1Io5cpzvVkY
+        - title: Cinco De Mayo - Rookie
+          url: https://youtu.be/FAaEtnA1Fcs
+        - title: Cinco De Mayo - Pro
+          url: https://youtu.be/pGC7oldHTqw
+        - title: Cinco De Mayo - Pro
+          url: https://youtu.be/ipHPDpsoe3A
+        - title: Cinco De Mayo - Expert
+          url: https://youtu.be/G23TJq4Kb2M
+        - title: Cinco De Mayo - Expert
+          url: https://youtu.be/6EYmwakIMhk
+        - title: Cinco De Mayo - Expert
+          url: https://youtu.be/7OurfkzzqSU
+        - title: Cinco De Mayo - Masters
+          url: https://youtu.be/7ihDfwlpucM
+        - title: Cinco De Mayo - Masters
+          url: https://youtu.be/adtohTMEq4I
+  - id: ef1b5866-306c-4a68-aa35-e385558a6889
+    current-tournament: true
+    course: The Oasis
+    number: 5
+    par: 3
+    description: >
+      Help Wanted
+    resource-creators:
+      - name: Zachary Jones
+        resources:
+        - title: Tour 9 Shootout - 9 O`clock Wind
+          url: https://youtu.be/VxSryzvnFfU
+        - title: Tour 9 Shootout - 3 O`clock Wind
+          url: https://youtu.be/yeHlOqWU9fc?t=6m5s
+        - title: Tour 9 Shootout - 12 O`clock Wind
+          url: https://youtu.be/sPj4GOxIYpY?t=5m41s
+  - id: 47f0b5ec-1aea-4429-aee3-805c23fa6bda
+    current-tournament: true
+    course: The Oasis
+    number: 6
+    par: 5
+    description: >
+      Help Wanted
+  - id: 02e6cf86-01d0-4da0-aec1-cb2ee25c49ce
+    current-tournament: true
+    course: The Oasis
+    number: 7
+    par: 3
+    description: >
+      Help Wanted
+  - id: d930d568-3f38-4b7f-bf9f-7b40f41cafaa
+    current-tournament: true
+    course: The Oasis
+    number: 8
+    par: 4
+    description: >
+      Help Wanted
+  - id: dd39ce9a-7156-4b50-b308-5e5ccc3b453a
+    current-tournament: true
+    course: The Oasis
+    number: 9
+    par: 5
+    description: >
+      Help Wanted
