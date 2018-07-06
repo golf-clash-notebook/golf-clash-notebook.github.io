@@ -133,10 +133,15 @@ This table addresses [#136](https://github.com/golf-clash-notebook/golf-clash-no
 | ![Map][TheMilano-7]         | The Milano          |        7       |      3B     |
 | ![Map][TheMilano-8]         | The Milano          |        8       |      4C     |
 | ![Map][TheMilano-9]         | The Milano          |        9       |      5B     |
-| ![Map][TheOasis-1]          | The Oasis           |        1       |       3     |
-| ![Map][TheOasis-2]          | The Oasis           |        2       |       4     |
-| ![Map][TheOasis-3]          | The Oasis           |        3       |       5     |
-| ![Map][TheOasis-4]          | The Oasis           |        4       |      3B     |
+| ![Map][TheOasis-1]          | The Oasis           |        1       |       5     |
+| ![Map][TheOasis-2]          | The Oasis           |        2       |      4C     |
+| ![Map][TheOasis-3]          | The Oasis           |        3       |      3B     |
+| ![Map][TheOasis-4]          | The Oasis           |        4       |       4     |
+| ![Map][TheOasis-5]          | The Oasis           |        5       |       3     |
+| ![Map][TheOasis-6]          | The Oasis           |        6       |      5B     |
+| ![Map][TheOasis-7]          | The Oasis           |        7       |      3C     |
+| ![Map][TheOasis-8]          | The Oasis           |        8       |      4B     |
+| ![Map][TheOasis-9]          | The Oasis           |        9       |      5C     |
 | ![Map][Touchdown-1]         | Touchdown           |        1       |       4     |
 | ![Map][Touchdown-2]         | Touchdown           |        2       |       3     |
 | ![Map][Touchdown-3]         | Touchdown           |        3       |       5     |
