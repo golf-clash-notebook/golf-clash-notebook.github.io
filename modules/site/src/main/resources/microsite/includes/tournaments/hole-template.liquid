@@ -206,6 +206,30 @@ section: "courses"
       {% include resources/resources-list.liquid resources=hole.resource-creators iconSize='lg' hide-text-guides=hole.current-tournament %}
     {% endif %}
 
+    <hr class="hr-text text-large" data-content="Other Tournament Appearances">
+
+    <div class="text-center">
+      {% for tag in site.data.tournaments %}
+        {% if tag[1].tournament-name != page.tournament-name %}
+          {% for tournamentHole in tag[1].holes %}
+            {% if tournamentHole.id == hole.id %}
+              <a class="tournament-appearance-link" href="/tournaments/{{ tag[0] }}/">
+                <img class="img-responsive img-center" src="/img/golfclash/tournaments/titles/{{ tag[0] }}-550x200.png">
+              </a>
+            {% else %}
+              {% for aliasId in hole.aliases %}
+                {% if tournamentHole.id == aliasId %}
+                  <a class="tournament-appearance-link" href="/tournaments/{{ tag[0] }}/">
+                    <img class="img-responsive img-center" src="/img/golfclash/tournaments/titles/{{ tag[0] }}-550x200.png">
+                  </a>
+                {% endif %}
+              {% endfor %}
+            {% endif %}
+          {% endfor %}
+        {% endif %}
+      {% endfor %}
+    </div>
+
   </div>
 
   {% include holes/hole-note-edit-modal.liquid %}
