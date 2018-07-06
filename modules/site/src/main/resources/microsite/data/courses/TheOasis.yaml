@@ -23,6 +23,8 @@ holes:
     resource-creators:
       - name: Golf Clash Tommy
         resources:
+        - title: Desert Open Guide & Tutorial - Rookie Division
+          url: https://youtu.be/8jNCcwdDCP0
         - title: Rookie Guide
           url: https://youtu.be/YUYut_PK77A
         - title: Pro / Expert Guide
@@ -133,6 +135,10 @@ holes:
     description: >
       Help Wanted
     resource-creators:
+      - name: Golf Clash Tommy
+        resources:
+        - title: Desert Open Guide & Tutorial - Rookie Division
+          url: https://youtu.be/9nZlbpThQEI
       - name: Zachary Jones
         resources:
         - title: Tour 9 - Rock Driver and Sniper Approach
@@ -157,6 +163,8 @@ holes:
     resource-creators:
       - name: Golf Clash Tommy
         resources:
+        - title: Desert Open Guide & Tutorial - Rookie Division
+          url: https://youtu.be/pmQSEHvwJI4
         - title: Rookie Guide
           url: https://youtu.be/sJYXB4wjI0k
       - name: Zachary Jones
@@ -195,6 +203,8 @@ holes:
     resource-creators:
       - name: Golf Clash Tommy
         resources:
+        - title: Desert Open Guide & Tutorial - Rookie Division
+          url: https://youtu.be/_dLaXtnsa_I
         - title: Pro / Expert Guide
           url: https://youtu.be/OLLBwlG6C7s
       - name: Zachary Jones
@@ -241,6 +251,10 @@ holes:
     description: >
       Help Wanted
     resource-creators:
+      - name: Golf Clash Tommy
+        resources:
+        - title: Desert Open Guide & Tutorial - Rookie Division
+          url: https://youtu.be/qh3n5c4pvkk
       - name: Zachary Jones
         resources:
         - title: Tour 9 Shootout - 9 O`clock Wind
@@ -257,6 +271,10 @@ holes:
     description: >
       Help Wanted
     resource-creators:
+      - name: Golf Clash Tommy
+        resources:
+        - title: Desert Open Guide & Tutorial - Rookie Division
+          url: https://youtu.be/P6a0S0a8fv0
       - name: Zachary Jones
         resources:
         - title: Tour 9 - Headwind Alternate Left Fairway Sniper Shot Tips and Strategy
@@ -273,6 +291,10 @@ holes:
     description: >
       Help Wanted
     resource-creators:
+      - name: Golf Clash Tommy
+        resources:
+        - title: Desert Open Guide & Tutorial - Rookie Division
+          url: https://youtu.be/pbJtsr_JH5o
       - name: Zachary Jones
         resources:
         - title: Tour 9 Shootout - Sniper Tailwind Approach and Strategy for Success
@@ -289,6 +311,10 @@ holes:
     description: >
       Help Wanted
     resource-creators:
+      - name: Golf Clash Tommy
+        resources:
+        - title: Desert Open Guide & Tutorial - Rookie Division
+          url: https://youtu.be/uBvZqbcqY-8
       - name: Zachary Jones
         resources:
         - title: Tour 9 - Wind Pointed at 10 O`clock
@@ -311,6 +337,10 @@ holes:
     description: >
       Help Wanted
     resource-creators:
+      - name: Golf Clash Tommy
+        resources:
+        - title: Desert Open Guide & Tutorial - Rookie Division
+          url: https://youtu.be/ZFjEUVAqn_w
       - name: Zachary Jones
         resources:
         - title: Tour 9 - Tailwind Drive with Long Iron Approach
