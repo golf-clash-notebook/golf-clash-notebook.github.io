@@ -195,6 +195,28 @@ section: "courses"
       </p>
     {% endif %}
 
+    <hr class="hr-text text-large" data-content="Tournament Appearances">
+
+    <div class="text-center">
+      {% for tag in site.data.tournaments %}
+        {% for tournamentHole in tag[1].holes %}
+          {% if tournamentHole.id == hole.id %}
+            <a class="tournament-appearance-link" href="/tournaments/{{ key }}/">
+              <img class="img-responsive img-center" src="/img/golfclash/tournaments/titles/{{ tag[0] }}-550x200.png">
+            </a>
+          {% else %}
+            {% for aliasId in hole.aliases %}
+              {% if tournamentHole.id == aliasId %}
+                <a class="tournament-appearance-link" href="/tournaments/{{ key }}/">
+                  <img class="img-responsive img-center" src="/img/golfclash/tournaments/titles/{{ tag[0] }}-550x200.png">
+                </a>
+              {% endif %}
+            {% endfor %}
+          {% endif %}
+        {% endfor %}
+      {% endfor %}
+    </div>
+
     {% if hole.resource-creators != undefined and hole.resource-creators != empty %}
       <hr class="hr-text text-large" data-content="Resources">
       {% include resources/resources-list.liquid resources=page.resource-creators iconSize='lg' hide-text-guides=hole.current-tournament %}
