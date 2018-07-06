@@ -1,6 +1,10 @@
 tournament-name: Desert Open
 date: '2018-07-09'
 resource-creators:
+  - name: Golf Clash Tommy
+    resources:
+    - title: Rookie Playthrough
+      url: https://youtu.be/xd-6aA1NJhk
 holes:
   - number: 1
     id: c6dee008-9374-4e0f-8ae5-d7b456a1e970
