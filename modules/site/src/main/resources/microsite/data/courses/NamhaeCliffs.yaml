@@ -53,10 +53,10 @@ holes:
           url: https://youtu.be/Hk0ucNkcAuI
       - name: Kevin Warren
         resources:
-      - title: Rookie
-        url: https://youtu.be/V4tw3HvEqQI
-      - title: Pro / Expert
-        url: https://youtu.be/9MOFCKGt79c
+        - title: Rookie
+          url: https://youtu.be/V4tw3HvEqQI
+        - title: Pro / Expert
+          url: https://youtu.be/9MOFCKGt79c
     aliases:
       - b50ee6b0-226b-40db-8459-7fe06a3dcf82
     overlays:
