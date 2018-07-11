@@ -4,7 +4,15 @@ resource-creators:
   - name: Golf Clash Tommy
     resources:
     - title: Rookie Playthrough
-      url: https://youtu.be/xd-6aA1NJhk
+      url: https://youtu.be/0bnFefgel0M
+    - title: Pro Playthrough
+      url: https://youtu.be/_wqeYLsI4bQ
+    - title: Expert Playthrough
+      url: https://youtu.be/P2p3pjXj-kk
+  - name: Jesse Both
+    resources:
+    - title: Wind Guide - Rookie/Pro/Expert
+      url: https://youtu.be/omlDFQkbzIQ
 holes:
   - number: 1
     id: c6dee008-9374-4e0f-8ae5-d7b456a1e970
