@@ -439,3 +439,11 @@ page_gen:
     extra:
       title-prefix: 'Desert Open Tournament - Hole '
       tournament-name: 'Desert Open'
+  - index_files: true
+    data: 'tournaments.OriginLinks.holes'
+    template: '_includes/tournaments/hole-template.liquid'
+    name: 'number'
+    dir: 'tournaments/OriginLinks'
+    extra:
+      title-prefix: 'Origin Links Tournament - Hole '
+      tournament-name: 'Origin Links'
