@@ -7,7 +7,7 @@ organization in ThisBuild := "golf-clash-notebook"
 organizationName in ThisBuild := "Golf Clash Notebook"
 
 ////////////////////////////////////////////////////////////////////////////////
-val CatsV            = "1.1.0"
+val CatsV            = "1.2.0"
 val CatsEffectV      = "0.10.1"
 val CirceV           = "0.9.3"
 val MonixV           = "3.0.0-RC1"
