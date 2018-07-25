@@ -16,7 +16,7 @@ permalink: /tools/windchartcreator/
 <div class="row">
   <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 col-sm-12">
     <div class="well well-sm text-center">
-      Please read the <button class="btn btn-link pad-0" data-toggle="modal" data-target="#disclaimer-modal">DISCLAIMER</button>
+      Please read the <button class="btn btn-link pad-0" data-toggle="modal" data-target="#disclaimer-modal"><span class="text-danger font-800">DISCLAIMER</span></button>
       before you create or use any wind chart.
     </div>
   </div>

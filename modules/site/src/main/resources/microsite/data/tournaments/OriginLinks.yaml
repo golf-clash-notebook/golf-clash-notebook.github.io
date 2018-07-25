@@ -1,6 +1,30 @@
 tournament-name: Origin Links
 date: '2018-07-23'
 resource-creators:
+  - name: Golf Clash Tommy
+    resources:
+    - title: Playthrough - Rookie
+      url: https://youtu.be/2qEge-5aegc
+    - title: Playthrough - Pro
+      url: https://youtu.be/OLZV0Ia_LcI
+    - title: Playthrough - Expert
+      url: https://youtu.be/JcqLfUC2GnI
+    - title: Club Guide (All Divisions)
+      url: https://youtu.be/5fdIKPvyx_o
+    - title: Text Guides
+      url: https://imgur.com/gallery/0rKO9Mf
+  - name: ItsRJTV
+    resources:
+    - title: Qualifying Round (Pro)
+      url: https://youtu.be/CTYd0Ut-jgU
+    - title: Qualifying Round (Expert)
+      url: https://youtu.be/m3Kd-qxI23o
+  - name: Jesse Both
+    resources:
+    - title: Rookie Guides
+      url: https://www.youtube.com/playlist?list=PL7y2DEPx8c_Ln8OPp_jBpwKAhq2b7bEk3&playnext=1&index=1
+    - title: Pro Guides
+      url: https://www.youtube.com/playlist?list=PL7y2DEPx8c_Jglo-ibxoF9_q0_Y5XtxlW&playnext=1&index=1
 holes:
   - number: 1
     id: 32438d22-96fb-40af-9625-8491bfdfac2b
