@@ -1,0 +1,22 @@
+tournament-name: Club Oceania
+date: '2018-08-06'
+resource-creators:
+holes:
+  - number: 1
+    id: 1b8f133e-bd1e-45e7-994c-c04eccfec9fe
+  - number: 2
+    id: 607ca95c-57f4-4f6c-9836-3b63d14effff
+  - number: 3
+    id: b1d61c9b-c8a0-48e8-904e-cd6cb21fbe56
+  - number: 4
+    id: e17fa3e6-d1a1-4409-808e-6586d953c82b
+  - number: 5
+    id: ddf6d9bc-b6a0-48a0-9f4d-64d4c31de579
+  - number: 6
+    id: d930d568-3f38-4b7f-bf9f-7b40f41cafaa
+  - number: 7
+    id: 02e6cf86-01d0-4da0-aec1-cb2ee25c49ce
+  - number: 8
+    id: 305e76c6-2b29-4968-a9e8-524ed3fa0e1a
+  - number: 9
+    id: 99622020-58b3-46ee-b6fe-4c434c789964

@@ -302,6 +302,7 @@ holes:
         - title: Tour 9 - Rock Driver, Sniper Tailwind Approach
           url: https://youtu.be/b7oF247HWAU
   - id: 02e6cf86-01d0-4da0-aec1-cb2ee25c49ce
+    current-tournament: true
     course: The Oasis
     number: 7
     par: 3
@@ -325,6 +326,7 @@ holes:
         - title: Tour 9 Shootout - Headwind Pointed at 430 with Rock Driver
           url: https://youtu.be/4lKlmexjS2Q
   - id: d930d568-3f38-4b7f-bf9f-7b40f41cafaa
+    current-tournament: true
     course: The Oasis
     number: 8
     par: 4
