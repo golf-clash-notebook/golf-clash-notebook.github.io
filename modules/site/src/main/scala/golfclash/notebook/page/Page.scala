@@ -32,16 +32,17 @@ sealed abstract class Page(val baseUrl: String, val init: Option[js.Function0[_]
 
 object Page {
 
-  case object Balls       extends Page("^/balls/$", Some(balls.init))
-  case object ClubRanker  extends Page("^/tools/clubranker/$", Some(clubranker.init))
-  case object Clubs       extends Page("^/clubs/", Some(clubs.init))
-  case object Courses     extends Page("^/courses/", Some(courses.init))
-  case object CrowdCaddy  extends Page("^/crowdcaddy/", Some(crowdcaddy.init))
-  case object FAQ         extends Page("^/faq/$", Some(faq.init))
-  case object HoleRanker  extends Page("^/tools/holeranker/$", Some(holeranker.init))
-  case object Home        extends Page("^/$", Some(home.init))
-  case object Tournaments extends Page("^/tournaments/", Some(tournaments.init))
-  case object Tours       extends Page("^/tours/")
+  case object Balls         extends Page("^/balls/$", Some(balls.init))
+  case object ClubRanker    extends Page("^/tools/clubranker/$", Some(clubranker.init))
+  case object Clubs         extends Page("^/clubs/", Some(clubs.init))
+  case object Courses       extends Page("^/courses/", Some(courses.init))
+  case object CrowdCaddy    extends Page("^/crowdcaddy/", Some(crowdcaddy.init))
+  case object FAQ           extends Page("^/faq/$", Some(faq.init))
+  case object HoleRanker    extends Page("^/tools/holeranker/$", Some(holeranker.init))
+  case object Home          extends Page("^/$", Some(home.init))
+  case object ShotOverpower extends Page("^/overpower/$", Some(shotoverpower.init))
+  case object Tournaments   extends Page("^/tournaments/", Some(tournaments.init))
+  case object Tours         extends Page("^/tours/")
   case object WindChartCreator
       extends Page("^/tools/windchartcreator/$", Some(windchartcreator.init))
 
@@ -55,6 +56,7 @@ object Page {
       FAQ,
       HoleRanker,
       Home,
+      ShotOverpower,
       Tournaments,
       Tours,
       WindChartCreator

@@ -1,0 +1,33 @@
+
+.op-plot {
+
+  display: block;
+  border: 1px solid lightgray;
+  border-radius: 3px;
+  margin: auto;
+  padding: 5px;
+  width: 90vw;
+  max-width: 600px;
+  height: 43vw;
+  max-height: 270px;
+
+  text {
+    pointer-events: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+}
+
+.reticle-label {
+  font-size: 80%;
+}
+
+text.axis-value {
+  font-size: 90%;
+}
+
+text.axis-label {
+  font-size: 75%;
+}
