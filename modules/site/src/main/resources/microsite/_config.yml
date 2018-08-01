@@ -447,3 +447,11 @@ page_gen:
     extra:
       title-prefix: 'Origin Links Tournament - Hole '
       tournament-name: 'Origin Links'
+  - index_files: true
+    data: 'tournaments.ClubOceania.holes'
+    template: '_includes/tournaments/hole-template.liquid'
+    name: 'number'
+    dir: 'tournaments/ClubOceania'
+    extra:
+      title-prefix: 'Club Oceania Tournament - Hole '
+      tournament-name: 'Club Oceania'
