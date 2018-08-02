@@ -30,7 +30,7 @@ permalink: /tools/clubranker/
 
     <div class="club-ranker-controls">
 
-      <select id="club-category-select" class="form-control">
+      <select id="club-ranker-category-select" class="form-control">
         <option value="Drivers">Drivers</option>
         <option value="Woods">Woods</option>
         <option value="LongIrons">Long Irons</option>

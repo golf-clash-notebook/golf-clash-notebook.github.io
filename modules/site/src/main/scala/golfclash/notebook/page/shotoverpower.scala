@@ -52,31 +52,29 @@ object shotoverpower {
 
     svgPointTx = svgPlot.createSVGPoint()
 
-    initClubSelectors()
+    initCategorySelectors()
     initReticleImage(0)
     initReticleImage(1)
   }
 
-  def initClubSelectors(): Unit = {
+  def initCategorySelectors(): Unit = {
 
-    Club.All.map { allClubsList =>
-      val driversAndWoods =
-        allClubsList.filter { club =>
-          club.clubCategory == Some(Club.Category.Drivers) ||
-          club.clubCategory == Some(Club.Category.Woods)
-        }
+    jQuery("#op-club-category-select").change { () =>
+      Club.Category
+        .fromString(jQuery(s"#op-club-category-select").`val`.asInstanceOf[String])
+        .foreach(categorySelected)
+    }
 
-      initClubControls(0, driversAndWoods)
-      initClubControls(1, driversAndWoods)
-    }.runAsync
-    ()
+    categorySelected(Club.Category.Drivers)
   }
 
   def initClubControls(clubNum: Int, clubs: List[Club]): Unit = {
 
-    clubs.foreach { driver =>
+    jQuery(s"#club${clubNum}-select").empty()
+
+    clubs.foreach { club =>
       jQuery(s"#club${clubNum}-select").append(
-        jQuery("<option>", js.Dynamic.literal("value" -> driver.id, "text" -> driver.name))
+        jQuery("<option>", js.Dynamic.literal("value" -> club.id, "text" -> club.name))
       )
     }
 
@@ -89,13 +87,24 @@ object shotoverpower {
     }
 
     jQuery(s"#club${clubNum}-level-select").change { () =>
-      updatePlot()
+      resetReticle(clubNum)
     }
+
     jQuery(s"#club${clubNum}-ball-power-select").change { () =>
-      updatePlot()
+      resetReticle(clubNum)
     }
 
     clubs.headOption.foreach(clubSelected(clubNum, _))
+  }
+
+  def categorySelected(category: Club.Category): Unit = {
+    Club.All.map { allClubsList =>
+      val categoryClubs = allClubsList.filter(_.clubCategory == Some(category))
+      initClubControls(0, categoryClubs)
+      initClubControls(1, categoryClubs)
+      resetReticles()
+    }.runAsync
+    ()
   }
 
   def clubSelected(clubNum: Int, club: Club) = {
@@ -109,7 +118,7 @@ object shotoverpower {
       )
     }
     jQuery(s"#club${clubNum}-level-select").prop("disabled", false)
-    updatePlot(clubNum)
+    resetReticle(clubNum)
   }
 
   def initReticleImage(reticleNum: Int): Unit = {
@@ -190,12 +199,6 @@ object shotoverpower {
       val currentReticleFrame = reticleFrameNum(reticleNum)
       val newReticleFrame     = (currentReticleFrame + dy.toInt).max(0).min(ReticleImages.size - 1)
 
-      jQuery(s"#${reticleImageId(reticleNum)}")
-        .attr(
-          "xlink:href",
-          ReticleImages(newReticleFrame)
-        )
-
       setReticleFrameNum(reticleNum, newReticleFrame)
 
       dragState = Some(DragState(previousState.reticleNum, currentPoint))
@@ -204,10 +207,26 @@ object shotoverpower {
     }
   }
 
+  def resetReticles(): Unit = {
+    resetReticle(0)
+    resetReticle(1)
+  }
+
+  def resetReticle(reticleNum: Int): Unit = {
+    setReticleFrameNum(reticleNum, 0)
+  }
+
   def setReticleFrameNum(reticleNum: Int, frame: Int): Unit = {
     jQuery(s"#${reticleImageId(reticleNum)}")
       .attr("data-reticle-frame-number", frame.toString)
-    ()
+
+    jQuery(s"#${reticleImageId(reticleNum)}")
+      .attr(
+        "xlink:href",
+        ReticleImages(frame)
+      )
+
+    updatePlot(reticleNum)
   }
 
   def reticleFrameNum(reticleNum: Int): Int =
@@ -258,7 +277,7 @@ object shotoverpower {
     )
 
   def currentOpPercentage(clubNum: Int): Double =
-    reticleFrameNum(clubNum) / ReticleImages.size.toDouble
+    reticleFrameNum(clubNum) / (ReticleImages.size - 1).toDouble
 
   def updatePlot(): Unit = {
     updatePlot(0)

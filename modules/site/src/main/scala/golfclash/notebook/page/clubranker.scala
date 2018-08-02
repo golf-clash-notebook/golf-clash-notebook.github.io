@@ -70,7 +70,7 @@ object clubranker {
 
   val init = () => {
 
-    jQuery("#club-category-select").change { () =>
+    jQuery("#club-ranker-category-select").change { () =>
       applyCategoryPreset()
       updateRankings()
     }
@@ -227,7 +227,7 @@ object clubranker {
   }
 
   def selectedClubCategory(): Option[Club.Category] = {
-    Club.Category.fromString(jQuery("#club-category-select").`val`().asInstanceOf[String])
+    Club.Category.fromString(jQuery("#club-ranker-category-select").`val`().asInstanceOf[String])
   }
 
   def currentWeights(): ClubRankWeights = {
