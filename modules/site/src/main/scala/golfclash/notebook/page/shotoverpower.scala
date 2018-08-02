@@ -308,7 +308,7 @@ object shotoverpower {
 
         jQuery(s"#club${clubNum}-distance").text(f"$shotDistance%.1f yards")
 
-        val axisLabelY = s"${3 + (opPercentage * 90)}%"
+        val axisLabelY = s"${3 + (opPercentage * 85)}%"
         jQuery(s"#club${clubNum}-extra-yards")
           .attr("y", axisLabelY)
           .text(f"+${shotOpYards}%.1f")
