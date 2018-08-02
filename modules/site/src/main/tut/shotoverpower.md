@@ -24,7 +24,7 @@ permalink: /tools/overpower/
         <div class="col-xs-6">
           <form>
             <div class="form-group">
-              <label for="club{{ clubNum }}-select">Club {{ clubNum }}</label>
+              <label for="club{{ clubNum }}-select">Club {{ clubNum | plus: 1 }}</label>
               <select id="club{{ clubNum }}-select" class="form-control"></select>
             </div>
             <div class="form-group">
@@ -53,26 +53,35 @@ permalink: /tools/overpower/
       <svg id="club-op-plot" class="op-plot">
 
         <defs>
-          <rect id="reticle0-image-clip-rect" x="0" y="0" width="30%" height="95%" rx="5px" ry="5px"/>
+
+          <rect id="reticle0-image-clip-rect" x="0" y="0" width="30%" height="92%" rx="5px" ry="5px"/>
           <clipPath id="reticle0-image-clip-path">
             <use xlink:href="#reticle0-image-clip-rect"/>
           </clipPath>
-          <rect id="reticle1-image-clip-rect" x="70%" y="0" width="30%" height="95%" rx="5px" ry="5px"/>
+
+          <rect id="reticle1-image-clip-rect" x="70%" y="0" width="30%" height="92%" rx="5px" ry="5px"/>
           <clipPath id="reticle1-image-clip-path">
             <use xlink:href="#reticle1-image-clip-rect"/>
           </clipPath>
+
           <linearGradient id="needleGradient" x1="0%" y1="0%" x2="0%" y2="100%">
             <stop offset="0%" style="stop-color:#fbfdfc;stop-opacity:1" />
             <stop offset="50%" style="stop-color:#fcfc85;stop-opacity:1" />
             <stop offset="100%" style="stop-color:#fc0000;stop-opacity:1" />
           </linearGradient>
+
+          <filter x="0" y="0" width="1" height="1" id="distance-text-background">
+            <feFlood flood-color="white" flood-opacity="0.75" />
+            <feComposite in="SourceGraphic"/>
+          </filter>
+
         </defs>
 
         <!-- Club 0 -->
-        <image id="club0-reticle-image" data-reticle-frame-number="0" xlink:href="/img/golfclash/reticle/small/000.jpg" x="0" y="0" width="30%" height="95%" clip-path="url(#reticle0-image-clip-path)" />
-        <rect id="club0-needle-gradient" x="40%" y="3%" width="2%" height="90%" fill="url(#needleGradient)" stroke="#666666" strokeWidth="0.3" />
+        <image id="club0-reticle-image" data-reticle-frame-number="0" xlink:href="/img/golfclash/reticle/small/000.jpg" x="0" y="0" width="30%" height="92%" clip-path="url(#reticle0-image-clip-path)" />
+        <rect id="club0-needle-gradient" x="40%" y="3%" width="2%" height="85%" fill="url(#needleGradient)" stroke="#666666" strokeWidth="0.3" />
 
-        <text id="club0-distance" class="reticle-label" x="15%" y="100%" dy="-0.5em" text-anchor="middle" fontFamily="Lato" fontSize="90%">---.- yards</text>
+        <text id="club0-distance" class="reticle-label" x="15%" y="100%" dy="-0.5em" text-anchor="middle" fontFamily="Lato" fontSize="90%" filter="url(#distance-text-background)">---.- yards</text>
 
         <text id="club0-extra-yards" class="axis-value" x="39%" text-anchor="end" alignment-baseline="middle" />
         <text id="club0-extra-rings" class="axis-value" x="43%" text-anchor="start" alignment-baseline="middle" />
@@ -80,10 +89,10 @@ permalink: /tools/overpower/
         <text class="axis-label" x="43%" y="100%" dy="-0.5em" text-anchor="start">Rings</text>
 
         <!-- Club 1 -->
-        <image id="club1-reticle-image" data-reticle-frame-number="0" xlink:href="/img/golfclash/reticle/small/000.jpg" x="70%" y="0" width="30%" height="95%" clip-path="url(#reticle1-image-clip-path)"/>
-        <rect id="club1-needle-gradient" x="57%" y="3%" width="2%" height="90%" fill="url(#needleGradient)" stroke="#666666" strokeWidth="0.3" />
+        <image id="club1-reticle-image" data-reticle-frame-number="0" xlink:href="/img/golfclash/reticle/small/000.jpg" x="70%" y="0" width="30%" height="92%" clip-path="url(#reticle1-image-clip-path)"/>
+        <rect id="club1-needle-gradient" x="57%" y="3%" width="2%" height="85%" fill="url(#needleGradient)" stroke="#666666" strokeWidth="0.3" />
 
-        <text id="club1-distance" class="reticle-label" x="85%" y="100%" dy="-0.5em" text-anchor="middle" fontFamily="Lato" fontSize="90%">---.- yards</text>
+        <text id="club1-distance" class="reticle-label" x="85%" y="100%" dy="-0.5em" text-anchor="middle" fontFamily="Lato" fontSize="90%" filter="url(#distance-text-background)">---.- yards</text>
 
         <text id="club1-extra-rings" class="axis-value" x="56%" text-anchor="end" alignment-baseline="middle" />
         <text id="club1-extra-yards" class="axis-value" x="60%" text-anchor="start" alignment-baseline="middle" />
@@ -99,7 +108,7 @@ permalink: /tools/overpower/
 </div>
 
 <div class="row">
-  <div class="col-lg-10 col-sm-9 col-xs-12 margin-top-32">
+  <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 col-sm-12">
     <h4>What is this and why should I care?</h4>
     <p>
       Watching guides on how to play holes in the tournament is a great way to improve your
