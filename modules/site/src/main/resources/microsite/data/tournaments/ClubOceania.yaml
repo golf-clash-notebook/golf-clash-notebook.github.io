@@ -7,6 +7,10 @@ resource-creators:
       url: https://www.youtube.com/watch?v=bEUN9aU83WI&list=PL8bCSk5yWdFJqvsIo-ebMZNFzp9_AHljG
     - title: Guides - Pro & Expert
       url: https://www.youtube.com/watch?v=D0Q2Z4Mwxmg&list=PL8bCSk5yWdFLDpYI7896pYlUJ8r-sGVGX
+  - name: Jesse Both
+    resources:
+    - title: Rookie/Pro Guide - Walkthrough
+      url: https://youtu.be/N6YOKKEk2To
 holes:
   - number: 1
     id: 1b8f133e-bd1e-45e7-994c-c04eccfec9fe

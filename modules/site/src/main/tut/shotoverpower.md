@@ -111,7 +111,7 @@ permalink: /tools/overpower/
   <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 col-sm-12">
     <h4>What is this and why should I care?</h4>
     <p>
-      Watching guides on how to play holes in the tournament is a great way to improve your
+      Watching guides on how to play holes in a tournament is a great way to improve your
       finishing position. However, not every tutorial uses the same clubs that you have. This
       can make it tricky to judge what adjustments you need to make in terms of balls and over
       powering your shot to try and mimic the land zone you see in the guide. That's where this
