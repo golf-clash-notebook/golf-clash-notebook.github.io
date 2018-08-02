@@ -40,7 +40,7 @@ object Page {
   case object FAQ           extends Page("^/faq/$", Some(faq.init))
   case object HoleRanker    extends Page("^/tools/holeranker/$", Some(holeranker.init))
   case object Home          extends Page("^/$", Some(home.init))
-  case object ShotOverpower extends Page("^/overpower/$", Some(shotoverpower.init))
+  case object ShotOverpower extends Page("^/tools/overpower/$", Some(shotoverpower.init))
   case object Tournaments   extends Page("^/tournaments/", Some(tournaments.init))
   case object Tours         extends Page("^/tours/")
   case object WindChartCreator

@@ -32,6 +32,16 @@ position: 70
 
   <div class="col-md-4 col-md-offset-0 col-xs-8 col-xs-offset-2 text-center col-flex" data-mh="tool-card">
     <div class="site-feature-card text-center">
+      <h4>Shot Overpower Simulator</h4>
+      <p class="feature-description text-small text-semi-muted">
+        Use this tool to recreate shots using different clubs and balls!
+      </p>
+      <a href="/tools/overpower/" class="btn btn-primary feature-link" role="button">Shot Overpower Simulator</a>
+    </div>
+  </div>
+
+  <div class="col-md-4 col-md-offset-4 col-xs-8 col-xs-offset-2 text-center col-flex" data-mh="tool-card">
+    <div class="site-feature-card text-center">
       <h4>Hole Ranker</h4>
       <p class="feature-description text-small text-semi-muted">
         Ever wonder what the true face of fear looks like? Take a look at the most difficult holes in the game,
