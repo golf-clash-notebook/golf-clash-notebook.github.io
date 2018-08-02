@@ -308,6 +308,13 @@ object shotoverpower {
 
         jQuery(s"#club${clubNum}-distance").text(f"$shotDistance%.1f yards")
 
+        val tinyFontSize  = s"${jQuery("#club-op-plot").width() * 0.025}px"
+        val smallFontSize = s"${jQuery("#club-op-plot").width() * 0.030}px"
+
+        jQuery(s"#club${clubNum}-distance").attr("font-size", tinyFontSize)
+        jQuery(s".axis-label").attr("font-size", tinyFontSize)
+        jQuery(s".axis-value").attr("font-size", smallFontSize)
+
         val axisLabelY = s"${3 + (opPercentage * 85)}%"
         jQuery(s"#club${clubNum}-extra-yards")
           .attr("y", axisLabelY)
