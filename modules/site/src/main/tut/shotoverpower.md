@@ -72,23 +72,23 @@ permalink: /tools/overpower/
         <image id="club0-reticle-image" data-reticle-frame-number="0" xlink:href="/img/golfclash/reticle/small/000.jpg" x="0" y="0" width="30%" height="95%" clip-path="url(#reticle0-image-clip-path)" />
         <rect id="club0-needle-gradient" x="40%" y="3%" width="2%" height="90%" fill="url(#needleGradient)" stroke="#666666" strokeWidth="0.3" />
 
-        <text id="club0-distance" class="reticle-label" x="15%" y="99%" text-anchor="middle" alignment-baseline="baseline" fontFamily="Lato" fontSize="90%">---.- yards</text>
+        <text id="club0-distance" class="reticle-label" x="15%" y="100%" dy="-0.5em" text-anchor="middle" fontFamily="Lato" fontSize="90%">---.- yards</text>
 
         <text id="club0-extra-yards" class="axis-value" x="39%" text-anchor="end" alignment-baseline="middle" />
         <text id="club0-extra-rings" class="axis-value" x="43%" text-anchor="start" alignment-baseline="middle" />
-        <text class="axis-label" x="39%" y="99%" text-anchor="end" alignment-baseline="baseline">Yards</text>
-        <text class="axis-label" x="43%" y="99%" text-anchor="start" alignment-baseline="baseline">Rings</text>
+        <text class="axis-label" x="39%" y="100%" dy="-0.5em" text-anchor="end">Yards</text>
+        <text class="axis-label" x="43%" y="100%" dy="-0.5em" text-anchor="start">Rings</text>
 
         <!-- Club 1 -->
         <image id="club1-reticle-image" data-reticle-frame-number="0" xlink:href="/img/golfclash/reticle/small/000.jpg" x="70%" y="0" width="30%" height="95%" clip-path="url(#reticle1-image-clip-path)"/>
         <rect id="club1-needle-gradient" x="57%" y="3%" width="2%" height="90%" fill="url(#needleGradient)" stroke="#666666" strokeWidth="0.3" />
 
-        <text id="club1-distance" class="reticle-label" x="85%" y="99%" text-anchor="middle" alignment-baseline="baseline" fontFamily="Lato" fontSize="90%">---.- yards</text>
+        <text id="club1-distance" class="reticle-label" x="85%" y="100%" dy="-0.5em" text-anchor="middle" fontFamily="Lato" fontSize="90%">---.- yards</text>
 
         <text id="club1-extra-rings" class="axis-value" x="56%" text-anchor="end" alignment-baseline="middle" />
         <text id="club1-extra-yards" class="axis-value" x="60%" text-anchor="start" alignment-baseline="middle" />
-        <text class="axis-label" x="56%" y="99%" text-anchor="end" alignment-baseline="baseline">Rings</text>
-        <text class="axis-label" x="60%" y="99%" text-anchor="start" alignment-baseline="baseline">Yards</text>
+        <text class="axis-label" x="56%" y="100%" dy="-0.5em" text-anchor="end">Rings</text>
+        <text class="axis-label" x="60%" y="100%" dy="-0.5em" text-anchor="start">Yards</text>
 
       </svg>
       <div>
