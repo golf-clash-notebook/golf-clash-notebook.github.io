@@ -1,6 +1,7 @@
 - id: 9450a048-3278-49b9-b7e1-75dfbb8aa86a
   name: The Roughcutter
   category: RoughIrons
+  type: Rare
   description: >
     The Roughcutter is an okay way to start your long lived affair with the rough. While it really
     lacks distance, the accuracy is good enough to get you where you need to be and knock in a few
@@ -14,6 +15,7 @@
 - id: 19baa92d-125c-4837-aa4b-6b33fc82eb6f
   name: The Junglist
   category: RoughIrons
+  type: Epic
   description: >
     While The Junglist has plenty of extra distance, the accuracy should give you pause since you
     can quickly end up in the rough for your next shot too if you're not careful. Chances are that
@@ -28,6 +30,7 @@
 - id: db327b65-9f5c-4ad9-80f3-2ca867380527
   name: The Machete
   category: RoughIrons
+  type: Common
   description: >
     This is a situational club for sure. Save it for tournament holes where you may end up in the
     rough up by the hole but back spin is a must in order to put it close to the hole (e.g.
@@ -42,6 +45,7 @@
 - id: 40230c1a-93ba-4c2f-9adc-4eea5d585ec8
   name: The Off Roader
   category: RoughIrons
+  type: Epic
   description: >
     The Off Roader is not a bad option if you manage to unlock it early. Compared to The
     Roughcutter, you get a lot more distance at the cost of accuracy with a nice bump in ball guide,
@@ -56,6 +60,7 @@
 - id: 5b0b8e3c-eac0-486b-be54-3a7a7d32f3c1
   name: The Razor
   category: RoughIrons
+  type: Rare
   description: >
     The Razor is a very popular choice because of it's combination of accuracy and ball guide. With
     those two components, you have all you need to knock it in the hole from the rough. Just be
@@ -70,6 +75,7 @@
 - id: 894145ab-d321-45a4-94b2-2490a140d249
   name: The Amazon
   category: RoughIrons
+  type: Epic
   description: >
     Use The Amazon when distance out of the rough is the absolute most important thing you need.
     You'll have plenty of distance from the start and the top spin gives it an edge over any other
@@ -84,6 +90,7 @@
 - id: 07fd10d8-198c-4c9e-bfd0-cbef5647be70
   name: Nirvana
   category: RoughIrons
+  type: Rare
   description: >
     This is the rough iron that you should be aiming to get and build up. At level 4, there's a good
     chance it'll be the best all around choice. At level 5, you'll get another big bump and it

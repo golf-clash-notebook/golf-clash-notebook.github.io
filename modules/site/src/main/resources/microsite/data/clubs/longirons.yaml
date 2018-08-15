@@ -1,6 +1,7 @@
 - id: 4f48ad78-c448-47ca-a5ab-a725f8f7c4de
   name: The Grim Reaper
   category: LongIrons
+  type: Epic
   description: >
     The lack of distance means that by the time you manage to max it and make it a mediocre club,
     you will definitely have better option available. The only time you should be playing with the
@@ -14,6 +15,7 @@
 - id: 080553ad-16b8-44ff-a00b-b43014173ce8
   name: The Backbone
   category: LongIrons
+  type: Common
   description: >
     The Backbone is a solid long iron to start off and starts to get pretty good once you get it
     to level 9. Thankfully it's a common so that won't take as long as other options. Most people
@@ -28,6 +30,7 @@
 - id: 90378a37-95ac-4b0d-9e0b-bcd95427f169
   name: The Goliath
   category: LongIrons
+  type: Rare
   description: >
     The other main contender (Backbone) in the long iron category (at least until you level up the
     B52 or max the Tsunami). The distance is very good from level 1 but you may miss the backspin
@@ -41,6 +44,7 @@
 - id: 77eaaa22-fe1c-4fa1-a2d4-0c29dda6a918
   name: The Saturn
   category: LongIrons
+  type: Common
   description: >
     If you're looking for backspin in a long iron, this is the place you should start. It does
     sacrifice some distance and accuracy though. You can pair it with a special ball on some
@@ -54,6 +58,7 @@
 - id: a03cb2e5-777d-46f6-9b0b-689a6678e7c8
   name: The B52
   category: LongIrons
+  type: Epic
   description: >
     Arguably the best long iron once you get it maxed. It lacks spin control when compared to other
     clubs which limits it's usefulness. Think about using this club at level 3+ for longer Par 3
@@ -69,6 +74,7 @@
 - id: b322d40d-5af5-425c-bc66-d421e2578ace
   name: The Grizzly
   category: LongIrons
+  type: Rare
   description: >
     While the accuracy and ball guide are nice in The Grizzly, most of the other stats don't really
     measure up to what you'll probably have available once you unlock it. Chances are you won't
@@ -82,6 +88,7 @@
 - id: 4624292f-f30e-4dfd-9b57-0effaa644b83
   name: The Tsunami
   category: LongIrons
+  type: Epic
   description: >
     Can't really talk about using this one until it hits <em>at least</em> level 5. It's still not
     a club that you can just pick up an be effective with at that point though because of the lack
@@ -99,6 +106,7 @@
 - id: a1b868c7-49c3-4174-9e3a-b9a247b8dde5
   name: Golden Long Iron
   category: LongIrons
+  type: Golden
   description: >
     This is the long iron you'll get in the Golden Shot mini-game. Similar stats to a mid-level
     Backbone, but with better spin available.
