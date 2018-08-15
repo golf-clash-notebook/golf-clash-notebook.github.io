@@ -1,6 +1,7 @@
 - id: 614617c3-dcce-424b-8fdd-748ff265684b
   name: The Dart
   category: Wedges
+  type: Common
   description: >
     The first wedge that you'll unlock and use for the first few tours. It's certainly nothing
     special but the next 2 tours have epic wedges so you'll likely be stuck with this guy for
@@ -14,6 +15,7 @@
 - id: e51cbd86-22f3-445c-87d0-8d5e09269237
   name: The Firefly
   category: Wedges
+  type: Epic
   description: >
     When you get The Firefly unlocked there's a decent chance that it will be the best option at
     least until you can level up your Skewer. The main selling points are the top spin and ball
@@ -29,6 +31,7 @@
 - id: 297ad32b-4d67-42ad-bdb0-eaf8fbfc0e6c
   name: The Boomerang
   category: Wedges
+  type: Epic
   description: >
     Arguably the worst club in the game. Not the worst wedge...the worst club. So if you were
     thinking about using this club, save yourself some agony and don't.
@@ -41,6 +44,7 @@
 - id: 23e3d2e9-a24b-46e7-9279-2a7903f45bf0
   name: The DownInOne
   category: Wedges
+  type: Rare
   description: >
     This is a pretty gimmicky club that you should probably never use in your day to day grinding.
     It <em>could</em> be useful for a situational tournament hole where you <strong>know</strong>
@@ -55,6 +59,7 @@
 - id: 6943e11b-22d8-48f2-963c-03a8f92c15ab
   name: The Skewer
   category: Wedges
+  type: Common
   description: >
     After The Dart and Firefly (which you hopefully unlocked), The Skewer is probably the next
     wedge you'll use since it will have better accuracy than either of the previous 2. It's really
@@ -70,6 +75,7 @@
 - id: 65d69246-f3f5-4b7a-95ac-8c4abd7a37e3
   name: The Endbringer
   category: Wedges
+  type: Epic
   description: >
     The name says it all. This is a really good wedge out of the gate with it's accuracy but you
     may have already unlocked and leveled up your Rapier by the time you unlock this epic. The only
@@ -85,6 +91,7 @@
 - id: 8e7a4667-ba23-415a-853c-ec0fa474c70f
   name: The Rapier
   category: Wedges
+  type: Rare
   description: >
     Between The Endbringer and Rapier you have two very good clubs that will net you a lot of
     chip ins. If you're not using one of the two (save a maxed out Firefly), chances are you're
@@ -98,6 +105,7 @@
 - id: a5351dd9-63d3-45d6-a019-42aca9fde628
   name: Golden Wedge
   category: Wedges
+  type: Golden
   description: >
     This is the wedge you'll get in the Golden Shot mini-game. If you find yourself using this club
     in the Golden Shot, you're doing it wrong.

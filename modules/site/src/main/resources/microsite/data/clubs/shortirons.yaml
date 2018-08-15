@@ -1,6 +1,7 @@
 - id: 050f70b4-16b5-411d-a7e1-46663bf0673e
   name: The Apache
   category: ShortIrons
+  type: Rare
   description: >
     The only redeeming feature of the Apache is the distance, and distance isn't exactly the most
     import thing you should look for in a short iron. Because that's really the only thing it has
@@ -15,6 +16,7 @@
 - id: e176d59b-0486-4024-bcab-9015b8dcb2f1
   name: The Kingfisher
   category: ShortIrons
+  type: Epic
   description: >
     The Kingfisher becomes an OK club once you max it. Which is too bad because epics take forever
     to get to that point. You <em>may</em> want to use this club until you can unlock the Thorn or
@@ -28,6 +30,7 @@
 - id: 69e15e51-dd9c-4b5f-90e3-988755207eec
   name: The Runner
   category: ShortIrons
+  type: Common
   description: >
     Another club that basically just fills the space between the beginner short iron and The Thorn
     / Hornet. You'll never really need the insane amount of topspin it delivers and the ball guide
@@ -41,6 +44,7 @@
 - id: 0adb943e-7597-498a-9f43-301f0a9c1440
   name: The Thorn
   category: ShortIrons
+  type: Rare
   description: >
     The Thorn is one of the most popular short irons in the game. It offers good distance, a
     reasonable ball guide and all the backspin that you'll ever need. Just try not to get too
@@ -56,6 +60,7 @@
 - id: d9a63b40-56fc-42d7-8997-c48163116865
   name: The Hornet
   category: ShortIrons
+  type: Rare
   description: >
     Along with The Thorn, The Hornet is a very popular choice of short iron. It's accuracy is
     unrivaled and that stat alone will lead to a few chip ins that you wouldn't get with a lesser
@@ -71,6 +76,7 @@
 - id: ad1c1a39-7a7f-4e2a-8916-aabdfb99bd1d
   name: The Claw
   category: ShortIrons
+  type: Common
   description: >
     You'll probably see The Claw pop up from time to time in regular tour play, but it's not quite
     as popular as the Thorn or Hornet. Depending on how fast you level this one up, it could be a
@@ -86,6 +92,7 @@
 - id: 3762027f-a72b-4616-8ce0-67a682fb37ab
   name: The Falcon
   category: ShortIrons
+  type: Epic
   description: >
     This is an all around middle of the road iron that gets really good at level 6+. Keep in mind
     that this is an epic club so that will take longer than you're hoping for. At level 7, it's
@@ -99,6 +106,7 @@
 - id: 5b9ee82a-45d7-4077-9d0c-e27e24a60d2c
   name: Golden Short Iron
   category: ShortIrons
+  type: Golden
   description: >
     This is the short iron you'll get in the Golden Shot mini-game. Somewhat similar stats to an
     entry level Falcon, meaning it's pretty average all round, except for a much weaker ball guide.

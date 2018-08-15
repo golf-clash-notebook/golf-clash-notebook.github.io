@@ -1,6 +1,7 @@
 - id: c1e71fd4-31a8-4dad-a828-b4043cf2de16
   name: The Rocket
   category: Drivers
+  type: Common
   description: >
     This is almost certainly the first driver you'll unlock. Switch to it immediately since anything
     is better than the beginner driver. It doesn't add any distance to start, but the added
@@ -16,6 +17,7 @@
 - id: f91237fb-9505-40de-8496-d19a5b024394
   name: The Extra Mile
   category: Drivers
+  type: Rare
   description: >
     This is the driver that most people use until they can unlock and level up Thor's Hammer or
     The Apocalypse. The distance this club has is unmatched except for those clubs. Of course, that
@@ -32,6 +34,7 @@
 - id: c4c3c5c9-8c4e-4f9d-8213-3a9f7624542d
   name: Big Topper
   category: Drivers
+  type: Epic
   description: >
     This is a pure gimmick club that you'll almost never use except for maybe a situational hole
     in a tournament where there's a wide open fairway. The accuracy is awful and the carry distance
@@ -45,6 +48,7 @@
 - id: f9864188-8806-40e8-9193-37f5cf42a201
   name: The Quarterback
   category: Drivers
+  type: Common
   description: >
     For the most part, The Quarterback is the only club other than the Extra Mile that players use
     until they can beef up their Thor's Hammer or Apocalypse. It's accuracy is the main draw for
@@ -60,6 +64,7 @@
 - id: 6c549939-045f-4482-b3a7-040eae7235d2
   name: The Rock
   category: Drivers
+  type: Rare
   description: >
     This is a similar club to The Quarterback but with even less spin. You'll get a little more
     distance and ball guide which can be helpful for precision drives in some tournament holes. For
@@ -73,6 +78,7 @@
 - id: eb3586e6-a54e-4c9a-9f4e-a139d2dcd1e7
   name: Thor's Hammer
   category: Drivers
+  type: Epic
   description: >
     Thor's Hammer is the first driver you'll probably unlock that might turn you away from the
     allure of The Extra Mile's distance. It gives you much better accuracy and similar top spin.
@@ -89,6 +95,7 @@
 - id: 5558e5e6-1c29-4a4f-9521-5055c78fa002
   name: The Apocalypse
   category: Drivers
+  type: Epic
   description: >
     Widely considered the best driver available once you get it to level 5 and a viable option at 3.
     The only other driver that really compares when it's leveled up it the Thor's Hammer so between
@@ -105,6 +112,7 @@
 - id: 4262e324-c0bc-45e0-97fe-f65af2624dc7
   name: Golden Driver
   category: Drivers
+  type: Golden
   description: >
     This is the driver you'll get in the Golden Shot mini-game. Similar to a mid level Rocket with
     less ball guide.
