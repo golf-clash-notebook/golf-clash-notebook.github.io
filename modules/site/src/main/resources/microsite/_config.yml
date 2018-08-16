@@ -455,3 +455,11 @@ page_gen:
     extra:
       title-prefix: 'Club Oceania Tournament - Hole '
       tournament-name: 'Club Oceania'
+  - index_files: true
+    data: 'tournaments.SummerMajor.holes'
+    template: '_includes/tournaments/hole-template.liquid'
+    name: 'number'
+    dir: 'tournaments/SummerMajor'
+    extra:
+      title-prefix: 'Summer Major Tournament - Hole '
+      tournament-name: 'Summer Major'
