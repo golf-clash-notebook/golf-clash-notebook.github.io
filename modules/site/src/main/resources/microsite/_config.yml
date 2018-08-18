@@ -177,6 +177,13 @@ page_gen:
     extra:
       title-prefix: 'The Oasis - Hole '
   - index_files: true
+    data: 'courses.PorthelloCove.holes'
+    template: '_includes/courses/hole-template.liquid'
+    name: 'number'
+    dir: 'courses/PorthelloCove'
+    extra:
+      title-prefix: 'The Oasis - Hole '
+  - index_files: true
     data: 'courses.Touchdown.holes'
     template: '_includes/courses/hole-template.liquid'
     name: 'number'
