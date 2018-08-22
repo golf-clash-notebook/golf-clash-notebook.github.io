@@ -87,9 +87,9 @@ object wind {
       case Some(Club.Category.Woods)      => 0.75 * mode.powerCoefficient
       case Some(Club.Category.LongIrons)  => 0.66 * mode.powerCoefficient
       case Some(Club.Category.ShortIrons) => 0.50 * mode.powerCoefficient
-      case Some(Club.Category.Wedges)     => maxPower(club, level, mode) / 4 * mode.powerCoefficient
-      case Some(Club.Category.RoughIrons) => maxPower(club, level, mode) / 4 * mode.powerCoefficient
-      case Some(Club.Category.SandWedges) => maxPower(club, level, mode) / 4 * mode.powerCoefficient
+      case Some(Club.Category.Wedges)     => maxPower(club, level, mode) / 4
+      case Some(Club.Category.RoughIrons) => maxPower(club, level, mode) / 4
+      case Some(Club.Category.SandWedges) => maxPower(club, level, mode) / 4
       case None                           => 0.75 * mode.powerCoefficient
     }
   }

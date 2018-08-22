@@ -1,0 +1,6 @@
+timestamp: 2018-08-22
+title: Wind Chart Fixes
+content: >
+  An small error in calculating wind ring values has been found and corrected. It only affected
+  minimum distance ring values for Wedges, Rough Irons, Sand Wedges when using power balls. The
+  error was minimal but you may notice slightly different numbers in your wind charts.
