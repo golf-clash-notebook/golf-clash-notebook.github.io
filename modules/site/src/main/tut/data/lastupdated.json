@@ -2,4 +2,4 @@
 layout: null
 ---
 
-{{ 'now' | date: "%s" | jsonify }}
+{{ 'now' | date: "%s" }}
