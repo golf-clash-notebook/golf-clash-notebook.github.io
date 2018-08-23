@@ -1,15 +1,23 @@
 
-{% assign mod2 = include.clubs | size | modulo: 2 %}
+{% assign nonBeginnerClubs = "" | split: "" %}
+
+{% for club in include.clubs %}
+  {% unless club.type contains 'Beginner' %}
+    {% assign nonBeginnerClubs = nonBeginnerClubs | push: club %}
+  {% endunless %}
+{% endfor %}
+
+{% assign mod2 = nonBeginnerClubs | size | modulo: 2 %}
 
 <h1 class="gcn-page-header">{{ include.categoryName }}</h1>
 
 <div>
 
-  {% for club in include.clubs %}
+  {% for club in nonBeginnerClubs %}
 
     {% assign loopMod2 = forloop.index0 | modulo: 2 %}
     {% assign nextIx = forloop.index0 | plus: 1 %}
-    {% assign numClubs = include.clubs | size %}
+    {% assign numClubs = nonBeginnerClubs | size %}
 
     {% capture columnClasses %}
       {% if mod2 == 1 and forloop.last %}
@@ -21,7 +29,7 @@
 
     {% if nextIx < numClubs and loopMod2 == 0 %}
 
-      {% assign nextClub = include.clubs[nextIx] %}
+      {% assign nextClub = nonBeginnerClubs[nextIx] %}
 
       <div class="row">
         <div class="{{ columnClasses | strip }} col-flex" data-mh="club-card">

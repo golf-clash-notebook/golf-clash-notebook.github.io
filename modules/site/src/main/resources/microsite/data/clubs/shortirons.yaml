@@ -1,3 +1,15 @@
+- id: 02f64e02-710d-4808-956e-bb33f9b25959
+  name: Beginner Short Iron
+  category: ShortIrons
+  type: Beginner
+  description: >
+    The short iron you're stuck with until you can unlock the Apache or Kingfisher.
+  power:     [ 75]
+  accuracy:  [ 10]
+  topspin:   [  0]
+  backspin:  [  0]
+  curl:      [  5]
+  ballguide: [2.0]
 - id: 050f70b4-16b5-411d-a7e1-46663bf0673e
   name: The Apache
   category: ShortIrons

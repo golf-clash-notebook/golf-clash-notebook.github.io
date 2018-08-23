@@ -1,3 +1,15 @@
+- id: 7b58f56e-49b6-472e-998e-ab72f56e4e53
+  name: Beginner Wood
+  category: Woods
+  type: Beginner
+  description: >
+    The wood you're stuck with until you can unlock the Viper or Horizon.
+  power:     [160]
+  accuracy:  [ 10]
+  topspin:   [  0]
+  backspin:  [  0]
+  curl:      [  5]
+  ballguide: [2.0]
 - id: 994535d6-e687-47cb-b1eb-e3762dd15fa0
   name: The Horizon
   category: Woods
