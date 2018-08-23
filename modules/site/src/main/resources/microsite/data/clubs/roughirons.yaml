@@ -1,3 +1,15 @@
+- id: 4789d390-12e1-466c-8602-44e652397900
+  name: Beginner Rough Iron
+  category: RoughIrons
+  type: Beginner
+  description: >
+    The rough iron you're stuck with until you can unlock the Roughcutter.
+  power:     [ 60]
+  accuracy:  [ 10]
+  topspin:   [  0]
+  backspin:  [  0]
+  curl:      [  5]
+  ballguide: [1.7]
 - id: 9450a048-3278-49b9-b7e1-75dfbb8aa86a
   name: The Roughcutter
   category: RoughIrons

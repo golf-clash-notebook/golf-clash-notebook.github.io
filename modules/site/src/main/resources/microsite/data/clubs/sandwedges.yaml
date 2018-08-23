@@ -1,3 +1,15 @@
+- id: 5e112868-9d36-440a-8d0c-b5e671c3b841
+  name: Beginner Sand Wedge
+  category: SandWedges
+  type: Beginner
+  description: >
+    The sand wedge you're stuck with until you can unlock the Castaway or Desert Storm.
+  power:     [ 40]
+  accuracy:  [ 10]
+  topspin:   [  0]
+  backspin:  [  0]
+  curl:      [  5]
+  ballguide: [1.7]
 - id: 860beb2b-e5ae-471c-a641-5512bcaf7bce
   name: The Castaway
   category: SandWedges

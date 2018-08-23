@@ -1,3 +1,15 @@
+- id: 604a4657-122e-4802-90b1-1b307ff417ce
+  name: Beginner Long Iron
+  category: LongIrons
+  type: Beginner
+  description: >
+    The long iron you're stuck with until you can unlock the Backbone or Grim Reaper.
+  power:     [115]
+  accuracy:  [ 10]
+  topspin:   [  0]
+  backspin:  [  0]
+  curl:      [  5]
+  ballguide: [2.0]
 - id: 4f48ad78-c448-47ca-a5ab-a725f8f7c4de
   name: The Grim Reaper
   category: LongIrons

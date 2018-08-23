@@ -1,3 +1,15 @@
+- id: 6b661fbb-7edc-46e0-8f6a-28f29a20164e
+  name: Beginner Pitcher
+  category: Wedges
+  type: Beginner
+  description: >
+    The wedges you're stuck with until you can unlock the Dart or Firefly.
+  power:     [ 35]
+  accuracy:  [ 10]
+  topspin:   [  0]
+  backspin:  [  0]
+  curl:      [  5]
+  ballguide: [2.0]
 - id: 614617c3-dcce-424b-8fdd-748ff265684b
   name: The Dart
   category: Wedges
