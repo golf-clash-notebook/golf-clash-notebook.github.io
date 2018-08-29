@@ -52,18 +52,18 @@
   height: 15px;
   &.in-selection {
     background-image: none !important;
-    background: lighten(#192a37, 30%);
+    background: lighten(#4caf50, 30%);
   }
 }
 
 .slider-handle {
   background-image: none !important;
-  background: lighten(#192a37, 5%);
+  background: lighten(#4caf50, 5%);
   width: 15px;
   height: 15px;
 }
 
 .slider-selection {
   background-image: none !important;
-  background: lighten(#192a37, 30%);
+  background: lighten(#4caf50, 30%);
 }

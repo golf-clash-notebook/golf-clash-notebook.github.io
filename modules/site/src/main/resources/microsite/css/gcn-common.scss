@@ -71,6 +71,14 @@
   font-size: 150%;
 }
 
+.text-primary-dark {
+  color: darken(#4caf50, 20%);
+}
+
+.text-primary-darker {
+  color: darken(#4caf50, 30%);
+}
+
 .text-black {
   color: #000;
 }
@@ -140,13 +148,17 @@
 /** Common card with thumbnail, title and body. */
 
 .gcn-card {
+
   display: flex;
   flex-direction: column;
   overflow-x: auto;
+  border: 1px solid lighten(#4caf50, 30%);
 
   > {
     .panel-heading {
       position: relative;
+      background-color: lighten(#4caf50, 45%);
+      border: 1px solid lighten(#4caf50, 30%);
 
       > {
         .thumbnail {
@@ -196,6 +208,11 @@
 
     .panel-body {
       flex: 1;
+    }
+
+    .panel-footer {
+      background-color: lighten(#4caf50, 45%);
+      border: 1px solid lighten(#4caf50, 30%);
     }
 
     .table-responsive > table > {

@@ -442,7 +442,6 @@ holes:
               <image xlink:href="/img/golfclash/courses/GokashoBay/annotations/5-Green.png" x="0" y="0" width="200" height="200" />
             </g>
   - id: 607ca95c-57f4-4f6c-9836-3b63d14effff
-    current-tournament: true
     course: Gokasho Bay
     number: 6
     par: 5
@@ -553,7 +552,6 @@ holes:
               <image xlink:href="/img/golfclash/courses/GokashoBay/annotations/6-Green.png" x="0" y="0" width="150" height="150" />
             </g>
   - id: b1d61c9b-c8a0-48e8-904e-cd6cb21fbe56
-    current-tournament: true
     course: Gokasho Bay
     number: 7
     par: 3

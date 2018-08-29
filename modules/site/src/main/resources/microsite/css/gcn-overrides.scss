@@ -6,8 +6,18 @@ html {
 }
 
 body {
-  background-color: #192a37 !important;
+  background-color: #4caf50 !important;
   min-height: 100%;
+}
+
+a {
+    color: #1F4921;
+    text-decoration: none
+}
+
+a:hover,a:focus {
+    color: #173618;
+    text-decoration: underline
 }
 
 .use {
@@ -33,7 +43,8 @@ body {
 }
 
 #site-footer {
-  background-color: #192a37;
+  color: #fff;
+  background-color: #4caf50;
   padding: 15px 0;
   z-index: 2000;
 
@@ -54,7 +65,7 @@ body {
 
   /* TODO: This may be an issue with sbt-microsites */
   // background-size: 15px 14px !important;
-  background: #192a37;
+  background: #4caf50;
 }
 
 .table-responsive {

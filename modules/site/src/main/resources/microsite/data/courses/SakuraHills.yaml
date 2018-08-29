@@ -489,10 +489,10 @@ holes:
       guides:
       - name: Black Path
         text: >
-          Many times you won't be able to get to the second fairway with you drive so put your ball
-          up as close to the rough on top as possible. If you go too short, you'll need to bounce
-          before the rough on your second shot with max left sidespin combined with 4 bars of
-          topspin. Apply a small amount of curl to the left.
+          Many times you won't be able to get to the second fairway with your driver so put your
+          ball up as close to the rough on top as possible. If you go too short, you'll need to
+          bounce before the rough on your second shot with max left sidespin combined with 4 bars
+          of topspin. Apply a small amount of curl to the left.
         levels:
           - name: Rookie
             svg:

@@ -138,9 +138,9 @@ lazy val siteSettings = Seq(
   micrositeHighlightTheme := "atom-one-light",
   micrositeHomepage := "https://www.github.com/golf-clash-notebook/golf-clash-notebook.github.io",
   micrositePalette := Map(
-    "brand-primary"   -> "#192a37",
-    "brand-secondary" -> "#192a37",
-    "brand-tertiary"  -> "#0c171f",
+    "brand-primary"   -> "#4caf50",
+    "brand-secondary" -> "#39833C",
+    "brand-tertiary"  -> "#4caf50",
     "gray-dark"       -> "#49494b",
     "gray"            -> "#7b7b7e",
     "gray-light"      -> "#e5e5e6",
