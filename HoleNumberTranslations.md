@@ -93,6 +93,15 @@ This table addresses [#136](https://github.com/golf-clash-notebook/golf-clash-no
 | ![Map][NamhaeCliffs-7]      | Namhae Cliffs       |        7       |      4C     |
 | ![Map][NamhaeCliffs-8]      | Namhae Cliffs       |        8       |      5B     |
 | ![Map][NamhaeCliffs-9]      | Namhae Cliffs       |        9       |      5C     |
+| ![Map][PorthelloCove-1]     | Porthello Cove      |        1       |       4     |
+| ![Map][PorthelloCove-2]     | Porthello Cove      |        2       |      3B     |
+| ![Map][PorthelloCove-3]     | Porthello Cove      |        3       |      5C     |
+| ![Map][PorthelloCove-4]     | Porthello Cove      |        4       |      4B     |
+| ![Map][PorthelloCove-5]     | Porthello Cove      |        5       |      5B     |
+| ![Map][PorthelloCove-6]     | Porthello Cove      |        6       |       3     |
+| ![Map][PorthelloCove-7]     | Porthello Cove      |        7       |      4C     |
+| ![Map][PorthelloCove-8]     | Porthello Cove      |        8       |      3C     |
+| ![Map][PorthelloCove-9]     | Porthello Cove      |        9       |       5     |
 | ![Map][SakuraHills-1]       | Sakura Hills        |        1       |      3B     |
 | ![Map][SakuraHills-2]       | Sakura Hills        |        2       |      4B     |
 | ![Map][SakuraHills-3]       | Sakura Hills        |        3       |       4     |
@@ -293,6 +302,18 @@ This table addresses [#136](https://github.com/golf-clash-notebook/golf-clash-no
 [NamhaeCliffs-7]: https://github.com/golf-clash-notebook/golf-clash-notebook.github.io/blob/dev/modules/site/src/main/resources/microsite/img/golfclash/courses/NamhaeCliffs/7-thumb.png?raw=true
 [NamhaeCliffs-8]: https://github.com/golf-clash-notebook/golf-clash-notebook.github.io/blob/dev/modules/site/src/main/resources/microsite/img/golfclash/courses/NamhaeCliffs/8-thumb.png?raw=true
 [NamhaeCliffs-9]: https://github.com/golf-clash-notebook/golf-clash-notebook.github.io/blob/dev/modules/site/src/main/resources/microsite/img/golfclash/courses/NamhaeCliffs/9-thumb.png?raw=true
+
+<!--- ############################################################################################################## -->
+
+[PorthelloCove-1]: https://github.com/golf-clash-notebook/golf-clash-notebook.github.io/blob/dev/modules/site/src/main/resources/microsite/img/golfclash/courses/PorthelloCove/1-thumb.png?raw=true
+[PorthelloCove-2]: https://github.com/golf-clash-notebook/golf-clash-notebook.github.io/blob/dev/modules/site/src/main/resources/microsite/img/golfclash/courses/PorthelloCove/2-thumb.png?raw=true
+[PorthelloCove-3]: https://github.com/golf-clash-notebook/golf-clash-notebook.github.io/blob/dev/modules/site/src/main/resources/microsite/img/golfclash/courses/PorthelloCove/3-thumb.png?raw=true
+[PorthelloCove-4]: https://github.com/golf-clash-notebook/golf-clash-notebook.github.io/blob/dev/modules/site/src/main/resources/microsite/img/golfclash/courses/PorthelloCove/4-thumb.png?raw=true
+[PorthelloCove-5]: https://github.com/golf-clash-notebook/golf-clash-notebook.github.io/blob/dev/modules/site/src/main/resources/microsite/img/golfclash/courses/PorthelloCove/5-thumb.png?raw=true
+[PorthelloCove-6]: https://github.com/golf-clash-notebook/golf-clash-notebook.github.io/blob/dev/modules/site/src/main/resources/microsite/img/golfclash/courses/PorthelloCove/6-thumb.png?raw=true
+[PorthelloCove-7]: https://github.com/golf-clash-notebook/golf-clash-notebook.github.io/blob/dev/modules/site/src/main/resources/microsite/img/golfclash/courses/PorthelloCove/7-thumb.png?raw=true
+[PorthelloCove-8]: https://github.com/golf-clash-notebook/golf-clash-notebook.github.io/blob/dev/modules/site/src/main/resources/microsite/img/golfclash/courses/PorthelloCove/8-thumb.png?raw=true
+[PorthelloCove-9]: https://github.com/golf-clash-notebook/golf-clash-notebook.github.io/blob/dev/modules/site/src/main/resources/microsite/img/golfclash/courses/PorthelloCove/9-thumb.png?raw=true
 
 <!--- ############################################################################################################## -->
 
