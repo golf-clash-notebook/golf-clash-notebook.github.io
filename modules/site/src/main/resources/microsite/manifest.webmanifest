@@ -5,7 +5,7 @@
   "start_url": "/",
   "display": "standalone",
   "background_color": "#ffffff",
-  "theme_color": "#192a37",
+  "theme_color": "#4caf50",
   "description": "An Open Source Guide to Mastering Golf Clash.",
   "author": {
     "name": "Golf Clash Notebook Contributors",

@@ -19,7 +19,7 @@ position: 40
   <div class="col-lg-8 col-lg-offset-2 col-sm-12">
 
     <div class="col-md-4 col-sm-6 col-xs-12 text-center">
-      <div class="panel panel-default">
+      <div class="panel panel-default gcn-card">
         <div class="panel-heading">
           <a href="/clubs/drivers/">Drivers</a>
         </div>
@@ -32,7 +32,7 @@ position: 40
     </div>
 
     <div class="col-md-4 col-sm-6 col-xs-12 text-center">
-      <div class="panel panel-default">
+      <div class="panel panel-default gcn-card">
         <div class="panel-heading">
           <a href="/clubs/woods/">Woods</a>
         </div>
@@ -45,7 +45,7 @@ position: 40
     </div>
 
     <div class="col-md-4 col-sm-6 col-xs-12 text-center">
-      <div class="panel panel-default">
+      <div class="panel panel-default gcn-card">
         <div class="panel-heading">
           <a href="/clubs/longirons/">Long Irons</a>
         </div>
@@ -58,7 +58,7 @@ position: 40
     </div>
 
     <div class="col-md-4 col-sm-6 col-xs-12 text-center">
-      <div class="panel panel-default">
+      <div class="panel panel-default gcn-card">
         <div class="panel-heading">
           <a href="/clubs/shortirons/">Short Irons</a>
         </div>
@@ -71,7 +71,7 @@ position: 40
     </div>
 
     <div class="col-md-4 col-sm-6 col-xs-12 text-center">
-      <div class="panel panel-default">
+      <div class="panel panel-default gcn-card">
         <div class="panel-heading">
           <a href="/clubs/wedges/">Wedges</a>
         </div>
@@ -84,7 +84,7 @@ position: 40
     </div>
 
     <div class="col-md-4 col-sm-6 col-xs-12 text-center">
-      <div class="panel panel-default">
+      <div class="panel panel-default gcn-card">
         <div class="panel-heading">
           <a href="/clubs/roughirons/">Rough Irons</a>
         </div>
@@ -97,7 +97,7 @@ position: 40
     </div>
 
     <div class="col-md-4 col-md-offset-4 col-sm-6 col-sm-offset-3 col-xs-12 text-center">
-      <div class="panel panel-default">
+      <div class="panel panel-default gcn-card">
         <div class="panel-heading">
           <a href="/clubs/sandwedges/">Sand Wedges</a>
         </div>

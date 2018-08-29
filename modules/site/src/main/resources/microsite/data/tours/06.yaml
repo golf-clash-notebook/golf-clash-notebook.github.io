@@ -1,10 +1,9 @@
 number: 6
 tour-name: U.S. Champions
 courses:
-  - name: Santa Ventura
+  - name: City Park
   - name: Southern Pines
   - name: Sunshine Glades
-  - name: The Milano
 clubs:
 - name: Big Dawg
 description: >

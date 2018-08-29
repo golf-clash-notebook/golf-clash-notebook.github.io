@@ -40,7 +40,7 @@ position: 30
       {% endcapture %}
 
       <div class="{{ columnClasses | strip }} text-center">
-        <div class="panel panel-default">
+        <div class="panel panel-default gcn-card">
           <div class="panel-heading">
             <a href="/courses/{{ coursePath }}/">
               {{ course.course-name }}
