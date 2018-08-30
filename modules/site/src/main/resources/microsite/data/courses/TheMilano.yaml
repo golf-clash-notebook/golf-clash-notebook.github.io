@@ -407,6 +407,10 @@ holes:
     description: >
       Help Wanted
     resource-creators:
+      - name: Golf Clash Tommy
+        resources:
+        - title: Tour 9 - Guide
+          url: https://youtu.be/3Bu7A1Cr5YM
       - name: Zachary Jones
         resources:
         - title: Tour 9 - Going for the Green with Thor
@@ -451,6 +455,10 @@ holes:
     description: >
       Help Wanted
     resource-creators:
+      - name: Golf Clash Tommy
+        resources:
+        - title: Tour 9 - Guide
+          url: https://youtu.be/IxFNeUoaHZ0
       - name: Zachary Jones
         resources:
         - title: Tour 9 - Apoc Drive
@@ -491,6 +499,10 @@ holes:
     description: >
       Help Wanted
     resource-creators:
+      - name: Golf Clash Tommy
+        resources:
+        - title: Tour 9 - Guide
+          url: https://youtu.be/7WZI2bqcfWY
       - name: Zachary Jones
         resources:
         - title: Tour 9 Shootout - Tailwind Iron Shot Wind Pointed at 11 O`clock
@@ -540,6 +552,10 @@ holes:
     description: >
       Help Wanted
     resource-creators:
+      - name: Golf Clash Tommy
+        resources:
+        - title: Tour 9 - Guide
+          url: https://youtu.be/KvD7juHhvVw
       - name: Zachary Jones
         resources:
         - title: Tour 9 - Tips for the Rough Pitch for Eagle
@@ -581,6 +597,10 @@ holes:
     number: 9
     par: 5
     resource-creators:
+      - name: Golf Clash Tommy
+        resources:
+        - title: Tour 9 - Guide
+          url: https://youtu.be/jePi5sRI-Lk
       - name: Zachary Jones
         resources:
         - title: Tour 9 - Redesigned Techniques and Tips

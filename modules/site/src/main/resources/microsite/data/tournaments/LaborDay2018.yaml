@@ -1,6 +1,14 @@
 tournament-name: Labor Day 2018
 date: '2018-09-03'
 resource-creators:
+  - name: Golf Clash Tommy
+    resources:
+    - title: Rookie Playthrough
+      url: https://youtu.be/ZPitrSoGiWA
+    - title: Rookie Guides
+      url: https://www.youtube.com/watch?v=ZPitrSoGiWA&list=PL8bCSk5yWdFJqvsIo-ebMZNFzp9_AHljG
+    - title: Pro & Expert Guides
+      url: https://www.youtube.com/watch?v=-bM5PVywaIs&list=PL8bCSk5yWdFLDpYI7896pYlUJ8r-sGVGX
 holes:
   - number: 1
     id: e11ff12d-d182-4e81-85b1-a63fa49fe1cc

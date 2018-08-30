@@ -1,6 +1,14 @@
 tournament-name: Summer Major
 date: '2018-08-20'
 resource-creators:
+  - name: Golf Clash Tommy
+    resources:
+    - title: Rookie Playthrough
+      url: https://youtu.be/zINMxC_m_f0
+    - title: Pro & Expert Playthrough
+      url: https://youtu.be/xyne4HTl6m4
+    - title: Club Guide
+      url: https://youtu.be/4XUHwl224vc
 holes:
   - number: 1
     id: d845aaf0-d2a4-4ae6-acb6-d628729dd546
