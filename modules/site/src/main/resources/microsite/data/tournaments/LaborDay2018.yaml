@@ -5,6 +5,8 @@ resource-creators:
     resources:
     - title: Rookie Playthrough
       url: https://youtu.be/ZPitrSoGiWA
+    - title: Pro / Expert Playthrough
+      url: https://youtu.be/sblm_45O_jU
     - title: Rookie Guides
       url: https://www.youtube.com/watch?v=ZPitrSoGiWA&list=PL8bCSk5yWdFJqvsIo-ebMZNFzp9_AHljG
     - title: Pro & Expert Guides
