@@ -409,14 +409,16 @@ holes:
     resource-creators:
       - name: Golf Clash Tommy
         resources:
-        - title: Rookie Guide
+        - title: Rookie Guide - Labor Day (2018)
           url: https://youtu.be/fq0cOh5LW9w
-        - title: Pro / Expert Guide
+        - title: Pro / Expert Guide - Labor Day (2018)
           url: https://youtu.be/ZAcE3gedkGk
         - title: Tour 9 - Guide
           url: https://youtu.be/3Bu7A1Cr5YM
       - name: Zachary Jones
         resources:
+        - title: Labor Day (2018) - Pro
+          url: https://youtu.be/YqCFwYR_3BM
         - title: Tour 9 - Going for the Green with Thor
           url: https://youtu.be/HFxAraBOjTU
         - title: Tour 9 - Eagle Short Iron Pitch Tips
@@ -461,12 +463,16 @@ holes:
     resource-creators:
       - name: Golf Clash Tommy
         resources:
-        - title: Pro / Expert Guide
+        - title: Rookie Guide - Labor Day (2018)
+          url: https://youtu.be/I-XNn01Zhnk
+        - title: Pro / Expert Guide - Labor Day (2018)
           url: https://youtu.be/X2CofpuxqQM
         - title: Tour 9 - Guide
           url: https://youtu.be/IxFNeUoaHZ0
       - name: Zachary Jones
         resources:
+        - title: Labor Day (2018) - Pro
+          url: https://youtu.be/1kNJDRPPnmg
         - title: Tour 9 - Apoc Drive
           url: https://youtu.be/o_tVKlNaIQU
         - title: Tour 9 - Tips for Pointing Target to Lower Elevation
@@ -507,12 +513,16 @@ holes:
     resource-creators:
       - name: Golf Clash Tommy
         resources:
-        - title: Pro / Expert Guide
+        - title: Rookie Guide - Labor Day (2018)
+          url: https://youtu.be/tmyalMBGKFQ
+        - title: Pro / Expert Guide - Labor Day (2018)
           url: https://youtu.be/1aWhgXlWVTE
         - title: Tour 9 - Guide
           url: https://youtu.be/7WZI2bqcfWY
       - name: Zachary Jones
         resources:
+        - title: Labor Day (2018) - Pro
+          url: https://youtu.be/i987Y26dIow
         - title: Tour 9 Shootout - Tailwind Iron Shot Wind Pointed at 11 O`clock
           url: https://youtu.be/Dg9h5HosyaU
         - title: Tour 9 Shootout - Wind Pointed at 2 O`clock

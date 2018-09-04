@@ -183,14 +183,16 @@ holes:
     resource-creators:
       - name: Golf Clash Tommy
         resources:
-        - title: Rookie Guide
+        - title: Rookie Guide - Labor Day (2018)
           url: https://youtu.be/q1PljP-jx0s
-        - title: Pro / Expert Guide
+        - title: Pro / Expert Guide - Labor Day (2018)
           url: https://youtu.be/zCUhzwWxyFU
         - title: Text Guide
           url: https://i.imgur.com/VoMshjC.png
       - name: Zachary Jones
         resources:
+        - title: Labor Day (2018) - Pro
+          url: https://youtu.be/ekfLMcapdJ0
         - title: Tour 7 - Strategy and Tips
           url: https://youtu.be/w414sMi3tmE
         - title: Hollywood - Rookie
@@ -617,14 +619,16 @@ holes:
     resource-creators:
       - name: Golf Clash Tommy
         resources:
-        - title: Rookie Guide
-          url: https://youtu.be/5BHwDbbIz1g
-        - title: Pro / Expert Guide
+        - title: Rookie Guide - Labor Day (2018)
+          url: https://youtu.be/gm538eAw4YM
+        - title: Pro / Expert Guide - Labor Day (2018)
           url: https://youtu.be/c_Us9oFVBJA
         - title: Text Guide
           url: https://i.imgur.com/aYBrzfN.png
       - name: Zachary Jones
         resources:
+        - title: Labor Day (2018) - Pro
+          url: https://youtu.be/8i1H6EdbtZk
         - title: Tour 7 - Wind Pointed at 10 O`clock
           url: https://youtu.be/dd7g1po4BhY
         - title: Hollywood - Rookie
@@ -716,14 +720,16 @@ holes:
     resource-creators:
       - name: Golf Clash Tommy
         resources:
-        - title: Rookie Guide
-          url: https://youtu.be/3mU5B89bCrg
-        - title: Pro / Expert Guide
+        - title: Rookie Guide - Labor Day (2018)
+          url: https://youtu.be/5NrN44x_zBo
+        - title: Pro / Expert Guide - Labor Day (2018)
           url: https://youtu.be/CgI-j6XS2vI
         - title: Text Guide
           url: https://i.imgur.com/tsWwOzF.png
       - name: Zachary Jones
         resources:
+        - title: Labor Day (2018) - Pro
+          url: https://youtu.be/m-AEUYItGUg
         - title: Hollywood - Rookie
           url: https://youtu.be/qGlFHpFKomU
         - title: Hollywood - Pro
