@@ -12,7 +12,7 @@ position: 0
 
     {% if site.data.motd.message != undefined %}
       <div class="alert alert-warning text-center" role="alert">
-        <strong>{{ site.data.motd.message }}</strong>
+        {{ site.data.motd.message }}
       </div>
     {% endif %}
 

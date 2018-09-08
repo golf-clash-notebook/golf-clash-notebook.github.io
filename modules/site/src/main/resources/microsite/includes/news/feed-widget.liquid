@@ -20,9 +20,11 @@
     <div class="list-group">
       <div class="list-group-item" style="display: flex; align-items: center; justify-content: space-between;">
         Recent News
+        {% comment %}
         <a href="https://play.google.com/store/apps/details?id=org.golfclash.notebook" target="_blank" rel="noopener">
           <img alt="Android app on Google Play" src="https://developer.android.com/images/brand/en_app_rgb_wo_45.png" style="height: 40px;" />
         </a>
+        {% endcomment %}
       </div>
       {% for newsKey in newsKeyArray limit: 3 %}
         {% assign newsItem = site.data.news[newsKey] %}
