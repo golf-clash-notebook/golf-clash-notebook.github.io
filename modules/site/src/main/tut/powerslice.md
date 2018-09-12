@@ -67,12 +67,12 @@ position: 72
       Nathan Taylor has also done some incredible work on finding accurate ring adjustments for
       power hooks/slices. He has an <a href="https://www.facebook.com/groups/golfclashelite/permalink/1884913214860458/" target="_blank" rel="noopener">in depth post about his adjustment figures</a>. Here are a few links to his charts:
       <ul>
-        <li><a href="https://scontent.fzty1-1.fna.fbcdn.net/v/t1.0-9/30688774_10216600959524881_2411520503438114816_n.jpg?_nc_cat=0&oh=b935c454c3e845bf75c743455f0f34c8&oe=5B921F66" target="_blank" rel="noopener">Drivers</a></li>
-        <li><a href="https://scontent.fzty1-1.fna.fbcdn.net/v/t1.0-9/30652974_10216600959204873_5473254679888527360_n.jpg?_nc_cat=0&oh=6d419b3679073a8b35a67a4e2682c87a&oe=5B96B5B2" target="_blank" rel="noopener">Woods</a></li>
-        <li><a href="https://scontent.fzty1-1.fna.fbcdn.net/v/t1.0-9/30624559_10216600959484880_4961208975212150784_n.jpg?_nc_cat=0&oh=02b9d98d2cb5139681cdff6d47208f8c&oe=5B762993" target="_blank" rel="noopener">Long Irons</a></li>
-        <li><a href="https://scontent.fzty1-1.fna.fbcdn.net/v/t1.0-9/30656871_10216600959564882_4386773772435193856_n.jpg?_nc_cat=0&oh=692abafbedc6e4f52e5e7ef2252320e3&oe=5B81F02C" target="_blank" rel="noopener">Short Irons</a></li>
-        <li><a href="https://scontent.fzty1-1.fna.fbcdn.net/v/t1.0-9/30623697_10216600959444879_1937950760771780608_n.jpg?_nc_cat=0&oh=aeaf78bf1a282caeaf585b0a6ee92f18&oe=5B8F0B79" target="_blank" rel="noopener">Rough Irons</a></li>
-        <li><a href="https://scontent.fzty1-1.fna.fbcdn.net/v/t1.0-9/30629570_10216600959244874_1275727006285168640_n.jpg?_nc_cat=0&oh=eb1728f6a9b47b2aeb7a121d88b5f456&oe=5BC06128" target="_blank" rel="noopener">Sand Wedges</a></li>
+        <li><a href="/img/golfclash/hookslice/hook-slice-drivers.jpg" target="_blank" rel="noopener">Drivers</a></li>
+        <li><a href="/img/golfclash/hookslice/hook-slice-woods.jpg" target="_blank" rel="noopener">Woods</a></li>
+        <li><a href="/img/golfclash/hookslice/hook-slice-long-irons.jpg" target="_blank" rel="noopener">Long Irons</a></li>
+        <li><a href="/img/golfclash/hookslice/hook-slice-short-irons.jpg" target="_blank" rel="noopener">Short Irons</a></li>
+        <li><a href="/img/golfclash/hookslice/hook-slice-rough-irons.jpg" target="_blank" rel="noopener">Rough Irons</a></li>
+        <li><a href="/img/golfclash/hookslice/hook-slice-sand-wedges.jpg" target="_blank" rel="noopener">Sand Wedges</a></li>
       </ul>
     </p>
   </div>

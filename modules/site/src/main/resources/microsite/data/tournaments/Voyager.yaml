@@ -1,0 +1,22 @@
+tournament-name: Voyager
+date: '2018-09-17'
+resource-creators:
+holes:
+  - number: 1
+    id: a427fbaf-3e27-411a-8a51-3a5bd53e2605
+  - number: 2
+    id: 78852573-8b79-49e7-999a-e7a20b220baf
+  - number: 3
+    id: 55ec9b30-4c36-4d8a-9a19-d759c4131d6c
+  - number: 4
+    id: 712d5ce0-7104-4c8b-a1dc-ce2a4e00d65c
+  - number: 5
+    id: 06c3aa56-5bd2-45dc-bb0f-37985aff93ad
+  - number: 6
+    id: f30c2f43-c8dc-4762-bc7b-77b6d196d0e2
+  - number: 7
+    id: be8071a9-f4a3-4dcf-aaba-b3adf94fdafa
+  - number: 8
+    id: 1083f47b-b2a8-4dde-bfa2-0ea3b2a32073
+  - number: 9
+    id: f9a598d5-e52b-476c-8e38-a8cb4bd7f76e
