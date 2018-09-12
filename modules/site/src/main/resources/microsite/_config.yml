@@ -476,5 +476,13 @@ page_gen:
     name: 'number'
     dir: 'tournaments/LaborDay2018'
     extra:
-      title-prefix: 'LaborDay 2018 Tournament - Hole '
-      tournament-name: 'LaborDay 2018'
+      title-prefix: 'Labor Day 2018 Tournament - Hole '
+      tournament-name: 'Labor Day 2018'
+  - index_files: true
+    data: 'tournaments.Voyager.holes'
+    template: '_includes/tournaments/hole-template.liquid'
+    name: 'number'
+    dir: 'tournaments/Voyager'
+    extra:
+      title-prefix: 'Voyager Tournament - Hole '
+      tournament-name: 'Voyager'
