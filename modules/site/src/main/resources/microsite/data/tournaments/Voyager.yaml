@@ -1,6 +1,10 @@
 tournament-name: Voyager
 date: '2018-09-17'
 resource-creators:
+  - name: Golf Clash Tommy
+    resources:
+    - title: Rookie Playthrough
+      url: https://youtu.be/rebYQzDP7DI
 holes:
   - number: 1
     id: a427fbaf-3e27-411a-8a51-3a5bd53e2605

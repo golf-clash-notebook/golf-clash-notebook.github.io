@@ -32,6 +32,11 @@ holes:
     par: 3
     description: >
       Help Wanted
+    resource-creators:
+      - name: Golf Clash Tommy
+        resources:
+        - title: Voyager - Rookie
+          url: https://youtu.be/PqfN5gZEdN8
     aliases:
       - 4e7a6bb4-16ca-40c6-8ea3-ba80f2dbcd86
   - id: 712d5ce0-7104-4c8b-a1dc-ce2a4e00d65c
@@ -41,6 +46,11 @@ holes:
     par: 4
     description: >
       Help Wanted
+    resource-creators:
+      - name: Golf Clash Tommy
+        resources:
+        - title: Voyager - Rookie
+          url: https://youtu.be/epJljJonCho
     aliases:
       - c3afd005-7b62-42d9-b262-134085af7f25
   - id: a35bb713-65a2-4518-8542-c7e93236b5b6
@@ -74,5 +84,10 @@ holes:
     par: 5
     description: >
       Help Wanted
+    resource-creators:
+      - name: Golf Clash Tommy
+        resources:
+        - title: Voyager - Rookie
+          url: https://youtu.be/ZdMiA53AAWA
     aliases:
       - 02e3949a-abdb-41b1-b6f0-87e28045c307
