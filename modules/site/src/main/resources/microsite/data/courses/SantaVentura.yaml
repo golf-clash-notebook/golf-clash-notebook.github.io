@@ -283,6 +283,8 @@ holes:
     resource-creators:
       - name: Golf Clash Tommy
         resources:
+        - title: Voyager - Rookie
+          url: https://youtu.be/Wi0GOCQs0c8
         - title: Pro / Expert Guide
           url: https://youtu.be/cg7o3FuiC78
         - title: Text Guide
@@ -378,6 +380,8 @@ holes:
     resource-creators:
       - name: Golf Clash Tommy
         resources:
+        - title: Voyager - Rookie
+          url: https://youtu.be/7O-TT05OP-4
         - title: Rookie Guide
           url: https://youtu.be/YQjoqiuQaiw
         - title: Pro / Expert Guide
@@ -487,6 +491,8 @@ holes:
     resource-creators:
       - name: Golf Clash Tommy
         resources:
+        - title: Voyager - Rookie
+          url: https://youtu.be/NxJ6XRnwO1M
         - title: Rookie Guide
           url: https://youtu.be/SnH56CI2YEM
         - title: Pro / Expert Guide
