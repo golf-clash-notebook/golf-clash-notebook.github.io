@@ -5,6 +5,8 @@ resource-creators:
     resources:
     - title: Rookie Playthrough
       url: https://youtu.be/rebYQzDP7DI
+    - title: Pro/Expert Playthrough
+      url: https://youtu.be/bgtiA_pjKpE
 holes:
   - number: 1
     id: a427fbaf-3e27-411a-8a51-3a5bd53e2605

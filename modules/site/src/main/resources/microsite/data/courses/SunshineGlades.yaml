@@ -25,6 +25,8 @@ holes:
         resources:
         - title: Voyager - Rookie
           url: https://youtu.be/kw5YRVS-laY
+        - title: Voyager - Pro / Expert
+          url: https://youtu.be/fX4oZJYCxVo
         - title: Rookie Guide
           url: https://youtu.be/UWyVeEEnBWs
         - title: Pro / Expert Guide
@@ -121,6 +123,8 @@ holes:
         resources:
         - title: Voyager - Rookie
           url: https://youtu.be/cuaVpyOQc68
+        - title: Voyager - Pro / Expert
+          url: https://youtu.be/CZIOTAQTgpk
         - title: Pro / Expert Guide
           url: https://youtu.be/Y2K1-fpwLmQ
       - name: Zachary Jones
@@ -303,8 +307,10 @@ holes:
     resource-creators:
       - name: Golf Clash Tommy
         resources:
-        - title: Rookie Guide - Voyager Tournament
+        - title: Voyager - Rookie
           url: https://youtu.be/gCN5au_Aq6U
+        - title: Voyager - Pro / Expert
+          url: https://youtu.be/f-ojIPXHMPE
         - title: Rookie Guide
           url: https://youtu.be/PPRTrJyIX1E
       - name: Zachary Jones
