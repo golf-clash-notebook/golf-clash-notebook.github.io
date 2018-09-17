@@ -48,7 +48,10 @@ object wind {
   }
 
   def windPerRing(club: Club, level: Int, power: Double): Double = {
-    (1d + ((100d - club.accuracy(level - 1)) * 0.02)) * windCategoryMultiplier(club.clubCategory) / power
+    (1d + ((100d - club.accuracy(level - 1)) * 0.02)) * windCategoryMultiplier(club.clubCategory) / power * ruleBasedCorrection(
+      club,
+      level
+    )
   }
 
   // Loosely related to ball trajectory, lie properties...a.k.a SWAG
@@ -91,6 +94,14 @@ object wind {
       case Some(Club.Category.RoughIrons) => maxPower(club, level, mode) / 4
       case Some(Club.Category.SandWedges) => maxPower(club, level, mode) / 4
       case None                           => 0.75 * mode.powerCoefficient
+    }
+  }
+
+  def ruleBasedCorrection(club: Club, level: Int): Double = {
+    if (club.name.toLowerCase().contains("b52") && level >= 5) {
+      0.83;
+    } else {
+      1.0;
     }
   }
 }

@@ -32,11 +32,11 @@ position: 70
 
   <div class="col-md-4 col-md-offset-0 col-xs-8 col-xs-offset-2 text-center col-flex" data-mh="tool-card">
     <div class="site-feature-card text-center">
-      <h4>Shot Overpower Simulator</h4>
+      <h4>Overpower Simulator</h4>
       <p class="feature-description text-small text-semi-muted">
         Use this tool to recreate shots using different clubs and balls!
       </p>
-      <a href="/tools/overpower/" class="btn btn-primary feature-link" role="button">Shot Overpower Simulator</a>
+      <a href="/tools/overpower/" class="btn btn-primary feature-link" role="button">Overpower Simulator</a>
     </div>
   </div>
 
