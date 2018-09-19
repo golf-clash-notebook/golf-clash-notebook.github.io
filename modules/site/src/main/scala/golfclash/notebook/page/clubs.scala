@@ -342,7 +342,7 @@ object clubs {
   }
 
   def formatWindRingText(wind: Double): String = {
-    f"$wind%.2f"
+    f"$wind%.1f"
   }
 
 }

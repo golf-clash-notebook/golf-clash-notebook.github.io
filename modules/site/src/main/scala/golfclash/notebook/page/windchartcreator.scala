@@ -385,7 +385,7 @@ object windchartcreator {
                         val subColumnCenterX = columnCenterX - (clubColumnWidth / 6) + (subColumn * clubColumnWidth / 3)
 
                         pdf.text(
-                          f"${windPerRingValue * (ringNum + 1)}%.2f",
+                          f"${windPerRingValue * (ringNum + 1)}%.1f",
                           subColumnCenterX,
                           chartY + (ringNum * ringRowHeight) + ringRowTextYOffset - (subColumn * (ringRowHeight * RingColors.size)),
                           "center"
