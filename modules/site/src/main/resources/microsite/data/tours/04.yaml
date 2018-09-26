@@ -3,20 +3,17 @@ tour-name: 6 Star Hotel
 courses:
   - name: Glenmonarch Estate
   - name: The Milano
-  - name: The Oasis
 description: >
   Help Wanted
 resources:
   - title: Golf Clash Tommy - Tour 4 Guides
     url: https://www.youtube.com/watch?v=8iDrg_KtfNk&list=PL8bCSk5yWdFITXHXYjnDlXGNRcEEA_ppP
-  - title: Golf Clash Tommy - Road To Glory - Episode 2
-    url: https://youtu.be/0Fdl4pi8ick?t=1h32m20s
-  - title: Golf Clash Tommy - Road To Glory - Episode 3 Part 1
-    url: https://youtu.be/mVhEIHrUJWI
-  - title: Golf Clash Tommy - Road To Glory - Episode 3 Part 2
-    url: https://youtu.be/_7ggb6d22Ts
-  - title: Golf Clash Tommy - Road To Glory - Episode 4
-    url: https://youtu.be/oSF6co1-_vw
+clan-points: 4
+tee-position: Front
+wind-min: 1
+wind-max: 7
+needle-speed: 6
+spin: Visible
 entry-fee: 3000
 max-trophies: 200
 trophies-per-win: 12

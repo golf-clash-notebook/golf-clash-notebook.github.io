@@ -1,20 +1,20 @@
 number: 10
-tour-name: World Links Pro Series
+tour-name: Club Oceania
 courses:
-  - name: Greenoch Point
-  - name: Juniper Point
+  - name: Gokasho Bay
   - name: Namhae Cliffs
+  - name: The Oasis
 description: >
   Help Wanted
 resources:
-  - title: Zachary Jones - Stream with Thors Hammer 6
-    url: https://youtu.be/XLtRCnrs9FM
-  - title: Zachary Jones - Stream with Quarterback 10
-    url: https://youtu.be/HGTKzswDQAI
   - title: Golf Clash Tommy - Tour 10 Guides
     url: https://www.youtube.com/watch?v=7uqEmPCO5Uk&list=PL8bCSk5yWdFKqA3ZQSi33HCFsvumo1SuX
-  - title: Zachary Jones - Tour 10 Wind Guide and Tips
-    url: https://youtu.be/o_P5bqoszqQ
+clan-points: 20
+tee-position: Middle
+wind-min: 8
+wind-max: 18
+needle-speed: 50
+spin: Hidden
 entry-fee: 3000000
 max-trophies: 900
 trophies-per-win: 30

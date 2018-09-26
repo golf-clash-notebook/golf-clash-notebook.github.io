@@ -2,25 +2,20 @@ number: 6
 tour-name: U.S. Champions
 courses:
   - name: City Park
+  - name: Juniper Point
   - name: Southern Pines
-  - name: Sunshine Glades
 clubs:
-- name: Big Dawg
 description: >
   Help Wanted
 resources:
   - title: Golf Clash Tommy - Tour 6 Guides
     url: https://www.youtube.com/watch?v=wFJOigxa9JA&list=PL8bCSk5yWdFIpWGLvTTSVPNCBLZU26Cwg
-  - title: Golf Clash Tommy - Road To Glory - Episode 5
-    url: https://youtu.be/a3LBqcfFaug?t=1h8m59s
-  - title: Golf Clash Tommy - Road To Glory - Episode 6
-    url: https://youtu.be/oLv2MQbYgvA
-  - title: Golf Clash Tommy - Road To Glory - Episode 7
-    url: https://youtu.be/8W7fCzagqWs
-  - title: Golf Clash Tommy - Road To Glory - Episode 8
-    url: https://youtu.be/sgI7zfH7k1g
-  - title: Golf Clash Tommy - Road To Glory - Episode 9
-    url: https://youtu.be/bEjuNogGD0Q
+clan-points: 8
+tee-position: Front
+wind-min: 1
+wind-max: 12
+needle-speed: 15
+spin: Hidden
 entry-fee: 30000
 max-trophies: 500
 trophies-per-win: 18

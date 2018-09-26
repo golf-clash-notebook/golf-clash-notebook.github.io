@@ -1,26 +1,20 @@
 number: 8
-tour-name: Asia Pacific Pro Series
+tour-name: Mountain Tour
 courses:
-  - name: Gokasho Bay
-  - name: Namhae Cliffs
+  - name: Glenmonarch Estate
   - name: Sakura Hills
+  - name: Vineyard Acres
 description: >
   Help Wanted
 resources:
-  - title: Zachary Jones - Bag and Ball Selections for Tour 8 Success
-    url: https://youtu.be/F2MwOnzWbuI
   - title: Golf Clash Tommy - Tour 8 Guides
     url: https://www.youtube.com/watch?v=J8IBSmJ3Bb8&list=PL8bCSk5yWdFL6lKb3eO_pampUD39Hojcc
-  - title: Golf Clash Tommy - Road To Glory - Episode 12
-    url: https://youtu.be/N2w8hbImpB4?t=33m29s
-  - title: Golf Clash Tommy - Road To Glory - Episode 13
-    url: https://youtu.be/1YJxIFxtM5Y
-  - title: Golf Clash Tommy - Road To Glory - Episode 14
-    url: https://youtu.be/JkdPnSLqmZs
-  - title: Cam Alvesteffer - Tour 8 Guest Account
-    url: https://youtu.be/bce2GK6xmEI
-  - title: Zachary Jones - Tour 8 Wind Guide and Tips
-    url: https://youtu.be/yM7StFhWUW8
+clan-points: 13
+tee-position: Middle
+wind-min: 4
+wind-max: 14
+needle-speed: 30
+spin: Hidden
 entry-fee: 300000
 max-trophies: 700
 trophies-per-win: 22
