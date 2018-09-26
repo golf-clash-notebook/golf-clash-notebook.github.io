@@ -2,7 +2,6 @@ course-name: Sunshine Glades
 skinned: false
 holes:
   - id: f30c2f43-c8dc-4762-bc7b-77b6d196d0e2
-    current-tournament: true
     course: Sunshine Glades
     number: 1
     par: 3
@@ -35,6 +34,8 @@ holes:
           url: https://i.imgur.com/QmOmLTe.png
       - name: Zachary Jones
         resources:
+        - title: Tour 11 - Wind Pointed at 9 O`clock
+          url: https://youtu.be/j07lSX5qq2w
         - title: Voyager - Rookie
           url: https://youtu.be/njyHG6Mk7Wc
         - title: Voyager - Rookie
@@ -119,7 +120,6 @@ holes:
               <circle cx="267" cy="883" r="6" fill="black" class="guide-point" data-guide-segment="0" />
               <circle cx="197" cy="248" r="6" fill="black" class="guide-point" data-guide-segment="1" />
   - id: 78852573-8b79-49e7-999a-e7a20b220baf
-    current-tournament: true
     course: Sunshine Glades
     number: 2
     par: 4
@@ -147,6 +147,8 @@ holes:
           url: https://youtu.be/Y2K1-fpwLmQ
       - name: Zachary Jones
         resources:
+        - title: Tour 11 - Strategy and Tips
+          url: https://youtu.be/M6KGEeYZQ8g
         - title: Voyager - Rookie
           url: https://youtu.be/IN2VegUflWk
         - title: Voyager - Rookie
@@ -217,6 +219,8 @@ holes:
           # url: https://youtu.be/uAorNoFskVY
       - name: Zachary Jones
         resources:
+        - title: Tour 11 - Strategy and Tips
+          url: https://youtu.be/BlJ3ALKE98s
         - title: Rookie
           url: https://youtu.be/NFNEYJKiXJE
         - title: Pro / Expert
@@ -327,7 +331,6 @@ holes:
               <circle cx="470" cy="372" r="6" fill="blue" class="guide-point" data-guide-segment="1" />
               <circle cx="394" cy="137" r="6" fill="blue" class="guide-point" data-guide-segment="2" />
   - id: a427fbaf-3e27-411a-8a51-3a5bd53e2605
-    current-tournament: true
     course: Sunshine Glades
     number: 4
     par: 5
@@ -355,6 +358,8 @@ holes:
           url: https://youtu.be/PPRTrJyIX1E
       - name: Zachary Jones
         resources:
+        - title: Tour 11 - Strategy and Tips
+          url: https://youtu.be/AGmkHFT0nYU
         - title: Voyager - Rookie
           url: https://youtu.be/ybK0_zUNruc
         - title: Voyager - Rookie

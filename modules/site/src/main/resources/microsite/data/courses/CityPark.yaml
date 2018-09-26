@@ -7,6 +7,11 @@ holes:
     par: 3
     description: >
       Help Wanted
+    resource-creators:
+      - name: Zachary Jones
+        resources:
+        - title: Tour 11 - Wind Pointed at 530
+          url: https://youtu.be/1-yIvglemoU
     aliases:
       - 2cb5ab94-1384-4df1-8de6-f8a85b40b9f9
   - id: 16fb8928-e633-4973-b861-ab45323ebcdf
@@ -15,6 +20,11 @@ holes:
     par: 4
     description: >
       Help Wanted
+    resource-creators:
+      - name: Zachary Jones
+        resources:
+        - title: Tour 11 - Strategy and Tips
+          url: https://youtu.be/RPiLuBFJas4
     aliases:
       - 59c09a8a-33b2-4870-8483-3e3d45eab4ba
   - id: 42b1a784-4b07-48c0-af08-0adb081a5d1d
@@ -26,7 +36,6 @@ holes:
     aliases:
       - 2bde31cb-61bf-421b-9031-409a396ddd3b
   - id: 55ec9b30-4c36-4d8a-9a19-d759c4131d6c
-    current-tournament: true
     course: City Park
     number: 4
     par: 3
@@ -41,6 +50,8 @@ holes:
           url: https://youtu.be/Jhy7oLJ0DJE
       - name: Zachary Jones
         resources:
+        - title: Tour 11 - Headwind Pointed at 730
+          url: https://youtu.be/zqbUXkQZ0Fk
         - title: Voyager - Rookie
           url: https://youtu.be/E3DrhcEajdQ
         - title: Voyager - Rookie
@@ -66,7 +77,6 @@ holes:
     aliases:
       - 4e7a6bb4-16ca-40c6-8ea3-ba80f2dbcd86
   - id: 712d5ce0-7104-4c8b-a1dc-ce2a4e00d65c
-    current-tournament: true
     course: City Park
     number: 5
     par: 4
@@ -81,6 +91,8 @@ holes:
           url: https://youtu.be/8nuiOkE-YbQ
       - name: Zachary Jones
         resources:
+        - title: Tour 11 - Advice and tips
+          url: https://youtu.be/BeFqeQKsYKo
         - title: Voyager - Rookie
           url: https://youtu.be/AQ44fLr3LOo
         - title: Voyager - Rookie
@@ -111,6 +123,11 @@ holes:
     par: 5
     description: >
       Help Wanted
+    resource-creators:
+      - name: Zachary Jones
+        resources:
+        - title: Tour 11 - Strategy and Tips
+          url: https://youtu.be/dS8iq_jhXdg
     aliases:
       - 773e7eeb-3125-4ce4-a95a-d56321392b51
   - id: 8db73e0a-7925-46f1-8a20-dd302888e159
@@ -127,10 +144,16 @@ holes:
     par: 3
     description: >
       Help Wanted
+    resource-creators:
+      - name: Zachary Jones
+        resources:
+        - title: Tour 11 - Left to right wind pointed at 2 O`clock
+          url: https://youtu.be/4Nfu7Y9b6Uw
+        - title: Tour 11 - Wind pointed at 1030
+          url: https://youtu.be/psfHVin7KuM
     aliases:
       - af4e56bd-11c9-481b-ab5a-3e83c1def286
   - id: 06c3aa56-5bd2-45dc-bb0f-37985aff93ad
-    current-tournament: true
     course: City Park
     number: 9
     par: 5
@@ -145,6 +168,8 @@ holes:
           url: https://youtu.be/F-4XfnI8xCY
       - name: Zachary Jones
         resources:
+        - title: Tour 11 - Strategy and Tips
+          url: https://youtu.be/xWhUUovk-6E
         - title: Voyager - Rookie
           url: https://youtu.be/v9_hsiUWL_c
         - title: Voyager - Rookie

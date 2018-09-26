@@ -31,6 +31,8 @@ holes:
           url: https://i.imgur.com/fXc3VqQ.png
       - name: Zachary Jones
         resources:
+        - title: Tour 11 - Tips and Strategies
+          url: https://youtu.be/4-4tSxwqFuY
         - title: Tour 7 - Tips and Strategy
           url: https://youtu.be/LHGFQYunjFA
         - title: Hollywood - Rookie
@@ -127,6 +129,8 @@ holes:
           url: https://i.imgur.com/jl0Wrea.png
       - name: Zachary Jones
         resources:
+        - title: Tour 11 Shootout - Wind Pointed at 10 O`clock
+          url: https://youtu.be/AVeUhlzFVMY
         - title: Tour 7 Shootout - Downwind Pointed at 130
           url: https://youtu.be/SEzn3pR8_ks
         - title: Hollywood - Rookie
@@ -190,6 +194,8 @@ holes:
           url: https://i.imgur.com/VoMshjC.png
       - name: Zachary Jones
         resources:
+        - title: Tour 11 - Strategy and Tips
+          url: https://youtu.be/m-Nz-E0Cx7M
         - title: Labor Day (2018) - Pro
           url: https://youtu.be/ekfLMcapdJ0
         - title: Tour 7 - Strategy and Tips
@@ -262,7 +268,6 @@ holes:
               <circle cx="205" cy="305" r="6" fill="white" class="guide-point" data-guide-segment="1" />
               <circle cx="174" cy="119" r="6" fill="white" class="guide-point" data-guide-segment="2" />
   - id: 1083f47b-b2a8-4dde-bfa2-0ea3b2a32073
-    current-tournament: true
     course: Santa Ventura
     number: 4
     par: 3
@@ -293,6 +298,8 @@ holes:
           url: https://i.imgur.com/5scCV9H.png
       - name: Zachary Jones
         resources:
+        - title: Tour 11 - Wind Pointed at 730
+          url: https://youtu.be/bmJKQ47cW28
         - title: Voyager - Rookie
           url: https://youtu.be/1-O0P1Ko1Z4
         - title: Voyager - Rookie
@@ -383,7 +390,6 @@ holes:
               <circle cx="186" cy="245" r="6" fill="white" class="guide-point" data-guide-segment="1" />
               <circle cx="188" cy="203" r="6" fill="white" class="guide-point" data-guide-segment="2" />
   - id: f9a598d5-e52b-476c-8e38-a8cb4bd7f76e
-    current-tournament: true
     course: Santa Ventura
     number: 5
     par: 5
@@ -416,6 +422,8 @@ holes:
           url: https://i.imgur.com/jGihJIl.png
       - name: Zachary Jones
         resources:
+        - title: Tour 11 - Strategy and Tips
+          url: https://youtu.be/G2Aecc5OP-8
         - title: Voyager - Rookie
           url: https://youtu.be/3YSMGtPyt4w
         - title: Voyager - Rookie
@@ -518,7 +526,6 @@ holes:
               <circle cx="343" cy="459" r="6" fill="white" class="guide-point" data-guide-segment="1" />
               <circle cx="204" cy="139" r="6" fill="white" class="guide-point" data-guide-segment="2" />
   - id: be8071a9-f4a3-4dcf-aaba-b3adf94fdafa
-    current-tournament: true
     course: Santa Ventura
     number: 6
     par: 4
@@ -551,6 +558,8 @@ holes:
           url: https://i.imgur.com/P3N6ONS.png
       - name: Zachary Jones
         resources:
+        - title: Tour 11 - Strategy and Tips
+          url: https://youtu.be/DMvEUQipR9Q
         - title: Voyager - Rookie
           url: https://youtu.be/GFErHxZZYvc
         - title: Voyager - Rookie
@@ -706,6 +715,8 @@ holes:
           url: https://i.imgur.com/aYBrzfN.png
       - name: Zachary Jones
         resources:
+        - title: Tour 11 - Wind Pointed at 10 O`clock
+          url: https://youtu.be/NTeACNr9S9o
         - title: Labor Day (2018) - Pro
           url: https://youtu.be/8i1H6EdbtZk
         - title: Tour 7 - Wind Pointed at 10 O`clock
@@ -806,6 +817,8 @@ holes:
           url: https://i.imgur.com/tsWwOzF.png
       - name: Zachary Jones
         resources:
+        - title: Tour 11 - Strategy and Tips
+          url: https://youtu.be/5WqYcfRpC70
         - title: Labor Day (2018) - Pro
           url: https://youtu.be/m-AEUYItGUg
         - title: Hollywood - Rookie
@@ -931,6 +944,8 @@ holes:
           url: https://i.imgur.com/dTyfGPL.png
       - name: Zachary Jones
         resources:
+        - title: Tour 11 - Strategy and Tips
+          url: https://youtu.be/VQpdd_qWjgk
         - title: Hollywood - Rookie
           url: https://youtu.be/lonRHlEz_o8
         - title: Hollywood - Pro
