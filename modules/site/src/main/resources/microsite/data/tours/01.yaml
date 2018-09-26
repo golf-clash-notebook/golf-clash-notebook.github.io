@@ -5,8 +5,12 @@ courses:
 description: >
   Help Wanted
 resources:
-  - title: Golf Clash Tommy - Road To Glory - Episode 1
-    url: https://youtu.be/wvaxcAZ5rz4
+clan-points: 1
+tee-position: Front
+wind-min: 1
+wind-max: 2
+needle-speed: 0
+spin: Visible
 entry-fee: 50
 max-trophies: 20
 trophies-per-win: 3

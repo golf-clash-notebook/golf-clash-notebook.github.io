@@ -1,20 +1,20 @@
 number: 9
-tour-name: 6 Star Hotel Pro Series
+tour-name: Platinum Resorts
 courses:
-  - name: Glenmonarch Estate
+  - name: Greenoch Point
   - name: The Milano
-  - name: The Oasis
+  - name: Southern Pines
 description: >
   Help Wanted
 resources:
-  - title: Zachary Jones - Stream with Thors Hammer 6
-    url: https://youtu.be/dKHA_iYyRzI
-  - title: Zachary Jones - Stream with Rock 8
-    url: https://youtu.be/qKsx892VHfc
   - title: Golf Clash Tommy - Tour 9 Guides
     url: https://www.youtube.com/watch?v=HsHv0ff1XLw&list=PL8bCSk5yWdFJ98JEODtzy1dQSRGohp3u6
-  - title: Zachary Jones - Tour 9 Wind Guide and Tips
-    url: https://youtu.be/j1XAKLI9WZs
+clan-points: 16
+tee-position: Middle
+wind-min: 6
+wind-max: 16
+needle-speed: 40
+spin: Hidden
 entry-fee: 1000000
 max-trophies: 900
 trophies-per-win: 25

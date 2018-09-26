@@ -1,16 +1,20 @@
 number: 11
-tour-name: U.S. Champions Pro Series
+tour-name: Voyager Tour
 courses:
   - name: City Park
-  - name: Southern Pines
+  - name: Santa Ventura
   - name: Sunshine Glades
 description: >
   Help Wanted
 resources:
-  - title: Zachary Jones - Tour 11 Advanced Wind Discussion and Shot Advice
-    url: https://youtu.be/SQOnUehCn6k
   - title: Golf Clash Tommy - Tour 11 Guides
     url: https://www.youtube.com/watch?v=-UH9ZYMr9a8&list=PL8bCSk5yWdFIBrU1zqwNSidZHCmS5UOpu
+clan-points: 24
+tee-position: Rear
+wind-min: 10
+wind-max: 20
+needle-speed: 60
+spin: Hidden
 entry-fee: 10000000
 max-trophies: 1000
 trophies-per-win: 38
