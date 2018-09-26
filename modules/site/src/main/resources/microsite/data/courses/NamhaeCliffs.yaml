@@ -29,10 +29,6 @@ holes:
           url: https://youtu.be/D4UBnLSsOVI
         - title: Text Guide
           url: https://i.imgur.com/vbCJGq9.png
-      # - title: Text Guide
-      #   url: https://i.imgur.com/20UTitp.jpg
-      # - title: Pro / Expert Guide
-        # url: https://youtu.be/eGn08aahpbA
       - name: Zachary Jones
         resources:
         - title: Tour 10 Shootout - Tailwind Pointed at 11 O`clock
@@ -122,6 +118,8 @@ holes:
           url: https://i.imgur.com/UiDVN1z.jpg
       - name: Zachary Jones
         resources:
+        - title: Tour 10 - Strategy and Tips
+          url: https://youtu.be/lSsyIJA5kUU
         - title: Tour 10 - Hard Sidewind Tips and Tricks for Going at the Green
           url: https://youtu.be/30l2DWZVKyM
     aliases:
@@ -212,10 +210,6 @@ holes:
           url: https://youtu.be/Y4QYL1QApeU
         - title: Text Guide
           url: https://i.imgur.com/E2SFC2H.png
-      # - title: Pro / Expert Guide
-        # url: https://youtu.be/AOjxE7NUgSc
-      # - title: Text Guide
-        # url: https://i.imgur.com/c7VaV9l.png
       - name: Zachary Jones
         resources:
         - title: Tour 10 - Tips for Going for the Island Hop
@@ -361,6 +355,8 @@ holes:
           url: https://i.imgur.com/3Onsa42.jpg
       - name: Zachary Jones
         resources:
+        - title: Tour 10 - Strategy and Tips
+          url: https://youtu.be/ZCt03Bqs20I
         - title: Tour 10 - Strategy and Tips for Eagle
           url: https://youtu.be/hrsZytyw_rg
     aliases:
@@ -457,6 +453,8 @@ holes:
           url: https://i.imgur.com/NERKisK.jpg
       - name: Zachary Jones
         resources:
+        - title: Tour 10 - Wind Pointed at 4 O`clock
+          url: https://youtu.be/UADk4_nsZIQ
         - title: Tour 10 Shootout
           url: https://youtu.be/HrOGSz6GhAM?t=4m15s
         - title: Tour 10 Shootout - Strong Headwind Tips
@@ -540,6 +538,10 @@ holes:
           url: https://i.imgur.com/G1cR1OF.jpg
       - name: Zachary Jones
         resources:
+        - title: Tour 10 Shootout - Hard Wind Pointed at 5 O`clock
+          url: https://youtu.be/HH4fOgBv-K8
+        - title: Tour 10 Shootout - Wind Pointed at 1 O`clock
+          url: https://youtu.be/GUp5yvt2ulQ
         - title: Tour 10 Shootout - Strong Headwind at 6 O`clock
           url: https://youtu.be/4w-YIbu2-Qo
         - title: Tour 10 Shootout - Wind Pointed at 4 O`clock
@@ -614,6 +616,8 @@ holes:
           url: https://i.imgur.com/JjErYAW.jpg
       - name: Zachary Jones
         resources:
+        - title: Tour 10 - Strategy and Tips
+          url: https://youtu.be/EgEiUw5tqUs
         - title: Tour 8 - Headwind
           url: https://youtu.be/8aOAoh4tP-U
     aliases:
@@ -681,6 +685,8 @@ holes:
           url: https://i.imgur.com/OgwLz3E.png
       - name: Zachary Jones
         resources:
+        - title: Tour 10 - Strategy and Tips
+          url: https://youtu.be/qM9vICY-RpI
         - title: Tour 10 - Headwind
           url: https://youtu.be/MwyIpXxTFv0
     aliases:
@@ -786,6 +792,8 @@ holes:
           url: https://i.imgur.com/nDQeFwh.png
       - name: Zachary Jones
         resources:
+        - title: Tour 10 - Strategy and Tips
+          url: https://youtu.be/9EryJTCSb7Y
         - title: Tour 10 - Trick for Getting to the Green in 2 When Aimed OB
           url: https://youtu.be/zOp0EmEk5vQ
         - title: Tour 8 - Headwind
