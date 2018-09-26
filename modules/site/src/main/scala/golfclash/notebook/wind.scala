@@ -99,9 +99,9 @@ object wind {
 
   def ruleBasedCorrection(club: Club, level: Int): Double = {
     if (club.name.toLowerCase().contains("b52") && level >= 5) {
-      0.83;
+      0.9
     } else {
-      1.0;
+      1.0
     }
   }
 }
