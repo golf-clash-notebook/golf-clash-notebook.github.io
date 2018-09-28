@@ -8,6 +8,18 @@ holes:
     description: >
       Help Wanted
     resource-creators:
+    - name: Golf Clash Tommy
+      resources:
+      - title: Rookie Guide - Metro Open
+        url: https://youtu.be/WVSoK54f-dU
+    - name: Zachary Jones
+      resources:
+        - title: Tour 4 - Strategy and Tips
+          url: https://youtu.be/o-6C35jb5Po
+        - title: Tour 11 - Strategy and Tips
+          url: https://youtu.be/5csGrBbLZF4
+        - title: Tour 11 - Strategy and Tips
+          url: https://youtu.be/o0bZVHFsCZY
   - id: 636bce10-6193-4793-b3db-994fe6a39dbf
     course: Parc de Paris
     number: 2
@@ -15,6 +27,14 @@ holes:
     description: >
       Help Wanted
     resource-creators:
+    - name: Golf Clash Tommy
+      resources:
+      - title: Rookie Guide - Metro Open
+        url: https://youtu.be/_HDmo0dGuHA
+    - name: Zachary Jones
+      resources:
+        - title: Tour 4 - Strategy and Tips
+          url: https://youtu.be/V_RaWOoetQY
   - id: 17727cf4-ffbf-43e9-a0db-5cebcc570496
     course: Parc de Paris
     number: 3
@@ -22,6 +42,16 @@ holes:
     description: >
       Help Wanted
     resource-creators:
+    - name: Golf Clash Tommy
+      resources:
+      - title: Rookie Guide - Metro Open
+        url: https://youtu.be/jOz6i7PmMVI
+    - name: Zachary Jones
+      resources:
+        - title: Tour 4 - Strategy and Tips
+          url: https://youtu.be/7FiBjHsGv1k
+        - title: Tour 11 - Strategy and Tips
+          url: https://youtu.be/MhEjeAIcKhY
   - id: 2ecd58d4-d052-4516-9799-bac5b8dde3bc
     course: Parc de Paris
     number: 4
@@ -29,6 +59,14 @@ holes:
     description: >
       Help Wanted
     resource-creators:
+    - name: Golf Clash Tommy
+      resources:
+      - title: Rookie Guide - Metro Open
+        url: https://youtu.be/UAk8gFYkYWQ
+    - name: Zachary Jones
+      resources:
+        - title: Tour 4 - Strategy and Tips
+          url: https://youtu.be/6IHRBpl20Hc
   - id: 2b26deed-d658-427a-8472-4443e0ee863b
     course: Parc de Paris
     number: 5
@@ -36,6 +74,18 @@ holes:
     description: >
       Help Wanted
     resource-creators:
+    - name: Golf Clash Tommy
+      resources:
+      - title: Rookie Guide - Metro Open
+        url: https://youtu.be/FZ75xgxibqY
+    - name: Zachary Jones
+      resources:
+        - title: Tour 4 - Strategy and Tips
+          url: https://youtu.be/7slAzJs9Fow
+        - title: Tour 4 - Strategy and Tips
+          url: https://youtu.be/mM7tskF2kEA
+        - title: Tour 11 - Strategy and Tips
+          url: https://youtu.be/iWw1gFvez2c
   - id: 88e55ba8-9cc9-41e7-a648-2cb8ed29185d
     course: Parc de Paris
     number: 6
@@ -43,6 +93,18 @@ holes:
     description: >
       Help Wanted
     resource-creators:
+    - name: Golf Clash Tommy
+      resources:
+      - title: Rookie Guide - Metro Open
+        url: https://youtu.be/9pMDjBQu6GE
+    - name: Zachary Jones
+      resources:
+        - title: Tour 4 - Strategy and Tips
+          url: https://youtu.be/yIYQcx6JKPo
+        - title: Tour 11 - Strategy and Tips
+          url: https://youtu.be/29WHII0nYm0
+        - title: Tour 11 - Strategy and Tips
+          url: https://youtu.be/I2cBmbL2mpk
   - id: 996a923a-517a-4e18-8868-0ab66807884b
     course: Parc de Paris
     number: 7
@@ -50,6 +112,22 @@ holes:
     description: >
       Help Wanted
     resource-creators:
+    - name: Golf Clash Tommy
+      resources:
+      - title: Rookie Guide - Metro Open
+        url: https://youtu.be/NqKWNIiQ0y0
+    - name: Zachary Jones
+      resources:
+        - title: Tour 4 - Strategy and Tips
+          url: https://youtu.be/MBeYMsR1t84
+        - title: Tour 11 - Strategy and Tips
+          url: https://youtu.be/Mdekc6PD7LM
+        - title: Tour 11 - Strategy and Tips
+          url: https://youtu.be/c119mO1VLNY
+        - title: Tour 11 - Strategy and Tips
+          url: https://youtu.be/6f6hWA8JVa8
+        - title: Tour 11 - Strategy and Tips
+          url: https://youtu.be/5-VftZSSZ-0
   - id: dad86483-0418-4578-ae29-a5a2b2810648
     course: Parc de Paris
     number: 8
@@ -57,6 +135,22 @@ holes:
     description: >
       Help Wanted
     resource-creators:
+    - name: Golf Clash Tommy
+      resources:
+      - title: Rookie Guide - Metro Open
+        url: https://youtu.be/YEkjJHnUkq4
+    - name: Zachary Jones
+      resources:
+        - title: Tour 4 - Wind Pointed at 430
+          url: https://youtu.be/ZLaFKl8xj9k
+        - title: Tour 4 - Wind Pointed at 7 O`clock
+          url: https://youtu.be/2MpQiBTgA94
+        - title: Tour 4 - Wind Pointed at 1030
+          url: https://youtu.be/3NayVxTkO2A
+        - title: Tour 11 - Wind Pointed at 830
+          url: https://youtu.be/5wYcKmLXhQs
+        - title: Tour 11 - Side Wind Pointed at 9 O`clock
+          url: https://youtu.be/_-LOaAPJxZM
   - id: 3d6bf850-7dde-47a5-a572-0253ef035e95
     course: Parc de Paris
     number: 9
@@ -64,3 +158,13 @@ holes:
     description: >
       Help Wanted
     resource-creators:
+    - name: Golf Clash Tommy
+      resources:
+      - title: Rookie Guide - Metro Open
+        url: https://youtu.be/QGqxVYwIj88
+    - name: Zachary Jones
+      resources:
+        - title: Tour 4 - Strategy and Tips
+          url: https://youtu.be/vhivBixvLLs
+        - title: Tour 11 - Strategy and Tips
+          url: https://youtu.be/4OtsY808TIM
