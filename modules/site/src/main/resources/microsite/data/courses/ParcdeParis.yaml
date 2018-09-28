@@ -1,0 +1,66 @@
+course-name: Parc de Paris
+skinned: false
+holes:
+  - id: 04a2e328-2680-46d9-8ea5-3429128c9dc6
+    course: Parc de Paris
+    number: 1
+    par: 4
+    description: >
+      Help Wanted
+    resource-creators:
+  - id: 636bce10-6193-4793-b3db-994fe6a39dbf
+    course: Parc de Paris
+    number: 2
+    par: 3
+    description: >
+      Help Wanted
+    resource-creators:
+  - id: 17727cf4-ffbf-43e9-a0db-5cebcc570496
+    course: Parc de Paris
+    number: 3
+    par: 5
+    description: >
+      Help Wanted
+    resource-creators:
+  - id: 2ecd58d4-d052-4516-9799-bac5b8dde3bc
+    course: Parc de Paris
+    number: 4
+    par: 3
+    description: >
+      Help Wanted
+    resource-creators:
+  - id: 2b26deed-d658-427a-8472-4443e0ee863b
+    course: Parc de Paris
+    number: 5
+    par: 4
+    description: >
+      Help Wanted
+    resource-creators:
+  - id: 88e55ba8-9cc9-41e7-a648-2cb8ed29185d
+    course: Parc de Paris
+    number: 6
+    par: 5
+    description: >
+      Help Wanted
+    resource-creators:
+  - id: 996a923a-517a-4e18-8868-0ab66807884b
+    course: Parc de Paris
+    number: 7
+    par: 4
+    description: >
+      Help Wanted
+    resource-creators:
+  - id: dad86483-0418-4578-ae29-a5a2b2810648
+    course: Parc de Paris
+    number: 8
+    par: 3
+    description: >
+      Help Wanted
+    resource-creators:
+  - id: 3d6bf850-7dde-47a5-a572-0253ef035e95
+    course: Parc de Paris
+    number: 9
+    par: 5
+    description: >
+      Help Wanted
+    resource-creators:

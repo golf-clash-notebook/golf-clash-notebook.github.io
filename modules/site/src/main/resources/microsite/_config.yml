@@ -142,6 +142,13 @@ page_gen:
     extra:
       title-prefix: 'Sakura Hills - Hole '
   - index_files: true
+    data: 'courses.ParcdeParis.holes'
+    template: '_includes/courses/hole-template.liquid'
+    name: 'number'
+    dir: 'courses/ParcdeParis'
+    extra:
+      title-prefix: 'Parc de Paris - Hole '
+  - index_files: true
     data: 'courses.SantaVentura.holes'
     template: '_includes/courses/hole-template.liquid'
     name: 'number'
@@ -486,3 +493,11 @@ page_gen:
     extra:
       title-prefix: 'Voyager Tournament - Hole '
       tournament-name: 'Voyager'
+  - index_files: true
+    data: 'tournaments.MetroOpen.holes'
+    template: '_includes/tournaments/hole-template.liquid'
+    name: 'number'
+    dir: 'tournaments/MetroOpen'
+    extra:
+      title-prefix: 'Metro Open Tournament - Hole '
+      tournament-name: 'Metro Open'
