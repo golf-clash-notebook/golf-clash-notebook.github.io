@@ -16,7 +16,7 @@ wind-max: 16
 needle-speed: 40
 spin: Hidden
 entry-fee: 1000000
-max-trophies: 900
+max-trophies: 800
 trophies-per-win: 25
 trophies-per-loss: 25
 three-stake-special-cost: 1682
