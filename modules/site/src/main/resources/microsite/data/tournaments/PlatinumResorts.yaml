@@ -1,0 +1,22 @@
+tournament-name: Platinum Resorts
+date: '2018-10-15'
+resource-creators:
+holes:
+  - number: 1
+    id: af37d3ac-7089-4ff1-9568-64bcce20c496
+  - number: 2
+    id: 6ea3d593-3acb-4552-821b-b784c19e0672
+  - number: 3
+    id: 41fae3d6-5eb6-415f-8bff-1ad1d00463b4
+  - number: 4
+    id: 35b5f6cf-916c-404d-9a57-aeb2ec0a693c
+  - number: 5
+    id: e848d24c-b050-49da-a898-83bee9ef0e97
+  - number: 6
+    id: 330d44fa-7e2d-4fda-bdb5-f96fa9c0258f
+  - number: 7
+    id: 2c9f5304-fca6-4bd1-91dc-e61bd032da92
+  - number: 8
+    id: 8b2a0801-dd19-4d25-a7e1-d7503c8fc7ae
+  - number: 9
+    id: a0d9b22c-70e6-43c4-8022-27387295e9c1

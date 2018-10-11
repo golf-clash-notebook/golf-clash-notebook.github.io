@@ -501,3 +501,11 @@ page_gen:
     extra:
       title-prefix: 'Metro Open Tournament - Hole '
       tournament-name: 'Metro Open'
+  - index_files: true
+    data: 'tournaments.PlatinumResorts.holes'
+    template: '_includes/tournaments/hole-template.liquid'
+    name: 'number'
+    dir: 'tournaments/PlatinumResorts'
+    extra:
+      title-prefix: 'Platinum Resorts Tournament - Hole '
+      tournament-name: 'Platinum Resorts'
