@@ -5,6 +5,10 @@ resource-creators:
     resources:
     - title: Rookie Playthrough
       url: https://youtu.be/UjFiHb0AQD8
+  - name: Jesse Both
+    resources:
+    - title: Rookie Walkthrough
+      url: https://youtu.be/3IboNNIq94A
 holes:
   - number: 1
     id: af37d3ac-7089-4ff1-9568-64bcce20c496
