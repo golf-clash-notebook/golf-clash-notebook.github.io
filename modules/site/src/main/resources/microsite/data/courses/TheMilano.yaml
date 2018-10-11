@@ -302,6 +302,8 @@ holes:
     resource-creators:
       - name: Golf Clash Tommy
         resources:
+        - title: Platinum Resorts - Rookie
+          url: https://youtu.be/QTmLMudRavE
         - title: Rookie Guide
           url: https://youtu.be/CvCKj4dCsBs
         - title: Pro / Expert Guide
@@ -571,6 +573,8 @@ holes:
     resource-creators:
       - name: Golf Clash Tommy
         resources:
+        - title: Platinum Resorts - Rookie
+          url: https://youtu.be/LxvJsNHcGK4
         - title: Tour 9 - Guide
           url: https://youtu.be/KvD7juHhvVw
       - name: Zachary Jones
@@ -617,6 +621,8 @@ holes:
     resource-creators:
       - name: Golf Clash Tommy
         resources:
+        - title: Platinum Resorts - Rookie
+          url: https://youtu.be/wTeNE-YjWCc
         - title: Tour 9 - Guide
           url: https://youtu.be/jePi5sRI-Lk
       - name: Zachary Jones
