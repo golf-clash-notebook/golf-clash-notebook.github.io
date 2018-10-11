@@ -259,6 +259,8 @@ holes:
     resource-creators:
       - name: Golf Clash Tommy
         resources:
+        - title: Platinum Resorts - Rookie
+          url: https://youtu.be/8obFmnxyWec
         - title: Pro / Expert Guide
           url: https://youtu.be/oWx_EpRZ2x0
         - title: Rookie Guide
@@ -358,6 +360,8 @@ holes:
     resource-creators:
       - name: Golf Clash Tommy
         resources:
+        - title: Platinum Resorts - Rookie
+          url: https://youtu.be/sWtKgIGFe6g
         - title: Rookie Guide
           url: https://youtu.be/YyqF-n_c2JQ
         - title: Pro / Expert Guide
@@ -680,6 +684,8 @@ holes:
     resource-creators:
       - name: Golf Clash Tommy
         resources:
+        - title: Platinum Resorts - Rookie
+          url: https://youtu.be/TBRkrvTxDNI
         - title: Rookie Guide
           url: https://youtu.be/jKKuUy0OdpU
         - title: Pro / Expert Guide

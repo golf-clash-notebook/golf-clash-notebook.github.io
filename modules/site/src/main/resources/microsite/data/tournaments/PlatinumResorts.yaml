@@ -1,6 +1,10 @@
 tournament-name: Platinum Resorts
 date: '2018-10-15'
 resource-creators:
+  - name: Golf Clash Tommy
+    resources:
+    - title: Rookie Playthrough
+      url: https://youtu.be/UjFiHb0AQD8
 holes:
   - number: 1
     id: af37d3ac-7089-4ff1-9568-64bcce20c496
