@@ -282,6 +282,7 @@ holes:
               <circle cx="303" cy="339" r="6" fill="yellow" class="guide-point" data-guide-segment="1" />
               <circle cx="326" cy="108" r="6" fill="yellow" class="guide-point" data-guide-segment="2" />
   - id: 330d44fa-7e2d-4fda-bdb5-f96fa9c0258f
+    current-tournament: true
     course: The Milano
     number: 4
     par: 3
@@ -561,6 +562,7 @@ holes:
         - title: Vegas - Masters
           url: https://youtu.be/cbFbXJo9SGo
   - id: 2c9f5304-fca6-4bd1-91dc-e61bd032da92
+    current-tournament: true
     course: The Milano
     number: 8
     par: 4
@@ -608,6 +610,7 @@ holes:
         - title: Vegas - Masters
           url: https://youtu.be/tZcd9xP2f1c
   - id: e848d24c-b050-49da-a898-83bee9ef0e97
+    current-tournament: true
     course: The Milano
     number: 9
     par: 5
