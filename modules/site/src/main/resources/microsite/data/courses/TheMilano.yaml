@@ -5,6 +5,7 @@ holes:
     course: The Milano
     number: 1
     par: 4
+    replay-name: 4
     description: >
       Help Wanted
     clubRecommendations:
@@ -128,6 +129,7 @@ holes:
     course: The Milano
     number: 2
     par: 3
+    replay-name: 3C
     description: >
       Help Wanted
     resource-creators:
@@ -173,6 +175,7 @@ holes:
     course: The Milano
     number: 3
     par: 5
+    replay-name: 5
     description: >
       Help Wanted
     clubRecommendations:
@@ -286,6 +289,7 @@ holes:
     course: The Milano
     number: 4
     par: 3
+    replay-name: 3
     description: >
       Help Wanted
     clubRecommendations:
@@ -408,6 +412,7 @@ holes:
     course: The Milano
     number: 5
     par: 4
+    replay-name: 4B
     description: >
       Help Wanted
     resource-creators:
@@ -461,6 +466,7 @@ holes:
     course: The Milano
     number: 6
     par: 5
+    replay-name: 5C
     description: >
       Help Wanted
     resource-creators:
@@ -510,6 +516,7 @@ holes:
     course: The Milano
     number: 7
     par: 3
+    replay-name: 3B
     description: >
       Help Wanted
     resource-creators:
@@ -570,6 +577,7 @@ holes:
     course: The Milano
     number: 8
     par: 4
+    replay-name: 4C
     description: >
       Help Wanted
     resource-creators:
@@ -622,6 +630,7 @@ holes:
     course: The Milano
     number: 9
     par: 5
+    replay-name: 5B
     resource-creators:
       - name: Golf Clash Tommy
         resources:

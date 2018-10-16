@@ -93,6 +93,15 @@ This table addresses [#136](https://github.com/golf-clash-notebook/golf-clash-no
 | ![Map][NamhaeCliffs-7]      | Namhae Cliffs       |        7       |      4C     |
 | ![Map][NamhaeCliffs-8]      | Namhae Cliffs       |        8       |      5B     |
 | ![Map][NamhaeCliffs-9]      | Namhae Cliffs       |        9       |      5C     |
+| ![Map][ParcdeParis-1]       | Parc de Paris       |        1       |      4B     |
+| ![Map][ParcdeParis-2]       | Parc de Paris       |        2       |      3B     |
+| ![Map][ParcdeParis-3]       | Parc de Paris       |        3       |      5C     |
+| ![Map][ParcdeParis-4]       | Parc de Paris       |        4       |      3C     |
+| ![Map][ParcdeParis-5]       | Parc de Paris       |        5       |      4C     |
+| ![Map][ParcdeParis-6]       | Parc de Paris       |        6       |       5     |
+| ![Map][ParcdeParis-7]       | Parc de Paris       |        7       |       4     |
+| ![Map][ParcdeParis-8]       | Parc de Paris       |        8       |       3     |
+| ![Map][ParcdeParis-9]       | Parc de Paris       |        9       |      5B     |
 | ![Map][PorthelloCove-1]     | Porthello Cove      |        1       |       4     |
 | ![Map][PorthelloCove-2]     | Porthello Cove      |        2       |      3B     |
 | ![Map][PorthelloCove-3]     | Porthello Cove      |        3       |      5C     |
@@ -302,6 +311,18 @@ This table addresses [#136](https://github.com/golf-clash-notebook/golf-clash-no
 [NamhaeCliffs-7]: https://github.com/golf-clash-notebook/golf-clash-notebook.github.io/blob/dev/modules/site/src/main/resources/microsite/img/golfclash/courses/NamhaeCliffs/7-thumb.png?raw=true
 [NamhaeCliffs-8]: https://github.com/golf-clash-notebook/golf-clash-notebook.github.io/blob/dev/modules/site/src/main/resources/microsite/img/golfclash/courses/NamhaeCliffs/8-thumb.png?raw=true
 [NamhaeCliffs-9]: https://github.com/golf-clash-notebook/golf-clash-notebook.github.io/blob/dev/modules/site/src/main/resources/microsite/img/golfclash/courses/NamhaeCliffs/9-thumb.png?raw=true
+
+<!--- ############################################################################################################## -->
+
+[ParcdeParis-1]: https://github.com/golf-clash-notebook/golf-clash-notebook.github.io/blob/dev/modules/site/src/main/resources/microsite/img/golfclash/courses/ParcdeParis/1-thumb.png?raw=true
+[ParcdeParis-2]: https://github.com/golf-clash-notebook/golf-clash-notebook.github.io/blob/dev/modules/site/src/main/resources/microsite/img/golfclash/courses/ParcdeParis/2-thumb.png?raw=true
+[ParcdeParis-3]: https://github.com/golf-clash-notebook/golf-clash-notebook.github.io/blob/dev/modules/site/src/main/resources/microsite/img/golfclash/courses/ParcdeParis/3-thumb.png?raw=true
+[ParcdeParis-4]: https://github.com/golf-clash-notebook/golf-clash-notebook.github.io/blob/dev/modules/site/src/main/resources/microsite/img/golfclash/courses/ParcdeParis/4-thumb.png?raw=true
+[ParcdeParis-5]: https://github.com/golf-clash-notebook/golf-clash-notebook.github.io/blob/dev/modules/site/src/main/resources/microsite/img/golfclash/courses/ParcdeParis/5-thumb.png?raw=true
+[ParcdeParis-6]: https://github.com/golf-clash-notebook/golf-clash-notebook.github.io/blob/dev/modules/site/src/main/resources/microsite/img/golfclash/courses/ParcdeParis/6-thumb.png?raw=true
+[ParcdeParis-7]: https://github.com/golf-clash-notebook/golf-clash-notebook.github.io/blob/dev/modules/site/src/main/resources/microsite/img/golfclash/courses/ParcdeParis/7-thumb.png?raw=true
+[ParcdeParis-8]: https://github.com/golf-clash-notebook/golf-clash-notebook.github.io/blob/dev/modules/site/src/main/resources/microsite/img/golfclash/courses/ParcdeParis/8-thumb.png?raw=true
+[ParcdeParis-9]: https://github.com/golf-clash-notebook/golf-clash-notebook.github.io/blob/dev/modules/site/src/main/resources/microsite/img/golfclash/courses/ParcdeParis/9-thumb.png?raw=true
 
 <!--- ############################################################################################################## -->
 

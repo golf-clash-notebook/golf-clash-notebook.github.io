@@ -5,6 +5,7 @@ holes:
     course: Meadow Castle
     number: 1
     par: 3
+    replay-name: 3
     description: >
       Help Wanted
     clubRecommendations:
@@ -25,6 +26,7 @@ holes:
     course: Meadow Castle
     number: 2
     par: 4
+    replay-name: 4
     description: >
       Help Wanted
     clubRecommendations:
@@ -50,6 +52,7 @@ holes:
     course: Meadow Castle
     number: 3
     par: 5
+    replay-name: 5
     description: >
       Help Wanted
     clubRecommendations:
@@ -75,6 +78,7 @@ holes:
     course: Meadow Castle
     number: 4
     par: 3
+    replay-name: 3B
     description: >
       Help Wanted
     clubRecommendations:

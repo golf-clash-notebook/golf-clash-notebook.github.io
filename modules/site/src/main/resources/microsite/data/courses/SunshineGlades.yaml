@@ -5,6 +5,7 @@ holes:
     course: Sunshine Glades
     number: 1
     par: 3
+    replay-name: 3
     description: >
       Help Wanted
     clubRecommendations:
@@ -123,6 +124,7 @@ holes:
     course: Sunshine Glades
     number: 2
     par: 4
+    replay-name: 4
     description: >
       Help Wanted
     clubRecommendations:
@@ -193,6 +195,7 @@ holes:
     course: Sunshine Glades
     number: 3
     par: 5
+    replay-name: 5
     description: >
       Help Wanted
     clubRecommendations:
@@ -334,6 +337,7 @@ holes:
     course: Sunshine Glades
     number: 4
     par: 5
+    replay-name: 5B
     description: >
       Help Wanted
     clubRecommendations:
