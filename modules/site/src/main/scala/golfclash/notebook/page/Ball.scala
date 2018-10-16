@@ -24,6 +24,6 @@
 
 package golfclash.notebook
 
-case class Ball(name: String, windResistance: Int, sideSpin: Int, power: Int) {
+case class Ball(name: String, windResistance: Int, sideSpin: Int, power: Int, needleSpeed: Double) {
   val path = name.replaceAll("\\s+", "").replaceAll("'", "")
 }

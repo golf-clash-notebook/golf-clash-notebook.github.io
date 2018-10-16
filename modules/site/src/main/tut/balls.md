@@ -53,6 +53,25 @@ position: 50
       way to where you can use the balls you've won to win more (and better) balls in the future.
     </p>
 
+    <h1 class="gcn-page-header">Needle Speed</h1>
+
+    <p class="text-content">
+      While each ball has the same needle speed for regular powered shots (shots with the ball
+      pulled back to the center of the circle or less), different balls have different needle speeds
+      when you try to overpower your shot. Here you can find that speed for each ball in the game.
+      The number listed is the number of swings the needle makes in 1 second. So a ball with an full
+      OP needle speed of 1.63 will make a little over one and a half swings in one second while a
+      ball with a full OP needle speed of 1.15 will only make a little over one full swing so it's
+      significantly slower in those situations.
+    </p>
+
+    <p class="text-content">
+      Obviously it's ideal to have a ball with the lowest needle speed, there are situations where
+      it's probably not going to affect you at all. A perfect example are tournament Par 3's. You
+      should pretty much never be overpowering that shot, so the OP needle speed isn't really
+      important.
+    </p>
+
   </div>
   <div class="col-sm-12 visible-sm visible-xs">
     <hr>
