@@ -5,6 +5,7 @@ holes:
     course: Glenmonarch Estate
     number: 1
     par: 3
+    replay-name: 3
     description: >
       Help Wanted
     clubRecommendations:
@@ -116,6 +117,7 @@ holes:
     course: Glenmonarch Estate
     number: 2
     par: 4
+    replay-name: 4
     description: >
       Help Wanted
     clubRecommendations:
@@ -228,6 +230,7 @@ holes:
     course: Glenmonarch Estate
     number: 3
     par: 5
+    replay-name: 5
     description: >
       Help Wanted
     clubRecommendations:
@@ -348,6 +351,7 @@ holes:
     course: Glenmonarch Estate
     number: 4
     par: 4
+    replay-name: 4B
     description: >
       Help Wanted
     clubRecommendations:
@@ -450,6 +454,7 @@ holes:
     course: Glenmonarch Estate
     number: 5
     par: 3
+    replay-name: 3B
     description: >
       Help Wanted
     clubRecommendations:
@@ -548,6 +553,7 @@ holes:
     course: Glenmonarch Estate
     number: 6
     par: 3
+    replay-name: 3C
     description: >
       Help Wanted
     clubRecommendations:
@@ -644,6 +650,7 @@ holes:
     course: Glenmonarch Estate
     number: 7
     par: 4
+    replay-name: 4C
     description: >
       Help Wanted
     clubRecommendations:
@@ -725,6 +732,7 @@ holes:
     course: Glenmonarch Estate
     number: 8
     par: 5
+    replay-name: 5B
     description: >
       Help Wanted
     clubRecommendations:
@@ -821,6 +829,7 @@ holes:
     course: Glenmonarch Estate
     number: 9
     par: 5
+    replay-name: 5C
     description: >
       Help Wanted
     clubRecommendations:
