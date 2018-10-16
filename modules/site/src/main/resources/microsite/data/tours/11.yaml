@@ -2,6 +2,7 @@ number: 11
 tour-name: Voyager Tour
 courses:
   - name: City Park
+  - name: Parc de Paris
   - name: Santa Ventura
   - name: Sunshine Glades
 description: >
