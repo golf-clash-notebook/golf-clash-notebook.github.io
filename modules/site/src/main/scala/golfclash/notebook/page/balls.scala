@@ -51,7 +51,11 @@ object balls {
     assignTiers(
       balls
         .map { ball =>
-          val score = (ball.windResistance * weights.windResistance) + (ball.sideSpin * weights.sideSpin) + (ball.power * weights.power)
+          val score =
+            (ball.windResistance * weights.windResistance) +
+              (ball.sideSpin * weights.sideSpin) +
+              (ball.power * weights.power) +
+              ball.needleSpeed
           RankedBall(ball, score)
         }
         .sortBy(_.score)
@@ -68,7 +72,7 @@ object balls {
             case None => currentBall.copy(tier = 1).some
             case Some(lastBall) => {
               val scoreRatio  = 1 - ((lastBall.score - currentBall.score) / currentBall.score)
-              val currentTier = if (scoreRatio < 0.97) lastBall.tier + 1 else lastBall.tier
+              val currentTier = if (scoreRatio < 0.98) lastBall.tier + 1 else lastBall.tier
               currentBall.copy(tier = currentTier.min(10)).some
             }
           }
@@ -105,8 +109,9 @@ object balls {
         val windResistance = jQuery(e).data("wind-resistance").asInstanceOf[Int]
         val sideSpin       = jQuery(e).data("side-spin").asInstanceOf[Int]
         val power          = jQuery(e).data("power").asInstanceOf[Int]
+        val needleSpeed    = jQuery(e).data("needle-speed").asInstanceOf[Double]
 
-        Ball(name, windResistance, sideSpin, power)
+        Ball(name, windResistance, sideSpin, power, needleSpeed)
       }
       .toArray
       .map(_.asInstanceOf[Ball])

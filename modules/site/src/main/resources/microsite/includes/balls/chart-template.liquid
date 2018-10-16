@@ -54,7 +54,7 @@
         {% assign ball = site.data.balls[ballKey] %}
         {% assign ballPath = ball.name | remove: "The" | remove: " " | remove: "'" %}
 
-        <tr class="ball-table-row" id="{{ ballPath }}-ranking-row" data-name="{{ ballPath }}" data-wind-resistance="{{ ball.wind-resistance }}" data-side-spin="{{ ball.side-spin }}" data-power="{{ ball.power }}">
+        <tr class="ball-table-row" id="{{ ballPath }}-ranking-row" data-name="{{ ballPath }}" data-wind-resistance="{{ ball.wind-resistance }}" data-side-spin="{{ ball.side-spin }}" data-power="{{ ball.power }}" data-needle-speed="{{ ball.needle-speed }}">
           <td>
             <img src="/img/golfclash/balls/{{ ballPath }}-64x64.png" title="{{ ball.name }}" alt="{{ ball.name }}" class="img-center img-responsive" style="width: 36px;">
           </td>
