@@ -2,7 +2,7 @@
 layout: gcn-bare
 ---
 
-{% assign coursePath = page.course-name | remove: " " %}
+{% assign coursePath = page.courseName | remove: " " %}
 {% assign numHoles = page.holes | size %}
 
 <div class="tournament-notes">
@@ -10,7 +10,7 @@ layout: gcn-bare
 <div class="row">
 
 <div class="col-lg-6 col-lg-offset-3 note-col">
-  <h1 class="center-block text-center text-semi-muted">{{ page.course-name }}</h1>
+  <h1 class="center-block text-center text-semi-muted">{{ page.courseName }}</h1>
   <h5 class="center-block text-center text-semi-muted pad-12">
     <span class="tournament-notes-level"><i class="far fa-square"></i> Rookie</span>
     <span class="tournament-notes-level"><i class="far fa-square"></i> Pro</span>

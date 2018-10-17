@@ -58,7 +58,7 @@ permalink: /tools/holeranker/
 
         {% if hole.id == holeRating.holeId %}
 
-          {% assign coursePath = course.course-name | remove: " " %}
+          {% assign coursePath = course.courseName | remove: " " %}
           {% assign holeDifficulty = holeRating.rating | minus: minRating | divided_by: ratingRange %}
 
           {% capture previousRating %}
@@ -112,7 +112,7 @@ permalink: /tools/holeranker/
                   <img class="img-inline img-responsive" src="/img/golfclash/courses/{{ coursePath }}/{{ hole.number}}-thumb.png" >
                 </div>
                 <div class="col hole-description">
-                  <h4 class="text-semi-muted">{{ course.course-name }}</h4>
+                  <h4 class="text-semi-muted">{{ course.courseName }}</h4>
                   <h5 class="text-semi-muted margin-left-8">Hole {{ hole.number }} - Par {{ hole.par }}</h5>
                   <h5 class="text-semi-muted margin-left-8">
                     <strong> {{ holeRating.rating | round: 2 }}</strong>

@@ -35,11 +35,18 @@ import cats.implicits._
 import monix.eval.Task
 import monix.execution.Scheduler.Implicits.global
 
+case class Course(courseName: String, skinned: Boolean, holes: List[Hole])
+object Course {
+  val empty = Course("", false, List.empty[Hole])
+}
+
 case class Hole(
   id: String,
   course: String,
   number: Int,
-  par: Int
+  par: Int,
+  replayName: String,
+  description: String
 )
 
 case class HoleRating(holeId: String, rating: Double)
@@ -70,7 +77,7 @@ object Hole {
 
   private def loadHoles(course: String): Task[List[Hole]] = {
     val sanitizedCourseName = course.replaceAll(" ", "").replaceAll("'", "")
-    load[List[Hole]](s"/data/courses/${sanitizedCourseName}.json", List.empty[Hole])
+    load[Course](s"/data/courses/${sanitizedCourseName}.json", Course.empty).map(_.holes)
   }
 
   private def load[T: Decoder](url: String, onErr: => T): Task[T] = {

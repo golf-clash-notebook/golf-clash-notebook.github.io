@@ -1,11 +1,11 @@
-course-name: Winter Links
+courseName: Winter Links
 skinned: true
 holes:
   - id: 54ae0c59-8518-40ca-8d30-0580f1403baf
     course: Winter Links
     number: 1
     par: 3
-    replay-name: 3
+    replayName: "3"
     description: >
       Help Wanted
     clubRecommendations:
@@ -109,7 +109,7 @@ holes:
     course: Winter Links
     number: 2
     par: 4
-    replay-name: 4C
+    replayName: "4C"
     description: >
       Help Wanted
     clubRecommendations:
@@ -245,7 +245,7 @@ holes:
     course: Winter Links
     number: 3
     par: 4
-    replay-name: 4B
+    replayName: "4B"
     description: >
       Help Wanted
     clubRecommendations:
@@ -345,7 +345,7 @@ holes:
     course: Winter Links
     number: 4
     par: 3
-    replay-name: 3C
+    replayName: "3C"
     description: >
       Help Wanted
     clubRecommendations:
@@ -408,7 +408,7 @@ holes:
     course: Winter Links
     number: 5
     par: 5
-    replay-name: 5
+    replayName: "5"
     description: >
       Help Wanted
     clubRecommendations:
@@ -503,7 +503,7 @@ holes:
     course: Winter Links
     number: 6
     par: 4
-    replay-name: 4
+    replayName: "4"
     description: >
       Help Wanted
     clubRecommendations:
@@ -592,7 +592,7 @@ holes:
     course: Winter Links
     number: 7
     par: 5
-    replay-name: 5C
+    replayName: "5C"
     description: >
       Help Wanted
     clubRecommendations:
@@ -707,7 +707,7 @@ holes:
     course: Winter Links
     number: 8
     par: 3
-    replay-name: 3B
+    replayName: "3B"
     description: >
       Help Wanted
     clubRecommendations:
@@ -791,7 +791,7 @@ holes:
     course: Winter Links
     number: 9
     par: 5
-    replay-name: 5B
+    replayName: "5B"
     description: >
       Help Wanted
     clubRecommendations:

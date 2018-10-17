@@ -1,11 +1,11 @@
-course-name: Creepy Cliffs
+courseName: Creepy Cliffs
 skinned: true
 holes:
   - id: 49ffdaa0-0714-43b2-80a1-d43de9503965
     course: Creepy Cliffs
     number: 1
     par: 5
-    replay-name: 5C
+    replayName: "5C"
     description: >
       Help Wanted
     clubRecommendations:
@@ -131,7 +131,7 @@ holes:
     course: Creepy Cliffs
     number: 2
     par: 3
-    replay-name: 3C
+    replayName: "3C"
     description: >
       Help Wanted
     clubRecommendations:
@@ -186,7 +186,7 @@ holes:
     course: Creepy Cliffs
     number: 3
     par: 4
-    replay-name: 4B
+    replayName: "4B"
     description: >
       Help Wanted
     clubRecommendations:
@@ -281,7 +281,7 @@ holes:
     course: Creepy Cliffs
     number: 4
     par: 3
-    replay-name: 3B
+    replayName: "3B"
     description: >
       Help Wanted
     clubRecommendations:
@@ -342,7 +342,7 @@ holes:
     course: Creepy Cliffs
     number: 5
     par: 5
-    replay-name: 5
+    replayName: "5"
     description: >
       Help Wanted
     clubRecommendations:
@@ -439,7 +439,7 @@ holes:
     course: Creepy Cliffs
     number: 6
     par: 3
-    replay-name: 3
+    replayName: "3"
     description: >
       Help Wanted
     clubRecommendations:
@@ -502,7 +502,7 @@ holes:
     course: Creepy Cliffs
     number: 7
     par: 4
-    replay-name: 4C
+    replayName: "4C"
     description: >
       Help Wanted
     clubRecommendations:
@@ -568,7 +568,7 @@ holes:
     course: Creepy Cliffs
     number: 8
     par: 4
-    replay-name: 4
+    replayName: "4"
     description: >
       Help Wanted
     clubRecommendations:
@@ -656,7 +656,7 @@ holes:
     course: Creepy Cliffs
     number: 9
     par: 5
-    replay-name: 5B
+    replayName: "5B"
     description: >
       Help Wanted
     clubRecommendations:

@@ -1,11 +1,11 @@
-course-name: Parc de Paris
+courseName: Parc de Paris
 skinned: false
 holes:
   - id: 04a2e328-2680-46d9-8ea5-3429128c9dc6
     course: Parc de Paris
     number: 1
     par: 4
-    replay-name: 4B
+    replayName: "4B"
     description: >
       Help Wanted
     resource-creators:
@@ -25,7 +25,7 @@ holes:
     course: Parc de Paris
     number: 2
     par: 3
-    replay-name: 3B
+    replayName: "3B"
     description: >
       Help Wanted
     resource-creators:
@@ -41,7 +41,7 @@ holes:
     course: Parc de Paris
     number: 3
     par: 5
-    replay-name: 5C
+    replayName: "5C"
     description: >
       Help Wanted
     resource-creators:
@@ -59,7 +59,7 @@ holes:
     course: Parc de Paris
     number: 4
     par: 3
-    replay-name: 3C
+    replayName: "3C"
     description: >
       Help Wanted
     resource-creators:
@@ -75,7 +75,7 @@ holes:
     course: Parc de Paris
     number: 5
     par: 4
-    replay-name: 4C
+    replayName: "4C"
     description: >
       Help Wanted
     resource-creators:
@@ -95,7 +95,7 @@ holes:
     course: Parc de Paris
     number: 6
     par: 5
-    replay-name: 5
+    replayName: "5"
     description: >
       Help Wanted
     resource-creators:
@@ -115,7 +115,7 @@ holes:
     course: Parc de Paris
     number: 7
     par: 4
-    replay-name: 4
+    replayName: "4"
     description: >
       Help Wanted
     resource-creators:
@@ -139,7 +139,7 @@ holes:
     course: Parc de Paris
     number: 8
     par: 3
-    replay-name: 3
+    replayName: "3"
     description: >
       Help Wanted
     resource-creators:
@@ -163,7 +163,7 @@ holes:
     course: Parc de Paris
     number: 9
     par: 5
-    replay-name: 5B
+    replayName: "5B"
     description: >
       Help Wanted
     resource-creators:

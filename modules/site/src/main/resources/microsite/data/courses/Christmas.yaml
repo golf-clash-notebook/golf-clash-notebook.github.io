@@ -1,11 +1,11 @@
-course-name: Christmas
+courseName: Christmas
 skinned: true
 holes:
   - id: 2cb5ab94-1384-4df1-8de6-f8a85b40b9f9
     course: Christmas
     number: 1
     par: 3
-    replay-name: 3
+    replayName: "3"
     description: >
       Help Wanted
     clubRecommendations:
@@ -108,7 +108,7 @@ holes:
     course: Christmas
     number: 2
     par: 4
-    replay-name: 4
+    replayName: "4"
     description: >
       Help Wanted
     clubRecommendations:
@@ -205,7 +205,7 @@ holes:
     course: Christmas
     number: 3
     par: 5
-    replay-name: 5C
+    replayName: "5C"
     description: >
       Help Wanted
     clubRecommendations:
@@ -315,7 +315,7 @@ holes:
     course: Christmas
     number: 4
     par: 3
-    replay-name: 3B
+    replayName: "3B"
     description: >
       Help Wanted
     clubRecommendations:
@@ -398,7 +398,7 @@ holes:
     course: Christmas
     number: 5
     par: 4
-    replay-name: 4B
+    replayName: "4B"
     description: >
       Help Wanted
     clubRecommendations:
@@ -472,7 +472,7 @@ holes:
     course: Christmas
     number: 6
     par: 5
-    replay-name: 5
+    replayName: "5"
     description: >
       Help Wanted
     clubRecommendations:
@@ -578,7 +578,7 @@ holes:
     course: Christmas
     number: 7
     par: 4
-    replay-name: 4C
+    replayName: "4C"
     description: >
       Help Wanted
     clubRecommendations:
@@ -685,7 +685,7 @@ holes:
     course: Christmas
     number: 8
     par: 3
-    replay-name: 3C
+    replayName: "3C"
     description: >
       Help Wanted
     clubRecommendations:
@@ -767,7 +767,7 @@ holes:
     course: Christmas
     number: 9
     par: 5
-    replay-name: 5B
+    replayName: "5B"
     description: >
       Help Wanted
     clubRecommendations:

@@ -1,11 +1,11 @@
-course-name: Meadow Castle
+courseName: Meadow Castle
 skinned: false
 holes:
   - id: e967ec4e-43a8-4aa6-ad57-caf3cafffb4c
     course: Meadow Castle
     number: 1
     par: 3
-    replay-name: 3
+    replayName: "3"
     description: >
       Help Wanted
     clubRecommendations:
@@ -26,7 +26,7 @@ holes:
     course: Meadow Castle
     number: 2
     par: 4
-    replay-name: 4
+    replayName: "4"
     description: >
       Help Wanted
     clubRecommendations:
@@ -52,7 +52,7 @@ holes:
     course: Meadow Castle
     number: 3
     par: 5
-    replay-name: 5
+    replayName: "5"
     description: >
       Help Wanted
     clubRecommendations:
@@ -78,7 +78,7 @@ holes:
     course: Meadow Castle
     number: 4
     par: 3
-    replay-name: 3B
+    replayName: "3B"
     description: >
       Help Wanted
     clubRecommendations:
