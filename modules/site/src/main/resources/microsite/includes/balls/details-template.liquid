@@ -8,14 +8,14 @@
     </div>
     <h4 class="title">{{ include.ball.name }}</h4>
     <div class="pull-right">
-      {% if include.ball.wind-resistance > 0 %}
-        <img style="display: inline" src="/img/golfclash/balls/WindResistance{{ include.ball.wind-resistance }}-annotated-32x32.png" title="Wind Resistance {{ ball.wind-resistance }}" alt="Wind Resistance {{ include.ball.wind-resistance }}" class="img-center img-responsive">
+      {% if include.ball.windResistance > 0 %}
+        <img style="display: inline" src="/img/golfclash/balls/WindResistance{{ include.ball.windResistance }}-annotated-32x32.png" title="Wind Resistance {{ include.ball.windResistance }}" alt="Wind Resistance {{ include.ball.windResistance }}" class="img-center img-responsive">
       {% endif %}
-      {% if include.ball.side-spin > 0 %}
-        <img style="display: inline" src="/img/golfclash/balls/SideSpin{{ include.ball.side-spin }}-annotated-32x32.png" title="Side Spin {{ ball.side-spin }}" alt="Side Spin {{ include.ball.side-spin }}" class="img-center img-responsive">
+      {% if include.ball.sideSpin > 0 %}
+        <img style="display: inline" src="/img/golfclash/balls/SideSpin{{ include.ball.sideSpin }}-annotated-32x32.png" title="Side Spin {{ include.ball.sideSpin }}" alt="Side Spin {{ include.ball.sideSpin }}" class="img-center img-responsive">
       {% endif %}
       {% if include.ball.power > 0 %}
-        <img style="display: inline" src="/img/golfclash/balls/Power{{ include.ball.power }}-annotated-32x32.png" title="Power {{ ball.side-spin }}" alt="Power {{ include.ball.power }}" class="img-center img-responsive">
+        <img style="display: inline" src="/img/golfclash/balls/Power{{ include.ball.power }}-annotated-32x32.png" title="Power {{ include.ball.power }}" alt="Power {{ include.ball.power }}" class="img-center img-responsive">
       {% endif %}
     </div>
   </div>
@@ -33,8 +33,8 @@
   <div class="panel-footer">
     <div class="pull-left">
       <span><strong>OP Needle Speed:</strong></span>
-      {% if include.ball.needle-speed > 0 %}
-        <span>{{ 1 | divided_by: include.ball.needle-speed | round: 2 }}</span>
+      {% if include.ball.needleSpeed > 0 %}
+        <span>{{ 1 | divided_by: include.ball.needleSpeed | round: 2 }}</span>
       {% else %}
         <span>???</span>
       {% endif %}

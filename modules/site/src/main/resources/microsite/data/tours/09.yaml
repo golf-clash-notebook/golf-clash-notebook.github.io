@@ -1,5 +1,5 @@
 number: 9
-tour-name: Platinum Resorts
+tourName: Platinum Resorts
 courses:
   - name: Greenoch Point
   - name: The Milano
@@ -9,14 +9,14 @@ description: >
 resources:
   - title: Golf Clash Tommy - Tour 9 Guides
     url: https://www.youtube.com/watch?v=HsHv0ff1XLw&list=PL8bCSk5yWdFJ98JEODtzy1dQSRGohp3u6
-clan-points: 16
-tee-position: Middle
-wind-min: 6
-wind-max: 16
-needle-speed: 40
+clanPoints: 16
+teePosition: Middle
+windMin: 6
+windMax: 16
+needleSpeed: 40
 spin: Hidden
-entry-fee: 1000000
-max-trophies: 800
-trophies-per-win: 25
-trophies-per-loss: 25
-three-stake-special-cost: 1682
+entryFee: 1000000
+maxTrophies: 800
+trophiesPerWin: 25
+trophiesPerLoss: 25
+threeStakeSpecialCost: 1682

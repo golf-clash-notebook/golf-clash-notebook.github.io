@@ -1,10 +1,10 @@
 name: Season 1
-wind-resistance: 3
-side-spin: 1
+windResistance: 3
+sideSpin: 1
 power: 4
 cost: n/a
 description: >
   This ball was featured during the <a href="/tournaments/MetroOpen/">Metro Open</a>
   tournament. Only lacking in side spin, this ball can be used in virtually any situation very
   effectively. By your opponent....not you.
-needle-speed: 0.833
+needleSpeed: 0.833

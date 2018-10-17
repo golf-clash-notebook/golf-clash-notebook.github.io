@@ -1,6 +1,6 @@
-tournament-name: Easter Links
+tournamentName: Easter Links
 date: '2018-03-26'
-resource-creators:
+resourceCreators:
   - name: Golf Clash Tommy
     resources:
     - title: Weekend Round (Masters x2 & Expert)

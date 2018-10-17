@@ -1,10 +1,10 @@
 ---
 layout: gcn-layout
-title: "{{ page.tournament-name }} - Hole {{ page.number }}"
+title: "{{ page.tournamentName }} - Hole {{ page.number }}"
 section: "courses"
 ---
 
-{% assign tournamentPath = page.tournament-name | remove: " " | remove: "." | remove: "'" %}
+{% assign tournamentPath = page.tournamentName | remove: " " | remove: "." | remove: "'" %}
 
 {% assign tournament = site.data.tournaments[tournamentPath] %}
 {% assign numHoles = tournament.holes | size %}
@@ -201,16 +201,16 @@ section: "courses"
       </p>
     {% endif %}
 
-    {% if hole.resource-creators != undefined and hole.resource-creators != empty %}
+    {% if hole.resourceCreators != undefined and hole.resourceCreators != empty %}
       <hr class="hr-text text-large" data-content="Resources">
-      {% include resources/resources-list.liquid resources=hole.resource-creators iconSize='lg' hide-text-guides=hole.current-tournament %}
+      {% include resources/resources-list.liquid resources=hole.resourceCreators iconSize='lg' hide-text-guides=hole.current-tournament %}
     {% endif %}
 
     <hr class="hr-text text-large" data-content="Other Tournament Appearances">
 
     <div class="text-center">
       {% for tag in site.data.tournaments %}
-        {% if tag[1].tournament-name != page.tournament-name %}
+        {% if tag[1].tournamentName != page.tournamentName %}
           {% for tournamentHole in tag[1].holes %}
             {% if tournamentHole.id == hole.id %}
               <a class="tournament-appearance-link" href="/tournaments/{{ tag[0] }}/">

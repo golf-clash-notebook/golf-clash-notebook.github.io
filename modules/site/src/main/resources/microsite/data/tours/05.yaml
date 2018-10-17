@@ -1,5 +1,5 @@
 number: 5
-tour-name: World Links
+tourName: World Links
 courses:
   - name: Greenoch Point
   - name: Gokasho Bay
@@ -8,14 +8,14 @@ description: >
 resources:
   - title: Golf Clash Tommy - Tour 5 Guides
     url: https://www.youtube.com/watch?v=_P-7r14EfHM&list=PL8bCSk5yWdFLV3Q6AXs9QsoyN7z0fD1uN
-clan-points: 6
-tee-position: Front
-wind-min: 1
-wind-max: 9
-needle-speed: 10
+clanPoints: 6
+teePosition: Front
+windMin: 1
+windMax: 9
+needleSpeed: 10
 spin: Visible
-entry-fee: 10000
-max-trophies: 300
-trophies-per-win: 15
-trophies-per-loss: 10
-three-stake-special-cost: 200
+entryFee: 10000
+maxTrophies: 300
+trophiesPerWin: 15
+trophiesPerLoss: 10
+threeStakeSpecialCost: 200

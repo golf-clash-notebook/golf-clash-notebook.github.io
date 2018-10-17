@@ -1,6 +1,6 @@
-tournament-name: New York Classic
+tournamentName: New York Classic
 date: '2018-06-11'
-resource-creators:
+resourceCreators:
   - name: Golf Clash Tommy
     resources:
     - title: Masters Walkthrough

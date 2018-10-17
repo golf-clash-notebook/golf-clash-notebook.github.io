@@ -1,6 +1,6 @@
 name: Navigator
-wind-resistance: 2
-side-spin: 1
+windResistance: 2
+sideSpin: 1
 power: 1
 cost: 6.7
 description: >
@@ -9,4 +9,4 @@ description: >
   wind in those tours manageable and the small power boost will come in handy on many holes. You'll
   often want to switch between Navigator and Quasar depending on the wind but both are good
   choices...unlike your decision to overpower that drive and let it sail right into the heavy stuff.
-needle-speed: 0.750
+needleSpeed: 0.750

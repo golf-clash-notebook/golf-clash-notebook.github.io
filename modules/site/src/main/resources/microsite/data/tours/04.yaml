@@ -1,5 +1,5 @@
 number: 4
-tour-name: 6 Star Hotel
+tourName: 6 Star Hotel
 courses:
   - name: Parc de Paris
   - name: The Milano
@@ -8,14 +8,14 @@ description: >
 resources:
   - title: Golf Clash Tommy - Tour 4 Guides
     url: https://www.youtube.com/watch?v=8iDrg_KtfNk&list=PL8bCSk5yWdFITXHXYjnDlXGNRcEEA_ppP
-clan-points: 4
-tee-position: Front
-wind-min: 1
-wind-max: 7
-needle-speed: 6
+clanPoints: 4
+teePosition: Front
+windMin: 1
+windMax: 7
+needleSpeed: 6
 spin: Visible
-entry-fee: 3000
-max-trophies: 200
-trophies-per-win: 12
-trophies-per-loss: 8
-three-stake-special-cost: 78
+entryFee: 3000
+maxTrophies: 200
+trophiesPerWin: 12
+trophiesPerLoss: 8
+threeStakeSpecialCost: 78

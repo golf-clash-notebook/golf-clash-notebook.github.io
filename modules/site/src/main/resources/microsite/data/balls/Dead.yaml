@@ -1,6 +1,6 @@
 name: Dead
-wind-resistance: 3
-side-spin: 2
+windResistance: 3
+sideSpin: 2
 power: 4
 cost: n/a
 description: >
@@ -8,4 +8,4 @@ description: >
   finishers in the <a href="/tournaments/CreepyCliffs/">Creepy Cliffs</a> tournament. It ticks all
   the right boxes and doesn't have any real weaknesses (except the lag on your phone that pushes it
   into the drink). Happy hunting with this bad boy.
-needle-speed: 0.867
+needleSpeed: 0.867

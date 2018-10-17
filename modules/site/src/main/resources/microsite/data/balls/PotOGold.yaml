@@ -1,6 +1,6 @@
 name: Pot O Gold
-wind-resistance: 3
-side-spin: 3
+windResistance: 3
+sideSpin: 3
 power: 2
 cost: n/a
 description: >
@@ -8,4 +8,4 @@ description: >
   into the hall of fame it does make it a good ball for higher tour play, and it will definitely
   bring enough luck for your opponent to put their shot inside of yours on the shootout and make
   you run for that 3 stake special.
-needle-speed: 0.833
+needleSpeed: 0.833

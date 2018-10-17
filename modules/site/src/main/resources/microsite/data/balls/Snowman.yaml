@@ -1,6 +1,6 @@
 name: Snowman
-wind-resistance: 2
-side-spin: 3
+windResistance: 2
+sideSpin: 3
 power: 4
 cost: n/a
 description: >
@@ -8,4 +8,4 @@ description: >
   <a href="/tournaments/WinterLinks/">Winter Links</a> tournament. It's got a simliar spirit as the
   Berserker but tamed down a bit which makes it perfect for people like yourself who can't control
   their drives. You'll ideally play this one on holes with the wind behind you.
-needle-speed: 0.833
+needleSpeed: 0.833

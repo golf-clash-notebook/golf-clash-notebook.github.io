@@ -1,6 +1,6 @@
 name: Gear
-wind-resistance: 2
-side-spin: 1
+windResistance: 2
+sideSpin: 1
 power: 5
 cost: n/a
 description: >
@@ -8,4 +8,4 @@ description: >
   tournament. While you may not be able to pound this one down the fairway quite as far as a
   Globe or Berzerker, it offers you a much easier 2nd shot with the extra wind resistance it
   offers. Wind resistance isn't really your biggest problem though is it, Mr. Great Ball?
-needle-speed: 0.750
+needleSpeed: 0.750

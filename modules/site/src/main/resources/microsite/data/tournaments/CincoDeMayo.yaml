@@ -1,6 +1,6 @@
-tournament-name: Cinco De Mayo
+tournamentName: Cinco De Mayo
 date: '2018-04-30'
-resource-creators:
+resourceCreators:
   - name: Golf Clash Tommy
     resources:
     - title: Qualifying Round (Masters)

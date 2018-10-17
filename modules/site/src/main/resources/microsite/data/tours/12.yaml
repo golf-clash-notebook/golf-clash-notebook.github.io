@@ -1,5 +1,5 @@
 number: 12
-tour-name: Origin Links
+tourName: Origin Links
 courses:
   - name: Glenmonarch Estate
   - name: Greenoch Point
@@ -7,14 +7,14 @@ courses:
 description: >
   Help Wanted
 resources:
-clan-points: 30
-tee-position: Rear
-wind-min: 12
-wind-max: 22
-needle-speed: 70
+clanPoints: 30
+teePosition: Rear
+windMin: 12
+windMax: 22
+needleSpeed: 70
 spin: Hidden
-entry-fee: 30000000
-max-trophies: 1100
-trophies-per-win: 48
-trophies-per-loss: 54
-three-stake-special-cost: 4500
+entryFee: 30000000
+maxTrophies: 1100
+trophiesPerWin: 48
+trophiesPerLoss: 54
+threeStakeSpecialCost: 4500

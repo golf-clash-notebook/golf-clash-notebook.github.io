@@ -1,6 +1,6 @@
 name: Santa
-wind-resistance: 5
-side-spin: 3
+windResistance: 5
+sideSpin: 3
 power: 0
 cost: n/a
 description: >
@@ -8,4 +8,4 @@ description: >
   during the <a href="/tournaments/Christmas/">Christmas</a> tournament, and showed up as a prize
   for the Golden Shot around that time. Aside from the wind resistance, not a lot to get excited
   about...kind of like your short game.
-needle-speed: 0.750
+needleSpeed: 0.750

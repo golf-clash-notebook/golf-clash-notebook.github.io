@@ -1,6 +1,6 @@
-tournament-name: 1 Year Anniversary
+tournamentName: 1 Year Anniversary
 date: '2018-01-15'
-resource-creators:
+resourceCreators:
   - name: Golf Clash Tommy
     resources:
     - title: Weekend Round (Masters)

@@ -20,7 +20,7 @@ holes:
         clubs:
           - Sniper
           - Cataclysm
-    resource-creators:
+    resourceCreators:
       - name: Golf Clash Tommy
         resources:
         - title: Desert Open Guide & Tutorial - Rookie Division
@@ -138,7 +138,7 @@ holes:
     replayName: "4C"
     description: >
       Help Wanted
-    resource-creators:
+    resourceCreators:
       - name: Golf Clash Tommy
         resources:
         - title: Desert Open Guide & Tutorial - Rookie Division
@@ -168,7 +168,7 @@ holes:
     replayName: "3B"
     description: >
       Help Wanted
-    resource-creators:
+    resourceCreators:
       - name: Golf Clash Tommy
         resources:
         - title: Desert Open Guide & Tutorial - Rookie Division
@@ -214,7 +214,7 @@ holes:
     replayName: "4"
     description: >
       Help Wanted
-    resource-creators:
+    resourceCreators:
       - name: Golf Clash Tommy
         resources:
         - title: Desert Open Guide & Tutorial - Rookie Division
@@ -268,7 +268,7 @@ holes:
     replayName: "3"
     description: >
       Help Wanted
-    resource-creators:
+    resourceCreators:
       - name: Golf Clash Tommy
         resources:
         - title: Desert Open Guide & Tutorial - Rookie Division
@@ -296,7 +296,7 @@ holes:
     replayName: "5B"
     description: >
       Help Wanted
-    resource-creators:
+    resourceCreators:
       - name: Golf Clash Tommy
         resources:
         - title: Desert Open Guide & Tutorial - Rookie Division
@@ -320,7 +320,7 @@ holes:
     replayName: "3C"
     description: >
       Help Wanted
-    resource-creators:
+    resourceCreators:
       - name: Golf Clash Tommy
         resources:
         - title: Desert Open Guide & Tutorial - Rookie Division
@@ -344,7 +344,7 @@ holes:
     replayName: "4B"
     description: >
       Help Wanted
-    resource-creators:
+    resourceCreators:
       - name: Golf Clash Tommy
         resources:
         - title: Desert Open Guide & Tutorial - Rookie Division
@@ -376,7 +376,7 @@ holes:
     replayName: "5C"
     description: >
       Help Wanted
-    resource-creators:
+    resourceCreators:
       - name: Golf Clash Tommy
         resources:
         - title: Desert Open Guide & Tutorial - Rookie Division

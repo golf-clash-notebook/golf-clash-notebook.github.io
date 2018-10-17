@@ -1,10 +1,10 @@
 name: Labor Day
-wind-resistance: 3
-side-spin: 1
+windResistance: 3
+sideSpin: 1
 power: 3
 cost: n/a
 description: >
   This was part of a cash package offer during the <a href="/tournaments/LaborDay/">Labor Day</a>
   tournament. It's a very capable ball that excels in head winds and also excels at judging your
   'Great' chip as it lips out of the cup.
-needle-speed: 0.833
+needleSpeed: 0.833

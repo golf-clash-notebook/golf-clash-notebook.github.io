@@ -1,6 +1,6 @@
 name: Blue Marble
-wind-resistance: 1
-side-spin: 3
+windResistance: 1
+sideSpin: 3
 power: 4
 cost: n/a
 description: >
@@ -8,4 +8,4 @@ description: >
   as part of a cash package. It's a bit of a nerfed Berserker but still useful in tailwaind
   situations. If you look closely, you can see some of the clouds moving on the ball. Do you see
   it? Good! Now you've wasted a good 5 seconds that you could've used to hit a quality golf shot.
-needle-speed: 0.833
+needleSpeed: 0.833

@@ -1,6 +1,10 @@
-tournament-name: Metro Open
+tournamentName: Metro Open
 date: '2018-10-01'
-resource-creators:
+resourceCreators:
+  - name: Golf Clash Tommy
+    resources:
+    - title: Text Guides
+      url: https://imgur.com/a/RL3ETch
 holes:
   - number: 1
     id: 04a2e328-2680-46d9-8ea5-3429128c9dc6

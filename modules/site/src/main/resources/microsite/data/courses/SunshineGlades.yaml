@@ -20,7 +20,7 @@ holes:
         clubs:
           - Thor's Hammer
           - Quarterback
-    resource-creators:
+    resourceCreators:
       - name: Golf Clash Tommy
         resources:
         - title: Voyager - Rookie
@@ -138,7 +138,7 @@ holes:
       - level: Masters
         clubs:
           - Apocalypse
-    resource-creators:
+    resourceCreators:
       - name: Golf Clash Tommy
         resources:
         - title: Voyager - Rookie
@@ -209,7 +209,7 @@ holes:
       - level: Masters
         clubs:
           - Sniper
-    resource-creators:
+    resourceCreators:
       - name: Golf Clash Tommy
         resources:
         - title: Pro / Expert Guide
@@ -351,7 +351,7 @@ holes:
       - level: Masters
         clubs:
           - Cataclysm
-    resource-creators:
+    resourceCreators:
       - name: Golf Clash Tommy
         resources:
         - title: Voyager - Rookie

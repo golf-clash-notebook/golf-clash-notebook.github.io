@@ -1,6 +1,6 @@
 name: Pumpkin
-wind-resistance: 3
-side-spin: 3
+windResistance: 3
+sideSpin: 3
 power: 3
 cost: n/a
 description: >
@@ -8,4 +8,4 @@ description: >
   It was awarded to Pro, Expert and Masters top finishers in the
   <a href="/tournaments/HauntedHills/">Haunted Hills</a> tournament. When your opponent breaks one
   out, it's just another reminder of how much better they did in that tournament than you.
-needle-speed: 0.833
+needleSpeed: 0.833

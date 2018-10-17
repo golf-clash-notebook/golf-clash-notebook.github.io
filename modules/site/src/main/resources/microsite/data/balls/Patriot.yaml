@@ -1,10 +1,10 @@
 name: Patriot
-wind-resistance: 3
-side-spin: 1
+windResistance: 3
+sideSpin: 1
 power: 3
 cost: n/a
 description: >
   This was part a cash package during the <a href="/tournaments/4thOfJuly/">4th of July</a>
   tournament. It's identical to the Labor Day ball, which is enough to say it's a really good ball
   if you have it, and more than enough of an advantage for your opponent to put you down.
-needle-speed: 0.833
+needleSpeed: 0.833

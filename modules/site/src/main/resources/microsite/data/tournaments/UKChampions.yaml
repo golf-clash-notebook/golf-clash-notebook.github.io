@@ -1,6 +1,6 @@
-tournament-name: UK Champions
+tournamentName: UK Champions
 date: '2017-07-17'
-resource-creators:
+resourceCreators:
   - name: Golf Clash Tommy
     resources:
     - title: Weekend Round - Front 9

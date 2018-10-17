@@ -21,7 +21,7 @@ holes:
         clubs:
           - Thorn
           - Hornet
-    resource-creators:
+    resourceCreators:
       - name: Golf Clash Tommy
         resources:
         - title: Rookie Guide
@@ -132,7 +132,7 @@ holes:
     replayName: "3C"
     description: >
       Help Wanted
-    resource-creators:
+    resourceCreators:
       - name: Zachary Jones
         resources:
         - title: Tour 9 Shootout - Wind Pointed at 830
@@ -189,7 +189,7 @@ holes:
       - level: Masters
         clubs:
           - Cataclysm
-    resource-creators:
+    resourceCreators:
       - name: Golf Clash Tommy
         resources:
         - title: Rookie Guide
@@ -303,7 +303,7 @@ holes:
       - level: Masters
         clubs:
           - Guardian
-    resource-creators:
+    resourceCreators:
       - name: Golf Clash Tommy
         resources:
         - title: Platinum Resorts - Rookie
@@ -425,7 +425,7 @@ holes:
     replayName: "4B"
     description: >
       Help Wanted
-    resource-creators:
+    resourceCreators:
       - name: Golf Clash Tommy
         resources:
         - title: Rookie Guide - Labor Day (2018)
@@ -479,7 +479,7 @@ holes:
     replayName: "5C"
     description: >
       Help Wanted
-    resource-creators:
+    resourceCreators:
       - name: Golf Clash Tommy
         resources:
         - title: Rookie Guide - Labor Day (2018)
@@ -529,7 +529,7 @@ holes:
     replayName: "3B"
     description: >
       Help Wanted
-    resource-creators:
+    resourceCreators:
       - name: Golf Clash Tommy
         resources:
         - title: Rookie Guide - Labor Day (2018)
@@ -590,7 +590,7 @@ holes:
     replayName: "4C"
     description: >
       Help Wanted
-    resource-creators:
+    resourceCreators:
       - name: Golf Clash Tommy
         resources:
         - title: Platinum Resorts - Rookie
@@ -651,7 +651,7 @@ holes:
     number: 9
     par: 5
     replayName: "5B"
-    resource-creators:
+    resourceCreators:
       - name: Golf Clash Tommy
         resources:
         - title: Platinum Resorts - Rookie

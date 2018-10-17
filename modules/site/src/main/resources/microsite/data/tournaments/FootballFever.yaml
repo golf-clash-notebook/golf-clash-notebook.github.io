@@ -1,6 +1,6 @@
-tournament-name: Football Fever
+tournamentName: Football Fever
 date: '2018-06-25'
-resource-creators:
+resourceCreators:
 holes:
   - number: 1
     id: 726b08c9-a742-45bb-8050-62c552395bbd

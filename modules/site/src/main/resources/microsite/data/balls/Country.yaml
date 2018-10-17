@@ -1,6 +1,6 @@
 name: Country
-wind-resistance: 2
-side-spin: 3
+windResistance: 2
+sideSpin: 3
 power: 3
 cost: n/a
 description: >
@@ -9,4 +9,4 @@ description: >
   balls, they may be a bit expensive (500 gems per pack) for what they really are. But if you have
   them, they combine the best attributes of the Katana and Titan. Hopefully your country was
   available so you can let your opponent know which country has the worst Golf Clash players!
-needle-speed: 0.833
+needleSpeed: 0.833

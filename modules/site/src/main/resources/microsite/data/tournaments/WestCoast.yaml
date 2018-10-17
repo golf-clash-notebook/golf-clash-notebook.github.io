@@ -1,5 +1,6 @@
-tournament-name: West Coast
+tournamentName: West Coast
 date: '2017-06-12'
+resourceCreators:
 holes:
   - number: 1
     id: 1906dee0-0a85-4adc-adbf-acaff2bc3f6f
