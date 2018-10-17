@@ -1,6 +1,6 @@
 name: Jewel
-wind-resistance: 4
-side-spin: 0
+windResistance: 4
+sideSpin: 0
 power: 4
 cost: n/a
 description: >
@@ -9,4 +9,4 @@ description: >
   a serious limitation on this one so be prepared to use some curl. But it may be enough to tip the
   scales in your favor in a stiff headwind. Actually who are we kidding, you'll still find a way to
   mess it up!
-needle-speed: 0.833
+needleSpeed: 0.833

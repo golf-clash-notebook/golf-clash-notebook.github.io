@@ -1,6 +1,6 @@
 name: Eye
-wind-resistance: 5
-side-spin: 2
+windResistance: 5
+sideSpin: 2
 power: 1
 cost: n/a
 description: >
@@ -9,4 +9,4 @@ description: >
   need to use it with the right club since you won't be able to stretch a long iron into a hole
   built for a wood. And after you miss that wide open green with a Marlin come tournament time,
   I'll be waiting to tell you "Eye told you so".
-needle-speed: 0.750
+needleSpeed: 0.750

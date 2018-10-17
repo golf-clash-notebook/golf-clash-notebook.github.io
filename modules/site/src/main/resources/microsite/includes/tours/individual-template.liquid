@@ -7,7 +7,7 @@ section: "tours"
 {% assign numCourses = page.courses | size %}
 {% assign numClubs = page.clubs | size %}
 
-{% assign minimumGamesToMax = page.max-trophies | plus: 0.0 | divided_by: page.trophies-per-win | ceil %}
+{% assign minimumGamesToMax = page.maxTrophies | plus: 0.0 | divided_by: page.trophiesPerWin | ceil %}
 
 {% capture tourKeys %}
   {% for tag in site.data.tours %}
@@ -43,20 +43,20 @@ section: "tours"
     <div class="tour-stats-panel">
       <div class="row">
         <div class="col-md-4 col-xs-6 text-center">
-          <div class="text-large font-600"><img class="tour-rule-image" src="/img/golfclash/tours/rules/tee-{{ page.tee-position | downcase }}.png"></div>
-          <div class="text-small text-semi-muted">Tee Position: {{ page.tee-position }}</div>
+          <div class="text-large font-600"><img class="tour-rule-image" src="/img/golfclash/tours/rules/tee-{{ page.teePosition | downcase }}.png"></div>
+          <div class="text-small text-semi-muted">Tee Position: {{ page.teePosition }}</div>
         </div>
         <div class="col-md-4 col-xs-6 text-center">
           <div class="text-large font-600"><img class="tour-rule-image" src="/img/golfclash/tours/rules/wind-tour{{ page.number }}.png"></div>
-          <div class="text-small text-semi-muted">{{ page.wind-min }} - {{ page.wind-max }} MPH</div>
+          <div class="text-small text-semi-muted">{{ page.windMin }} - {{ page.windMax }} MPH</div>
         </div>
         <div class="col-md-4 col-xs-6 text-center">
-          <div class="text-large font-600"><img class="tour-rule-image" src="/img/golfclash/tours/rules/needle-plus{{ page.needle-speed }}.png"></div>
-          <div class="text-small text-semi-muted">Needle Speed: +{{ page.needle-speed }}%</div>
+          <div class="text-large font-600"><img class="tour-rule-image" src="/img/golfclash/tours/rules/needle-plus{{ page.needleSpeed }}.png"></div>
+          <div class="text-small text-semi-muted">Needle Speed: +{{ page.needleSpeed }}%</div>
         </div>
         <div class="col-md-4 col-md-offset-2 col-xs-6 col-xs-offset-0 text-center">
           <div class="text-large font-600"><img class="tour-rule-image" src="/img/golfclash/tours/rules/clan-points.png"></div>
-          <div class="text-small text-semi-muted">Clan Points / Win: {{ page.clan-points }}</div>
+          <div class="text-small text-semi-muted">Clan Points / Win: {{ page.clanPoints }}</div>
         </div>
         <div class="col-md-4 col-md-offset-0 col-xs-6 col-xs-offset-3 text-center">
           <div class="text-large font-600"><img class="tour-rule-image" src="/img/golfclash/tours/rules/spin-hidden.png"></div>
@@ -65,27 +65,27 @@ section: "tours"
       </div>
       <div class="row">
         <div class="col-md-4 col-xs-6 text-center">
-          <div class="text-large font-600">{{ page.entry-fee }}</div>
+          <div class="text-large font-600">{{ page.entryFee }}</div>
           <div class="text-small text-semi-muted">Entry Fee</div>
         </div>
         <div class="col-md-4 col-xs-6 text-center">
-          <div class="text-large font-600">{{ page.max-trophies }}</div>
+          <div class="text-large font-600">{{ page.maxTrophies }}</div>
           <div class="text-small text-semi-muted">Max Trophies</div>
         </div>
         <div class="col-md-4 col-xs-6 text-center">
-          {% if page.three-stake-special-cost > 0 %}
-            <div class="text-large font-600"><img src="/img/golfclash/other/Gem-24x24.png"> {{ page.three-stake-special-cost }}</div>
+          {% if page.threeStakeSpecialCost > 0 %}
+            <div class="text-large font-600"><img src="/img/golfclash/other/Gem-24x24.png"> {{ page.threeStakeSpecialCost }}</div>
           {% else %}
             <div class="text-large font-600">???</div>
           {% endif %}
           <div class="text-small text-semi-muted">3 Stake Special</div>
         </div>
         <div class="col-md-4 col-xs-6 text-center">
-          <div class="text-large font-600">{{ page.trophies-per-win }}</div>
+          <div class="text-large font-600">{{ page.trophiesPerWin }}</div>
           <div class="text-small text-semi-muted">Trophies / Win</div>
         </div>
         <div class="col-md-4 col-xs-6 text-center">
-          <div class="text-large font-600">{{ page.trophies-per-loss }}</div>
+          <div class="text-large font-600">{{ page.trophiesPerLoss }}</div>
           <div class="text-small text-semi-muted">Trophies / Loss</div>
         </div>
         <div class="col-md-4 col-xs-6 text-center">

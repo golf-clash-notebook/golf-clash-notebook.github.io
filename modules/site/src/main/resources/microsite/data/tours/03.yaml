@@ -1,5 +1,5 @@
 number: 3
-tour-name: Asia Pacific
+tourName: Asia Pacific
 courses:
   - name: Namhae Cliffs
   - name: Sakura Hills
@@ -8,14 +8,14 @@ description: >
 resources:
   - title: Golf Clash Tommy - Tour 3 Guides
     url: https://www.youtube.com/watch?v=WI_jyhHYghY&list=PL8bCSk5yWdFJ4oVDWRWIFECpFrJkn6RO9
-clan-points: 3
-tee-position: Front
-wind-min: 1
-wind-max: 5
-needle-speed: 4
+clanPoints: 3
+teePosition: Front
+windMin: 1
+windMax: 5
+needleSpeed: 4
 spin: Visible
-entry-fee: 800
-max-trophies: 100
-trophies-per-win: 9
-trophies-per-loss: 6
-three-stake-special-cost: -1
+entryFee: 800
+maxTrophies: 100
+trophiesPerWin: 9
+trophiesPerLoss: 6
+threeStakeSpecialCost: -1

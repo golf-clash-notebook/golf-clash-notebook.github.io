@@ -21,7 +21,7 @@ holes:
         clubs:
           - Quarterback
           - Thor's Hammer
-    resource-creators:
+    resourceCreators:
       - name: Golf Clash Tommy
         resources:
         - title: Rookie Guide
@@ -109,7 +109,7 @@ holes:
         clubs:
           - Backbone
           - Goliath
-    resource-creators:
+    resourceCreators:
       - name: Golf Clash Tommy
         resources:
         - title: Rookie Guide
@@ -204,7 +204,7 @@ holes:
         clubs:
           - Thor's Hammer
           - Apocalypse
-    resource-creators:
+    resourceCreators:
       - name: Golf Clash Tommy
         resources:
         - title: Pro / Expert Guide
@@ -346,7 +346,7 @@ holes:
       - level: Masters
         clubs:
           - Apocalypse
-    resource-creators:
+    resourceCreators:
       - name: Golf Clash Tommy
         resources:
         - title: Pro / Expert Guide
@@ -447,7 +447,7 @@ holes:
       - level: Masters
         clubs:
           - Goliath
-    resource-creators:
+    resourceCreators:
       - name: Golf Clash Tommy
         resources:
         - title: Rookie Guide
@@ -533,7 +533,7 @@ holes:
         clubs:
           - Guardian
           - Sniper
-    resource-creators:
+    resourceCreators:
       - name: Golf Clash Tommy
         resources:
         - title: Rookie Guide
@@ -612,7 +612,7 @@ holes:
         clubs:
           - Thorn
           - Hornet
-    resource-creators:
+    resourceCreators:
       - name: Golf Clash Tommy
         resources:
         - title: Rookie Guide
@@ -682,7 +682,7 @@ holes:
       - level: Masters
         clubs:
           - Cataclysm
-    resource-creators:
+    resourceCreators:
       - name: Golf Clash Tommy
         resources:
         - title: Rookie Guide
@@ -788,7 +788,7 @@ holes:
       - level: Masters
         clubs:
           - Cataclysm
-    resource-creators:
+    resourceCreators:
       - name: Golf Clash Tommy
         resources:
         - title: Pro / Expert Guide

@@ -1,6 +1,6 @@
 name: Oceania
-wind-resistance: 5
-side-spin: 3
+windResistance: 5
+sideSpin: 3
 power: 0
 cost: n/a
 description: >
@@ -8,4 +8,4 @@ description: >
   It's a fantastic ball when it comes to tournament Par 3's. Tons of wind resistance and all the
   side spin you need to work the ball in towards the pin. The only excuse you have for not making
   the HIO now, is you.
-needle-speed: 0.833
+needleSpeed: 0.833

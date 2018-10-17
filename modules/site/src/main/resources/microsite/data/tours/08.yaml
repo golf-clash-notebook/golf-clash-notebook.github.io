@@ -1,5 +1,5 @@
 number: 8
-tour-name: Mountain Tour
+tourName: Mountain Tour
 courses:
   - name: Glenmonarch Estate
   - name: Sakura Hills
@@ -9,14 +9,14 @@ description: >
 resources:
   - title: Golf Clash Tommy - Tour 8 Guides
     url: https://www.youtube.com/watch?v=J8IBSmJ3Bb8&list=PL8bCSk5yWdFL6lKb3eO_pampUD39Hojcc
-clan-points: 13
-tee-position: Middle
-wind-min: 4
-wind-max: 14
-needle-speed: 30
+clanPoints: 13
+teePosition: Middle
+windMin: 4
+windMax: 14
+needleSpeed: 30
 spin: Hidden
-entry-fee: 300000
-max-trophies: 700
-trophies-per-win: 22
-trophies-per-loss: 19
-three-stake-special-cost: 998
+entryFee: 300000
+maxTrophies: 700
+trophiesPerWin: 22
+trophiesPerLoss: 19
+threeStakeSpecialCost: 998

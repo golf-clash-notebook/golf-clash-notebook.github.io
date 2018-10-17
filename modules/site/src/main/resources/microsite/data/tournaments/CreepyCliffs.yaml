@@ -1,6 +1,6 @@
-tournament-name: Creepy Cliffs
+tournamentName: Creepy Cliffs
 date: '2017-10-23'
-resource-creators:
+resourceCreators:
   - name: Golf Clash Tommy
     resources:
     - title: Weekend Round

@@ -1,6 +1,6 @@
-tournament-name: California Classic
+tournamentName: California Classic
 date: '2017-11-06'
-resource-creators:
+resourceCreators:
   - name: Golf Clash Tommy
     resources:
     - title: Weekend Round

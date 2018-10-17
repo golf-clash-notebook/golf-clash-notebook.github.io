@@ -1,6 +1,6 @@
 name: Mummy
-wind-resistance: 4
-side-spin: 1
+windResistance: 4
+sideSpin: 1
 power: 3
 cost: n/a
 description: >
@@ -9,4 +9,4 @@ description: >
   package around the same time. Good for just about any situation, but you won't be able to take
   advantage of any tail wind, just like you couldn't take advantage of the sliced drive your
   opponent hit last game.
-needle-speed: 0.750
+needleSpeed: 0.750

@@ -1,6 +1,6 @@
 name: Turbo
-wind-resistance: 0
-side-spin: 2
+windResistance: 0
+sideSpin: 2
 power: 5
 cost: n/a
 description: >
@@ -8,4 +8,4 @@ description: >
   for purchase during the <a href="/tournaments/VegasSundown/">Vegas Sundown</a> tournament.
   Obviously suited for tailwind situations, save these balls for tournaments even if you can't
   save yourself out of the sand.
-needle-speed: 0.615
+needleSpeed: 0.615

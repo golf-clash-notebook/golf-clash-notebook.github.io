@@ -9,7 +9,7 @@ holes:
     description: >
       Help Wanted
     clubRecommendations:
-    resource-creators:
+    resourceCreators:
     overlays:
       size: [504, 811]
       guides:
@@ -33,7 +33,7 @@ holes:
       - level: Rookie
         clubs:
           - Rocket
-    resource-creators:
+    resourceCreators:
     overlays:
       size: [376, 828]
       guides:
@@ -59,7 +59,7 @@ holes:
       - level: Rookie
         clubs:
           - Rocket
-    resource-creators:
+    resourceCreators:
     overlays:
       size: [349, 905]
       guides:
@@ -82,7 +82,7 @@ holes:
     description: >
       Help Wanted
     clubRecommendations:
-    resource-creators:
+    resourceCreators:
     overlays:
       size: [373, 805]
       guides:

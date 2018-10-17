@@ -1,6 +1,6 @@
 name: Berserker
-wind-resistance: 1
-side-spin: 2
+windResistance: 1
+sideSpin: 2
 power: 5
 cost: n/a
 description: >
@@ -8,4 +8,4 @@ description: >
   birdies into easy eagles, and eagles into chip in albotrosses. Unfortunately, you'll only find
   them in large quantities as prizes in Masters tournaments or part of expensive Black Friday cash
   offers. On the bright side, they show up as prizes in the Golden shot from time to time.
-needle-speed: 0.833
+needleSpeed: 0.833

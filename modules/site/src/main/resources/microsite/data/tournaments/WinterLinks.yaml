@@ -1,6 +1,6 @@
-tournament-name: Winter Links
+tournamentName: Winter Links
 date: '2017-12-04'
-resource-creators:
+resourceCreators:
   - name: Golf Clash Tommy
     resources:
     - title: Weekend Round

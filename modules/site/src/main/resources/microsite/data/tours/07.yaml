@@ -1,5 +1,5 @@
 number: 7
-tour-name: Tropic Kings
+tourName: Tropic Kings
 courses:
   - name: Santa Ventura
   - name: The Oasis
@@ -9,14 +9,14 @@ description: >
 resources:
   - title: Golf Clash Tommy - Tour 7 Guides
     url: https://www.youtube.com/watch?v=y9CMtWuSCC4&list=PL8bCSk5yWdFLZfiQRU20feS3fIP7Mykjc
-clan-points: 10
-tee-position: Middle
-wind-min: 2
-wind-max: 12
-needle-speed: 20
+clanPoints: 10
+teePosition: Middle
+windMin: 2
+windMax: 12
+needleSpeed: 20
 spin: Hidden
-entry-fee: 100000
-max-trophies: 600
-trophies-per-win: 20
-trophies-per-loss: 16
-three-stake-special-cost: 883
+entryFee: 100000
+maxTrophies: 600
+trophiesPerWin: 20
+trophiesPerLoss: 16
+threeStakeSpecialCost: 883

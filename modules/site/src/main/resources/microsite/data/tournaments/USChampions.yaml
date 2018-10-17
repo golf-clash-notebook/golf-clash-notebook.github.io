@@ -1,6 +1,6 @@
-tournament-name: US Champions
+tournamentName: US Champions
 date: '2017-04-03'
-resources:
+resourceCreators:
 holes:
   - number: 1
     id: 35b5f6cf-916c-404d-9a57-aeb2ec0a693c

@@ -1,10 +1,10 @@
 ---
 layout: gcn-layout
-title:  "{{ page.tournament-name }}"
+title:  "{{ page.tournamentName }}"
 section: "tournaments"
 ---
 
-{% assign tournamentPath = page.tournament-name | remove: " " | remove: "." | remove: "'" %}
+{% assign tournamentPath = page.tournamentName | remove: " " | remove: "." | remove: "'" %}
 
 <img class="img-responsive img-center" src="/img/golfclash/tournaments/titles/{{ tournamentPath }}-550x200.png">
 
@@ -62,8 +62,8 @@ section: "tournaments"
 
       <hr class="hr-text text-large" data-content="Resources">
 
-      {% if page.resource-creators != undefined and page.resource-creators != empty %}
-        {% include resources/resources-list.liquid resources=page.resource-creators iconSize='lg' %}
+      {% if page.resourceCreators != undefined and page.resourceCreators != empty %}
+        {% include resources/resources-list.liquid resources=page.resourceCreators iconSize='lg' %}
       {% endif %}
 
       <div class="text-center margin-top-32">

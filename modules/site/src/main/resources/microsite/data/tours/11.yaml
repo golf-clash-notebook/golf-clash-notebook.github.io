@@ -1,5 +1,5 @@
 number: 11
-tour-name: Voyager Tour
+tourName: Voyager Tour
 courses:
   - name: City Park
   - name: Parc de Paris
@@ -10,14 +10,14 @@ description: >
 resources:
   - title: Golf Clash Tommy - Tour 11 Guides
     url: https://www.youtube.com/watch?v=-UH9ZYMr9a8&list=PL8bCSk5yWdFIBrU1zqwNSidZHCmS5UOpu
-clan-points: 24
-tee-position: Rear
-wind-min: 10
-wind-max: 20
-needle-speed: 60
+clanPoints: 24
+teePosition: Rear
+windMin: 10
+windMax: 20
+needleSpeed: 60
 spin: Hidden
-entry-fee: 10000000
-max-trophies: 1000
-trophies-per-win: 38
-trophies-per-loss: 42
-three-stake-special-cost: 4167
+entryFee: 10000000
+maxTrophies: 1000
+trophiesPerWin: 38
+trophiesPerLoss: 42
+threeStakeSpecialCost: 4167

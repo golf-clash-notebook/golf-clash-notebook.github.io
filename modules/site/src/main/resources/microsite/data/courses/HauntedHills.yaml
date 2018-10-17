@@ -20,7 +20,7 @@ holes:
         clubs:
           - Sniper
           - Quarterback
-    resource-creators:
+    resourceCreators:
       - name: Golf Clash Tommy
         resources:
         - title: Rookie Guide
@@ -115,7 +115,7 @@ holes:
         clubs:
           - Big Dawg
           - Cataclysm
-    resource-creators:
+    resourceCreators:
       - name: Golf Clash Tommy
         resources:
         - title: Rookie Guide
@@ -229,7 +229,7 @@ holes:
       - level: Masters
         clubs:
           - Sniper
-    resource-creators:
+    resourceCreators:
       - name: Golf Clash Tommy
         resources:
         - title: Rookie Guide
@@ -336,7 +336,7 @@ holes:
         clubs:
           - Big Dawg
           - Cataclysm
-    resource-creators:
+    resourceCreators:
       - name: Golf Clash Tommy
         resources:
         - title: Rookie Guide
@@ -426,7 +426,7 @@ holes:
         clubs:
           - Thorn
           - Hornet
-    resource-creators:
+    resourceCreators:
       - name: Golf Clash Tommy
         resources:
         - title: Rookie Guide
@@ -535,7 +535,7 @@ holes:
         clubs:
           - Thorn
           - Hornet
-    resource-creators:
+    resourceCreators:
       - name: Golf Clash Tommy
         resources:
         - title: Rookie Guide
@@ -635,7 +635,7 @@ holes:
         clubs:
           - Sniper
           - Quarterback
-    resource-creators:
+    resourceCreators:
       - name: Golf Clash Tommy
         resources:
         - title: Rookie Guide
@@ -725,7 +725,7 @@ holes:
         clubs:
           - Thorn
           - Saturn
-    resource-creators:
+    resourceCreators:
       - name: Golf Clash Tommy
         resources:
         - title: Rookie Guide
@@ -800,7 +800,7 @@ holes:
         clubs:
           - Big Dawg
           - Cataclysm
-    resource-creators:
+    resourceCreators:
       - name: Golf Clash Tommy
         resources:
         - title: Rookie Guide

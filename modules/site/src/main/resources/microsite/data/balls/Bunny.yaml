@@ -1,6 +1,6 @@
 name: Bunny
-wind-resistance: 4
-side-spin: 1
+windResistance: 4
+sideSpin: 1
 power: 3
 cost: n/a
 description: >
@@ -9,4 +9,4 @@ description: >
   headwind to get your moneys worth. Pull it out in the tournament on a par 3 and watch as it hops
   into the hole. Not the regulation hole, the shootout hole. Because you need a little more
   aggravation in your life.
-needle-speed: 0.750
+needleSpeed: 0.750

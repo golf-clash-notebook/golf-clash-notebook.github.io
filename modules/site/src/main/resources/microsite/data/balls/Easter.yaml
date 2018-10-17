@@ -1,10 +1,10 @@
 name: Easter
-wind-resistance: 2
-side-spin: 3
+windResistance: 2
+sideSpin: 3
 power: 2
 cost: n/a
 description: >
   This is a reskinned Katana so it's a pretty decent ball that you should probably save for
   situational holes where side spin is a must. Despite it's egg like appearance, it doesn't crack
   as easily as you do on the last hole of a tournament with a 15 foot putt to bring home the gold.
-needle-speed: 0.833
+needleSpeed: 0.833

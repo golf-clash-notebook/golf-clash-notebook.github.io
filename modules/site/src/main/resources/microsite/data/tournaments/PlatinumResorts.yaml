@@ -1,6 +1,6 @@
-tournament-name: Platinum Resorts
+tournamentName: Platinum Resorts
 date: '2018-10-15'
-resource-creators:
+resourceCreators:
   - name: Golf Clash Tommy
     resources:
     - title: Rookie Playthrough

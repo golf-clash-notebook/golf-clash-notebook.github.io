@@ -1,6 +1,6 @@
-tournament-name: Club Oceania
+tournamentName: Club Oceania
 date: '2018-08-06'
-resource-creators:
+resourceCreators:
   - name: Golf Clash Tommy
     resources:
     - title: Guides - Rookie

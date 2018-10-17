@@ -195,9 +195,9 @@ section: "courses"
       </p>
     {% endif %}
 
-    {% if hole.resource-creators != undefined and hole.resource-creators != empty %}
+    {% if hole.resourceCreators != undefined and hole.resourceCreators != empty %}
       <hr class="hr-text text-large" data-content="Resources">
-      {% include resources/resources-list.liquid resources=page.resource-creators iconSize='lg' hide-text-guides=hole.current-tournament %}
+      {% include resources/resources-list.liquid resources=page.resourceCreators iconSize='lg' hide-text-guides=hole.current-tournament %}
     {% endif %}
 
     <hr class="hr-text text-large" data-content="Tournament Appearances">

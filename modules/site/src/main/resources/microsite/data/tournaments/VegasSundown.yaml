@@ -1,6 +1,6 @@
-tournament-name: Vegas Sundown
+tournamentName: Vegas Sundown
 date: '2018-05-28'
-resource-creators:
+resourceCreators:
 holes:
   - number: 1
     id: 03464ae3-a556-49ee-8526-b8b6d57450ab

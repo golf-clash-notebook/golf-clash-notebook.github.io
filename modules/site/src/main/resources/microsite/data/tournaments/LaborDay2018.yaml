@@ -1,6 +1,6 @@
-tournament-name: Labor Day 2018
+tournamentName: Labor Day 2018
 date: '2018-09-03'
-resource-creators:
+resourceCreators:
   - name: Golf Clash Tommy
     resources:
     - title: Rookie Playthrough

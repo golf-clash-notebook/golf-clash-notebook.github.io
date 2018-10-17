@@ -1,6 +1,6 @@
 name: Katana
-wind-resistance: 2
-side-spin: 3
+windResistance: 2
+sideSpin: 3
 power: 2
 cost: 20
 description: >
@@ -9,4 +9,4 @@ description: >
   critical on certain shootouts and if your opponent has less, you'll have a definite advantage. If
   you're willing to spend money in the game, the 'Fail to Qualify' tournament offers give you a
   nice way to stock up on these. And who are we kidding, you always fail to qualify!
-needle-speed: 0.833
+needleSpeed: 0.833

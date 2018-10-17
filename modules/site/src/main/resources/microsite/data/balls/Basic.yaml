@@ -1,6 +1,6 @@
 name: Basic
-wind-resistance: 0
-side-spin: 0
+windResistance: 0
+sideSpin: 0
 power: 0
 cost: 0
 description: >
@@ -8,4 +8,4 @@ description: >
   tours and ideally until Tour 7 unless you're really running into problems. With the basic ball,
   what you see is what you get, and that's not much but we love it because it's simple, reliable and
   always willing to be our friend in spite of how bad we played in the Christmas tournament.
-needle-speed: 0.700
+needleSpeed: 0.700

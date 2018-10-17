@@ -1,18 +1,18 @@
 number: 1
-tour-name: Beginner
+tourName: Beginner
 courses:
   - name: Meadow Castle
 description: >
   Help Wanted
 resources:
-clan-points: 1
-tee-position: Front
-wind-min: 1
-wind-max: 2
-needle-speed: 0
+clanPoints: 1
+teePosition: Front
+windMin: 1
+windMax: 2
+needleSpeed: 0
 spin: Visible
-entry-fee: 50
-max-trophies: 20
-trophies-per-win: 3
-trophies-per-loss: 2
-three-stake-special-cost: -1
+entryFee: 50
+maxTrophies: 20
+trophiesPerWin: 3
+trophiesPerLoss: 2
+threeStakeSpecialCost: -1

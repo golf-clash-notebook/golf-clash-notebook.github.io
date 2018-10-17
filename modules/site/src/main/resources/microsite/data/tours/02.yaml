@@ -1,5 +1,5 @@
 number: 2
-tour-name: West Coast
+tourName: West Coast
 courses:
   - name: Juniper Point
   - name: Santa Ventura
@@ -8,14 +8,14 @@ description: >
 resources:
   - title: Golf Clash Tommy - Tour 2 Guides
     url: https://www.youtube.com/watch?v=IvlQP8lpY6k&list=PL8bCSk5yWdFJuuwCTLz3UxjartN0wlRBv
-clan-points: 2
-tee-position: Front
-wind-min: 1
-wind-max: 3
-needle-speed: 2
+clanPoints: 2
+teePosition: Front
+windMin: 1
+windMax: 3
+needleSpeed: 2
 spin: Visible
-entry-fee: 200
-max-trophies: 50
-trophies-per-win: 6
-trophies-per-loss: 4
-three-stake-special-cost: -1
+entryFee: 200
+maxTrophies: 50
+trophiesPerWin: 6
+trophiesPerLoss: 4
+threeStakeSpecialCost: -1

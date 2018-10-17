@@ -1,6 +1,6 @@
-tournament-name: 4th Of July
+tournamentName: 4th Of July
 date: '2017-07-03'
-resource-creators:
+resourceCreators:
   - name: Golf Clash Tommy
     resources:
     - title: Opening Round - Front 9

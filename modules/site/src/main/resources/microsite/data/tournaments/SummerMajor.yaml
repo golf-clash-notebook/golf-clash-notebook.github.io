@@ -1,6 +1,6 @@
-tournament-name: Summer Major
+tournamentName: Summer Major
 date: '2018-08-20'
-resource-creators:
+resourceCreators:
   - name: Golf Clash Tommy
     resources:
     - title: Rookie Playthrough

@@ -1,6 +1,6 @@
-tournament-name: Sakura Classic
+tournamentName: Sakura Classic
 date: '2017-08-21'
-resource-creators:
+resourceCreators:
   - name: Golf Clash Tommy
     resources:
     - title: Weekend Round - Front 9

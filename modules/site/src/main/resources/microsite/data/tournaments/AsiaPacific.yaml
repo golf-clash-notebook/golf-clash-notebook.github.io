@@ -1,5 +1,6 @@
-tournament-name: Asia Pacific
+tournamentName: Asia Pacific
 date: '2017-05-22'
+resourceCreators:
 holes:
   - number: 1
     id: ee1e67ec-30e7-4605-99cd-0c1b709c1035
