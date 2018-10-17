@@ -2,13 +2,4 @@
 layout: null
 ---
 
-[
-  {% for hole in site.data.courses.GreenochPoint.holes %}
-    {
-      "id": "{{ hole.id }}",
-      "course": "{{ hole.course }}",
-      "number": {{ hole.number }},
-      "par": {{ hole.par }}
-    }{% if forloop.rindex > 1 %},{% endif %}
-  {% endfor %}
-]
+{{ site.data.courses.GreenochPoint | jsonify }}

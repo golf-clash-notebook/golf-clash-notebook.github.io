@@ -6,6 +6,6 @@ layout: null
 
 [
   {% for course in courses %}
-    "{{ course.course-name }}"{% if forloop.rindex > 1 %},{% endif %}
+    "{{ course.courseName }}"{% if forloop.rindex > 1 %},{% endif %}
   {% endfor %}
 ]

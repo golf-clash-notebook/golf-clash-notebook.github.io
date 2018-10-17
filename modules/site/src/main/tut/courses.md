@@ -23,7 +23,7 @@ position: 30
     {% for courseKey in sortedKeys %}
 
       {% assign course = site.data.courses[courseKey] %}
-      {% assign coursePath = course.course-name | remove: " " | remove: "'" %}
+      {% assign coursePath = course.courseName | remove: " " | remove: "'" %}
 
       {% capture columnClasses %}
         {% if mod3 == 1 and forloop.last %}
@@ -43,7 +43,7 @@ position: 30
         <div class="panel panel-default gcn-card">
           <div class="panel-heading">
             <a href="/courses/{{ coursePath }}/">
-              {{ course.course-name }}
+              {{ course.courseName }}
             </a>
           </div>
           <div class="panel-body">

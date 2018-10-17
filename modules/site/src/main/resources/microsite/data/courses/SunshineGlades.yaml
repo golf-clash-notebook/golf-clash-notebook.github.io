@@ -1,11 +1,11 @@
-course-name: Sunshine Glades
+courseName: Sunshine Glades
 skinned: false
 holes:
   - id: f30c2f43-c8dc-4762-bc7b-77b6d196d0e2
     course: Sunshine Glades
     number: 1
     par: 3
-    replay-name: 3
+    replayName: "3"
     description: >
       Help Wanted
     clubRecommendations:
@@ -124,7 +124,7 @@ holes:
     course: Sunshine Glades
     number: 2
     par: 4
-    replay-name: 4
+    replayName: "4"
     description: >
       Help Wanted
     clubRecommendations:
@@ -195,7 +195,7 @@ holes:
     course: Sunshine Glades
     number: 3
     par: 5
-    replay-name: 5
+    replayName: "5"
     description: >
       Help Wanted
     clubRecommendations:
@@ -337,7 +337,7 @@ holes:
     course: Sunshine Glades
     number: 4
     par: 5
-    replay-name: 5B
+    replayName: "5B"
     description: >
       Help Wanted
     clubRecommendations:

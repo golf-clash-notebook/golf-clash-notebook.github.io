@@ -1,16 +1,16 @@
 ---
 layout: gcn-layout
-title:  "{{ page.course-name }}"
+title:  "{{ page.courseName }}"
 section: "courses"
 ---
 
-{% assign coursePath = page.course-name | remove: " " %}
+{% assign coursePath = page.courseName | remove: " " %}
 
 {% assign numHoles = page.holes | size %}
 {% assign mod2 = page.holes | size | modulo: 2 %}
 {% assign mod3 = page.holes | size | modulo: 3 %}
 
-<p class="lead text-center">{{ page.course-name }}</p>
+<p class="lead text-center">{{ page.courseName }}</p>
 
 <div class="row">
 
@@ -36,7 +36,7 @@ section: "courses"
         <div class="panel panel-default">
           <div class="panel-heading">
             <a href="/courses/{{ coursePath }}/{{ hole.number }}/">
-              Hole {{ hole.number }} - Par {{ hole.par }} ({{ hole.replay-name }})
+              Hole {{ hole.number }} - Par {{ hole.par }} ({{ hole.replayName }})
             </a>
           </div>
           <div class="panel-body">

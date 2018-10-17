@@ -14,7 +14,7 @@ page_gen:
   - index_files: true
     data: 'courses'
     template: '_includes/courses/individual-template.liquid'
-    name: 'course-name'
+    name: 'courseName'
     dir: 'courses'
 
   ##### Course Note Sheets #####
@@ -22,7 +22,7 @@ page_gen:
   - index_files: true
     data: 'courses'
     template: '_includes/courses/notes-template.liquid'
-    name: 'course-name'
+    name: 'courseName'
     dir: 'courses/notesheets'
     extra:
       title-suffix: ' Notesheet'

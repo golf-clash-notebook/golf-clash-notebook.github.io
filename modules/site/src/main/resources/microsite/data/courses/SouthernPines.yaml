@@ -1,4 +1,4 @@
-course-name: Southern Pines
+courseName: Southern Pines
 skinned: false
 holes:
   - id: 35b5f6cf-916c-404d-9a57-aeb2ec0a693c
@@ -6,7 +6,7 @@ holes:
     course: Southern Pines
     number: 1
     par: 4
-    replay-name: 4C
+    replayName: "4C"
     description: >
       Help Wanted
     clubRecommendations:
@@ -130,7 +130,7 @@ holes:
     course: Southern Pines
     number: 2
     par: 3
-    replay-name: 3
+    replayName: "3"
     description: >
       Help Wanted
     clubRecommendations:
@@ -253,7 +253,7 @@ holes:
     course: Southern Pines
     number: 3
     par: 4
-    replay-name: 4
+    replayName: "4"
     description: >
       Help Wanted
     clubRecommendations:
@@ -399,7 +399,7 @@ holes:
     course: Southern Pines
     number: 4
     par: 5
-    replay-name: 5B
+    replayName: "5B"
     description: >
       Help Wanted
     clubRecommendations:
@@ -568,7 +568,7 @@ holes:
     course: Southern Pines
     number: 5
     par: 5
-    replay-name: 5C
+    replayName: "5C"
     description: >
       Help Wanted
     clubRecommendations:
@@ -671,7 +671,7 @@ holes:
     course: Southern Pines
     number: 6
     par: 3
-    replay-name: 3B
+    replayName: "3B"
     description: >
       Help Wanted
     clubRecommendations:
@@ -762,7 +762,7 @@ holes:
     course: Southern Pines
     number: 7
     par: 4
-    replay-name: 4B
+    replayName: "4B"
     description: >
       <span class="text-danger">BEWARE! The green slopes <strong><em>severely</em></strong> right
       to left so keep your approach shot to the right!</span>
@@ -896,7 +896,7 @@ holes:
     course: Southern Pines
     number: 8
     par: 5
-    replay-name: 5
+    replayName: "5"
     description: >
       Help Wanted
     clubRecommendations:
@@ -1013,7 +1013,7 @@ holes:
     course: Southern Pines
     number: 9
     par: 3
-    replay-name: 3C
+    replayName: "3C"
     description: >
       Help Wanted
     clubRecommendations:
