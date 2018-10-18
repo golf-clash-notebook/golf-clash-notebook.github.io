@@ -101,7 +101,7 @@ section: "tours"
           {% for course in page.courses %}
             {% assign coursePath = course.name | remove: " " | remove: "'" %}
             <a class="tour-course" href="/courses/{{ coursePath }}/">
-              <img src="/img/golfclash/courses/{{ coursePath }}/thumb.png" alt="{{ courseName }}">
+              <img class="img-responsive img-rounded" src="/img/golfclash/courses/{{ coursePath }}/scenic-thumb.png" alt="{{ courseName }}">
             </a>
             <div class="tour-course-caption text-tiny text-center text-semi-muted">{{ course.name }}</div>
             {% if forloop.rindex > 1 %}

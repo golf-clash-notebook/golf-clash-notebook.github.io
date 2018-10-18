@@ -10,7 +10,7 @@
 |  Common  |   2   |   6  |          |
 |  Common  |   2   |   7  |          |
 |  Common  |   3   |   1  |          |
-|  Common  |   3   |   2  |          |
+|  Common  |   3   |   2  |     800  |
 |  Common  |   3   |   3  |          |
 |  Common  |   3   |   4  |          |
 |  Common  |   3   |   5  |          |
@@ -24,14 +24,14 @@
 |  Common  |   4   |   6  |          |
 |  Common  |   4   |   7  |          |
 |  Common  |   5   |   1  |    1600  |
-|  Common  |   5   |   2  |          |
+|  Common  |   5   |   2  |    2700  |
 |  Common  |   5   |   3  |          |
 |  Common  |   5   |   4  |          |
 |  Common  |   5   |   5  |          |
 |  Common  |   5   |   6  |          |
 |  Common  |   5   |   7  |          |
 |  Common  |   6   |   1  |          |
-|  Common  |   6   |   2  |          |
+|  Common  |   6   |   2  |    4300  |
 |  Common  |   6   |   3  |          |
 |  Common  |   6   |   4  |          |
 |  Common  |   6   |   5  |          |
@@ -56,7 +56,7 @@
 |  Common  |   9   |   3  |          |
 |  Common  |   9   |   4  |          |
 |  Common  |   9   |   5  |          |
-|  Common  |   9   |   6  |          |
+|  Common  |   9   |   6  |   86000  |
 |  Common  |   9   |   7  |          |
 |  Common  |  10   |   1  |          |
 |  Common  |  10   |   2  |          |
@@ -140,7 +140,7 @@
 |   Epic   |   5   |   3  |          |
 |   Epic   |   5   |   4  |          |
 |   Epic   |   5   |   5  |          |
-|   Epic   |   5   |   6  |          |
+|   Epic   |   5   |   6  |   43000  |
 |   Epic   |   5   |   7  |          |
 |   Epic   |   6   |   1  |          |
 |   Epic   |   6   |   2  |          |
