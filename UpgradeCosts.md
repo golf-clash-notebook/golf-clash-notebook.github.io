@@ -17,7 +17,7 @@
 |  Common  |   3   |   6  |          |
 |  Common  |   3   |   7  |          |
 |  Common  |   4   |   1  |     800  |
-|  Common  |   4   |   2  |          |
+|  Common  |   4   |   2  |    1600  |
 |  Common  |   4   |   3  |          |
 |  Common  |   4   |   4  |          |
 |  Common  |   4   |   5  |          |
@@ -66,7 +66,7 @@
 |  Common  |  10   |   6  |          |
 |  Common  |  10   |   7  |          |
 |   Rare   |   2   |   1  |          |
-|   Rare   |   2   |   2  |          |
+|   Rare   |   2   |   2  |     340  |
 |   Rare   |   2   |   3  |          |
 |   Rare   |   2   |   4  |          |
 |   Rare   |   2   |   5  |          |
