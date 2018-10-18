@@ -48,7 +48,7 @@ position: 30
           </div>
           <div class="panel-body">
             <a href="/courses/{{ coursePath }}/">
-              <img class="img-responsive img-center" src="/img/golfclash/courses/{{ coursePath }}/thumb.png">
+              <img class="img-responsive img-center img-rounded" src="/img/golfclash/courses/{{ coursePath }}/scenic-thumb.png">
             </a>
           </div>
         </div>
