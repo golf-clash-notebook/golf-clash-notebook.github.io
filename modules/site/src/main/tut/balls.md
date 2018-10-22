@@ -59,10 +59,10 @@ position: 50
       While each ball has the same needle speed for regular powered shots (shots with the ball
       pulled back to the center of the circle or less), different balls have different needle speeds
       when you try to overpower your shot. Here you can find that speed for each ball in the game.
-      The number listed is the number of swings the needle makes in 1 second. So a ball with an full
-      OP needle speed of 1.63 will make a little over one and a half swings in one second while a
-      ball with a full OP needle speed of 1.15 will only make a little over one full swing so it's
-      significantly slower in those situations.
+      The number listed is the number of swings the needle makes in 1 second <strong>(lower is
+      slower)</strong>. So a ball with an full OP needle speed of 1.63 will make a little over one
+      and a half swings in one second while a ball with a full OP needle speed of 1.15 will only
+      make a little over one full swing so it's significantly slower in those situations.
     </p>
 
     <p class="text-content">
