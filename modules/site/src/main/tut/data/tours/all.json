@@ -1,0 +1,9 @@
+---
+layout: null
+---
+
+[
+  {% for tour in site.data.tours %}
+    {{ tour[1] | jsonify }}{% if forloop.rindex > 1 %},{% endif %}
+  {% endfor %}
+]
