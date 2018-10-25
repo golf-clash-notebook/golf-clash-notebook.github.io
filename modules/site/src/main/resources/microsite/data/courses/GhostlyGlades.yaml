@@ -1,0 +1,75 @@
+courseName: Ghostly Glades
+skinned: true
+holes:
+  - id: 21f404c6-731c-4f6b-beb6-fb84ea7038f6
+    course: Ghostly Glades
+    number: 1
+    par: 4
+    replayName: "4"
+    description: >
+      Help Wanted
+    resourceCreators:
+  - id: 91e0b426-4747-4351-827e-7eb721a77f13
+    course: Ghostly Glades
+    number: 2
+    par: 3
+    replayName:  "3B"
+    description: >
+      Help Wanted
+    resourceCreators:
+  - id: 776a435e-60b4-4ced-8214-312baf3e2456
+    course: Ghostly Glades
+    number: 3
+    par: 5
+    replayName:  "5"
+    description: >
+      Help Wanted
+    resourceCreators:
+  - id: e419e731-7c51-4a85-9646-24ce271d75d2
+    course: Ghostly Glades
+    number: 4
+    par: 4
+    replayName:  "4C"
+    description: >
+      Help Wanted
+    resourceCreators:
+  - id: 7dc4a073-9b0e-4457-8a8e-ba36bcdec6b8
+    course: Ghostly Glades
+    number: 5
+    par: 3
+    replayName:  "3"
+    description: >
+      Help Wanted
+    resourceCreators:
+  - id: ee3a1a95-aa30-48f3-8634-9fde34a5b2f8
+    course: Ghostly Glades
+    number: 6
+    par: 5
+    replayName: "5B"
+    description: >
+      Help Wanted
+    resourceCreators:
+  - id: c664e881-a81b-4a3a-9927-12919caab72e
+    course: Ghostly Glades
+    number: 7
+    par: 4
+    replayName:  "4B"
+    description: >
+      Help Wanted
+    resourceCreators:
+  - id: 2ddb097d-59c4-4d41-9311-4e6603a933c5
+    course: Ghostly Glades
+    number: 8
+    par: 3
+    replayName:  "3C"
+    description: >
+      Help Wanted
+    resourceCreators:
+  - id: 68e49827-efb0-4926-aec0-99b0a6e16ccb
+    course: Ghostly Glades
+    number: 9
+    par: 5
+    replayName: "5C"
+    description: >
+      Help Wanted
+    resourceCreators:
