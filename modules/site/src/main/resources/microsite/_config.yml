@@ -93,6 +93,13 @@ page_gen:
     extra:
       title-prefix: 'Glenmonarch Estate - Hole '
   - index_files: true
+    data: 'courses.GhostlyGlades.holes'
+    template: '_includes/courses/hole-template.liquid'
+    name: 'number'
+    dir: 'courses/GhostlyGlades'
+    extra:
+      title-prefix: 'Ghostly Glades - Hole '
+  - index_files: true
     data: 'courses.GokashoBay.holes'
     template: '_includes/courses/hole-template.liquid'
     name: 'number'
@@ -509,3 +516,11 @@ page_gen:
     extra:
       title-prefix: 'Platinum Resorts Tournament - Hole '
       tournamentName: 'Platinum Resorts'
+  - index_files: true
+    data: 'tournaments.GhostlyGlades.holes'
+    template: '_includes/tournaments/hole-template.liquid'
+    name: 'number'
+    dir: 'tournaments/GhostlyGlades'
+    extra:
+      title-prefix: 'Ghostly Glades Tournament - Hole '
+      tournamentName: 'Ghostly Glades'

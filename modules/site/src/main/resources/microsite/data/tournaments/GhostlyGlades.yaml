@@ -2,3 +2,21 @@ tournamentName: Ghostly Glades
 date: '2018-10-29'
 resourceCreators:
 holes:
+  - number: 1
+    id: 21f404c6-731c-4f6b-beb6-fb84ea7038f6
+  - number: 2
+    id: 91e0b426-4747-4351-827e-7eb721a77f13
+  - number: 3
+    id: 776a435e-60b4-4ced-8214-312baf3e2456
+  - number: 4
+    id: e419e731-7c51-4a85-9646-24ce271d75d2
+  - number: 5
+    id: 7dc4a073-9b0e-4457-8a8e-ba36bcdec6b8
+  - number: 6
+    id: ee3a1a95-aa30-48f3-8634-9fde34a5b2f8
+  - number: 7
+    id: c664e881-a81b-4a3a-9927-12919caab72e
+  - number: 8
+    id: 2ddb097d-59c4-4d41-9311-4e6603a933c5
+  - number: 9
+    id: 68e49827-efb0-4926-aec0-99b0a6e16ccb
