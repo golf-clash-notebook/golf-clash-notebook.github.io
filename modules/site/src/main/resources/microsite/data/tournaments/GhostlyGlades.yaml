@@ -1,6 +1,22 @@
 tournamentName: Ghostly Glades
 date: '2018-10-29'
 resourceCreators:
+  - name: Golf Clash Tommy
+    resources:
+    - title: Rookie Playthrough
+      url: https://youtu.be/BoV3JvKfo20
+    - title: Pro Playthrough
+      url: https://youtu.be/oJykWOO8dEU
+    - title: Club Guide
+      url: https://youtu.be/kGb_IgjaBLc
+    - title: Text Guides
+      url: https://imgur.com/a/kKmQony
+  - name: Jesse Both
+    resources:
+    - title: Rookie Walkthrough
+      url: https://youtu.be/naMvlWw0X-E
+    - title: Pro / Expert Walkthrough
+      url: https://youtu.be/9GXotgdQdnQ
 holes:
   - number: 1
     id: 21f404c6-731c-4f6b-beb6-fb84ea7038f6
