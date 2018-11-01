@@ -1,6 +1,7 @@
 - id: 4789d390-12e1-466c-8602-44e652397900
   name: Beginner Rough Iron
   category: RoughIrons
+  tour: 0
   type: Beginner
   description: >
     The rough iron you're stuck with until you can unlock the Roughcutter.
@@ -13,6 +14,7 @@
 - id: 9450a048-3278-49b9-b7e1-75dfbb8aa86a
   name: The Roughcutter
   category: RoughIrons
+  tour: 1
   type: Rare
   description: >
     The Roughcutter is an okay way to start your long lived affair with the rough. While it really
@@ -27,6 +29,7 @@
 - id: 19baa92d-125c-4837-aa4b-6b33fc82eb6f
   name: The Junglist
   category: RoughIrons
+  tour: 2
   type: Epic
   description: >
     While The Junglist has plenty of extra distance, the accuracy should give you pause since you
@@ -42,6 +45,7 @@
 - id: db327b65-9f5c-4ad9-80f3-2ca867380527
   name: The Machete
   category: RoughIrons
+  tour: 3
   type: Common
   description: >
     This is a situational club for sure. Save it for tournament holes where you may end up in the
@@ -57,6 +61,7 @@
 - id: 40230c1a-93ba-4c2f-9adc-4eea5d585ec8
   name: The Off Roader
   category: RoughIrons
+  tour: 4
   type: Epic
   description: >
     The Off Roader is not a bad option if you manage to unlock it early. Compared to The
@@ -72,6 +77,7 @@
 - id: 5b0b8e3c-eac0-486b-be54-3a7a7d32f3c1
   name: The Razor
   category: RoughIrons
+  tour: 5
   type: Rare
   description: >
     The Razor is a very popular choice because of it's combination of accuracy and ball guide. With
@@ -87,6 +93,7 @@
 - id: 894145ab-d321-45a4-94b2-2490a140d249
   name: The Amazon
   category: RoughIrons
+  tour: 6
   type: Epic
   description: >
     Use The Amazon when distance out of the rough is the absolute most important thing you need.
@@ -102,6 +109,7 @@
 - id: 07fd10d8-198c-4c9e-bfd0-cbef5647be70
   name: Nirvana
   category: RoughIrons
+  tour: 7
   type: Rare
   description: >
     This is the rough iron that you should be aiming to get and build up. At level 4, there's a good

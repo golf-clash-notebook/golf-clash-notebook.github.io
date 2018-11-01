@@ -2,6 +2,14 @@
 {% assign clubPath = include.club.name | remove: "The" | remove: " " | remove: "'" %}
 {% assign maxLevel = include.club.power | size %}
 
+{% assign tour1Upgrades = "100 340 800 1600 2700 4300 6400 9200 13000" | split: ' ' %}
+{% assign tour2Upgrades = "340 800 1600 2700 4300 6400 9200 13000 17000" | split: ' ' %}
+{% assign tour3Upgrades = "1600 2700 4300 6400 9200 13000 17000 22000 28000" | split: ' ' %}
+{% assign tour4Upgrades = "4300 6400 9200 13000 17000 22000 28000 35000 43000" | split: ' ' %}
+{% assign tour5Upgrades = "9200 13000 17000 22000 28000 35000 43000 52000 62000" | split: ' ' %}
+{% assign tour6Upgrades = "22000 28000 35000 43000 52000 62000 73000 86000 100000" | split: ' ' %}
+{% assign tour7Upgrades = "55000 70000 87500 107500 130000 155000 182500" | split: ' ' %}
+
 <div class="panel panel-default gcn-card">
   <div class="panel-heading">
     <div class="thumbnail thumbnail-plain">
@@ -135,6 +143,53 @@
                 <td>{{ ballguide }}</td>
               {% else %}
                 <td class="success">{{ ballguide }}</td>
+              {% endif %}
+            {% else %}
+              <td class="danger" style="padding: 4px 12px;"><i class="fas fa-times text-danger" aria-hidden="true"></i></td>
+            {% endif %}
+          {% endfor %}
+        </tr>
+        <tr>
+          <th>Upgrade</th>
+          {% for level in (0..9) %}
+            {% if level > 0 and level < maxLevel %}
+
+              {% assign upgradeArray = "" | split: ' ' %}
+
+              {% case include.club.tour %}
+                {% when 1 %}
+                   {% assign upgradeArray = tour1Upgrades %}
+                {% when 2 %}
+                   {% assign upgradeArray = tour2Upgrades %}
+                {% when 3 %}
+                   {% assign upgradeArray = tour3Upgrades %}
+                {% when 3 %}
+                   {% assign upgradeArray = tour3Upgrades %}
+                {% when 4 %}
+                   {% assign upgradeArray = tour4Upgrades %}
+                {% when 5 %}
+                   {% assign upgradeArray = tour5Upgrades %}
+                {% when 6 %}
+                   {% assign upgradeArray = tour6Upgrades %}
+                {% when 7 %}
+                   {% assign upgradeArray = tour7Upgrades %}
+              {% endcase %}
+
+              {{ inspect | upgradeArray }}
+              {{ inspect | upgradeArray.size }}
+
+              {% assign upgradeIx = level | minus: 1 %}
+
+              {% if upgradeIx < upgradeArray.size %}
+                {% assign cost = tour1Upgrades[upgradeIx] %}
+
+                {% if cost.size > 3 %}
+                  {% assign cost = tour1Upgrades[upgradeIx] | divided_by: 1000 | append: 'K' %}
+                {% endif %}
+
+                <td>{{ cost }}</td>
+              {% else %}
+                <td>???</td>
               {% endif %}
             {% else %}
               <td class="danger" style="padding: 4px 12px;"><i class="fas fa-times text-danger" aria-hidden="true"></i></td>

@@ -1,6 +1,7 @@
 - id: 5e112868-9d36-440a-8d0c-b5e671c3b841
   name: Beginner Sand Wedge
   category: SandWedges
+  tour: 0
   type: Beginner
   description: >
     The sand wedge you're stuck with until you can unlock the Castaway or Desert Storm.
@@ -13,6 +14,7 @@
 - id: 860beb2b-e5ae-471c-a641-5512bcaf7bce
   name: The Castaway
   category: SandWedges
+  tour: 1
   type: Epic
   description: >
     Not a great club to start and because it's an epic, it's more than likely you'll never want to
@@ -27,6 +29,7 @@
 - id: 0118f351-74ef-4a6d-b457-0e6896dd51b7
   name: The Desert Storm
   category: SandWedges
+  tour: 2
   type: Common
   description: >
     Probably the first sand wedge you'll unlock and it's too bad because it's one of the worst
@@ -41,6 +44,7 @@
 - id: e9f659b6-54e2-453d-9d50-a4199f66a58d
   name: The Malibu
   category: SandWedges
+  tour: 3
   type: Rare
   description: >
     The Malibu is one of the two best sand wedges in the game and you should count on using it for
@@ -56,6 +60,7 @@
 - id: fec82921-1521-457e-8695-02bc11f0e694
   name: The Sahara
   category: SandWedges
+  tour: 4
   type: Epic
   description: >
     Given how fast the needle moves when you're in the sand, accuracy is a real import stat. The
@@ -70,6 +75,7 @@
 - id: d0265b86-39e9-4d65-b682-d500e807b7d2
   name: The Sand Lizard
   category: SandWedges
+  tour: 5
   type: Common
   description: >
     The Sand Lizard is an interesting club because it's the only other real popular option than the
@@ -84,6 +90,7 @@
 - id: 39c05178-5bf2-4da9-aef4-4379e0823fed
   name: Houdini
   category: SandWedges
+  tour: 6
   type: Rare
   description: >
     Not a good choice. Even maxed out, this epic only sports accuracy of 69. At that point your
@@ -98,6 +105,7 @@
 - id: 903b7e49-662c-497a-83cc-eb86649862de
   name: Spitfire
   category: SandWedges
+  tour: 7
   type: Epic
   description: >
     When you're old and gray and manage to max the Spitfire, you'll have the best sand wedge in the

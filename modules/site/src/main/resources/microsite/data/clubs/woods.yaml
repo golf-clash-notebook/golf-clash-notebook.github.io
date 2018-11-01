@@ -1,6 +1,7 @@
 - id: 7b58f56e-49b6-472e-998e-ab72f56e4e53
   name: Beginner Wood
   category: Woods
+  tour: 0
   type: Beginner
   description: >
     The wood you're stuck with until you can unlock the Viper or Horizon.
@@ -13,6 +14,7 @@
 - id: 994535d6-e687-47cb-b1eb-e3762dd15fa0
   name: The Horizon
   category: Woods
+  tour: 1
   type: Epic
   description: >
     Chances are you'll never use this club. It's not good at the lower levels and it's an epic,
@@ -27,6 +29,7 @@
 - id: dc431baa-c088-42f1-80fd-3dff1cd5dc52
   name: The Viper
   category: Woods
+  tour: 2
   type: Common
   description: >
     You'll likely be using The Viper through the first 5 tours. It's a common which means you can
@@ -42,6 +45,7 @@
 - id: 8a766c85-a3a4-4d41-9836-2e175e422697
   name: The Big Dawg
   category: Woods
+  tour: 3
   type: Rare
   description: >
     The distance here is really good at the cost of poor accuracy and ball guide. Work on seeing
@@ -57,6 +61,7 @@
 - id: 70c32755-0b0d-493c-ba46-619e13da67e8
   name: The Hammerhead
   category: Woods
+  tour: 4
   type: Epic
   description: >
     The first wood on the tour progression that has decent accuracy. On the down side, it's an epic
@@ -71,6 +76,7 @@
 - id: 7877ab7c-4c7c-4a9b-aed8-5552eecebb73
   name: The Guardian
   category: Woods
+  tour: 5
   type: Rare
   description: >
     Backspin is the obvious stat that sticks out on this club and it's extremely useful in
@@ -87,6 +93,7 @@
 - id: 7caab84b-c86b-4bc6-8089-df90b67b2002
   name: The Sniper
   category: Woods
+  tour: 6
   type: Common
   description: >
     This is the other option typically used in Tours 7 and 8 for those people who love accuracy and
@@ -103,6 +110,7 @@
 - id: bc20f457-4fe9-4818-b95a-8c00f343ad63
   name: The Cataclysm
   category: Woods
+  tour: 7
   type: Epic
   description: >
     This is usually considered one of the 'Big 3' clubs that you should unlock in the shop if you're
@@ -120,6 +128,7 @@
 - id: ba107054-cd31-4be8-b42e-b4089f6f3ed2
   name: Golden Wood
   category: Woods
+  tour: 0
   type: Golden
   description: >
     This is the wood you'll get in the Golden Shot mini-game. Kind of a mix between an

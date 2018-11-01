@@ -1,6 +1,7 @@
 - id: 02f64e02-710d-4808-956e-bb33f9b25959
   name: Beginner Short Iron
   category: ShortIrons
+  tour: 0
   type: Beginner
   description: >
     The short iron you're stuck with until you can unlock the Apache or Kingfisher.
@@ -13,6 +14,7 @@
 - id: 050f70b4-16b5-411d-a7e1-46663bf0673e
   name: The Apache
   category: ShortIrons
+  tour: 1
   type: Rare
   description: >
     The only redeeming feature of the Apache is the distance, and distance isn't exactly the most
@@ -28,6 +30,7 @@
 - id: e176d59b-0486-4024-bcab-9015b8dcb2f1
   name: The Kingfisher
   category: ShortIrons
+  tour: 2
   type: Epic
   description: >
     The Kingfisher becomes an OK club once you max it. Which is too bad because epics take forever
@@ -42,6 +45,7 @@
 - id: 69e15e51-dd9c-4b5f-90e3-988755207eec
   name: The Runner
   category: ShortIrons
+  tour: 3
   type: Common
   description: >
     Another club that basically just fills the space between the beginner short iron and The Thorn
@@ -56,6 +60,7 @@
 - id: 0adb943e-7597-498a-9f43-301f0a9c1440
   name: The Thorn
   category: ShortIrons
+  tour: 4
   type: Rare
   description: >
     The Thorn is one of the most popular short irons in the game. It offers good distance, a
@@ -72,6 +77,7 @@
 - id: d9a63b40-56fc-42d7-8997-c48163116865
   name: The Hornet
   category: ShortIrons
+  tour: 5
   type: Rare
   description: >
     Along with The Thorn, The Hornet is a very popular choice of short iron. It's accuracy is
@@ -88,6 +94,7 @@
 - id: ad1c1a39-7a7f-4e2a-8916-aabdfb99bd1d
   name: The Claw
   category: ShortIrons
+  tour: 6
   type: Common
   description: >
     You'll probably see The Claw pop up from time to time in regular tour play, but it's not quite
@@ -104,6 +111,7 @@
 - id: 3762027f-a72b-4616-8ce0-67a682fb37ab
   name: The Falcon
   category: ShortIrons
+  tour: 7
   type: Epic
   description: >
     This is an all around middle of the road iron that gets really good at level 6+. Keep in mind
@@ -118,6 +126,7 @@
 - id: 5b9ee82a-45d7-4077-9d0c-e27e24a60d2c
   name: Golden Short Iron
   category: ShortIrons
+  tour: 0
   type: Golden
   description: >
     This is the short iron you'll get in the Golden Shot mini-game. Somewhat similar stats to an
