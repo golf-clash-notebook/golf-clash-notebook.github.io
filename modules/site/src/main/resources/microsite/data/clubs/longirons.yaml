@@ -1,6 +1,7 @@
 - id: 604a4657-122e-4802-90b1-1b307ff417ce
   name: Beginner Long Iron
   category: LongIrons
+  tour: 0
   type: Beginner
   description: >
     The long iron you're stuck with until you can unlock the Backbone or Grim Reaper.
@@ -13,6 +14,7 @@
 - id: 4f48ad78-c448-47ca-a5ab-a725f8f7c4de
   name: The Grim Reaper
   category: LongIrons
+  tour: 1
   type: Epic
   description: >
     The lack of distance means that by the time you manage to max it and make it a mediocre club,
@@ -27,6 +29,7 @@
 - id: 080553ad-16b8-44ff-a00b-b43014173ce8
   name: The Backbone
   category: LongIrons
+  tour: 2
   type: Common
   description: >
     The Backbone is a solid long iron to start off and starts to get pretty good once you get it
@@ -42,6 +45,7 @@
 - id: 90378a37-95ac-4b0d-9e0b-bcd95427f169
   name: The Goliath
   category: LongIrons
+  tour: 3
   type: Rare
   description: >
     The other main contender (Backbone) in the long iron category (at least until you level up the
@@ -56,6 +60,7 @@
 - id: 77eaaa22-fe1c-4fa1-a2d4-0c29dda6a918
   name: The Saturn
   category: LongIrons
+  tour: 4
   type: Common
   description: >
     If you're looking for backspin in a long iron, this is the place you should start. It does
@@ -70,6 +75,7 @@
 - id: a03cb2e5-777d-46f6-9b0b-689a6678e7c8
   name: The B52
   category: LongIrons
+  tour: 5
   type: Epic
   description: >
     Arguably the best long iron once you get it maxed. It lacks spin control when compared to other
@@ -86,6 +92,7 @@
 - id: b322d40d-5af5-425c-bc66-d421e2578ace
   name: The Grizzly
   category: LongIrons
+  tour: 6
   type: Rare
   description: >
     While the accuracy and ball guide are nice in The Grizzly, most of the other stats don't really
@@ -100,6 +107,7 @@
 - id: 4624292f-f30e-4dfd-9b57-0effaa644b83
   name: The Tsunami
   category: LongIrons
+  tour: 7
   type: Epic
   description: >
     Can't really talk about using this one until it hits <em>at least</em> level 5. It's still not
@@ -118,6 +126,7 @@
 - id: a1b868c7-49c3-4174-9e3a-b9a247b8dde5
   name: Golden Long Iron
   category: LongIrons
+  tour: 0
   type: Golden
   description: >
     This is the long iron you'll get in the Golden Shot mini-game. Similar stats to a mid-level
