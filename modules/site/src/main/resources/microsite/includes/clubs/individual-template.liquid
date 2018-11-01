@@ -175,16 +175,13 @@
                    {% assign upgradeArray = tour7Upgrades %}
               {% endcase %}
 
-              {{ inspect | upgradeArray }}
-              {{ inspect | upgradeArray.size }}
-
               {% assign upgradeIx = level | minus: 1 %}
 
               {% if upgradeIx < upgradeArray.size %}
-                {% assign cost = tour1Upgrades[upgradeIx] %}
+                {% assign cost = upgradeArray[upgradeIx] %}
 
                 {% if cost.size > 3 %}
-                  {% assign cost = tour1Upgrades[upgradeIx] | divided_by: 1000 | append: 'K' %}
+                  {% assign cost = upgradeArray[upgradeIx] | divided_by: 1000 | append: 'K' %}
                 {% endif %}
 
                 <td>{{ cost }}</td>
