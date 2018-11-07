@@ -1,0 +1,22 @@
+tournamentName: Mountain
+date: '2018-11-12'
+resourceCreators:
+holes:
+  - number: 1
+    id: bb9f55d2-057b-4082-af8b-24a14696a2f6
+  - number: 2
+    id: 3af2f2c8-9548-41ce-9f04-be46b432d324
+  - number: 3
+    id: f97340e9-7d74-41c8-bd92-64785b42eb0f
+  - number: 4
+    id: 4c95334d-0695-4d41-9390-ce3b1dc8845f
+  - number: 5
+    id: c2bbf390-d162-4a06-9d9b-5d0e7f5b64ef
+  - number: 6
+    id: 855c43fb-cf83-4d15-8d1e-c868cbc64b63
+  - number: 7
+    id: ea520478-83be-438b-b043-a78dc8b5ad6d
+  - number: 8
+    id: 32438d22-96fb-40af-9625-8491bfdfac2b
+  - number: 9
+    id: 929ce86e-c9e1-4065-bd31-2d09609fda26

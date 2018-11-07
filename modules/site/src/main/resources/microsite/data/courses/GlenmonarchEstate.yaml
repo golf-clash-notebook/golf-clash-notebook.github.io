@@ -2,6 +2,7 @@ courseName: Glenmonarch Estate
 skinned: false
 holes:
   - id: 32438d22-96fb-40af-9625-8491bfdfac2b
+    current-tournament: true
     course: Glenmonarch Estate
     number: 1
     par: 3
@@ -647,6 +648,7 @@ holes:
               <circle cx="140" cy="725" r="6" fill="white" class="guide-point" data-guide-segment="0" />
               <circle cx="127" cy="146" r="6" fill="white" class="guide-point" data-guide-segment="1" />
   - id: ea520478-83be-438b-b043-a78dc8b5ad6d
+    current-tournament: true
     course: Glenmonarch Estate
     number: 7
     par: 4
@@ -729,6 +731,7 @@ holes:
               <circle cx="255" cy="213" r="6" fill="white" class="guide-point" data-guide-segment="1" />
               <circle cx="200" cy="106" r="6" fill="white" class="guide-point" data-guide-segment="2" />
   - id: 929ce86e-c9e1-4065-bd31-2d09609fda26
+    current-tournament: true
     course: Glenmonarch Estate
     number: 8
     par: 5
