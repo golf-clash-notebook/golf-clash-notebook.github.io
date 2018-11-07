@@ -1,0 +1,11 @@
+name: Basketball
+windResistance: 2
+sideSpin: 2
+power: 4
+cost: n/a
+description: >
+  This one sports the same stats as the Shell ball (with a slower OP needle speed) so it's a
+  slightly better Titan best used for downwind shots where you push your drive up towards the green.
+  And like a basketball, you can watch it bounce off the rim of the cup for yet another
+  disappointing tournament finish.
+needleSpeed: 0.833
