@@ -2,7 +2,6 @@ courseName: Southern Pines
 skinned: false
 holes:
   - id: 35b5f6cf-916c-404d-9a57-aeb2ec0a693c
-    current-tournament: true
     course: Southern Pines
     number: 1
     par: 4
@@ -395,7 +394,6 @@ holes:
               <circle cx="145" cy="293" r="6" fill="blue" class="guide-point" data-guide-segment="1" />
               <circle cx="194" cy="85" r="6" fill="blue" class="guide-point" data-guide-segment="2" />
   - id: a0d9b22c-70e6-43c4-8022-27387295e9c1
-    current-tournament: true
     course: Southern Pines
     number: 4
     par: 5
@@ -667,7 +665,6 @@ holes:
               <circle cx="594" cy="419" r="6" fill="white" class="guide-point" data-guide-segment="1" />
               <circle cx="628" cy="139" r="6" fill="white" class="guide-point" data-guide-segment="2" />
   - id: 8b2a0801-dd19-4d25-a7e1-d7503c8fc7ae
-    current-tournament: true
     course: Southern Pines
     number: 6
     par: 3
