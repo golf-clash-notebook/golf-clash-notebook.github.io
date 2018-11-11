@@ -1,9 +1,142 @@
 courseName: Sunshine Glades
 skinned: false
 holes:
-  - id: f30c2f43-c8dc-4762-bc7b-77b6d196d0e2
+  - id: 78852573-8b79-49e7-999a-e7a20b220baf
     course: Sunshine Glades
     number: 1
+    par: 4
+    replayName: "4"
+    description: >
+      Help Wanted
+    clubRecommendations:
+      - level: Rookie
+        clubs:
+          - Extra Mile
+      - level: Pro
+        clubs:
+          - Extra Mile
+          - Apocalypse
+      - level: Masters
+        clubs:
+          - Apocalypse
+    resourceCreators:
+      - name: Golf Clash Tommy
+        resources:
+        - title: Voyager - Rookie
+          url: https://youtu.be/cuaVpyOQc68
+        - title: Voyager - Pro / Expert
+          url: https://youtu.be/CZIOTAQTgpk
+        - title: Pro / Expert Guide
+          url: https://youtu.be/Y2K1-fpwLmQ
+      - name: Zachary Jones
+        resources:
+        - title: Tour 11 - Strategy and Tips
+          url: https://youtu.be/M6KGEeYZQ8g
+        - title: Voyager - Rookie
+          url: https://youtu.be/IN2VegUflWk
+        - title: Voyager - Rookie
+          url: https://youtu.be/XIh0VH9QOPg
+        - title: Voyager - Pro
+          url: https://youtu.be/pDTWZafhET8
+        - title: Voyager - Pro
+          url: https://youtu.be/AIdBNjs61kk
+        - title: Voyager - Pro
+          url: https://youtu.be/oIQiKMO98n8
+        - title: Voyager - Expert
+          url: https://youtu.be/279Dw89cNO4
+        - title: Voyager - Expert
+          url: https://youtu.be/eI9NxpSLAyM
+        - title: Voyager - Expert
+          url: https://youtu.be/txsVc1c1_BU
+        - title: Voyager - Masters
+          url: https://youtu.be/d0BqVPoDPmY
+        - title: Voyager - Masters
+          url: https://youtu.be/oj-1M9E1eGk
+        - title: Voyager - Masters
+          url: https://youtu.be/--QJdtkxtTE
+        - title: Tour 11 - Wind Pointed at 2 O`clock
+          url: https://youtu.be/-bPv0x9GK-E
+        - title: Cinco De Mayo - Rookie
+          url: https://youtu.be/Xi_v1pZbDSM
+        - title: Cinco De Mayo - Pro
+          url: https://youtu.be/JMA5grCF7VI
+        - title: Cinco De Mayo - Pro
+          url: https://youtu.be/-chBco5nCyY
+        - title: Cinco De Mayo - Expert
+          url: https://youtu.be/sFdn_lsotRI
+        - title: Cinco De Mayo - Expert
+          url: https://youtu.be/ui5XcQfLj78
+        - title: Cinco De Mayo - Expert
+          url: https://youtu.be/Hm-2HKccrXY
+        - title: Cinco De Mayo - Masters
+          url: https://youtu.be/HoWN7gJYlEc
+        - title: Cinco De Mayo - Masters
+          url: https://youtu.be/FRsEFFV8yRo
+  - id: 403da63f-9e6f-4a4a-b17d-cc5cacce7bcb
+    course: Sunshine Glades
+    number: 2
+    par: 3
+    replayName: "3B"
+    description: >
+      Help Wanted
+    clubRecommendations:
+    resourceCreators:
+  - id: ceec18c9-cda1-436d-bdb1-1f2454b46436
+    course: Sunshine Glades
+    number: 3
+    par: 5
+    replayName: "5"
+    description: >
+      Help Wanted
+    clubRecommendations:
+      - level: Rookie
+        clubs:
+          - Viper
+          - Sniper
+      - level: Pro
+        clubs:
+          - Sniper
+      - level: Masters
+        clubs:
+          - Sniper
+    resourceCreators:
+      - name: Golf Clash Tommy
+        resources:
+        - title: Pro / Expert Guide
+          url: https://youtu.be/n-x_W6hZ3fc
+        - title: Rookie Guide
+          url: https://youtu.be/o7Cp8S6m4w4
+        - title: Text Guide
+          url: https://i.imgur.com/JBG8fOP.png
+        # - title: Pro / Expert Guide
+          # url: https://youtu.be/uAorNoFskVY
+      - name: Zachary Jones
+        resources:
+        - title: Tour 11 - Strategy and Tips
+          url: https://youtu.be/BlJ3ALKE98s
+        - title: Rookie
+          url: https://youtu.be/NFNEYJKiXJE
+        - title: Pro / Expert
+          url: https://youtu.be/fQMfImOGS9o
+      - name: Kevin Warren
+        resources:
+        - title: Rookie
+          url: https://youtu.be/bEpetK2AyQM
+        - title: Pro / Expert
+          url: https://youtu.be/XhcjifiYNP4
+    overlays:
+  - id: 278a348f-a5c8-4106-811c-f051bb9b6371
+    course: Sunshine Glades
+    number: 4
+    par: 4
+    replayName: "4C"
+    description: >
+      Help Wanted
+    clubRecommendations:
+    resourceCreators:
+  - id: f30c2f43-c8dc-4762-bc7b-77b6d196d0e2
+    course: Sunshine Glades
+    number: 5
     par: 3
     replayName: "3"
     description: >
@@ -94,248 +227,9 @@ holes:
         - title: Pro / Expert
           url: https://youtu.be/Q-4hkwS4geM
     overlays:
-      size: [524, 1004]
-      guides:
-      - name: Black Path
-        text: >
-          With tailwind you'll be using a wood. Use up to 5 bars of backspin (depending on which
-          level you're playing). Position the ball guide line just in front of the fringe. If you
-          get headwind or sidewind, use a driver with a good amount of backspin. Aim with the ball
-          guide close to the pin. The green slopes downhill which can give you a hard putt if you
-          go too far. Due to the elevation change, you'll need to adjust for about 15% more wind
-          than normal.
-        levels:
-          - name: Rookie
-            svg:
-              <path d="M 271 702 C 190 436 190 436 197 248" stroke="black" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="0" />
-              <circle cx="271" cy="702" r="6" fill="black" class="guide-point" data-guide-segment="0" />
-              <circle cx="197" cy="248" r="6" fill="black" class="guide-point" data-guide-segment="1" />
-          - name: Pro
-            svg:
-              <path d="M 269 791 C 190 436 190 436 197 248" stroke="black" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="0" />
-              <circle cx="269" cy="791" r="6" fill="black" class="guide-point" data-guide-segment="0" />
-              <circle cx="197" cy="248" r="6" fill="black" class="guide-point" data-guide-segment="1" />
-          - name: Masters
-            svg:
-              <path d="M 267 883 C 190 436 190 436 197 248" stroke="black" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="0" />
-              <circle cx="267" cy="883" r="6" fill="black" class="guide-point" data-guide-segment="0" />
-              <circle cx="197" cy="248" r="6" fill="black" class="guide-point" data-guide-segment="1" />
-  - id: 78852573-8b79-49e7-999a-e7a20b220baf
-    course: Sunshine Glades
-    number: 2
-    par: 4
-    replayName: "4"
-    description: >
-      Help Wanted
-    clubRecommendations:
-      - level: Rookie
-        clubs:
-          - Extra Mile
-      - level: Pro
-        clubs:
-          - Extra Mile
-          - Apocalypse
-      - level: Masters
-        clubs:
-          - Apocalypse
-    resourceCreators:
-      - name: Golf Clash Tommy
-        resources:
-        - title: Voyager - Rookie
-          url: https://youtu.be/cuaVpyOQc68
-        - title: Voyager - Pro / Expert
-          url: https://youtu.be/CZIOTAQTgpk
-        - title: Pro / Expert Guide
-          url: https://youtu.be/Y2K1-fpwLmQ
-      - name: Zachary Jones
-        resources:
-        - title: Tour 11 - Strategy and Tips
-          url: https://youtu.be/M6KGEeYZQ8g
-        - title: Voyager - Rookie
-          url: https://youtu.be/IN2VegUflWk
-        - title: Voyager - Rookie
-          url: https://youtu.be/XIh0VH9QOPg
-        - title: Voyager - Pro
-          url: https://youtu.be/pDTWZafhET8
-        - title: Voyager - Pro
-          url: https://youtu.be/AIdBNjs61kk
-        - title: Voyager - Pro
-          url: https://youtu.be/oIQiKMO98n8
-        - title: Voyager - Expert
-          url: https://youtu.be/279Dw89cNO4
-        - title: Voyager - Expert
-          url: https://youtu.be/eI9NxpSLAyM
-        - title: Voyager - Expert
-          url: https://youtu.be/txsVc1c1_BU
-        - title: Voyager - Masters
-          url: https://youtu.be/d0BqVPoDPmY
-        - title: Voyager - Masters
-          url: https://youtu.be/oj-1M9E1eGk
-        - title: Voyager - Masters
-          url: https://youtu.be/--QJdtkxtTE
-        - title: Tour 11 - Wind Pointed at 2 O`clock
-          url: https://youtu.be/-bPv0x9GK-E
-        - title: Cinco De Mayo - Rookie
-          url: https://youtu.be/Xi_v1pZbDSM
-        - title: Cinco De Mayo - Pro
-          url: https://youtu.be/JMA5grCF7VI
-        - title: Cinco De Mayo - Pro
-          url: https://youtu.be/-chBco5nCyY
-        - title: Cinco De Mayo - Expert
-          url: https://youtu.be/sFdn_lsotRI
-        - title: Cinco De Mayo - Expert
-          url: https://youtu.be/ui5XcQfLj78
-        - title: Cinco De Mayo - Expert
-          url: https://youtu.be/Hm-2HKccrXY
-        - title: Cinco De Mayo - Masters
-          url: https://youtu.be/HoWN7gJYlEc
-        - title: Cinco De Mayo - Masters
-          url: https://youtu.be/FRsEFFV8yRo
-  - id: ceec18c9-cda1-436d-bdb1-1f2454b46436
-    course: Sunshine Glades
-    number: 3
-    par: 5
-    replayName: "5"
-    description: >
-      Help Wanted
-    clubRecommendations:
-      - level: Rookie
-        clubs:
-          - Viper
-          - Sniper
-      - level: Pro
-        clubs:
-          - Sniper
-      - level: Masters
-        clubs:
-          - Sniper
-    resourceCreators:
-      - name: Golf Clash Tommy
-        resources:
-        - title: Pro / Expert Guide
-          url: https://youtu.be/n-x_W6hZ3fc
-        - title: Rookie Guide
-          url: https://youtu.be/o7Cp8S6m4w4
-        - title: Text Guide
-          url: https://i.imgur.com/JBG8fOP.png
-        # - title: Pro / Expert Guide
-          # url: https://youtu.be/uAorNoFskVY
-      - name: Zachary Jones
-        resources:
-        - title: Tour 11 - Strategy and Tips
-          url: https://youtu.be/BlJ3ALKE98s
-        - title: Rookie
-          url: https://youtu.be/NFNEYJKiXJE
-        - title: Pro / Expert
-          url: https://youtu.be/fQMfImOGS9o
-      - name: Kevin Warren
-        resources:
-        - title: Rookie
-          url: https://youtu.be/bEpetK2AyQM
-        - title: Pro / Expert
-          url: https://youtu.be/XhcjifiYNP4
-    overlays:
-      size: [558, 1095]
-      guides:
-      - name: Black Path
-        text: >
-          The common way to play the hole. Use as much topspin as you can with max right spin off
-          the tee. With a wind from right to left, you need to use max right curl. The island
-          bounce will want to shoot the ball to the left towards the bunker. Use the club with the
-          best ball guide and accuracy possible for your second shot.
-        levels:
-          - name: Rookie
-            svg:
-              <path d="M 373 923 C 345 700 345 700 394 558" stroke="black" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="0" />
-              <path d="M 394 558 L 446 365" stroke="black" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="1" />
-              <path d="M 446 365 L 378 149" stroke="black" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="2" />
-              <circle cx="373" cy="923" r="6" fill="black" class="guide-point" data-guide-segment="0" />
-              <circle cx="394" cy="558" r="6" fill="black" class="guide-point" data-guide-segment="1" />
-              <circle cx="446" cy="365" r="6" fill="black" class="guide-point" data-guide-segment="2" />
-              <circle cx="378" cy="149" r="6" fill="black" class="guide-point" data-guide-segment="3" />
-          - name: Pro
-            svg:
-              <path d="M 385 982 C 345 700 345 700 394 558" stroke="black" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="0" />
-              <path d="M 394 558 L 446 365" stroke="black" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="1" />
-              <path d="M 446 365 L 378 149" stroke="black" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="2" />
-              <circle cx="385" cy="982" r="6" fill="black" class="guide-point" data-guide-segment="0" />
-              <circle cx="394" cy="558" r="6" fill="black" class="guide-point" data-guide-segment="1" />
-              <circle cx="446" cy="365" r="6" fill="black" class="guide-point" data-guide-segment="2" />
-              <circle cx="378" cy="149" r="6" fill="black" class="guide-point" data-guide-segment="3" />
-          - name: Masters
-            svg:
-              <path d="M 397 1041 C 345 700 345 700 394 558" stroke="black" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="0" />
-              <path d="M 394 558 L 446 365" stroke="black" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="1" />
-              <path d="M 446 365 L 378 149" stroke="black" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="2" />
-              <circle cx="397" cy="1041" r="6" fill="black" class="guide-point" data-guide-segment="0" />
-              <circle cx="394" cy="558" r="6" fill="black" class="guide-point" data-guide-segment="1" />
-              <circle cx="446" cy="365" r="6" fill="black" class="guide-point" data-guide-segment="2" />
-              <circle cx="378" cy="149" r="6" fill="black" class="guide-point" data-guide-segment="3" />
-      - name: White Path
-        text: >
-          This is the only way to play from the 3rd tee when you get some headwind. Use right curl
-          and spin to set yourself up as far right on the fairway as possible. From there, you'll
-          need a lot of curl on your wood along with a lot of distance depending on what kind of
-          wind you get. <strong>If you are playing from the 1st or 2nd tees you should play the
-          black or blue path no matter what kind of wind you get</strong>.
-        levels:
-          - name: Rookie
-            svg:
-              <path d="M 373 923 C 197 579 197 579 169 414" stroke="white" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="0" />
-              <path d="M 169 414 C 294 349 294 349 369 202" stroke="white" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="1" />
-              <path d="M 369 202 L 368 126" stroke="white" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="2" />
-              <circle cx="373" cy="923" r="6" fill="white" class="guide-point" data-guide-segment="0" />
-              <circle cx="169" cy="414" r="6" fill="white" class="guide-point" data-guide-segment="1" />
-              <circle cx="369" cy="202" r="6" fill="white" class="guide-point" data-guide-segment="2" />
-              <circle cx="368" cy="126" r="6" fill="white" class="guide-point" data-guide-segment="3" />
-          - name: Pro
-            svg:
-              <path d="M 385 982 C 197 579 197 579 169 414" stroke="white" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="0" />
-              <path d="M 169 414 C 294 349 294 349 369 202" stroke="white" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="1" />
-              <path d="M 369 202 L 368 126" stroke="white" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="2" />
-              <circle cx="385" cy="982" r="6" fill="white" class="guide-point" data-guide-segment="0" />
-              <circle cx="169" cy="414" r="6" fill="white" class="guide-point" data-guide-segment="1" />
-              <circle cx="369" cy="202" r="6" fill="white" class="guide-point" data-guide-segment="2" />
-              <circle cx="368" cy="126" r="6" fill="white" class="guide-point" data-guide-segment="3" />
-          - name: Masters
-            svg:
-              <path d="M 397 1041 C 197 579 197 579 169 414" stroke="white" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="0" />
-              <path d="M 169 414 C 294 349 294 349 369 202" stroke="white" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="1" />
-              <path d="M 369 202 L 368 126" stroke="white" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="2" />
-              <circle cx="397" cy="1041" r="6" fill="white" class="guide-point" data-guide-segment="0" />
-              <circle cx="169" cy="414" r="6" fill="white" class="guide-point" data-guide-segment="1" />
-              <circle cx="369" cy="202" r="6" fill="white" class="guide-point" data-guide-segment="2" />
-              <circle cx="368" cy="126" r="6" fill="white" class="guide-point" data-guide-segment="3" />
-      - name: Blue Path
-        text: >
-          With tailwind you can reach the second fairway without having to use the island. Combine
-          a small amount of overpower with backspin on your driver. The approach to the green will
-          be the same as it is when taking the black path.
-        levels:
-          - name: Rookie
-            svg:
-              <path d="M 373 923 C 468 638 468 638 470 372" stroke="blue" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="0" />
-              <path d="M 470 372 L 394 137" stroke="blue" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="1" />
-              <circle cx="373" cy="923" r="6" fill="blue" class="guide-point" data-guide-segment="0" />
-              <circle cx="470" cy="372" r="6" fill="blue" class="guide-point" data-guide-segment="1" />
-              <circle cx="394" cy="137" r="6" fill="blue" class="guide-point" data-guide-segment="2" />
-          - name: Pro
-            svg:
-              <path d="M 385 982 C 468 638 468 638 470 372" stroke="blue" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="0" />
-              <path d="M 470 372 L 394 137" stroke="blue" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="1" />
-              <circle cx="385" cy="982" r="6" fill="blue" class="guide-point" data-guide-segment="0" />
-              <circle cx="470" cy="372" r="6" fill="blue" class="guide-point" data-guide-segment="1" />
-              <circle cx="394" cy="137" r="6" fill="blue" class="guide-point" data-guide-segment="2" />
-          - name: Masters
-            svg:
-              <path d="M 397 1041 C 468 638 468 638 470 372" stroke="blue" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="0" />
-              <path d="M 470 372 L 394 137" stroke="blue" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="1" />
-              <circle cx="397" cy="1041" r="6" fill="blue" class="guide-point" data-guide-segment="0" />
-              <circle cx="470" cy="372" r="6" fill="blue" class="guide-point" data-guide-segment="1" />
-              <circle cx="394" cy="137" r="6" fill="blue" class="guide-point" data-guide-segment="2" />
   - id: a427fbaf-3e27-411a-8a51-3a5bd53e2605
     course: Sunshine Glades
-    number: 4
+    number: 6
     par: 5
     replayName: "5B"
     description: >
@@ -402,3 +296,30 @@ holes:
           url: https://youtu.be/2sTmzW8RgOM
         - title: Cinco De Mayo - Masters
           url: https://youtu.be/dbqOENRIuHE
+  - id: 5bc210d8-de10-4786-ad3f-75367f76a15d
+    course: Sunshine Glades
+    number: 7
+    par: 4
+    replayName: "4B"
+    description: >
+      Help Wanted
+    clubRecommendations:
+    resourceCreators:
+  - id: 1658565e-d219-4a46-844c-97c7f98e66b4
+    course: Sunshine Glades
+    number: 8
+    par: 3
+    replayName: "3C"
+    description: >
+      Help Wanted
+    clubRecommendations:
+    resourceCreators:
+  - id: 7d665400-73e6-4716-9655-63f8fe8b8956
+    course: Sunshine Glades
+    number: 9
+    par: 5
+    replayName: "5C"
+    description: >
+      Help Wanted
+    clubRecommendations:
+    resourceCreators:
