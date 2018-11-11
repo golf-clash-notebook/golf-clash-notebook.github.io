@@ -24,6 +24,10 @@ holes:
     resourceCreators:
       - name: Golf Clash Tommy
         resources:
+        - title: Mountain - Rookie Guide
+          url: https://youtu.be/fOVPkkNOWzM
+        - title: Mountain - Pro / Expert Guide
+          url: https://youtu.be/JwTOycXb0BY
         - title: Rookie Guide
           url: https://youtu.be/WI_jyhHYghY
         - title: Pro / Expert Guide
@@ -179,6 +183,10 @@ holes:
     resourceCreators:
       - name: Golf Clash Tommy
         resources:
+        - title: Mountain - Rookie Guide
+          url: https://youtu.be/YVMn0vpranA
+        - title: Mountain - Pro / Expert Guide
+          url: https://youtu.be/0x70fqg0G7E
         - title: Rookie Guide
           url: https://youtu.be/lklyjxmxr2s
         - title: Text Guide
@@ -475,6 +483,10 @@ holes:
     resourceCreators:
       - name: Golf Clash Tommy
         resources:
+        - title: Mountain - Rookie Guide
+          url: https://youtu.be/yM7VL67nV54
+        - title: Mountain - Pro / Expert Guide
+          url: https://youtu.be/ZSHfVFjNAb4
         - title: Rookie Guide
           url: https://youtu.be/DInf-UCpuUU
         - title: Pro / Expert Guide
