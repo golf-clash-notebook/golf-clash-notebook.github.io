@@ -81,6 +81,12 @@ holes:
       Help Wanted
     clubRecommendations:
     resourceCreators:
+      - name: Zachary Jones
+        resources:
+        - title: General Instruction - 2nd Tee
+          url: https://youtu.be/mXReNZWfmzA
+        - title: General Instruction - 3rd Tee
+          url: https://youtu.be/IEsPUVHafPI
   - id: ceec18c9-cda1-436d-bdb1-1f2454b46436
     course: Sunshine Glades
     number: 3
@@ -168,6 +174,10 @@ holes:
           url: https://i.imgur.com/QmOmLTe.png
       - name: Zachary Jones
         resources:
+        - title: General Instruction - 2nd Tee
+          url: https://youtu.be/dA2k6h73SUg
+        - title: General Instruction - 3rd Tee
+          url: https://youtu.be/luVf8MWjaKg
         - title: Tour 11 - Wind Pointed at 9 O`clock
           url: https://youtu.be/j07lSX5qq2w
         - title: Voyager - Rookie
@@ -314,6 +324,12 @@ holes:
       Help Wanted
     clubRecommendations:
     resourceCreators:
+      - name: Zachary Jones
+        resources:
+        - title: General Instruction - 2nd Tee
+          url: https://youtu.be/LJN_goXQPVU
+        - title: General Instruction - 3rd Tee
+          url: https://youtu.be/3uSqCX-az4E
   - id: 7d665400-73e6-4716-9655-63f8fe8b8956
     course: Sunshine Glades
     number: 9

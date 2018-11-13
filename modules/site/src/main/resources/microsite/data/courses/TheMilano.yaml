@@ -135,6 +135,8 @@ holes:
     resourceCreators:
       - name: Zachary Jones
         resources:
+        - title: General Instruction - 2nd Tee
+          url: https://youtu.be/7eYgHjrW5X8
         - title: Tour 9 Shootout - Wind Pointed at 830
           url: https://youtu.be/Y6Th3ddXrZ0
         - title: Tour 9 Shootout - Wind Pointed at 3 O`clock
@@ -317,6 +319,8 @@ holes:
           url: https://i.imgur.com/zqsdml6.jpg
       - name: Zachary Jones
         resources:
+        - title: General Instruction - 2nd Tee
+          url: https://youtu.be/hEeBEtRbcYI
         - title: Platinum Resorts - Expert
           url: https://youtu.be/sJf1ufgKBgA
         - title: Platinum Resorts - Masters
@@ -539,6 +543,8 @@ holes:
           url: https://youtu.be/7WZI2bqcfWY
       - name: Zachary Jones
         resources:
+        - title: General Instruction - 2nd Tee
+          url: https://youtu.be/pRzF9-3AvZk
         - title: Labor Day (2018) - Pro
           url: https://youtu.be/i987Y26dIow
         - title: Tour 9 Shootout - Tailwind Iron Shot Wind Pointed at 11 O`clock
