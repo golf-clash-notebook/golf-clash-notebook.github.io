@@ -4,11 +4,13 @@ resourceCreators:
   - name: Golf Clash Tommy
     resources:
     - title: Rookie Playthrough
-      url: https://youtu.be/VD0LG6I4Z8c
+      url: https://youtu.be/_vELR2-ijsA
+    - title: Pro Playthrough
+      url: https://youtu.be/S5CBjVQCvEk
     - title: Pro / Expert Playthrough
       url: https://youtu.be/RDHBcz9YRD4
     - title: Text Guide
-      url: https://imgur.com/a/yygJkEC?fbclid=IwAR1Dxtwxj7CyVbdg9q6JiZuZDRZkKJbQbpEcrNIcbaxg_RB2l6LWJtctb6k
+      url: https://imgur.com/a/yygJkEC
   - name: Jesse Both
     resources:
     - title: Rookie Walkthrough
