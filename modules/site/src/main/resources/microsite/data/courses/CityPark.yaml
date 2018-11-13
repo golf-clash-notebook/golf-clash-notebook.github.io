@@ -11,6 +11,8 @@ holes:
     resourceCreators:
       - name: Zachary Jones
         resources:
+        - title: General Instruction - 3rd Tee
+          url: https://youtu.be/fx9p7qjp1Ek
         - title: Tour 11 - Wind Pointed at 530
           url: https://youtu.be/1-yIvglemoU
     aliases:
@@ -54,6 +56,8 @@ holes:
           url: https://youtu.be/Jhy7oLJ0DJE
       - name: Zachary Jones
         resources:
+        - title: General Instruction - 3rd Tee
+          url: https://youtu.be/uZtUZP7l2vI
         - title: Tour 11 - Headwind Pointed at 730
           url: https://youtu.be/zqbUXkQZ0Fk
         - title: Voyager - Rookie
@@ -155,6 +159,8 @@ holes:
     resourceCreators:
       - name: Zachary Jones
         resources:
+        - title: General Instruction - 3rd Tee
+          url: https://youtu.be/b88Oa98RE5A
         - title: Tour 11 - Left to right wind pointed at 2 O`clock
           url: https://youtu.be/4Nfu7Y9b6Uw
         - title: Tour 11 - Wind pointed at 1030

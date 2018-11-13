@@ -37,8 +37,14 @@ holes:
           url: https://i.imgur.com/8SIo1XH.jpg
       - name: Zachary Jones
         resources:
+        - title: General Instruction - 2nd Tee
+          url: https://youtu.be/b-LlpowKIDI
+        - title: General Instruction - 3rd Tee
+          url: https://youtu.be/xFTHORwkX7Y
         - title: Mountain - Rookie
           url: https://youtu.be/t8PcSody6rw
+        - title: Mountain - Rookie
+          url: https://youtu.be/gMEaB9yh-B0
         - title: Mountain - Pro
           url: https://youtu.be/vSR9wqpzXY8
         - title: Mountain - Expert
@@ -499,6 +505,10 @@ holes:
           url: https://i.imgur.com/oHa3lUS.jpg
       - name: Zachary Jones
         resources:
+        - title: General Instruction - 2nd Tee
+          url: https://youtu.be/bbgy-4vNdEA
+        - title: General Instruction - 3rd Tee
+          url: https://youtu.be/74wmslWx5Ec
         - title: Tour 9 Shootout - 10 O`clock Wind
           url: https://youtu.be/5LyKCthpzh8
         - title: St. Patrick's - Rookie
@@ -598,6 +608,10 @@ holes:
           url: https://i.imgur.com/dIJ3Ekh.jpg
       - name: Zachary Jones
         resources:
+        - title: General Instruction - 2nd Tee
+          url: https://youtu.be/KnyRc_fTeh0
+        - title: General Instruction - 3rd Tee
+          url: https://youtu.be/FcLyB81TcfE
         - title: Tour 9 Shootout - Strong Headwind
           url: https://youtu.be/arhWV9o2PQk?t=4m38s
         - title: Tour 9 Shootout - Headwind
@@ -703,6 +717,8 @@ holes:
         resources:
         - title: Mountain - Rookie
           url: https://youtu.be/BnCJeoHrpyQ
+        - title: Mountain - Rookie
+          url: https://youtu.be/ZLtil7MHLNQ
         - title: Mountain - Pro
           url: https://youtu.be/uMFaNhTMrmA
         - title: Mountain - Expert
