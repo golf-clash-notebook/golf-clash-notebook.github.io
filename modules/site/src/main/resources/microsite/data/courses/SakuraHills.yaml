@@ -38,34 +38,201 @@ holes:
         resources:
         - title: General Instruction - 2nd Tee
           url: https://youtu.be/K31_LOqHepE
+          metadata:
+            generalInstruction: true
+            teePosition: 2
         - title: Mountain - Rookie
           url: https://youtu.be/06cJa9zPKwU
+          metadata:
+            tournament: Mountain
+            level: Rookie
+            teePosition: 1
+            ball: Marlin
+            clubs:
+              - name: Backbone
+                level: 9
+            wind:
+              direction: SW
+              magnitude: 3.4
+            keywords:
         - title: Mountain - Pro
           url: https://youtu.be/MUP7lFcVy6A
+          metadata:
+            tournament: Mountain
+            level: Pro
+            teePosition: 2
+            ball: Quasar
+            clubs:
+              - name: Sniper
+                level: 9
+            wind:
+              direction: NW
+              magnitude: 7.0
+            keywords:
         - title: Mountain - Expert
           url: https://youtu.be/4SHuSy3aRxY
+          metadata:
+            tournament: Mountain
+            level: Expert
+            teePosition: 2
+            ball: King Maker
+            clubs:
+              - name: Sniper
+                level: 8
+            wind:
+              direction: SE
+              magnitude: 7.6
+            keywords:
         - title: Mountain - Masters
           url: https://youtu.be/sWG98ZA1lbI
+          metadata:
+            tournament: Mountain
+            level: Masters
+            teePosition: 3
+            ball: Navigator
+            clubs:
+              - name: Quarterback
+                level: 10
+            wind:
+              direction: SSW
+              magnitude: 11.5
+            keywords:
         - title: Mountain - Masters
           url: https://youtu.be/GaKlh4x63t4
+          metadata:
+            tournament: Mountain
+            level: Masters
+            teePosition: 3
+            ball: Navigator
+            clubs:
+              - name: Quarterback
+                level: 10
+            wind:
+              direction: S
+              magnitude: 13.3
+            keywords:
         - title: Mountain - Masters
           url: https://youtu.be/iU9joPaetSI
+          metadata:
+            tournament: Mountain
+            level: Masters
+            teePosition: 3
+            ball: Bandera
+            clubs:
+              - name: Quarterback
+                level: 10
+            wind:
+              direction: SSW
+              magnitude: 7.3
+            keywords:
         - title: Tour 8 Shootout - Strong Tailwind
           url: https://youtu.be/XRrtauUEp2c
+          metadata:
+            tour: 8
+            ball: Basic
+            teePosition: 2
+            clubs:
+              - name: Guardian
+                level: 8
+            wind:
+              direction: NNW
+              magnitude: 12.7
+            keywords:
         - title: Tour 8 Shootout - Left to Right Wind Pointed at 2 O`clock
           url: https://youtu.be/eXhog7M16rw
+          metadata:
+            tour: 8
+            ball: Basic
+            teePosition: 2
+            clubs:
+              - name: Guardian
+                level: 8
+            wind:
+              direction: NE
+              magnitude: 4.0
+            keywords:
         - title: Tour 8 Shootout - Left to Right Wind
           url: https://youtu.be/l9AlNSxhXnY
+          metadata:
+            tour: 8
+            ball: Basic
+            teePosition: 2
+            clubs:
+              - name: Guardian
+                level: 8
+            wind:
+              direction: NE
+              magnitude: 5.2
+            keywords:
         - title: Tour 8 Shootout - Tailwind
           url: https://youtu.be/dlhecQuXHfA
+          metadata:
+            tour: 8
+            ball: Basic
+            teePosition: 2
+            clubs:
+              - name: Guardian
+                level: 8
+            wind:
+              direction: NNE
+              magnitude: 11.9
+            keywords:
         - title: Touchdown - Rookie Guide
           url: https://youtu.be/3oNWbTnWCXA
+          metadata:
+            tournament: Touchdown
+            level: Rookie
+            teePosition: 1
+            ball: Marlin
+            clubs:
+              - name: Backbone
+                level: 10
+            wind:
+              direction: NNW
+              magnitude: 3.0
+            keywords:
         - title: Touchdown - Pro Guide
           url: https://youtu.be/SYN4IefltBQ
+          metadata:
+            tournament: Touchdown
+            level: Pro
+            teePosition: 2
+            ball: Navigator
+            clubs:
+              - name: Sniper
+                level: 9
+            wind:
+              direction: NNW
+              magnitude: 5.8
+            keywords:
         - title: Touchdown - Expert Guide
           url: https://youtu.be/H1oX1xQ77XE
+          metadata:
+            tournament: Touchdown
+            level: Expert
+            teePosition: 2
+            ball: Navigator
+            clubs:
+              - name: Hammerhead
+                level: 7
+            wind:
+              direction: NNW
+              magnitude: 10.5
+            keywords:
         - title: Touchdown - Masters Guide
           url: https://youtu.be/pcLe8RHeCa8
+          metadata:
+            tournament: Touchdown
+            level: Masters
+            teePosition: 3
+            ball: King Maker
+            clubs:
+              - name: Sniper
+                level: 9
+            wind:
+              direction: WNW
+              magnitude: 10.1
+            keywords:
     aliases:
       - e8e6844a-a3db-4f34-8800-633b230e2be5
     overlays:
@@ -124,16 +291,100 @@ holes:
         resources:
         - title: Tour 8 - Tailwind Drive Tips
           url: https://youtu.be/uDDuyXX5NGQ
+          metadata:
+            tour: 8
+            ball: Marlin
+            teePosition: 2
+            clubs:
+              - name: Apocalypse
+                level: 7
+              - name: Guardian
+                level: 8
+            wind:
+              direction: NW
+              magnitude: 11.2
+            keywords:
         - title: Tour 8 - Strong Tailwind
           url: https://youtu.be/DDp6jIHMVJ4
+          metadata:
+            tour: 8
+            ball: Quasar
+            teePosition: 2
+            clubs:
+              - name: Quarterback
+                level: 10
+              - name: Guardian
+                level: 8
+            wind:
+              direction: NNE
+              magnitude: 10.2
+            keywords:
         - title: Touchdown - Rookie Guide
           url: https://youtu.be/lyvRF_71rYM
+          metadata:
+            tournament: Touchdown
+            level: Rookie
+            teePosition: 1
+            ball: Marlin
+            clubs:
+              - name: Quarterback
+                level: 10
+              - name: Sniper
+                level: 10
+            wind:
+              direction: NNW
+              magnitude: 3.3
+            keywords:
+              - Rough Bump
         - title: Touchdown - Pro Guide
           url: https://youtu.be/gQYNM78jSfM
+          metadata:
+            tournament: Touchdown
+            level: Pro
+            teePosition: 2
+            ball: King Maker
+            clubs:
+              - name: Thor's Hammer
+                level: 5
+              - name: Sniper
+                level: 9
+            wind:
+              direction: NNE
+              magnitude: 4.8
+            keywords:
+              - Rough bump
         - title: Touchdown - Expert Guide
           url: https://youtu.be/ukVQUhdzv04
+          metadata:
+            tournament: Touchdown
+            level: Expert
+            teePosition: 2
+            ball: Snow Globe
+            clubs:
+              - name: Apocalypse
+                level: 7
+              - name: B52
+                level: 6
+            wind:
+              direction: NNW
+              magnitude: 11.0
+            keywords:
         - title: Touchdown - Masters Guide
           url: https://youtu.be/bnnudTlBqAg
+          metadata:
+            tournament: Touchdown
+            level: Masters
+            teePosition: 3
+            ball: Snow Globe
+            clubs:
+              - name: Apocalypse
+                level: 4
+              - name: Amazon
+                level: 5
+            wind:
+              direction: N
+              magnitude: 15.5
+            keywords:
     aliases:
       - 99374ec0-978d-47d2-9eb6-ec1cdb1d1f57
     overlays:
@@ -209,24 +460,164 @@ holes:
         resources:
         - title: Mountain - Rookie
           url: https://youtu.be/MMsl0cSQWiQ
+          metadata:
+            tournament: Mountain
+            level: Rookie
+            teePosition: 1
+            ball: Marlin
+            clubs:
+              - name: Quarterback
+                level: 7
+              - name: Thorn
+                level: 5
+            wind:
+              direction: NE
+              magnitude: 4.8
+            keywords:
         - title: Mountain - Pro
           url: https://youtu.be/dI249Mlehws
+          metadata:
+            tournamentMountain:
+            level: Pro
+            teePosition: 2
+            ball: Titan
+            clubs:
+              - name: Quarterback
+                level: 10
+              - name: Goliath
+                level: 5
+            wind:
+              direction: ESE
+              magnitude: 7.5
+            keywords:
         - title: Mountain - Expert
           url: https://youtu.be/SKobkyWBWI4
+          metadata:
+            tournament: Mountain
+            level: Expert
+            teePosition: 2
+            ball: Quasar
+            clubs:
+              - name: Apocalypse
+                level: 1
+              - name: Thorn
+                level: 5
+            wind:
+              direction: NW
+              magnitude: 9.4
+            keywords:
         - title: Mountain - Masters
           url: https://youtu.be/55NHyKWnJO4
+          metadata:
+            tournament: Mountain
+            level: Masters
+            teePosition: 2
+            ball: King Maker
+            clubs:
+              - name: Apocalypse
+                level: 7
+              - name: Thorn
+                level: 8
+            wind:
+              direction: WSW
+              magnitude: 11.3
+            keywords:
         - title: Mountain - Masters
           url: https://youtu.be/bqrHh9QaEhM
+          metadata:
+            tournament: Mountain
+            level: Masters
+            teePosition: 3
+            ball: King Maker
+            clubs:
+              - name: Apocalypse
+                level: 5
+              - name: Thorn
+                level: 8
+            wind:
+              direction: WSW
+              magnitude: 12.3
+            keywords:
         - title: Mountain - Masters
           url: https://youtu.be/0YP4QfjJi84
+          metadata:
+            tournament: Mountain
+            level: Masters
+            teePosition: 3
+            ball: King Maker
+            clubs:
+              - name: Apocalypse
+                level: 4
+              - name: B52
+                level: 6
+            wind:
+              direction: WSW
+              magnitude: 10.5
+            keywords:
         - title: Touchdown - Rookie Guide
           url: https://youtu.be/n8HX3R4agfM
+          metadata:
+            tournament: Touchdown
+            level: Rookie
+            teePosition: 1
+            ball: Marlin
+            clubs:
+              - name: Quarterback
+                level: 10
+              - name: Claw
+                level: 10
+            wind:
+              direction: NE
+              magnitude: 3.0
+            keywords:
         - title: Touchdown - Pro Guide
           url: https://youtu.be/LWVqwtsrnLE
+          metadata:
+            tournament: Touchdown
+            level: Pro
+            teePosition: 2
+            ball: Quasar
+            clubs:
+              - name: Quarterback
+                level: 9
+              - name: Endbringer
+                level: 3
+            wind:
+              direction: NE
+              magnitude: 6.7
+            keywords:
         - title: Touchdown - Expert Guide
           url: https://youtu.be/rP0RfsZl_Gc
+          metadata:
+            tournament: Touchdown
+            level: Expert
+            teePosition: 2
+            ball: Basic
+            clubs:
+              - name: Quarterback
+                level: 10
+              - name: Endbringer
+                level: 7
+            wind:
+              direction: NE
+              magnitude: 14.0
+            keywords:
         - title: Touchdown - Masters Guide
           url: https://youtu.be/u8gTvVB3OTU
+          metadata:
+            tournament: Touchdown
+            level: Masters
+            teePosition: 3
+            ball: Marlin
+            clubs:
+              - name: Apocalypse
+                level: 4
+              - name: Spitfire
+                level: 3
+            wind:
+              direction: NE
+              magnitude: 13.8
+            keywords:
     aliases:
       - 905fbf57-0bed-4383-8bdf-3a2db07f54d4
     overlays:
@@ -324,14 +715,85 @@ holes:
         resources:
         - title: Tour 8 - Strategy and Tips for Eagle
           url: https://youtu.be/ywCoPVyR6k8
+          metadata:
+            tour: 8
+            ball: Quasar
+            teePosition: 2
+            clubs:
+              - name: Quarterback
+                level: 10
+              - name: Guardian
+                level: 8
+              - name: Goliath
+                level: 8
+            wind:
+              direction: ENE
+              magnitude: 11.4
+            keywords:
         - title: Touchdown - Rookie Guide
           url: https://youtu.be/W3oh1t8IkdA
+          metadata:
+            tournament: Touchdown
+            level: Rookie
+            teePosition: 1
+            ball: Titan
+            clubs:
+              - name: Thor's Hammer
+                level: 5
+              - name: Sniper
+                level: 10
+            wind:
+              direction: N
+              magnitude: 3.6
+            keywords:
         - title: Touchdown - Pro Guide
           url: https://youtu.be/sP2dh3bvdrU
+          metadata:
+            tournament: Touchdown
+            level: Pro
+            teePosition: 2
+            ball: Touchdown
+            clubs:
+              - name: Apocalypse
+                level: 4
+              - name: Sniper
+                level: 9
+            wind:
+              direction: NNW
+              magnitude: 6.0
+            keywords:
         - title: Touchdown - Expert Guide
           url: https://youtu.be/kThI7-bPbW4
+          metadata:
+            tournament: Touchdown
+            level: Expert
+            teePosition: 2
+            ball: Snow Globe
+            clubs:
+              - name: Apocalypse
+                level: 7
+              - name: Hammerhead
+                level: 7
+            wind:
+              direction: N
+              magnitude: 13.2
+            keywords:
         - title: Touchdown - Masters Guide
           url: https://youtu.be/BGXsMC_qs_g
+          metadata:
+            tournament: Touchdown
+            level: Masters
+            teePosition: 3
+            ball: Snow Globe
+            clubs:
+              - name: Apocalypse
+                level: 4
+              - name: Guardian
+                level: 7
+            wind:
+              direction: N
+              magnitude: 15.8
+            keywords:
     aliases:
       - 5b78f5b8-1fd0-4a60-a56b-adb446589a5e
     overlays:
@@ -436,30 +898,171 @@ holes:
         resources:
         - title: General Instruction - 2nd Tee
           url: https://youtu.be/xGqnVjK-7U0
+          metadata:
+            generalInstruction: true
+            teePosition: 2
         - title: Tour 8 Shootout - 11 O`clock Wind
           url: https://youtu.be/8aOAoh4tP-U?t=3m58s
+          metadata:
+            tour: 8
+            ball: Quasar
+            teePosition: 2
+            clubs:
+              - name: Guardian
+                level: 8
+            wind:
+              direction: NNW
+              magnitude: 4.7
+            keywords:
         - title: Tour 8 Shootout - 9 O`clock Wind
           url: https://youtu.be/tgvz84j-NNo?t=4m7s
+          metadata:
+            tour: 8
+            ball: Quasar
+            teePosition: 2
+            clubs:
+              - name: Guardian
+                level: 8
+            wind:
+              direction: WSW
+              magnitude: 5.1
+            keywords:
         - title: Tour 8 Shootout - 2 O`clock Wind
           url: https://youtu.be/8eOxzKWnlAk?t=4m4s
+          metadata:
+            tour: 8
+            ball: Quasar
+            teePosition: 2
+            clubs:
+              - name: Guardian
+                level: 8
+            wind:
+              direction: ENE
+              magnitude: 5.3
+            keywords:
         - title: Tour 8 Shootout - Hard Left to Right Wind
           url: https://youtu.be/rtJJUtlljow
+          metadata:
+            tour: 8
+            ball: Basic
+            teePosition: 2
+            clubs:
+              - name: Guardian
+                level: 8
+            wind:
+              direction: E
+              magnitude: 10.5
+            keywords:
         - title: Tour 8 Shootout - Tailwinds
           url: https://youtu.be/qjxIf0ij72I
+          metadata:
+            tour: 8
+            ball: Basic
+            teePosition: 2
+            clubs:
+              - name: Guardian
+                level: 8
+            wind:
+              direction: N
+              magnitude: 4.8
+            keywords:
         - title: Tour 8 Shootout - Headwind
           url: https://youtu.be/tykgglHT7KA
+          metadata:
+            tour: 8
+            ball: Basic
+            teePosition: 2
+            clubs:
+              - name: Guardian
+                level: 8
+            wind:
+              direction: S
+              magnitude: 5.3
+            keywords:
+              - Rough bump
         - title: Tour 8 Shootout - Headwind Pointed at 5 O`clock
           url: https://youtu.be/qpxCTZkVLnk
+          metadata:
+            tour: 8
+            ball: Basic
+            teePosition: 2
+            clubs:
+              - name: Guardian
+                level: 8
+            wind:
+              direction: SE
+              magnitude: 13.3
+            keywords:
         - title: Tour 8 Shootout - Left to Right Wind
           url: https://youtu.be/ea5LHGY6Wts
+          metadata:
+            tour: 8
+            ball: Basic
+            teePosition: 2
+            clubs:
+              - name: Guardian
+                level: 8
+            wind:
+              direction: ESE
+              magnitude: 12.5
+            keywords:
         - title: Touchdown - Rookie Guide
           url: https://youtu.be/7WVamN6lDE4
+          metadata:
+            tournament: Touchdown
+            level: Rookie
+            teePosition: 1
+            ball: Marlin
+            clubs:
+              - name: Backbone
+                level: 10
+            wind:
+              direction: WNW
+              magnitude: 3.4
+            keywords:
         - title: Touchdown - Pro Guide
           url: https://youtu.be/awpP7d-yK-g
+          metadata:
+            tournament: Touchdown
+            level: Pro
+            teePosition: 2
+            ball: Navigator
+            clubs:
+              - name: Guardian
+                level: 7
+            wind:
+              direction: WNW
+              magnitude: 7.5
+            keywords:
         - title: Touchdown - Expert Guide
           url: https://youtu.be/dAktqfWpkYY
+          metadata:
+            tournament: Touchdown
+            level: Expert
+            teePosition: 2
+            ball: King Maker
+            clubs:
+              - name: Sniper
+                level: 10
+            wind:
+              direction: WNW
+              magnitude: 7.8
+            keywords:
+              - Rough bump
         - title: Touchdown - Masters Guide
           url: https://youtu.be/fiB9zCyj7rk
+          metadata:
+            tournament: Touchdown
+            level: Masters
+            teePosition: 3
+            ball: King Maker
+            clubs:
+              - name: Guardian
+                level: 7
+            wind:
+              direction: W
+              magnitude: 11.9
+            keywords:
     aliases:
       - 68714fc8-2d57-494f-ad86-5e9f0e4761c9
     overlays:
@@ -525,24 +1128,164 @@ holes:
         resources:
         - title: Mountain - Rookie
           url: https://youtu.be/qwxnz35IUWQ
+          metadata:
+            tournament: Mountain
+            level: Rookie
+            teePosition: 1
+            ball: Titan
+            clubs:
+              - name: Extra Mile
+                level: 6
+              - name: Backbone
+                level: 9
+            wind:
+              direction: NNW
+              magnitude: 2.6
+            keywords:
         - title: Mountain - Pro
           url: https://youtu.be/44FA4xm4tVg
+          metadata:
+            tournament: Mountain
+            level: Pro
+            teePosition: 2
+            ball: Titan
+            clubs:
+              - name: Extra Mile
+                level: 6
+              - name: Sniper
+                level: 7
+            wind:
+              direction: WNW
+              magnitude: 5.2
+            keywords:
         - title: Mountain - Expert
           url: https://youtu.be/27MPHxLT_P8
+          metadata:
+            tournament: Mountain
+            level: Expert
+            teePosition: 2
+            ball: King Maker
+            clubs:
+              - name: Thor's Hammer
+                level: 4
+              - name: Backbone
+                level: 8
+            wind:
+              direction: NE
+              magnitude: 8.4
+            keywords:
         - title: Mountain - Masters
           url: https://youtu.be/JU56YHPtt0U
+          metadata:
+            tournament: Mountain
+            level: Masters
+            teePosition: 3
+            ball: Snow Globe
+            clubs:
+              - name: Apocalypse
+                level: 7
+              - name: Nirvana
+                level: 8
+            wind:
+              direction: NNW
+              magnitude: 16.8
+            keywords:
         - title: Mountain - Masters
           url: https://youtu.be/q4G_ynbrjMM
+          metadata:
+            tournament: Mountain
+            level: Masters
+            teePosition: 3
+            ball: Snow Globe
+            clubs:
+              - name: Apocalypse
+                level: 5
+              - name: Nirvana
+                level: 8
+            wind:
+              direction: N
+              magnitude: 17.3
+            keywords:
         - title: Mountain - Masters
           url: https://youtu.be/trK-mjsu9P0
-        - title: Touchdown - Rookie Guide
+          metadata:
+            tournament: Mountain
+            level: Masters
+            teePosition: 3
+            ball: Bunny
+            clubs:
+              - name: Apocalypse
+                level: 4
+              - name: B52
+                level: 6
+            wind:
+              direction: N
+              magnitude: 9.0
+            keywords:
+        - title: Touchdown - Rookie
           url: https://youtu.be/fKM5KES2IwY
-        - title: Touchdown - Pro Guide
+          metadata:
+            tournament: Touchdown
+            level: Rookie
+            teePosition: 1
+            ball: Marlin
+            clubs:
+              - name: Thor's Hammer
+                level: 5
+              - name: Backbone
+                level: 10
+            wind:
+              direction: N
+              magnitude: 2.8
+            keywords:
+        - title: Touchdown - Pro
           url: https://youtu.be/1fMLP-lkSvg
-        - title: Touchdown - Expert Guide
+          metadata:
+            tournament: Touchdown
+            level: Pro
+            teePosition: 2
+            ball: Navigator
+            clubs:
+              - name: Thor's Hammer
+                level: 5
+              - name: Nirvana
+                level: 6
+            wind:
+              direction: N
+              magnitude: 7.5
+            keywords:
+        - title: Touchdown - Expert
           url: https://youtu.be/zg7Oi98ibUw
-        - title: Touchdown - Masters Guide
+          metadata:
+            tournament: Touchdown
+            level: Expert
+            teePosition: 2
+            ball: Titan
+            clubs:
+              - name: Apocalypse
+                level: 7
+              - name: Claw
+                level: 10
+            wind:
+              direction: N
+              magnitude: 9.6
+            keywords:
+        - title: Touchdown - Masters
           url: https://youtu.be/kF1PbstWgkg
+          metadata:
+            tournament: Touchdown
+            level: Masters
+            teePosition: 3
+            ball: Titan
+            clubs:
+              - name: Apocalypse
+                level: 4
+              - name: Nirvana
+                level: 6
+            wind:
+              direction: N
+              magnitude: 13.0
+            keywords:
     aliases:
       - d811edb2-7fe5-4e38-a29c-995b1722634b
     overlays:
@@ -676,16 +1419,102 @@ holes:
         resources:
           - title: Tour 8 - Tips for Backspin Eagle Shot
             url: https://youtu.be/TfbPQMoySjI
+            metadata:
+              tour: 8
+              ball: Quasar
+              teePosition: 2
+              clubs:
+                - name: Quarterback
+                  level: 10
+                - name: Claw
+                  level: 10
+              wind:
+                direction: E
+                magnitude: 11.2
+              keywords:
           - title: Tour 8 - Tips and Strategy for Eagle
             url: https://youtu.be/U99_JDO-n6U
-          - title: Touchdown - Rookie Guide
+            metadata:
+              tour: 8
+              ball: Quasar
+              teePosition: 2
+              clubs:
+                - name: Quarterback
+                  level: 10
+                - name: Claw
+                  level: 10
+              wind:
+                direction: ENE
+                magnitude: 11.3
+              keywords:
+                - Dunk
+          - title: Touchdown - Rookie
             url: https://youtu.be/Kjdc0AXNCL0
-          - title: Touchdown - Pro Guide
+            metadata:
+              tournament: Touchdown
+              level: Rookie
+              teePosition: 1
+              ball: Marlin
+              clubs:
+                - name: Quarterback
+                  level: 10
+                - name: Claw
+                  level: 10
+              wind:
+                direction: N
+                magnitude: 4.4
+              keywords:
+                - Dunk
+          - title: Touchdown - Pro
             url: https://youtu.be/jQiolJ8PfXA
-          - title: Touchdown - Expert Guide
+            metadata:
+              tournament: Touchdown
+              level: Pro
+              teePosition: 2
+              ball: Navigator
+              clubs:
+                - name: Quarterback
+                  level: 9
+                - name: Spitfire
+                  level: 3
+              wind:
+                direction: N
+                magnitude: 6.5
+              keywords:
+                - Dunk
+          - title: Touchdown - Expert
             url: https://youtu.be/puNmIpuIn0o
-          - title: Touchdown - Masters Guide
+            metadata:
+              tournament: Touchdown
+              level: Expert
+              teePosition: 2
+              ball: Snow Globe
+              clubs:
+                - name: Apocalypse
+                  level: 7
+                - name: Endbringer
+                  level: 7
+              wind:
+                direction: NNW
+                magnitude: 11.8
+              keywords:
+                - Dunk
+          - title: Touchdown - Masters
             url: https://youtu.be/Xa3SI6V0kwU
+            metadata:
+              tournament: Touchdown
+              level: Masters
+              teePosition: 3
+              ball: Katana
+              clubs:
+                - name: Apocalypse
+                  level: 4
+                - name: Sand Lizard
+                  level: 9
+              wind:
+                direction: N
+                magnitude: 13.4
+              keywords:
     aliases:
       - 035550dd-8da2-42af-b69b-677249421db5
     overlays:
@@ -779,28 +1608,156 @@ holes:
         resources:
         - title: General Instruction - 2nd Tee
           url: https://youtu.be/mI7y8dkuonI
+          metadata:
+            generalInstruction: true
+            teePosition: 2
         - title: Tour 8 Shootout
           url: https://youtu.be/2pk5l7SEOlY?t=4m3s
+          metadata:
+            tour: 8
+            ball: Navigator
+            teePosition: 2
+            clubs:
+              - name: Guardian
+                level: 8
+            wind:
+              direction: SSE
+              magnitude: 3.4
+            keywords:
         - title: Tour 8 Shootout - 4 O`Clock Wind
           url: https://youtu.be/3JEXqL9mXVk?t=5m35s
+          metadata:
+            tour: 8
+            ball: Navigator
+            teePosition: 2
+            clubs:
+              - name: Guardian
+                level: 8
+            wind:
+              direction: SSE
+              magnitude: 4.6
+            keywords:
         - title: Tour 8 Shootout - Tailwind
           url: https://youtu.be/WnEUZXFkggk
+          metadata:
+            tour: 8
+            ball: Basic
+            teePosition: 2
+            clubs:
+              - name: Guardian
+                level: 8
+            wind:
+              direction: NNW
+              magnitude: 5.0
+            keywords:
         - title: Tour 8 Shootout - Wind Pointed at 430
           url: https://youtu.be/3vfqiYg1eXA
+          metadata:
+            tour: 8
+            ball: Basic
+            teePosition: 2
+            clubs:
+              - name: Guardian
+                level: 8
+            wind:
+              direction: SE
+              magnitude: 7.8
+            keywords:
         - title: Tour 8 Shootout - Wind Pointed at 3 O`clock
           url: https://youtu.be/ClH6TgU7oI4
+          metadata:
+            tour: 8
+            ball: Basic
+            teePosition: 2
+            clubs:
+              - name: Guardian
+                level: 8
+            wind:
+              direction: E
+              magnitude: 10.4
+            keywords:
         - title: Tour 8 Shootout - Tailwind Pointed Right
           url: https://youtu.be/wvj56w7zKi0
+          metadata:
+            tour: 8
+            ball: Basic
+            teePosition: 2
+            clubs:
+              - name: Guardian
+                level: 8
+            wind:
+              direction: NE
+              magnitude: 12.2
+            keywords:
         - title: Tour 8 Shootout - Headwind
           url: https://youtu.be/kISEW8xp3cw
-        - title: Touchdown - Rookie Guide
+          metadata:
+            tour: 8
+            ball: Basic
+            teePosition: 2
+            clubs:
+              - name: Guardian
+                level: 8
+            wind:
+              direction: SSW
+              magnitude: 8.0
+            keywords:
+        - title: Touchdown - Rookie
           url: https://youtu.be/dzF_21ngs3w
-        - title: Touchdown - Pro Guide
+          metadata:
+            tournament: Touchdown
+            level: Rookie
+            teePosition: 1
+            ball: Marlin
+            clubs:
+              - name: Backbone
+                level: 10
+            wind:
+              direction: E
+              magnitude: 2.8
+            keywords:
+        - title: Touchdown - Pro
           url: https://youtu.be/Bp2sX7Np8s8
-        - title: Touchdown - Expert Guide
+          metadata:
+            tournament: Touchdown
+            level: Pro
+            teePosition: 2
+            ball: Navigator
+            clubs:
+              - name: Guardian
+                level: 7
+            wind:
+              direction: ENE
+              magnitude: 5.9
+            keywords:
+        - title: Touchdown - Expert
           url: https://youtu.be/TT3nsM6AjfQ
-        - title: Touchdown - Masters Guide
+          metadata:
+            tournament: Touchdown
+            level: Expert
+            teePosition: 2
+            ball: Navigator
+            clubs:
+              - name: B52
+                level: 6
+            wind:
+              direction: NE
+              magnitude: 10.5
+            keywords:
+        - title: Touchdown - Masters
           url: https://youtu.be/PMtGb184KJs
+          metadata:
+            tournament: Touchdown
+            level: Masters
+            teePosition: 2
+            ball: Navigator
+            clubs:
+              - name: Hammerhead
+                level: 7
+            wind:
+              direction: NE
+              magnitude: 10.5
+            keywords:
     aliases:
       - 2d79761e-7d37-40f5-9d96-80d4689b8705
     overlays:
@@ -860,14 +1817,73 @@ holes:
           url: https://i.imgur.com/MeaDv60.jpg
       - name: Zachary Jones
         resources:
-        - title: Touchdown - Rookie Guide
+        - title: Touchdown - Rookie
           url: https://youtu.be/jP3wGERL_WA
-        - title: Touchdown - Pro Guide
+          metadata:
+            tournament: Touchdown
+            level: Rookie
+            teePosition: 1
+            ball: Marlin
+            clubs:
+              - name: Quarterback
+                level: 10
+              - name: Sniper
+                level: 10
+            wind:
+              direction: NE
+              magnitude: 3.8
+            keywords:
+        - title: Touchdown - Pro
           url: https://youtu.be/NeLjxD1-iWg
-        - title: Touchdown - Expert Guide
+          metadata:
+            tournament: Touchdown
+            level: Pro
+            teePosition: 2
+            ball: Navigator
+            clubs:
+              - name: Thor's Hammer
+                level: 5
+              - name: Sniper
+                level: 9
+            wind:
+              direction: NE
+              magnitude: 5.8
+            keywords:
+              - Rough bump
+        - title: Touchdown - Expert
           url: https://youtu.be/vXxGGh-XuSg
-        - title: Touchdown - Masters Guide
+          metadata:
+            tournament: Touchdown
+            level: Expert
+            teePosition: 2
+            ball: Katana
+            clubs:
+              - name: Apocalypse
+                level: 7
+              - name: Hammerhead
+                level: 7
+            wind:
+              direction: NE
+              magnitude: 9.8
+            keywords:
+              - Rough bump
+        - title: Touchdown - Masters
           url: https://youtu.be/a93uxmgWIOE
+          metadata:
+            tournament: Touchdown
+            level: Masters
+            teePosition: 3
+            ball: Katana
+            clubs:
+              - name: Thor's Hammer
+                level: 5
+              - name: Sniper
+                level: 9
+            wind:
+              direction: NE
+              magnitude: 13.9
+            keywords:
+              - Rough bump
     aliases:
       - f69eaec7-1010-4489-88c2-40dbc8ed2e40
     overlays:

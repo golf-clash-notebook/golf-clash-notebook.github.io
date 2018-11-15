@@ -137,6 +137,9 @@ holes:
         resources:
         - title: General Instruction - 2nd Tee
           url: https://youtu.be/7eYgHjrW5X8
+          metadata:
+            generalInstruction: true
+            teePosition: 2
         - title: Tour 9 Shootout - Wind Pointed at 830
           url: https://youtu.be/Y6Th3ddXrZ0
         - title: Tour 9 Shootout - Wind Pointed at 3 O`clock
@@ -321,6 +324,9 @@ holes:
         resources:
         - title: General Instruction - 2nd Tee
           url: https://youtu.be/hEeBEtRbcYI
+          metadata:
+            generalInstruction: true
+            teePosition: 2
         - title: Platinum Resorts - Expert
           url: https://youtu.be/sJf1ufgKBgA
         - title: Platinum Resorts - Masters
@@ -545,6 +551,9 @@ holes:
         resources:
         - title: General Instruction - 2nd Tee
           url: https://youtu.be/pRzF9-3AvZk
+          metadata:
+            generalInstruction: true
+            teePosition: 2
         - title: Labor Day (2018) - Pro
           url: https://youtu.be/i987Y26dIow
         - title: Tour 9 Shootout - Tailwind Iron Shot Wind Pointed at 11 O`clock

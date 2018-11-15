@@ -39,34 +39,195 @@ holes:
         resources:
         - title: General Instruction - 2nd Tee
           url: https://youtu.be/b-LlpowKIDI
+          metadata:
+            generalInstruction: true
+            teePosition: 2
         - title: General Instruction - 3rd Tee
           url: https://youtu.be/xFTHORwkX7Y
+          metadata:
+            generalInstruction: true
+            teePosition: 3
         - title: Mountain - Rookie
           url: https://youtu.be/t8PcSody6rw
+          metadata:
+            tournament: Mountain
+            level: Rookie
+            teePosition: 1
+            ball: Quasar
+            clubs:
+              - name: Backbone
+                level: 9
+            wind:
+              direction: N
+              magnitude: 3.8
+            keywords:
         - title: Mountain - Rookie
           url: https://youtu.be/gMEaB9yh-B0
+          metadata:
+            tournament: Mountain
+            level: Rookie
+            teePosition: 1
+            ball: Quasar
+            clubs:
+              - name: Goliath
+                level: 6
+            wind:
+              direction: N
+              magnitude: 2.6
+            keywords:
         - title: Mountain - Pro
           url: https://youtu.be/vSR9wqpzXY8
+          metadata:
+            tournament: Mountain
+            level: Pro
+            teePosition: 2
+            ball: Navigator
+            clubs:
+              - name: Extra Mile
+                level: 6
+            wind:
+              direction: SSE
+              magnitude: 6.9
+            keywords:
+              - Rough bump
         - title: Mountain - Expert
           url: https://youtu.be/dq9RIB4BVcs
+          metadata:
+            tournament: Mountain
+            level: Expert
+            teePosition: 2
+            ball: King Maker
+            clubs:
+              - name: Sniper
+                level: 8
+            wind:
+              direction: SW
+              magnitude: 9.0
+            keywords:
         - title: Mountain - Masters
           url: https://youtu.be/HLbGDoB9aMI
+          metadata:
+            tournament: Mountain
+            level: Masters
+            teePosition: 3
+            ball: King Maker
+            clubs:
+              - name: Sniper
+                level: 10
+            wind:
+              direction: N
+              magnitude: 10.8
+            keywords:
         - title: Mountain - Masters
           url: https://youtu.be/rlw7ixPz9p4
+          metadata:
+            tournament: Mountain
+            level: Masters
+            teePosition: 3
+            ball: King Maker
+            clubs:
+              - name: Cataclysm
+                level: 7
+            wind:
+              direction: N
+              magnitude: 11.8
+            keywords:
         - title: Mountain - Masters
           url: https://youtu.be/TgAI2NYwzb0
+          metadata:
+            tournament: Mountain
+            level: Masters
+            teePosition: 3
+            ball: Bunny
+            clubs:
+              - name: Guardian
+                level: 8
+            wind:
+              direction: N
+              magnitude: 9.8
+            keywords:
         - title: Tour 9 Shootout - Tailwind Pointed Near 12 O`clock
           url: https://youtu.be/UmBqjTzrP1k
+          metadata:
+            tour: 9
+            ball: Navigator
+            teePosition: 2
+            clubs:
+              - name: Sniper
+                level: 10
+            wind:
+              direction: N
+              magnitude: 8.1
+            keywords:
         - title: Tour 9 Shootout - 3 O`clock Wind
           url: https://youtu.be/MTUzavSax0Y?t=3m57s
+          metadata:
+            tour: 9
+            ball: King Maker
+            teePosition: 2
+            clubs:
+              - name: Sniper
+                level: 10
+            wind:
+              direction: E
+              magnitude: 5.4
+            keywords:
         - title: St. Patrick's - Rookie
           url: https://youtu.be/QkAga7jxVmY
+          metadata:
+            tournament: St. Patrick's
+            level: Rookie
+            teePosition: 1
+            ball: Navigator
+            clubs:
+              - name: Sniper
+                level: 6
+            wind:
+              direction: NW
+              magnitude: 3.7
+            keywords:
         - title: St. Patrick's - Pro
           url: https://youtu.be/TLBN1G2QUYE
+          metadata:
+            tournament: St. Patrick's
+            level: Pro
+            teePosition: 2
+            ball: Movie
+            clubs:
+              - name: Sniper
+                level: 9
+            wind:
+              direction: NW
+              magnitude: 5.0
+            keywords:
         - title: St. Patrick's - Expert
           url: https://youtu.be/avNUMjSFNyE
+          metadata:
+            tournament: St. Patrick's
+            level: Expert
+            teePosition: 2
+            ball: King Maker
+            clubs:
+              - name: Sniper
+                level: 10
+            wind:
+              direction: NW
+              magnitude: 8.8
+            keywords:
         - title: St. Patrick's - Masters
           url: https://youtu.be/kGidlAwoVQ8
+          metadata:
+            tournament: St. Patrick's
+            level: Masters
+            teePosition: 3
+            ball: King Maker
+            clubs:
+              - name: Hammerhead
+                level: 7
+            wind:
+              direction: NW
+              magnitude: 10.3
+            keywords:
       - name: Kevin Warren
         resources:
         - title: St. Patrick's - Pro
@@ -171,14 +332,83 @@ holes:
         resources:
         - title: Tour 9 - Tailwind
           url: https://youtu.be/qxplK4G0uUA
+          metadata:
+            tour: 9
+            ball: Katana
+            teePosition: 2
+            clubs:
+              - name: Thor's Hammer
+                level: 6
+              - name: Nirvana
+                level: 8
+            wind:
+              direction: NNW
+              magnitude: 9.8
+            keywords:
         - title: St. Patrick's - Rookie
           url: https://youtu.be/TFt0iOG3Iao
+          metadata:
+            tournament: St. Patrick's
+            level: Rookie
+            teePosition: 1
+            ball: Navigator
+            clubs:
+              - name: Thor's Hammer
+                level: 2
+              - name: Thorn
+                level: 4
+            wind:
+              direction: ENE
+              magnitude: 4.2
+            keywords:
         - title: St. Patrick's - Pro
           url: https://youtu.be/x5aylQMFxUQ
+          metadata:
+            tournament: St. Patrick's
+            level: Pro
+            teePosition: 2
+            ball: Katana
+            clubs:
+              - name: Apocalypse
+                level: 4
+              - name: Thorn
+                level: 7
+            wind:
+              direction: NE
+              magnitude: 6.9
+            keywords:
         - title: St. Patrick's - Expert
           url: https://youtu.be/v-RY__APdis
+          metadata:
+            tournament: St. Patrick's
+            level: Expert
+            teePosition: 2
+            ball: King Maker
+            clubs:
+              - name: Apocalypse
+                level: 7
+              - name: Endbringer
+                level: 7
+            wind:
+              direction: NE
+              magnitude: 7.1
+            keywords:
         - title: St. Patrick's - Masters
           url: https://youtu.be/KpdTC9b5t9g
+          metadata:
+            tournament: St. Patrick's
+            level: Masters
+            teePosition: 3
+            ball:
+            clubs:
+              - name: Apocalypse
+                level: 7
+              - name: Claw
+                level: 10
+            wind:
+              direction: NE
+              magnitude: 11.5
+            keywords:
       - name: Kevin Warren
         resources:
         - title: St. Patrick's - Pro
@@ -283,16 +513,105 @@ holes:
         resources:
         - title: Tour 9 - Strong Tailwind
           url: https://youtu.be/yeHlOqWU9fc
+          metadata:
+            tour: 9
+            ball: Katana
+            teePosition: 2
+            clubs:
+              - name: Thor's Hammer
+                level: 6
+              - name: Sniper
+                level: 10
+              - name: Endbringer
+                level: 7
+            wind:
+              direction: NNE
+              magnitude: 10.4
+            keywords:
         - title: Tour 9 - Strong Headwind
           url: https://youtu.be/PJpvZLapEgE
+          metadata:
+            tour: 9
+            ball: Katana
+            teePosition: 2
+            clubs:
+              - name: Thor's Hammer
+                level: 6
+              - name: Sniper
+                level: 10
+              - name: Nirvana
+                level: 8
+            wind:
+              direction: SE
+              magnitude: 10.7
+            keywords:
         - title: St. Patrick's - Rookie
           url: https://youtu.be/cuT4BFjioHg
+          metadata:
+            tournament: St. Patrick's
+            level: Rookie
+            teePosition: 1
+            ball: Berserker
+            clubs:
+              - name: Thor's Hammer
+                level: 2
+              - name: Big Dawg
+                level: 5
+            wind:
+              direction: N
+              magnitude: 4.1
+            keywords:
         - title: St. Patrick's - Pro
           url: https://youtu.be/O4ff_K96o78
+          metadata:
+            tournament: St. Patrick's
+            level: Pro
+            teePosition: 2
+            ball: Berserker
+            clubs:
+              - name: Apocalypse
+                level: 4
+              - name: Cataclysm
+                level: 3
+              - name: Spitfire
+                level: 4
+            wind:
+              direction: NNW
+              magnitude: 8.0
+            keywords:
+              - Power slice
         - title: St. Patrick's - Expert
           url: https://youtu.be/TYriw9UdReQ
+          metadata:
+            tournament: St. Patrick's
+            level: Expert
+            teePosition: 2
+            ball: Titan
+            clubs:
+              - name: Apocalypse
+                level: 7
+              - name: Cataclysm
+                level: 7
+            wind:
+              direction: NNW
+              magnitude: 9.8
+            keywords:
         - title: St. Patrick's - Masters
           url: https://youtu.be/GftTbRw9f5s
+          metadata:
+            tournament: St. Patrick's
+            level: Masters
+            teePosition: 3
+            ball: Berserker
+            clubs:
+              - name: Apocalypse
+                level: 7
+              - name: Hammerhead
+                level: 7
+            wind:
+              direction: NNW
+              magnitude: 16.1
+            keywords:
       - name: Kevin Warren
         resources:
         - title: St. Patrick's - Pro
@@ -405,12 +724,68 @@ holes:
         resources:
         - title: St. Patrick's - Rookie
           url: https://youtu.be/sZJFl38xa3A
+          metadata:
+            tournament: St. Patrick's
+            level: Rookie
+            teePosition: 1
+            ball: Navigator
+            clubs:
+              - name: Rock
+                level: 4
+              - name: Thorn
+                level: 4
+            wind:
+              direction: NW
+              magnitude: 3.5
+            keywords:
         - title: St. Patrick's - Pro
           url: https://youtu.be/G8Tp92mAt3U
+          metadata:
+            tournament: St. Patrick's
+            level: Pro
+            teePosition: 2
+            ball: Berserker
+            clubs:
+              - name: Apocalypse
+                level: 4
+              - name: Spitfire
+                level: 4
+            wind:
+              direction: NW
+              magnitude: 6.0
+            keywords:
         - title: St. Patrick's - Expert
           url: https://youtu.be/c6Ue8PdPBCU
+          metadata:
+            tournament: St. Patrick's
+            level: Expert
+            teePosition: 2
+            ball: Berserker
+            clubs:
+              - name: Apocalypse
+                level: 7
+              - name: Spitfire
+                level: 6
+            wind:
+              direction: WNW
+              magnitude: 11.5
+            keywords:
         - title: St. Patrick's - Masters
           url: https://youtu.be/39SAK1B1ry0
+          metadata:
+            tournament: St. Patrick's
+            level: Masters
+            teePosition: 3
+            ball: Berserker
+            clubs:
+              - name: Apocalypse
+                level: 7
+              - name: Claw
+                level: 10
+            wind:
+              direction: NW
+              magnitude: 13.8
+            keywords:
       - name: Kevin Warren
         resources:
         - title: St. Patrick's - Pro
@@ -507,18 +882,84 @@ holes:
         resources:
         - title: General Instruction - 2nd Tee
           url: https://youtu.be/bbgy-4vNdEA
+          metadata:
+            generalInstruction: true
+            teePosition: 2
         - title: General Instruction - 3rd Tee
           url: https://youtu.be/74wmslWx5Ec
+          metadata:
+            generalInstruction: true
+            teePosition: 3
         - title: Tour 9 Shootout - 10 O`clock Wind
           url: https://youtu.be/5LyKCthpzh8
+          metadata:
+            tour: 9
+            ball: Quasar
+            teePosition: 2
+            clubs:
+              - name: Sniper
+                level: 10
+            wind:
+              direction: NW
+              magnitude: 11.5
+            keywords:
+              - Rough bump
         - title: St. Patrick's - Rookie
           url: https://youtu.be/DnvCceZXkQ0
+          metadata:
+            tournament: St. Patrick's
+            level:  Rookie
+            teePosition: 1
+            ball: Navigator
+            clubs:
+              - name: Sniper
+                level: 6
+            wind:
+              direction: SE
+              magnitude: 3.0
+            keywords:
         - title: St. Patrick's - Pro
           url: https://youtu.be/MR_VW3o067A
+          metadata:
+            tournament: St. Patrick's
+            level: Pro
+            teePosition: 2
+            ball: Navigator
+            clubs:
+              - name: Sniper
+                level: 9
+            wind:
+              direction: SE
+              magnitude: 5.2
+            keywords:
         - title: St. Patrick's - Expert
           url: https://youtu.be/VWMF8V93r8w
+          metadata:
+            tournament: St. Patrick's
+            level: Expert
+            teePosition: 2
+            ball: King Maker
+            clubs:
+              - name: Sniper
+                level: 10
+            wind:
+              direction: SE
+              magnitude: 9.1
+            keywords:
         - title: St. Patrick's - Masters
           url: https://youtu.be/cvvTdfHbFHI
+          metadata:
+            tournament: St. Patrick's
+            level: Masters
+            teePosition: 3
+            ball: King Maker
+            clubs:
+              - name: Quarterback
+                level: 10
+            wind:
+              direction: ESE
+              magnitude: 10.9
+            keywords:
       - name: Kevin Warren
         resources:
         - title: St. Patrick's - Pro
@@ -610,22 +1051,110 @@ holes:
         resources:
         - title: General Instruction - 2nd Tee
           url: https://youtu.be/KnyRc_fTeh0
+          metadata:
+            generalInstruction: true
+            teePosition: 2
         - title: General Instruction - 3rd Tee
           url: https://youtu.be/FcLyB81TcfE
+          metadata:
+            generalInstruction: true
+            teePosition: 3
         - title: Tour 9 Shootout - Strong Headwind
           url: https://youtu.be/arhWV9o2PQk?t=4m38s
+          metadata:
+            tour: 9
+            ball: Katana
+            teePosition: 2
+            clubs:
+              - name: Thor's Hammer
+                level: 6
+            wind:
+              direction: SSE
+              magnitude: 9.8
+            keywords:
         - title: Tour 9 Shootout - Headwind
           url: https://youtu.be/PJpvZLapEgE?t=6m26s
+          metadata:
+            tour: 9
+            ball: Katana
+            teePosition: 2
+            clubs:
+              - name: Sniper
+                level: 10
+            wind:
+              direction: S
+              magnitude: 4.8
+            keywords:
         - title: Tour 9 Shootout - Strong Tailwind
           url: https://youtu.be/NsPPkgnAYXc?t=4m22s
+          metadata:
+            tour: 9
+            ball: Katana
+            teePosition: 2
+            clubs:
+              - name: Sniper
+                level: 10
+            wind:
+              direction: N
+              magnitude: 9.3
+            keywords:
         - title: St. Patrick's - Rookie
           url: https://youtu.be/v70O-KwURlE
+          metadata:
+            tournament: St. Patrick's
+            level: Rookie
+            teePosition: 1
+            ball: Navigator
+            clubs:
+              - name: Sniper
+                level: 6
+            wind:
+              direction: E
+              magnitude: 4.5
+            keywords:
+              - Rough bump
         - title: St. Patrick's - Pro
           url: https://youtu.be/tyE_PtEVwzY
+          metadata:
+            tournament: St. Patrick's
+            level: Pro
+            teePosition: 2
+            ball: Navigator
+            clubs:
+              - name: Sniper
+                level: 9
+            wind:
+              direction: E
+              magnitude: 7.1
+            keywords:
         - title: St. Patrick's - Expert
           url: https://youtu.be/Snj29PYNlio
+          metadata:
+            tournament: St. Patrick's
+            level: Expert
+            teePosition: 2
+            ball: King Maker
+            clubs:
+              - name: Sniper
+                level: 10
+            wind:
+              direction: E
+              magnitude: 8.3
+            keywords:
         - title: St. Patrick's - Masters
           url: https://youtu.be/3NKpYnj6Poc
+          metadata:
+            tournament: St. Patrick's
+            level: Masters
+            teePosition: 3
+            ball: King Maker
+            clubs:
+              - name: Rocket
+                level: 10
+            wind:
+              direction: E
+              magnitude: 9.8
+            keywords:
       - name: Kevin Warren
         resources:
         - title: St. Patrick's - Pro
@@ -717,30 +1246,213 @@ holes:
         resources:
         - title: Mountain - Rookie
           url: https://youtu.be/BnCJeoHrpyQ
+          metadata:
+            tournament: Mountain
+            level: Rookie
+            teePosition: 1
+            ball: Katana
+            clubs:
+              - name: Extra Mile
+                level: 6
+              - name: Malibu
+                level: 6
+            wind:
+              direction: N
+              magnitude: 2.7
+            keywords:
+              - Power slice
         - title: Mountain - Rookie
           url: https://youtu.be/ZLtil7MHLNQ
+          metadata:
+            tournament: Mountain
+            level: Rookie
+            teePosition: 1
+            ball: Katana
+            clubs:
+              - name: Quarterback
+                level: 9
+              - name: Rapier
+                level: 5
+            wind:
+              direction: N
+              magnitude: 2.7
+            keywords:
         - title: Mountain - Pro
           url: https://youtu.be/uMFaNhTMrmA
+          metadata:
+            tournament: Mountain
+            level: Pro
+            teePosition: 2
+            ball: Titan
+            clubs:
+              - name: Quarterback
+                level: 8
+              - name: Endbringer
+                level: 1
+            wind:
+              direction: NW
+              magnitude: 7.0
+            keywords:
         - title: Mountain - Expert
           url: https://youtu.be/QyfmyKthvDs
+          metadata:
+            tournament: Mountain
+            level: Expert
+            teePosition: 2
+            ball: King Maker
+            clubs:
+              - name: Thor's Hammer
+                level: 4
+              - name: Nirvana
+                level: 4
+            wind:
+              direction: N
+              magnitude: 8.1
+            keywords:
         - title: Mountain - Masters
           url: https://youtu.be/t8O9c3aOhEU
+          metadata:
+            tournament: Mountain
+            level: Masters
+            teePosition: 3
+            ball: King Maker
+            clubs:
+              - name: Apocalypse
+                level: 7
+              - name: Endbringer
+                level: 7
+            wind:
+              direction: W
+              magnitude: 10.8
+            keywords:
+              - Dunk
         - title: Mountain - Masters
           url: https://youtu.be/rE-81TNpYjE
+          metadata:
+            tournament: Mountain
+            level: Masters
+            teePosition: 3
+            ball: Season 1
+            clubs:
+              - name: Apocalypse
+                level: 5
+              - name: Endbringer
+                level: 6
+            wind:
+              direction: W
+              magnitude: 12.1
+            keywords:
         - title: Mountain - Masters
           url: https://youtu.be/UlqO6pUpDxU
+          metadata:
+            tournament: Mountain
+            level: Masters
+            teePosition: 3
+            ball: Berserker
+            clubs:
+              - name: Apocalypse
+                level: 4
+            wind:
+              direction: W
+              magnitude: 13.6
+            keywords:
         - title: Tour 9 - Layup Shot
           url: https://youtu.be/aCeeUW6kxZA
+          metadata:
+            tour: 9
+            ball: Katana
+            teePosition: 2
+            clubs:
+              - name: Thor's Hammer
+                level: 6
+              - name: Claw
+                level: 10
+            wind:
+              direction: SE
+              magnitude: 10.0
+            keywords:
         - title: Tour 9 - Shot Over the Water Tips
           url: https://youtu.be/MTUzavSax0Y
+          metadata:
+            tour: 9
+            ball: King Maker
+            teePosition: 2
+            clubs:
+              - name: Thor's Hammer
+                level: 6
+              - name: Nirvana
+                level: 8
+            wind:
+              direction: N
+              magnitude: 8.4
+            keywords:
+              - Power slice
         - title: St. Patrick's - Rookie
           url: https://youtu.be/ABR8f4mC51w
+          metadata:
+            tournament: St. Patrick's
+            level: Rookie
+            teePosition: 1
+            ball: Katana
+            clubs:
+              - name: Rock
+                level: 4
+              - name: Machete
+                level: 7
+            wind:
+              direction: E
+              magnitude: 4.2
+            keywords:
+              - Dunk
         - title: St. Patrick's - Pro
           url: https://youtu.be/hfCBdVxB9hc
+          metadata:
+            tournament: St. Patrick's
+            level: Pro
+            teePosition: 2
+            ball: King Maker
+            clubs:
+              - name: Rock
+                level: 7
+              - name: Thorn
+                level: 7
+            wind:
+              direction: E
+              magnitude: 5.4
+            keywords:
+              - Dunk
         - title: St. Patrick's - Expert
           url: https://youtu.be/Gp9veZA-Dfs
+          metadata:
+            tournament: St. Patrick's
+            level: Expert
+            teePosition: 3
+            ball: Titan
+            clubs:
+              - name: Apocalypse
+                level: 7
+              - name: Spitfire
+                level: 6
+            wind:
+              direction: E
+              magnitude: 8.3
+            keywords:
         - title: St. Patrick's - Masters
           url: https://youtu.be/NRmMT9Wzihk
+          metadata:
+            tournament: St. Patrick's
+            level: Masters
+            teePosition: 4
+            ball: King Maker
+            clubs:
+              - name: Apocalypse
+                level: 7
+              - name: Endbringer
+                level: 7
+            wind:
+              direction: E
+              magnitude: 10.4
+            keywords:
       - name: Kevin Warren
         resources:
         - title: St. Patrick's - Pro
@@ -817,30 +1529,213 @@ holes:
         resources:
         - title: Mountain - Rookie
           url: https://youtu.be/IVe-0FKkkv4
+          metadata:
+            tournament: Mountain
+            level: Rookie
+            teePosition: 1
+            ball: Titan
+            clubs:
+              - name: Quarterback
+                level: 7
+              - name: Big Dawg
+                level: 6
+            wind:
+              direction: N
+              magnitude: 3.2
+            keywords:
         - title: Mountain - Pro
           url: https://youtu.be/TjlgdrtfRsA
+          metadata:
+            tournament: Mountain
+            level: Pro
+            teePosition: 2
+            ball: Titan
+            clubs:
+              - name: Exta Mile
+                level: 6
+              - name: Cataclysm
+                level: 2
+            wind:
+              direction: NW
+              magnitude: 6.2
+            keywords:
         - title: Mountain - Expert
           url: https://youtu.be/q-nWBYCd6Tc
+          metadata:
+            tournament: Mountain
+            level: Expert
+            teePosition: 2
+            ball: King Maker
+            clubs:
+              - name: Thor's Hammer
+                level: 4
+              - name: Sniper
+                level: 8
+            wind:
+              direction: N
+              magnitude: 7.9
+            keywords:
         - title: Mountain - Masters
           url: https://youtu.be/HuBDX8dioM0
+          metadata:
+            tournament: Mountain
+            level: Masters
+            teePosition: 3
+            ball: King Maker
+            clubs:
+              - name: Apocalypse
+                level: 7
+              - name: Cataclysm
+                level: 7
+            wind:
+              direction: E
+              magnitude: 11.5
+            keywords:
         - title: Mountain - Masters
           url: https://youtu.be/USUv2UdBpY0
+          metadata:
+            tournament: Mountain
+            level: Masters
+            teePosition: 3
+            ball: King Maker
+            clubs:
+              - name: Apocalypse
+                level: 5
+              - name: Cataclysm
+                level: 7
+            wind:
+              direction: E
+              magnitude: 11.3
+            keywords:
         - title: Mountain - Masters
           url: https://youtu.be/_k8XNYHReZY
+          metadata:
+            tournament: Mountain
+            level: Masters
+            teePosition: 3
+            ball: Royal
+            clubs:
+              - name: Apocalypse
+                level: 4
+              - name: Hammerhead
+                level: 6
+            wind:
+              direction: 11.0
+              magnitude: ESE
+            keywords:
         - title: Tour 9 - Tips and Strategies
           url: https://youtu.be/UVUzV4Syk60
+          metadata:
+            tour: 9
+            ball: Quasar
+            teePosition: 2
+            clubs:
+              - name: Apocalypse
+                level: 7
+              - name: Sniper
+                level: 10
+            wind:
+              direction: WNW
+              magnitude: 11.3
+            keywords:
         - title: Tour 9 - Headwind
           url: https://youtu.be/-IuN3YJDDLA
+          metadata:
+            tour: 9
+            ball: King Maker
+            teePosition: 2
+            clubs:
+              - name: Thor's Hammer
+                level: 6
+              - name: Sniper
+                level: 10
+              - name: Nirvana
+                level: 8
+            wind:
+              direction: S
+              magnitude: 6.5
+            keywords:
         - title: Tour 9 - Wind Pointed at 4 O`clock
           url: https://youtu.be/nEdMW-iPqqM
+          metadata:
+            tour: 9
+            ball: King Maker
+            teePosition: 2
+            clubs:
+              - name: Thor's Hammer
+                level: 6
+              - name: Sniper
+                level: 10
+            wind:
+              direction: SE
+              magnitude: 5.9
+            keywords:
         - title: St. Patrick's - Rookie
           url: https://youtu.be/IDQB1bzfX68
+          metadata:
+            tournament: St. Patrick's
+            level: Rookie
+            teePosition: 1
+            ball: Titan
+            clubs:
+              - name: Rock
+                level: 4
+              - name: Malibu
+                level: 5
+              - name: Thorn
+                level: 4
+            wind:
+              direction: NW
+              magnitude: 4.1
+            keywords:
         - title: St. Patrick's - Pro
           url: https://youtu.be/RMUpSgthm2Q
+          metadata:
+            tournament: St. Patrick's
+            level: Pro
+            teePosition: 2
+            ball: Titan
+            clubs:
+              - name: Apocalypse
+                level: 4
+              - name: Sniper
+                level: 9
+            wind:
+              direction: NW
+              magnitude: 6.5
+            keywords:
         - title: St. Patrick's - Expert
           url: https://youtu.be/4p4FLzct3zw
+          metadata:
+            tournament: St. Patrick's
+            level: Expert
+            teePosition: 2
+            ball: Titan
+            clubs:
+              - name: Apocalypse
+                level: 7
+              - name: Sniper
+                level: 10
+            wind:
+              direction: NW
+              magnitude: 9.8
+            keywords:
         - title: St. Patrick's - Masters
           url: https://youtu.be/fpwdYJKpUd8
+          metadata:
+            tournament: St. Patrick's
+            level: Masters
+            teePosition: 3
+            ball: Snow Globe
+            clubs:
+              - name: Apocalypse
+                level: 7
+              - name: Nirvana
+                level: 8
+            wind:
+              direction: NNW
+              magnitude: 15.1
+            keywords:
       - name: Kevin Warren
         resources:
         - title: St. Patrick's - Pro
@@ -926,18 +1821,122 @@ holes:
         resources:
         - title: Tour 9 - Strategy and Tips Laying Up
           url: https://youtu.be/PawhCjPsjXw
+          metadata:
+            tour: 9
+            ball: Quasar
+            teePosition: 2
+            clubs:
+              - name: Apocalypse
+                level: 7
+              - name: Sniper
+                level: 10
+              - name: Claw
+                level: 10
+            wind:
+              direction: SW
+              magnitude: 13.2
+            keywords:
         - title: Tour 9 - Tips and Strategies for Eagle
           url: https://youtu.be/XBnkONcXuNI
+          metadata:
+            tour: 9
+            ball: King Maker
+            teePosition: 2
+            clubs:
+              - name: Thor's Hammer
+                level: 6
+              - name: Sniper
+                level: 10
+            wind:
+              direction: NW
+              magnitude: 7.4
+            keywords:
         - title: Tour 9 - Strong Headwind
           url: https://youtu.be/dXlL09DQGkQ
+          metadata:
+            tour: 9
+            ball: Katana
+            teePosition: 2
+            clubs:
+              - name: Thor's Hammer
+                level: 6
+              - name: Sniper
+                level: 10
+              - name: Claw
+                level: 10
+            wind:
+              direction: SSW
+              magnitude: 10.8
+            keywords:
         - title: St. Patrick's - Rookie
           url: https://youtu.be/Hy1zXM0StNE
+          metadata:
+            tournament: St. Patrick's
+            level: Rookie
+            teePosition: 1
+            ball: Titan
+            clubs:
+              - name: Thor's Hammer
+                level: 2
+              - name: Nirvana
+                level: 2
+              - name: Thorn
+                level: 4
+            wind:
+              direction: NNW
+              magnitude: 3.8
+            keywords:
+              - Dunk
         - title: St. Patrick's - Pro
           url: https://youtu.be/YNtYcbR4zSg
+          metadata:
+            tournament: St. Patrick's
+            level: Pro
+            teePosition: 2
+            ball: Titan
+            clubs:
+              - name: Apocalypse
+                level: 4
+              - name: Guardian
+                level: 7
+            wind:
+              direction: NW
+              magnitude: 7.5
+            keywords:
         - title: St. Patrick's - Expert
           url: https://youtu.be/X80eX0IjQeY
+          metadata:
+            tournament: St. Patrick's
+            level: Expert
+            teePosition: 2
+            ball: Berserker
+            clubs:
+              - name: Apocalypse
+                level: 7
+              - name: Nirvana
+                level: 8
+            wind:
+              direction: NNW
+              magnitude: 9.8
+            keywords:
+              - Power slice
         - title: St. Patrick's - Masters
           url: https://youtu.be/4kZXar6gUE0
+          metadata:
+            tournament: St. Patrick's
+            level: Masters
+            teePosition: 3
+            ball: Snow Globe
+            clubs:
+              - name: Apocalypse
+                level: 7
+              - name: Amazon
+                level: 7
+            wind:
+              direction: NNW
+              magnitude: 17.5
+            keywords:
+              - Power slice
       - name: Kevin Warren
         resources:
         - title: St. Patrick's - Pro

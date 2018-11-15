@@ -37,6 +37,9 @@ holes:
       resources:
         - title: General Instruction - 3rd Tee
           url: https://youtu.be/vqSx6Idrvh0
+          metadata:
+            generalInstruction: true
+            teePosition: 3
         - title: Tour 4 - Strategy and Tips
           url: https://youtu.be/V_RaWOoetQY
   - id: 17727cf4-ffbf-43e9-a0db-5cebcc570496
@@ -73,6 +76,9 @@ holes:
       resources:
         - title: General Instruction - 3rd tee
           url: https://youtu.be/rdLW8Bfroq8
+          metadata:
+            generalInstruction: true
+            teePosition: 3
         - title: Tour 4 - Strategy and Tips
           url: https://youtu.be/6IHRBpl20Hc
   - id: 2b26deed-d658-427a-8472-4443e0ee863b
@@ -155,6 +161,9 @@ holes:
       resources:
         - title: General Instruction - 3rd Tee
           url: https://youtu.be/0Hiu8vWA3XA
+          metadata:
+            generalInstruction: true
+            teePosition: 3
         - title: Tour 4 - Wind Pointed at 430
           url: https://youtu.be/ZLaFKl8xj9k
         - title: Tour 4 - Wind Pointed at 7 O`clock
