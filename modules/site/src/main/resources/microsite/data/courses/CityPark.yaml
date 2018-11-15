@@ -13,8 +13,22 @@ holes:
         resources:
         - title: General Instruction - 3rd Tee
           url: https://youtu.be/fx9p7qjp1Ek
+          metadata:
+            generalInstruction: true
+            teePosition: 3
         - title: Tour 11 - Wind Pointed at 530
           url: https://youtu.be/1-yIvglemoU
+          metadata:
+            tour: 11
+            ball: King Maker
+            teePosition: 3
+            clubs:
+              - name: Sniper
+                level: 10
+            wind:
+              direction: SSE
+              magnitude: 12.8
+            keywords:
     aliases:
       - 2cb5ab94-1384-4df1-8de6-f8a85b40b9f9
   - id: 16fb8928-e633-4973-b861-ab45323ebcdf
@@ -29,6 +43,21 @@ holes:
         resources:
         - title: Tour 11 - Strategy and Tips
           url: https://youtu.be/RPiLuBFJas4
+          metadata:
+            tour: 11
+            ball: King Maker
+            teePosition: 3
+            clubs:
+              - name: Apocalypse
+                level: 7
+              - name: Spitfire
+                level: 6
+              - name: Thorn
+                level: 8
+            wind:
+              direction: SSW
+              magnitude: 8.5
+            keywords:
     aliases:
       - 59c09a8a-33b2-4870-8483-3e3d45eab4ba
   - id: 42b1a784-4b07-48c0-af08-0adb081a5d1d
@@ -58,30 +87,177 @@ holes:
         resources:
         - title: General Instruction - 3rd Tee
           url: https://youtu.be/uZtUZP7l2vI
+          metadata:
+            generalInstruction: true
+            teePosition: 3
         - title: Tour 11 - Headwind Pointed at 730
           url: https://youtu.be/zqbUXkQZ0Fk
+          metadata:
+            tour: 11
+            ball: King Maker
+            teePosition: 3
+            clubs:
+              - name: Sniper
+                level: 10
+            wind:
+              direction: SW
+              magnitude: 11.1
+            keywords:
         - title: Voyager - Rookie
           url: https://youtu.be/E3DrhcEajdQ
+          metadata:
+            tournament: Voyager
+            level: Rookie
+            teePosition: 1
+            ball: Marlin
+            clubs:
+              - name: Backbone
+                level: 9
+            wind:
+              direction: NW
+              magnitude: 3.8
+            keywords:
         - title: Voyager - Rookie
           url: https://youtu.be/J188dZda8WM
+          metadata:
+            tournament: Voyager
+            level: Rookie
+            teePosition: 1
+            ball: Marlin
+            clubs:
+              - name: Backbone
+                level: 8
+            wind:
+              direction: NW
+              magnitude: 4.2
+            keywords:
         - title: Voyager - Pro
           url: https://youtu.be/ecsv3Vm8ruY
+          metadata:
+            tournament: Voyager
+            level: Pro
+            teePosition: 2
+            ball: Navigator
+            clubs:
+              - name: Backbone
+                level: 8
+            wind:
+              direction: NNE
+              magnitude: 6.0
+            keywords:
         - title: Voyager - Pro
           url: https://youtu.be/BgWvyZp5GO4
+          metadata:
+            tournament: Voyager
+            level: Pro
+            teePosition: 2
+            ball: Navigator
+            clubs:
+              - name: Backbone
+                level: 9
+            wind:
+              direction: NNE
+              magnitude: 7.3
+            keywords:
         - title: Voyager - Pro
           url: https://youtu.be/nXZpjztDgFo
+          metadata:
+            tournament: Voyager
+            level: Pro
+            teePosition: 2
+            ball: Navigator
+            clubs:
+              - name: Backbone
+                level: 8
+            wind:
+              direction: NE
+              magnitude: 7.5
+            keywords:
         - title: Voyager - Expert
           url: https://youtu.be/5GVm7K7jLlE
+          metadata:
+            tournament: Voyager
+            level: Expert
+            teePosition: 2
+            ball: King Maker
+            clubs:
+              - name: B52
+                level: 6
+            wind:
+              direction: WSW
+              magnitude: 8.3
+            keywords:
         - title: Voyager - Expert
           url: https://youtu.be/lh3J6e4nMLI
+          metadata:
+            tournament: Voyager
+            level: Expert
+            teePosition: 2
+            ball: Bandera
+            clubs:
+              - name: Sniper
+                level: 10
+            wind:
+              direction: WSW
+              magnitude: 5.1
+            keywords:
+              - Rough Bump
         - title: Voyager - Expert
           url: https://youtu.be/hSmzhwHcadg
+          metadata:
+            tournament: Voyager
+            level: Expert
+            teePosition: 2
+            ball: King Maker
+            clubs:
+              - name: Backbone
+                level: 8
+            wind:
+              direction: W
+              magnitude: 7.6
+            keywords:
         - title: Voyager - Masters
           url: https://youtu.be/WmmaD6gnEnc
+          metadata:
+            tournament: Voyager
+            level: Masters
+            teePosition: 3
+            ball: King Maker
+            clubs:
+              - name: Sniper
+                level: 10
+            wind:
+              direction: WNW
+              magnitude: 12.3
+            keywords:
         - title: Voyager - Masters
           url: https://youtu.be/rwycDJ_12so
+          metadata:
+            tournament: Voyager
+            level: Masters
+            teePosition: 3
+            ball: Bunny
+            clubs:
+              - name: Sniper
+                level: 10
+            wind:
+              direction: WNW
+              magnitude: 9.5
+            keywords:
         - title: Voyager - Masters
           url: https://youtu.be/Wacwm4-xwT4
+          metadata:
+            tournament: Voyager
+            level: Masters
+            teePosition: 3
+            ball: Bandera
+            clubs:
+              - name: Sniper
+                level: 10
+            wind:
+              direction: WNW
+              magnitude: 7.3
+            keywords:
     aliases:
       - 4e7a6bb4-16ca-40c6-8ea3-ba80f2dbcd86
   - id: 712d5ce0-7104-4c8b-a1dc-ce2a4e00d65c
@@ -102,28 +278,199 @@ holes:
         resources:
         - title: Tour 11 - Advice and tips
           url: https://youtu.be/BeFqeQKsYKo
+          metadata:
+            tour: 11
+            ball: King Maker
+            teePosition: 3
+            clubs:
+              - name: Apocalypse
+                level: 7
+              - name: B52
+                level: 7
+            wind:
+              direction: SW
+              magnitude: 8.0
+            keywords:
+              - Rough bump
         - title: Voyager - Rookie
           url: https://youtu.be/AQ44fLr3LOo
+          metadata:
+            tournament: Voyager
+            level: Rookie
+            teePosition: 1
+            ball: Quasar
+            clubs:
+              - name: Extra Mile
+                level: 6
+              - name: Thorn
+                level: 5
+            wind:
+              direction: NNW
+              magnitude: 3.3
+            keywords:
         - title: Voyager - Rookie
           url: https://youtu.be/TWM0L29cb6s
+          metadata:
+            tournament: Voyager
+            level: Rookie
+            teePosition: 1
+            ball: Quasar
+            clubs:
+              - name: Extra Mile
+                level: 6
+              - name: Thorn
+                level: 5
+            wind:
+              direction: NNW
+              magnitude: 2.6
+            keywords:
         - title: Voyager - Pro
           url: https://youtu.be/roRytxjWCV8
+          metadata:
+            tournament: Voyager
+            level: Pro
+            teePosition: 2
+            ball: Navigator
+            clubs:
+              - name: Extra Mile
+                level: 6
+              - name: Nirvana
+                level: 4
+            wind:
+              direction: NE
+              magnitude: 6.2
+            keywords:
         - title: Voyager - Pro
           url: https://youtu.be/51C18ik-ebA
+          metadata:
+            tournament: Voyager
+            level: Pro
+            teePosition: 2
+            ball: Katana
+            clubs:
+              - name: Thor's Hammer
+                level: 3
+              - name: Thorn
+                level: 6
+            wind:
+              direction: NE
+              magnitude: 5.2
+            keywords:
         - title: Voyager - Pro
           url: https://youtu.be/Oor0aFuZ3kI
+          metadata:
+            tournament: Voyager
+            level: Pro
+            teePosition: 2
+            ball: Navigator
+            clubs:
+              - name: Extra Mile
+                level: 5
+              - name: Thorn
+                level: 5
+            wind:
+              direction: NNE
+              magnitude: 6.7
+            keywords:
         - title: Voyager - Expert
           url: https://youtu.be/3FBcqCBtC1s
+          metadata:
+            tournament: Voyager
+            level: Expert
+            teePosition: 2
+            ball: King Maker
+            clubs:
+              - name: Thor's Hammer
+                level: 6
+              - name: Thorn
+                level: 7
+            wind:
+              direction: E
+              magnitude: 7.8
+            keywords:
         - title: Voyager - Expert
           url: https://youtu.be/4PlkzvlMYrg
+          metadata:
+            tournament: Voyager
+            level: Expert
+            teePosition: 2
+            ball: King Maker
+            clubs:
+              - name: Apocalypse
+                level: 4
+              - name: Thorn
+                level: 7
+            wind:
+              direction: E
+              magnitude: 9.1
+            keywords:
         - title: Voyager - Expert
           url: https://youtu.be/-JN1CsEVxn0
+          metadata:
+            tournament: Voyager
+            level: Expert
+            teePosition: 2
+            ball: King Maker
+            clubs:
+              - name: Thor's Hammer
+                level: 3
+              - name: Thorn
+                level: 5
+            wind:
+              direction: ESE
+              magnitude: 7.7
+            keywords:
         - title: Voyager - Masters
           url: https://youtu.be/V8bYFxotNn4
+          metadata:
+            tournament: Voyager
+            level: Masters
+            teePosition: 3
+            ball: Snow Globe
+            clubs:
+              - name: Apocalypse
+                level: 7
+              - name: Spitfire
+                level: 6
+            wind:
+              direction: NNE
+              magnitude: 16.6
+            keywords:
+              - Power slice
         - title: Voyager - Masters
           url: https://youtu.be/Eh-ELFPQJBg
+          metadata:
+            tournament: Voyager
+            level: Masters
+            teePosition: 3
+            ball: Snowman
+            clubs:
+              - name: Apocalypse
+                level: 5
+              - name: Spitfire
+                level: 6
+            wind:
+              direction: NNE
+              magnitude: 14.2
+            keywords:
+              - Power slice
         - title: Voyager - Masters
           url: https://youtu.be/2RIHkHGCzzs
+          metadata:
+            tournament: Voyager
+            level: Masters
+            teePosition: 3
+            ball: Snow Globe
+            clubs:
+              - name: Apocalypse
+                level: 7
+              - name:
+                level:
+            wind:
+              direction: NNE
+              magnitude: 16.8
+            keywords:
+              - Power slice
     aliases:
       - c3afd005-7b62-42d9-b262-134085af7f25
   - id: a35bb713-65a2-4518-8542-c7e93236b5b6
@@ -161,10 +508,35 @@ holes:
         resources:
         - title: General Instruction - 3rd Tee
           url: https://youtu.be/b88Oa98RE5A
+          metadata:
+            generalInstruction: true
+            teePosition: 3
         - title: Tour 11 - Left to right wind pointed at 2 O`clock
           url: https://youtu.be/4Nfu7Y9b6Uw
+          metadata:
+            tour: 11
+            ball: King Maker
+            teePosition: 3
+            clubs:
+              - name: Sniper
+                level: 10
+            wind:
+              direction: NE
+              magnitude: 8.4
+            keywords:
         - title: Tour 11 - Wind pointed at 1030
           url: https://youtu.be/psfHVin7KuM
+          metadata:
+            tour: 11
+            ball: King Maker
+            teePosition: 3
+            clubs:
+              - name: Sniper
+                level: 10
+            wind:
+              direction: NW
+              magnitude: 10.4
+            keywords:
     aliases:
       - af4e56bd-11c9-481b-ab5a-3e83c1def286
   - id: 06c3aa56-5bd2-45dc-bb0f-37985aff93ad
@@ -185,27 +557,194 @@ holes:
         resources:
         - title: Tour 11 - Strategy and Tips
           url: https://youtu.be/xWhUUovk-6E
+          metadata:
+            tour: 11
+            ball: King Maker
+            teePosition: 3
+            clubs:
+              - name: Apocalypse
+                level: 7
+              - name: Sniper
+                level: 10
+            wind:
+              direction: E
+              magnitude: 12.6
+            keywords:
         - title: Voyager - Rookie
           url: https://youtu.be/v9_hsiUWL_c
+          metadata:
+            tournament: Voyager
+            level: Rookie
+            teePosition: 1
+            ball: Quasar
+            clubs:
+              - name: Extra Mile
+                level: 6
+              - name: Guardian
+                level: 3
+            wind:
+              direction: N
+              magnitude: 4.4
+            keywords:
         - title: Voyager - Rookie
           url: https://youtu.be/WMwhXPDHzXw
+          metadata:
+            tournament: Voyager
+            level: Rookie
+            teePosition: 1
+            ball: Titan
+            clubs:
+              - name: Extra Mile
+                level: 6
+              - name: Sniper
+                level: 8
+            wind:
+              direction: N
+              magnitude: 2.8
+            keywords:
         - title: Voyager - Pro
           url: https://youtu.be/F-YtMhMMSfM
+          metadata:
+            tournament: Voyager
+            level: Pro
+            teePosition: 2
+            ball: Katana
+            clubs:
+              - name: Extra Mile
+                level: 6
+              - name: Sniper
+                level: 7
+            wind:
+              direction: N
+              magnitude: 7.5
+            keywords:
         - title: Voyager - Pro
           url: https://youtu.be/R7ocqWhDK8k
+          metadata:
+            tournament: Voyager
+            level: Pro
+            teePosition: 2
+            ball: King Maker
+            clubs:
+              - name: Quarterback
+                level: 9
+              - name: Sniper
+                level: 9
+            wind:
+              direction: N
+              magnitude: 4.7
+            keywords:
         - title: Voyager - Pro
           url: https://youtu.be/LNLZV1___sA
+          metadata:
+            tournament: Voyager
+            level: Pro
+            teePosition: 2
+            ball: King Maker
+            clubs:
+              - name: Rock
+                level: 5
+              - name: Sniper
+                level: 7
+            wind:
+              direction: N
+              magnitude: 5.5
+            keywords:
         - title: Voyager - Expert
           url: https://youtu.be/29nK0sBtf1c
+          metadata:
+            tournament: Voyager
+            level: Expert
+            teePosition: 2
+            ball: King Maker
+            clubs:
+              - name: Apocalypse
+                level: 4
+              - name: Sniper
+                level: 10
+            wind:
+              direction: N
+              magnitude: 7.9
+            keywords:
         - title: Voyager - Expert
           url: https://youtu.be/iddkp25YlJw
+          metadata:
+            tournament: Voyager
+            level: Expert
+            teePosition: 2
+            ball: King Maker
+            clubs:
+              - name: Apocalypse
+                level: 4
+              - name: Sniper
+                level: 10
+            wind:
+              direction: N
+              magnitude: 7.6
+            keywords:
         - title: Voyager - Expert
           url: https://youtu.be/yWFSSggXLUU
+          metadata:
+            tournament: Voyager
+            level: Expert
+            teePosition: 2
+            ball: King Maker
+            clubs:
+              - name: Rock
+                level: 5
+              - name: Sniper
+                level: 8
+            wind:
+              direction: N
+              magnitude: 8.6
+            keywords:
         - title: Voyager - Masters
           url: https://youtu.be/dVhi8LsUKI4
+          metadata:
+            tournament: Voyager
+            level: Masters
+            teePosition: 3
+            ball: Snow Globe
+            clubs:
+              - name: Apocalypse
+                level: 7
+              - name: Spitfire
+                level: 6
+            wind:
+              direction: N
+              magnitude: 16.4
+            keywords:
         - title: Voyager - Masters
           url: https://youtu.be/p00hYEuuqnM
+          metadata:
+            tournament: Voyager
+            level: Masters
+            teePosition: 3
+            ball: Snow Globe
+            clubs:
+              - name: Apocalypse
+                level: 5
+              - name: Spitfire
+                level: 6
+            wind:
+              direction: N
+              magnitude: 18.4
+            keywords:
         - title: Voyager - Masters
           url: https://youtu.be/kcN9KWXKW58
+          metadata:
+            tournament: Voyager
+            level: Masters
+            teePosition: 3
+            ball: Snow Globe
+            clubs:
+              - name: Apocalypse
+                level: 7
+              - name: Nirvana
+                level: 8
+            wind:
+              direction: N
+              magnitude: 17.1
+            keywords:
     aliases:
       - 02e3949a-abdb-41b1-b6f0-87e28045c307

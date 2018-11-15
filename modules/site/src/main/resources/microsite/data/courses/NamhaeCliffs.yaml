@@ -34,6 +34,9 @@ holes:
         resources:
         - title: General Instruction - 2nd Tee
           url: https://youtu.be/garradfajBA
+          metadata:
+            generalInstruction: true
+            teePosition: 2
         - title: Tour 10 Shootout - Tailwind Pointed at 11 O`clock
           url: https://youtu.be/gOzLlI05kV0
         - title: Tour 10 Shootout - Nasty Headwinds
@@ -462,6 +465,9 @@ holes:
         resources:
         - title: General Instruction - 2nd Tee
           url: https://youtu.be/NArOGl9blEE
+          metadata:
+            generalInstruction: true
+            teePosition: 2
         - title: Tour 10 - Wind Pointed at 4 O`clock
           url: https://youtu.be/UADk4_nsZIQ
         - title: Tour 10 Shootout
@@ -550,6 +556,9 @@ holes:
         resources:
         - title: General Instruction - 2nd Tee
           url: https://youtu.be/7YLpuTL5nyw
+          metadata:
+            generalInstruction: true
+            teePosition: 2
         - title: Tour 10 Shootout - Hard Wind Pointed at 5 O`clock
           url: https://youtu.be/HH4fOgBv-K8
         - title: Tour 10 Shootout - Wind Pointed at 1 O`clock

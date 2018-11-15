@@ -39,26 +39,148 @@ holes:
       resources:
       - title: General Instruction - 2nd Tee
         url: https://youtu.be/Y_rgtXFe9qM
+        metadata:
+          generalInstruction: true
+          teePosition: 2
       - title: Mountain - Rookie
         url: https://youtu.be/ga3UEiiuvYc
+        metadata:
+          tournament: Mountain
+          level: Rookie
+          teePosition: 1
+          ball: Navigator
+          clubs:
+            - name: Backbone
+              level: 9
+          wind:
+            direction: N
+            magnitude: 2.3
+          keywords:
       - title: Mountain - Pro
         url: https://youtu.be/0dSaeRGrgxE
+        metadata:
+          tournament: Mountain
+          level: Pro
+          teePosition: 2
+          ball: Navigator
+          clubs:
+            - name: Guardian
+              level: 5
+          wind:
+            direction: NNW
+            magnitude: 6.3
+          keywords:
       - title: Mountain - Expert
         url: https://youtu.be/7OMQQNDCp1E
+        metadata:
+          tournament: Mountain
+          level: Expert
+          teePosition: 2
+          ball: King Maker
+          clubs:
+            - name: Sniper
+              level: 8
+          wind:
+            direction: WNW
+            magnitude: 8.9
+          keywords:
       - title: Mountain - Masters
         url: https://youtu.be/NaMv-3lSKO8
+        metadata:
+          tournament: Mountain
+          level: Masters
+          teePosition: 3
+          ball: King Maker
+          clubs:
+            - name: Cataclysm
+              level: 7
+          wind:
+            direction: ENE
+            magnitude: 11.6
+          keywords:
       - title: Mountain - Masters
         url: https://youtu.be/-JdWQrZlwhw
+        metadata:
+          tournament: Mountain
+          level: Masters
+          teePosition: 3
+          ball: King Maker
+          clubs:
+            - name: Hammerhead
+              level: 6
+          wind:
+            direction: E
+            magnitude: 11.3
+          keywords:
       - title: Mountain - Masters
         url: https://youtu.be/-SW5lyh7w-s
+        metadata:
+          tournament: Mountain
+          level: Masters
+          teePosition: 3
+          ball: Bunny
+          clubs:
+            - name: Sniper
+              level: 10
+          wind:
+            direction: E
+            magnitude: 9.8
+          keywords:
       - title: Tour 7 Shootout - Wind Pointed at 1 O`clock
         url: https://youtu.be/PItMQe2GPkg
+        metadata:
+          tour: 7
+          ball: Quasar
+          teePosition: 2
+          clubs:
+            - name: Sniper
+              level: 10
+          wind:
+            direction: N
+            magnitude: 6.1
+          keywords:
       - title: Winter Games - Rookie
         url: https://youtu.be/P6iqa9cRjg0
+        metadata:
+          tournament: Winter Games
+          level: Rookie
+          teePosition: 1
+          ball: Marlin
+          clubs:
+            - name: Backbone
+              level: 6
+          wind:
+            direction: E
+            magnitude: 2.6
+          keywords:
       - title: Winter Games - Pro
         url: https://youtu.be/WJkqnew4xMw
+        metadata:
+          tournament: Winter Games
+          level: Pro
+          teePosition: 2
+          ball: Navigator
+          clubs:
+            - name: Sniper
+              level: 9
+          wind:
+            direction: NNE
+            magnitude: 5.2
+          keywords:
       - title: Winter Games - Expert
         url: https://youtu.be/hqPRvUeb2M4
+        metadata:
+          tournament: Winter Games
+          level: Expert
+          teePosition: 2
+          ball: Navigator
+          clubs:
+            - name: Sniper
+              level: 9
+          wind:
+            direction: E
+            magnitude: 9.8
+          keywords:
     - name: Kevin Warren
       resources:
       - title: Winter Games - Rookie
@@ -150,22 +272,148 @@ holes:
       resources:
       - title: Mountain - Rookie
         url: https://youtu.be/NunCW1Gqmt0
+        metadata:
+          tournament: Mountain
+          level: Rookie
+          teePosition: 1
+          ball: Quasar
+          clubs:
+            - name: Quarterback
+              level: 7
+            - name: Guardian
+              level: 3
+          wind:
+            direction: NW
+            magnitude: 3.9
+          keywords:
       - title: Mountain - Pro
         url: https://youtu.be/XzUgLvFvgZI
+        metadata:
+          tournament: Mountain
+          level: Pro
+          teePosition: 2
+          ball: Quasar
+          clubs:
+            - name: Quarterback
+              level: 8
+            - name: Sniper
+              level: 7
+          wind:
+            direction: NE
+            magnitude: 7.8
+          keywords:
       - title: Mountain - Expert
         url: https://youtu.be/bgzEC2X_6co
+        metadata:
+          tournament: Mountain
+          level: Expert
+          teePosition: 2
+          ball: King Maker
+          clubs:
+            - name: Quarterback
+              level: 8
+            - name: Sniper
+              level: 8
+          wind:
+            direction: W
+            magnitude: 8.0
+          keywords:
       - title: Mountain - Masters
         url: https://youtu.be/f5TkZAyfOP4
+        metadata:
+          tournament: Mountain
+          level: Masters
+          teePosition: 3
+          ball: Berzerker
+          clubs:
+            - name: Apocalypse
+              level: 7
+            - name: Nirvana
+              level: 8
+          wind:
+            direction: NNW
+            magnitude: 13.9
+          keywords:
       - title: Mountain - Masters
         url: https://youtu.be/LJf8inxIXvk
+        metadata:
+          tournament: Mountain
+          level: Masters
+          teePosition: 3
+          ball: Berzerker
+          clubs:
+            - name: Apocalypse
+              level: 5
+            - name: Nirvana
+              level: 8
+          wind:
+            direction: NW
+            magnitude: 14.6
+          keywords:
       - title: Mountain - Masters
         url: https://youtu.be/ClaXJCtXuUc
+        metadata:
+          tournament: Mountain
+          level: Masters
+          teePosition: 3
+          ball: Snow Globe
+          clubs:
+            - name: Apocalypse
+              level: 4
+            - name: Nirvana
+              level: 8
+          wind:
+            direction: NW
+            magnitude: 16.2
+          keywords:
       - title: Winter Games - Rookie
         url: https://youtu.be/nYbGqy11qQo
+        metadata:
+          tournament: Winter Games
+          level: Rookie
+          teePosition: 1
+          ball: Navigator
+          clubs:
+            - name: Thor's Hammer
+              level: 1
+            - name: Guardian
+              level: 4
+          wind:
+            direction: NE
+            magnitude: 4.4
+          keywords:
       - title: Winter Games - Pro
         url: https://youtu.be/Y1rolwKFnk4
+        metadata:
+          tournament: Winter Games
+          level: Pro
+          teePosition: 2
+          ball: Navigator
+          clubs:
+            - name: Quarterback
+              level: 9
+            - name: Sniper
+              level: 9
+          wind:
+            direction: WNW
+            magnitude: 6.8
+          keywords:
       - title: Winter Games - Expert
         url: https://youtu.be/Mo7gVq5JFUg
+        metadata:
+          tournament: Winter Games
+          level: Expert
+          teePosition: 2
+          ball: Navigator
+          clubs:
+            - name: Quarterback
+              level: 9
+            - name: Sniper
+              level: 9
+          wind:
+            direction: NW
+            magnitude: 8.9
+          keywords:
     - name: Kevin Warren
       resources:
       - title: Winter Games - Rookie
@@ -265,12 +513,65 @@ holes:
       resources:
       - title: Tour 7 - Tips and Strategy
         url: https://youtu.be/ajcOYT-fKv8
+        metadata:
+          tour: 7
+          ball: Quasar
+          teePosition: 2
+          clubs:
+            - name: Thor's Hammer
+              level: 6
+          wind:
+            direction: ENE
+            magnitude: 6.6
+          keywords:
       - title: Winter Games - Rookie
         url: https://youtu.be/6cZZilhfy2E
+        metadata:
+          tournament: Winter Games
+          level: Rookie
+          teePosition: 1
+          ball: Katana
+          clubs:
+            - name: Thor's Hammer
+              level: 1
+            - name: Rapier
+              level: 2
+          wind:
+            direction: 3.4
+            magnitude: ESE
+          keywords:
       - title: Winter Games - Pro
         url: https://youtu.be/oL5pgce0Jjw
+        metadata:
+          tournament: Winter Games
+          level: Pro
+          teePosition: 2
+          ball: Titan
+          clubs:
+            - name: Apocalypse
+              level: 4
+            - name: Nirvana
+              level: 6
+          wind:
+            direction: E
+            magnitude: 5.2
+          keywords:
       - title: Winter Games - Expert
         url: https://youtu.be/-jy2lq33STI
+        metadata:
+          tournament: Winter Games
+          level: Expert
+          teePosition: 2
+          ball: King Maker
+          clubs:
+            - name: Apocalypse
+              level: 4
+            - name: Endbringer
+              level: 4
+          wind:
+            direction: E
+            magnitude: 8.1
+          keywords:
     - name: Kevin Warren
       resources:
       - title: Winter Games - Rookie
@@ -371,10 +672,57 @@ holes:
       resources:
       - title: Winter Games - Rookie
         url: https://youtu.be/es0f2-x92H0
+        metadata:
+          tournament: Winter Games
+          level: Rookie
+          teePosition: 1
+          ball: Marlin
+          clubs:
+            - name: Thor's Hammer
+              level: 1
+            - name: Malibu
+              level: 4
+            - name: Claw
+              level: 5
+          wind:
+            direction: NNW
+            magnitude: 4.9
+          keywords:
       - title: Winter Games - Pro
         url: https://youtu.be/fsi6obKeH8c
+        metadata:
+          tournament: Winter Games
+          level: Pro
+          teePosition: 2
+          ball: Titan
+          clubs:
+            - name: Apocalypse
+              level: 4
+            - name: Thorn
+              level: 7
+          wind:
+            direction: NW
+            magnitude: 6.0
+          keywords:
+            - Rough bump
       - title: Winter Games - Expert
         url: https://youtu.be/Ow5MCn-7Vzo
+        metadata:
+          tournament: Winter Games
+          level: Expert
+          teePosition: 2
+          ball: Navigator
+          clubs:
+            - name: Apocalypse
+              level: 4
+            - name: Hornet
+              level: 7
+          wind:
+            direction: NNW
+            magnitude: 10.2
+          keywords:
+            - Power slice
+            - Rough bump
     - name: Kevin Warren
       resources:
       - title: Winter Games - Rookie
@@ -479,10 +827,52 @@ holes:
       resources:
       - title: Winter Games - Rookie
         url: https://youtu.be/9tlzifP6ImI
+        metadata:
+          tournament: Winter Games
+          level: Rookie
+          teePosition: 1
+          ball: Titan
+          clubs:
+            - name: Thor's Hammer
+              level: 1
+            - name: Big Dawg
+              level: 3
+          wind:
+            direction: NW
+            magnitude: 2.2
+          keywords:
       - title: Winter Games - Pro
         url: https://youtu.be/7a5H69DS23Q
+        metadata:
+          tournament: Winter Games
+          level: Pro
+          teePosition: 2
+          ball: Titan
+          clubs:
+            - name: Apocalypse
+              level: 4
+            - name: Guardian
+              level: 7
+          wind:
+            direction: NW
+            magnitude: 6.1
+          keywords:
       - title: Winter Games - Expert
         url: https://youtu.be/KVFsX0_eJfM
+        metadata:
+          tournament: Winter Games
+          level: Expert
+          teePosition: 2
+          ball: Navigator
+          clubs:
+            - name: Apocalypse
+              level: 4
+            - name: Guardian
+              level: 7
+          wind:
+            direction: NW
+            magnitude: 8.6
+          keywords:
     - name: Kevin Warren
       resources:
       - title: Winter Games - Rookie
@@ -595,16 +985,77 @@ holes:
       resources:
       - title: General Instruction - 2nd Tee
         url: https://youtu.be/EGxjxPeXHaQ
+        metadata:
+          generalInstruction: true
+          teePosition: 2
       - title: Tour 7 Shootout - Tailwind Pointed at 1130
         url: https://youtu.be/h1-9ar-sXNU
+        metadata:
+          tour: 7
+          ball: Quasar
+          teePosition: 2
+          clubs:
+            - name: Sniper
+              level: 10
+          wind:
+            direction: N
+            magnitude: 8.4
+          keywords:
       - title: Tour 7 Shootout - Wind Pointed at 9 O`clock
         url: https://youtu.be/dzyRyzgawjE
+        metadata:
+          tour: 7
+          ball: Titan
+          teePosition: 2
+          clubs:
+            - name: Sniper
+              level: 10
+          wind:
+            direction: W
+            magnitude: 3.6
+          keywords:
       - title: Winter Games - Rookie
         url: https://youtu.be/UPOdfbiUHLA
+        metadata:
+          tournament: Winter Games
+          level: Rookie
+          teePosition: 1
+          ball: Marlin
+          clubs:
+            - name: Guardian
+              level: 4
+          wind:
+            direction: E
+            magnitude: 4.2
+          keywords:
       - title: Winter Games - Pro
         url: https://youtu.be/Idv9j0oEMJ4
+        metadata:
+          tournament: Winter Games
+          level: Pro
+          teePosition: 2
+          ball: Navigator
+          clubs:
+            - name: Sniper
+              level: 9
+          wind:
+            direction: NNE
+            magnitude: 5.5
+          keywords:
       - title: Winter Games - Expert
         url: https://youtu.be/C_2XMZH3mbI
+        metadata:
+          tournament: Winter Games
+          level: Expert
+          teePosition: 2
+          ball: Navigator
+          clubs:
+            - name: Sniper
+              level: 9
+          wind:
+            direction: E
+            magnitude: 8.3
+          keywords:
     - name: Kevin Warren
       resources:
       - title: Winter Games - Rookie
@@ -675,10 +1126,54 @@ holes:
       resources:
       - title: Winter Games - Rookie
         url: https://youtu.be/rS3rfTAntf8
+        metadata:
+          tournament: Winter Games
+          level: Rookie
+          teePosition: 1
+          ball: Quasar
+          clubs:
+            - name: Rock
+              level: 4
+            - name: Guardian
+              level: 4
+          wind:
+            direction: N
+            magnitude: 3.8
+          keywords:
       - title: Winter Games - Pro
         url: https://youtu.be/YgI5tEIKqss
+        metadata:
+          tournament: Winter Games
+          level: Pro
+          teePosition: 2
+          ball: Quasar
+          clubs:
+            - name: Quarterback
+              level: 9
+            - name: Guardian
+              level: 7
+          wind:
+            direction: N
+            magnitude: 7.1
+          keywords:
+            - Power slice
       - title: Winter Games - Expert
         url: https://youtu.be/nY2kxlR-ugk
+        metadata:
+          tournament: Winter Games
+          level: Expert
+          teePosition: 2
+          ball: Quasar
+          clubs:
+            - name: Quarterback
+              level: 9
+            - name: Nirvana
+              level: 6
+          wind:
+            direction: N
+            magnitude: 10.1
+          keywords:
+            - Power slice
     - name: Kevin Warren
       resources:
       - title: Winter Games - Rookie
@@ -793,12 +1288,51 @@ holes:
       resources:
       - title: General Instruction - 2nd Tee
         url: https://youtu.be/sHMpxh5UrAI
+        metadata:
+          generalInstruction: true
+          teePosition: 2
       - title: Winter Games - Rookie
         url: https://youtu.be/LdbZycNmNHE
+        metadata:
+          tournament: Winter Games
+          level: Rookie
+          teePosition: 1
+          ball: Marlin
+          clubs:
+            - name: Backbone
+              level: 6
+          wind:
+            direction: SE
+            magnitude: 4.5
+          keywords:
       - title: Winter Games - Pro
         url: https://youtu.be/0C1j4bKpftg
+        metadata:
+          tournament: Winter Games
+          level: Pro
+          teePosition: 2
+          ball: Navigator
+          clubs:
+            - name: Guardian
+              level: 7
+          wind:
+            direction: SE
+            magnitude: 7.5
+          keywords:
       - title: Winter Games - Expert
         url: https://youtu.be/VpA4e7GAIpE
+        metadata:
+          tournament: Winter Games
+          level: Expert
+          teePosition: 2
+          ball: Navigator
+          clubs:
+            - name: Guardian
+              level: 7
+          wind:
+            direction: SE
+            magnitude: 9.8
+          keywords:
     - name: Kevin Warren
       resources:
       - title: Winter Games - Rookie
@@ -869,24 +1403,183 @@ holes:
       resources:
       - title: Mountain - Rookie
         url: https://youtu.be/srn0LC77qp0
+        metadata:
+          tournament: Mountain
+          level: Rookie
+          teePosition: 1
+          ball: Titan
+          clubs:
+            - name: Rock
+              level: 2
+            - name: Big Dawg
+              level: 6
+            - name: Thorn
+              level: 5
+          wind:
+            direction: NNE
+            magnitude: 2.9
+          keywords:
       - title: Mountain - Pro
         url: https://youtu.be/sbXsCxZtodg
+        metadata:
+          tournament: Mountain
+          level: Pro
+          teePosition: 2
+          ball: Titan
+          clubs:
+            - name: Extra Mile
+              level: 6
+            - name: Big Dawg
+              level: 5
+            - name: Thorn
+              level: 5
+          wind:
+            direction: NNW
+            magnitude: 6.3
+          keywords:
       - title: Mountain - Expert
         url: https://youtu.be/O_GDLW07oHE
+        metadata:
+          tournament: Mountain
+          level: Expert
+          teePosition: 2
+          ball: King Maker
+          clubs:
+            - name: Thor's Hammer
+              level: 4
+            - name: Big Dawg
+              level: 6
+            - name: Thorn
+              level: 5
+          wind:
+            direction: W
+            magnitude: 7.4
+          keywords:
       - title: Mountain - Masters
         url: https://youtu.be/Ly8oP72c3kE
+        metadata:
+          tournament: Mountain
+          level: Masters
+          teePosition: 3
+          ball: King Maker
+          clubs:
+            - name: Apocalypse
+              level: 7
+            - name: Cataclysm
+              level: 7
+            - name: Thorn
+              level: 8
+          wind:
+            direction: E
+            magnitude: 11.4
+          keywords:
       - title: Mountain - Masters
         url: https://youtu.be/xXo5d0Uaoe8
+        metadata:
+          tournament: Mountain
+          level: Masters
+          teePosition: 3
+          ball: King Maker
+          clubs:
+            - name: Apocalypse
+              level: 5
+            - name: Cataclysm
+              level: 7
+            - name: Claw
+              level: 10
+          wind:
+            direction: E
+            magnitude: 11.1
+          keywords:
       - title: Mountain - Masters
         url: https://youtu.be/x9BzpCNsCdk
+        metadata:
+          tournament: Mountain
+          level: Masters
+          teePosition: 3
+          ball: Berzerker
+          clubs:
+            - name: Apocalypse
+              level: 4
+            - name: Hammerhead
+              level: 6
+            - name: Thorn
+              level: 7
+          wind:
+            direction: ENE
+            magnitude: 16.1
+          keywords:
       - title: Tour 7 - Scramble Techniques and Strategy
         url: https://youtu.be/QQHwzKhvk-A
+        metadata:
+          tour: 7
+          ball: Navigator
+          teePosition: 2
+          clubs:
+            - name: Rock
+              level: 8
+            - name: Nirvana
+              level: 8
+            - name: Sniper
+              level: 10
+          wind:
+            direction: NW
+            magnitude: 6.4
+          keywords:
       - title: Winter Games - Rookie
         url: https://youtu.be/TFXJIvQxUvM
+        metadata:
+          tournament: Winter Games
+          level: Rookie
+          teePosition: 1
+          ball: Titan
+          clubs:
+            - name: Thor's Hammer
+              level: 1
+            - name: Big Dawg
+              level: 3
+            - name: Claw
+              level: 5
+          wind:
+            direction: NW
+            magnitude: 3.2
+          keywords:
       - title: Winter Games - Pro
         url: https://youtu.be/CJiPdlT4_ec
+        metadata:
+          tournament: Winter Games
+          level: Pro
+          teePosition: 2
+          ball: Snow Globe
+          clubs:
+            - name: Apocalypse
+              level: 4
+            - name: Nirvana
+              level: 6
+            - name: Nirvana
+              level: 6
+          wind:
+            direction: N
+            magnitude: 8.7
+          keywords:
       - title: Winter Games - Expert
         url: https://youtu.be/JVb8eUv3TLY
+        metadata:
+          tournament: Winter Games
+          level: Expert
+          teePosition: 2
+          ball: Snow Globe
+          clubs:
+            - name: Apocalypse
+              level: 4
+            - name: Cataclysm
+              level: 3
+            - name: Amazon
+              level: 5
+          wind:
+            direction: NNW
+            magnitude: 12.3
+          keywords:
     - name: Kevin Warren
       resources:
       - title: Winter Games - Rookie

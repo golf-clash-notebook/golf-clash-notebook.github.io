@@ -133,8 +133,14 @@ holes:
         resources:
         - title: General Instruction - 2nd Tee
           url: https://youtu.be/AMmff2txNDk
+          metadata:
+            generalInstruction: true
+            teePosition: 2
         - title: General Instruction - 3rd Tee
           url: https://youtu.be/vtTSmsfSTEo
+          metadata:
+            generalInstruction: true
+            teePosition: 3
         - title: Tour 11 Shootout - Wind Pointed at 10 O`clock
           url: https://youtu.be/AVeUhlzFVMY
         - title: Tour 7 Shootout - Downwind Pointed at 130
@@ -308,8 +314,14 @@ holes:
         resources:
         - title: General Instruction - 2nd Tee
           url: https://youtu.be/nIs09yEuXSg
+          metadata:
+            generalInstruction: true
+            teePosition: 2
         - title: General Instruction - 3rd Tee
           url: https://youtu.be/rtjsVZuqEuk
+          metadata:
+            generalInstruction: true
+            teePosition: 3
         - title: Tour 11 - Wind Pointed at 730
           url: https://youtu.be/bmJKQ47cW28
         - title: Voyager - Rookie
@@ -732,8 +744,14 @@ holes:
         resources:
         - title: General Instruction - 2nd Tee
           url: https://youtu.be/dmb9pUomnV4
+          metadata:
+            generalInstruction: true
+            teePosition: 2
         - title: General Instruction - 3rd Tee
           url: https://youtu.be/K1QD-Dz6WN4
+          metadata:
+            generalInstruction: true
+            teePosition: 3
         - title: Tour 11 - Wind Pointed at 10 O`clock
           url: https://youtu.be/NTeACNr9S9o
         - title: Labor Day (2018) - Pro

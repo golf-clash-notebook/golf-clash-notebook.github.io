@@ -33,12 +33,64 @@ holes:
         resources:
         - title: Tour 10 - Strategy and Tips
           url: https://youtu.be/xZZShTQ8yI4
+          metadata:
+            tour: 10
+            ball: King Maker
+            teePosition: 2
+            clubs:
+              - name: Apocalypse
+                level: 7
+              - name: Sniper
+                level: 10
+            wind:
+              direction: SW
+              magnitude: 11.6
+            keywords:
         - title: Tour 8 - Tailwind
           url: https://youtu.be/tgvz84j-NNo
+          metadata:
+            tour: 8
+            ball: Quasar
+            teePosition: 2
+            clubs:
+              - name: Quarterback
+                level: 10
+              - name: Goliath
+                level: 8
+            wind:
+              direction: NW
+              magnitude: 4.2
+            keywords:
         - title: Tour 8 - 10 O`clock Wind
           url: https://youtu.be/VWQzA0ry-oY
+          metadata:
+            tour: 8
+            ball: Marlin
+            teePosition: 2
+            clubs:
+              - name: Apocalypse
+                level: 7
+              - name: Goliath
+                level: 8
+            wind:
+              direction: WNW
+              magnitude: 3.9
+            keywords:
         - title: Tour 8 - Headwind
           url: https://youtu.be/Led9LWSMwdk
+          metadata:
+            tour: 8
+            ball: Navigator
+            teePosition: 2
+            clubs:
+              - name: Quarterback
+                level: 10
+              - name: Guardian
+                level: 8
+            wind:
+              direction: SE
+              magnitude: 5.5
+            keywords:
     overlays:
       size: [619, 983]
       guides:
@@ -133,8 +185,34 @@ holes:
         resources:
         - title: Tour 10 - Strategy and Tips
           url: https://youtu.be/sjbj5UGOVTo
+          metadata:
+            tour: 10
+            ball: Berserker
+            teePosition: 2
+            clubs:
+              - name: Apocalypse
+                level: 7
+              - name: B52
+                level: 7
+            wind:
+              direction: NNW
+              magnitude: 10.9
+            keywords:
         - title: Tour 10 - Strategy and Tips
           url: https://youtu.be/mcFq2uBVK7U
+          metadata:
+            tour: 10
+            ball: Berserker
+            teePosition: 2
+            clubs:
+              - name: Apocalypse
+                level: 7
+              - name: Spitfire
+                level: 6
+            wind:
+              direction: N
+              magnitude: 8.3
+            keywords:
     overlays:
       size: [329, 1081]
       guides:
@@ -241,28 +319,152 @@ holes:
         resources:
         - title: General Instruction - 2nd Tee
           url: https://youtu.be/T38DrF5UfVw
+          metadata:
+            generalInstruction: true
+            teePosition: 2
         - title: Tour 10 Shootout - Wind Pointed at 130
           url: https://youtu.be/kU5rtEZj3Jw
+          metadata:
+            tour: 10
+            ball: King Maker
+            teePosition: 2
+            clubs:
+              - name: B52
+                level: 7
+            wind:
+              direction: NE
+              magnitude: 7.6
+            keywords:
         - title: Tour 10 Shootout - Wind Pointed at 9 O`clock
           url: https://youtu.be/LZPf4b_yWOM
+          metadata:
+            tour: 10
+            ball: Berserker
+            teePosition: 2
+            clubs:
+              - name: B52
+                level: 7
+            wind:
+              direction: WSW
+              magnitude: 11.5
+            keywords:
         - title: Tour 8 Shootout - Headwind
           url: https://youtu.be/VWQzA0ry-oY?t=4m9s
+          metadata:
+            tour: 8
+            ball: Marlin
+            teePosition: 2
+            clubs:
+              - name: Guardian
+                level: 8
+            wind:
+              direction: SW
+              magnitude: 5.3
+            keywords:
         - title: Tour 8 Shootout - 1 O`clock Wind
           url: https://youtu.be/vMRLi8HOloE?t=4m4s
+          metadata:
+            tour: 8
+            ball: Titan
+            teePosition: 2
+            clubs:
+              - name: Guardian
+                level: 8
+            wind:
+              direction: NNE
+              magnitude: 4.9
+            keywords:
         - title: Tour 8 Shootout - 12 O`clock Wind
           url: https://youtu.be/Led9LWSMwdk?t=4m6s
+          metadata:
+            tour: 8
+            ball: Navigator
+            teePosition: 2
+            clubs:
+              - name: Guardian
+                level: 8
+            wind:
+              direction: N
+              magnitude: 6.6
+            keywords:
         - title: Tour 8 Shootout - Strong Wind Pointed at 8 O`clock
           url: https://youtu.be/SCRf93sMl4I
+          metadata:
+            tour: 8
+            ball: Basic
+            teePosition: 2
+            clubs:
+              - name: Guardian
+                level: 8
+            wind:
+              direction: WSW
+              magnitude: 11.6
+            keywords:
         - title: Tour 8 Shootout - Strong Tailwind Pointed at 11 O`clock
           url: https://youtu.be/5-4l_AtVnzo
+          metadata:
+            tour: 8
+            ball: Basic
+            teePosition: 2
+            clubs:
+              - name: Guardian
+                level: 8
+            wind:
+              direction: NW
+              magnitude: 10.4
+            keywords:
         - title: Tour 8 Shootout - Strong Left to Right Wind
           url: https://youtu.be/BxK5b1Azx-M
+          metadata:
+            tour: 8
+            ball: Basic
+            teePosition: 2
+            clubs:
+              - name: Guardian
+                level: 8
+            wind:
+              direction: ENE
+              magnitude: 13.0
+            keywords:
         - title: Tour 8 Shootout - Left to Right Wind
           url: https://youtu.be/HN8WiiYBVSc
+          metadata:
+            tour: 8
+            ball: Basic
+            teePosition: 2
+            clubs:
+              - name: Guardian
+                level: 8
+            wind:
+              direction: SE
+              magnitude: 5.0
+            keywords:
         - title: Tour 8 Shootout - Wind Pointed at 730
           url: https://youtu.be/P5HSsxeecCU
+          metadata:
+            tour: 8
+            ball: Basic
+            teePosition: 2
+            clubs:
+              - name: Guardian
+                level: 8
+            wind:
+              direction: SSW
+              magnitude: 10.0
+            keywords:
         - title: Tour 8 Shootout - Headwind Tips
           url: https://youtu.be/K8rX1N3isf4
+          metadata:
+            tour: 8
+            ball: Basic
+            teePosition: 2
+            clubs:
+              - name: Guardian
+                level: 8
+            wind:
+              direction: S
+              magnitude: 5.8
+            keywords:
     overlays:
       size: [471, 820]
       guides:
@@ -327,10 +529,49 @@ holes:
         resources:
         - title: Tour 10 - Tips and Strategy
           url: https://youtu.be/u1zPw40jDCw
+          metadata:
+            tour: 10
+            ball: King Maker
+            teePosition: 2
+            clubs:
+              - name: Apocalypse
+                level: 7
+              - name: Sniper
+                level: 10
+            wind:
+              direction: SE
+              magnitude: 10.1
+            keywords:
         - title: Tour 10 - Tips and Strategy
           url: https://youtu.be/cLLeMGSFmLg
+          metadata:
+            tour: 10
+            ball: King Maker
+            teePosition: 2
+            clubs:
+              - name: Apocalypse
+                level: 7
+              - name: Nirvana
+                level: 8
+            wind:
+              direction: W
+              magnitude: 11.3
+            keywords:
         - title: Tour 8 - Tips and Strategy
           url: https://youtu.be/3m9Cv63sgYc
+          metadata:
+            tour: 8
+            ball: Marlin
+            teePosition: 2
+            clubs:
+              - name: Quarterback
+                level: 10
+              - name: Guardian
+                level: 8
+            wind:
+              direction: E
+              magnitude: 3.7
+            keywords:
     overlays:
       size: [543, 980]
       guides:
@@ -403,18 +644,87 @@ holes:
         resources:
         - title: General Instruction - 2nd Tee
           url: https://youtu.be/sfwzicye-rs
+          metadata:
+            generalInstruction: true
+            teePosition: 2
         - title: Tour 8 Shootout - Wind Pointed at 7 O`clock
           url: https://youtu.be/V1cJAYgkbrE
+          metadata:
+            tour: 8
+            ball: Berserker
+            teePosition: 2
+            clubs:
+              - name: Sniper
+                level: 10
+            wind:
+              direction: S
+              magnitude: 7.4
+            keywords:
         - title: Tour 8 Shootout - 4 O`clock Wind
           url: https://youtu.be/DDp6jIHMVJ4?t=4m29s
+          metadata:
+            tour: 8
+            ball: Quasar
+            teePosition: 2
+            clubs:
+              - name: Guardian
+                level: 8
+            wind:
+              direction: SE
+              magnitude: 8.5
+            keywords:
         - title: Tour 8 Shootout - Headwind Pointed at 7 O`clock
           url: https://youtu.be/ozXSALy2qKQ
+          metadata:
+            tour: 8
+            ball: Basic
+            teePosition: 2
+            clubs:
+              - name: Guardian
+                level: 8
+            wind:
+              direction: SW
+              magnitude: 7.4
+            keywords:
         - title: Tour 8 Shootout - Strong Tailwind
           url: https://youtu.be/D9-IIf6WMbc
+          metadata:
+            tour: 8
+            ball: Basic
+            teePosition: 2
+            clubs:
+              - name: Guardian
+                level: 8
+            wind:
+              direction: NE
+              magnitude: 13.0
+            keywords:
         - title: Tour 8 Shootout - Left to Right Wind
           url: https://youtu.be/M24Ri7hgOhM
+          metadata:
+            tour: 8
+            ball: Basic
+            teePosition: 2
+            clubs:
+              - name: Guardian
+                level: 8
+            wind:
+              direction: ENE
+              magnitude: 5.6
+            keywords:
         - title: Tour 8 Shootout - Headwind
           url: https://youtu.be/tR6YlHIkq4s
+          metadata:
+            tour: 8
+            ball: Basic
+            teePosition: 2
+            clubs:
+              - name: Guardian
+                level: 8
+            wind:
+              direction: S
+              magnitude: 8.8
+            keywords:
     overlays:
       size: [453, 814]
       guides:
@@ -497,10 +807,50 @@ holes:
         resources:
         - title: Tour 8 - Strategy and Tips
           url: https://youtu.be/BjS2vYET9eE
+          metadata:
+            tour: 8
+            ball: King Maker
+            teePosition: 2
+            clubs:
+              - name: Apocalypse
+                level: 7
+              - name: B52
+                level: 7
+            wind:
+              direction: S
+              magnitude: 7.6
+            keywords:
+              - Rough bump
         - title: Tour 8 - Strategy with Guardian
           url: https://youtu.be/GgNq3CMRhjk
+          metadata:
+            tour: 8
+            ball: Titan
+            teePosition: 2
+            clubs:
+              - name: Quarterback
+                level: 10
+              - name: Guardian
+                level: 8
+            wind:
+              direction: SW
+              magnitude: 6.6
+            keywords:
         - title: Tour 8 - Layup Technique with Hard Wind
           url: https://youtu.be/dxHN4NKN8N8
+          metadata:
+            tour: 8
+            ball: Quasar
+            teePosition: 2
+            clubs:
+              - name: Quarterback
+                level: 10
+              - name: Guardian
+                level: 8
+            wind:
+              direction: SSE
+              magnitude: 10.7
+            keywords:
     overlays:
       size: [409, 1004]
       guides:
@@ -614,20 +964,100 @@ holes:
         resources:
         - title: General Instruction - 2nd Tee
           url: https://youtu.be/qDTrmqRb870
+          metadata:
+            generalInstruction: true
+            teePosition: 2
         - title: Tour 10 Shootout - Wind Pointed at 9 O`clock
           url: https://youtu.be/srPZJWa90b4
+          metadata:
+            tour: 10
+            ball: King Maker
+            teePosition: 2
+            clubs:
+              - name: Sniper
+                level: 10
+            wind:
+              direction: WNW
+              magnitude: 9.8
+            keywords:
         - title: Tour 8 Shootout - 12 O`clock Wind
           url: https://youtu.be/mWNloaLtPm0?t=5m44s
+          metadata:
+            tour: 8
+            ball: Navigator
+            teePosition: 2
+            clubs:
+              - name: Guardian
+                level: 8
+            wind:
+              direction: NNW
+              magnitude: 9.2
+            keywords:
         - title: Tour 8 Shootout - Tailwind
           url: https://youtu.be/9TAktTMvMF0
+          metadata:
+            tour: 8
+            ball: Basic
+            teePosition: 2
+            clubs:
+              - name: Guardian
+                level: 8
+            wind:
+              direction: N
+              magnitude: 5.2
+            keywords:
         - title: Tour 8 Shootout - Headwind
           url: https://youtu.be/4PAqEkBtiu0
+          metadata:
+            tour: 8
+            ball: Basic
+            teePosition: 2
+            clubs:
+              - name: Guardian
+                level: 8
+            wind:
+              direction: S
+              magnitude: 4.6
+            keywords:
         - title: Tour 8 Shootout - Headwind
           url: https://youtu.be/j-esELzlfko
+          metadata:
+            tour: 8
+            ball: Basic
+            teePosition: 2
+            clubs:
+              - name: Guardian
+                level: 8
+            wind:
+              direction: S
+              magnitude: 4.5
+            keywords:
         - title: Tour 8 Shootout - Right to Left Wind
           url: https://youtu.be/prcQrO_cuys
+          metadata:
+            tour: 8
+            ball: Basic
+            teePosition: 2
+            clubs:
+              - name: Guardian
+                level: 8
+            wind:
+              direction: W
+              magnitude: 7.4
+            keywords:
         - title: Tour 8 Shootout - Left to Right Wind
           url: https://youtu.be/ynd0Pz3Ml58
+          metadata:
+            tour: 8
+            ball: Basic
+            teePosition: 2
+            clubs:
+              - name: Guardian
+                level: 8
+            wind:
+              direction: ESE
+              magnitude: 6.0
+            keywords:
     overlays:
       size: [373, 876]
       guides:
@@ -731,6 +1161,19 @@ holes:
         resources:
         - title: Tour 8 - 3 O`clock Wind
           url: https://youtu.be/8eOxzKWnlAk
+          metadata:
+            tour: 8
+            ball: Quasar
+            teePosition: 2
+            clubs:
+              - name: Quarterback
+                level: 10
+              - name: Guardian
+                level: 8
+            wind:
+              direction: E
+              magnitude: 11.0
+            keywords:
     overlays:
       size: [469, 1029]
       guides:
@@ -837,10 +1280,50 @@ holes:
         resources:
         - title: Tour 10 - Strategy and Tips
           url: https://youtu.be/yR9YKRXlvqw
+          metadata:
+            tour: 10
+            ball: Snowman
+            teePosition: 2
+            clubs:
+              - name: Apocalypse
+                level: 7
+              - name: Endbringer
+                level: 7
+            wind:
+              direction: N
+              magnitude: 11.6
+            keywords:
+              - Power slice
         - title: Tour 10 - Strategy and Tips
           url: https://youtu.be/clgmUNrI_U4
+          metadata:
+            tour: 10
+            ball: King Maker
+            teePosition: 2
+            clubs:
+              - name: Apocalypse
+                level: 7
+              - name: Nirvana
+                level: 8
+            wind:
+              direction: NE
+              magnitude: 6.3
+            keywords:
         - title: Tour 8 - Strategy and Tips with Headwind
           url: https://youtu.be/1Mu5L6-8K5U
+          metadata:
+            tour: 8
+            ball: Navigator
+            teePosition: 2
+            clubs:
+              - name: Quarterback
+                level: 10
+              - name: Guardian
+                level: 8
+            wind:
+              direction: SE
+              magnitude: 9.8
+            keywords:
     overlays:
       size: [553, 1017]
       guides:

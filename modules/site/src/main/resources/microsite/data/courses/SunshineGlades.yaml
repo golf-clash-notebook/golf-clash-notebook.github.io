@@ -85,8 +85,14 @@ holes:
         resources:
         - title: General Instruction - 2nd Tee
           url: https://youtu.be/mXReNZWfmzA
+          metadata:
+            generalInstruction: true
+            teePosition: 2
         - title: General Instruction - 3rd Tee
           url: https://youtu.be/IEsPUVHafPI
+          metadata:
+            generalInstruction: true
+            teePosition: 3
   - id: ceec18c9-cda1-436d-bdb1-1f2454b46436
     course: Sunshine Glades
     number: 3
@@ -176,8 +182,14 @@ holes:
         resources:
         - title: General Instruction - 2nd Tee
           url: https://youtu.be/dA2k6h73SUg
+          metadata:
+            generalInstruction: true
+            teePosition: 2
         - title: General Instruction - 3rd Tee
           url: https://youtu.be/luVf8MWjaKg
+          metadata:
+            generalInstruction: true
+            teePosition: 3
         - title: Tour 11 - Wind Pointed at 9 O`clock
           url: https://youtu.be/j07lSX5qq2w
         - title: Voyager - Rookie
@@ -328,8 +340,14 @@ holes:
         resources:
         - title: General Instruction - 2nd Tee
           url: https://youtu.be/LJN_goXQPVU
+          metadata:
+            generalInstruction: true
+            teePosition: 2
         - title: General Instruction - 3rd Tee
           url: https://youtu.be/3uSqCX-az4E
+          metadata:
+            generalInstruction: true
+            teePosition: 3
   - id: 7d665400-73e6-4716-9655-63f8fe8b8956
     course: Sunshine Glades
     number: 9
