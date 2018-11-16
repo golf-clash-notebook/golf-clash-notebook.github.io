@@ -324,7 +324,7 @@ holes:
           tournament: Mountain
           level: Masters
           teePosition: 3
-          ball: Berzerker
+          ball: Berserker
           clubs:
             - name: Apocalypse
               level: 7
@@ -340,7 +340,7 @@ holes:
           tournament: Mountain
           level: Masters
           teePosition: 3
-          ball: Berzerker
+          ball: Berserker
           clubs:
             - name: Apocalypse
               level: 5
@@ -537,8 +537,8 @@ holes:
             - name: Rapier
               level: 2
           wind:
-            direction: 3.4
-            magnitude: ESE
+            direction: ESE
+            magnitude: 3.4
           keywords:
       - title: Winter Games - Pro
         url: https://youtu.be/oL5pgce0Jjw
@@ -1497,7 +1497,7 @@ holes:
           tournament: Mountain
           level: Masters
           teePosition: 3
-          ball: Berzerker
+          ball: Berserker
           clubs:
             - name: Apocalypse
               level: 4

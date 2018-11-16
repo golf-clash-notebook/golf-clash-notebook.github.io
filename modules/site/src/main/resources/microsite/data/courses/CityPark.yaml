@@ -464,8 +464,8 @@ holes:
             clubs:
               - name: Apocalypse
                 level: 7
-              - name:
-                level:
+              - name: Spitfire
+                level: 6
             wind:
               direction: NNE
               magnitude: 16.8
@@ -485,6 +485,19 @@ holes:
         resources:
         - title: Tour 11 - Strategy and Tips
           url: https://youtu.be/dS8iq_jhXdg
+          metadata:
+            tour: 11
+            ball: King Maker
+            teePosition: 3
+            clubs:
+              - name: Apocalypse
+                level: 7
+              - name: Sniper
+                level: 10
+            wind:
+              direction: NNE
+              magnitude: 10.4
+            keywords:
     aliases:
       - 773e7eeb-3125-4ce4-a95a-d56321392b51
   - id: 8db73e0a-7925-46f1-8a20-dd302888e159
