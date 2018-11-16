@@ -108,7 +108,7 @@ Max backspin. Play straight at the pin.
 
     <p>
       As you may have already guessed, you can modify each of the above images to the ball, club or
-      wind direction you want, so you can replace 'Navigator' with 'Berzerker', 'Sniper' with
+      wind direction you want, so you can replace 'Navigator' with 'Berserker', 'Sniper' with
       'Cataclysm', etc.
     </p>
 
