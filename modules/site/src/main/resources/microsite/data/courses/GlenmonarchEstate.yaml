@@ -1620,8 +1620,8 @@ holes:
               - name: Hammerhead
                 level: 6
             wind:
-              direction: 11.0
-              magnitude: ESE
+              direction: ESE
+              magnitude: 11.0
             keywords:
         - title: Tour 9 - Tips and Strategies
           url: https://youtu.be/UVUzV4Syk60

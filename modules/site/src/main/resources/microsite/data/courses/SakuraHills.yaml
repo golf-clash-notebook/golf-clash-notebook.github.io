@@ -477,7 +477,7 @@ holes:
         - title: Mountain - Pro
           url: https://youtu.be/dI249Mlehws
           metadata:
-            tournamentMountain:
+            tournament: Mountain
             level: Pro
             teePosition: 2
             ball: Titan
