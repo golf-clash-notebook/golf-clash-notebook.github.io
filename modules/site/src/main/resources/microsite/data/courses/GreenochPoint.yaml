@@ -37,34 +37,207 @@ holes:
             teePosition: 2
         - title: Tour 9 Shootout - 1 O`clock Wind
           url: https://youtu.be/-SdFYsivoy4
+          metadata:
+            tour: 9
+            ball: King Maker
+            teePosition: 2
+            clubs:
+              - name: Thor's Hammer
+                level: 7
+            wind:
+              direction: NNE
+              magnitude: 5.9
+            keywords:
         - title: Tour 10 Shootout - 2 O`clock Wind
           url: https://youtu.be/MwyIpXxTFv0?t=4m4s
+          metadata:
+            tour: 10
+            ball: Katana
+            teePosition: 2
+            clubs:
+              - name: Rock
+                level: 8
+            wind:
+              direction: E
+              magnitude: 7.9
+            keywords:
         - title: Tour 10 Shootout - Hard Tailwind Pointed at 1 O`clock
           url: https://youtu.be/TToGzYPRncE
+          metadata:
+            tour: 10
+            ball: Basic
+            teePosition: 2
+            clubs:
+              - name: Sniper
+                level: 10
+            wind:
+              direction: NE
+              magnitude: 13.4
+            keywords:
         - title: Tour 10 Shootout - Hard Tailwind Pointed at 1 O`clock
           url: https://youtu.be/bG74oGxCOe4
+          metadata:
+            tour: 10
+            ball: Basic
+            teePosition: 2
+            clubs:
+              - name: Sniper
+                level: 10
+            wind:
+              direction: NE
+              magnitude: 17.1
+            keywords:
         - title: Tour 10 Shootout - Strong Wind Pointed at 5 O`clock
           url: https://youtu.be/j9hEbRITgws
+          metadata:
+            tour: 10
+            ball: Basic
+            teePosition: 2
+            clubs:
+              - name: Apocalypse
+                level: 7
+            wind:
+              direction: SE
+              magnitude: 16.8
+            keywords:
         - title: Tour 10 Shootout - Wind Pointed at 2 O`clock
           url: https://youtu.be/gBrTd8a83M4
+          metadata:
+            tour: 10
+            ball: Basic
+            teePosition: 2
+            clubs:
+              - name: Apocalypse
+                level: 7
+            wind:
+              direction: E
+              magnitude: 9.3
+            keywords:
         - title: Tour 10 Shootout - Left to Right Wind
           url: https://youtu.be/uwvqevsXFuM
+          metadata:
+            tour: 10
+            ball: Basic
+            teePosition: 2
+            clubs:
+              - name: Apocalypse
+                level: 7
+            wind:
+              direction: ESE
+              magnitude: 12.5
+            keywords:
         - title: Royal Open - Rookie
           url: https://youtu.be/I8RZ4ibvI-s
+          metadata:
+            tournament: Royal Open
+            level: Rookie
+            teePosition: 1
+            ball: Marlin
+            clubs:
+              - name: Sniper
+                level: 5
+            wind:
+              direction: NNE
+              magnitude: 4.7
+            keywords:
         - title: Royal Open - Rookie
           url: https://youtu.be/buDP1mFdfHc
+          metadata:
+            tournament: Royal Open
+            level: Rookie
+            teePosition: 1
+            ball: Marlin
+            clubs:
+              - name: Sniper
+                level: 10
+            wind:
+              direction: NNE
+              magnitude: 3.3
+            keywords:
         - title: Royal Open - Pro
           url: https://youtu.be/q1NBWcGJbwQ
+          metadata:
+            tournament: Royal Open
+            level: Pro
+            teePosition: 2
+            ball: Quasar
+            clubs:
+              - name: Quarterback
+                level: 6
+            wind:
+              direction: NW
+              magnitude: 7.7
+            keywords:
         - title: Royal Open - Pro
           url: https://youtu.be/BR8G5ajQlks
+          metadata:
+            tournament: Royal Open
+            level: Pro
+            teePosition: 2
+            ball: Marlin
+            clubs:
+              - name: Quarterback
+                level: 8
+            wind:
+              direction: NW
+              magnitude: 8.4
+            keywords:
         - title: Royal Open - Expert
           url: https://youtu.be/1POBLglGfw4
+          metadata:
+            tournament: Royal Open
+            level: Expert
+            teePosition: 2
+            ball: King Maker
+            clubs:
+              - name: Quarterback
+                level: 10
+            wind:
+              direction: SW
+              magnitude: 7.3
+            keywords:
         - title: Royal Open - Expert
           url: https://youtu.be/S7xJHDUfurg
+          metadata:
+            tournament: Royal Open
+            level: Expert
+            teePosition: 2
+            ball: King Maker
+            clubs:
+              - name: Quarterback
+                level: 10
+            wind:
+              direction: SW
+              magnitude: 7.1
+            keywords:
         - title: Royal Open - Masters
           url: https://youtu.be/43OqL-CJC3E
+          metadata:
+            tournament: Royal Open
+            level: Masters
+            teePosition: 3
+            ball: King Maker
+            clubs:
+              - name: Apocalypse
+                level: 7
+            wind:
+              direction: SW
+              magnitude: 12.1
+            keywords:
         - title: Royal Open - Masters
           url: https://youtu.be/yOdfxpsuFdw
+          metadata:
+            tournament: Royal Open
+            level: Masters
+            teePosition: 3
+            ball: King Maker
+            clubs:
+              - name: Apocalypse
+                level: 7
+            wind:
+              direction: SW
+              magnitude: 10.0
+            keywords:
     aliases:
       - 54ae0c59-8518-40ca-8d30-0580f1403baf
     overlays:
@@ -161,24 +334,154 @@ holes:
         resources:
         - title: Tour 9 - Strategy and Tips
           url: https://youtu.be/t_nRwpz9fAw
+          metadata:
+            tour: 9
+            ball: King Maker
+            teePosition: 2
+            clubs:
+              - name: Apocalypse
+                level: 7
+              - name: Thorn
+                level: 8
+            wind:
+              direction: SW
+              magnitude: 4.2
+            keywords:
         - title: Tour 10 - 3 O`clock Wind
           url: https://youtu.be/BXaP4UwfPVo
+          metadata:
+            tour: 10
+            ball: Katana
+            teePosition: 2
+            clubs:
+              - name: Rock
+                level: 8
+              - name: Claw
+                level: 10
+            wind:
+              direction: SE
+              magnitude: 7.1
+            keywords:
         - title: Royal Open - Rookie
           url: https://youtu.be/Cm0LU_yTCxU
+          metadata:
+            tournament: Royal Open
+            level: Rookie
+            teePosition: 1
+            ball: Titan
+            clubs:
+              - name: Extra Mile
+                level: 5
+            wind:
+              direction: NNE
+              magnitude: 4.4
+            keywords:
         - title: Royal Open - Rookie
           url: https://youtu.be/vgITKlMNNNE
+          metadata:
+            tournament: Royal Open
+            level: Rookie
+            teePosition: 1
+            ball: Titan
+            clubs:
+              - name: Extra Mile
+                level: 5
+            wind:
+              direction: NE
+              magnitude: 3.4
+            keywords:
         - title: Royal Open - Pro
           url: https://youtu.be/Ev_kp3z_eYc
+          metadata:
+            tournament: Royal Open
+            level: Pro
+            teePosition: 2
+            ball: Titan
+            clubs:
+              - name: Extra Mile
+                level: 5
+              - name: Nirvana
+                level: 2
+            wind:
+              direction: NE
+              magnitude: 5.5
+            keywords:
         - title: Royal Open - Pro
           url: https://youtu.be/uF0z46NMexg
+          metadata:
+            tournament: Royal Open
+            level: Pro
+            teePosition: 2
+            ball: Blue Marble
+            clubs:
+              - name: Thor's Hammer
+                level: 3
+            wind:
+              direction: NE
+              magnitude: 7.7
+            keywords:
         - title: Royal Open - Expert
           url: https://youtu.be/nK7OSrMCHHo
+          metadata:
+            tournament: Royal Open
+            level: Expert
+            teePosition: 2
+            ball: King Maker
+            clubs:
+              - name: Apocalypse
+                level: 6
+            wind:
+              direction: ENE
+              magnitude: 7.5
+            keywords:
         - title: Royal Open - Expert
           url: https://youtu.be/8yQ-yWTQon8
+          metadata:
+            tournament: Royal Open
+            level: Expert
+            teePosition: 2
+            ball: Titan
+            clubs:
+              - name: Extra Mile
+                level: 7
+              - name: Nirvana
+                level: 7
+            wind:
+              direction: ENE
+              magnitude: 9.2
+            keywords:
         - title: Royal Open - Masters
           url: https://youtu.be/rwBhL7lDPaM
+          metadata:
+            tournament: Royal Open
+            level: Masters
+            teePosition: 3
+            ball: Berserker
+            clubs:
+              - name: Apocalypse
+                level: 7
+              - name: Nirvana
+                level: 8
+            wind:
+              direction: E
+              magnitude: 14.3
+            keywords:
         - title: Royal Open - Masters
           url: https://youtu.be/L_aHk6U6I7c
+          metadata:
+            tournament: Royal Open
+            level: Masters
+            teePosition: 3
+            ball: Berserker
+            clubs:
+              - name: Apocalypse
+                level: 7
+              - name: Endbringer
+                level: 7
+            wind:
+              direction: ENE
+              magnitude: 15.0
+            keywords:
     aliases:
       - e94dfbeb-f8d3-4a38-817b-50dd90f499f6
     overlays:
@@ -285,36 +588,227 @@ holes:
             teePosition: 2
         - title: Platinum Resorts - Expert
           url: https://youtu.be/cyR53zixB0E
+          metadata:
+            tournament: Platinum Resorts
+            level: Expert
+            teePosition: 2
+            ball: King Maker
+            clubs:
+              - name: Quarterback
+                level: 8
+            wind:
+              direction: ESE
+              magnitude: 8.4
+            keywords:
         - title: Platinum Resorts - Masters
           url: https://youtu.be/Z8dSp_UGwgM
+          metadata:
+            tournament: Platinum Resorts
+            level: Masters
+            teePosition: 3
+            ball: King Maker
+            clubs:
+              - name: Rock
+                level: 8
+            wind:
+              direction: WNW
+              magnitude: 12.3
+            keywords:
         - title: Platinum Resorts - Masters
           url: https://youtu.be/G9kx8SSUMdQ
+          metadata:
+            tournament: Platinum Resorts
+            level: Masters
+            teePosition: 3
+            ball: King Maker
+            clubs:
+              - name: Rock
+                level: 8
+            wind:
+              direction: WNW
+              magnitude: 12.3
+            keywords:
         - title: Platinum Resorts - Masters
           url: https://youtu.be/6PuGLdjWJ4A
+          metadata:
+            tournament: Platinum Resorts
+            level: Masters
+            teePosition: 3
+            ball: King Maker
+            clubs:
+              - name: Rock
+                level: 8
+            wind:
+              direction: NW
+              magnitude: 11.8
+            keywords:
         - title: Platinum Resorts - Masters
           url: https://youtu.be/VGqe_7Qjj5U
+          metadata:
+            tournament: Platinum Resorts
+            level: Masters
+            teePosition: 3
+            ball: King Maker
+            clubs:
+              - name: Rock
+                level: 8
+            wind:
+              direction: NW
+              magnitude: 11.1
+            keywords:
         - title: Tour 9 Shootout - Wind Pointed at 11 O`clock
           url: https://youtu.be/gGbb0aB2_jo
+          metadata:
+            tour: 9
+            ball: King Maker
+            teePosition: 2
+            clubs:
+              - name: Thor's Hammer
+                level: 7
+            wind:
+              direction: NW
+              magnitude: 4.7
+            keywords:
         - title: Tour 10 Shootout - Wind Pointed at 8 O`clock
           url: https://youtu.be/zaWrItSh3cY
+          metadata:
+            tour: 10
+            ball: Basic
+            teePosition: 2
+            clubs:
+              - name: Apocalypse
+                level: 7
+            wind:
+              direction: WSW
+              magnitude: 11.6
+            keywords:
         - title: Tour 10 Shootout - Wind Pointed at 9 O`clock
           url: https://youtu.be/aqocGjsleVo
+          metadata:
+            tour: 10
+            ball: King Maker
+            teePosition: 2
+            clubs:
+              - name: Apocalypse
+                level: 7
+            wind:
+              direction: W
+              magnitude: 16.4
+            keywords:
         - title: Royal Open - Rookie
           url: https://youtu.be/CdyOFncaegM
+          metadata:
+            tournament: Royal Open
+            level: Rookie
+            teePosition: 1
+            ball: Titan
+            clubs:
+              - name: Sniper
+                level: 5
+            wind:
+              direction: NE
+              magnitude: 3.7
+            keywords:
         - title: Royal Open - Rookie
           url: https://youtu.be/0y12OojJopg
+          metadata:
+            tournament: Royal Open
+            level: Rookie
+            teePosition: 1
+            ball: Titan
+            clubs:
+              - name: Sniper
+                level: 5
+            wind:
+              direction: NE
+              magnitude: 3.1
+            keywords:
         - title: Royal Open - Pro
           url: https://youtu.be/cDfG5eACaVk
+          metadata:
+            tournament: Royal Open
+            level: Pro
+            teePosition: 2
+            ball: Navigator
+            clubs:
+              - name: Quarterback
+                level: 6
+            wind:
+              direction: WNW
+              magnitude: 6.5
+            keywords:
         - title: Royal Open - Pro
           url: https://youtu.be/8X4foGcUKKU
+          metadata:
+            tournament: Royal Open
+            level: Pro
+            teePosition: 2
+            ball: Quasar
+            clubs:
+              - name: Quarterback
+                level: 8
+            wind:
+              direction: WNW
+              magnitude: 8.5
+            keywords:
         - title: Royal Open - Expert
           url: https://youtu.be/pN-RvO19178
+          metadata:
+            tournament: Royal Open
+            level: Expert
+            teePosition: 2
+            ball: King Maker
+            clubs:
+              - name: Quarterback
+                level: 10
+            wind:
+              direction: W
+              magnitude: 9.0
+            keywords:
         - title: Royal Open - Expert
           url: https://youtu.be/evrHuZ1f9BE
+          metadata:
+            tournament: Royal Open
+            level: Expert
+            teePosition: 2
+            ball: King Maker
+            clubs:
+              - name: Quarterback
+                level: 10
+            wind:
+              direction: W
+              magnitude: 8.9
+            keywords:
         - title: Royal Open - Masters
           url: https://youtu.be/Rla1Aih0SBo
+          metadata:
+            tournament: Royal Open
+            level: Masters
+            teePosition: 3
+            ball: King Maker
+            clubs:
+              - name: Apocalypse
+                level: 7
+              - name: Endbringer
+                level: 7
+            wind:
+              direction: S
+              magnitude: 10.3
+            keywords:
         - title: Royal Open - Masters
           url: https://youtu.be/TQUwdqv_wWQ
+          metadata:
+            tournament: Royal Open
+            level: Masters
+            teePosition: 3
+            ball: King Maker
+            clubs:
+              - name: Apocalypse
+                level: 7
+            wind:
+              direction: SSE
+              magnitude: 11.1
+            keywords:
     aliases:
       - 195308db-3b43-4161-b2b9-d517669b17c4
     overlays:
@@ -398,34 +892,242 @@ holes:
         resources:
         - title: Platinum Resorts - Expert
           url: https://youtu.be/GonTAm5Z3eY
+          metadata:
+            tournament: Platinum Resorts
+            level: Expert
+            teePosition: 2
+            ball: Origin
+            clubs:
+              - name: Thor's Hammer
+                level: 4
+              - name: Thorn
+                level: 5
+            wind:
+              direction: NW
+              magnitude: 11.5
+            keywords:
         - title: Platinum Resorts - Expert
           url: https://youtu.be/IHP838WbxFo
+          metadata:
+            tournament: Platinum Resorts
+            level: Expert
+            teePosition: 2
+            ball: Titan
+            clubs:
+              - name: Extra Mile
+                level: 6
+              - name: Thorn
+                level: 5
+            wind:
+              direction: NNW
+              magnitude: 10.0
+            keywords:
         - title: Platinum Resorts - Masters
           url: https://youtu.be/Wo0nj0jxLdk
+          metadata:
+            tournament: Platinum Resorts
+            level: Masters
+            teePosition: 2
+            ball: Berserker
+            clubs:
+              - name: Apocalypse
+                level: 7
+              - name: Endbringer
+                level: 7
+            wind:
+              direction: NE
+              magnitude: 15.2
+            keywords:
         - title: Platinum Resorts - Masters
           url: https://youtu.be/__XjN4c9lx8
+          metadata:
+            tournament: Platinum Resorts
+            level: Masters
+            teePosition: 2
+            ball: Berserker
+            clubs:
+              - name: Apocalypse
+                level: 4
+              - name: Thorn
+                level: 7
+            wind:
+              direction: NE
+              magnitude: 14.4
+            keywords:
         - title: Platinum Resorts - Masters
           url: https://youtu.be/wnkIEPGnB9o
+          metadata:
+            tournament: Platinum Resorts
+            level: Masters
+            teePosition: 2
+            ball: Berserker
+            clubs:
+              - name: Thor's Hammer
+                level: 5
+              - name: Nirvana
+                level: 7
+            wind:
+              direction: NE
+              magnitude: 13.8
+            keywords:
         - title: Platinum Resorts - Masters
           url: https://youtu.be/UJy3yRxxRZo
+          metadata:
+            tournament: Platinum Resorts
+            level: Masters
+            teePosition: 2
+            ball: Snowman
+            clubs:
+              - name: Apocalypse
+                level: 5
+              - name: Claw
+                level: 10
+            wind:
+              direction: NE
+              magnitude: 14.0
+            keywords:
         - title: Tour 9 - Strategy and Tips
           url: https://youtu.be/ZfpmmuwYDX4
+          metadata:
+            tour: 9
+            ball: King Maker
+            teePosition: 2
+            clubs:
+              - name: Thor's Hammer
+                level: 7
+              - name: B52
+                level: 7
+            wind:
+              direction: S
+              magnitude: 10.0
+            keywords:
         - title: Royal Open - Rookie
           url: https://youtu.be/7lBGfjfOxZg
+          metadata:
+            tournament: Royal Open
+            level: Rookie
+            teePosition: 1
+            ball: Titan
+            clubs:
+              - name: Extra Mile
+                level: 5
+              - name: Nirvana
+                level: 3
+            wind:
+              direction: NNW
+              magnitude: 3.5
+            keywords:
         - title: Royal Open - Rookie
           url: https://youtu.be/c4k0UlB1MG0
+          metadata:
+            tournament: Royal Open
+            level: Rookie
+            teePosition: 1
+            ball: Quasar
+            clubs:
+              - name: Extra Mile
+                level: 5
+              - name: Backbone
+                level: 7
+            wind:
+              direction: NNW
+              magnitude: 4.8
+            keywords:
         - title: Royal Open - Pro
           url: https://youtu.be/Utq1Yb2ea9U
+          metadata:
+            tournament: Royal Open
+            level: Pro
+            teePosition: 2
+            ball: Titan
+            clubs:
+              - name: Extra Mile
+                level: 5
+              - name: Backbone
+                level: 7
+            wind:
+              direction: N
+              magnitude: 5.8
+            keywords:
+              - Rough bump
         - title: Royal Open - Pro
           url: https://youtu.be/W2C85kRrR_A
+          metadata:
+            tournament: Royal Open
+            level: Pro
+            teePosition: 2
+            ball: Blue Marble
+            clubs:
+              - name: Extra Mile
+                level: 6
+              - name: Thorn
+                level: 5
+            wind:
+              direction: N
+              magnitude: 6.8
+            keywords:
         - title: Royal Open - Expert
           url: https://youtu.be/ff4MuQFfSJ4
+          metadata:
+            tournament: Royal Open
+            level: Expert
+            teePosition: 2
+            ball: King Maker
+            clubs:
+              - name: Apocalypse
+                level: 6
+              - name: Thorn
+                level: 7
+            wind:
+              direction: NNE
+              magnitude: 7.8
+            keywords:
         - title: Royal Open - Expert
           url: https://youtu.be/Gu9qkxr4Q4o
+          metadata:
+            tournament: Royal Open
+            level: Expert
+            teePosition: 2
+            ball: King Maker
+            clubs:
+              - name: Apocalypse
+                level: 6
+              - name: Thorn
+                level: 7
+            wind:
+              direction: NNE
+              magnitude: 8.8
+            keywords:
         - title: Royal Open - Masters
           url: https://youtu.be/C3JpsTaXOeY
+          metadata:
+            tournament: Royal Open
+            level: Masters
+            teePosition: 3
+            ball: Dead
+            clubs:
+              - name: Apocalypse
+                level: 7
+            wind:
+              direction: N
+              magnitude: 14.2
+            keywords:
         - title: Royal Open - Masters
           url: https://youtu.be/9-Fib0pFKK4
+          metadata:
+            tournament: Royal Open
+            level: Masters
+            teePosition: 3
+            ball: King Maker
+            clubs:
+              - name: Apocalypse
+                level: 7
+              - name: Thorn
+                level: 8
+            wind:
+              direction: NNE
+              magnitude: 10.7
+            keywords:
       - name: Kevin Warren
         resources:
         - title: Rookie
@@ -566,26 +1268,155 @@ holes:
             teePosition: 2
         - title: Tour 9 Shootout - Wind Pointed at 10 O`clock
           url: https://youtu.be/zw5QSKTZqbA
+          metadata:
+            tour: 9
+            ball: Katana
+            teePosition: 2
+            clubs:
+              - name: Apocalypse
+                level: 7
+            wind:
+              direction: NW
+              magnitude: 8.5
+            keywords:
         - title: Tour 10 Shootout - Left to Right Wind Strategy and Tips
           url: https://youtu.be/lKTLaiTYBTc
+          metadata:
+            tour: 10
+            ball: Basic
+            teePosition: 2
+            clubs:
+              - name: Apocalypse
+                level: 7
+            wind:
+              direction: ENE
+              magnitude: 8.4
+            keywords:
         - title: Tour 10 Shootout - Tailwind
           url: https://youtu.be/KPaVqDOhTaY
+          metadata:
+            tour: 10
+            ball: Navigator
+            teePosition: 2
+            clubs:
+              - name: Apocalypse
+                level: 7
+            wind:
+              direction: NW
+              magnitude: 6.0
+            keywords:
         - title: Royal Open - Rookie
           url: https://youtu.be/GWtYhqTuFqY
+          metadata:
+            tournament: Royal Open
+            level: Rookie
+            teePosition: 1
+            ball: Quasar
+            clubs:
+              - name: Quarterback
+                level: 6
+            wind:
+              direction: S
+              magnitude: 5.0
+            keywords:
         - title: Royal Open - Rookie
           url: https://youtu.be/oDsIsx6d07Y
+          metadata:
+            tournament: Royal Open
+            level: Rookie
+            teePosition: 1
+            ball: Katana
+            clubs:
+              - name: Quarterback
+                level: 6
+            wind:
+              direction: SSW
+              magnitude: 4.4
+            keywords:
         - title: Royal Open - Pro
           url: https://youtu.be/M5T8ezSANV8
+          metadata:
+            tournament: Royal Open
+            level: Pro
+            teePosition: 2
+            ball: Quasar
+            clubs:
+              - name: Quarterback
+                level: 6
+            wind:
+              direction: W
+              magnitude: 7.3
+            keywords:
         - title: Royal Open - Pro
           url: https://youtu.be/7or_kLQv790
+          metadata:
+            tournament: Royal Open
+            level: Pro
+            teePosition: 2
+            ball: Katana
+            clubs:
+              - name: Quarterback
+                level: 8
+            wind:
+              direction: WNW
+              magnitude: 6.4
+            keywords:
         - title: Royal Open - Expert
           url: https://youtu.be/i4z4StPEi24
+          metadata:
+            tournament: Royal Open
+            level: Expert
+            teePosition: 2
+            ball: King Maker
+            clubs:
+              - name: Quarterback
+                level: 10
+            wind:
+              direction: SW
+              magnitude: 8.0
+            keywords:
         - title: Royal Open - Expert
           url: https://youtu.be/Ehwh1a6pDPc
+          metadata:
+            tournament: Royal Open
+            level: Expert
+            teePosition: 2
+            ball: King Maker
+            clubs:
+              - name: Quarterback
+                level: 10
+            wind:
+              direction: SW
+              magnitude: 9.1
+            keywords:
         - title: Royal Open - Masters
           url: https://youtu.be/lUIonFY7AN0
+          metadata:
+            tournament: Royal Open
+            level: Masters
+            teePosition: 3
+            ball: King Maker
+            clubs:
+              - name: Apocalypse
+                level: 7
+            wind:
+              direction: SW
+              magnitude: 9.9
+            keywords:
         - title: Royal Open - Masters
           url: https://youtu.be/3TOEA21DlGE
+          metadata:
+            tournament: Royal Open
+            level: Masters
+            teePosition: 3
+            ball: King Maker
+            clubs:
+              - name: Apocalypse
+                level: 7
+            wind:
+              direction: SW
+              magnitude: 10.5
+            keywords:
     aliases:
       - 25ee67c7-f844-4d12-ae35-0876c69211c5
     overlays:
@@ -642,22 +1473,148 @@ holes:
         resources:
         - title: Tour 9 - Strategy and Tips
           url: https://youtu.be/vjJqXiE1YKk
+          metadata:
+            tour: 9
+            ball: King Maker
+            teePosition: 2
+            clubs:
+              - name: Thor's Hammer
+                level: 7
+              - name: Sniper
+                level: 10
+            wind:
+              direction: NW
+              magnitude: 6.0
+            keywords:
         - title: Royal Open - Rookie
           url: https://youtu.be/evaTx4TOeic
+          metadata:
+            tournament: Royal Open
+            level: Rookie
+            teePosition: 1
+            ball: Titan
+            clubs:
+              - name: Quarterback
+                level: 6
+              - name: Guardian
+                level: 4
+            wind:
+              direction: N
+              magnitude: 2.2
+            keywords:
         - title: Royal Open - Rookie
           url: https://youtu.be/AQrHRARkBCs
+          metadata:
+            tournament: Royal Open
+            level: Rookie
+            teePosition: 1
+            ball: King Maker
+            clubs:
+              - name: Quarterback
+                level: 6
+              - name: Guardian
+                level: 4
+            wind:
+              direction: N
+              magnitude: 2.7
+            keywords:
         - title: Royal Open - Pro
           url: https://youtu.be/unjG7B1oRv0
+          metadata:
+            tournament: Royal Open
+            level: Pro
+            teePosition: 2
+            ball: Titan
+            clubs:
+              - name: Quarterback
+                level: 6
+              - name: Guardian
+                level: 4
+            wind:
+              direction: N
+              magnitude: 5.5
+            keywords:
         - title: Royal Open - Pro
           url: https://youtu.be/HyZvMmNAj7E
+          metadata:
+            tournament: Royal Open
+            level: Pro
+            teePosition: 2
+            ball: Katana
+            clubs:
+              - name: Quarterback
+                level: 8
+              - name: Guardian
+                level: 5
+            wind:
+              direction: NNW
+              magnitude: 6.6
+            keywords:
         - title: Royal Open - Expert
           url: https://youtu.be/9X9J-8fEGq4
+          metadata:
+            tournament: Royal Open
+            level: Expert
+            teePosition: 2
+            ball: King Maker
+            clubs:
+              - name: Quarterback
+                level: 10
+              - name: Sniper
+                level: 10
+            wind:
+              direction: NNE
+              magnitude: 7.6
+            keywords:
         - title: Royal Open - Expert
           url: https://youtu.be/VplyZzA4s8M
+          metadata:
+            tournament: Royal Open
+            level: Expert
+            teePosition: 2
+            ball: King Maker
+            clubs:
+              - name: Quarterback
+                level: 10
+              - name: Sniper
+                level: 10
+            wind:
+              direction: NNE
+              magnitude: 7.8
+            keywords:
         - title: Royal Open - Masters
           url: https://youtu.be/8Rp64D6VZ04
+          metadata:
+            tournament: Royal Open
+            level: Masters
+            teePosition: 3
+            ball: Berserker
+            clubs:
+              - name: Apocalypse
+                level: 7
+              - name: Claw
+                level: 10
+            wind:
+              direction: NW
+              magnitude: 15.1
+            keywords:
         - title: Royal Open - Masters
           url: https://youtu.be/Upm6PcSvzG0
+          metadata:
+            tournament: Royal Open
+            level: Masters
+            teePosition: 3
+            ball: Snow Globe
+            clubs:
+              - name: Apocalypse
+                level: 7
+              - name: Nirvana
+                level: 8
+            wind:
+              direction: NNE
+              magnitude: 16.0
+            keywords:
+              - Power slice
     aliases:
       - c8617a92-c408-4bb8-9fd1-342d5fdcaded
     overlays:
@@ -741,36 +1698,274 @@ holes:
         resources:
         - title: Platinum Resorts - Expert
           url: https://youtu.be/7Rwc0dhcEEo
+          metadata:
+            tournament: Platinum Resorts
+            level: Expert
+            teePosition: 2
+            ball: King Maker
+            clubs:
+              - name: Thor's Hammer
+                level: 4
+              - name: Sniper
+                level: 8
+            wind:
+              direction: WSW
+              magnitude: 7.8
+            keywords:
         - title: Platinum Resorts - Masters
           url: https://youtu.be/FrCjP1wLoRI
+          metadata:
+            tournament: Platinum Resorts
+            level: Masters
+            teePosition: 3
+            ball: King Maker
+            clubs:
+              - name: Apocalypse
+                level: 7
+              - name: Cataclysm
+                level: 7
+              - name: Thorn
+                level: 8
+            wind:
+              direction: S
+              magnitude: 10.7
+            keywords:
         - title: Platinum Resorts - Masters
           url: https://youtu.be/um2Uz_cGP2c
+          metadata:
+            tournament: Platinum Resorts
+            level: Masters
+            teePosition: 3
+            ball: King Maker
+            clubs:
+              - name: Apocalypse
+                level: 4
+              - name: Hammerhead
+                level: 6
+              - name: Thorn
+                level: 7
+            wind:
+              direction: S
+              magnitude: 10.4
+            keywords:
         - title: Platinum Resorts - Masters
           url: https://youtu.be/eOKOI6ndi1c
+          metadata:
+            tournament: Platinum Resorts
+            level: Masters
+            teePosition: 3
+            ball: King Maker
+            clubs:
+              - name: Rock
+                level: 8
+              - name: Cataclysm
+                level: 6
+              - name: Nirvana
+                level: 7
+            wind:
+              direction: S
+              magnitude: 11.3
+            keywords:
         - title: Platinum Resorts - Masters
           url: https://youtu.be/AwdS0lQrwYM
+          metadata:
+            tournament: Platinum Resorts
+            level: Masters
+            teePosition: 3
+            ball: King Maker
+            clubs:
+              - name: Quarterback
+                level: 10
+              - name: Cataclysm
+                level: 6
+              - name: Endbringer
+                level: 6
+            wind:
+              direction: S
+              magnitude: 10.5
+            keywords:
         - title: Tour 9 - Strategy and Tips
           url: https://youtu.be/S4ujEoURR3Y
+          metadata:
+            tour: 9
+            ball: King Maker
+            teePosition: 2
+            clubs:
+              - name: Apocalypse
+                level: 7
+              - name: B52
+                level: 7
+            wind:
+              direction: SE
+              magnitude: 4.5
+            keywords:
+              - Rough bump
         - title: Tour 10 - Strong Tailwind
           url: https://youtu.be/q3gAE5JM9xo
+          metadata:
+            tour: 10
+            ball: Quasar
+            teePosition: 2
+            clubs:
+              - name: Rock
+                level: 8
+              - name: Sniper
+                level: 10
+            wind:
+              direction: N
+              magnitude: 11.7
+            keywords:
+              - Rough bump
         - title: Tour 10 - Tips for Making Albatross
           url: https://youtu.be/HrOGSz6GhAM
+          metadata:
+            tour: 10
+            ball: Katana
+            teePosition: 2
+            clubs:
+              - name: Rock
+                level: 8
+              - name: Sniper
+                level: 10
+            wind:
+              direction: N
+              magnitude: 9.4
+            keywords:
+              - Rough bump
         - title: Royal Open - Rookie
           url: https://youtu.be/OPyqvZmgPww
+          metadata:
+            tournament: Royal Open
+            level: Rookie
+            teePosition: 1
+            ball: Quasar
+            clubs:
+              - name: Quarterback
+                level: 6
+              - name: Sniper
+                level: 5
+            wind:
+              direction: N
+              magnitude: 4.9
+            keywords:
+              - Rough bump
         - title: Royal Open - Rookie
           url: https://youtu.be/X6LPVxR4vgs
+          metadata:
+            tournament: Royal Open
+            level: Rookie
+            teePosition: 1
+            ball: Quasar
+            clubs:
+              - name: Quarterback
+                level: 6
+              - name: Sniper
+                level: 5
+            wind:
+              direction: N
+              magnitude: 2.6
+            keywords:
+              - Rough bump
         - title: Royal Open - Pro
           url: https://youtu.be/scS4spgRG3o
+          metadata:
+            tournament: Royal Open
+            level: Pro
+            teePosition: 2
+            ball: Navigator
+            clubs:
+              - name: Quarterback
+                level: 6
+              - name: Sniper
+                level: 7
+            wind:
+              direction: N
+              magnitude: 6.2
+            keywords:
+              - Rough bump
         - title: Royal Open - Pro
           url: https://youtu.be/NskINbC1Jng
+          metadata:
+            tournament: Royal Open
+            level: Pro
+            teePosition: 2
+            ball: Katana
+            clubs:
+              - name: Quarterback
+                level: 8
+              - name: Sniper
+                level: 8
+            wind:
+              direction: NNE
+              magnitude: 7.5
+            keywords:
+              - Rough bump
         - title: Royal Open - Expert
           url: https://youtu.be/QXefS9Sh92o
+          metadata:
+            tournament: Royal Open
+            level: Expert
+            teePosition: 2
+            ball: King Maker
+            clubs:
+              - name: Quarterback
+                level: 10
+              - name: B52
+                level: 4
+            wind:
+              direction: NE
+              magnitude: 8.2
+            keywords:
+              - Rough bump
         - title: Royal Open - Expert
           url: https://youtu.be/GM9CCq9myo0
+          metadata:
+            tournament: Royal Open
+            level: Expert
+            teePosition: 2
+            ball: King Maker
+            clubs:
+              - name: Quarterback
+                level: 10
+              - name: B52
+                level: 4
+            wind:
+              direction: NE
+              magnitude: 7.9
+            keywords:
+              - Rough bump
         - title: Royal Open - Masters
           url: https://youtu.be/gZuksNzkymw
+          metadata:
+            tournament: Royal Open
+            level: Masters
+            teePosition: 3
+            ball: Snow Globe
+            clubs:
+              - name: Apocalypse
+                level: 7
+              - name: Nirvana
+                level: 8
+            wind:
+              direction: NE
+              magnitude: 18.3
+            keywords:
         - title: Royal Open - Masters
           url: https://youtu.be/fyWlethQwUk
+          metadata:
+            tournament: Royal Open
+            level: Masters
+            teePosition: 3
+            ball: Snow Globe
+            clubs:
+              - name: Apocalypse
+                level: 7
+              - name: Nirvana
+                level: 8
+            wind:
+              direction: NE
+              magnitude: 18.5
+            keywords:
     aliases:
       - 7a0b650d-6339-4c34-a391-beaf9b5874d5
     overlays:
@@ -859,22 +2054,137 @@ holes:
         resources:
         - title: Tour 9 - Strategy and Tips
           url: https://youtu.be/deiv-Iy7SIw
+          metadata:
+            tour: 9
+            ball: King Maker
+            teePosition: 2
+            clubs:
+              - name: Thor's Hammer
+                level: 7
+            wind:
+              direction: NE
+              magnitude: 4.2
+            keywords:
         - title: Royal Open - Rookie
           url: https://youtu.be/X16pIdRMzds
+          metadata:
+            tournament: Royal Open
+            level: Rookie
+            teePosition: 1
+            ball: Titan
+            clubs:
+              - name: Quarterback
+                level: 6
+              - name: Skewer
+                level: 6
+            wind:
+              direction: NE
+              magnitude: 4.0
+            keywords:
         - title: Royal Open - Rookie
           url: https://youtu.be/uLI7c9GAydI
+          metadata:
+            tournament: Royal Open
+            level: Rookie
+            teePosition: 1
+            ball: Katana
+            clubs:
+              - name: Rocket
+                level: 7
+              - name: Skewer
+                level: 6
+            wind:
+              direction: NE
+              magnitude: 2.8
+            keywords:
         - title: Royal Open - Pro
           url: https://youtu.be/8C4AGAmXZFQ
+          metadata:
+            tournament: Royal Open
+            level: Pro
+            teePosition: 2
+            ball: Navigator
+            clubs:
+              - name: Extra Mile
+                level: 5
+              - name: Malibu
+                level: 5
+            wind:
+              direction: NE
+              magnitude: 5.6
+            keywords:
         - title: Royal Open - Pro
           url: https://youtu.be/LNlq6oJZJzs
+          metadata:
+            tournament: Royal Open
+            level: Pro
+            teePosition: 2
+            ball: Quasar
+            clubs:
+              - name: Quarterback
+                level: 8
+            wind:
+              direction: NE
+              magnitude: 8.3
+            keywords:
         - title: Royal Open - Expert
           url: https://youtu.be/82zxf7GlASY
+          metadata:
+            tournament: Royal Open
+            level: Expert
+            teePosition: 2
+            ball: King Maker
+            clubs:
+              - name: Quarterback
+                level: 10
+            wind:
+              direction: WSW
+              magnitude: 9.1
+            keywords:
         - title: Royal Open - Expert
           url: https://youtu.be/wEIiDtbN2w4
+          metadata:
+            tournament: Royal Open
+            level: Expert
+            teePosition: 2
+            ball: King Maker
+            clubs:
+              - name: Quarterback
+                level: 10
+            wind:
+              direction: W
+              magnitude: 8.5
+            keywords:
         - title: Royal Open - Masters
           url: https://youtu.be/t4hX5UZIGdI
+          metadata:
+            tournament: Royal Open
+            level: Masters
+            teePosition: 3
+            ball: King Maker
+            clubs:
+              - name: Apocalypse
+                level: 7
+            wind:
+              direction: SW
+              magnitude: 10.7
+            keywords:
         - title: Royal Open - Masters
           url: https://youtu.be/PxhLWWjIFDc
+          metadata:
+            tournament: Royal Open
+            level: Masters
+            teePosition: 3
+            ball: King Maker
+            clubs:
+              - name: Apocalypse
+                level: 7
+              - name: Nirvana
+                level: 8
+            wind:
+              direction: SW
+              magnitude: 12.3
+            keywords:
     aliases:
       - c8bfcf6b-dd84-4db4-827f-694839f7ff60
     overlays:
@@ -958,20 +2268,133 @@ holes:
         resources:
         - title: Royal Open - Rookie
           url: https://youtu.be/-LNC5enJwvA
+          metadata:
+            tournament: Royal Open
+            level: Rookie
+            teePosition: 1
+            ball: Katana
+            clubs:
+              - name: Quarterback
+                level: 6
+              - name: Big Dawg
+                level: 5
+            wind:
+              direction: NNE
+              magnitude: 4.1
+            keywords:
         - title: Royal Open - Rookie
           url: https://youtu.be/IUxf9l6z88U
+          metadata:
+            tournament: Royal Open
+            level: Rookie
+            teePosition: 1
+            ball: Katana
+            clubs:
+              - name: Quarterback
+                level: 6
+              - name: Big Dawg
+                level: 5
+            wind:
+              direction: NE
+              magnitude: 4.4
+            keywords:
         - title: Royal Open - Pro
           url: https://youtu.be/tXEKX8Gp_94
+          metadata:
+            tournament: Royal Open
+            level: Pro
+            teePosition: 2
+            ball: Titan
+            clubs:
+              - name: Quarterback
+                level: 6
+              - name: Big Dawg
+                level: 4
+              - name: Skewer
+                level: 7
+            wind:
+              direction: N
+              magnitude: 6.9
+            keywords:
         - title: Royal Open - Pro
           url: https://youtu.be/2zAEG2n0HBw
+          metadata:
+            tournament: Royal Open
+            level: Pro
+            teePosition: 2
+            ball: Katana
+            clubs:
+              - name: Quarterback
+                level: 8
+              - name: Big Dawg
+                level: 4
+            wind:
+              direction: N
+              magnitude: 6.8
+            keywords:
         - title: Royal Open - Expert
           url: https://youtu.be/UxgWxbp7Joc
+          metadata:
+            tournament: Royal Open
+            level: Expert
+            teePosition: 2
+            ball: King Maker
+            clubs:
+              - name: Quarterback
+                level: 10
+              - name: Sniper
+                level: 10
+            wind:
+              direction: N
+              magnitude: 7.3
+            keywords:
         - title: Royal Open - Expert
           url: https://youtu.be/vIWfIyyZn5Y
+          metadata:
+            tournament: Royal Open
+            level: Expert
+            teePosition: 2
+            ball: Blue Marble
+            clubs:
+              - name: Quarterback
+                level: 10
+              - name: Spitfire
+                level: 4
+            wind:
+              direction: NNW
+              magnitude: 11.5
+            keywords:
         - title: Royal Open - Masters
           url: https://youtu.be/r9TmuZfONn4
+          metadata:
+            tournament: Royal Open
+            level: Masters
+            teePosition: 3
+            ball: King Maker
+            clubs:
+              - name: Apocalypse
+                level: 7
+              - name: Spitfire
+                level: 6
+            wind:
+              direction: NW
+              magnitude: 10.0
+            keywords:
         - title: Royal Open - Masters
           url: https://youtu.be/lp8-t26HgyU
+          metadata:
+            tournament: Royal Open
+            level: Masters
+            teePosition: 3
+            ball: Berserker
+            clubs:
+              - name: Apocalypse
+                level: 7
+            wind:
+              direction: NNW
+              magnitude: 14.4
+            keywords:
+              - Power slice
     aliases:
       - 6de9d41d-f723-4a64-b279-c021634ed8e6
     overlays:
