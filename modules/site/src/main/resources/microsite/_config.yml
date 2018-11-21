@@ -477,13 +477,13 @@ page_gen:
       title-prefix: 'Club Oceania Tournament - Hole '
       tournamentName: 'Club Oceania'
   - index_files: true
-    data: 'tournaments.SummerMajor.holes'
+    data: 'tournaments.SummerMajor2018.holes'
     template: '_includes/tournaments/hole-template.liquid'
     name: 'number'
-    dir: 'tournaments/SummerMajor'
+    dir: 'tournaments/SummerMajor2018'
     extra:
-      title-prefix: 'Summer Major Tournament - Hole '
-      tournamentName: 'Summer Major'
+      title-prefix: 'Summer Major 2018 Tournament - Hole '
+      tournamentName: 'Summer Major 2018'
   - index_files: true
     data: 'tournaments.LaborDay2018.holes'
     template: '_includes/tournaments/hole-template.liquid'
@@ -532,3 +532,11 @@ page_gen:
     extra:
       title-prefix: 'Mountain Tournament - Hole '
       tournamentName: 'Mountain'
+  - index_files: true
+    data: 'tournaments.FallMajor2018.holes'
+    template: '_includes/tournaments/hole-template.liquid'
+    name: 'number'
+    dir: 'tournaments/FallMajor2018'
+    extra:
+      title-prefix: 'Fall Major 2018 Tournament - Hole '
+      tournamentName: 'Fall Major 2018'
