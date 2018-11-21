@@ -2,7 +2,6 @@ courseName: Sakura Hills
 skinned: false
 holes:
   - id: 855c43fb-cf83-4d15-8d1e-c868cbc64b63
-    current-tournament: true
     course: Sakura Hills
     number: 1
     par: 3
@@ -426,7 +425,6 @@ holes:
               <circle cx="217" cy="299" r="6" fill="black" class="guide-point" data-guide-segment="2" />
               <circle cx="302" cy="116" r="6" fill="black" class="guide-point" data-guide-segment="3" />
   - id: bb9f55d2-057b-4082-af8b-24a14696a2f6
-    current-tournament: true
     course: Sakura Hills
     number: 3
     par: 4
@@ -1093,7 +1091,6 @@ holes:
               <circle cx="183" cy="743" r="6" fill="black" class="guide-point" data-guide-segment="0" />
               <circle cx="151" cy="256" r="6" fill="black" class="guide-point" data-guide-segment="1" />
   - id: 3af2f2c8-9548-41ce-9f04-be46b432d324
-    current-tournament: true
     course: Sakura Hills
     number: 6
     par: 5
