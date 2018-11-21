@@ -31,16 +31,83 @@ holes:
           url: https://i.imgur.com/HuKrFpa.png
       - name: Zachary Jones
         resources:
-        - title: Tour 7 - Going for Green with Rock
+        - title: Tour 7 - Going for the green with Rock
           url: https://youtu.be/iVU_ctBZhi8
+          metadata:
+            tour: 11
+            ball: Titan
+            teePosition: 2
+            clubs:
+              - name: Rock
+                level: 8
+            wind:
+              direction: N
+              magnitude: 6.5
+            keywords:
         - title: Easter Links - Rookie
           url: https://youtu.be/ztmEKaHyfek
+          metadata:
+            tournament: Easter Links
+            level: Rookie
+            ball: Titan
+            teePosition: 1
+            clubs:
+              - name: Extra Mile
+                level: 4
+              - name: Sand Lizard
+                level: 6
+            wind:
+              direction: NNW
+              magnitude: 2.3
+            keywords:
         - title: Easter Links - Pro
           url: https://youtu.be/Q-uRkfxogc0
+          metadata:
+            tournament: Easter Links
+            level: Pro
+            ball: Berserker
+            teePosition: 2
+            clubs:
+              - name: Thor's Hammer
+                level: 5
+              - name: EndBringer
+                level: 5
+            wind:
+              direction: NW
+              magnitude: 6.5
+            keywords:
         - title: Easter Links - Expert
           url: https://youtu.be/QwD-nCkOq8o
-        - title: Easter Links - Masters
+          metadata:
+            tournament: Easter Links
+            level: Expert
+            ball: King Maker
+            teePosition: 2
+            clubs:
+              - name: Apocalypse
+                level: 7
+              - name: Spitfire
+                level: 6
+            wind:
+              direction: WNW
+              magnitude: 8.6
+            keywords:
+        - title: Easter Links - Master
           url: https://youtu.be/vmS21Wcksns
+          metadata:
+            tournament: Easter Links
+            level: Master
+            ball: King Maker
+            teePosition: 3
+            clubs:
+              - name: Apocalypse
+                level: 7
+              - name: Backbone
+                level: 10
+            wind:
+              direction: WSW
+              magnitude: 9.7
+            keywords:
       - name: Kevin Warren
         resources:
         - title: Easter Links - Pro
@@ -135,24 +202,127 @@ holes:
           url: https://i.imgur.com/50Nv0bc.png
       - name: Zachary Jones
         resources:
-        - title: Tour 10 Shootout - Wind Pointed at 4 O`clock
+        - title: Wind pointed at 4 O'clock
           url: https://youtu.be/U_cf2y_u2Ag
-        - title: Tour 10 Shootout - Hard Tailwind Pointed at 11 O`clock
+          metadata:
+            tour: 10
+            ball: Basic
+            teePosition: 2
+            clubs:
+              - name: Sniper
+                level: 10
+            wind:
+              direction: ESE
+              magnitude: 11.9
+            keywords:
+        - title: Hard tailwind pointed at 11 O'clock
           url: https://youtu.be/awIu0YzghrE
-        - title: Tour 10 Shootout - Tailwind Pointed at 130
+          metadata:
+            tour: 10
+            ball: Basic
+            teePosition: 2
+            clubs:
+              - name: Sniper
+                level: 10
+            wind:
+              direction: NNW
+              magnitude: 13.4
+            keywords:
+        - title: Tailwind Pointed at 130
           url: https://youtu.be/0Eh3TQRgmMA
+          metadata:
+            tour: 10
+            ball: Marlin
+            teePosition: 2
+            clubs:
+              - name: Sniper
+                level: 10
+            wind:
+              direction: NE
+              magnitude: 11.0
+            keywords:
         - title: Tour 7 Shootout - Small Wind
           url: https://youtu.be/m_IBWwzxtzo
-        - title: Tour 7 Shootout - Small Wind Pointed at 12 O`clock
+          metadata:
+            tour: 7
+            ball: Navigator
+            teePosition: 2
+            clubs:
+              - name: Sniper
+                level: 10
+            wind:
+              direction: NW
+              magnitude: 1.5
+            keywords:
+        - title: Tour 7 Shootout - Small Wind Pointed at 12 O'clock
           url: https://youtu.be/DyOl3IaggU8
+          metadata:
+            tour: 7
+            ball: King Maker
+            teePosition: 2
+            clubs:
+              - name: Sniper
+                level: 10
+            wind:
+              direction: N
+              magnitude: 1.9
+            keywords:
         - title: Easter Links - Rookie
           url: https://youtu.be/bz93lqUWWDQ
+          metadata:
+            tournament: Easter Links
+            level: Rookie
+            ball: Marlin
+            teePosition: 1
+            clubs:
+              - name: Backbone
+                level: 6
+            wind:
+              direction: WNW
+              magnitude: 3.3
+            keywords:
         - title: Easter Links - Pro
           url: https://youtu.be/yyceKyTSMuc
+          metadata:
+            tournament: Easter Links
+            level: Pro
+            ball: Navigator
+            teePosition: 2
+            clubs:
+              - name: Sniper
+                level: 9
+            wind:
+              direction: WSW
+              magnitude: 6.3
+            keywords:
         - title: Easter Links - Expert
           url: https://youtu.be/y3u3DH70U8Q
-        - title: Easter Links - Masters
+          metadata:
+            tournament: Easter Links
+            level: Expert
+            ball: King Maker
+            teePosition: 2
+            clubs:
+              - name: Sniper
+                level: 10
+            wind:
+              direction: SW
+              magnitude: 9.1
+            keywords:
+        - title: Easter Links - Master
           url: https://youtu.be/B8t8q3-6G_U
+          metadata:
+            tournament: Easter Links
+            level: Master
+            ball: Eye
+            teePosition: 3
+            clubs:
+              - name: Rocket
+                level: 10
+            wind:
+              direction: SSW
+              magnitude: 9.1
+            keywords:
       - name: Kevin Warren
         resources:
         - title: Easter Links - Pro
@@ -214,14 +384,83 @@ holes:
         resources:
         - title: Tour 7 - Tips and Strategy
           url: https://youtu.be/nhe68svMWEk
+          metadata:
+            tour: 7
+            ball: Navigator
+            teePosition: 2
+            clubs:
+              - name: Thor's Hammer
+                level: 6
+              - name: Sniper
+                level: 10
+            wind:
+              direction: SSW
+              magnitude: 8.1
+            keywords:
         - title: Easter Links - Rookie
           url: https://youtu.be/va-l4vQusjY
+          metadata:
+            tournament: Easter Links
+            level: Rookie
+            ball: Quasar
+            teePosition: 1
+            clubs:
+              - name: Quarterback
+                level: 5
+              - name: Guardian
+                level: 4
+            wind:
+              direction: N
+              magnitude: 4.2
+            keywords:
         - title: Easter Links - Pro
           url: https://youtu.be/wqU0TNa9k-4
+          metadata:
+            tournament: Easter Links
+            level: Pro
+            ball: Titan
+            teePosition: 2
+            clubs:
+              - name: Thor's Hammer
+                level: 5
+              - name: Spitfire
+                level: 4
+            wind:
+              direction: NNE
+              magnitude: 6.8
+            keywords:
         - title: Easter Links - Expert
           url: https://youtu.be/AlG-P0WEus0
-        - title: Easter Links - Masters
+          metadata:
+            tournament: Easter Links
+            level: Expert
+            ball: King Maker
+            teePosition: 2
+            clubs:
+              - name: Apocalypse
+                level: 7
+              - name: Claw
+                level: 10
+            wind:
+              direction: NW
+              magnitude: 8.1
+            keywords:
+        - title: Easter Links - Master
           url: https://youtu.be/O8k6kUwRJ9c
+          metadata:
+            tournament: Easter Links
+            level: Master
+            ball: King Maker
+            teePosition: 3
+            clubs:
+              - name: Apocalypse
+                level: 7
+              - name: Sniper
+                level: 10
+            wind:
+              direction: W
+              magnitude: 9.8
+            keywords:
       - name: Kevin Warren
         resources:
         - title: Easter Links - Pro
@@ -323,18 +562,88 @@ holes:
           url: https://i.imgur.com/hqBhiMY.png
       - name: Zachary Jones
         resources:
-        - title: Tour 7 Shootout - Wind Pointed at 1130
+        - title: Tour 7 - Shootout - Wind Pointed at 1130
           url: https://youtu.be/JeAvydqqnn0
-        - title: Tour 7 Shootout - Wind Pointed at 10 O`clock
+          metadata:
+            tour: 7
+            ball: Titan
+            teePosition: 2
+            clubs:
+              - name: Sniper
+                level: 10
+            wind:
+              direction: NNW
+              magnitude: 4.1
+            keywords:
+        - title: Tour 7 - Shootout - Wind Pointed at 10 O'clock
           url: https://youtu.be/gTQGoAIJZLs
+          metadata:
+            tour: 7
+            ball: Katana
+            teePosition: 2
+            clubs:
+              - name: Sniper
+                level: 10
+            wind:
+              direction: NW
+              magnitude: 7.2
+            keywords:
         - title: Easter Links - Rookie
           url: https://youtu.be/PlSS2h_d3Ms
+          metadata:
+            tournament: Easter Links
+            level: Rookie
+            ball: Quasar
+            teePosition: 1
+            clubs:
+              - name: Backbone
+                level: 6
+            wind:
+              direction: NNW
+              magnitude: 3.0
+            keywords:
         - title: Easter Links - Pro
           url: https://youtu.be/jXV88POkA0Y
+          metadata:
+            tournament: Easter Links
+            level: Pro
+            ball: Quasar
+            teePosition: 2
+            clubs:
+              - name: Sniper
+                level: 9
+            wind:
+              direction: WSW
+              magnitude: 5.8
+            keywords:
         - title: Easter Links - Expert
           url: https://youtu.be/-YM3k51SlNs
-        - title: Easter Links - Masters
+          metadata:
+            tournament: Easter Links
+            level: Expert
+            ball: King Maker
+            teePosition: 2
+            clubs:
+              - name: Sniper
+                level: 10
+            wind:
+              direction: SW
+              magnitude: 8.1
+            keywords:
+        - title: Easter Links - Master
           url: https://youtu.be/VdzrJXknN7E
+          metadata:
+            tournament: Easter Links
+            level: Master
+            ball: King Maker
+            teePosition: 3
+            clubs:
+              - name: Thor's Hammer
+                level: 6
+            wind:
+              direction: SSE
+              magnitude: 11.3
+            keywords:
       - name: Kevin Warren
         resources:
         - title: Easter Links - Pro
@@ -425,12 +734,68 @@ holes:
         resources:
         - title: Easter Links - Rookie
           url: https://youtu.be/sD47eMDobdw
+          metadata:
+            tournament: Easter Links
+            level: Rookie
+            ball: Marlin
+            teePosition: 1
+            clubs:
+              - name: Extra Mile
+                level: 4
+              - name: Guardian
+                level: 4
+            wind:
+              direction: N
+              magnitude: 4.6
+            keywords:
         - title: Easter Links - Pro
           url: https://youtu.be/bZnOY258-eI
+          metadata:
+            tournament: Easter Links
+            level: Pro
+            ball: Titan
+            teePosition: 2
+            clubs:
+              - name: Thor's Hammer
+                level: 5
+              - name: Backbone
+                level: 9
+            wind:
+              direction: NNE
+              magnitude: 6.7
+            keywords:
         - title: Easter Links - Expert
           url: https://youtu.be/u07VyjJjtOc
-        - title: Easter Links - Masters
+          metadata:
+            tournament: Easter Links
+            level: Expert
+            ball: Katana
+            teePosition: 2
+            clubs:
+              - name: Apocalypse
+                level: 7
+              - name: Backbone
+                level: 10
+            wind:
+              direction: ENE
+              magnitude: 8.4
+            keywords:
+        - title: Easter Links - Master
           url: https://youtu.be/xjACuwARiw8
+          metadata:
+            tournament: Easter Links
+            level: Master
+            ball: Berserker
+            teePosition: 3
+            clubs:
+              - name: Apocalypse
+                level: 7
+              - name: Backbone
+                level: 10
+            wind:
+              direction: ENE
+              magnitude: 13.4
+            keywords:
       - name: Kevin Warren
         resources:
         - title: Easter Links - Pro
@@ -553,14 +918,83 @@ holes:
         resources:
         - title: Tour 7 - Layup Shot
           url: https://youtu.be/5YZr87XRtd0
+          metadata:
+            tour: 7
+            ball: Navigator
+            teePosition: 2
+            clubs:
+              - name: Rock
+                level: 8
+              - name: Backbone
+                level: 10
+            wind:
+              direction: SW
+              magnitude: 7.1
+            keywords:
         - title: Easter Links - Rookie
           url: https://youtu.be/UIKC5LWhzvk
+          metadata:
+            tournament: Easter Links
+            level: Rookie
+            ball: Navigator
+            teePosition: 1
+            clubs:
+              - name: Quarterback
+                level: 5
+              - name: Thorn
+                level: 3
+            wind:
+              direction: NNE
+              magnitude: 3.7
+            keywords:
         - title: Easter Links - Pro
           url: https://youtu.be/NkBg51_5JNE
+          metadata:
+            tournament: Easter Links
+            level: Pro
+            ball: Navigator
+            teePosition: 2
+            clubs:
+              - name: Rock
+                level: 7
+              - name: Thorn
+                level: 7
+            wind:
+              direction: NNW
+              magnitude: 7.1
+            keywords:
         - title: Easter Links - Expert
           url: https://youtu.be/zLA63Bem0bo
-        - title: Easter Links - Masters
+          metadata:
+            tournament: Easter Links
+            level: Expert
+            ball: King Maker
+            teePosition: 2
+            clubs:
+              - name: Apocalypse
+                level: 7
+              - name: EndBringer
+                level: 7
+            wind:
+              direction: NW
+              magnitude: 8.6
+            keywords:
+        - title: Easter Links - Master
           url: https://youtu.be/QMjnHeWopvg
+          metadata:
+            tournament: Easter Links
+            level: Master
+            ball: Mummy
+            teePosition: 3
+            clubs:
+              - name: Apocalypse
+                level: 7
+              - name: Claw
+                level: 10
+            wind:
+              direction: W
+              magnitude: 9.9
+            keywords:
       - name: Kevin Warren
         resources:
         - title: Easter Links - Pro
@@ -683,22 +1117,114 @@ holes:
           url: https://i.imgur.com/MzaPHgq.png
       - name: Zachary Jones
         resources:
-        - title: Tour 10 Shootout
-          url: https://youtu.be/q3gAE5JM9xo?t=4m56s
-        - title: Tour 10 Shootout - Headwind Pointed at 4 O`clock
+        - title: Tour 10 - Shootout
+          url: https://youtu.be/q3gAE5JM9xo
+          metadata:
+            tour: 10
+            ball: Quasar
+            teePosition: 2
+            clubs:
+              - name: Rock
+                level: 8
+            wind:
+              direction: NNW
+              magnitude: 14.0
+            keywords:
+        - title: Tour 10 - Shootout - Headwind Pointed at 4 O'clock
           url: https://youtu.be/_2sI86R8r2c
-        - title: Tour 10 Shootout - Wind Pointed at 1030
+          metadata:
+            tour: 10
+            ball: King Maker
+            teePosition: 2
+            clubs:
+              - name: Rock
+                level: 8
+            wind:
+              direction: ESE
+              magnitude: 8.4
+            keywords:
+        - title: Tour 10 - Shootout - Wind Pointed at 1030
           url: https://youtu.be/TnuXrkLfW6Y
-        - title: Tour 7 Shootout - Wind Pointed at 2 O'clock
+          metadata:
+            tour: 10
+            ball: Katana
+            teePosition: 2
+            clubs:
+              - name: Rock
+                level: 8
+            wind:
+              direction: NW
+              magnitude: 8.3
+            keywords:
+        - title: Tour 7 Shootout - Wind Pointed at 2 O'Clock
           url: https://youtu.be/fDNvKe7fjTY
+          metadata:
+            tour: 7
+            ball: Katana
+            teePosition: 2
+            clubs:
+              - name: Thor's Hammer
+                level: 6
+            wind:
+              direction: ENE
+              magnitude: 8.3
+            keywords:
         - title: Easter Links - Rookie
           url: https://youtu.be/GAGo1dXZaE4
+          metadata:
+            tournament: Easter Links
+            level: Rookie
+            ball: Navigator
+            teePosition: 1
+            clubs:
+              - name: Sniper
+                level: 4
+            wind:
+              direction: NNE
+              magnitude: 3.8
+            keywords:
         - title: Easter Links - Pro
           url: https://youtu.be/G7icNQc1IhQ
+          metadata:
+            tournament: Easter Links
+            level: Pro
+            ball: Katana
+            teePosition: 2
+            clubs:
+              - name: Quarterback
+                level: 9
+            wind:
+              direction: NNW
+              magnitude: 6.0
+            keywords:
         - title: Easter Links - Expert
           url: https://youtu.be/ZHQaC_3OSEI
-        - title: Easter Links - Masters
+          metadata:
+            tournament: Easter Links
+            level: Expert
+            ball: King Maker
+            teePosition: 2
+            clubs:
+              - name: Rock
+                level: 8
+            wind:
+              direction: WNW
+              magnitude: 9.1
+            keywords:
+        - title: Easter Links - Master
           url: https://youtu.be/9mzF2QgQfHw
+          metadata:
+            tournament: Easter Links
+            level: Master
+            ball: Turkey
+            teePosition: 3
+            clubs:
+              - name: Rock
+                level: 8
+            wind:
+              direction: WSW
+              magnitude: 7.1
+            keywords:
       - name: Kevin Warren
         resources:
         - title: Easter Links - Pro
@@ -765,12 +1291,68 @@ holes:
         resources:
         - title: Easter Links - Rookie
           url: https://youtu.be/zldGDSS70Wg
+          metadata:
+            tournament: Easter Links
+            level: Rookie
+            ball: Quasar
+            teePosition: 1
+            clubs:
+              - name: Extra Mile
+                level: 4
+              - name: Sand Lizard
+                level: 6
+            wind:
+              direction: NNE
+              magnitude: 2.6
+            keywords:
         - title: Easter Links - Pro
           url: https://youtu.be/JX_4N1Bo01I
+          metadata:
+            tournament: Easter Links
+            level: Pro
+            ball: Titan
+            teePosition: 2
+            clubs:
+              - name: Thor's Hammer
+                level: 5
+              - name: Spitfire
+                level: 4
+            wind:
+              direction: NNW
+              magnitude: 5.2
+            keywords:
         - title: Easter Links - Expert
           url: https://youtu.be/vZEnjM0vIag
-        - title: Easter Links - Masters
+          metadata:
+            tournament: Easter Links
+            level: Expert
+            ball: Navigator
+            teePosition: 2
+            clubs:
+              - name: Apocalypse
+                level: 7
+              - name: Claw
+                level: 10
+            wind:
+              direction: S
+              magnitude: 10.0
+            keywords:
+        - title: Easter Links - Master
           url: https://youtu.be/FPRXVJZLYvY
+          metadata:
+            tournament: Easter Links
+            level: Master
+            ball: Berserker
+            teePosition: 3
+            clubs:
+              - name: Apocalypse
+                level: 7
+              - name: Spitfire
+                level: 6
+            wind:
+              direction: NE
+              magnitude: 16.1
+            keywords:
       - name: Kevin Warren
         resources:
         - title: Easter Links - Pro
@@ -880,16 +1462,98 @@ holes:
         resources:
         - title: Tour 7 - Tips and Strategy Using 2nd Fairway Drive
           url: https://youtu.be/t89xP2UIsQ8
+          metadata:
+            tour: 7
+            ball: Titan
+            teePosition: 2
+            clubs:
+              - name: Thor's Hammer
+                level: 6
+              - name: Sniper
+                level: 10
+            wind:
+              direction: NE
+              magnitude: 5.6
+            keywords:
         - title: Tour 7 - Strategy and Tips
           url: https://youtu.be/-Ty8j4s-MrY
+          metadata:
+            tour: 7
+            ball: King Maker
+            teePosition: 2
+            clubs:
+              - name: Thor's Hammer
+                level: 6
+              - name: Sniper
+                level: 10
+            wind:
+              direction: SE
+              magnitude: 7.6
+            keywords:
         - title: Easter Links - Rookie
           url: https://youtu.be/I4W9Gf7jSUs
+          metadata:
+            tournament: Easter Links
+            level: Rookie
+            ball: Titan
+            teePosition: 1
+            clubs:
+              - name: Extra Mile
+                level: 4
+              - name: Sand Lizard
+                level: 6
+            wind:
+              direction: NNE
+              magnitude: 2.3
+            keywords:
         - title: Easter Links - Pro
           url: https://youtu.be/uXpO-aMFlLA
+          metadata:
+            tournament: Easter Links
+            level: Pro
+            ball: Titan
+            teePosition: 2
+            clubs:
+              - name: Thor's Hammer
+                level: 5
+              - name: Nirvana
+                level: 6
+            wind:
+              direction: NNE
+              magnitude: 7.2
+            keywords:
         - title: Easter Links - Expert
           url: https://youtu.be/oSBbg4mFzDc
-        - title: Easter Links - Masters
+          metadata:
+            tournament: Easter Links
+            level: Expert
+            ball: King Maker
+            teePosition: 2
+            clubs:
+              - name: Apocalypse
+                level: 7
+              - name: Backbone
+                level: 10
+            wind:
+              direction: NE
+              magnitude: 7.2
+            keywords:
+        - title: Easter Links - Master
           url: https://youtu.be/pbbdYfdy61o
+          metadata:
+            tournament: Easter Links
+            level: Master
+            ball: Berserker
+            teePosition: 3
+            clubs:
+              - name: Apocalypse
+                level: 7
+              - name: Spitfire
+                level: 6
+            wind:
+              direction: ENE
+              magnitude: 15.2
+            keywords:
       - name: Kevin Warren
         resources:
         - title: Easter Links - Pro

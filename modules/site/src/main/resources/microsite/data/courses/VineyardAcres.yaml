@@ -2,7 +2,6 @@ courseName: Vineyard Acres
 skinned: false
 holes:
   - id: f97340e9-7d74-41c8-bd92-64785b42eb0f
-    current-tournament: true
     course: Vineyard Acres
     number: 1
     par: 3
@@ -236,7 +235,6 @@ holes:
               <circle cx="153" cy="694" r="6" fill="white" class="guide-point" data-guide-segment="0" />
               <circle cx="163" cy="205" r="6" fill="white" class="guide-point" data-guide-segment="1" />
   - id: 4c95334d-0695-4d41-9390-ce3b1dc8845f
-    current-tournament: true
     course: Vineyard Acres
     number: 2
     par: 4
@@ -1366,7 +1364,6 @@ holes:
               <circle cx="354" cy="803" r="6" fill="black" class="guide-point" data-guide-segment="0" />
               <circle cx="356" cy="308" r="6" fill="black" class="guide-point" data-guide-segment="1" />
   - id: c2bbf390-d162-4a06-9d9b-5d0e7f5b64ef
-    current-tournament: true
     course: Vineyard Acres
     number: 9
     par: 5

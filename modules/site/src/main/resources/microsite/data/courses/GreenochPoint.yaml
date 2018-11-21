@@ -1595,7 +1595,7 @@ holes:
               - name: Claw
                 level: 10
             wind:
-              direction: NW
+              direction: NE
               magnitude: 15.1
             keywords:
         - title: Royal Open - Masters
