@@ -15,12 +15,51 @@ holes:
         url: https://youtu.be/WVSoK54f-dU
     - name: Zachary Jones
       resources:
-        - title: Tour 4 - Strategy and Tips
-          url: https://youtu.be/o-6C35jb5Po
-        - title: Tour 11 - Strategy and Tips
-          url: https://youtu.be/5csGrBbLZF4
-        - title: Tour 11 - Strategy and Tips
-          url: https://youtu.be/o0bZVHFsCZY
+      - title: Tour 4 - Strategy and Tips
+        url: https://youtu.be/o-6C35jb5Po
+        metadata:
+          tour: 4
+          ball: Quasar
+          teePosition: 1
+          clubs:
+            - name: Rock
+              level: 8
+            - name: Nirvana
+              level: 8
+          wind:
+            direction: NE
+            magnitude: 5.9
+          keywords:
+      - title: Tour 11 - Strategy and Tips
+        url: https://youtu.be/5csGrBbLZF4
+        metadata:
+          tour: 11
+          ball: King Maker
+          teePosition: 3
+          clubs:
+            - name: Apocalypse
+              level: 7
+            - name: Nirvana
+              level: 8
+          wind:
+            direction: NW
+            magnitude: 7.1
+          keywords:
+      - title: Tour 11 - Strategy and Tips
+        url: https://youtu.be/o0bZVHFsCZY
+        metadata:
+          tour: 11
+          ball: King Maker
+          teePosition: 3
+          clubs:
+            - name: Apocalypse
+              level: 7
+            - name: Nirvana
+              level: 8
+          wind:
+            direction: S
+            magnitude: 7.1
+          keywords:
   - id: 636bce10-6193-4793-b3db-994fe6a39dbf
     course: Parc de Paris
     number: 2
@@ -35,13 +74,24 @@ holes:
         url: https://youtu.be/_HDmo0dGuHA
     - name: Zachary Jones
       resources:
-        - title: General Instruction - 3rd Tee
-          url: https://youtu.be/vqSx6Idrvh0
-          metadata:
-            generalInstruction: true
-            teePosition: 3
-        - title: Tour 4 - Strategy and Tips
-          url: https://youtu.be/V_RaWOoetQY
+      - title: General Instruction - 3rd Tee
+        url: https://youtu.be/vqSx6Idrvh0
+        metadata:
+          generalInstruction: true
+          teePosition: 3
+      - title: Tour 4 - Strategy and Tips
+        url: https://youtu.be/V_RaWOoetQY
+        metadata:
+          tour: 4
+          ball: Katana
+          teePosition: 1
+          clubs:
+            - name: B52
+              level: 7
+          wind:
+            direction: WNW
+            magnitude: 1.1
+          keywords:
   - id: 17727cf4-ffbf-43e9-a0db-5cebcc570496
     course: Parc de Paris
     number: 3
@@ -56,10 +106,40 @@ holes:
         url: https://youtu.be/jOz6i7PmMVI
     - name: Zachary Jones
       resources:
-        - title: Tour 4 - Strategy and Tips
-          url: https://youtu.be/7FiBjHsGv1k
-        - title: Tour 11 - Strategy and Tips
-          url: https://youtu.be/MhEjeAIcKhY
+      - title: Tour 4 - Strategy and Tips
+        url: https://youtu.be/7FiBjHsGv1k
+        metadata:
+          tour: 4
+          ball: Katana
+          teePosition: 1
+          clubs:
+            - name: Rock
+              level: 8
+            - name: Nirvana
+              level: 8
+            - name: Sniper
+              level: 10
+          wind:
+            direction: S
+            magnitude: 1.3
+          keywords:
+      - title: Tour 11 - Strategy and Tips
+        url: https://youtu.be/MhEjeAIcKhY
+        metadata:
+          tour: 11
+          ball: King Maker
+          teePosition: 3
+          clubs:
+            - name: Apocalypse
+              level: 7
+            - name: Nirvana
+              level: 8
+            - name: B52
+              level: 7
+          wind:
+            direction: ENE
+            magnitude: 7.1
+          keywords:
   - id: 2ecd58d4-d052-4516-9799-bac5b8dde3bc
     course: Parc de Paris
     number: 4
@@ -74,13 +154,24 @@ holes:
         url: https://youtu.be/UAk8gFYkYWQ
     - name: Zachary Jones
       resources:
-        - title: General Instruction - 3rd tee
-          url: https://youtu.be/rdLW8Bfroq8
-          metadata:
-            generalInstruction: true
-            teePosition: 3
-        - title: Tour 4 - Strategy and Tips
-          url: https://youtu.be/6IHRBpl20Hc
+      - title: General Instruction - 3rd Tee
+        url: https://youtu.be/rdLW8Bfroq8
+        metadata:
+          generalInstruction: true
+          teePosition: 3
+      - title: Tour 4 - Strategy and Tips
+        url: https://youtu.be/6IHRBpl20Hc
+        metadata:
+          tour: 4
+          ball: Quasar
+          teePosition: 1
+          clubs:
+            - name: B52
+              level: 7
+          wind:
+            direction: W
+            magnitude: 5.6
+          keywords:
   - id: 2b26deed-d658-427a-8472-4443e0ee863b
     course: Parc de Paris
     number: 5
@@ -95,12 +186,51 @@ holes:
         url: https://youtu.be/FZ75xgxibqY
     - name: Zachary Jones
       resources:
-        - title: Tour 4 - Strategy and Tips
-          url: https://youtu.be/7slAzJs9Fow
-        - title: Tour 4 - Strategy and Tips
-          url: https://youtu.be/mM7tskF2kEA
-        - title: Tour 11 - Strategy and Tips
-          url: https://youtu.be/iWw1gFvez2c
+      - title: Tour 4 - Strategy and Tips
+        url: https://youtu.be/7slAzJs9Fow
+        metadata:
+          tour: 4
+          ball: Quasar
+          teePosition: 1
+          clubs:
+            - name: Rock
+              level: 8
+            - name: Thorn
+              level: 8
+          wind:
+            direction: ESE
+            magnitude: 2.9
+          keywords:
+      - title: Tour 4 - Strategy and Tips
+        url: https://youtu.be/mM7tskF2kEA
+        metadata:
+          tour: 4
+          ball: Quasar
+          teePosition: 1
+          clubs:
+            - name: Rock
+              level: 8
+            - name: Spitfire
+              level: 6
+          wind:
+            direction: ENE
+            magnitude: 5.9
+          keywords:
+      - title: Tour 11 - Strategy and Tips
+        url: https://youtu.be/iWw1gFvez2c
+        metadata:
+          tour: 11
+          ball: King Maker
+          teePosition: 3
+          clubs:
+            - name: Apocalypse
+              level: 7
+            - name: B52
+              level: 7
+          wind:
+            direction: SSE
+            magnitude: 6.6
+          keywords:
   - id: 88e55ba8-9cc9-41e7-a648-2cb8ed29185d
     course: Parc de Paris
     number: 6
@@ -115,12 +245,53 @@ holes:
         url: https://youtu.be/9pMDjBQu6GE
     - name: Zachary Jones
       resources:
-        - title: Tour 4 - Strategy and Tips
-          url: https://youtu.be/yIYQcx6JKPo
-        - title: Tour 11 - Strategy and Tips
-          url: https://youtu.be/29WHII0nYm0
-        - title: Tour 11 - Strategy and Tips
-          url: https://youtu.be/I2cBmbL2mpk
+      - title: Tour 4 - Strategy and Tips
+        url: https://youtu.be/yIYQcx6JKPo
+        metadata:
+          tour: 4
+          ball: Quasar
+          teePosition: 1
+          clubs:
+            - name: Rock
+              level: 8
+            - name: Sniper
+              level: 10
+          wind:
+            direction: E
+            magnitude: 2.7
+          keywords:
+      - title: Tour 11 - Strategy and Tips
+        url: https://youtu.be/29WHII0nYm0
+        metadata:
+          tour: 11
+          ball: King Maker
+          teePosition: 3
+          clubs:
+            - name: Apocalypse
+              level: 7
+            - name: Sniper
+              level: 10
+          wind:
+            direction: ENE
+            magnitude: 11.3
+          keywords:
+      - title: Tour 11 - Strategy and Tips
+        url: https://youtu.be/I2cBmbL2mpk
+        metadata:
+          tour: 11
+          ball: King Maker
+          teePosition: 3
+          clubs:
+            - name: Apocalypse
+              level: 7
+            - name: Spitfire
+              level: 6
+            - name: Thorn
+              level: 8
+          wind:
+            direction: SE
+            magnitude: 9.1
+          keywords:
   - id: 996a923a-517a-4e18-8868-0ab66807884b
     course: Parc de Paris
     number: 7
@@ -135,16 +306,81 @@ holes:
         url: https://youtu.be/NqKWNIiQ0y0
     - name: Zachary Jones
       resources:
-        - title: Tour 4 - Strategy and Tips
-          url: https://youtu.be/MBeYMsR1t84
-        - title: Tour 11 - Strategy and Tips
-          url: https://youtu.be/Mdekc6PD7LM
-        - title: Tour 11 - Strategy and Tips
-          url: https://youtu.be/c119mO1VLNY
-        - title: Tour 11 - Strategy and Tips
-          url: https://youtu.be/6f6hWA8JVa8
-        - title: Tour 11 - Strategy and Tips
-          url: https://youtu.be/5-VftZSSZ-0
+      - title: Tour 4 - Strategy and Tips
+        url: https://youtu.be/MBeYMsR1t84
+        metadata:
+          tour: 4
+          ball: Quasar
+          teePosition: 1
+          clubs:
+            - name: Rock
+              level: 8
+            - name: Thorn
+              level: 8
+          wind:
+            direction: NE
+            magnitude: 5.9
+          keywords:
+      - title: Tour 11 - Strategy and Tips
+        url: https://youtu.be/Mdekc6PD7LM
+        metadata:
+          tour: 11
+          ball: King Maker
+          teePosition: 3
+          clubs:
+            - name: Apocalypse
+              level: 7
+            - name: B52
+              level: 7
+          wind:
+            direction: SW
+            magnitude: 8.7
+          keywords:
+      - title: Tour 11 - Strategy and Tips
+        url: https://youtu.be/c119mO1VLNY
+        metadata:
+          tour: 11
+          ball: King Maker
+          teePosition: 3
+          clubs:
+            - name: Apocalypse
+              level: 7
+            - name: Thorn
+              level: 8
+          wind:
+            direction: NW
+            magnitude: 11.7
+          keywords:
+      - title: Tour 11 - Strategy and Tips
+        url: https://youtu.be/6f6hWA8JVa8
+        metadata:
+          tour: 11
+          ball: King Maker
+          teePosition: 3
+          clubs:
+            - name: Apocalypse
+              level: 7
+            - name: Nirvana
+              level: 8
+          wind:
+            direction: E
+            magnitude: 6.6
+          keywords:
+      - title: Tour 11 - Strategy and Tips
+        url: https://youtu.be/5-VftZSSZ-0
+        metadata:
+          tour: 11
+          ball: King Maker
+          teePosition: 3
+          clubs:
+            - name: Apocalypse
+              level: 7
+            - name: B52
+              level: 7
+          wind:
+            direction: SW
+            magnitude: 8.4
+          keywords:
   - id: dad86483-0418-4578-ae29-a5a2b2810648
     course: Parc de Paris
     number: 8
@@ -159,21 +395,76 @@ holes:
         url: https://youtu.be/YEkjJHnUkq4
     - name: Zachary Jones
       resources:
-        - title: General Instruction - 3rd Tee
-          url: https://youtu.be/0Hiu8vWA3XA
-          metadata:
-            generalInstruction: true
-            teePosition: 3
-        - title: Tour 4 - Wind Pointed at 430
-          url: https://youtu.be/ZLaFKl8xj9k
-        - title: Tour 4 - Wind Pointed at 7 O`clock
-          url: https://youtu.be/2MpQiBTgA94
-        - title: Tour 4 - Wind Pointed at 1030
-          url: https://youtu.be/3NayVxTkO2A
-        - title: Tour 11 - Wind Pointed at 830
-          url: https://youtu.be/5wYcKmLXhQs
-        - title: Tour 11 - Side Wind Pointed at 9 O`clock
-          url: https://youtu.be/_-LOaAPJxZM
+      - title: General Instruction - 3rd Tee
+        url: https://youtu.be/0Hiu8vWA3XA
+        metadata:
+          generalInstruction: true
+          teePosition: 3
+      - title: Tour 4 - Wind Pointed at 430
+        url: https://youtu.be/ZLaFKl8xj9k
+        metadata:
+          tour: 4
+          ball: Quasar
+          teePosition: 1
+          clubs:
+            - name: B52
+              level: 7
+          wind:
+            direction: SE
+            magnitude: 4.8
+          keywords:
+      - title: Tour 4 - Wind Pointed at 7 O'clock
+        url: https://youtu.be/2MpQiBTgA94
+        metadata:
+          tour: 4
+          ball: Quasar
+          teePosition: 1
+          clubs:
+            - name: B52
+              level: 7
+          wind:
+            direction: SSW
+            magnitude: 3.2
+          keywords:
+      - title: Tour 4 - Wind Pointed at 1030
+        url: https://youtu.be/3NayVxTkO2A
+        metadata:
+          tour: 4
+          ball: Quasar
+          teePosition: 1
+          clubs:
+            - name: B52
+              level: 7
+          wind:
+            direction: NW
+            magnitude: 3.3
+          keywords:
+      - title: Tour 11 - Wind Pointed at 830
+        url: https://youtu.be/5wYcKmLXhQs
+        metadata:
+          tour: 11
+          ball: King Maker
+          teePosition: 3
+          clubs:
+            - name: Apocalypse
+              level: 7
+          wind:
+            direction: WSW
+            magnitude: 7.0
+          keywords:
+      - title: Tour 11 - Side Wind Pointed at 9 O'clock
+        url: https://youtu.be/_-LOaAPJxZM
+        metadata:
+          tour: 11
+          ball: King Maker
+          teePosition: 3
+          clubs:
+            - name: Sniper
+              level: 10
+          wind:
+            direction: W
+            magnitude: 6.6
+          keywords:
   - id: 3d6bf850-7dde-47a5-a572-0253ef035e95
     course: Parc de Paris
     number: 9
@@ -188,7 +479,33 @@ holes:
         url: https://youtu.be/QGqxVYwIj88
     - name: Zachary Jones
       resources:
-        - title: Tour 4 - Strategy and Tips
-          url: https://youtu.be/vhivBixvLLs
-        - title: Tour 11 - Strategy and Tips
-          url: https://youtu.be/4OtsY808TIM
+      - title: Tour 4 - Strategy and Tips
+        url: https://youtu.be/vhivBixvLLs
+        metadata:
+          tour: 4
+          ball: Quasar
+          teePosition: 1
+          clubs:
+            - name: Rock
+              level: 8
+            - name: Sniper
+              level: 10
+          wind:
+            direction: NE
+            magnitude: 1.0
+          keywords:
+      - title: Tour 11 - Strategy and Tips
+        url: https://youtu.be/4OtsY808TIM
+        metadata:
+          tour: 11
+          ball: Berserker
+          teePosition: 3
+          clubs:
+            - name: Apocalypse
+              level: 7
+            - name: Nirvana
+              level: 8
+          wind:
+            direction: E
+            magnitude: 9.9
+          keywords:

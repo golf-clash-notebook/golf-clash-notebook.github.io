@@ -38,26 +38,178 @@ holes:
         resources:
         - title: Platinum Resorts - Expert
           url: https://youtu.be/NaP53sTriGE
-        - title: Platinum Resorts - Masters
+          metadata:
+            tournament: Platinum Resorts
+            level: Expert
+            ball: King Maker
+            teePosition: 2
+            clubs:
+              - name: Thor's Hammer
+                level: 4
+              - name: Sniper
+                level: 8
+            wind:
+              direction: N
+              magnitude: 7.1
+            keywords:
+        - title: Platinum Resorts - Master
           url: https://youtu.be/9GvJ-b29wAY
-        - title: Platinum Resorts - Masters
+          metadata:
+            tournament: Platinum Resorts
+            level: Master
+            ball: King Maker
+            teePosition: 3
+            clubs:
+              - name: Apocalypse
+                level: 7
+              - name: B52
+                level: 7
+            wind:
+              direction: WNW
+              magnitude: 11.1
+            keywords:
+        - title: Platinum Resorts - Master
           url: https://youtu.be/1cMnb37zYyM
-        - title: Platinum Resorts - Masters
+          metadata:
+            tournament: Platinum Resorts
+            level: Master
+            ball: King Maker
+            teePosition: 3
+            clubs:
+              - name: Apocalypse
+                level: 4
+              - name: B52
+                level: 6
+            wind:
+              direction: WNW
+              magnitude: 11.9
+            keywords:
+        - title: Platinum Resorts - Master
           url: https://youtu.be/kk_Xrm50PKs
-        - title: Platinum Resorts - Masters
+          metadata:
+            tournament: Platinum Resorts
+            level: Master
+            ball: King Maker
+            teePosition: 3
+            clubs:
+              - name: Thor's Hammer
+                level: 5
+              - name: Sniper
+                level: 10
+            wind:
+              direction: WNW
+              magnitude: 10.4
+            keywords:
+        - title: Platinum Resorts - Master
           url: https://youtu.be/EvTbot_MJhU
+          metadata:
+            tournament: Platinum Resorts
+            level: Master
+            ball: King Maker
+            teePosition: 3
+            clubs:
+              - name: Apocalypse
+                level: 5
+              - name: B52
+                level: 6
+            wind:
+              direction: WNW
+              magnitude: 11.7
+            keywords:
         - title: Tour 9 - Strategy and Tips
           url: https://youtu.be/UiDWfKTjpZk
+          metadata:
+            tour: 9
+            ball: King Maker
+            teePosition: 2
+            clubs:
+              - name: Thor's Hammer
+                level: 7
+              - name: Nirvana
+                level: 8
+            wind:
+              direction: WNW
+              magnitude: 7.2
+            keywords:
         - title: Tour 11 - Right to Left Wind
           url: https://youtu.be/5atAznctHkc
+          metadata:
+            tour: 11
+            ball: Katana
+            teePosition: 2
+            clubs:
+              - name: Thor's Hammer
+                level: 5
+              - name: B52
+                level: 6
+            wind:
+              direction: WNW
+              magnitude: 13.7
+            keywords:
         - title: Spring Major - Rookie
           url: https://youtu.be/rf38CUGJ8Qk
+          metadata:
+            tournament: Spring Major 2018
+            level: Rookie
+            ball: Katana
+            teePosition: 1
+            clubs:
+              - name: Extra Mile
+                level: 4
+              - name: Backbone
+                level: 6
+            wind:
+              direction: NE
+              magnitude: 2.3
+            keywords:
         - title: Spring Major - Pro
           url: https://youtu.be/KcjKsQsS2sE
+          metadata:
+            tournament: Spring Major 2018
+            level: Pro
+            ball: Katana
+            teePosition: 2
+            clubs:
+              - name: Thor's Hammer
+                level: 5
+              - name: Backbone
+                level: 10
+            wind:
+              direction: NE
+              magnitude: 7.1
+            keywords:
         - title: Spring Major - Expert
           url: https://youtu.be/GN8k1s6kRO8
-        - title: Spring Major - Masters
+          metadata:
+            tournament: Spring Major 2018
+            level: Expert
+            ball: King Maker
+            teePosition: 2
+            clubs:
+              - name: Apocalypse
+                level: 5
+              - name: Backbone
+                level: 10
+            wind:
+              direction: W
+              magnitude: 9.1
+            keywords:
+        - title: Spring Major - Master
           url: https://youtu.be/iPCPEWAmIqA
+          metadata:
+            tournament: Spring Major 2018
+            level: Master
+            ball: King Maker
+            teePosition: 3
+            clubs:
+              - name: Apocalypse
+                level: 7
+              - name: Sniper
+                level: 10
+            wind:
+              direction: W
+              magnitude: 12.3
+            keywords:
       - name: Kevin Warren
         resources:
         - title: Rookie
@@ -159,22 +311,114 @@ holes:
           metadata:
             generalInstruction: true
             teePosition: 2
-        - title: Tour 9 Shootout - Wind Pointed at 1 O`clock
+        - title: Tour 9 Shootout - Wind Pointed at 1 O'clock
           url: https://youtu.be/yxB4ycfjETo
-        - title: Tour 11 Shootout - Wind Pointed at 3 O`clock
-          url: https://youtu.be/aix6YRgme0U?t=3m19s
+          metadata:
+            tour: 9
+            ball: King Maker
+            teePosition: 2
+            clubs:
+              - name: Sniper
+                level: 10
+            wind:
+              direction: NNE
+              magnitude: 7.7
+            keywords:
+        - title: Tour 11 Shootout - Wind Pointed at 3 O'clock
+          url: https://youtu.be/aix6YRgme0U
+          metadata:
+            tour: 11
+            ball: King Maker
+            teePosition: 2
+            clubs:
+              - name: Thor's Hammer
+                level: 5
+            wind:
+              direction: ENE
+              magnitude: 11.1
+            keywords:
         - title: Tour 11 Shootout - Tailwind
           url: https://youtu.be/zjHQiCyLwBs
+          metadata:
+            tour: 11
+            ball: King Maker
+            teePosition: 2
+            clubs:
+              - name: Hammerhead
+                level: 7
+            wind:
+              direction: NNE
+              magnitude: 10.8
+            keywords:
         - title: Tour 11 Shootout - Headwind
           url: https://youtu.be/4D6npzjpPNs
+          metadata:
+            tour: 11
+            ball: Katana
+            teePosition: 2
+            clubs:
+              - name: Thor's Hammer
+                level: 5
+            wind:
+              direction: SSW
+              magnitude: 9.0
+            keywords:
         - title: Spring Major - Rookie
           url: https://youtu.be/XTqUOJPCLaw
+          metadata:
+            tournament: Spring Major 2018
+            level: Rookie
+            ball: Titan
+            teePosition: 1
+            clubs:
+              - name: Guardian
+                level: 4
+            wind:
+              direction: NNE
+              magnitude: 4.5
+            keywords:
         - title: Spring Major - Pro
           url: https://youtu.be/rGCg_f_BHjQ
+          metadata:
+            tournament: Spring Major 2018
+            level: Pro
+            ball: Titan
+            teePosition: 2
+            clubs:
+              - name: Rocket
+                level: 10
+            wind:
+              direction: NE
+              magnitude: 5.7
+            keywords:
         - title: Spring Major - Expert
           url: https://youtu.be/70NHUC60AT4
-        - title: Spring Major - Masters
+          metadata:
+            tournament: Spring Major 2018
+            level: Expert
+            ball: Bunny
+            teePosition: 2
+            clubs:
+              - name: Rocket
+                level: 10
+            wind:
+              direction: E
+              magnitude: 7.7
+            keywords:
+        - title: Spring Major - Master
           url: https://youtu.be/X9htO0Mum1Y
+          metadata:
+            tournament: Spring Major 2018
+            level: Master
+            ball: King Maker
+            teePosition: 3
+            clubs:
+              - name: Rock
+                level: 8
+            wind:
+              direction: E
+              magnitude: 10.4
+            keywords:
     overlays:
       size: [546, 1020]
       guides:
@@ -285,20 +529,144 @@ holes:
         resources:
         - title: Tour 9 - Strategy and Tips
           url: https://youtu.be/V00jNyvF3dA
+          metadata:
+            tour: 9
+            ball: King Maker
+            teePosition: 2
+            clubs:
+              - name: Thor's Hammer
+                level: 7
+              - name: Sniper
+                level: 10
+            wind:
+              direction: NW
+              magnitude: 7.4
+            keywords:
         - title: Tour 9 - Strategy and Tips
           url: https://youtu.be/yafhz4_tPiE
-        - title: Labor Day (2018) - Pro
+          metadata:
+            tour: 9
+            ball: King Maker
+            teePosition: 2
+            clubs:
+              - name: Apocalypse
+                level: 7
+              - name: Sniper
+                level: 10
+            wind:
+              direction: NW
+              magnitude: 5.7
+            keywords:
+        - title: Tour 9 - Strategy and Tips
+          url: https://youtu.be/yafhz4_tPiE
+          metadata:
+            tour: 9
+            ball: King Maker
+            teePosition: 2
+            clubs:
+              - name: Apocalypse
+                level: 7
+              - name: Sniper
+                level: 10
+            wind:
+              direction: NW
+              magnitude: 5.7
+            keywords:
+        - title: Labor Day(2018) - Pro
           url: https://youtu.be/WdcstSgN2tE
+          metadata:
+            tournament: Labor Day 2018
+            level: Pro
+            ball: Titan
+            teePosition: 2
+            clubs:
+              - name: Quarterback
+                level: 7
+              - name: Sniper
+                level: 7
+            wind:
+              direction: NNW
+              magnitude: 6.5
+            keywords:
         - title: Tour 11 - Tips for an Easy Pitch
           url: https://youtu.be/pvhxdrMoZV4
+          metadata:
+            tour: 11
+            ball: Katana
+            teePosition: 2
+            clubs:
+              - name: Thor's Hammer
+                level: 5
+              - name: Claw
+                level: 10
+            wind:
+              direction: N
+              magnitude: 12.8
+            keywords:
         - title: Spring Major - Rookie
           url: https://youtu.be/sLhmd9MsVkI
+          metadata:
+            tournament: Spring Major 2018
+            level: Rookie
+            ball: Katana
+            teePosition: 1
+            clubs:
+              - name: Extra Mile
+                level: 4
+              - name: Sniper
+                level: 4
+            wind:
+              direction: NNE
+              magnitude: 3.6
+            keywords:
         - title: Spring Major - Pro
           url: https://youtu.be/9LFpoNdo40w
+          metadata:
+            tournament: Spring Major 2018
+            level: Pro
+            ball: Katana
+            teePosition: 2
+            clubs:
+              - name: Thor's Hammer
+                level: 5
+              - name: Saturn
+                level: 10
+            wind:
+              direction: NNW
+              magnitude: 6.6
+            keywords:
         - title: Spring Major - Expert
           url: https://youtu.be/OUIdE3_Q1fA
-        - title: Spring Major - Masters
+          metadata:
+            tournament: Spring Major 2018
+            level: Expert
+            ball: Titan
+            teePosition: 2
+            clubs:
+              - name: Apocalypse
+                level: 5
+              - name: Sniper
+                level: 9
+            wind:
+              direction: WNE
+              magnitude: 8.5
+            keywords:
+        - title: Spring Major - Master
           url: https://youtu.be/yEVUEUjuEF8
+          metadata:
+            tournament: Spring Major 2018
+            level: Master
+            ball: King Maker
+            teePosition: 3
+            clubs:
+              - name: Apocalypse
+                level: 7
+              - name: Guardian
+                level: 8
+            wind:
+              direction: SSE
+              magnitude: 11.8
+            keywords:
       - name: Kevin Warren
         resources:
         - title: Rookie
@@ -433,24 +801,176 @@ holes:
         resources:
         - title: Platinum Resorts - Expert
           url: https://youtu.be/uwOQp8Gj0p8
-        - title: Platinum Resorts - Masters
+          metadata:
+            tournament: Platinum Resorts
+            level: Expert
+            ball: Berserker
+            teePosition: 2
+            clubs:
+              - name: Thor's Hammer
+                level: 4
+              - name: Cataclysm
+                level: 3
+              - name: Rapier
+                level: 4
+            wind:
+              direction: NNW
+              magnitude: 11.1
+            keywords:
+        - title: Platinum Resorts - Master
           url: https://youtu.be/2rYF-KWhbNQ
-        - title: Platinum Resorts - Masters
+          metadata:
+            tournament: Platinum Resorts
+            level: Master
+            ball: Berserker
+            teePosition: 3
+            clubs:
+              - name: Apocalypse
+                level: 7
+              - name: Cataclysm
+                level: 7
+            wind:
+              direction: NE
+              magnitude: 15.7
+            keywords:
+        - title: Platinum Resorts - Master
           url: https://youtu.be/KRemyFgNKAY
-        - title: Platinum Resorts - Masters
+          metadata:
+            tournament: Platinum Resorts
+            level: Master
+            ball: Berserker
+            teePosition: 3
+            clubs:
+              - name: Apocalypse
+                level: 4
+              - name: Spitfire
+                level: 4
+            wind:
+              direction: NE
+              magnitude: 14.8
+            keywords:
+        - title: Platinum Resorts - Master
           url: https://youtu.be/EgtRGzO6a28
-        - title: Platinum Resorts - Masters
+          metadata:
+            tournament: Platinum Resorts
+            level: Master
+            ball: Berserker
+            teePosition: 3
+            clubs:
+              - name: Thor's Hammer
+                level: 5
+              - name: Nirvana
+                level: 7
+              - name: EndBringer
+                level: 6
+            wind:
+              direction: NE
+              magnitude: 13.9
+            keywords:
+        - title: Platinum Resorts - Master
           url: https://youtu.be/tDH_ry5x_94
-        - title: Labor Day (2018) - Pro
+          metadata:
+            tournament: Platinum Resorts
+            level: Master
+            ball: Berserker
+            teePosition: 3
+            clubs:
+              - name: Apocalypse
+                level: 5
+              - name: Sniper
+                level: 10
+            wind:
+              direction: NE
+              magnitude: 13.8
+            keywords:
+        - title: Labor Day(2018) - Pro
           url: https://youtu.be/MofvQkFqSRY
+          metadata:
+            tournament: Labor Day 2018
+            level: Pro
+            ball: Berserker
+            teePosition: 2
+            clubs:
+              - name: Extra Mile
+                level: 6
+              - name: Cataclysm
+                level: 3
+            wind:
+              direction: N
+              magnitude: 6.1
+            keywords:
         - title: Spring Major - Rookie
           url: https://youtu.be/UpHIqgsVMxM
+          metadata:
+            tournament: Spring Major 2018
+            level: Rookie
+            ball: Berserker
+            teePosition: 1
+            clubs:
+              - name: Extra Mile
+                level: 4
+              - name: Big Dawg
+                level: 4
+              - name: Skewer
+                level: 5
+            wind:
+              direction: NNE
+              magnitude: 4.4
+            keywords:
         - title: Spring Major - Pro
           url: https://youtu.be/V2ObSX9UQ8w
+          metadata:
+            tournament: Spring Major 2018
+            level: Pro
+            ball: Titan
+            teePosition: 2
+            clubs:
+              - name: Thor's Hammer
+                level: 5
+              - name: Big Dawg
+                level: 7
+              - name: EndBringer
+                level: 5
+            wind:
+              direction: NNW
+              magnitude: 5.3
+            keywords:
         - title: Spring Major - Expert
           url: https://youtu.be/Iqha90otxkw
-        - title: Spring Major - Masters
+          metadata:
+            tournament: Spring Major 2018
+            level: Expert
+            ball: Berserker
+            teePosition: 2
+            clubs:
+              - name: Apocalypse
+                level: 5
+              - name: Hammerhead
+                level: 6
+              - name: EndBringer
+                level: 5
+            wind:
+              direction: WNW
+              magnitude: 11.2
+            keywords:
+        - title: Spring Major - Master
           url: https://youtu.be/o2oyXsP-eXE
+          metadata:
+            tournament: Spring Major 2018
+            level: Master
+            ball: Berserker
+            teePosition: 3
+            clubs:
+              - name: Apocalypse
+                level: 7
+              - name: Cataclysm
+                level: 7
+              - name: EndBringer
+                level: 7
+            wind:
+              direction: W
+              magnitude: 16.0
+            keywords:
     overlays:
       size: [721, 1063]
       guides:
@@ -596,14 +1116,83 @@ holes:
         resources:
         - title: Tour 9 - Strategy and Tips
           url: https://youtu.be/aEU-pc3wgY8
+          metadata:
+            tour: 9
+            ball: King Maker
+            teePosition: 2
+            clubs:
+              - name: Apocalypse
+                level: 7
+              - name: Sniper
+                level: 10
+            wind:
+              direction: ENE
+              magnitude: 7.0
+            keywords:
         - title: Spring Major - Rookie
           url: https://youtu.be/Xm68MX9OMxE
+          metadata:
+            tournament: Spring Major 2018
+            level: Rookie
+            ball: Berserker
+            teePosition: 1
+            clubs:
+              - name: Extra Mile
+                level: 4
+              - name: Thorn
+                level: 4
+            wind:
+              direction: NNW
+              magnitude: 3.6
+            keywords:
         - title: Spring Major - Pro
           url: https://youtu.be/HpDtso9CICA
+          metadata:
+            tournament: Spring Major 2018
+            level: Pro
+            ball: Titan
+            teePosition: 2
+            clubs:
+              - name: Thor's Hammer
+                level: 5
+              - name: Sniper
+                level: 9
+            wind:
+              direction: NNW
+              magnitude: 7.5
+            keywords:
         - title: Spring Major - Expert
           url: https://youtu.be/Io6vLIwqKIc
-        - title: Spring Major - Masters
+          metadata:
+            tournament: Spring Major 2018
+            level: Expert
+            ball: Katana
+            teePosition: 2
+            clubs:
+              - name: Apocalypse
+                level: 5
+              - name: Claw
+                level: 10
+            wind:
+              direction: NNW
+              magnitude: 10.5
+            keywords:
+        - title: Spring Major - Master
           url: https://youtu.be/0IfAWJnZMXI
+          metadata:
+            tournament: Spring Major 2018
+            level: Master
+            ball: Snow Globe
+            teePosition: 3
+            clubs:
+              - name: Apocalypse
+                level: 7
+              - name: Claw
+                level: 10
+            wind:
+              direction: NNW
+              magnitude: 15.7
+            keywords:
     overlays:
       size: [832, 1081]
       guides:
@@ -710,36 +1299,223 @@ holes:
             teePosition: 2
         - title: Platinum Resorts - Expert
           url: https://youtu.be/ERy75hz_bU0
+          metadata:
+            tournament: Platinum Resorts
+            level: Expert
+            ball: King Maker
+            teePosition: 2
+            clubs:
+              - name: Sniper
+                level: 8
+            wind:
+              direction: SW
+              magnitude: 7.9
+            keywords:
         - title: Platinum Resorts - Expert
           url: https://youtu.be/Z_2w9OJkhVQ
-        - title: Platinum Resorts - Masters
+          metadata:
+            tournament: Platinum Resorts
+            level: Expert
+            ball: King Maker
+            teePosition: 2
+            clubs:
+              - name: Quarterback
+                level: 8
+            wind:
+              direction: SW
+              magnitude: 8.5
+            keywords:
+        - title: Platinum Resorts - Master
           url: https://youtu.be/qevoOcA_tMY
-        - title: Platinum Resorts - Masters
+          metadata:
+            tournament: Platinum Resorts
+            level: Master
+            ball: King Maker
+            teePosition: 3
+            clubs:
+              - name: Rock
+                level: 8
+            wind:
+              direction: W
+              magnitude: 11.7
+            keywords:
+        - title: Platinum Resorts - Master
           url: https://youtu.be/xzT2fvm2VqE
-        - title: Platinum Resorts - Masters
+          metadata:
+            tournament: Platinum Resorts
+            level: Master
+            ball: King Maker
+            teePosition: 3
+            clubs:
+              - name: Rock
+                level: 8
+            wind:
+              direction: W
+              magnitude: 11.9
+            keywords:
+        - title: Platinum Resorts - Master
           url: https://youtu.be/OaXGEZlPorQ
-        - title: Platinum Resorts - Masters
+          metadata:
+            tournament: Platinum Resorts
+            level: Master
+            ball: King Maker
+            teePosition: 3
+            clubs:
+              - name: Rock
+                level: 8
+            wind:
+              direction: W
+              magnitude: 10.8
+            keywords:
+        - title: Platinum Resorts - Master
           url: https://youtu.be/8-sQGhzx-_Q
-        - title: Tour 9 Shootout - Wind Pointed at 5 O`clock
+          metadata:
+            tournament: Platinum Resorts
+            level: Master
+            ball: King Maker
+            teePosition: 3
+            clubs:
+              - name: Rock
+                level: 8
+            wind:
+              direction: W
+              magnitude: 10.4
+            keywords:
+        - title: Tour 9 Shootout - Wind Pointed at 5 O'clock
           url: https://youtu.be/M6-D6CeZeFY
-        - title: Labor Day (2018) - Pro
+          metadata:
+            tour: 9
+            ball: King Maker
+            teePosition: 2
+            clubs:
+              - name: Apocalypse
+                level: 7
+            wind:
+              direction: SSE
+              magnitude: 9.7
+            keywords:
+        - title: Labor Day(2018) - Pro
           url: https://youtu.be/caZSlMjDOnY
-        - title: Tour 11 Shootout - Wind Pointed at 4 O`clock
-          url: https://youtu.be/pvhxdrMoZV4?t=4m50s
-        - title: Tour 11 Shootout - Wind Pointed at 4 O`clock
+          metadata:
+            tournament: Labor Day 2018
+            level: Pro
+            ball: Katana
+            teePosition: 2
+            clubs:
+              - name: Quarterback
+                level: 7
+            wind:
+              direction: WNW
+              magnitude: 7.5
+            keywords:
+        - title: Tour 11 Shootout - Wind Pointed at 4 O'clock
+          url: https://youtu.be/pvhxdrMoZV4
+          metadata:
+            tour: 11
+            ball: Katana
+            teePosition: 2
+            clubs:
+              - name: Thor's Hammer
+                level: 5
+            wind:
+              direction: SE
+              magnitude: 8.8
+            keywords:
+        - title: Tour 11 Shootout - Wind Pointed at 4 O'clock
           url: https://youtu.be/nYiOfP-6PMs
+          metadata:
+            tour: 11
+            ball: Katana
+            teePosition: 2
+            clubs:
+              - name: Thor's Hammer
+                level: 5
+            wind:
+              direction: SE
+              magnitude: 10.6
+            keywords:
         - title: Tour 11 Shootout - Strong Tailwind
           url: https://youtu.be/gMnZ8td9yZ0
+          metadata:
+            tour: 11
+            ball: King Maker
+            teePosition: 2
+            clubs:
+              - name: Hammerhead
+                level: 7
+            wind:
+              direction: NNE
+              magnitude: 10.2
+            keywords:
         - title: Tour 11 Shootout - Wind Pointed at 430
           url: https://youtu.be/zndy98sxYdU
+          metadata:
+            tour: 11
+            ball: Katana
+            teePosition: 2
+            clubs:
+              - name: Thor's Hammer
+                level: 5
+            wind:
+              direction: SE
+              magnitude: 11.0
+            keywords:
         - title: Spring Major - Rookie
           url: https://youtu.be/Vta7yqSSCXY
+          metadata:
+            tournament: Spring Major 2018
+            level: Rookie
+            ball: Katana
+            teePosition: 1
+            clubs:
+              - name: Guardian
+                level: 4
+            wind:
+              direction: NNW
+              magnitude: 3.6
+            keywords:
         - title: Spring Major - Pro
           url: https://youtu.be/s6SjoPpatB0
+          metadata:
+            tournament: Spring Major 2018
+            level: Pro
+            ball: Quasar
+            teePosition: 2
+            clubs:
+              - name: Rock
+                level: 7
+            wind:
+              direction: NNW
+              magnitude: 7.8
+            keywords:
         - title: Spring Major - Expert
           url: https://youtu.be/PhssLipXmTg
-        - title: Spring Major - Masters
+          metadata:
+            tournament: Spring Major 2018
+            level: Expert
+            ball: King Maker
+            teePosition: 2
+            clubs:
+              - name: Rock
+                level: 7
+            wind:
+              direction: W
+              magnitude: 7.4
+            keywords:
+        - title: Spring Major - Master
           url: https://youtu.be/bQrtSViPUyw
+          metadata:
+            tournament: Spring Major 2018
+            level: Master
+            ball: King Maker
+            teePosition: 3
+            clubs:
+              - name: Rock
+                level: 8
+            wind:
+              direction: WSW
+              magnitude: 10.3
+            keywords:
     overlays:
       size: [325, 704]
       guides:
@@ -798,16 +1574,96 @@ holes:
         resources:
         - title: Tour 9 - Strategy and Tips
           url: https://youtu.be/t6T0iWT5APM
-        - title: Tour 11 - Tips to Getting Eagle Pitch
+          metadata:
+            tour: 9
+            ball: Katana
+            teePosition: 2
+            clubs:
+              - name: Apocalypse
+                level: 7
+              - name: B52
+                level: 7
+            wind:
+              direction: W
+              magnitude: 4.5
+            keywords:
+        - title: Tour 11 Shootout - Tips to Getting Eagle Pitch
           url: https://youtu.be/aix6YRgme0U
+          metadata:
+            tour: 11
+            ball: Katana
+            teePosition: 2
+            clubs:
+              - name: Claw
+                level: 10
+            wind:
+              direction: ESE
+              magnitude: 13.2
+            keywords:
         - title: Spring Major - Rookie
           url: https://youtu.be/BC6vfgBRn-0
+          metadata:
+            tournament: Spring Major 2018
+            level: Rookie
+            ball: Quasar
+            teePosition: 1
+            clubs:
+              - name: Extra Mile
+                level: 4
+              - name: Guardian
+                level: 4
+            wind:
+              direction: NE
+              magnitude: 4.9
+            keywords:
         - title: Spring Major - Pro
           url: https://youtu.be/8u9YSsRJRdA
+          metadata:
+            tournament: Spring Major 2018
+            level: Pro
+            ball: Katana
+            teePosition: 2
+            clubs:
+              - name: Thor's Hammer
+                level: 5
+              - name: Sniper
+                level: 9
+            wind:
+              direction: NNE
+              magnitude: 5.7
+            keywords:
         - title: Spring Major - Expert
           url: https://youtu.be/igv9xI6BLto
-        - title: Spring Major - Masters
+          metadata:
+            tournament: Spring Major 2018
+            level: Expert
+            ball: Titan
+            teePosition: 2
+            clubs:
+              - name: Apocalypse
+                level: 5
+              - name: Claw
+                level: 10
+            wind:
+              direction: NW
+              magnitude: 9.4
+            keywords:
+        - title: Spring Major - Master
           url: https://youtu.be/VIq3X0geiPk
+          metadata:
+            tournament: Spring Major 2018
+            level: Master
+            ball: Berserker
+            teePosition: 3
+            clubs:
+              - name: Apocalypse
+                level: 7
+              - name: Claw
+                level: 10
+            wind:
+              direction: NW
+              magnitude: 14.1
+            keywords:
     overlays:
       size: [585, 1050]
       guides:
@@ -930,12 +1786,74 @@ holes:
         resources:
         - title: Spring Major - Rookie
           url: https://youtu.be/22myFE0gfC4
+          metadata:
+            tournament: Spring Major 2018
+            level: Rookie
+            ball: Titan
+            teePosition: 1
+            clubs:
+              - name: Extra Mile
+                level: 4
+              - name: Big Dawg
+                level: 4
+              - name: Skewer
+                level: 5
+            wind:
+              direction: NNW
+              magnitude: 2.4
+            keywords:
         - title: Spring Major - Pro
           url: https://youtu.be/mVXVVLi2XyU
+          metadata:
+            tournament: Spring Major 2018
+            level: Pro
+            ball: Titan
+            teePosition: 2
+            clubs:
+              - name: Thor's Hammer
+                level: 5
+              - name: Big Dawg
+                level: 7
+              - name: Spitfire
+                level: 4
+            wind:
+              direction: NNW
+              magnitude: 5.3
+            keywords:
         - title: Spring Major - Expert
           url: https://youtu.be/kFr0PyFg_dM
-        - title: Spring Major - Masters
+          metadata:
+            tournament: Spring Major 2018
+            level: Expert
+            ball: Titan
+            teePosition: 2
+            clubs:
+              - name: Apocalypse
+                level: 5
+              - name: Hammerhead
+                level: 6
+            wind:
+              direction: NNE
+              magnitude: 8.3
+            keywords:
+        - title: Spring Major - Master
           url: https://youtu.be/GZJwg2HEK24
+          metadata:
+            tournament: Spring Major 2018
+            level: Master
+            ball: Titan
+            teePosition: 2
+            clubs:
+              - name: Apocalypse
+                level: 7
+              - name: Sniper
+                level: 10
+              - name: EndBringer
+                level: 7
+            wind:
+              direction: NNE
+              magnitude: 12.6
+            keywords:
     overlays:
       size: [507, 1110]
       guides:
@@ -1054,26 +1972,151 @@ holes:
             teePosition: 2
         - title: Tour 9 Shootout - Wind Pointed at 430
           url: https://youtu.be/TGa1mAI0gPU
+          metadata:
+            tour: 9
+            ball: King Maker
+            teePosition: 2
+            clubs:
+              - name: Apocalypse
+                level: 7
+            wind:
+              direction: SE
+              magnitude: 7.0
+            keywords:
         - title: Tour 11 Shootout - Hard Left to Right Wind Tips
           url: https://youtu.be/RW5V3-__47I
+          metadata:
+            tour: 11
+            ball: Katana
+            teePosition: 2
+            clubs:
+              - name: Thor's Hammer
+                level: 5
+            wind:
+              direction: NE
+              magnitude: 12.5
+            keywords:
         - title: Tour 11 Shootout - Tailwind
           url: https://youtu.be/iPjp2nzCAs4
+          metadata:
+            tour: 11
+            ball: Katana
+            teePosition: 2
+            clubs:
+              - name: Thor's Hammer
+                level: 5
+            wind:
+              direction: NNE
+              magnitude: 12.8
+            keywords:
         - title: Tour 11 Shootout - Wind Pointing at 130
           url: https://youtu.be/XGkKzXJT3qY
+          metadata:
+            tour: 11
+            ball: Katana
+            teePosition: 2
+            clubs:
+              - name: Thor's Hammer
+                level: 5
+            wind:
+              direction: NE
+              magnitude: 10.5
+            keywords:
         - title: Tour 11 Shootout - Right to Left Wind
           url: https://youtu.be/s2q7I7-6Xno
+          metadata:
+            tour: 11
+            ball: Katana
+            teePosition: 2
+            clubs:
+              - name: Thor's Hammer
+                level: 5
+            wind:
+              direction: W
+              magnitude: 7.6
+            keywords:
         - title: Tour 11 Shootout - Wind Pointed at 730
           url: https://youtu.be/yCxorf-IKvA
-        - title: Tour 11 Shootout - Wind Pointed at 9 O`clock
-          url: https://youtu.be/5atAznctHkc?t=3m42s
+          metadata:
+            tour: 11
+            ball: Katana
+            teePosition: 2
+            clubs:
+              - name: Thor's Hammer
+                level: 5
+            wind:
+              direction: SW
+              magnitude: 13.4
+            keywords:
+        - title: Tour 11 Shootout - Wind Pointed at 9 O'clock
+          url: https://youtu.be/5atAznctHkc
+          metadata:
+            tour: 11
+            ball: Katana
+            teePosition: 2
+            clubs:
+              - name: Thor's Hammer
+                level: 5
+            wind:
+              direction: W
+              magnitude: 14.4
+            keywords:
         - title: Spring Major - Rookie
           url: https://youtu.be/KvWvYgas8Hw
+          metadata:
+            tournament: Spring Major 2018
+            level: Rookie
+            ball: Quasar
+            teePosition: 1
+            clubs:
+              - name: Quarterback
+                level: 5
+            wind:
+              direction: NNW
+              magnitude: 4.5
+            keywords:
         - title: Spring Major - Pro
           url: https://youtu.be/r9nhlQhuZUo
+          metadata:
+            tournament: Spring Major 2018
+            level: Pro
+            ball: King Maker
+            teePosition: 2
+            clubs:
+              - name: Rock
+                level: 7
+            wind:
+              direction: NNW
+              magnitude: 6.3
+            keywords:
         - title: Spring Major - Expert
           url: https://youtu.be/-pe_gksiYIk
-        - title: Spring Major - Masters
+          metadata:
+            tournament: Spring Major 2018
+            level: Expert
+            ball: King Maker
+            teePosition: 2
+            clubs:
+              - name: Rock
+                level: 7
+            wind:
+              direction: NNE
+              magnitude: 8.7
+            keywords:
+        - title: Spring Major - Master
           url: https://youtu.be/VM22GunvdD4
+          metadata:
+            tournament: Spring Major 2018
+            level: Master
+            ball: King Maker
+            teePosition: 3
+            clubs:
+              - name: Rock
+                level: 8
+            wind:
+              direction: NE
+              magnitude: 12.0
+            keywords:
       - name: Kevin Warren
         resources:
         - title: Rookie
