@@ -32,46 +32,316 @@ holes:
         resources:
         - title: Tour 11 - Strategy and Tips
           url: https://youtu.be/M6KGEeYZQ8g
+          metadata:
+            tour: 11
+            ball: King Maker
+            teePosition: 2
+            clubs:
+              - name: Apocalypse
+                level: 7
+              - name: EndBringer
+                level: 7
+            wind:
+              direction: NE
+              magnitude: 7.8
+            keywords:
+        - title: Tour 11 - Wind Pointed at 2 O'clock
+          url: https://youtu.be/-bPv0x9GK-E
+          metadata:
+            tour: 11
+            ball: Katana
+            teePosition: 2
+            clubs:
+              - name: Thor's Hammer
+                level: 5
+            wind:
+              direction: NE
+              magnitude: 15.0
+            keywords:
         - title: Voyager - Rookie
           url: https://youtu.be/IN2VegUflWk
+          metadata:
+            tournament: Voyager
+            level: Rookie
+            ball: Titan
+            teePosition: 1
+            clubs:
+              - name: Rocket
+                level: 8
+            wind:
+              direction: NW
+              magnitude: 2.6
+            keywords:
         - title: Voyager - Rookie
           url: https://youtu.be/XIh0VH9QOPg
+          metadata:
+            tournament: Voyager
+            level: Rookie
+            ball: Titan
+            teePosition: 1
+            clubs:
+              - name: Extra Mile
+                level: 6
+              - name: Rapier
+                level: 3
+            wind:
+              direction: NW
+              magnitude: 2.9
+            keywords:
         - title: Voyager - Pro
           url: https://youtu.be/pDTWZafhET8
+          metadata:
+            tournament: Voyager
+            level: Pro
+            ball: Titan
+            teePosition: 2
+            clubs:
+              - name: Extra Mile
+                level: 6
+            wind:
+              direction: NE
+              magnitude: 7.5
+            keywords:
         - title: Voyager - Pro
           url: https://youtu.be/AIdBNjs61kk
+          metadata:
+            tournament: Voyager
+            level: Pro
+            ball: Blue Marble
+            teePosition: 2
+            clubs:
+              - name: Thor's Hammer
+                level: 3
+              - name: Rapier
+                level: 5
+            wind:
+              direction: NE
+              magnitude: 8.2
+            keywords:
         - title: Voyager - Pro
           url: https://youtu.be/oIQiKMO98n8
+          metadata:
+            tournament: Voyager
+            level: Pro
+            ball: Titan
+            teePosition: 2
+            clubs:
+              - name: Extra Mile
+                level: 5
+            wind:
+              direction: NE
+              magnitude: 5.2
+            keywords:
         - title: Voyager - Expert
           url: https://youtu.be/279Dw89cNO4
+          metadata:
+            tournament: Voyager
+            level: Expert
+            ball: King Maker
+            teePosition: 2
+            clubs:
+              - name: Thor's Hammer
+                level: 6
+            wind:
+              direction: ENE
+              magnitude: 8.8
+            keywords:
         - title: Voyager - Expert
           url: https://youtu.be/eI9NxpSLAyM
+          metadata:
+            tournament: Voyager
+            level: Expert
+            ball: Royal
+            teePosition: 2
+            clubs:
+              - name: Thor's Hammer
+                level: 6
+            wind:
+              direction: ENE
+              magnitude: 8.2
+            keywords:
         - title: Voyager - Expert
           url: https://youtu.be/txsVc1c1_BU
-        - title: Voyager - Masters
+          metadata:
+            tournament: Voyager
+            level: Expert
+            ball: Gear
+            teePosition: 2
+            clubs:
+              - name: Thor's Hammer
+                level: 3
+              - name: EndBringer
+                level: 5
+            wind:
+              direction: ENE
+              magnitude: 9.8
+            keywords:
+        - title: Voyager - Master
           url: https://youtu.be/d0BqVPoDPmY
-        - title: Voyager - Masters
+          metadata:
+            tournament: Voyager
+            level: Master
+            ball: Bandera
+            teePosition: 3
+            clubs:
+              - name: Apocalypse
+                level: 7
+              - name: EndBringer
+                level: 7
+            wind:
+              direction: SW
+              magnitude: 7.2
+            keywords:
+        - title: Voyager - Master
           url: https://youtu.be/oj-1M9E1eGk
-        - title: Voyager - Masters
+          metadata:
+            tournament: Voyager
+            level: Master
+            ball: Bauble
+            teePosition: 3
+            clubs:
+              - name: Quarterback
+                level: 10
+              - name: Thorn
+                level: 8
+            wind:
+              direction: SW
+              magnitude: 7.6
+            keywords:
+        - title: Voyager - Master
           url: https://youtu.be/--QJdtkxtTE
-        - title: Tour 11 - Wind Pointed at 2 O`clock
-          url: https://youtu.be/-bPv0x9GK-E
-        - title: Cinco De Mayo - Rookie
+          metadata:
+            tournament: Voyager
+            level: Master
+            ball: Bandera
+            teePosition: 3
+            clubs:
+              - name: Quarterback
+                level: 10
+              - name: EndBringer
+                level: 7
+            wind:
+              direction: SW
+              magnitude: 7.3
+            keywords:
+        - title: Cinco de Mayo - Rookie
           url: https://youtu.be/Xi_v1pZbDSM
-        - title: Cinco De Mayo - Pro
+          metadata:
+            tournament: Cinco De Mayo
+            level: Rookie
+            ball: Quasar
+            teePosition: 1
+            clubs:
+              - name: Extra Mile
+                level: 4
+            wind:
+              direction: NNE
+              magnitude: 4.2
+            keywords:
+        - title: Cinco de Mayo - Pro
           url: https://youtu.be/JMA5grCF7VI
-        - title: Cinco De Mayo - Pro
+          metadata:
+            tournament: Cinco De Mayo
+            level: Pro
+            ball: Titan
+            teePosition: 2
+            clubs:
+              - name: Extra Mile
+                level: 5
+            wind:
+              direction: NW
+              magnitude: 5.8
+            keywords:
+        - title: Cinco de Mayo - Pro
           url: https://youtu.be/-chBco5nCyY
-        - title: Cinco De Mayo - Expert
+          metadata:
+            tournament: Cinco De Mayo
+            level: Pro
+            ball: Katana
+            teePosition: 2
+            clubs:
+              - name: Thor's Hammer
+                level: 5
+            wind:
+              direction: NW
+              magnitude: 6.5
+            keywords:
+        - title: Cinco de Mayo - Expert
           url: https://youtu.be/sFdn_lsotRI
-        - title: Cinco De Mayo - Expert
+          metadata:
+            tournament: Cinco De Mayo
+            level: Expert
+            ball: King Maker
+            teePosition: 2
+            clubs:
+              - name: Apocalypse
+                level: 6
+              - name: EndBringer
+                level: 6
+            wind:
+              direction: WNW
+              magnitude: 8.6
+            keywords:
+        - title: Cinco de Mayo - Expert
           url: https://youtu.be/ui5XcQfLj78
-        - title: Cinco De Mayo - Expert
+          metadata:
+            tournament: Cinco De Mayo
+            level: Expert
+            ball: King Maker
+            teePosition: 2
+            clubs:
+              - name: Apocalypse
+                level: 7
+            wind:
+              direction: WNW
+              magnitude: 7.5
+            keywords:
+        - title: Cinco de Mayo - Expert
           url: https://youtu.be/Hm-2HKccrXY
-        - title: Cinco De Mayo - Masters
+          metadata:
+            tournament: Cinco De Mayo
+            level: Expert
+            ball: King Maker
+            teePosition: 2
+            clubs:
+              - name: Apocalypse
+                level: 6
+            wind:
+              direction: WNW
+              magnitude: 8.8
+            keywords:
+        - title: Cinco de Mayo - Master
           url: https://youtu.be/HoWN7gJYlEc
-        - title: Cinco De Mayo - Masters
+          metadata:
+            tournament: Cinco De Mayo
+            level: Master
+            ball: Eye
+            teePosition: 3
+            clubs:
+              - name: Apocalypse
+                level: 7
+              - name: Claw
+                level: 10
+            wind:
+              direction: SW
+              magnitude: 8.5
+            keywords:
+        - title: Cinco de Mayo - Master
           url: https://youtu.be/FRsEFFV8yRo
+          metadata:
+            tournament: Cinco De Mayo
+            level: Master
+            ball: King Maker
+            teePosition: 3
+            clubs:
+              - name: Apocalypse
+                level: 5
+              - name: Spitfire
+                level: 4
+            wind:
+              direction: SW
+              magnitude: 9.9
+            keywords:
   - id: 403da63f-9e6f-4a4a-b17d-cc5cacce7bcb
     course: Sunshine Glades
     number: 2
@@ -126,10 +396,49 @@ holes:
         resources:
         - title: Tour 11 - Strategy and Tips
           url: https://youtu.be/BlJ3ALKE98s
+          metadata:
+            tour: 11
+            ball: King Maker
+            teePosition: 2
+            clubs:
+              - name: Apocalypse
+                level: 7
+              - name: Sniper
+                level: 10
+            wind:
+              direction: SE
+              magnitude: 12.8
+            keywords:
         - title: Rookie
           url: https://youtu.be/NFNEYJKiXJE
-        - title: Pro / Expert
+          metadata:
+            tournament: 1 Year Anniversary
+            level: Rookie
+            ball: Marlin
+            teePosition: 1
+            clubs:
+              - name: Quarterback
+                level: 10
+              - name: Sniper
+                level: 10
+            wind:
+              direction: NW
+              magnitude: 5.0
+            keywords:
+        - title: Pro/Expert
           url: https://youtu.be/fQMfImOGS9o
+          metadata:
+            tournament: 1 Year Anniversary
+            level: Pro
+            ball: Marlin
+            teePosition: 1
+            clubs:
+              - name: Thor's Hammer
+                level: 4
+            wind:
+              direction: NW
+              magnitude: 6.5
+            keywords:
       - name: Kevin Warren
         resources:
         - title: Rookie
@@ -190,58 +499,363 @@ holes:
           metadata:
             generalInstruction: true
             teePosition: 3
-        - title: Tour 11 - Wind Pointed at 9 O`clock
+        - title: Tour 11 Shootout - Wind Pointed at 9 O'oclock
           url: https://youtu.be/j07lSX5qq2w
+          metadata:
+            tour: 11
+            ball: King Maker
+            teePosition: 2
+            clubs:
+              - name: Apocalypse
+                level: 7
+            wind:
+              direction: W
+              magnitude: 8.0
+            keywords:
         - title: Voyager - Rookie
           url: https://youtu.be/njyHG6Mk7Wc
+          metadata:
+            tournament: Voyager
+            level: Rookie
+            ball: Quasar
+            teePosition: 1
+            clubs:
+              - name: Sniper
+                level: 5
+            wind:
+              direction: NE
+              magnitude: 3.7
+            keywords:
         - title: Voyager - Rookie
           url: https://youtu.be/iT0vRt4f4Kk
+          metadata:
+            tournament: Voyager
+            level: Rookie
+            ball: Quasar
+            teePosition: 1
+            clubs:
+              - name: Sniper
+                level: 8
+            wind:
+              direction: NE
+              magnitude: 4.2
+            keywords:
         - title: Voyager - Pro
           url: https://youtu.be/uimETaXQAYs
+          metadata:
+            tournament: Voyager
+            level: Pro
+            ball: Titan
+            teePosition: 2
+            clubs:
+              - name: Sniper
+                level: 7
+            wind:
+              direction: E
+              magnitude: 5.9
+            keywords:
         - title: Voyager - Pro
           url: https://youtu.be/enba8K96Ihs
+          metadata:
+            tournament: Voyager
+            level: Pro
+            ball: King Maker
+            teePosition: 2
+            clubs:
+              - name: Sniper
+                level: 9
+            wind:
+              direction: E
+              magnitude: 5.3
+            keywords:
         - title: Voyager - Pro
           url: https://youtu.be/3-Eitvj4WUI
+          metadata:
+            tournament: Voyager
+            level: Pro
+            ball: King Maker
+            teePosition: 2
+            clubs:
+              - name: Sniper
+                level: 7
+            wind:
+              direction: E
+              magnitude: 5.5
+            keywords:
         - title: Voyager - Expert
           url: https://youtu.be/LNYoPcJza9U
+          metadata:
+            tournament: Voyager
+            level: Expert
+            ball: King Maker
+            teePosition: 2
+            clubs:
+              - name: Sniper
+                level: 10
+            wind:
+              direction: W
+              magnitude: 8.8
+            keywords:
         - title: Voyager - Expert
           url: https://youtu.be/7XPaLNPbVl0
+          metadata:
+            tournament: Voyager
+            level: Expert
+            ball: Oceania
+            teePosition: 2
+            clubs:
+              - name: Quarterback
+                level: 10
+            wind:
+              direction: W
+              magnitude: 6.2
+            keywords:
         - title: Voyager - Expert
           url: https://youtu.be/3s3-1z6U6GU
-        - title: Voyager - Masters
+          metadata:
+            tournament: Voyager
+            level: Expert
+            ball: King Maker
+            teePosition: 2
+            clubs:
+              - name: Sniper
+                level: 8
+            wind:
+              direction: W
+              magnitude: 8.8
+            keywords:
+        - title: Voyager - Master
           url: https://youtu.be/4-wtLP5EKxA
-        - title: Voyager - Masters
+          metadata:
+            tournament: Voyager
+            level: Master
+            ball: King Maker
+            teePosition: 3
+            clubs:
+              - name: Quarterback
+                level: 10
+            wind:
+              direction: SW
+              magnitude: 11.8
+            keywords:
+        - title: Voyager - Master
           url: https://youtu.be/Owe2__2NT9E
-        - title: Voyager - Masters
+          metadata:
+            tournament: Voyager
+            level: Master
+            ball: King Maker
+            teePosition: 3
+            clubs:
+              - name: Quarterback
+                level: 10
+            wind:
+              direction: SW
+              magnitude: 10.6
+            keywords:
+        - title: Voyager - Master
           url: https://youtu.be/E0bOBTEW65c
+          metadata:
+            tournament: Voyager
+            level: Master
+            ball: Oceania
+            teePosition: 3
+            clubs:
+              - name: Rock
+                level: 8
+            wind:
+              direction: SW
+              magnitude: 8.3
+            keywords:
         - title: Tour 11 Shootout - Tailwind Tips
           url: https://youtu.be/AOTxq-P1tmA
-        - title: Tour 11 Shootout - Strong Wind Pointed at 8-9 O`clock
+          metadata:
+            tour: 11
+            ball: King Maker
+            teePosition: 2
+            clubs:
+              - name: Sniper
+                level: 9
+            wind:
+              direction: NNE
+              magnitude: 9.3
+            keywords:
+        - title: Tour 11 Shootout - Strong Wind Pointed at 8-9 O'clock
           url: https://youtu.be/wiOErUdZTJ8
+          metadata:
+            tour: 11
+            ball: Katana
+            teePosition: 2
+            clubs:
+              - name: Thor's Hammer
+                level: 5
+            wind:
+              direction: WSW
+              magnitude: 12.3
+            keywords:
         - title: Tour 11 Shootout - Left to Right Wind
           url: https://youtu.be/SHwCaqhmILA
+          metadata:
+            tour: 11
+            ball: Katana
+            teePosition: 2
+            clubs:
+              - name: Hammerhead
+                level: 7
+            wind:
+              direction: E
+              magnitude: 7.9
+            keywords:
         - title: Tour 11 Shootout - Right to Left Cross Wind
           url: https://youtu.be/RJWXLrfhE3s
+          metadata:
+            tour: 11
+            ball: Katana
+            teePosition: 2
+            clubs:
+              - name: Hammerhead
+                level: 7
+            wind:
+              direction: WSW
+              magnitude: 9.2
+            keywords:
         - title: Tour 11 Shootout - Tailwind Pointed at 1030
           url: https://youtu.be/SFt2hGFoGsg
+          metadata:
+            tour: 11
+            ball: King Maker
+            teePosition: 2
+            clubs:
+              - name: Hammerhead
+                level: 7
+            wind:
+              direction: NW
+              magnitude: 8.6
+            keywords:
         - title: Tour 11 Shootout - Left to Right Wind
           url: https://youtu.be/R3tArU6nx0A
-        - title: Cinco De Mayo - Rookie
+          metadata:
+            tour: 11
+            ball: Katana
+            teePosition: 2
+            clubs:
+              - name: Thor's Hammer
+                level: 5
+            wind:
+              direction: ESE
+              magnitude: 11.1
+            keywords:
+        - title: Cinco de Mayo - Rookie
           url: https://youtu.be/Ngcob84tT9A
-        - title: Cinco De Mayo - Pro
+          metadata:
+            tournament: Cinco De Mayo
+            level: Rookie
+            ball: Quasar
+            teePosition: 1
+            clubs:
+              - name: Viper
+                level: 7
+            wind:
+              direction: NW
+              magnitude: 4.5
+            keywords:
+        - title: Cinco de Mayo - Pro
           url: https://youtu.be/Sx6K5dRcH1g
-        - title: Cinco De Mayo - Pro
+          metadata:
+            tournament: Cinco De Mayo
+            level: Pro
+            ball: Titan
+            teePosition: 2
+            clubs:
+              - name: Sniper
+                level: 7
+            wind:
+              direction: NW
+              magnitude: 5.3
+            keywords:
+        - title: Cinco de Mayo - Pro
           url: https://youtu.be/CANOmZJJD5c
-        - title: Cinco De Mayo - Expert
+          metadata:
+            tournament: Cinco De Mayo
+            level: Pro
+            ball: Katana
+            teePosition: 2
+            clubs:
+              - name: Sniper
+                level: 10
+            wind:
+              direction: NW
+              magnitude: 5.4
+            keywords:
+        - title: Cinco de Mayo - Expert
           url: https://youtu.be/PnhGH77vNow
-        - title: Cinco De Mayo - Expert
+          metadata:
+            tournament: Cinco De Mayo
+            level: Expert
+            ball: King Maker
+            teePosition: 2
+            clubs:
+              - name: Sniper
+                level: 10
+            wind:
+              direction: NE
+              magnitude: 7.2
+            keywords:
+        - title: Cinco de Mayo - Expert
           url: https://youtu.be/bhMQqJdcQPc
-        - title: Cinco De Mayo - Expert
+          metadata:
+            tournament: Cinco De Mayo
+            level: Expert
+            ball: King Maker
+            teePosition: 2
+            clubs:
+              - name: Sniper
+                level: 10
+            wind:
+              direction: NE
+              magnitude: 7.1
+            keywords:
+        - title: Cinco de Mayo - Expert
           url: https://youtu.be/dNZuO4FHjxI
-        - title: Cinco De Mayo - Masters
+          metadata:
+            tournament: Cinco De Mayo
+            level: Expert
+            ball: King Maker
+            teePosition: 2
+            clubs:
+              - name: Sniper
+                level: 10
+            wind:
+              direction: NE
+              magnitude: 9.1
+            keywords:
+        - title: Cinco de Mayo - Master
           url: https://youtu.be/DCA8PblmXC0
-        - title: Cinco De Mayo - Masters
+          metadata:
+            tournament: Cinco De Mayo
+            level: Master
+            ball: King Maker
+            teePosition: 3
+            clubs:
+              - name: Quarterback
+                level: 10
+            wind:
+              direction: NE
+              magnitude: 12.3
+            keywords:
+        - title: Cinco de Mayo - Master
           url: https://youtu.be/jyT4UXk-z4Q
+          metadata:
+            tournament: Cinco De Mayo
+            level: Master
+            ball: Movie
+            teePosition: 3
+            clubs:
+              - name: Quarterback
+                level: 10
+            wind:
+              direction: NE
+              magnitude: 10.4
+            keywords:
       - name: Kevin Warren
         resources:
         - title: Rookie
@@ -280,44 +894,307 @@ holes:
         resources:
         - title: Tour 11 - Strategy and Tips
           url: https://youtu.be/AGmkHFT0nYU
+          metadata:
+            tour: 11
+            ball: King Maker
+            teePosition: 3
+            clubs:
+              - name: Apocalypse
+                level: 7
+              - name: B52
+                level: 7
+            wind:
+              direction: NW
+              magnitude: 7.3
+            keywords:
         - title: Voyager - Rookie
           url: https://youtu.be/ybK0_zUNruc
-        - title: Voyager - Rookie
-          url: https://youtu.be/SK_tSFCc5vE
+          metadata:
+            tournament: Voyager
+            level: Rookie
+            ball: Titan
+            teePosition: 1
+            clubs:
+              - name: Extra Mile
+                level: 6
+              - name: Backbone
+                level: 9
+            wind:
+              direction: ENE
+              magnitude: 3.5
+            keywords:
         - title: Voyager - Pro
           url: https://youtu.be/6izcie2E-w4
+          metadata:
+            tournament: Voyager
+            level: Pro
+            ball: Titan
+            teePosition: 2
+            clubs:
+              - name: Extra Mile
+                level: 6
+              - name: Backbone
+                level: 8
+            wind:
+              direction: NW
+              magnitude: 6.3
+            keywords:
         - title: Voyager - Pro
           url: https://youtu.be/H9CeWt9vvXI
+          metadata:
+            tournament: Voyager
+            level: Pro
+            ball: Titan
+            teePosition: 2
+            clubs:
+              - name: Extra Mile
+                level: 6
+              - name: Sniper
+                level: 9
+            wind:
+              direction: NW
+              magnitude: 5.4
+            keywords:
         - title: Voyager - Pro
           url: https://youtu.be/rb6J2NmL1y8
+          metadata:
+            tournament: Voyager
+            level: Pro
+            ball: Gear
+            teePosition: 2
+            clubs:
+              - name: Extra Mile
+                level: 5
+              - name: Nirvana
+                level: 3
+            wind:
+              direction: NW
+              magnitude: 7.5
+            keywords:
         - title: Voyager - Expert
           url: https://youtu.be/sv8jpkQwITA
+          metadata:
+            tournament: Voyager
+            level: Expert
+            ball: King Maker
+            teePosition: 2
+            clubs:
+              - name: Thor's Hammer
+                level: 6
+              - name: Sniper
+                level: 10
+            wind:
+              direction: WSW
+              magnitude: 7.8
+            keywords:
         - title: Voyager - Expert
           url: https://youtu.be/1XyRKcIcdjk
+          metadata:
+            tournament: Voyager
+            level: Expert
+            ball: King Maker
+            teePosition: 2
+            clubs:
+              - name: Apocalypse
+                level: 4
+              - name: Sniper
+                level: 10
+            wind:
+              direction: WSW
+              magnitude: 8.8
+            keywords:
         - title: Voyager - Expert
           url: https://youtu.be/LTFLKF3lr6w
-        - title: Voyager - Masters
+          metadata:
+            tournament: Voyager
+            level: Expert
+            ball: King Maker
+            teePosition: 2
+            clubs:
+              - name: Thor's Hammer
+                level: 3
+              - name: Sniper
+                level: 8
+            wind:
+              direction: WSW
+              magnitude: 8.2
+            keywords:
+        - title: Voyager - Master
           url: https://youtu.be/6YkhfVOMzZI
-        - title: Voyager - Masters
+          metadata:
+            tournament: Voyager
+            level: Master
+            ball: King Maker
+            teePosition: 3
+            clubs:
+              - name: Apocalypse
+                level: 7
+              - name: Sniper
+                level: 10
+            wind:
+              direction: SE
+              magnitude: 12.3
+            keywords:
+        - title: Voyager - Master
           url: https://youtu.be/xw0vpPz8eIw
-        - title: Voyager - Masters
+          metadata:
+            tournament: Voyager
+            level: Master
+            ball: King Maker
+            teePosition: 3
+            clubs:
+              - name: Apocalypse
+                level: 5
+              - name: Sniper
+                level: 10
+            wind:
+              direction: SE
+              magnitude: 11.3
+            keywords:
+        - title: Voyager - Master
           url: https://youtu.be/Ser96k2Rxl8
-        - title: Cinco De Mayo - Rookie
+          metadata:
+            tournament: Voyager
+            level: Master
+            ball: King Maker
+            teePosition: 3
+            clubs:
+              - name: Apocalypse
+                level: 7
+              - name: Sniper
+                level: 10
+            wind:
+              direction: SE
+              magnitude: 11.0
+            keywords:
+        - title: Cinco de Mayo - Rookie
           url: https://youtu.be/ehRss9x6wfE
-        - title: Cinco De Mayo - Pro
+          metadata:
+            tournament: Cinco De Mayo
+            level: Rookie
+            ball: King Maker
+            teePosition: 1
+            clubs:
+              - name: Quarterback
+                level: 6
+              - name: Sniper
+                level: 5
+            wind:
+              direction: NNW
+              magnitude: 2.7
+            keywords:
+        - title: Cinco de Mayo - Pro
           url: https://youtu.be/YU_H_NirQAI
-        - title: Cinco De Mayo - Pro
+          metadata:
+            tournament: Cinco De Mayo
+            level: Pro
+            ball: Quasar
+            teePosition: 2
+            clubs:
+              - name: Quarterback
+                level: 6
+              - name: Sniper
+                level: 7
+            wind:
+              direction: NNW
+              magnitude: 6.1
+            keywords:
+        - title: Cinco de Mayo - Pro
           url: https://youtu.be/g65pBvxkJ4c
-        - title: Cinco De Mayo - Expert
+          metadata:
+            tournament: Cinco De Mayo
+            level: Pro
+            ball: Navigator
+            teePosition: 2
+            clubs:
+              - name: Quarterback
+                level: 10
+              - name: Sniper
+                level: 10
+            wind:
+              direction: NNW
+              magnitude: 5.7
+            keywords:
+        - title: Cinco de Mayo - Expert
           url: https://youtu.be/DCAXqFVvC0w
-        - title: Cinco De Mayo - Expert
+          metadata:
+            tournament: Cinco De Mayo
+            level: Expert
+            ball: King Maker
+            teePosition: 2
+            clubs:
+              - name: Apocalypse
+                level: 6
+              - name: Spitfire
+                level: 4
+            wind:
+              direction: NNW
+              magnitude: 7.6
+            keywords:
+        - title: Cinco de Mayo - Expert
           url: https://youtu.be/Te_1ErcdV04
-        - title: Cinco De Mayo - Expert
+          metadata:
+            tournament: Cinco De Mayo
+            level: Expert
+            ball: Snow Globe
+            teePosition: 2
+            clubs:
+              - name: Apocalypse
+                level: 7
+              - name: EndBringer
+                level: 7
+            wind:
+              direction: NNW
+              magnitude: 13.1
+            keywords:
+        - title: Cinco de Mayo - Expert
           url: https://youtu.be/H1j8tpmUjZw
-        - title: Cinco De Mayo - Masters
+          metadata:
+            tournament: Cinco De Mayo
+            level: Expert
+            ball: Berserker
+            teePosition: 2
+            clubs:
+              - name: Apocalypse
+                level: 6
+              - name: Claw
+                level: 10
+            wind:
+              direction: NNW
+              magnitude: 9.4
+            keywords:
+        - title: Cinco de Mayo - Master
           url: https://youtu.be/2sTmzW8RgOM
-        - title: Cinco De Mayo - Masters
+          metadata:
+            tournament: Cinco De Mayo
+            level: Master
+            ball: Berserker
+            teePosition: 3
+            clubs:
+              - name: Apocalypse
+                level: 7
+              - name: Claw
+                level: 10
+            wind:
+              direction: NW
+              magnitude: 16.1
+            keywords:
+        - title: Cinco de Mayo - Master
           url: https://youtu.be/dbqOENRIuHE
+          metadata:
+            tournament: Cinco De Mayo
+            level: Master
+            ball: Berserker
+            teePosition: 3
+            clubs:
+              - name: Apocalypse
+                level: 5
+              - name: Nirvana
+                level: 7
+            wind:
+              direction: NW
+              magnitude: 15.9
+            keywords:
   - id: 5bc210d8-de10-4786-ad3f-75367f76a15d
     course: Sunshine Glades
     number: 7
