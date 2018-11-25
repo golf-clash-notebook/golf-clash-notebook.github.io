@@ -1,0 +1,84 @@
+courseName: Eagle Peak
+skinned: false
+holes:
+  - id: c4ce699f-6d34-45f4-b0a3-81895d284ec4
+    course: Eagle Peak
+    number: 1
+    par: 4
+    replayName: "4B"
+    description: >
+      Help Wanted
+    clubRecommendations:
+    resourceCreators:
+  - id: 623c30b7-7b34-42a2-ac29-b4d197ae2a62
+    course: Eagle Peak
+    number: 2
+    par: 3
+    replayName: "3B"
+    description: >
+      Help Wanted
+    clubRecommendations:
+    resourceCreators:
+  - id: 598f3bfb-9a3d-415f-93b7-03ff2c9fbb65
+    course: Eagle Peak
+    number: 3
+    par: 5
+    replayName: "5C"
+    description: >
+      Help Wanted
+    clubRecommendations:
+    resourceCreators:
+  - id: 476346b5-ce2c-4417-a06c-0de2338da828
+    course: Eagle Peak
+    number: 4
+    par: 3
+    replayName: "3C"
+    description: >
+      Help Wanted
+    clubRecommendations:
+    resourceCreators:
+  - id: 3bc34539-ff5a-41d1-accd-372346916570
+    course: Eagle Peak
+    number: 5
+    par: 4
+    replayName: "4"
+    description: >
+      Help Wanted
+    clubRecommendations:
+    resourceCreators:
+  - id: d3446381-26b2-4d3d-a797-4e2de9dbc5a4
+    course: Eagle Peak
+    number: 6
+    par: 5
+    replayName: "5B"
+    description: >
+      Help Wanted
+    clubRecommendations:
+    resourceCreators:
+  - id: 60752b16-326f-4cc4-bfb7-212972a45183
+    course: Eagle Peak
+    number: 7
+    par: 3
+    replayName: "3"
+    description: >
+      Help Wanted
+    clubRecommendations:
+    resourceCreators:
+  - id: dd918fa6-1150-4fe2-acd8-aeb9c82fe4b2
+    course: Eagle Peak
+    number: 8
+    par: 4
+    replayName: "4C"
+    description: >
+      Help Wanted
+    clubRecommendations:
+    resourceCreators:
+  - id: 4649f12d-9709-4179-92c3-c5152ac0c111
+    course: Eagle Peak
+    number: 9
+    par: 5
+    replayName: "5"
+    description: >
+      Help Wanted
+    clubRecommendations:
+    resourceCreators:
