@@ -93,6 +93,13 @@ page_gen:
     extra:
       title-prefix: 'Glenmonarch Estate - Hole '
   - index_files: true
+    data: 'courses.EaglePeak.holes'
+    template: '_includes/courses/hole-template.liquid'
+    name: 'number'
+    dir: 'courses/EaglePeak'
+    extra:
+      title-prefix: 'Eagle Peak - Hole '
+  - index_files: true
     data: 'courses.GhostlyGlades.holes'
     template: '_includes/courses/hole-template.liquid'
     name: 'number'

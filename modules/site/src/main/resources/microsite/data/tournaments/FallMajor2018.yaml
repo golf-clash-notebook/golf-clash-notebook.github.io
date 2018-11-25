@@ -2,3 +2,21 @@ tournamentName: Fall Major 2018
 date: '2018-11-26'
 resourceCreators:
 holes:
+  - number: 1
+    id: c4ce699f-6d34-45f4-b0a3-81895d284ec4
+  - number: 2
+    id: 623c30b7-7b34-42a2-ac29-b4d197ae2a62
+  - number: 3
+    id: 598f3bfb-9a3d-415f-93b7-03ff2c9fbb65
+  - number: 4
+    id: 476346b5-ce2c-4417-a06c-0de2338da828
+  - number: 5
+    id: 3bc34539-ff5a-41d1-accd-372346916570
+  - number: 6
+    id: d3446381-26b2-4d3d-a797-4e2de9dbc5a4
+  - number: 7
+    id: 60752b16-326f-4cc4-bfb7-212972a45183
+  - number: 8
+    id: dd918fa6-1150-4fe2-acd8-aeb9c82fe4b2
+  - number: 9
+    id: 4649f12d-9709-4179-92c3-c5152ac0c111
