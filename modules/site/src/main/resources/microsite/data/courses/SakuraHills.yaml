@@ -903,6 +903,19 @@ holes:
           url: https://youtu.be/8aOAoh4tP-U?t=3m58s
           metadata:
             tour: 8
+            ball: Titan
+            teePosition: 2
+            clubs:
+              - name: Sniper
+                level: 6
+            wind:
+              direction: SE
+              magnitude: 8.6
+            keywords:
+        - title: Tour 8 Shootout - 11 O`clock Wind
+          url: https://youtu.be/8aOAoh4tP-U?t=3m58s
+          metadata:
+            tour: 8
             ball: Quasar
             teePosition: 2
             clubs:
@@ -1608,6 +1621,19 @@ holes:
           metadata:
             generalInstruction: true
             teePosition: 2
+        - title: Tour 8 Shootout
+          url: https://youtu.be/2pk5l7SEOlY?t=4m3s
+          metadata:
+            tour: 8
+            ball: Katana
+            teePosition: 2
+            clubs:
+              - name: Goliath
+                level: 6
+            wind:
+              direction: NW
+              magnitude: 4.3
+            keywords:
         - title: Tour 8 Shootout
           url: https://youtu.be/2pk5l7SEOlY?t=4m3s
           metadata:
