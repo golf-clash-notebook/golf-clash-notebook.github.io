@@ -16,6 +16,23 @@ holes:
           url: https://youtu.be/sqarSdaxjR8
         - title: Fall Major 2018 - Pro & Expert Guide
           url: https://youtu.be/a_2P-qn2UcI
+      - name: Zachary Jones
+        resources:
+        - title: Tour 8 - 2nd Tee Strategy and Tips
+          url: https://youtu.be/0DqrQ5YbGps
+          metadata:
+            tour: 8
+            ball: Titan
+            teePosition: 2
+            clubs:
+              - name: Extra Mile
+                level: 6
+              - name: Goliath
+                level: 6
+            wind:
+              direction: N
+              magnitude: 6.6
+            keywords:
   - id: 623c30b7-7b34-42a2-ac29-b4d197ae2a62
     course: Eagle Peak
     number: 2
@@ -31,6 +48,21 @@ holes:
           url: https://youtu.be/HhKP7DB-nyk
         - title: Fall Major 2018 - Pro & Expert Guide
           url: https://youtu.be/Ahp44ZQcdqs
+      - name: Zachary Jones
+        resources:
+        - title: Tour 8 - 2nd Tee Shootout Wind Pointed at 730
+          url: https://youtu.be/KU0tzp9MHXQ
+          metadata:
+            tour: 8
+            ball: Katana
+            teePosition: 2
+            clubs:
+              - name: Sniper
+                level: 6
+            wind:
+              direction: SW
+              magnitude: 3.0
+            keywords:
   - id: 598f3bfb-9a3d-415f-93b7-03ff2c9fbb65
     course: Eagle Peak
     number: 3
@@ -46,6 +78,23 @@ holes:
           url: https://youtu.be/bEhgy4ix1R4
         - title: Fall Major 2018 - Pro & Expert Guide
           url: https://youtu.be/NXe-pKfJh4I
+      - name: Zachary Jones
+        resources:
+        - title: Tour 8 - 2nd Tee Strategy and tips
+          url: https://youtu.be/bX2MrUlUn6Q
+          metadata:
+            tour: 8
+            ball: Katana
+            teePosition: 2
+            clubs:
+              - name: Extra Mile
+                level: 6
+              - name: Sniper
+                level: 6
+            wind:
+              direction: W
+              magnitude: 4.0
+            keywords:
   - id: 476346b5-ce2c-4417-a06c-0de2338da828
     course: Eagle Peak
     number: 4
@@ -76,6 +125,38 @@ holes:
           url: https://youtu.be/4k4gwdr4iPg
         - title: Fall Major 2018 - Pro & Expert Guide
           url: https://youtu.be/m_V-a66DFL8
+      - name: Zachary Jones
+        resources:
+        - title: Tour 8 - 2nd Tee Strategy and Tips
+          url: https://youtu.be/ZaFpXNJuz-U
+          metadata:
+            tour: 8
+            ball: Katana
+            teePosition: 2
+            clubs:
+              - name: Extra Mile
+                level: 6
+              - name: Thorn
+                level: 5
+            wind:
+              direction: NW
+              magnitude: 9.5
+            keywords:
+        - title: Tour 8 - 2nd Tee Strategy and Tips
+          url: https://youtu.be/E_bixf8EXeU
+          metadata:
+            tour: 8
+            ball: Katana
+            teePosition: 2
+            clubs:
+              - name: Extra Mile
+                level: 6
+              - name: Thorn
+                level: 5
+            wind:
+              direction: W
+              magnitude: 8.1
+            keywords:
   - id: d3446381-26b2-4d3d-a797-4e2de9dbc5a4
     course: Eagle Peak
     number: 6
@@ -91,6 +172,25 @@ holes:
           url: https://youtu.be/J2VD4fazUjw
         - title: Fall Major 2018 - Pro & Expert Guide
           url: https://youtu.be/XJ1dM5g094I
+      - name: Zachary Jones
+        resources:
+        - title: Tour 8 - 2nd Tee Strategy and tips
+          url: https://youtu.be/2YutuS3T6iE
+          metadata:
+            tour: 8
+            ball: Titan
+            teePosition: 2
+            clubs:
+              - name: Extra Mile
+                level: 6
+              - name: Nirvana
+                level: 4
+              - name: Thorn
+                level: 5
+            wind:
+              direction: WSW
+              magnitude: 4.7
+            keywords:
   - id: 60752b16-326f-4cc4-bfb7-212972a45183
     course: Eagle Peak
     number: 7
@@ -106,6 +206,34 @@ holes:
           url: https://youtu.be/580IUfV6pFo
         - title: Fall Major 2018 - Pro & Expert Guide
           url: https://youtu.be/vmrkMKj5EZI
+      - name: Zachary Jones
+        resources:
+        - title: Tour 8 - Shootout wind pointed at 4 O'clock
+          url: https://youtu.be/ZSARGr_Wa9M
+          metadata:
+            tour: 8
+            ball: Katana
+            teePosition: 2
+            clubs:
+              - name: Sniper
+                level: 6
+            wind:
+              direction: ESE
+              magnitude: 7.7
+            keywords:
+        - title: Tour 8 - 2nd Tee Shootout Wind Pointed at 8 O'clock
+          url: https://youtu.be/-LMc9TYAiRw
+          metadata:
+            tour: 8
+            ball: Katana
+            teePosition: 2
+            clubs:
+              - name: Sniper
+                level: 6
+            wind:
+              direction: WSW
+              magnitude: 9.5
+            keywords:
   - id: dd918fa6-1150-4fe2-acd8-aeb9c82fe4b2
     course: Eagle Peak
     number: 8
@@ -121,6 +249,39 @@ holes:
           url: https://youtu.be/gJX2V0CnrZY
         - title: Fall Major 2018 - Pro & Expert Guide
           url: https://youtu.be/s2H7nS_S4JQ
+      - name: Zachary Jones
+        resources:
+        - title: Tour 8 - 2nd Tee Strategy and Tips for Eagle
+          url: https://youtu.be/emUxzbY4Ot0
+          metadata:
+            tour: 8
+            ball: Titan
+            teePosition: 2
+            clubs:
+              - name: Extra Mile
+                level: 6
+              - name: Thorn
+                level: 5
+            wind:
+              direction: SSE
+              magnitude: 10.4
+            keywords:
+        - title: Tour 8 - 2nd Tee Strategy and Tips for Driving the Green
+          url: https://youtu.be/_CZh7J--ZNc
+          metadata:
+            tour: 8
+            ball: Katana
+            teePosition: 2
+            clubs:
+              - name: Extra Mile
+                level: 6
+              - name: Endbringer
+                level: 1
+            wind:
+              direction: E
+              magnitude: 9.2
+            keywords:
+              - Power Slice
   - id: 4649f12d-9709-4179-92c3-c5152ac0c111
     course: Eagle Peak
     number: 9
@@ -136,3 +297,20 @@ holes:
           url: https://youtu.be/3YvBZOgv7qs
         - title: Fall Major 2018 - Pro & Expert Guide
           url: https://youtu.be/flCPVHCZ-OM
+      - name: Zachary Jones
+        resources:
+        - title: Tour 8 - 2nd Tee Strategy and Tips
+          url: https://youtu.be/uuHOW7o1r3c
+          metadata:
+            tour: 8
+            ball: Titan
+            teePosition: 2
+            clubs:
+              - name: Extra Mile
+                level: 6
+              - name: Sniper
+                level: 6
+            wind:
+              direction: W
+              magnitude: 9.7
+            keywords:
