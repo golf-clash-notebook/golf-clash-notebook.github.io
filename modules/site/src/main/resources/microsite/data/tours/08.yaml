@@ -1,9 +1,8 @@
 number: 8
 tourName: Mountain Tour
 courses:
-  - name: Glenmonarch Estate
+  - name: Eagle Peak
   - name: Sakura Hills
-  - name: Vineyard Acres
 description: >
   Help Wanted
 resources:
