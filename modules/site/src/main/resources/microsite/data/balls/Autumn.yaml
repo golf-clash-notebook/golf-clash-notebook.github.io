@@ -1,0 +1,11 @@
+name: Autumn
+windResistance: 2
+sideSpin: 1
+power: 5
+cost: n/a
+description: >
+  The Autumn ball is geared towards downwind tournament shots where you'll still need to pull off
+  a 2nd shot that will benefit from the extra wind resistance you'll get over using a Berserker.
+  These were first offered during the <a href="/tournaments/FallMajor2018/">Fall Major (2018)</a>
+  tournament.
+needleSpeed: 0.750
