@@ -18,6 +18,104 @@ holes:
           url: https://youtu.be/a_2P-qn2UcI
       - name: Zachary Jones
         resources:
+        - title: Fall Major 2018 - Rookie
+          url: https://youtu.be/hlgQooxbA8E
+          metadata:
+            tournament: Fall Major 2018
+            level: Rookie
+            teePosition: 1
+            ball: Titan
+            clubs:
+              - name: Extra Mile
+                level: 6
+              - name: Backbone
+                level: 8
+            wind:
+              direction: NNE
+              magnitude: 2.7
+            keywords:
+        - title: Fall Major 2018 - Pro
+          url: https://youtu.be/MEh07weEz98
+          metadata:
+            tournament: Fall Major 2018
+            level: Pro
+            teePosition: 2
+            ball: Titan
+            clubs:
+              - name: Extra Mile
+                level: 6
+              - name: Backbone
+                level: 8
+            wind:
+              direction: N
+              magnitude: 6.7
+            keywords:
+        - title: Fall Major 2018 - Expert
+          url: https://youtu.be/QRFfmHq6DGg
+          metadata:
+            tournament: Fall Major 2018
+            level: Expert
+            teePosition: 2
+            ball: Titan
+            clubs:
+              - name: Thor's Hammer
+                level: 3
+              - name: Backbone
+                level: 9
+            wind:
+              direction: NW
+              magnitude: 10.0
+            keywords:
+        - title: Fall Major 2018 - Master
+          url: https://youtu.be/n1ffZe-uUm8
+          metadata:
+            tournament: Fall Major 2018
+            level: Master
+            teePosition: 3
+            ball: Snow Globe
+            clubs:
+              - name: Apocalypse
+                level: 4
+              - name: Nirvana
+                level: 8
+            wind:
+              direction: NW
+              magnitude: 18.6
+            keywords:
+        - title: Fall Major 2018 - Master
+          url: https://youtu.be/oSZftnY0OLA
+          metadata:
+            tournament: Fall Major 2018
+            level: Master
+            teePosition: 3
+            ball: King Maker
+            clubs:
+              - name: Apocalypse
+                level: 5
+              - name: B52
+                level: 6
+              - name: Rapier
+                level: 8
+            wind:
+              direction: NW
+              magnitude: 11.7
+            keywords:
+        - title: Fall Major 2018 - Master
+          url: https://youtu.be/Trizv9Sjv1w
+          metadata:
+            tournament: Fall Major 2018
+            level: Master
+            teePosition: 3
+            ball: Snow Globe
+            clubs:
+              - name: Apocalypse
+                level: 7
+              - name: Nirvana
+                level: 8
+            wind:
+              direction: NW
+              magnitude: 16.7
+            keywords:
         - title: Tour 8 - 2nd Tee Strategy and Tips
           url: https://youtu.be/0DqrQ5YbGps
           metadata:
@@ -50,6 +148,92 @@ holes:
           url: https://youtu.be/Ahp44ZQcdqs
       - name: Zachary Jones
         resources:
+        - title: Fall Major 2018 - Rookie
+          url: https://youtu.be/JvyjwGXv7SI
+          metadata:
+            tournament: Fall Major 2018
+            level: Rookie
+            teePosition: 1
+            ball: Quasar
+            clubs:
+              - name: Sniper
+                level: 6
+            wind:
+              direction: WNW
+              magnitude: 4.3
+            keywords:
+        - title: Fall Major 2018 - Pro
+          url: https://youtu.be/FVt6MVdESXk
+          metadata:
+            tournament: Fall Major 2018
+            level: Pro
+            teePosition: 2
+            ball: Titan
+            clubs:
+              - name: Sniper
+                level: 8
+            wind:
+              direction: N
+              magnitude: 7.3
+            keywords:
+        - title: Fall Major 2018 - Expert
+          url: https://youtu.be/3_yvPjJUNVA
+          metadata:
+            tournament: Fall Major 2018
+            level: Expert
+            teePosition: 2
+            ball: King Maker
+            clubs:
+              - name: Sniper
+                level: 9
+            wind:
+              direction: ENE
+              magnitude: 8.3
+            keywords:
+        - title: Fall Major 2018 - Master
+          url: https://youtu.be/6Kl3tJ0SVw8
+          metadata:
+            tournament: Fall Major 2018
+            level: Master
+            teePosition: 3
+            ball: Turkey
+            clubs:
+              - name: Quarterback
+                level: 10
+            wind:
+              direction: SE
+              magnitude: 8.6
+            keywords:
+        - title: Fall Major 2018 - Master
+          url: https://youtu.be/j5iYDhLMQlg
+          metadata:
+            tournament: Fall Major 2018
+            level: Master
+            teePosition: 3
+            ball: Bunny
+            clubs:
+              - name: Quarterback
+                level: 10
+              - name: Rapier
+                level: 8
+            wind:
+              direction: SE
+              magnitude: 9.8
+            keywords:
+        - title: Fall Major 2018 - Master
+          url: https://youtu.be/fmmbixciHi4
+          metadata:
+            tournament: Fall Major 2018
+            level: Master
+            teePosition: 3
+            ball: Bandera
+            clubs:
+              - name: Quarterback
+                level: 10
+            wind:
+              direction: SE
+              magnitude: 7.8
+            keywords:
         - title: Tour 8 - 2nd Tee Shootout Wind Pointed at 730
           url: https://youtu.be/KU0tzp9MHXQ
           metadata:
@@ -80,6 +264,102 @@ holes:
           url: https://youtu.be/NXe-pKfJh4I
       - name: Zachary Jones
         resources:
+        - title: Fall Major 2018 - Rookie
+          url: https://youtu.be/RO8PuHhYojI
+          metadata:
+            tournament: Fall Major 2018
+            level: Rookie
+            teePosition: 1
+            ball: Quasar
+            clubs:
+              - name: Extra Mile
+                level: 6
+              - name: Saturn
+                level: 7
+            wind:
+              direction: NNW
+              magnitude: 4.9
+            keywords:
+        - title: Fall Major 2018 - Pro
+          url: https://youtu.be/wKJb27gZ0hA
+          metadata:
+            tournament: Fall Major 2018
+            level: Pro
+            teePosition: 2
+            ball: King Maker
+            clubs:
+              - name: Extra Mile
+                level: 6
+              - name: Sniper
+                level: 8
+            wind:
+              direction: N
+              magnitude: 5.7
+            keywords:
+        - title: Fall Major 2018 - Expert
+          url: https://youtu.be/ntHhTwYjDMs
+          metadata:
+            tournament: Fall Major 2018
+            level: Expert
+            teePosition: 2
+            ball: King Maker
+            clubs:
+              - name: Thor's Hammer
+                level: 3
+              - name: Backbone
+                level: 9
+            wind:
+              direction: W
+              magnitude: 7.6
+            keywords:
+        - title: Fall Major 2018 - Master
+          url: https://youtu.be/a6e4EVUVspQ
+          metadata:
+            tournament: Fall Major 2018
+            level: Master
+            teePosition: 3
+            ball: King Maker
+            clubs:
+              - name: Apocalypse
+                level: 4
+              - name: B52
+                level: 6
+            wind:
+              direction: NW
+              magnitude: 10.4
+            keywords:
+        - title: Fall Major 2018 - Master
+          url: https://youtu.be/3E6wXlp2asI
+          metadata:
+            tournament: Fall Major 2018
+            level: Master
+            teePosition: 3
+            ball: King Maker
+            clubs:
+              - name: Apocalypse
+                level: 5
+              - name: B52
+                level: 6
+            wind:
+              direction: NW
+              magnitude: 10.4
+            keywords:
+        - title: Fall Major 2018 - Master
+          url: https://youtu.be/fygsTSGQ5SY
+          metadata:
+            tournament: Fall Major 2018
+            level: Master
+            teePosition: 3
+            ball: King Maker
+            clubs:
+              - name: Apocalypse
+                level: 7
+              - name: B52
+                level: 7
+            wind:
+              direction: NW
+              magnitude: 10.4
+            keywords:
         - title: Tour 8 - 2nd Tee Strategy and tips
           url: https://youtu.be/bX2MrUlUn6Q
           metadata:
@@ -110,6 +390,92 @@ holes:
           url: https://youtu.be/-XSeNgp3TRY
         - title: Fall Major 2018 - Pro & Expert Guide
           url: https://youtu.be/3H8kSQuKhck
+      - name: Zachary Jones
+        resources:
+        - title: Fall Major 2018 - Rookie
+          url: https://youtu.be/kaQYvXWM3eM
+          metadata:
+            tournament: Fall Major 2018
+            level: Rookie
+            teePosition: 1
+            ball: Quasar
+            clubs:
+              - name: Backbone
+                level: 8
+            wind:
+              direction: SE
+              magnitude: 3.0
+            keywords:
+        - title: Fall Major 2018 - Pro
+          url: https://youtu.be/OlDGMS8IqCI
+          metadata:
+            tournament: Fall Major 2018
+            level: Pro
+            teePosition: 2
+            ball: Titan
+            clubs:
+              - name: Sniper
+                level: 8
+            wind:
+              direction: N
+              magnitude: 7.3
+            keywords:
+        - title: Fall Major 2018 - Expert
+          url: https://youtu.be/c3QuR3oogng
+          metadata:
+            tournament: Fall Major 2018
+            level: Expert
+            teePosition: 2
+            ball: King Maker
+            clubs:
+              - name: Sniper
+                level: 9
+            wind:
+              direction: NE
+              magnitude: 8.7
+            keywords:
+        - title: Fall Major 2018 - Master
+          url: https://youtu.be/cvlYwaAwr-8
+          metadata:
+            tournament: Fall Major 2018
+            level: Master
+            teePosition: 3
+            ball: Hat Trick
+            clubs:
+              - name: Quarterback
+                level: 10
+            wind:
+              direction: SSW
+              magnitude: 10.2
+            keywords:
+        - title: Fall Major 2018 - Master
+          url: https://youtu.be/vzMSU4bBSUA
+          metadata:
+            tournament: Fall Major 2018
+            level: Master
+            teePosition: 3
+            ball: Navigator
+            clubs:
+              - name: Quarterback
+                level: 10
+            wind:
+              direction: SSW
+              magnitude: 12.0
+            keywords:
+        - title: Fall Major 2018 - Master
+          url: https://youtu.be/WJJwJdX_0_Q
+          metadata:
+            tournament: Fall Major 2018
+            level: Master
+            teePosition: 3
+            ball: King Maker
+            clubs:
+              - name: Rocket
+                level: 10
+            wind:
+              direction: SSW
+              magnitude: 11.6
+            keywords:
   - id: 3bc34539-ff5a-41d1-accd-372346916570
     course: Eagle Peak
     number: 5
@@ -127,6 +493,102 @@ holes:
           url: https://youtu.be/m_V-a66DFL8
       - name: Zachary Jones
         resources:
+        - title: Fall Major 2018 - Rookie
+          url: https://youtu.be/_Xr-g6IdLro
+          metadata:
+            tournament: Fall Major 2018
+            level: Rookie
+            teePosition: 1
+            ball: Titan
+            clubs:
+              - name: Big Topper
+                level: 4
+              - name: Backbone
+                level: 8
+            wind:
+              direction: NNW
+              magnitude: 3.9
+            keywords:
+        - title: Fall Major 2018 - Pro
+          url: https://youtu.be/_fmhldCid5c
+          metadata:
+            tournament: Fall Major 2018
+            level: Pro
+            teePosition: 2
+            ball: Titan
+            clubs:
+              - name: Big Topper
+                level: 2
+              - name: Thorn
+                level: 5
+            wind:
+              direction: NE
+              magnitude: 6.0
+            keywords:
+        - title: Fall Major 2018 - Expert
+          url: https://youtu.be/J47OhCzl57w
+          metadata:
+            tournament: Fall Major 2018
+            level: Expert
+            teePosition: 2
+            ball: King Maker
+            clubs:
+              - name: Big Topper
+                level: 4
+              - name: Nirvana
+                level: 5
+            wind:
+              direction: N
+              magnitude: 8.4
+            keywords:
+        - title: Fall Major 2018 - Master
+          url: https://youtu.be/_yJ-JECzEa0
+          metadata:
+            tournament: Fall Major 2018
+            level: Master
+            teePosition: 3
+            ball: Berserker
+            clubs:
+              - name: Apocalypse
+                level: 4
+              - name: Rapier
+                level: 8
+            wind:
+              direction: NE
+              magnitude: 15.0
+            keywords:
+        - title: Fall Major 2018 - Master
+          url: https://youtu.be/Y6bhMVzSXNg
+          metadata:
+            tournament: Fall Major 2018
+            level: Master
+            teePosition: 3
+            ball: Berserker
+            clubs:
+              - name: Apocalypse
+                level: 5
+              - name: Nirvana
+                level: 8
+            wind:
+              direction: NNE
+              magnitude: 15.8
+            keywords:
+        - title: Fall Major 2018 - Master
+          url: https://youtu.be/OFNzdxGHEcw
+          metadata:
+            tournament: Fall Major 2018
+            level: Master
+            teePosition: 3
+            ball: King Maker
+            clubs:
+              - name: Apocalypse
+                level: 7
+              - name: Spitfire
+                level: 6
+            wind:
+              direction: NE
+              magnitude: 12.3
+            keywords:
         - title: Tour 8 - 2nd Tee Strategy and Tips
           url: https://youtu.be/ZaFpXNJuz-U
           metadata:
@@ -174,6 +636,102 @@ holes:
           url: https://youtu.be/XJ1dM5g094I
       - name: Zachary Jones
         resources:
+        - title: Fall Major 2018 - Rookie
+          url: https://youtu.be/izpnuH9xJnU
+          metadata:
+            tournament: Fall Major 2018
+            level: Rookie
+            teePosition: 1
+            ball: Titan
+            clubs:
+              - name: Extra Mile
+                level: 6
+              - name: Sniper
+                level: 6
+            wind:
+              direction: NNE
+              magnitude: 4.3
+            keywords:
+        - title: Fall Major 2018 - Pro
+          url: https://youtu.be/WW21lhliSBQ
+          metadata:
+            tournament: Fall Major 2018
+            level: Pro
+            teePosition: 2
+            ball: Titan
+            clubs:
+              - name: Extra Mile
+                level: 6
+              - name: Sniper
+                level: 8
+            wind:
+              direction: NNW
+              magnitude: 7.2
+            keywords:
+        - title: Fall Major 2018 - Expert
+          url: https://youtu.be/73aPSodGMYI
+          metadata:
+            tournament: Fall Major 2018
+            level: Expert
+            teePosition: 2
+            ball: King Maker
+            clubs:
+              - name: Extra Mile
+                level: 6
+              - name: Sniper
+                level: 9
+            wind:
+              direction: ENE
+              magnitude: 9.1
+            keywords:
+        - title: Fall Major 2018 - Master
+          url: https://youtu.be/myVAKGJQN1w
+          metadata:
+            tournament: Fall Major 2018
+            level: Master
+            teePosition: 3
+            ball: Royal
+            clubs:
+              - name: Apocalypse
+                level: 4
+              - name: Sniper
+                level: 10
+            wind:
+              direction: E
+              magnitude: 10.4
+            keywords:
+        - title: Fall Major 2018 - Master
+          url: https://youtu.be/hQpvGOkwZlk
+          metadata:
+            tournament: Fall Major 2018
+            level: Master
+            teePosition: 3
+            ball: King Maker
+            clubs:
+              - name: Apocalypse
+                level: 5
+              - name: Cataclysm
+                level: 7
+            wind:
+              direction: ESE
+              magnitude: 12.3
+            keywords:
+        - title: Fall Major 2018 - Master
+          url: https://youtu.be/QJU1Hy-W7hE
+          metadata:
+            tournament: Fall Major 2018
+            level: Master
+            teePosition: 3
+            ball: King Maker
+            clubs:
+              - name: Apocalypse
+                level: 7
+              - name: Cataclysm
+                level: 7
+            wind:
+              direction: ESE
+              magnitude: 11.6
+            keywords:
         - title: Tour 8 - 2nd Tee Strategy and tips
           url: https://youtu.be/2YutuS3T6iE
           metadata:
@@ -208,6 +766,90 @@ holes:
           url: https://youtu.be/vmrkMKj5EZI
       - name: Zachary Jones
         resources:
+        - title: Fall Major 2018 - Rookie
+          url: https://youtu.be/IViufc62hhs
+          metadata:
+            tournament: Fall Major 2018
+            level: Rookie
+            teePosition: 1
+            ball: Quasar
+            clubs:
+              - name: Backbone
+                level: 8
+            wind:
+              direction: WNW
+              magnitude: 5.0
+            keywords:
+        - title: Fall Major 2018 - Pro
+          url: https://youtu.be/dcYz3GVa8G4
+          metadata:
+            tournament: Fall Major 2018
+            level: Pro
+            teePosition: 2
+            ball: Katana
+            clubs:
+              - name: Sniper
+                level: 8
+            wind:
+              direction: ENE
+              magnitude: 6.2
+            keywords:
+        - title: Fall Major 2018 - Expert
+          url: https://youtu.be/PI4xlzCvW2g
+          metadata:
+            tournament: Fall Major 2018
+            level: Expert
+            teePosition: 2
+            ball: King Maker
+            clubs:
+              - name: Sniper
+                level: 9
+            wind:
+              direction: SW
+              magnitude: 7.5
+            keywords:
+        - title: Fall Major 2018 - Master
+          url: https://youtu.be/8IxSedqDH4s
+          metadata:
+            tournament: Fall Major 2018
+            level: Master
+            teePosition: 3
+            ball: Voyager
+            clubs:
+              - name: Quarterback
+                level: 10
+            wind:
+              direction: SE
+              magnitude: 10.4
+            keywords:
+        - title: Fall Major 2018 - Master
+          url: https://youtu.be/EQ6mh0KbtyI
+          metadata:
+            tournament: Fall Major 2018
+            level: Master
+            teePosition: 3
+            ball: King Maker
+            clubs:
+              - name: Quarterback
+                level: 10
+            wind:
+              direction: SE
+              magnitude: 11.5
+            keywords:
+        - title: Fall Major 2018 - Master
+          url: https://youtu.be/3ddDK0lu8z0
+          metadata:
+            tournament: Fall Major 2018
+            level: Master
+            teePosition: 3
+            ball: King Maker
+            clubs:
+              - name: Quarterback
+                level: 10
+            wind:
+              direction: SE
+              magnitude: 12.1
+            keywords:
         - title: Tour 8 - Shootout wind pointed at 4 O'clock
           url: https://youtu.be/ZSARGr_Wa9M
           metadata:
@@ -251,6 +893,102 @@ holes:
           url: https://youtu.be/s2H7nS_S4JQ
       - name: Zachary Jones
         resources:
+        - title: Fall Major 2018 - Rookie
+          url: https://youtu.be/l__e7tMfTwA
+          metadata:
+            tournament: Fall Major 2018
+            level: Rookie
+            teePosition: 1
+            ball: Katana
+            clubs:
+              - name: Quarterback
+                level: 7
+              - name: Nirvana
+                level: 4
+            wind:
+              direction: NE
+              magnitude: 4.0
+            keywords:
+        - title: Fall Major 2018 - Pro
+          url: https://youtu.be/hiSN55MwLyg
+          metadata:
+            tournament: Fall Major 2018
+            level: Pro
+            teePosition: 2
+            ball: King Maker
+            clubs:
+              - name: Big Topper
+                level: 2
+              - name: Nirvana
+                level: 4
+            wind:
+              direction: ESE
+              magnitude: 6.3
+            keywords:
+        - title: Fall Major 2018 - Expert
+          url: https://youtu.be/nbBm4GymGPM
+          metadata:
+            tournament: Fall Major 2018
+            level: Expert
+            teePosition: 2
+            ball: King Maker
+            clubs:
+              - name: Big Topper
+                level: 4
+              - name: Nirvana
+                level: 5
+            wind:
+              direction: W
+              magnitude: 8.9
+            keywords:
+        - title: Fall Major 2018 - Master
+          url: https://youtu.be/mw5N4EUw4qI
+          metadata:
+            tournament: Fall Major 2018
+            level: Master
+            teePosition: 3
+            ball: Jewel
+            clubs:
+              - name: Apocalypse
+                level: 4
+              - name: Spitfire
+                level: 5
+            wind:
+              direction: SW
+              magnitude: 10.1
+            keywords:
+        - title: Fall Major 2018 - Master
+          url: https://youtu.be/Jf6kl7GT5mc
+          metadata:
+            tournament: Fall Major 2018
+            level: Master
+            teePosition: 3
+            ball: Season 1
+            clubs:
+              - name: Apocalypse
+                level: 5
+              - name: Rapier
+                level: 8
+            wind:
+              direction: SW
+              magnitude: 11.9
+            keywords:
+        - title: Fall Major 2018 - Master
+          url: https://youtu.be/jPcQ6bFtRtc
+          metadata:
+            tournament: Fall Major 2018
+            level: Master
+            teePosition: 3
+            ball: Dead
+            clubs:
+              - name: Apocalypse
+                level: 7
+              - name: Spitfire
+                level: 6
+            wind:
+              direction: SSW
+              magnitude: 11.3
+            keywords:
         - title: Tour 8 - 2nd Tee Strategy and Tips for Eagle
           url: https://youtu.be/emUxzbY4Ot0
           metadata:
@@ -299,6 +1037,104 @@ holes:
           url: https://youtu.be/flCPVHCZ-OM
       - name: Zachary Jones
         resources:
+        - title: Fall Major 2018 - Rookie
+          url: https://youtu.be/2NscT1une70
+          metadata:
+            tournament: Fall Major 2018
+            level: Rookie
+            teePosition: 1
+            ball: Berserker
+            clubs:
+              - name: Big Topper
+                level: 4
+              - name: Nirvana
+                level: 4
+            wind:
+              direction: NNE
+              magnitude: 4.0
+            keywords:
+        - title: Fall Major 2018 - Pro
+          url: https://youtu.be/A4hWg_EPF9c
+          metadata:
+            tournament: Fall Major 2018
+            level: Pro
+            teePosition: 2
+            ball: Titan
+            clubs:
+              - name: Extra Mile
+                level: 6
+              - name: Sniper
+                level: 8
+            wind:
+              direction: N
+              magnitude: 7.0
+            keywords:
+        - title: Fall Major 2018 - Expert
+          url: https://youtu.be/KLioZxyKFow
+          metadata:
+            tournament: Fall Major 2018
+            level: Expert
+            teePosition: 2
+            ball: Berserker
+            clubs:
+              - name: Thor's Hammer
+                level: 3
+              - name: Nirvana
+                level: 5
+              - name: Rapier
+                level: 5
+            wind:
+              direction: NW
+              magnitude: 10.0
+            keywords:
+        - title: Fall Major 2018 - Master
+          url: https://youtu.be/wwtto7iz3iM
+          metadata:
+            tournament: Fall Major 2018
+            level: Master
+            teePosition: 3
+            ball: Gear
+            clubs:
+              - name: Apocalypse
+                level: 4
+              - name: Guardian
+                level: 8
+            wind:
+              direction: E
+              magnitude: 12.5
+            keywords:
+        - title: Fall Major 2018 - Master
+          url: https://youtu.be/TWO-EW58GT0
+          metadata:
+            tournament: Fall Major 2018
+            level: Master
+            teePosition: 3
+            ball: King Maker
+            clubs:
+              - name: Apocalypse
+                level: 5
+              - name: Cataclysm
+                level: 7
+            wind:
+              direction: E
+              magnitude: 10.4
+            keywords:
+        - title: Fall Major 2018 - Master
+          url: https://youtu.be/qLlotxnKVeQ
+          metadata:
+            tournament: Fall Major 2018
+            level: Master
+            teePosition: 3
+            ball: Dead
+            clubs:
+              - name: Apocalypse
+                level: 7
+              - name: Cataclysm
+                level: 7
+            wind:
+              direction: E
+              magnitude: 11.2
+            keywords:
         - title: Tour 8 - 2nd Tee Strategy and Tips
           url: https://youtu.be/uuHOW7o1r3c
           metadata:
