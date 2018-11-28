@@ -9,6 +9,14 @@ holes:
     description: >
       Help Wanted
     resourceCreators:
+      - name: Golf Clash Tommy
+        resources:
+        - title: Rookie Guide
+          url: https://youtu.be/a9scRSxwBK4
+        - title: Pro / Expert Guide
+          url: https://youtu.be/5eD98UTd9To
+        - title: Text Guide
+          url: https://i.imgur.com/hhQUdui.png
       - name: Zachary Jones
         resources:
         - title: General Instruction - 3rd Tee
@@ -39,6 +47,14 @@ holes:
     description: >
       Help Wanted
     resourceCreators:
+      - name: Golf Clash Tommy
+        resources:
+        - title: Rookie Guide
+          url: https://youtu.be/7MOHX955E-w
+        - title: Pro / Expert Guide
+          url: https://youtu.be/Ndtx4NSNbRU
+        - title: Text Guide
+          url: https://i.imgur.com/JeehCzC.png
       - name: Zachary Jones
         resources:
         - title: Tour 11 - Strategy and Tips
@@ -67,6 +83,15 @@ holes:
     replayName: "5C"
     description: >
       Help Wanted
+    resourceCreators:
+      - name: Golf Clash Tommy
+        resources:
+        - title: Rookie Guide
+          url: https://youtu.be/AmXS816DEJU
+        - title: Pro / Expert Guide
+          url: https://youtu.be/BCbkszGMJRs
+        - title: Text Guide
+          url: https://i.imgur.com/gHamKb7.png
     aliases:
       - 2bde31cb-61bf-421b-9031-409a396ddd3b
   - id: 55ec9b30-4c36-4d8a-9a19-d759c4131d6c
@@ -83,6 +108,12 @@ holes:
           url: https://youtu.be/PqfN5gZEdN8
         - title: Voyager - Pro / Expert
           url: https://youtu.be/Jhy7oLJ0DJE
+        - title: Rookie Guide
+          url: https://youtu.be/ZsF7A5dMbeo
+        - title: Pro / Expert Guide
+          url: https://youtu.be/UiqQckxEaW0
+        - title: Text Guide
+          url: https://i.imgur.com/UjBSrnZ.png
       - name: Zachary Jones
         resources:
         - title: General Instruction - 3rd Tee
@@ -274,6 +305,12 @@ holes:
           url: https://youtu.be/epJljJonCho
         - title: Voyager - Pro / Expert
           url: https://youtu.be/8nuiOkE-YbQ
+        - title: Rookie Guide
+          url: https://youtu.be/QSjwbZGiP4E
+        - title: Pro / Expert Guide
+          url: https://youtu.be/zIdvvBrv17U
+        - title: Text Guide
+          url: https://i.imgur.com/CDrWodR.jpg
       - name: Zachary Jones
         resources:
         - title: Tour 11 - Advice and tips
@@ -481,6 +518,12 @@ holes:
     description: >
       Help Wanted
     resourceCreators:
+      - name: Golf Clash Tommy
+        resources:
+        - title: Rookie Guide
+          url: https://youtu.be/AdzVN4OZxK4
+        - title: Text Guide
+          url: https://i.imgur.com/0jLncAe.png
       - name: Zachary Jones
         resources:
         - title: Tour 11 - Strategy and Tips
@@ -507,6 +550,15 @@ holes:
     replayName: "4C"
     description: >
       Help Wanted
+    resourceCreators:
+      - name: Golf Clash Tommy
+        resources:
+        - title: Rookie Guide
+          url: https://youtu.be/q1ovD0vKq3c
+        - title: Pro / Expert Guide
+          url: https://youtu.be/22ha-0ywIsE
+        - title: Text Guide
+          url: https://i.imgur.com/czqlwoy.png
     aliases:
       - 8f6e03cb-a10b-465d-b112-7ca73ac9fd02
   - id: 4d434fd0-0f6a-454c-b8c1-e84a7bdf9465
@@ -517,6 +569,14 @@ holes:
     description: >
       Help Wanted
     resourceCreators:
+      - name: Golf Clash Tommy
+        resources:
+        - title: Rookie Guide
+          url: https://youtu.be/VQracmOtRUQ
+        - title: Pro / Expert Guide
+          url: https://youtu.be/e6z-H27OkiI
+        - title: Text Guide
+          url: https://i.imgur.com/spYFvmy.jpg
       - name: Zachary Jones
         resources:
         - title: General Instruction - 3rd Tee
@@ -566,6 +626,12 @@ holes:
           url: https://youtu.be/ZdMiA53AAWA
         - title: Voyager - Pro / Expert
           url: https://youtu.be/F-4XfnI8xCY
+        - title: Rookie Guide
+          url: https://youtu.be/8CUt1chgy1w
+        - title: Pro / Expert Guide
+          url: https://youtu.be/t7zQqNFN0uY
+        - title: Text Guide
+          url: https://i.imgur.com/l0TG4ew.png
       - name: Zachary Jones
         resources:
         - title: Tour 11 - Strategy and Tips

@@ -21,28 +21,6 @@ holes:
           - Sniper
           - Quarterback
     resourceCreators:
-      - name: Golf Clash Tommy
-        resources:
-        - title: Rookie Guide
-          url: https://youtu.be/8iDrg_KtfNk
-        - title: Pro / Expert Guide
-          url: https://youtu.be/0ZVqQldvitI
-        - title: Masters Guide
-          url: https://youtu.be/ZeQjN9Khjdc
-        - title: Text Guide
-          url: https://i.imgur.com/oHa3lUS.jpg
-      - name: Zachary Jones
-        resources:
-        - title: St. Patrick's - Rookie
-          url: https://youtu.be/DnvCceZXkQ0
-        - title: St. Patrick's - Pro
-          url: https://youtu.be/MR_VW3o067A
-        - title: St. Patrick's - Masters
-          url: https://youtu.be/cvvTdfHbFHI
-      - name: Kevin Warren
-        resources:
-        - title: St. Patrick's - Pro
-          url: https://youtu.be/Yb5_8Fejq6M
     aliases:
       - 3bf723fa-a6dc-4c9f-bb7c-840379a8e7c1
     overlays:
@@ -116,28 +94,6 @@ holes:
           - Big Dawg
           - Cataclysm
     resourceCreators:
-      - name: Golf Clash Tommy
-        resources:
-        - title: Rookie Guide
-          url: https://youtu.be/IFRUoU1sRSU
-        - title: Pro / Expert Guide
-          url: https://youtu.be/sJuuI9l2mok
-        - title: Masters Guide
-          url: https://youtu.be/eErTCZWm2e0
-        - title: Text Guide
-          url: https://i.imgur.com/sPSr5e1.jpg
-      - name: Zachary Jones
-        resources:
-        - title: St. Patrick's - Rookie
-          url: https://youtu.be/cuT4BFjioHg
-        - title: St. Patrick's - Pro
-          url: https://youtu.be/O4ff_K96o78
-        - title: St. Patrick's - Masters
-          url: https://youtu.be/GftTbRw9f5s
-      - name: Kevin Warren
-        resources:
-        - title: St. Patrick's - Pro
-          url: https://youtu.be/5V4k1SFHCLE
     aliases:
       - d880d1a0-1742-4356-aab1-0aed6a81ff61
     overlays:
@@ -230,28 +186,6 @@ holes:
         clubs:
           - Sniper
     resourceCreators:
-      - name: Golf Clash Tommy
-        resources:
-        - title: Rookie Guide
-          url: https://youtu.be/QqaXZXloCwM
-        - title: Pro / Expert Guide
-          url: https://youtu.be/JSA-RfTGtOM
-        - title: Masters Guide
-          url: https://youtu.be/AnPTR5cCRlo
-        - title: Text Guide
-          url: https://i.imgur.com/8SIo1XH.jpg
-      - name: Zachary Jones
-        resources:
-        - title: St. Patrick's - Rookie
-          url: https://youtu.be/QkAga7jxVmY
-        - title: St. Patrick's - Pro
-          url: https://youtu.be/TLBN1G2QUYE
-        - title: St. Patrick's - Masters
-          url: https://youtu.be/kGidlAwoVQ8
-      - name: Kevin Warren
-        resources:
-        - title: St. Patrick's - Pro
-          url: https://youtu.be/N4VV__cCxDM
     aliases:
       - 32438d22-96fb-40af-9625-8491bfdfac2b
     overlays:
@@ -337,28 +271,6 @@ holes:
           - Big Dawg
           - Cataclysm
     resourceCreators:
-      - name: Golf Clash Tommy
-        resources:
-        - title: Rookie Guide
-          url: https://youtu.be/CV-LjJvfI3k
-        - title: Pro / Expert Guide
-          url: https://youtu.be/WZZTJHxIh4Y
-        - title: Masters Guide
-          url: https://youtu.be/MYGLsu8XhaE
-        - title: Text Guide
-          url: https://i.imgur.com/mf0PoXM.jpg
-      - name: Zachary Jones
-        resources:
-        - title: St. Patrick's - Rookie
-          url: https://youtu.be/IDQB1bzfX68
-        - title: St. Patrick's - Pro
-          url: https://youtu.be/RMUpSgthm2Q
-        - title: St. Patrick's - Masters
-          url: https://youtu.be/fpwdYJKpUd8
-      - name: Kevin Warren
-        resources:
-        - title: St. Patrick's - Pro
-          url: https://youtu.be/959r-spGv5E
     aliases:
       - 929ce86e-c9e1-4065-bd31-2d09609fda26
     overlays:
@@ -427,28 +339,6 @@ holes:
           - Thorn
           - Hornet
     resourceCreators:
-      - name: Golf Clash Tommy
-        resources:
-        - title: Rookie Guide
-          url: https://youtu.be/o6xazWXqThk
-        - title: Pro / Expert Guide
-          url: https://youtu.be/35JcT84SfV0
-        - title: Masters Guide
-          url: https://youtu.be/Ssf6v0vbVV0
-        - title: Text Guide
-          url: https://i.imgur.com/D2Z1Chk.jpg
-      - name: Zachary Jones
-        resources:
-        - title: St. Patrick's - Rookie
-          url: https://youtu.be/TFt0iOG3Iao
-        - title: St. Patrick's - Pro
-          url: https://youtu.be/x5aylQMFxUQ
-        - title: St. Patrick's - Masters
-          url: https://youtu.be/KpdTC9b5t9g
-      - name: Kevin Warren
-        resources:
-        - title: St. Patrick's - Pro
-          url: https://youtu.be/rzNa4bDF3Qw
     aliases:
       - 956ca238-06a7-4aed-bd87-54b0f7638384
     overlays:
@@ -536,28 +426,6 @@ holes:
           - Thorn
           - Hornet
     resourceCreators:
-      - name: Golf Clash Tommy
-        resources:
-        - title: Rookie Guide
-          url: https://youtu.be/ieFcpXDug60
-        - title: Pro / Expert Guide
-          url: https://youtu.be/9oQALnWovtg
-        - title: Masters Guide
-          url: https://youtu.be/J7INW9n7MgE
-        - title: Text Guide
-          url: https://i.imgur.com/zSo7emd.jpg
-      - name: Zachary Jones
-        resources:
-        - title: St. Patrick's - Rookie
-          url: https://youtu.be/sZJFl38xa3A
-        - title: St. Patrick's - Pro
-          url: https://youtu.be/G8Tp92mAt3U
-        - title: St. Patrick's - Masters
-          url: https://youtu.be/39SAK1B1ry0
-      - name: Kevin Warren
-        resources:
-        - title: St. Patrick's - Pro
-          url: https://youtu.be/BA88pnZnVOg
     aliases:
       - 982bb7ec-be4f-4400-a040-a21f816aacee
     overlays:
@@ -636,28 +504,6 @@ holes:
           - Sniper
           - Quarterback
     resourceCreators:
-      - name: Golf Clash Tommy
-        resources:
-        - title: Rookie Guide
-          url: https://youtu.be/-MT9H11Z6g0
-        - title: Pro / Expert Guide
-          url: https://youtu.be/SYSbnuzJC0I
-        - title: Masters Guide
-          url: https://youtu.be/oYlF7QYG4ls
-        - title: Text Guide
-          url: https://i.imgur.com/dIJ3Ekh.jpg
-      - name: Zachary Jones
-        resources:
-        - title: St. Patrick's - Rookie
-          url: https://youtu.be/v70O-KwURlE
-        - title: St. Patrick's - Pro
-          url: https://youtu.be/tyE_PtEVwzY
-        - title: St. Patrick's - Masters
-          url: https://youtu.be/3NKpYnj6Poc
-      - name: Kevin Warren
-        resources:
-        - title: St. Patrick's - Pro
-          url: https://youtu.be/43BnHaLI-Rs
     aliases:
       - bbd7910c-52a4-44fe-93b9-bcea4676d02f
     overlays:
@@ -726,28 +572,6 @@ holes:
           - Thorn
           - Saturn
     resourceCreators:
-      - name: Golf Clash Tommy
-        resources:
-        - title: Rookie Guide
-          url: https://youtu.be/3MhzZ-oj9qA
-        - title: Pro / Expert Guide
-          url: https://youtu.be/yNh-Cog-e8I
-        - title: Masters Guide
-          url: https://youtu.be/C1VDhskHu88
-        - title: Text Guide
-          url: https://i.imgur.com/gZR0Yow.jpg
-      - name: Zachary Jones
-        resources:
-        - title: St. Patrick's - Rookie
-          url: https://youtu.be/ABR8f4mC51w
-        - title: St. Patrick's - Pro
-          url: https://youtu.be/hfCBdVxB9hc
-        - title: St. Patrick's - Masters
-          url: https://youtu.be/NRmMT9Wzihk
-      - name: Kevin Warren
-        resources:
-        - title: St. Patrick's - Pro
-          url: https://youtu.be/wsMMgWYkzQ0
     aliases:
       - ea520478-83be-438b-b043-a78dc8b5ad6d
     overlays:
@@ -801,28 +625,6 @@ holes:
           - Big Dawg
           - Cataclysm
     resourceCreators:
-      - name: Golf Clash Tommy
-        resources:
-        - title: Rookie Guide
-          url: https://youtu.be/vTj5PTG3C2c
-        - title: Pro / Expert Guide
-          url: https://youtu.be/aYEXM5i6X8s
-        - title: Masters Guide
-          url: https://youtu.be/0xDIr5CcCoQ
-        - title: Text Guide
-          url: https://i.imgur.com/nTYbP5g.jpg
-      - name: Zachary Jones
-        resources:
-        - title: St. Patrick's - Rookie
-          url: https://youtu.be/Hy1zXM0StNE
-        - title: St. Patrick's - Pro
-          url: https://youtu.be/YNtYcbR4zSg
-        - title: St. Patrick's - Masters
-          url: https://youtu.be/4kZXar6gUE0
-      - name: Kevin Warren
-        resources:
-        - title: St. Patrick's - Pro
-          url: https://youtu.be/kjhVYEhqaVs
     aliases:
       - 15bc87ac-1b7f-4a74-8e88-8ac5c8492afc
     overlays:

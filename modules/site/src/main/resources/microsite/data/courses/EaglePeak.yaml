@@ -66,6 +66,22 @@ holes:
               direction: NW
               magnitude: 10.0
             keywords:
+        - title: Fall Major 2018 - Expert
+          url:
+          metadata:
+            tournament: Fall Major 2018
+            level: Expert
+            teePosition: 2
+            ball: Gear
+            clubs:
+              - name: Thor's Hammer
+                level: 6
+              - name: Thorn
+                level: 8
+            wind:
+              direction: NNW
+              magnitude: 8.6
+            keywords:
         - title: Fall Major 2018 - Master
           url: https://youtu.be/n1ffZe-uUm8
           metadata:
@@ -115,6 +131,22 @@ holes:
             wind:
               direction: NW
               magnitude: 16.7
+            keywords:
+        - title: Fall Major 2018 - Master
+          url:
+          metadata:
+            tournament: Fall Major 2018
+            level: Master
+            teePosition: 3
+            ball: Berserker
+            clubs:
+              - name: Apocalypse
+                level: 7
+              - name: Thorn
+                level: 8
+            wind:
+              direction: NW
+              magnitude: 13.6
             keywords:
         - title: Tour 8 - 2nd Tee Strategy and Tips
           url: https://youtu.be/0DqrQ5YbGps
@@ -190,6 +222,20 @@ holes:
               direction: ENE
               magnitude: 8.3
             keywords:
+        - title: Fall Major 2018 - Expert
+          url:
+          metadata:
+            tournament: Fall Major 2018
+            level: Expert
+            teePosition: 2
+            ball: King Maker
+            clubs:
+              - name: Sniper
+                level: 10
+            wind:
+              direction: E
+              magnitude: 8.5
+            keywords:
         - title: Fall Major 2018 - Master
           url: https://youtu.be/6Kl3tJ0SVw8
           metadata:
@@ -233,6 +279,20 @@ holes:
             wind:
               direction: SE
               magnitude: 7.8
+            keywords:
+        - title: Fall Major 2018 - Master
+          url:
+          metadata:
+            tournament: Fall Major 2018
+            level: Master
+            teePosition: 3
+            ball: King Maker
+            clubs:
+              - name: Rocket
+                level: 10
+            wind:
+              direction: SSE
+              magnitude: 11.5
             keywords:
         - title: Tour 8 - 2nd Tee Shootout Wind Pointed at 730
           url: https://youtu.be/KU0tzp9MHXQ
@@ -312,6 +372,22 @@ holes:
               direction: W
               magnitude: 7.6
             keywords:
+        - title: Fall Major 2018 - Expert
+          url:
+          metadata:
+            tournament: Fall Major 2018
+            level: Expert
+            teePosition: 2
+            ball: King Maker
+            clubs:
+              - name: Apocalypse
+                level: 4
+              - name: Sniper
+                level: 10
+            wind:
+              direction: W
+              magnitude: 8.5
+            keywords:
         - title: Fall Major 2018 - Master
           url: https://youtu.be/a6e4EVUVspQ
           metadata:
@@ -359,6 +435,22 @@ holes:
             wind:
               direction: NW
               magnitude: 10.4
+            keywords:
+        - title: Fall Major 2018 - Master
+          url:
+          metadata:
+            tournament: Fall Major 2018
+            level: Master
+            teePosition: 3
+            ball: King Maker
+            clubs:
+              - name: Apocalypse
+                level: 7
+              - name: Tsunami
+                level: 7
+            wind:
+              direction: NW
+              magnitude: 11.5
             keywords:
         - title: Tour 8 - 2nd Tee Strategy and tips
           url: https://youtu.be/bX2MrUlUn6Q
@@ -434,6 +526,20 @@ holes:
               direction: NE
               magnitude: 8.7
             keywords:
+        - title: Fall Major 2018 - Expert
+          url:
+          metadata:
+            tournament: Fall Major 2018
+            level: Expert
+            teePosition: 2
+            ball: King Maker
+            clubs:
+              - name: B52
+                level: 6
+            wind:
+              direction: NE
+              magnitude: 9.1
+            keywords:
         - title: Fall Major 2018 - Master
           url: https://youtu.be/cvlYwaAwr-8
           metadata:
@@ -475,6 +581,20 @@ holes:
             wind:
               direction: SSW
               magnitude: 11.6
+            keywords:
+        - title: Fall Major 2018 - Master
+          url:
+          metadata:
+            tournament: Fall Major 2018
+            level: Master
+            teePosition: 3
+            ball: Mummy
+            clubs:
+              - name: Guardian
+                level: 8
+            wind:
+              direction: SSW
+              magnitude: 9.7
             keywords:
   - id: 3bc34539-ff5a-41d1-accd-372346916570
     course: Eagle Peak
@@ -541,6 +661,22 @@ holes:
               direction: N
               magnitude: 8.4
             keywords:
+        - title: Fall Major 2018 - Expert
+          url:
+          metadata:
+            tournament: Fall Major 2018
+            level: Expert
+            teePosition: 2
+            ball: Berserker
+            clubs:
+              - name: Thor's Hammer
+                level: 6
+              - name: Rapier
+                level: 8
+            wind:
+              direction: N
+              magnitude: 9.4
+            keywords:
         - title: Fall Major 2018 - Master
           url: https://youtu.be/_yJ-JECzEa0
           metadata:
@@ -588,6 +724,22 @@ holes:
             wind:
               direction: NE
               magnitude: 12.3
+            keywords:
+        - title: Fall Major 2018 - Master
+          url:
+          metadata:
+            tournament: Fall Major 2018
+            level: Master
+            teePosition: 3
+            ball: Berserker
+            clubs:
+              - name: Apocalypse
+                level: 7
+              - name: Nirvana
+                level: 8
+            wind:
+              direction: NE
+              magnitude: 15.9
             keywords:
         - title: Tour 8 - 2nd Tee Strategy and Tips
           url: https://youtu.be/ZaFpXNJuz-U
@@ -684,6 +836,22 @@ holes:
               direction: ENE
               magnitude: 9.1
             keywords:
+        - title: Fall Major 2018 - Expert
+          url:
+          metadata:
+            tournament: Fall Major 2018
+            level: Expert
+            teePosition: 2
+            ball: King Maker
+            clubs:
+              - name: Apocalypse
+                level: 4
+              - name: Sniper
+                level: 10
+            wind:
+              direction: NE
+              magnitude: 9.1
+            keywords:
         - title: Fall Major 2018 - Master
           url: https://youtu.be/myVAKGJQN1w
           metadata:
@@ -731,6 +899,22 @@ holes:
             wind:
               direction: ESE
               magnitude: 11.6
+            keywords:
+        - title: Fall Major 2018 - Master
+          url:
+          metadata:
+            tournament: Fall Major 2018
+            level: Master
+            teePosition: 3
+            ball: King Maker
+            clubs:
+              - name: Apocalypse
+                level: 7
+              - name: Cataclysm
+                level: 7
+            wind:
+              direction: ESE
+              magnitude: 11.8
             keywords:
         - title: Tour 8 - 2nd Tee Strategy and tips
           url: https://youtu.be/2YutuS3T6iE
@@ -808,6 +992,20 @@ holes:
               direction: SW
               magnitude: 7.5
             keywords:
+        - title: Fall Major 2018 - Expert
+          url:
+          metadata:
+            tournament: Fall Major 2018
+            level: Expert
+            teePosition: 2
+            ball: King Maker
+            clubs:
+              - name: Sniper
+                level: 10
+            wind:
+              direction: SSW
+              magnitude: 8.2
+            keywords:
         - title: Fall Major 2018 - Master
           url: https://youtu.be/8IxSedqDH4s
           metadata:
@@ -849,6 +1047,20 @@ holes:
             wind:
               direction: SE
               magnitude: 12.1
+            keywords:
+        - title: Fall Major 2018 - Master
+          url:
+          metadata:
+            tournament: Fall Major 2018
+            level: Master
+            teePosition: 3
+            ball: King Maker
+            clubs:
+              - name: Quarterback
+                level: 10
+            wind:
+              direction: SE
+              magnitude: 11.4
             keywords:
         - title: Tour 8 - Shootout wind pointed at 4 O'clock
           url: https://youtu.be/ZSARGr_Wa9M
@@ -941,6 +1153,22 @@ holes:
               direction: W
               magnitude: 8.9
             keywords:
+        - title: Fall Major 2018 - Expert
+          url:
+          metadata:
+            tournament: Fall Major 2018
+            level: Expert
+            teePosition: 2
+            ball: King Maker
+            clubs:
+              - name: Quarterback
+                level: 10
+              - name: Spitfire
+                level: 5
+            wind:
+              direction: WSW
+              magnitude: 9.0
+            keywords:
         - title: Fall Major 2018 - Master
           url: https://youtu.be/mw5N4EUw4qI
           metadata:
@@ -988,6 +1216,22 @@ holes:
             wind:
               direction: SSW
               magnitude: 11.3
+            keywords:
+        - title: Fall Major 2018 - Master
+          url:
+          metadata:
+            tournament: Fall Major 2018
+            level: Master
+            teePosition: 3
+            ball: King Maker
+            clubs:
+              - name: Apocalypse
+                level: 7
+              - name: Endbringer
+                level: 7
+            wind:
+              direction: SSW
+              magnitude: 12.3
             keywords:
         - title: Tour 8 - 2nd Tee Strategy and Tips for Eagle
           url: https://youtu.be/emUxzbY4Ot0
@@ -1087,6 +1331,22 @@ holes:
               direction: NW
               magnitude: 10.0
             keywords:
+        - title: Fall Major 2018 - Expert
+          url:
+          metadata:
+            tournament: Fall Major 2018
+            level: Expert
+            teePosition: 2
+            ball: Blue Marble
+            clubs:
+              - name: Thor's Hammer
+                level: 6
+              - name: Nirvana
+                level: 8
+            wind:
+              direction: NW
+              magnitude: 11.0
+            keywords:
         - title: Fall Major 2018 - Master
           url: https://youtu.be/wwtto7iz3iM
           metadata:
@@ -1134,6 +1394,22 @@ holes:
             wind:
               direction: E
               magnitude: 11.2
+            keywords:
+        - title: Fall Major 2018 - Master
+          url:
+          metadata:
+            tournament: Fall Major 2018
+            level: Master
+            teePosition: 3
+            ball: Dead
+            clubs:
+              - name: Apocalypse
+                level: 7
+              - name: Cataclysm
+                level: 7
+            wind:
+              direction: E
+              magnitude: 12.0
             keywords:
         - title: Tour 8 - 2nd Tee Strategy and Tips
           url: https://youtu.be/uuHOW7o1r3c

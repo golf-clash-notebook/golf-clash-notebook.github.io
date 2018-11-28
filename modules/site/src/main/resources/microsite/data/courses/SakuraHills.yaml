@@ -176,7 +176,7 @@ holes:
               direction: NNE
               magnitude: 11.9
             keywords:
-        - title: Touchdown - Rookie Guide
+        - title: Touchdown - Rookie
           url: https://youtu.be/3oNWbTnWCXA
           metadata:
             tournament: Touchdown
@@ -190,7 +190,7 @@ holes:
               direction: NNW
               magnitude: 3.0
             keywords:
-        - title: Touchdown - Pro Guide
+        - title: Touchdown - Pro
           url: https://youtu.be/SYN4IefltBQ
           metadata:
             tournament: Touchdown
@@ -204,7 +204,7 @@ holes:
               direction: NNW
               magnitude: 5.8
             keywords:
-        - title: Touchdown - Expert Guide
+        - title: Touchdown - Expert
           url: https://youtu.be/H1oX1xQ77XE
           metadata:
             tournament: Touchdown
@@ -218,7 +218,7 @@ holes:
               direction: NNW
               magnitude: 10.5
             keywords:
-        - title: Touchdown - Masters Guide
+        - title: Touchdown - Masters
           url: https://youtu.be/pcLe8RHeCa8
           metadata:
             tournament: Touchdown
@@ -318,7 +318,7 @@ holes:
               direction: NNE
               magnitude: 10.2
             keywords:
-        - title: Touchdown - Rookie Guide
+        - title: Touchdown - Rookie
           url: https://youtu.be/lyvRF_71rYM
           metadata:
             tournament: Touchdown
@@ -335,7 +335,7 @@ holes:
               magnitude: 3.3
             keywords:
               - Rough Bump
-        - title: Touchdown - Pro Guide
+        - title: Touchdown - Pro
           url: https://youtu.be/gQYNM78jSfM
           metadata:
             tournament: Touchdown
@@ -352,7 +352,7 @@ holes:
               magnitude: 4.8
             keywords:
               - Rough bump
-        - title: Touchdown - Expert Guide
+        - title: Touchdown - Expert
           url: https://youtu.be/ukVQUhdzv04
           metadata:
             tournament: Touchdown
@@ -368,7 +368,7 @@ holes:
               direction: NNW
               magnitude: 11.0
             keywords:
-        - title: Touchdown - Masters Guide
+        - title: Touchdown - Masters
           url: https://youtu.be/bnnudTlBqAg
           metadata:
             tournament: Touchdown
@@ -552,7 +552,7 @@ holes:
               direction: WSW
               magnitude: 10.5
             keywords:
-        - title: Touchdown - Rookie Guide
+        - title: Touchdown - Rookie
           url: https://youtu.be/n8HX3R4agfM
           metadata:
             tournament: Touchdown
@@ -568,7 +568,7 @@ holes:
               direction: NE
               magnitude: 3.0
             keywords:
-        - title: Touchdown - Pro Guide
+        - title: Touchdown - Pro
           url: https://youtu.be/LWVqwtsrnLE
           metadata:
             tournament: Touchdown
@@ -584,7 +584,7 @@ holes:
               direction: NE
               magnitude: 6.7
             keywords:
-        - title: Touchdown - Expert Guide
+        - title: Touchdown - Expert
           url: https://youtu.be/rP0RfsZl_Gc
           metadata:
             tournament: Touchdown
@@ -600,7 +600,7 @@ holes:
               direction: NE
               magnitude: 14.0
             keywords:
-        - title: Touchdown - Masters Guide
+        - title: Touchdown - Masters
           url: https://youtu.be/u8gTvVB3OTU
           metadata:
             tournament: Touchdown
@@ -728,7 +728,7 @@ holes:
               direction: ENE
               magnitude: 11.4
             keywords:
-        - title: Touchdown - Rookie Guide
+        - title: Touchdown - Rookie
           url: https://youtu.be/W3oh1t8IkdA
           metadata:
             tournament: Touchdown
@@ -744,7 +744,7 @@ holes:
               direction: N
               magnitude: 3.6
             keywords:
-        - title: Touchdown - Pro Guide
+        - title: Touchdown - Pro
           url: https://youtu.be/sP2dh3bvdrU
           metadata:
             tournament: Touchdown
@@ -760,7 +760,7 @@ holes:
               direction: NNW
               magnitude: 6.0
             keywords:
-        - title: Touchdown - Expert Guide
+        - title: Touchdown - Expert
           url: https://youtu.be/kThI7-bPbW4
           metadata:
             tournament: Touchdown
@@ -776,7 +776,7 @@ holes:
               direction: N
               magnitude: 13.2
             keywords:
-        - title: Touchdown - Masters Guide
+        - title: Touchdown - Masters
           url: https://youtu.be/BGXsMC_qs_g
           metadata:
             tournament: Touchdown
@@ -1017,7 +1017,7 @@ holes:
               direction: ESE
               magnitude: 12.5
             keywords:
-        - title: Touchdown - Rookie Guide
+        - title: Touchdown - Rookie
           url: https://youtu.be/7WVamN6lDE4
           metadata:
             tournament: Touchdown
@@ -1031,7 +1031,7 @@ holes:
               direction: WNW
               magnitude: 3.4
             keywords:
-        - title: Touchdown - Pro Guide
+        - title: Touchdown - Pro
           url: https://youtu.be/awpP7d-yK-g
           metadata:
             tournament: Touchdown
@@ -1045,7 +1045,7 @@ holes:
               direction: WNW
               magnitude: 7.5
             keywords:
-        - title: Touchdown - Expert Guide
+        - title: Touchdown - Expert
           url: https://youtu.be/dAktqfWpkYY
           metadata:
             tournament: Touchdown
@@ -1060,7 +1060,7 @@ holes:
               magnitude: 7.8
             keywords:
               - Rough bump
-        - title: Touchdown - Masters Guide
+        - title: Touchdown - Masters
           url: https://youtu.be/fiB9zCyj7rk
           metadata:
             tournament: Touchdown

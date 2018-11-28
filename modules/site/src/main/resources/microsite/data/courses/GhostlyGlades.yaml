@@ -9,26 +9,8 @@ holes:
     description: >
       Help Wanted
     resourceCreators:
-      - name: Golf Clash Tommy
-        resources:
-        - title: Ghostly Glades - Rookie
-          url: https://youtu.be/W1SMXYv412Q
-        - title: Ghostly Glades - Pro / Expert
-          url: https://youtu.be/c0S9C3fGXHM
-      - name: Zachary Jones
-        resources:
-        - title: Ghostly Glades - Rookie
-          url: https://youtu.be/lX-0U97Hgy8
-        - title: Ghostly Glades - Pro
-          url: https://youtu.be/_DcC7zg5oRE
-        - title: Ghostly Glades - Expert
-          url: https://youtu.be/7L--D8PmESY
-        - title: Ghostly Glades - Masters
-          url: https://youtu.be/VRqosa71rmU
-        - title: Ghostly Glades - Masters
-          url: https://youtu.be/hVatOUbcWNg
-        - title: Ghostly Glades - Masters
-          url: https://youtu.be/qUWt2WrBK3o
+    aliases:
+      - 78852573-8b79-49e7-999a-e7a20b220baf
   - id: 91e0b426-4747-4351-827e-7eb721a77f13
     course: Ghostly Glades
     number: 2
@@ -37,26 +19,8 @@ holes:
     description: >
       Help Wanted
     resourceCreators:
-      - name: Golf Clash Tommy
-        resources:
-        - title: Ghostly Glades - Rookie
-          url: https://youtu.be/vzEFVuKfgCA
-        - title: Ghostly Glades - Pro / Expert
-          url: https://youtu.be/FaZ-hALlAec
-      - name: Zachary Jones
-        resources:
-        - title: Ghostly Glades - Rookie
-          url: https://youtu.be/5HeyO7p9SIE
-        - title: Ghostly Glades - Pro
-          url: https://youtu.be/u7ZMHrSlxGM
-        - title: Ghostly Glades - Expert
-          url: https://youtu.be/tG7vxxJQOjc
-        - title: Ghostly Glades - Masters
-          url: https://youtu.be/ro2lktHDY8o
-        - title: Ghostly Glades - Masters
-          url: https://youtu.be/_S2un20F3tg
-        - title: Ghostly Glades - Masters
-          url: https://youtu.be/mWkz-PxEeME
+    aliases:
+      - 403da63f-9e6f-4a4a-b17d-cc5cacce7bcb
   - id: 776a435e-60b4-4ced-8214-312baf3e2456
     course: Ghostly Glades
     number: 3
@@ -65,26 +29,8 @@ holes:
     description: >
       Help Wanted
     resourceCreators:
-      - name: Golf Clash Tommy
-        resources:
-        - title: Ghostly Glades - Rookie
-          url: https://youtu.be/lxLF1qU2OM4
-        - title: Ghostly Glades - Pro / Expert
-          url: https://youtu.be/SMahEuWYVfQ
-      - name: Zachary Jones
-        resources:
-        - title: Ghostly Glades - Rookie
-          url: https://youtu.be/jQFi-Eb6J8s
-        - title: Ghostly Glades - Pro
-          url: https://youtu.be/D7o20_jgQ7A
-        - title: Ghostly Glades - Expert
-          url: https://youtu.be/4yg7rK3wtV4
-        - title: Ghostly Glades - Masters
-          url: https://youtu.be/Pl7b7V0Wz4o
-        - title: Ghostly Glades - Masters
-          url: https://youtu.be/92xtbP13jUQ
-        - title: Ghostly Glades - Masters
-          url: https://youtu.be/Jrn9DDQ3PzA
+    aliases:
+      - ceec18c9-cda1-436d-bdb1-1f2454b46436
   - id: e419e731-7c51-4a85-9646-24ce271d75d2
     course: Ghostly Glades
     number: 4
@@ -93,26 +39,8 @@ holes:
     description: >
       Help Wanted
     resourceCreators:
-      - name: Golf Clash Tommy
-        resources:
-        - title: Ghostly Glades - Rookie
-          url: https://youtu.be/0DsHh_ksmIc
-        - title: Ghostly Glades - Pro / Expert
-          url: https://youtu.be/oljOFgOIe5c
-      - name: Zachary Jones
-        resources:
-        - title: Ghostly Glades - Rookie
-          url: https://youtu.be/hjEdi_t7tDQ
-        - title: Ghostly Glades - Pro
-          url: https://youtu.be/svTM98u_oPI
-        - title: Ghostly Glades - Expert
-          url: https://youtu.be/14CinLJW4VA
-        - title: Ghostly Glades - Masters
-          url: https://youtu.be/nYhQivcVU7Q
-        - title: Ghostly Glades - Masters
-          url: https://youtu.be/PDMtTlN7mNE
-        - title: Ghostly Glades - Masters
-          url: https://youtu.be/aPaJztL8fZg
+    aliases:
+      - 278a348f-a5c8-4106-811c-f051bb9b6371
   - id: 7dc4a073-9b0e-4457-8a8e-ba36bcdec6b8
     course: Ghostly Glades
     number: 5
@@ -121,26 +49,8 @@ holes:
     description: >
       Help Wanted
     resourceCreators:
-      - name: Golf Clash Tommy
-        resources:
-        - title: Ghostly Glades - Rookie
-          url: https://youtu.be/FdY1kdGX0GI
-        - title: Ghostly Glades - Pro / Expert
-          url: https://youtu.be/sOxZIndmzSA
-      - name: Zachary Jones
-        resources:
-        - title: Ghostly Glades - Rookie
-          url: https://youtu.be/J4YcgX3MzQQ
-        - title: Ghostly Glades - Pro
-          url: https://youtu.be/jZPjBBTQLdw
-        - title: Ghostly Glades - Expert
-          url: https://youtu.be/8TVe4Urbb6k
-        - title: Ghostly Glades - Masters
-          url: https://youtu.be/sAgclAT_v38
-        - title: Ghostly Glades - Masters
-          url: https://youtu.be/l5GwkVjlhyo
-        - title: Ghostly Glades - Masters
-          url: https://youtu.be/QHTFf73vkxM
+    aliases:
+      - f30c2f43-c8dc-4762-bc7b-77b6d196d0e2
   - id: ee3a1a95-aa30-48f3-8634-9fde34a5b2f8
     course: Ghostly Glades
     number: 6
@@ -149,26 +59,8 @@ holes:
     description: >
       Help Wanted
     resourceCreators:
-      - name: Golf Clash Tommy
-        resources:
-        - title: Ghostly Glades - Rookie
-          url: https://youtu.be/tOrY2Y0AI1A
-        - title: Ghostly Glades - Pro / Expert
-          url: https://youtu.be/vZ9LQbi479A
-      - name: Zachary Jones
-        resources:
-        - title: Ghostly Glades - Rookie
-          url: https://youtu.be/2n5kMJKEd6M
-        - title: Ghostly Glades - Pro
-          url: https://youtu.be/61J2zN6bOFg
-        - title: Ghostly Glades - Expert
-          url: https://youtu.be/0BZe63W1feI
-        - title: Ghostly Glades - Masters
-          url: https://youtu.be/u1EJ58GNLv8
-        - title: Ghostly Glades - Masters
-          url: https://youtu.be/K8CS_l1cG3k
-        - title: Ghostly Glades - Masters
-          url: https://youtu.be/BBatkrPB_AI
+    aliases:
+      - a427fbaf-3e27-411a-8a51-3a5bd53e2605
   - id: c664e881-a81b-4a3a-9927-12919caab72e
     course: Ghostly Glades
     number: 7
@@ -177,26 +69,8 @@ holes:
     description: >
       Help Wanted
     resourceCreators:
-      - name: Golf Clash Tommy
-        resources:
-        - title: Ghostly Glades - Rookie
-          url: https://youtu.be/AFzvOPeTLdY
-        - title: Ghostly Glades - Pro / Expert
-          url: https://youtu.be/Lll6aUOIgHw
-      - name: Zachary Jones
-        resources:
-        - title: Ghostly Glades - Rookie
-          url: https://youtu.be/ktjnlRXlnB0
-        - title: Ghostly Glades - Pro
-          url: https://youtu.be/AdDj2NK3PsY
-        - title: Ghostly Glades - Expert
-          url: https://youtu.be/DE74hEfxysA
-        - title: Ghostly Glades - Masters
-          url: https://youtu.be/goS2dTAoJdM
-        - title: Ghostly Glades - Masters
-          url: https://youtu.be/iIGPve4yuMw
-        - title: Ghostly Glades - Masters
-          url: https://youtu.be/DpO1NlMyoXo
+    aliases:
+      - 5bc210d8-de10-4786-ad3f-75367f76a15d
   - id: 2ddb097d-59c4-4d41-9311-4e6603a933c5
     course: Ghostly Glades
     number: 8
@@ -205,26 +79,8 @@ holes:
     description: >
       Help Wanted
     resourceCreators:
-      - name: Golf Clash Tommy
-        resources:
-        - title: Ghostly Glades - Rookie
-          url: https://youtu.be/za4DmW7YJcs
-        - title: Ghostly Glades - Pro / Expert
-          url: https://youtu.be/8UoJTN-f1Tg
-      - name: Zachary Jones
-        resources:
-        - title: Ghostly Glades - Rookie
-          url: https://youtu.be/P5RWu16Rh_s
-        - title: Ghostly Glades - Pro
-          url: https://youtu.be/5Rnhkk1qIN0
-        - title: Ghostly Glades - Expert
-          url: https://youtu.be/KG70dLpukw4
-        - title: Ghostly Glades - Masters
-          url: https://youtu.be/KKUDWV1NEec
-        - title: Ghostly Glades - Masters
-          url: https://youtu.be/Q8YTp1NCW-0
-        - title: Ghostly Glades - Masters
-          url: https://youtu.be/4GnpAIvcc4E
+    aliases:
+      - 1658565e-d219-4a46-844c-97c7f98e66b4
   - id: 68e49827-efb0-4926-aec0-99b0a6e16ccb
     course: Ghostly Glades
     number: 9
@@ -233,23 +89,5 @@ holes:
     description: >
       Help Wanted
     resourceCreators:
-      - name: Golf Clash Tommy
-        resources:
-        - title: Ghostly Glades - Rookie
-          url: https://youtu.be/CIoo66Cdc3k
-        - title: Ghostly Glades - Pro / Expert
-          url: https://youtu.be/TM1_ypPOB9M
-      - name: Zachary Jones
-        resources:
-        - title: Ghostly Glades - Rookie
-          url: https://youtu.be/8UMkdAFfdGY
-        - title: Ghostly Glades - Pro
-          url: https://youtu.be/M27vNJzFZnI
-        - title: Ghostly Glades - Expert
-          url: https://youtu.be/AcgaQ_JFTec
-        - title: Ghostly Glades - Masters
-          url: https://youtu.be/gMe0AKLjqZk
-        - title: Ghostly Glades - Masters
-          url: https://youtu.be/FJzfdhUcSR4
-        - title: Ghostly Glades - Masters
-          url: https://youtu.be/oS_Tdu2rzqo
+    aliases:
+      - 7d665400-73e6-4716-9655-63f8fe8b8956
