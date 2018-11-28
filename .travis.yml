@@ -37,7 +37,7 @@ script:
   git clean -f;
   git checkout dev;
   git pull origin dev;
-  sbt site/makeMicrosite;
+  sbt site/generateNotebookSite;
 
 deploy:
   provider: pages

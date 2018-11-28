@@ -116,6 +116,9 @@ lazy val commonSettings = Seq(
   dependencyUpdatesFilter -= moduleFilter(organization = "org.eclipse.jetty")
 )
 
+val generateNotebookSite = taskKey[Unit]("Generate Notebook site.")
+val compressJson = taskKey[Unit]("Compress JSON assets.")
+
 lazy val siteSettings = Seq(
   libraryDependencies ++= Seq(
     "be.doeraene"       %%% "scalajs-jquery"       % ScalaJSJqueryV,
@@ -152,18 +155,22 @@ lazy val siteSettings = Seq(
   fork in tut := true,
   scalacOptions in Tut ~= (_.filterNot(Set("-Ywarn-unused-import", "-Ywarn-dead-code"))),
   scalaJSUseMainModuleInitializer := true,
-  makeMicrosite := {
-
-    (fullOptJS in Compile).value
-    makeMicrosite.value
+  artifactPath in(Compile, fastOptJS) := ((baseDirectory).value / "src" / "main" / "resources" / "microsite" / "js" / ((moduleName in (Compile, fastOptJS)).value + ".js")),
+  artifactPath in(Compile, fullOptJS) := ((baseDirectory).value / "src" / "main" / "resources" / "microsite" / "js" / ((moduleName in (Compile, fastOptJS)).value + ".js")),
+  generateNotebookSite := Def.sequential(
+    makeMicrosite,
+    compressJson
+  ).value,
+  makeMicrosite := (makeMicrosite dependsOn (fullOptJS in Compile)).value,
+  compressJson := {
 
     import java.io._
     import java.util.zip._
     import scala.io._
 
-    def compressJson(f: File): Unit = {
+    def go(f: File): Unit = {
       if(f.isDirectory) {
-        f.listFiles.foreach(compressJson)
+        f.listFiles.foreach(go)
       } else if(f.getName().endsWith(".json")) {
         val os = new PrintWriter(new GZIPOutputStream(new FileOutputStream(s"${f.getAbsolutePath()}.gz")))
         Source.fromFile(f).getLines.foreach(os.write)
@@ -171,10 +178,8 @@ lazy val siteSettings = Seq(
       }
     }
 
-    compressJson(target.value / "site")
-  },
-  artifactPath in(Compile, fastOptJS) := ((baseDirectory).value / "src" / "main" / "resources" / "microsite" / "js" / ((moduleName in (Compile, fastOptJS)).value + ".js")),
-  artifactPath in(Compile, fullOptJS) := ((baseDirectory).value / "src" / "main" / "resources" / "microsite" / "js" / ((moduleName in (Compile, fastOptJS)).value + ".js"))
+    go(target.value / "site")
+  }
 )
 
 lazy val headerComment = IO.readLines(file("LICENSE")).mkString("\n")
