@@ -116,6 +116,8 @@ lazy val commonSettings = Seq(
   dependencyUpdatesFilter -= moduleFilter(organization = "org.eclipse.jetty")
 )
 
+val compressJson = taskKey[Unit]("Compress JSON assets.")
+
 lazy val siteSettings = Seq(
   libraryDependencies ++= Seq(
     "be.doeraene"       %%% "scalajs-jquery"       % ScalaJSJqueryV,
@@ -152,35 +154,28 @@ lazy val siteSettings = Seq(
   fork in tut := true,
   scalacOptions in Tut ~= (_.filterNot(Set("-Ywarn-unused-import", "-Ywarn-dead-code"))),
   scalaJSUseMainModuleInitializer := true,
-  makeMicrosite := (makeMicrosite dependsOn (fullOptJS in Compile)).value,
+  makeMicrosite := (compressJson dependsOn (makeMicrosite dependsOn (fullOptJS in Compile))).value,
   artifactPath in(Compile, fastOptJS) := ((baseDirectory).value / "src" / "main" / "resources" / "microsite" / "js" / ((moduleName in (Compile, fastOptJS)).value + ".js")),
-  artifactPath in(Compile, fullOptJS) := ((baseDirectory).value / "src" / "main" / "resources" / "microsite" / "js" / ((moduleName in (Compile, fastOptJS)).value + ".js"))
-)
+  artifactPath in(Compile, fullOptJS) := ((baseDirectory).value / "src" / "main" / "resources" / "microsite" / "js" / ((moduleName in (Compile, fastOptJS)).value + ".js")),
+  compressJson := {
+    import java.io._
+    import java.util.zip._
+    import scala.io._
 
-val generateNotebookSite = taskKey[Unit]("Generate Notebook site.")
-generateNotebookSite := Def.sequential(
-  site/makeMicrosite,
-  compressJson
-).value
+    streams.value.log.info("Compressing JSON assets...")
 
-val compressJson = taskKey[Unit]("Compress JSON assets.")
-compressJson := {
-
-  import java.io._
-  import java.util.zip._
-  import scala.io._
-
-  def go(f: File): Unit = {
-    if(f.isDirectory) {
-      f.listFiles.foreach(go)
-    } else if(f.getName().endsWith(".json")) {
-      val os = new PrintWriter(new GZIPOutputStream(new FileOutputStream(s"${f.getAbsolutePath()}.gz")))
-      Source.fromFile(f).getLines.foreach(os.write)
-      os.close()
+    def compressFile(f: File): Unit = {
+      if(f.isDirectory) {
+        f.listFiles.foreach(compressFile)
+      } else if(f.getName().endsWith(".json")) {
+        val os = new PrintWriter(new GZIPOutputStream(new FileOutputStream(s"${f.getAbsolutePath()}.gz")))
+        Source.fromFile(f).getLines.foreach(os.write)
+        os.close()
+      }
     }
-  }
 
-  go((site/target).value / "site")
-}
+    compressFile(target.value / "site")
+  }
+)
 
 lazy val headerComment = IO.readLines(file("LICENSE")).mkString("\n")
