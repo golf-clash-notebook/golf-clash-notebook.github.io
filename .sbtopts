@@ -4,7 +4,7 @@
 
 -J-Xms512M
 
--J-Xmx1G
+-J-Xmx2G
 
 -J-XX:+UseConcMarkSweepGC
 

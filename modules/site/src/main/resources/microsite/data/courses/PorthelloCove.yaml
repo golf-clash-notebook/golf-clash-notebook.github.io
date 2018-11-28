@@ -19,22 +19,144 @@ holes:
         resources:
         - title: Summer Major 2018 - Rookie
           url: https://youtu.be/8-BTssaUgJY
+          metadata:
+            tournament: Summer Major 2018
+            level: Rookie
+            ball: Marlin
+            teePosition: 1
+            clubs:
+              - name: Quarterback
+                level: 6
+              - name: Sniper
+                level: 6
+            wind:
+              direction: NNW
+              magnitude: 4.5
+            keywords:
         - title: Summer Major 2018 - Pro
           url: https://youtu.be/m3xt1QslrQs
+          metadata:
+            tournament: Summer Major 2018
+            level: Pro
+            ball: Navigator
+            teePosition: 2
+            clubs:
+              - name: Extra Mile
+                level: 5
+              - name: Sniper
+                level: 7
+            wind:
+              direction: N
+              magnitude: 6.9
+            keywords:
         - title: Summer Major 2018 - Pro
           url: https://youtu.be/WBlRnX2xWO8
+          metadata:
+            tournament: Summer Major 2018
+            level: Pro
+            ball: Titan
+            teePosition: 2
+            clubs:
+              - name: Extra Mile
+                level: 5
+              - name: Guardian
+                level: 5
+            wind:
+              direction: N
+              magnitude: 5.7
+            keywords:
         - title: Summer Major 2018 - Expert
           url: https://youtu.be/DaMvyAL8EYU
+          metadata:
+            tournament: Summer Major 2018
+            level: Expert
+            ball: King Maker
+            teePosition: 2
+            clubs:
+              - name: Quarterback
+                level: 10
+              - name: Sniper
+                level: 10
+            wind:
+              direction: NNE
+              magnitude: 7.8
+            keywords:
         - title: Summer Major 2018 - Expert
           url: https://youtu.be/-FjZlwDMW5M
+          metadata:
+            tournament: Summer Major 2018
+            level: Expert
+            ball: Bunny
+            teePosition: 2
+            clubs:
+              - name: Apocalypse
+                level: 5
+              - name: Sniper
+                level: 10
+            wind:
+              direction: NNE
+              magnitude: 7.3
+            keywords:
         - title: Tour 10 - Strategy and Tips Going Left
           url: https://youtu.be/xzQf0KtUcPc
+          metadata:
+            tour: 10
+            ball: King Maker
+            teePosition: 2
+            clubs:
+              - name: Apocalypse
+                level: 7
+              - name: Sniper
+                level: 10
+            wind:
+              direction: NNW
+              magnitude: 5.4
+            keywords:
         - title: Tour 10 - Strategy and Tips
           url: https://youtu.be/l2byN_ZG8l8
+          metadata:
+            tour: 10
+            ball: King Maker
+            teePosition: 2
+            clubs:
+              - name: Apocalypse
+                level: 7
+              - name: Sniper
+                level: 10
+            wind:
+              direction: NNW
+              magnitude: 8.6
+            keywords:
         - title: Tour 5 - Strategy and Tips for Easy Success
           url: https://youtu.be/bFBDUOfgrSY
+          metadata:
+            tour: 5
+            ball: Titan
+            teePosition: 1
+            clubs:
+              - name: Extra Mile
+                level: 5
+              - name: Sniper
+                level: 7
+            wind:
+              direction: SW
+              magnitude: 6.7
+            keywords:
         - title: Tour 5 - Strategy and Tips Headwind Case with Quasar
           url: https://youtu.be/wTJPXDRxO-4
+          metadata:
+            tour: 5
+            ball: Quasar
+            teePosition: 1
+            clubs:
+              - name: Extra Mile
+                level: 5
+              - name: Sniper
+                level: 7
+            wind:
+              direction: SSE
+              magnitude: 6.1
+            keywords:
   - id: 30c5bcbe-882f-4383-9ab3-6446d9c35dae
     course: Porthello Cove
     number: 2
@@ -58,20 +180,113 @@ holes:
             teePosition: 3
         - title: Summer Major 2018 - Rookie
           url: https://youtu.be/p4mZ2M-TSXI
+          metadata:
+            tournament: Summer Major 2018
+            level: Rookie
+            ball: Quasar
+            teePosition: 1
+            clubs:
+              - name: Guardian
+                level: 4
+            wind:
+              direction: SSE
+              magnitude: 4.2
+            keywords:
         - title: Summer Major 2018 - Pro
           url: https://youtu.be/j1fPmtoIpmk
+          metadata:
+            tournament: Summer Major 2018
+            level: Pro
+            ball: Marlin
+            teePosition: 2
+            clubs:
+              - name: Rocket
+                level: 8
+            wind:
+              direction: SE
+              magnitude: 7.0
+            keywords:
         - title: Summer Major 2018 - Pro
           url: https://youtu.be/qFTJE4bapqI
-        - title: Summer Major 2018 - Expert
+          metadata:
+            tournament: Summer Major 2018
+            level: Pro
+            ball: Katana
+            teePosition: 2
+            clubs:
+              - name: Sniper
+                level: 7
+            wind:
+              direction: SE
+              magnitude: 7.0
+            keywords:
+        - title: Summer Major 2018 Expert
           url: https://youtu.be/fm_iOa5GLIk
-        - title: Summer Major 2018 - Expert
+          metadata:
+            tournament: Summer Major 2018
+            level: Expert
+            ball: Navigator
+            teePosition: 2
+            clubs:
+              - name: Quarterback
+                level: 10
+            wind:
+              direction: SE
+              magnitude: 9.9
+            keywords:
+        - title: Summer Major 2018 Expert
           url: https://youtu.be/7cosLRHdIeI
-        - title: Tour 10 - Strategy and Tips with Wind Pointed at 10 O`clock
+          metadata:
+            tournament: Summer Major 2018
+            level: Expert
+            ball: Oceania
+            teePosition: 2
+            clubs:
+              - name: Quarterback
+                level: 10
+            wind:
+              direction: SE
+              magnitude: 5.2
+            keywords:
+        - title: Tour 10 Shootout - Strategy and Tips with Wind Pointed at 10 O'clock
           url: https://youtu.be/Vspq2fMv4IQ
-        - title: Tour 5 - Strategy and Tips Headwind Pointed at 430
+          metadata:
+            tour: 10
+            ball: King Maker
+            teePosition: 2
+            clubs:
+              - name: Sniper
+                level: 10
+            wind:
+              direction: WNW
+              magnitude: 8.5
+            keywords:
+        - title: Tour 5 Shootout - Strategy and Tips Headwind Pointed at 430
           url: https://youtu.be/96dT8awY_GE
-        - title: Tour 5 - Strategy and Tips Tailwind Pointed at 130
+          metadata:
+            tour: 5
+            ball: Quasar
+            teePosition: 1
+            clubs:
+              - name: Sniper
+                level: 7
+            wind:
+              direction: SSE
+              magnitude: 6.1
+            keywords:
+        - title: Tour 5 Shootout - Strategy and Tips Tailwind Pointed at 130
           url: https://youtu.be/t-Zq0ifrfsI
+          metadata:
+            tour: 5
+            ball: Katana
+            teePosition: 1
+            clubs:
+              - name: Sniper
+                level: 7
+            wind:
+              direction: NE
+              magnitude: 5.8
+            keywords:
   - id: 493200bc-0d35-4ab3-9188-820c71f1c607
     course: Porthello Cove
     number: 3
@@ -90,24 +305,157 @@ holes:
         resources:
         - title: Summer Major 2018 - Rookie
           url: https://youtu.be/Qz7tINIsrGE
+          metadata:
+            tournament: Summer Major 2018
+            level: Rookie
+            ball: Katana
+            teePosition: 1
+            clubs:
+              - name: Extra Mile
+                level: 6
+              - name: Hammerhead
+                level: 2
+            wind:
+              direction: NW
+              magnitude: 4.3
+            keywords:
         - title: Summer Major 2018 - Pro
           url: https://youtu.be/fETpFitvnzQ
+          metadata:
+            tournament: Summer Major 2018
+            level: Pro
+            ball: Katana
+            teePosition: 2
+            clubs:
+              - name: Extra Mile
+                level: 5
+              - name: Guardian
+                level: 5
+            wind:
+              direction: NW
+              magnitude: 7.5
+            keywords:
         - title: Summer Major 2018 - Pro
           url: https://youtu.be/941tg_2ugkQ
+          metadata:
+            tournament: Summer Major 2018
+            level: Pro
+            ball: Titan
+            teePosition: 2
+            clubs:
+              - name: Extra Mile
+                level: 5
+              - name: Hammerhead
+                level: 3
+            wind:
+              direction: NNW
+              magnitude: 6.4
+            keywords:
         - title: Summer Major 2018 - Expert
           url: https://youtu.be/fOxZitsHQkw
+          metadata:
+            tournament: Summer Major 2018
+            level: Expert
+            ball: King Maker
+            teePosition: 2
+            clubs:
+              - name: Apocalypse
+                level: 7
+              - name: Sniper
+                level: 10
+            wind:
+              direction: W
+              magnitude: 9.1
+            keywords:
         - title: Summer Major 2018 - Expert
           url: https://youtu.be/vSNvfewIp1Q
+          metadata:
+            tournament: Summer Major 2018
+            level: Expert
+            ball: King Maker
+            teePosition: 2
+            clubs:
+              - name: B52
+                level: 6
+            wind:
+              direction: W
+              magnitude: 8.8
+            keywords:
         - title: Tour 10 - Strategy and Tips for Tailwinds
           url: https://youtu.be/skd8A8QtSmk
+          metadata:
+            tour: 10
+            ball: King Maker
+            teePosition: 2
+            clubs:
+              - name: Apocalypse
+                level: 7
+              - name: B52
+                level: 7
+            wind:
+              direction: N
+              magnitude: 6.0
+            keywords:
         - title: Tour 10 - Strategy and Tips for Tailwinds and Making Albatross
           url: https://youtu.be/Boz4JeQb6ek
-        - title: Tour 10 - Strategy and Tips Tough Headwind Advice
+          metadata:
+            tour: 10
+            ball: Titan
+            teePosition: 2
+            clubs:
+              - name: Apocalypse
+                level: 7
+              - name: EndBringer
+                level: 7
+            wind:
+              direction: NNW
+              magnitude: 10.3
+            keywords:
+        - title: Tour 10 - Strategy and Tips for Tough Headwind Advice
           url: https://youtu.be/jHGjCvcW0hg
-        - title: Tour 5 - Strategy and Tips
+          metadata:
+            tour: 10
+            ball: King Maker
+            teePosition: 2
+            clubs:
+              - name: Apocalypse
+                level: 7
+              - name: Sniper
+                level: 10
+            wind:
+              direction: SSW
+              magnitude: 6.6
+            keywords:
+        - title: Tour 5- Strategy and Tips
           url: https://youtu.be/T6zzyniOels
-        - title: Tour 5 - Strategy and Tips Going Left for Eagle
+          metadata:
+            tour: 5
+            ball: Katana
+            teePosition: 1
+            clubs:
+              - name: Extra Mile
+                level: 5
+              - name: Sniper
+                level: 7
+            wind:
+              direction: SSE
+              magnitude: 2.9
+            keywords:
+        - title: Tour 5- Strategy and Tips Going Left for Eagle
           url: https://youtu.be/8zcZ0QY7pTk
+          metadata:
+            tour: 5
+            ball: Titan
+            teePosition: 1
+            clubs:
+              - name: Extra Mile
+                level: 5
+              - name: Sniper
+                level: 7
+            wind:
+              direction: SSE
+              magnitude: 4.6
+            keywords:
   - id: b4271a50-93a9-4ae2-a932-459c8b6b48f2
     course: Porthello Cove
     number: 4
@@ -126,20 +474,131 @@ holes:
         resources:
         - title: Summer Major 2018 - Rookie
           url: https://youtu.be/lZAGOAvUB3w
+          metadata:
+            tournament: Summer Major 2018
+            level: Rookie
+            ball: Quasar
+            teePosition: 1
+            clubs:
+              - name: Extra Mile
+                level: 6
+              - name: Saturn
+                level: 6
+            wind:
+              direction: WNW
+              magnitude: 4.2
+            keywords:
         - title: Summer Major 2018 - Pro
           url: https://youtu.be/KriSJDhI-bw
+          metadata:
+            tournament: Summer Major 2018
+            level: Pro
+            ball: Katana
+            teePosition: 2
+            clubs:
+              - name: Extra Mile
+                level: 5
+              - name: Saturn
+                level: 6
+            wind:
+              direction: WNW
+              magnitude: 6.8
+            keywords:
         - title: Summer Major 2018 - Pro
           url: https://youtu.be/AV5MJnZbA2o
+          metadata:
+            tournament: Summer Major 2018
+            level: Pro
+            ball: Marlin
+            teePosition: 2
+            clubs:
+              - name: Extra Mile
+                level: 6
+              - name: Backbone
+                level: 7
+            wind:
+              direction: WNW
+              magnitude: 7.2
+            keywords:
         - title: Summer Major 2018 - Expert
           url: https://youtu.be/L4_-tnNHsdc
+          metadata:
+            tournament: Summer Major 2018
+            level: Expert
+            ball: King Maker
+            teePosition: 2
+            clubs:
+              - name: Apocalypse
+                level: 7
+              - name: B52
+                level: 7
+            wind:
+              direction: ENE
+              magnitude: 8.0
+            keywords:
         - title: Summer Major 2018 - Expert
           url: https://youtu.be/ewSlvW1RSOI
+          metadata:
+            tournament: Summer Major 2018
+            level: Expert
+            ball: King Maker
+            teePosition: 2
+            clubs:
+              - name: Apocalypse
+                level: 5
+              - name: Machete
+                level: 10
+            wind:
+              direction: ENE
+              magnitude: 7.7
+            keywords:
         - title: Tour 10 - Strategy and Tips for Nasty Headwinds
           url: https://youtu.be/DYF08aFJynM
+          metadata:
+            tour: 10
+            ball: King Maker
+            teePosition: 2
+            clubs:
+              - name: Apocalypse
+                level: 7
+              - name: Nirvana
+                level: 8
+              - name: Thorn
+                level: 8
+            wind:
+              direction: SSE
+              magnitude: 8.1
+            keywords:
         - title: Tour 10 - Strategy and Tips for Tailwinds
           url: https://youtu.be/J_PGr-8VQhE
+          metadata:
+            tour: 10
+            ball: King Maker
+            teePosition: 2
+            clubs:
+              - name: Apocalypse
+                level: 7
+              - name: Nirvana
+                level: 8
+            wind:
+              direction: SW
+              magnitude: 9.3
+            keywords:
         - title: Tour 5 - Strategy and Tips for Going Over to the 2nd Fairway
           url: https://youtu.be/REFS2P0phgk
+          metadata:
+            tour: 5
+            ball: Quasar
+            teePosition: 1
+            clubs:
+              - name: Extra Mile
+                level: 5
+              - name: Backbone
+                level: 7
+            wind:
+              direction: ESE
+              magnitude: 4.9
+            keywords:
   - id: f8a2b943-a658-44ea-a7d9-1857f1232b0f
     course: Porthello Cove
     number: 5
@@ -158,24 +617,159 @@ holes:
         resources:
         - title: Summer Major 2018 - Rookie
           url: https://youtu.be/yT8asTzjoH4
+          metadata:
+            tournament: Summer Major 2018
+            level: Rookie
+            ball: King Maker
+            teePosition: 1
+            clubs:
+              - name: Extra Mile
+                level: 6
+              - name: Hammerhead
+                level: 2
+            wind:
+              direction: NE
+              magnitude: 2.2
+            keywords:
         - title: Summer Major 2018 - Pro
           url: https://youtu.be/WxeuuhzEmOk
+          metadata:
+            tournament: Summer Major 2018
+            level: Pro
+            ball: King Maker
+            teePosition: 1
+            clubs:
+              - name: Extra Mile
+                level: 5
+              - name: Guardian
+                level: 5
+            wind:
+              direction: NE
+              magnitude: 5.0
+            keywords:
         - title: Summer Major 2018 - Pro
           url: https://youtu.be/V2leXvYV0uc
+          metadata:
+            tournament: Summer Major 2018
+            level: Pro
+            ball: Katana
+            teePosition: 1
+            clubs:
+              - name: Thor's Hammer
+                level: 4
+              - name: Sniper
+                level: 7
+            wind:
+              direction: NE
+              magnitude: 7.0
+            keywords:
         - title: Summer Major 2018 - Expert
           url: https://youtu.be/mxoYWYpGykI
+          metadata:
+            tournament: Summer Major 2018
+            level: Expert
+            ball: King Maker
+            teePosition: 1
+            clubs:
+              - name: Apocalypse
+                level: 7
+              - name: Sniper
+                level: 10
+            wind:
+              direction: NW
+              magnitude: 8.1
+            keywords:
         - title: Summer Major 2018 - Expert
           url: https://youtu.be/0bFM6I2K-10
-        - title: Tour 10 - Strategy and Tips with Head Wind Drive
+          metadata:
+            tournament: Summer Major 2018
+            level: Expert
+            ball: King Maker
+            teePosition: 1
+            clubs:
+              - name: Apocalypse
+                level: 5
+              - name: Sniper
+                level: 10
+            wind:
+              direction: NW
+              magnitude: 7.6
+            keywords:
+        - title: Tour 10 - Strategy and Tips for with Head Wind Drive
           url: https://youtu.be/D9BRkhcGNzQ
+          metadata:
+            tour: 10
+            ball: King Maker
+            teePosition: 2
+            clubs:
+              - name: Apocalypse
+                level: 7
+              - name: Sniper
+                level: 10
+            wind:
+              direction: SSW
+              magnitude: 8.6
+            keywords:
         - title: Tour 10 - Strategy and Tips for Tailwinds
           url: https://youtu.be/JiCKH6JgbNw
+          metadata:
+            tour: 10
+            ball: King Maker
+            teePosition: 2
+            clubs:
+              - name: Apocalypse
+                level: 7
+              - name: Sniper
+                level: 10
+            wind:
+              direction: NNE
+              magnitude: 10.8
+            keywords:
         - title: Tour 10 - Strategy and Tips with Headwind
           url: https://youtu.be/Fxr7FzO1uWY
+          metadata:
+            tour: 10
+            ball: King Maker
+            teePosition: 2
+            clubs:
+              - name: Apocalypse
+                level: 7
+              - name: Sniper
+                level: 10
+            wind:
+              direction: SSW
+              magnitude: 8.6
+            keywords:
         - title: Tour 5 - Strategy and Tips with Bonus Hole 6 Shootout
           url: https://youtu.be/UsrpfSoSHro
+          metadata:
+            tour: 5
+            ball: Titan
+            teePosition: 1
+            clubs:
+              - name: Extra Mile
+                level: 5
+              - name: Sniper
+                level: 7
+            wind:
+              direction: NW
+              magnitude: 1.8
+            keywords:
         - title: Tour 5 - Alternate Strategy for Eagle and Albatross Opportunity
           url: https://youtu.be/1UinaDAhr2Q
+          metadata:
+            tour: 5
+            ball: Titan
+            teePosition: 1
+            clubs:
+              - name: Extra Mile
+                level: 5
+              - name: Sniper
+                level: 7
+            wind:
+              direction: WSW
+              magnitude: 1.7
+            keywords:
   - id: de271ab9-1675-4cd9-ac00-59901f7d7437
     course: Porthello Cove
     number: 6
@@ -199,26 +793,154 @@ holes:
             teePosition: 3
         - title: Summer Major 2018 - Rookie
           url: https://youtu.be/dfB3g2-M-fU
+          metadata:
+            tournament: Summer Major 2018
+            level: Rookie
+            ball: Quasar
+            teePosition: 1
+            clubs:
+              - name: Guardian
+                level: 4
+            wind:
+              direction: NNW
+              magnitude: 4.1
+            keywords:
         - title: Summer Major 2018 - Pro
           url: https://youtu.be/fM9auNVKoXk
+          metadata:
+            tournament: Summer Major 2018
+            level: Pro
+            ball: Quasar
+            teePosition: 2
+            clubs:
+              - name: Quarterback
+                level: 7
+              - name: Nirvana
+                level: 4
+            wind:
+              direction: NW
+              magnitude: 6.6
+            keywords:
         - title: Summer Major 2018 - Pro
           url: https://youtu.be/Cl76xLEkmg4
+          metadata:
+            tournament: Summer Major 2018
+            level: Pro
+            ball: King Maker
+            teePosition: 2
+            clubs:
+              - name: Sniper
+                level: 7
+            wind:
+              direction: NW
+              magnitude: 5.4
+            keywords:
         - title: Summer Major 2018 - Expert
           url: https://youtu.be/Vms_lEzEgzA
+          metadata:
+            tournament: Summer Major 2018
+            level: Expert
+            ball: King Maker
+            teePosition: 2
+            clubs:
+              - name: Sniper
+                level: 10
+            wind:
+              direction: NE
+              magnitude: 7.5
+            keywords:
         - title: Summer Major 2018 - Expert
           url: https://youtu.be/j416PQ6zAEM
-        - title: Tour 10 - Strategy and Tips Wind Pointed at 430
+          metadata:
+            tournament: Summer Major 2018
+            level: Expert
+            ball: Bauble
+            teePosition: 2
+            clubs:
+              - name: Quarterback
+                level: 10
+            wind:
+              direction: NE
+              magnitude: 5.4
+            keywords:
+        - title: Tour 10 Shootout - Strategy and Tips Wind Pointed at 430
           url: https://youtu.be/jPJt3ufZPTA
-        - title: Tour 10 - Strategy and Tips Wind Pointed at 6 O`clock
+          metadata:
+            tour: 10
+            ball: King Maker
+            teePosition: 2
+            clubs:
+              - name: Apocalypse
+                level: 7
+            wind:
+              direction: SE
+              magnitude: 7.1
+            keywords:
+        - title: Tour 10 Shootout - Strategy and Tips with Tough Headwind Pointed at 6 O'clock
           url: https://youtu.be/o8Rwx4CNnck
-        - title: Tour 10 - Strategy and Tips with Tough Tailwind Pointed at 1030
+          metadata:
+            tour: 10
+            ball: King Maker
+            teePosition: 2
+            clubs:
+              - name: Apocalypse
+                level: 7
+            wind:
+              direction: S
+              magnitude: 8.1
+            keywords:
+        - title: Tour 10 Shootout - Strategy and Tips with Tough Tailwind Pointed at 1030
           url: https://youtu.be/m2PYrTVADG8
-        - title: Tour 5 - Strategy and Tips for Wind Pointed at 1030
+          metadata:
+            tour: 10
+            ball: King Maker
+            teePosition: 2
+            clubs:
+              - name: Sniper
+                level: 10
+            wind:
+              direction: NW
+              magnitude: 11.0
+            keywords:
+        - title: Tour 5 Shootout - Strategy and Tips for Wind Pointed at 1030
           url: https://youtu.be/29VUnnuR3xI
-        - title: Tour 5 - Strategy and Tips Headwind Pointed at 430
+          metadata:
+            tour: 5
+            ball: Quasar
+            teePosition: 1
+            clubs:
+              - name: Sniper
+                level: 7
+            wind:
+              direction: NW
+              magnitude: 6.6
+            keywords:
+        - title: Tour 5 Shootout - Strategy and Tips for Headwind Pointed at 430
           url: https://youtu.be/RsbR75i3xa0
-        - title: Tour 5 - Alternate Approach for very Small Winds
+          metadata:
+            tour: 5
+            ball: Titan
+            teePosition: 1
+            clubs:
+              - name: Sniper
+                level: 7
+            wind:
+              direction: SE
+              magnitude: 4.3
+            keywords:
+        - title: Tour 5 Shootout - Alternate Approach for very Small Winds
           url: https://youtu.be/RM68sXrfhbQ
+          metadata:
+            tour: 5
+            ball: Titan
+            teePosition: 1
+            clubs:
+              - name: Sniper
+                level: 7
+            wind:
+              direction: SSW
+              magnitude: 1.6
+            keywords:
   - id: 73479ded-888f-40bc-a1a4-2e10b7853a31
     course: Porthello Cove
     number: 7
@@ -237,24 +959,157 @@ holes:
         resources:
         - title: Summer Major 2018 - Rookie
           url: https://youtu.be/jki0pG5ehAE
+          metadata:
+            tournament: Summer Major 2018
+            level: Rookie
+            ball: Katana
+            teePosition: 1
+            clubs:
+              - name: Extra Mile
+                level: 6
+              - name: Nirvana
+                level: 3
+            wind:
+              direction: NW
+              magnitude: 3.7
+            keywords:
         - title: Summer Major 2018 - Pro
           url: https://youtu.be/9cPibCM4QPA
+          metadata:
+            tournament: Summer Major 2018
+            level: Pro
+            ball: Quasar
+            teePosition: 2
+            clubs:
+              - name: Extra Mile
+                level: 5
+              - name: Thorn
+                level: 5
+            wind:
+              direction: NW
+              magnitude: 6.9
+            keywords:
         - title: Summer Major 2018 - Pro
           url: https://youtu.be/gHN7tuF7La8
+          metadata:
+            tournament: Summer Major 2018
+            level: Pro
+            ball: Navigator
+            teePosition: 2
+            clubs:
+              - name: Extra Mile
+                level: 5
+              - name: Thorn
+                level: 5
+            wind:
+              direction: NW
+              magnitude: 6.8
+            keywords:
         - title: Summer Major 2018 - Expert
           url: https://youtu.be/IAZABie8xic
+          metadata:
+            tournament: Summer Major 2018
+            level: Expert
+            ball: King Maker
+            teePosition: 2
+            clubs:
+              - name: Rock
+                level: 8
+              - name: Thorn
+                level: 8
+            wind:
+              direction: WNW
+              magnitude: 7.7
+            keywords:
         - title: Summer Major 2018 - Expert
           url: https://youtu.be/LPXE06Fbq10
+          metadata:
+            tournament: Summer Major 2018
+            level: Expert
+            ball: King Maker
+            teePosition: 2
+            clubs:
+              - name: Apocalypse
+                level: 5
+              - name: Spitfire
+                level: 6
+            wind:
+              direction: WNW
+              magnitude: 8.9
+            keywords:
         - title: Tour 10 - Strategy and Tips Tailwind Going for the Green
           url: https://youtu.be/H46JQwewxMs
-        - title: Tour 10 - Strategy and Tips Tailwind Tailwind Pointed at 130
+          metadata:
+            tour: 10
+            ball: Titan
+            teePosition: 2
+            clubs:
+              - name: Apocalypse
+                level: 7
+              - name: EndBringer
+                level: 7
+            wind:
+              direction: NNW
+              magnitude: 9.5
+            keywords:
+        - title: Tour 10 - Strategy and Tips Tailwind Pointed at 130
           url: https://youtu.be/u6Hgdyz0bV4
+          metadata:
+            tour: 10
+            ball: Titan
+            teePosition: 2
+            clubs:
+              - name: Apocalypse
+                level: 7
+            wind:
+              direction: NNE
+              magnitude: 9.5
+            keywords:
         - title: Tour 10 - Strategy and Tips for Headwinds
           url: https://youtu.be/gB2bLx2ICMc
-        - title: Tour 5 - Strategy and Tips for Easy Eagles
+          metadata:
+            tour: 10
+            ball: King Maker
+            teePosition: 2
+            clubs:
+              - name: Apocalypse
+                level: 7
+              - name: Thorn
+                level: 8
+            wind:
+              direction: SW
+              magnitude: 9.9
+            keywords:
+        - title: Tour 5- Strategy and Tips for Easy Eagles
           url: https://youtu.be/zfq9ngX-7K0
-        - title: Tour 5 - Strategy and Tips Easy Eagles Tips
+          metadata:
+            tour: 5
+            ball: Quasar
+            teePosition: 1
+            clubs:
+              - name: Extra Mile
+                level: 5
+              - name: Thorn
+                level: 5
+            wind:
+              direction: SW
+              magnitude: 6.1
+            keywords:
+        - title: Tour 5- Strategy and Tips Easy Eagles Tips
           url: https://youtu.be/EnNNenZpqAw
+          metadata:
+            tour: 5
+            ball: Katana
+            teePosition: 1
+            clubs:
+              - name: Extra Mile
+                level: 5
+              - name: Thorn
+                level: 5
+            wind:
+              direction: WNW
+              magnitude: 5.0
+            keywords:
   - id: fbdcdb74-61e6-4a95-8ba7-41f1e4e17428
     course: Porthello Cove
     number: 8
@@ -278,20 +1133,119 @@ holes:
             teePosition: 3
         - title: Summer Major 2018 - Rookie
           url: https://youtu.be/LLvJo7f2CNM
+          metadata:
+            tournament: Summer Major 2018
+            level: Rookie
+            ball: Navigator
+            teePosition: 1
+            clubs:
+              - name: Guardian
+                level: 4
+              - name: EndBringer
+                level: 1
+            wind:
+              direction: N
+              magnitude: 2.9
+            keywords:
         - title: Summer Major 2018 - Pro
           url: https://youtu.be/IMC7L1q8PNs
+          metadata:
+            tournament: Summer Major 2018
+            level: Pro
+            ball: Marlin
+            teePosition: 2
+            clubs:
+              - name: Sniper
+                level: 7
+            wind:
+              direction: NNE
+              magnitude: 7.7
+            keywords:
         - title: Summer Major 2018 - Pro
           url: https://youtu.be/CuZTEFkgUXk
+          metadata:
+            tournament: Summer Major 2018
+            level: Pro
+            ball: Navigator
+            teePosition: 2
+            clubs:
+              - name: Sniper
+                level: 7
+              - name: EndBringer
+                level: 3
+            wind:
+              direction: NNE
+              magnitude: 6.8
+            keywords:
         - title: Summer Major 2018 - Expert
           url: https://youtu.be/KEOw7L7bH3Y
+          metadata:
+            tournament: Summer Major 2018
+            level: Expert
+            ball: King Maker
+            teePosition: 2
+            clubs:
+              - name: Sniper
+                level: 10
+            wind:
+              direction: NNW
+              magnitude: 7.7
+            keywords:
         - title: Summer Major 2018 - Expert
           url: https://youtu.be/7ykMdFgze-s
-        - title: Tour 10 - Strategy and Tips Wind Pointed at 10 O`clock
+          metadata:
+            tournament: Summer Major 2018
+            level: Expert
+            ball: Turkey
+            teePosition: 2
+            clubs:
+              - name: Sniper
+                level: 10
+              - name: EndBringer
+                level: 6
+            wind:
+              direction: NNW
+              magnitude: 6.3
+            keywords:
+        - title: Tour 10 Shootout - Strategy and Tips Wind Pointed at 10 O'clock
           url: https://youtu.be/RHaO56Zs7uw
-        - title: Tour 10 - Strategy and Tips Wind Pointed at 1230
+          metadata:
+            tour: 10
+            ball: King Maker
+            teePosition: 2
+            clubs:
+              - name: Sniper
+                level: 10
+            wind:
+              direction: WNW
+              magnitude: 6.6
+            keywords:
+        - title: Tour 10 Shootout - Strategy and Tips Wind Pointed at 1230
           url: https://youtu.be/8zDW23k9xnQ
-        - title: Tour 5 - Strategy and Tips Headwind Pointed at 9 O`clock
+          metadata:
+            tour: 10
+            ball: King Maker
+            teePosition: 2
+            clubs:
+              - name: Sniper
+                level: 10
+            wind:
+              direction: NNE
+              magnitude: 6.0
+            keywords:
+        - title: Tour 5 Shootout - Strategy and Tips Headwind Pointed at 9 O'clock
           url: https://youtu.be/DY9S0CMfXK0
+          metadata:
+            tour: 5
+            ball: King Maker
+            teePosition: 1
+            clubs:
+              - name: Sniper
+                level: 7
+            wind:
+              direction: WNW
+              magnitude: 4.1
+            keywords:
   - id: beee4898-f498-40ff-90c0-cbab8132b044
     course: Porthello Cove
     number: 9
@@ -310,21 +1264,143 @@ holes:
         resources:
         - title: Summer Major 2018 - Rookie
           url: https://youtu.be/L1nMybuVrug
+          metadata:
+            tournament: Summer Major 2018
+            level: Rookie
+            ball: Berserker
+            teePosition: 1
+            clubs:
+              - name: Extra Mile
+                level: 6
+              - name: Sniper
+                level: 6
+            wind:
+              direction: NW
+              magnitude: 3.3
+            keywords:
         - title: Summer Major 2018 - Pro
           url: https://youtu.be/OIpFJ9ftvzA
+          metadata:
+            tournament: Summer Major 2018
+            level: Pro
+            ball: Titan
+            teePosition: 2
+            clubs:
+              - name: Extra Mile
+                level: 5
+              - name: Hammerhead
+                level: 3
+            wind:
+              direction: NW
+              magnitude: 7.3
+            keywords:
         - title: Summer Major 2018 - Pro
           url: https://youtu.be/zPy1_Lkibyk
+          metadata:
+            tournament: Summer Major 2018
+            level: Pro
+            ball: King Maker
+            teePosition: 2
+            clubs:
+              - name: Extra Mile
+                level: 5
+              - name: Hammerhead
+                level: 3
+            wind:
+              direction: NW
+              magnitude: 6.1
+            keywords:
         - title: Summer Major 2018 - Expert
           url: https://youtu.be/JHge-0jxYk4
+          metadata:
+            tournament: Summer Major 2018
+            level: Expert
+            ball: King Maker
+            teePosition: 2
+            clubs:
+              - name: Apocalypse
+                level: 7
+              - name: Sniper
+                level: 10
+            wind:
+              direction: NW
+              magnitude: 8.3
+            keywords:
         - title: Summer Major 2018 - Expert
           url: https://youtu.be/vdAFWlZBGio
+          metadata:
+            tournament: Summer Major 2018
+            level: Expert
+            ball: Berserker
+            teePosition: 2
+            clubs:
+              - name: Apocalypse
+                level: 5
+              - name: Hammerhead
+                level: 6
+            wind:
+              direction: NW
+              magnitude: 10.7
+            keywords:
         - title: Tour 10 - Strategy and Tips
           url: https://youtu.be/4GU7BHc5K1I
+          metadata:
+            tour: 10
+            ball: King Maker
+            teePosition: 2
+            clubs:
+              - name: Apocalypse
+                level: 7
+              - name: Sniper
+                level: 10
+            wind:
+              direction: E
+              magnitude: 9.6
+            keywords:
         - title: Tour 10 - Strategy and Tips with Tough Headwind Approach
           url: https://youtu.be/dqKIiWEpFZs
+          metadata:
+            tour: 10
+            ball: King Maker
+            teePosition: 2
+            clubs:
+              - name: Apocalypse
+                level: 7
+              - name: Sniper
+                level: 10
+            wind:
+              direction: SW
+              magnitude: 7.6
+            keywords:
         - title: Tour 10 - Strategy and Tips for Headwinds
           url: https://youtu.be/_gvf9kIssdU
-        - title: Tour 5 - Strategy and Tips
-          url: https://youtu.be/qL59rqZ5htI
+          metadata:
+            tour: 10
+            ball: King Maker
+            teePosition: 2
+            clubs:
+              - name: Apocalypse
+                level: 7
+              - name: Sniper
+                level: 10
+            wind:
+              direction: W
+              magnitude: 5.9
+            keywords:
         - title: Tour 5 - Strategy and Tips for Going Right
           url: https://youtu.be/1DKvky2WjZ0
+          metadata:
+            tour: 5
+            ball: Titan
+            teePosition: 1
+            clubs:
+              - name: Extra Mile
+                level: 5
+              - name: Sniper
+                level: 7
+              - name: Nirvana
+                level: 4
+            wind:
+              direction: SSE
+              magnitude: 1.0
+            keywords:
