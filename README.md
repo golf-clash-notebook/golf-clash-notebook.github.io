@@ -12,7 +12,7 @@ A website with a collection of useful resources & tools to help people with Golf
 **Building**
 ```bash
 > sbt
-> site/makeMicrosite  # Anytime you edit a source file, repeat this command to see updates in your browser
+> site/generateNotebookSite  # Anytime you edit a source file, repeat this command to see updates in your browser
 ```
 
 In a separate terminal in the notebook top level directory (using jekyll):
