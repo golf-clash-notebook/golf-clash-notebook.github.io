@@ -39,7 +39,9 @@ object clubranker {
 
   case class ClubLevel(
     name: String,
+    category: String,
     level: Int,
+    tour: Int,
     power: Int,
     accuracy: Int,
     topspin: Int,
@@ -214,7 +216,9 @@ object clubranker {
       (0 until club.maxLevel).map { level =>
         ClubLevel(
           club.name,
+          club.category,
           level + 1,
+          club.tour,
           club.power(level),
           club.accuracy(level),
           club.topspin(level),
