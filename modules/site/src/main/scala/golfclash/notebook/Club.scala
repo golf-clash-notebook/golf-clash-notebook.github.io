@@ -37,6 +37,8 @@ case class Club(
   id: String,
   name: String,
   category: String,
+  tour: Int,
+  `type`: String,
   description: String,
   power: List[Int],
   accuracy: List[Int],

@@ -1,0 +1,405 @@
+2.50, Drivers, Beginner Driver 1
+13.25, Drivers, The Rocket 1
+20.50, Drivers, The Rocket 2
+23.61, Drivers, The Rocket 3
+29.91, Drivers, The Rocket 4
+32.59, Drivers, The Rocket 5
+37.54, Drivers, The Rocket 6
+40.64, Drivers, The Rocket 7
+42.97, Drivers, The Rocket 8
+48.07, Drivers, The Rocket 9
+53.82, Drivers, The Rocket 10
+30.08, Drivers, The Extra Mile 1
+34.33, Drivers, The Extra Mile 2
+37.53, Drivers, The Extra Mile 3
+43.95, Drivers, The Extra Mile 4
+50.70, Drivers, The Extra Mile 5
+57.64, Drivers, The Extra Mile 6
+63.47, Drivers, The Extra Mile 7
+69.32, Drivers, The Extra Mile 8
+40.01, Drivers, Big Topper 1
+43.75, Drivers, Big Topper 2
+49.22, Drivers, Big Topper 3
+56.80, Drivers, Big Topper 4
+59.05, Drivers, Big Topper 5
+66.84, Drivers, Big Topper 6
+71.64, Drivers, Big Topper 7
+29.08, Drivers, The Quarterback 1
+33.08, Drivers, The Quarterback 2
+38.41, Drivers, The Quarterback 3
+41.06, Drivers, The Quarterback 4
+49.80, Drivers, The Quarterback 5
+52.05, Drivers, The Quarterback 6
+58.62, Drivers, The Quarterback 7
+62.73, Drivers, The Quarterback 8
+66.36, Drivers, The Quarterback 9
+69.86, Drivers, The Quarterback 10
+35.80, Drivers, The Rock 1
+38.84, Drivers, The Rock 2
+45.16, Drivers, The Rock 3
+50.76, Drivers, The Rock 4
+56.87, Drivers, The Rock 5
+61.32, Drivers, The Rock 6
+68.26, Drivers, The Rock 7
+75.33, Drivers, The Rock 8
+48.83, Drivers, Thor's Hammer 1
+53.94, Drivers, Thor's Hammer 2
+58.29, Drivers, Thor's Hammer 3
+65.07, Drivers, Thor's Hammer 4
+70.22, Drivers, Thor's Hammer 5
+74.72, Drivers, Thor's Hammer 6
+84.97, Drivers, Thor's Hammer 7
+57.08, Drivers, The Apocalypse 1
+62.43, Drivers, The Apocalypse 2
+68.90, Drivers, The Apocalypse 3
+77.05, Drivers, The Apocalypse 4
+84.10, Drivers, The Apocalypse 5
+87.75, Drivers, The Apocalypse 6
+93.00, Drivers, The Apocalypse 7
+6.28, Woods, Beginner Wood 1
+21.15, Woods, The Horizon 1
+27.16, Woods, The Horizon 2
+35.61, Woods, The Horizon 3
+38.43, Woods, The Horizon 4
+47.67, Woods, The Horizon 5
+54.07, Woods, The Horizon 6
+62.52, Woods, The Horizon 7
+13.60, Woods, The Viper 1
+19.65, Woods, The Viper 2
+27.15, Woods, The Viper 3
+33.05, Woods, The Viper 4
+39.69, Woods, The Viper 5
+42.27, Woods, The Viper 6
+49.18, Woods, The Viper 7
+53.17, Woods, The Viper 8
+59.93, Woods, The Viper 9
+65.98, Woods, The Viper 10
+29.11, Woods, The Big Dawg 1
+32.57, Woods, The Big Dawg 2
+40.27, Woods, The Big Dawg 3
+44.82, Woods, The Big Dawg 4
+48.16, Woods, The Big Dawg 5
+55.20, Woods, The Big Dawg 6
+61.69, Woods, The Big Dawg 7
+69.30, Woods, The Big Dawg 8
+48.54, Woods, The Hammerhead 1
+54.08, Woods, The Hammerhead 2
+60.43, Woods, The Hammerhead 3
+68.76, Woods, The Hammerhead 4
+72.06, Woods, The Hammerhead 5
+80.59, Woods, The Hammerhead 6
+86.81, Woods, The Hammerhead 7
+41.58, Woods, The Guardian 1
+44.92, Woods, The Guardian 2
+52.40, Woods, The Guardian 3
+59.27, Woods, The Guardian 4
+65.56, Woods, The Guardian 5
+73.10, Woods, The Guardian 6
+80.51, Woods, The Guardian 7
+87.51, Woods, The Guardian 8
+44.09, Woods, The Sniper 1
+46.14, Woods, The Sniper 2
+50.51, Woods, The Sniper 3
+54.65, Woods, The Sniper 4
+61.38, Woods, The Sniper 5
+65.75, Woods, The Sniper 6
+71.09, Woods, The Sniper 7
+76.03, Woods, The Sniper 8
+82.23, Woods, The Sniper 9
+85.81, Woods, The Sniper 10
+49.89, Woods, The Cataclysm 1
+57.73, Woods, The Cataclysm 2
+64.80, Woods, The Cataclysm 3
+68.27, Woods, The Cataclysm 4
+74.98, Woods, The Cataclysm 5
+79.92, Woods, The Cataclysm 6
+88.26, Woods, The Cataclysm 7
+7.85, LongIrons, Beginner Long Iron 1
+23.85, LongIrons, The Grim Reaper 1
+27.48, LongIrons, The Grim Reaper 2
+36.80, LongIrons, The Grim Reaper 3
+45.20, LongIrons, The Grim Reaper 4
+49.66, LongIrons, The Grim Reaper 5
+57.58, LongIrons, The Grim Reaper 6
+63.88, LongIrons, The Grim Reaper 7
+18.32, LongIrons, The Backbone 1
+26.28, LongIrons, The Backbone 2
+29.35, LongIrons, The Backbone 3
+36.63, LongIrons, The Backbone 4
+41.43, LongIrons, The Backbone 5
+49.10, LongIrons, The Backbone 6
+52.10, LongIrons, The Backbone 7
+60.13, LongIrons, The Backbone 8
+69.68, LongIrons, The Backbone 9
+73.90, LongIrons, The Backbone 10
+32.92, LongIrons, The Goliath 1
+35.42, LongIrons, The Goliath 2
+42.64, LongIrons, The Goliath 3
+47.45, LongIrons, The Goliath 4
+55.45, LongIrons, The Goliath 5
+60.89, LongIrons, The Goliath 6
+69.54, LongIrons, The Goliath 7
+73.46, LongIrons, The Goliath 8
+16.53, LongIrons, The Saturn 1
+20.81, LongIrons, The Saturn 2
+27.13, LongIrons, The Saturn 3
+35.84, LongIrons, The Saturn 4
+39.84, LongIrons, The Saturn 5
+48.35, LongIrons, The Saturn 6
+52.63, LongIrons, The Saturn 7
+55.38, LongIrons, The Saturn 8
+63.70, LongIrons, The Saturn 9
+67.41, LongIrons, The Saturn 10
+53.18, LongIrons, The B52 1
+57.70, LongIrons, The B52 2
+65.75, LongIrons, The B52 3
+70.71, LongIrons, The B52 4
+79.66, LongIrons, The B52 5
+81.41, LongIrons, The B52 6
+89.50, LongIrons, The B52 7
+46.56, LongIrons, The Grizzly 1
+46.56, LongIrons, The Grizzly 2
+50.56, LongIrons, The Grizzly 3
+50.56, LongIrons, The Grizzly 4
+55.66, LongIrons, The Grizzly 5
+60.66, LongIrons, The Grizzly 6
+64.30, LongIrons, The Grizzly 7
+69.05, LongIrons, The Grizzly 8
+39.40, LongIrons, The Tsunami 1
+47.36, LongIrons, The Tsunami 2
+57.80, LongIrons, The Tsunami 3
+62.61, LongIrons, The Tsunami 4
+72.81, LongIrons, The Tsunami 5
+75.84, LongIrons, The Tsunami 6
+85.82, LongIrons, The Tsunami 7
+11.88, ShortIrons, Beginner Short Iron 1
+12.28, ShortIrons, The Apache 1
+19.00, ShortIrons, The Apache 2
+27.06, ShortIrons, The Apache 3
+31.16, ShortIrons, The Apache 4
+37.28, ShortIrons, The Apache 5
+44.84, ShortIrons, The Apache 6
+48.61, ShortIrons, The Apache 7
+50.79, ShortIrons, The Apache 8
+40.34, ShortIrons, The Kingfisher 1
+45.97, ShortIrons, The Kingfisher 2
+51.44, ShortIrons, The Kingfisher 3
+61.76, ShortIrons, The Kingfisher 4
+63.95, ShortIrons, The Kingfisher 5
+69.52, ShortIrons, The Kingfisher 6
+79.77, ShortIrons, The Kingfisher 7
+6.25, ShortIrons, The Runner 1
+10.78, ShortIrons, The Runner 2
+16.96, ShortIrons, The Runner 3
+23.24, ShortIrons, The Runner 4
+31.17, ShortIrons, The Runner 5
+36.79, ShortIrons, The Runner 6
+45.76, ShortIrons, The Runner 7
+50.04, ShortIrons, The Runner 8
+55.10, ShortIrons, The Runner 9
+62.37, ShortIrons, The Runner 10
+42.41, ShortIrons, The Thorn 1
+51.84, ShortIrons, The Thorn 2
+59.22, ShortIrons, The Thorn 3
+62.22, ShortIrons, The Thorn 4
+70.22, ShortIrons, The Thorn 5
+73.22, ShortIrons, The Thorn 6
+79.16, ShortIrons, The Thorn 7
+85.63, ShortIrons, The Thorn 8
+43.31, ShortIrons, The Hornet 1
+47.41, ShortIrons, The Hornet 2
+57.84, ShortIrons, The Hornet 3
+65.31, ShortIrons, The Hornet 4
+67.31, ShortIrons, The Hornet 5
+68.88, ShortIrons, The Hornet 6
+77.54, ShortIrons, The Hornet 7
+85.12, ShortIrons, The Hornet 8
+25.28, ShortIrons, The Claw 1
+30.91, ShortIrons, The Claw 2
+37.46, ShortIrons, The Claw 3
+42.44, ShortIrons, The Claw 4
+48.26, ShortIrons, The Claw 5
+55.63, ShortIrons, The Claw 6
+61.26, ShortIrons, The Claw 7
+66.06, ShortIrons, The Claw 8
+72.90, ShortIrons, The Claw 9
+76.71, ShortIrons, The Claw 10
+45.47, ShortIrons, The Falcon 1
+52.75, ShortIrons, The Falcon 2
+55.56, ShortIrons, The Falcon 3
+66.69, ShortIrons, The Falcon 4
+69.09, ShortIrons, The Falcon 5
+78.29, ShortIrons, The Falcon 6
+84.85, ShortIrons, The Falcon 7
+13.50, Wedges, Beginner Pitcher 1
+10.50, Wedges, The Dart 1
+16.70, Wedges, The Dart 2
+20.70, Wedges, The Dart 3
+27.50, Wedges, The Dart 4
+30.90, Wedges, The Dart 5
+38.45, Wedges, The Dart 6
+40.05, Wedges, The Dart 7
+45.45, Wedges, The Dart 8
+51.40, Wedges, The Dart 9
+55.80, Wedges, The Dart 10
+46.90, Wedges, The Firefly 1
+50.90, Wedges, The Firefly 2
+58.05, Wedges, The Firefly 3
+62.85, Wedges, The Firefly 4
+68.40, Wedges, The Firefly 5
+69.40, Wedges, The Firefly 6
+79.35, Wedges, The Firefly 7
+15.00, Wedges, The Boomerang 1
+19.00, Wedges, The Boomerang 2
+23.15, Wedges, The Boomerang 3
+32.55, Wedges, The Boomerang 4
+38.15, Wedges, The Boomerang 5
+48.15, Wedges, The Boomerang 6
+57.75, Wedges, The Boomerang 7
+34.00, Wedges, The DownInOne 1
+39.00, Wedges, The DownInOne 2
+43.15, Wedges, The DownInOne 3
+50.95, Wedges, The DownInOne 4
+58.00, Wedges, The DownInOne 5
+59.60, Wedges, The DownInOne 6
+66.80, Wedges, The DownInOne 7
+69.00, Wedges, The DownInOne 8
+24.75, Wedges, The Skewer 1
+30.15, Wedges, The Skewer 2
+36.15, Wedges, The Skewer 3
+41.75, Wedges, The Skewer 4
+44.75, Wedges, The Skewer 5
+49.30, Wedges, The Skewer 6
+54.30, Wedges, The Skewer 7
+59.10, Wedges, The Skewer 8
+64.70, Wedges, The Skewer 9
+72.25, Wedges, The Skewer 10
+60.50, Wedges, The Endbringer 1
+62.50, Wedges, The Endbringer 2
+71.25, Wedges, The Endbringer 3
+73.25, Wedges, The Endbringer 4
+84.45, Wedges, The Endbringer 5
+85.45, Wedges, The Endbringer 6
+93.00, Wedges, The Endbringer 7
+45.55, Wedges, The Rapier 1
+54.10, Wedges, The Rapier 2
+59.50, Wedges, The Rapier 3
+62.70, Wedges, The Rapier 4
+70.45, Wedges, The Rapier 5
+75.20, Wedges, The Rapier 6
+83.45, Wedges, The Rapier 7
+89.45, Wedges, The Rapier 8
+2.25, RoughIrons, Beginner Rough Iron 1
+26.27, RoughIrons, The Roughcutter 1
+30.14, RoughIrons, The Roughcutter 2
+35.36, RoughIrons, The Roughcutter 3
+42.09, RoughIrons, The Roughcutter 4
+48.18, RoughIrons, The Roughcutter 5
+52.36, RoughIrons, The Roughcutter 6
+56.57, RoughIrons, The Roughcutter 7
+63.66, RoughIrons, The Roughcutter 8
+29.63, RoughIrons, The Junglist 1
+36.45, RoughIrons, The Junglist 2
+42.67, RoughIrons, The Junglist 3
+48.62, RoughIrons, The Junglist 4
+51.12, RoughIrons, The Junglist 5
+61.16, RoughIrons, The Junglist 6
+71.77, RoughIrons, The Junglist 7
+22.51, RoughIrons, The Machete 1
+25.34, RoughIrons, The Machete 2
+33.15, RoughIrons, The Machete 3
+39.73, RoughIrons, The Machete 4
+46.30, RoughIrons, The Machete 5
+48.75, RoughIrons, The Machete 6
+58.94, RoughIrons, The Machete 7
+60.96, RoughIrons, The Machete 8
+68.85, RoughIrons, The Machete 9
+71.28, RoughIrons, The Machete 10
+47.79, RoughIrons, The Off Roader 1
+51.10, RoughIrons, The Off Roader 2
+60.01, RoughIrons, The Off Roader 3
+67.79, RoughIrons, The Off Roader 4
+76.86, RoughIrons, The Off Roader 5
+85.71, RoughIrons, The Off Roader 6
+89.58, RoughIrons, The Off Roader 7
+52.23, RoughIrons, The Razor 1
+59.24, RoughIrons, The Razor 2
+61.57, RoughIrons, The Razor 3
+66.07, RoughIrons, The Razor 4
+68.57, RoughIrons, The Razor 5
+74.84, RoughIrons, The Razor 6
+81.28, RoughIrons, The Razor 7
+87.54, RoughIrons, The Razor 8
+51.26, RoughIrons, The Amazon 1
+57.72, RoughIrons, The Amazon 2
+66.87, RoughIrons, The Amazon 3
+69.68, RoughIrons, The Amazon 4
+78.07, RoughIrons, The Amazon 5
+83.82, RoughIrons, The Amazon 6
+90.67, RoughIrons, The Amazon 7
+53.05, RoughIrons, Nirvana 1
+54.99, RoughIrons, Nirvana 2
+62.15, RoughIrons, Nirvana 3
+69.07, RoughIrons, Nirvana 4
+77.50, RoughIrons, Nirvana 5
+81.90, RoughIrons, Nirvana 6
+86.55, RoughIrons, Nirvana 7
+92.05, RoughIrons, Nirvana 8
+6.39, SandWedges, Beginner Sand Wedge 1
+33.28, SandWedges, The Castaway 1
+40.11, SandWedges, The Castaway 2
+48.10, SandWedges, The Castaway 3
+50.75, SandWedges, The Castaway 4
+56.86, SandWedges, The Castaway 5
+60.19, SandWedges, The Castaway 6
+69.22, SandWedges, The Castaway 7
+15.00, SandWedges, The Desert Storm 1
+20.93, SandWedges, The Desert Storm 2
+27.59, SandWedges, The Desert Storm 3
+31.96, SandWedges, The Desert Storm 4
+38.24, SandWedges, The Desert Storm 5
+38.84, SandWedges, The Desert Storm 6
+43.11, SandWedges, The Desert Storm 7
+49.36, SandWedges, The Desert Storm 8
+53.97, SandWedges, The Desert Storm 9
+60.49, SandWedges, The Desert Storm 10
+53.06, SandWedges, The Malibu 1
+59.42, SandWedges, The Malibu 2
+66.27, SandWedges, The Malibu 3
+70.24, SandWedges, The Malibu 4
+74.91, SandWedges, The Malibu 5
+80.34, SandWedges, The Malibu 6
+86.39, SandWedges, The Malibu 7
+90.17, SandWedges, The Malibu 8
+48.07, SandWedges, The Sahara 1
+49.18, SandWedges, The Sahara 2
+58.28, SandWedges, The Sahara 3
+64.39, SandWedges, The Sahara 4
+70.50, SandWedges, The Sahara 5
+78.86, SandWedges, The Sahara 6
+85.88, SandWedges, The Sahara 7
+38.68, SandWedges, The Sand Lizard 1
+39.79, SandWedges, The Sand Lizard 2
+48.54, SandWedges, The Sand Lizard 3
+51.62, SandWedges, The Sand Lizard 4
+57.12, SandWedges, The Sand Lizard 5
+65.91, SandWedges, The Sand Lizard 6
+67.62, SandWedges, The Sand Lizard 7
+73.54, SandWedges, The Sand Lizard 8
+75.51, SandWedges, The Sand Lizard 9
+78.28, SandWedges, The Sand Lizard 10
+39.44, SandWedges, Houdini 1
+40.00, SandWedges, Houdini 2
+45.08, SandWedges, Houdini 3
+53.71, SandWedges, Houdini 4
+61.68, SandWedges, Houdini 5
+65.43, SandWedges, Houdini 6
+73.14, SandWedges, Houdini 7
+78.50, SandWedges, Houdini 8
+69.72, SandWedges, Spitfire 1
+73.36, SandWedges, Spitfire 2
+78.22, SandWedges, Spitfire 3
+80.03, SandWedges, Spitfire 4
+88.50, SandWedges, Spitfire 5
+92.10, SandWedges, Spitfire 6
+96.74, SandWedges, Spitfire 7
