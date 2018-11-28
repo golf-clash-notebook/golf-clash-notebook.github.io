@@ -148,11 +148,31 @@ lazy val siteSettings = Seq(
     "white-color"     -> "#ffffff"
   ),
   micrositeFooterText := None,
-  includeFilter in makeSite := "CNAME" | "*.css" | "*.gif" | "*.html" | "*.jpg" | "*.js" | "*.js.map" | "*.json" | "*.liquid" | "*.md" | "*.otf" | "*.pdf" | "*.png" | "*.svg" | "*.swf" | "*.ttf" | "*.txt" | "*.webmanifest" | "*.woff" | "*.woff2" | "*.xml" | "*.yml",
+  includeFilter in makeSite := "CNAME" | "*.css" | "*.gif" | "*.html" | "*.jpg" | "*.js" | "*.js.map" | "*.json" | "*.json.gz" | "*.liquid" | "*.md" | "*.otf" | "*.pdf" | "*.png" | "*.svg" | "*.swf" | "*.ttf" | "*.txt" | "*.webmanifest" | "*.woff" | "*.woff2" | "*.xml" | "*.yml",
   fork in tut := true,
   scalacOptions in Tut ~= (_.filterNot(Set("-Ywarn-unused-import", "-Ywarn-dead-code"))),
   scalaJSUseMainModuleInitializer := true,
-  makeMicrosite := (makeMicrosite dependsOn (fullOptJS in Compile)).value,
+  makeMicrosite := {
+
+    (fullOptJS in Compile).value
+    makeMicrosite.value
+
+    import java.io._
+    import java.util.zip._
+    import scala.io._
+
+    def compressJson(f: File): Unit = {
+      if(f.isDirectory) {
+        f.listFiles.foreach(compressJson)
+      } else if(f.getName().endsWith(".json")) {
+        val os = new PrintWriter(new GZIPOutputStream(new FileOutputStream(s"${f.getAbsolutePath()}.gz")))
+        Source.fromFile(f).getLines.foreach(os.write)
+        os.close()
+      }
+    }
+
+    compressJson(target.value / "site")
+  },
   artifactPath in(Compile, fastOptJS) := ((baseDirectory).value / "src" / "main" / "resources" / "microsite" / "js" / ((moduleName in (Compile, fastOptJS)).value + ".js")),
   artifactPath in(Compile, fullOptJS) := ((baseDirectory).value / "src" / "main" / "resources" / "microsite" / "js" / ((moduleName in (Compile, fastOptJS)).value + ".js"))
 )
