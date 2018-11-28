@@ -4,7 +4,7 @@ sudo: false
 language: scala
 
 scala:
-- 2.12.6
+- 2.12.7
 
 jdk:
 - oraclejdk8
@@ -37,7 +37,7 @@ script:
   git clean -f;
   git checkout dev;
   git pull origin dev;
-  sbt site/generateNotebookSite;
+  sbt 'site/generateNotebookSite';
 
 deploy:
   provider: pages
