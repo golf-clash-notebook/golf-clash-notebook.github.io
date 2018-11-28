@@ -36,16 +36,98 @@ holes:
         resources:
         - title: Ghostly Glades - Rookie
           url: https://youtu.be/lX-0U97Hgy8
+          metadata:
+            tournament: Ghostly Glades
+            level: Rookie
+            teePosition: 1
+            ball: Quasar
+            clubs:
+              - name: Rocket
+                level: 9
+              - name: Rapier
+                level: 5
+            wind:
+              direction: NW
+              magnitude: 3.1
+            keywords:
         - title: Ghostly Glades - Pro
           url: https://youtu.be/_DcC7zg5oRE
+          metadata:
+            tournament: Ghostly Glades
+            level: Pro
+            teePosition: 2
+            ball: Titan
+            clubs:
+              - name: Extra Mile
+                level: 6
+            wind:
+              direction: NE
+              magnitude: 5.3
+            keywords:
         - title: Ghostly Glades - Expert
           url: https://youtu.be/7L--D8PmESY
+          metadata:
+            tournament: Ghostly Glades
+            level: Expert
+            teePosition: 2
+            ball: King Maker
+            clubs:
+              - name: Thor's Hammer
+                level: 4
+              - name: Rapier
+                level: 4
+            wind:
+              direction: WNW
+              magnitude: 8.4
+            keywords:
         - title: Ghostly Glades - Masters
           url: https://youtu.be/VRqosa71rmU
+          metadata:
+            tournament: Ghostly Glades
+            level: Masters
+            teePosition: 3
+            ball: Dead
+            clubs:
+              - name: Apocalypse
+                level: 7
+              - name: Spitfire
+                level: 6
+            wind:
+              direction: WSW
+              magnitude: 10.4
+            keywords:
         - title: Ghostly Glades - Masters
           url: https://youtu.be/hVatOUbcWNg
+          metadata:
+            tournament: Ghostly Glades
+            level: Masters
+            teePosition: 3
+            ball: Royal
+            clubs:
+              - name: Apocalypse
+                level: 4
+              - name: Nirvana
+                level: 8
+            wind:
+              direction: W
+              magnitude: 11.7
+            keywords:
         - title: Ghostly Glades - Masters
           url: https://youtu.be/qUWt2WrBK3o
+          metadata:
+            tournament: Ghostly Glades
+            level: Masters
+            teePosition: 3
+            ball: Voyager
+            clubs:
+              - name: Rock
+                level: 8
+              - name: Thorn
+                level: 8
+            wind:
+              direction: WSW
+              magnitude: 10.2
+            keywords:
         - title: Tour 11 - Strategy and Tips
           url: https://youtu.be/M6KGEeYZQ8g
           metadata:
@@ -377,18 +459,6 @@ holes:
           url: https://youtu.be/FaZ-hALlAec
       - name: Zachary Jones
         resources:
-        - title: Ghostly Glades - Rookie
-          url: https://youtu.be/5HeyO7p9SIE
-        - title: Ghostly Glades - Pro
-          url: https://youtu.be/u7ZMHrSlxGM
-        - title: Ghostly Glades - Expert
-          url: https://youtu.be/tG7vxxJQOjc
-        - title: Ghostly Glades - Masters
-          url: https://youtu.be/ro2lktHDY8o
-        - title: Ghostly Glades - Masters
-          url: https://youtu.be/_S2un20F3tg
-        - title: Ghostly Glades - Masters
-          url: https://youtu.be/mWkz-PxEeME
         - title: General Instruction - 2nd Tee
           url: https://youtu.be/mXReNZWfmzA
           metadata:
@@ -399,6 +469,90 @@ holes:
           metadata:
             generalInstruction: true
             teePosition: 3
+        - title: Ghostly Glades - Rookie
+          url: https://youtu.be/5HeyO7p9SIE
+          metadata:
+            tournament: Ghostly Glades
+            level: Rookie
+            teePosition: 1
+            ball: Quasar
+            clubs:
+              - name: Backbone
+                level: 9
+            wind:
+              direction: NE
+              magnitude: 3.8
+            keywords:
+        - title: Ghostly Glades - Pro
+          url: https://youtu.be/u7ZMHrSlxGM
+          metadata:
+            tournament: Ghostly Glades
+            level: Pro
+            teePosition: 2
+            ball: Titan
+            clubs:
+              - name: Sniper
+                level: 8
+            wind:
+              direction: ENE
+              magnitude: 7.3
+            keywords:
+        - title: Ghostly Glades - Expert
+          url: https://youtu.be/tG7vxxJQOjc
+          metadata:
+            tournament: Ghostly Glades
+            level: Expert
+            teePosition: 2
+            ball: King Maker
+            clubs:
+              - name: Sniper
+                level: 8
+            wind:
+              direction: NE
+              magnitude: 8.1
+            keywords:
+        - title: Ghostly Glades - Masters
+          url: https://youtu.be/ro2lktHDY8o
+          metadata:
+            tournament: Ghostly Glades
+            level: Masters
+            teePosition: 3
+            ball: King Maker
+            clubs:
+              - name: Sniper
+                level: 7
+            wind:
+              direction: N
+              magnitude: 11.5
+            keywords:
+        - title: Ghostly Glades - Masters
+          url: https://youtu.be/_S2un20F3tg
+          metadata:
+            tournament: Ghostly Glades
+            level: Masters
+            teePosition: 3
+            ball: Bunny
+            clubs:
+              - name: Guardian
+                level: 8
+            wind:
+              direction: NNE
+              magnitude: 10.4
+            keywords:
+        - title: Ghostly Glades - Masters
+          url: https://youtu.be/mWkz-PxEeME
+          metadata:
+            tournament: Ghostly Glades
+            level: Masters
+            teePosition: 3
+            ball: Santa
+            clubs:
+              - name: Quarterback
+                level: 10
+            wind:
+              direction: NNE
+              magnitude: 8.1
+            keywords:
     aliases:
       - 91e0b426-4747-4351-827e-7eb721a77f13
   - id: ceec18c9-cda1-436d-bdb1-1f2454b46436
@@ -438,16 +592,100 @@ holes:
         resources:
         - title: Ghostly Glades - Rookie
           url: https://youtu.be/jQFi-Eb6J8s
+          metadata:
+            tournament: Ghostly Glades
+            level: Rookie
+            teePosition: 1
+            ball: Navigator
+            clubs:
+              - name: Quarterback
+                level: 9
+              - name: Sniper
+                level: 9
+            wind:
+              direction: NNE
+              magnitude: 3.0
+            keywords:
         - title: Ghostly Glades - Pro
           url: https://youtu.be/D7o20_jgQ7A
+          metadata:
+            tournament: Ghostly Glades
+            level: Pro
+            teePosition: 2
+            ball: Navigator
+            clubs:
+              - name: Quarterback
+                level: 8
+              - name: Sniper
+                level: 8
+            wind:
+              direction: N
+              magnitude: 5.7
+            keywords:
         - title: Ghostly Glades - Expert
           url: https://youtu.be/4yg7rK3wtV4
+          metadata:
+            tournament: Ghostly Glades
+            level: Expert
+            teePosition: 2
+            ball: King Maker
+            clubs:
+              - name: Thor's Hammer
+                level: 4
+              - name: Sniper
+                level: 8
+            wind:
+              direction: WNW
+              magnitude: 7.7
+            keywords:
         - title: Ghostly Glades - Masters
           url: https://youtu.be/Pl7b7V0Wz4o
+          metadata:
+            tournament: Ghostly Glades
+            level: Masters
+            teePosition: 3
+            ball: King Maker
+            clubs:
+              - name: Apocalypse
+                level: 7
+              - name: Sniper
+                level: 10
+            wind:
+              direction: E
+              magnitude: 5.8
+            keywords:
         - title: Ghostly Glades - Masters
           url: https://youtu.be/92xtbP13jUQ
+          metadata:
+            tournament: Ghostly Glades
+            level: Masters
+            teePosition: 3
+            ball: King Maker
+            clubs:
+              - name: Apocalypse
+                level: 4
+              - name: Sniper
+                level: 10
+            wind:
+              direction: E
+              magnitude: 11.2
+            keywords:
         - title: Ghostly Glades - Masters
           url: https://youtu.be/Jrn9DDQ3PzA
+          metadata:
+            tournament: Ghostly Glades
+            level: Masters
+            teePosition: 3
+            ball: King Maker
+            clubs:
+              - name: Apocalypse
+                level: 7
+              - name: Sniper
+                level: 10
+            wind:
+              direction: E
+              magnitude: 11.0
+            keywords:
         - title: Tour 11 - Strategy and Tips
           url: https://youtu.be/BlJ3ALKE98s
           metadata:
@@ -520,16 +758,98 @@ holes:
         resources:
         - title: Ghostly Glades - Rookie
           url: https://youtu.be/hjEdi_t7tDQ
+          metadata:
+            tournament: Ghostly Glades
+            level: Rookie
+            teePosition: 1
+            ball: Quasar
+            clubs:
+              - name: Big Topper
+                level: 4
+            wind:
+              direction: NW
+              magnitude: 3.9
+            keywords:
         - title: Ghostly Glades - Pro
           url: https://youtu.be/svTM98u_oPI
+          metadata:
+            tournament: Ghostly Glades
+            level: Pro
+            teePosition: 2
+            ball: Navigator
+            clubs:
+              - name: Extra Mile
+                level: 6
+              - name: Malibu
+                level: 6
+            wind:
+              direction: NE
+              magnitude: 6.7
+            keywords:
         - title: Ghostly Glades - Expert
           url: https://youtu.be/14CinLJW4VA
+          metadata:
+            tournament: Ghostly Glades
+            level: Expert
+            teePosition: 2
+            ball: King Maker
+            clubs:
+              - name: Thor's Hammer
+                level: 4
+              - name: Thorn
+                level: 5
+            wind:
+              direction: W
+              magnitude: 8.9
+            keywords:
         - title: Ghostly Glades - Masters
           url: https://youtu.be/nYhQivcVU7Q
+          metadata:
+            tournament: Ghostly Glades
+            level: Masters
+            teePosition: 3
+            ball: Berserker
+            clubs:
+              - name: Apocalypse
+                level: 7
+              - name: Nirvana
+                level: 8
+            wind:
+              direction: NW
+              magnitude: 14.1
+            keywords:
         - title: Ghostly Glades - Masters
           url: https://youtu.be/PDMtTlN7mNE
+          metadata:
+            tournament: Ghostly Glades
+            level: Masters
+            teePosition: 3
+            ball: Blue Marble
+            clubs:
+              - name: Apocalypse
+                level: 4
+              - name: Spitfire
+                level: 4
+            wind:
+              direction: NW
+              magnitude: 14.0
+            keywords:
         - title: Ghostly Glades - Masters
           url: https://youtu.be/aPaJztL8fZg
+          metadata:
+            tournament: Ghostly Glades
+            level: Masters
+            teePosition: 3
+            ball: Berserker
+            clubs:
+              - name: Apocalypse
+                level: 7
+              - name: Nirvana
+                level: 8
+            wind:
+              direction: NW
+              magnitude: 14.8
+            keywords:
     aliases:
       - e419e731-7c51-4a85-9646-24ce271d75d2
   - id: f30c2f43-c8dc-4762-bc7b-77b6d196d0e2
@@ -570,18 +890,6 @@ holes:
           url: https://i.imgur.com/QmOmLTe.png
       - name: Zachary Jones
         resources:
-        - title: Ghostly Glades - Rookie
-          url: https://youtu.be/J4YcgX3MzQQ
-        - title: Ghostly Glades - Pro
-          url: https://youtu.be/jZPjBBTQLdw
-        - title: Ghostly Glades - Expert
-          url: https://youtu.be/8TVe4Urbb6k
-        - title: Ghostly Glades - Masters
-          url: https://youtu.be/sAgclAT_v38
-        - title: Ghostly Glades - Masters
-          url: https://youtu.be/l5GwkVjlhyo
-        - title: Ghostly Glades - Masters
-          url: https://youtu.be/QHTFf73vkxM
         - title: General Instruction - 2nd Tee
           url: https://youtu.be/dA2k6h73SUg
           metadata:
@@ -592,6 +900,90 @@ holes:
           metadata:
             generalInstruction: true
             teePosition: 3
+        - title: Ghostly Glades - Rookie
+          url: https://youtu.be/J4YcgX3MzQQ
+          metadata:
+            tournament: Ghostly Glades
+            level: Rookie
+            teePosition: 1
+            ball: Quasar
+            clubs:
+              - name: Sniper
+                level: 9
+            wind:
+              direction: SSW
+              magnitude: 4.6
+            keywords:
+        - title: Ghostly Glades - Pro
+          url: https://youtu.be/jZPjBBTQLdw
+          metadata:
+            tournament: Ghostly Glades
+            level: Pro
+            teePosition: 2
+            ball: Titan
+            clubs:
+              - name: Sniper
+                level: 8
+            wind:
+              direction: SSE
+              magnitude: 5.3
+            keywords:
+        - title: Ghostly Glades - Expert
+          url: https://youtu.be/8TVe4Urbb6k
+          metadata:
+            tournament: Ghostly Glades
+            level: Expert
+            teePosition: 2
+            ball: King Maker
+            clubs:
+              - name: Sniper
+                level: 8
+            wind:
+              direction: NNE
+              magnitude: 8.2
+            keywords:
+        - title: Ghostly Glades - Masters
+          url: https://youtu.be/sAgclAT_v38
+          metadata:
+            tournament: Ghostly Glades
+            level: Masters
+            teePosition: 3
+            ball: King Maker
+            clubs:
+              - name: Quarterback
+                level: 10
+            wind:
+              direction: WNW
+              magnitude: 12.2
+            keywords:
+        - title: Ghostly Glades - Masters
+          url: https://youtu.be/l5GwkVjlhyo
+          metadata:
+            tournament: Ghostly Glades
+            level: Masters
+            teePosition: 3
+            ball: King Maker
+            clubs:
+              - name: Quarterback
+                level: 10
+            wind:
+              direction: WNW
+              magnitude: 10.4
+            keywords:
+        - title: Ghostly Glades - Masters
+          url: https://youtu.be/QHTFf73vkxM
+          metadata:
+            tournament: Ghostly Glades
+            level: Masters
+            teePosition: 3
+            ball: King Maker
+            clubs:
+              - name: Quarterback
+                level: 10
+            wind:
+              direction: WNW
+              magnitude: 11.6
+            keywords:
         - title: Tour 11 Shootout - Wind Pointed at 9 O'oclock
           url: https://youtu.be/j07lSX5qq2w
           metadata:
@@ -992,16 +1384,98 @@ holes:
         resources:
         - title: Ghostly Glades - Rookie
           url: https://youtu.be/2n5kMJKEd6M
+          metadata:
+            tournament: Ghostly Glades
+            level: Rookie
+            teePosition: 1
+            ball: Navigator
+            clubs:
+              - name: Quarterback
+                level: 9
+              - name: Sniper
+                level: 9
+            wind:
+              direction: NNW
+              magnitude: 3.3
+            keywords:
         - title: Ghostly Glades - Pro
           url: https://youtu.be/61J2zN6bOFg
+          metadata:
+            tournament: Ghostly Glades
+            level: Pro
+            teePosition: 2
+            ball: Titan
+            clubs:
+              - name: Extra Mile
+                level: 6
+              - name: Sniper
+                level: 8
+            wind:
+              direction: ESE
+              magnitude: 6.6
+            keywords:
         - title: Ghostly Glades - Expert
           url: https://youtu.be/0BZe63W1feI
+          metadata:
+            tournament: Ghostly Glades
+            level: Expert
+            teePosition: 2
+            ball: Origin
+            clubs:
+              - name: Thor's Hammer
+                level: 4
+              - name: Nirvana
+                level: 4
+            wind:
+              direction: NE
+              magnitude: 10.6
+            keywords:
         - title: Ghostly Glades - Masters
           url: https://youtu.be/u1EJ58GNLv8
+          metadata:
+            tournament: Ghostly Glades
+            level: Masters
+            teePosition: 3
+            ball: King Maker
+            clubs:
+              - name: Apocalypse
+                level: 7
+              - name: Hornet
+                level: 8
+            wind:
+              direction: N
+              magnitude: 11.7
+            keywords:
         - title: Ghostly Glades - Masters
           url: https://youtu.be/K8CS_l1cG3k
+          metadata:
+            tournament: Ghostly Glades
+            level: Masters
+            teePosition: 3
+            ball: Snow Globe
+            clubs:
+              - name: Apocalypse
+                level: 4
+            wind:
+              direction: N
+              magnitude: 18.3
+            keywords:
         - title: Ghostly Glades - Masters
           url: https://youtu.be/BBatkrPB_AI
+          metadata:
+            tournament: Ghostly Glades
+            level: Masters
+            teePosition: 3
+            ball: Berserker
+            clubs:
+              - name: Apocalypse
+                level: 7
+              - name: Thorn
+                level: 8
+            wind:
+              direction: N
+              magnitude: 15.7
+            keywords:
         - title: Tour 11 - Strategy and Tips
           url: https://youtu.be/AGmkHFT0nYU
           metadata:
@@ -1326,16 +1800,102 @@ holes:
         resources:
         - title: Ghostly Glades - Rookie
           url: https://youtu.be/ktjnlRXlnB0
+          metadata:
+            tournament: Ghostly Glades
+            level: Rookie
+            teePosition: 1
+            ball: Navigator
+            clubs:
+              - name: Extra Mile
+                level: 7
+              - name: Thorn
+                level: 6
+            wind:
+              direction: ENE
+              magnitude: 3.1
+            keywords:
         - title: Ghostly Glades - Pro
           url: https://youtu.be/AdDj2NK3PsY
+          metadata:
+            tournament: Ghostly Glades
+            level: Pro
+            teePosition: 2
+            ball: Navigator
+            clubs:
+              - name: Extra Mile
+                level: 6
+              - name: Thorn
+                level: 5
+            wind:
+              direction: NNW
+              magnitude: 5.9
+            keywords:
         - title: Ghostly Glades - Expert
           url: https://youtu.be/DE74hEfxysA
+          metadata:
+            tournament: Ghostly Glades
+            level: Expert
+            teePosition:
+            ball: Berserker
+            clubs:
+              - name: Thor's Hammer
+                level: 4
+              - name: Malibu
+                level: 5
+              - name: Rapier
+                level: 4
+            wind:
+              direction: NW
+              magnitude: 9.4
+            keywords:
         - title: Ghostly Glades - Masters
           url: https://youtu.be/goS2dTAoJdM
+          metadata:
+            tournament: Ghostly Glades
+            level: Masters
+            teePosition: 3
+            ball: King Maker
+            clubs:
+              - name: Apocalypse
+                level: 7
+              - name: B52
+                level: 7
+            wind:
+              direction: ESE
+              magnitude: 10.5
+            keywords:
         - title: Ghostly Glades - Masters
           url: https://youtu.be/iIGPve4yuMw
+          metadata:
+            tournament: Ghostly Glades
+            level: Masters
+            teePosition: 3
+            ball: Royal
+            clubs:
+              - name: Apocalypse
+                level: 4
+              - name: Nirvana
+                level: 8
+            wind:
+              direction: ESE
+              magnitude: 11.7
+            keywords:
         - title: Ghostly Glades - Masters
           url: https://youtu.be/DpO1NlMyoXo
+          metadata:
+            tournament: Ghostly Glades
+            level: Masters
+            teePosition: 3
+            ball: King Maker
+            clubs:
+              - name: Apocalypse
+                level: 7
+              - name: B52
+                level: 7
+            wind:
+              direction: ESE
+              magnitude: 11.1
+            keywords:
     aliases:
       - c664e881-a81b-4a3a-9927-12919caab72e
   - id: 1658565e-d219-4a46-844c-97c7f98e66b4
@@ -1367,16 +1927,90 @@ holes:
             teePosition: 3
         - title: Ghostly Glades - Rookie
           url: https://youtu.be/P5RWu16Rh_s
+          metadata:
+            tournament: Ghostly Glades
+            level: Rookie
+            teePosition: 1
+            ball: Navigator
+            clubs:
+              - name: Sniper
+                level: 9
+            wind:
+              direction: NW
+              magnitude: 4.1
+            keywords:
+              - Rough bump
         - title: Ghostly Glades - Pro
           url: https://youtu.be/5Rnhkk1qIN0
+          metadata:
+            tournament: Ghostly Glades
+            level: Pro
+            teePosition: 2
+            ball: Navigator
+            clubs:
+              - name: Sniper
+                level: 8
+            wind:
+              direction: SE
+              magnitude: 5.6
+            keywords:
         - title: Ghostly Glades - Expert
           url: https://youtu.be/KG70dLpukw4
+          metadata:
+            tournament: Ghostly Glades
+            level: Expert
+            teePosition: 2
+            ball: King Maker
+            clubs:
+              - name: Sniper
+                level: 8
+            wind:
+              direction: SW
+              magnitude: 7.9
+            keywords:
         - title: Ghostly Glades - Masters
           url: https://youtu.be/KKUDWV1NEec
+          metadata:
+            tournament: Ghostly Glades
+            level: Masters
+            teePosition: 3
+            ball: King Maker
+            clubs:
+              - name: Quarterback
+                level: 10
+            wind:
+              direction: ENE
+              magnitude: 12.3
+            keywords:
+              - Rough bump
         - title: Ghostly Glades - Masters
           url: https://youtu.be/Q8YTp1NCW-0
+          metadata:
+            tournament: Ghostly Glades
+            level: Masters
+            teePosition: 3
+            ball: King Maker
+            clubs:
+              - name: Quarterback
+                level: 10
+            wind:
+              direction: ENE
+              magnitude: 10.5
+            keywords:
         - title: Ghostly Glades - Masters
           url: https://youtu.be/4GnpAIvcc4E
+          metadata:
+            tournament: Ghostly Glades
+            level: Masters
+            teePosition: 3
+            ball: Bunny
+            clubs:
+              - name: Quarterback
+                level: 10
+            wind:
+              direction: ENE
+              magnitude: 9.6
+            keywords:
     aliases:
       - 2ddb097d-59c4-4d41-9311-4e6603a933c5
   - id: 7d665400-73e6-4716-9655-63f8fe8b8956
@@ -1398,15 +2032,99 @@ holes:
         resources:
         - title: Ghostly Glades - Rookie
           url: https://youtu.be/8UMkdAFfdGY
+          metadata:
+            tournament: Ghostly Glades
+            level: Rookie
+            teePosition: 1
+            ball: Navigator
+            clubs:
+              - name: Extra Mile
+                level: 7
+              - name: Sniper
+                level: 9
+            wind:
+              direction: NNE
+              magnitude: 4.2
+            keywords:
         - title: Ghostly Glades - Pro
           url: https://youtu.be/M27vNJzFZnI
+          metadata:
+            tournament: Ghostly Glades
+            level: Pro
+            teePosition: 2
+            ball: Titan
+            clubs:
+              - name: Extra Mile
+                level: 6
+              - name: Sniper
+                level: 8
+            wind:
+              direction: NE
+              magnitude: 6.1
+            keywords:
         - title: Ghostly Glades - Expert
           url: https://youtu.be/AcgaQ_JFTec
+          metadata:
+            tournament: Ghostly Glades
+            level: Expert
+            teePosition: 2
+            ball: King Maker
+            clubs:
+              - name: Thor's Hammer
+                level: 4
+              - name: Sniper
+                level: 8
+            wind:
+              direction: NNW
+              magnitude: 9.1
+            keywords:
         - title: Ghostly Glades - Masters
           url: https://youtu.be/gMe0AKLjqZk
+          metadata:
+            tournament: Ghostly Glades
+            level: Masters
+            teePosition: 3
+            ball: King Maker
+            clubs:
+              - name: Apocalypse
+                level: 7
+              - name: Sniper
+                level: 10
+            wind:
+              direction: NNW
+              magnitude: 12.1
+            keywords:
         - title: Ghostly Glades - Masters
           url: https://youtu.be/FJzfdhUcSR4
+          metadata:
+            tournament: Ghostly Glades
+            level: Masters
+            teePosition: 3
+            ball: King Maker
+            clubs:
+              - name: Apocalypse
+                level: 4
+              - name: Sniper
+                level: 10
+            wind:
+              direction: NW
+              magnitude: 10.8
+            keywords:
         - title: Ghostly Glades - Masters
           url: https://youtu.be/oS_Tdu2rzqo
+          metadata:
+            tournament: Ghostly Glades
+            level: Masters
+            teePosition: 3
+            ball: King Maker
+            clubs:
+              - name: Apocalypse
+                level: 7
+              - name: Sniper
+                level: 10
+            wind:
+              direction: NW
+              magnitude: 11.6
+            keywords:
     aliases:
       - 68e49827-efb0-4926-aec0-99b0a6e16ccb
