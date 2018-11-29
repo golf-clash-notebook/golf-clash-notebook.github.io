@@ -36,7 +36,9 @@ script:
   git reset --hard HEAD;
   git clean -f;
   sbt site/makeMicrosite;
-  [[ ! -f "/home/travis/build/golf-clash-notebook/golf-clash-notebook.github.io/modules/site/src/main/resources/microsite/js/golf-clash-notebook-site.js" ]] && echo -e "JS asset not found!" >&2 && exit 1;
+
+after_script:
+  [[ ! -f "modules/site/target/site/js/golf-clash-notebook-site.js" ]] && echo "JS asset not found!" && exit 1;
 
 deploy:
   provider: pages
