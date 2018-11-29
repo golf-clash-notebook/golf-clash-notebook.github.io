@@ -38,7 +38,7 @@ script:
   sbt site/makeMicrosite;
 
 after_script:
-  [[ ! -f "modules/site/target/site/js/golf-clash-notebook-site.js" ]] && echo "JS asset not found!" && exit 1;
+- [[ ! -f "modules/site/target/site/js/golf-clash-notebook-site.js" ]] && echo "JS asset not found!" && exit 1;
 
 deploy:
   provider: pages
