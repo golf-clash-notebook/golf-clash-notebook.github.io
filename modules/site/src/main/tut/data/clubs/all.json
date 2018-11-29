@@ -1,0 +1,27 @@
+---
+layout: null
+---
+
+[
+  {% for driver in site.data.clubs.drivers %}
+    {{ driver | jsonify }},
+  {% endfor %}
+  {% for wood in site.data.clubs.woods %}
+    {{ wood | jsonify }},
+  {% endfor %}
+  {% for longiron in site.data.clubs.longirons %}
+    {{ longiron | jsonify }},
+  {% endfor %}
+  {% for shortiron in site.data.clubs.shortirons %}
+    {{ shortiron | jsonify }},
+  {% endfor %}
+  {% for wedge in site.data.clubs.wedges %}
+    {{ wedge | jsonify }},
+  {% endfor %}
+  {% for roughiron in site.data.clubs.roughirons %}
+    {{ roughiron | jsonify }},
+  {% endfor %}
+  {% for sandwedge in site.data.clubs.sandwedges %}
+    {{ sandwedge | jsonify }}{% if forloop.rindex > 1 %},{% endif %}
+  {% endfor %}
+]
