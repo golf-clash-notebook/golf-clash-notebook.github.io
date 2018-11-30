@@ -15,6 +15,38 @@ holes:
         url: https://youtu.be/WVSoK54f-dU
     - name: Zachary Jones
       resources:
+      - title: Metro Open - Pro
+        url: https://youtu.be/a4trkLggaZ0
+        metadata:
+          tournament: Metro Open
+          level: Pro
+          teePosition: 2
+          ball: Navigator
+          clubs:
+            - name: Extra Mile
+              level: 6
+            - name: Malibu
+              level: 5
+          wind:
+            direction: NNE
+            magnitude: 6.0
+          keywords:
+      - title: Metro Open - Expert
+        url: https://youtu.be/iRb3t7s2H-Y
+        metadata:
+          tournament: Metro Open
+          level: Expert
+          teePosition: 2
+          ball: Season 1
+          clubs:
+            - name: Apocalypse
+              level: 4
+            - name: Thorn
+              level: 7
+          wind:
+            direction: WNW
+            magnitude: 8.4
+          keywords:
       - title: Tour 4 - Strategy and Tips
         url: https://youtu.be/o-6C35jb5Po
         metadata:
@@ -79,6 +111,36 @@ holes:
         metadata:
           generalInstruction: true
           teePosition: 3
+      - title: Metro Open - Pro
+        url: https://youtu.be/_fkduNS36n0
+        metadata:
+          tournament: Metro Open
+          level: Pro
+          teePosition: 2
+          ball: Navigator
+          clubs:
+            - name: Sniper
+              level: 7
+            - name: Malibu
+              level: 5
+          wind:
+            direction: NE
+            magnitude: 6.0
+          keywords:
+      - title: Metro Open - Expert
+        url: https://youtu.be/ZjgMtYrfRBs
+        metadata:
+          tournament: Metro Open
+          level: Expert
+          teePosition: 2
+          ball: King Maker
+          clubs:
+            - name: Sniper
+              level: 10
+          wind:
+            direction: N
+            magnitude: 9.1
+          keywords:
       - title: Tour 4 - Strategy and Tips
         url: https://youtu.be/V_RaWOoetQY
         metadata:
@@ -106,6 +168,40 @@ holes:
         url: https://youtu.be/jOz6i7PmMVI
     - name: Zachary Jones
       resources:
+      - title: Metro Open - Pro
+        url: https://youtu.be/E1lkeT4oSqo
+        metadata:
+          tournament: Metro Open
+          level: Pro
+          teePosition: 2
+          ball: Katana
+          clubs:
+            - name: Extra Mile
+              level: 6
+            - name: Nirvana
+              level: 4
+            - name: Endbringer
+              level: 1
+          wind:
+            direction: NNW
+            magnitude: 5.4
+          keywords:
+      - title: Metro Open - Expert
+        url: https://youtu.be/eF0A3v2x9F0
+        metadata:
+          tournament: Metro Open
+          level: Expert
+          teePosition: 2
+          ball: King Maker
+          clubs:
+            - name: Thor's Hammer
+              level: 6
+            - name: Sniper
+              level: 10
+          wind:
+            direction: NNW
+            magnitude: 7.6
+          keywords:
       - title: Tour 4 - Strategy and Tips
         url: https://youtu.be/7FiBjHsGv1k
         metadata:
@@ -159,6 +255,34 @@ holes:
         metadata:
           generalInstruction: true
           teePosition: 3
+      - title: Metro Open - Pro
+        url: https://youtu.be/A7Qs-bqYQvg
+        metadata:
+          tournament: Metro Open
+          level: Pro
+          teePosition: 2
+          ball: Katana
+          clubs:
+            - name: Sniper
+              level: 7
+          wind:
+            direction: SSW
+            magnitude: 5.8
+          keywords:
+      - title: Metro Open - Expert
+        url: https://youtu.be/L4H9OE5A1LU
+        metadata:
+          tournament: Metro Open
+          level: Expert
+          teePosition: 2
+          ball: King Maker
+          clubs:
+            - name: Sniper
+              level: 10
+          wind:
+            direction: W
+            magnitude: 7.5
+          keywords:
       - title: Tour 4 - Strategy and Tips
         url: https://youtu.be/6IHRBpl20Hc
         metadata:
@@ -186,6 +310,38 @@ holes:
         url: https://youtu.be/FZ75xgxibqY
     - name: Zachary Jones
       resources:
+      - title: Metro Open - Pro
+        url: https://youtu.be/HomyBuc_VUE
+        metadata:
+          tournament: Metro Open
+          level: Pro
+          teePosition: 2
+          ball: Navigator
+          clubs:
+            - name: Extra Mile
+              level: 6
+            - name: Thorn
+              level: 5
+          wind:
+            direction: N
+            magnitude: 6.2
+          keywords:
+      - title: Metro Open - Expert
+        url: https://youtu.be/EU0zeTrFoV0
+        metadata:
+          tournament: Metro Open
+          level: Expert
+          teePosition: 2
+          ball: King Maker
+          clubs:
+            - name: Apocalypse
+              level: 4
+            - name: B52
+              level: 6
+          wind:
+            direction: NE
+            magnitude: 8.5
+          keywords:
       - title: Tour 4 - Strategy and Tips
         url: https://youtu.be/7slAzJs9Fow
         metadata:
@@ -245,6 +401,38 @@ holes:
         url: https://youtu.be/9pMDjBQu6GE
     - name: Zachary Jones
       resources:
+      - title: Metro Open - Pro
+        url: https://youtu.be/Jj3hBY8BBg0
+        metadata:
+          tournament: Metro Open
+          level: Pro
+          teePosition: 2
+          ball: Titan
+          clubs:
+            - name: Extra Mile
+              level: 6
+            - name: Sniper
+              level: 7
+          wind:
+            direction: NNW
+            magnitude: 7.4
+          keywords:
+      - title: Metro Open - Expert
+        url: https://youtu.be/lJ8gj6wx9kQ
+        metadata:
+          tournament: Metro Open
+          level: Expert
+          teePosition: 2
+          ball: King Maker
+          clubs:
+            - name: Apocalypse
+              level: 4
+            - name: Sniper
+              level: 10
+          wind:
+            direction: NE
+            magnitude: 8.5
+          keywords:
       - title: Tour 4 - Strategy and Tips
         url: https://youtu.be/yIYQcx6JKPo
         metadata:
@@ -306,6 +494,38 @@ holes:
         url: https://youtu.be/NqKWNIiQ0y0
     - name: Zachary Jones
       resources:
+      - title: Metro Open - Pro
+        url: https://youtu.be/jXsIOVYTMZA
+        metadata:
+          tournament: Metro Open
+          level: Pro
+          teePosition: 2
+          ball: Titan
+          clubs:
+            - name: Extra Mile
+              level: 6
+            - name: Thorn
+              level: 5
+          wind:
+            direction: WSW
+            magnitude: 6.3
+          keywords:
+      - title: Metro Open - Expert
+        url: https://youtu.be/Z1DOLUFhLxg
+        metadata:
+          tournament: Metro Open
+          level: Expert
+          teePosition: 2
+          ball: King Maker
+          clubs:
+            - name: Apocalypse
+              level: 4
+            - name: Spitfire
+              level: 4
+          wind:
+            direction: SE
+            magnitude: 7.4
+          keywords:
       - title: Tour 4 - Strategy and Tips
         url: https://youtu.be/MBeYMsR1t84
         metadata:
@@ -400,6 +620,34 @@ holes:
         metadata:
           generalInstruction: true
           teePosition: 3
+      - title: Metro Open - Pro
+        url: https://youtu.be/Ar_CeM7_gxk
+        metadata:
+          tournament: Metro Open
+          level: Pro
+          teePosition: 2
+          ball: Navigator
+          clubs:
+            - name: Sniper
+              level: 7
+          wind:
+            direction: NE
+            magnitude: 5.5
+          keywords:
+      - title: Metro Open - Expert
+        url: https://youtu.be/u4Rj-7021gE
+        metadata:
+          tournament: Metro Open
+          level: Expert
+          teePosition: 2
+          ball: King Maker
+          clubs:
+            - name: Sniper
+              level: 10
+          wind:
+            direction: WSW
+            magnitude: 7.7
+          keywords:
       - title: Tour 4 - Wind Pointed at 430
         url: https://youtu.be/ZLaFKl8xj9k
         metadata:
@@ -479,6 +727,42 @@ holes:
         url: https://youtu.be/QGqxVYwIj88
     - name: Zachary Jones
       resources:
+      - title: Metro Open - Pro
+        url: https://youtu.be/fQSCFl7Hy1I
+        metadata:
+          tournament: Metro Open
+          level: Pro
+          teePosition: 2
+          ball: Berserker
+          clubs:
+            - name: Extra Mile
+              level: 6
+            - name: Nirvana
+              level: 4
+            - name: Endbringer
+              level: 1
+          wind:
+            direction: NNW
+            magnitude: 7.4
+          keywords:
+            - Power slice
+      - title: Metro Open - Expert
+        url: https://youtu.be/KkUv4inNdOM
+        metadata:
+          tournament: Metro Open
+          level: Expert
+          teePosition: 2
+          ball: Berserker
+          clubs:
+            - name: Thor's Hammer
+              level: 6
+            - name: Nirvana
+              level: 8
+          wind:
+            direction: NW
+            magnitude: 9.8
+          keywords:
+            - Power slice
       - title: Tour 4 - Strategy and Tips
         url: https://youtu.be/vhivBixvLLs
         metadata:
