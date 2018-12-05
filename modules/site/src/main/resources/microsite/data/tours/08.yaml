@@ -2,6 +2,7 @@ number: 8
 tourName: Mountain Tour
 courses:
   - name: Eagle Peak
+  - name: Glenmonarch Estate
   - name: Sakura Hills
 description: >
   Help Wanted
