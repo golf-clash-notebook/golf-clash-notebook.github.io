@@ -180,6 +180,21 @@ holes:
           url: https://youtu.be/Ahp44ZQcdqs
       - name: Zachary Jones
         resources:
+        - title: General Instruction - 1st Tee
+          url: https://youtu.be/vyuN-DV1Nmw
+          metadata:
+            generalInstruction: true
+            teePosition: 1
+        - title: General Instruction - 2nd Tee
+          url: https://youtu.be/nAJxtQR2HwY
+          metadata:
+            generalInstruction: true
+            teePosition: 2
+        - title: General Instruction - 3rd Tee
+          url: https://youtu.be/PjESm9xBaAE
+          metadata:
+            generalInstruction: true
+            teePosition: 3
         - title: Fall Major 2018 - Rookie
           url: https://youtu.be/JvyjwGXv7SI
           metadata:
@@ -484,6 +499,21 @@ holes:
           url: https://youtu.be/3H8kSQuKhck
       - name: Zachary Jones
         resources:
+        - title: General Instruction - 1st Tee
+          url: https://youtu.be/nUfZF-T0uhE
+          metadata:
+            generalInstruction: true
+            teePosition: 1
+        - title: General Instruction - 2nd Tee
+          url: https://youtu.be/nrXyGcZ7sEA
+          metadata:
+            generalInstruction: true
+            teePosition: 2
+        - title: General Instruction - 3rd Tee
+          url: https://youtu.be/1gANDdtZY98
+          metadata:
+            generalInstruction: true
+            teePosition: 3
         - title: Fall Major 2018 - Rookie
           url: https://youtu.be/kaQYvXWM3eM
           metadata:
@@ -950,6 +980,21 @@ holes:
           url: https://youtu.be/vmrkMKj5EZI
       - name: Zachary Jones
         resources:
+        - title: General Instruction - 1st Tee
+          url: https://youtu.be/nkMUfdNnrTw
+          metadata:
+            generalInstruction: true
+            teePosition: 1
+        - title: General Instruction - 2nd Tee
+          url: https://youtu.be/v-d5iU4L3k0
+          metadata:
+            generalInstruction: true
+            teePosition: 2
+        - title: General Instruction - 3rd Tee
+          url: https://youtu.be/LYtCElx3Q0U
+          metadata:
+            generalInstruction: true
+            teePosition: 3
         - title: Fall Major 2018 - Rookie
           url: https://youtu.be/IViufc62hhs
           metadata:
