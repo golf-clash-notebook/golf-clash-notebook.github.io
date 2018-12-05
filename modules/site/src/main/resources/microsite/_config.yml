@@ -547,3 +547,11 @@ page_gen:
     extra:
       title-prefix: 'Fall Major 2018 Tournament - Hole '
       tournamentName: 'Fall Major 2018'
+  - index_files: true
+    data: 'tournaments.FestiveCup.holes'
+    template: '_includes/tournaments/hole-template.liquid'
+    name: 'number'
+    dir: 'tournaments/FestiveCup'
+    extra:
+      title-prefix: 'Festive Cup Tournament - Hole '
+      tournamentName: 'Festive Cup'
