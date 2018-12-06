@@ -24,6 +24,8 @@ holes:
     resourceCreators:
     - name: Golf Clash Tommy
       resources:
+      - title: Tour 8 Guide
+        url: https://youtu.be/fSiEGhzvz2Y
       - title: Mountain - Rookie Guide
         url: https://youtu.be/zeEgBUUHMX4
       - title: Mountain - Pro / Expert Guide
@@ -1384,6 +1386,8 @@ holes:
     resourceCreators:
     - name: Golf Clash Tommy
       resources:
+      - title: Tour 8 Guide
+        url: https://youtu.be/Xzxjz50ZO5I
       - title: Mountain - Rookie Guide
         url: https://youtu.be/FHcPTloZ7Hk
       - title: Mountain - Pro / Expert Guide

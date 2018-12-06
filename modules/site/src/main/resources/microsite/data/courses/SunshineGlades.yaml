@@ -576,6 +576,8 @@ holes:
     resourceCreators:
       - name: Golf Clash Tommy
         resources:
+        - title: Tour 7 Guide
+          url: https://youtu.be/UM8gAMu5kYE
         - title: Ghostly Glades - Rookie
           url: https://youtu.be/lxLF1qU2OM4
         - title: Ghostly Glades - Pro / Expert
