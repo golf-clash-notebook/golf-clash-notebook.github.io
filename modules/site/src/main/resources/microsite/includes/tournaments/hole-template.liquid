@@ -201,9 +201,23 @@ section: "courses"
       </p>
     {% endif %}
 
-    {% if hole.resourceCreators != undefined and hole.resourceCreators != empty %}
+    {% assign holeResourceCreators = hole.resourceCreators %}
+
+    {% for aliasId in hole.aliases %}
+      {% for courseHash in site.data.courses %}
+        {% for aliasHole in courseHash[1].holes %}
+          {% if aliasHole.id == aliasId %}
+            {% if aliasHole.resourceCreators != undefined and aliasHole.resourceCreators != empty %}
+              {% assign holeResourceCreators = aliasHole.resourceCreators %}
+            {% endif %}
+          {% endif %}
+        {% endfor %}
+      {% endfor %}
+    {% endfor %}
+
+    {% if holeResourceCreators != undefined and holeResourceCreators != empty %}
       <hr class="hr-text text-large" data-content="Resources">
-      {% include resources/resources-list.liquid resources=hole.resourceCreators iconSize='lg' hide-text-guides=hole.current-tournament %}
+      {% include resources/resources-list.liquid resources=holeResourceCreators iconSize='lg' hide-text-guides=hole.current-tournament %}
     {% endif %}
 
     <hr class="hr-text text-large" data-content="Other Tournament Appearances">
