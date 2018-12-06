@@ -1261,6 +1261,8 @@ holes:
     resourceCreators:
       - name: Golf Clash Tommy
         resources:
+        - title: Tour 9 Guide
+          url: https://youtu.be/PVgi48tXcpM
         - title: Rookie Guide
           url: https://youtu.be/cJltWboXO7I
         - title: Pro / Expert Guide
@@ -2274,6 +2276,8 @@ holes:
     resourceCreators:
       - name: Golf Clash Tommy
         resources:
+        - title: Tour 9 Guide
+          url: https://youtu.be/fDPxMKDR7UY
         - title: Rookie Guide
           url: https://youtu.be/pu1YhoUm5Hk
         - title: Pro / Expert Guide

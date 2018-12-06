@@ -205,6 +205,8 @@ holes:
     resourceCreators:
       - name: Golf Clash Tommy
         resources:
+        - title: Tour 7 Guide
+          url: https://youtu.be/slM65nLjA0A
         - title: Rookie Guide
           url: https://youtu.be/ZystunLzXFo
         - title: Pro / Expert Guide

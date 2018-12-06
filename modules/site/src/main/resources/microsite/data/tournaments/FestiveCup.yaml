@@ -1,6 +1,14 @@
 tournamentName: Festive Cup
 date: '2018-12-10'
 resourceCreators:
+  - name: Golf Clash Tommy
+    resources:
+    - title: Rookie Playthrough
+      url: https://youtu.be/dx5iKaAn5Xk
+  - name: Jesse Both
+    resources:
+    - title: Rookie Guide
+      url: https://youtu.be/nszEyrMZPUs
 holes:
   - number: 1
     id: 2cb5ab94-1384-4df1-8de6-f8a85b40b9f9
