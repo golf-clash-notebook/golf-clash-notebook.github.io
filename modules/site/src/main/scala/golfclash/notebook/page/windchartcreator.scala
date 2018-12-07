@@ -82,13 +82,13 @@ object windchartcreator {
         categoryClubs.foreach { club =>
           if (GolfClashNotebookApp.currentMode() == GolfClashNotebookApp.Dev) {
             if (club.name.toLowerCase.contains("thor's")) {
-              addClubLevel(ClubLevel(6, club))
+              addClubLevel(ClubLevel(7, club))
             }
             if (club.name.toLowerCase.contains("sniper")) {
               addClubLevel(ClubLevel(10, club))
             }
             if (club.name.toLowerCase.contains("b52")) {
-              addClubLevel(ClubLevel(6, club))
+              addClubLevel(ClubLevel(7, club))
             }
             if (club.name.toLowerCase.contains("hornet")) {
               addClubLevel(ClubLevel(8, club))
@@ -100,7 +100,7 @@ object windchartcreator {
               addClubLevel(ClubLevel(8, club))
             }
             if (club.name.toLowerCase.contains("spitfire")) {
-              addClubLevel(ClubLevel(5, club))
+              addClubLevel(ClubLevel(7, club))
             }
           }
 
