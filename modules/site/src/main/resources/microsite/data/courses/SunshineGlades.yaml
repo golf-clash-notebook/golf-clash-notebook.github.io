@@ -37,6 +37,7 @@ holes:
         - title: Ghostly Glades - Rookie
           url: https://youtu.be/lX-0U97Hgy8
           metadata:
+            published: 1540916079000
             tournament: Ghostly Glades
             level: Rookie
             teePosition: 1
@@ -53,6 +54,7 @@ holes:
         - title: Ghostly Glades - Pro
           url: https://youtu.be/_DcC7zg5oRE
           metadata:
+            published: 1540842229000
             tournament: Ghostly Glades
             level: Pro
             teePosition: 2
@@ -67,6 +69,7 @@ holes:
         - title: Ghostly Glades - Expert
           url: https://youtu.be/7L--D8PmESY
           metadata:
+            published: 1540840211000
             tournament: Ghostly Glades
             level: Expert
             teePosition: 2
@@ -83,6 +86,7 @@ holes:
         - title: Ghostly Glades - Masters
           url: https://youtu.be/VRqosa71rmU
           metadata:
+            published: 1540836746000
             tournament: Ghostly Glades
             level: Masters
             teePosition: 3
@@ -99,6 +103,7 @@ holes:
         - title: Ghostly Glades - Masters
           url: https://youtu.be/hVatOUbcWNg
           metadata:
+            published: 1540841201000
             tournament: Ghostly Glades
             level: Masters
             teePosition: 3
@@ -115,6 +120,7 @@ holes:
         - title: Ghostly Glades - Masters
           url: https://youtu.be/qUWt2WrBK3o
           metadata:
+            published: 1540901233000
             tournament: Ghostly Glades
             level: Masters
             teePosition: 3
@@ -131,6 +137,7 @@ holes:
         - title: Tour 11 - Strategy and Tips
           url: https://youtu.be/M6KGEeYZQ8g
           metadata:
+            published: 1537964617000
             tour: 11
             ball: King Maker
             teePosition: 2
@@ -146,6 +153,7 @@ holes:
         - title: Tour 11 - Wind Pointed at 2 O'clock
           url: https://youtu.be/-bPv0x9GK-E
           metadata:
+            published: 1517153366000
             tour: 11
             ball: Katana
             teePosition: 2
@@ -159,6 +167,7 @@ holes:
         - title: Voyager - Rookie
           url: https://youtu.be/IN2VegUflWk
           metadata:
+            published: 1537200527000
             tournament: Voyager
             level: Rookie
             ball: Titan
@@ -173,6 +182,7 @@ holes:
         - title: Voyager - Rookie
           url: https://youtu.be/XIh0VH9QOPg
           metadata:
+            published: 1537286255000
             tournament: Voyager
             level: Rookie
             ball: Titan
@@ -189,6 +199,7 @@ holes:
         - title: Voyager - Pro
           url: https://youtu.be/pDTWZafhET8
           metadata:
+            published: 1537184049000
             tournament: Voyager
             level: Pro
             ball: Titan
@@ -203,6 +214,7 @@ holes:
         - title: Voyager - Pro
           url: https://youtu.be/AIdBNjs61kk
           metadata:
+            published: 1537289865000
             tournament: Voyager
             level: Pro
             ball: Blue Marble
@@ -219,6 +231,7 @@ holes:
         - title: Voyager - Pro
           url: https://youtu.be/oIQiKMO98n8
           metadata:
+            published: 1537294123000
             tournament: Voyager
             level: Pro
             ball: Titan
@@ -233,6 +246,7 @@ holes:
         - title: Voyager - Expert
           url: https://youtu.be/279Dw89cNO4
           metadata:
+            published: 1537189117000
             tournament: Voyager
             level: Expert
             ball: King Maker
@@ -247,6 +261,7 @@ holes:
         - title: Voyager - Expert
           url: https://youtu.be/eI9NxpSLAyM
           metadata:
+            published: 1537279172000
             tournament: Voyager
             level: Expert
             ball: Royal
@@ -261,6 +276,7 @@ holes:
         - title: Voyager - Expert
           url: https://youtu.be/txsVc1c1_BU
           metadata:
+            published: 1537282883000
             tournament: Voyager
             level: Expert
             ball: Gear
@@ -277,6 +293,7 @@ holes:
         - title: Voyager - Master
           url: https://youtu.be/d0BqVPoDPmY
           metadata:
+            published: 1537203921000
             tournament: Voyager
             level: Master
             ball: Bandera
@@ -293,6 +310,7 @@ holes:
         - title: Voyager - Master
           url: https://youtu.be/oj-1M9E1eGk
           metadata:
+            published: 1537271189000
             tournament: Voyager
             level: Master
             ball: Bauble
@@ -309,6 +327,7 @@ holes:
         - title: Voyager - Master
           url: https://youtu.be/--QJdtkxtTE
           metadata:
+            published: 1537275608000
             tournament: Voyager
             level: Master
             ball: Bandera
@@ -325,6 +344,7 @@ holes:
         - title: Cinco de Mayo - Rookie
           url: https://youtu.be/Xi_v1pZbDSM
           metadata:
+            published: 1525094377000
             tournament: Cinco De Mayo
             level: Rookie
             ball: Quasar
@@ -339,6 +359,7 @@ holes:
         - title: Cinco de Mayo - Pro
           url: https://youtu.be/JMA5grCF7VI
           metadata:
+            published: 1525107019000
             tournament: Cinco De Mayo
             level: Pro
             ball: Titan
@@ -353,6 +374,7 @@ holes:
         - title: Cinco de Mayo - Pro
           url: https://youtu.be/-chBco5nCyY
           metadata:
+            published: 1525107130000
             tournament: Cinco De Mayo
             level: Pro
             ball: Katana
@@ -367,6 +389,7 @@ holes:
         - title: Cinco de Mayo - Expert
           url: https://youtu.be/sFdn_lsotRI
           metadata:
+            published: 1525110447000
             tournament: Cinco De Mayo
             level: Expert
             ball: King Maker
@@ -383,6 +406,7 @@ holes:
         - title: Cinco de Mayo - Expert
           url: https://youtu.be/ui5XcQfLj78
           metadata:
+            published: 1525194416000
             tournament: Cinco De Mayo
             level: Expert
             ball: King Maker
@@ -397,6 +421,7 @@ holes:
         - title: Cinco de Mayo - Expert
           url: https://youtu.be/Hm-2HKccrXY
           metadata:
+            published: 1525197597000
             tournament: Cinco De Mayo
             level: Expert
             ball: King Maker
@@ -411,6 +436,7 @@ holes:
         - title: Cinco de Mayo - Master
           url: https://youtu.be/HoWN7gJYlEc
           metadata:
+            published: 1525114847000
             tournament: Cinco De Mayo
             level: Master
             ball: Eye
@@ -427,6 +453,7 @@ holes:
         - title: Cinco de Mayo - Master
           url: https://youtu.be/FRsEFFV8yRo
           metadata:
+            published: 1525196088000
             tournament: Cinco De Mayo
             level: Master
             ball: King Maker
@@ -462,16 +489,19 @@ holes:
         - title: General Instruction - 2nd Tee
           url: https://youtu.be/mXReNZWfmzA
           metadata:
+            published: 1541689769000
             generalInstruction: true
             teePosition: 2
         - title: General Instruction - 3rd Tee
           url: https://youtu.be/IEsPUVHafPI
           metadata:
+            published: 1541779521000
             generalInstruction: true
             teePosition: 3
         - title: Ghostly Glades - Rookie
           url: https://youtu.be/5HeyO7p9SIE
           metadata:
+            published: 1540916430000
             tournament: Ghostly Glades
             level: Rookie
             teePosition: 1
@@ -486,6 +516,7 @@ holes:
         - title: Ghostly Glades - Pro
           url: https://youtu.be/u7ZMHrSlxGM
           metadata:
+            published: 1540842311000
             tournament: Ghostly Glades
             level: Pro
             teePosition: 2
@@ -500,6 +531,7 @@ holes:
         - title: Ghostly Glades - Expert
           url: https://youtu.be/tG7vxxJQOjc
           metadata:
+            published: 1540840305000
             tournament: Ghostly Glades
             level: Expert
             teePosition: 2
@@ -514,6 +546,7 @@ holes:
         - title: Ghostly Glades - Masters
           url: https://youtu.be/ro2lktHDY8o
           metadata:
+            published: 1540837625000
             tournament: Ghostly Glades
             level: Masters
             teePosition: 3
@@ -528,6 +561,7 @@ holes:
         - title: Ghostly Glades - Masters
           url: https://youtu.be/_S2un20F3tg
           metadata:
+            published: 1540841287000
             tournament: Ghostly Glades
             level: Masters
             teePosition: 3
@@ -542,6 +576,7 @@ holes:
         - title: Ghostly Glades - Masters
           url: https://youtu.be/mWkz-PxEeME
           metadata:
+            published: 1540902630000
             tournament: Ghostly Glades
             level: Masters
             teePosition: 3
@@ -595,6 +630,7 @@ holes:
         - title: Ghostly Glades - Rookie
           url: https://youtu.be/jQFi-Eb6J8s
           metadata:
+            published: 1540917184000
             tournament: Ghostly Glades
             level: Rookie
             teePosition: 1
@@ -611,6 +647,7 @@ holes:
         - title: Ghostly Glades - Pro
           url: https://youtu.be/D7o20_jgQ7A
           metadata:
+            published: 1540842441000
             tournament: Ghostly Glades
             level: Pro
             teePosition: 2
@@ -627,6 +664,7 @@ holes:
         - title: Ghostly Glades - Expert
           url: https://youtu.be/4yg7rK3wtV4
           metadata:
+            published: 1540840435000
             tournament: Ghostly Glades
             level: Expert
             teePosition: 2
@@ -643,6 +681,7 @@ holes:
         - title: Ghostly Glades - Masters
           url: https://youtu.be/Pl7b7V0Wz4o
           metadata:
+            published: 1540838399000
             tournament: Ghostly Glades
             level: Masters
             teePosition: 3
@@ -659,6 +698,7 @@ holes:
         - title: Ghostly Glades - Masters
           url: https://youtu.be/92xtbP13jUQ
           metadata:
+            published: 1540841439000
             tournament: Ghostly Glades
             level: Masters
             teePosition: 3
@@ -675,6 +715,7 @@ holes:
         - title: Ghostly Glades - Masters
           url: https://youtu.be/Jrn9DDQ3PzA
           metadata:
+            published: 1540903429000
             tournament: Ghostly Glades
             level: Masters
             teePosition: 3
@@ -691,6 +732,7 @@ holes:
         - title: Tour 11 - Strategy and Tips
           url: https://youtu.be/BlJ3ALKE98s
           metadata:
+            published: 1537966459000
             tour: 11
             ball: King Maker
             teePosition: 2
@@ -706,6 +748,7 @@ holes:
         - title: Rookie
           url: https://youtu.be/NFNEYJKiXJE
           metadata:
+            published: 1516026827000
             tournament: 1 Year Anniversary
             level: Rookie
             ball: Marlin
@@ -722,6 +765,7 @@ holes:
         - title: Pro/Expert
           url: https://youtu.be/fQMfImOGS9o
           metadata:
+            published: 1516031484000
             tournament: 1 Year Anniversary
             level: Pro
             ball: Marlin
@@ -761,6 +805,7 @@ holes:
         - title: Ghostly Glades - Rookie
           url: https://youtu.be/hjEdi_t7tDQ
           metadata:
+            published: 1540917893000
             tournament: Ghostly Glades
             level: Rookie
             teePosition: 1
@@ -775,6 +820,7 @@ holes:
         - title: Ghostly Glades - Pro
           url: https://youtu.be/svTM98u_oPI
           metadata:
+            published: 1540842650000
             tournament: Ghostly Glades
             level: Pro
             teePosition: 2
@@ -791,6 +837,7 @@ holes:
         - title: Ghostly Glades - Expert
           url: https://youtu.be/14CinLJW4VA
           metadata:
+            published: 1540840551000
             tournament: Ghostly Glades
             level: Expert
             teePosition: 2
@@ -807,6 +854,7 @@ holes:
         - title: Ghostly Glades - Masters
           url: https://youtu.be/nYhQivcVU7Q
           metadata:
+            published: 1540839290000
             tournament: Ghostly Glades
             level: Masters
             teePosition: 3
@@ -823,6 +871,7 @@ holes:
         - title: Ghostly Glades - Masters
           url: https://youtu.be/PDMtTlN7mNE
           metadata:
+            published: 1540841548000
             tournament: Ghostly Glades
             level: Masters
             teePosition: 3
@@ -839,6 +888,7 @@ holes:
         - title: Ghostly Glades - Masters
           url: https://youtu.be/aPaJztL8fZg
           metadata:
+            published: 1540904353000
             tournament: Ghostly Glades
             level: Masters
             teePosition: 3
@@ -895,16 +945,19 @@ holes:
         - title: General Instruction - 2nd Tee
           url: https://youtu.be/dA2k6h73SUg
           metadata:
+            published: 1541690448000
             generalInstruction: true
             teePosition: 2
         - title: General Instruction - 3rd Tee
           url: https://youtu.be/luVf8MWjaKg
           metadata:
+            published: 1541780133000
             generalInstruction: true
             teePosition: 3
         - title: Ghostly Glades - Rookie
           url: https://youtu.be/J4YcgX3MzQQ
           metadata:
+            published: 1540918284000
             tournament: Ghostly Glades
             level: Rookie
             teePosition: 1
@@ -919,6 +972,7 @@ holes:
         - title: Ghostly Glades - Pro
           url: https://youtu.be/jZPjBBTQLdw
           metadata:
+            published: 1540842726000
             tournament: Ghostly Glades
             level: Pro
             teePosition: 2
@@ -933,6 +987,7 @@ holes:
         - title: Ghostly Glades - Expert
           url: https://youtu.be/8TVe4Urbb6k
           metadata:
+            published: 1540840616000
             tournament: Ghostly Glades
             level: Expert
             teePosition: 2
@@ -947,6 +1002,7 @@ holes:
         - title: Ghostly Glades - Masters
           url: https://youtu.be/sAgclAT_v38
           metadata:
+            published: 1540839546000
             tournament: Ghostly Glades
             level: Masters
             teePosition: 3
@@ -961,6 +1017,7 @@ holes:
         - title: Ghostly Glades - Masters
           url: https://youtu.be/l5GwkVjlhyo
           metadata:
+            published: 1540841603000
             tournament: Ghostly Glades
             level: Masters
             teePosition: 3
@@ -975,6 +1032,7 @@ holes:
         - title: Ghostly Glades - Masters
           url: https://youtu.be/QHTFf73vkxM
           metadata:
+            published: 1540904535000
             tournament: Ghostly Glades
             level: Masters
             teePosition: 3
@@ -989,6 +1047,7 @@ holes:
         - title: Tour 11 Shootout - Wind Pointed at 9 O'oclock
           url: https://youtu.be/j07lSX5qq2w
           metadata:
+            published: 1537964747000
             tour: 11
             ball: King Maker
             teePosition: 2
@@ -1002,6 +1061,7 @@ holes:
         - title: Voyager - Rookie
           url: https://youtu.be/njyHG6Mk7Wc
           metadata:
+            published: 1537202748000
             tournament: Voyager
             level: Rookie
             ball: Quasar
@@ -1016,6 +1076,7 @@ holes:
         - title: Voyager - Rookie
           url: https://youtu.be/iT0vRt4f4Kk
           metadata:
+            published: 1537286635000
             tournament: Voyager
             level: Rookie
             ball: Quasar
@@ -1030,6 +1091,7 @@ holes:
         - title: Voyager - Pro
           url: https://youtu.be/uimETaXQAYs
           metadata:
+            published: 1537186217000
             tournament: Voyager
             level: Pro
             ball: Titan
@@ -1044,6 +1106,7 @@ holes:
         - title: Voyager - Pro
           url: https://youtu.be/enba8K96Ihs
           metadata:
+            published: 1537290241000
             tournament: Voyager
             level: Pro
             ball: King Maker
@@ -1058,6 +1121,7 @@ holes:
         - title: Voyager - Pro
           url: https://youtu.be/3-Eitvj4WUI
           metadata:
+            published: 1537296154000
             tournament: Voyager
             level: Pro
             ball: King Maker
@@ -1072,6 +1136,7 @@ holes:
         - title: Voyager - Expert
           url: https://youtu.be/LNYoPcJza9U
           metadata:
+            published: 1537189491000
             tournament: Voyager
             level: Expert
             ball: King Maker
@@ -1086,6 +1151,7 @@ holes:
         - title: Voyager - Expert
           url: https://youtu.be/7XPaLNPbVl0
           metadata:
+            published: 1537280448000
             tournament: Voyager
             level: Expert
             ball: Oceania
@@ -1100,6 +1166,7 @@ holes:
         - title: Voyager - Expert
           url: https://youtu.be/3s3-1z6U6GU
           metadata:
+            published: 1537283321000
             tournament: Voyager
             level: Expert
             ball: King Maker
@@ -1114,6 +1181,7 @@ holes:
         - title: Voyager - Master
           url: https://youtu.be/4-wtLP5EKxA
           metadata:
+            published: 1537206387000
             tournament: Voyager
             level: Master
             ball: King Maker
@@ -1128,6 +1196,7 @@ holes:
         - title: Voyager - Master
           url: https://youtu.be/Owe2__2NT9E
           metadata:
+            published: 1537273024000
             tournament: Voyager
             level: Master
             ball: King Maker
@@ -1142,6 +1211,7 @@ holes:
         - title: Voyager - Master
           url: https://youtu.be/E0bOBTEW65c
           metadata:
+            published: 1537276774000
             tournament: Voyager
             level: Master
             ball: Oceania
@@ -1156,6 +1226,7 @@ holes:
         - title: Tour 11 Shootout - Tailwind Tips
           url: https://youtu.be/AOTxq-P1tmA
           metadata:
+            published: 1517176450000
             tour: 11
             ball: King Maker
             teePosition: 2
@@ -1169,6 +1240,7 @@ holes:
         - title: Tour 11 Shootout - Strong Wind Pointed at 8-9 O'clock
           url: https://youtu.be/wiOErUdZTJ8
           metadata:
+            published: 1517173989000
             tour: 11
             ball: Katana
             teePosition: 2
@@ -1182,6 +1254,7 @@ holes:
         - title: Tour 11 Shootout - Left to Right Wind
           url: https://youtu.be/SHwCaqhmILA
           metadata:
+            published: 1517165355000
             tour: 11
             ball: Katana
             teePosition: 2
@@ -1195,6 +1268,7 @@ holes:
         - title: Tour 11 Shootout - Right to Left Cross Wind
           url: https://youtu.be/RJWXLrfhE3s
           metadata:
+            published: 1517163367000
             tour: 11
             ball: Katana
             teePosition: 2
@@ -1208,6 +1282,7 @@ holes:
         - title: Tour 11 Shootout - Tailwind Pointed at 1030
           url: https://youtu.be/SFt2hGFoGsg
           metadata:
+            published: 1517162757000
             tour: 11
             ball: King Maker
             teePosition: 2
@@ -1221,6 +1296,7 @@ holes:
         - title: Tour 11 Shootout - Left to Right Wind
           url: https://youtu.be/R3tArU6nx0A
           metadata:
+            published: 1517157758000
             tour: 11
             ball: Katana
             teePosition: 2
@@ -1234,6 +1310,7 @@ holes:
         - title: Cinco de Mayo - Rookie
           url: https://youtu.be/Ngcob84tT9A
           metadata:
+            published: 1525095718000
             tournament: Cinco De Mayo
             level: Rookie
             ball: Quasar
@@ -1248,6 +1325,7 @@ holes:
         - title: Cinco de Mayo - Pro
           url: https://youtu.be/Sx6K5dRcH1g
           metadata:
+            published: 1525107888000
             tournament: Cinco De Mayo
             level: Pro
             ball: Titan
@@ -1262,6 +1340,7 @@ holes:
         - title: Cinco de Mayo - Pro
           url: https://youtu.be/CANOmZJJD5c
           metadata:
+            published: 1525108147000
             tournament: Cinco De Mayo
             level: Pro
             ball: Katana
@@ -1276,6 +1355,7 @@ holes:
         - title: Cinco de Mayo - Expert
           url: https://youtu.be/PnhGH77vNow
           metadata:
+            published: 1525111178000
             tournament: Cinco De Mayo
             level: Expert
             ball: King Maker
@@ -1290,6 +1370,7 @@ holes:
         - title: Cinco de Mayo - Expert
           url: https://youtu.be/bhMQqJdcQPc
           metadata:
+            published: 1525194687000
             tournament: Cinco De Mayo
             level: Expert
             ball: King Maker
@@ -1304,6 +1385,7 @@ holes:
         - title: Cinco de Mayo - Expert
           url: https://youtu.be/dNZuO4FHjxI
           metadata:
+            published: 1525197925000
             tournament: Cinco De Mayo
             level: Expert
             ball: King Maker
@@ -1318,6 +1400,7 @@ holes:
         - title: Cinco de Mayo - Master
           url: https://youtu.be/DCA8PblmXC0
           metadata:
+            published: 1525116111000
             tournament: Cinco De Mayo
             level: Master
             ball: King Maker
@@ -1332,6 +1415,7 @@ holes:
         - title: Cinco de Mayo - Master
           url: https://youtu.be/jyT4UXk-z4Q
           metadata:
+            published: 1525196359000
             tournament: Cinco De Mayo
             level: Master
             ball: Movie
@@ -1387,6 +1471,7 @@ holes:
         - title: Ghostly Glades - Rookie
           url: https://youtu.be/2n5kMJKEd6M
           metadata:
+            published: 1540918563000
             tournament: Ghostly Glades
             level: Rookie
             teePosition: 1
@@ -1403,6 +1488,7 @@ holes:
         - title: Ghostly Glades - Pro
           url: https://youtu.be/61J2zN6bOFg
           metadata:
+            published: 1540843139000
             tournament: Ghostly Glades
             level: Pro
             teePosition: 2
@@ -1419,6 +1505,7 @@ holes:
         - title: Ghostly Glades - Expert
           url: https://youtu.be/0BZe63W1feI
           metadata:
+            published: 1540840742000
             tournament: Ghostly Glades
             level: Expert
             teePosition: 2
@@ -1435,6 +1522,7 @@ holes:
         - title: Ghostly Glades - Masters
           url: https://youtu.be/u1EJ58GNLv8
           metadata:
+            published: 1540839697000
             tournament: Ghostly Glades
             level: Masters
             teePosition: 3
@@ -1451,6 +1539,7 @@ holes:
         - title: Ghostly Glades - Masters
           url: https://youtu.be/K8CS_l1cG3k
           metadata:
+            published: 1540841713000
             tournament: Ghostly Glades
             level: Masters
             teePosition: 3
@@ -1465,6 +1554,7 @@ holes:
         - title: Ghostly Glades - Masters
           url: https://youtu.be/BBatkrPB_AI
           metadata:
+            published: 1540904744000
             tournament: Ghostly Glades
             level: Masters
             teePosition: 3
@@ -1481,6 +1571,7 @@ holes:
         - title: Tour 11 - Strategy and Tips
           url: https://youtu.be/AGmkHFT0nYU
           metadata:
+            published: 1537919359000
             tour: 11
             ball: King Maker
             teePosition: 3
@@ -1496,6 +1587,7 @@ holes:
         - title: Voyager - Rookie
           url: https://youtu.be/ybK0_zUNruc
           metadata:
+            published: 1537199837000
             tournament: Voyager
             level: Rookie
             ball: Titan
@@ -1512,6 +1604,7 @@ holes:
         - title: Voyager - Pro
           url: https://youtu.be/6izcie2E-w4
           metadata:
+            published: 1537183759000
             tournament: Voyager
             level: Pro
             ball: Titan
@@ -1528,6 +1621,7 @@ holes:
         - title: Voyager - Pro
           url: https://youtu.be/H9CeWt9vvXI
           metadata:
+            published: 1537289384000
             tournament: Voyager
             level: Pro
             ball: Titan
@@ -1544,6 +1638,7 @@ holes:
         - title: Voyager - Pro
           url: https://youtu.be/rb6J2NmL1y8
           metadata:
+            published: 1537293594000
             tournament: Voyager
             level: Pro
             ball: Gear
@@ -1560,6 +1655,7 @@ holes:
         - title: Voyager - Expert
           url: https://youtu.be/sv8jpkQwITA
           metadata:
+            published: 1537188772000
             tournament: Voyager
             level: Expert
             ball: King Maker
@@ -1576,6 +1672,7 @@ holes:
         - title: Voyager - Expert
           url: https://youtu.be/1XyRKcIcdjk
           metadata:
+            published: 1537279023000
             tournament: Voyager
             level: Expert
             ball: King Maker
@@ -1592,6 +1689,7 @@ holes:
         - title: Voyager - Expert
           url: https://youtu.be/LTFLKF3lr6w
           metadata:
+            published: 1537282806000
             tournament: Voyager
             level: Expert
             ball: King Maker
@@ -1608,6 +1706,7 @@ holes:
         - title: Voyager - Master
           url: https://youtu.be/6YkhfVOMzZI
           metadata:
+            published: 1537203804000
             tournament: Voyager
             level: Master
             ball: King Maker
@@ -1624,6 +1723,7 @@ holes:
         - title: Voyager - Master
           url: https://youtu.be/xw0vpPz8eIw
           metadata:
+            published: 1537270116000
             tournament: Voyager
             level: Master
             ball: King Maker
@@ -1640,6 +1740,7 @@ holes:
         - title: Voyager - Master
           url: https://youtu.be/Ser96k2Rxl8
           metadata:
+            published: 1537275396000
             tournament: Voyager
             level: Master
             ball: King Maker
@@ -1656,6 +1757,7 @@ holes:
         - title: Cinco de Mayo - Rookie
           url: https://youtu.be/ehRss9x6wfE
           metadata:
+            published: 1525094934000
             tournament: Cinco De Mayo
             level: Rookie
             ball: King Maker
@@ -1672,6 +1774,7 @@ holes:
         - title: Cinco de Mayo - Pro
           url: https://youtu.be/YU_H_NirQAI
           metadata:
+            published: 1525107469000
             tournament: Cinco De Mayo
             level: Pro
             ball: Quasar
@@ -1688,6 +1791,7 @@ holes:
         - title: Cinco de Mayo - Pro
           url: https://youtu.be/g65pBvxkJ4c
           metadata:
+            published: 1525107691000
             tournament: Cinco De Mayo
             level: Pro
             ball: Navigator
@@ -1704,6 +1808,7 @@ holes:
         - title: Cinco de Mayo - Expert
           url: https://youtu.be/DCAXqFVvC0w
           metadata:
+            published: 1525111055000
             tournament: Cinco De Mayo
             level: Expert
             ball: King Maker
@@ -1720,6 +1825,7 @@ holes:
         - title: Cinco de Mayo - Expert
           url: https://youtu.be/Te_1ErcdV04
           metadata:
+            published: 1525194608000
             tournament: Cinco De Mayo
             level: Expert
             ball: Snow Globe
@@ -1736,6 +1842,7 @@ holes:
         - title: Cinco de Mayo - Expert
           url: https://youtu.be/H1j8tpmUjZw
           metadata:
+            published: 1525197806000
             tournament: Cinco De Mayo
             level: Expert
             ball: Berserker
@@ -1752,6 +1859,7 @@ holes:
         - title: Cinco de Mayo - Master
           url: https://youtu.be/2sTmzW8RgOM
           metadata:
+            published: 1525115589000
             tournament: Cinco De Mayo
             level: Master
             ball: Berserker
@@ -1768,6 +1876,7 @@ holes:
         - title: Cinco de Mayo - Master
           url: https://youtu.be/dbqOENRIuHE
           metadata:
+            published: 1525196281000
             tournament: Cinco De Mayo
             level: Master
             ball: Berserker
@@ -1803,6 +1912,7 @@ holes:
         - title: Ghostly Glades - Rookie
           url: https://youtu.be/ktjnlRXlnB0
           metadata:
+            published: 1540918989000
             tournament: Ghostly Glades
             level: Rookie
             teePosition: 1
@@ -1819,6 +1929,7 @@ holes:
         - title: Ghostly Glades - Pro
           url: https://youtu.be/AdDj2NK3PsY
           metadata:
+            published: 1540843271000
             tournament: Ghostly Glades
             level: Pro
             teePosition: 2
@@ -1835,6 +1946,7 @@ holes:
         - title: Ghostly Glades - Expert
           url: https://youtu.be/DE74hEfxysA
           metadata:
+            published: 1540840871000
             tournament: Ghostly Glades
             level: Expert
             teePosition:
@@ -1853,6 +1965,7 @@ holes:
         - title: Ghostly Glades - Masters
           url: https://youtu.be/goS2dTAoJdM
           metadata:
+            published: 1540839823000
             tournament: Ghostly Glades
             level: Masters
             teePosition: 3
@@ -1869,6 +1982,7 @@ holes:
         - title: Ghostly Glades - Masters
           url: https://youtu.be/iIGPve4yuMw
           metadata:
+            published: 1540841863000
             tournament: Ghostly Glades
             level: Masters
             teePosition: 3
@@ -1885,6 +1999,7 @@ holes:
         - title: Ghostly Glades - Masters
           url: https://youtu.be/DpO1NlMyoXo
           metadata:
+            published: 1540904883000
             tournament: Ghostly Glades
             level: Masters
             teePosition: 3
@@ -1920,16 +2035,19 @@ holes:
         - title: General Instruction - 2nd Tee
           url: https://youtu.be/LJN_goXQPVU
           metadata:
+            published: 1541690787000
             generalInstruction: true
             teePosition: 2
         - title: General Instruction - 3rd Tee
           url: https://youtu.be/3uSqCX-az4E
           metadata:
+            published: 1541778757000
             generalInstruction: true
             teePosition: 3
         - title: Ghostly Glades - Rookie
           url: https://youtu.be/P5RWu16Rh_s
           metadata:
+            published: 1540918739000
             tournament: Ghostly Glades
             level: Rookie
             teePosition: 1
@@ -1945,6 +2063,7 @@ holes:
         - title: Ghostly Glades - Pro
           url: https://youtu.be/5Rnhkk1qIN0
           metadata:
+            published: 1540843336000
             tournament: Ghostly Glades
             level: Pro
             teePosition: 2
@@ -1959,6 +2078,7 @@ holes:
         - title: Ghostly Glades - Expert
           url: https://youtu.be/KG70dLpukw4
           metadata:
+            published: 1540840922000
             tournament: Ghostly Glades
             level: Expert
             teePosition: 2
@@ -1973,6 +2093,7 @@ holes:
         - title: Ghostly Glades - Masters
           url: https://youtu.be/KKUDWV1NEec
           metadata:
+            published: 1540839892000
             tournament: Ghostly Glades
             level: Masters
             teePosition: 3
@@ -1988,6 +2109,7 @@ holes:
         - title: Ghostly Glades - Masters
           url: https://youtu.be/Q8YTp1NCW-0
           metadata:
+            published: 1540841944000
             tournament: Ghostly Glades
             level: Masters
             teePosition: 3
@@ -2002,6 +2124,7 @@ holes:
         - title: Ghostly Glades - Masters
           url: https://youtu.be/4GnpAIvcc4E
           metadata:
+            published: 1540904998000
             tournament: Ghostly Glades
             level: Masters
             teePosition: 3
@@ -2035,6 +2158,7 @@ holes:
         - title: Ghostly Glades - Rookie
           url: https://youtu.be/8UMkdAFfdGY
           metadata:
+            published: 1540918870000
             tournament: Ghostly Glades
             level: Rookie
             teePosition: 1
@@ -2051,6 +2175,7 @@ holes:
         - title: Ghostly Glades - Pro
           url: https://youtu.be/M27vNJzFZnI
           metadata:
+            published: 1540843480000
             tournament: Ghostly Glades
             level: Pro
             teePosition: 2
@@ -2067,6 +2192,7 @@ holes:
         - title: Ghostly Glades - Expert
           url: https://youtu.be/AcgaQ_JFTec
           metadata:
+            published: 1540841055000
             tournament: Ghostly Glades
             level: Expert
             teePosition: 2
@@ -2083,6 +2209,7 @@ holes:
         - title: Ghostly Glades - Masters
           url: https://youtu.be/gMe0AKLjqZk
           metadata:
+            published: 1540840123000
             tournament: Ghostly Glades
             level: Masters
             teePosition: 3
@@ -2099,6 +2226,7 @@ holes:
         - title: Ghostly Glades - Masters
           url: https://youtu.be/FJzfdhUcSR4
           metadata:
+            published: 1540842072000
             tournament: Ghostly Glades
             level: Masters
             teePosition: 3
@@ -2115,6 +2243,7 @@ holes:
         - title: Ghostly Glades - Masters
           url: https://youtu.be/oS_Tdu2rzqo
           metadata:
+            published: 1540905125000
             tournament: Ghostly Glades
             level: Masters
             teePosition: 3

@@ -26,11 +26,13 @@ holes:
         - title: General Instruction - 3rd Tee
           url: https://youtu.be/fx9p7qjp1Ek
           metadata:
+            published: 1541771011000
             generalInstruction: true
             teePosition: 3
         - title: Festive Cup - Rookie
           url: https://youtu.be/ltjhBX6sAZs
           metadata:
+            published: 1544457899000
             tournament: Festive Cup
             level: Rookie
             ball: Navigator
@@ -45,6 +47,7 @@ holes:
         - title: Festive Cup - Pro
           url: https://youtu.be/QYkibczEiWA
           metadata:
+            published: 1544463308000
             tournament: Festive Cup
             level: Pro
             ball: Marlin
@@ -59,6 +62,7 @@ holes:
         - title: Festive Cup - Expert
           url: https://youtu.be/jyriIHgrWzk
           metadata:
+            published: 1544466849000
             tournament: Festive Cup
             level: Expert
             ball: King Maker
@@ -73,6 +77,7 @@ holes:
         - title: Festive Cup - Expert
           url: https://youtu.be/S3H0UbkDvFc
           metadata:
+            published: 1544471043000
             tournament: Festive Cup
             level: Expert
             ball: Marlin
@@ -87,6 +92,7 @@ holes:
         - title: Festive Cup - Master
           url: https://youtu.be/SCvFzrogNYs
           metadata:
+            published: 1544448377000
             tournament: Festive Cup
             level: Master
             ball: King Maker
@@ -101,6 +107,7 @@ holes:
         - title: Festive Cup - Master
           url: https://youtu.be/Gmx3J5BKk0M
           metadata:
+            published: 1544453992000
             tournament: Festive Cup
             level: Master
             ball: King Maker
@@ -115,6 +122,7 @@ holes:
         - title: Tour 11 - Wind Pointed at 530
           url: https://youtu.be/1-yIvglemoU
           metadata:
+            published: 1537966570000
             tour: 11
             ball: King Maker
             teePosition: 3
@@ -128,6 +136,7 @@ holes:
         - title: Christmas - Rookie
           url: https://youtu.be/B6e7DJpE3o4
           metadata:
+            published: 1513606951000
             tournament: Christmas
             level: Rookie
             ball: Navigator
@@ -142,6 +151,7 @@ holes:
         - title: Christmas - Pro
           url: https://youtu.be/kRHVITxsTGY
           metadata:
+            published: 1513688845000
             tournament: Christmas
             level: Pro
             ball: Santa
@@ -156,6 +166,7 @@ holes:
         - title: Christmas - Expert
           url: https://youtu.be/FcHfkeaOJCY
           metadata:
+            published: 1513777738000
             tournament: Christmas
             level: Expert
             ball: Turkey
@@ -194,6 +205,7 @@ holes:
         - title: Festive Cup - Rookie
           url: https://youtu.be/PkUhVGxPyuI
           metadata:
+            published: 1544458308000
             tournament: Festive Cup
             level: Rookie
             ball: Katana
@@ -210,6 +222,7 @@ holes:
         - title: Festive Cup - Pro
           url: https://youtu.be/4IId1dR3fEQ
           metadata:
+            published: 1544463755000
             tournament: Festive Cup
             level: Pro
             ball: Katana
@@ -226,6 +239,7 @@ holes:
         - title: Festive Cup - Expert
           url: https://youtu.be/KsBehEyKtms
           metadata:
+            published: 1544467432000
             tournament: Festive Cup
             level: Expert
             ball: King Maker
@@ -244,6 +258,7 @@ holes:
         - title: Festive Cup - Expert
           url: https://youtu.be/s9ckKAOUkds
           metadata:
+            published: 1544471445000
             tournament: Festive Cup
             level: Expert
             ball: King Maker
@@ -260,6 +275,7 @@ holes:
         - title: Festive Cup - Master
           url: https://youtu.be/PP55TLtnI7M
           metadata:
+            published: 1544449743000
             tournament: Festive Cup
             level: Master
             ball: King Maker
@@ -276,6 +292,7 @@ holes:
         - title: Festive Cup - Master
           url: https://youtu.be/4aijz42bp6U
           metadata:
+            published: 1544454387000
             tournament: Festive Cup
             level: Master
             ball: King Maker
@@ -292,6 +309,7 @@ holes:
         - title: Tour 11 - Strategy and Tips
           url: https://youtu.be/RPiLuBFJas4
           metadata:
+            published: 1537918647000
             tour: 11
             ball: King Maker
             teePosition: 3
@@ -309,6 +327,7 @@ holes:
         - title: Christmas - Rookie
           url: https://youtu.be/MYt1Ao5NRus
           metadata:
+            published: 1513607075000
             tournament: Christmas
             level: Rookie
             ball: Katana
@@ -325,6 +344,7 @@ holes:
         - title: Christmas - Pro
           url: https://youtu.be/cDuDPpiHvV4
           metadata:
+            published: 1513688900000
             tournament: Christmas
             level: Pro
             ball: Snowman
@@ -341,6 +361,7 @@ holes:
         - title: Christmas - Expert
           url: https://youtu.be/60V4SgrHbog
           metadata:
+            published: 1513779289000
             tournament: Christmas
             level: Expert
             ball: Snowman
@@ -381,6 +402,7 @@ holes:
         - title: Festive Cup - Rookie
           url: https://youtu.be/w4_IYwjOYnc
           metadata:
+            published: 1544458762000
             tournament: Festive Cup
             level: Rookie
             ball: Navigator
@@ -399,6 +421,7 @@ holes:
         - title: Festive Cup - Pro
           url: https://youtu.be/lFLhdAhZgYo
           metadata:
+            published: 1544464697000
             tournament: Festive Cup
             level: Pro
             ball: Titan
@@ -417,6 +440,7 @@ holes:
         - title: Festive Cup - Expert
           url: https://youtu.be/AYy51dCIbfs
           metadata:
+            published: 1544467849000
             tournament: Festive Cup
             level: Expert
             ball: King Maker
@@ -435,6 +459,7 @@ holes:
         - title: Festive Cup - Expert
           url: https://youtu.be/XgUnrEAVSe8
           metadata:
+            published: 1544471953000
             tournament: Festive Cup
             level: Expert
             ball: King Maker
@@ -453,6 +478,7 @@ holes:
         - title: Festive Cup - Master
           url: https://youtu.be/PFRglQcLFVo
           metadata:
+            published: 1544450412000
             tournament: Festive Cup
             level: Master
             ball: King Maker
@@ -471,6 +497,7 @@ holes:
         - title: Festive Cup - Master
           url: https://youtu.be/4ls-tGAuBcM
           metadata:
+            published: 1544454902000
             tournament: Festive Cup
             level: Master
             ball: King Maker
@@ -489,6 +516,7 @@ holes:
         - title: Christmas - Rookie
           url: https://youtu.be/9_AkC7DfP3w
           metadata:
+            published: 1513607267000
             tournament: Christmas
             level: Rookie
             ball: Navigator
@@ -505,6 +533,7 @@ holes:
         - title: Christmas - Pro
           url: https://youtu.be/pn6uwKjOb9A
           metadata:
+            published: 1513689062000
             tournament: Christmas
             level: Pro
             ball: Berserker
@@ -523,6 +552,7 @@ holes:
         - title: Christmas - Expert
           url: https://youtu.be/6BTflhDOkHE
           metadata:
+            published: 1513780961000
             tournament: Christmas
             level: Expert
             ball: Berserker
@@ -569,11 +599,13 @@ holes:
         - title: General Instruction - 3rd Tee
           url: https://youtu.be/uZtUZP7l2vI
           metadata:
+            published: 1541770231000
             generalInstruction: true
             teePosition: 3
         - title: Festive Cup - Rookie
           url: https://youtu.be/h4_3U9-Ij9w
           metadata:
+            published: 1544458969000
             tournament: Festive Cup
             level: Rookie
             ball: Quasar
@@ -588,6 +620,7 @@ holes:
         - title: Festive Cup - Pro
           url: https://youtu.be/CgF67cckdr8
           metadata:
+            published: 1544464664000
             tournament: Festive Cup
             level: Pro
             ball: Navigator
@@ -602,6 +635,7 @@ holes:
         - title: Festive Cup - Expert
           url: https://youtu.be/TGuCGxJHE5U
           metadata:
+            published: 1544468123000
             tournament: Festive Cup
             level: Expert
             ball: Oceania
@@ -616,6 +650,7 @@ holes:
         - title: Festive Cup - Expert
           url: https://youtu.be/Sct9IBANzJo
           metadata:
+            published: 1544472175000
             tournament: Festive Cup
             level: Expert
             ball: Navigator
@@ -630,6 +665,7 @@ holes:
         - title: Festive Cup - Master
           url: https://youtu.be/VtAumqg0ixI
           metadata:
+            published: 1544450763000
             tournament: Festive Cup
             level: Master
             ball: King Maker
@@ -644,6 +680,7 @@ holes:
         - title: Festive Cup - Master
           url: https://youtu.be/ETM9uQUq8to
           metadata:
+            published: 1544455073000
             tournament: Festive Cup
             level: Master
             ball: King Maker
@@ -658,6 +695,7 @@ holes:
         - title: Tour 11 - Headwind Pointed at 730
           url: https://youtu.be/zqbUXkQZ0Fk
           metadata:
+            published: 1537916352000
             tour: 11
             ball: King Maker
             teePosition: 3
@@ -671,6 +709,7 @@ holes:
         - title: Voyager - Rookie
           url: https://youtu.be/E3DrhcEajdQ
           metadata:
+            published: 1537200975000
             tournament: Voyager
             level: Rookie
             teePosition: 1
@@ -685,6 +724,7 @@ holes:
         - title: Voyager - Rookie
           url: https://youtu.be/J188dZda8WM
           metadata:
+            published: 1537286353000
             tournament: Voyager
             level: Rookie
             teePosition: 1
@@ -699,6 +739,7 @@ holes:
         - title: Voyager - Pro
           url: https://youtu.be/ecsv3Vm8ruY
           metadata:
+            published: 1537184933000
             tournament: Voyager
             level: Pro
             teePosition: 2
@@ -713,6 +754,7 @@ holes:
         - title: Voyager - Pro
           url: https://youtu.be/BgWvyZp5GO4
           metadata:
+            published: 1537289962000
             tournament: Voyager
             level: Pro
             teePosition: 2
@@ -727,6 +769,7 @@ holes:
         - title: Voyager - Pro
           url: https://youtu.be/nXZpjztDgFo
           metadata:
+            published: 1537294592000
             tournament: Voyager
             level: Pro
             teePosition: 2
@@ -741,6 +784,7 @@ holes:
         - title: Voyager - Expert
           url: https://youtu.be/5GVm7K7jLlE
           metadata:
+            published: 1537189185000
             tournament: Voyager
             level: Expert
             teePosition: 2
@@ -755,6 +799,7 @@ holes:
         - title: Voyager - Expert
           url: https://youtu.be/lh3J6e4nMLI
           metadata:
+            published: 1537279332000
             tournament: Voyager
             level: Expert
             teePosition: 2
@@ -770,6 +815,7 @@ holes:
         - title: Voyager - Expert
           url: https://youtu.be/hSmzhwHcadg
           metadata:
+            published: 1537282959000
             tournament: Voyager
             level: Expert
             teePosition: 2
@@ -784,6 +830,7 @@ holes:
         - title: Voyager - Masters
           url: https://youtu.be/WmmaD6gnEnc
           metadata:
+            published: 1537203998000
             tournament: Voyager
             level: Masters
             teePosition: 3
@@ -798,6 +845,7 @@ holes:
         - title: Voyager - Masters
           url: https://youtu.be/rwycDJ_12so
           metadata:
+            published: 1537271722000
             tournament: Voyager
             level: Masters
             teePosition: 3
@@ -812,6 +860,7 @@ holes:
         - title: Voyager - Masters
           url: https://youtu.be/Wacwm4-xwT4
           metadata:
+            published: 1537275670000
             tournament: Voyager
             level: Masters
             teePosition: 3
@@ -826,6 +875,7 @@ holes:
         - title: Christmas - Rookie
           url: https://youtu.be/WOszoxzUGQ4
           metadata:
+            published: 1513607376000
             tournament: Christmas
             level: Rookie
             ball: Navigator
@@ -840,6 +890,7 @@ holes:
         - title: Christmas - Pro
           url: https://youtu.be/09t5hSoolno
           metadata:
+            published: 1513689058000
             tournament: Christmas
             level: Pro
             ball: Titan
@@ -854,6 +905,7 @@ holes:
         - title: Christmas - Expert
           url: https://youtu.be/uadLeZJxzCc
           metadata:
+            published: 1513782262000
             tournament: Christmas
             level: Expert
             ball: King Maker
@@ -896,6 +948,7 @@ holes:
         - title: Festive Cup - Rookie
           url: https://youtu.be/asDSvUeVFQA
           metadata:
+            published: 1544459386000
             tournament: Festive Cup
             level: Rookie
             ball: Quasar
@@ -912,6 +965,7 @@ holes:
         - title: Festive Cup - Pro
           url: https://youtu.be/LNZzEzQ74c0
           metadata:
+            published: 1544464854000
             tournament: Festive Cup
             level: Pro
             ball: Titan
@@ -928,6 +982,7 @@ holes:
         - title: Festive Cup - Expert
           url: https://youtu.be/dmTM2ZdR1Kc
           metadata:
+            published: 1544468460000
             tournament: Festive Cup
             level: Expert
             ball: King Maker
@@ -944,6 +999,7 @@ holes:
         - title: Festive Cup - Expert
           url: https://youtu.be/yLA-iUSymUg
           metadata:
+            published: 1544472598000
             tournament: Festive Cup
             level: Expert
             ball: King Maker
@@ -960,6 +1016,7 @@ holes:
         - title: Festive Cup - Master
           url: https://youtu.be/XPSBh-4ZcK8
           metadata:
+            published: 1544451318000
             tournament: Festive Cup
             level: Master
             ball: King Maker
@@ -976,6 +1033,7 @@ holes:
         - title: Festive Cup - Master
           url: https://youtu.be/I8Dj8uxtg00
           metadata:
+            published: 1544455557000
             tournament: Festive Cup
             level: Master
             ball: King Maker
@@ -992,6 +1050,7 @@ holes:
         - title: Tour 11 - Advice and tips
           url: https://youtu.be/BeFqeQKsYKo
           metadata:
+            published: 1537915730000
             tour: 11
             ball: King Maker
             teePosition: 3
@@ -1008,6 +1067,7 @@ holes:
         - title: Voyager - Rookie
           url: https://youtu.be/AQ44fLr3LOo
           metadata:
+            published: 1537201747000
             tournament: Voyager
             level: Rookie
             teePosition: 1
@@ -1024,6 +1084,7 @@ holes:
         - title: Voyager - Rookie
           url: https://youtu.be/TWM0L29cb6s
           metadata:
+            published: 1537286462000
             tournament: Voyager
             level: Rookie
             teePosition: 1
@@ -1040,6 +1101,7 @@ holes:
         - title: Voyager - Pro
           url: https://youtu.be/roRytxjWCV8
           metadata:
+            published: 1537185565000
             tournament: Voyager
             level: Pro
             teePosition: 2
@@ -1056,6 +1118,7 @@ holes:
         - title: Voyager - Pro
           url: https://youtu.be/51C18ik-ebA
           metadata:
+            published: 1537290109000
             tournament: Voyager
             level: Pro
             teePosition: 2
@@ -1072,6 +1135,7 @@ holes:
         - title: Voyager - Pro
           url: https://youtu.be/Oor0aFuZ3kI
           metadata:
+            published: 1537295266000
             tournament: Voyager
             level: Pro
             teePosition: 2
@@ -1088,6 +1152,7 @@ holes:
         - title: Voyager - Expert
           url: https://youtu.be/3FBcqCBtC1s
           metadata:
+            published: 1537189288000
             tournament: Voyager
             level: Expert
             teePosition: 2
@@ -1104,6 +1169,7 @@ holes:
         - title: Voyager - Expert
           url: https://youtu.be/4PlkzvlMYrg
           metadata:
+            published: 1537279444000
             tournament: Voyager
             level: Expert
             teePosition: 2
@@ -1120,6 +1186,7 @@ holes:
         - title: Voyager - Expert
           url: https://youtu.be/-JN1CsEVxn0
           metadata:
+            published: 1537283064000
             tournament: Voyager
             level: Expert
             teePosition: 2
@@ -1136,6 +1203,7 @@ holes:
         - title: Voyager - Masters
           url: https://youtu.be/V8bYFxotNn4
           metadata:
+            published: 1537205227000
             tournament: Voyager
             level: Masters
             teePosition: 3
@@ -1153,6 +1221,7 @@ holes:
         - title: Voyager - Masters
           url: https://youtu.be/Eh-ELFPQJBg
           metadata:
+            published: 1537271989000
             tournament: Voyager
             level: Masters
             teePosition: 3
@@ -1170,6 +1239,7 @@ holes:
         - title: Voyager - Masters
           url: https://youtu.be/2RIHkHGCzzs
           metadata:
+            published: 1537275846000
             tournament: Voyager
             level: Masters
             teePosition: 3
@@ -1187,6 +1257,7 @@ holes:
         - title: Christmas - Rookie
           url: https://youtu.be/GN2T2gDqtok
           metadata:
+            published: 1513607467000
             tournament: Christmas
             level: Rookie
             ball: Navigator
@@ -1203,6 +1274,7 @@ holes:
         - title: Christmas - Pro
           url: https://youtu.be/5p5YHefFSGc
           metadata:
+            published: 1513689112000
             tournament: Christmas
             level: Pro
             ball: Titan
@@ -1219,6 +1291,7 @@ holes:
         - title: Christmas - Expert
           url: https://youtu.be/wRKMv_7tKZE
           metadata:
+            published: 1513783914000
             tournament: Christmas
             level: Expert
             ball: King Maker
@@ -1257,6 +1330,7 @@ holes:
         - title: Festive Cup - Rookie
           url: https://youtu.be/bTtT5krJ6SE
           metadata:
+            published: 1544459751000
             tournament: Festive Cup
             level: Rookie
             ball: Titan
@@ -1273,6 +1347,7 @@ holes:
         - title: Festive Cup - Pro
           url: https://youtu.be/EPhr9I62PYM
           metadata:
+            published: 1544465438000
             tournament: Festive Cup
             level: Pro
             ball: Titan
@@ -1289,6 +1364,7 @@ holes:
         - title: Festive Cup - Expert
           url: https://youtu.be/FHAibCFI5z4
           metadata:
+            published: 1544468918000
             tournament: Festive Cup
             level: Expert
             ball: King Maker
@@ -1305,6 +1381,7 @@ holes:
         - title: Festive Cup - Expert
           url: https://youtu.be/ISu7MgithLU
           metadata:
+            published: 1544473133000
             tournament: Festive Cup
             level: Expert
             ball: King Maker
@@ -1321,6 +1398,7 @@ holes:
         - title: Festive Cup - Master
           url: https://youtu.be/v9n8eYYMLsM
           metadata:
+            published: 1544451769000
             tournament: Festive Cup
             level: Master
             ball: Snow Globe
@@ -1337,6 +1415,7 @@ holes:
         - title: Festive Cup - Master
           url: https://youtu.be/jXRZjwl7o-E
           metadata:
+            published: 1544456019000
             tournament: Festive Cup
             level: Master
             ball: King Maker
@@ -1353,6 +1432,7 @@ holes:
         - title: Tour 11 - Strategy and Tips
           url: https://youtu.be/dS8iq_jhXdg
           metadata:
+            published: 1537917538000
             tour: 11
             ball: King Maker
             teePosition: 3
@@ -1368,6 +1448,7 @@ holes:
         - title: Christmas - Rookie
           url: https://youtu.be/eyHXKoVf0AE
           metadata:
+            published: 1513607611000
             tournament: Christmas
             level: Rookie
             ball: King Maker
@@ -1384,6 +1465,7 @@ holes:
         - title: Christmas - Pro
           url: https://youtu.be/IQKfLPp1xqw
           metadata:
+            published: 1513689240000
             tournament: Christmas
             level: Pro
             ball: Snowman
@@ -1402,6 +1484,7 @@ holes:
         - title: Christmas - Expert
           url: https://youtu.be/5V3lwOic3Yc
           metadata:
+            published: 1513786122000
             tournament: Christmas
             level: Expert
             ball: Berserker
@@ -1444,6 +1527,7 @@ holes:
         - title: Festive Cup - Rookie
           url: https://youtu.be/Dfnn9dnZ-Vc
           metadata:
+            published: 1544460281000
             tournament: Festive Cup
             level: Rookie
             ball: Katana
@@ -1460,6 +1544,7 @@ holes:
         - title: Festive Cup - Pro
           url: https://youtu.be/zBrGWv-HdLw
           metadata:
+            published: 1513689265000
             tournament: Festive Cup
             level: Pro
             ball: Katana
@@ -1476,6 +1561,7 @@ holes:
         - title: Festive Cup - Expert
           url: https://youtu.be/5hOONoulpv4
           metadata:
+            published: 1544469235000
             tournament: Festive Cup
             level: Expert
             ball: King Maker
@@ -1492,6 +1578,7 @@ holes:
         - title: Festive Cup - Expert
           url: https://youtu.be/uQW832EIo-M
           metadata:
+            published: 1544473519000
             tournament: Festive Cup
             level: Expert
             ball: King Maker
@@ -1508,6 +1595,7 @@ holes:
         - title: Festive Cup - Master
           url: https://youtu.be/fnvjNNSu-O0
           metadata:
+            published: 1544452465000
             tournament: Festive Cup
             level: Master
             ball: Dead
@@ -1524,6 +1612,7 @@ holes:
         - title: Festive Cup - Master
           url: https://youtu.be/Ns69dBBFHA4
           metadata:
+            published: 1544456407000
             tournament: Festive Cup
             level: Master
             ball: King Maker
@@ -1540,6 +1629,7 @@ holes:
         - title: Christmas - Rookie
           url: https://youtu.be/5RaocmALONw
           metadata:
+            published: 1513607737000
             tournament: Christmas
             level: Rookie
             ball: Titan
@@ -1556,6 +1646,7 @@ holes:
         - title: Christmas - Pro
           url: https://youtu.be/zBrGWv-HdLw
           metadata:
+            published: 1513689265000
             tournament: Christmas
             level: Pro
             ball: Snowman
@@ -1572,6 +1663,7 @@ holes:
         - title: Christmas - Expert
           url: https://youtu.be/yXLrHKM92ww
           metadata:
+            published: 1513787785000
             tournament: Christmas
             level: Expert
             ball: Snowman
@@ -1612,11 +1704,13 @@ holes:
         - title: General Instruction - 3rd Tee
           url: https://youtu.be/b88Oa98RE5A
           metadata:
+            published: 1541769856000
             generalInstruction: true
             teePosition: 3
         - title: Festive Cup - Rookie
           url: https://youtu.be/Ru-pIZr4DEc
           metadata:
+            published: 1544460346000
             tournament: Festive Cup
             level: Rookie
             ball: Navigator
@@ -1631,6 +1725,7 @@ holes:
         - title: Festive Cup - Pro
           url: https://youtu.be/j99XYy3Ltv8
           metadata:
+            published: 1544465915000
             tournament: Festive Cup
             level: Pro
             ball: Navigator
@@ -1645,6 +1740,7 @@ holes:
         - title: Festive Cup - Expert
           url: https://youtu.be/AyBSeQWecz0
           metadata:
+            published: 1544469526000
             tournament: Festive Cup
             level: Expert
             ball: King Maker
@@ -1659,6 +1755,7 @@ holes:
         - title: Festive Cup - Expert
           url: https://youtu.be/f65d6Dd3KWg
           metadata:
+            published: 1544473717000
             tournament: Festive Cup
             level: Expert
             ball: Spider
@@ -1673,6 +1770,7 @@ holes:
         - title: Festive Cup - Master
           url: https://youtu.be/aEjMbUv8yZc
           metadata:
+            published: 1544452774000
             tournament: Festive Cup
             level: Master
             ball: King Maker
@@ -1687,6 +1785,7 @@ holes:
         - title: Festive Cup - Master
           url: https://youtu.be/zzyyfTDs7NQ
           metadata:
+            published: 1544456735000
             tournament: Festive Cup
             level: Master
             ball: Season 1
@@ -1701,6 +1800,7 @@ holes:
         - title: Tour 11 - Left to right wind pointed at 2 O`clock
           url: https://youtu.be/4Nfu7Y9b6Uw
           metadata:
+            published: 1537918710000
             tour: 11
             ball: King Maker
             teePosition: 3
@@ -1714,6 +1814,7 @@ holes:
         - title: Tour 11 - Wind pointed at 1030
           url: https://youtu.be/psfHVin7KuM
           metadata:
+            published: 1537919160000
             tour: 11
             ball: King Maker
             teePosition: 3
@@ -1727,6 +1828,7 @@ holes:
         - title: Christmas - Rookie
           url: https://youtu.be/f81eMaha8Lo
           metadata:
+            published: 1513607842000
             tournament: Christmas
             level: Rookie
             ball: Titan
@@ -1741,6 +1843,7 @@ holes:
         - title: Christmas - Pro
           url: https://youtu.be/vMfrmnRllTI
           metadata:
+            published: 1513689324000
             tournament: Christmas
             level: Pro
             ball: Navigator
@@ -1755,6 +1858,7 @@ holes:
         - title: Christmas - Expert
           url: https://youtu.be/uvgt3dbhyfY
           metadata:
+            published: 1513786906000
             tournament: Christmas
             level: Expert
             ball: Santa
@@ -1797,6 +1901,7 @@ holes:
         - title: Festive Cup - Rookie
           url: https://youtu.be/TPOXEo0HZ5Y
           metadata:
+            published: 1544460831000
             tournament: Festive Cup
             level: Rookie
             ball: Titan
@@ -1813,6 +1918,7 @@ holes:
         - title: Festive Cup - Pro
           url: https://youtu.be/5-Lin6vDvxg
           metadata:
+            published: 1544466355000
             tournament: Festive Cup
             level: Pro
             ball: Titan
@@ -1829,6 +1935,7 @@ holes:
         - title: Festive Cup - Expert
           url: https://youtu.be/XQGU1MfwDFo
           metadata:
+            published: 1544470000000
             tournament: Festive Cup
             level: Expert
             ball: King Maker
@@ -1845,6 +1952,7 @@ holes:
         - title: Festive Cup - Expert
           url: https://youtu.be/Fca9LiO331U
           metadata:
+            published: 1544474126000
             tournament: Festive Cup
             level: Expert
             ball: King Maker
@@ -1861,6 +1969,7 @@ holes:
         - title: Festive Cup - Master
           url: https://youtu.be/ySCkRBIOzP4
           metadata:
+            published: 1544453317000
             tournament: Festive Cup
             level: Master
             ball: Turkey
@@ -1877,6 +1986,7 @@ holes:
         - title: Festive Cup - Master
           url: https://youtu.be/3xXFHqSFi6o
           metadata:
+            published: 1544457195000
             tournament: Festive Cup
             level: Master
             ball: King Maker
@@ -1893,6 +2003,7 @@ holes:
         - title: Tour 11 - Strategy and Tips
           url: https://youtu.be/xWhUUovk-6E
           metadata:
+            published: 1537965494000
             tour: 11
             ball: King Maker
             teePosition: 3
@@ -1908,6 +2019,7 @@ holes:
         - title: Voyager - Rookie
           url: https://youtu.be/v9_hsiUWL_c
           metadata:
+            published: 1537202362000
             tournament: Voyager
             level: Rookie
             teePosition: 1
@@ -1924,6 +2036,7 @@ holes:
         - title: Voyager - Rookie
           url: https://youtu.be/WMwhXPDHzXw
           metadata:
+            published: 1537286552000
             tournament: Voyager
             level: Rookie
             teePosition: 1
@@ -1940,6 +2053,7 @@ holes:
         - title: Voyager - Pro
           url: https://youtu.be/F-YtMhMMSfM
           metadata:
+            published: 1537185733000
             tournament: Voyager
             level: Pro
             teePosition: 2
@@ -1956,6 +2070,7 @@ holes:
         - title: Voyager - Pro
           url: https://youtu.be/R7ocqWhDK8k
           metadata:
+            published: 1537290171000
             tournament: Voyager
             level: Pro
             teePosition: 2
@@ -1972,6 +2087,7 @@ holes:
         - title: Voyager - Pro
           url: https://youtu.be/LNLZV1___sA
           metadata:
+            published: 1537295779000
             tournament: Voyager
             level: Pro
             teePosition: 2
@@ -1988,6 +2104,7 @@ holes:
         - title: Voyager - Expert
           url: https://youtu.be/29nK0sBtf1c
           metadata:
+            published: 1537189441000
             tournament: Voyager
             level: Expert
             teePosition: 2
@@ -2004,6 +2121,7 @@ holes:
         - title: Voyager - Expert
           url: https://youtu.be/iddkp25YlJw
           metadata:
+            published: 1537279572000
             tournament: Voyager
             level: Expert
             teePosition: 2
@@ -2020,6 +2138,7 @@ holes:
         - title: Voyager - Expert
           url: https://youtu.be/yWFSSggXLUU
           metadata:
+            published: 1537283216000
             tournament: Voyager
             level: Expert
             teePosition: 2
@@ -2036,6 +2155,7 @@ holes:
         - title: Voyager - Masters
           url: https://youtu.be/dVhi8LsUKI4
           metadata:
+            published: 1537205970000
             tournament: Voyager
             level: Masters
             teePosition: 3
@@ -2052,6 +2172,7 @@ holes:
         - title: Voyager - Masters
           url: https://youtu.be/p00hYEuuqnM
           metadata:
+            published: 1537272150000
             tournament: Voyager
             level: Masters
             teePosition: 3
@@ -2068,6 +2189,7 @@ holes:
         - title: Voyager - Masters
           url: https://youtu.be/kcN9KWXKW58
           metadata:
+            published: 1537275898000
             tournament: Voyager
             level: Masters
             teePosition: 3
@@ -2084,6 +2206,7 @@ holes:
         - title: Christmas - Rookie
           url: https://youtu.be/K9HrMlHZZR8
           metadata:
+            published: 1513608070000
             tournament: Christmas
             level: Rookie
             ball: Katana
@@ -2102,6 +2225,7 @@ holes:
         - title: Christmas - Pro
           url: https://youtu.be/hQkcnbL9YeI
           metadata:
+            published: 1513689466000
             tournament: Christmas
             level: Pro
             ball: Katana
@@ -2118,6 +2242,7 @@ holes:
         - title: Christmas - Expert
           url: https://youtu.be/FQPzqiziYKQ
           metadata:
+            published: 1513787304000
             tournament: Christmas
             level: Expert
             ball: King Maker

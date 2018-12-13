@@ -35,11 +35,13 @@ holes:
         - title: General Instruction - 2nd Tee
           url: https://youtu.be/n5LgFKZQKBs
           metadata:
+            published: 1541696189000
             generalInstruction: true
             teePosition: 2
         - title: Tour 9 Shootout - 1 O`clock Wind
           url: https://youtu.be/-SdFYsivoy4
           metadata:
+            published: 1537992191000
             tour: 9
             ball: King Maker
             teePosition: 2
@@ -53,6 +55,7 @@ holes:
         - title: Tour 10 Shootout - 2 O`clock Wind
           url: https://youtu.be/MwyIpXxTFv0?t=4m4s
           metadata:
+            published: 1525897056000
             tour: 10
             ball: Katana
             teePosition: 2
@@ -66,6 +69,7 @@ holes:
         - title: Tour 10 Shootout - Hard Tailwind Pointed at 1 O`clock
           url: https://youtu.be/TToGzYPRncE
           metadata:
+            published: 1518039370000
             tour: 10
             ball: Basic
             teePosition: 2
@@ -79,6 +83,7 @@ holes:
         - title: Tour 10 Shootout - Hard Tailwind Pointed at 1 O`clock
           url: https://youtu.be/bG74oGxCOe4
           metadata:
+            published: 1518029050000
             tour: 10
             ball: Basic
             teePosition: 2
@@ -92,6 +97,7 @@ holes:
         - title: Tour 10 Shootout - Strong Wind Pointed at 5 O`clock
           url: https://youtu.be/j9hEbRITgws
           metadata:
+            published: 1518028291000
             tour: 10
             ball: Basic
             teePosition: 2
@@ -105,6 +111,7 @@ holes:
         - title: Tour 10 Shootout - Wind Pointed at 2 O`clock
           url: https://youtu.be/gBrTd8a83M4
           metadata:
+            published: 1518027617000
             tour: 10
             ball: Basic
             teePosition: 2
@@ -118,6 +125,7 @@ holes:
         - title: Tour 10 Shootout - Left to Right Wind
           url: https://youtu.be/uwvqevsXFuM
           metadata:
+            published: 1518017543000
             tour: 10
             ball: Basic
             teePosition: 2
@@ -131,6 +139,7 @@ holes:
         - title: Royal Open - Rookie
           url: https://youtu.be/I8RZ4ibvI-s
           metadata:
+            published: 1526312800000
             tournament: Royal Open
             level: Rookie
             teePosition: 1
@@ -145,6 +154,7 @@ holes:
         - title: Royal Open - Rookie
           url: https://youtu.be/buDP1mFdfHc
           metadata:
+            published: 1526565796000
             tournament: Royal Open
             level: Rookie
             teePosition: 1
@@ -159,6 +169,7 @@ holes:
         - title: Royal Open - Pro
           url: https://youtu.be/q1NBWcGJbwQ
           metadata:
+            published: 1526316839000
             tournament: Royal Open
             level: Pro
             teePosition: 2
@@ -173,6 +184,7 @@ holes:
         - title: Royal Open - Pro
           url: https://youtu.be/BR8G5ajQlks
           metadata:
+            published: 1526396584000
             tournament: Royal Open
             level: Pro
             teePosition: 2
@@ -187,6 +199,7 @@ holes:
         - title: Royal Open - Expert
           url: https://youtu.be/1POBLglGfw4
           metadata:
+            published: 1526310273000
             tournament: Royal Open
             level: Expert
             teePosition: 2
@@ -201,6 +214,7 @@ holes:
         - title: Royal Open - Expert
           url: https://youtu.be/S7xJHDUfurg
           metadata:
+            published: 1526401056000
             tournament: Royal Open
             level: Expert
             teePosition: 2
@@ -215,6 +229,7 @@ holes:
         - title: Royal Open - Masters
           url: https://youtu.be/43OqL-CJC3E
           metadata:
+            published: 1526324988000
             tournament: Royal Open
             level: Masters
             teePosition: 3
@@ -229,6 +244,7 @@ holes:
         - title: Royal Open - Masters
           url: https://youtu.be/yOdfxpsuFdw
           metadata:
+            published: 1526406192000
             tournament: Royal Open
             level: Masters
             teePosition: 3
@@ -339,6 +355,7 @@ holes:
         - title: Tour 9 - Strategy and Tips
           url: https://youtu.be/t_nRwpz9fAw
           metadata:
+            published: 1537994631000
             tour: 9
             ball: King Maker
             teePosition: 2
@@ -354,6 +371,7 @@ holes:
         - title: Tour 10 - 3 O`clock Wind
           url: https://youtu.be/BXaP4UwfPVo
           metadata:
+            published: 1525920243000
             tour: 10
             ball: Katana
             teePosition: 2
@@ -369,6 +387,7 @@ holes:
         - title: Royal Open - Rookie
           url: https://youtu.be/Cm0LU_yTCxU
           metadata:
+            published: 1526313122000
             tournament: Royal Open
             level: Rookie
             teePosition: 1
@@ -383,6 +402,7 @@ holes:
         - title: Royal Open - Rookie
           url: https://youtu.be/vgITKlMNNNE
           metadata:
+            published: 1526566132000
             tournament: Royal Open
             level: Rookie
             teePosition: 1
@@ -397,6 +417,7 @@ holes:
         - title: Royal Open - Pro
           url: https://youtu.be/Ev_kp3z_eYc
           metadata:
+            published: 1526317291000
             tournament: Royal Open
             level: Pro
             teePosition: 2
@@ -413,6 +434,7 @@ holes:
         - title: Royal Open - Pro
           url: https://youtu.be/uF0z46NMexg
           metadata:
+            published: 1526397190000
             tournament: Royal Open
             level: Pro
             teePosition: 2
@@ -427,6 +449,7 @@ holes:
         - title: Royal Open - Expert
           url: https://youtu.be/nK7OSrMCHHo
           metadata:
+            published: 1526310385000
             tournament: Royal Open
             level: Expert
             teePosition: 2
@@ -441,6 +464,7 @@ holes:
         - title: Royal Open - Expert
           url: https://youtu.be/8yQ-yWTQon8
           metadata:
+            published: 1526401477000
             tournament: Royal Open
             level: Expert
             teePosition: 2
@@ -457,6 +481,7 @@ holes:
         - title: Royal Open - Masters
           url: https://youtu.be/rwBhL7lDPaM
           metadata:
+            published: 1526325262000
             tournament: Royal Open
             level: Masters
             teePosition: 3
@@ -473,6 +498,7 @@ holes:
         - title: Royal Open - Masters
           url: https://youtu.be/L_aHk6U6I7c
           metadata:
+            published: 1526406616000
             tournament: Royal Open
             level: Masters
             teePosition: 3
@@ -590,11 +616,13 @@ holes:
         - title: General Instruction - 2nd Tee
           url: https://youtu.be/6KRGuL_gq6E
           metadata:
+            published: 1541696671000
             generalInstruction: true
             teePosition: 2
         - title: Platinum Resorts - Expert
           url: https://youtu.be/cyR53zixB0E
           metadata:
+            published: 1539620167000
             tournament: Platinum Resorts
             level: Expert
             teePosition: 2
@@ -609,6 +637,7 @@ holes:
         - title: Platinum Resorts - Masters
           url: https://youtu.be/Z8dSp_UGwgM
           metadata:
+            published: 1539604249000
             tournament: Platinum Resorts
             level: Masters
             teePosition: 3
@@ -623,6 +652,7 @@ holes:
         - title: Platinum Resorts - Masters
           url: https://youtu.be/G9kx8SSUMdQ
           metadata:
+            published: 1539607742000
             tournament: Platinum Resorts
             level: Masters
             teePosition: 3
@@ -637,6 +667,7 @@ holes:
         - title: Platinum Resorts - Masters
           url: https://youtu.be/6PuGLdjWJ4A
           metadata:
+            published: 1539611836000
             tournament: Platinum Resorts
             level: Masters
             teePosition: 3
@@ -651,6 +682,7 @@ holes:
         - title: Platinum Resorts - Masters
           url: https://youtu.be/VGqe_7Qjj5U
           metadata:
+            published: 1539693240000
             tournament: Platinum Resorts
             level: Masters
             teePosition: 3
@@ -665,6 +697,7 @@ holes:
         - title: Tour 9 Shootout - Wind Pointed at 11 O`clock
           url: https://youtu.be/gGbb0aB2_jo
           metadata:
+            published: 1537992959000
             tour: 9
             ball: King Maker
             teePosition: 2
@@ -678,6 +711,7 @@ holes:
         - title: Tour 10 Shootout - Wind Pointed at 8 O`clock
           url: https://youtu.be/zaWrItSh3cY
           metadata:
+            published: 1518035663000
             tour: 10
             ball: Basic
             teePosition: 2
@@ -691,6 +725,7 @@ holes:
         - title: Tour 10 Shootout - Wind Pointed at 9 O`clock
           url: https://youtu.be/aqocGjsleVo
           metadata:
+            published: 1518032370000
             tour: 10
             ball: King Maker
             teePosition: 2
@@ -704,6 +739,7 @@ holes:
         - title: Royal Open - Rookie
           url: https://youtu.be/CdyOFncaegM
           metadata:
+            published: 1526314831000
             tournament: Royal Open
             level: Rookie
             teePosition: 1
@@ -718,6 +754,7 @@ holes:
         - title: Royal Open - Rookie
           url: https://youtu.be/0y12OojJopg
           metadata:
+            published: 1526567743000
             tournament: Royal Open
             level: Rookie
             teePosition: 1
@@ -732,6 +769,7 @@ holes:
         - title: Royal Open - Pro
           url: https://youtu.be/cDfG5eACaVk
           metadata:
+            published: 1526318655000
             tournament: Royal Open
             level: Pro
             teePosition: 2
@@ -746,6 +784,7 @@ holes:
         - title: Royal Open - Pro
           url: https://youtu.be/8X4foGcUKKU
           metadata:
+            published: 1526399257000
             tournament: Royal Open
             level: Pro
             teePosition: 2
@@ -760,6 +799,7 @@ holes:
         - title: Royal Open - Expert
           url: https://youtu.be/pN-RvO19178
           metadata:
+            published: 1526311029000
             tournament: Royal Open
             level: Expert
             teePosition: 2
@@ -774,6 +814,7 @@ holes:
         - title: Royal Open - Expert
           url: https://youtu.be/evrHuZ1f9BE
           metadata:
+            published: 1526404116000
             tournament: Royal Open
             level: Expert
             teePosition: 2
@@ -788,6 +829,7 @@ holes:
         - title: Royal Open - Masters
           url: https://youtu.be/Rla1Aih0SBo
           metadata:
+            published: 1526327066000
             tournament: Royal Open
             level: Masters
             teePosition: 3
@@ -804,6 +846,7 @@ holes:
         - title: Royal Open - Masters
           url: https://youtu.be/TQUwdqv_wWQ
           metadata:
+            published: 1526408927000
             tournament: Royal Open
             level: Masters
             teePosition: 3
@@ -899,6 +942,7 @@ holes:
         - title: Platinum Resorts - Expert
           url: https://youtu.be/GonTAm5Z3eY
           metadata:
+            published: 1539617989000
             tournament: Platinum Resorts
             level: Expert
             teePosition: 2
@@ -915,6 +959,7 @@ holes:
         - title: Platinum Resorts - Expert
           url: https://youtu.be/IHP838WbxFo
           metadata:
+            published: 1539619729000
             tournament: Platinum Resorts
             level: Expert
             teePosition: 2
@@ -931,6 +976,7 @@ holes:
         - title: Platinum Resorts - Masters
           url: https://youtu.be/Wo0nj0jxLdk
           metadata:
+            published: 1539603177000
             tournament: Platinum Resorts
             level: Masters
             teePosition: 2
@@ -947,6 +993,7 @@ holes:
         - title: Platinum Resorts - Masters
           url: https://youtu.be/__XjN4c9lx8
           metadata:
+            published: 1539607057000
             tournament: Platinum Resorts
             level: Masters
             teePosition: 2
@@ -963,6 +1010,7 @@ holes:
         - title: Platinum Resorts - Masters
           url: https://youtu.be/wnkIEPGnB9o
           metadata:
+            published: 1539611285000
             tournament: Platinum Resorts
             level: Masters
             teePosition: 2
@@ -979,6 +1027,7 @@ holes:
         - title: Platinum Resorts - Masters
           url: https://youtu.be/UJy3yRxxRZo
           metadata:
+            published: 1539692702000
             tournament: Platinum Resorts
             level: Masters
             teePosition: 2
@@ -995,6 +1044,7 @@ holes:
         - title: Tour 9 - Strategy and Tips
           url: https://youtu.be/ZfpmmuwYDX4
           metadata:
+            published: 1537991354000
             tour: 9
             ball: King Maker
             teePosition: 2
@@ -1010,6 +1060,7 @@ holes:
         - title: Royal Open - Rookie
           url: https://youtu.be/7lBGfjfOxZg
           metadata:
+            published: 1526314424000
             tournament: Royal Open
             level: Rookie
             teePosition: 1
@@ -1026,6 +1077,7 @@ holes:
         - title: Royal Open - Rookie
           url: https://youtu.be/c4k0UlB1MG0
           metadata:
+            published: 1526567067000
             tournament: Royal Open
             level: Rookie
             teePosition: 1
@@ -1042,6 +1094,7 @@ holes:
         - title: Royal Open - Pro
           url: https://youtu.be/Utq1Yb2ea9U
           metadata:
+            published: 1526318046000
             tournament: Royal Open
             level: Pro
             teePosition: 2
@@ -1059,6 +1112,7 @@ holes:
         - title: Royal Open - Pro
           url: https://youtu.be/W2C85kRrR_A
           metadata:
+            published: 1526398305000
             tournament: Royal Open
             level: Pro
             teePosition: 2
@@ -1075,6 +1129,7 @@ holes:
         - title: Royal Open - Expert
           url: https://youtu.be/ff4MuQFfSJ4
           metadata:
+            published: 1526310776000
             tournament: Royal Open
             level: Expert
             teePosition: 2
@@ -1091,6 +1146,7 @@ holes:
         - title: Royal Open - Expert
           url: https://youtu.be/Gu9qkxr4Q4o
           metadata:
+            published: 1526402524000
             tournament: Royal Open
             level: Expert
             teePosition: 2
@@ -1107,6 +1163,7 @@ holes:
         - title: Royal Open - Masters
           url: https://youtu.be/C3JpsTaXOeY
           metadata:
+            published: 1526326185000
             tournament: Royal Open
             level: Masters
             teePosition: 3
@@ -1121,6 +1178,7 @@ holes:
         - title: Royal Open - Masters
           url: https://youtu.be/9-Fib0pFKK4
           metadata:
+            published: 1526408100000
             tournament: Royal Open
             level: Masters
             teePosition: 3
@@ -1274,11 +1332,13 @@ holes:
         - title: General Instruction - 2nd Tee
           url: https://youtu.be/7VDg6-AmDL0
           metadata:
+            published: 1541697130000
             generalInstruction: true
             teePosition: 2
         - title: Tour 9 Shootout - Wind Pointed at 10 O`clock
           url: https://youtu.be/zw5QSKTZqbA
           metadata:
+            published: 1537989863000
             tour: 9
             ball: Katana
             teePosition: 2
@@ -1292,6 +1352,7 @@ holes:
         - title: Tour 10 Shootout - Left to Right Wind Strategy and Tips
           url: https://youtu.be/lKTLaiTYBTc
           metadata:
+            published: 1518018634000
             tour: 10
             ball: Basic
             teePosition: 2
@@ -1305,6 +1366,7 @@ holes:
         - title: Tour 10 Shootout - Tailwind
           url: https://youtu.be/KPaVqDOhTaY
           metadata:
+            published: 1518012820000
             tour: 10
             ball: Navigator
             teePosition: 2
@@ -1318,6 +1380,7 @@ holes:
         - title: Royal Open - Rookie
           url: https://youtu.be/GWtYhqTuFqY
           metadata:
+            published: 1526315292000
             tournament: Royal Open
             level: Rookie
             teePosition: 1
@@ -1332,6 +1395,7 @@ holes:
         - title: Royal Open - Rookie
           url: https://youtu.be/oDsIsx6d07Y
           metadata:
+            published: 1526568172000
             tournament: Royal Open
             level: Rookie
             teePosition: 1
@@ -1346,6 +1410,7 @@ holes:
         - title: Royal Open - Pro
           url: https://youtu.be/M5T8ezSANV8
           metadata:
+            published: 1526319157000
             tournament: Royal Open
             level: Pro
             teePosition: 2
@@ -1360,6 +1425,7 @@ holes:
         - title: Royal Open - Pro
           url: https://youtu.be/7or_kLQv790
           metadata:
+            published: 1526399378000
             tournament: Royal Open
             level: Pro
             teePosition: 2
@@ -1374,6 +1440,7 @@ holes:
         - title: Royal Open - Expert
           url: https://youtu.be/i4z4StPEi24
           metadata:
+            published: 1526311153000
             tournament: Royal Open
             level: Expert
             teePosition: 2
@@ -1388,6 +1455,7 @@ holes:
         - title: Royal Open - Expert
           url: https://youtu.be/Ehwh1a6pDPc
           metadata:
+            published: 1526404212000
             tournament: Royal Open
             level: Expert
             teePosition: 2
@@ -1402,6 +1470,7 @@ holes:
         - title: Royal Open - Masters
           url: https://youtu.be/lUIonFY7AN0
           metadata:
+            published: 1526327388000
             tournament: Royal Open
             level: Masters
             teePosition: 3
@@ -1416,6 +1485,7 @@ holes:
         - title: Royal Open - Masters
           url: https://youtu.be/3TOEA21DlGE
           metadata:
+            published: 1526409168000
             tournament: Royal Open
             level: Masters
             teePosition: 3
@@ -1486,6 +1556,7 @@ holes:
         - title: Tour 9 - Strategy and Tips
           url: https://youtu.be/vjJqXiE1YKk
           metadata:
+            published: 1537992104000
             tour: 9
             ball: King Maker
             teePosition: 2
@@ -1501,6 +1572,7 @@ holes:
         - title: Royal Open - Rookie
           url: https://youtu.be/evaTx4TOeic
           metadata:
+            published: 1526316317000
             tournament: Royal Open
             level: Rookie
             teePosition: 1
@@ -1517,6 +1589,7 @@ holes:
         - title: Royal Open - Rookie
           url: https://youtu.be/AQrHRARkBCs
           metadata:
+            published: 1526569048000
             tournament: Royal Open
             level: Rookie
             teePosition: 1
@@ -1533,6 +1606,7 @@ holes:
         - title: Royal Open - Pro
           url: https://youtu.be/unjG7B1oRv0
           metadata:
+            published: 1526319958000
             tournament: Royal Open
             level: Pro
             teePosition: 2
@@ -1549,6 +1623,7 @@ holes:
         - title: Royal Open - Pro
           url: https://youtu.be/HyZvMmNAj7E
           metadata:
+            published: 1526400439000
             tournament: Royal Open
             level: Pro
             teePosition: 2
@@ -1565,6 +1640,7 @@ holes:
         - title: Royal Open - Expert
           url: https://youtu.be/9X9J-8fEGq4
           metadata:
+            published: 1526312137000
             tournament: Royal Open
             level: Expert
             teePosition: 2
@@ -1581,6 +1657,7 @@ holes:
         - title: Royal Open - Expert
           url: https://youtu.be/VplyZzA4s8M
           metadata:
+            published: 1526404876000
             tournament: Royal Open
             level: Expert
             teePosition: 2
@@ -1597,6 +1674,7 @@ holes:
         - title: Royal Open - Masters
           url: https://youtu.be/8Rp64D6VZ04
           metadata:
+            published: 1526328146000
             tournament: Royal Open
             level: Masters
             teePosition: 3
@@ -1613,6 +1691,7 @@ holes:
         - title: Royal Open - Masters
           url: https://youtu.be/Upm6PcSvzG0
           metadata:
+            published: 1526409956000
             tournament: Royal Open
             level: Masters
             teePosition: 3
@@ -1713,6 +1792,7 @@ holes:
         - title: Platinum Resorts - Expert
           url: https://youtu.be/7Rwc0dhcEEo
           metadata:
+            published: 1539617333000
             tournament: Platinum Resorts
             level: Expert
             teePosition: 2
@@ -1729,6 +1809,7 @@ holes:
         - title: Platinum Resorts - Masters
           url: https://youtu.be/FrCjP1wLoRI
           metadata:
+            published: 1539602048000
             tournament: Platinum Resorts
             level: Masters
             teePosition: 3
@@ -1747,6 +1828,7 @@ holes:
         - title: Platinum Resorts - Masters
           url: https://youtu.be/um2Uz_cGP2c
           metadata:
+            published: 1539605977000
             tournament: Platinum Resorts
             level: Masters
             teePosition: 3
@@ -1765,6 +1847,7 @@ holes:
         - title: Platinum Resorts - Masters
           url: https://youtu.be/eOKOI6ndi1c
           metadata:
+            published: 1539610510000
             tournament: Platinum Resorts
             level: Masters
             teePosition: 3
@@ -1783,6 +1866,7 @@ holes:
         - title: Platinum Resorts - Masters
           url: https://youtu.be/AwdS0lQrwYM
           metadata:
+            published: 1539691664000
             tournament: Platinum Resorts
             level: Masters
             teePosition: 3
@@ -1801,6 +1885,7 @@ holes:
         - title: Tour 9 - Strategy and Tips
           url: https://youtu.be/S4ujEoURR3Y
           metadata:
+            published: 1537987773000
             tour: 9
             ball: King Maker
             teePosition: 2
@@ -1817,6 +1902,7 @@ holes:
         - title: Tour 10 - Strong Tailwind
           url: https://youtu.be/q3gAE5JM9xo
           metadata:
+            published: 1525911209000
             tour: 10
             ball: Quasar
             teePosition: 2
@@ -1833,6 +1919,7 @@ holes:
         - title: Tour 10 - Tips for Making Albatross
           url: https://youtu.be/HrOGSz6GhAM
           metadata:
+            published: 1525898204000
             tour: 10
             ball: Katana
             teePosition: 2
@@ -1849,6 +1936,7 @@ holes:
         - title: Royal Open - Rookie
           url: https://youtu.be/OPyqvZmgPww
           metadata:
+            published: 1526313885000
             tournament: Royal Open
             level: Rookie
             teePosition: 1
@@ -1866,6 +1954,7 @@ holes:
         - title: Royal Open - Rookie
           url: https://youtu.be/X6LPVxR4vgs
           metadata:
+            published: 1526566562000
             tournament: Royal Open
             level: Rookie
             teePosition: 1
@@ -1883,6 +1972,7 @@ holes:
         - title: Royal Open - Pro
           url: https://youtu.be/scS4spgRG3o
           metadata:
+            published: 1526317520000
             tournament: Royal Open
             level: Pro
             teePosition: 2
@@ -1900,6 +1990,7 @@ holes:
         - title: Royal Open - Pro
           url: https://youtu.be/NskINbC1Jng
           metadata:
+            published: 1526397884000
             tournament: Royal Open
             level: Pro
             teePosition: 2
@@ -1917,6 +2008,7 @@ holes:
         - title: Royal Open - Expert
           url: https://youtu.be/QXefS9Sh92o
           metadata:
+            published: 1526310633000
             tournament: Royal Open
             level: Expert
             teePosition: 2
@@ -1934,6 +2026,7 @@ holes:
         - title: Royal Open - Expert
           url: https://youtu.be/GM9CCq9myo0
           metadata:
+            published: 1526402108000
             tournament: Royal Open
             level: Expert
             teePosition: 2
@@ -1951,6 +2044,7 @@ holes:
         - title: Royal Open - Masters
           url: https://youtu.be/gZuksNzkymw
           metadata:
+            published: 1526325894000
             tournament: Royal Open
             level: Masters
             teePosition: 3
@@ -1967,6 +2061,7 @@ holes:
         - title: Royal Open - Masters
           url: https://youtu.be/fyWlethQwUk
           metadata:
+            published: 1526407918000
             tournament: Royal Open
             level: Masters
             teePosition: 3
@@ -2071,6 +2166,7 @@ holes:
         - title: Tour 9 - Strategy and Tips
           url: https://youtu.be/deiv-Iy7SIw
           metadata:
+            published: 1537993261000
             tour: 9
             ball: King Maker
             teePosition: 2
@@ -2084,6 +2180,7 @@ holes:
         - title: Royal Open - Rookie
           url: https://youtu.be/X16pIdRMzds
           metadata:
+            published: 1526315668000
             tournament: Royal Open
             level: Rookie
             teePosition: 1
@@ -2100,6 +2197,7 @@ holes:
         - title: Royal Open - Rookie
           url: https://youtu.be/uLI7c9GAydI
           metadata:
+            published: 1526569542000
             tournament: Royal Open
             level: Rookie
             teePosition: 1
@@ -2116,6 +2214,7 @@ holes:
         - title: Royal Open - Pro
           url: https://youtu.be/8C4AGAmXZFQ
           metadata:
+            published: 1526319549000
             tournament: Royal Open
             level: Pro
             teePosition: 2
@@ -2132,6 +2231,7 @@ holes:
         - title: Royal Open - Pro
           url: https://youtu.be/LNlq6oJZJzs
           metadata:
+            published: 1526399783000
             tournament: Royal Open
             level: Pro
             teePosition: 2
@@ -2146,6 +2246,7 @@ holes:
         - title: Royal Open - Expert
           url: https://youtu.be/82zxf7GlASY
           metadata:
+            published: 1526311940000
             tournament: Royal Open
             level: Expert
             teePosition: 2
@@ -2160,6 +2261,7 @@ holes:
         - title: Royal Open - Expert
           url: https://youtu.be/wEIiDtbN2w4
           metadata:
+            published: 1526404478000
             tournament: Royal Open
             level: Expert
             teePosition: 2
@@ -2174,6 +2276,7 @@ holes:
         - title: Royal Open - Masters
           url: https://youtu.be/t4hX5UZIGdI
           metadata:
+            published: 1526327618000
             tournament: Royal Open
             level: Masters
             teePosition: 3
@@ -2188,6 +2291,7 @@ holes:
         - title: Royal Open - Masters
           url: https://youtu.be/PxhLWWjIFDc
           metadata:
+            published: 1526409502000
             tournament: Royal Open
             level: Masters
             teePosition: 3
@@ -2289,6 +2393,7 @@ holes:
         - title: Royal Open - Rookie
           url: https://youtu.be/-LNC5enJwvA
           metadata:
+            published: 1526314715000
             tournament: Royal Open
             level: Rookie
             teePosition: 1
@@ -2305,6 +2410,7 @@ holes:
         - title: Royal Open - Rookie
           url: https://youtu.be/IUxf9l6z88U
           metadata:
+            published: 1526567416000
             tournament: Royal Open
             level: Rookie
             teePosition: 1
@@ -2321,6 +2427,7 @@ holes:
         - title: Royal Open - Pro
           url: https://youtu.be/tXEKX8Gp_94
           metadata:
+            published: 1526318509000
             tournament: Royal Open
             level: Pro
             teePosition: 2
@@ -2339,6 +2446,7 @@ holes:
         - title: Royal Open - Pro
           url: https://youtu.be/2zAEG2n0HBw
           metadata:
+            published: 1526398997000
             tournament: Royal Open
             level: Pro
             teePosition: 2
@@ -2355,6 +2463,7 @@ holes:
         - title: Royal Open - Expert
           url: https://youtu.be/UxgWxbp7Joc
           metadata:
+            published: 1526310968000
             tournament: Royal Open
             level: Expert
             teePosition: 2
@@ -2371,6 +2480,7 @@ holes:
         - title: Royal Open - Expert
           url: https://youtu.be/vIWfIyyZn5Y
           metadata:
+            published: 1526403120000
             tournament: Royal Open
             level: Expert
             teePosition: 2
@@ -2387,6 +2497,7 @@ holes:
         - title: Royal Open - Masters
           url: https://youtu.be/r9TmuZfONn4
           metadata:
+            published: 1526326592000
             tournament: Royal Open
             level: Masters
             teePosition: 3
@@ -2403,6 +2514,7 @@ holes:
         - title: Royal Open - Masters
           url: https://youtu.be/lp8-t26HgyU
           metadata:
+            published: 1526408712000
             tournament: Royal Open
             level: Masters
             teePosition: 3

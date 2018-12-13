@@ -21,6 +21,7 @@ holes:
         - title: Fall Major 2018 - Rookie
           url: https://youtu.be/hlgQooxbA8E
           metadata:
+            published: 1543262410000
             tournament: Fall Major 2018
             level: Rookie
             teePosition: 1
@@ -37,6 +38,7 @@ holes:
         - title: Fall Major 2018 - Pro
           url: https://youtu.be/MEh07weEz98
           metadata:
+            published: 1543259171000
             tournament: Fall Major 2018
             level: Pro
             teePosition: 2
@@ -53,6 +55,7 @@ holes:
         - title: Fall Major 2018 - Expert
           url: https://youtu.be/QRFfmHq6DGg
           metadata:
+            published: 1543255995000
             tournament: Fall Major 2018
             level: Expert
             teePosition: 2
@@ -69,6 +72,7 @@ holes:
         - title: Fall Major 2018 - Expert
           url: https://youtu.be/IshYyYofahc
           metadata:
+            published: 1543336680000
             tournament: Fall Major 2018
             level: Expert
             teePosition: 2
@@ -85,6 +89,7 @@ holes:
         - title: Fall Major 2018 - Master
           url: https://youtu.be/n1ffZe-uUm8
           metadata:
+            published: 1543238057000
             tournament: Fall Major 2018
             level: Master
             teePosition: 3
@@ -101,6 +106,7 @@ holes:
         - title: Fall Major 2018 - Master
           url: https://youtu.be/oSZftnY0OLA
           metadata:
+            published: 1543243955000
             tournament: Fall Major 2018
             level: Master
             teePosition: 3
@@ -119,6 +125,7 @@ holes:
         - title: Fall Major 2018 - Master
           url: https://youtu.be/Trizv9Sjv1w
           metadata:
+            published: 1543252307000
             tournament: Fall Major 2018
             level: Master
             teePosition: 3
@@ -135,6 +142,7 @@ holes:
         - title: Fall Major 2018 - Master
           url: https://youtu.be/ipfFoZy68Ic
           metadata:
+            published: 1543322456000
             tournament: Fall Major 2018
             level: Master
             teePosition: 3
@@ -151,6 +159,7 @@ holes:
         - title: Tour 8 - 2nd Tee Strategy and Tips
           url: https://youtu.be/0DqrQ5YbGps
           metadata:
+            published: 1543168389000
             tour: 8
             ball: Titan
             teePosition: 2
@@ -183,21 +192,25 @@ holes:
         - title: General Instruction - 1st Tee
           url: https://youtu.be/vyuN-DV1Nmw
           metadata:
+            published: 1543859064000
             generalInstruction: true
             teePosition: 1
         - title: General Instruction - 2nd Tee
           url: https://youtu.be/nAJxtQR2HwY
           metadata:
+            published: 1543860009000
             generalInstruction: true
             teePosition: 2
         - title: General Instruction - 3rd Tee
           url: https://youtu.be/PjESm9xBaAE
           metadata:
+            published: 1543861357000
             generalInstruction: true
             teePosition: 3
         - title: Fall Major 2018 - Rookie
           url: https://youtu.be/JvyjwGXv7SI
           metadata:
+            published: 1543262562000
             tournament: Fall Major 2018
             level: Rookie
             teePosition: 1
@@ -212,6 +225,7 @@ holes:
         - title: Fall Major 2018 - Pro
           url: https://youtu.be/FVt6MVdESXk
           metadata:
+            published: 1543259458000
             tournament: Fall Major 2018
             level: Pro
             teePosition: 2
@@ -226,6 +240,7 @@ holes:
         - title: Fall Major 2018 - Expert
           url: https://youtu.be/3_yvPjJUNVA
           metadata:
+            published: 1543256122000
             tournament: Fall Major 2018
             level: Expert
             teePosition: 2
@@ -240,6 +255,7 @@ holes:
         - title: Fall Major 2018 - Expert
           url: https://youtu.be/VYWv8JBd3Yc
           metadata:
+            published: 1543336744000
             tournament: Fall Major 2018
             level: Expert
             teePosition: 2
@@ -254,6 +270,7 @@ holes:
         - title: Fall Major 2018 - Master
           url: https://youtu.be/6Kl3tJ0SVw8
           metadata:
+            published: 1543238362000
             tournament: Fall Major 2018
             level: Master
             teePosition: 3
@@ -268,6 +285,7 @@ holes:
         - title: Fall Major 2018 - Master
           url: https://youtu.be/j5iYDhLMQlg
           metadata:
+            published: 1543244011000
             tournament: Fall Major 2018
             level: Master
             teePosition: 3
@@ -284,6 +302,7 @@ holes:
         - title: Fall Major 2018 - Master
           url: https://youtu.be/fmmbixciHi4
           metadata:
+            published: 1543252786000
             tournament: Fall Major 2018
             level: Master
             teePosition: 3
@@ -298,6 +317,7 @@ holes:
         - title: Fall Major 2018 - Master
           url: https://youtu.be/rEVj3F1hUOk
           metadata:
+            published: 1543322744000
             tournament: Fall Major 2018
             level: Master
             teePosition: 3
@@ -312,6 +332,7 @@ holes:
         - title: Tour 8 - 2nd Tee Shootout Wind Pointed at 730
           url: https://youtu.be/KU0tzp9MHXQ
           metadata:
+            published: 1543165720000
             tour: 8
             ball: Katana
             teePosition: 2
@@ -342,6 +363,7 @@ holes:
         - title: Fall Major 2018 - Rookie
           url: https://youtu.be/RO8PuHhYojI
           metadata:
+            published: 1543263845000
             tournament: Fall Major 2018
             level: Rookie
             teePosition: 1
@@ -358,6 +380,7 @@ holes:
         - title: Fall Major 2018 - Pro
           url: https://youtu.be/wKJb27gZ0hA
           metadata:
+            published: 1543259799000
             tournament: Fall Major 2018
             level: Pro
             teePosition: 2
@@ -374,6 +397,7 @@ holes:
         - title: Fall Major 2018 - Expert
           url: https://youtu.be/ntHhTwYjDMs
           metadata:
+            published: 1543256591000
             tournament: Fall Major 2018
             level: Expert
             teePosition: 2
@@ -390,6 +414,7 @@ holes:
         - title: Fall Major 2018 - Expert
           url: https://youtu.be/MB0gsHhnS6Q
           metadata:
+            published: 1543336958000
             tournament: Fall Major 2018
             level: Expert
             teePosition: 2
@@ -406,6 +431,7 @@ holes:
         - title: Fall Major 2018 - Master
           url: https://youtu.be/a6e4EVUVspQ
           metadata:
+            published: 1543239235000
             tournament: Fall Major 2018
             level: Master
             teePosition: 3
@@ -422,6 +448,7 @@ holes:
         - title: Fall Major 2018 - Master
           url: https://youtu.be/3E6wXlp2asI
           metadata:
+            published: 1543244340000
             tournament: Fall Major 2018
             level: Master
             teePosition: 3
@@ -438,6 +465,7 @@ holes:
         - title: Fall Major 2018 - Master
           url: https://youtu.be/fygsTSGQ5SY
           metadata:
+            published: 1543253337000
             tournament: Fall Major 2018
             level: Master
             teePosition: 3
@@ -454,6 +482,7 @@ holes:
         - title: Fall Major 2018 - Master
           url: https://youtu.be/B3oAhcg9KGE
           metadata:
+            published: 1543323119000
             tournament: Fall Major 2018
             level: Master
             teePosition: 3
@@ -470,6 +499,7 @@ holes:
         - title: Tour 8 - 2nd Tee Strategy and tips
           url: https://youtu.be/bX2MrUlUn6Q
           metadata:
+            published: 1543164434000
             tour: 8
             ball: Katana
             teePosition: 2
@@ -502,21 +532,25 @@ holes:
         - title: General Instruction - 1st Tee
           url: https://youtu.be/nUfZF-T0uhE
           metadata:
+            published: 1543862852000
             generalInstruction: true
             teePosition: 1
         - title: General Instruction - 2nd Tee
           url: https://youtu.be/nrXyGcZ7sEA
           metadata:
+            published: 1543863526000
             generalInstruction: true
             teePosition: 2
         - title: General Instruction - 3rd Tee
           url: https://youtu.be/1gANDdtZY98
           metadata:
+            published: 1543864856000
             generalInstruction: true
             teePosition: 3
         - title: Fall Major 2018 - Rookie
           url: https://youtu.be/kaQYvXWM3eM
           metadata:
+            published: 1543263928000
             tournament: Fall Major 2018
             level: Rookie
             teePosition: 1
@@ -531,6 +565,7 @@ holes:
         - title: Fall Major 2018 - Pro
           url: https://youtu.be/OlDGMS8IqCI
           metadata:
+            published: 1543260147000
             tournament: Fall Major 2018
             level: Pro
             teePosition: 2
@@ -545,6 +580,7 @@ holes:
         - title: Fall Major 2018 - Expert
           url: https://youtu.be/c3QuR3oogng
           metadata:
+            published: 1543256740000
             tournament: Fall Major 2018
             level: Expert
             teePosition: 2
@@ -559,6 +595,7 @@ holes:
         - title: Fall Major 2018 - Expert
           url: https://youtu.be/pnGm7EFvN7E
           metadata:
+            published: 1543337026000
             tournament: Fall Major 2018
             level: Expert
             teePosition: 2
@@ -573,6 +610,7 @@ holes:
         - title: Fall Major 2018 - Master
           url: https://youtu.be/cvlYwaAwr-8
           metadata:
+            published: 1543239375000
             tournament: Fall Major 2018
             level: Master
             teePosition: 3
@@ -587,6 +625,7 @@ holes:
         - title: Fall Major 2018 - Master
           url: https://youtu.be/vzMSU4bBSUA
           metadata:
+            published: 1543244674000
             tournament: Fall Major 2018
             level: Master
             teePosition: 3
@@ -601,6 +640,7 @@ holes:
         - title: Fall Major 2018 - Master
           url: https://youtu.be/WJJwJdX_0_Q
           metadata:
+            published: 1543253476000
             tournament: Fall Major 2018
             level: Master
             teePosition: 3
@@ -615,6 +655,7 @@ holes:
         - title: Fall Major 2018 - Master
           url: https://youtu.be/OvkZCxJ8Pz0
           metadata:
+            published: 1543323314000
             tournament: Fall Major 2018
             level: Master
             teePosition: 3
@@ -646,6 +687,7 @@ holes:
         - title: Fall Major 2018 - Rookie
           url: https://youtu.be/_Xr-g6IdLro
           metadata:
+            published: 1543264076000
             tournament: Fall Major 2018
             level: Rookie
             teePosition: 1
@@ -662,6 +704,7 @@ holes:
         - title: Fall Major 2018 - Pro
           url: https://youtu.be/_fmhldCid5c
           metadata:
+            published: 1543260445000
             tournament: Fall Major 2018
             level: Pro
             teePosition: 2
@@ -678,6 +721,7 @@ holes:
         - title: Fall Major 2018 - Expert
           url: https://youtu.be/J47OhCzl57w
           metadata:
+            published: 1543257238000
             tournament: Fall Major 2018
             level: Expert
             teePosition: 2
@@ -694,6 +738,7 @@ holes:
         - title: Fall Major 2018 - Expert
           url: https://youtu.be/IzmJMrjEHes
           metadata:
+            published: 1543337212000
             tournament: Fall Major 2018
             level: Expert
             teePosition: 2
@@ -710,6 +755,7 @@ holes:
         - title: Fall Major 2018 - Master
           url: https://youtu.be/_yJ-JECzEa0
           metadata:
+            published: 1543239585000
             tournament: Fall Major 2018
             level: Master
             teePosition: 3
@@ -726,6 +772,7 @@ holes:
         - title: Fall Major 2018 - Master
           url: https://youtu.be/Y6bhMVzSXNg
           metadata:
+            published: 1543245004000
             tournament: Fall Major 2018
             level: Master
             teePosition: 3
@@ -742,6 +789,7 @@ holes:
         - title: Fall Major 2018 - Master
           url: https://youtu.be/OFNzdxGHEcw
           metadata:
+            published: 1543253887000
             tournament: Fall Major 2018
             level: Master
             teePosition: 3
@@ -758,6 +806,7 @@ holes:
         - title: Fall Major 2018 - Master
           url: https://youtu.be/bVg1w1-yrJk
           metadata:
+            published: 1543323725000
             tournament: Fall Major 2018
             level: Master
             teePosition: 3
@@ -774,6 +823,7 @@ holes:
         - title: Tour 8 - 2nd Tee Strategy and Tips
           url: https://youtu.be/ZaFpXNJuz-U
           metadata:
+            published: 1543164964000
             tour: 8
             ball: Katana
             teePosition: 2
@@ -789,6 +839,7 @@ holes:
         - title: Tour 8 - 2nd Tee Strategy and Tips
           url: https://youtu.be/E_bixf8EXeU
           metadata:
+            published: 1543165609000
             tour: 8
             ball: Katana
             teePosition: 2
@@ -821,6 +872,7 @@ holes:
         - title: Fall Major 2018 - Rookie
           url: https://youtu.be/izpnuH9xJnU
           metadata:
+            published: 1543264221000
             tournament: Fall Major 2018
             level: Rookie
             teePosition: 1
@@ -837,6 +889,7 @@ holes:
         - title: Fall Major 2018 - Pro
           url: https://youtu.be/WW21lhliSBQ
           metadata:
+            published: 1543260747000
             tournament: Fall Major 2018
             level: Pro
             teePosition: 2
@@ -853,6 +906,7 @@ holes:
         - title: Fall Major 2018 - Expert
           url: https://youtu.be/73aPSodGMYI
           metadata:
+            published: 1543257571000
             tournament: Fall Major 2018
             level: Expert
             teePosition: 2
@@ -869,6 +923,7 @@ holes:
         - title: Fall Major 2018 - Expert
           url: https://youtu.be/k6xpjEZvXfk
           metadata:
+            published: 1543337377000
             tournament: Fall Major 2018
             level: Expert
             teePosition: 2
@@ -885,6 +940,7 @@ holes:
         - title: Fall Major 2018 - Master
           url: https://youtu.be/myVAKGJQN1w
           metadata:
+            published: 1543240063000
             tournament: Fall Major 2018
             level: Master
             teePosition: 3
@@ -901,6 +957,7 @@ holes:
         - title: Fall Major 2018 - Master
           url: https://youtu.be/hQpvGOkwZlk
           metadata:
+            published: 1543245523000
             tournament: Fall Major 2018
             level: Master
             teePosition: 3
@@ -917,6 +974,7 @@ holes:
         - title: Fall Major 2018 - Master
           url: https://youtu.be/QJU1Hy-W7hE
           metadata:
+            published: 1543254331000
             tournament: Fall Major 2018
             level: Master
             teePosition: 3
@@ -933,6 +991,7 @@ holes:
         - title: Fall Major 2018 - Master
           url: https://youtu.be/wHnzeuVgj7U
           metadata:
+            published: 1543324341000
             tournament: Fall Major 2018
             level: Master
             teePosition: 3
@@ -949,6 +1008,7 @@ holes:
         - title: Tour 8 - 2nd Tee Strategy and tips
           url: https://youtu.be/2YutuS3T6iE
           metadata:
+            published: 1543163825000
             tour: 8
             ball: Titan
             teePosition: 2
@@ -983,21 +1043,25 @@ holes:
         - title: General Instruction - 1st Tee
           url: https://youtu.be/nkMUfdNnrTw
           metadata:
+            published: 1543868293000
             generalInstruction: true
             teePosition: 1
         - title: General Instruction - 2nd Tee
           url: https://youtu.be/v-d5iU4L3k0
           metadata:
+            published: 1543868012000
             generalInstruction: true
             teePosition: 2
         - title: General Instruction - 3rd Tee
           url: https://youtu.be/LYtCElx3Q0U
           metadata:
+            published: 1543867771000
             generalInstruction: true
             teePosition: 3
         - title: Fall Major 2018 - Rookie
           url: https://youtu.be/IViufc62hhs
           metadata:
+            published: 1543264327000
             tournament: Fall Major 2018
             level: Rookie
             teePosition: 1
@@ -1012,6 +1076,7 @@ holes:
         - title: Fall Major 2018 - Pro
           url: https://youtu.be/dcYz3GVa8G4
           metadata:
+            published: 1543260864000
             tournament: Fall Major 2018
             level: Pro
             teePosition: 2
@@ -1026,6 +1091,7 @@ holes:
         - title: Fall Major 2018 - Expert
           url: https://youtu.be/PI4xlzCvW2g
           metadata:
+            published: 1543257688000
             tournament: Fall Major 2018
             level: Expert
             teePosition: 2
@@ -1040,6 +1106,7 @@ holes:
         - title: Fall Major 2018 - Expert
           url: https://youtu.be/vI6WS_hV5ig
           metadata:
+            published: 1543337416000
             tournament: Fall Major 2018
             level: Expert
             teePosition: 2
@@ -1054,6 +1121,7 @@ holes:
         - title: Fall Major 2018 - Master
           url: https://youtu.be/8IxSedqDH4s
           metadata:
+            published: 1543240450000
             tournament: Fall Major 2018
             level: Master
             teePosition: 3
@@ -1068,6 +1136,7 @@ holes:
         - title: Fall Major 2018 - Master
           url: https://youtu.be/EQ6mh0KbtyI
           metadata:
+            published: 1543245613000
             tournament: Fall Major 2018
             level: Master
             teePosition: 3
@@ -1082,6 +1151,7 @@ holes:
         - title: Fall Major 2018 - Master
           url: https://youtu.be/3ddDK0lu8z0
           metadata:
+            published: 1543254403000
             tournament: Fall Major 2018
             level: Master
             teePosition: 3
@@ -1096,6 +1166,7 @@ holes:
         - title: Fall Major 2018 - Master
           url: https://youtu.be/jdh6fcFtasA
           metadata:
+            published: 1543324603000
             tournament: Fall Major 2018
             level: Master
             teePosition: 3
@@ -1110,6 +1181,7 @@ holes:
         - title: Tour 8 - Shootout wind pointed at 4 O'clock
           url: https://youtu.be/ZSARGr_Wa9M
           metadata:
+            published: 1543164538000
             tour: 8
             ball: Katana
             teePosition: 2
@@ -1123,6 +1195,7 @@ holes:
         - title: Tour 8 - 2nd Tee Shootout Wind Pointed at 8 O'clock
           url: https://youtu.be/-LMc9TYAiRw
           metadata:
+            published: 1543167502000
             tour: 8
             ball: Katana
             teePosition: 2
@@ -1153,6 +1226,7 @@ holes:
         - title: Fall Major 2018 - Rookie
           url: https://youtu.be/l__e7tMfTwA
           metadata:
+            published: 1543264794000
             tournament: Fall Major 2018
             level: Rookie
             teePosition: 1
@@ -1169,6 +1243,7 @@ holes:
         - title: Fall Major 2018 - Pro
           url: https://youtu.be/hiSN55MwLyg
           metadata:
+            published: 1543261203000
             tournament: Fall Major 2018
             level: Pro
             teePosition: 2
@@ -1185,6 +1260,7 @@ holes:
         - title: Fall Major 2018 - Expert
           url: https://youtu.be/nbBm4GymGPM
           metadata:
+            published: 1543258044000
             tournament: Fall Major 2018
             level: Expert
             teePosition: 2
@@ -1201,6 +1277,7 @@ holes:
         - title: Fall Major 2018 - Expert
           url: https://youtu.be/2id9WssF8Tc
           metadata:
+            published: 1543337608000
             tournament: Fall Major 2018
             level: Expert
             teePosition: 2
@@ -1217,6 +1294,7 @@ holes:
         - title: Fall Major 2018 - Master
           url: https://youtu.be/mw5N4EUw4qI
           metadata:
+            published: 1543241041000
             tournament: Fall Major 2018
             level: Master
             teePosition: 3
@@ -1233,6 +1311,7 @@ holes:
         - title: Fall Major 2018 - Master
           url: https://youtu.be/Jf6kl7GT5mc
           metadata:
+            published: 1543246234000
             tournament: Fall Major 2018
             level: Master
             teePosition: 3
@@ -1249,6 +1328,7 @@ holes:
         - title: Fall Major 2018 - Master
           url: https://youtu.be/jPcQ6bFtRtc
           metadata:
+            published: 1543254771000
             tournament: Fall Major 2018
             level: Master
             teePosition: 3
@@ -1265,6 +1345,7 @@ holes:
         - title: Fall Major 2018 - Master
           url: https://youtu.be/BSbnGBUJviE
           metadata:
+            published: 1543324778000
             tournament: Fall Major 2018
             level: Master
             teePosition: 3
@@ -1281,6 +1362,7 @@ holes:
         - title: Tour 8 - 2nd Tee Strategy and Tips for Eagle
           url: https://youtu.be/emUxzbY4Ot0
           metadata:
+            published: 1543166585000
             tour: 8
             ball: Titan
             teePosition: 2
@@ -1296,6 +1378,7 @@ holes:
         - title: Tour 8 - 2nd Tee Strategy and Tips for Driving the Green
           url: https://youtu.be/_CZh7J--ZNc
           metadata:
+            published: 1543167395000
             tour: 8
             ball: Katana
             teePosition: 2
@@ -1329,6 +1412,7 @@ holes:
         - title: Fall Major 2018 - Rookie
           url: https://youtu.be/2NscT1une70
           metadata:
+            published: 1543265254000
             tournament: Fall Major 2018
             level: Rookie
             teePosition: 1
@@ -1345,6 +1429,7 @@ holes:
         - title: Fall Major 2018 - Pro
           url: https://youtu.be/A4hWg_EPF9c
           metadata:
+            published: 1543261590000
             tournament: Fall Major 2018
             level: Pro
             teePosition: 2
@@ -1361,6 +1446,7 @@ holes:
         - title: Fall Major 2018 - Expert
           url: https://youtu.be/KLioZxyKFow
           metadata:
+            published: 1543258616000
             tournament: Fall Major 2018
             level: Expert
             teePosition: 2
@@ -1379,6 +1465,7 @@ holes:
         - title: Fall Major 2018 - Expert
           url: https://youtu.be/mEaLY-Pdrzk
           metadata:
+            published: 1543337748000
             tournament: Fall Major 2018
             level: Expert
             teePosition: 2
@@ -1395,6 +1482,7 @@ holes:
         - title: Fall Major 2018 - Master
           url: https://youtu.be/wwtto7iz3iM
           metadata:
+            published: 1543241763000
             tournament: Fall Major 2018
             level: Master
             teePosition: 3
@@ -1411,6 +1499,7 @@ holes:
         - title: Fall Major 2018 - Master
           url: https://youtu.be/TWO-EW58GT0
           metadata:
+            published: 1543246681000
             tournament: Fall Major 2018
             level: Master
             teePosition: 3
@@ -1427,6 +1516,7 @@ holes:
         - title: Fall Major 2018 - Master
           url: https://youtu.be/qLlotxnKVeQ
           metadata:
+            published: 1543255457000
             tournament: Fall Major 2018
             level: Master
             teePosition: 3
@@ -1443,6 +1533,7 @@ holes:
         - title: Fall Major 2018 - Master
           url: https://youtu.be/TW-kGHTkZ-E
           metadata:
+            published: 1543325495000
             tournament: Fall Major 2018
             level: Master
             teePosition: 3
@@ -1459,6 +1550,7 @@ holes:
         - title: Tour 8 - 2nd Tee Strategy and Tips
           url: https://youtu.be/uuHOW7o1r3c
           metadata:
+            published: 154316617300
             tour: 8
             ball: Titan
             teePosition: 2

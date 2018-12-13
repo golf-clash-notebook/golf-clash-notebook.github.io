@@ -41,6 +41,7 @@ holes:
         - title: Platinum Resorts - Expert
           url: https://youtu.be/NaP53sTriGE
           metadata:
+            published: 1539618571000
             tournament: Platinum Resorts
             level: Expert
             ball: King Maker
@@ -57,6 +58,7 @@ holes:
         - title: Platinum Resorts - Master
           url: https://youtu.be/9GvJ-b29wAY
           metadata:
+            published: 1539604824000
             tournament: Platinum Resorts
             level: Master
             ball: King Maker
@@ -73,6 +75,7 @@ holes:
         - title: Platinum Resorts - Master
           url: https://youtu.be/1cMnb37zYyM
           metadata:
+            published: 1539608321000
             tournament: Platinum Resorts
             level: Master
             ball: King Maker
@@ -89,6 +92,7 @@ holes:
         - title: Platinum Resorts - Master
           url: https://youtu.be/kk_Xrm50PKs
           metadata:
+            published: 1539612046000
             tournament: Platinum Resorts
             level: Master
             ball: King Maker
@@ -105,6 +109,7 @@ holes:
         - title: Platinum Resorts - Master
           url: https://youtu.be/EvTbot_MJhU
           metadata:
+            published: 1539693936000
             tournament: Platinum Resorts
             level: Master
             ball: King Maker
@@ -121,6 +126,7 @@ holes:
         - title: Tour 9 - Strategy and Tips
           url: https://youtu.be/UiDWfKTjpZk
           metadata:
+            published: 1537992856000
             tour: 9
             ball: King Maker
             teePosition: 2
@@ -136,6 +142,7 @@ holes:
         - title: Tour 11 - Right to Left Wind
           url: https://youtu.be/5atAznctHkc
           metadata:
+            published: 1517151963000
             tour: 11
             ball: Katana
             teePosition: 2
@@ -151,6 +158,7 @@ holes:
         - title: Spring Major - Rookie
           url: https://youtu.be/rf38CUGJ8Qk
           metadata:
+            published: 1522688508000
             tournament: Spring Major 2018
             level: Rookie
             ball: Katana
@@ -167,6 +175,7 @@ holes:
         - title: Spring Major - Pro
           url: https://youtu.be/KcjKsQsS2sE
           metadata:
+            published: 1522678839000
             tournament: Spring Major 2018
             level: Pro
             ball: Katana
@@ -183,6 +192,7 @@ holes:
         - title: Spring Major - Expert
           url: https://youtu.be/GN8k1s6kRO8
           metadata:
+            published: 1522768215000
             tournament: Spring Major 2018
             level: Expert
             ball: King Maker
@@ -199,6 +209,7 @@ holes:
         - title: Spring Major - Master
           url: https://youtu.be/iPCPEWAmIqA
           metadata:
+            published: 1522776929000
             tournament: Spring Major 2018
             level: Master
             ball: King Maker
@@ -313,11 +324,13 @@ holes:
         - title: General Instruction - 2nd Tee
           url: https://youtu.be/aaYvZviIZH4
           metadata:
+            published: 1541698429000
             generalInstruction: true
             teePosition: 2
         - title: Tour 9 Shootout - Wind Pointed at 1 O'clock
           url: https://youtu.be/yxB4ycfjETo
           metadata:
+            published: 1537994760000
             tour: 9
             ball: King Maker
             teePosition: 2
@@ -331,6 +344,7 @@ holes:
         - title: Tour 11 Shootout - Wind Pointed at 3 O'clock
           url: https://youtu.be/aix6YRgme0U
           metadata:
+            published: 1517158505000
             tour: 11
             ball: King Maker
             teePosition: 2
@@ -344,6 +358,7 @@ holes:
         - title: Tour 11 Shootout - Tailwind
           url: https://youtu.be/zjHQiCyLwBs
           metadata:
+            published: 1517156002000
             tour: 11
             ball: King Maker
             teePosition: 2
@@ -357,6 +372,7 @@ holes:
         - title: Tour 11 Shootout - Headwind
           url: https://youtu.be/4D6npzjpPNs
           metadata:
+            published: 1517154837000
             tour: 11
             ball: Katana
             teePosition: 2
@@ -370,6 +386,7 @@ holes:
         - title: Spring Major - Rookie
           url: https://youtu.be/XTqUOJPCLaw
           metadata:
+            published: 1522688684000
             tournament: Spring Major 2018
             level: Rookie
             ball: Titan
@@ -384,6 +401,7 @@ holes:
         - title: Spring Major - Pro
           url: https://youtu.be/rGCg_f_BHjQ
           metadata:
+            published: 1522679180000
             tournament: Spring Major 2018
             level: Pro
             ball: Titan
@@ -398,6 +416,7 @@ holes:
         - title: Spring Major - Expert
           url: https://youtu.be/70NHUC60AT4
           metadata:
+            published: 1522845623000
             tournament: Spring Major 2018
             level: Expert
             ball: Bunny
@@ -412,6 +431,7 @@ holes:
         - title: Spring Major - Master
           url: https://youtu.be/X9htO0Mum1Y
           metadata:
+            published: 1522777426000
             tournament: Spring Major 2018
             level: Master
             ball: King Maker
@@ -534,6 +554,7 @@ holes:
         - title: Tour 9 - Strategy and Tips
           url: https://youtu.be/V00jNyvF3dA
           metadata:
+            published: 1537990570000
             tour: 9
             ball: King Maker
             teePosition: 2
@@ -549,6 +570,7 @@ holes:
         - title: Tour 9 - Strategy and Tips
           url: https://youtu.be/yafhz4_tPiE
           metadata:
+            published: 1537988607000
             tour: 9
             ball: King Maker
             teePosition: 2
@@ -564,6 +586,7 @@ holes:
         - title: Tour 9 - Strategy and Tips
           url: https://youtu.be/yafhz4_tPiE
           metadata:
+            published: 1537988607000
             tour: 9
             ball: King Maker
             teePosition: 2
@@ -579,6 +602,7 @@ holes:
         - title: Labor Day(2018) - Pro
           url: https://youtu.be/WdcstSgN2tE
           metadata:
+            published: 1536004413000
             tournament: Labor Day 2018
             level: Pro
             ball: Titan
@@ -595,6 +619,7 @@ holes:
         - title: Tour 11 - Tips for an Easy Pitch
           url: https://youtu.be/pvhxdrMoZV4
           metadata:
+            published: 1517169923000
             tour: 11
             ball: Katana
             teePosition: 2
@@ -610,6 +635,7 @@ holes:
         - title: Spring Major - Rookie
           url: https://youtu.be/sLhmd9MsVkI
           metadata:
+            published: 1522687928000
             tournament: Spring Major 2018
             level: Rookie
             ball: Katana
@@ -626,6 +652,7 @@ holes:
         - title: Spring Major - Pro
           url: https://youtu.be/9LFpoNdo40w
           metadata:
+            published: 1522677980000
             tournament: Spring Major 2018
             level: Pro
             ball: Katana
@@ -642,6 +669,7 @@ holes:
         - title: Spring Major - Expert
           url: https://youtu.be/OUIdE3_Q1fA
           metadata:
+            published: 1522766549000
             tournament: Spring Major 2018
             level: Expert
             ball: Titan
@@ -658,6 +686,7 @@ holes:
         - title: Spring Major - Master
           url: https://youtu.be/yEVUEUjuEF8
           metadata:
+            published: 1522774447000
             tournament: Spring Major 2018
             level: Master
             ball: King Maker
@@ -806,6 +835,7 @@ holes:
         - title: Platinum Resorts - Expert
           url: https://youtu.be/uwOQp8Gj0p8
           metadata:
+            published: 1539619776000
             tournament: Platinum Resorts
             level: Expert
             ball: Berserker
@@ -824,6 +854,7 @@ holes:
         - title: Platinum Resorts - Master
           url: https://youtu.be/2rYF-KWhbNQ
           metadata:
+            published: 1539605517000
             tournament: Platinum Resorts
             level: Master
             ball: Berserker
@@ -840,6 +871,7 @@ holes:
         - title: Platinum Resorts - Master
           url: https://youtu.be/KRemyFgNKAY
           metadata:
+            published: 1539609022000
             tournament: Platinum Resorts
             level: Master
             ball: Berserker
@@ -856,6 +888,7 @@ holes:
         - title: Platinum Resorts - Master
           url: https://youtu.be/EgtRGzO6a28
           metadata:
+            published: 1539612938000
             tournament: Platinum Resorts
             level: Master
             ball: Berserker
@@ -874,6 +907,7 @@ holes:
         - title: Platinum Resorts - Master
           url: https://youtu.be/tDH_ry5x_94
           metadata:
+            published: 1539695267000
             tournament: Platinum Resorts
             level: Master
             ball: Berserker
@@ -890,6 +924,7 @@ holes:
         - title: Labor Day(2018) - Pro
           url: https://youtu.be/MofvQkFqSRY
           metadata:
+            published: 1536004818000
             tournament: Labor Day 2018
             level: Pro
             ball: Berserker
@@ -906,6 +941,7 @@ holes:
         - title: Spring Major - Rookie
           url: https://youtu.be/UpHIqgsVMxM
           metadata:
+            published: 1522688920000
             tournament: Spring Major 2018
             level: Rookie
             ball: Berserker
@@ -924,6 +960,7 @@ holes:
         - title: Spring Major - Pro
           url: https://youtu.be/V2ObSX9UQ8w
           metadata:
+            published: 1522679425000
             tournament: Spring Major 2018
             level: Pro
             ball: Titan
@@ -942,6 +979,7 @@ holes:
         - title: Spring Major - Expert
           url: https://youtu.be/Iqha90otxkw
           metadata:
+            published: 1522769719000
             tournament: Spring Major 2018
             level: Expert
             ball: Berserker
@@ -960,6 +998,7 @@ holes:
         - title: Spring Major - Master
           url: https://youtu.be/o2oyXsP-eXE
           metadata:
+            published: 1522778808000
             tournament: Spring Major 2018
             level: Master
             ball: Berserker
@@ -1121,6 +1160,7 @@ holes:
         - title: Tour 9 - Strategy and Tips
           url: https://youtu.be/aEU-pc3wgY8
           metadata:
+            published: 1537989217000
             tour: 9
             ball: King Maker
             teePosition: 2
@@ -1136,6 +1176,7 @@ holes:
         - title: Spring Major - Rookie
           url: https://youtu.be/Xm68MX9OMxE
           metadata:
+            published: 1522688287000
             tournament: Spring Major 2018
             level: Rookie
             ball: Berserker
@@ -1152,6 +1193,7 @@ holes:
         - title: Spring Major - Pro
           url: https://youtu.be/HpDtso9CICA
           metadata:
+            published: 1522678630000
             tournament: Spring Major 2018
             level: Pro
             ball: Titan
@@ -1168,6 +1210,7 @@ holes:
         - title: Spring Major - Expert
           url: https://youtu.be/Io6vLIwqKIc
           metadata:
+            published: 1522764562000
             tournament: Spring Major 2018
             level: Expert
             ball: Katana
@@ -1184,6 +1227,7 @@ holes:
         - title: Spring Major - Master
           url: https://youtu.be/0IfAWJnZMXI
           metadata:
+            published: 1522776239000
             tournament: Spring Major 2018
             level: Master
             ball: Snow Globe
@@ -1299,11 +1343,13 @@ holes:
         - title: General Instruction - 2nd Tee
           url: https://youtu.be/yNjGInW9WeQ
           metadata:
+            published: 1541698902000
             generalInstruction: true
             teePosition: 2
         - title: Platinum Resorts - Expert
           url: https://youtu.be/ERy75hz_bU0
           metadata:
+            published: 1539619498000
             tournament: Platinum Resorts
             level: Expert
             ball: King Maker
@@ -1318,6 +1364,7 @@ holes:
         - title: Platinum Resorts - Expert
           url: https://youtu.be/Z_2w9OJkhVQ
           metadata:
+            published: 1539620586000
             tournament: Platinum Resorts
             level: Expert
             ball: King Maker
@@ -1332,6 +1379,7 @@ holes:
         - title: Platinum Resorts - Master
           url: https://youtu.be/qevoOcA_tMY
           metadata:
+            published: 1539605346000
             tournament: Platinum Resorts
             level: Master
             ball: King Maker
@@ -1346,6 +1394,7 @@ holes:
         - title: Platinum Resorts - Master
           url: https://youtu.be/xzT2fvm2VqE
           metadata:
+            published: 1539608834000
             tournament: Platinum Resorts
             level: Master
             ball: King Maker
@@ -1360,6 +1409,7 @@ holes:
         - title: Platinum Resorts - Master
           url: https://youtu.be/OaXGEZlPorQ
           metadata:
+            published: 1539612638000
             tournament: Platinum Resorts
             level: Master
             ball: King Maker
@@ -1374,6 +1424,7 @@ holes:
         - title: Platinum Resorts - Master
           url: https://youtu.be/8-sQGhzx-_Q
           metadata:
+            published: 1539695402000
             tournament: Platinum Resorts
             level: Master
             ball: King Maker
@@ -1388,6 +1439,7 @@ holes:
         - title: Tour 9 Shootout - Wind Pointed at 5 O'clock
           url: https://youtu.be/M6-D6CeZeFY
           metadata:
+            published: 1537988704000
             tour: 9
             ball: King Maker
             teePosition: 2
@@ -1401,6 +1453,7 @@ holes:
         - title: Labor Day(2018) - Pro
           url: https://youtu.be/caZSlMjDOnY
           metadata:
+            published: 1536003796000
             tournament: Labor Day 2018
             level: Pro
             ball: Katana
@@ -1415,6 +1468,7 @@ holes:
         - title: Tour 11 Shootout - Wind Pointed at 4 O'clock
           url: https://youtu.be/pvhxdrMoZV4
           metadata:
+            published: 1517169923000
             tour: 11
             ball: Katana
             teePosition: 2
@@ -1428,6 +1482,7 @@ holes:
         - title: Tour 11 Shootout - Wind Pointed at 4 O'clock
           url: https://youtu.be/nYiOfP-6PMs
           metadata:
+            published: 1517167071000
             tour: 11
             ball: Katana
             teePosition: 2
@@ -1441,6 +1496,7 @@ holes:
         - title: Tour 11 Shootout - Strong Tailwind
           url: https://youtu.be/gMnZ8td9yZ0
           metadata:
+            published: 1517166500000
             tour: 11
             ball: King Maker
             teePosition: 2
@@ -1454,6 +1510,7 @@ holes:
         - title: Tour 11 Shootout - Wind Pointed at 430
           url: https://youtu.be/zndy98sxYdU
           metadata:
+            published: 1517156516000
             tour: 11
             ball: Katana
             teePosition: 2
@@ -1467,6 +1524,7 @@ holes:
         - title: Spring Major - Rookie
           url: https://youtu.be/Vta7yqSSCXY
           metadata:
+            published: 1522687564000
             tournament: Spring Major 2018
             level: Rookie
             ball: Katana
@@ -1481,6 +1539,7 @@ holes:
         - title: Spring Major - Pro
           url: https://youtu.be/s6SjoPpatB0
           metadata:
+            published: 1522666622000
             tournament: Spring Major 2018
             level: Pro
             ball: Quasar
@@ -1495,6 +1554,7 @@ holes:
         - title: Spring Major - Expert
           url: https://youtu.be/PhssLipXmTg
           metadata:
+            published: 1522762087000
             tournament: Spring Major 2018
             level: Expert
             ball: King Maker
@@ -1509,6 +1569,7 @@ holes:
         - title: Spring Major - Master
           url: https://youtu.be/bQrtSViPUyw
           metadata:
+            published: 1522772340000
             tournament: Spring Major 2018
             level: Master
             ball: King Maker
@@ -1581,6 +1642,7 @@ holes:
         - title: Tour 9 - Strategy and Tips
           url: https://youtu.be/t6T0iWT5APM
           metadata:
+            published: 1537989745000
             tour: 9
             ball: Katana
             teePosition: 2
@@ -1596,6 +1658,7 @@ holes:
         - title: Tour 11 Shootout - Tips to Getting Eagle Pitch
           url: https://youtu.be/aix6YRgme0U
           metadata:
+            published: 1517158505000
             tour: 11
             ball: Katana
             teePosition: 2
@@ -1609,6 +1672,7 @@ holes:
         - title: Spring Major - Rookie
           url: https://youtu.be/BC6vfgBRn-0
           metadata:
+            published: 1522687420000
             tournament: Spring Major 2018
             level: Rookie
             ball: Quasar
@@ -1625,6 +1689,7 @@ holes:
         - title: Spring Major - Pro
           url: https://youtu.be/8u9YSsRJRdA
           metadata:
+            published: 1522666357000
             tournament: Spring Major 2018
             level: Pro
             ball: Katana
@@ -1641,6 +1706,7 @@ holes:
         - title: Spring Major - Expert
           url: https://youtu.be/igv9xI6BLto
           metadata:
+            published: 1522761135000
             tournament: Spring Major 2018
             level: Expert
             ball: Titan
@@ -1657,6 +1723,7 @@ holes:
         - title: Spring Major - Master
           url: https://youtu.be/VIq3X0geiPk
           metadata:
+            published: 1522771354000
             tournament: Spring Major 2018
             level: Master
             ball: Berserker
@@ -1793,6 +1860,7 @@ holes:
         - title: Spring Major - Rookie
           url: https://youtu.be/22myFE0gfC4
           metadata:
+            published: 1522687761000
             tournament: Spring Major 2018
             level: Rookie
             ball: Titan
@@ -1811,6 +1879,7 @@ holes:
         - title: Spring Major - Pro
           url: https://youtu.be/mVXVVLi2XyU
           metadata:
+            published: 1522666987000
             tournament: Spring Major 2018
             level: Pro
             ball: Titan
@@ -1829,6 +1898,7 @@ holes:
         - title: Spring Major - Expert
           url: https://youtu.be/kFr0PyFg_dM
           metadata:
+            published: 1522765695000
             tournament: Spring Major 2018
             level: Expert
             ball: Titan
@@ -1845,6 +1915,7 @@ holes:
         - title: Spring Major - Master
           url: https://youtu.be/GZJwg2HEK24
           metadata:
+            published: 1522773363000
             tournament: Spring Major 2018
             level: Master
             ball: Titan
@@ -1974,11 +2045,13 @@ holes:
         - title: General Instruction - 2nd Tee
           url: https://youtu.be/t6H2KMuxDQ0
           metadata:
+            published: 1541699893000
             generalInstruction: true
             teePosition: 2
         - title: Tour 9 Shootout - Wind Pointed at 430
           url: https://youtu.be/TGa1mAI0gPU
           metadata:
+            published: 1537987889000
             tour: 9
             ball: King Maker
             teePosition: 2
@@ -1992,6 +2065,7 @@ holes:
         - title: Tour 11 Shootout - Hard Left to Right Wind Tips
           url: https://youtu.be/RW5V3-__47I
           metadata:
+            published: 1517177059000
             tour: 11
             ball: Katana
             teePosition: 2
@@ -2005,6 +2079,7 @@ holes:
         - title: Tour 11 Shootout - Tailwind
           url: https://youtu.be/iPjp2nzCAs4
           metadata:
+            published: 1517173436000
             tour: 11
             ball: Katana
             teePosition: 2
@@ -2018,6 +2093,7 @@ holes:
         - title: Tour 11 Shootout - Wind Pointing at 130
           url: https://youtu.be/XGkKzXJT3qY
           metadata:
+            published: 1517172849000
             tour: 11
             ball: Katana
             teePosition: 2
@@ -2031,6 +2107,7 @@ holes:
         - title: Tour 11 Shootout - Right to Left Wind
           url: https://youtu.be/s2q7I7-6Xno
           metadata:
+            published: 1517164943000
             tour: 11
             ball: Katana
             teePosition: 2
@@ -2044,6 +2121,7 @@ holes:
         - title: Tour 11 Shootout - Wind Pointed at 730
           url: https://youtu.be/yCxorf-IKvA
           metadata:
+            published: 1517161591000
             tour: 11
             ball: Katana
             teePosition: 2
@@ -2057,6 +2135,7 @@ holes:
         - title: Tour 11 Shootout - Wind Pointed at 9 O'clock
           url: https://youtu.be/5atAznctHkc
           metadata:
+            published: 1517151963000
             tour: 11
             ball: Katana
             teePosition: 2
@@ -2070,6 +2149,7 @@ holes:
         - title: Spring Major - Rookie
           url: https://youtu.be/KvWvYgas8Hw
           metadata:
+            published: 1522688087000
             tournament: Spring Major 2018
             level: Rookie
             ball: Quasar
@@ -2084,6 +2164,7 @@ holes:
         - title: Spring Major - Pro
           url: https://youtu.be/r9nhlQhuZUo
           metadata:
+            published: 1522678345000
             tournament: Spring Major 2018
             level: Pro
             ball: King Maker
@@ -2098,6 +2179,7 @@ holes:
         - title: Spring Major - Expert
           url: https://youtu.be/-pe_gksiYIk
           metadata:
+            published: 1522763405000
             tournament: Spring Major 2018
             level: Expert
             ball: King Maker
@@ -2112,6 +2194,7 @@ holes:
         - title: Spring Major - Master
           url: https://youtu.be/VM22GunvdD4
           metadata:
+            published: 1522775240000
             tournament: Spring Major 2018
             level: Master
             ball: King Maker

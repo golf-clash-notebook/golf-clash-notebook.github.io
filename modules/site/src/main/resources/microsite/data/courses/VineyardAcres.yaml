@@ -41,11 +41,13 @@ holes:
       - title: General Instruction - 2nd Tee
         url: https://youtu.be/Y_rgtXFe9qM
         metadata:
+          published: 1541685982000
           generalInstruction: true
           teePosition: 2
       - title: Mountain - Rookie
         url: https://youtu.be/ga3UEiiuvYc
         metadata:
+          published: 1542127307000
           tournament: Mountain
           level: Rookie
           teePosition: 1
@@ -60,6 +62,7 @@ holes:
       - title: Mountain - Pro
         url: https://youtu.be/0dSaeRGrgxE
         metadata:
+          published: 1542051015000
           tournament: Mountain
           level: Pro
           teePosition: 2
@@ -74,6 +77,7 @@ holes:
       - title: Mountain - Expert
         url: https://youtu.be/7OMQQNDCp1E
         metadata:
+          published: 1542043497000
           tournament: Mountain
           level: Expert
           teePosition: 2
@@ -88,6 +92,7 @@ holes:
       - title: Mountain - Masters
         url: https://youtu.be/NaMv-3lSKO8
         metadata:
+          published: 1542030482000
           tournament: Mountain
           level: Masters
           teePosition: 3
@@ -102,6 +107,7 @@ holes:
       - title: Mountain - Masters
         url: https://youtu.be/-JdWQrZlwhw
         metadata:
+          published: 1542039847000
           tournament: Mountain
           level: Masters
           teePosition: 3
@@ -116,6 +122,7 @@ holes:
       - title: Mountain - Masters
         url: https://youtu.be/-SW5lyh7w-s
         metadata:
+          published: 1542117469000
           tournament: Mountain
           level: Masters
           teePosition: 3
@@ -130,6 +137,7 @@ holes:
       - title: Tour 7 Shootout - Wind Pointed at 1 O`clock
         url: https://youtu.be/PItMQe2GPkg
         metadata:
+          published: 1524939947000
           tour: 7
           ball: Quasar
           teePosition: 2
@@ -143,6 +151,7 @@ holes:
       - title: Winter Games - Rookie
         url: https://youtu.be/P6iqa9cRjg0
         metadata:
+          published: 1518442765000
           tournament: Winter Games
           level: Rookie
           teePosition: 1
@@ -157,6 +166,7 @@ holes:
       - title: Winter Games - Pro
         url: https://youtu.be/WJkqnew4xMw
         metadata:
+          published: 1518454403000
           tournament: Winter Games
           level: Pro
           teePosition: 2
@@ -171,6 +181,7 @@ holes:
       - title: Winter Games - Expert
         url: https://youtu.be/hqPRvUeb2M4
         metadata:
+          published: 1518554670000
           tournament: Winter Games
           level: Expert
           teePosition: 2
@@ -273,6 +284,7 @@ holes:
       - title: Mountain - Rookie
         url: https://youtu.be/NunCW1Gqmt0
         metadata:
+          published: 1542127742000
           tournament: Mountain
           level: Rookie
           teePosition: 1
@@ -289,6 +301,7 @@ holes:
       - title: Mountain - Pro
         url: https://youtu.be/XzUgLvFvgZI
         metadata:
+          published: 1542051374000
           tournament: Mountain
           level: Pro
           teePosition: 2
@@ -305,6 +318,7 @@ holes:
       - title: Mountain - Expert
         url: https://youtu.be/bgzEC2X_6co
         metadata:
+          published: 1542043852000
           tournament: Mountain
           level: Expert
           teePosition: 2
@@ -321,6 +335,7 @@ holes:
       - title: Mountain - Masters
         url: https://youtu.be/f5TkZAyfOP4
         metadata:
+          published: 1542031093000
           tournament: Mountain
           level: Masters
           teePosition: 3
@@ -337,6 +352,7 @@ holes:
       - title: Mountain - Masters
         url: https://youtu.be/LJf8inxIXvk
         metadata:
+          published: 1542040236000
           tournament: Mountain
           level: Masters
           teePosition: 3
@@ -353,6 +369,7 @@ holes:
       - title: Mountain - Masters
         url: https://youtu.be/ClaXJCtXuUc
         metadata:
+          published: 1542118094000
           tournament: Mountain
           level: Masters
           teePosition: 3
@@ -369,6 +386,7 @@ holes:
       - title: Winter Games - Rookie
         url: https://youtu.be/nYbGqy11qQo
         metadata:
+          published: 1518442630000
           tournament: Winter Games
           level: Rookie
           teePosition: 1
@@ -385,6 +403,7 @@ holes:
       - title: Winter Games - Pro
         url: https://youtu.be/Y1rolwKFnk4
         metadata:
+          published: 1518454185000
           tournament: Winter Games
           level: Pro
           teePosition: 2
@@ -401,6 +420,7 @@ holes:
       - title: Winter Games - Expert
         url: https://youtu.be/Mo7gVq5JFUg
         metadata:
+          published: 1518557217000
           tournament: Winter Games
           level: Expert
           teePosition: 2
@@ -514,6 +534,7 @@ holes:
       - title: Tour 7 - Tips and Strategy
         url: https://youtu.be/ajcOYT-fKv8
         metadata:
+          published: 1524939883000
           tour: 7
           ball: Quasar
           teePosition: 2
@@ -527,6 +548,7 @@ holes:
       - title: Winter Games - Rookie
         url: https://youtu.be/6cZZilhfy2E
         metadata:
+          published: 1518547091000
           tournament: Winter Games
           level: Rookie
           teePosition: 1
@@ -543,6 +565,7 @@ holes:
       - title: Winter Games - Pro
         url: https://youtu.be/oL5pgce0Jjw
         metadata:
+          published: 1518452936000
           tournament: Winter Games
           level: Pro
           teePosition: 2
@@ -559,6 +582,7 @@ holes:
       - title: Winter Games - Expert
         url: https://youtu.be/-jy2lq33STI
         metadata:
+          published: 1518616513000
           tournament: Winter Games
           level: Expert
           teePosition: 2
@@ -673,6 +697,7 @@ holes:
       - title: Winter Games - Rookie
         url: https://youtu.be/es0f2-x92H0
         metadata:
+          published: 1518442217000
           tournament: Winter Games
           level: Rookie
           teePosition: 1
@@ -691,6 +716,7 @@ holes:
       - title: Winter Games - Pro
         url: https://youtu.be/fsi6obKeH8c
         metadata:
+          published: 1518453509000
           tournament: Winter Games
           level: Pro
           teePosition: 2
@@ -708,6 +734,7 @@ holes:
       - title: Winter Games - Expert
         url: https://youtu.be/Ow5MCn-7Vzo
         metadata:
+          published: 1518564241000
           tournament: Winter Games
           level: Expert
           teePosition: 2
@@ -828,6 +855,7 @@ holes:
       - title: Winter Games - Rookie
         url: https://youtu.be/9tlzifP6ImI
         metadata:
+          published: 1518442520000
           tournament: Winter Games
           level: Rookie
           teePosition: 1
@@ -844,6 +872,7 @@ holes:
       - title: Winter Games - Pro
         url: https://youtu.be/7a5H69DS23Q
         metadata:
+          published: 1518453940000
           tournament: Winter Games
           level: Pro
           teePosition: 2
@@ -860,6 +889,7 @@ holes:
       - title: Winter Games - Expert
         url: https://youtu.be/KVFsX0_eJfM
         metadata:
+          published: 1518559268000
           tournament: Winter Games
           level: Expert
           teePosition: 2
@@ -986,11 +1016,13 @@ holes:
       - title: General Instruction - 2nd Tee
         url: https://youtu.be/EGxjxPeXHaQ
         metadata:
+          published: 1541686362000
           generalInstruction: true
           teePosition: 2
       - title: Tour 7 Shootout - Tailwind Pointed at 1130
         url: https://youtu.be/h1-9ar-sXNU
         metadata:
+          published: 1525201804000
           tour: 7
           ball: Quasar
           teePosition: 2
@@ -1004,6 +1036,7 @@ holes:
       - title: Tour 7 Shootout - Wind Pointed at 9 O`clock
         url: https://youtu.be/dzyRyzgawjE
         metadata:
+          published: 1524942106000
           tour: 7
           ball: Titan
           teePosition: 2
@@ -1017,6 +1050,7 @@ holes:
       - title: Winter Games - Rookie
         url: https://youtu.be/UPOdfbiUHLA
         metadata:
+          published: 1518441974000
           tournament: Winter Games
           level: Rookie
           teePosition: 1
@@ -1031,6 +1065,7 @@ holes:
       - title: Winter Games - Pro
         url: https://youtu.be/Idv9j0oEMJ4
         metadata:
+          published: 1518453310000
           tournament: Winter Games
           level: Pro
           teePosition: 2
@@ -1045,6 +1080,7 @@ holes:
       - title: Winter Games - Expert
         url: https://youtu.be/C_2XMZH3mbI
         metadata:
+          published: 1518566424000
           tournament: Winter Games
           level: Expert
           teePosition: 2
@@ -1127,6 +1163,7 @@ holes:
       - title: Winter Games - Rookie
         url: https://youtu.be/rS3rfTAntf8
         metadata:
+          published: 1518442958000
           tournament: Winter Games
           level: Rookie
           teePosition: 1
@@ -1143,6 +1180,7 @@ holes:
       - title: Winter Games - Pro
         url: https://youtu.be/YgI5tEIKqss
         metadata:
+          published: 1518454662000
           tournament: Winter Games
           level: Pro
           teePosition: 2
@@ -1160,6 +1198,7 @@ holes:
       - title: Winter Games - Expert
         url: https://youtu.be/nY2kxlR-ugk
         metadata:
+          published: 1518553078000
           tournament: Winter Games
           level: Expert
           teePosition: 2
@@ -1289,11 +1328,13 @@ holes:
       - title: General Instruction - 2nd Tee
         url: https://youtu.be/sHMpxh5UrAI
         metadata:
+          published: 1541687051000
           generalInstruction: true
           teePosition: 2
       - title: Winter Games - Rookie
         url: https://youtu.be/LdbZycNmNHE
         metadata:
+          published: 1518442321000
           tournament: Winter Games
           level: Rookie
           teePosition: 1
@@ -1308,6 +1349,7 @@ holes:
       - title: Winter Games - Pro
         url: https://youtu.be/0C1j4bKpftg
         metadata:
+          published: 1518453621000
           tournament: Winter Games
           level: Pro
           teePosition: 2
@@ -1322,6 +1364,7 @@ holes:
       - title: Winter Games - Expert
         url: https://youtu.be/VpA4e7GAIpE
         metadata:
+          published: 1518561348000
           tournament: Winter Games
           level: Expert
           teePosition: 2
@@ -1405,6 +1448,7 @@ holes:
       - title: Mountain - Rookie
         url: https://youtu.be/srn0LC77qp0
         metadata:
+          published: 1542128263000
           tournament: Mountain
           level: Rookie
           teePosition: 1
@@ -1423,6 +1467,7 @@ holes:
       - title: Mountain - Pro
         url: https://youtu.be/sbXsCxZtodg
         metadata:
+          published: 1542051841000
           tournament: Mountain
           level: Pro
           teePosition: 2
@@ -1441,6 +1486,7 @@ holes:
       - title: Mountain - Expert
         url: https://youtu.be/O_GDLW07oHE
         metadata:
+          published: 1542044462000
           tournament: Mountain
           level: Expert
           teePosition: 2
@@ -1459,6 +1505,7 @@ holes:
       - title: Mountain - Masters
         url: https://youtu.be/Ly8oP72c3kE
         metadata:
+          published: 1542031547000
           tournament: Mountain
           level: Masters
           teePosition: 3
@@ -1477,6 +1524,7 @@ holes:
       - title: Mountain - Masters
         url: https://youtu.be/xXo5d0Uaoe8
         metadata:
+          published: 1542040753000
           tournament: Mountain
           level: Masters
           teePosition: 3
@@ -1495,6 +1543,7 @@ holes:
       - title: Mountain - Masters
         url: https://youtu.be/x9BzpCNsCdk
         metadata:
+          published: 1542118482000
           tournament: Mountain
           level: Masters
           teePosition: 3
@@ -1513,6 +1562,7 @@ holes:
       - title: Tour 7 - Scramble Techniques and Strategy
         url: https://youtu.be/QQHwzKhvk-A
         metadata:
+          published: 1525201195000
           tour: 7
           ball: Navigator
           teePosition: 2
@@ -1530,6 +1580,7 @@ holes:
       - title: Winter Games - Rookie
         url: https://youtu.be/TFXJIvQxUvM
         metadata:
+          published: 1518443175000
           tournament: Winter Games
           level: Rookie
           teePosition: 1
@@ -1548,6 +1599,7 @@ holes:
       - title: Winter Games - Pro
         url: https://youtu.be/CJiPdlT4_ec
         metadata:
+          published: 1518455098000
           tournament: Winter Games
           level: Pro
           teePosition: 2
@@ -1566,6 +1618,7 @@ holes:
       - title: Winter Games - Expert
         url: https://youtu.be/JVb8eUv3TLY
         metadata:
+          published: 1518550917000
           tournament: Winter Games
           level: Expert
           teePosition: 2

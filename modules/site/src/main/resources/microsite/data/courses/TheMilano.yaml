@@ -35,6 +35,7 @@ holes:
         - title: Tour 9 - Layup Tips and Strategy
           url: https://youtu.be/arhWV9o2PQk
           metadata:
+            published: 1524930301000
             tour: 9
             ball: Katana
             teePosition: 2
@@ -50,6 +51,7 @@ holes:
         - title: Tour 9 - Layup Technique. Tips and Tricks
           url: https://youtu.be/4OLm15NDynU
           metadata:
+            published: 1524928504000
             tour: 9
             ball: Katana
             teePosition: 2
@@ -65,6 +67,7 @@ holes:
         - title: Tour 9 - Tailwind
           url: https://youtu.be/NsPPkgnAYXc
           metadata:
+            published: 1524879395000
             tour: 9
             ball: Katana
             teePosition: 2
@@ -80,6 +83,7 @@ holes:
         - title: Tour 9 - Pitch Setup
           url: https://youtu.be/ztZocovW82o
           metadata:
+            published: 1527192188000
             tour: 9
             ball: Katana
             teePosition: 2
@@ -95,6 +99,7 @@ holes:
         - title: Tour 9 - Going for the Green with Apoc
           url: https://youtu.be/1dBqpazXLC0
           metadata:
+            published: 1527190976000
             tour: 9
             ball: King Maker
             teePosition: 2
@@ -110,6 +115,7 @@ holes:
         - title: Tour 9 - Tips for Eagle Pitch Alternate Approach
           url: https://youtu.be/SFvkuMdVIMY
           metadata:
+            published: 1527185698000
             tour: 9
             ball: Katana
             teePosition: 2
@@ -125,6 +131,7 @@ holes:
         - title: Tour 9 - Strategy for Going for the Green with Thor
           url: https://youtu.be/tgkxxCrQOSs
           metadata:
+            published: 1527182531000
             tour: 9
             ball: Katana
             teePosition: 2
@@ -140,6 +147,7 @@ holes:
         - title: Tour 9 - New Redesign Tips and Tricks for Short Iron Approach
           url: https://youtu.be/QgJ6mQZ64CE
           metadata:
+            published: 1527180049000
             tour: 9
             ball: Katana
             teePosition: 2
@@ -155,6 +163,7 @@ holes:
         - title: Tour 9 - Tips for Going for the Green Apoc or Thor Shot
           url: https://youtu.be/r_2G5kaA-lg
           metadata:
+            published: 1527365150000
             tour: 9
             ball: King Maker
             teePosition: 2
@@ -170,6 +179,7 @@ holes:
         - title: Rookie
           url: https://youtu.be/NqXji6JAXV4
           metadata:
+            published: 1527507575000
             tournament: Vegas Sundown
             level: Rookie
             ball: Marlin
@@ -186,6 +196,7 @@ holes:
         - title: Rookie
           url: https://youtu.be/SxyBll7FI1g
           metadata:
+            published: 1527803180000
             tournament: Vegas Sundown
             level: Rookie
             ball: Titan
@@ -202,6 +213,7 @@ holes:
         - title: Pro
           url: https://youtu.be/fSaEUNKFNSc
           metadata:
+            published: 1527527838000
             tournament: Vegas Sundown
             level: Pro
             ball: Blue Marble
@@ -218,6 +230,7 @@ holes:
         - title: Pro
           url: https://youtu.be/z3c7owAy-zg
           metadata:
+            published: 1527604866000
             tournament: Vegas Sundown
             level: Pro
             ball: Blue Marble
@@ -234,6 +247,7 @@ holes:
         - title: Expert
           url: https://youtu.be/un88XWp4_Ow
           metadata:
+            published: 1527501290000
             tournament: Vegas Sundown
             level: Expert
             ball: Blue Marble
@@ -248,6 +262,7 @@ holes:
         - title: Expert
           url: https://youtu.be/v0mIjKYPmlE
           metadata:
+            published: 1527617745000
             tournament: Vegas Sundown
             level: Expert
             ball: Berserker
@@ -264,6 +279,7 @@ holes:
         - title: Expert
           url: https://youtu.be/-o4Vcf_j8xw
           metadata:
+            published: 1527593779000
             tournament: Vegas Sundown
             level: Expert
             ball: King Maker
@@ -280,6 +296,7 @@ holes:
         - title: Master
           url: https://youtu.be/SR9RZwG_TFY
           metadata:
+            published: 1527535904000
             tournament: Vegas Sundown
             level: Master
             ball: Pumpkin
@@ -296,6 +313,7 @@ holes:
         - title: Master
           url: https://youtu.be/MPwZk60IALE
           metadata:
+            published: 1527599633000
             tournament: Vegas Sundown
             level: Master
             ball: Snow Globe
@@ -379,11 +397,13 @@ holes:
         - title: General Instruction - 2nd Tee
           url: https://youtu.be/7eYgHjrW5X8
           metadata:
+            published: 1541700601000
             generalInstruction: true
             teePosition: 2
         - title: Tour 9 Shootout - Wind Pointed at 830
           url: https://youtu.be/Y6Th3ddXrZ0
           metadata:
+            published: 1527190678000
             tour: 9
             ball: King Maker
             teePosition: 2
@@ -397,6 +417,7 @@ holes:
         - title: Tour 9 Shootout - Wind Pointed at 3 O'clock
           url: https://youtu.be/_dLyGSZybxg
           metadata:
+            published: 1527184693000
             tour: 9
             ball: Katana
             teePosition: 2
@@ -410,6 +431,7 @@ holes:
         - title: Tour 9 Shootout - Wind Pointed at 10 O'clock
           url: https://youtu.be/GR5rc72Vojo
           metadata:
+            published: 1527182613000
             tour: 9
             ball: Katana
             teePosition: 2
@@ -423,6 +445,7 @@ holes:
         - title: Tour 9 Shootout - Headwind Pointed at 730
           url: https://youtu.be/7ne-mU9edoU
           metadata:
+            published: 1527181291000
             tour: 9
             ball: Katana
             teePosition: 2
@@ -436,6 +459,7 @@ holes:
         - title: Tour 9 Shootout - Headwind Pointed at 5 O'clock
           url: https://youtu.be/DYfQK7ByUpU
           metadata:
+            published: 1527366474000
             tour: 9
             ball: Navigator
             teePosition: 2
@@ -449,6 +473,7 @@ holes:
         - title: Tour 9 Shootout - Wind Pointed at 130
           url: https://youtu.be/BeMqQVssddE
           metadata:
+            published: 1527366422000
             tour: 9
             ball: Katana
             teePosition: 2
@@ -462,6 +487,7 @@ holes:
         - title: Tour 9 Shootout - Wind Pointed at 2 O'clock
           url: https://youtu.be/6ub6StuJu0Y
           metadata:
+            published: 1527366157000
             tour: 9
             ball: Katana
             teePosition: 2
@@ -475,6 +501,7 @@ holes:
         - title: Tour 9 Shootout - Headwind Pointed at 6
           url: https://youtu.be/WYO1uUmWj_A
           metadata:
+            published: 1527365727000
             tour: 9
             ball: Navigator
             teePosition: 2
@@ -488,6 +515,7 @@ holes:
         - title: Rookie
           url: https://youtu.be/CvWAmFTVzBw
           metadata:
+            published: 1527508058000
             tournament: Vegas Sundown
             level: Rookie
             ball: Marlin
@@ -502,6 +530,7 @@ holes:
         - title: Rookie
           url: https://youtu.be/ad986mBoV3Q
           metadata:
+            published: 1527798226000
             tournament: Vegas Sundown
             level: Rookie
             ball: Quasar
@@ -516,6 +545,7 @@ holes:
         - title: Rookie
           url: https://youtu.be/akQoAGNZsBw
           metadata:
+            published: 1527803564000
             tournament: Vegas Sundown
             level: Rookie
             ball: Quasar
@@ -530,6 +560,7 @@ holes:
         - title: Pro
           url: https://youtu.be/1i56MBrwkC0
           metadata:
+            published: 1527528377000
             tournament: Vegas Sundown
             level: Pro
             ball: Navigator
@@ -544,6 +575,7 @@ holes:
         - title: Pro
           url: https://youtu.be/_bDYkfaXovI
           metadata:
+            published: 1527605629000
             tournament: Vegas Sundown
             level: Pro
             ball: King Maker
@@ -558,6 +590,7 @@ holes:
         - title: Expert
           url: https://youtu.be/0lgfQwkY9LU
           metadata:
+            published: 1527501882000
             tournament: Vegas Sundown
             level: Expert
             ball: King Maker
@@ -572,6 +605,7 @@ holes:
         - title: Expert
           url: https://youtu.be/ux422KA0iuU
           metadata:
+            published: 1527594108000
             tournament: Vegas Sundown
             level: Expert
             ball: King Maker
@@ -586,6 +620,7 @@ holes:
         - title: Expert
           url: https://youtu.be/4L_o3fpCqsE
           metadata:
+            published: 1527618071000
             tournament: Vegas Sundown
             level: Expert
             ball: King Maker
@@ -600,6 +635,7 @@ holes:
         - title: Master
           url: https://youtu.be/fIwcdRdUk2E
           metadata:
+            published: 1527536680000
             tournament: Vegas Sundown
             level: Master
             ball: Movie
@@ -614,6 +650,7 @@ holes:
         - title: Master
           url: https://youtu.be/zjade-vt7SE
           metadata:
+            published: 1527600207000
             tournament: Vegas Sundown
             level: Master
             ball: Bandera
@@ -657,6 +694,7 @@ holes:
         - title: Tour 9 - Strategy and Tips
           url: https://youtu.be/hOso9yyi2_g
           metadata:
+            published: 1525789388000
             tour: 9
             ball: Quasar
             teePosition: 2
@@ -672,6 +710,7 @@ holes:
         - title: Tour 9 - Tips and Strategies
           url: https://youtu.be/ZnD7JwQJVh8
           metadata:
+            published: 1524927397000
             tour: 9
             ball: Katana
             teePosition: 2
@@ -687,6 +726,7 @@ holes:
         - title: Tour 9 - Tips for Guardian Approach
           url: https://youtu.be/3KhjWVvh7nI
           metadata:
+            published: 1527192795000
             tour: 9
             ball: Katana
             teePosition: 2
@@ -702,6 +742,7 @@ holes:
         - title: Tour 9 - Club Selection Advice
           url: https://youtu.be/EO02grdW9sg
           metadata:
+            published: 1527175010000
             tour: 9
             ball: King Maker
             teePosition: 2
@@ -717,6 +758,7 @@ holes:
         - title: Tour 9 - Headwind
           url: https://youtu.be/cQAsK4iKQn8
           metadata:
+            published: 1527364897000
             tour: 9
             ball: King Maker
             teePosition: 2
@@ -732,6 +774,7 @@ holes:
         - title: Rookie
           url: https://youtu.be/1M-m3JffHgw
           metadata:
+            published: 1527509418000
             tournament: Vegas Sundown
             level: Rookie
             ball: Titan
@@ -748,6 +791,7 @@ holes:
         - title: Rookie
           url: https://youtu.be/2jGWeIMabHg
           metadata:
+            published: 1527799526000
             tournament: Vegas Sundown
             level: Rookie
             ball: Titan
@@ -764,6 +808,7 @@ holes:
         - title: Rookie
           url: https://youtu.be/ULY7yQ3l45g
           metadata:
+            published: 1527803887000
             tournament: Vegas Sundown
             level: Rookie
             ball: Titan
@@ -780,6 +825,7 @@ holes:
         - title: Pro
           url: https://youtu.be/EqM_JblyHZQ
           metadata:
+            published: 1527529523000
             tournament: Vegas Sundown
             level: Pro
             ball: Titan
@@ -796,6 +842,7 @@ holes:
         - title: Pro
           url: https://youtu.be/828PVD8KiFE
           metadata:
+            published: 1527607091000
             tournament: Vegas Sundown
             level: Pro
             ball: Blue Marble
@@ -812,6 +859,7 @@ holes:
         - title: Expert
           url: https://youtu.be/poAaMqJADIU
           metadata:
+            published: 1527502785000
             tournament: Vegas Sundown
             level: Expert
             ball: Berserker
@@ -828,6 +876,7 @@ holes:
         - title: Expert
           url: https://youtu.be/iXn6gHHELK4
           metadata:
+            published: 1527594890000
             tournament: Vegas Sundown
             level: Expert
             ball: Berserker
@@ -844,6 +893,7 @@ holes:
         - title: Expert
           url: https://youtu.be/8l7jNpUGSs0
           metadata:
+            published: 1527618595000
             tournament: Vegas Sundown
             level: Expert
             ball: Titan
@@ -860,6 +910,7 @@ holes:
         - title: Master
           url: https://youtu.be/RmlLP1nOpfc
           metadata:
+            published: 1527537686000
             tournament: Vegas Sundown
             level: Master
             ball: Berserker
@@ -967,11 +1018,13 @@ holes:
         - title: General Instruction - 2nd Tee
           url: https://youtu.be/hEeBEtRbcYI
           metadata:
+            published: 1541701015000
             generalInstruction: true
             teePosition: 2
         - title: Platinum Resorts - Expert
           url: https://youtu.be/sJf1ufgKBgA
           metadata:
+            published: 1539619283000
             tournament: Platinum Resorts
             level: Expert
             ball: King Maker
@@ -986,6 +1039,7 @@ holes:
         - title: Platinum Resorts - Master
           url: https://youtu.be/naqGlL_KDaE
           metadata:
+            published: 1539605176000
             tournament: Platinum Resorts
             level: Master
             ball: King Maker
@@ -1000,6 +1054,7 @@ holes:
         - title: Platinum Resorts - Master
           url: https://youtu.be/7vgk8uv4ZFM
           metadata:
+            published: 1539608628000
             tournament: Platinum Resorts
             level: Master
             ball: Voyager
@@ -1014,6 +1069,7 @@ holes:
         - title: Platinum Resorts - Master
           url: https://youtu.be/zTWVwrJuwG4
           metadata:
+            published: 1539612269000
             tournament: Platinum Resorts
             level: Master
             ball: Katana
@@ -1028,6 +1084,7 @@ holes:
         - title: Platinum Resorts - Master
           url: https://youtu.be/031V3pb7h6I
           metadata:
+            published: 1539694890000
             tournament: Platinum Resorts
             level: Master
             ball: King Maker
@@ -1042,6 +1099,7 @@ holes:
         - title: Tour 11 Shootout - Hard Side Wind Tips
           url: https://youtu.be/PEe3S4ANSmI
           metadata:
+            published: 1517175364000
             tour: 11
             ball: Katana
             teePosition: 2
@@ -1055,6 +1113,7 @@ holes:
         - title: Tour 11 Shootout - Strong Headwind
           url: https://youtu.be/xfjNzYLT0n4
           metadata:
+            published: 1517174677000
             tour: 11
             ball: Katana
             teePosition: 2
@@ -1068,6 +1127,7 @@ holes:
         - title: Tour 11 Shootout - Wind Pointed at 430
           url: https://youtu.be/QxY0K0oTkW0
           metadata:
+            published: 1517168036000
             tour: 11
             ball: King Maker
             teePosition: 2
@@ -1081,6 +1141,7 @@ holes:
         - title: Tour 11 Shootout - Strong Tailwind
           url: https://youtu.be/7_6R9bNOLDQ
           metadata:
+            published: 1517164147000
             tour: 11
             ball: Katana
             teePosition: 2
@@ -1094,6 +1155,7 @@ holes:
         - title: Tour 11 Shootout - Tailwind
           url: https://youtu.be/-bPv0x9GK-E
           metadata:
+            published: 1517153366000
             tour: 11
             ball: Katana
             teePosition: 2
@@ -1107,6 +1169,7 @@ holes:
         - title: Tour 9 Shootout - Tailwind Pointed at 1 O'clock
           url: https://youtu.be/aCeeUW6kxZA
           metadata:
+            published: 1524935185000
             tour: 9
             ball: Katana
             teePosition: 2
@@ -1120,6 +1183,7 @@ holes:
         - title: Tour 9 Shootout - Tailwind Pointed at 2 O'clock
           url: https://youtu.be/ztZocovW82o
           metadata:
+            published: 1527192188000
             tour: 9
             ball: Katana
             teePosition: 2
@@ -1133,6 +1197,7 @@ holes:
         - title: Tour 9 Shootout - Tailwind Pointed at 2 O'clock
           url: https://youtu.be/VJhlQ9DhGSw
           metadata:
+            published: 1527191851000
             tour: 9
             ball: Katana
             teePosition: 2
@@ -1146,6 +1211,7 @@ holes:
         - title: Tour 9 Shootout - Wind Pointed at 9 O'clock
           url: https://youtu.be/dXlL09DQGkQ
           metadata:
+            published: 1524927305000
             tour: 9
             ball: Katana
             teePosition: 2
@@ -1159,6 +1225,7 @@ holes:
         - title: Tour 9 Shootout - Wind Pointed at 930
           url: https://youtu.be/h6ddNV7mUzk
           metadata:
+            published: 1527177953000
             tour: 9
             ball: Katana
             teePosition: 2
@@ -1172,6 +1239,7 @@ holes:
         - title: Tour 9 Shootout - Tailwind Pointed at 10 O'clock
           url: https://youtu.be/suia5zUOdkE
           metadata:
+            published: 1527193644000
             tour: 9
             ball: Berserker
             teePosition: 2
@@ -1185,6 +1253,7 @@ holes:
         - title: Tour 9 Shootout - Tailwind Pointed at 11 O'clock
           url: https://youtu.be/gh_mkRoLDhU
           metadata:
+            published: 1525786897000
             tour: 9
             ball: Quasar
             teePosition: 2
@@ -1198,6 +1267,7 @@ holes:
         - title: Tour 9 Shootout - Wind Pointed at 11 O'clock
           url: https://youtu.be/NmY8zUdeVYs
           metadata:
+            published: 1527178463000
             tour: 9
             ball: Navigator
             teePosition: 2
@@ -1211,6 +1281,7 @@ holes:
         - title: Vegas - Rookie
           url: https://youtu.be/v8vKevbJ808
           metadata:
+            published: 1527508829000
             tournament: Vegas Sundown
             level: Rookie
             ball: Navigator
@@ -1225,6 +1296,7 @@ holes:
         - title: Vegas - Rookie
           url: https://youtu.be/-Dpv-HJr0Aw
           metadata:
+            published: 1527804215000
             tournament: Vegas Sundown
             level: Rookie
             ball: Navigator
@@ -1239,6 +1311,7 @@ holes:
         - title: Vegas - Pro
           url: https://youtu.be/dIy4cXtcbSY
           metadata:
+            published: 1527530392000
             tournament: Vegas Sundown
             level: Pro
             ball: King Maker
@@ -1253,6 +1326,7 @@ holes:
         - title: Vegas - Pro
           url: https://youtu.be/hlMOJvW8gpk
           metadata:
+            published: 1527606414000
             tournament: Vegas Sundown
             level: Pro
             ball: King Maker
@@ -1267,6 +1341,7 @@ holes:
         - title: Vegas - Expert
           url: https://youtu.be/Gj9EvvVdzes
           metadata:
+            published: 1527503159000
             tournament: Vegas Sundown
             level: Expert
             ball: Bandera
@@ -1281,6 +1356,7 @@ holes:
         - title: Vegas - Expert
           url: https://youtu.be/RUZd05D3e6I
           metadata:
+            published: 1527595283000
             tournament: Vegas Sundown
             level: Expert
             ball: King Maker
@@ -1295,6 +1371,7 @@ holes:
         - title: Vegas - Expert
           url: https://youtu.be/-n8NfPQWBOI
           metadata:
+            published: 1527619349000
             tournament: Vegas Sundown
             level: Expert
             ball: Navigator
@@ -1309,6 +1386,7 @@ holes:
         - title: Vegas - Master
           url: https://youtu.be/fDKWpbgVJx8
           metadata:
+            published: 1527541050000
             tournament: Vegas Sundown
             level: Master
             ball: Movie
@@ -1323,6 +1401,7 @@ holes:
         - title: Vegas - Master
           url: https://youtu.be/mvw-WsSGPIg
           metadata:
+            published: 1527601034000
             tournament: Vegas Sundown
             level: Master
             ball: King Maker
@@ -1399,6 +1478,7 @@ holes:
         - title: Labor Day(2018) - Pro
           url: https://youtu.be/YqCFwYR_3BM
           metadata:
+            published: 1536003437000
             tournament: Labor Day 2018
             level: Pro
             ball: Titan
@@ -1415,6 +1495,7 @@ holes:
         - title: Labor Day(2018) - Pro
           url: https://youtu.be/YqCFwYR_3BM
           metadata:
+            published: 1536003437000
             tournament: Vegas Sundown
             level: Pro
             ball: Titan
@@ -1431,6 +1512,7 @@ holes:
         - title: Tour 9 - Going for the Green with Thor
           url: https://youtu.be/HFxAraBOjTU
           metadata:
+            published: 1527186396000
             tour: 9
             ball: Dead
             teePosition: 2
@@ -1446,6 +1528,7 @@ holes:
         - title: Tour 9 - Eagle Short Iron Pitch Tips
           url: https://youtu.be/gP1zz6BaPmg
           metadata:
+            published: 1527182956000
             tour: 9
             ball: Katana
             teePosition: 2
@@ -1461,6 +1544,7 @@ holes:
         - title: Tour 9 - Tips for Eagle Short Iron
           url: https://youtu.be/06K-jPLzwOY
           metadata:
+            published: 1527182130000
             tour: 9
             ball: Katana
             teePosition: 2
@@ -1476,6 +1560,7 @@ holes:
         - title: Tour 9 - Layup for Short Iron Pitch Tips
           url: https://youtu.be/a7dxWTsg6cs
           metadata:
+            published: 1527180494000
             tour: 9
             ball: Katana
             teePosition: 2
@@ -1491,6 +1576,7 @@ holes:
         - title: Tour 9 - Strategy and Tips
           url: https://youtu.be/IEHAyNCOOXA
           metadata:
+            published: 1527178379000
             tour: 9
             ball: Navigator
             teePosition: 2
@@ -1506,6 +1592,7 @@ holes:
         - title: Tour 9 - Tips Going for the Green with Apoc
           url: https://youtu.be/6ub6StuJu0Y
           metadata:
+            published: 1527366157000
             tour: 9
             ball: Katana
             teePosition: 2
@@ -1521,6 +1608,7 @@ holes:
         - title: Tour 9 - Tips for Eagle Pitch
           url: https://youtu.be/WYO1uUmWj_A
           metadata:
+            published: 1527365727000
             tour: 9
             ball: Navigator
             teePosition: 2
@@ -1536,6 +1624,7 @@ holes:
         - title: Vegas - Rookie
           url: https://youtu.be/MOurM3wxvpo
           metadata:
+            published: 1527510270000
             tournament: Vegas Sundown
             level: Rookie
             ball: Titan
@@ -1552,6 +1641,7 @@ holes:
         - title: Vegas - Rookie
           url: https://youtu.be/kVmf2d_qBSw
           metadata:
+            published: 1527804484000
             tournament: Vegas Sundown
             level: Rookie
             ball: Quasar
@@ -1568,6 +1658,7 @@ holes:
         - title: Vegas - Pro
           url: https://youtu.be/NYjuqVqBCtY
           metadata:
+            published: 1527531585000
             tournament: Vegas Sundown
             level: Pro
             ball: Navigator
@@ -1584,6 +1675,7 @@ holes:
         - title: Vegas - Pro
           url: https://youtu.be/BrJGBUg0Ffg
           metadata:
+            published: 1527607623000
             tournament: Vegas Sundown
             level: Pro
             ball: Blue Marble
@@ -1600,6 +1692,7 @@ holes:
         - title: Vegas - Expert
           url: https://youtu.be/GseWP6CBJDE
           metadata:
+            published: 1527503796000
             tournament: Vegas Sundown
             level: Expert
             ball: Berserker
@@ -1616,6 +1709,7 @@ holes:
         - title: Vegas - Expert
           url: https://youtu.be/Wc6vtthI_Ts
           metadata:
+            published: 1527596048000
             tournament: Vegas Sundown
             level: Expert
             ball: Royal
@@ -1632,6 +1726,7 @@ holes:
         - title: Vegas - Expert
           url: https://youtu.be/RlYZuj_d_To
           metadata:
+            published: 1527619876000
             tournament: Vegas Sundown
             level: Expert
             ball: Royal
@@ -1648,6 +1743,7 @@ holes:
         - title: Vegas - Master
           url: https://youtu.be/JP2fabqZxU0
           metadata:
+            published: 1527540592000
             tournament: Vegas Sundown
             level: Master
             ball: King Maker
@@ -1664,6 +1760,7 @@ holes:
         - title: Vegas - Master
           url: https://youtu.be/CgDoheMpqJQ
           metadata:
+            published: 1527601651000
             tournament: Vegas Sundown
             level: Master
             ball: King Maker
@@ -1700,6 +1797,7 @@ holes:
         - title: Labor Day(2018) - Pro
           url: https://youtu.be/1kNJDRPPnmg
           metadata:
+            published: 1536005112000
             tournament: Labor Day 2018
             level: Pro
             ball: Katana
@@ -1716,6 +1814,7 @@ holes:
         - title: Tour 9 - Apoc Drive
           url: https://youtu.be/o_tVKlNaIQU
           metadata:
+            published: 1527188276000
             tour: 9
             ball: Katana
             teePosition: 2
@@ -1731,6 +1830,7 @@ holes:
         - title: Tour 9 - Tips for Pointing Target to Lower Elevation
           url: https://youtu.be/-NqdUBpuFmM
           metadata:
+            published: 1527184616000
             tour: 9
             ball: Katana
             teePosition: 2
@@ -1746,6 +1846,7 @@ holes:
         - title: Tour 9 - Tips for Making Albatross
           url: https://youtu.be/mGwEntL2CnU
           metadata:
+            published: 1527180875000
             tour: 9
             ball: King Maker
             teePosition: 2
@@ -1761,6 +1862,7 @@ holes:
         - title: Tour 9 - Tips
           url: https://youtu.be/7P8oUz8zrx8
           metadata:
+            published: 1527178861000
             tour: 9
             ball: Katana
             teePosition: 2
@@ -1776,6 +1878,7 @@ holes:
         - title: Tour 9 - 2 O'clock Wind
           url: https://youtu.be/f55exY0B-WY
           metadata:
+            published: 1527176390000
             tour: 9
             ball: Katana
             teePosition: 2
@@ -1791,6 +1894,7 @@ holes:
         - title: Vegas - Rookie
           url: https://youtu.be/rXMl-BU4QNM
           metadata:
+            published: 1527510963000
             tournament: Vegas Sundown
             level: Rookie
             ball: Titan
@@ -1807,6 +1911,7 @@ holes:
         - title: Vegas - Rookie
           url: https://youtu.be/4XJHSDJsr0I
           metadata:
+            published: 1527802024000
             tournament: Vegas Sundown
             level: Rookie
             ball: Katana
@@ -1823,6 +1928,7 @@ holes:
         - title: Vegas - Rookie
           url: https://youtu.be/YeTjRagDg2Y
           metadata:
+            published: 1527804858000
             tournament: Vegas Sundown
             level: Rookie
             ball: King Maker
@@ -1839,6 +1945,7 @@ holes:
         - title: Vegas - Pro
           url: https://youtu.be/0Or8iXEabFI
           metadata:
+            published: 1527532620000
             tournament: Vegas Sundown
             level: Pro
             ball: King Maker
@@ -1855,6 +1962,7 @@ holes:
         - title: Vegas - Pro
           url: https://youtu.be/gJyyGEUYHf0
           metadata:
+            published: 1527608521000
             tournament: Vegas Sundown
             level: Pro
             ball: King Maker
@@ -1871,6 +1979,7 @@ holes:
         - title: Vegas - Expert
           url: https://youtu.be/iM1Wu0pkF3E
           metadata:
+            published: 1527504598000
             tournament: Vegas Sundown
             level: Expert
             ball: King Maker
@@ -1887,6 +1996,7 @@ holes:
         - title: Vegas - Expert
           url: https://youtu.be/UFQHDICDJho
           metadata:
+            published: 1527596772000
             tournament: Vegas Sundown
             level: Expert
             ball: King Maker
@@ -1905,6 +2015,7 @@ holes:
         - title: Vegas - Expert
           url: https://youtu.be/-0zhRX5J8YY
           metadata:
+            published: 1527620545000
             tournament: Vegas Sundown
             level: Expert
             ball: King Maker
@@ -1921,6 +2032,7 @@ holes:
         - title: Vegas - Master
           url: https://youtu.be/KWYmS1Mb8s4
           metadata:
+            published: 1527538781000
             tournament: Vegas Sundown
             level: Master
             ball: Dead
@@ -1937,6 +2049,7 @@ holes:
         - title: Vegas - Master
           url: https://youtu.be/IC_ZMbnkyTk
           metadata:
+            published: 1527602392000
             tournament: Vegas Sundown
             level: Master
             ball: Dead
@@ -1973,11 +2086,13 @@ holes:
         - title: General Instruction - 2nd Tee
           url: https://youtu.be/pRzF9-3AvZk
           metadata:
+            published: 1541701356000
             generalInstruction: true
             teePosition: 2
         - title: Labor Day(2018) - Pro
           url: https://youtu.be/i987Y26dIow
           metadata:
+            published: 1536002109000
             tournament: Labor Day 2018
             level: Pro
             ball: Navigator
@@ -1992,6 +2107,7 @@ holes:
         - title: Tour 9 Shootout - Tailwind Iron Shot Wind Pointed at 11 O'clock
           url: https://youtu.be/Dg9h5HosyaU
           metadata:
+            published: 1527194212000
             tour: 9
             ball: Katana
             teePosition: 2
@@ -2005,6 +2121,7 @@ holes:
         - title: Tour 9 Shootout - Wind Pointed at 2 O'clock
           url: https://youtu.be/F0YNDcBvO9Q
           metadata:
+            published: 1527192542000
             tour: 9
             ball: Katana
             teePosition: 2
@@ -2018,6 +2135,7 @@ holes:
         - title: Tour 9 Shootout - Hard Tailwind Pointed at 12 O'clock
           url: https://youtu.be/8e3WPPajXMU
           metadata:
+            published: 1527186260000
             tour: 9
             ball: Dead
             teePosition: 2
@@ -2031,6 +2149,7 @@ holes:
         - title: Tour 9 Shootout - Wind Pointed at 730 Right Fairway
           url: https://youtu.be/k_-wFT--0-o
           metadata:
+            published: 1527185767000
             tour: 9
             ball: Katana
             teePosition: 2
@@ -2044,6 +2163,7 @@ holes:
         - title: Tour 9 Shootout - Wind Pointed at 130
           url: https://youtu.be/lM3WhFLJ0DI
           metadata:
+            published: 1527181041000
             tour: 9
             ball: Katana
             teePosition: 2
@@ -2057,6 +2177,7 @@ holes:
         - title: Tour 9 Shootout - Headwind Pointed at 430
           url: https://youtu.be/f55exY0B-WY
           metadata:
+            published: 1527176390000
             tour: 9
             ball: Katana
             teePosition: 2
@@ -2070,6 +2191,7 @@ holes:
         - title: Tour 9 Shootout - Tailwind Pointed at 12 O'clock
           url: https://youtu.be/ysFk16BBcQ8
           metadata:
+            published: 1527176022000
             tour: 9
             ball: Katana
             teePosition: 2
@@ -2083,6 +2205,7 @@ holes:
         - title: Tour 9 Shootout - Sidewind Pointed at 10 O'clock
           url: https://youtu.be/EIMEEU91NYU
           metadata:
+            published: 1527175627000
             tour: 9
             ball: King Maker
             teePosition: 2
@@ -2096,6 +2219,7 @@ holes:
         - title: Tour 9 Shootout - Wind Pointed at 8 O'clock
           url: https://youtu.be/Ahf2XSBgv1k
           metadata:
+            published: 1527366583000
             tour: 9
             ball: King Maker
             teePosition: 2
@@ -2109,6 +2233,7 @@ holes:
         - title: Tour 9 Shootout - Wind Pointed at 8 O'clock
           url: https://youtu.be/cQAsK4iKQn8
           metadata:
+            published: 1527364897000
             tour: 9
             ball: King Maker
             teePosition: 2
@@ -2122,6 +2247,7 @@ holes:
         - title: Vegas - Rookie
           url: https://youtu.be/M63AMtQl2WI
           metadata:
+            published: 1527511355000
             tournament: Vegas Sundown
             level: Rookie
             ball: Marlin
@@ -2136,6 +2262,7 @@ holes:
         - title: Vegas - Rookie
           url: https://youtu.be/m2U_YwjCP-4
           metadata:
+            published: 1527801634000
             tournament: Vegas Sundown
             level: Rookie
             ball: Marlin
@@ -2150,6 +2277,7 @@ holes:
         - title: Vegas - Rookie
           url: https://youtu.be/bhWbrIW9hDk
           metadata:
+            published: 1527805175000
             tournament: Vegas Sundown
             level: Rookie
             ball: Navigator
@@ -2164,6 +2292,7 @@ holes:
         - title: Vegas - Pro
           url: https://youtu.be/Ah9NmThiEJQ
           metadata:
+            published: 1527532923000
             tournament: Vegas Sundown
             level: Pro
             ball: King Maker
@@ -2178,6 +2307,7 @@ holes:
         - title: Vegas - Pro
           url: https://youtu.be/Ubexc2E5SUw
           metadata:
+            published: 1527613843000
             tournament: Vegas Sundown
             level: Pro
             ball: King Maker
@@ -2192,6 +2322,7 @@ holes:
         - title: Vegas - Expert
           url: https://youtu.be/kT5WQEkeJHY
           metadata:
+            published: 1527505059000
             tournament: Vegas Sundown
             level: Expert
             ball: Bandera
@@ -2206,6 +2337,7 @@ holes:
         - title: Vegas - Expert
           url: https://youtu.be/U1gRwz69iAY
           metadata:
+            published: 1527597337000
             tournament: Vegas Sundown
             level: Expert
             ball: King Maker
@@ -2220,6 +2352,7 @@ holes:
         - title: Vegas - Expert
           url: https://youtu.be/WH6le1AnAGc
           metadata:
+            published: 1527620965000
             tournament: Vegas Sundown
             level: Expert
             ball: Navigator
@@ -2234,6 +2367,7 @@ holes:
         - title: Vegas - Master
           url: https://youtu.be/XvDIFyrrB9Y
           metadata:
+            published: 1527539231000
             tournament: Vegas Sundown
             level: Master
             ball: Pumpkin
@@ -2248,6 +2382,7 @@ holes:
         - title: Vegas - Master
           url: https://youtu.be/cbFbXJo9SGo
           metadata:
+            published: 1527602948000
             tournament: Vegas Sundown
             level: Master
             ball: Mummy
@@ -2280,6 +2415,7 @@ holes:
         - title: Platinum Resorts - Expert
           url: https://youtu.be/cbFbXJo9SGo
           metadata:
+            published: 1527602948000
             tournament: Platinum Resorts
             level: Expert
             ball: King Maker
@@ -2296,6 +2432,7 @@ holes:
         - title: Platinum Resorts - Expert
           url: https://youtu.be/6WFh9XCOcmc
           metadata:
+            published: 1539619445000
             tournament: Platinum Resorts
             level: Expert
             ball: King Maker
@@ -2312,6 +2449,7 @@ holes:
         - title: Platinum Resorts - Master
           url: https://youtu.be/DyQ7mlBCKbw
           metadata:
+            published: 1539605271000
             tournament: Platinum Resorts
             level: Master
             ball: King Maker
@@ -2328,6 +2466,7 @@ holes:
         - title: Platinum Resorts - Master
           url: https://youtu.be/dWuUjJmaKR8
           metadata:
+            published: 1539608785000
             tournament: Platinum Resorts
             level: Master
             ball: King Maker
@@ -2344,6 +2483,7 @@ holes:
         - title: Platinum Resorts - Master
           url: https://youtu.be/QMm1QoeL4Ng
           metadata:
+            published: 1539612515000
             tournament: Platinum Resorts
             level: Master
             ball: King Maker
@@ -2360,6 +2500,7 @@ holes:
         - title: Platinum Resorts - Master
           url: https://youtu.be/LrxSedMxBG8
           metadata:
+            published: 1539695071000
             tournament: Platinum Resorts
             level: Master
             ball: King Maker
@@ -2376,6 +2517,7 @@ holes:
         - title: Tour 9 - Tips for the Rough Pitch for Eagle
           url: https://youtu.be/hHKYwHrPses
           metadata:
+            published: 1527195023000
             tour: 9
             ball: Katana
             teePosition: 2
@@ -2391,6 +2533,7 @@ holes:
         - title: Tour 9 - Going for the Green with Advanced Apoc
           url: https://youtu.be/suia5zUOdkE
           metadata:
+            published: 1527193644000
             tour: 9
             ball: Berserker
             teePosition: 2
@@ -2406,6 +2549,7 @@ holes:
         - title: Tour 9 - Tips for Eagle Pitch Alternate Method
           url: https://youtu.be/Mo068lKu830
           metadata:
+            published: 1527191319000
             tour: 9
             ball: King Maker
             teePosition: 2
@@ -2421,6 +2565,7 @@ holes:
         - title: Tour 9 - Pitch Technique Alternating Method and Tips
           url: https://youtu.be/GvxvvuqL_r0
           metadata:
+            published: 1527188453000
             tour: 9
             ball: Katana
             teePosition: 2
@@ -2436,6 +2581,7 @@ holes:
         - title: Tour 9 - Strategies and Tips from Rough
           url: https://youtu.be/jsqsOx4kbj8
           metadata:
+            published: 1527177884000
             tour: 9
             ball: Katana
             teePosition: 2
@@ -2451,6 +2597,7 @@ holes:
         - title: Tour 9 - Strategy for Eagle Pitch
           url: https://youtu.be/mlfVAfp-wQ0
           metadata:
+            published: 1527176620000
             tour: 9
             ball: King Maker
             teePosition: 2
@@ -2466,6 +2613,7 @@ holes:
         - title: Tour 9 - Strategy and Tips
           url: https://youtu.be/EOaxPYDAxN4
           metadata:
+            published: 1527175548000
             tour: 9
             ball: King Maker
             teePosition: 2
@@ -2481,6 +2629,7 @@ holes:
         - title: Vegas - Rookie
           url: https://youtu.be/Z7GYqMg1jzo
           metadata:
+            published: 1527512945000
             tournament: Vegas Sundown
             level: Rookie
             ball: Katana
@@ -2497,6 +2646,7 @@ holes:
         - title: Vegas - Rookie
           url: https://youtu.be/w3OyuxJdXWU
           metadata:
+            published: 1527802924000
             tournament: Vegas Sundown
             level: Rookie
             ball: Katana
@@ -2513,6 +2663,7 @@ holes:
         - title: Vegas - Pro
           url: https://youtu.be/-Bs9txAT3eM
           metadata:
+            published: 1527533546000
             tournament: Vegas Sundown
             level: Pro
             ball: Katana
@@ -2529,6 +2680,7 @@ holes:
         - title: Vegas - Pro
           url: https://youtu.be/kUEnMqb08Pw
           metadata:
+            published: 1527615691000
             tournament: Vegas Sundown
             level: Pro
             ball: King Maker
@@ -2545,6 +2697,7 @@ holes:
         - title: Vegas - Expert
           url: https://youtu.be/OVo7QSV22B0
           metadata:
+            published: 1527505676000
             tournament: Vegas Sundown
             level: Expert
             ball: King Maker
@@ -2561,6 +2714,7 @@ holes:
         - title: Vegas - Expert
           url: https://youtu.be/ptBS5Rv-EsE
           metadata:
+            published: 1527597963000
             tournament: Vegas Sundown
             level: Expert
             ball: King Maker
@@ -2577,6 +2731,7 @@ holes:
         - title: Vegas - Expert
           url: https://youtu.be/QwVk8bmcEKw
           metadata:
+            published: 1527621562000
             tournament: Vegas Sundown
             level: Expert
             ball: Katana
@@ -2593,6 +2748,7 @@ holes:
         - title: Vegas - Master
           url: https://youtu.be/TkGdvGQsoJA
           metadata:
+            published: 1527539854000
             tournament: Vegas Sundown
             level: Master
             ball: Snow Globe
@@ -2609,6 +2765,7 @@ holes:
         - title: Vegas - Master
           url: https://youtu.be/tZcd9xP2f1c
           metadata:
+            published: 1527603553000
             tournament: Vegas Sundown
             level: Master
             ball: Snow Globe
@@ -2641,6 +2798,7 @@ holes:
         - title: Platinum Resorts - Expert
           url: https://youtu.be/926vhD2aQ4E
           metadata:
+            published: 1539619245000
             tournament: Platinum Resorts
             level: Expert
             ball: Berserker
@@ -2659,6 +2817,7 @@ holes:
         - title: Platinum Resorts - Master
           url: https://youtu.be/TXOgYj1R0sk
           metadata:
+            published: 1539604998000
             tournament: Platinum Resorts
             level: Master
             ball: Berserker
@@ -2677,6 +2836,7 @@ holes:
         - title: Platinum Resorts - Master
           url: https://youtu.be/fHOpi9IS1Yc
           metadata:
+            published: 1539608477000
             tournament: Platinum Resorts
             level: Master
             ball: Snow Globe
@@ -2695,6 +2855,7 @@ holes:
         - title: Platinum Resorts - Master
           url: https://youtu.be/G7-QSvkHxbg
           metadata:
+            published: 1539612200000
             tournament: Platinum Resorts
             level: Master
             ball: Berserker
@@ -2713,6 +2874,7 @@ holes:
         - title: Platinum Resorts - Master
           url: https://youtu.be/--8nwnemNYo
           metadata:
+            published: 1539694733000
             tournament: Platinum Resorts
             level: Master
             ball: Berserker
@@ -2731,6 +2893,7 @@ holes:
         - title: Tour 9 - Redesign Techniques and Tips
           url: https://youtu.be/hcJv6DX-zYg
           metadata:
+            published: 1527194513000
             tour: 9
             ball: Katana
             teePosition: 2
@@ -2748,6 +2911,7 @@ holes:
         - title: Tour 9 - Bunker Play Tips
           url: https://youtu.be/VJhlQ9DhGSw
           metadata:
+            published: 1527191851000
             tour: 9
             ball: Katana
             teePosition: 2
@@ -2765,6 +2929,7 @@ holes:
         - title: Tour 9 - Thor Drive with Berserker
           url: https://youtu.be/f0RaqmvqxtI
           metadata:
+            published: 1527186675000
             tour: 9
             ball: Berserker
             teePosition: 2
@@ -2780,6 +2945,7 @@ holes:
         - title: Tour 9 - Tips for Moving Pitches to Lower Green Elevations
           url: https://youtu.be/3-erDNUDC2g
           metadata:
+            published: 1527184287000
             tour: 9
             ball: Katana
             teePosition: 2
@@ -2797,6 +2963,7 @@ holes:
         - title: Tour 9 - Tips for Downwind Short Iron
           url: https://youtu.be/nyrQTrdoVy0
           metadata:
+            published: 1527179515000
             tour: 9
             ball: King Maker
             teePosition: 2
@@ -2816,6 +2983,7 @@ holes:
         - title: Tour 9 - Strategies and Tips
           url: https://youtu.be/3NUtIOCGJys
           metadata:
+            published: 1527177506000
             tour: 9
             ball: Katana
             teePosition: 2
@@ -2833,6 +3001,7 @@ holes:
         - title: Tour 9 - Redesigned par 5 Tips
           url: https://youtu.be/kvx3imn0It0
           metadata:
+            published: 1527175851000
             tour: 9
             ball: Katana
             teePosition: 2
@@ -2850,6 +3019,7 @@ holes:
         - title: Vegas - Rookie
           url: https://youtu.be/FfgmVMrqQTM
           metadata:
+            published: 1527512425000
             tournament: Vegas Sundown
             level: Rookie
             ball: Katana
@@ -2870,6 +3040,7 @@ holes:
         - title: Vegas - Rookie
           url: https://youtu.be/cM33-_5KXNk
           metadata:
+            published: 1527802650000
             tournament: Vegas Sundown
             level: Rookie
             ball: Katana
@@ -2888,6 +3059,7 @@ holes:
         - title: Vegas - Rookie
           url: https://youtu.be/cob7ykmpzq0
           metadata:
+            published: 1527805969000
             tournament: Vegas Sundown
             level: Rookie
             ball: Katana
@@ -2906,6 +3078,7 @@ holes:
         - title: Vegas - Pro
           url: https://youtu.be/L_pv6UgAqG0
           metadata:
+            published: 1527534648000
             tournament: Vegas Sundown
             level: Pro
             ball: Katana
@@ -2924,6 +3097,7 @@ holes:
         - title: Vegas - Pro
           url: https://youtu.be/J32Cb5hjOWw
           metadata:
+            published: 1527614781000
             tournament: Vegas Sundown
             level: Pro
             ball: King Maker
@@ -2942,6 +3116,7 @@ holes:
         - title: Vegas - Expert
           url: https://youtu.be/oVCr8P48Hps
           metadata:
+            published: 1527506520000
             tournament: Vegas Sundown
             level: Expert
             ball: Berserker
@@ -2960,6 +3135,7 @@ holes:
         - title: Vegas - Expert
           url: https://youtu.be/Fas8DXj6C-k
           metadata:
+            published: 1527598716000
             tournament: Vegas Sundown
             level: Expert
             ball: Berserker
@@ -2978,6 +3154,7 @@ holes:
         - title: Vegas - Expert
           url: https://youtu.be/Oawgf2TwpNM
           metadata:
+            published: 1527622565000
             tournament: Vegas Sundown
             level: Expert
             ball: Berserker
@@ -2996,6 +3173,7 @@ holes:
         - title: Vegas - Master
           url: https://youtu.be/3vqstv77Gbk
           metadata:
+            published: 1527541859000
             tournament: Vegas Sundown
             level: Master
             ball: Snow Globe
@@ -3014,6 +3192,7 @@ holes:
         - title: Vegas - Master
           url: https://youtu.be/Xk7WfaNqOXc
           metadata:
+            published: 1527604293000
             tournament: Vegas Sundown
             level: Master
             ball: Snow Globe

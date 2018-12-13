@@ -35,6 +35,7 @@ holes:
         - title: Tour 11 - Strategy and Tips
           url: https://youtu.be/4-4tSxwqFuY
           metadata:
+            published: 1537916250000
             tour: 11
             ball: King Maker
             teePosition: 3
@@ -50,6 +51,7 @@ holes:
         - title: Tour 7 - Tips and Strategy
           url: https://youtu.be/LHGFQYunjFA
           metadata:
+            published: 1524939170000
             tour: 7
             ball: Navigator
             teePosition: 2
@@ -65,6 +67,7 @@ holes:
         - title: Hollywood - Rookie
           url: https://youtu.be/cf9YqgrxJ78
           metadata:
+            published: 1519655109000
             tournament: Hollywood
             level: Rookie
             ball: Navigator
@@ -81,6 +84,7 @@ holes:
         - title: Hollywood - Pro
           url: https://youtu.be/utlhy28474o
           metadata:
+            published: 1519665898000
             tournament: Hollywood
             level: Pro
             ball: King Maker
@@ -97,6 +101,7 @@ holes:
         - title: Hollywood - Expert
           url: https://youtu.be/Mq0uVpxsxHc
           metadata:
+            published: 1519746905000
             tournament: Hollywood
             level: Expert
             ball: King Maker
@@ -113,6 +118,7 @@ holes:
         - title: Hollywood - Master
           url: https://youtu.be/SRrePRcFBdY
           metadata:
+            published: 1519684371000
             tournament: Hollywood
             level: Master
             ball: Movie
@@ -218,16 +224,19 @@ holes:
         - title: General Instruction - 2nd Tee
           url: https://youtu.be/AMmff2txNDk
           metadata:
+            published: 1541691336000
             generalInstruction: true
             teePosition: 2
         - title: General Instruction - 3rd Tee
           url: https://youtu.be/vtTSmsfSTEo
           metadata:
+            published: 1541776386000
             generalInstruction: true
             teePosition: 3
         - title: Tour 11 Shootout - Wind Pointed at 10 O'clock
           url: https://youtu.be/AVeUhlzFVMY
           metadata:
+            published: 1537965584000
             tour: 11
             ball: King Maker
             teePosition: 3
@@ -241,6 +250,7 @@ holes:
         - title: Tour 7 Shootout - Downwind Pointed at 130
           url: https://youtu.be/SEzn3pR8_ks
           metadata:
+            published: 1524938775000
             tour: 7
             ball: Katana
             teePosition: 2
@@ -254,6 +264,7 @@ holes:
         - title: Hollywood - Rookie
           url: https://youtu.be/c3lP0dLE27c
           metadata:
+            published: 1519654549000
             tournament: Hollywood
             level: Rookie
             ball: Navigator
@@ -268,6 +279,7 @@ holes:
         - title: Hollywood - Pro
           url: https://youtu.be/BqsmaAvNqT8
           metadata:
+            published: 1519665596000
             tournament: Hollywood
             level: Pro
             ball: Navigator
@@ -282,6 +294,7 @@ holes:
         - title: Hollywood - Expert
           url: https://youtu.be/BFIz78WamTY
           metadata:
+            published: 1519746514000
             tournament: Hollywood
             level: Expert
             ball: Navigator
@@ -296,6 +309,7 @@ holes:
         - title: Hollywood - Master
           url: https://youtu.be/G7N_UKEfa-8
           metadata:
+            published: 1519683933000
             tournament: Hollywood
             level: Master
             ball: King Maker
@@ -364,6 +378,7 @@ holes:
         - title: Tour 11 - Strategy and Tips
           url: https://youtu.be/m-Nz-E0Cx7M
           metadata:
+            published: 1537963992000
             tour: 11
             ball: King Maker
             teePosition: 3
@@ -379,6 +394,7 @@ holes:
         - title: Labor Day (2018) - Pro
           url: https://youtu.be/ekfLMcapdJ0
           metadata:
+            published: 1536002450000
             tournament: Labor Day 2018
             level: Pro
             ball: Navigator
@@ -395,6 +411,7 @@ holes:
         - title: Tour 7 - Strategy and Tips
           url: https://youtu.be/w414sMi3tmE
           metadata:
+            published: 1525201636000
             tour: 7
             ball: Quasar
             teePosition: 2
@@ -410,6 +427,7 @@ holes:
         - title: Hollywood - Rookie
           url: https://youtu.be/O-bwGaArgAU
           metadata:
+            published: 1519654376000
             tournament: Hollywood
             level: Rookie
             ball: Navigator
@@ -426,6 +444,7 @@ holes:
         - title: Hollywood - Pro
           url: https://youtu.be/EfkH_W4N--Q
           metadata:
+            published: 1519665380000
             tournament: Hollywood
             level: Pro
             ball: Snow Globe
@@ -442,6 +461,7 @@ holes:
         - title: Hollywood - Expert
           url: https://youtu.be/cy_LuW65lA8
           metadata:
+            published: 1519746202000
             tournament: Hollywood
             level: Expert
             ball: Berserker
@@ -458,6 +478,7 @@ holes:
         - title: Hollywood - Master
           url: https://youtu.be/o4XQFV8cla4
           metadata:
+            published: 1519683636000
             tournament: Hollywood
             level: Master
             ball: Berserker
@@ -565,16 +586,19 @@ holes:
         - title: General Instruction - 2nd Tee
           url: https://youtu.be/nIs09yEuXSg
           metadata:
+            published: 1541691910000
             generalInstruction: true
             teePosition: 2
         - title: General Instruction - 3rd Tee
           url: https://youtu.be/rtjsVZuqEuk
           metadata:
+            published: 1541777075000
             generalInstruction: true
             teePosition: 3
         - title: Tour 11 Shootout - Wind Pointed at 730
           url: https://youtu.be/bmJKQ47cW28
           metadata:
+            published: 1537968800000
             tour: 11
             ball: King Maker
             teePosition: 3
@@ -588,6 +612,7 @@ holes:
         - title: Voyager - Rookie
           url: https://youtu.be/1-O0P1Ko1Z4
           metadata:
+            published: 1537203611000
             tournament: Voyager
             level: Rookie
             ball: Marlin
@@ -602,6 +627,7 @@ holes:
         - title: Voyager - Rookie
           url: https://youtu.be/FSeDNvFLoXk
           metadata:
+            published: 1537287371000
             tournament: Voyager
             level: Rookie
             ball: Marlin
@@ -616,6 +642,7 @@ holes:
         - title: Voyager - Pro
           url: https://youtu.be/oA_f-DZY140
           metadata:
+            published: 1537187239000
             tournament: Voyager
             level: Pro
             ball: Navigator
@@ -630,6 +657,7 @@ holes:
         - title: Voyager - Pro
           url: https://youtu.be/dtAyPDUPxYg
           metadata:
+            published: 1537290395000
             tournament: Voyager
             level: Pro
             ball: Quasar
@@ -644,6 +672,7 @@ holes:
         - title: Voyager - Pro
           url: https://youtu.be/lfDYTz-Vw8g
           metadata:
+            published: 1537297029000
             tournament: Voyager
             level: Pro
             ball: Navigator
@@ -658,6 +687,7 @@ holes:
         - title: Voyager - Expert
           url: https://youtu.be/uuCGHsvIyoA
           metadata:
+            published: 1537190762000
             tournament: Voyager
             level: Expert
             ball: King Maker
@@ -672,6 +702,7 @@ holes:
         - title: Voyager - Expert
           url: https://youtu.be/jAxmqdtGPSc
           metadata:
+            published: 1537281791000
             tournament: Voyager
             level: Expert
             ball: Oceania
@@ -686,6 +717,7 @@ holes:
         - title: Voyager - Expert
           url: https://youtu.be/ttCdkgcTnAI
           metadata:
+            published: 1537284512000
             tournament: Voyager
             level: Expert
             ball: King Maker
@@ -700,6 +732,7 @@ holes:
         - title: Voyager - Master
           url: https://youtu.be/1OaUIeIsYc4
           metadata:
+            published: 1537207183000
             tournament: Voyager
             level: Master
             ball: King Maker
@@ -714,6 +747,7 @@ holes:
         - title: Voyager - Master
           url: https://youtu.be/-gCqBm2G4LM
           metadata:
+            published: 1537274053000
             tournament: Voyager
             level: Master
             ball: Bunny
@@ -728,6 +762,7 @@ holes:
         - title: Voyager - Master
           url: https://youtu.be/CLPHItwxy5Y
           metadata:
+            published: 1537277725000
             tournament: Voyager
             level: Master
             ball: Bandera
@@ -742,6 +777,7 @@ holes:
         - title: Hollywood - Rookie
           url: https://youtu.be/t9stZqjgRf8
           metadata:
+            published: 1519654257000
             tournament: Hollywood
             level: Rookie
             ball: Marlin
@@ -756,6 +792,7 @@ holes:
         - title: Hollywood - Pro
           url: https://youtu.be/nXJ8IoeFU6I
           metadata:
+            published: 1519665086000
             tournament: Hollywood
             level: Pro
             ball: Navigator
@@ -770,6 +807,7 @@ holes:
         - title: Hollywood - Expert
           url: https://youtu.be/pxoycxmIAIM
           metadata:
+            published: 1519746001000
             tournament: Hollywood
             level: Expert
             ball: Movie
@@ -784,6 +822,7 @@ holes:
         - title: Hollywood - Master
           url: https://youtu.be/0Kp_ztCN3eE
           metadata:
+            published: 1519683303000
             tournament: Hollywood
             level: Master
             ball: Mummy
@@ -891,6 +930,7 @@ holes:
         - title: Tour 11 - Strategy and Tips
           url: https://youtu.be/G2Aecc5OP-8
           metadata:
+            published: 1537968665000
             tour: 11
             ball: King Maker
             teePosition: 3
@@ -906,6 +946,7 @@ holes:
         - title: Voyager - Rookie
           url: https://youtu.be/3YSMGtPyt4w
           metadata:
+            published: 1537203547000
             tournament: Voyager
             level: Rookie
             ball: Titan
@@ -922,6 +963,7 @@ holes:
         - title: Voyager - Rookie
           url: https://youtu.be/qVA97mBzxqg
           metadata:
+            published: 1537287983000
             tournament: Voyager
             level: Rookie
             ball: Titan
@@ -938,6 +980,7 @@ holes:
         - title: Voyager - Pro
           url: https://youtu.be/x0hf240SmjU
           metadata:
+            published: 1537187804000
             tournament: Voyager
             level: Pro
             ball: King Maker
@@ -954,6 +997,7 @@ holes:
         - title: Voyager - Pro
           url: https://youtu.be/wOZZduEIhbA
           metadata:
+            published: 1537291109000
             tournament: Voyager
             level: Pro
             ball: Titan
@@ -970,6 +1014,7 @@ holes:
         - title: Voyager - Pro
           url: https://youtu.be/UVbKgBLCZkM
           metadata:
+            published: 1537297184000
             tournament: Voyager
             level: Pro
             ball: Titan
@@ -986,6 +1031,7 @@ holes:
         - title: Voyager - Expert
           url: https://youtu.be/n-i6oOdhEOY
           metadata:
+            published: 1537191445000
             tournament: Voyager
             level: Expert
             ball: King Maker
@@ -1002,6 +1048,7 @@ holes:
         - title: Voyager - Expert
           url: https://youtu.be/ebQquZAYJ5I
           metadata:
+            published: 1537282571000
             tournament: Voyager
             level: Expert
             ball: Royal
@@ -1018,6 +1065,7 @@ holes:
         - title: Voyager - Expert
           url: https://youtu.be/kOAFs-rnTdE
           metadata:
+            published: 1537285102000
             tournament: Voyager
             level: Expert
             ball: King Maker
@@ -1034,6 +1082,7 @@ holes:
         - title: Voyager - Master
           url: https://youtu.be/lBM4iYo807s
           metadata:
+            published: 1537207377000
             tournament: Voyager
             level: Master
             ball: King Maker
@@ -1050,6 +1099,7 @@ holes:
         - title: Voyager - Master
           url: https://youtu.be/RpSCqhOtJac
           metadata:
+            published: 1537274722000
             tournament: Voyager
             level: Master
             ball: King Maker
@@ -1066,6 +1116,7 @@ holes:
         - title: Voyager - Master
           url: https://youtu.be/HpaqJ9EeHS0
           metadata:
+            published: 1537278326000
             tournament: Voyager
             level: Master
             ball: King Maker
@@ -1082,6 +1133,7 @@ holes:
         - title: Tour 7 - Scrambling Techniques and Tips
           url: https://youtu.be/ZFH-GsejJCc
           metadata:
+            published: 1524942730000
             tour: 7
             ball: Katana
             teePosition: 2
@@ -1099,6 +1151,7 @@ holes:
         - title: Tour 7 - Tips and Strategy
           url: https://youtu.be/NYsGV3WJm9w
           metadata:
+            published: 1524941019000
             tour: 7
             ball: Katana
             teePosition: 2
@@ -1114,6 +1167,7 @@ holes:
         - title: Hollywood - Rookie
           url: https://youtu.be/HA6L2PYuhfI
           metadata:
+            published: 1519654067000
             tournament: Hollywood
             level: Rookie
             ball: Katana
@@ -1130,6 +1184,7 @@ holes:
         - title: Hollywood - Pro
           url: https://youtu.be/6twS4sugApY
           metadata:
+            published: 1519664878000
             tournament: Hollywood
             level: Pro
             ball: Katana
@@ -1146,6 +1201,7 @@ holes:
         - title: Hollywood - Expert
           url: https://youtu.be/FHj-7L8RlNc
           metadata:
+            published: 1519745731000
             tournament: Hollywood
             level: Expert
             ball: King Maker
@@ -1162,6 +1218,7 @@ holes:
         - title: Hollywood - Master
           url: https://youtu.be/SiRK0yw3wwo
           metadata:
+            published: 1519682804000
             tournament: Hollywood
             level: Master
             ball: Snow Globe
@@ -1279,6 +1336,7 @@ holes:
         - title: Tour 11 - Strategy and Tips
           url: https://youtu.be/DMvEUQipR9Q
           metadata:
+            published: 1537967277000
             tour: 11
             ball: King Maker
             teePosition: 3
@@ -1294,6 +1352,7 @@ holes:
         - title: Voyager - Rookie
           url: https://youtu.be/GFErHxZZYvc
           metadata:
+            published: 1537203259000
             tournament: Voyager
             level: Rookie
             ball: Katana
@@ -1310,6 +1369,7 @@ holes:
         - title: Voyager - Rookie
           url: https://youtu.be/AqUPUyeaND8
           metadata:
+            published: 1537286721000
             tournament: Voyager
             level: Rookie
             ball: Katana
@@ -1326,6 +1386,7 @@ holes:
         - title: Voyager - Pro
           url: https://youtu.be/s1Q6h2BTsEI
           metadata:
+            published: 1537186815000
             tournament: Voyager
             level: Pro
             ball: Navigator
@@ -1342,6 +1403,7 @@ holes:
         - title: Voyager - Pro
           url: https://youtu.be/8CeUtMF1rAE
           metadata:
+            published: 1537291347000
             tournament: Voyager
             level: Pro
             ball: King Maker
@@ -1358,6 +1420,7 @@ holes:
         - title: Voyager - Pro
           url: https://youtu.be/5HJ_QXrynLs
           metadata:
+            published: 1537296690000
             tournament: Voyager
             level: Pro
             ball: Navigator
@@ -1374,6 +1437,7 @@ holes:
         - title: Voyager - Expert
           url: https://youtu.be/c-Qnh2_a6Sw
           metadata:
+            published: 1537190357000
             tournament: Voyager
             level: Expert
             ball: King Maker
@@ -1390,6 +1454,7 @@ holes:
         - title: Voyager - Expert
           url: https://youtu.be/nc2COKDb6Yo
           metadata:
+            published: 1537281292000
             tournament: Voyager
             level: Expert
             ball: Bandera
@@ -1406,6 +1471,7 @@ holes:
         - title: Voyager - Expert
           url: https://youtu.be/2cU0jedwXIE
           metadata:
+            published: 1537284138000
             tournament: Voyager
             level: Expert
             ball: King Maker
@@ -1422,6 +1488,7 @@ holes:
         - title: Voyager - Master
           url: https://youtu.be/PNGlUvu3qfM
           metadata:
+            published: 1537207135000
             tournament: Voyager
             level: Master
             ball: King Maker
@@ -1438,6 +1505,7 @@ holes:
         - title: Voyager - Master
           url: https://youtu.be/brE9Gcv-0KE
           metadata:
+            published: 1537273642000
             tournament: Voyager
             level: Master
             ball: Bunny
@@ -1454,6 +1522,7 @@ holes:
         - title: Voyager - Master
           url: https://youtu.be/vdh016i87cc
           metadata:
+            published: 1537277362000
             tournament: Voyager
             level: Master
             ball: King Maker
@@ -1470,6 +1539,7 @@ holes:
         - title: Tour 7 - Layup Technique Strategy for Success
           url: https://youtu.be/o90fm9Ryk-E
           metadata:
+            published: 1524943171000
             tour: 7
             ball: Navigator
             teePosition: 2
@@ -1485,6 +1555,7 @@ holes:
         - title: Tour 7 - Going for the Green
           url: https://youtu.be/hnPsv7-uIy0
           metadata:
+            published: 1524938689000
             tour: 7
             ball: Katana
             teePosition: 2
@@ -1500,6 +1571,7 @@ holes:
         - title: Hollywood - Rookie
           url: https://youtu.be/LIx7DjFR4J8
           metadata:
+            published: 1519653966000
             tournament: Hollywood
             level: Rookie
             ball: Katana
@@ -1516,6 +1588,7 @@ holes:
         - title: Hollywood - Pro
           url: https://youtu.be/dOCKtBetY3s
           metadata:
+            published: 1519664610000
             tournament: Hollywood
             level: Pro
             ball: Titan
@@ -1532,6 +1605,7 @@ holes:
         - title: Hollywood - Expert
           url: https://youtu.be/ZlYYGRgC-2M
           metadata:
+            published: 1519745462000
             tournament: Hollywood
             level: Expert
             ball: Katana
@@ -1548,6 +1622,7 @@ holes:
         - title: Hollywood - Master
           url: https://youtu.be/cCy2mhZ0xhM
           metadata:
+            published: 1519682284000
             tournament: Hollywood
             level: Master
             ball: King Maker
@@ -1686,16 +1761,19 @@ holes:
         - title: General Instruction - 2nd Tee
           url: https://youtu.be/dmb9pUomnV4
           metadata:
+            published: 1541692231000
             generalInstruction: true
             teePosition: 2
         - title: General Instruction - 3rd Tee
           url: https://youtu.be/K1QD-Dz6WN4
           metadata:
+            published: 1541777796000
             generalInstruction: true
             teePosition: 3
         - title: Tour 11 - Wind Pointed at 10 O'clock
           url: https://youtu.be/NTeACNr9S9o
           metadata:
+            published: 1537967368000
             tour: 11
             ball: King Maker
             teePosition: 3
@@ -1709,6 +1787,7 @@ holes:
         - title: Labor Day (2018) - Pro
           url: https://youtu.be/8i1H6EdbtZk
           metadata:
+            published: 1536002351000
             tournament: Labor Day 2018
             level: Pro
             ball: Navigator
@@ -1723,6 +1802,7 @@ holes:
         - title: Tour 7 - Wind Pointed at 10 O'clock
           url: https://youtu.be/dd7g1po4BhY
           metadata:
+            published: 1524939244000
             tour: 7
             ball: Navigator
             teePosition: 2
@@ -1736,6 +1816,7 @@ holes:
         - title: Hollywood - Rookie
           url: https://youtu.be/AeWx-275rB4
           metadata:
+            published: 1519653829000
             tournament: Hollywood
             level: Rookie
             ball: Marlin
@@ -1750,6 +1831,7 @@ holes:
         - title: Hollywood - Pro
           url: https://youtu.be/U5tKhwZO6Xs
           metadata:
+            published: 1519664341000
             tournament: Hollywood
             level: Pro
             ball: Navigator
@@ -1764,6 +1846,7 @@ holes:
         - title: Hollywood - Expert
           url: https://youtu.be/6CE9fCgwqlU
           metadata:
+            published: 1519745149000
             tournament: Hollywood
             level: Expert
             ball: Turkey
@@ -1778,6 +1861,7 @@ holes:
         - title: Hollywood - Master
           url: https://youtu.be/_jq8GC12uus
           metadata:
+            published: 1519682009000
             tournament: Hollywood
             level: Master
             ball: Turkey
@@ -1881,6 +1965,7 @@ holes:
         - title: Tour 11 - Strategy and Tips
           url: https://youtu.be/5WqYcfRpC70
           metadata:
+            published: 1537965867000
             tour: 11
             ball: King Maker
             teePosition: 3
@@ -1898,6 +1983,7 @@ holes:
         - title: Labor Day (2018) - Pro
           url: https://youtu.be/m-AEUYItGUg
           metadata:
+            published: 1536002269000
             tournament: Labor Day 2018
             level: Pro
             ball: Titan
@@ -1914,6 +2000,7 @@ holes:
         - title: Hollywood - Rookie
           url: https://youtu.be/qGlFHpFKomU
           metadata:
+            published: 1519653741000
             tournament: Hollywood
             level: Rookie
             ball: Katana
@@ -1930,6 +2017,7 @@ holes:
         - title: Hollywood - Pro
           url: https://youtu.be/aPon299u0Vs
           metadata:
+            published: 1519664206000
             tournament: Hollywood
             level: Pro
             ball: Snow Globe
@@ -1946,6 +2034,7 @@ holes:
         - title: Hollywood - Expert
           url: https://youtu.be/RKtMrDkgGE0
           metadata:
+            published: 1519744856000
             tournament: Hollywood
             level: Expert
             ball: Snow Globe
@@ -1962,6 +2051,7 @@ holes:
         - title: Hollywood - Master
           url: https://youtu.be/mXrZzapLhQ8
           metadata:
+            published: 1519681729000
             tournament: Hollywood
             level:  Master
             ball: Berserker
@@ -2094,6 +2184,7 @@ holes:
         - title: Tour 11 - Strategy and Tips
           url: https://youtu.be/VQpdd_qWjgk
           metadata:
+            published: 1537963575000
             tour: 11
             ball: King Maker
             teePosition: 3
@@ -2111,6 +2202,7 @@ holes:
         - title: Hollywood - Rookie
           url: https://youtu.be/lonRHlEz_o8
           metadata:
+            published: 1519653525000
             tournament: Hollywood
             level: Rookie
             ball: Katana
@@ -2127,6 +2219,7 @@ holes:
         - title: Hollywood - Pro
           url: https://youtu.be/AkyHS4Xaw5s
           metadata:
+            published: 1519663983000
             tournament: Hollywood
             level: Pro
             ball: Snow Globe
@@ -2145,6 +2238,7 @@ holes:
         - title: Hollywood - Expert
           url: https://youtu.be/7ycDKJNiyZg
           metadata:
+            published: 1519744494000
             tournament: Hollywood
             level: Expert
             ball: King Maker
@@ -2161,6 +2255,7 @@ holes:
         - title: Hollywood - Master
           url: https://youtu.be/EctG4QR8_9U
           metadata:
+            published: 1519681374000
             tournament: Hollywood
             level: Master
             ball: Berserker
