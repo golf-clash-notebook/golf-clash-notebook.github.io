@@ -37,11 +37,13 @@ holes:
         - title: General Instruction - 2nd Tee
           url: https://youtu.be/garradfajBA
           metadata:
+            published: 1541703360000
             generalInstruction: true
             teePosition: 2
         - title: Tour 10 Shootout - Tailwind Pointed at 11 O'clock
           url: https://youtu.be/gOzLlI05kV0
           metadata:
+            published: 1523928445000
             tour: 10
             ball: Katana
             teePosition: 2
@@ -55,6 +57,7 @@ holes:
         - title: Tour 10 Shootout - Nasty Headwinds
           url: https://youtu.be/OxGibUomBvM
           metadata:
+            published: 1518020254000
             tour: 10
             ball: Basic
             teePosition: 2
@@ -68,6 +71,7 @@ holes:
         - title: Tour 8 Shootout - Strong Right to Left Wind
           url: https://youtu.be/zsGDfADYpZE
           metadata:
+            published: 1517947173000
             tour: 8
             ball: Basic
             teePosition: 2
@@ -81,6 +85,7 @@ holes:
         - title: Tour 8 Shootout - Left to Right Wind Pointed at 130
           url: https://youtu.be/3aLT2m3wMS0
           metadata:
+            published: 1517944274000
             tour: 8
             ball: Basic
             teePosition: 2
@@ -94,6 +99,7 @@ holes:
         - title: Tour 8 Shootout - Left to Right Wind Pointed at 2 O'clock
           url: https://youtu.be/6suOlzjc8uo
           metadata:
+            published: 1517942968000
             tour: 8
             ball: Basic
             teePosition: 2
@@ -107,6 +113,7 @@ holes:
         - title: Tour 8 Shootout - Right to Left Wind
           url: https://youtu.be/aKk4tT9p9-Y
           metadata:
+            published: 1517927726000
             tour: 8
             ball: Basic
             teePosition: 2
@@ -120,6 +127,7 @@ holes:
         - title: 1 Year Anniversary - Rookie
           url: https://youtu.be/72joVRC0X5E
           metadata:
+            published: 1516025542000
             tournament: 1 Year Anniversary
             level: Rookie
             ball: Marlin
@@ -134,6 +142,7 @@ holes:
         - title: 1 Year Anniversary - Pro
           url: https://youtu.be/Hk0ucNkcAuI
           metadata:
+            published: 1516030232000
             tournament: 1 Year Anniversary
             level: Pro
             ball: Navigator
@@ -220,6 +229,7 @@ holes:
         - title: Tour 10 - Strategy and Tips
           url: https://youtu.be/lSsyIJA5kUU
           metadata:
+            published: 1537980928000
             tour: 10
             ball: King Maker
             teePosition: 2
@@ -235,6 +245,7 @@ holes:
         - title: Tour 10 - Hard Sidewind Tips and Tricks for Going at the Green
           url: https://youtu.be/30l2DWZVKyM
           metadata:
+            published: 1525912624000
             tour: 10
             ball: King Maker
             teePosition: 2
@@ -343,6 +354,7 @@ holes:
         - title: Tour 10 - Tips for Going for the Island Hop
           url: https://youtu.be/He-F7juS68E
           metadata:
+            published: 1525898750000
             tour: 10
             ball: King Maker
             teePosition: 2
@@ -358,6 +370,7 @@ holes:
         - title: Tour 8 - Tailwind
           url: https://youtu.be/2pk5l7SEOlY
           metadata:
+            published: 1525894420000
             tour: 8
             ball: Navigator
             teePosition: 2
@@ -373,6 +386,7 @@ holes:
         - title: Tour 8 - 7 O'clock Wind
           url: https://youtu.be/2QSDLkSkdzM
           metadata:
+            published: 1525886054000
             tour: 8
             ball: Katana
             teePosition: 2
@@ -388,6 +402,7 @@ holes:
         - title: Tour 8 - Headwind
           url: https://youtu.be/vMRLi8HOloE
           metadata:
+            published: 1525812724000
             tour: 8
             ball: Titan
             teePosition: 2
@@ -403,6 +418,7 @@ holes:
         - title: 1 Year Anniversary - Rookie
           url: https://youtu.be/gyXPg1YcGJA
           metadata:
+            published: 1516025890000
             tournament: 1 Year Anniversary
             level: Rookie
             ball: Quasar
@@ -419,6 +435,7 @@ holes:
         - title: 1 Year Anniversary - Pro
           url: https://youtu.be/GB8RQ08Qv4M
           metadata:
+            published: 1516030708000
             tournament: 1 Year Anniversary
             level: Pro
             ball: Quasar
@@ -567,6 +584,7 @@ holes:
         - title: Tour 10 - Strategy and Tips
           url: https://youtu.be/ZCt03Bqs20I
           metadata:
+            published: 1537979791000
             tour: 10
             ball: King Maker
             teePosition: 2
@@ -582,6 +600,7 @@ holes:
         - title: Tour 10 - Strategy and Tips for Eagle
           url: https://youtu.be/hrsZytyw_rg
           metadata:
+            published: 1525896157000
             tour: 10
             ball: Titan
             teePosition: 2
@@ -692,11 +711,13 @@ holes:
         - title: General Instruction - 2nd Tee
           url: https://youtu.be/NArOGl9blEE
           metadata:
+            published: 1541703948000
             generalInstruction: true
             teePosition: 2
         - title: Tour 10 - Wind Pointed at 4 O'clock
           url: https://youtu.be/UADk4_nsZIQ
           metadata:
+            published: 1537984176000
             tour: 10
             ball: Snowman
             teePosition: 2
@@ -710,6 +731,7 @@ holes:
         - title: Tour 10 Shootout
           url: https://youtu.be/HrOGSz6GhAM
           metadata:
+            published: 1525898204000
             tour: 10
             ball: Katana
             teePosition: 2
@@ -723,6 +745,7 @@ holes:
         - title: Tour 10 Shootout - Strong Headwind Tips
           url: https://youtu.be/6wELiH7PA6U
           metadata:
+            published: 1518019623000
             tour: 10
             ball: Basic
             teePosition: 2
@@ -736,6 +759,7 @@ holes:
         - title: Tour 8 Shootout - Tailwind
           url: https://youtu.be/2QSDLkSkdzM
           metadata:
+            published: 1525886054000
             tour: 8
             ball: Katana
             teePosition: 2
@@ -749,6 +773,7 @@ holes:
         - title: Tour 8 Shootout - Tailwind
           url: https://youtu.be/Vk96vLeEqPU
           metadata:
+            published: 1517947715000
             tour: 8
             ball: Basic
             teePosition: 2
@@ -762,6 +787,7 @@ holes:
         - title: Tour 8 Shootout - Right to Left Wind at 10 O'clock
           url: https://youtu.be/dYZkW9t0JwI
           metadata:
+            published: 1517938935000
             tour: 8
             ball: Basic
             teePosition: 2
@@ -775,6 +801,7 @@ holes:
         - title: Tour 8 Shootout - Left to Right Wind Pointed at 3 O'clock
           url: https://youtu.be/_YlW3pGA8bo
           metadata:
+            published: 1517938363000
             tour: 8
             ball: Basic
             teePosition: 2
@@ -788,6 +815,7 @@ holes:
         - title: Tour 8 Shootout - Tailwind Pointed at 130
           url: https://youtu.be/cTyl89Anxr8
           metadata:
+            published: 1517932866000
             tour: 8
             ball: Basic
             teePosition: 2
@@ -801,6 +829,7 @@ holes:
         - title: Tour 8 Shootout - Right to Left Wind
           url: https://youtu.be/yD_6BVCcYC0
           metadata:
+            published: 1517931734000
             tour: 8
             ball: Basic
             teePosition: 2
@@ -814,6 +843,7 @@ holes:
         - title: Tour 8 Shootout - Headwind
           url: https://youtu.be/fVlQMYk-57A
           metadata:
+            published: 1517930424000
             tour: 8
             ball: Basic
             teePosition: 2
@@ -827,6 +857,7 @@ holes:
         - title: Tour 8 Shootout - Left to Right Wind
           url: https://youtu.be/t_dxhX8wUHw
           metadata:
+            published: 1517928242000
             tour: 8
             ball: Basic
             teePosition: 2
@@ -904,11 +935,13 @@ holes:
         - title: General Instruction - 2nd Tee
           url: https://youtu.be/7YLpuTL5nyw
           metadata:
+            published: 1541704833000
             generalInstruction: true
             teePosition: 2
         - title: Tour 10 Shootout - Hard Wind Pointed at 5 O'clock
           url: https://youtu.be/HH4fOgBv-K8
           metadata:
+            published: 1537985063000
             tour: 10
             ball: King Maker
             teePosition: 2
@@ -922,6 +955,7 @@ holes:
         - title: Tour 10 Shootout - Wind Pointed at 1 O'clock
           url: https://youtu.be/GUp5yvt2ulQ
           metadata:
+            published: 1537982740000
             tour: 10
             ball: King Maker
             teePosition: 2
@@ -935,6 +969,7 @@ holes:
         - title: Tour 10 Shootout - Strong Headwind at 6 O'clock
           url: https://youtu.be/4w-YIbu2-Qo
           metadata:
+            published: 1518036728000
             tour: 10
             ball: Basic
             teePosition: 2
@@ -948,6 +983,7 @@ holes:
         - title: Tour 10 Shootout - Wind Pointed at 4 O'clock
           url: https://youtu.be/MU-0B0Zw59I
           metadata:
+            published: 1518035017000
             tour: 10
             ball: Marlin
             teePosition: 2
@@ -961,6 +997,7 @@ holes:
         - title: Tour 10 Shootout - Hard Headwind Pointed at 5 O'clock
           url: https://youtu.be/GOq9-Jcamvw
           metadata:
+            published: 1518030139000
             tour: 10
             ball: Basic
             teePosition: 2
@@ -974,6 +1011,7 @@ holes:
         - title: Tour 10 Shootout - Tailwind
           url: https://youtu.be/_Ofsn0vHVAM
           metadata:
+            published: 1518013445000
             tour: 10
             ball: Basic
             teePosition: 2
@@ -987,6 +1025,7 @@ holes:
         - title: Tour 10 Shootout - Strong Left to Right Wind
           url: https://youtu.be/Tbf3O86WGrQ
           metadata:
+            published: 1518010595000
             tour: 10
             ball: Basic
             teePosition: 2
@@ -1000,6 +1039,7 @@ holes:
         - title: Tour 10 Shootout - Strong Left to Right Wind
           url: https://youtu.be/Tbf3O86WGrQ
           metadata:
+            published: 1518010595000
             tour: 10
             ball: Basic
             teePosition: 2
@@ -1013,6 +1053,7 @@ holes:
         - title: Tour 8 Shootout - Strong Right to Left wind
           url: https://youtu.be/QtCQ8I7T2EA
           metadata:
+            published: 1517968793000
             tour: 8
             ball: Basic
             teePosition: 2
@@ -1026,6 +1067,7 @@ holes:
         - title: Tour 8 Shootout - Strong Tailwind
           url: https://youtu.be/AumUz3XiTmc
           metadata:
+            published: 1517941378000
             tour: 8
             ball: Basic
             teePosition: 2
@@ -1039,6 +1081,7 @@ holes:
         - title: Tour 8 Shootout - Strong Headwind Pointed at 5 O'clock
           url: https://youtu.be/jzvdszjHJLw
           metadata:
+            published: 1517936659000
             tour: 8
             ball: Navigator
             teePosition: 2
@@ -1052,6 +1095,7 @@ holes:
         - title: Tour 8 Shootout - Tailwind
           url: https://youtu.be/PJ59gmm2OxU
           metadata:
+            published: 1517891280000
             tour: 8
             ball: Basic
             teePosition: 2
@@ -1122,6 +1166,7 @@ holes:
         - title: Tour 10 - Strategy and Tips
           url: https://youtu.be/EgEiUw5tqUs
           metadata:
+            published: 1537984962000
             tour: 10
             ball: King Maker
             teePosition: 2
@@ -1137,6 +1182,7 @@ holes:
         - title: Tour 8 - Headwind
           url: https://youtu.be/8aOAoh4tP-U
           metadata:
+            published: 1525886388000
             tour: 8
             ball: Quasar
             teePosition: 2
@@ -1218,6 +1264,7 @@ holes:
         - title: Tour 10 - Strategy and Tips
           url: https://youtu.be/qM9vICY-RpI
           metadata:
+            published: 1537982632000
             tour: 10
             ball: King Maker
             teePosition: 2
@@ -1233,6 +1280,7 @@ holes:
         - title: Tour 8 - Headwind
           url: https://youtu.be/MwyIpXxTFv0
           metadata:
+            published: 1525897056000
             tour: 8
             ball: Katana
             teePosition: 2
@@ -1352,6 +1400,7 @@ holes:
         - title: Tour 10 - Strategy and Tips
           url: https://youtu.be/9EryJTCSb7Y
           metadata:
+            published: 1537976552000
             tour: 10
             ball: King Maker
             teePosition: 2
@@ -1369,6 +1418,7 @@ holes:
         - title: Tour 10 - Trick for Getting to the Green in 2 When Aimed OB
           url: https://youtu.be/zOp0EmEk5vQ
           metadata:
+            published: 1525912070000
             tour: 10
             ball: Katana
             teePosition: 2
@@ -1386,6 +1436,7 @@ holes:
         - title: Tour 8 - Headwind
           url: https://youtu.be/3JEXqL9mXVk
           metadata:
+            published: 1525886582000
             tour: 8
             ball: Navigator
             teePosition: 2
@@ -1403,6 +1454,7 @@ holes:
         - title: Tour 8 - Headwind
           url: https://youtu.be/mWNloaLtPm0
           metadata:
+            published: 1525810789000
             tour: 8
             ball: Navigator
             teePosition: 2

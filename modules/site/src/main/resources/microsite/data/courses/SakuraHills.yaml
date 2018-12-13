@@ -40,11 +40,13 @@ holes:
         - title: General Instruction - 2nd Tee
           url: https://youtu.be/K31_LOqHepE
           metadata:
+            published: 1541684103000
             generalInstruction: true
             teePosition: 2
         - title: Mountain - Rookie
           url: https://youtu.be/06cJa9zPKwU
           metadata:
+            published: 1542128401000
             tournament: Mountain
             level: Rookie
             teePosition: 1
@@ -59,6 +61,7 @@ holes:
         - title: Mountain - Pro
           url: https://youtu.be/MUP7lFcVy6A
           metadata:
+            published: 1542051915000
             tournament: Mountain
             level: Pro
             teePosition: 2
@@ -73,6 +76,7 @@ holes:
         - title: Mountain - Expert
           url: https://youtu.be/4SHuSy3aRxY
           metadata:
+            published: 1542044517000
             tournament: Mountain
             level: Expert
             teePosition: 2
@@ -87,6 +91,7 @@ holes:
         - title: Mountain - Masters
           url: https://youtu.be/sWG98ZA1lbI
           metadata:
+            published: 1542031637000
             tournament: Mountain
             level: Masters
             teePosition: 3
@@ -101,6 +106,7 @@ holes:
         - title: Mountain - Masters
           url: https://youtu.be/GaKlh4x63t4
           metadata:
+            published: 1542041184000
             tournament: Mountain
             level: Masters
             teePosition: 3
@@ -115,6 +121,7 @@ holes:
         - title: Mountain - Masters
           url: https://youtu.be/iU9joPaetSI
           metadata:
+            published: 1542118577000
             tournament: Mountain
             level: Masters
             teePosition: 3
@@ -129,6 +136,7 @@ holes:
         - title: Tour 8 Shootout - Strong Tailwind
           url: https://youtu.be/XRrtauUEp2c
           metadata:
+            published: 1517976467000
             tour: 8
             ball: Basic
             teePosition: 2
@@ -142,6 +150,7 @@ holes:
         - title: Tour 8 Shootout - Left to Right Wind Pointed at 2 O`clock
           url: https://youtu.be/eXhog7M16rw
           metadata:
+            published: 1517941818000
             tour: 8
             ball: Basic
             teePosition: 2
@@ -155,6 +164,7 @@ holes:
         - title: Tour 8 Shootout - Left to Right Wind
           url: https://youtu.be/l9AlNSxhXnY
           metadata:
+            published: 1517932346000
             tour: 8
             ball: Basic
             teePosition: 2
@@ -168,6 +178,7 @@ holes:
         - title: Tour 8 Shootout - Tailwind
           url: https://youtu.be/dlhecQuXHfA
           metadata:
+            published: 1517924008000
             tour: 8
             ball: Basic
             teePosition: 2
@@ -181,6 +192,7 @@ holes:
         - title: Touchdown - Rookie
           url: https://youtu.be/3oNWbTnWCXA
           metadata:
+            published: 1517233380000
             tournament: Touchdown
             level: Rookie
             teePosition: 1
@@ -195,6 +207,7 @@ holes:
         - title: Touchdown - Pro
           url: https://youtu.be/SYN4IefltBQ
           metadata:
+            published: 1517238850000
             tournament: Touchdown
             level: Pro
             teePosition: 2
@@ -209,6 +222,7 @@ holes:
         - title: Touchdown - Expert
           url: https://youtu.be/H1oX1xQ77XE
           metadata:
+            published: 1517313965000
             tournament: Touchdown
             level: Expert
             teePosition: 2
@@ -223,6 +237,7 @@ holes:
         - title: Touchdown - Masters
           url: https://youtu.be/pcLe8RHeCa8
           metadata:
+            published: 1517325038000
             tournament: Touchdown
             level: Masters
             teePosition: 3
@@ -293,6 +308,7 @@ holes:
         - title: Tour 8 - Tailwind Drive Tips
           url: https://youtu.be/uDDuyXX5NGQ
           metadata:
+            published: 1525876637000
             tour: 8
             ball: Marlin
             teePosition: 2
@@ -308,6 +324,7 @@ holes:
         - title: Tour 8 - Strong Tailwind
           url: https://youtu.be/DDp6jIHMVJ4
           metadata:
+            published: 1525815600000
             tour: 8
             ball: Quasar
             teePosition: 2
@@ -323,6 +340,7 @@ holes:
         - title: Touchdown - Rookie
           url: https://youtu.be/lyvRF_71rYM
           metadata:
+            published: 1517233281000
             tournament: Touchdown
             level: Rookie
             teePosition: 1
@@ -340,6 +358,7 @@ holes:
         - title: Touchdown - Pro
           url: https://youtu.be/gQYNM78jSfM
           metadata:
+            published: 1517239006000
             tournament: Touchdown
             level: Pro
             teePosition: 2
@@ -357,6 +376,7 @@ holes:
         - title: Touchdown - Expert
           url: https://youtu.be/ukVQUhdzv04
           metadata:
+            published: 1517314813000
             tournament: Touchdown
             level: Expert
             teePosition: 2
@@ -373,6 +393,7 @@ holes:
         - title: Touchdown - Masters
           url: https://youtu.be/bnnudTlBqAg
           metadata:
+            published: 1517327077000
             tournament: Touchdown
             level: Masters
             teePosition: 3
@@ -463,6 +484,7 @@ holes:
         - title: Mountain - Rookie
           url: https://youtu.be/MMsl0cSQWiQ
           metadata:
+            published: 1542126085000
             tournament: Mountain
             level: Rookie
             teePosition: 1
@@ -479,6 +501,7 @@ holes:
         - title: Mountain - Pro
           url: https://youtu.be/dI249Mlehws
           metadata:
+            published: 1542050720000
             tournament: Mountain
             level: Pro
             teePosition: 2
@@ -495,6 +518,7 @@ holes:
         - title: Mountain - Expert
           url: https://youtu.be/SKobkyWBWI4
           metadata:
+            published: 1542042959000
             tournament: Mountain
             level: Expert
             teePosition: 2
@@ -511,6 +535,7 @@ holes:
         - title: Mountain - Masters
           url: https://youtu.be/55NHyKWnJO4
           metadata:
+            published: 1542029836000
             tournament: Mountain
             level: Masters
             teePosition: 2
@@ -527,6 +552,7 @@ holes:
         - title: Mountain - Masters
           url: https://youtu.be/bqrHh9QaEhM
           metadata:
+            published: 1542039262000
             tournament: Mountain
             level: Masters
             teePosition: 3
@@ -543,6 +569,7 @@ holes:
         - title: Mountain - Masters
           url: https://youtu.be/0YP4QfjJi84
           metadata:
+            published: 1542116664000
             tournament: Mountain
             level: Masters
             teePosition: 3
@@ -559,6 +586,7 @@ holes:
         - title: Touchdown - Rookie
           url: https://youtu.be/n8HX3R4agfM
           metadata:
+            published: 1517231810000
             tournament: Touchdown
             level: Rookie
             teePosition: 1
@@ -575,6 +603,7 @@ holes:
         - title: Touchdown - Pro
           url: https://youtu.be/LWVqwtsrnLE
           metadata:
+            published: 1517236895000
             tournament: Touchdown
             level: Pro
             teePosition: 2
@@ -591,6 +620,7 @@ holes:
         - title: Touchdown - Expert
           url: https://youtu.be/rP0RfsZl_Gc
           metadata:
+            published: 1517310780000
             tournament: Touchdown
             level: Expert
             teePosition: 2
@@ -607,6 +637,7 @@ holes:
         - title: Touchdown - Masters
           url: https://youtu.be/u8gTvVB3OTU
           metadata:
+            published: 1517321204000
             tournament: Touchdown
             level: Masters
             teePosition: 3
@@ -720,6 +751,7 @@ holes:
         - title: Tour 8 - Strategy and Tips for Eagle
           url: https://youtu.be/ywCoPVyR6k8
           metadata:
+            published: 1525808898000
             tour: 8
             ball: Quasar
             teePosition: 2
@@ -737,6 +769,7 @@ holes:
         - title: Touchdown - Rookie
           url: https://youtu.be/W3oh1t8IkdA
           metadata:
+            published: 1517235297000
             tournament: Touchdown
             level: Rookie
             teePosition: 1
@@ -753,6 +786,7 @@ holes:
         - title: Touchdown - Pro
           url: https://youtu.be/sP2dh3bvdrU
           metadata:
+            published: 1517240937000
             tournament: Touchdown
             level: Pro
             teePosition: 2
@@ -769,6 +803,7 @@ holes:
         - title: Touchdown - Expert
           url: https://youtu.be/kThI7-bPbW4
           metadata:
+            published: 1517319228000
             tournament: Touchdown
             level: Expert
             teePosition: 2
@@ -785,6 +820,7 @@ holes:
         - title: Touchdown - Masters
           url: https://youtu.be/BGXsMC_qs_g
           metadata:
+            published: 1517330847000
             tournament: Touchdown
             level: Masters
             teePosition: 3
@@ -903,11 +939,13 @@ holes:
         - title: General Instruction - 2nd Tee
           url: https://youtu.be/xGqnVjK-7U0
           metadata:
+            published: 1541684865000
             generalInstruction: true
             teePosition: 2
         - title: Tour 8 Shootout - 11 O`clock Wind
           url: https://youtu.be/8aOAoh4tP-U?t=3m58s
           metadata:
+            published: 1525886388000
             tour: 8
             ball: Titan
             teePosition: 2
@@ -921,6 +959,7 @@ holes:
         - title: Tour 8 Shootout - 11 O`clock Wind
           url: https://youtu.be/8aOAoh4tP-U?t=3m58s
           metadata:
+            published: 1525886388000
             tour: 8
             ball: Quasar
             teePosition: 2
@@ -934,6 +973,7 @@ holes:
         - title: Tour 8 Shootout - 9 O`clock Wind
           url: https://youtu.be/tgvz84j-NNo?t=4m7s
           metadata:
+            published: 1525886245000
             tour: 8
             ball: Quasar
             teePosition: 2
@@ -947,6 +987,7 @@ holes:
         - title: Tour 8 Shootout - 2 O`clock Wind
           url: https://youtu.be/8eOxzKWnlAk?t=4m4s
           metadata:
+            published: 1525813571000
             tour: 8
             ball: Quasar
             teePosition: 2
@@ -960,6 +1001,7 @@ holes:
         - title: Tour 8 Shootout - Hard Left to Right Wind
           url: https://youtu.be/rtJJUtlljow
           metadata:
+            published: 1517974258000
             tour: 8
             ball: Basic
             teePosition: 2
@@ -973,6 +1015,7 @@ holes:
         - title: Tour 8 Shootout - Tailwinds
           url: https://youtu.be/qjxIf0ij72I
           metadata:
+            published: 1517972799000
             tour: 8
             ball: Basic
             teePosition: 2
@@ -986,6 +1029,7 @@ holes:
         - title: Tour 8 Shootout - Headwind
           url: https://youtu.be/tykgglHT7KA
           metadata:
+            published: 1517942408000
             tour: 8
             ball: Basic
             teePosition: 2
@@ -1000,6 +1044,7 @@ holes:
         - title: Tour 8 Shootout - Headwind Pointed at 5 O`clock
           url: https://youtu.be/qpxCTZkVLnk
           metadata:
+            published: 1517937273000
             tour: 8
             ball: Basic
             teePosition: 2
@@ -1013,6 +1058,7 @@ holes:
         - title: Tour 8 Shootout - Left to Right Wind
           url: https://youtu.be/ea5LHGY6Wts
           metadata:
+            published: 1517887943000
             tour: 8
             ball: Basic
             teePosition: 2
@@ -1026,6 +1072,7 @@ holes:
         - title: Touchdown - Rookie
           url: https://youtu.be/7WVamN6lDE4
           metadata:
+            published: 1517234331000
             tournament: Touchdown
             level: Rookie
             teePosition: 1
@@ -1040,6 +1087,7 @@ holes:
         - title: Touchdown - Pro
           url: https://youtu.be/awpP7d-yK-g
           metadata:
+            published: 1517239612000
             tournament: Touchdown
             level: Pro
             teePosition: 2
@@ -1054,6 +1102,7 @@ holes:
         - title: Touchdown - Expert
           url: https://youtu.be/dAktqfWpkYY
           metadata:
+            published: 1517317061000
             tournament: Touchdown
             level: Expert
             teePosition: 2
@@ -1069,6 +1118,7 @@ holes:
         - title: Touchdown - Masters
           url: https://youtu.be/fiB9zCyj7rk
           metadata:
+            published: 1517328765000
             tournament: Touchdown
             level: Masters
             teePosition: 3
@@ -1145,6 +1195,7 @@ holes:
         - title: Mountain - Rookie
           url: https://youtu.be/qwxnz35IUWQ
           metadata:
+            published: 1542127197000
             tournament: Mountain
             level: Rookie
             teePosition: 1
@@ -1161,6 +1212,7 @@ holes:
         - title: Mountain - Pro
           url: https://youtu.be/44FA4xm4tVg
           metadata:
+            published: 1542050909000
             tournament: Mountain
             level: Pro
             teePosition: 2
@@ -1177,6 +1229,7 @@ holes:
         - title: Mountain - Expert
           url: https://youtu.be/27MPHxLT_P8
           metadata:
+            published: 1542043266000
             tournament: Mountain
             level: Expert
             teePosition: 2
@@ -1193,6 +1246,7 @@ holes:
         - title: Mountain - Masters
           url: https://youtu.be/JU56YHPtt0U
           metadata:
+            published: 1542030381000
             tournament: Mountain
             level: Masters
             teePosition: 3
@@ -1209,6 +1263,7 @@ holes:
         - title: Mountain - Masters
           url: https://youtu.be/q4G_ynbrjMM
           metadata:
+            published: 1542039597000
             tournament: Mountain
             level: Masters
             teePosition: 3
@@ -1225,6 +1280,7 @@ holes:
         - title: Mountain - Masters
           url: https://youtu.be/trK-mjsu9P0
           metadata:
+            published: 1542117211000
             tournament: Mountain
             level: Masters
             teePosition: 3
@@ -1241,6 +1297,7 @@ holes:
         - title: Touchdown - Rookie
           url: https://youtu.be/fKM5KES2IwY
           metadata:
+            published: 1517232388000
             tournament: Touchdown
             level: Rookie
             teePosition: 1
@@ -1257,6 +1314,7 @@ holes:
         - title: Touchdown - Pro
           url: https://youtu.be/1fMLP-lkSvg
           metadata:
+            published: 1517237878000
             tournament: Touchdown
             level: Pro
             teePosition: 2
@@ -1273,6 +1331,7 @@ holes:
         - title: Touchdown - Expert
           url: https://youtu.be/zg7Oi98ibUw
           metadata:
+            published: 1517312903000
             tournament: Touchdown
             level: Expert
             teePosition: 2
@@ -1289,6 +1348,7 @@ holes:
         - title: Touchdown - Masters
           url: https://youtu.be/kF1PbstWgkg
           metadata:
+            published: 1517324255000
             tournament: Touchdown
             level: Masters
             teePosition: 3
@@ -1438,6 +1498,7 @@ holes:
           - title: Tour 8 - Tips for Backspin Eagle Shot
             url: https://youtu.be/TfbPQMoySjI
             metadata:
+              published: 1525880254000
               tour: 8
               ball: Quasar
               teePosition: 2
@@ -1453,6 +1514,7 @@ holes:
           - title: Tour 8 - Tips and Strategy for Eagle
             url: https://youtu.be/U99_JDO-n6U
             metadata:
+              published: 1525811662000
               tour: 8
               ball: Quasar
               teePosition: 2
@@ -1469,6 +1531,7 @@ holes:
           - title: Touchdown - Rookie
             url: https://youtu.be/Kjdc0AXNCL0
             metadata:
+              published: 1517234867000
               tournament: Touchdown
               level: Rookie
               teePosition: 1
@@ -1486,6 +1549,7 @@ holes:
           - title: Touchdown - Pro
             url: https://youtu.be/jQiolJ8PfXA
             metadata:
+              published: 1517240412000
               tournament: Touchdown
               level: Pro
               teePosition: 2
@@ -1503,6 +1567,7 @@ holes:
           - title: Touchdown - Expert
             url: https://youtu.be/puNmIpuIn0o
             metadata:
+              published: 1517317921000
               tournament: Touchdown
               level: Expert
               teePosition: 2
@@ -1520,6 +1585,7 @@ holes:
           - title: Touchdown - Masters
             url: https://youtu.be/Xa3SI6V0kwU
             metadata:
+              published: 1517329819000
               tournament: Touchdown
               level: Masters
               teePosition: 3
@@ -1627,11 +1693,13 @@ holes:
         - title: General Instruction - 2nd Tee
           url: https://youtu.be/mI7y8dkuonI
           metadata:
+            published: 1541685595000
             generalInstruction: true
             teePosition: 2
         - title: Tour 8 Shootout
           url: https://youtu.be/2pk5l7SEOlY?t=4m3s
           metadata:
+            published: 1525894420000
             tour: 8
             ball: Katana
             teePosition: 2
@@ -1645,6 +1713,7 @@ holes:
         - title: Tour 8 Shootout
           url: https://youtu.be/2pk5l7SEOlY?t=4m3s
           metadata:
+            published: 1525894420000
             tour: 8
             ball: Navigator
             teePosition: 2
@@ -1658,6 +1727,7 @@ holes:
         - title: Tour 8 Shootout - 4 O`Clock Wind
           url: https://youtu.be/3JEXqL9mXVk?t=5m35s
           metadata:
+            published: 1525886582000
             tour: 8
             ball: Navigator
             teePosition: 2
@@ -1671,6 +1741,7 @@ holes:
         - title: Tour 8 Shootout - Tailwind
           url: https://youtu.be/WnEUZXFkggk
           metadata:
+            published: 1517948845000
             tour: 8
             ball: Basic
             teePosition: 2
@@ -1684,6 +1755,7 @@ holes:
         - title: Tour 8 Shootout - Wind Pointed at 430
           url: https://youtu.be/3vfqiYg1eXA
           metadata:
+            published: 1517945777000
             tour: 8
             ball: Basic
             teePosition: 2
@@ -1697,6 +1769,7 @@ holes:
         - title: Tour 8 Shootout - Wind Pointed at 3 O`clock
           url: https://youtu.be/ClH6TgU7oI4
           metadata:
+            published: 1517935436000
             tour: 8
             ball: Basic
             teePosition: 2
@@ -1710,6 +1783,7 @@ holes:
         - title: Tour 8 Shootout - Tailwind Pointed Right
           url: https://youtu.be/wvj56w7zKi0
           metadata:
+            published: 1517929459000
             tour: 8
             ball: Basic
             teePosition: 2
@@ -1723,6 +1797,7 @@ holes:
         - title: Tour 8 Shootout - Headwind
           url: https://youtu.be/kISEW8xp3cw
           metadata:
+            published: 1517928838000
             tour: 8
             ball: Basic
             teePosition: 2
@@ -1736,6 +1811,7 @@ holes:
         - title: Touchdown - Rookie
           url: https://youtu.be/dzF_21ngs3w
           metadata:
+            published: 1517231927000
             tournament: Touchdown
             level: Rookie
             teePosition: 1
@@ -1750,6 +1826,7 @@ holes:
         - title: Touchdown - Pro
           url: https://youtu.be/Bp2sX7Np8s8
           metadata:
+            published: 1517237409000
             tournament: Touchdown
             level: Pro
             teePosition: 2
@@ -1764,6 +1841,7 @@ holes:
         - title: Touchdown - Expert
           url: https://youtu.be/TT3nsM6AjfQ
           metadata:
+            published: 1517311496000
             tournament: Touchdown
             level: Expert
             teePosition: 2
@@ -1778,6 +1856,7 @@ holes:
         - title: Touchdown - Masters
           url: https://youtu.be/PMtGb184KJs
           metadata:
+            published: 1517322624000
             tournament: Touchdown
             level: Masters
             teePosition: 2
@@ -1851,6 +1930,7 @@ holes:
         - title: Touchdown - Rookie
           url: https://youtu.be/jP3wGERL_WA
           metadata:
+            published: 1517234220000
             tournament: Touchdown
             level: Rookie
             teePosition: 1
@@ -1867,6 +1947,7 @@ holes:
         - title: Touchdown - Pro
           url: https://youtu.be/NeLjxD1-iWg
           metadata:
+            published: 1517239331000
             tournament: Touchdown
             level: Pro
             teePosition: 2
@@ -1884,6 +1965,7 @@ holes:
         - title: Touchdown - Expert
           url: https://youtu.be/vXxGGh-XuSg
           metadata:
+            published: 1517315989000
             tournament: Touchdown
             level: Expert
             teePosition: 2
@@ -1901,6 +1983,7 @@ holes:
         - title: Touchdown - Masters
           url: https://youtu.be/a93uxmgWIOE
           metadata:
+            published: 1517328140000
             tournament: Touchdown
             level: Masters
             teePosition: 3

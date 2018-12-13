@@ -18,6 +18,7 @@ holes:
       - title: Metro Open - Pro
         url: https://youtu.be/a4trkLggaZ0
         metadata:
+          published: 1538507023000
           tournament: Metro Open
           level: Pro
           teePosition: 2
@@ -34,6 +35,7 @@ holes:
       - title: Metro Open - Expert
         url: https://youtu.be/iRb3t7s2H-Y
         metadata:
+          published: 1538503365000
           tournament: Metro Open
           level: Expert
           teePosition: 2
@@ -50,6 +52,7 @@ holes:
       - title: Tour 4 - Strategy and Tips
         url: https://youtu.be/o-6C35jb5Po
         metadata:
+          published: 1538143284000
           tour: 4
           ball: Quasar
           teePosition: 1
@@ -65,6 +68,7 @@ holes:
       - title: Tour 11 - Strategy and Tips
         url: https://youtu.be/5csGrBbLZF4
         metadata:
+          published: 1538132614000
           tour: 11
           ball: King Maker
           teePosition: 3
@@ -80,6 +84,7 @@ holes:
       - title: Tour 11 - Strategy and Tips
         url: https://youtu.be/o0bZVHFsCZY
         metadata:
+          published: 1538131157000
           tour: 11
           ball: King Maker
           teePosition: 3
@@ -109,11 +114,13 @@ holes:
       - title: General Instruction - 3rd Tee
         url: https://youtu.be/vqSx6Idrvh0
         metadata:
+          published: 1541766964000
           generalInstruction: true
           teePosition: 3
       - title: Metro Open - Pro
         url: https://youtu.be/_fkduNS36n0
         metadata:
+          published: 1538507226000
           tournament: Metro Open
           level: Pro
           teePosition: 2
@@ -130,6 +137,7 @@ holes:
       - title: Metro Open - Expert
         url: https://youtu.be/ZjgMtYrfRBs
         metadata:
+          published: 1538503919000
           tournament: Metro Open
           level: Expert
           teePosition: 2
@@ -144,6 +152,7 @@ holes:
       - title: Tour 4 - Strategy and Tips
         url: https://youtu.be/V_RaWOoetQY
         metadata:
+          published: 1538142589000
           tour: 4
           ball: Katana
           teePosition: 1
@@ -171,6 +180,7 @@ holes:
       - title: Metro Open - Pro
         url: https://youtu.be/E1lkeT4oSqo
         metadata:
+          published: 1538508199000
           tournament: Metro Open
           level: Pro
           teePosition: 2
@@ -189,6 +199,7 @@ holes:
       - title: Metro Open - Expert
         url: https://youtu.be/eF0A3v2x9F0
         metadata:
+          published: 1538504527000
           tournament: Metro Open
           level: Expert
           teePosition: 2
@@ -205,6 +216,7 @@ holes:
       - title: Tour 4 - Strategy and Tips
         url: https://youtu.be/7FiBjHsGv1k
         metadata:
+          published: 1538142984000
           tour: 4
           ball: Katana
           teePosition: 1
@@ -222,6 +234,7 @@ holes:
       - title: Tour 11 - Strategy and Tips
         url: https://youtu.be/MhEjeAIcKhY
         metadata:
+          published: 1538135111000
           tour: 11
           ball: King Maker
           teePosition: 3
@@ -253,11 +266,13 @@ holes:
       - title: General Instruction - 3rd Tee
         url: https://youtu.be/rdLW8Bfroq8
         metadata:
+          published: 1541767696000
           generalInstruction: true
           teePosition: 3
       - title: Metro Open - Pro
         url: https://youtu.be/A7Qs-bqYQvg
         metadata:
+          published: 1538508493000
           tournament: Metro Open
           level: Pro
           teePosition: 2
@@ -272,6 +287,7 @@ holes:
       - title: Metro Open - Expert
         url: https://youtu.be/L4H9OE5A1LU
         metadata:
+          published: 1538504906000
           tournament: Metro Open
           level: Expert
           teePosition: 2
@@ -286,6 +302,7 @@ holes:
       - title: Tour 4 - Strategy and Tips
         url: https://youtu.be/6IHRBpl20Hc
         metadata:
+          published: 1538142684000
           tour: 4
           ball: Quasar
           teePosition: 1
@@ -313,6 +330,7 @@ holes:
       - title: Metro Open - Pro
         url: https://youtu.be/HomyBuc_VUE
         metadata:
+          published: 1538509042000
           tournament: Metro Open
           level: Pro
           teePosition: 2
@@ -329,6 +347,7 @@ holes:
       - title: Metro Open - Expert
         url: https://youtu.be/EU0zeTrFoV0
         metadata:
+          published: 1538505677000
           tournament: Metro Open
           level: Expert
           teePosition: 2
@@ -345,6 +364,7 @@ holes:
       - title: Tour 4 - Strategy and Tips
         url: https://youtu.be/7slAzJs9Fow
         metadata:
+          published: 1538142305000
           tour: 4
           ball: Quasar
           teePosition: 1
@@ -360,6 +380,7 @@ holes:
       - title: Tour 4 - Strategy and Tips
         url: https://youtu.be/mM7tskF2kEA
         metadata:
+          published: 1538141619000
           tour: 4
           ball: Quasar
           teePosition: 1
@@ -375,6 +396,7 @@ holes:
       - title: Tour 11 - Strategy and Tips
         url: https://youtu.be/iWw1gFvez2c
         metadata:
+          published: 1538129128000
           tour: 11
           ball: King Maker
           teePosition: 3
@@ -404,6 +426,7 @@ holes:
       - title: Metro Open - Pro
         url: https://youtu.be/Jj3hBY8BBg0
         metadata:
+          published: 1538509705000
           tournament: Metro Open
           level: Pro
           teePosition: 2
@@ -420,6 +443,7 @@ holes:
       - title: Metro Open - Expert
         url: https://youtu.be/lJ8gj6wx9kQ
         metadata:
+          published: 1538506229000
           tournament: Metro Open
           level: Expert
           teePosition: 2
@@ -436,6 +460,7 @@ holes:
       - title: Tour 4 - Strategy and Tips
         url: https://youtu.be/yIYQcx6JKPo
         metadata:
+          published: 1538142500000
           tour: 4
           ball: Quasar
           teePosition: 1
@@ -451,6 +476,7 @@ holes:
       - title: Tour 11 - Strategy and Tips
         url: https://youtu.be/29WHII0nYm0
         metadata:
+          published: 1538133491000
           tour: 11
           ball: King Maker
           teePosition: 3
@@ -466,6 +492,7 @@ holes:
       - title: Tour 11 - Strategy and Tips
         url: https://youtu.be/I2cBmbL2mpk
         metadata:
+          published: 1538128739000
           tour: 11
           ball: King Maker
           teePosition: 3
@@ -497,6 +524,7 @@ holes:
       - title: Metro Open - Pro
         url: https://youtu.be/jXsIOVYTMZA
         metadata:
+          published: 1538510169000
           tournament: Metro Open
           level: Pro
           teePosition: 2
@@ -513,6 +541,7 @@ holes:
       - title: Metro Open - Expert
         url: https://youtu.be/Z1DOLUFhLxg
         metadata:
+          published: 1538506691000
           tournament: Metro Open
           level: Expert
           teePosition: 2
@@ -529,6 +558,7 @@ holes:
       - title: Tour 4 - Strategy and Tips
         url: https://youtu.be/MBeYMsR1t84
         metadata:
+          published: 1538141932000
           tour: 4
           ball: Quasar
           teePosition: 1
@@ -544,6 +574,7 @@ holes:
       - title: Tour 11 - Strategy and Tips
         url: https://youtu.be/Mdekc6PD7LM
         metadata:
+          published: 1538133957000
           tour: 11
           ball: King Maker
           teePosition: 3
@@ -559,6 +590,7 @@ holes:
       - title: Tour 11 - Strategy and Tips
         url: https://youtu.be/c119mO1VLNY
         metadata:
+          published: 1538131533000
           tour: 11
           ball: King Maker
           teePosition: 3
@@ -574,6 +606,7 @@ holes:
       - title: Tour 11 - Strategy and Tips
         url: https://youtu.be/6f6hWA8JVa8
         metadata:
+          published: 1538130412000
           tour: 11
           ball: King Maker
           teePosition: 3
@@ -589,6 +622,7 @@ holes:
       - title: Tour 11 - Strategy and Tips
         url: https://youtu.be/5-VftZSSZ-0
         metadata:
+          published: 1538129782000
           tour: 11
           ball: King Maker
           teePosition: 3
@@ -618,11 +652,13 @@ holes:
       - title: General Instruction - 3rd Tee
         url: https://youtu.be/0Hiu8vWA3XA
         metadata:
+          published: 1541768440000
           generalInstruction: true
           teePosition: 3
       - title: Metro Open - Pro
         url: https://youtu.be/Ar_CeM7_gxk
         metadata:
+          published: 1538510319000
           tournament: Metro Open
           level: Pro
           teePosition: 2
@@ -637,6 +673,7 @@ holes:
       - title: Metro Open - Expert
         url: https://youtu.be/u4Rj-7021gE
         metadata:
+          published: 1538506761000
           tournament: Metro Open
           level: Expert
           teePosition: 2
@@ -651,6 +688,7 @@ holes:
       - title: Tour 4 - Wind Pointed at 430
         url: https://youtu.be/ZLaFKl8xj9k
         metadata:
+          published: 1538142135000
           tour: 4
           ball: Quasar
           teePosition: 1
@@ -664,6 +702,7 @@ holes:
       - title: Tour 4 - Wind Pointed at 7 O'clock
         url: https://youtu.be/2MpQiBTgA94
         metadata:
+          published: 1538142032000
           tour: 4
           ball: Quasar
           teePosition: 1
@@ -677,6 +716,7 @@ holes:
       - title: Tour 4 - Wind Pointed at 1030
         url: https://youtu.be/3NayVxTkO2A
         metadata:
+          published: 1538141696000
           tour: 4
           ball: Quasar
           teePosition: 1
@@ -690,6 +730,7 @@ holes:
       - title: Tour 11 - Wind Pointed at 830
         url: https://youtu.be/5wYcKmLXhQs
         metadata:
+          published: 1538129895000
           tour: 11
           ball: King Maker
           teePosition: 3
@@ -703,6 +744,7 @@ holes:
       - title: Tour 11 - Side Wind Pointed at 9 O'clock
         url: https://youtu.be/_-LOaAPJxZM
         metadata:
+          published: 1538133560000
           tour: 11
           ball: King Maker
           teePosition: 3
@@ -730,6 +772,7 @@ holes:
       - title: Metro Open - Pro
         url: https://youtu.be/fQSCFl7Hy1I
         metadata:
+          published: 1538511114000
           tournament: Metro Open
           level: Pro
           teePosition: 2
@@ -749,6 +792,7 @@ holes:
       - title: Metro Open - Expert
         url: https://youtu.be/KkUv4inNdOM
         metadata:
+          published: 1538506951000
           tournament: Metro Open
           level: Expert
           teePosition: 2
@@ -766,6 +810,7 @@ holes:
       - title: Tour 4 - Strategy and Tips
         url: https://youtu.be/vhivBixvLLs
         metadata:
+          published: 1538143105000
           tour: 4
           ball: Quasar
           teePosition: 1
@@ -781,6 +826,7 @@ holes:
       - title: Tour 11 - Strategy and Tips
         url: https://youtu.be/4OtsY808TIM
         metadata:
+          published: 1538135776000
           tour: 11
           ball: Berserker
           teePosition: 3

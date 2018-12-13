@@ -34,6 +34,7 @@ holes:
         - title: Tour 7 - Going for the green with Rock
           url: https://youtu.be/iVU_ctBZhi8
           metadata:
+            published: 1525202203000
             tour: 11
             ball: Titan
             teePosition: 2
@@ -47,6 +48,7 @@ holes:
         - title: Easter Links - Rookie
           url: https://youtu.be/ztmEKaHyfek
           metadata:
+            published: 1522085272000
             tournament: Easter Links
             level: Rookie
             ball: Titan
@@ -63,6 +65,7 @@ holes:
         - title: Easter Links - Pro
           url: https://youtu.be/Q-uRkfxogc0
           metadata:
+            published: 1522080101000
             tournament: Easter Links
             level: Pro
             ball: Berserker
@@ -79,6 +82,7 @@ holes:
         - title: Easter Links - Expert
           url: https://youtu.be/QwD-nCkOq8o
           metadata:
+            published: 1522075396000
             tournament: Easter Links
             level: Expert
             ball: King Maker
@@ -95,6 +99,7 @@ holes:
         - title: Easter Links - Master
           url: https://youtu.be/vmS21Wcksns
           metadata:
+            published: 1522151998000
             tournament: Easter Links
             level: Master
             ball: King Maker
@@ -205,6 +210,7 @@ holes:
         - title: Wind pointed at 4 O'clock
           url: https://youtu.be/U_cf2y_u2Ag
           metadata:
+            published: 1518034435000
             tour: 10
             ball: Basic
             teePosition: 2
@@ -218,6 +224,7 @@ holes:
         - title: Hard tailwind pointed at 11 O'clock
           url: https://youtu.be/awIu0YzghrE
           metadata:
+            published: 1518030733000
             tour: 10
             ball: Basic
             teePosition: 2
@@ -231,6 +238,7 @@ holes:
         - title: Tailwind Pointed at 130
           url: https://youtu.be/0Eh3TQRgmMA
           metadata:
+            published: 1518015409000
             tour: 10
             ball: Marlin
             teePosition: 2
@@ -244,6 +252,7 @@ holes:
         - title: Tour 7 Shootout - Small Wind
           url: https://youtu.be/m_IBWwzxtzo
           metadata:
+            published: 1525201162000
             tour: 7
             ball: Navigator
             teePosition: 2
@@ -257,6 +266,7 @@ holes:
         - title: Tour 7 Shootout - Small Wind Pointed at 12 O'clock
           url: https://youtu.be/DyOl3IaggU8
           metadata:
+            published: 1524940557000
             tour: 7
             ball: King Maker
             teePosition: 2
@@ -270,6 +280,7 @@ holes:
         - title: Easter Links - Rookie
           url: https://youtu.be/bz93lqUWWDQ
           metadata:
+            published: 1522085465000
             tournament: Easter Links
             level: Rookie
             ball: Marlin
@@ -284,6 +295,7 @@ holes:
         - title: Easter Links - Pro
           url: https://youtu.be/yyceKyTSMuc
           metadata:
+            published: 1522080415000
             tournament: Easter Links
             level: Pro
             ball: Navigator
@@ -298,6 +310,7 @@ holes:
         - title: Easter Links - Expert
           url: https://youtu.be/y3u3DH70U8Q
           metadata:
+            published: 1522075775000
             tournament: Easter Links
             level: Expert
             ball: King Maker
@@ -312,6 +325,7 @@ holes:
         - title: Easter Links - Master
           url: https://youtu.be/B8t8q3-6G_U
           metadata:
+            published: 1522152225000
             tournament: Easter Links
             level: Master
             ball: Eye
@@ -385,6 +399,7 @@ holes:
         - title: Tour 7 - Tips and Strategy
           url: https://youtu.be/nhe68svMWEk
           metadata:
+            published: 1524941612000
             tour: 7
             ball: Navigator
             teePosition: 2
@@ -400,6 +415,7 @@ holes:
         - title: Easter Links - Rookie
           url: https://youtu.be/va-l4vQusjY
           metadata:
+            published: 1522085651000
             tournament: Easter Links
             level: Rookie
             ball: Quasar
@@ -416,6 +432,7 @@ holes:
         - title: Easter Links - Pro
           url: https://youtu.be/wqU0TNa9k-4
           metadata:
+            published: 1522080751000
             tournament: Easter Links
             level: Pro
             ball: Titan
@@ -432,6 +449,7 @@ holes:
         - title: Easter Links - Expert
           url: https://youtu.be/AlG-P0WEus0
           metadata:
+            published: 1522076100000
             tournament: Easter Links
             level: Expert
             ball: King Maker
@@ -448,6 +466,7 @@ holes:
         - title: Easter Links - Master
           url: https://youtu.be/O8k6kUwRJ9c
           metadata:
+            published: 1522152417000
             tournament: Easter Links
             level: Master
             ball: King Maker
@@ -565,6 +584,7 @@ holes:
         - title: Tour 7 - Shootout - Wind Pointed at 1130
           url: https://youtu.be/JeAvydqqnn0
           metadata:
+            published: 1525202390000
             tour: 7
             ball: Titan
             teePosition: 2
@@ -578,6 +598,7 @@ holes:
         - title: Tour 7 - Shootout - Wind Pointed at 10 O'clock
           url: https://youtu.be/gTQGoAIJZLs
           metadata:
+            published: 1524941103000
             tour: 7
             ball: Katana
             teePosition: 2
@@ -591,6 +612,7 @@ holes:
         - title: Easter Links - Rookie
           url: https://youtu.be/PlSS2h_d3Ms
           metadata:
+            published: 1522085859000
             tournament: Easter Links
             level: Rookie
             ball: Quasar
@@ -605,6 +627,7 @@ holes:
         - title: Easter Links - Pro
           url: https://youtu.be/jXV88POkA0Y
           metadata:
+            published: 1522080897000
             tournament: Easter Links
             level: Pro
             ball: Quasar
@@ -619,6 +642,7 @@ holes:
         - title: Easter Links - Expert
           url: https://youtu.be/-YM3k51SlNs
           metadata:
+            published: 1522076359000
             tournament: Easter Links
             level: Expert
             ball: King Maker
@@ -633,6 +657,7 @@ holes:
         - title: Easter Links - Master
           url: https://youtu.be/VdzrJXknN7E
           metadata:
+            published: 1522152628000
             tournament: Easter Links
             level: Master
             ball: King Maker
@@ -735,6 +760,7 @@ holes:
         - title: Easter Links - Rookie
           url: https://youtu.be/sD47eMDobdw
           metadata:
+            published: 1522086031000
             tournament: Easter Links
             level: Rookie
             ball: Marlin
@@ -751,6 +777,7 @@ holes:
         - title: Easter Links - Pro
           url: https://youtu.be/bZnOY258-eI
           metadata:
+            published: 1522081232000
             tournament: Easter Links
             level: Pro
             ball: Titan
@@ -767,6 +794,7 @@ holes:
         - title: Easter Links - Expert
           url: https://youtu.be/u07VyjJjtOc
           metadata:
+            published: 1522076766000
             tournament: Easter Links
             level: Expert
             ball: Katana
@@ -783,6 +811,7 @@ holes:
         - title: Easter Links - Master
           url: https://youtu.be/xjACuwARiw8
           metadata:
+            published: 1522152835000
             tournament: Easter Links
             level: Master
             ball: Berserker
@@ -919,6 +948,7 @@ holes:
         - title: Tour 7 - Layup Shot
           url: https://youtu.be/5YZr87XRtd0
           metadata:
+            published: 1525200493000
             tour: 7
             ball: Navigator
             teePosition: 2
@@ -934,6 +964,7 @@ holes:
         - title: Easter Links - Rookie
           url: https://youtu.be/UIKC5LWhzvk
           metadata:
+            published: 1522086214000
             tournament: Easter Links
             level: Rookie
             ball: Navigator
@@ -950,6 +981,7 @@ holes:
         - title: Easter Links - Pro
           url: https://youtu.be/NkBg51_5JNE
           metadata:
+            published: 1522081394000
             tournament: Easter Links
             level: Pro
             ball: Navigator
@@ -966,6 +998,7 @@ holes:
         - title: Easter Links - Expert
           url: https://youtu.be/zLA63Bem0bo
           metadata:
+            published: 1522077039000
             tournament: Easter Links
             level: Expert
             ball: King Maker
@@ -982,6 +1015,7 @@ holes:
         - title: Easter Links - Master
           url: https://youtu.be/QMjnHeWopvg
           metadata:
+            published: 1522152967000
             tournament: Easter Links
             level: Master
             ball: Mummy
@@ -1120,6 +1154,7 @@ holes:
         - title: Tour 10 - Shootout
           url: https://youtu.be/q3gAE5JM9xo
           metadata:
+            published: 1525911209000
             tour: 10
             ball: Quasar
             teePosition: 2
@@ -1133,6 +1168,7 @@ holes:
         - title: Tour 10 - Shootout - Headwind Pointed at 4 O'clock
           url: https://youtu.be/_2sI86R8r2c
           metadata:
+            published: 1523928473000
             tour: 10
             ball: King Maker
             teePosition: 2
@@ -1146,6 +1182,7 @@ holes:
         - title: Tour 10 - Shootout - Wind Pointed at 1030
           url: https://youtu.be/TnuXrkLfW6Y
           metadata:
+            published: 1523928493000
             tour: 10
             ball: Katana
             teePosition: 2
@@ -1159,6 +1196,7 @@ holes:
         - title: Tour 7 Shootout - Wind Pointed at 2 O'Clock
           url: https://youtu.be/fDNvKe7fjTY
           metadata:
+            published: 1524942812000
             tour: 7
             ball: Katana
             teePosition: 2
@@ -1172,6 +1210,7 @@ holes:
         - title: Easter Links - Rookie
           url: https://youtu.be/GAGo1dXZaE4
           metadata:
+            published: 1522086370000
             tournament: Easter Links
             level: Rookie
             ball: Navigator
@@ -1186,6 +1225,7 @@ holes:
         - title: Easter Links - Pro
           url: https://youtu.be/G7icNQc1IhQ
           metadata:
+            published: 1522081589000
             tournament: Easter Links
             level: Pro
             ball: Katana
@@ -1200,6 +1240,7 @@ holes:
         - title: Easter Links - Expert
           url: https://youtu.be/ZHQaC_3OSEI
           metadata:
+            published: 1522077288000
             tournament: Easter Links
             level: Expert
             ball: King Maker
@@ -1214,6 +1255,7 @@ holes:
         - title: Easter Links - Master
           url: https://youtu.be/9mzF2QgQfHw
           metadata:
+            published: 1522153097000
             tournament: Easter Links
             level: Master
             ball: Turkey
@@ -1292,6 +1334,7 @@ holes:
         - title: Easter Links - Rookie
           url: https://youtu.be/zldGDSS70Wg
           metadata:
+            published: 1522086578000
             tournament: Easter Links
             level: Rookie
             ball: Quasar
@@ -1308,6 +1351,7 @@ holes:
         - title: Easter Links - Pro
           url: https://youtu.be/JX_4N1Bo01I
           metadata:
+            published: 1522081780000
             tournament: Easter Links
             level: Pro
             ball: Titan
@@ -1324,6 +1368,7 @@ holes:
         - title: Easter Links - Expert
           url: https://youtu.be/vZEnjM0vIag
           metadata:
+            published: 1522077571000
             tournament: Easter Links
             level: Expert
             ball: Navigator
@@ -1340,6 +1385,7 @@ holes:
         - title: Easter Links - Master
           url: https://youtu.be/FPRXVJZLYvY
           metadata:
+            published: 1522153294000
             tournament: Easter Links
             level: Master
             ball: Berserker
@@ -1463,6 +1509,7 @@ holes:
         - title: Tour 7 - Tips and Strategy Using 2nd Fairway Drive
           url: https://youtu.be/t89xP2UIsQ8
           metadata:
+            published: 1524942316000
             tour: 7
             ball: Titan
             teePosition: 2
@@ -1478,6 +1525,7 @@ holes:
         - title: Tour 7 - Strategy and Tips
           url: https://youtu.be/-Ty8j4s-MrY
           metadata:
+            published: 1524940474000
             tour: 7
             ball: King Maker
             teePosition: 2
@@ -1493,6 +1541,7 @@ holes:
         - title: Easter Links - Rookie
           url: https://youtu.be/I4W9Gf7jSUs
           metadata:
+            published: 1522086754000
             tournament: Easter Links
             level: Rookie
             ball: Titan
@@ -1509,6 +1558,7 @@ holes:
         - title: Easter Links - Pro
           url: https://youtu.be/uXpO-aMFlLA
           metadata:
+            published: 1522082107000
             tournament: Easter Links
             level: Pro
             ball: Titan
@@ -1525,6 +1575,7 @@ holes:
         - title: Easter Links - Expert
           url: https://youtu.be/oSBbg4mFzDc
           metadata:
+            published: 1522077914000
             tournament: Easter Links
             level: Expert
             ball: King Maker
@@ -1541,6 +1592,7 @@ holes:
         - title: Easter Links - Master
           url: https://youtu.be/pbbdYfdy61o
           metadata:
+            published: 1522153470000
             tournament: Easter Links
             level: Master
             ball: Berserker

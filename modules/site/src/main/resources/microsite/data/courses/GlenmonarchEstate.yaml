@@ -39,16 +39,19 @@ holes:
         - title: General Instruction - 2nd Tee
           url: https://youtu.be/b-LlpowKIDI
           metadata:
+            published: 1541683171000
             generalInstruction: true
             teePosition: 2
         - title: General Instruction - 3rd Tee
           url: https://youtu.be/xFTHORwkX7Y
           metadata:
+            published: 1541873403000
             generalInstruction: true
             teePosition: 3
         - title: Mountain - Rookie
           url: https://youtu.be/t8PcSody6rw
           metadata:
+            published: 1542129000000
             tournament: Mountain
             level: Rookie
             teePosition: 1
@@ -63,6 +66,7 @@ holes:
         - title: Mountain - Rookie
           url: https://youtu.be/gMEaB9yh-B0
           metadata:
+            published: 1542130396000
             tournament: Mountain
             level: Rookie
             teePosition: 1
@@ -77,6 +81,7 @@ holes:
         - title: Mountain - Pro
           url: https://youtu.be/vSR9wqpzXY8
           metadata:
+            published: 1542052733000
             tournament: Mountain
             level: Pro
             teePosition: 2
@@ -92,6 +97,7 @@ holes:
         - title: Mountain - Expert
           url: https://youtu.be/dq9RIB4BVcs
           metadata:
+            published: 1542044953000
             tournament: Mountain
             level: Expert
             teePosition: 2
@@ -106,6 +112,7 @@ holes:
         - title: Mountain - Masters
           url: https://youtu.be/HLbGDoB9aMI
           metadata:
+            published: 1542032311000
             tournament: Mountain
             level: Masters
             teePosition: 3
@@ -120,6 +127,7 @@ holes:
         - title: Mountain - Masters
           url: https://youtu.be/rlw7ixPz9p4
           metadata:
+            published: 1542041678000
             tournament: Mountain
             level: Masters
             teePosition: 3
@@ -134,6 +142,7 @@ holes:
         - title: Mountain - Masters
           url: https://youtu.be/TgAI2NYwzb0
           metadata:
+            published: 1542119259000
             tournament: Mountain
             level: Masters
             teePosition: 3
@@ -148,6 +157,7 @@ holes:
         - title: Tour 9 Shootout - Tailwind Pointed Near 12 O`clock
           url: https://youtu.be/UmBqjTzrP1k
           metadata:
+            published: 1525787530000
             tour: 9
             ball: Navigator
             teePosition: 2
@@ -161,6 +171,7 @@ holes:
         - title: Tour 9 Shootout - 3 O`clock Wind
           url: https://youtu.be/MTUzavSax0Y?t=3m57s
           metadata:
+            published: 1524929100000
             tour: 9
             ball: King Maker
             teePosition: 2
@@ -174,6 +185,7 @@ holes:
         - title: St. Patrick's - Rookie
           url: https://youtu.be/QkAga7jxVmY
           metadata:
+            published: 1520859701000
             tournament: St. Patrick's
             level: Rookie
             teePosition: 1
@@ -188,6 +200,7 @@ holes:
         - title: St. Patrick's - Pro
           url: https://youtu.be/TLBN1G2QUYE
           metadata:
+            published: 1520852899000
             tournament: St. Patrick's
             level: Pro
             teePosition: 2
@@ -202,6 +215,7 @@ holes:
         - title: St. Patrick's - Expert
           url: https://youtu.be/avNUMjSFNyE
           metadata:
+            published: 1520951044000
             tournament: St. Patrick's
             level: Expert
             teePosition: 2
@@ -216,6 +230,7 @@ holes:
         - title: St. Patrick's - Masters
           url: https://youtu.be/kGidlAwoVQ8
           metadata:
+            published: 1520871792000
             tournament: St. Patrick's
             level: Masters
             teePosition: 3
@@ -332,6 +347,7 @@ holes:
         - title: Tour 9 - Tailwind
           url: https://youtu.be/qxplK4G0uUA
           metadata:
+            published: 1524937584000
             tour: 9
             ball: Katana
             teePosition: 2
@@ -347,6 +363,7 @@ holes:
         - title: St. Patrick's - Rookie
           url: https://youtu.be/TFt0iOG3Iao
           metadata:
+            published: 1520859159000
             tournament: St. Patrick's
             level: Rookie
             teePosition: 1
@@ -363,6 +380,7 @@ holes:
         - title: St. Patrick's - Pro
           url: https://youtu.be/x5aylQMFxUQ
           metadata:
+            published: 1520851791000
             tournament: St. Patrick's
             level: Pro
             teePosition: 2
@@ -379,6 +397,7 @@ holes:
         - title: St. Patrick's - Expert
           url: https://youtu.be/v-RY__APdis
           metadata:
+            published: 1520950013000
             tournament: St. Patrick's
             level: Expert
             teePosition: 2
@@ -395,6 +414,7 @@ holes:
         - title: St. Patrick's - Masters
           url: https://youtu.be/KpdTC9b5t9g
           metadata:
+            published: 1520870734000
             tournament: St. Patrick's
             level: Masters
             teePosition: 3
@@ -513,6 +533,7 @@ holes:
         - title: Tour 9 - Strong Tailwind
           url: https://youtu.be/yeHlOqWU9fc
           metadata:
+            published: 1524936516000
             tour: 9
             ball: Katana
             teePosition: 2
@@ -530,6 +551,7 @@ holes:
         - title: Tour 9 - Strong Headwind
           url: https://youtu.be/PJpvZLapEgE
           metadata:
+            published: 1524928225000
             tour: 9
             ball: Katana
             teePosition: 2
@@ -547,6 +569,7 @@ holes:
         - title: St. Patrick's - Rookie
           url: https://youtu.be/cuT4BFjioHg
           metadata:
+            published: 1520862025000
             tournament: St. Patrick's
             level: Rookie
             teePosition: 1
@@ -563,6 +586,7 @@ holes:
         - title: St. Patrick's - Pro
           url: https://youtu.be/O4ff_K96o78
           metadata:
+            published: 1520858703000
             tournament: St. Patrick's
             level: Pro
             teePosition: 2
@@ -582,6 +606,7 @@ holes:
         - title: St. Patrick's - Expert
           url: https://youtu.be/TYriw9UdReQ
           metadata:
+            published: 1520955769000
             tournament: St. Patrick's
             level: Expert
             teePosition: 2
@@ -598,6 +623,7 @@ holes:
         - title: St. Patrick's - Masters
           url: https://youtu.be/GftTbRw9f5s
           metadata:
+            published: 1520875239000
             tournament: St. Patrick's
             level: Masters
             teePosition: 3
@@ -724,6 +750,7 @@ holes:
         - title: St. Patrick's - Rookie
           url: https://youtu.be/sZJFl38xa3A
           metadata:
+            published: 1520862735000
             tournament: St. Patrick's
             level: Rookie
             teePosition: 1
@@ -740,6 +767,7 @@ holes:
         - title: St. Patrick's - Pro
           url: https://youtu.be/G8Tp92mAt3U
           metadata:
+            published: 1520860829000
             tournament: St. Patrick's
             level: Pro
             teePosition: 2
@@ -756,6 +784,7 @@ holes:
         - title: St. Patrick's - Expert
           url: https://youtu.be/c6Ue8PdPBCU
           metadata:
+            published: 1520955991000
             tournament: St. Patrick's
             level: Expert
             teePosition: 2
@@ -772,6 +801,7 @@ holes:
         - title: St. Patrick's - Masters
           url: https://youtu.be/39SAK1B1ry0
           metadata:
+            published: 1520876577000
             tournament: St. Patrick's
             level: Masters
             teePosition: 3
@@ -882,16 +912,19 @@ holes:
         - title: General Instruction - 2nd Tee
           url: https://youtu.be/bbgy-4vNdEA
           metadata:
+            published: 1541683609000
             generalInstruction: true
             teePosition: 2
         - title: General Instruction - 3rd Tee
           url: https://youtu.be/74wmslWx5Ec
           metadata:
+            published: 1541873655000
             generalInstruction: true
             teePosition: 3
         - title: Tour 9 Shootout - 10 O`clock Wind
           url: https://youtu.be/5LyKCthpzh8
           metadata:
+            published: 1525791091000
             tour: 9
             ball: Quasar
             teePosition: 2
@@ -906,6 +939,7 @@ holes:
         - title: St. Patrick's - Rookie
           url: https://youtu.be/DnvCceZXkQ0
           metadata:
+            published: 1520860729000
             tournament: St. Patrick's
             level:  Rookie
             teePosition: 1
@@ -920,6 +954,7 @@ holes:
         - title: St. Patrick's - Pro
           url: https://youtu.be/MR_VW3o067A
           metadata:
+            published: 1520855513000
             tournament: St. Patrick's
             level: Pro
             teePosition: 2
@@ -934,6 +969,7 @@ holes:
         - title: St. Patrick's - Expert
           url: https://youtu.be/VWMF8V93r8w
           metadata:
+            published: 1520952914000
             tournament: St. Patrick's
             level: Expert
             teePosition: 2
@@ -948,6 +984,7 @@ holes:
         - title: St. Patrick's - Masters
           url: https://youtu.be/cvvTdfHbFHI
           metadata:
+            published: 1520873454000
             tournament: St. Patrick's
             level: Masters
             teePosition: 3
@@ -1051,16 +1088,19 @@ holes:
         - title: General Instruction - 2nd Tee
           url: https://youtu.be/KnyRc_fTeh0
           metadata:
+            published: 1541682746000
             generalInstruction: true
             teePosition: 2
         - title: General Instruction - 3rd Tee
           url: https://youtu.be/FcLyB81TcfE
           metadata:
+            published: 1541873858000
             generalInstruction: true
             teePosition: 3
         - title: Tour 9 Shootout - Strong Headwind
           url: https://youtu.be/arhWV9o2PQk?t=4m38s
           metadata:
+            published: 1524930301000
             tour: 9
             ball: Katana
             teePosition: 2
@@ -1074,6 +1114,7 @@ holes:
         - title: Tour 9 Shootout - Headwind
           url: https://youtu.be/PJpvZLapEgE?t=6m26s
           metadata:
+            published: 1524928225000
             tour: 9
             ball: Katana
             teePosition: 2
@@ -1087,6 +1128,7 @@ holes:
         - title: Tour 9 Shootout - Strong Tailwind
           url: https://youtu.be/NsPPkgnAYXc?t=4m22s
           metadata:
+            published: 1524879395000
             tour: 9
             ball: Katana
             teePosition: 2
@@ -1100,6 +1142,7 @@ holes:
         - title: St. Patrick's - Rookie
           url: https://youtu.be/v70O-KwURlE
           metadata:
+            published: 1520862348000
             tournament: St. Patrick's
             level: Rookie
             teePosition: 1
@@ -1115,6 +1158,7 @@ holes:
         - title: St. Patrick's - Pro
           url: https://youtu.be/tyE_PtEVwzY
           metadata:
+            published: 1520859495000
             tournament: St. Patrick's
             level: Pro
             teePosition: 2
@@ -1129,6 +1173,7 @@ holes:
         - title: St. Patrick's - Expert
           url: https://youtu.be/Snj29PYNlio
           metadata:
+            published: 1520955640000
             tournament: St. Patrick's
             level: Expert
             teePosition: 2
@@ -1143,6 +1188,7 @@ holes:
         - title: St. Patrick's - Masters
           url: https://youtu.be/3NKpYnj6Poc
           metadata:
+            published: 1520875853000
             tournament: St. Patrick's
             level: Masters
             teePosition: 3
@@ -1245,6 +1291,7 @@ holes:
         - title: Mountain - Rookie
           url: https://youtu.be/BnCJeoHrpyQ
           metadata:
+            published: 1542128703000
             tournament: Mountain
             level: Rookie
             teePosition: 1
@@ -1262,6 +1309,7 @@ holes:
         - title: Mountain - Rookie
           url: https://youtu.be/ZLtil7MHLNQ
           metadata:
+            published: 1542130244000
             tournament: Mountain
             level: Rookie
             teePosition: 1
@@ -1278,6 +1326,7 @@ holes:
         - title: Mountain - Pro
           url: https://youtu.be/uMFaNhTMrmA
           metadata:
+            published: 1542052346000
             tournament: Mountain
             level: Pro
             teePosition: 2
@@ -1294,6 +1343,7 @@ holes:
         - title: Mountain - Expert
           url: https://youtu.be/QyfmyKthvDs
           metadata:
+            published: 1542044822000
             tournament: Mountain
             level: Expert
             teePosition: 2
@@ -1310,6 +1360,7 @@ holes:
         - title: Mountain - Masters
           url: https://youtu.be/t8O9c3aOhEU
           metadata:
+            published: 1542032065000
             tournament: Mountain
             level: Masters
             teePosition: 3
@@ -1327,6 +1378,7 @@ holes:
         - title: Mountain - Masters
           url: https://youtu.be/rE-81TNpYjE
           metadata:
+            published: 1542041269000
             tournament: Mountain
             level: Masters
             teePosition: 3
@@ -1343,6 +1395,7 @@ holes:
         - title: Mountain - Masters
           url: https://youtu.be/UlqO6pUpDxU
           metadata:
+            published: 1542119109000
             tournament: Mountain
             level: Masters
             teePosition: 3
@@ -1357,6 +1410,7 @@ holes:
         - title: Tour 9 - Layup Shot
           url: https://youtu.be/aCeeUW6kxZA
           metadata:
+            published: 1524935185000
             tour: 9
             ball: Katana
             teePosition: 2
@@ -1372,6 +1426,7 @@ holes:
         - title: Tour 9 - Shot Over the Water Tips
           url: https://youtu.be/MTUzavSax0Y
           metadata:
+            published: 1524929100000
             tour: 9
             ball: King Maker
             teePosition: 2
@@ -1388,6 +1443,7 @@ holes:
         - title: St. Patrick's - Rookie
           url: https://youtu.be/ABR8f4mC51w
           metadata:
+            published: 1520861409000
             tournament: St. Patrick's
             level: Rookie
             teePosition: 1
@@ -1405,6 +1461,7 @@ holes:
         - title: St. Patrick's - Pro
           url: https://youtu.be/hfCBdVxB9hc
           metadata:
+            published: 1520856978000
             tournament: St. Patrick's
             level: Pro
             teePosition: 2
@@ -1422,6 +1479,7 @@ holes:
         - title: St. Patrick's - Expert
           url: https://youtu.be/Gp9veZA-Dfs
           metadata:
+            published: 1520953679000
             tournament: St. Patrick's
             level: Expert
             teePosition: 3
@@ -1438,6 +1496,7 @@ holes:
         - title: St. Patrick's - Masters
           url: https://youtu.be/NRmMT9Wzihk
           metadata:
+            published: 1520874110000
             tournament: St. Patrick's
             level: Masters
             teePosition: 4
@@ -1527,6 +1586,7 @@ holes:
         - title: Mountain - Rookie
           url: https://youtu.be/IVe-0FKkkv4
           metadata:
+            published: 1542129499000
             tournament: Mountain
             level: Rookie
             teePosition: 1
@@ -1543,6 +1603,7 @@ holes:
         - title: Mountain - Pro
           url: https://youtu.be/TjlgdrtfRsA
           metadata:
+            published: 1542053092000
             tournament: Mountain
             level: Pro
             teePosition: 2
@@ -1559,6 +1620,7 @@ holes:
         - title: Mountain - Expert
           url: https://youtu.be/q-nWBYCd6Tc
           metadata:
+            published: 1542045451000
             tournament: Mountain
             level: Expert
             teePosition: 2
@@ -1575,6 +1637,7 @@ holes:
         - title: Mountain - Masters
           url: https://youtu.be/HuBDX8dioM0
           metadata:
+            published: 1542032821000
             tournament: Mountain
             level: Masters
             teePosition: 3
@@ -1591,6 +1654,7 @@ holes:
         - title: Mountain - Masters
           url: https://youtu.be/USUv2UdBpY0
           metadata:
+            published: 1542042133000
             tournament: Mountain
             level: Masters
             teePosition: 3
@@ -1607,6 +1671,7 @@ holes:
         - title: Mountain - Masters
           url: https://youtu.be/_k8XNYHReZY
           metadata:
+            published: 1542120145000
             tournament: Mountain
             level: Masters
             teePosition: 3
@@ -1623,6 +1688,7 @@ holes:
         - title: Tour 9 - Tips and Strategies
           url: https://youtu.be/UVUzV4Syk60
           metadata:
+            published: 1525788191000
             tour: 9
             ball: Quasar
             teePosition: 2
@@ -1638,6 +1704,7 @@ holes:
         - title: Tour 9 - Headwind
           url: https://youtu.be/-IuN3YJDDLA
           metadata:
+            published: 1524937026000
             tour: 9
             ball: King Maker
             teePosition: 2
@@ -1655,6 +1722,7 @@ holes:
         - title: Tour 9 - Wind Pointed at 4 O`clock
           url: https://youtu.be/nEdMW-iPqqM
           metadata:
+            published: 1524870209000
             tour: 9
             ball: King Maker
             teePosition: 2
@@ -1670,6 +1738,7 @@ holes:
         - title: St. Patrick's - Rookie
           url: https://youtu.be/IDQB1bzfX68
           metadata:
+            published: 1520863392000
             tournament: St. Patrick's
             level: Rookie
             teePosition: 1
@@ -1688,6 +1757,7 @@ holes:
         - title: St. Patrick's - Pro
           url: https://youtu.be/RMUpSgthm2Q
           metadata:
+            published: 1520861993000
             tournament: St. Patrick's
             level: Pro
             teePosition: 2
@@ -1704,6 +1774,7 @@ holes:
         - title: St. Patrick's - Expert
           url: https://youtu.be/4p4FLzct3zw
           metadata:
+            published: 1520955357000
             tournament: St. Patrick's
             level: Expert
             teePosition: 2
@@ -1720,6 +1791,7 @@ holes:
         - title: St. Patrick's - Masters
           url: https://youtu.be/fpwdYJKpUd8
           metadata:
+            published: 1520877441000
             tournament: St. Patrick's
             level: Masters
             teePosition: 3
@@ -1819,6 +1891,7 @@ holes:
         - title: Tour 9 - Strategy and Tips Laying Up
           url: https://youtu.be/PawhCjPsjXw
           metadata:
+            published: 1525788862000
             tour: 9
             ball: Quasar
             teePosition: 2
@@ -1836,6 +1909,7 @@ holes:
         - title: Tour 9 - Tips and Strategies for Eagle
           url: https://youtu.be/XBnkONcXuNI
           metadata:
+            published: 1524931100000
             tour: 9
             ball: King Maker
             teePosition: 2
@@ -1851,6 +1925,7 @@ holes:
         - title: Tour 9 - Strong Headwind
           url: https://youtu.be/dXlL09DQGkQ
           metadata:
+            published: 1524927305000
             tour: 9
             ball: Katana
             teePosition: 2
@@ -1868,6 +1943,7 @@ holes:
         - title: St. Patrick's - Rookie
           url: https://youtu.be/Hy1zXM0StNE
           metadata:
+            published: 1520860369000
             tournament: St. Patrick's
             level: Rookie
             teePosition: 1
@@ -1887,6 +1963,7 @@ holes:
         - title: St. Patrick's - Pro
           url: https://youtu.be/YNtYcbR4zSg
           metadata:
+            published: 1520854516000
             tournament: St. Patrick's
             level: Pro
             teePosition: 2
@@ -1903,6 +1980,7 @@ holes:
         - title: St. Patrick's - Expert
           url: https://youtu.be/X80eX0IjQeY
           metadata:
+            published: 1520952087000
             tournament: St. Patrick's
             level: Expert
             teePosition: 2
@@ -1920,6 +1998,7 @@ holes:
         - title: St. Patrick's - Masters
           url: https://youtu.be/4kZXar6gUE0
           metadata:
+            published: 152087296500
             tournament: St. Patrick's
             level: Masters
             teePosition: 3
