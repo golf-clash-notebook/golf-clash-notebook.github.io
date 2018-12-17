@@ -1,0 +1,10 @@
+name: Gingerbread
+windResistance: 1
+sideSpin: 3
+power: 4
+cost: n/a
+description: >
+  A ball that was for sale during the <a href="/tournaments/FestiveCup/">Festive Cup</a>
+  tournament. It's an exact clone of the Prestige ball. So use it in tailwind situations or when
+  you're on tilt from the par you made on your last tournament hole.
+needleSpeed: 0.833
