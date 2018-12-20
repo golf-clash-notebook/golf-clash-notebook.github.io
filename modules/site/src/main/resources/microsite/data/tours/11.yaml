@@ -1,10 +1,8 @@
 number: 11
 tourName: Voyager Tour
 courses:
-  - name: City Park
+  - name: Nordic Fjords
   - name: Parc de Paris
-  - name: Santa Ventura
-  - name: Sunshine Glades
 description: >
   Help Wanted
 resources:
