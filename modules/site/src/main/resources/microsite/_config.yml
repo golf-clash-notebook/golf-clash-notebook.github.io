@@ -149,6 +149,13 @@ page_gen:
     extra:
       title-prefix: 'Namhae Cliffs - Hole '
   - index_files: true
+    data: 'courses.NordicFjords.holes'
+    template: '_includes/courses/hole-template.liquid'
+    name: 'number'
+    dir: 'courses/NordicFjords'
+    extra:
+      title-prefix: 'Nordic Fjords - Hole '
+  - index_files: true
     data: 'courses.SakuraHills.holes'
     template: '_includes/courses/hole-template.liquid'
     name: 'number'
@@ -555,3 +562,11 @@ page_gen:
     extra:
       title-prefix: 'Festive Cup Tournament - Hole '
       tournamentName: 'Festive Cup'
+  - index_files: true
+    data: 'tournaments.ChristmasLinks.holes'
+    template: '_includes/tournaments/hole-template.liquid'
+    name: 'number'
+    dir: 'tournaments/ChristmasLinks'
+    extra:
+      title-prefix: 'Christmas Links Tournament - Hole '
+      tournamentName: 'Christmas Links'

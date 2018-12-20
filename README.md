@@ -18,6 +18,6 @@ A website with a collection of useful resources & tools to help people with Golf
 In a separate terminal in the notebook top level directory (using jekyll):
 
 ```bash
-> jekyll serve -s modules/site/target/site
+> jekyll serve --host=0.0.0.0 -s modules/site/target/site
 # Should be able to see the site in your browser at: `localhost:4000`
 ```
