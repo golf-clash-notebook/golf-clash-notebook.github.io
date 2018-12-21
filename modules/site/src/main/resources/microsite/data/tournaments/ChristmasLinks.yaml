@@ -1,6 +1,10 @@
 tournamentName: Christmas Links
 date: '2018-12-24'
 resourceCreators:
+  - name: Golf Clash Tommy
+    resources:
+    - title: Rookie Playthrough
+      url: https://youtu.be/fbt3zyLJm8o
 holes:
   - number: 1
     id: 1ce9d5b0-3c2d-4a5c-b865-4361d3acdd24
