@@ -5,6 +5,8 @@ resourceCreators:
     resources:
     - title: Rookie Playthrough
       url: https://youtu.be/fbt3zyLJm8o
+    - title: Club Guide - Rookie / Pro / Expert / Master
+      url: https://youtu.be/dtUNtWu87XE
 holes:
   - number: 1
     id: 1ce9d5b0-3c2d-4a5c-b865-4361d3acdd24

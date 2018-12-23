@@ -14,6 +14,23 @@ holes:
         resources:
         - title: Festive Cup - Rookie
           url: https://youtu.be/Bq5HljaAqsM
+      - name: Zachary Jones
+        resources:
+        - title: Tour 11 - Strategy and Tips for Eagle
+          url: https://youtu.be/-ac_bRxO9U0
+          metadata:
+            tour: 11
+            ball: Titan
+            teePosition: 3
+            clubs:
+              - name: Thor's Hammer
+                level: 6
+              - name: EndBringer
+                level: 6
+            wind:
+              direction: ENE
+              magnitude: 8.5
+            keywords:
       - name: Jesse Both
         resources:
         - title: Festive Cup - Rookie
@@ -33,6 +50,21 @@ holes:
         resources:
         - title: Festive Cup - Rookie
           url: https://youtu.be/ad-LO1mCREM
+      - name: Zachary Jones
+        resources:
+        - title: Tour 11 Shootout - Wind Pointed at 1130 Driver shot
+          url: https://youtu.be/_ng-bXYGsD0
+          metadata:
+            tour: 11
+            ball: King Maker
+            teePosition: 3
+            clubs:
+              - name: Sniper
+                level: 10
+            wind:
+              direction: NNW
+              magnitude: 10.3
+            keywords:
   - id: 4fb12678-e039-4d56-8d5d-cbe731607450
     course: Nordic Fjords
     number: 3
@@ -46,6 +78,23 @@ holes:
         resources:
         - title: Festive Cup - Rookie
           url: https://youtu.be/6XO7sH2tj28
+      - name: Zachary Jones
+        resources:
+        - title: Tour 11 - Strategy and Tips
+          url: https://youtu.be/pT4Gp2C_KvY
+          metadata:
+            tour: 11
+            ball: King Maker
+            teePosition: 3
+            clubs:
+              - name: Thor's Hammer
+                level: 6
+              - name: Sniper
+                level: 10
+            wind:
+              direction: SSW
+              magnitude: 12.4
+            keywords:
   - id: 2b028043-3b76-4a6b-b763-0e2486fc5af5
     course: Nordic Fjords
     number: 4
@@ -59,6 +108,34 @@ holes:
         resources:
         - title: Festive Cup - Rookie
           url: https://youtu.be/yhk95X7G0wg
+      - name: Zachary Jones
+        resources:
+        - title: Tour 11 Shootout - Wind Pointed at 730 Driver shot
+          url: https://youtu.be/vCy3ypygJG0
+          metadata:
+            tour: 11
+            ball: King Maker
+            teePosition: 3
+            clubs:
+              - name: Thor's Hammer
+                level: 6
+            wind:
+              direction: SW
+              magnitude: 9.0
+            keywords:
+        - title: Tour 11 Shootout - Wind Pointed at 830 Driver shot
+          url: https://youtu.be/gGPWUHzEgaw
+          metadata:
+            tour: 11
+            ball: King Maker
+            teePosition: 3
+            clubs:
+              - name: Apocalypse
+                level: 6
+            wind:
+              direction: WSW
+              magnitude: 12.4
+            keywords:
       - name: Jesse Both
         resources:
         - title: Festive Cup - Rookie
@@ -76,6 +153,23 @@ holes:
         resources:
         - title: Festive Cup - Rookie
           url: https://youtu.be/OUKPUlBGVuM
+      - name: Zachary Jones
+        resources:
+        - title: Tour 11 - Strategy and Tips
+          url: https://youtu.be/m_9sdiQKr1E
+          metadata:
+            tour: 11
+            ball: King Maker
+            teePosition: 3
+            clubs:
+              - name: Thor's Hammer
+                level: 6
+              - name: Sniper
+                level: 10
+            wind:
+              direction: S
+              magnitude: 8.2
+            keywords:
       - name: Jesse Both
         resources:
         - title: Festive Cup - Rookie
@@ -93,6 +187,23 @@ holes:
         resources:
         - title: Festive Cup - Rookie
           url: https://youtu.be/nDEjyTew1w4
+      - name: Zachary Jones
+        resources:
+        - title: Tour 11 - Strategy and Tips
+          url: https://youtu.be/LX4M_xezWgk
+          metadata:
+            tour: 11
+            ball: King Maker
+            teePosition: 3
+            clubs:
+              - name: Thor's Hammer
+                level: 6
+              - name: B52
+                level: 6
+            wind:
+              direction: W
+              magnitude: 8.9
+            keywords:
       - name: Jesse Both
         resources:
         - title: Festive Cup - Rookie
@@ -129,6 +240,23 @@ holes:
         resources:
         - title: Festive Cup - Rookie
           url: https://youtu.be/gzdQIsCI4lQ
+      - name: Zachary Jones
+        resources:
+        - title: Tour 11 - Strategy and Tips for Eagle
+          url: https://youtu.be/X3m0wOOouto
+          metadata:
+            tour: 11
+            ball: King Maker
+            teePosition: 3
+            clubs:
+              - name: Thor's Hammer
+                level: 5
+              - name: EndBringer
+                level: 5
+            wind:
+              direction: ENE
+              magnitude: 7.6
+            keywords:
       - name: Jesse Both
         resources:
         - title: Festive Cup - Rookie
@@ -146,6 +274,23 @@ holes:
         resources:
         - title: Festive Cup - Rookie
           url: https://youtu.be/WG38X5VoIrA
+      - name: Zachary Jones
+        resources:
+        - title: Tour 11 - Strategy and Tips
+          url: https://youtu.be/YXJ-wUY-4MQ
+          metadata:
+            tour: 11
+            ball: King Maker
+            teePosition: 3
+            clubs:
+              - name: Thor's Hammer
+                level: 5
+              - name: Sniper
+                level: 10
+            wind:
+              direction: NNE
+              magnitude: 10.4
+            keywords:
       - name: Jesse Both
         resources:
         - title: Festive Cup - Rookie
