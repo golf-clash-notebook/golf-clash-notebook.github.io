@@ -269,6 +269,19 @@ holes:
           published: 1541767696000
           generalInstruction: true
           teePosition: 3
+      - title: Tour 11 Shootout - Wind Pointed at 1030 Driver shot
+        url: https://youtu.be/pOcGccFMOD4
+        metadata:
+          tour: 11
+          ball: King Maker
+          teePosition: 3
+          clubs:
+            - name: Thor's Hammer
+              level: 6
+          wind:
+            direction: NW
+            magnitude: 8.6
+          keywords:
       - title: Metro Open - Pro
         url: https://youtu.be/A7Qs-bqYQvg
         metadata:
