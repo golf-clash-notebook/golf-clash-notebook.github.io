@@ -1,0 +1,10 @@
+name: Rudolph
+windResistance: 3
+sideSpin: 3
+power: 3
+cost: n/a
+description: >
+  A ball that was for sale during the <a href="/tournaments/ChristmasLinks/">Christmas Links</a>
+  tournament. Nothing really special here since it's just a reskinned King Maker with a worse
+  OP needle speed but if you're the collecting type, pull the trigger.
+needleSpeed: 0.833
