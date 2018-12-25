@@ -7,6 +7,12 @@ resourceCreators:
       url: https://youtu.be/fbt3zyLJm8o
     - title: Club Guide - Rookie / Pro / Expert / Master
       url: https://youtu.be/dtUNtWu87XE
+  - name: Jesse Both
+    resources:
+    - title: Rookie Guide
+      url: https://youtu.be/E6pEV6V4L4c
+    - title: Rookie Playthrough
+      url: https://youtu.be/oGvApOMF0sk
 holes:
   - number: 1
     id: 1ce9d5b0-3c2d-4a5c-b865-4361d3acdd24
