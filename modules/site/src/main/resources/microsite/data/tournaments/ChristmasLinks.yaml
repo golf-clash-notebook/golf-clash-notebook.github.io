@@ -5,8 +5,16 @@ resourceCreators:
     resources:
     - title: Rookie Playthrough
       url: https://youtu.be/fbt3zyLJm8o
+    - title: Pro Playthrough
+      url: https://youtu.be/mU4icTjYbxA
+    - title: Expert Playthrough
+      url: https://youtu.be/ZJozM0YJvSA
+    - title: Master Playthrough
+      url: https://youtu.be/hzWjkc9yE-A
     - title: Club Guide - Rookie / Pro / Expert / Master
       url: https://youtu.be/dtUNtWu87XE
+    - title: Text Guide
+      url: https://imgur.com/a/1C5r2Yd
   - name: Jesse Both
     resources:
     - title: Rookie Guide
