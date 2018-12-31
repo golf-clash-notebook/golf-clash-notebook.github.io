@@ -1,0 +1,11 @@
+name: Firework
+windResistance: 2
+sideSpin: 3
+power: 4
+cost: n/a
+description: >
+  A ball that was for sale during the <a href="/tournaments/ChristmasLinks/">Christmas Links</a>
+  tournament. It's a replica of the Snowman ball so it's good for tailwind situations and with the
+  attractive OP needle speed, it shouldn't be too difficult to keep it in the fairway trying to
+  smash it as far as possible...but then again maybe not.
+needleSpeed: 0.833
