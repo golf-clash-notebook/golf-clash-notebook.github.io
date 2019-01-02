@@ -81,6 +81,7 @@ holes:
               <circle cx="181" cy="205" r="6" fill="white" class="guide-point" data-guide-segment="1" />
               <circle cx="239" cy="111" r="6" fill="white" class="guide-point" data-guide-segment="2" />
   - id: 4c3cbf6a-1b1b-4aa6-a413-6c5c96f6d377
+    current-tournament: true
     course: Winter Olympics
     number: 2
     par: 3
@@ -130,6 +131,7 @@ holes:
               <circle cx="217" cy="753" r="6" fill="black" class="guide-point" data-guide-segment="0" />
               <circle cx="199" cy="200" r="6" fill="black" class="guide-point" data-guide-segment="1" />
   - id: f3bfe4b1-7e86-4d69-8c09-312d69088bbd
+    current-tournament: true
     course: Winter Olympics
     number: 3
     par: 5
@@ -262,6 +264,7 @@ holes:
               <circle cx="286" cy="692" r="6" fill="black" class="guide-point" data-guide-segment="0" />
               <circle cx="266" cy="268" r="6" fill="black" class="guide-point" data-guide-segment="1" />
   - id: 9b676878-9162-47a8-ada9-a16a5456316d
+    current-tournament: true
     course: Winter Olympics
     number: 5
     par: 5
@@ -353,6 +356,7 @@ holes:
               <circle cx="165" cy="125" r="6" fill="white" class="guide-point" data-guide-segment="2" />
               <circle cx="115" cy="88" r="6" fill="white" class="guide-point" data-guide-segment="3" />
   - id: f9cc317a-341d-4d0c-91a9-7fb2ee1061b2
+    current-tournament: true
     course: Winter Olympics
     number: 6
     par: 4
@@ -430,6 +434,7 @@ holes:
               <circle cx="203" cy="240" r="6" fill="white" class="guide-point" data-guide-segment="1" />
               <circle cx="109" cy="98" r="6" fill="white" class="guide-point" data-guide-segment="2" />
   - id: 3f053109-7927-4eec-8c62-5cbbc4f37ff0
+    current-tournament: true
     course: Winter Olympics
     number: 7
     par: 3

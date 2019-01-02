@@ -1,0 +1,22 @@
+tournamentName: Winter Slopes
+date: '2019-01-07'
+resourceCreators:
+holes:
+  - number: 1
+    id: 25ee67c7-f844-4d12-ae35-0876c69211c5
+  - number: 2
+    id: c8bfcf6b-dd84-4db4-827f-694839f7ff60
+  - number: 3
+    id: c8617a92-c408-4bb8-9fd1-342d5fdcaded
+  - number: 4
+    id: 4c3cbf6a-1b1b-4aa6-a413-6c5c96f6d377
+  - number: 5
+    id: f3bfe4b1-7e86-4d69-8c09-312d69088bbd
+  - number: 6
+    id: f9cc317a-341d-4d0c-91a9-7fb2ee1061b2
+  - number: 7
+    id: 3f053109-7927-4eec-8c62-5cbbc4f37ff0
+  - number: 8
+    id: e94dfbeb-f8d3-4a38-817b-50dd90f499f6
+  - number: 9
+    id: 9b676878-9162-47a8-ada9-a16a5456316d
