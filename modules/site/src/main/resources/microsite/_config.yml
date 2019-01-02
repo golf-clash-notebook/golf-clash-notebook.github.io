@@ -570,3 +570,11 @@ page_gen:
     extra:
       title-prefix: 'Christmas Links Tournament - Hole '
       tournamentName: 'Christmas Links'
+  - index_files: true
+    data: 'tournaments.WinterSlopes.holes'
+    template: '_includes/tournaments/hole-template.liquid'
+    name: 'number'
+    dir: 'tournaments/WinterSlopes'
+    extra:
+      title-prefix: 'Winter Slopes Tournament - Hole '
+      tournamentName: 'Winter Slopes'
