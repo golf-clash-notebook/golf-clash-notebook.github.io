@@ -1,0 +1,86 @@
+categories:
+  - name: App Help
+    description: Notebook for Golf Clash Tutorials
+    resources:
+    - title: Memory Management - Android
+      url: https://youtu.be/hfAPFszCpfs
+    - title: Curling Gridlines
+      url: https://youtu.be/E3cMGIRwlC0
+    - title: Update 0.8.1 Features
+      url: https://youtu.be/IqHGcoWS89k
+    - title: Update 0.8.0 Features
+      url: https://youtu.be/F4ZYa-XgRnw
+    - title: Update 0.7.0 Features
+      url: https://youtu.be/d77ggbOHTuI
+    - title: Update 0.6.0 Features
+      url: https://youtu.be/S09PZE1rhaY
+    - title: Introduction Demo
+      url: https://youtu.be/8SQcDZk3g6w
+    - title: Update 0.1.22 Features
+      url: https://youtu.be/HmZByDg8IuM
+    - title: Overview of All Features (first launch)
+      url: https://youtu.be/rmvdAJgTkYc
+    - title: Time Management Tips for Using the App
+      url: https://youtu.be/9lIeG4tXeTo
+    - title: Live Gameplay Tutorial for Using the App
+      url: https://youtu.be/pARTKyTRm_8
+  - name: Learning Ring Play
+    description: Tutorials for Mastering the Ring System
+    resources:
+    - title: Basic Ring Guide
+      url: https://youtu.be/kJ8qdKTy6-8
+    - title: Beginner Wind Play Strategies
+      url: https://youtu.be/yDlr5PKFP1M
+    - title: Using the Take Shot Button for Ring Adjustment Part 1
+      url: https://youtu.be/1TI49vQP1hw
+    - title: Using the Take Shot Button for Ring Adjustment Part 2
+      url: https://youtu.be/MuTqz48lsOA
+    - title: Take Shot Button Technique
+      url: https://youtu.be/er7WGPwZRYg
+    - title: Take Shot Button Technique
+      url: https://youtu.be/WiL7l1ME9Pc
+  - name: General Gameplay Advice
+    description: Advice for Clubs, Balls & More...
+    resources:
+    - title: Setting up Multiple Bags (available from clans)
+      url: https://youtu.be/gMPgXA-XO64
+    - title: How to Pick Your Ball to Play
+      url: https://youtu.be/Eeeg5544afs
+    - title: How to Pick Your Ball to Play
+      url: https://youtu.be/Eeeg5544afs
+    - title: Best Clubs to Use - Tour 6
+      url: https://youtu.be/VLGJI2UR4FA
+    - title: Best Clubs to Use - Tour 7
+      url: https://youtu.be/cLv_shZAQHY
+    - title: Best Clubs to Use - Tour 8
+      url: https://youtu.be/eHRsuY2ra7I
+    - title: Best Clubs to Use - Tour 9
+      url: https://youtu.be/vhzIdQIC3w0
+    - title: Best Clubs to Use - Tour 10
+      url: https://youtu.be/L22RwBGYEl0
+    - title: Best Clubs to Use - Tour 11
+      url: https://youtu.be/WsQ-sOgVzEE
+    - title: Best Clubs to Use - Tour 12
+      url: https://youtu.be/zX3WKEXp9Gk
+  - name: Advanced Techniques
+    description: Tutorials for Advanced Gameplay
+    resources:
+    - title: Hook/Slice Advanced Technique Part 1
+      url: https://youtu.be/HF1pmPqOuWs
+    - title: Hook/Slice Advanced Technique Part 2
+      url: https://youtu.be/N6pFGayD8XQ
+    - title: Dunking Advice and Tips
+      url: https://youtu.be/Xlh8w0UIM7I
+  - name: Miscellaneous
+    description: Specialized Guides for Improving
+    resources:
+    - title: Tsunami Strategy and Tips
+      subtitle: Using Clubs With Limited Ball Guide
+      url: https://youtu.be/bemCXHzMerQ
+    - title: Rough Iron, Sand Wedge, and Wedge Tutorial
+      subtitle: Estimating Distance on Clubs with No Min Values
+      url: https://youtu.be/rk98nkEahlA
+    - title: Overpower Tips and Tricks Part 1
+      url: https://youtu.be/tBmXJ2iWLXM
+    - title: Overpower Tips and Tricks Part 2
+      url: https://youtu.be/_z4nYdbt268
