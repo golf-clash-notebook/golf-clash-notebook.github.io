@@ -1,0 +1,5 @@
+---
+layout: null
+---
+
+{{ site.data.app-resources | jsonify }}
