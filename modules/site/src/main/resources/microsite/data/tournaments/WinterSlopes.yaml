@@ -1,6 +1,10 @@
 tournamentName: Winter Slopes
 date: '2019-01-07'
 resourceCreators:
+  - name: Golf Clash Tommy
+    resources:
+    - title: Rookie Playthrough
+      url: https://youtu.be/Zc3el_qq1zc
 holes:
   - number: 1
     id: 25ee67c7-f844-4d12-ae35-0876c69211c5

@@ -2,28 +2,39 @@ categories:
   - name: App Help
     description: Notebook for Golf Clash Tutorials
     resources:
-    - title: Memory Management - Android
+    - title: Memory Management
       url: https://youtu.be/hfAPFszCpfs
-    - title: Curling Gridlines
+      platforms: ['android']
+    - title: Curling Grid
       url: https://youtu.be/E3cMGIRwlC0
-    - title: Update 0.8.1 Features
-      url: https://youtu.be/IqHGcoWS89k
-    - title: Update 0.8.0 Features
-      url: https://youtu.be/F4ZYa-XgRnw
-    - title: Update 0.7.0 Features
-      url: https://youtu.be/d77ggbOHTuI
-    - title: Update 0.6.0 Features
-      url: https://youtu.be/S09PZE1rhaY
+      platforms: ['android']
     - title: Introduction Demo
       url: https://youtu.be/8SQcDZk3g6w
-    - title: Update 0.1.22 Features
-      url: https://youtu.be/HmZByDg8IuM
+      platforms: ['android']
     - title: Overview of All Features (first launch)
       url: https://youtu.be/rmvdAJgTkYc
+      platforms: ['android']
     - title: Time Management Tips for Using the App
       url: https://youtu.be/9lIeG4tXeTo
+      platforms: ['android']
     - title: Live Gameplay Tutorial for Using the App
       url: https://youtu.be/pARTKyTRm_8
+      platforms: ['android']
+    - title: Update 0.8.1 Features
+      url: https://youtu.be/IqHGcoWS89k
+      platforms: ['android']
+    - title: Update 0.8.0 Features
+      url: https://youtu.be/F4ZYa-XgRnw
+      platforms: ['android']
+    - title: Update 0.7.0 Features
+      url: https://youtu.be/d77ggbOHTuI
+      platforms: ['android']
+    - title: Update 0.6.0 Features
+      url: https://youtu.be/S09PZE1rhaY
+      platforms: ['android']
+    - title: Update 0.1.22 Features
+      url: https://youtu.be/HmZByDg8IuM
+      platforms: ['android']
   - name: Learning Ring Play
     description: Tutorials for Mastering the Ring System
     resources:
