@@ -346,6 +346,8 @@ holes:
     resourceCreators:
       - name: Golf Clash Tommy
         resources:
+        - title: Winter Slopes - Rookie Guide
+          url: https://youtu.be/L38m226YsCo
         - title: Tour 9 Guide
           url: https://youtu.be/RE38W95BH3M
         - title: Rookie Guide
@@ -1327,6 +1329,8 @@ holes:
     resourceCreators:
       - name: Golf Clash Tommy
         resources:
+        - title: Winter Slopes - Rookie Guide
+          url: https://youtu.be/NtS57Q_WOwc
         - title: Tour 9 Guide
           url: https://youtu.be/PVgi48tXcpM
         - title: Rookie Guide
@@ -1553,6 +1557,8 @@ holes:
     resourceCreators:
       - name: Golf Clash Tommy
         resources:
+        - title: Winter Slopes - Rookie Guide
+          url: https://youtu.be/ojTckmZakPo
         - title: Rookie Guide
           url: https://youtu.be/Rzt9RdD5g08
         - title: Pro / Expert Guide
@@ -2163,6 +2169,8 @@ holes:
     resourceCreators:
       - name: Golf Clash Tommy
         resources:
+        - title: Winter Slopes - Rookie Guide
+          url: https://youtu.be/EWlMNWtut7Y
         - title: Rookie Guide
           url: https://youtu.be/d5_OpMCVils
         - title: Pro / Expert Guide
