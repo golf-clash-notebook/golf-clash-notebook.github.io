@@ -360,6 +360,100 @@ holes:
           url: https://i.imgur.com/pcBoFbJ.png
       - name: Zachary Jones
         resources:
+        - title: Winter Slopes - Rookie
+          url: https://youtu.be/iR45HjlXRJo
+          metadata:
+            tournament: Winter Slopes
+            level: Rookie
+            ball: Titan
+            teePosition: 1
+            clubs:
+              - name: Extra Mile
+                level: 6
+            wind:
+              direction: NE
+              magnitude: 3.4
+            keywords:
+        - title: Winter Slopes - Pro
+          url: https://youtu.be/mG4dSwlOMks
+          metadata:
+            tournament: Winter Slopes
+            level: Pro
+            ball: Titan
+            teePosition: 2
+            clubs:
+              - name: Extra Mile
+                level: 6
+              - name: Endbringer
+                level: 2
+            wind:
+              direction: NNE
+              magnitude: 7.5
+            keywords:
+        - title: Winter Slopes - Expert
+          url: https://youtu.be/E87UMEVRqLM
+          metadata:
+            tournament: Winter Slopes
+            level: Expert
+            ball: King Maker
+            teePosition: 2
+            clubs:
+              - name: Thor's Hammer
+                level: 4
+              - name: Hornet
+                level: 5
+            wind:
+              direction: ESE
+              magnitude: 8.1
+            keywords:
+        - title: Winter Slopes - Expert
+          url: https://youtu.be/8YzjYRH0FJk
+          metadata:
+            tournament: Winter Slopes
+            level: Expert
+            ball: Berserker
+            teePosition: 2
+            clubs:
+              - name: Apocalypse
+                level: 7
+              - name: EndBringer
+                level: 7
+            wind:
+              direction: ESE
+              magnitude: 10.6
+            keywords:
+        - title: Winter Slopes - Master
+          url: https://youtu.be/AG-Ha3QZOSU
+          metadata:
+            tournament: Winter Slopes
+            level: Master
+            ball: Royal
+            teePosition: 3
+            clubs:
+              - name: Thor's Hammer
+                level: 6
+              - name: Nirvana
+                level: 8
+            wind:
+              direction: SE
+              magnitude: 11.0
+            keywords:
+        - title: Winter Slopes - Master
+          url: https://youtu.be/to3hN0Cuge0
+          metadata:
+            tournament: Winter Slopes
+            level: Master
+            ball: King Maker
+            teePosition: 3
+            clubs:
+              - name: Apocalypse
+                level: 6
+              - name: Hornet
+                level: 7
+            wind:
+              direction: SE
+              magnitude: 10.8
+            keywords:
         - title: Tour 9 - Strategy and Tips
           url: https://youtu.be/t_nRwpz9fAw
           metadata:
@@ -1351,6 +1445,90 @@ holes:
             published: 1541697130000
             generalInstruction: true
             teePosition: 2
+        - title: Winter Slopes - Rookie
+          url: https://youtu.be/mfc9V6f3HWM
+          metadata:
+            tournament: Winter Slopes
+            level: Rookie
+            ball: Quasar
+            teePosition: 1
+            clubs:
+              - name: Extra Mile
+                level: 6
+            wind:
+              direction: NW
+              magnitude: 3.4
+            keywords:
+        - title: Winter Slopes - Pro
+          url: https://youtu.be/y94qsFjRh-M
+          metadata:
+            tournament: Winter Slopes
+            level: Pro
+            ball: Quasar
+            teePosition: 2
+            clubs:
+              - name: Quarterback
+                level: 8
+            wind:
+              direction: NE
+              magnitude: 6.2
+            keywords:
+        - title: Winter Slopes - Expert
+          url: https://youtu.be/rrptqQqNQ-8
+          metadata:
+            tournament: Winter Slopes
+            level: Expert
+            ball: Titan
+            teePosition: 2
+            clubs:
+              - name: Quarterback
+                level: 8
+            wind:
+              direction: ENE
+              magnitude: 10.4
+            keywords:
+        - title: Winter Slopes - Expert
+          url: https://youtu.be/aBx9_t7LnjQ
+          metadata:
+            tournament: Winter Slopes
+            level: Expert
+            ball: Titan
+            teePosition: 2
+            clubs:
+              - name: Quarterback
+                level: 10
+            wind:
+              direction: ENE
+              magnitude: 8.4
+            keywords:
+        - title: Winter Slopes - Master
+          url: https://youtu.be/X1isJQgCBvI
+          metadata:
+            tournament: Winter Slopes
+            level: Master
+            ball: Season two
+            teePosition: 3
+            clubs:
+              - name: Apocalypse
+                level: 5
+            wind:
+              direction: SSE
+              magnitude: 9.8
+            keywords:
+        - title: Winter Slopes - Master
+          url: https://youtu.be/LqQH8KIiFU8
+          metadata:
+            tournament: Winter Slopes
+            level: Master
+            ball: King Maker
+            teePosition: 3
+            clubs:
+              - name: Apocalypse
+                level: 6
+            wind:
+              direction: SSE
+              magnitude: 11.7
+            keywords:
         - title: Tour 9 Shootout - Wind Pointed at 10 O`clock
           url: https://youtu.be/zw5QSKTZqbA
           metadata:
@@ -1573,6 +1751,102 @@ holes:
           url: https://i.imgur.com/EAI49ER.png
       - name: Zachary Jones
         resources:
+        - title: Winter Slopes - Rookie
+          url: https://youtu.be/myKdNe2zpAA
+          metadata:
+            tournament: Winter Slopes
+            level: Rookie
+            ball: Titan
+            teePosition: 1
+            clubs:
+              - name:  Quarterback
+                level: 8
+              - name: Viper
+                level: 6
+            wind:
+              direction: NNE
+              magnitude: 3.8
+            keywords:
+        - title: Winter Slopes - Pro
+          url: https://youtu.be/FbgqRv0NraY
+          metadata:
+            tournament: Winter Slopes
+            level: Pro
+            ball: Titan
+            teePosition: 2
+            clubs:
+              - name: Quarterback
+                level: 8
+              - name: Big Dawg
+                level: 5
+            wind:
+              direction: NW
+              magnitude: 7.2
+            keywords:
+        - title: Winter Slopes - Expert
+          url: https://youtu.be/FDwjhqTcZkU
+          metadata:
+            tournament: Winter Slopes
+            level: Expert
+            ball: King Maker
+            teePosition: 2
+            clubs:
+              - name: Quarterback
+                level: 8
+              - name: Sniper
+                level: 8
+            wind:
+              direction: NNE
+              magnitude: 7.1
+            keywords:
+        - title: Winter Slopes - Expert
+          url: https://youtu.be/-9P_QsD7oZM
+          metadata:
+            tournament: Winter Slopes
+            level: Expert
+            ball: King Maker
+            teePosition: 2
+            clubs:
+              - name: Quarterback
+                level: 10
+              - name: Sniper
+                level: 10
+            wind:
+              direction: NNE
+              magnitude: 8.5
+            keywords:
+        - title: Winter Slopes - Master
+          url: https://youtu.be/2jeehCuDUp8
+          metadata:
+            tournament: Winter Slopes
+            level: Master
+            ball: King Maker X
+            teePosition: 3
+            clubs:
+              - name: Thor's Hammer
+                level: 6
+              - name: Sniper
+                level: 10
+            wind:
+              direction: E
+              magnitude: 11.6
+            keywords:
+        - title: Winter Slopes - Master
+          url: https://youtu.be/IiuJM2X2nSg
+          metadata:
+            tournament: Winter Slopes
+            level: Master
+            ball: King Maker
+            teePosition: 3
+            clubs:
+              - name: Apocalypse
+                level: 6
+              - name: Sniper
+                level: 10
+            wind:
+              direction: E
+              magnitude: 10.4
+            keywords:
         - title: Tour 9 - Strategy and Tips
           url: https://youtu.be/vjJqXiE1YKk
           metadata:
@@ -2187,6 +2461,92 @@ holes:
           url: https://i.imgur.com/G5HjURc.png
       - name: Zachary Jones
         resources:
+        - title: Winter Slopes - Rookie
+          url: https://youtu.be/6gWxWoLUIG4
+          metadata:
+            tournament: Winter Slopes
+            level: Rookie
+            ball: Quasar
+            teePosition: 1
+            clubs:
+              - name: Extra Mile
+                level: 6
+            wind:
+              direction: NNE
+              magnitude: 4.5
+            keywords:
+        - title: Winter Slopes - Pro
+          url: https://youtu.be/j1K1HMKJGRo
+          metadata:
+            tournament: Winter Slopes
+            level: Pro
+            ball: Titan
+            teePosition: 2
+            clubs:
+              - name: Quarterback
+                level: 8
+            wind:
+              direction: NNW
+              magnitude: 6.9
+            keywords:
+        - title: Winter Slopes - Expert
+          url: https://youtu.be/3n4VTV7dyNY
+          metadata:
+            tournament: Winter Slopes
+            level: Expert
+            ball: King Maker
+            teePosition: 2
+            clubs:
+              - name: Thor's Hammer
+                level: 4
+            wind:
+              direction: SE
+              magnitude: 8.6
+            keywords:
+        - title: Winter Slopes - Expert
+          url: https://youtu.be/Hwzf7ZAScTs
+          metadata:
+            tournament: Winter Slopes
+            level: Expert
+            ball: King Maker
+            teePosition: 2
+            clubs:
+              - name: Quarterback
+                level: 10
+            wind:
+              direction: SE
+              magnitude: 7.1
+            keywords:
+        - title: Winter Slopes - Master
+          url: https://youtu.be/Z9jpHMb-8S4
+          metadata:
+            tournament: Winter Slopes
+            level: Master
+            ball: Turkey
+            teePosition: 3
+            clubs:
+              - name: Thor's Hammer
+                level: 6
+              - name: Rapier
+                level: 8
+            wind:
+              direction: NNE
+              magnitude: 7.9
+            keywords:
+        - title: Winter Slopes - Master
+          url: https://youtu.be/RmsYTwi-lsU
+          metadata:
+            tournament: Winter Slopes
+            level: Master
+            ball: King Maker
+            teePosition: 3
+            clubs:
+              - name: Apocalypse
+                level: 6
+            wind:
+              direction: NNE
+              magnitude: 11.4
+            keywords:
         - title: Tour 9 - Strategy and Tips
           url: https://youtu.be/deiv-Iy7SIw
           metadata:
