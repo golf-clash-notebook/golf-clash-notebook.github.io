@@ -5,14 +5,22 @@ resourceCreators:
     resources:
     - title: Rookie Playthrough
       url: https://youtu.be/Zc3el_qq1zc
+    - title: Rookie Playthrough - Tournament Wind
+      url: https://youtu.be/8hA5Ji9sVbY
     - title: Pro & Expert Playthrough
       url: https://youtu.be/MlaCu__p6QM
+    - title: Pro Playthrough - Tournament Wind
+      url: https://youtu.be/HEeUUxAsgfA
+    - title: Club Guide - All Divisions
+      url: https://youtu.be/Gp14L2ppsoE
     - title: Text Guide
       url: https://imgur.com/gallery/lBOaFK5
   - name: Jesse Both
     resources:
     - title: Rookie Guide
       url: https://youtu.be/fJnNSS1xNw0
+    - title: Rookie Playthrough - Tournament Wind
+      url: https://youtu.be/5kVMiGPRitQ
     - title: Pro / Expert Guide
       url: https://youtu.be/HxTESoSjvi4
 holes:

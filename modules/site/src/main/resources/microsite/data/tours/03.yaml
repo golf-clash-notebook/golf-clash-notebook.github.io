@@ -18,4 +18,4 @@ entryFee: 800
 maxTrophies: 100
 trophiesPerWin: 9
 trophiesPerLoss: 6
-threeStakeSpecialCost: -1
+threeStakeSpecialCost: 23
