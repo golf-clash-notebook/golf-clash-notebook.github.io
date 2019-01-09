@@ -22,6 +22,7 @@ categories:
       platforms: ['android']
     - title: Update 0.9.0 Features
       url: https://youtu.be/4MNNAfX_zvc
+      platforms: ['android']
     - title: Update 0.8.1 Features
       url: https://youtu.be/IqHGcoWS89k
       platforms: ['android']
@@ -78,6 +79,8 @@ categories:
   - name: Advanced Techniques
     description: Tutorials for Advanced Gameplay
     resources:
+    - title: Secondary Wind Effect
+      url: https://youtu.be/n9A83dVpGjw
     - title: Hook/Slice Advanced Technique Part 1
       url: https://youtu.be/HF1pmPqOuWs
     - title: Hook/Slice Advanced Technique Part 2

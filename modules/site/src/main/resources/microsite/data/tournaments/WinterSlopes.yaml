@@ -11,6 +11,10 @@ resourceCreators:
       url: https://youtu.be/MlaCu__p6QM
     - title: Pro Playthrough - Tournament Wind
       url: https://youtu.be/HEeUUxAsgfA
+    - title: Expert Playthrough - Tournament Wind
+      url: https://youtu.be/rltuY4s1ZAI
+    - title: Master Playthrough - Tournament Wind
+      url: https://youtu.be/-3XXa2I22Jw
     - title: Club Guide - All Divisions
       url: https://youtu.be/Gp14L2ppsoE
     - title: Text Guide
@@ -23,6 +27,10 @@ resourceCreators:
       url: https://youtu.be/5kVMiGPRitQ
     - title: Pro / Expert Guide
       url: https://youtu.be/HxTESoSjvi4
+    - title: Pro Playthrough - Tournament Wind
+      url: https://youtu.be/s7XGN7Ke-vc
+    - title: Expert Playthrough - Tournament Wind
+      url: https://youtu.be/PlvkVt8ptZE
 holes:
   - number: 1
     id: 25ee67c7-f844-4d12-ae35-0876c69211c5
