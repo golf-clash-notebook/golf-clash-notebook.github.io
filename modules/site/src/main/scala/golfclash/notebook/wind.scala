@@ -57,8 +57,8 @@ object wind {
   // Loosely related to ball trajectory, lie properties...a.k.a SWAG
   def windCategoryMultiplier(clubCategory: Option[Club.Category]): Double =
     clubCategory match {
-      case Some(Club.Category.RoughIrons) => 1.8
-      case Some(Club.Category.SandWedges) => 1.6
+      case Some(Club.Category.RoughIrons) => 1.45
+      case Some(Club.Category.SandWedges) => 1.15
       case _                              => 1.0
     }
 

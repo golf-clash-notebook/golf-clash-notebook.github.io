@@ -2,6 +2,7 @@ categories:
   - name: App Help
     description: Notebook for Golf Clash Tutorials
     resources:
+    ### Android
     - title: Memory Management
       url: https://youtu.be/hfAPFszCpfs
       platforms: ['android']
@@ -38,6 +39,165 @@ categories:
     - title: Update 0.1.22 Features
       url: https://youtu.be/HmZByDg8IuM
       platforms: ['android']
+    - title: Launching the secondary wind assist
+      url: https://youtu.be/TI0tQ5Pe63s
+      platforms: ['android']
+    - title: Minimizing the wind assist
+      url: https://youtu.be/_mHW86QfYa0
+      platforms: ['android']
+    - title: Opening and launching the widget
+      url: https://youtu.be/-TSSJ03kp44
+      platforms: ['android']
+    - title: Switching between different bags
+      url: https://youtu.be/oBhT-ZJTtwg
+      platforms: ['android']
+    - title: Switching between different clubs
+      url: https://youtu.be/XabmmS9YnF8
+      platforms: ['android']
+    - title: Switching between different power balls
+      url: https://youtu.be/zlpmuVSE9Ok
+      platforms: ['android']
+    - title: Toggling the gridlines on/off
+      url: https://youtu.be/-hy1O6W0JwI
+      platforms: ['android']
+    - title: Turning the curling gridlines on/off
+      url: https://youtu.be/RtVevOzcRS4
+      platforms: ['android']
+    - title: Turning the emoji blocker on/off
+      url: https://youtu.be/ReRxclKjTBA
+      platforms: ['android']
+    - title: Using the power slider
+      url: https://youtu.be/tIOCiXqwgNc
+      platforms: ['android']
+    - title: Using the wind directional input
+      url: https://youtu.be/3F9Oz227Gfo
+      platforms: ['android']
+    - title: Changing the positioning of the wind assist
+      url: https://youtu.be/FWIeJlZGWcA
+      platforms: ['android']
+    - title: Changing the sizing of the wind assist
+      url: https://youtu.be/MxxBbhE6sOA
+      platforms: ['android']
+    - title: Elevation Input
+      url: https://youtu.be/D_0d97IJ5CU
+      platforms: ['android']
+    - title: Wind Input
+      url: https://youtu.be/2ce7YWztPC8
+      platforms: ['android']
+    - title: Basic overview of the HELP menu
+      url: https://youtu.be/P7NQ47iF5nA
+      platforms: ['android']
+    - title: Closing the app from the main app
+      url: https://youtu.be/54PEi7njcbk
+      platforms: ['android']
+    - title: Closing the app in system notifications
+      url: https://youtu.be/hB4jbIw4MX8
+      platforms: ['android']
+    ### iOS
+    - title: '1.0.0 Release Overview'
+      url: https://youtu.be/3lpK7nhY42I
+      platforms: ['ios']
+    - title: Cloud sync feature
+      url: https://youtu.be/UVQsLy_4mgc
+      platforms: ['ios']
+    - title: Help button list of all app functions
+      url: https://youtu.be/5JiROr6kv9Q
+      platforms: ['ios']
+    - title: Live Play Demonstration #1
+      url: https://youtu.be/zJYKN9J8b0Y
+      platforms: ['ios']
+    - title: Live Play Demonstration #2
+      url: https://youtu.be/9xz78sGe2jM
+      platforms: ['ios']
+    - title: Live Play Demonstration #3
+      url: https://youtu.be/8M2KKhmUCvI
+      platforms: ['ios']
+    - title: Closing down the wind assist iPad
+      url: https://youtu.be/sntvlwXvqBc
+      platforms: ['ios']
+    - title: Closing down the wind assist iPhone
+      url: https://youtu.be/drSqfEngb08
+      platforms: ['ios']
+    - title: Opening and closing widget overlay iPad only
+      url: https://youtu.be/bIeyk5wyEbU
+      platforms: ['ios']
+    - title: Resetting wind values iPad
+      url: https://youtu.be/yqIv_Li4NtM
+      platforms: ['ios']
+    - title: Resetting wind values iPhone
+      url: https://youtu.be/MpNCLFwn-1Q
+      platforms: ['ios']
+    - title: Wind Assist Set up tips iPhone intro
+      url: https://youtu.be/JNPXZ_28ZpE
+      platforms: ['ios']
+    - title: Setting up Widget overlay iPad only
+      url: https://youtu.be/bLiLyOW_5JQ
+      platforms: ['ios']
+    - title: Switching between clubs iPad
+      url: https://youtu.be/SawSQUwUea0
+      platforms: ['ios']
+    - title: Switching between clubs iPhone
+      url: https://youtu.be/QHByYKBi1KE
+      platforms: ['ios']
+    - title: Switching between golf bags iPad
+      url: https://youtu.be/y5gS1Z6-plo
+      platforms: ['ios']
+    - title: Switching between golf bags iPhone
+      url: https://youtu.be/jSsx3eyoXkQ
+      platforms: ['ios']
+    - title: Switching between power balls iPad
+      url: https://youtu.be/J0yzwsLrKs4
+      platforms: ['ios']
+    - title: Switching between power balls iPhone
+      url: https://youtu.be/_OvJPtTJ9Nk
+      platforms: ['ios']
+    - title: Elevation menu iPad
+      url: https://youtu.be/eTKoO8uhMX4
+      platforms: ['ios']
+    - title: Elevation menu iPhone
+      url: https://youtu.be/KKi191kqNyw
+      platforms: ['ios']
+    - title: Power slider iPad
+      url: https://youtu.be/tgeyQUt9Ntc
+      platforms: ['ios']
+    - title: Power slider iPhone
+      url: https://youtu.be/3MCybTHkgsk
+      platforms: ['ios']
+    - title: Wind input iPad
+      url: https://youtu.be/H4TOP865Pfc
+      platforms: ['ios']
+    - title: Wind input iPhone
+      url: https://youtu.be/gFy1MQM2fcM
+      platforms: ['ios']
+    - title: Wind directional input iPad
+      url: https://youtu.be/HfYn1e9iOhs
+      platforms: ['ios']
+    - title: Wind directional input iPhone
+      url: https://youtu.be/hvLHa-dA0qE
+      platforms: ['ios']
+    ### Common
+    - title: Editing a Golf Bags Name
+      url: https://youtu.be/doF_Cgy814k
+    - title: Adding a new bag
+      url: https://youtu.be/9kMbjTjXAo4
+    - title: Deleting a golf bag
+      url: https://youtu.be/WV7lQidaoTk
+    - title: Sorting your golf bags
+      url: https://youtu.be/f8p0R5YAj3c
+    - title: Updating your club levels
+      url: https://youtu.be/PtDg52T7Tsc
+    - title: Finding specific courses and YouTube launch
+      url: https://youtu.be/96bKPy0k2jM
+    - title: Finding specific tournaments and YouTube launch
+      url: https://youtu.be/pO22N--kw4k
+    - title: Searching for golden shots
+      url: https://youtu.be/br1TpSGI_io
+    - title: Searching for supplemental resources
+      url: https://youtu.be/iPzNiD-TIhQ
+    - title: Searching for Tour guides
+      url: https://youtu.be/O1LA4qp3GZE
+    - title: Searching for tournament guides
+      url: https://youtu.be/1mv04AQrgO4
   - name: Learning Ring Play
     description: Tutorials for Mastering the Ring System
     resources:
