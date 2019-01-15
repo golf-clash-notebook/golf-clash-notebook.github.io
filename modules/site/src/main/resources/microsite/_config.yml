@@ -578,3 +578,11 @@ page_gen:
     extra:
       title-prefix: 'Winter Slopes Tournament - Hole '
       tournamentName: 'Winter Slopes'
+  - index_files: true
+    data: 'tournaments.2ndAnniversary.holes'
+    template: '_includes/tournaments/hole-template.liquid'
+    name: 'number'
+    dir: 'tournaments/2ndAnniversary'
+    extra:
+      title-prefix: '2nd Anniversary Tournament - Hole '
+      tournamentName: '2nd Anniversary'
