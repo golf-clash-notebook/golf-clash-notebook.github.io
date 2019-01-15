@@ -1,0 +1,10 @@
+name: Raptor
+windResistance: 4
+sideSpin: 2
+power: 2
+cost: n/a
+description: >
+  Use this friendly, but bitey, guy on tournament Par 3s or maybe on a 4/5 with a stiff headwind.
+  You may have picked these up during the <a href="/tournaments/2ndAnniversary/">2nd Anniversary</a>
+  tournament, or maybe you were still weeping from the train wreck in the Winter Slopes tournament.
+needleSpeed: 0.750
