@@ -36,7 +36,6 @@ object Page {
   case object ClubRanker    extends Page("^/tools/clubranker/$", Some(clubranker.init))
   case object Clubs         extends Page("^/clubs/", Some(clubs.init))
   case object Courses       extends Page("^/courses/", Some(courses.init))
-  case object CrowdCaddy    extends Page("^/crowdcaddy/", Some(crowdcaddy.init))
   case object FAQ           extends Page("^/faq/$", Some(faq.init))
   case object HoleRanker    extends Page("^/tools/holeranker/$", Some(holeranker.init))
   case object Home          extends Page("^/$", Some(home.init))
@@ -52,7 +51,6 @@ object Page {
       ClubRanker,
       Clubs,
       Courses,
-      CrowdCaddy,
       FAQ,
       HoleRanker,
       Home,
