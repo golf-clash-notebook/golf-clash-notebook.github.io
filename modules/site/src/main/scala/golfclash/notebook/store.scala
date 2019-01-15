@@ -152,44 +152,6 @@ object store {
 
   }
 
-  object crowdcaddy {
-
-    def ratingsForHole(holeId: String): Task[Option[HoleClubRatings]] = {
-      val promise = ScalaPromise[Option[HoleClubRatings]]()
-
-      db.collection("crowdcaddy")
-        .doc(holeId)
-        .get()
-        .`then`(
-          docSnapshot => {
-            if (docSnapshot.exists) {
-              promise.success(decodeJs[HoleClubRatings](docSnapshot.data()).toOption)
-            } else {
-              promise.success(None)
-            }
-          },
-          error => promise.failure(new RuntimeException(error.message))
-        )
-
-      Task.fromFuture(promise.future)
-    }
-
-    def storeHoleRatings(holeId: String, clubsRatings: HoleClubRatings): Task[Unit] = {
-      val promise = ScalaPromise[Unit]()
-
-      db.collection("crowdcaddy")
-        .doc(holeId)
-        .set(clubsRatings.asJson.asJsAny)
-        .`then`(
-          _ => promise.success(()),
-          error => promise.failure(new RuntimeException(error.message))
-        )
-
-      Task.fromFuture(promise.future)
-    }
-
-  }
-
   object holeranker {
 
     // Simple wrapper around rating to create a JS object
