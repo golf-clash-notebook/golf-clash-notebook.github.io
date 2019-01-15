@@ -1,0 +1,22 @@
+tournamentName: 2nd Anniversary
+date: '2019-01-21'
+resourceCreators:
+holes:
+  - number: 1
+    id: 04a2e328-2680-46d9-8ea5-3429128c9dc6
+  - number: 2
+    id: 2b028043-3b76-4a6b-b763-0e2486fc5af5
+  - number: 3
+    id: a66b939d-cc14-4be4-833f-d97345d85690
+  - number: 4
+    id: dad86483-0418-4578-ae29-a5a2b2810648
+  - number: 5
+    id: 17727cf4-ffbf-43e9-a0db-5cebcc570496
+  - number: 6
+    id: 73479ded-888f-40bc-a1a4-2e10b7853a31
+  - number: 7
+    id: 30c5bcbe-882f-4383-9ab3-6446d9c35dae
+  - number: 8
+    id: c4ce699f-6d34-45f4-b0a3-81895d284ec4
+  - number: 9
+    id: d3446381-26b2-4d3d-a797-4e2de9dbc5a4

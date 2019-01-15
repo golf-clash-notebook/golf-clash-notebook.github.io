@@ -2,6 +2,7 @@ courseName: Parc de Paris
 skinned: false
 holes:
   - id: 04a2e328-2680-46d9-8ea5-3429128c9dc6
+    current-tournament: true
     course: Parc de Paris
     number: 1
     par: 4
@@ -164,6 +165,7 @@ holes:
             magnitude: 1.1
           keywords:
   - id: 17727cf4-ffbf-43e9-a0db-5cebcc570496
+    current-tournament: true
     course: Parc de Paris
     number: 3
     par: 5
@@ -649,6 +651,7 @@ holes:
             magnitude: 8.4
           keywords:
   - id: dad86483-0418-4578-ae29-a5a2b2810648
+    current-tournament: true
     course: Parc de Paris
     number: 8
     par: 3

@@ -226,7 +226,6 @@ holes:
               <image xlink:href="/img/golfclash/courses/WinterLinks/annotations/2-Green.png" x="250" y="150" width="150" height="150" />
             </g>
   - id: e94dfbeb-f8d3-4a38-817b-50dd90f499f6
-    current-tournament: true
     course: Winter Links
     number: 3
     par: 4
@@ -319,7 +318,6 @@ holes:
               <image xlink:href="/img/golfclash/courses/WinterLinks/annotations/3-Green.png" x="0" y="175" width="175" height="175" />
             </g>
   - id: 25ee67c7-f844-4d12-ae35-0876c69211c5
-    current-tournament: true
     course: Winter Links
     number: 4
     par: 3
@@ -462,7 +460,6 @@ holes:
               <image xlink:href="/img/golfclash/courses/WinterLinks/annotations/5-Green.png" x="0" y="100" width="200" height="200" />
             </g>
   - id: c8bfcf6b-dd84-4db4-827f-694839f7ff60
-    current-tournament: true
     course: Winter Links
     number: 6
     par: 4
@@ -725,7 +722,6 @@ holes:
               <image xlink:href="/img/golfclash/courses/WinterLinks/annotations/8-Green.png" x="0" y="0" width="150" height="150" />
             </g>
   - id: c8617a92-c408-4bb8-9fd1-342d5fdcaded
-    current-tournament: true
     course: Winter Links
     number: 9
     par: 5
