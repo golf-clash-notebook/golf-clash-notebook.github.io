@@ -1,6 +1,14 @@
 tournamentName: 2nd Anniversary
 date: '2019-01-21'
 resourceCreators:
+  - name: Jesse Both
+    resources:
+    - title: Tournament Overview
+      url: https://youtu.be/wjwu_kaRuXs
+  - name: ItsRJTV
+    resources:
+    - title: Expert / Pro Guide
+      url: https://youtu.be/1Zip1uzcpPU
 holes:
   - number: 1
     id: 04a2e328-2680-46d9-8ea5-3429128c9dc6

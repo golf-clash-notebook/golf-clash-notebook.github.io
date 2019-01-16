@@ -24,6 +24,8 @@ holes:
     resourceCreators:
       - name: Golf Clash Tommy
         resources:
+        - title: Tour 9 Guide
+          url: https://youtu.be/SGjO4pq_7bY
         - title: Rookie Guide
           url: https://youtu.be/aOf9Zd_IHJg
         - title: Pro / Expert Guide
@@ -392,6 +394,10 @@ holes:
     description: >
       Help Wanted
     resourceCreators:
+      - name: Golf Clash Tommy
+        resources:
+        - title: Tour 9 Guide
+          url: https://youtu.be/Z965nFYigpE
       - name: Zachary Jones
         resources:
         - title: General Instruction - 2nd Tee
@@ -683,6 +689,8 @@ holes:
     resourceCreators:
       - name: Golf Clash Tommy
         resources:
+        - title: Tour 9 Guide
+          url: https://youtu.be/GIwC5uB3CCU
         - title: Rookie Guide
           url: https://youtu.be/F-t_aKxKyYo
         - title: Pro / Expert Guide
@@ -1467,6 +1475,8 @@ holes:
     resourceCreators:
       - name: Golf Clash Tommy
         resources:
+        - title: Tour 9 Guide
+          url: https://youtu.be/k-lU9OnrtcE
         - title: Rookie Guide - Labor Day (2018)
           url: https://youtu.be/fq0cOh5LW9w
         - title: Pro / Expert Guide - Labor Day (2018)
@@ -2404,6 +2414,8 @@ holes:
     resourceCreators:
       - name: Golf Clash Tommy
         resources:
+        - title: Tour 9 Guide
+          url: https://youtu.be/XdgA-Zy5qjE
         - title: Platinum Resorts - Rookie
           url: https://youtu.be/LxvJsNHcGK4
         - title: Platinum Resorts - Pro / Expert
@@ -2787,6 +2799,8 @@ holes:
     resourceCreators:
       - name: Golf Clash Tommy
         resources:
+        - title: Tour 9 Guide
+          url: https://youtu.be/TIDxt529wGE
         - title: Platinum Resorts - Rookie
           url: https://youtu.be/wTeNE-YjWCc
         - title: Platinum Resorts - Pro / Expert
