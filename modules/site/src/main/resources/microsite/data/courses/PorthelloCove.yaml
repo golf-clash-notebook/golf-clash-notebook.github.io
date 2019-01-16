@@ -177,6 +177,8 @@ holes:
     resourceCreators:
       - name: Golf Clash Tommy
         resources:
+        - title: Rookie Guide - 2nd Anniversary
+          url: https://youtu.be/DoR_ceReE4Q
         - title: Rookie Guide - Summer Major 2018
           url: https://youtu.be/HXUIk9W5cP0
         - title: Expert Guide - Summer Major 2018
@@ -1011,6 +1013,8 @@ holes:
     resourceCreators:
       - name: Golf Clash Tommy
         resources:
+        - title: Rookie Guide - 2nd Anniversary
+          url: https://youtu.be/TI967T1tdD4
         - title: Rookie Guide - Summer Major 2018
           url: https://youtu.be/1c4Q7vyHrYE
         - title: Expert Guide - Summer Major 2018

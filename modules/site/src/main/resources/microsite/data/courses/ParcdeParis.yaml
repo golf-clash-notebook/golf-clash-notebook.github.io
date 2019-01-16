@@ -12,6 +12,8 @@ holes:
     resourceCreators:
     - name: Golf Clash Tommy
       resources:
+      - title: Rookie Guide - 2nd Anniversary
+        url: https://youtu.be/Q26IXOoi5R4
       - title: Rookie Guide - Metro Open
         url: https://youtu.be/WVSoK54f-dU
     - name: Zachary Jones
@@ -175,6 +177,8 @@ holes:
     resourceCreators:
     - name: Golf Clash Tommy
       resources:
+      - title: Rookie Guide - 2nd Anniversary
+        url: https://youtu.be/-PSjUWs5PaM
       - title: Rookie Guide - Metro Open
         url: https://youtu.be/jOz6i7PmMVI
     - name: Zachary Jones
@@ -661,6 +665,8 @@ holes:
     resourceCreators:
     - name: Golf Clash Tommy
       resources:
+      - title: Rookie Guide - 2nd Anniversary
+        url: https://youtu.be/D5Nwrsg-CH0
       - title: Rookie Guide - Metro Open
         url: https://youtu.be/YEkjJHnUkq4
     - name: Zachary Jones

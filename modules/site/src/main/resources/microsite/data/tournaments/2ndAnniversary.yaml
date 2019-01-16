@@ -1,6 +1,10 @@
 tournamentName: 2nd Anniversary
 date: '2019-01-21'
 resourceCreators:
+  - name: Golf Clash Tommy
+    resources:
+    - title: Rookie Playthrough
+      url: https://youtu.be/Lr8OS2F8DJQ
   - name: Jesse Both
     resources:
     - title: Tournament Overview

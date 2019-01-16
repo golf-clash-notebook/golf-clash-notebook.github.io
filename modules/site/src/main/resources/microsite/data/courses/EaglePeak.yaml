@@ -13,6 +13,8 @@ holes:
     resourceCreators:
       - name: Golf Clash Tommy
         resources:
+        - title: Rookie Guide - 2nd Anniversary
+          url: https://youtu.be/68GZZbuKTLs
         - title: Fall Major 2018 - Rookie Guide
           url: https://youtu.be/sqarSdaxjR8
         - title: Fall Major 2018 - Pro & Expert Guide
@@ -865,6 +867,8 @@ holes:
     resourceCreators:
       - name: Golf Clash Tommy
         resources:
+        - title: Rookie Guide - 2nd Anniversary
+          url: https://youtu.be/9Ssaeyd3tvA
         - title: Fall Major 2018 - Rookie Guide
           url: https://youtu.be/J2VD4fazUjw
         - title: Fall Major 2018 - Pro & Expert Guide

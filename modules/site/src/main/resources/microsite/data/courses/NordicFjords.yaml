@@ -381,6 +381,8 @@ holes:
     resourceCreators:
       - name: Golf Clash Tommy
         resources:
+        - title: Rookie Guide - 2nd Anniversary
+          url: https://youtu.be/DbNTtRTde-w
         - title: Festive Cup - Rookie
           url: https://youtu.be/yhk95X7G0wg
       - name: Zachary Jones
@@ -513,6 +515,8 @@ holes:
     resourceCreators:
       - name: Golf Clash Tommy
         resources:
+        - title: Rookie Guide - 2nd Anniversary
+          url: https://youtu.be/0JfTPAaIHkM
         - title: Festive Cup - Rookie
           url: https://youtu.be/OUKPUlBGVuM
       - name: Zachary Jones
