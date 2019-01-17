@@ -308,6 +308,10 @@ holes:
               direction: NE
               magnitude: 5.8
             keywords:
+      - name: Jesse Both
+        resources:
+        - title: 2nd Anniversary - Rookie Guide
+          url: https://youtu.be/y21VwOu3Arg
   - id: 493200bc-0d35-4ab3-9188-820c71f1c607
     course: Porthello Cove
     number: 3
@@ -1184,6 +1188,10 @@ holes:
               direction: WNW
               magnitude: 5.0
             keywords:
+      - name: Jesse Both
+        resources:
+        - title: 2nd Anniversary - Rookie Guide
+          url: https://youtu.be/NXgtF_VOXks
   - id: fbdcdb74-61e6-4a95-8ba7-41f1e4e17428
     course: Porthello Cove
     number: 8

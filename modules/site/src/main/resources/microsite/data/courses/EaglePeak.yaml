@@ -175,6 +175,10 @@ holes:
               direction: N
               magnitude: 6.6
             keywords:
+      - name: Jesse Both
+        resources:
+        - title: 2nd Anniversary - Rookie Guide
+          url: https://youtu.be/4JGRIiopq-0
   - id: 623c30b7-7b34-42a2-ac29-b4d197ae2a62
     course: Eagle Peak
     number: 2
@@ -1029,6 +1033,10 @@ holes:
               direction: WSW
               magnitude: 4.7
             keywords:
+      - name: Jesse Both
+        resources:
+        - title: 2nd Anniversary - Rookie Guide
+          url: https://youtu.be/TIupJSUKQnk
   - id: 60752b16-326f-4cc4-bfb7-212972a45183
     course: Eagle Peak
     number: 7
