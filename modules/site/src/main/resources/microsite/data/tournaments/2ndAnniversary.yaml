@@ -9,6 +9,8 @@ resourceCreators:
       url: https://youtu.be/-bgWtlQgiMc
   - name: Jesse Both
     resources:
+    - title: Rookie Guide
+      url: https://youtu.be/xZN5sd0VaZQ
     - title: Tournament Overview
       url: https://youtu.be/wjwu_kaRuXs
   - name: ItsRJTV
