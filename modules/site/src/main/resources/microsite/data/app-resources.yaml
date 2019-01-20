@@ -21,6 +21,9 @@ categories:
     - title: Live Gameplay Tutorial for Using the App
       url: https://youtu.be/pARTKyTRm_8
       platforms: ['android']
+    - title: Update 1.1.0 Features
+      url: https://youtu.be/pX32dqWs5Bs
+      platforms: ['android']
     - title: Update 1.0.0 Features
       url: https://youtu.be/YZieztBdWcE
       platforms: ['android']
@@ -73,7 +76,7 @@ categories:
       url: https://youtu.be/tIOCiXqwgNc
       platforms: ['android']
     - title: Using the wind directional input
-      url: https://youtu.be/3F9Oz227Gfo
+      url: https://youtu.be/Hn8rmJS8vD0
       platforms: ['android']
     - title: Changing the positioning of the wind assist
       url: https://youtu.be/FWIeJlZGWcA
@@ -99,6 +102,9 @@ categories:
     ### iOS
     - title: 'Physical Screen Grid Creation'
       url: https://youtu.be/t3uFsOydCf0
+      platforms: ['ios']
+    - title: '1.1.0 Release Overview'
+      url: https://youtu.be/x9bEZlwApkw
       platforms: ['ios']
     - title: '1.0.0 Release Overview'
       url: https://youtu.be/3lpK7nhY42I
@@ -175,11 +181,8 @@ categories:
     - title: Wind input iPhone
       url: https://youtu.be/gFy1MQM2fcM
       platforms: ['ios']
-    - title: Wind directional input iPad
-      url: https://youtu.be/HfYn1e9iOhs
-      platforms: ['ios']
-    - title: Wind directional input iPhone
-      url: https://youtu.be/hvLHa-dA0qE
+    - title: Wind directional input iOS
+      url: https://youtu.be/Xa19zvKOBMI
       platforms: ['ios']
     ### Common
     - title: Effectively Using Wind Assist Wind Direction
