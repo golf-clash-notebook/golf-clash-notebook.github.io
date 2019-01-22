@@ -387,6 +387,76 @@ holes:
           url: https://youtu.be/yhk95X7G0wg
       - name: Zachary Jones
         resources:
+        - title: 2nd Anniversary - Rookie
+          url: https://youtu.be/gTyc24kqcto
+          metadata:
+            tournament: 2nd Anniversary
+            level: Rookie
+            ball: Quasar
+            teePosition: 1
+            clubs:
+              - name: Backbone
+                level: 8
+            wind:
+              direction: NE
+              magnitude: 3.4
+            keywords:
+        - title: 2nd Anniversary - Pro
+          url: https://youtu.be/YfxElxycrcY
+          metadata:
+            tournament: 2nd Anniversary
+            level: Pro
+            ball: Katana
+            teePosition: 2
+            clubs:
+              - name: Sniper
+                level: 7
+            wind:
+              direction: N
+              magnitude: 5.2
+            keywords:
+        - title: 2nd Anniversary - Expert
+          url: https://youtu.be/bnyKRi18vGU
+          metadata:
+            tournament: 2nd Anniversary
+            level: Expert
+            ball: King Maker
+            teePosition: 2
+            clubs:
+              - name: Sniper
+                level: 10
+            wind:
+              direction: SSW
+              magnitude: 8.3
+            keywords:
+        - title: 2nd Anniversary - Expert
+          url: https://youtu.be/4Kj0fSHd19Y
+          metadata:
+            tournament: 2nd Anniversary
+            level: Expert
+            ball: King Maker
+            teePosition: 2
+            clubs:
+              - name: Sniper
+                level: 8
+            wind:
+              direction: SSW
+              magnitude: 8.1
+            keywords:
+        - title: 2nd Anniversary - Master
+          url: https://youtu.be/bEyFKjPFwKg
+          metadata:
+            tournament: 2nd Anniversary
+            level: Master
+            ball: King Maker
+            teePosition: 3
+            clubs:
+              - name: Sniper
+                level: 10
+            wind:
+              direction: NW
+              magnitude: 11.3
+            keywords:
         - title: Christmas Links - Rookie
           url: https://youtu.be/LQH0hzczux4
           metadata:
@@ -523,6 +593,88 @@ holes:
           url: https://youtu.be/OUKPUlBGVuM
       - name: Zachary Jones
         resources:
+        - title: 2nd Anniversary - Rookie
+          url: https://youtu.be/RDcJwaAiDnU
+          metadata:
+            tournament: 2nd Anniversary
+            level: Rookie
+            ball: Quasar
+            teePosition: 1
+            clubs:
+              - name:  Extra Mile
+                level: 6
+              - name: Big Dawg
+                level: 6
+            wind:
+              direction: NNE
+              magnitude: 4.0
+            keywords:
+        - title: 2nd Anniversary - Pro
+          url: https://youtu.be/dJA4g0w3eAI
+          metadata:
+            tournament: 2nd Anniversary
+            level: Pro
+            ball: Titan
+            teePosition: 2
+            clubs:
+              - name: Extra Mile
+                level: 6
+              - name: Big Dawg
+                level: 5
+            wind:
+              direction: N
+              magnitude: 6.1
+            keywords:
+        - title: 2nd Anniversary - Expert
+          url: https://youtu.be/fZ0JW84JMQI
+          metadata:
+            tournament: 2nd Anniversary
+            level: Expert
+            ball: King Maker
+            teePosition: 2
+            clubs:
+              - name: Apocalypse
+                level: 6
+              - name: Big Dawg
+                level: 8
+            wind:
+              direction: NW
+              magnitude: 8.3
+            keywords:
+        - title: 2nd Anniversary - Expert
+          url: https://youtu.be/Eg0hLifMiG8
+          metadata:
+            tournament: 2nd Anniversary
+            level: Expert
+            ball: King Maker
+            teePosition: 2
+            clubs:
+              - name: Thor's Hammer
+                level: 4
+              - name: Sniper
+                level: 8
+            wind:
+              direction: NW
+              magnitude: 7.8
+            keywords:
+        - title: 2nd Anniversary - Master
+          url: https://youtu.be/LTabk4Sa9Qo
+          metadata:
+            tournament: 2nd Anniversary
+            level: Master
+            ball: King Maker
+            teePosition: 3
+            clubs:
+              - name: Apocalypse
+                level: 5
+              - name: Cataclysm
+                level: 6
+              - name: Rapier
+                level: 8
+            wind:
+              direction: ENE
+              magnitude: 10.4
+            keywords:
         - title: Christmas Links - Rookie
           url: https://youtu.be/mbL6uFuT4Pg
           metadata:

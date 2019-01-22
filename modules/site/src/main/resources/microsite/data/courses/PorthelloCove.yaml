@@ -193,6 +193,76 @@ holes:
             published: 1541790363000
             generalInstruction: true
             teePosition: 3
+        - title: 2nd Anniversary - Rookie
+          url: https://youtu.be/ZrHIJo-lyjM
+          metadata:
+            tournament: 2nd Anniversary
+            level: Rookie
+            ball: Quasar
+            teePosition: 1
+            clubs:
+              - name: Viper
+                level: 8
+            wind:
+              direction: ESE
+              magnitude: 2.7
+            keywords:
+        - title: 2nd Anniversary - Pro
+          url: https://youtu.be/ElODnENFuPk
+          metadata:
+            tournament: 2nd Anniversary
+            level: Pro
+            ball: Quasar
+            teePosition: 2
+            clubs:
+              - name: Sniper
+                level: 7
+            wind:
+              direction: SSW
+              magnitude: 6.6
+            keywords:
+        - title: 2nd Anniversary - Expert
+          url: https://youtu.be/WAuvmT6bXX8
+          metadata:
+            tournament: 2nd Anniversary
+            level: Expert
+            ball: King Maker
+            teePosition: 2
+            clubs:
+              - name: Sniper
+                level: 10
+            wind:
+              direction: NNE
+              magnitude: 7.5
+            keywords:
+        - title: 2nd Anniversary - Expert
+          url: https://youtu.be/-gQIusGwGqI
+          metadata:
+            tournament: 2nd Anniversary
+            level: Expert
+            ball: King Maker
+            teePosition: 2
+            clubs:
+              - name: Sniper
+                level: 8
+            wind:
+              direction: NNE
+              magnitude: 7.1
+            keywords:
+        - title: 2nd Anniversary - Master
+          url: https://youtu.be/mYpmqjLby4I
+          metadata:
+            tournament: 2nd Anniversary
+            level: Master
+            ball: King Maker
+            teePosition: 3
+            clubs:
+              - name: Quarterback
+                level: 10
+            wind:
+              direction: SE
+              magnitude: 11.6
+            keywords:
         - title: Summer Major 2018 - Rookie
           url: https://youtu.be/p4mZ2M-TSXI
           metadata:
@@ -1029,6 +1099,86 @@ holes:
           url: https://youtu.be/pG1Za_B2blM
       - name: Zachary Jones
         resources:
+        - title: 2nd Anniversary - Rookie
+          url: https://youtu.be/t2RlxF3lvFw
+          metadata:
+            tournament: 2nd Anniversary
+            level: Rookie
+            ball: Quasar
+            teePosition: 1
+            clubs:
+              - name: Quarterback
+                level: 8
+              - name: EndBringer
+                level: 2
+            wind:
+              direction: NE
+              magnitude: 3.3
+            keywords:
+        - title: 2nd Anniversary - Pro
+          url: https://youtu.be/URxnmc3QrWY
+          metadata:
+            tournament: 2nd Anniversary
+            level: Pro
+            ball: Titan
+            teePosition: 2
+            clubs:
+              - name: Quarterback
+                level: 8
+              - name: EndBringer
+                level: 2
+            wind:
+              direction: WNW
+              magnitude: 6.1
+            keywords:
+        - title: 2nd Anniversary - Expert
+          url: https://youtu.be/tonkaFf1Nu0
+          metadata:
+            tournament: 2nd Anniversary
+            level: Expert
+            ball: Origin
+            teePosition: 2
+            clubs:
+              - name: Apocalypse
+                level: 6
+              - name: EndBringer
+                level: 4
+            wind:
+              direction: NNW
+              magnitude: 9.4
+            keywords:
+        - title: 2nd Anniversary - Expert
+          url: https://youtu.be/jk_jCwwJ2sQ
+          metadata:
+            tournament: 2nd Anniversary
+            level: Expert
+            ball: King Maker
+            teePosition: 2
+            clubs:
+              - name: Quarterback
+                level: 8
+              - name: Rapier
+                level: 4
+            wind:
+              direction: NNW
+              magnitude: 8.7
+            keywords:
+        - title: 2nd Anniversary - Master
+          url: https://youtu.be/LKrnHMJotDA
+          metadata:
+            tournament: 2nd Anniversary
+            level: Master
+            ball: King Maker
+            teePosition: 3
+            clubs:
+              - name: Apocalypse
+                level: 5
+              - name: Spitfire
+                level: 5
+            wind:
+              direction: NE
+              magnitude: 11.1
+            keywords:
         - title: Summer Major 2018 - Rookie
           url: https://youtu.be/jki0pG5ehAE
           metadata:
