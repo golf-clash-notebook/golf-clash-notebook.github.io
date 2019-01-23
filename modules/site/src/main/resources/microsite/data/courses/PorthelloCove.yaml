@@ -263,6 +263,20 @@ holes:
               direction: SE
               magnitude: 11.6
             keywords:
+        - title: 2nd Anniversary - Master
+          url: https://youtu.be/eU5aA8IEmRk
+          metadata:
+            tournament: 2nd Anniversary
+            level: Master
+            ball: King Maker
+            teePosition: 3
+            clubs:
+              - name: Quarterback
+                level: 10
+            wind:
+              direction: SE
+              magnitude: 12.1
+            keywords:
         - title: Summer Major 2018 - Rookie
           url: https://youtu.be/p4mZ2M-TSXI
           metadata:
@@ -1178,6 +1192,22 @@ holes:
             wind:
               direction: NE
               magnitude: 11.1
+            keywords:
+        - title: 2nd Anniversary - Master
+          url: https://youtu.be/MmFaGxmJ08g
+          metadata:
+            tournament: 2nd Anniversary
+            level: Master
+            ball: King Maker
+            teePosition: 3
+            clubs:
+              - name: Apocalypse
+                level: 5
+              - name: Rapier
+                level: 8
+            wind:
+              direction: NE
+              magnitude: 10.5
             keywords:
         - title: Summer Major 2018 - Rookie
           url: https://youtu.be/jki0pG5ehAE
