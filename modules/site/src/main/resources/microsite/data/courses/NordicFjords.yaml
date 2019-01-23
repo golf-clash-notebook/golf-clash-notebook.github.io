@@ -457,6 +457,20 @@ holes:
               direction: NW
               magnitude: 11.3
             keywords:
+        - title: 2nd Anniversary - Master
+          url: https://youtu.be/mlz7NpSbK2A
+          metadata:
+            tournament: 2nd Anniversary
+            level: Master
+            ball: King Maker
+            teePosition: 3
+            clubs:
+              - name: Sniper
+                level: 10
+            wind:
+              direction: NW
+              magnitude: 10.7
+            keywords:
         - title: Christmas Links - Rookie
           url: https://youtu.be/LQH0hzczux4
           metadata:
@@ -674,6 +688,22 @@ holes:
             wind:
               direction: ENE
               magnitude: 10.4
+            keywords:
+        - title: 2nd Anniversary - Master
+          url: https://youtu.be/v-Hdwp0AASo
+          metadata:
+            tournament: 2nd Anniversary
+            level: Master
+            ball: King Maker
+            teePosition: 3
+            clubs:
+              - name: Thor's Hammer
+                level: 6
+              - name: Cataclysm
+                level: 7
+            wind:
+              direction: ENE
+              magnitude: 11.9
             keywords:
         - title: Christmas Links - Rookie
           url: https://youtu.be/mbL6uFuT4Pg

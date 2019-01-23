@@ -100,6 +100,22 @@ holes:
             direction: SW
             magnitude: 11.7
           keywords:
+      - title: 2nd Anniversary - Master
+        url: https://youtu.be/f_-RWau2AUE
+        metadata:
+          tournament: 2nd Anniversary
+          level: Master
+          ball: King Maker
+          teePosition: 3
+          clubs:
+            - name: Thor's Hammer
+              level: 6
+            - name: Hornet
+              level: 8
+          wind:
+            direction: SW
+            magnitude: 11.9
+          keywords:
       - title: Metro Open - Pro
         url: https://youtu.be/a4trkLggaZ0
         metadata:
@@ -352,6 +368,22 @@ holes:
           wind:
             direction: ENE
             magnitude: 11.7
+          keywords:
+      - title: 2nd Anniversary - Master
+        url: https://youtu.be/SF7dOsdwIWI
+        metadata:
+          tournament: 2nd Anniversary
+          level: Master
+          ball: King Maker
+          teePosition: 3
+          clubs:
+            - name: Thor's Hammer
+              level: 6
+            - name: Sniper
+              level: 10
+          wind:
+            direction: ENE
+            magnitude: 10.9
           keywords:
       - title: Metro Open - Pro
         url: https://youtu.be/E1lkeT4oSqo
@@ -911,6 +943,20 @@ holes:
           keywords:
       - title: 2nd Anniversary - Master
         url: https://youtu.be/Ypykly2Urrs
+        metadata:
+          tournament: 2nd Anniversary
+          level: Master
+          ball: King Maker
+          teePosition: 3
+          clubs:
+            - name: Sniper
+              level: 10
+          wind:
+            direction: NE
+            magnitude: 12.3
+          keywords:
+      - title: 2nd Anniversary - Master
+        url: https://youtu.be/OOnwiUihbFo
         metadata:
           tournament: 2nd Anniversary
           level: Master

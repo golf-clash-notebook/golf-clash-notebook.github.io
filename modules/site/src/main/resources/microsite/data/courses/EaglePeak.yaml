@@ -105,6 +105,22 @@ holes:
               direction: NNE
               magnitude: 16.0
             keywords:
+        - title: 2nd Anniversary - Master
+          url: https://youtu.be/j-AwWdQJ260
+          metadata:
+            tournament: 2nd Anniversary
+            level: Master
+            ball: Titan
+            teePosition: 3
+            clubs:
+              - name: Apocalypse
+                level: 5
+              - name: Nirvana
+                level: 8
+            wind:
+              direction: NNE
+              magnitude: 12.5
+            keywords:
         - title: Fall Major 2018 - Rookie
           url: https://youtu.be/hlgQooxbA8E
           metadata:
@@ -1044,6 +1060,22 @@ holes:
             wind:
               direction: ENE
               magnitude: 11.3
+            keywords:
+        - title: 2nd Anniversary - Master
+          url: https://youtu.be/7tSw9abUSE4
+          metadata:
+            tournament: 2nd Anniversary
+            level: Master
+            ball: King Maker
+            teePosition: 3
+            clubs:
+              - name: Thor's Hammer
+                level: 6
+              - name: Sniper
+                level: 10
+            wind:
+              direction: ENE
+              magnitude: 12.3
             keywords:
         - title: Fall Major 2018 - Rookie
           url: https://youtu.be/izpnuH9xJnU
