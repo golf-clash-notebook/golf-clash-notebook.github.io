@@ -1,0 +1,10 @@
+name: Season 5
+windResistance: 2
+sideSpin: 2
+power: 4
+cost: n/a
+description: >
+  This is a clone of the Shell ball. Ideal for tailwind situations where the green isn't reachable
+  off the tee. The OP needle speed isn't great so take that into consideration, but your cat like
+  reflexes should be enough to compensate for that...
+needleSpeed: 0.750
