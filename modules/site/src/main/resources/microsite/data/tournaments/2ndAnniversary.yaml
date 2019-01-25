@@ -39,6 +39,10 @@ resourceCreators:
       url: https://youtu.be/1Zip1uzcpPU
     - title: Pro Guide
       url: https://youtu.be/nQaECtPQJP8
+  - name: Photon's Corner
+    resources:
+    - title: Rookie Playthrough
+      url: https://youtu.be/08qVpOodp48
 holes:
   - number: 1
     id: 04a2e328-2680-46d9-8ea5-3429128c9dc6
