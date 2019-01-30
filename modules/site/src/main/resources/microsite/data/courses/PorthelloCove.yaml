@@ -167,7 +167,6 @@ holes:
               magnitude: 6.1
             keywords:
   - id: 30c5bcbe-882f-4383-9ab3-6446d9c35dae
-    current-tournament: true
     course: Porthello Cove
     number: 2
     par: 3
@@ -1093,7 +1092,6 @@ holes:
               magnitude: 1.6
             keywords:
   - id: 73479ded-888f-40bc-a1a4-2e10b7853a31
-    current-tournament: true
     course: Porthello Cove
     number: 7
     par: 4
