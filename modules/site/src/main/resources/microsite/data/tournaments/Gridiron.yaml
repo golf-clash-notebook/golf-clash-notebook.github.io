@@ -1,0 +1,22 @@
+tournamentName: Gridiron
+date: '2019-02-04'
+resourceCreators:
+holes:
+  - number: 1
+    id: 1906dee0-0a85-4adc-adbf-acaff2bc3f6f
+  - number: 2
+    id: be8071a9-f4a3-4dcf-aaba-b3adf94fdafa
+  - number: 3
+    id: 7777d535-cb89-4d83-b8a7-831cc61fbc66
+  - number: 4
+    id: 833ca5f4-813c-4b4c-8194-fd508a6611c6
+  - number: 5
+    id: 0e418963-9399-4d7b-b7ec-a5af5318e75d
+  - number: 6
+    id: 1083f47b-b2a8-4dde-bfa2-0ea3b2a32073
+  - number: 7
+    id: 6f8e0144-ffbb-4f98-9585-e17626be6559
+  - number: 8
+    id: 48316f6b-6037-4b43-8eff-7d4c345a0929
+  - number: 9
+    id: c9d5cbe5-262e-49cb-a6f1-48e40918502a

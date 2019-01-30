@@ -586,3 +586,11 @@ page_gen:
     extra:
       title-prefix: '2nd Anniversary Tournament - Hole '
       tournamentName: '2nd Anniversary'
+  - index_files: true
+    data: 'tournaments.Gridiron.holes'
+    template: '_includes/tournaments/hole-template.liquid'
+    name: 'number'
+    dir: 'tournaments/Gridiron'
+    extra:
+      title-prefix: 'Gridiron Tournament - Hole '
+      tournamentName: 'Gridiron'

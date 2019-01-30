@@ -370,7 +370,6 @@ holes:
               magnitude: 12.4
             keywords:
   - id: 2b028043-3b76-4a6b-b763-0e2486fc5af5
-    current-tournament: true
     course: Nordic Fjords
     number: 4
     par: 3
@@ -588,7 +587,6 @@ holes:
         - title: Christmas Links - Rookie
           url: https://youtu.be/88jXr68F8zY
   - id: a66b939d-cc14-4be4-833f-d97345d85690
-    current-tournament: true
     course: Nordic Fjords
     number: 5
     par: 5

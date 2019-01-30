@@ -2,7 +2,6 @@ courseName: Eagle Peak
 skinned: false
 holes:
   - id: c4ce699f-6d34-45f4-b0a3-81895d284ec4
-    current-tournament: true
     course: Eagle Peak
     number: 1
     par: 4
@@ -960,7 +959,6 @@ holes:
               magnitude: 8.1
             keywords:
   - id: d3446381-26b2-4d3d-a797-4e2de9dbc5a4
-    current-tournament: true
     course: Eagle Peak
     number: 6
     par: 5
