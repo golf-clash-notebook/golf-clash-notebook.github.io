@@ -200,6 +200,8 @@ holes:
     resourceCreators:
       - name: Golf Clash Tommy
         resources:
+        - title: Rookie Guide - Gridiron
+          url: https://youtu.be/e4TRSwMMrKc
         - title: Rookie Guide
           url: https://youtu.be/u2UyvWYUgFw
         - title: Pro / Expert Guide
@@ -338,6 +340,10 @@ holes:
               direction: SSW
               magnitude: 9.1
             keywords:
+      - name: Jesse Both
+        resources:
+        - title: Gridiron - Rookie
+          url: https://youtu.be/rtiSoZFCh04
       - name: Kevin Warren
         resources:
         - title: Easter Links - Pro
@@ -751,6 +757,8 @@ holes:
     resourceCreators:
       - name: Golf Clash Tommy
         resources:
+        - title: Rookie Guide - Gridiron
+          url: https://youtu.be/qrvFIkwXKFg
         - title: Rookie Guide
           url: https://youtu.be/l9OoxNbTfic
         - title: Pro / Expert Guide
@@ -827,6 +835,10 @@ holes:
               direction: ENE
               magnitude: 13.4
             keywords:
+      - name: Jesse Both
+        resources:
+        - title: Gridiron - Rookie
+          url: https://youtu.be/X0TM0Ux50w8
       - name: Kevin Warren
         resources:
         - title: Easter Links - Pro
@@ -1146,6 +1158,8 @@ holes:
     resourceCreators:
       - name: Golf Clash Tommy
         resources:
+        - title: Rookie Guide - Gridiron
+          url: https://youtu.be/7KyjrVP56Uk
         - title: Rookie Guide
           url: https://youtu.be/FZk5yxyD954
         - title: Pro / Expert Guide
@@ -1270,6 +1284,10 @@ holes:
               direction: WSW
               magnitude: 7.1
             keywords:
+      - name: Jesse Both
+        resources:
+        - title: Gridiron - Rookie
+          url: https://youtu.be/Z7yK6ovdKsY
       - name: Kevin Warren
         resources:
         - title: Easter Links - Pro
@@ -1327,6 +1345,8 @@ holes:
     resourceCreators:
       - name: Golf Clash Tommy
         resources:
+        - title: Rookie Guide - Gridiron
+          url: https://youtu.be/pBCgoJNRuDM
         - title: Rookie Guide
           url: https://youtu.be/I43RN1MnSd0
         - title: Pro / Expert Guide
@@ -1403,6 +1423,10 @@ holes:
               direction: NE
               magnitude: 16.1
             keywords:
+      - name: Jesse Both
+        resources:
+        - title: Gridiron - Rookie
+          url: https://youtu.be/jLRNxzJRrrY
       - name: Kevin Warren
         resources:
         - title: Easter Links - Pro
