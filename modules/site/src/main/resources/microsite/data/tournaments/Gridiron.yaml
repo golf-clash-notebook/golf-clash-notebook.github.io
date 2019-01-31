@@ -1,6 +1,14 @@
 tournamentName: Gridiron
 date: '2019-02-04'
 resourceCreators:
+  - name: Golf Clash Tommy
+    resources:
+    - title: Rookie Playthrough
+      url: https://youtu.be/nphUgg7XDpA
+  - name: ItsRJTV
+    resources:
+    - title: Expert / Pro Guide
+      url: https://youtu.be/Rb5pB55lPu0
 holes:
   - number: 1
     id: 1906dee0-0a85-4adc-adbf-acaff2bc3f6f

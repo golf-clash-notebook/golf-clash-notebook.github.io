@@ -368,6 +368,8 @@ holes:
     resourceCreators:
       - name: Golf Clash Tommy
         resources:
+        - title: Rookie Guide - Gridiron
+          url: https://youtu.be/0OVyy5IKT54
         - title: Rookie Guide - Labor Day (2018)
           url: https://youtu.be/q1PljP-jx0s
         - title: Pro / Expert Guide - Labor Day (2018)
@@ -493,6 +495,10 @@ holes:
               direction: N
               magnitude: 15.9
             keywords:
+      - name: Jesse Both
+        resources:
+        - title: Gridiron - Rookie
+          url: https://youtu.be/73x_y2GMoPU
     overlays:
       size: [402, 1025]
       guides:
@@ -575,6 +581,8 @@ holes:
     resourceCreators:
       - name: Golf Clash Tommy
         resources:
+        - title: Rookie Guide - Gridiron
+          url: https://youtu.be/ktuXLyco8aM
         - title: Voyager - Rookie
           url: https://youtu.be/Wi0GOCQs0c8
         - title: Voyager - Pro / Expert
@@ -836,6 +844,10 @@ holes:
               direction: SE
               magnitude: 8.8
             keywords:
+      - name: Jesse Both
+        resources:
+        - title: Gridiron - Rookie
+          url: https://youtu.be/ssl8PD3kiLk
     overlays:
       size: [350, 809]
       guides:
@@ -1324,6 +1336,8 @@ holes:
     resourceCreators:
       - name: Golf Clash Tommy
         resources:
+        - title: Rookie Guide - Gridiron
+          url: https://youtu.be/2kfPMdr6x5I
         - title: Voyager - Rookie
           url: https://youtu.be/NxJ6XRnwO1M
         - title: Voyager - Pro / Expert
@@ -1639,6 +1653,10 @@ holes:
               direction: NNE
               magnitude: 11.0
             keywords:
+      - name: Jesse Both
+        resources:
+        - title: Gridiron - Rookie
+          url: https://youtu.be/UfloNuRBP2k
     overlays:
       size: [293, 833]
       guides:
@@ -1958,6 +1976,8 @@ holes:
     resourceCreators:
       - name: Golf Clash Tommy
         resources:
+        - title: Rookie Guide - Gridiron
+          url: https://youtu.be/Oq3jV8fms8g
         - title: Rookie Guide - Labor Day (2018)
           url: https://youtu.be/5NrN44x_zBo
         - title: Pro / Expert Guide - Labor Day (2018)
@@ -2069,6 +2089,10 @@ holes:
               direction: NE
               magnitude: 14.9
             keywords:
+      - name: Jesse Both
+        resources:
+        - title: Gridiron - Rookie
+          url: https://youtu.be/b5iJXBXE7as
     overlays:
       size: [364, 900]
       guides:
@@ -2178,6 +2202,8 @@ holes:
     resourceCreators:
       - name: Golf Clash Tommy
         resources:
+        - title: Rookie Guide - Gridiron
+          url: https://youtu.be/-KrgK8xJwo8
         - title: Rookie Guide
           url: https://youtu.be/RlxmLD25vdM
         - title: Pro / Expert Guide
@@ -2276,6 +2302,10 @@ holes:
               direction: NE
               magnitude: 13.2
             keywords:
+      - name: Jesse Both
+        resources:
+        - title: Gridiron - Rookie
+          url: https://youtu.be/jW4uTbKS3ik
     overlays:
       size: [325, 982]
       guides:

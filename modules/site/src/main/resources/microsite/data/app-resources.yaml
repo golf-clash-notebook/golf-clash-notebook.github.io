@@ -21,6 +21,9 @@ categories:
     - title: Live Gameplay Tutorial for Using the App
       url: https://youtu.be/pARTKyTRm_8
       platforms: ['android']
+    - title: Update 1.1.4 Features
+      url: https://youtu.be/797iXkWbZBA
+      platforms: ['android']
     - title: Update 1.1.0 Features
       url: https://youtu.be/pX32dqWs5Bs
       platforms: ['android']
@@ -102,6 +105,9 @@ categories:
     ### iOS
     - title: 'Physical Screen Grid Creation'
       url: https://youtu.be/t3uFsOydCf0
+      platforms: ['ios']
+    - title: '1.1.4 Release Overview'
+      url: https://youtu.be/FsFrPaet9IQ
       platforms: ['ios']
     - title: '1.1.0 Release Overview'
       url: https://youtu.be/x9bEZlwApkw
