@@ -11,6 +11,10 @@ resourceCreators:
       url: https://youtu.be/1rQXjDGI-tI
     - title: Pro & Expert Playthrough
       url: https://youtu.be/neA7s3FO-lg
+    - title: Expert Playthrough - Tournament Wind
+      url: https://youtu.be/R6uPWfXmCgs
+    - title: Master Playthrough - Tournament Wind
+      url: https://youtu.be/IZGzjcUToe4
     - title: Club Guide - All Divisions
       url: https://youtu.be/n-as2s91Kn0
   - name: ItsRJTV
@@ -21,6 +25,14 @@ resourceCreators:
     resources:
     - title: Rookie Guide
       url: https://youtu.be/lQBJZRsls_M
+    - title: Rookie Playthrough
+      url: https://youtu.be/DSP0LbrAJ8M
+  - name: Photon's Corner
+    resources:
+    - title: Rookie Qualifier
+      url: https://youtu.be/gTQukOz57GI
+    - title: Pro Qualifier
+      url: https://youtu.be/tW-oQLK9zd8
 holes:
   - number: 1
     id: 1906dee0-0a85-4adc-adbf-acaff2bc3f6f
