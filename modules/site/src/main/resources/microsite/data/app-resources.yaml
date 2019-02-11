@@ -1,5 +1,7 @@
 categories:
   - name: App Gameplay Tutorials
+    description: Live Gameplay Tutorials
+    resources:
     - title: Tour 7
       url: https://youtu.be/daB6FmTlvZ4
     - title: Tour 8
