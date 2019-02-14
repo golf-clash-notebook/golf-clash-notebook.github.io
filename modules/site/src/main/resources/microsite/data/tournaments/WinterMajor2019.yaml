@@ -1,0 +1,26 @@
+tournamentName: Winter Major 2019
+date: '2019-02-18'
+resourceCreators:
+  - name: Golf Clash Tommy
+    resources:
+    - title: Rookie Playthrough
+      url: https://youtu.be/utHzVdK4b9Y
+holes:
+  - number: 1
+    id: 4497006f-c69a-4cfe-a9c4-3524b8d714dd
+  - number: 2
+    id: 9fcb2bc9-7c5a-4f8f-b266-0c29ceb8f62b
+  - number: 3
+    id: 1066ae31-3c4b-4a6b-ac26-ecc58322ad5e
+  - number: 4
+    id: 2a9ecf85-75c9-4ba4-a335-8103529c1ad3
+  - number: 5
+    id: 91452d5f-188b-4ec3-aa01-169fab2a1474
+  - number: 6
+    id: 51ee6434-328c-4c20-a426-4590aea6b933
+  - number: 7
+    id: 0ea2798b-b8c9-42e9-9322-fdc5c16853b8
+  - number: 8
+    id: 2fc4b78d-d347-4708-86f3-c79eb1d5a331
+  - number: 9
+    id: 426860dc-c5e0-4f21-8803-d5d33264eba6

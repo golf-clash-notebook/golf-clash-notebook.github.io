@@ -135,6 +135,13 @@ page_gen:
     extra:
       title-prefix: 'Juniper Point - Hole '
   - index_files: true
+    data: 'courses.MapleBay.holes'
+    template: '_includes/courses/hole-template.liquid'
+    name: 'number'
+    dir: 'courses/MapleBay'
+    extra:
+      title-prefix: 'Maple Bay - Hole '
+  - index_files: true
     data: 'courses.MeadowCastle.holes'
     template: '_includes/courses/hole-template.liquid'
     name: 'number'
@@ -594,3 +601,11 @@ page_gen:
     extra:
       title-prefix: 'Gridiron Tournament - Hole '
       tournamentName: 'Gridiron'
+  - index_files: true
+    data: 'tournaments.WinterMajor2019.holes'
+    template: '_includes/tournaments/hole-template.liquid'
+    name: 'number'
+    dir: 'tournaments/WinterMajor2019'
+    extra:
+      title-prefix: 'Winter Major 2019 Tournament - Hole '
+      tournamentName: 'Winter Major 2019'

@@ -315,6 +315,8 @@ holes:
     resourceCreators:
       - name: Golf Clash Tommy
         resources:
+        - title: Tour 10 Guide
+          url: https://youtu.be/d2pNyRpEbz0
         - title: Rookie Guide
           url: https://youtu.be/AIJFV4_Xe_k
         - title: Pro / Expert Guide

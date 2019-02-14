@@ -1,0 +1,636 @@
+courseName: Maple Bay
+skinned: false
+holes:
+  - id: 4497006f-c69a-4cfe-a9c4-3524b8d714dd
+    current-tournament: true
+    course: Maple Bay
+    number: 1
+    par: 4
+    replayName: "4B"
+    description: >
+      Help Wanted
+    clubRecommendations:
+    resourceCreators:
+      - name: Golf Clash Tommy
+        resources:
+        - title: Rookie Guide - Winter Major 2019
+          url: https://youtu.be/4y29jVKWgp8
+      - name: Zachary Jones
+        resources:
+        - title: Tour 5 - Strategy and Tips
+          url: https://youtu.be/W7WKX9z8ESE
+          metadata:
+            tour: 5
+            ball: Quasar
+            teePosition: 1
+            clubs:
+              - name: Extra Mile
+                level: 6
+              - name: Thorn
+                level: 5
+            wind:
+              direction: NNE
+              magnitude: 7.0
+            keywords:
+        - title: Tour 5 - Strategy and Tips
+          url: https://youtu.be/40invoLNnpQ
+          metadata:
+            tour: 5
+            ball: Quasar
+            teePosition: 1
+            clubs:
+              - name: Extra Mile
+                level: 6
+              - name: Thorn
+                level: 5
+            wind:
+              direction: WSW
+              magnitude: 6.1
+            keywords:
+        - title: Tour 10 - Strategy and Tips
+          url: https://youtu.be/4r56alFKF0A
+          metadata:
+            tour: 10
+            ball: King Maker
+            teePosition: 2
+            clubs:
+              - name: Extra Mile
+                level: 7
+              - name: Thorn
+                level: 7
+            wind:
+              direction: NE
+              magnitude: 5.9
+            keywords:
+        - title: Tour 10 - Strategy and Tips
+          url: https://youtu.be/80R2JQuUFOQ
+          metadata:
+            tour: 10
+            ball: King Maker
+            teePosition: 2
+            clubs:
+              - name: Extra Mile
+                level: 7
+              - name: Thorn
+                level: 7
+            wind:
+              direction: NE
+              magnitude: 9.9
+            keywords:
+        - title: Tour 10 - Strategy and Tips
+          url: https://youtu.be/T5OQbCLGrWg
+          metadata:
+            tour: 10
+            ball: Berserker
+            teePosition: 2
+            clubs:
+              - name: Extra Mile
+                level: 7
+              - name: Malibu
+                level: 6
+            wind:
+              direction: NNW
+              magnitude: 14.0
+            keywords:
+        - title: Tour 11 - Strategy and Tips
+          url: https://youtu.be/Vh_hT1D-Qe4
+          metadata:
+            tour: 11
+            ball: Berserker
+            teePosition: 3
+            clubs:
+              - name: Thor's Hammer
+                level: 6
+              - name: Spitfire
+                level: 4
+            wind:
+              direction: N
+              magnitude: 14.7
+            keywords:
+        - title: Tour 11 - Strategy and Tips
+          url: https://youtu.be/z5Sxubl4roE
+          metadata:
+            tour: 11
+            ball: King Maker
+            teePosition: 3
+            clubs:
+              - name: Thor's Hammer
+                level: 6
+              - name: Sniper
+                level: 10
+            wind:
+              direction: WSW
+              magnitude: 9.2
+            keywords:
+  - id: 9fcb2bc9-7c5a-4f8f-b266-0c29ceb8f62b
+    current-tournament: true
+    course: Maple Bay
+    number: 2
+    par: 5
+    replayName: "5B"
+    description: >
+      Help Wanted
+    clubRecommendations:
+    resourceCreators:
+      - name: Golf Clash Tommy
+        resources:
+        - title: Rookie Guide - Winter Major 2019
+          url: https://youtu.be/iq8xUfzJRrY
+      - name: Zachary Jones
+        resources:
+        - title: Tour 5 - Strategy and Tips
+          url: https://youtu.be/pLqA7j0yRyI
+          metadata:
+            tour: 5
+            ball: Quasar
+            teePosition: 1
+            clubs:
+              - name: Extra Mile
+                level: 6
+              - name: Guardian
+                level: 3
+            wind:
+              direction: SE
+              magnitude: 2.9
+            keywords:
+        - title: Tour 10 - Strategy and Tips
+          url: https://youtu.be/vzZPrSuXY34
+          metadata:
+            tour: 10
+            ball: King Maker
+            teePosition: 2
+            clubs:
+              - name: Extra Mile
+                level: 7
+              - name: Sniper
+                level: 9
+            wind:
+              direction: SW
+              magnitude: 7.7
+            keywords:
+        - title: Tour 11 - Strategy and Tips
+          url: https://youtu.be/RTTsaoTHDKc
+          metadata:
+            tour: 11
+            ball: King Maker
+            teePosition: 3
+            clubs:
+              - name: Thor's Hammer
+                level: 6
+              - name: Sniper
+                level: 10
+            wind:
+              direction: SW
+              magnitude: 11.7
+            keywords:
+        - title: Tour 11 - Strategy and Tips
+          url: https://youtu.be/Vm9GRhGzWFg
+          metadata:
+            tour: 11
+            ball: King Maker
+            teePosition: 3
+            clubs:
+              - name: Thor's Hammer
+                level: 6
+              - name: Sniper
+                level: 10
+              - name: Spitfire
+                level: 4
+            wind:
+              direction: E
+              magnitude: 7.7
+            keywords:
+  - id: 1066ae31-3c4b-4a6b-ac26-ecc58322ad5e
+    current-tournament: true
+    course: Maple Bay
+    number: 3
+    par: 3
+    replayName: "3B"
+    description: >
+      Help Wanted
+    clubRecommendations:
+    resourceCreators:
+      - name: Golf Clash Tommy
+        resources:
+        - title: Rookie Guide - Winter Major 2019
+          url: https://youtu.be/XT0JJeND9g8
+      - name: Zachary Jones
+        resources:
+        - title: Tour 5 - Strategy and Tips
+          url: https://youtu.be/6qI5rqfHBvM
+          metadata:
+            tour: 5
+            ball: Titan
+            teePosition: 1
+            clubs:
+              - name: Backbone
+                level: 8
+            wind:
+              direction: NW
+              magnitude: 2.8
+            keywords:
+        - title: Tour 10 - Strategy and Tips
+          url: https://youtu.be/CmScAY6p4m0
+          metadata:
+            tour: 10
+            ball: King Maker
+            teePosition: 2
+            clubs:
+              - name: Backbone
+                level: 9
+            wind:
+              direction: NNE
+              magnitude: 7.3
+            keywords:
+  - id: 2a9ecf85-75c9-4ba4-a335-8103529c1ad3
+    current-tournament: true
+    course: Maple Bay
+    number: 4
+    par: 4
+    replayName: "4"
+    description: >
+      Help Wanted
+    clubRecommendations:
+    resourceCreators:
+      - name: Golf Clash Tommy
+        resources:
+        - title: Rookie Guide - Winter Major 2019
+          url: https://youtu.be/74wNuBBs0YE
+      - name: Zachary Jones
+        resources:
+        - title: Tour 5 - Strategy and Tips
+          url: https://youtu.be/A85WsVdc1QM
+          metadata:
+            tour: 5
+            ball: Titan
+            teePosition: 1
+            clubs:
+              - name: Extra Mile
+                level: 6
+              - name: Skewer
+                level: 6
+            wind:
+              direction: WSW
+              magnitude: 2.8
+            keywords:
+        - title: Tour 10 - Strategy and Tips
+          url: https://youtu.be/RlQIUTNbsg4
+          metadata:
+            tour: 10
+            ball: King Maker
+            teePosition: 2
+            clubs:
+              - name: Extra Mile
+                level: 7
+              - name: Sniper
+                level: 9
+            wind:
+              direction: ESE
+              magnitude: 8.7
+            keywords:
+        - title: Tour 10 - Strategy and Tips
+          url: https://youtu.be/gDg3vttgFGg
+          metadata:
+            tour: 10
+            ball: King Maker
+            teePosition: 2
+            clubs:
+              - name: Extra Mile
+                level: 7
+              - name: Malibu
+                level: 6
+            wind:
+              direction: NNE
+              magnitude: 10.3
+            keywords:
+        - title: Tour 11 - Strategy and Tips
+          url: https://youtu.be/Qj1ToaSn0A8
+          metadata:
+            tour: 11
+            ball: King Maker
+            teePosition: 3
+            clubs:
+              - name: Thor's Hammer
+                level: 6
+              - name: Backbone
+                level: 10
+            wind:
+              direction: NE
+              magnitude: 7.0
+            keywords:
+        - title: Tour 11 - Strategy and Tips
+          url: https://youtu.be/buQLpp7zgLk
+          metadata:
+            tour: 11
+            ball: King Maker
+            teePosition: 3
+            clubs:
+              - name: Thor's Hammer
+                level: 6
+              - name: Nirvana
+                level: 7
+            wind:
+              direction: SSE
+              magnitude: 9.9
+            keywords:
+  - id: 91452d5f-188b-4ec3-aa01-169fab2a1474
+    current-tournament: true
+    course: Maple Bay
+    number: 5
+    par: 5
+    replayName: "5"
+    description: >
+      Help Wanted
+    clubRecommendations:
+    resourceCreators:
+      - name: Golf Clash Tommy
+        resources:
+        - title: Rookie Guide - Winter Major 2019
+          url: https://youtu.be/TFXPwea7Wos
+      - name: Zachary Jones
+        resources:
+        - title: Tour 5 - Strategy and Tips
+          url: https://youtu.be/VYKAmk607NQ
+          metadata:
+            tour: 5
+            ball: Quasar
+            teePosition: 1
+            clubs:
+              - name: Extra Mile
+                level: 6
+              - name: Guardian
+                level: 3
+            wind:
+              direction: NE
+              magnitude: 2.7
+            keywords:
+        - title: Tour 10 - Strategy and Tips
+          url: https://youtu.be/nxKs0Km-GXI
+          metadata:
+            tour: 10
+            ball: King Maker
+            teePosition: 2
+            clubs:
+              - name: Extra Mile
+                level: 7
+              - name: Sniper
+                level: 9
+            wind:
+              direction: SW
+              magnitude: 7.7
+            keywords:
+        - title: Tour 11 - Strategy and Tips
+          url: https://youtu.be/Df7h2eRPUNs
+          metadata:
+            tour: 11
+            ball: King Maker
+            teePosition: 3
+            clubs:
+              - name: Thor's Hammer
+                level: 6
+              - name: Sniper
+                level: 10
+            wind:
+              direction: NW
+              magnitude: 11.2
+            keywords:
+  - id: 51ee6434-328c-4c20-a426-4590aea6b933
+    current-tournament: true
+    course: Maple Bay
+    number: 6
+    par: 3
+    replayName: "3"
+    description: >
+      Help Wanted
+    clubRecommendations:
+    resourceCreators:
+      - name: Golf Clash Tommy
+        resources:
+        - title: Rookie Guide - Winter Major 2019
+          url: https://youtu.be/1Te2gmxPLKU
+      - name: Zachary Jones
+        resources:
+        - title: Tour 11 - Strategy and Tips
+          url: https://youtu.be/yt9MDZAFYGM
+          metadata:
+            tour: 11
+            ball: King Maker
+            teePosition: 3
+            clubs:
+              - name: Thor's Hammer
+                level: 6
+            wind:
+              direction: NW
+              magnitude: 12.7
+            keywords:
+  - id: 0ea2798b-b8c9-42e9-9322-fdc5c16853b8
+    current-tournament: true
+    course: Maple Bay
+    number: 7
+    par: 4
+    replayName: "4C"
+    description: >
+      Help Wanted
+    clubRecommendations:
+    resourceCreators:
+      - name: Golf Clash Tommy
+        resources:
+        - title: Rookie Guide - Winter Major 2019
+          url: https://youtu.be/mOL3rqtiaiI
+      - name: Zachary Jones
+        resources:
+        - title: Tour 5 - Strategy and Tips
+          url: https://youtu.be/HKUU1k5571A
+          metadata:
+            tour: 5
+            ball: Quasar
+            teePosition: 1
+            clubs:
+              - name: Extra Mile
+                level: 6
+              - name: Thorn
+                level: 5
+            wind:
+              direction: NNE
+              magnitude: 7.1
+            keywords:
+        - title: Tour 10 - Strategy and Tips
+          url: https://youtu.be/XG3UTrYoiO4
+          metadata:
+            tour: 10
+            ball: King Maker
+            teePosition: 2
+            clubs:
+              - name: Extra Mile
+                level: 7
+              - name: Thorn
+                level: 7
+            wind:
+              direction: SW
+              magnitude: 6.7
+            keywords:
+        - title: Tour 10 - Strategy and Tips
+          url: https://youtu.be/kONiL15e_Nw
+          metadata:
+            tour: 10
+            ball: King Maker
+            teePosition: 2
+            clubs:
+              - name: Extra Mile
+                level: 7
+              - name: Malibu
+                level: 6
+            wind:
+              direction: NW
+              magnitude: 8.2
+            keywords:
+        - title: Tour 10 - Strategy and Tips
+          url: https://youtu.be/E7DFqrbztVI
+          metadata:
+            tour: 10
+            ball: King Maker
+            teePosition: 2
+            clubs:
+              - name: Extra Mile
+                level: 7
+              - name: Thorn
+                level: 7
+            wind:
+              direction: NE
+              magnitude: 8.2
+            keywords:
+        - title: Tour 11 - Strategy and Tips
+          url: https://youtu.be/_2_9zKDIaBg
+          metadata:
+            tour: 11
+            ball: King Maker
+            teePosition: 3
+            clubs:
+              - name: Thor's Hammer
+                level: 6
+              - name: Backbone
+                level: 10
+            wind:
+              direction: NNW
+              magnitude: 10.8
+            keywords:
+        - title: Tour 11 - Strategy and Tips
+          url: https://youtu.be/N0sU00NNZXo
+          metadata:
+            tour: 11
+            ball: King Maker
+            teePosition: 3
+            clubs:
+              - name: Thor's Hammer
+                level: 6
+              - name: Thorn
+                level: 7
+            wind:
+              direction: SW
+              magnitude: 7.3
+            keywords:
+  - id: 2fc4b78d-d347-4708-86f3-c79eb1d5a331
+    current-tournament: true
+    course: Maple Bay
+    number: 8
+    par: 3
+    replayName: "3C"
+    description: >
+      Help Wanted
+    clubRecommendations:
+    resourceCreators:
+      - name: Golf Clash Tommy
+        resources:
+        - title: Rookie Guide - Winter Major 2019
+          url: https://youtu.be/aVK7Gk0Ftrk
+      - name: Zachary Jones
+        resources:
+        - title: Tour 11 - Strategy and Tips
+          url: https://youtu.be/ROVoMYBAPMc
+          metadata:
+            tour: 11
+            ball: King Maker
+            teePosition: 3
+            clubs:
+              - name: Sniper
+                level: 10
+            wind:
+              direction: WNW
+              magnitude: 7.8
+            keywords:
+  - id: 426860dc-c5e0-4f21-8803-d5d33264eba6
+    current-tournament: true
+    course: Maple Bay
+    number: 9
+    par: 5
+    replayName: "5C"
+    description: >
+      Help Wanted
+    clubRecommendations:
+    resourceCreators:
+      - name: Golf Clash Tommy
+        resources:
+        - title: Rookie Guide - Winter Major 2019
+          url: https://youtu.be/gVfGiASjgbM
+      - name: Zachary Jones
+        resources:
+        - title: Tour 5 - Strategy and Tips
+          url: https://youtu.be/ImrkGykrWQ4
+          metadata:
+            tour: 5
+            ball: Quasar
+            teePosition: 1
+            clubs:
+              - name: Extra Mile
+                level: 6
+              - name: Guardian
+                level: 3
+            wind:
+              direction: SW
+              magnitude: 1.2
+            keywords:
+        - title: Tour 10 - Strategy and Tips
+          url: https://youtu.be/aerWXfkpGNg
+          metadata:
+            tour: 10
+            ball: King Maker
+            teePosition: 2
+            clubs:
+              - name: Extra Mile
+                level: 7
+              - name: Sniper
+                level: 9
+            wind:
+              direction: NE
+              magnitude: 9.6
+            keywords:
+        - title: Tour 10 - Strategy and Tips
+          url: https://youtu.be/W0j20RoehV4
+          metadata:
+            tour: 10
+            ball: King Maker
+            teePosition: 2
+            clubs:
+              - name: Extra Mile
+                level: 7
+              - name: Sniper
+                level: 9
+            wind:
+              direction: WNW
+              magnitude: 8.0
+            keywords:
+        - title: Tour 11 - Strategy and Tips
+          url: https://youtu.be/lah-S0xt60Q
+          metadata:
+            tour: 11
+            ball: King Maker
+            teePosition: 3
+            clubs:
+              - name: Thor's Hammer
+                level: 6
+              - name: Sniper
+                level: 10
+            wind:
+              direction: NE
+              magnitude: 5.9
+            keywords:
