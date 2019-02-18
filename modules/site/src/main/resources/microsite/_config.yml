@@ -217,7 +217,7 @@ page_gen:
     name: 'number'
     dir: 'courses/PorthelloCove'
     extra:
-      title-prefix: 'The Oasis - Hole '
+      title-prefix: 'Porthello Cove - Hole '
   - index_files: true
     data: 'courses.Touchdown.holes'
     template: '_includes/courses/hole-template.liquid'
