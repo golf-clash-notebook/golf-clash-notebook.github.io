@@ -219,7 +219,7 @@ object store {
 
   object scheduling {
 
-    val ExpiredThreshold = 15 * 60 * 1000d // 15 minutes
+    val ExpiredThreshold = 30 * 60 * 1000d // 30 minutes
 
     case class Schedule(lastUpdated: Long, channelStreams: Map[String, List[YouTubeStream]])
 
