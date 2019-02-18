@@ -15,6 +15,8 @@ holes:
         resources:
         - title: Rookie Guide - Winter Major 2019
           url: https://youtu.be/4y29jVKWgp8
+        - title: Pro & Expert Guide - Winter Major 2019
+          url: https://youtu.be/WBmZflg5Kjs
       - name: Zachary Jones
         resources:
         - title: Tour 5 - Strategy and Tips
@@ -122,6 +124,10 @@ holes:
               direction: WSW
               magnitude: 9.2
             keywords:
+      - name: Jesse Both
+        resources:
+        - title: Rookie Guide - Winter Major 2019
+          url: https://youtu.be/HCf3eq1FhEU
   - id: 9fcb2bc9-7c5a-4f8f-b266-0c29ceb8f62b
     current-tournament: true
     course: Maple Bay
@@ -136,6 +142,8 @@ holes:
         resources:
         - title: Rookie Guide - Winter Major 2019
           url: https://youtu.be/iq8xUfzJRrY
+        - title: Pro & Expert Guide - Winter Major 2019
+          url: https://youtu.be/f749DgvAw8I
       - name: Zachary Jones
         resources:
         - title: Tour 5 - Strategy and Tips
@@ -200,6 +208,10 @@ holes:
               direction: E
               magnitude: 7.7
             keywords:
+      - name: Jesse Both
+        resources:
+        - title: Rookie Guide - Winter Major 2019
+          url: https://youtu.be/E9clRPtUXPc
   - id: 1066ae31-3c4b-4a6b-ac26-ecc58322ad5e
     current-tournament: true
     course: Maple Bay
@@ -214,6 +226,8 @@ holes:
         resources:
         - title: Rookie Guide - Winter Major 2019
           url: https://youtu.be/XT0JJeND9g8
+        - title: Pro & Expert Guide - Winter Major 2019
+          url: https://youtu.be/rV73OUOCw9s
       - name: Zachary Jones
         resources:
         - title: Tour 5 - Strategy and Tips
@@ -242,6 +256,10 @@ holes:
               direction: NNE
               magnitude: 7.3
             keywords:
+      - name: Jesse Both
+        resources:
+        - title: Rookie Guide - Winter Major 2019
+          url: https://youtu.be/dIrbXAVhMt0
   - id: 2a9ecf85-75c9-4ba4-a335-8103529c1ad3
     current-tournament: true
     course: Maple Bay
@@ -256,6 +274,8 @@ holes:
         resources:
         - title: Rookie Guide - Winter Major 2019
           url: https://youtu.be/74wNuBBs0YE
+        - title: Pro & Expert Guide - Winter Major 2019
+          url: https://youtu.be/wWbLdARCN7E
       - name: Zachary Jones
         resources:
         - title: Tour 5 - Strategy and Tips
@@ -333,6 +353,10 @@ holes:
               direction: SSE
               magnitude: 9.9
             keywords:
+      - name: Jesse Both
+        resources:
+        - title: Rookie Guide - Winter Major 2019
+          url: https://youtu.be/Wo0eJ1Grj5g
   - id: 91452d5f-188b-4ec3-aa01-169fab2a1474
     current-tournament: true
     course: Maple Bay
@@ -347,6 +371,8 @@ holes:
         resources:
         - title: Rookie Guide - Winter Major 2019
           url: https://youtu.be/TFXPwea7Wos
+        - title: Pro & Expert Guide - Winter Major 2019
+          url: https://youtu.be/RcJwnbV1kbc
       - name: Zachary Jones
         resources:
         - title: Tour 5 - Strategy and Tips
@@ -394,6 +420,10 @@ holes:
               direction: NW
               magnitude: 11.2
             keywords:
+      - name: Jesse Both
+        resources:
+        - title: Rookie Guide - Winter Major 2019
+          url: https://youtu.be/dzasXlwCAMw
   - id: 51ee6434-328c-4c20-a426-4590aea6b933
     current-tournament: true
     course: Maple Bay
@@ -408,6 +438,8 @@ holes:
         resources:
         - title: Rookie Guide - Winter Major 2019
           url: https://youtu.be/1Te2gmxPLKU
+        - title: Pro & Expert Guide - Winter Major 2019
+          url: https://youtu.be/yExM4MyLP4I
       - name: Zachary Jones
         resources:
         - title: Tour 11 - Strategy and Tips
@@ -423,6 +455,10 @@ holes:
               direction: NW
               magnitude: 12.7
             keywords:
+      - name: Jesse Both
+        resources:
+        - title: Rookie Guide - Winter Major 2019
+          url: https://youtu.be/6Dk6uVMSj5I
   - id: 0ea2798b-b8c9-42e9-9322-fdc5c16853b8
     current-tournament: true
     course: Maple Bay
@@ -437,6 +473,8 @@ holes:
         resources:
         - title: Rookie Guide - Winter Major 2019
           url: https://youtu.be/mOL3rqtiaiI
+        - title: Pro & Expert Guide - Winter Major 2019
+          url: https://youtu.be/Ds4a8PdY7D8
       - name: Zachary Jones
         resources:
         - title: Tour 5 - Strategy and Tips
@@ -529,6 +567,10 @@ holes:
               direction: SW
               magnitude: 7.3
             keywords:
+      - name: Jesse Both
+        resources:
+        - title: Rookie Guide - Winter Major 2019
+          url: https://youtu.be/pG7quYs7rBk
   - id: 2fc4b78d-d347-4708-86f3-c79eb1d5a331
     current-tournament: true
     course: Maple Bay
@@ -543,6 +585,8 @@ holes:
         resources:
         - title: Rookie Guide - Winter Major 2019
           url: https://youtu.be/aVK7Gk0Ftrk
+        - title: Pro & Expert Guide - Winter Major 2019
+          url: https://youtu.be/dZ_J_SRIQs0
       - name: Zachary Jones
         resources:
         - title: Tour 11 - Strategy and Tips
@@ -558,6 +602,10 @@ holes:
               direction: WNW
               magnitude: 7.8
             keywords:
+      - name: Jesse Both
+        resources:
+        - title: Rookie Guide - Winter Major 2019
+          url: https://youtu.be/QhFIvBlUNtw
   - id: 426860dc-c5e0-4f21-8803-d5d33264eba6
     current-tournament: true
     course: Maple Bay
@@ -572,6 +620,8 @@ holes:
         resources:
         - title: Rookie Guide - Winter Major 2019
           url: https://youtu.be/gVfGiASjgbM
+        - title: Pro & Expert Guide - Winter Major 2019
+          url: https://youtu.be/6TYy9xgG6vw
       - name: Zachary Jones
         resources:
         - title: Tour 5 - Strategy and Tips
@@ -634,3 +684,7 @@ holes:
               direction: NE
               magnitude: 5.9
             keywords:
+      - name: Jesse Both
+        resources:
+        - title: Rookie Guide - Winter Major 2019
+          url: https://youtu.be/R598jcNsFzk

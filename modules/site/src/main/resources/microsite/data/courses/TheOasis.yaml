@@ -1057,6 +1057,8 @@ holes:
     resourceCreators:
       - name: Golf Clash Tommy
         resources:
+        - title: Tour 10 Guide
+          url: https://youtu.be/M4bQfw0l1bg
         - title: Desert Open Guide & Tutorial - Rookie Division
           url: https://youtu.be/qh3n5c4pvkk
       - name: Zachary Jones
