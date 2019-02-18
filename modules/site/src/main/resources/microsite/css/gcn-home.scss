@@ -23,65 +23,82 @@
     }
   }
 
-  .gcn-stream-list {
+}
 
-    .stream-item {
+.gcn-stream-list {
 
-      padding: 6px 12px;
+  padding: 6px 24px;
 
-      .stream-title {
-        display: inline-block;
+  > .list-group {
+    margin-bottom: 0;
+
+    > .list-group-item:nth-child(1) {
+      color: #fff;
+      background-color: #4caf50;
+      padding: 0px 5px 0px 15px;
+    }
+
+    > .list-group-item:nth-child(n+2) {
+      padding-top: 2px;
+    }
+  }
+
+  .stream-item {
+
+    padding: 6px 12px;
+
+    .stream-title {
+      display: inline-block;
+      margin-bottom: 4px;
+      margin-top: 4px;
+    }
+
+    .stream-updating-spinner {
+      display: inline-block;
+      height: 16px;
+      position: absolute;
+      right: 16px;
+      top: 12px;
+      width: 16px;
+    }
+
+    .stream-schedule {
+      padding: 4px 0;
+
+      .stream-schedule-item {
+
+        color: #666;
+        display: flex;
         margin-bottom: 4px;
-        margin-top: 4px;
-      }
+        margin-left: 6px;
 
-      .stream-updating-spinner {
-        display: inline-block;
-        height: 16px;
-        position: absolute;
-        right: 16px;
-        top: 12px;
-        width: 16px;
-      }
+        .stream-schedule-item-title {
+          // white-space: nowrap;
+          // overflow: hidden;
+          // text-overflow: ellipsis;
+        }
 
-      .stream-schedule {
-        padding: 4px 0;
+        .stream-schedule-item-time {
+          flex: 1;
+          min-width: 120px;
+          text-align: right;
 
-        .stream-schedule-item {
-
-          color: #666;
-          display: flex;
-          margin-bottom: 4px;
-          margin-left: 6px;
-
-          .stream-schedule-item-title {
-            // white-space: nowrap;
-            // overflow: hidden;
-            // text-overflow: ellipsis;
-          }
-
-          .stream-schedule-item-time {
-            flex: 1;
-            min-width: 120px;
-            text-align: right;
-
-            .live-label {
-              background-color: #f00;
-              border-radius: 2px;
-              color: #fff;
-              font-weight: 900;
-              padding: 1px 4px;
-            }
+          .live-label {
+            background-color: #f00;
+            border-radius: 2px;
+            color: #fff;
+            font-weight: 900;
+            padding: 1px 4px;
           }
         }
       }
     }
+  }
 
-    .stream-item-footer {
-      background-color: #efefef;
-      padding: 4px 8px;
-      text-align: right;
-    }
+  .stream-item-footer {
+    background-color: #efefef;
+    padding: 4px 8px;
+    text-align: right;
   }
 }
 

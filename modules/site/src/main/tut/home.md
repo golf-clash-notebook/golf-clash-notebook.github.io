@@ -20,18 +20,11 @@ position: 0
 
     <div class="news-container">
       {% include news/feed-widget.liquid %}
-      {% include schedule/stream-schedule.liquid %}
     </div>
 
     <p class="text-content">
       An open source compilation of Golf Clash content. Here you'll find past guides, descriptions,
       tips and more for the game of Golf Clash that may help you along your way.
-    </p>
-
-    <p class="text-content">
-      This site was built because there is a lot of great content on the web to help you along
-      your way but it's all pretty scattered. This site attempts to organize it all so you can
-      spend a little less time searching and a little more time learning.
     </p>
 
     <p class="text-content">
@@ -48,6 +41,12 @@ position: 0
 
   </div>
 
+</div>
+
+<div class="row">
+  <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 col-sm-12">
+    {% include schedule/stream-schedule.liquid %}
+  </div>
 </div>
 
 <div class="row">
