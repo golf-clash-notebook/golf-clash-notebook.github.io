@@ -35,6 +35,24 @@ This table addresses [#136](https://github.com/golf-clash-notebook/golf-clash-no
 | ![Map][CreepyCliffs-7]      | Creepy Cliffs       |        7       |      4C     |
 | ![Map][CreepyCliffs-8]      | Creepy Cliffs       |        8       |       4     |
 | ![Map][CreepyCliffs-9]      | Creepy Cliffs       |        9       |      5B     |
+| ![Map][EaglePeak-1]         | Eagle Peak          |        1       |      4B     |
+| ![Map][EaglePeak-2]         | Eagle Peak          |        2       |      3B     |
+| ![Map][EaglePeak-3]         | Eagle Peak          |        3       |      5C     |
+| ![Map][EaglePeak-4]         | Eagle Peak          |        4       |      3C     |
+| ![Map][EaglePeak-5]         | Eagle Peak          |        5       |       4     |
+| ![Map][EaglePeak-6]         | Eagle Peak          |        6       |      5B     |
+| ![Map][EaglePeak-7]         | Eagle Peak          |        7       |       3     |
+| ![Map][EaglePeak-8]         | Eagle Peak          |        8       |      4C     |
+| ![Map][EaglePeak-9]         | Eagle Peak          |        9       |       5     |
+| ![Map][GhostlyGlades-1]     | Ghostly Glades      |        1       |       4     |
+| ![Map][GhostlyGlades-2]     | Ghostly Glades      |        2       |      3B     |
+| ![Map][GhostlyGlades-3]     | Ghostly Glades      |        3       |       5     |
+| ![Map][GhostlyGlades-4]     | Ghostly Glades      |        4       |      4C     |
+| ![Map][GhostlyGlades-5]     | Ghostly Glades      |        5       |       3     |
+| ![Map][GhostlyGlades-6]     | Ghostly Glades      |        6       |      5B     |
+| ![Map][GhostlyGlades-7]     | Ghostly Glades      |        7       |      4B     |
+| ![Map][GhostlyGlades-8]     | Ghostly Glades      |        8       |      3C     |
+| ![Map][GhostlyGlades-9]     | Ghostly Glades      |        9       |      5C     |
 | ![Map][GlenmonarchEstate-1] | Glenmonarch Estate  |        1       |       3     |
 | ![Map][GlenmonarchEstate-2] | Glenmonarch Estate  |        2       |       4     |
 | ![Map][GlenmonarchEstate-3] | Glenmonarch Estate  |        3       |       5     |
@@ -84,6 +102,15 @@ This table addresses [#136](https://github.com/golf-clash-notebook/golf-clash-no
 | ![Map][MeadowCastle-2]      | Meadow Castle       |        2       |       4     |
 | ![Map][MeadowCastle-3]      | Meadow Castle       |        3       |       5     |
 | ![Map][MeadowCastle-4]      | Meadow Castle       |        4       |      3B     |
+| ![Map][MapleBay-1]          | Maple Bay           |        1       |      4B     |
+| ![Map][MapleBay-2]          | Maple Bay           |        2       |      5B     |
+| ![Map][MapleBay-3]          | Maple Bay           |        3       |      3C     |
+| ![Map][MapleBay-4]          | Maple Bay           |        4       |       4     |
+| ![Map][MapleBay-5]          | Maple Bay           |        5       |       5     |
+| ![Map][MapleBay-6]          | Maple Bay           |        6       |       3     |
+| ![Map][MapleBay-7]          | Maple Bay           |        7       |      4C     |
+| ![Map][MapleBay-8]          | Maple Bay           |        8       |      3C     |
+| ![Map][MapleBay-9]          | Maple Bay           |        9       |      5C     |
 | ![Map][NamhaeCliffs-1]      | Namhae Cliffs       |        1       |       3     |
 | ![Map][NamhaeCliffs-2]      | Namhae Cliffs       |        2       |       4     |
 | ![Map][NamhaeCliffs-3]      | Namhae Cliffs       |        3       |       5     |
@@ -93,6 +120,15 @@ This table addresses [#136](https://github.com/golf-clash-notebook/golf-clash-no
 | ![Map][NamhaeCliffs-7]      | Namhae Cliffs       |        7       |      4C     |
 | ![Map][NamhaeCliffs-8]      | Namhae Cliffs       |        8       |      5B     |
 | ![Map][NamhaeCliffs-9]      | Namhae Cliffs       |        9       |      5C     |
+| ![Map][NordicFjords-1]      | Nordic Fjords       |        1       |       4     |
+| ![Map][NordicFjords-2]      | Nordic Fjords       |        2       |       3     |
+| ![Map][NordicFjords-3]      | Nordic Fjords       |        3       |       5     |
+| ![Map][NordicFjords-4]      | Nordic Fjords       |        4       |      3B     |
+| ![Map][NordicFjords-5]      | Nordic Fjords       |        5       |      5B     |
+| ![Map][NordicFjords-6]      | Nordic Fjords       |        6       |      4B     |
+| ![Map][NordicFjords-7]      | Nordic Fjords       |        7       |      3C     |
+| ![Map][NordicFjords-8]      | Nordic Fjords       |        8       |      4C     |
+| ![Map][NordicFjords-9]      | Nordic Fjords       |        9       |      5C     |
 | ![Map][ParcdeParis-1]       | Parc de Paris       |        1       |      4B     |
 | ![Map][ParcdeParis-2]       | Parc de Paris       |        2       |      3B     |
 | ![Map][ParcdeParis-3]       | Parc de Paris       |        3       |      5C     |
@@ -235,6 +271,30 @@ This table addresses [#136](https://github.com/golf-clash-notebook/golf-clash-no
 
 <!--- ############################################################################################################## -->
 
+[EaglePeak-1]: https://github.com/golf-clash-notebook/golf-clash-notebook.github.io/blob/dev/modules/site/src/main/resources/microsite/img/golfclash/courses/EaglePeak/1-thumb.png?raw=true
+[EaglePeak-2]: https://github.com/golf-clash-notebook/golf-clash-notebook.github.io/blob/dev/modules/site/src/main/resources/microsite/img/golfclash/courses/EaglePeak/2-thumb.png?raw=true
+[EaglePeak-3]: https://github.com/golf-clash-notebook/golf-clash-notebook.github.io/blob/dev/modules/site/src/main/resources/microsite/img/golfclash/courses/EaglePeak/3-thumb.png?raw=true
+[EaglePeak-4]: https://github.com/golf-clash-notebook/golf-clash-notebook.github.io/blob/dev/modules/site/src/main/resources/microsite/img/golfclash/courses/EaglePeak/4-thumb.png?raw=true
+[EaglePeak-5]: https://github.com/golf-clash-notebook/golf-clash-notebook.github.io/blob/dev/modules/site/src/main/resources/microsite/img/golfclash/courses/EaglePeak/5-thumb.png?raw=true
+[EaglePeak-6]: https://github.com/golf-clash-notebook/golf-clash-notebook.github.io/blob/dev/modules/site/src/main/resources/microsite/img/golfclash/courses/EaglePeak/6-thumb.png?raw=true
+[EaglePeak-7]: https://github.com/golf-clash-notebook/golf-clash-notebook.github.io/blob/dev/modules/site/src/main/resources/microsite/img/golfclash/courses/EaglePeak/7-thumb.png?raw=true
+[EaglePeak-8]: https://github.com/golf-clash-notebook/golf-clash-notebook.github.io/blob/dev/modules/site/src/main/resources/microsite/img/golfclash/courses/EaglePeak/8-thumb.png?raw=true
+[EaglePeak-9]: https://github.com/golf-clash-notebook/golf-clash-notebook.github.io/blob/dev/modules/site/src/main/resources/microsite/img/golfclash/courses/EaglePeak/9-thumb.png?raw=true
+
+<!--- ############################################################################################################## -->
+
+[GhostlyGlades-1]: https://github.com/golf-clash-notebook/golf-clash-notebook.github.io/blob/dev/modules/site/src/main/resources/microsite/img/golfclash/courses/GhostlyGlades/1-thumb.png?raw=true
+[GhostlyGlades-2]: https://github.com/golf-clash-notebook/golf-clash-notebook.github.io/blob/dev/modules/site/src/main/resources/microsite/img/golfclash/courses/GhostlyGlades/2-thumb.png?raw=true
+[GhostlyGlades-3]: https://github.com/golf-clash-notebook/golf-clash-notebook.github.io/blob/dev/modules/site/src/main/resources/microsite/img/golfclash/courses/GhostlyGlades/3-thumb.png?raw=true
+[GhostlyGlades-4]: https://github.com/golf-clash-notebook/golf-clash-notebook.github.io/blob/dev/modules/site/src/main/resources/microsite/img/golfclash/courses/GhostlyGlades/4-thumb.png?raw=true
+[GhostlyGlades-5]: https://github.com/golf-clash-notebook/golf-clash-notebook.github.io/blob/dev/modules/site/src/main/resources/microsite/img/golfclash/courses/GhostlyGlades/5-thumb.png?raw=true
+[GhostlyGlades-6]: https://github.com/golf-clash-notebook/golf-clash-notebook.github.io/blob/dev/modules/site/src/main/resources/microsite/img/golfclash/courses/GhostlyGlades/6-thumb.png?raw=true
+[GhostlyGlades-7]: https://github.com/golf-clash-notebook/golf-clash-notebook.github.io/blob/dev/modules/site/src/main/resources/microsite/img/golfclash/courses/GhostlyGlades/7-thumb.png?raw=true
+[GhostlyGlades-8]: https://github.com/golf-clash-notebook/golf-clash-notebook.github.io/blob/dev/modules/site/src/main/resources/microsite/img/golfclash/courses/GhostlyGlades/8-thumb.png?raw=true
+[GhostlyGlades-9]: https://github.com/golf-clash-notebook/golf-clash-notebook.github.io/blob/dev/modules/site/src/main/resources/microsite/img/golfclash/courses/GhostlyGlades/9-thumb.png?raw=true
+
+<!--- ############################################################################################################## -->
+
 [GlenmonarchEstate-1]: https://github.com/golf-clash-notebook/golf-clash-notebook.github.io/blob/dev/modules/site/src/main/resources/microsite/img/golfclash/courses/GlenmonarchEstate/1-thumb.png?raw=true
 [GlenmonarchEstate-2]: https://github.com/golf-clash-notebook/golf-clash-notebook.github.io/blob/dev/modules/site/src/main/resources/microsite/img/golfclash/courses/GlenmonarchEstate/2-thumb.png?raw=true
 [GlenmonarchEstate-3]: https://github.com/golf-clash-notebook/golf-clash-notebook.github.io/blob/dev/modules/site/src/main/resources/microsite/img/golfclash/courses/GlenmonarchEstate/3-thumb.png?raw=true
@@ -295,6 +355,18 @@ This table addresses [#136](https://github.com/golf-clash-notebook/golf-clash-no
 
 <!--- ############################################################################################################## -->
 
+[MapleBay-1]: https://github.com/golf-clash-notebook/golf-clash-notebook.github.io/blob/dev/modules/site/src/main/resources/microsite/img/golfclash/courses/MapleBay/1-thumb.png?raw=true
+[MapleBay-2]: https://github.com/golf-clash-notebook/golf-clash-notebook.github.io/blob/dev/modules/site/src/main/resources/microsite/img/golfclash/courses/MapleBay/2-thumb.png?raw=true
+[MapleBay-3]: https://github.com/golf-clash-notebook/golf-clash-notebook.github.io/blob/dev/modules/site/src/main/resources/microsite/img/golfclash/courses/MapleBay/3-thumb.png?raw=true
+[MapleBay-4]: https://github.com/golf-clash-notebook/golf-clash-notebook.github.io/blob/dev/modules/site/src/main/resources/microsite/img/golfclash/courses/MapleBay/4-thumb.png?raw=true
+[MapleBay-5]: https://github.com/golf-clash-notebook/golf-clash-notebook.github.io/blob/dev/modules/site/src/main/resources/microsite/img/golfclash/courses/MapleBay/5-thumb.png?raw=true
+[MapleBay-6]: https://github.com/golf-clash-notebook/golf-clash-notebook.github.io/blob/dev/modules/site/src/main/resources/microsite/img/golfclash/courses/MapleBay/6-thumb.png?raw=true
+[MapleBay-7]: https://github.com/golf-clash-notebook/golf-clash-notebook.github.io/blob/dev/modules/site/src/main/resources/microsite/img/golfclash/courses/MapleBay/7-thumb.png?raw=true
+[MapleBay-8]: https://github.com/golf-clash-notebook/golf-clash-notebook.github.io/blob/dev/modules/site/src/main/resources/microsite/img/golfclash/courses/MapleBay/8-thumb.png?raw=true
+[MapleBay-9]: https://github.com/golf-clash-notebook/golf-clash-notebook.github.io/blob/dev/modules/site/src/main/resources/microsite/img/golfclash/courses/MapleBay/9-thumb.png?raw=true
+
+<!--- ############################################################################################################## -->
+
 [MeadowCastle-1]: https://github.com/golf-clash-notebook/golf-clash-notebook.github.io/blob/dev/modules/site/src/main/resources/microsite/img/golfclash/courses/MeadowCastle/1-thumb.png?raw=true
 [MeadowCastle-2]: https://github.com/golf-clash-notebook/golf-clash-notebook.github.io/blob/dev/modules/site/src/main/resources/microsite/img/golfclash/courses/MeadowCastle/2-thumb.png?raw=true
 [MeadowCastle-3]: https://github.com/golf-clash-notebook/golf-clash-notebook.github.io/blob/dev/modules/site/src/main/resources/microsite/img/golfclash/courses/MeadowCastle/3-thumb.png?raw=true
@@ -311,6 +383,18 @@ This table addresses [#136](https://github.com/golf-clash-notebook/golf-clash-no
 [NamhaeCliffs-7]: https://github.com/golf-clash-notebook/golf-clash-notebook.github.io/blob/dev/modules/site/src/main/resources/microsite/img/golfclash/courses/NamhaeCliffs/7-thumb.png?raw=true
 [NamhaeCliffs-8]: https://github.com/golf-clash-notebook/golf-clash-notebook.github.io/blob/dev/modules/site/src/main/resources/microsite/img/golfclash/courses/NamhaeCliffs/8-thumb.png?raw=true
 [NamhaeCliffs-9]: https://github.com/golf-clash-notebook/golf-clash-notebook.github.io/blob/dev/modules/site/src/main/resources/microsite/img/golfclash/courses/NamhaeCliffs/9-thumb.png?raw=true
+
+<!--- ############################################################################################################## -->
+
+[NordicFjords-1]: https://github.com/golf-clash-notebook/golf-clash-notebook.github.io/blob/dev/modules/site/src/main/resources/microsite/img/golfclash/courses/NordicFjords/1-thumb.png?raw=true
+[NordicFjords-2]: https://github.com/golf-clash-notebook/golf-clash-notebook.github.io/blob/dev/modules/site/src/main/resources/microsite/img/golfclash/courses/NordicFjords/2-thumb.png?raw=true
+[NordicFjords-3]: https://github.com/golf-clash-notebook/golf-clash-notebook.github.io/blob/dev/modules/site/src/main/resources/microsite/img/golfclash/courses/NordicFjords/3-thumb.png?raw=true
+[NordicFjords-4]: https://github.com/golf-clash-notebook/golf-clash-notebook.github.io/blob/dev/modules/site/src/main/resources/microsite/img/golfclash/courses/NordicFjords/4-thumb.png?raw=true
+[NordicFjords-5]: https://github.com/golf-clash-notebook/golf-clash-notebook.github.io/blob/dev/modules/site/src/main/resources/microsite/img/golfclash/courses/NordicFjords/5-thumb.png?raw=true
+[NordicFjords-6]: https://github.com/golf-clash-notebook/golf-clash-notebook.github.io/blob/dev/modules/site/src/main/resources/microsite/img/golfclash/courses/NordicFjords/6-thumb.png?raw=true
+[NordicFjords-7]: https://github.com/golf-clash-notebook/golf-clash-notebook.github.io/blob/dev/modules/site/src/main/resources/microsite/img/golfclash/courses/NordicFjords/7-thumb.png?raw=true
+[NordicFjords-8]: https://github.com/golf-clash-notebook/golf-clash-notebook.github.io/blob/dev/modules/site/src/main/resources/microsite/img/golfclash/courses/NordicFjords/8-thumb.png?raw=true
+[NordicFjords-9]: https://github.com/golf-clash-notebook/golf-clash-notebook.github.io/blob/dev/modules/site/src/main/resources/microsite/img/golfclash/courses/NordicFjords/9-thumb.png?raw=true
 
 <!--- ############################################################################################################## -->
 

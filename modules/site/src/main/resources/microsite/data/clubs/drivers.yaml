@@ -35,10 +35,10 @@
   type: Rare
   description: >
     This is the driver that most people use until they can unlock and level up Thor's Hammer or
-    The Apocalypse. The distance this club has is unmatched except for those clubs. Of course, that
+    The Apocalypse. The distance of this club is unmatched except for those clubs. Of course, that
     extra distance comes at a price since the accuracy of The Extra Mile is pretty awful until you
     get it to level 7. Level 6 and 7 are significant upgrades and something to aim for to make the
-    Pro Series tours more managable. And if you have trouble hitting 'Perfect', consider using the
+    Pro Series tours more manageable. And if you have trouble hitting 'Perfect', consider using the
     Quarterback or Rock instead if you have them leveled up enough.
   power:     [220, 220, 224, 226, 226, 234, 234, 236]
   accuracy:  [  0,   7,   7,   7,  29,  29,  45,  45]
