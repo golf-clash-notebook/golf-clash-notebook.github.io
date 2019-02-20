@@ -11,6 +11,10 @@ resourceCreators:
       url: https://youtu.be/Vp3XKg10i3s
     - title: Pro Playthrough - Tournament Wind
       url: https://youtu.be/jHwOIlPRBbE
+    - title: Expert Playthrough - Tournament Wind
+      url: https://youtu.be/EAew9jQ-wc8
+    - title: Master Playthrough - Tournament Wind
+      url: https://youtu.be/dnSwRmqWPCI
     - title: Text Guide
       url: https://imgur.com/gallery/SBYvvIQ
   - name: Jesse Both
@@ -19,6 +23,12 @@ resourceCreators:
       url: https://youtu.be/XMd2aoUjvbk
     - title: Rookie Guide
       url: https://youtu.be/ypiewZRypOM
+    - title: Pro Playthrough
+      url: https://youtu.be/MliQGdD-G5w
+  - name: Photon's Corner
+    resources:
+    - title: Rookie Qualifier
+      url: https://youtu.be/_Ye398iMIt0
 holes:
   - number: 1
     id: 4497006f-c69a-4cfe-a9c4-3524b8d714dd
