@@ -609,3 +609,11 @@ page_gen:
     extra:
       title-prefix: 'Winter Major 2019 Tournament - Hole '
       tournamentName: 'Winter Major 2019'
+  - index_files: true
+    data: 'tournaments.CommunityCup.holes'
+    template: '_includes/tournaments/hole-template.liquid'
+    name: 'number'
+    dir: 'tournaments/CommunityCup'
+    extra:
+      title-prefix: 'Community Cup Tournament - Hole '
+      tournamentName: 'Community Cup'

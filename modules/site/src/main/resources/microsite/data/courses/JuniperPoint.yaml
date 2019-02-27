@@ -2,6 +2,7 @@ courseName: Juniper Point
 skinned: false
 holes:
   - id: f73bea1d-3683-48f8-92e8-12abddd88d16
+    current-tournament: true
     course: Juniper Point
     number: 1
     par: 4
@@ -179,6 +180,7 @@ holes:
               <circle cx="182" cy="266" r="6" fill="white" class="guide-point" data-guide-segment="1" />
               <circle cx="157" cy="112" r="6" fill="white" class="guide-point" data-guide-segment="2" />
   - id: 48316f6b-6037-4b43-8eff-7d4c345a0929
+    current-tournament: true
     course: Juniper Point
     number: 2
     par: 3
@@ -459,6 +461,7 @@ holes:
               <circle cx="230" cy="747" r="6" fill="black" class="guide-point" data-guide-segment="0" />
               <circle cx="240" cy="200" r="6" fill="black" class="guide-point" data-guide-segment="1" />
   - id: b31d9248-cdb3-4549-933a-9d596a7d81ee
+    current-tournament: true
     course: Juniper Point
     number: 3
     par: 5

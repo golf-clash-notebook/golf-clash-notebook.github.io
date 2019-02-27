@@ -2,7 +2,6 @@ courseName: Maple Bay
 skinned: false
 holes:
   - id: 4497006f-c69a-4cfe-a9c4-3524b8d714dd
-    current-tournament: true
     course: Maple Bay
     number: 1
     par: 4
@@ -225,7 +224,6 @@ holes:
         - title: Rookie Guide - Winter Major 2019
           url: https://youtu.be/HCf3eq1FhEU
   - id: 9fcb2bc9-7c5a-4f8f-b266-0c29ceb8f62b
-    current-tournament: true
     course: Maple Bay
     number: 2
     par: 5
@@ -409,7 +407,6 @@ holes:
         - title: Rookie Guide - Winter Major 2019
           url: https://youtu.be/E9clRPtUXPc
   - id: 1066ae31-3c4b-4a6b-ac26-ecc58322ad5e
-    current-tournament: true
     course: Maple Bay
     number: 3
     par: 3
@@ -541,7 +538,6 @@ holes:
         - title: Rookie Guide - Winter Major 2019
           url: https://youtu.be/dIrbXAVhMt0
   - id: 2a9ecf85-75c9-4ba4-a335-8103529c1ad3
-    current-tournament: true
     course: Maple Bay
     number: 4
     par: 4
@@ -732,7 +728,6 @@ holes:
         - title: Rookie Guide - Winter Major 2019
           url: https://youtu.be/Wo0eJ1Grj5g
   - id: 91452d5f-188b-4ec3-aa01-169fab2a1474
-    current-tournament: true
     course: Maple Bay
     number: 5
     par: 5
@@ -895,7 +890,6 @@ holes:
         - title: Rookie Guide - Winter Major 2019
           url: https://youtu.be/dzasXlwCAMw
   - id: 51ee6434-328c-4c20-a426-4590aea6b933
-    current-tournament: true
     course: Maple Bay
     number: 6
     par: 3
@@ -1040,7 +1034,6 @@ holes:
         - title: Rookie Guide - Winter Major 2019
           url: https://youtu.be/6Dk6uVMSj5I
   - id: 0ea2798b-b8c9-42e9-9322-fdc5c16853b8
-    current-tournament: true
     course: Maple Bay
     number: 7
     par: 4
@@ -1248,7 +1241,6 @@ holes:
         - title: Rookie Guide - Winter Major 2019
           url: https://youtu.be/pG7quYs7rBk
   - id: 2fc4b78d-d347-4708-86f3-c79eb1d5a331
-    current-tournament: true
     course: Maple Bay
     number: 8
     par: 3
@@ -1393,7 +1385,6 @@ holes:
         - title: Rookie Guide - Winter Major 2019
           url: https://youtu.be/QhFIvBlUNtw
   - id: 426860dc-c5e0-4f21-8803-d5d33264eba6
-    current-tournament: true
     course: Maple Bay
     number: 9
     par: 5
