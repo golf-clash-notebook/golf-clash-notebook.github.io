@@ -1,0 +1,22 @@
+tournamentName: CommunityCup
+date: '2019-03-04'
+resourceCreators:
+holes:
+  - number: 1
+    id: db93f490-8d7e-4bef-9313-e27ec0baf0a1
+  - number: 2
+    id: e967ec4e-43a8-4aa6-ad57-caf3cafffb4c
+  - number: 3
+    id: e17fa3e6-d1a1-4409-808e-6586d953c82b
+  - number: 4
+    id: 33424886-13ab-48b2-9813-5d9b336d02c5
+  - number: 5
+    id: 1b8f133e-bd1e-45e7-994c-c04eccfec9fe
+  - number: 6
+    id: 48316f6b-6037-4b43-8eff-7d4c345a0929
+  - number: 7
+    id: a2d21b3a-fd52-4655-aba6-f66efad7064c
+  - number: 8
+    id: f73bea1d-3683-48f8-92e8-12abddd88d16
+  - number: 9
+    id: b31d9248-cdb3-4549-933a-9d596a7d81ee
