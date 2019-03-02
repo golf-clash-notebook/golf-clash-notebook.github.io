@@ -11,6 +11,10 @@ holes:
       Help Wanted
     clubRecommendations:
     resourceCreators:
+      - name: Golf Clash Tommy
+        resources:
+        - title: Community Cup - Rookie Guide
+          url: https://youtu.be/VRXdfq6gp8c
     overlays:
   - id: db93f490-8d7e-4bef-9313-e27ec0baf0a1
     current-tournament: true
@@ -22,6 +26,10 @@ holes:
       Help Wanted
     clubRecommendations:
     resourceCreators:
+      - name: Golf Clash Tommy
+        resources:
+        - title: Community Cup - Rookie Guide
+          url: https://youtu.be/AABae_xq73I
     overlays:
   - id: a2d21b3a-fd52-4655-aba6-f66efad7064c
     current-tournament: true
@@ -33,6 +41,10 @@ holes:
       Help Wanted
     clubRecommendations:
     resourceCreators:
+      - name: Golf Clash Tommy
+        resources:
+        - title: Community Cup - Rookie Guide
+          url: https://youtu.be/D3tUyY5Ak2M
     overlays:
   - id: d8eaa677-44c4-459c-a1f7-c6347521a276
     course: Meadow Castle

@@ -1,6 +1,14 @@
 tournamentName: CommunityCup
 date: '2019-03-04'
 resourceCreators:
+  - name: Golf Clash Tommy
+    resources:
+    - title: Rookie Playthrough
+      url: https://youtu.be/OoTRhs5KbxY
+  - name: Jesse Both
+    resources:
+    - title: Rookie Guide
+      url: https://youtu.be/jahhr5djzss
 holes:
   - number: 1
     id: db93f490-8d7e-4bef-9313-e27ec0baf0a1

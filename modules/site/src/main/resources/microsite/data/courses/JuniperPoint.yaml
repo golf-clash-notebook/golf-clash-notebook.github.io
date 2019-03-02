@@ -24,6 +24,8 @@ holes:
     resourceCreators:
       - name: Golf Clash Tommy
         resources:
+        - title: Community Cup - Rookie Guide
+          url: https://youtu.be/cuYx0eRca18
         - title: Rookie Guide
           url: https://youtu.be/566-b0bG3mo
         - title: Pro / Expert Guide
@@ -201,6 +203,8 @@ holes:
     resourceCreators:
       - name: Golf Clash Tommy
         resources:
+        - title: Community Cup - Rookie Guide
+          url: https://youtu.be/wRs2hM01RtA
         - title: Pro & Expert Guide - Gridiron
           url: https://youtu.be/Mfhp0Wuen9k
         - title: Rookie Guide - Gridiron
@@ -483,6 +487,8 @@ holes:
     resourceCreators:
       - name: Golf Clash Tommy
         resources:
+        - title: Community Cup - Rookie Guide
+          url: https://youtu.be/pltzw573Lf4
         - title: Rookie Guide
           url: https://youtu.be/qqPx7fbaU7o
         - title: Pro / Expert Guide
