@@ -25,6 +25,8 @@ holes:
     resourceCreators:
       - name: Golf Clash Tommy
         resources:
+        - title: Community Cup - Rookie Guide
+          url: https://youtu.be/l3PjqGdyFTI
         - title: Tour 10 Guide
           url: https://youtu.be/E5qx6D3J0VE
         - title: Rookie Guide
@@ -222,6 +224,8 @@ holes:
     resourceCreators:
       - name: Golf Clash Tommy
         resources:
+        - title: Community Cup - Rookie Guide
+          url: https://youtu.be/DVL_0lUlaVc
         - title: Rookie Guide
           url: https://youtu.be/uzjjih08CU4
         - title: Pro / Expert Guide
@@ -346,6 +350,8 @@ holes:
     resourceCreators:
       - name: Golf Clash Tommy
         resources:
+        - title: Community Cup - Rookie Guide
+          url: https://youtu.be/I1I6rDpbH2k
         - title: Tour 10 Guide
           url: https://youtu.be/NKvsYHDOCz8
         - title: Pro / Expert Guide
