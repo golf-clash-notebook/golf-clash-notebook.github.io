@@ -9,6 +9,8 @@ resourceCreators:
     resources:
     - title: Rookie Guide
       url: https://youtu.be/jahhr5djzss
+    - title: Pro & Expert Guide
+      url: https://youtu.be/DNpg1PoZx_Q
 holes:
   - number: 1
     id: db93f490-8d7e-4bef-9313-e27ec0baf0a1
