@@ -39,6 +39,90 @@ holes:
           url: https://i.imgur.com/vbCJGq9.png
       - name: Zachary Jones
         resources:
+        - title: Community Cup - Rookie
+          url: https://youtu.be/cz1qiprqCIU
+          metadata:
+            tournament: Community Cup
+            level: Rookie
+            ball: Marlin
+            teePosition: 1
+            clubs:
+              - name: Viper
+                level: 8
+            wind:
+              direction: NNE
+              magnitude: 3.1
+            keywords:
+        - title: Community Cup - Pro
+          url: https://youtu.be/xC6U9Dbh6Fs
+          metadata:
+            tournament: Community Cup
+            level: Pro
+            ball: Navigator
+            teePosition: 2
+            clubs:
+              - name: Sniper
+                level: 8
+            wind:
+              direction: NW
+              magnitude: 5.2
+            keywords:
+        - title: Community Cup - Expert
+          url: https://youtu.be/dw41V_aQXms
+          metadata:
+            tournament: Community Cup
+            level: Expert
+            ball: King Maker
+            teePosition: 2
+            clubs:
+              - name: Sniper
+                level: 9
+            wind:
+              direction: WNW
+              magnitude: 7.9
+            keywords:
+        - title: Community Cup - Expert
+          url: https://youtu.be/Z2BMkPz_XU0
+          metadata:
+            tournament: Community Cup
+            level: Expert
+            ball: Titan
+            teePosition: 2
+            clubs:
+              - name: Sniper
+                level: 10
+            wind:
+              direction: WNW
+              magnitude: 7.3
+            keywords:
+        - title: Community Cup - Master
+          url: https://youtu.be/tCnNNYEnnQo
+          metadata:
+            tournament: Community Cup
+            level: Master
+            ball: King Maker
+            teePosition: 3
+            clubs:
+              - name: Rock
+                level: 8
+            wind:
+              direction: SSW
+              magnitude: 10.9
+            keywords:
+        - title: Community Cup - Master
+          url: https://youtu.be/1uKgmJf23t0
+          metadata:
+            tournament: Community Cup
+            level: Master
+            ball: King Maker
+            teePosition: 3
+            clubs:
+              - name: Rock
+                level: 8
+            wind:
+              direction: SSW
+              magnitude: 10.6
+            keywords:
         - title: General Instruction - 2nd Tee
           url: https://youtu.be/garradfajBA
           metadata:
@@ -234,6 +318,112 @@ holes:
           url: https://i.imgur.com/UiDVN1z.jpg
       - name: Zachary Jones
         resources:
+        - title: Community Cup - Rookie
+          url: https://youtu.be/v85DW48TZZM
+          metadata:
+            tournament: Community Cup
+            level: Rookie
+            ball: Titan
+            teePosition: 1
+            clubs:
+              - name: Extra Mile
+                level: 6
+            wind:
+              direction: NNW
+              magnitude: 3.1
+            keywords:
+        - title: Community Cup - Pro
+          url: https://youtu.be/RutrOgzWz9U
+          metadata:
+            tournament: Community Cup
+            level: Pro
+            ball: Berserker
+            teePosition: 2
+            clubs:
+              - name: Thor's Hammer
+                level: 4
+            wind:
+              direction: NE
+              magnitude: 6.5
+            keywords:
+        - title: Community Cup - Pro
+          url: https://youtu.be/M-tWVy0LjsY
+          metadata:
+            tournament: Community Cup
+            level: Pro
+            ball: Titan
+            teePosition: 2
+            clubs:
+              - name: Extra Mile
+                level: 6
+            wind:
+              direction: NE
+              magnitude: 5.7
+            keywords:
+        - title: Community Cup - Expert
+          url: https://youtu.be/1B9nGn2lLOg
+          metadata:
+            tournament: Community Cup
+            level: Expert
+            ball: King Maker
+            teePosition: 2
+            clubs:
+              - name: Apocalypse
+                level: 4
+              - name: EndBringer
+                level: 4
+            wind:
+              direction: ENE
+              magnitude: 7.2
+            keywords:
+        - title: Community Cup - Expert
+          url: https://youtu.be/uDckBPyEAE8
+          metadata:
+            tournament: Community Cup
+            level: Expert
+            ball: Berserker
+            teePosition: 2
+            clubs:
+              - name: Apocalypse
+                level: 6
+              - name: Rapier
+                level: 7
+            wind:
+              direction: ENE
+              magnitude: 9.4
+            keywords:
+        - title: Community Cup - Master
+          url: https://youtu.be/XaVHaXN37P8
+          metadata:
+            tournament: Community Cup
+            level: Master
+            ball: King Maker
+            teePosition: 3
+            clubs:
+              - name: Apocalypse
+                level: 7
+              - name: Thorn
+                level: 8
+            wind:
+              direction: S
+              magnitude: 12.3
+            keywords:
+        - title: Community Cup - Master
+          url: https://youtu.be/YSGw7fgRC3c
+          metadata:
+            tournament: Community Cup
+            level: Master
+            ball: Bandera
+            teePosition: 3
+            clubs:
+              - name: Apocalypse
+                level: 5
+              - name: Sniper
+                level: 10
+            wind:
+              direction: S
+              magnitude: 8.5
+            keywords:
         - title: Tour 10 - Strategy and Tips
           url: https://youtu.be/lSsyIJA5kUU
           metadata:
@@ -364,6 +554,100 @@ holes:
           url: https://i.imgur.com/E2SFC2H.png
       - name: Zachary Jones
         resources:
+        - title: Community Cup - Rookie
+          url: https://youtu.be/VF04JdpIU8E
+          metadata:
+            tournament: Community Cup
+            level: Rookie
+            ball: Titan
+            teePosition: 1
+            clubs:
+              - name: Extra Mile
+                level: 6
+              - name: Thorn
+                level: 5
+            wind:
+              direction: N
+              magnitude: 4.5
+            keywords:
+        - title: Community Cup - Pro
+          url: https://youtu.be/EKCVmDKDLFI
+          metadata:
+            tournament: Community Cup
+            level: Pro
+            ball: Berserker
+            teePosition: 2
+            clubs:
+              - name: Big Topper
+                level: 3
+              - name: EndBringer
+                level: 4
+            wind:
+              direction: NNE
+              magnitude: 8.5
+            keywords:
+        - title: Community Cup - Expert
+          url: https://youtu.be/HNPGMwQLN_Y
+          metadata:
+            tournament: Community Cup
+            level: Expert
+            ball: Berserker
+            teePosition: 2
+            clubs:
+              - name: Big Topper
+                level: 4
+              - name: EndBringer
+                level: 4
+            wind:
+              direction: NE
+              magnitude: 10.7
+            keywords:
+        - title: Community Cup - Expert
+          url: https://youtu.be/n4oREdUCpA8
+          metadata:
+            tournament: Community Cup
+            level: Expert
+            ball: Berserker
+            teePosition: 2
+            clubs:
+              - name: Thor's Hammer
+                level: 6
+            wind:
+              direction: NE
+              magnitude: 10.4
+            keywords:
+        - title: Community Cup - Master
+          url: https://youtu.be/kR6E8td5lOA
+          metadata:
+            tournament: Community Cup
+            level: Master
+            ball: King Maker
+            teePosition: 3
+            clubs:
+              - name: Apocalypse
+                level: 7
+              - name: Sniper
+                level: 10
+            wind:
+              direction: E
+              magnitude: 10.8
+            keywords:
+        - title: Community Cup - Master
+          url: https://youtu.be/QvaRwQgPiiU
+          metadata:
+            tournament: Community Cup
+            level: Master
+            ball: Dead
+            teePosition: 3
+            clubs:
+              - name: Apocalypse
+                level: 5
+              - name: Sniper
+                level: 10
+            wind:
+              direction: E
+              magnitude: 12.3
+            keywords:
         - title: Tour 10 - Tips for Going for the Island Hop
           url: https://youtu.be/He-F7juS68E
           metadata:
