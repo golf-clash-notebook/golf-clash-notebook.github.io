@@ -1,10 +1,10 @@
 name: Popcorn
 windResistance: 4
-sideSpin: 1
-power: 3
+sideSpin: 3
+power: 1
 cost: n/a
 description: >
-  This is a very solid headwind or tournament Par 3 ball. It's an exact copy of the Mummy ball.
+  This is a very solid headwind or tournament Par 3 ball. It's an exact copy of the Voyager ball.
   Only weakness is the OP needle speed but for a Par 3 that won't matter much. It also won't matter
   much because you're known around these parts as 'Great Ball McOops'.
 needleSpeed: 0.750
