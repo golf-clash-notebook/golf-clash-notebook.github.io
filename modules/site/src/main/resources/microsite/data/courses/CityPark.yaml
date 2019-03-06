@@ -16,11 +16,11 @@ holes:
             - type: Long Iron
               weights:
                 power: 10
-                accuracy: 30
+                accuracy: 25
                 topspin: 0
-                backspin: 25
-                curl: 5
-                ballguide: 30
+                backspin: 40
+                curl: 0
+                ballguide: 25
               requirements:
                 backspin: 60
               utilized:
@@ -287,6 +287,7 @@ holes:
                 curl: 20
                 ballguide: 15
               requirements:
+                power: 220
                 topspin: 25
             - type: Wood
               weights:
@@ -852,7 +853,7 @@ holes:
                 backspin: 15
                 curl: 5
                 ballguide: 35
-              filters:
+              requirements:
                 backspin: 20
     resourceCreators:
       - name: Golf Clash Tommy
@@ -2162,11 +2163,11 @@ holes:
           clubs:
             - type: Long Iron
               weights:
-                power: 20
+                power: 10
                 accuracy: 20
                 topspin: 0
-                backspin: 25
-                curl: 5
+                backspin: 40
+                curl: 0
                 ballguide: 30
               requirements:
                 backspin: 60
@@ -2206,7 +2207,7 @@ holes:
                 backspin: 30
                 curl: 10
                 ballguide: 10
-              filters:
+              requirements:
                 backspin: 95
             - type: Wood
               weights:
@@ -2216,7 +2217,7 @@ holes:
                 backspin: 15
                 curl: 5
                 ballguide: 30
-              filters:
+              requirements:
                 backspin: 60
     resourceCreators:
       - name: Golf Clash Tommy
