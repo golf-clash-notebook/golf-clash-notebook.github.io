@@ -632,6 +632,16 @@ holes:
       tee:
         - name: Front
           clubs:
+            - type: Driver
+              weights:
+                power: 15
+                accuracy: 35
+                topspin: 10
+                backspin: 5
+                curl: 0
+                ballguide: 35
+              requirements:
+                topspin: 20
             - type: Long Iron
               weights:
                 power: 20
@@ -659,6 +669,16 @@ holes:
                 backspin: 20
         - name: Middle
           clubs:
+            - type: Driver
+              weights:
+                power: 20
+                accuracy: 25
+                topspin: 15
+                backspin: 0
+                curl: 0
+                ballguide: 40
+              requirements:
+                topspin: 30
             - type: Long Iron
               weights:
                 power: 20
@@ -1646,21 +1666,25 @@ holes:
                 power: 25
                 accuracy: 20
                 topspin: 0
-                backspin: 30
+                backspin: 35
                 curl: 0
-                ballguide: 25
+                ballguide: 20
               requirements:
                 backspin: 80
+              utilized:
+                backspin: 100
             - type: Long Iron
               weights:
-                power: 20
+                power: 25
                 accuracy: 20
                 topspin: 0
                 backspin: 35
                 curl: 0
-                ballguide: 25
+                ballguide: 20
               requirements:
                 backspin: 90
+              utilized:
+                backspin: 100
         - name: Middle
           clubs:
             - type: Driver
@@ -2062,13 +2086,14 @@ holes:
           clubs:
             - type: Driver
               weights:
-                power: 20
+                power: 25
                 accuracy: 20
                 topspin: 15
                 backspin: 0
-                curl: 20
+                curl: 15
                 ballguide: 25
               requirements:
+                power: 220
                 topspin: 30
             - type: Wood
               weights:
@@ -2438,21 +2463,21 @@ holes:
           clubs:
             - type: Driver
               weights:
-                power: 20
-                accuracy: 30
+                power: 30
+                accuracy: 25
                 topspin: 15
                 backspin: 0
                 curl: 15
-                ballguide: 20
+                ballguide: 15
               requirements:
                 topspin: 30
             - type: Wood
               weights:
-                power: 25
+                power: 30
                 accuracy: 25
                 topspin: 30
                 backspin: 0
-                curl: 5
+                curl: 0
                 ballguide: 15
               requirements:
                 topspin: 50
@@ -2472,23 +2497,23 @@ holes:
           clubs:
             - type: Driver
               weights:
-                power: 25
-                accuracy: 30
-                topspin: 15
+                power: 30
+                accuracy: 25
+                topspin: 20
                 backspin: 0
                 curl: 15
-                ballguide: 15
+                ballguide: 10
               requirements:
-                topspin: 30
+                topspin: 40
               utilized:
                 topspin: 100
             - type: Wood
               weights:
-                power: 25
+                power: 30
                 accuracy: 25
                 topspin: 30
                 backspin: 0
-                curl: 5
+                curl: 0
                 ballguide: 15
               requirements:
                 topspin: 50
@@ -2508,12 +2533,12 @@ holes:
           clubs:
             - type: Driver
               weights:
-                power: 25
+                power: 30
                 accuracy: 25
-                topspin: 20
+                topspin: 25
                 backspin: 0
-                curl: 15
-                ballguide: 15
+                curl: 10
+                ballguide: 10
               requirements:
                 power: 230
                 topspin: 50
@@ -2521,11 +2546,11 @@ holes:
                 topspin: 100
             - type: Wood
               weights:
-                power: 25
+                power: 30
                 accuracy: 25
                 topspin: 30
                 backspin: 0
-                curl: 5
+                curl: 0
                 ballguide: 15
               requirements:
                 topspin: 50

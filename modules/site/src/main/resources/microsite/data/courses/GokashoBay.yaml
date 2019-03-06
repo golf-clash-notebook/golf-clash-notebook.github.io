@@ -54,7 +54,7 @@ holes:
                 curl: 20
                 ballguide: 10
               requirements:
-                power: 220
+                power: 223
                 topspin: 30
             - type: Wood
               requirements:
@@ -800,7 +800,7 @@ holes:
                 ballguide: 20
               requirements:
                 power: 225
-                topspin: 55
+                topspin: 65
               utilized:
                 topspin: 100
             - type: Wood
@@ -955,7 +955,6 @@ holes:
                 ballguide: 25
               requirements:
                 backspin: 80
-
         - name: Middle
           clubs:
             - type: Long Iron
@@ -1206,8 +1205,8 @@ holes:
                 curl: 20
                 ballguide: 15
               requirements:
-                power: 220
-                topspin: 45
+                power: 225
+                topspin: 55
             - type: Wood
               requirements:
                 backspin: 40
@@ -1673,15 +1672,15 @@ holes:
           clubs:
             - type: Driver
               weights:
-                power: 30
+                power: 35
                 accuracy: 35
                 topspin: 25
                 backspin: 0
                 curl: 0
-                ballguide: 10
+                ballguide: 5
               requirements:
-                power: 220
-                topspin: 45
+                power: 225
+                topspin: 55
             - type: Short Iron
               requirements:
                 backspin: 20
@@ -1689,15 +1688,15 @@ holes:
           clubs:
             - type: Driver
               weights:
-                power: 25
-                accuracy: 30
-                topspin: 15
-                backspin: 5
+                power: 30
+                accuracy: 25
+                topspin: 20
+                backspin: 0
                 curl: 0
                 ballguide: 25
               requirements:
                 power: 230
-                topspin: 30
+                topspin: 60
             - type: Wood
               weights:
                 power: 25
