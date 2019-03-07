@@ -20,6 +20,22 @@
       > .list-group-item:nth-child(n+2) {
         padding-top: 2px;
       }
+
+      > .news-announcement {
+        background-color: #f33;
+        border: none;
+        padding: 6px 15px !important;
+
+        > button {
+
+          color: #fff;
+
+          &:hover {
+            background-color: transparent !important;
+            color: #fff;
+          }
+        }
+      }
     }
   }
 
