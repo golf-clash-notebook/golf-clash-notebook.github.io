@@ -153,3 +153,5 @@ position: 0
   </div>
 
 </div>
+
+{% include news/app-announcement-modal.liquid %}
