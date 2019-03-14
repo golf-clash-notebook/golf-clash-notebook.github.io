@@ -1409,11 +1409,14 @@ holes:
                 power: 15
                 accuracy: 35
                 topspin: 0
-                backspin: 25
+                backspin: 20
                 curl: 0
-                ballguide: 25
+                ballguide: 30
               requirements:
-                backspin: 75
+                topspin: 20
+                backspin: 20
+              utilized:
+                backspin: 100
         - name: Middle
           clubs:
             - type: Wood

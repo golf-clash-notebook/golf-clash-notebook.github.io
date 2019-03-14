@@ -1,0 +1,26 @@
+tournamentName: Vintage Open
+date: '2019-03-18'
+resourceCreators:
+  - name: Golf Clash Tommy
+    resources:
+    - title: Rookie Playthrough
+      url: https://youtu.be/nys2xeSjKms
+holes:
+  - number: 1
+    id: 16adf86e-de5c-40c4-b78d-dc0a947f044b
+  - number: 2
+    id: f97340e9-7d74-41c8-bd92-64785b42eb0f
+  - number: 3
+    id: 49e3d49a-1647-4347-8f75-3e7fbb32d80c
+  - number: 4
+    id: acb911f4-c603-4715-b11c-f848ee34bbaf
+  - number: 5
+    id: 7326d6ba-9310-4eaa-94c8-775412515e23
+  - number: 6
+    id: 4c95334d-0695-4d41-9390-ce3b1dc8845f
+  - number: 7
+    id: c2bbf390-d162-4a06-9d9b-5d0e7f5b64ef
+  - number: 8
+    id: 944bdfca-0abc-41a5-ac97-7e38291f7893
+  - number: 9
+    id: 726b08c9-a742-45bb-8050-62c552395bbd

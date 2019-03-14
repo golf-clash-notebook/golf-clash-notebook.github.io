@@ -617,3 +617,11 @@ page_gen:
     extra:
       title-prefix: 'Community Cup Tournament - Hole '
       tournamentName: 'Community Cup'
+  - index_files: true
+    data: 'tournaments.VintageOpen.holes'
+    template: '_includes/tournaments/hole-template.liquid'
+    name: 'number'
+    dir: 'tournaments/VintageOpen'
+    extra:
+      title-prefix: 'Vintage Open Tournament - Hole '
+      tournamentName: 'Vintage Open'
