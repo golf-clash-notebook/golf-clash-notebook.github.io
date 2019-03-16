@@ -9,6 +9,48 @@ holes:
     description: >
       Help Wanted
     clubRecommendations:
+    clubSuggestions:
+      tee:
+        - name: Front
+          clubs:
+            - type: Driver
+              weights:
+                power: 20
+                accuracy: 20
+                topspin: 25
+                backspin: 0
+                curl: 20
+                ballguide: 15
+              requirements:
+                topspin: 45
+        - name: Middle
+          clubs:
+            - type: Driver
+              weights:
+                power: 25
+                accuracy: 20
+                topspin: 25
+                backspin: 0
+                curl: 20
+                ballguide: 10
+              requirements:
+                topspin: 55
+              utilized:
+                topspin: 100
+        - name: Rear
+          clubs:
+            - type: Driver
+              weights:
+                power: 30
+                accuracy: 20
+                topspin: 30
+                backspin: 0
+                curl: 15
+                ballguide: 5
+              requirements:
+                topspin: 65
+              utilized:
+                topspin: 100
     resourceCreators:
       - name: Golf Clash Tommy
         resources:
@@ -139,6 +181,56 @@ holes:
     description: >
       Help Wanted
     clubRecommendations:
+    clubSuggestions:
+      tee:
+        - name: Front
+          clubs:
+            - type: Wood
+              weights:
+                power: 15
+                accuracy: 35
+                topspin: 5
+                backspin: 5
+                curl: 0
+                ballguide: 40
+              requirements:
+                topspin: 20
+                backspin: 20
+        - name: Middle
+          clubs:
+            - type: Wood
+              weights:
+                power: 15
+                accuracy: 35
+                topspin: 5
+                backspin: 5
+                curl: 0
+                ballguide: 40
+              requirements:
+                topspin: 25
+                backspin: 25
+        - name: Rear
+          clubs:
+            - type: Driver
+              weights:
+                power: 0
+                accuracy: 35
+                topspin: 0
+                backspin: 30
+                curl: 0
+                ballguide: 35
+              requirements:
+                backspin: 45
+            - type: Wood
+              weights:
+                power: 25
+                accuracy: 30
+                topspin: 10
+                backspin: 5
+                curl: 0
+                ballguide: 30
+              requirements:
+                topspin: 40
     resourceCreators:
       - name: Golf Clash Tommy
         resources:
@@ -251,6 +343,88 @@ holes:
     description: >
       Help Wanted
     clubRecommendations:
+    clubSuggestions:
+      tee:
+        - name: Front
+          clubs:
+            - type: Driver
+              weights:
+                power: 15
+                accuracy: 30
+                topspin: 25
+                backspin: 0
+                curl: 15
+                ballguide: 15
+              requirements:
+                topspin: 35
+              utilized:
+                topspin: 100
+            - type: Wood
+              weights:
+                power: 10
+                accuracy: 30
+                topspin: 20
+                backspin: 0
+                curl: 15
+                ballguide: 25
+              requirements:
+                topspin: 35
+              utilized:
+                topspin: 100
+        - name: Middle
+          clubs:
+            - type: Driver
+              weights:
+                power: 20
+                accuracy: 30
+                topspin: 25
+                backspin: 0
+                curl: 15
+                ballguide: 10
+              requirements:
+                power: 220
+                topspin: 45
+              utilized:
+                topspin: 100
+            - type: Wood
+              weights:
+                power: 15
+                accuracy: 25
+                topspin: 25
+                backspin: 0
+                curl: 15
+                ballguide: 20
+              requirements:
+                topspin: 50
+              utilized:
+                topspin: 100
+        - name: Rear
+          clubs:
+            - type: Driver
+              weights:
+                power: 25
+                accuracy: 30
+                topspin: 30
+                backspin: 0
+                curl: 10
+                ballguide: 5
+              requirements:
+                power: 230
+                topspin: 60
+              utilized:
+                topspin: 100
+            - type: Wood
+              weights:
+                power: 20
+                accuracy: 20
+                topspin: 25
+                backspin: 0
+                curl: 15
+                ballguide: 20
+              requirements:
+                topspin: 60
+              utilized:
+                topspin: 100
     resourceCreators:
       - name: Golf Clash Tommy
         resources:
@@ -377,6 +551,66 @@ holes:
     description: >
       Help Wanted
     clubRecommendations:
+    clubSuggestions:
+      tee:
+        - name: Front
+          clubs:
+            - type: Wood
+              weights:
+                power: 5
+                accuracy: 30
+                topspin: 0
+                backspin: 25
+                curl: 10
+                ballguide: 30
+              requirements:
+                backspin: 60
+            - type: Long Iron
+              weights:
+                power: 25
+                accuracy: 30
+                topspin: 0
+                backspin: 5
+                curl: 10
+                ballguide: 30
+              requirements:
+                backspin: 25
+        - name: Middle
+          clubs:
+            - type: Wood
+              weights:
+                power: 15
+                accuracy: 30
+                topspin: 0
+                backspin: 20
+                curl: 10
+                ballguide: 25
+              requirements:
+                backspin: 45
+        - name: Rear
+          clubs:
+            - type: Driver
+              weights:
+                power: 5
+                accuracy: 35
+                topspin: 0
+                backspin: 30
+                curl: 5
+                ballguide: 25
+              requirements:
+                backspin: 70
+              utilized:
+                backspin: 100
+            - type: Wood
+              weights:
+                power: 25
+                accuracy: 25
+                topspin: 0
+                backspin: 20
+                curl: 5
+                ballguide: 25
+              requirements:
+                backspin: 60
     resourceCreators:
       - name: Golf Clash Tommy
         resources:
@@ -594,6 +828,80 @@ holes:
     description: >
       Help Wanted
     clubRecommendations:
+    clubSuggestions:
+      tee:
+        - name: Front
+          clubs:
+            - type: Driver
+              weights:
+                power: 20
+                accuracy: 25
+                topspin: 15
+                backspin: 5
+                curl: 10
+                ballguide: 25
+              requirements:
+                topspin: 35
+            - type: Wood
+              weights:
+                power: 25
+                accuracy: 25
+                topspin: 20
+                backspin: 0
+                curl: 10
+                ballguide: 20
+              requirements:
+                topspin: 35
+        - name: Middle
+          clubs:
+            - type: Driver
+              weights:
+                power: 25
+                accuracy: 25
+                topspin: 20
+                backspin: 0
+                curl: 10
+                ballguide: 20
+              requirements:
+                power: 220
+                topspin: 50
+              utilized:
+                topspin: 100
+            - type: Wood
+              weights:
+                power: 25
+                accuracy: 25
+                topspin: 20
+                backspin: 0
+                curl: 10
+                ballguide: 20
+              requirements:
+                topspin: 35
+        - name: Rear
+          clubs:
+            - type: Driver
+              weights:
+                power: 30
+                accuracy: 25
+                topspin: 25
+                backspin: 0
+                curl: 10
+                ballguide: 10
+              requirements:
+                power: 230
+                topspin: 60
+              utilized:
+                topspin: 100
+            - type: Wood
+              weights:
+                power: 25
+                accuracy: 25
+                topspin: 20
+                backspin: 0
+                curl: 10
+                ballguide: 20
+              requirements:
+                topspin: 35
     resourceCreators:
       - name: Golf Clash Tommy
         resources:
@@ -832,6 +1140,52 @@ holes:
     description: >
       Help Wanted
     clubRecommendations:
+    clubSuggestions:
+      tee:
+        - name: Front
+          clubs:
+            - type: Driver
+              weights:
+                power: 20
+                accuracy: 30
+                topspin: 25
+                backspin: 0
+                curl: 15
+                ballguide: 10
+              requirements:
+                topspin: 45
+              utilized:
+                topspin: 100
+        - name: Middle
+          clubs:
+            - type: Driver
+              weights:
+                power: 25
+                accuracy: 25
+                topspin: 30
+                backspin: 0
+                curl: 15
+                ballguide: 5
+              requirements:
+                power: 220
+                topspin: 55
+              utilized:
+                topspin: 100
+        - name: Rear
+          clubs:
+            - type: Driver
+              weights:
+                power: 30
+                accuracy: 25
+                topspin: 30
+                backspin: 0
+                curl: 15
+                ballguide: 0
+              requirements:
+                power: 230
+                topspin: 65
+              utilized:
+                topspin: 100
     resourceCreators:
       - name: Golf Clash Tommy
         resources:
@@ -962,6 +1316,68 @@ holes:
     description: >
       Help Wanted
     clubRecommendations:
+    clubSuggestions:
+      tee:
+        - name: Front
+          clubs:
+            - type: Long Iron
+              weights:
+                power: 10
+                accuracy: 35
+                topspin: 5
+                backspin: 5
+                curl: 10
+                ballguide: 35
+              requirements:
+                topspin: 20
+                backspin: 25
+        - name: Middle
+          clubs:
+            - type: Wood
+              weights:
+                power: 15
+                accuracy: 30
+                topspin: 0
+                backspin: 15
+                curl: 10
+                ballguide: 30
+              requirements:
+                backspin: 50
+            - type: Long Iron
+              weights:
+                power: 25
+                accuracy: 30
+                topspin: 0
+                backspin: 5
+                curl: 10
+                ballguide: 30
+              requirements:
+                topspin: 20
+                backspin: 35
+        - name: Rear
+          clubs:
+            - type: Driver
+              weights:
+                power: 5
+                accuracy: 35
+                topspin: 0
+                backspin: 25
+                curl: 0
+                ballguide: 35
+              requirements:
+                backspin: 75
+              utilized:
+                backspin: 100
+            - type: Wood
+              weights:
+                power: 20
+                accuracy: 25
+                topspin: 0
+                backspin: 15
+                curl: 10
+                ballguide: 30
+              requirements:
+                backspin: 55
     resourceCreators:
       - name: Golf Clash Tommy
         resources:
@@ -1082,6 +1498,52 @@ holes:
     description: >
       Help Wanted
     clubRecommendations:
+    clubSuggestions:
+      tee:
+        - name: Front
+          clubs:
+            - type: Driver
+              weights:
+                power: 20
+                accuracy: 25
+                topspin: 25
+                backspin: 0
+                curl: 20
+                ballguide: 10
+              requirements:
+                topspin: 40
+              utilized:
+                topspin: 100
+        - name: Middle
+          clubs:
+            - type: Driver
+              weights:
+                power: 25
+                accuracy: 25
+                topspin: 25
+                backspin: 0
+                curl: 15
+                ballguide: 10
+              requirements:
+                power: 220
+                topspin: 55
+              utilized:
+                topspin: 100
+        - name: Rear
+          clubs:
+            - type: Driver
+              weights:
+                power: 25
+                accuracy: 25
+                topspin: 25
+                backspin: 0
+                curl: 15
+                ballguide: 10
+              requirements:
+                power: 226
+                topspin: 65
+              utilized:
+                topspin: 100
     resourceCreators:
       - name: Golf Clash Tommy
         resources:
@@ -1210,6 +1672,88 @@ holes:
     description: >
       Help Wanted
     clubRecommendations:
+    clubSuggestions:
+      tee:
+        - name: Front
+          clubs:
+            - type: Driver
+              weights:
+                power: 15
+                accuracy: 25
+                topspin: 30
+                backspin: 0
+                curl: 5
+                ballguide: 25
+              requirements:
+                topspin: 40
+              utilized:
+                topspin: 100
+            - type: Wood
+              weights:
+                power: 20
+                accuracy: 25
+                topspin: 25
+                backspin: 0
+                curl: 15
+                ballguide: 15
+              requirements:
+                topspin: 45
+              utilized:
+                topspin: 100
+        - name: Middle
+          clubs:
+            - type: Driver
+              weights:
+                power: 20
+                accuracy: 25
+                topspin: 30
+                backspin: 0
+                curl: 0
+                ballguide: 25
+              requirements:
+                power: 220
+                topspin: 55
+              utilized:
+                topspin: 100
+            - type: Wood
+              weights:
+                power: 20
+                accuracy: 25
+                topspin: 25
+                backspin: 0
+                curl: 15
+                ballguide: 15
+              requirements:
+                topspin: 55
+              utilized:
+                topspin: 100
+        - name: Rear
+          clubs:
+            - type: Driver
+              weights:
+                power: 25
+                accuracy: 25
+                topspin: 30
+                backspin: 0
+                curl: 0
+                ballguide: 20
+              requirements:
+                power: 230
+                topspin: 65
+              utilized:
+                topspin: 100
+            - type: Wood
+              weights:
+                power: 20
+                accuracy: 25
+                topspin: 25
+                backspin: 0
+                curl: 15
+                ballguide: 15
+              requirements:
+                topspin: 65
+              utilized:
+                topspin: 100
     resourceCreators:
       - name: Golf Clash Tommy
         resources:
