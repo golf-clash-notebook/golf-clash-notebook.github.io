@@ -2,6 +2,7 @@ courseName: Vineyard Acres
 skinned: false
 holes:
   - id: f97340e9-7d74-41c8-bd92-64785b42eb0f
+    current-tournament: true
     course: Vineyard Acres
     number: 1
     par: 3
@@ -102,6 +103,90 @@ holes:
           published: 1541685982000
           generalInstruction: true
           teePosition: 2
+      - title: Vintage Open - Rookie
+        url: https://youtu.be/_B-9xHczTPg
+        metadata:
+          tournament: Vintage Open
+          level: Rookie
+          ball: Marlin
+          teePosition: 1
+          clubs:
+            - name: Backbone
+              level: 9
+          wind:
+            direction: NW
+            magnitude: 3.3
+          keywords:
+      - title: Vintage Open - Pro
+        url: https://youtu.be/U91mjRjzoqQ
+        metadata:
+          tournament: Vintage Open
+          level: Pro
+          ball: Navigator
+          teePosition: 2
+          clubs:
+            - name: Sniper
+              level: 8
+          wind:
+            direction: NE
+            magnitude: 6.9
+          keywords:
+      - title: Vintage Open - Expert
+        url: https://youtu.be/YMGn_ORJm8o
+        metadata:
+          tournament: Vintage Open
+          level: Expert
+          ball: Kingmaker
+          teePosition: 2
+          clubs:
+            - name: Sniper
+              level: 10
+          wind:
+            direction: SW
+            magnitude: 8.0
+          keywords:
+      - title: Vintage Open - Expert
+        url: https://youtu.be/ws_5E6xN1Ds
+        metadata:
+          tournament: Vintage Open
+          level: Expert
+          ball: Bandera
+          teePosition: 2
+          clubs:
+            - name: Sniper
+              level: 10
+          wind:
+            direction: SW
+            magnitude: 6.2
+          keywords:
+      - title: Vintage Open - Master
+        url: https://youtu.be/syzw_l0vK24
+        metadata:
+          tournament: Vintage Open
+          level: Master
+          ball: Kingmaker
+          teePosition: 3
+          clubs:
+            - name: Sniper
+              level: 9
+          wind:
+            direction: N
+            magnitude: 10.5
+          keywords:
+      - title: Vintage Open - Master
+        url: https://youtu.be/Ul0XOvLIfdo
+        metadata:
+          tournament: Vintage Open
+          level: Master
+          ball: Bunny
+          teePosition: 3
+          clubs:
+            - name: Sniper
+              level: 10
+          wind:
+            direction: N
+            magnitude: 9.9
+          keywords:
       - title: Winter Slopes - Rookie
         url: https://youtu.be/YbqrnBq0G5M
         metadata:
@@ -345,6 +430,7 @@ holes:
       - 3f053109-7927-4eec-8c62-5cbbc4f37ff0
     overlays:
   - id: 4c95334d-0695-4d41-9390-ce3b1dc8845f
+    current-tournament: true
     course: Vineyard Acres
     number: 2
     par: 4
@@ -456,6 +542,102 @@ holes:
         url: https://i.imgur.com/DLvS3Sn.jpg
     - name: Zachary Jones
       resources:
+      - title: Vintage Open - Rookie
+        url: https://youtu.be/6WP1cPiHnT8
+        metadata:
+          tournament: Vintage Open
+          level: Rookie
+          ball: Titan
+          teePosition: 1
+          clubs:
+            - name: Quarterback
+              level: 7
+            - name: Viper
+              level: 8
+          wind:
+            direction: NE
+            magnitude: 4.6
+          keywords:
+      - title: Vintage Open - Pro
+        url: https://youtu.be/iWeP1yD5EXM
+        metadata:
+          tournament: Vintage Open
+          level: Pro
+          ball: Quasar
+          teePosition: 2
+          clubs:
+            - name: Quarterback
+              level: 8
+            - name: Sniper
+              level: 8
+          wind:
+            direction: NW
+            magnitude: 8.2
+          keywords:
+      - title: Vintage Open - Expert
+        url: https://youtu.be/vzsYXxq73Gg
+        metadata:
+          tournament: Vintage Open
+          level: Expert
+          ball: Titan
+          teePosition: 2
+          clubs:
+            - name: Apocalypse
+              level: 6
+            - name: Nirvana
+              level: 7
+          wind:
+            direction: NE
+            magnitude: 8.5
+          keywords:
+      - title: Vintage Open - Expert
+        url: https://youtu.be/bE1dGfmhAIs
+        metadata:
+          tournament: Vintage Open
+          level: Expert
+          ball: Blue Marble
+          teePosition: 2
+          clubs:
+            - name: Apocalypse
+              level: 6
+            - name: Spitfire
+              level: 6
+          wind:
+            direction: NE
+            magnitude: 10.9
+          keywords:
+      - title: Vintage Open - Master
+        url: https://youtu.be/nduvYO4DAvM
+        metadata:
+          tournament: Vintage Open
+          level: Master
+          ball: Kingmaker
+          teePosition: 3
+          clubs:
+            - name: Quarterback
+              level: 10
+            - name: Sniper
+              level: 9
+          wind:
+            direction: ENE
+            magnitude: 12.3
+          keywords:
+      - title: Vintage Open - Master
+        url: https://youtu.be/kH-bXLTwdQw
+        metadata:
+          tournament: Vintage Open
+          level: Master
+          ball: Raptor
+          teePosition: 3
+          clubs:
+            - name: Rock
+              level: 8
+            - name: Sniper
+              level: 10
+          wind:
+            direction: ENE
+            magnitude: 10.0
+          keywords:
       - title: Winter Slopes - Rookie
         url: https://youtu.be/TGEodeCGEyY
         metadata:
@@ -719,6 +901,7 @@ holes:
       - f9cc317a-341d-4d0c-91a9-7fb2ee1061b2
     overlays:
   - id: 16adf86e-de5c-40c4-b78d-dc0a947f044b
+    current-tournament: true
     course: Vineyard Acres
     number: 3
     par: 4
@@ -800,6 +983,102 @@ holes:
         url: https://i.imgur.com/WrE1rS6.jpg
     - name: Zachary Jones
       resources:
+      - title: Vintage Open - Rookie
+        url: https://youtu.be/1NCYeRRS2tU
+        metadata:
+          tournament: Vintage Open
+          level: Rookie
+          ball: Katana
+          teePosition: 1
+          clubs:
+            - name: Extra Mile
+              level: 6
+            - name: Skewer
+              level: 6
+          wind:
+            direction: ENE
+            magnitude: 2.7
+          keywords:
+      - title: Vintage Open - Pro
+        url: https://youtu.be/Qw65a4qQOxI
+        metadata:
+          tournament: Vintage Open
+          level: Pro
+          ball: Titan
+          teePosition: 2
+          clubs:
+            - name: Thor's Hammer
+              level: 4
+            - name: Malibu
+              level: 6
+          wind:
+            direction: WSW
+            magnitude: 7.2
+          keywords:
+      - title: Vintage Open - Expert
+        url: https://youtu.be/sxZRqroP-kI
+        metadata:
+          tournament: Vintage Open
+          level: Expert
+          ball: Kingmaker
+          teePosition: 2
+          clubs:
+            - name: Apocalypse
+              level: 6
+            - name: Rapier
+              level: 7
+          wind:
+            direction: SSE
+            magnitude: 8.6
+          keywords:
+      - title: Vintage Open - Expert
+        url: https://youtu.be/Gaa1Z8NpmLs
+        metadata:
+          tournament: Vintage Open
+          level: Expert
+          ball: Dead
+          teePosition: 2
+          clubs:
+            - name: Apocalypse
+              level: 6
+            - name: Hornet
+              level: 8
+          wind:
+            direction: SSE
+            magnitude: 8.8
+          keywords:
+      - title: Vintage Open - Master
+        url: https://youtu.be/Ue9m4qmwfLM
+        metadata:
+          tournament: Vintage Open
+          level: Master
+          ball: Kingmaker
+          teePosition: 3
+          clubs:
+            - name: Apocalypse
+              level: 4
+            - name: Thorn
+              level: 7
+          wind:
+            direction: SSE
+            magnitude: 11.7
+          keywords:
+      - title: Vintage Open - Master
+        url: https://youtu.be/ii3YzVgdtwI
+        metadata:
+          tournament: Vintage Open
+          level: Master
+          ball: Turkey
+          teePosition: 3
+          clubs:
+            - name: Apocalypse
+              level: 6
+            - name: Falcon
+              level: 7
+          wind:
+            direction: SSE
+            magnitude: 8.3
+          keywords:
       - title: Tour 7 - Tips and Strategy
         url: https://youtu.be/ajcOYT-fKv8
         metadata:
@@ -879,6 +1158,7 @@ holes:
       - 943116b8-1bcb-43df-829e-349c14933f1c
     overlays:
   - id: 49e3d49a-1647-4347-8f75-3e7fbb32d80c
+    current-tournament: true
     course: Vineyard Acres
     number: 4
     par: 5
@@ -1073,6 +1353,102 @@ holes:
         url: https://i.imgur.com/tq4KvbE.jpg
     - name: Zachary Jones
       resources:
+      - title: Vintage Open - Rookie
+        url: https://youtu.be/4lj0d3781_8
+        metadata:
+          tournament: Vintage Open
+          level: Rookie
+          ball: Marlin
+          teePosition: 1
+          clubs:
+            - name: Extra Mile
+              level: 6
+            - name: Backbone
+              level: 9
+          wind:
+            direction: NE
+            magnitude: 2.9
+          keywords:
+      - title: Vintage Open - Pro
+        url: https://youtu.be/wlpt5kt-Gks
+        metadata:
+          tournament: Vintage Open
+          level: Pro
+          ball: Katana
+          teePosition: 2
+          clubs:
+            - name: Thor's Hammer
+              level: 4
+            - name: Thorn
+              level: 6
+          wind:
+            direction: NW
+            magnitude: 6.6
+          keywords:
+      - title: Vintage Open - Expert
+        url: https://youtu.be/JmY8vo13QOY
+        metadata:
+          tournament: Vintage Open
+          level: Expert
+          ball: Kingmaker
+          teePosition: 2
+          clubs:
+            - name: Apocalypse
+              level: 6
+            - name: Backbone
+              level: 10
+          wind:
+            direction: ENE
+            magnitude: 8.3
+          keywords:
+      - title: Vintage Open - Expert
+        url: https://youtu.be/enrnmcxN8Yc
+        metadata:
+          tournament: Vintage Open
+          level: Expert
+          ball: Kingmaker
+          teePosition: 2
+          clubs:
+            - name: Thor's Hammer
+              level: 7
+            - name: Hornet
+              level: 8
+          wind:
+            direction: ENE
+            magnitude: 7.9
+          keywords:
+      - title: Vintage Open - Master
+        url: https://youtu.be/R2wt5Kiy_eA
+        metadata:
+          tournament: Vintage Open
+          level: Master
+          ball: Berserker
+          teePosition: 3
+          clubs:
+            - name: Apocalypse
+              level: 4
+            - name: Goliath
+              level: 7
+          wind:
+            direction: WNW
+            magnitude: 14.7
+          keywords:
+      - title: Vintage Open - Master
+        url: https://youtu.be/ZoIdz60yKIc
+        metadata:
+          tournament: Vintage Open
+          level: Master
+          ball: Dead
+          teePosition: 3
+          clubs:
+            - name: Apocalypse
+              level: 6
+            - name: Falcon
+              level: 7
+          wind:
+            direction: WNW
+            magnitude: 12.3
+          keywords:
       - title: Winter Slopes - Rookie
         url: https://youtu.be/WlrcUO6zIfE
         metadata:
@@ -1235,6 +1611,7 @@ holes:
       - f3bfe4b1-7e86-4d69-8c09-312d69088bbd
     overlays:
   - id: 7326d6ba-9310-4eaa-94c8-775412515e23
+    current-tournament: true
     course: Vineyard Acres
     number: 5
     par: 5
@@ -1428,6 +1805,104 @@ holes:
         url: https://i.imgur.com/GOYn9L0.jpg
     - name: Zachary Jones
       resources:
+      - title: Vintage Open - Rookie
+        url: https://youtu.be/7JOIz0yb6Wo
+        metadata:
+          tournament: Vintage Open
+          level: Rookie
+          ball: Titan
+          teePosition: 1
+          clubs:
+            - name: Extra Mile
+              level: 6
+            - name: Big Dawg
+              level: 6
+            - name: Nirvana
+              level: 1
+          wind:
+            direction: N
+            magnitude: 2.6
+          keywords:
+      - title: Vintage Open - Pro
+        url: https://youtu.be/z-msj3HEkjE
+        metadata:
+          tournament: Vintage Open
+          level: Pro
+          ball: Titan
+          teePosition: 2
+          clubs:
+            - name: Extra Mile
+              level: 6
+            - name: Big Dawg
+              level: 6
+          wind:
+            direction: NNW
+            magnitude: 6.3
+          keywords:
+      - title: Vintage Open - Expert
+        url: https://youtu.be/yOqr-p416lU
+        metadata:
+          tournament: Vintage Open
+          level: Expert
+          ball: Kingmaker
+          teePosition: 2
+          clubs:
+            - name: Apocalypse
+              level: 6
+            - name: Big Dawg
+              level: 8
+          wind:
+            direction: WNW
+            magnitude: 7.9
+          keywords:
+      - title: Vintage Open - Expert
+        url: https://youtu.be/WW-XfyCrQXk
+        metadata:
+          tournament: Vintage Open
+          level: Expert
+          ball: Gridiron
+          teePosition: 2
+          clubs:
+            - name: Apocalypse
+              level: 6
+            - name: Guardian
+              level: 8
+          wind:
+            direction: WNW
+            magnitude: 9.8
+          keywords:
+      - title: Vintage Open - Master
+        url: https://youtu.be/ddXbzB3GeFg
+        metadata:
+          tournament: Vintage Open
+          level: Master
+          ball: Blue Marble
+          teePosition: 3
+          clubs:
+            - name: Apocalypse
+              level: 4
+            - name: Big Dawg
+              level: 7
+          wind:
+            direction: ENE
+            magnitude: 13.6
+          keywords:
+      - title: Vintage Open - Master
+        url: https://youtu.be/P0QMh79W9kI
+        metadata:
+          tournament: Vintage Open
+          level: Master
+          ball: Gridiron
+          teePosition: 3
+          clubs:
+            - name: Thor's Hammer
+              level: 7
+            - name: Cataclysm
+              level: 7
+          wind:
+            direction: ENE
+            magnitude: 12.8
+          keywords:
       - title: Winter Slopes - Rookie
         url: https://youtu.be/gQ65mMGjOQQ
         metadata:
@@ -1589,6 +2064,7 @@ holes:
       - 9b676878-9162-47a8-ada9-a16a5456316d
     overlays:
   - id: 944bdfca-0abc-41a5-ac97-7e38291f7893
+    current-tournament: true
     course: Vineyard Acres
     number: 6
     par: 3
@@ -1675,6 +2151,90 @@ holes:
           published: 1541686362000
           generalInstruction: true
           teePosition: 2
+      - title: Vintage Open - Rookie
+        url: https://youtu.be/mq0hLVr1nnQ
+        metadata:
+          tournament: Vintage Open
+          level: Rookie
+          ball: Marlin
+          teePosition: 1
+          clubs:
+            - name: Viper
+              level: 8
+          wind:
+            direction: ENE
+            magnitude: 4.7
+          keywords:
+      - title: Vintage Open - Pro
+        url: https://youtu.be/A0PWqx0omMI
+        metadata:
+          tournament: Vintage Open
+          level: Pro
+          ball: Navigator
+          teePosition: 2
+          clubs:
+            - name: Sniper
+              level: 8
+          wind:
+            direction: E
+            magnitude: 7.5
+          keywords:
+      - title: Vintage Open - Expert
+        url: https://youtu.be/xRXgQIyCEVQ
+        metadata:
+          tournament: Vintage Open
+          level: Expert
+          ball: Kingmaker
+          teePosition: 2
+          clubs:
+            - name: Sniper
+              level: 10
+          wind:
+            direction: ENE
+            magnitude: 8.8
+          keywords:
+      - title: Vintage Open - Expert
+        url: https://youtu.be/hBfRJDkPtt4
+        metadata:
+          tournament: Vintage Open
+          level: Expert
+          ball: Bandera
+          teePosition: 2
+          clubs:
+            - name: Sniper
+              level: 10
+          wind:
+            direction: ENE
+            magnitude: 5.2
+          keywords:
+      - title: Vintage Open - Master
+        url: https://youtu.be/IzTs9GqeRew
+        metadata:
+          tournament: Vintage Open
+          level: Master
+          ball: Kingmaker
+          teePosition: 3
+          clubs:
+            - name: Sniper
+              level: 9
+          wind:
+            direction: N
+            magnitude: 11.5
+          keywords:
+      - title: Vintage Open - Master
+        url: https://youtu.be/GYClMeDvCOQ
+        metadata:
+          tournament: Vintage Open
+          level: Master
+          ball: Kingmaker
+          teePosition: 3
+          clubs:
+            - name: Sniper
+              level: 10
+          wind:
+            direction: N
+            magnitude: 11.3
+          keywords:
       - title: Winter Slopes - Rookie
         url: https://youtu.be/6vmMJuoAd1I
         metadata:
@@ -1846,6 +2406,7 @@ holes:
       - 4c3cbf6a-1b1b-4aa6-a413-6c5c96f6d377
     overlays:
   - id: 726b08c9-a742-45bb-8050-62c552395bbd
+    current-tournament: true
     course: Vineyard Acres
     number: 7
     par: 4
@@ -2033,6 +2594,102 @@ holes:
         url: https://i.imgur.com/mD6j1Fa.jpg
     - name: Zachary Jones
       resources:
+      - title: Vintage Open - Rookie
+        url: https://youtu.be/WUBqnawcSeg
+        metadata:
+          tournament: Vintage Open
+          level: Rookie
+          ball: Katana
+          teePosition: 1
+          clubs:
+            - name: Quarterback
+              level: 7
+            - name: Backbone
+              level: 9
+          wind:
+            direction: N
+            magnitude: 3.1
+          keywords:
+      - title: Vintage Open - Pro
+        url: https://youtu.be/f-pspimYnoE
+        metadata:
+          tournament: Vintage Open
+          level: Pro
+          ball: Titan
+          teePosition: 2
+          clubs:
+            - name: Rock
+              level: 5
+            - name: Guardian
+              level: 5
+          wind:
+            direction: NE
+            magnitude: 6.2
+          keywords:
+      - title: Vintage Open - Expert
+        url: https://youtu.be/H653L1gucnc
+        metadata:
+          tournament: Vintage Open
+          level: Expert
+          ball: Kingmaker
+          teePosition: 2
+          clubs:
+            - name: Apocalypse
+              level: 6
+            - name: Nirvana
+              level: 7
+          wind:
+            direction: NNE
+            magnitude: 8.9
+          keywords:
+      - title: Vintage Open - Expert
+        url: https://youtu.be/4LdbzVxTVxo
+        metadata:
+          tournament: Vintage Open
+          level: Expert
+          ball: Kingmaker
+          teePosition: 2
+          clubs:
+            - name: Apocalypse
+              level: 6
+            - name: Saturn
+              level: 10
+          wind:
+            direction: NNE
+            magnitude: 8.8
+          keywords:
+      - title: Vintage Open - Master
+        url: https://youtu.be/Sa48b3kMsaA
+        metadata:
+          tournament: Vintage Open
+          level: Master
+          ball: Kingmaker
+          teePosition: 3
+          clubs:
+            - name: Apocalypse
+              level: 4
+            - name: Sniper
+              level: 9
+          wind:
+            direction: SW
+            magnitude: 11.8
+          keywords:
+      - title: Vintage Open - Master
+        url: https://youtu.be/BpncKz0hMDg
+        metadata:
+          tournament: Vintage Open
+          level: Master
+          ball: Kingmaker
+          teePosition: 3
+          clubs:
+            - name: Thor's Hammer
+              level: 7
+            - name: Guardian
+              level: 8
+          wind:
+            direction: SW
+            magnitude: 11.7
+          keywords:
       - title: Winter Games - Rookie
         url: https://youtu.be/rS3rfTAntf8
         metadata:
@@ -2096,6 +2753,7 @@ holes:
       - 1dea8658-46e4-47a8-ba66-52ff35f3eac2
     overlays:
   - id: acb911f4-c603-4715-b11c-f848ee34bbaf
+    current-tournament: true
     course: Vineyard Acres
     number: 8
     par: 3
@@ -2191,6 +2849,90 @@ holes:
           published: 1541687051000
           generalInstruction: true
           teePosition: 2
+      - title: Vintage Open - Rookie
+        url: https://youtu.be/DhY7mlkYpAA
+        metadata:
+          tournament: Vintage Open
+          level: Rookie
+          ball: Quasar
+          teePosition: 1
+          clubs:
+            - name: Backbone
+              level: 9
+          wind:
+            direction: SW
+            magnitude: 3.7
+          keywords:
+      - title: Vintage Open - Pro
+        url: https://youtu.be/hw1ufdAaW7w
+        metadata:
+          tournament: Vintage Open
+          level: Pro
+          ball: Katana
+          teePosition: 2
+          clubs:
+            - name: Guardian
+              level: 5
+          wind:
+            direction: NNE
+            magnitude: 7.1
+          keywords:
+      - title: Vintage Open - Expert
+        url: https://youtu.be/k0rI6Udj06U
+        metadata:
+          tournament: Vintage Open
+          level: Expert
+          ball: Kingmaker
+          teePosition: 2
+          clubs:
+            - name: Guardian
+              level: 7
+          wind:
+            direction: NE
+            magnitude: 8.7
+          keywords:
+      - title: Vintage Open - Expert
+        url: https://youtu.be/Tbfj3Vtte9A
+        metadata:
+          tournament: Community Cup
+          level: Expert
+          ball: Bandera
+          teePosition: 2
+          clubs:
+            - name: Guardian
+              level: 8
+          wind:
+            direction: NE
+            magnitude: 5.8
+          keywords:
+      - title: Vintage Open - Master
+        url: https://youtu.be/yv4EnylFXlE
+        metadata:
+          tournament: Vintage Open
+          level: Master
+          ball: Kingmaker
+          teePosition: 3
+          clubs:
+            - name: Guardian
+              level: 7
+          wind:
+            direction: SSW
+            magnitude: 12.1
+          keywords:
+      - title: Vintage Open - Master
+        url: https://youtu.be/ebflSnKG0JM
+        metadata:
+          tournament: Vintage Open
+          level: Master
+          ball: Bunny
+          teePosition: 3
+          clubs:
+            - name: Hammerhead
+              level: 7
+          wind:
+            direction: SSW
+            magnitude: 9.9
+          keywords:
       - title: Winter Games - Rookie
         url: https://youtu.be/LdbZycNmNHE
         metadata:
@@ -2250,6 +2992,7 @@ holes:
       - fa2478fa-bdf2-4b1c-9409-89d80f1e6359
     overlays:
   - id: c2bbf390-d162-4a06-9d9b-5d0e7f5b64ef
+    current-tournament: true
     course: Vineyard Acres
     number: 9
     par: 5
@@ -2390,6 +3133,112 @@ holes:
         url: https://i.imgur.com/PRVYsOZ.jpg
     - name: Zachary Jones
       resources:
+      - title: Vintage Open - Rookie
+        url: https://youtu.be/i8OCG_Buslk
+        metadata:
+          tournament: Vintage Open
+          level: Rookie
+          ball: Titan
+          teePosition: 1
+          clubs:
+            - name: Rock
+              level: 2
+            - name: Horizon
+              level: 5
+            - name: Thorn
+              level: 5
+          wind:
+            direction: NE
+            magnitude: 3.7
+          keywords:
+      - title: Vintage Open - Pro
+        url: https://youtu.be/NQyxoHl8d8o
+        metadata:
+          tournament: Vintage Open
+          level: Pro
+          ball: Titan
+          teePosition: 2
+          clubs:
+            - name: Rock
+              level: 5
+            - name: Big Dawg
+              level: 6
+            - name: Thorn
+              level: 6
+          wind:
+            direction: N
+            magnitude: 5.3
+          keywords:
+      - title: Vintage Open - Expert
+        url: https://youtu.be/DqWzAtw9cAs
+        metadata:
+          tournament: Vintage Open
+          level: Expert
+          ball: Berserker
+          teePosition: 2
+          clubs:
+            - name: Apocalypse
+              level: 6
+            - name: Big Dawg
+              level: 8
+            - name: Backbone
+              level: 10
+          wind:
+            direction: NNW
+            magnitude: 9.5
+          keywords:
+      - title: Vintage Open - Expert
+        url: https://youtu.be/LJ9MYQL_3u4
+        metadata:
+          tournament: Vintage Open
+          level: Expert
+          ball: Berserker
+          teePosition: 2
+          clubs:
+            - name: Apocalypse
+              level: 6
+            - name: Big Dawg
+              level: 8
+          wind:
+            direction: NNW
+            magnitude: 11.1
+          keywords:
+      - title: Vintage Open - Master
+        url: https://youtu.be/nA-YH8IaNkU
+        metadata:
+          tournament: Vintage Open
+          level: Master
+          ball: Kingmaker
+          teePosition: 3
+          clubs:
+            - name: Apocalypse
+              level: 4
+            - name: Big Dawg
+              level: 7
+            - name: Thorn
+              level: 7
+          wind:
+            direction: WNW
+            magnitude: 12.3
+          keywords:
+      - title: Vintage Open - Master
+        url: https://youtu.be/I604Rw9DXXM
+        metadata:
+          tournament: Vintage Open
+          level: Master
+          ball: Berserker
+          teePosition: 3
+          clubs:
+            - name: Thor's Hammer
+              level: 7
+            - name: Cataclysm
+              level: 7
+            - name: Thorn
+              level: 8
+          wind:
+            direction: WNW
+            magnitude: 10.4
+          keywords:
       - title: Mountain - Rookie
         url: https://youtu.be/srn0LC77qp0
         metadata:

@@ -1,0 +1,11 @@
+name: Shamrock
+windResistance: 3
+sideSpin: 3
+power: 3
+cost: n/a
+description: >
+  The Shamrock ball is a slightly worse Kingmaker, only due to the fact that it's max OP needle
+  speed is slightly faster. It was offered as part of a cash package during the
+  <a href="/tournaments/VintageOpen/">Vintage Open</a> tournament. Maybe if you picked some up
+  they'll lend you enough luck to avoid the naked flapping banner.
+needleSpeed: 0.833
