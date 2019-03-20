@@ -136,7 +136,7 @@ holes:
         metadata:
           tournament: Vintage Open
           level: Expert
-          ball: Kingmaker
+          ball: King Maker
           teePosition: 2
           clubs:
             - name: Sniper
@@ -164,7 +164,7 @@ holes:
         metadata:
           tournament: Vintage Open
           level: Master
-          ball: Kingmaker
+          ball: King Maker
           teePosition: 3
           clubs:
             - name: Sniper
@@ -611,7 +611,7 @@ holes:
         metadata:
           tournament: Vintage Open
           level: Master
-          ball: Kingmaker
+          ball: King Maker
           teePosition: 3
           clubs:
             - name: Quarterback
@@ -1020,7 +1020,7 @@ holes:
         metadata:
           tournament: Vintage Open
           level: Expert
-          ball: Kingmaker
+          ball: King Maker
           teePosition: 2
           clubs:
             - name: Apocalypse
@@ -1052,7 +1052,7 @@ holes:
         metadata:
           tournament: Vintage Open
           level: Master
-          ball: Kingmaker
+          ball: King Maker
           teePosition: 3
           clubs:
             - name: Apocalypse
@@ -1390,7 +1390,7 @@ holes:
         metadata:
           tournament: Vintage Open
           level: Expert
-          ball: Kingmaker
+          ball: King Maker
           teePosition: 2
           clubs:
             - name: Apocalypse
@@ -1406,7 +1406,7 @@ holes:
         metadata:
           tournament: Vintage Open
           level: Expert
-          ball: Kingmaker
+          ball: King Maker
           teePosition: 2
           clubs:
             - name: Thor's Hammer
@@ -1844,7 +1844,7 @@ holes:
         metadata:
           tournament: Vintage Open
           level: Expert
-          ball: Kingmaker
+          ball: King Maker
           teePosition: 2
           clubs:
             - name: Apocalypse
@@ -2184,7 +2184,7 @@ holes:
         metadata:
           tournament: Vintage Open
           level: Expert
-          ball: Kingmaker
+          ball: King Maker
           teePosition: 2
           clubs:
             - name: Sniper
@@ -2212,7 +2212,7 @@ holes:
         metadata:
           tournament: Vintage Open
           level: Master
-          ball: Kingmaker
+          ball: King Maker
           teePosition: 3
           clubs:
             - name: Sniper
@@ -2226,7 +2226,7 @@ holes:
         metadata:
           tournament: Vintage Open
           level: Master
-          ball: Kingmaker
+          ball: King Maker
           teePosition: 3
           clubs:
             - name: Sniper
@@ -2631,7 +2631,7 @@ holes:
         metadata:
           tournament: Vintage Open
           level: Expert
-          ball: Kingmaker
+          ball: King Maker
           teePosition: 2
           clubs:
             - name: Apocalypse
@@ -2647,7 +2647,7 @@ holes:
         metadata:
           tournament: Vintage Open
           level: Expert
-          ball: Kingmaker
+          ball: King Maker
           teePosition: 2
           clubs:
             - name: Apocalypse
@@ -2663,7 +2663,7 @@ holes:
         metadata:
           tournament: Vintage Open
           level: Master
-          ball: Kingmaker
+          ball: King Maker
           teePosition: 3
           clubs:
             - name: Apocalypse
@@ -2679,7 +2679,7 @@ holes:
         metadata:
           tournament: Vintage Open
           level: Master
-          ball: Kingmaker
+          ball: King Maker
           teePosition: 3
           clubs:
             - name: Thor's Hammer
@@ -2882,7 +2882,7 @@ holes:
         metadata:
           tournament: Vintage Open
           level: Expert
-          ball: Kingmaker
+          ball: King Maker
           teePosition: 2
           clubs:
             - name: Guardian
@@ -2910,7 +2910,7 @@ holes:
         metadata:
           tournament: Vintage Open
           level: Master
-          ball: Kingmaker
+          ball: King Maker
           teePosition: 3
           clubs:
             - name: Guardian
@@ -3208,7 +3208,7 @@ holes:
         metadata:
           tournament: Vintage Open
           level: Master
-          ball: Kingmaker
+          ball: King Maker
           teePosition: 3
           clubs:
             - name: Apocalypse
