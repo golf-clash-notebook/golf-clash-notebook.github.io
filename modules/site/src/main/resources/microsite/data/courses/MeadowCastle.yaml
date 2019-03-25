@@ -2,7 +2,6 @@ courseName: Meadow Castle
 skinned: false
 holes:
   - id: e967ec4e-43a8-4aa6-ad57-caf3cafffb4c
-    current-tournament: true
     course: Meadow Castle
     number: 1
     par: 3
@@ -157,7 +156,6 @@ holes:
             keywords:
     overlays:
   - id: db93f490-8d7e-4bef-9313-e27ec0baf0a1
-    current-tournament: true
     course: Meadow Castle
     number: 2
     par: 4
@@ -314,7 +312,6 @@ holes:
             keywords:
     overlays:
   - id: a2d21b3a-fd52-4655-aba6-f66efad7064c
-    current-tournament: true
     course: Meadow Castle
     number: 3
     par: 5

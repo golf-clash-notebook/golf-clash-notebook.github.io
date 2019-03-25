@@ -2,7 +2,6 @@ courseName: Vineyard Acres
 skinned: false
 holes:
   - id: f97340e9-7d74-41c8-bd92-64785b42eb0f
-    current-tournament: true
     course: Vineyard Acres
     number: 1
     par: 3
@@ -430,7 +429,6 @@ holes:
       - 3f053109-7927-4eec-8c62-5cbbc4f37ff0
     overlays:
   - id: 4c95334d-0695-4d41-9390-ce3b1dc8845f
-    current-tournament: true
     course: Vineyard Acres
     number: 2
     par: 4
@@ -901,7 +899,6 @@ holes:
       - f9cc317a-341d-4d0c-91a9-7fb2ee1061b2
     overlays:
   - id: 16adf86e-de5c-40c4-b78d-dc0a947f044b
-    current-tournament: true
     course: Vineyard Acres
     number: 3
     par: 4
@@ -1158,7 +1155,6 @@ holes:
       - 943116b8-1bcb-43df-829e-349c14933f1c
     overlays:
   - id: 49e3d49a-1647-4347-8f75-3e7fbb32d80c
-    current-tournament: true
     course: Vineyard Acres
     number: 4
     par: 5
@@ -1611,7 +1607,6 @@ holes:
       - f3bfe4b1-7e86-4d69-8c09-312d69088bbd
     overlays:
   - id: 7326d6ba-9310-4eaa-94c8-775412515e23
-    current-tournament: true
     course: Vineyard Acres
     number: 5
     par: 5
@@ -2064,7 +2059,6 @@ holes:
       - 9b676878-9162-47a8-ada9-a16a5456316d
     overlays:
   - id: 944bdfca-0abc-41a5-ac97-7e38291f7893
-    current-tournament: true
     course: Vineyard Acres
     number: 6
     par: 3
@@ -2406,7 +2400,6 @@ holes:
       - 4c3cbf6a-1b1b-4aa6-a413-6c5c96f6d377
     overlays:
   - id: 726b08c9-a742-45bb-8050-62c552395bbd
-    current-tournament: true
     course: Vineyard Acres
     number: 7
     par: 4
@@ -2753,7 +2746,6 @@ holes:
       - 1dea8658-46e4-47a8-ba66-52ff35f3eac2
     overlays:
   - id: acb911f4-c603-4715-b11c-f848ee34bbaf
-    current-tournament: true
     course: Vineyard Acres
     number: 8
     par: 3
@@ -2992,7 +2984,6 @@ holes:
       - fa2478fa-bdf2-4b1c-9409-89d80f1e6359
     overlays:
   - id: c2bbf390-d162-4a06-9d9b-5d0e7f5b64ef
-    current-tournament: true
     course: Vineyard Acres
     number: 9
     par: 5

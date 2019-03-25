@@ -2,7 +2,6 @@ courseName: Namhae Cliffs
 skinned: false
 holes:
   - id: 33424886-13ab-48b2-9813-5d9b336d02c5
-    current-tournament: true
     course: Namhae Cliffs
     number: 1
     par: 3
@@ -343,7 +342,6 @@ holes:
               <circle cx="200" cy="186" r="6" fill="white" class="guide-point" data-guide-segment="1" />
               <circle cx="205" cy="133" r="6" fill="white" class="guide-point" data-guide-segment="2" />
   - id: 1b8f133e-bd1e-45e7-994c-c04eccfec9fe
-    current-tournament: true
     course: Namhae Cliffs
     number: 2
     par: 4
@@ -620,7 +618,6 @@ holes:
               <circle cx="310" cy="216" r="6" fill="white" class="guide-point" data-guide-segment="1" />
               <circle cx="204" cy="128" r="6" fill="white" class="guide-point" data-guide-segment="2" />
   - id: e17fa3e6-d1a1-4409-808e-6586d953c82b
-    current-tournament: true
     course: Namhae Cliffs
     number: 3
     par: 5
