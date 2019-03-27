@@ -50,6 +50,9 @@ categories:
     - title: Live Gameplay Tutorial for Using the App
       url: https://youtu.be/pARTKyTRm_8
       platforms: ['android']
+    - title: Update 1.2.0 Features
+      url: https://youtu.be/76XBPvEUICc
+      platforms: ['android']
     - title: Update 1.1.4 Features
       url: https://youtu.be/797iXkWbZBA
       platforms: ['android']
@@ -134,6 +137,9 @@ categories:
     ### iOS
     - title: 'Physical Screen Grid Creation'
       url: https://youtu.be/t3uFsOydCf0
+      platforms: ['ios']
+    - title: Update 1.2.0 Features
+      url: https://youtu.be/76XBPvEUICc
       platforms: ['ios']
     - title: '1.1.4 Release Overview'
       url: https://youtu.be/FsFrPaet9IQ
@@ -259,6 +265,19 @@ categories:
       url: https://youtu.be/er7WGPwZRYg
     - title: Take Shot Button Technique
       url: https://youtu.be/WiL7l1ME9Pc
+  - name: Free To Play Series
+    description: Guide To Advancing Without Spending Money
+    resources:
+    - title: Part 1
+      url: https://youtu.be/z62RgUh4Q9E
+    - title: Part 2
+      url: https://youtu.be/CRGfv4RlVJg
+    - title: Part 3
+      url: https://youtu.be/bB0696wChIc
+    - title: Part 4
+      url: https://youtu.be/DxJsg5cP-Yg
+    - title: Part 5
+      url: https://youtu.be/yg8MAF2tiCI
   - name: Specific Club Techniques
     description: Specific Club Technique
     resources:
