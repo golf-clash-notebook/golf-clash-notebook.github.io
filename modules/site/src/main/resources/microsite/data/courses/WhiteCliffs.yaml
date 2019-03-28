@@ -1,0 +1,318 @@
+courseName: White Cliffs
+skinned: false
+holes:
+  - id: db2b4ebf-4f71-487b-a292-569f3d717f3f
+    current-tournament: true
+    course: White Cliffs
+    number: 1
+    par: 4
+    replayName: "4B"
+    description: >
+      Help Wanted
+    clubRecommendations:
+    clubSuggestions:
+    resourceCreators:
+    - name: Golf Clash Tommy
+      resources:
+      - title: South Coast - Rookie Guide
+        url: https://youtu.be/cPLSeCbv_fY
+    - name: Zachary Jones
+      resources:
+      - title: Tour 5 - Strategy and Tips
+        url: https://youtu.be/UWdMQ3x538E
+        metadata:
+          tour: 5
+          ball: Quasar
+          teePosition: 1
+          clubs:
+            - name: Quarterback
+              level: 7
+            - name: Backbone
+              level: 9
+          wind:
+            direction: SSW
+            magnitude: 0.9
+          keywords:
+      - title: Tour 5 - Strategy and Tips
+        url: https://youtu.be/0szWVW-bSsM
+        metadata:
+          tour: 5
+          ball: Quasar
+          teePosition: 1
+          clubs:
+            - name: Quarterback
+              level: 7
+            - name: Backbone
+              level: 9
+          wind:
+            direction: NE
+            magnitude: 3.2
+          keywords:
+    aliases:
+    overlays:
+  - id: 75800208-34bd-4886-933e-fdcc8583b741
+    current-tournament: true
+    course: White Cliffs
+    number: 2
+    par: 3
+    replayName: "3C"
+    description: >
+      Help Wanted
+    clubRecommendations:
+    clubSuggestions:
+    resourceCreators:
+    - name: Golf Clash Tommy
+      resources:
+      - title: South Coast - Rookie Guide
+        url: https://youtu.be/aq-4FisI2m8
+    aliases:
+    overlays:
+  - id: daa8c5bc-93ca-491b-a8fd-8c99779362fc
+    current-tournament: true
+    course: White Cliffs
+    number: 3
+    par: 5
+    replayName: "5C"
+    description: >
+      Help Wanted
+    clubRecommendations:
+    clubSuggestions:
+    resourceCreators:
+    - name: Golf Clash Tommy
+      resources:
+      - title: South Coast - Rookie Guide
+        url: https://youtu.be/NthV9jfiY6A
+    aliases:
+    overlays:
+  - id: 56cb071b-1914-4032-8535-88390c586beb
+    current-tournament: true
+    course: White Cliffs
+    number: 4
+    par: 3
+    replayName: "3B"
+    description: >
+      Help Wanted
+    clubRecommendations:
+    clubSuggestions:
+    resourceCreators:
+    - name: Golf Clash Tommy
+      resources:
+      - title: South Coast - Rookie Guide
+        url: https://youtu.be/4io4HmKu3Qk
+    aliases:
+    overlays:
+  - id: af9cf0cf-88a9-4e58-aa16-04db42da1874
+    current-tournament: true
+    course: White Cliffs
+    number: 5
+    par: 5
+    replayName: "5"
+    description: >
+      Help Wanted
+    clubRecommendations:
+    clubSuggestions:
+    resourceCreators:
+    - name: Golf Clash Tommy
+      resources:
+      - title: South Coast - Rookie Guide
+        url: https://youtu.be/0gokAXqesio
+    - name: Zachary Jones
+      resources:
+      - title: Tour 5 - Strategy and Tips
+        url: https://youtu.be/RLAgpcL18iM
+        metadata:
+          tour: 5
+          ball: Quasar
+          teePosition: 1
+          clubs:
+            - name: Extra Mile
+              level: 6
+            - name: Guardian
+              level: 4
+            - name: Nirvana
+              level: 1
+          wind:
+            direction: N
+            magnitude: 6.5
+          keywords:
+    aliases:
+    overlays:
+  - id: 06657752-4139-4ed6-9615-e90d3a67916d
+    current-tournament: true
+    course: White Cliffs
+    number: 6
+    par: 4
+    replayName: "4"
+    description: >
+      Help Wanted
+    clubRecommendations:
+    clubSuggestions:
+    resourceCreators:
+    - name: Golf Clash Tommy
+      resources:
+      - title: South Coast - Rookie Guide
+        url: https://youtu.be/b0NelUjtEpA
+    - name: Zachary Jones
+      resources:
+      - title: Tour 5 - Strategy and Tips
+        url: https://youtu.be/THHoRaB2w3s
+        metadata:
+          tour: 5
+          ball: Quasar
+          teePosition: 1
+          clubs:
+            - name: Extra Mile
+              level: 6
+            - name: Thorn
+              level: 5
+            - name: Malibu
+              level: 6
+          wind:
+            direction: WNW
+            magnitude: 3.7
+          keywords:
+      - title: Tour 5 - Strategy and Tips
+        url: https://youtu.be/NisuxEWBqP4
+        metadata:
+          tour: 5
+          ball: Quasar
+          teePosition: 1
+          clubs:
+            - name: Quarterback
+              level: 7
+            - name: Malibu
+              level: 6
+          wind:
+            direction: NE
+            magnitude: 1.7
+          keywords:
+    aliases:
+    overlays:
+  - id: d96b6599-681d-40a2-8903-56274e692965
+    current-tournament: true
+    course: White Cliffs
+    number: 7
+    par: 3
+    replayName: "3"
+    description: >
+      Help Wanted
+    clubRecommendations:
+    clubSuggestions:
+    resourceCreators:
+    - name: Golf Clash Tommy
+      resources:
+      - title: South Coast - Rookie Guide
+        url: https://youtu.be/072v-BJUiGw
+    - name: Zachary Jones
+      resources:
+      - title: Tour 5 - Strategy and Tips
+        url: https://youtu.be/pFvkSTOr554
+        metadata:
+          tour: 5
+          ball: Quasar
+          teePosition: 1
+          clubs:
+            - name: Guardian
+              level: 4
+          wind:
+            direction: SE
+            magnitude: 6.8
+          keywords:
+      - title: Tour 5 - Strategy and Tips
+        url: https://youtu.be/MhG-woCHKwM
+        metadata:
+          tour: 5
+          ball: Quasar
+          teePosition: 1
+          clubs:
+            - name: Guardian
+              level: 4
+          wind:
+            direction: SSW
+            magnitude: 6.6
+          keywords:
+    aliases:
+    overlays:
+  - id: 7c9bf178-4f07-4ab5-ba5b-84ec8e1108db
+    current-tournament: true
+    course: White Cliffs
+    number: 8
+    par: 4
+    replayName: "4C"
+    description: >
+      Help Wanted
+    clubRecommendations:
+    clubSuggestions:
+    resourceCreators:
+    - name: Golf Clash Tommy
+      resources:
+      - title: South Coast - Rookie Guide
+        url: https://youtu.be/SDFWfIarZAE
+    - name: Zachary Jones
+      resources:
+      - title: Tour 5 - Strategy and tips
+        url: https://youtu.be/mGVIlVLL2jo
+        metadata:
+          tour: 5
+          ball: Quasar
+          teePosition: 1
+          clubs:
+            - name: Quarterback
+              level: 7
+            - name: Backbone
+              level: 9
+          wind:
+            direction: E
+            magnitude: 2.8
+          keywords:
+      - title: Tour 5 - Strategy and tips
+        url: https://youtu.be/MiwgBbMoO0k
+        metadata:
+          tour: 5
+          ball: Quasar
+          teePosition: 1
+          clubs:
+            - name: Extra Mile
+              level: 6
+            - name: Nirvana
+              level: 1
+          wind:
+            direction: SW
+            magnitude: 4.4
+          keywords:
+    aliases:
+    overlays:
+  - id: a898e1d7-dad3-4a38-8a8e-08161d43e112
+    current-tournament: true
+    course: White Cliffs
+    number: 9
+    par: 5
+    replayName: "5B"
+    description: >
+      Help Wanted
+    clubRecommendations:
+    clubSuggestions:
+    resourceCreators:
+    - name: Golf Clash Tommy
+      resources:
+      - title: South Coast - Rookie Guide
+        url: https://youtu.be/efyWR1vnkbg
+    - name: Zachary Jones
+      resources:
+      - title: Tour 5 - Strategy and Tips
+        url: https://youtu.be/mxnlRCGQ6R4
+        metadata:
+          tour: 5
+          ball: Titan
+          teePosition: 1
+          clubs:
+            - name: Extra Mile
+              level: 6
+            - name: Guardian
+              level: 4
+          wind:
+            direction: NW
+            magnitude: 1.7
+          keywords:
+    aliases:
+    overlays:

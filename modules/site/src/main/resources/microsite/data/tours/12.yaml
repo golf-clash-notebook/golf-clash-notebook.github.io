@@ -1,9 +1,9 @@
 number: 12
 tourName: Origin Links
 courses:
-  - name: Glenmonarch Estate
   - name: Greenoch Point
   - name: Porthello Cove
+  - name: White Cliffs
 description: >
   Help Wanted
 resources:

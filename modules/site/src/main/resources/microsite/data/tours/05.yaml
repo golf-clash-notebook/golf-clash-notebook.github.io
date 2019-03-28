@@ -1,8 +1,8 @@
 number: 5
 tourName: World Links
 courses:
-  - name: Maple Bay
   - name: Nordic Fjords
+  - name: White Cliffs
 description: >
   Help Wanted
 resources:

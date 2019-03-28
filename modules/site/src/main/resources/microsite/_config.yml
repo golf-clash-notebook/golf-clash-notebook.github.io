@@ -233,6 +233,13 @@ page_gen:
     extra:
       title-prefix: 'Vineyard Acres - Hole '
   - index_files: true
+    data: 'courses.WhiteCliffs.holes'
+    template: '_includes/courses/hole-template.liquid'
+    name: 'number'
+    dir: 'courses/WhiteCliffs'
+    extra:
+      title-prefix: 'White Cliffs - Hole '
+  - index_files: true
     data: 'courses.WinterLinks.holes'
     template: '_includes/courses/hole-template.liquid'
     name: 'number'
@@ -625,3 +632,11 @@ page_gen:
     extra:
       title-prefix: 'Vintage Open Tournament - Hole '
       tournamentName: 'Vintage Open'
+  - index_files: true
+    data: 'tournaments.SouthCoast.holes'
+    template: '_includes/tournaments/hole-template.liquid'
+    name: 'number'
+    dir: 'tournaments/SouthCoast'
+    extra:
+      title-prefix: 'South Coast Tournament - Hole '
+      tournamentName: 'South Coast'

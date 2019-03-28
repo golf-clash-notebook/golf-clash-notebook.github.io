@@ -1,0 +1,26 @@
+tournamentName: South Coast
+date: '2019-04-01'
+resourceCreators:
+  - name: Golf Clash Tommy
+    resources:
+    - title: Rookie Playthrough
+      url: https://youtu.be/iNTJckyqDdg
+holes:
+  - number: 1
+    id: db2b4ebf-4f71-487b-a292-569f3d717f3f
+  - number: 2
+    id: 75800208-34bd-4886-933e-fdcc8583b741
+  - number: 3
+    id: daa8c5bc-93ca-491b-a8fd-8c99779362fc
+  - number: 4
+    id: 56cb071b-1914-4032-8535-88390c586beb
+  - number: 5
+    id: af9cf0cf-88a9-4e58-aa16-04db42da1874
+  - number: 6
+    id: 06657752-4139-4ed6-9615-e90d3a67916d
+  - number: 7
+    id: d96b6599-681d-40a2-8903-56274e692965
+  - number: 8
+    id: 7c9bf178-4f07-4ab5-ba5b-84ec8e1108db
+  - number: 9
+    id: a898e1d7-dad3-4a38-8a8e-08161d43e112
