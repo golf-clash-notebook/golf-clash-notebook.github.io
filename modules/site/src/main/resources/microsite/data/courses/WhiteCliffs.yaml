@@ -82,6 +82,10 @@ holes:
       resources:
       - title: South Coast - Rookie Guide
         url: https://youtu.be/NthV9jfiY6A
+    - name: Jesse Both
+      resources:
+      - title: South Coast - Rookie Guide
+        url: https://youtu.be/8wrNi3ECVDU
     aliases:
     overlays:
   - id: 56cb071b-1914-4032-8535-88390c586beb
@@ -135,6 +139,10 @@ holes:
             direction: N
             magnitude: 6.5
           keywords:
+    - name: Jesse Both
+      resources:
+      - title: South Coast - Rookie Guide
+        url: https://youtu.be/ubKBjccvye0
     aliases:
     overlays:
   - id: 06657752-4139-4ed6-9615-e90d3a67916d
@@ -186,6 +194,10 @@ holes:
             direction: NE
             magnitude: 1.7
           keywords:
+    - name: Jesse Both
+      resources:
+      - title: South Coast - Rookie Guide
+        url: https://youtu.be/I0xmLoqlyQg
     aliases:
     overlays:
   - id: d96b6599-681d-40a2-8903-56274e692965
@@ -280,6 +292,10 @@ holes:
             direction: SW
             magnitude: 4.4
           keywords:
+    - name: Jesse Both
+      resources:
+      - title: South Coast - Rookie Guide
+        url: https://youtu.be/617VGMczV6Y
     aliases:
     overlays:
   - id: a898e1d7-dad3-4a38-8a8e-08161d43e112
@@ -314,5 +330,9 @@ holes:
             direction: NW
             magnitude: 1.7
           keywords:
+    - name: Jesse Both
+      resources:
+      - title: South Coast - Rookie Guide
+        url: https://youtu.be/HH4g05_tGAU
     aliases:
     overlays:

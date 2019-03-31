@@ -5,6 +5,14 @@ resourceCreators:
     resources:
     - title: Rookie Playthrough
       url: https://youtu.be/iNTJckyqDdg
+    - title: Club Guide
+      url: https://youtu.be/JYWebMTiFBc
+    - title: Text Guides
+      url: https://imgur.com/a/ZJuI1hH
+  - name: Jesse Both
+    resources:
+    - title: Rookie Guide
+      url: https://youtu.be/9FvIfDQkDZg
 holes:
   - number: 1
     id: db2b4ebf-4f71-487b-a292-569f3d717f3f
