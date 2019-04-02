@@ -18,6 +18,102 @@ holes:
         url: https://youtu.be/cPLSeCbv_fY
     - name: Zachary Jones
       resources:
+      - title: South Coast - Rookie
+        url: https://youtu.be/ArtNRCoP_XE
+        metadata:
+          tournament: South Coast
+          level: Rookie
+          ball: Basic
+          teePosition: 1
+          clubs:
+            - name: Extra Mile
+              level: 4
+            - name: Backbone
+              level: 4
+          wind:
+            direction: NE
+            magnitude: 3.9
+          keywords:
+      - title: South Coast - Pro
+        url: https://youtu.be/cDN9qP50oI8
+        metadata:
+          tournament: South Coast
+          level: Pro
+          ball: Titan
+          teePosition: 2
+          clubs:
+            - name: Quarterback
+              level: 8
+            - name: Nirvana
+              level: 5
+          wind:
+            direction: WNW
+            magnitude: 7.2
+          keywords:
+      - title: South Coast - Expert
+        url: https://youtu.be/zYjpR4Hxbyc
+        metadata:
+          tournament: South Coast
+          level: Expert
+          ball: King Maker
+          teePosition: 2
+          clubs:
+            - name: Extra Mile
+              level: 7
+            - name: Thorn
+              level: 7
+          wind:
+            direction: ESE
+            magnitude: 9.1
+          keywords:
+      - title: South Coast - Expert
+        url: https://youtu.be/qbkBUykIsnY
+        metadata:
+          tournament: South Coast
+          level: Expert
+          ball: King Maker
+          teePosition: 2
+          clubs:
+            - name: Apocalypse
+              level: 6
+            - name: Thorn
+              level: 8
+          wind:
+            direction: ESE
+            magnitude: 7.3
+          keywords:
+      - title: South Coast - Master
+        url: https://youtu.be/eZeKAGyvo60
+        metadata:
+          tournament: South Coast
+          level: Master
+          ball: King Maker
+          teePosition: 3
+          clubs:
+            - name: Apocalypse
+              level: 4
+            - name: Hornet
+              level: 6
+          wind:
+            direction: WNW
+            magnitude: 11.2
+          keywords:
+      - title: South Coast - Master
+        url: https://youtu.be/EVfAnvKthxQ
+        metadata:
+          tournament: South Coast
+          level: Master
+          ball: King Maker
+          teePosition: 3
+          clubs:
+            - name: Apocalypse
+              level: 6
+            - name: Thorn
+              level: 8
+          wind:
+            direction: WNW
+            magnitude: 11.4
+          keywords:
       - title: Tour 5 - Strategy and Tips
         url: https://youtu.be/UWdMQ3x538E
         metadata:
@@ -65,6 +161,92 @@ holes:
       resources:
       - title: South Coast - Rookie Guide
         url: https://youtu.be/aq-4FisI2m8
+    - name: Zachary Jones
+      resources:
+      - title: South Coast - Rookie
+        url: https://youtu.be/-xSJGaNiAVU
+        metadata:
+          tournament: South Coast
+          level: Rookie
+          ball: Basic
+          teePosition: 1
+          clubs:
+            - name: Viper
+              level: 5
+          wind:
+            direction: N
+            magnitude: 5.7
+          keywords:
+      - title: South Coast - Pro
+        url: https://youtu.be/Vapd6eL7Ppg
+        metadata:
+          tournament: South Coast
+          level: Pro
+          ball: Titan
+          teePosition: 2
+          clubs:
+            - name: Sniper
+              level: 8
+          wind:
+            direction: NNE
+            magnitude: 5.3
+          keywords:
+      - title: South Coast - Expert
+        url: https://youtu.be/ArtXRQbt3Js
+        metadata:
+          tournament: South Coast
+          level: Expert
+          ball: King Maker
+          teePosition: 2
+          clubs:
+            - name: Sniper
+              level: 9
+          wind:
+            direction: SW
+            magnitude: 8.5
+          keywords:
+      - title: South Coast - Expert
+        url: https://youtu.be/xC_Yi5gZeI0
+        metadata:
+          tournament: South Coast
+          level: Expert
+          ball: King Maker
+          teePosition: 2
+          clubs:
+            - name: Sniper
+              level: 10
+          wind:
+            direction: SW
+            magnitude: 8.5
+          keywords:
+      - title: South Coast - Master
+        url: https://youtu.be/uRzZWgTHZHc
+        metadata:
+          tournament: South Coast
+          level: Master
+          ball: King Maker
+          teePosition: 3
+          clubs:
+            - name: Quarterback
+              level: 10
+          wind:
+            direction: SE
+            magnitude: 10.9
+          keywords:
+      - title: South Coast - Master
+        url: https://youtu.be/gP-tkgSy_EM
+        metadata:
+          tournament: South Coast
+          level: Master
+          ball: Turkey
+          teePosition: 3
+          clubs:
+            - name: Rock
+              level: 8
+          wind:
+            direction: SE
+            magnitude: 7.5
+          keywords:
     aliases:
     overlays:
   - id: daa8c5bc-93ca-491b-a8fd-8c99779362fc
@@ -82,6 +264,104 @@ holes:
       resources:
       - title: South Coast - Rookie Guide
         url: https://youtu.be/NthV9jfiY6A
+    - name: Zachary Jones
+      resources:
+      - title: South Coast - Rookie
+        url: https://youtu.be/WHeDscXBP-w
+        metadata:
+          tournament: South Coast
+          level: Rookie
+          ball: Basic
+          teePosition: 1
+          clubs:
+            - name: Quarterback
+              level: 4
+            - name: Big Dawg
+              level: 2
+          wind:
+            direction: N
+            magnitude: 4.5
+          keywords:
+      - title: South Coast - Pro
+        url: https://youtu.be/tvUqotjqOys
+        metadata:
+          tournament: South Coast
+          level: Pro
+          ball: Titan
+          teePosition: 2
+          clubs:
+            - name: Extra Mile
+              level: 6
+            - name: Sniper
+              level: 8
+          wind:
+            direction: NNW
+            magnitude: 5.2
+          keywords:
+      - title: South Coast - Expert
+        url: https://youtu.be/CYZI7P4VB8c
+        metadata:
+          tournament: South Coast
+          level: Expert
+          ball: King Maker
+          teePosition: 2
+          clubs:
+            - name: Quarterback
+              level: 9
+            - name: Sniper
+              level: 9
+          wind:
+            direction: ENE
+            magnitude: 7.1
+          keywords:
+      - title: South Coast - Expert
+        url: https://youtu.be/JgW1BS5EqbU
+        metadata:
+          tournament: South Coast
+          level: Expert
+          ball: King Maker
+          teePosition: 2
+          clubs:
+            - name: Apocalypse
+              level: 6
+            - name: Sniper
+              level: 10
+          wind:
+            direction: ENE
+            magnitude: 8.7
+          keywords:
+      - title: South Coast - Master
+        url: https://youtu.be/koqc6OgTMYE
+        metadata:
+          tournament: South Coast
+          level: Master
+          ball: King Maker
+          teePosition: 3
+          clubs:
+            - name: Apocalypse
+              level: 4
+            - name: Sniper
+              level: 10
+          wind:
+            direction: ESE
+            magnitude: 12.1
+          keywords:
+      - title: South Coast - Master
+        url: https://youtu.be/H_fKbk5NtNI
+        metadata:
+          tournament: South Coast
+          level: Master
+          ball: King Maker
+          teePosition: 3
+          clubs:
+            - name: Apocalypse
+              level: 6
+            - name: Sniper
+              level: 10
+          wind:
+            direction: ESE
+            magnitude: 11.8
+          keywords:
     - name: Jesse Both
       resources:
       - title: South Coast - Rookie Guide
@@ -103,6 +383,92 @@ holes:
       resources:
       - title: South Coast - Rookie Guide
         url: https://youtu.be/4io4HmKu3Qk
+    - name: Zachary Jones
+      resources:
+      - title: South Coast - Rookie
+        url: https://youtu.be/iTmnZ3_kTbo
+        metadata:
+          tournament: South Coast
+          level: Rookie
+          ball: Basic
+          teePosition: 1
+          clubs:
+            - name: Backbone
+              level: 5
+          wind:
+            direction: ENE
+            magnitude: 5.3
+          keywords:
+      - title: South Coast - Pro
+        url: https://youtu.be/7DMCaRmPjX0
+        metadata:
+          tournament: South Coast
+          level: Pro
+          ball: Marlin
+          teePosition: 2
+          clubs:
+            - name: Quarterback
+              level: 8
+          wind:
+            direction: WSW
+            magnitude: 8.0
+          keywords:
+      - title: South Coast - Expert
+        url: https://youtu.be/KgfbqIqNk5M
+        metadata:
+          tournament: South Coast
+          level: Expert
+          ball: King Maker
+          teePosition: 2
+          clubs:
+            - name: Sniper
+              level: 9
+          wind:
+            direction: N
+            magnitude: 8.4
+          keywords:
+      - title: South Coast - Expert
+        url: https://youtu.be/ATjgvHuxCxQ
+        metadata:
+          tournament: South Coast
+          level: Expert
+          ball: King Maker
+          teePosition: 2
+          clubs:
+            - name: Sniper
+              level: 10
+          wind:
+            direction: N
+            magnitude: 8.3
+          keywords:
+      - title: South Coast - Master
+        url: https://youtu.be/mEGPIekzr1w
+        metadata:
+          tournament: South Coast
+          level: Master
+          ball: King Maker
+          teePosition: 3
+          clubs:
+            - name: Quarterback
+              level: 10
+          wind:
+            direction: ESE
+            magnitude: 10.5
+          keywords:
+      - title: South Coast - Master
+        url: https://youtu.be/NN5WRxlfIkY
+        metadata:
+          tournament: South Coast
+          level: Master
+          ball: Bandera
+          teePosition: 3
+          clubs:
+            - name: Quarterback
+              level: 10
+          wind:
+            direction: ESE
+            magnitude: 8.6
+          keywords:
     aliases:
     overlays:
   - id: af9cf0cf-88a9-4e58-aa16-04db42da1874
@@ -122,6 +488,106 @@ holes:
         url: https://youtu.be/0gokAXqesio
     - name: Zachary Jones
       resources:
+      - title: South Coast - Rookie
+        url: https://youtu.be/BxYvn7gXsRs
+        metadata:
+          tournament: South Coast
+          level: Rookie
+          ball: Titan
+          teePosition: 1
+          clubs:
+            - name: Extra Mile
+              level: 4
+            - name: Big Dawg
+              level: 2
+            - name: Dart
+              level: 5
+          wind:
+            direction: N
+            magnitude: 4.1
+          keywords:
+      - title: South Coast - Pro
+        url: https://youtu.be/MXUltBzTS0M
+        metadata:
+          tournament: South Coast
+          level: Pro
+          ball: Titan
+          teePosition: 2
+          clubs:
+            - name: Extra Mile
+              level: 6
+            - name: Big Dawg
+              level: 6
+          wind:
+            direction: NNE
+            magnitude: 5.8
+          keywords:
+      - title: South Coast - Expert
+        url: https://youtu.be/KeXOXvhBorI
+        metadata:
+          tournament: South Coast
+          level: Expert
+          ball: King Maker
+          teePosition: 2
+          clubs:
+            - name: Extra Mile
+              level: 7
+            - name: Sniper
+              level: 9
+          wind:
+            direction: N
+            magnitude: 8.2
+          keywords:
+      - title: South Coast - Expert
+        url: https://youtu.be/xrEG-Ffuhc0
+        metadata:
+          tournament: South Coast
+          level: Expert
+          ball: King Maker
+          teePosition: 2
+          clubs:
+            - name: Apocalypse
+              level: 6
+            - name: Sniper
+              level: 10
+          wind:
+            direction: N
+            magnitude: 9.1
+          keywords:
+      - title: South Coast - Master
+        url: https://youtu.be/iBQxigZmKtI
+        metadata:
+          tournament: South Coast
+          level: Master
+          ball: King Maker
+          teePosition: 3
+          clubs:
+            - name: Apocalypse
+              level: 4
+            - name: Sniper
+              level: 10
+            - name: EndBringer
+              level: 4
+          wind:
+            direction: NNW
+            magnitude: 10.7
+          keywords:
+      - title: South Coast - Master
+        url: https://youtu.be/s4n2UfCPkRI
+        metadata:
+          tournament: South Coast
+          level: Master
+          ball: Royal
+          teePosition: 3
+          clubs:
+            - name: Apocalypse
+              level: 6
+            - name: Hammerhead
+              level: 6
+          wind:
+            direction: NNW
+            magnitude: 10.8
+          keywords:
       - title: Tour 5 - Strategy and Tips
         url: https://youtu.be/RLAgpcL18iM
         metadata:
@@ -162,6 +628,102 @@ holes:
         url: https://youtu.be/b0NelUjtEpA
     - name: Zachary Jones
       resources:
+      - title: South Coast - Rookie
+        url: https://youtu.be/4bVSvbiaGaY
+        metadata:
+          tournament: South Coast
+          level: Rookie
+          ball: Basic
+          teePosition: 1
+          clubs:
+            - name: Extra Mile
+              level: 4
+            - name: Backbone
+              level: 5
+          wind:
+            direction: ENE
+            magnitude: 6.0
+          keywords:
+      - title: South Coast - Pro
+        url: https://youtu.be/ugvijltcqH4
+        metadata:
+          tournament: South Coast
+          level: Pro
+          ball: Titan
+          teePosition: 2
+          clubs:
+            - name: Big Topper
+              level: 3
+            - name: Thorn
+              level: 6
+          wind:
+            direction: N
+            magnitude: 6.5
+          keywords:
+      - title: South Coast - Expert
+        url: https://youtu.be/OuTvVasA-Xo
+        metadata:
+          tournament: South Coast
+          level: Expert
+          ball: King Maker
+          teePosition: 2
+          clubs:
+            - name: Quarterback
+              level: 9
+            - name: Thorn
+              level: 7
+          wind:
+            direction: NW
+            magnitude: 7.7
+          keywords:
+      - title: South Coast - Expert
+        url: https://youtu.be/P0Of42sSp7c
+        metadata:
+          tournament: South Coast
+          level: Expert
+          ball: King Maker
+          teePosition: 2
+          clubs:
+            - name: Big Topper
+              level: 4
+            - name: Nirvana
+              level: 7
+          wind:
+            direction: NW
+            magnitude: 7.6
+          keywords:
+      - title: South Coast - Master
+        url: https://youtu.be/S5e4oDzX4i0
+        metadata:
+          tournament: South Coast
+          level: Master
+          ball: King Maker
+          teePosition: 3
+          clubs:
+            - name: Apocalypse
+              level: 4
+            - name: Hornet
+              level: 6
+          wind:
+            direction: W
+            magnitude: 10.9
+          keywords:
+      - title: South Coast - Master
+        url: https://youtu.be/miYIiQUHQhE
+        metadata:
+          tournament: South Coast
+          level: Master
+          ball: Royal
+          teePosition: 3
+          clubs:
+            - name: Apocalypse
+              level: 6
+            - name: Thorn
+              level: 8
+          wind:
+            direction: W
+            magnitude: 10.4
+          keywords:
       - title: Tour 5 - Strategy and Tips
         url: https://youtu.be/THHoRaB2w3s
         metadata:
@@ -217,6 +779,90 @@ holes:
         url: https://youtu.be/072v-BJUiGw
     - name: Zachary Jones
       resources:
+      - title: South Coast - Rookie
+        url: https://youtu.be/SHtxV0pT4fI
+        metadata:
+          tournament: South Coast
+          level: Rookie
+          ball: Basic
+          teePosition: 1
+          clubs:
+            - name: Viper
+              level: 5
+          wind:
+            direction: E
+            magnitude: 4.0
+          keywords:
+      - title: South Coast - Pro
+        url: https://youtu.be/9lCabLufSiI
+        metadata:
+          tournament: South Coast
+          level: Pro
+          ball: Quasar
+          teePosition: 2
+          clubs:
+            - name: Sniper
+              level: 8
+          wind:
+            direction: NW
+            magnitude: 7.3
+          keywords:
+      - title: South Coast - Expert
+        url: https://youtu.be/-oS756Qthtw
+        metadata:
+          tournament: South Coast
+          level: Expert
+          ball: King Maker
+          teePosition: 2
+          clubs:
+            - name: Quarterback
+              level: 9
+          wind:
+            direction: SW
+            magnitude: 8.4
+          keywords:
+      - title: South Coast - Expert
+        url: https://youtu.be/dHQNzAkuiOE
+        metadata:
+          tournament: South Coast
+          level: Expert
+          ball: King Maker
+          teePosition: 2
+          clubs:
+            - name: Quarterback
+              level: 10
+          wind:
+            direction: SW
+            magnitude: 8.2
+          keywords:
+      - title: South Coast - Master
+        url: https://youtu.be/frLnSK1P4kY
+        metadata:
+          tournament: South Coast
+          level: Master
+          ball: King Maker
+          teePosition: 3
+          clubs:
+            - name: Quarterback
+              level: 10
+          wind:
+            direction: ENE
+            magnitude: 12.1
+          keywords:
+      - title: South Coast - Master
+        url: https://youtu.be/IsDG6eAQRHE
+        metadata:
+          tournament: South Coast
+          level: Master
+          ball: Bandera
+          teePosition: 3
+          clubs:
+            - name: Quarterback
+              level: 10
+          wind:
+            direction: ENE
+            magnitude: 8.2
+          keywords:
       - title: Tour 5 - Strategy and Tips
         url: https://youtu.be/pFvkSTOr554
         metadata:
@@ -262,6 +908,102 @@ holes:
         url: https://youtu.be/SDFWfIarZAE
     - name: Zachary Jones
       resources:
+      - title: South Coast - Rookie
+        url: https://youtu.be/5uV6VQ09zEE
+        metadata:
+          tournament: South Coast
+          level: Rookie
+          ball: Basic
+          teePosition: 1
+          clubs:
+            - name: Quarterback
+              level: 4
+            - name: Big Dawg
+              level: 2
+          wind:
+            direction: N
+            magnitude: 5.6
+          keywords:
+      - title: South Coast - Pro
+        url: https://youtu.be/X72VSUfDRgM
+        metadata:
+          tournament: South Coast
+          level: Pro
+          ball: Titan
+          teePosition: 2
+          clubs:
+            - name: Extra Mile
+              level: 6
+            - name: Nirvana
+              level: 5
+          wind:
+            direction: NE
+            magnitude: 7.5
+          keywords:
+      - title: South Coast - Expert
+        url: https://youtu.be/S13PtnV77bI
+        metadata:
+          tournament: South Coast
+          level: Expert
+          ball: King Maker
+          teePosition: 2
+          clubs:
+            - name: Quarterback
+              level: 9
+            - name: Sniper
+              level: 9
+          wind:
+            direction: ESE
+            magnitude: 7.1
+          keywords:
+      - title: South Coast - Expert
+        url: https://youtu.be/QSdGaBJYA3I
+        metadata:
+          tournament: South Coast
+          level: Expert
+          ball: King Maker
+          teePosition: 2
+          clubs:
+            - name: Apocalypse
+              level: 6
+            - name: Spitfire
+              level: 5
+          wind:
+            direction: ESE
+            magnitude: 8.7
+          keywords:
+      - title: South Coast - Master
+        url: https://youtu.be/GPLD59N-cNg
+        metadata:
+          tournament: South Coast
+          level: Master
+          ball: King Maker
+          teePosition: 3
+          clubs:
+            - name: Apocalypse
+              level: 4
+            - name: Sniper
+              level: 10
+          wind:
+            direction: WSW
+            magnitude: 12.3
+          keywords:
+      - title: South Coast - Master
+        url: https://youtu.be/ggeeXo8I7zQ
+        metadata:
+          tournament: South Coast
+          level: Master
+          ball: Royal
+          teePosition: 3
+          clubs:
+            - name: Apocalypse
+              level: 6
+            - name: Spitfire
+              level: 6
+          wind:
+            direction: WSW
+            magnitude: 11.2
+          keywords:
       - title: Tour 5 - Strategy and tips
         url: https://youtu.be/mGVIlVLL2jo
         metadata:
@@ -315,6 +1057,104 @@ holes:
         url: https://youtu.be/efyWR1vnkbg
     - name: Zachary Jones
       resources:
+      - title: South Coast - Rookie
+        url: https://youtu.be/CebIv33r7EA
+        metadata:
+          tournament: South Coast
+          level: Rookie
+          ball: Marlin
+          teePosition: 1
+          clubs:
+            - name: Extra Mile
+              level: 4
+            - name: Big Dawg
+              level: 2
+          wind:
+            direction: NE
+            magnitude: 4.3
+          keywords:
+      - title: South Coast - Pro
+        url: https://youtu.be/Bf69Pv-7OxY
+        metadata:
+          tournament: South Coast
+          level: Pro
+          ball: Titan
+          teePosition: 2
+          clubs:
+            - name: Quarterback
+              level: 8
+            - name: Sniper
+              level: 8
+          wind:
+            direction: NNW
+            magnitude: 7.2
+          keywords:
+      - title: South Coast - Expert
+        url: https://youtu.be/VyNz_PT8Xxc
+        metadata:
+          tournament: South Coast
+          level: Expert
+          ball: King Maker
+          teePosition: 2
+          clubs:
+            - name: Quarterback
+              level: 9
+            - name: Sniper
+              level: 9
+          wind:
+            direction: N
+            magnitude: 8.5
+          keywords:
+      - title: South Coast - Expert
+        url: https://youtu.be/HrcfsOhJMX4
+        metadata:
+          tournament: South Coast
+          level: Expert
+          ball: Titan
+          teePosition: 2
+          clubs:
+            - name: Apocalypse
+              level: 6
+            - name: Amazon
+              level: 5
+          wind:
+            direction: N
+            magnitude: 8.9
+          keywords:
+      - title: South Coast - Master
+        url: https://youtu.be/E2dWBjpf0vc
+        metadata:
+          tournament: South Coast
+          level: Master
+          ball: King Maker
+          teePosition: 3
+          clubs:
+            - name: Apocalypse
+              level: 4
+            - name: Sniper
+              level: 10
+            - name: Spitfire
+              level: 5
+          wind:
+            direction: NW
+            magnitude: 11.7
+          keywords:
+      - title: South Coast - Master
+        url: https://youtu.be/F3F_IAl3nQ8
+        metadata:
+          tournament: South Coast
+          level: Master
+          ball: Blue Marble
+          teePosition: 3
+          clubs:
+            - name: Apocalypse
+              level: 6
+            - name: Nirvana
+              level: 8
+          wind:
+            direction: NW
+            magnitude: 14.5
+          keywords:
       - title: Tour 5 - Strategy and Tips
         url: https://youtu.be/mxnlRCGQ6R4
         metadata:
