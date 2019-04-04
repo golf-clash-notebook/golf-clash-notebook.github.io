@@ -9,6 +9,8 @@ resourceCreators:
       url: https://youtu.be/MkdBQS0muTc
     - title: Expert Playthrough - Tournament Wind
       url: https://youtu.be/AEsWI-aLanw
+    - title: Master Playthrough - Tournament Wind
+      url: https://youtu.be/K27Bgc5jNnk
     - title: Rookie Playthrough
       url: https://youtu.be/iNTJckyqDdg
     - title: Club Guide
@@ -19,6 +21,8 @@ resourceCreators:
     resources:
     - title: Rookie Playthrough - Tournament Wind
       url: https://youtu.be/iUjAf0_Yftk
+    - title: Pro Playthrough - Tournament Wind
+      url: https://youtu.be/rZoxURNGf5Y
     - title: Rookie Guide
       url: https://youtu.be/9FvIfDQkDZg
   - name: ItsRJTV
