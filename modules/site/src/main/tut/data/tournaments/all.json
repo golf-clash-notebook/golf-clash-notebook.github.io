@@ -4,6 +4,8 @@ layout: null
 
 [
   {% for tournament in site.data.tournaments %}
-    {{ tournament[1] | jsonify }}{% if forloop.rindex > 1 %},{% endif %}
+    {% if tournament[1].hidden == undefined %}
+      {{ tournament[1] | jsonify }}{% if forloop.rindex > 1 %},{% endif %}
+    {% endif %}
   {% endfor %}
 ]
