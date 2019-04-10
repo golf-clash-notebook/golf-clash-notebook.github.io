@@ -640,3 +640,19 @@ page_gen:
     extra:
       title-prefix: 'South Coast Tournament - Hole '
       tournamentName: 'South Coast'
+  # - index_files: true
+  #   data: 'tournaments.SouthernPines9HoleCup.holes'
+  #   template: '_includes/tournaments/hole-template.liquid'
+  #   name: 'number'
+  #   dir: 'tournaments/SouthernPines9HoleCup'
+  #   extra:
+  #     title-prefix: 'Southern Pines 9 Hole Cup Tournament - Hole '
+  #     tournamentName: 'Southern Pines 9 Hole Cup'
+  - index_files: true
+    data: 'tournaments.EasterOpen.holes'
+    template: '_includes/tournaments/hole-template.liquid'
+    name: 'number'
+    dir: 'tournaments/EasterOpen'
+    extra:
+      title-prefix: 'Easter Open Tournament - Hole '
+      tournamentName: 'Easter Open'

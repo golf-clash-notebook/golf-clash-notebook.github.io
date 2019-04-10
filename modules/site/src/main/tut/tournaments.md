@@ -12,7 +12,9 @@ position: 10
 
     {% capture dateAndKeys %}
       {% for tag in site.data.tournaments %}
-        {{ tag[1].date }}:{{ tag[0] }}
+        {% if tag[1].hidden == undefined %}
+          {{ tag[1].date }}:{{ tag[0] }}
+        {% endif %}
       {% endfor %}
     {% endcapture %}
 
