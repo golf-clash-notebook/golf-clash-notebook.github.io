@@ -578,6 +578,10 @@ holes:
               direction: N
               magnitude: 15.5
             keywords:
+      - name: Jesse Both
+        resources:
+        - title: Easter Open - Rookie
+          url: https://youtu.be/YbDtD_kXvGQ
     aliases:
       - 99374ec0-978d-47d2-9eb6-ec1cdb1d1f57
     overlays:
@@ -2092,6 +2096,10 @@ holes:
                 direction: N
                 magnitude: 13.4
               keywords:
+      - name: Jesse Both
+        resources:
+        - title: Easter Open - Rookie
+          url: https://youtu.be/bouYNoJsMM8
     aliases:
       - 035550dd-8da2-42af-b69b-677249421db5
     overlays:
@@ -2608,6 +2616,10 @@ holes:
               magnitude: 13.9
             keywords:
               - Rough bump
+      - name: Jesse Both
+        resources:
+        - title: Easter Open - Rookie
+          url: https://youtu.be/y0v5BHlRZiM
     aliases:
       - f69eaec7-1010-4489-88c2-40dbc8ed2e40
     overlays:

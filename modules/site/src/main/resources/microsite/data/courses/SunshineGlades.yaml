@@ -509,6 +509,10 @@ holes:
               direction: SW
               magnitude: 9.9
             keywords:
+      - name: Jesse Both
+        resources:
+        - title: Easter Open - Rookie
+          url: https://youtu.be/9GiB4wmN6pQ
     aliases:
       - 21f404c6-731c-4f6b-beb6-fb84ea7038f6
   - id: 403da63f-9e6f-4a4a-b17d-cc5cacce7bcb
@@ -1692,6 +1696,10 @@ holes:
               direction: NE
               magnitude: 10.4
             keywords:
+      - name: Jesse Both
+        resources:
+        - title: Easter Open - Rookie
+          url: https://youtu.be/7plfHZ2IH2c
       - name: Kevin Warren
         resources:
         - title: Rookie
@@ -2614,6 +2622,10 @@ holes:
               direction: ENE
               magnitude: 9.6
             keywords:
+      - name: Jesse Both
+        resources:
+        - title: Easter Open - Rookie
+          url: https://youtu.be/ucCCOvNPi-4
     aliases:
       - 2ddb097d-59c4-4d41-9311-4e6603a933c5
   - id: 7d665400-73e6-4716-9655-63f8fe8b8956
@@ -2819,5 +2831,9 @@ holes:
               direction: NW
               magnitude: 11.6
             keywords:
+      - name: Jesse Both
+        resources:
+        - title: Easter Open - Rookie
+          url: https://youtu.be/jTpK7YnwqMo
     aliases:
       - 68e49827-efb0-4926-aec0-99b0a6e16ccb
