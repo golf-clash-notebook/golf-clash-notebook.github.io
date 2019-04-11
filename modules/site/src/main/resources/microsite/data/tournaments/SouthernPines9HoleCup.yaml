@@ -1,7 +1,12 @@
 tournamentName: Southern Pines 9 Hole Cup
 date: '2019-04-11'
-hidden: true
 resourceCreators:
+  - name: Golf Clash Tommy
+    resources:
+    - title: Rookie Playthrough - Tournament Wind
+      url: https://youtu.be/ETQkG3g7cM8
+    - title: Pro Playthrough - Tournament Wind
+      url: https://youtu.be/Qt1Z27s9_NI
 holes:
   - number: 1
     id: c6e85c42-f3f2-4baa-ab54-65b2a17eea75
