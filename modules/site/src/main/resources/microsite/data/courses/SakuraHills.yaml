@@ -933,6 +933,7 @@ holes:
               <circle cx="201" cy="189" r="6" fill="white" class="guide-point" data-guide-segment="1" />
               <circle cx="302" cy="104" r="6" fill="white" class="guide-point" data-guide-segment="2" />
   - id: 2fe001cd-916c-4309-a941-f06033af2383
+    current-tournament: true
     course: Sakura Hills
     number: 4
     par: 5
@@ -2441,7 +2442,6 @@ holes:
               <circle cx="203" cy="745" r="6" fill="black" class="guide-point" data-guide-segment="0" />
               <circle cx="183" cy="234" r="6" fill="black" class="guide-point" data-guide-segment="1" />
   - id: d8d0764c-8275-4bdf-9f02-09d3c5edbe90
-    current-tournament: true
     course: Sakura Hills
     number: 9
     par: 5

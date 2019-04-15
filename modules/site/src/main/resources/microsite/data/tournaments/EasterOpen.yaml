@@ -1,6 +1,22 @@
 tournamentName: Easter Open
 date: '2019-04-15'
 resourceCreators:
+  - name: Golf Clash Tommy
+    resources:
+    - title: Rookie Playthrough - Tournament Wind
+      url: https://youtu.be/cGBiIInBA68
+    - title: Pro Playthrough - Tournament Wind
+      url: https://youtu.be/1NKQNDEMpCs
+    - title: Expert Playthrough - Tournament Wind
+      url: https://youtu.be/mMU-ShwRtkE
+    - title: Text Guides
+      url: https://imgur.com/gallery/FiJ0c8L
+  - name: Jesse Both
+    resources:
+    - title: Rookie Guide
+      url: https://youtu.be/xfWEHYwszKY
+    - title: Pro & Expert Guide
+      url: https://youtu.be/d0BvLw43bo0
 holes:
   - number: 1
     id: 78852573-8b79-49e7-999a-e7a20b220baf
@@ -11,7 +27,7 @@ holes:
   - number: 4
     id: 361c1105-b234-4760-887b-5f0f516807ed
   - number: 5
-    id: d8d0764c-8275-4bdf-9f02-09d3c5edbe90
+    id: 2fe001cd-916c-4309-a941-f06033af2383
   - number: 6
     id: 1658565e-d219-4a46-844c-97c7f98e66b4
   - number: 7
