@@ -476,6 +476,102 @@ holes:
           url: https://i.imgur.com/Gsl2Nan.jpg
       - name: Zachary Jones
         resources:
+        - title: Easter Open - Rookie
+          url: https://youtu.be/CN1847HPvs8
+          metadata:
+            tournament: Easter Open
+            level: Rookie
+            ball: Quasar
+            teePosition: 1
+            clubs:
+              - name: Extra Mile
+                level: 4
+              - name: Viper
+                level: 6
+            wind:
+              direction: N
+              magnitude: 2.7
+            keywords:
+        - title: Easter Open - Pro
+          url: https://youtu.be/EVH-RjW64JQ
+          metadata:
+            tournament: Easter Open
+            level: Pro
+            ball: Titan
+            teePosition: 2
+            clubs:
+              - name: Quarterback
+                level: 9
+              - name: Sniper
+                level: 9
+            wind:
+              direction: NNE
+              magnitude: 7.0
+            keywords:
+        - title: Easter Open - Expert
+          url: https://youtu.be/KsxqgOAQDkk
+          metadata:
+            tournament: Easter Open
+            level: Expert
+            ball: King Maker
+            teePosition: 2
+            clubs:
+              - name: Apocalypse
+                level: 4
+              - name: Sniper
+                level: 10
+            wind:
+              direction: N
+              magnitude: 7.6
+            keywords:
+        - title: Easter Open - Expert
+          url: https://youtu.be/k-rp7guRi8M
+          metadata:
+            tournament: Easter Open
+            level: Expert
+            ball: Berserker
+            teePosition: 2
+            clubs:
+              - name: Apocalypse
+                level: 6
+              - name: Houdini
+                level: 7
+            wind:
+              direction: N
+              magnitude: 9.9
+            keywords:
+        - title: Easter Open - Master
+          url: https://youtu.be/w_QVPZLVK88
+          metadata:
+            tournament: Easter Open
+            level: Master
+            ball: King Maker
+            teePosition: 3
+            clubs:
+              - name: Apocalypse
+                level: 6
+              - name: Sniper
+                level: 10
+            wind:
+              direction: WNW
+              magnitude: 11.6
+            keywords:
+        - title: Easter Open - Master
+          url: https://youtu.be/H_xrq-nbjeQ
+          metadata:
+            tournament: Easter Open
+            level: Master
+            ball: King Maker
+            teePosition: 3
+            clubs:
+              - name: Apocalypse
+                level: 7
+              - name: Sniper
+                level: 10
+            wind:
+              direction: WNW
+              magnitude: 11.6
+            keywords:
         - title: Tour 8 - Tailwind Drive Tips
           url: https://youtu.be/uDDuyXX5NGQ
           metadata:
@@ -1046,6 +1142,106 @@ holes:
           url: https://i.imgur.com/fCV5mkl.jpg
       - name: Zachary Jones
         resources:
+        - title: Easter Open - Rookie
+          url: https://youtu.be/9f5pQCMdwSI
+          metadata:
+            tournament: Easter Open
+            level: Rookie
+            ball: Titan
+            teePosition: 1
+            clubs:
+              - name: Extra Mile
+                level: 4
+              - name: Big Dawg
+                level: 4
+              - name: Dart
+                level: 6
+            wind:
+              direction: N
+              magnitude: 3.7
+            keywords:
+        - title: Easter Open - Pro
+          url: https://youtu.be/jkNuC6xtw08
+          metadata:
+            tournament: Easter Open
+            level: Pro
+            ball: Titan
+            teePosition: 2
+            clubs:
+              - name: Extra Mile
+                level: 6
+              - name: Big Dawg
+                level: 6
+            wind:
+              direction: N
+              magnitude: 6.5
+            keywords:
+        - title: Easter Open - Expert
+          url: https://youtu.be/GRv7lhd3hic
+          metadata:
+            tournament: Easter Open
+            level: Expert
+            ball: Titan
+            teePosition: 2
+            clubs:
+              - name: Apocalypse
+                level: 4
+              - name: Big Dawg
+                level: 7
+            wind:
+              direction: NNE
+              magnitude: 9.8
+            keywords:
+        - title: Easter Open - Expert
+          url: https://youtu.be/nKh_JX6a5Os
+          metadata:
+            tournament: Easter Open
+            level: Expert
+            ball: Berserker
+            teePosition: 2
+            clubs:
+              - name: Apocalypse
+                level: 6
+              - name: Guardian
+                level: 8
+            wind:
+              direction: NNE
+              magnitude: 10.8
+            keywords:
+        - title: Easter Open - Master
+          url: https://youtu.be/k6mUVXizQDk
+          metadata:
+            tournament: Easter Open
+            level: Master
+            ball: Berserker
+            teePosition: 3
+            clubs:
+              - name: Apocalypse
+                level: 6
+              - name: Cataclysm
+                level: 6
+              - name: EndBringer
+                level: 6
+            wind:
+              direction: NW
+              magnitude: 14.9
+            keywords:
+        - title: Easter Open - Master
+          url: https://youtu.be/2BfxWO5QM2E
+          metadata:
+            tournament: Easter Open
+            level: Master
+            ball: Berserker
+            teePosition: 3
+            clubs:
+              - name: Apocalypse
+                level: 7
+              - name: Guardian
+                level: 8
+            wind:
+              direction: NW
+              magnitude: 15.1
+            keywords:
         - title: Tour 8 - Strategy and Tips for Eagle
           url: https://youtu.be/ywCoPVyR6k8
           metadata:
@@ -1613,6 +1809,102 @@ holes:
           url: https://i.imgur.com/MgaU31s.jpg
       - name: Zachary Jones
         resources:
+        - title: Easter Open - Rookie
+          url: https://youtu.be/IoDnEEnSED8
+          metadata:
+            tournament: Easter Open
+            level: Rookie
+            ball: Titan
+            teePosition: 1
+            clubs:
+              - name: Extra Mile
+                level: 4
+              - name: Backbone
+                level: 6
+            wind:
+              direction: N
+              magnitude: 3.2
+            keywords:
+        - title: Easter Open - Pro
+          url: https://youtu.be/oPZT-5BmoDw
+          metadata:
+            tournament: Easter Open
+            level: Pro
+            ball: Titan
+            teePosition: 2
+            clubs:
+              - name: Quarterback
+                level: 9
+              - name: Sniper
+                level: 9
+            wind:
+              direction: NNE
+              magnitude: 5.4
+            keywords:
+        - title: Easter Open - Expert
+          url: https://youtu.be/KIFnIePb6j8
+          metadata:
+            tournament: Easter Open
+            level: Expert
+            ball: King Maker
+            teePosition: 2
+            clubs:
+              - name: Apocalypse
+                level: 4
+              - name: B52
+                level: 5
+            wind:
+              direction: NW
+              magnitude: 7.2
+            keywords:
+        - title: Easter Open - Expert
+          url: https://youtu.be/OzDqifx65zw
+          metadata:
+            tournament: Easter Open
+            level: Expert
+            ball: Titan
+            teePosition: 2
+            clubs:
+              - name: Apocalypse
+                level: 6
+              - name: Machete
+                level: 10
+            wind:
+              direction: NW
+              magnitude: 8.5
+            keywords:
+        - title: Easter Open - Master
+          url: https://youtu.be/ErpyAKJNO6w
+          metadata:
+            tournament: Easter Open
+            level: Master
+            ball: King Maker
+            teePosition: 3
+            clubs:
+              - name: Apocalypse
+                level: 6
+              - name: Cataclysm
+                level: 6
+            wind:
+              direction: SE
+              magnitude: 10.4
+            keywords:
+        - title: Easter Open - Master
+          url: https://youtu.be/xCxJdwQNtmk
+          metadata:
+            tournament: Easter Open
+            level: Master
+            ball: King Maker
+            teePosition: 3
+            clubs:
+              - name: Apocalypse
+                level: 7
+              - name: Cataclysm
+                level: 7
+            wind:
+              direction: SE
+              magnitude: 12.3
+            keywords:
         - title: Mountain - Rookie
           url: https://youtu.be/qwxnz35IUWQ
           metadata:
@@ -1993,6 +2285,104 @@ holes:
         # url: https://youtu.be/JxhbMrKO5UY
       - name: Zachary Jones
         resources:
+          - title: Easter Open - Rookie
+            url: https://youtu.be/9a7uQFbO3X0
+            metadata:
+              tournament: Easter Open
+              level: Rookie
+              ball: Quasar
+              teePosition: 1
+              clubs:
+                - name: Quarterback
+                  level: 5
+                - name: Apache
+                  level: 4
+                - name: Dart
+                  level: 6
+              wind:
+                direction: NE
+                magnitude: 4.2
+              keywords:
+          - title: Easter Open - Pro
+            url: https://youtu.be/c1cn76sXDxg
+            metadata:
+              tournament: Easter Open
+              level: Pro
+              ball: Titan
+              teePosition: 2
+              clubs:
+                - name: Extra Mile
+                  level: 6
+                - name: Thorn
+                  level: 6
+              wind:
+                direction: NW
+                magnitude: 7.5
+              keywords:
+          - title: Easter Open - Expert
+            url: https://youtu.be/g0ZYdQSeaH4
+            metadata:
+              tournament: Easter Open
+              level: Expert
+              ball: King Maker
+              teePosition: 2
+              clubs:
+                - name: Apocalypse
+                  level: 4
+                - name: Nirvana
+                  level: 6
+              wind:
+                direction: SW
+                magnitude: 9.1
+              keywords:
+          - title: Easter Open - Expert
+            url: https://youtu.be/lzOfj2ytLEw
+            metadata:
+              tournament: Easter Open
+              level: Expert
+              ball: King Maker
+              teePosition: 2
+              clubs:
+                - name: Apocalypse
+                  level: 6
+                - name: Thorn
+                  level: 8
+              wind:
+                direction: SW
+                magnitude: 7.4
+              keywords:
+          - title: Easter Open - Master
+            url: https://youtu.be/8HS_gBuYRQQ
+            metadata:
+              tournament: Easter Open
+              level: Master
+              ball: King Maker
+              teePosition: 3
+              clubs:
+                - name: Quarterback
+                  level: 10
+                - name: Nirvana
+                  level: 8
+              wind:
+                direction: SE
+                magnitude: 10.5
+              keywords:
+          - title: Easter Open - Master
+            url: https://youtu.be/rm8i5IA3ry8
+            metadata:
+              tournament: Easter Open
+              level: Master
+              ball: King Maker
+              teePosition: 3
+              clubs:
+                - name: Apocalypse
+                  level: 7
+                - name: Tsunami
+                  level: 7
+              wind:
+                direction: SE
+                magnitude: 11.6
+              keywords:
           - title: Tour 8 - Tips for Backspin Eagle Shot
             url: https://youtu.be/TfbPQMoySjI
             metadata:
@@ -2241,6 +2631,90 @@ holes:
             published: 1541685595000
             generalInstruction: true
             teePosition: 2
+        - title: Easter Open - Rookie
+          url: https://youtu.be/5SAciPtGeJ8
+          metadata:
+            tournament: Easter Open
+            level: Rookie
+            ball: Marlin
+            teePosition: 1
+            clubs:
+              - name: Backbone
+                level: 6
+            wind:
+              direction: NE
+              magnitude: 3.9
+            keywords:
+        - title: Easter Open - Pro
+          url: https://youtu.be/gOn39KlLwDQ
+          metadata:
+            tournament: Easter Open
+            level: Pro
+            ball: Titan
+            teePosition: 2
+            clubs:
+              - name: Backbone
+                level: 9
+            wind:
+              direction: SW
+              magnitude: 7.5
+            keywords:
+        - title: Easter Open - Expert
+          url: https://youtu.be/bt67js5U-ps
+          metadata:
+            tournament: Easter Open
+            level: Expert
+            ball: King Maker
+            teePosition: 2
+            clubs:
+              - name: B52
+                level: 5
+            wind:
+              direction: WNW
+              magnitude: 7.8
+            keywords:
+        - title: Easter Open - Expert
+          url: https://youtu.be/wHXcxN07V90
+          metadata:
+            tournament: Easter Open
+            level: Expert
+            ball: King Maker
+            teePosition: 2
+            clubs:
+              - name: B52
+                level: 5
+            wind:
+              direction: WNW
+              magnitude: 8.7
+            keywords:
+        - title: Easter Open - Master
+          url: https://youtu.be/0RVS6qU-xD8
+          metadata:
+            tournament: Easter Open
+            level: Master
+            ball: King Maker
+            teePosition: 3
+            clubs:
+              - name: Sniper
+                level: 10
+            wind:
+              direction: SSW
+              magnitude: 12.2
+            keywords:
+        - title: Easter Open - Master
+          url: https://youtu.be/8pPuba-Qgh8
+          metadata:
+            tournament: Easter Open
+            level: Master
+            ball: King Maker
+            teePosition: 3
+            clubs:
+              - name: Sniper
+                level: 10
+            wind:
+              direction: SSW
+              magnitude: 11.7
+            keywords:
         - title: Tour 8 Shootout
           url: https://youtu.be/2pk5l7SEOlY?t=4m3s
           metadata:
