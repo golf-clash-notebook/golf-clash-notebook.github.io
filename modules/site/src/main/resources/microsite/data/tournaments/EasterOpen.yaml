@@ -15,6 +15,12 @@ resourceCreators:
       url: https://imgur.com/gallery/FiJ0c8L
   - name: Jesse Both
     resources:
+    - title: Rookie Playthrough
+      url: https://youtu.be/ZUA7OL8z9rs
+    - title: Pro Playthrough
+      url: https://youtu.be/nGMqWbGZBl0
+    - title: Expert Playthrough
+      url: https://youtu.be/4vPYgtOtiig
     - title: Rookie Guide
       url: https://youtu.be/xfWEHYwszKY
     - title: Pro & Expert Guide

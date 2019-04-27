@@ -2,7 +2,6 @@ courseName: Sunshine Glades
 skinned: false
 holes:
   - id: 78852573-8b79-49e7-999a-e7a20b220baf
-    current-tournament: true
     course: Sunshine Glades
     number: 1
     par: 4
@@ -780,6 +779,7 @@ holes:
     aliases:
       - 91e0b426-4747-4351-827e-7eb721a77f13
   - id: ceec18c9-cda1-436d-bdb1-1f2454b46436
+    current-tournament: true
     course: Sunshine Glades
     number: 3
     par: 5
@@ -870,6 +870,10 @@ holes:
     resourceCreators:
       - name: Golf Clash Tommy
         resources:
+        - title: Tropic Kings - Rookie Guide
+          url: https://youtu.be/DhwwURga9_8
+        - title: Tropic Kings - Pro & Expert Guide
+          url: https://youtu.be/2uDhZYWzdsA
         - title: Tour 7 Guide
           url: https://youtu.be/UM8gAMu5kYE
         - title: Ghostly Glades - Rookie
@@ -1210,7 +1214,6 @@ holes:
     aliases:
       - e419e731-7c51-4a85-9646-24ce271d75d2
   - id: f30c2f43-c8dc-4762-bc7b-77b6d196d0e2
-    current-tournament: true
     course: Sunshine Glades
     number: 5
     par: 3
@@ -2622,7 +2625,6 @@ holes:
     aliases:
       - c664e881-a81b-4a3a-9927-12919caab72e
   - id: 1658565e-d219-4a46-844c-97c7f98e66b4
-    current-tournament: true
     course: Sunshine Glades
     number: 8
     par: 3
@@ -2887,7 +2889,6 @@ holes:
     aliases:
       - 2ddb097d-59c4-4d41-9311-4e6603a933c5
   - id: 7d665400-73e6-4716-9655-63f8fe8b8956
-    current-tournament: true
     course: Sunshine Glades
     number: 9
     par: 5

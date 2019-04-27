@@ -237,6 +237,7 @@ holes:
               <circle cx="166" cy="225" r="6" fill="white" class="guide-point" data-guide-segment="1" />
               <circle cx="233" cy="126" r="6" fill="white" class="guide-point" data-guide-segment="2" />
   - id: 30a00d7f-7319-473d-8156-d3f933f853e4
+    current-tournament: true
     course: Santa Ventura
     number: 2
     par: 3
@@ -313,6 +314,10 @@ holes:
     resourceCreators:
       - name: Golf Clash Tommy
         resources:
+        - title: Tropic Kings - Rookie Guide
+          url: https://youtu.be/IY3gGXOUSok
+        - title: Tropic Kings - Pro & Expert Guide
+          url: https://youtu.be/YVa59xyqQA8
         - title: Tour 7 Guide
           url: https://youtu.be/slM65nLjA0A
         - title: Rookie Guide
@@ -1277,6 +1282,7 @@ holes:
               <circle cx="186" cy="245" r="6" fill="white" class="guide-point" data-guide-segment="1" />
               <circle cx="188" cy="203" r="6" fill="white" class="guide-point" data-guide-segment="2" />
   - id: f9a598d5-e52b-476c-8e38-a8cb4bd7f76e
+    current-tournament: true
     course: Santa Ventura
     number: 5
     par: 5
@@ -1374,6 +1380,10 @@ holes:
     resourceCreators:
       - name: Golf Clash Tommy
         resources:
+        - title: Tropic Kings - Rookie Guide
+          url: https://youtu.be/O0xjMx_NFSc
+        - title: Tropic Kings - Pro & Expert Guide
+          url: https://youtu.be/aotfqh1SyBw
         - title: Voyager - Rookie
           url: https://youtu.be/7O-TT05OP-4
         - title: Voyager - Pro / Expert
@@ -1759,6 +1769,7 @@ holes:
               <circle cx="343" cy="459" r="6" fill="white" class="guide-point" data-guide-segment="1" />
               <circle cx="204" cy="139" r="6" fill="white" class="guide-point" data-guide-segment="2" />
   - id: be8071a9-f4a3-4dcf-aaba-b3adf94fdafa
+    current-tournament: true
     course: Santa Ventura
     number: 6
     par: 4
@@ -1824,6 +1835,10 @@ holes:
     resourceCreators:
       - name: Golf Clash Tommy
         resources:
+        - title: Tropic Kings - Rookie Guide
+          url: https://youtu.be/-LdSA8ef0pI
+        - title: Tropic Kings - Pro & Expert Guide
+          url: https://youtu.be/a8wbe11FhdM
         - title: Rookie Guide - Gridiron
           url: https://youtu.be/2kfPMdr6x5I
         - title: Pro & Expert Guide - Gridiron
@@ -3025,6 +3040,7 @@ holes:
               <circle cx="82" cy="251" r="6" fill="blue" class="guide-point" data-guide-segment="1" />
               <circle cx="201" cy="76" r="6" fill="blue" class="guide-point" data-guide-segment="2" />
   - id: 0e418963-9399-4d7b-b7ec-a5af5318e75d
+    current-tournament: true
     course: Santa Ventura
     number: 9
     par: 5
@@ -3198,6 +3214,10 @@ holes:
     resourceCreators:
       - name: Golf Clash Tommy
         resources:
+        - title: Tropic Kings - Rookie Guide
+          url: https://youtu.be/UzENr-_bBew
+        - title: Tropic Kings - Pro & Expert Guide
+          url: https://youtu.be/XPrvJRa05BQ
         - title: Rookie Guide - Gridiron
           url: https://youtu.be/-KrgK8xJwo8
         - title: Pro & Expert Guide - Gridiron
