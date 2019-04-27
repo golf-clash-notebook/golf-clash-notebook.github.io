@@ -1,0 +1,34 @@
+tournamentName: Tropic Kings
+date: '2019-04-29'
+resourceCreators:
+  - name: Golf Clash Tommy
+    resources:
+    - title: Rookie Playthrough
+      url: https://youtu.be/ZqkCCRvq49k
+    - title: Pro & Expert Playthrough
+      url: https://youtu.be/HOV-zjhBubw
+  - name: Jesse Both
+    resources:
+    - title: Rookie Guide
+      url: https://youtu.be/fAqYopEw_hM
+    - title: Pro & Expert Guide
+      url: https://youtu.be/d0BvLw43bo0
+holes:
+  - number: 1
+    id: 33ef32c9-c4f7-4b76-a1b2-308087d173d6
+  - number: 2
+    id: 02e6cf86-01d0-4da0-aec1-cb2ee25c49ce
+  - number: 3
+    id: ceec18c9-cda1-436d-bdb1-1f2454b46436
+  - number: 4
+    id: 30a00d7f-7319-473d-8156-d3f933f853e4
+  - number: 5
+    id: f9a598d5-e52b-476c-8e38-a8cb4bd7f76e
+  - number: 6
+    id: be8071a9-f4a3-4dcf-aaba-b3adf94fdafa
+  - number: 7
+    id: ef1b5866-306c-4a68-aa35-e385558a6889
+  - number: 8
+    id: d930d568-3f38-4b7f-bf9f-7b40f41cafaa
+  - number: 9
+    id: 0e418963-9399-4d7b-b7ec-a5af5318e75d

@@ -656,3 +656,11 @@ page_gen:
     extra:
       title-prefix: 'Easter Open Tournament - Hole '
       tournamentName: 'Easter Open'
+  - index_files: true
+    data: 'tournaments.TropicKings.holes'
+    template: '_includes/tournaments/hole-template.liquid'
+    name: 'number'
+    dir: 'tournaments/TropicKings'
+    extra:
+      title-prefix: 'Tropic Kings Tournament - Hole '
+      tournamentName: 'Tropic Kings'
