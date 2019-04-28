@@ -27,9 +27,7 @@
         </a>
       </div>
       <div class="list-group-item news-announcement" style="display: flex; align-items: center; justify-content: space-evenly;">
-        <button class="btn btn-link text-white font-900 pad-0" data-toggle="modal" data-target="#app-annoucement-modal">
-          Important App Announcment
-        </button>
+        <a class="btn btn-link text-white font-900 pad-0" href="/overlay-post-mortem/">Updated App Announcment</a>
       </div>
       {% for newsKey in newsKeyArray limit: 3 %}
         {% assign newsItem = site.data.news[newsKey] %}

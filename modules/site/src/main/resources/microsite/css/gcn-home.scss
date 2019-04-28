@@ -29,11 +29,21 @@
 
         > button {
 
-          color: #fff;
+          color: #fff !important;
 
           &:hover {
             background-color: transparent !important;
-            color: #fff;
+            color: #fff !important;
+          }
+        }
+
+        > a {
+
+          color: #fff !important;
+
+          &:hover {
+            background-color: transparent !important;
+            color: #fff !important;
           }
         }
       }
