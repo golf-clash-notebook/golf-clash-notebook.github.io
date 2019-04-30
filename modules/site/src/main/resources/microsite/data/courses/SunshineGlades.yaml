@@ -890,6 +890,102 @@ holes:
           # url: https://youtu.be/uAorNoFskVY
       - name: Zachary Jones
         resources:
+        - title: Tropic Kings - Rookie
+          url: https://youtu.be/583QKSABB8Q
+          metadata:
+            tournament: Tropic Kings
+            level: Rookie
+            ball: Quasar
+            teePosition: 1
+            clubs:
+              - name: Quarterback
+                level: 6
+              - name: Viper
+                level: 7
+            wind:
+              direction: NNW
+              magnitude: 4.8
+            keywords:
+        - title: Tropic Kings - Pro
+          url: https://youtu.be/CuxBzHP0dfA
+          metadata:
+            tournament: Tropic Kings
+            level: Pro
+            ball: Quasar
+            teePosition: 2
+            clubs:
+              - name: Quarterback
+                level: 9
+              - name: Sniper
+                level: 9
+            wind:
+              direction: NNE
+              magnitude: 7.8
+            keywords:
+        - title: Tropic Kings - Expert
+          url: https://youtu.be/xlGJYpXY2HY
+          metadata:
+            tournament: Tropic Kings
+            level: Expert
+            ball: King Maker
+            teePosition: 2
+            clubs:
+              - name: Quarterback
+                level: 10
+              - name: Sniper
+                level: 10
+            wind:
+              direction: NNW
+              magnitude: 7.9
+            keywords:
+        - title: Tropic Kings - Expert
+          url: https://youtu.be/8zlgruzl3EM
+          metadata:
+            tournament: Tropic Kings
+            level: Expert
+            ball: King Maker
+            teePosition: 2
+            clubs:
+              - name: Quarterback
+                level: 10
+              - name: Sniper
+                level: 10
+            wind:
+              direction: NNW
+              magnitude: 8.7
+            keywords:
+        - title: Tropic Kings - Master
+          url: https://youtu.be/V2QMNZteIG8
+          metadata:
+            tournament: Tropic Kings
+            level: Master
+            ball: King Maker
+            teePosition: 3
+            clubs:
+              - name: Apocalypse
+                level: 6
+              - name: Sniper
+                level: 10
+            wind:
+              direction: ENE
+              magnitude: 11.5
+            keywords:
+        - title: Tropic Kings - Master
+          url: https://youtu.be/f__TnzcvPhM
+          metadata:
+            tournament: Tropic Kings
+            level: Master
+            ball: King Maker
+            teePosition: 3
+            clubs:
+              - name: Thor's Hammer
+                level: 7
+              - name: Sniper
+                level: 10
+            wind:
+              direction: ENE
+              magnitude: 12.3
+            keywords:
         - title: Ghostly Glades - Rookie
           url: https://youtu.be/jQFi-Eb6J8s
           metadata:
