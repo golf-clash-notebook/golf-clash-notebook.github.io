@@ -52,6 +52,7 @@ As a bit of background, here's chronological list of relevant events.
 | 22 APR | Android/iOS builds are released to the public. |
 | 23 APR | **PD notifies us that they are still in discussions with other developers who are not currently required to make changes for the agreed upon April 22nd deadline.** |
 | 26 APR | **PD notifies us they're reconsidering their stance on iOS multitasking features.** |
+| 29 APR | PD reconfirms that iOS multitasking will not be allowed. |
 
 <br>
 

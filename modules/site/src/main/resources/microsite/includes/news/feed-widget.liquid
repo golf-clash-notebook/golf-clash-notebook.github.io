@@ -26,9 +26,9 @@
           <img alt="Get it on Google Play" src='https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png' style="height: 60px;" />
         </a>
       </div>
-      <div class="list-group-item news-announcement" style="display: flex; align-items: center; justify-content: space-evenly;">
-        <a class="btn btn-link text-white font-900 pad-0" href="/overlay-post-mortem/">Updated App Announcment</a>
-      </div>
+      <!-- <div class="list-group-item news-announcement" style="display: flex; align-items: center; justify-content: space-evenly;"> -->
+      <!--   <a class="btn btn-link text-white font-900 pad-0" href="/overlay-post-mortem/">Updated App Announcment</a> -->
+      <!-- </div> -->
       {% for newsKey in newsKeyArray limit: 3 %}
         {% assign newsItem = site.data.news[newsKey] %}
         {% assign newsContent = newsItem.content | strip %}
