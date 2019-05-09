@@ -135,6 +135,13 @@ page_gen:
     extra:
       title-prefix: 'Juniper Point - Hole '
   - index_files: true
+    data: 'courses.KohHongResort.holes'
+    template: '_includes/courses/hole-template.liquid'
+    name: 'number'
+    dir: 'courses/KohHongResort'
+    extra:
+      title-prefix: 'Koh Hong Resort - Hole '
+  - index_files: true
     data: 'courses.MapleBay.holes'
     template: '_includes/courses/hole-template.liquid'
     name: 'number'
@@ -664,3 +671,11 @@ page_gen:
     extra:
       title-prefix: 'Tropic Kings Tournament - Hole '
       tournamentName: 'Tropic Kings'
+  - index_files: true
+    data: 'tournaments.SpringMajor2019.holes'
+    template: '_includes/tournaments/hole-template.liquid'
+    name: 'number'
+    dir: 'tournaments/SpringMajor2019'
+    extra:
+      title-prefix: 'Spring Major 2019 - Hole '
+      tournamentName: 'Spring Major 2019'
