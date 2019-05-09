@@ -1,0 +1,22 @@
+tournamentName: Spring Major 2019
+date: '2019-05-13'
+resourceCreators:
+holes:
+  - number: 1
+    id: 6f0a835d-95ce-4a3a-8282-51ec94de07ad
+  - number: 2
+    id: 79b32807-da11-4dd9-b774-df050fd22f49
+  - number: 3
+    id: a61e24d2-7c56-49f2-b95b-fbaa8ef47b10
+  - number: 4
+    id: 0a16e868-16e8-46c2-9296-f247d6958180
+  - number: 5
+    id: c6e4e084-1cbd-4c5a-b40d-8f52e9758295
+  - number: 6
+    id: fa1647b8-c532-4c1d-ab43-2cd9cbb0c1f6
+  - number: 7
+    id: 49e6232e-b37f-422c-952b-5dbf6233a43b
+  - number: 8
+    id: 42370cfc-fa99-4a64-b673-64d140821cb7
+  - number: 9
+    id: eed54e8e-e583-4084-9fb4-d4cb1e32defb

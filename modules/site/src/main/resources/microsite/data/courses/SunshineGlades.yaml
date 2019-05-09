@@ -779,7 +779,6 @@ holes:
     aliases:
       - 91e0b426-4747-4351-827e-7eb721a77f13
   - id: ceec18c9-cda1-436d-bdb1-1f2454b46436
-    current-tournament: true
     course: Sunshine Glades
     number: 3
     par: 5

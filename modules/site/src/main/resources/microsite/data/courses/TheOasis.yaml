@@ -441,7 +441,6 @@ holes:
               <circle cx="226" cy="337" r="6" fill="white" class="guide-point" data-guide-segment="1" />
               <circle cx="252" cy="125" r="6" fill="white" class="guide-point" data-guide-segment="2" />
   - id: 33ef32c9-c4f7-4b76-a1b2-308087d173d6
-    current-tournament: true
     course: The Oasis
     number: 2
     par: 4
@@ -1472,7 +1471,6 @@ holes:
               magnitude: 10.6
             keywords:
   - id: ef1b5866-306c-4a68-aa35-e385558a6889
-    current-tournament: true
     course: The Oasis
     number: 5
     par: 3
@@ -1950,7 +1948,6 @@ holes:
               magnitude: 8.0
             keywords:
   - id: 02e6cf86-01d0-4da0-aec1-cb2ee25c49ce
-    current-tournament: true
     course: The Oasis
     number: 7
     par: 3
@@ -2200,7 +2197,6 @@ holes:
               magnitude: 7.1
             keywords:
   - id: d930d568-3f38-4b7f-bf9f-7b40f41cafaa
-    current-tournament: true
     course: The Oasis
     number: 8
     par: 4
