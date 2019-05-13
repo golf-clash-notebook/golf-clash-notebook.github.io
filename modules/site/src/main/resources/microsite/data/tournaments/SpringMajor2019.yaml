@@ -1,6 +1,12 @@
 tournamentName: Spring Major 2019
 date: '2019-05-13'
 resourceCreators:
+  - name: Golf Clash Tommy
+    resources:
+    - title: Rookie Guide
+      url: https://youtu.be/NUWeRQUiQeU
+    - title: Pro / Expert Guide
+      url: https://youtu.be/fdVLT27g6Kw
 holes:
   - number: 1
     id: 6f0a835d-95ce-4a3a-8282-51ec94de07ad
