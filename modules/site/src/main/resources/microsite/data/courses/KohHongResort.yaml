@@ -12,6 +12,74 @@ holes:
     clubRecommendations:
     clubSuggestions:
     resourceCreators:
+      - name: Golf Clash Tommy
+        resources:
+        - title: Rookie Guide - Spring Major 2019
+          url: https://youtu.be/w5LYlPKcpw4
+        - title: Pro & Expert Guide - Spring Major 2019
+          url: https://youtu.be/REZArgV2Lvw
+      - name: Zachary Jones
+        resources:
+        - title: Tour 4 - Strategy and Tips
+          url: https://youtu.be/uSTn7xyM5DM
+          metadata:
+            tour: 4
+            ball: Quasar
+            teePosition: 1
+            clubs:
+              - name: Quarterback
+                level: 10
+              - name: Hornet
+                level: 8
+            wind:
+              direction: WSW
+              magnitude: 3.1
+            keywords:
+        - title: Tour 7 - Strategy and Tips
+          url: https://youtu.be/QhTcN5p0Lao
+          metadata:
+            tour: 7
+            ball: Titan
+            teePosition: 2
+            clubs:
+              - name: Quarterback
+                level: 8
+              - name: Thorn
+                level: 5
+            wind:
+              direction: NW
+              magnitude: 8.5
+            keywords:
+        - title: Tour 7 - Strategy and Tips
+          url: https://youtu.be/SeJcbbykPBs
+          metadata:
+            tour: 7
+            ball: Titan
+            teePosition: 2
+            clubs:
+              - name: Apocalypse
+                level: 2
+              - name: Backbone
+                level: 9
+            wind:
+              direction: W
+              magnitude: 8.8
+            keywords:
+        - title: Tour 11 - Strategy and Tips
+          url: https://youtu.be/oMqYeCQ4GLw
+          metadata:
+            tour: 11
+            ball: King Maker
+            teePosition: 3
+            clubs:
+              - name: Thor's Hammer
+                level: 6
+              - name: Thorn
+                level: 8
+            wind:
+              direction: NE
+              magnitude: 10.0
+            keywords:
     aliases:
     overlays:
   - id: 79b32807-da11-4dd9-b774-df050fd22f49
@@ -25,6 +93,40 @@ holes:
     clubRecommendations:
     clubSuggestions:
     resourceCreators:
+      - name: Golf Clash Tommy
+        resources:
+        - title: Rookie Guide - Spring Major 2019
+          url: https://youtu.be/24HhVwIQgnk
+        - title: Pro & Expert Guide - Spring Major 2019
+          url: https://youtu.be/Q1il9Xt81iA
+      - name: Zachary Jones
+        resources:
+        - title: Tour 4 - Strategy and Tips
+          url: https://youtu.be/99y04oibWzg
+          metadata:
+            tour: 4
+            ball: Quasar
+            teePosition: 1
+            clubs:
+              - name: Sniper
+                level: 10
+            wind:
+              direction: NE
+              magnitude: 4.5
+            keywords:
+        - title: Tour 7 - Strategy and Tips
+          url: https://youtu.be/1fFNj9xDpg0
+          metadata:
+            tour: 7
+            ball: Titan
+            teePosition: 2
+            clubs:
+              - name: Sniper
+                level: 8
+            wind:
+              direction: SW
+              magnitude: 2.0
+            keywords:
     aliases:
     overlays:
   - id: a61e24d2-7c56-49f2-b95b-fbaa8ef47b10
@@ -38,6 +140,74 @@ holes:
     clubRecommendations:
     clubSuggestions:
     resourceCreators:
+      - name: Golf Clash Tommy
+        resources:
+        - title: Rookie Guide - Spring Major 2019
+          url: https://youtu.be/o7SmF4UTe3s
+        - title: Pro & Expert Guide - Spring Major 2019
+          url: https://youtu.be/KBmC6z_Ekz8
+      - name: Zachary Jones
+        resources:
+        - title: Tour 4 - Strategy and Tips
+          url: https://youtu.be/abUjsc5SYvg
+          metadata:
+            tour: 4
+            ball: Quasar
+            teePosition: 1
+            clubs:
+              - name: Quarterback
+                level: 10
+              - name: Sniper
+                level: 10
+            wind:
+              direction: WNW
+              magnitude: 0.9
+            keywords:
+        - title: Tour 7 - Strategy and Tips
+          url: https://youtu.be/aaEdOV56_fc
+          metadata:
+            tour: 7
+            ball: Titan
+            teePosition: 2
+            clubs:
+              - name: Apocalypse
+                level: 2
+              - name: Sniper
+                level: 8
+            wind:
+              direction: SSE
+              magnitude: 4.5
+            keywords:
+        - title: Tour 7 - Strategy and Tips
+          url: https://youtu.be/gWe6zN0KetU
+          metadata:
+            tour: 7
+            ball: Titan
+            teePosition: 2
+            clubs:
+              - name: Quarterback
+                level: 8
+              - name: Sniper
+                level: 8
+            wind:
+              direction: NE
+              magnitude: 2.8
+            keywords:
+        - title: Tour 11 - Strategy and Tips
+          url: https://youtu.be/qE-vABBRGWo
+          metadata:
+            tour: 11
+            ball: King Maker
+            teePosition: 3
+            clubs:
+              - name: Thor's Hammer
+                level: 6
+              - name: Sniper
+                level: 10
+            wind:
+              direction: NE
+              magnitude: 11.3
+            keywords:
     aliases:
     overlays:
   - id: 0a16e868-16e8-46c2-9296-f247d6958180
@@ -51,6 +221,66 @@ holes:
     clubRecommendations:
     clubSuggestions:
     resourceCreators:
+      - name: Golf Clash Tommy
+        resources:
+        - title: Rookie Guide - Spring Major 2019
+          url: https://youtu.be/MONekBkmzG0
+        - title: Pro & Expert Guide - Spring Major 2019
+          url: https://youtu.be/MZsJ-OSqIcc
+      - name: Zachary Jones
+        resources:
+        - title: Tour 4 - Strategy and Tips
+          url: https://youtu.be/DeBfC5b1PDA
+          metadata:
+            tour: 4
+            ball: Quasar
+            teePosition: 1
+            clubs:
+              - name: B52
+                level: 7
+            wind:
+              direction: NE
+              magnitude: 4.4
+            keywords:
+        - title: Tour 4 - Strategy and Tips
+          url: https://youtu.be/XuzQNYIKvqU
+          metadata:
+            tour: 4
+            ball: Quasar
+            teePosition: 1
+            clubs:
+              - name: B52
+                level: 7
+            wind:
+              direction: N
+              magnitude: 3.0
+            keywords:
+        - title: Tour 7 - Strategy and Tips
+          url: https://youtu.be/TQKAnUzVPnM
+          metadata:
+            tour: 7
+            ball: Titan
+            teePosition: 2
+            clubs:
+              - name: Sniper
+                level: 8
+            wind:
+              direction: SE
+              magnitude: 6.5
+            keywords:
+        - title: Tour 11 - Strategy and Tips
+          url: https://youtu.be/AYcMoKJiaUI
+          metadata:
+            tour: 11
+            ball: King Maker
+            teePosition: 3
+            clubs:
+              - name: Sniper
+                level: 10
+            wind:
+              direction: WSW
+              magnitude: 11.7
+            keywords:
     aliases:
     overlays:
   - id: c6e4e084-1cbd-4c5a-b40d-8f52e9758295
@@ -64,6 +294,91 @@ holes:
     clubRecommendations:
     clubSuggestions:
     resourceCreators:
+      - name: Golf Clash Tommy
+        resources:
+        - title: Rookie Guide - Spring Major 2019
+          url: https://youtu.be/QMpx-Wy0vbs
+        - title: Pro & Expert Guide - Spring Major 2019
+          url: https://youtu.be/HAgiqRTWroU
+      - name: Zachary Jones
+        resources:
+        - title: Tour 4 - Strategy and Tips
+          url: https://youtu.be/Fs0ud1vlBIw
+          metadata:
+            tour: 4
+            ball: Quasar
+            teePosition: 1
+            clubs:
+              - name: Quarterback
+                level: 10
+              - name: B52
+                level: 7
+            wind:
+              direction: SSW
+              magnitude: 2.4
+            keywords:
+        - title: Tour 7 - Strategy and Tips
+          url: https://youtu.be/6v3f8dMRg60
+          metadata:
+            tour: 7
+            ball: Titan
+            teePosition: 2
+            clubs:
+              - name: Quarterback
+                level: 8
+              - name: Backbone
+                level: 9
+              - name: Nirvana
+                level: 4
+            wind:
+              direction: NNW
+              magnitude: 5.6
+            keywords:
+        - title: Tour 7 - Strategy and Tips
+          url: https://youtu.be/VQLNjWwNNxg
+          metadata:
+            tour: 7
+            ball: Titan
+            teePosition: 2
+            clubs:
+              - name: Quarterback
+                level: 8
+              - name: Backbone
+                level: 9
+            wind:
+              direction: W
+              magnitude: 2.0
+            keywords:
+        - title: Tour 11 - Strategy and Tips
+          url: https://youtu.be/hLwhZU6uWfQ
+          metadata:
+            tour: 11
+            ball: King Maker
+            teePosition: 3
+            clubs:
+              - name: Thor's Hammer
+                level: 6
+              - name: B52
+                level: 5
+            wind:
+              direction: NNW
+              magnitude: 9.7
+            keywords:
+        - title: Tour 11 - Strategy and Tips
+          url: https://youtu.be/xJlfdNRc194
+          metadata:
+            tour: 11
+            ball: Berserker
+            teePosition: 3
+            clubs:
+              - name: Thor's Hammer
+                level: 6
+              - name: EndBringer
+                level: 6
+            wind:
+              direction: NW
+              magnitude: 15.1
+            keywords:
     aliases:
     overlays:
   - id: fa1647b8-c532-4c1d-ab43-2cd9cbb0c1f6
@@ -77,6 +392,61 @@ holes:
     clubRecommendations:
     clubSuggestions:
     resourceCreators:
+      - name: Golf Clash Tommy
+        resources:
+        - title: Rookie Guide - Spring Major 2019
+          url: https://youtu.be/Ub5yiSc02Uo
+        - title: Pro & Expert Guide - Spring Major 2019
+          url: https://youtu.be/q7M_DrYzUIo
+      - name: Zachary Jones
+        resources:
+        - title: Tour 4 - Strategy and Tips
+          url: https://youtu.be/c3x7OxaZqcU
+          metadata:
+            tour: 4
+            ball: Quasar
+            teePosition: 1
+            clubs:
+              - name: Quarterback
+                level: 10
+              - name: Sniper
+                level: 10
+            wind:
+              direction: SE
+              magnitude: 1.3
+            keywords:
+        - title: Tour 7 - Strategy and Tips
+          url: https://youtu.be/WYrlx_F5scg
+          metadata:
+            tour: 7
+            ball: King Maker
+            teePosition: 2
+            clubs:
+              - name: Apocalypse
+                level: 2
+              - name: Sniper
+                level: 8
+            wind:
+              direction: SW
+              magnitude: 6.8
+            keywords:
+        - title: Tour 11 - Strategy and Tips
+          url: https://youtu.be/a35IJ2xMnKI
+          metadata:
+            tour: 11
+            ball: King Maker
+            teePosition: 3
+            clubs:
+              - name: Thor's Hammer
+                level: 6
+              - name: Sniper
+                level: 10
+              - name: Nirvana
+                level: 7
+            wind:
+              direction: W
+              magnitude: 8.3
+            keywords:
     aliases:
     overlays:
   - id: 49e6232e-b37f-422c-952b-5dbf6233a43b
@@ -90,6 +460,87 @@ holes:
     clubRecommendations:
     clubSuggestions:
     resourceCreators:
+      - name: Golf Clash Tommy
+        resources:
+        - title: Rookie Guide - Spring Major 2019
+          url: https://youtu.be/AuEujtb5VpU
+        - title: Pro & Expert Guide - Spring Major 2019
+          url: https://youtu.be/cV6Z20TyYMY
+      - name: Zachary Jones
+        resources:
+        - title: Tour 4 - Strategy and Tips
+          url: https://youtu.be/oF9p1oOZNDM
+          metadata:
+            tour: 4
+            ball: Quasar
+            teePosition: 1
+            clubs:
+              - name: Quarterback
+                level: 10
+              - name: Hornet
+                level: 8
+            wind:
+              direction: SE
+              magnitude: 5.4
+            keywords:
+        - title: Tour 7 - Strategy and Tips
+          url: https://youtu.be/lW4AyNdWsZc
+          metadata:
+            tour: 7
+            ball: Titan
+            teePosition: 2
+            clubs:
+              - name: Quarterback
+                level: 8
+              - name: Nirvana
+                level: 4
+            wind:
+              direction: NW
+              magnitude: 8.0
+            keywords:
+        - title: Tour 7 - Strategy and Tips
+          url: https://youtu.be/meg1RCSezUM
+          metadata:
+            tour: 7
+            ball: Titan
+            teePosition: 2
+            clubs:
+              - name: Quarterback
+                level: 8
+              - name: Sniper
+                level: 8
+            wind:
+              direction: S
+              magnitude: 6.5
+            keywords:
+        - title: Tour 11 - Strategy and Tips
+          url: https://youtu.be/waaahVqDvqw
+          metadata:
+            tour: 11
+            ball: King Maker
+            teePosition: 3
+            clubs:
+              - name: Thor's Hammer
+                level: 6
+              - name: Nirvana
+                level: 7
+            wind:
+              direction: ENE
+              magnitude: 6.8
+            keywords:
+        - title: Tour 11 - Strategy and Tips
+          url: https://youtu.be/R28FNQNVbYE
+          metadata:
+            tour: 11
+            ball: King Maker
+            teePosition: 3
+            clubs:
+              - name: Quarterback
+                level: 10
+            wind:
+              direction: NW
+              magnitude: 12.3
+            keywords:
     aliases:
     overlays:
   - id: 42370cfc-fa99-4a64-b673-64d140821cb7
@@ -103,6 +554,27 @@ holes:
     clubRecommendations:
     clubSuggestions:
     resourceCreators:
+      - name: Golf Clash Tommy
+        resources:
+        - title: Rookie Guide - Spring Major 2019
+          url: https://youtu.be/cXys75qd6Mg
+        - title: Pro & Expert Guide - Spring Major 2019
+          url: https://youtu.be/2VvyDgmpmVY
+      - name: Zachary Jones
+        resources:
+        - title: Tour 4 - Strategy and Tips
+          url: https://youtu.be/pxSJ6qLpZOs
+          metadata:
+            tour: 4
+            ball: Quasar
+            teePosition: 1
+            clubs:
+              - name: B52
+                level: 7
+            wind:
+              direction: NW
+              magnitude: 5.4
+            keywords:
     aliases:
     overlays:
   - id: eed54e8e-e583-4084-9fb4-d4cb1e32defb
@@ -116,5 +588,71 @@ holes:
     clubRecommendations:
     clubSuggestions:
     resourceCreators:
+      - name: Golf Clash Tommy
+        resources:
+        - title: Rookie Guide - Spring Major 2019
+          url: https://youtu.be/XNECHLwq1Qc
+        - title: Pro & Expert Guide - Spring Major 2019
+          url: https://youtu.be/aVK5zSbzVhM
+      - name: Zachary Jones
+        resources:
+        - title: Tour 4 - Strategy and Tips
+          url: https://youtu.be/gmtuC12_mBA
+          metadata:
+            tour: 4
+            ball: Quasar
+            teePosition: 1
+            clubs:
+              - name: Quarterback
+                level: 10
+              - name: Sniper
+                level: 10
+            wind:
+              direction: SW
+              magnitude: 0.9
+            keywords:
+        - title: Tour 7 - Strategy and Tips
+          url: https://youtu.be/FmbzcSQ9ZMA
+          metadata:
+            tour: 7
+            ball: Titan
+            teePosition: 2
+            clubs:
+              - name: Quarterback
+                level: 8
+              - name: Sniper
+                level: 8
+            wind:
+              direction: W
+              magnitude: 7.1
+            keywords:
+        - title: Tour 11 - Strategy and Tips
+          url: https://youtu.be/p3XeXyXupLI
+          metadata:
+            tour: 11
+            ball: King Maker
+            teePosition: 3
+            clubs:
+              - name: Thor's Hammer
+                level: 6
+              - name: Sniper
+                level: 10
+            wind:
+              direction: NE
+              magnitude: 7.2
+            keywords:
+        - title: Tour 11 - Strategy and Tips
+          url: https://youtu.be/iuNj7z4jU0g
+          metadata:
+            tour: 11
+            ball: Berserker
+            teePosition: 3
+            clubs:
+              - name: Apocalypse
+                level: 6
+            wind:
+              direction: NNE
+              magnitude: 16.2
+            keywords:
     aliases:
     overlays:
