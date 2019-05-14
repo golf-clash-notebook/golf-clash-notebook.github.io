@@ -3,10 +3,20 @@ date: '2019-05-13'
 resourceCreators:
   - name: Golf Clash Tommy
     resources:
+    - title: Rookie Playthrough - Tournament Wind
+      url: https://youtu.be/2CwS_5jfnKY
+    - title: Pro Playthrough - Tournament Wind
+      url: https://youtu.be/GRYhYDmGTWA
+    - title: Expert Playthrough - Tournament Wind
+      url: https://youtu.be/8MI6-yG8bvo
     - title: Rookie Guide
       url: https://youtu.be/NUWeRQUiQeU
     - title: Pro / Expert Guide
       url: https://youtu.be/fdVLT27g6Kw
+  - name: Jesse Both
+    resources:
+    - title: Rookie Guide
+      url: https://youtu.be/i5WLNcnBgso
 holes:
   - number: 1
     id: 6f0a835d-95ce-4a3a-8282-51ec94de07ad

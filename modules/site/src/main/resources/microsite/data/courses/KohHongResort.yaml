@@ -20,6 +20,102 @@ holes:
           url: https://youtu.be/REZArgV2Lvw
       - name: Zachary Jones
         resources:
+        - title: Spring Major 2019 - Rookie
+          url: https://youtu.be/kb7yd4S6tzU
+          metadata:
+            tournament: Spring Major 2019
+            level: Rookie
+            ball: Quasar
+            teePosition: 1
+            clubs:
+              - name: Quarterback
+                level: 8
+              - name: Thorn
+                level: 5
+            wind:
+              direction: NNW
+              magnitude: 5.1
+            keywords:
+        - title: Spring Major 2019 - Pro
+          url: https://youtu.be/PkVUg_ahhDE
+          metadata:
+            tournament: Spring Major 2019
+            level: Pro
+            ball: Titan
+            teePosition: 2
+            clubs:
+              - name: Quarterback
+                level: 6
+              - name: Backbone
+                level: 7
+            wind:
+              direction: NE
+              magnitude: 6.2
+            keywords:
+        - title: Spring Major 2019 - Expert
+          url: https://youtu.be/wCjhXNvnplc
+          metadata:
+            tournament: Spring Major 2019
+            level: Expert
+            ball: King Maker
+            teePosition: 2
+            clubs:
+              - name: Apocalypse
+                level: 4
+              - name: Thorn
+                level: 7
+            wind:
+              direction: WNW
+              magnitude: 8.4
+            keywords:
+        - title: Spring Major 2019 - Expert
+          url: https://youtu.be/Y8dCcthxJpA
+          metadata:
+            tournament: Spring Major 2019
+            level: Expert
+            ball: Berserker
+            teePosition: 2
+            clubs:
+              - name: Apocalypse
+                level: 6
+              - name: Malibu
+                level: 7
+            wind:
+              direction: WNW
+              magnitude: 10.0
+            keywords:
+        - title: Spring Major 2019 - Master
+          url: https://youtu.be/VxVY2iC-br4
+          metadata:
+            tournament: Spring Major 2019
+            level: Master
+            ball: King Maker
+            teePosition: 3
+            clubs:
+              - name: Apocalypse
+                level: 7
+              - name: Thorn
+                level: 8
+            wind:
+              direction: W
+              magnitude: 10.9
+            keywords:
+        - title: Spring Major 2019 - Master
+          url: https://youtu.be/qsmkmRrjnPE
+          metadata:
+            tournament: Tropic Kings
+            level: Master
+            ball: Dead
+            teePosition: 3
+            clubs:
+              - name: Apocalypse
+                level: 6
+              - name: Nirvana
+                level: 8
+            wind:
+              direction: W
+              magnitude: 11.0
+            keywords:
         - title: Tour 4 - Strategy and Tips
           url: https://youtu.be/uSTn7xyM5DM
           metadata:
@@ -80,6 +176,10 @@ holes:
               direction: NE
               magnitude: 10.0
             keywords:
+      - name: Jesse Both
+        resources:
+        - title: Rookie Guide - Spring Major 2019
+          url: https://youtu.be/E__JFHnKuUg
     aliases:
     overlays:
   - id: 79b32807-da11-4dd9-b774-df050fd22f49
@@ -101,6 +201,90 @@ holes:
           url: https://youtu.be/Q1il9Xt81iA
       - name: Zachary Jones
         resources:
+        - title: Spring Major 2019 - Rookie
+          url: https://youtu.be/svte6Znv1bA
+          metadata:
+            tournament: Spring Major 2019
+            level: Rookie
+            ball: Marlin
+            teePosition: 1
+            clubs:
+              - name: Guardian
+                level: 4
+            wind:
+              direction: NNE
+              magnitude: 4.0
+            keywords:
+        - title: Spring Major 2019 - Pro
+          url: https://youtu.be/8J7okm6IpwM
+          metadata:
+            tournament: Spring Major 2019
+            level: Pro
+            ball: Titan
+            teePosition: 2
+            clubs:
+              - name: Guardian
+                level: 2
+            wind:
+              direction: SE
+              magnitude: 5.6
+            keywords:
+        - title: Spring Major 2019 - Expert
+          url: https://youtu.be/wJ2LOvw56TQ
+          metadata:
+            tournament: Spring Major 2019
+            level: Expert
+            ball: King Maker
+            teePosition: 2
+            clubs:
+              - name: Sniper
+                level: 10
+            wind:
+              direction: SW
+              magnitude: 7.4
+            keywords:
+        - title: Spring Major 2019 - Expert
+          url: https://youtu.be/zzTrxy0J2Ks
+          metadata:
+            tournament: Spring Major 2019
+            level: Expert
+            ball: King Maker
+            teePosition: 2
+            clubs:
+              - name: Sniper
+                level: 10
+            wind:
+              direction: SW
+              magnitude: 8.6
+            keywords:
+        - title: Spring Major 2019 - Master
+          url: https://youtu.be/T7-Y8AVflE8
+          metadata:
+            tournament: Spring Major 2019
+            level: Master
+            ball: King Maker
+            teePosition: 3
+            clubs:
+              - name: Quarterback
+                level: 10
+            wind:
+              direction: SW
+              magnitude: 12.3
+            keywords:
+        - title: Spring Major 2019 - Master
+          url: https://youtu.be/w7GFMakkMyU
+          metadata:
+            tournament: Spring Major 2019
+            level: Master
+            ball: Bandera
+            teePosition: 3
+            clubs:
+              - name: Quarterback
+                level: 10
+            wind:
+              direction: SW
+              magnitude: 7.9
+            keywords:
         - title: Tour 4 - Strategy and Tips
           url: https://youtu.be/99y04oibWzg
           metadata:
@@ -148,6 +332,102 @@ holes:
           url: https://youtu.be/KBmC6z_Ekz8
       - name: Zachary Jones
         resources:
+        - title: Spring Major 2019 - Rookie
+          url: https://youtu.be/QMjQtZsxmI0
+          metadata:
+            tournament: Spring Major 2019
+            level: Rookie
+            ball: Titan
+            teePosition: 1
+            clubs:
+              - name: Quarterback
+                level: 8
+              - name: Guardian
+                level: 4
+            wind:
+              direction: N
+              magnitude: 3.9
+            keywords:
+        - title: Spring Major 2019 - Pro
+          url: https://youtu.be/x9PJu7_i9rk
+          metadata:
+            tournament: Spring Major 2019
+            level: Pro
+            ball: Titan
+            teePosition: 2
+            clubs:
+              - name: Quarterback
+                level: 6
+              - name: Guardian
+                level: 2
+            wind:
+              direction: NNE
+              magnitude: 5.9
+            keywords:
+        - title: Spring Major 2019 - Expert
+          url: https://youtu.be/8tYk71mO6Oc
+          metadata:
+            tournament: Spring Major 2019
+            level: Expert
+            ball: King Maker
+            teePosition: 2
+            clubs:
+              - name: Apocalypse
+                level: 4
+              - name: Sniper
+                level: 10
+            wind:
+              direction: NNW
+              magnitude: 7.7
+            keywords:
+        - title: Spring Major 2019 - Expert
+          url: https://youtu.be/ewjqdsCmYX4
+          metadata:
+            tournament: Spring Major 2019
+            level: Expert
+            ball: Berserker
+            teePosition: 2
+            clubs:
+              - name: Apocalypse
+                level: 6
+              - name: Nirvana
+                level: 7
+            wind:
+              direction: NNW
+              magnitude: 10.7
+            keywords:
+        - title: Spring Major 2019 - Master
+          url: https://youtu.be/_-r5sqALh24
+          metadata:
+            tournament: Spring Major 2019
+            level: Master
+            ball: King Maker
+            teePosition: 3
+            clubs:
+              - name: Apocalypse
+                level: 7
+              - name: Sniper
+                level: 10
+            wind:
+              direction: WNW
+              magnitude: 11.0
+            keywords:
+        - title: Spring Major 2019 - Master
+          url: https://youtu.be/XyblJkk_IXc
+          metadata:
+            tournament: Spring Major 2019
+            level: Master
+            ball: King Maker
+            teePosition: 3
+            clubs:
+              - name: Apocalypse
+                level: 6
+              - name: Sniper
+                level: 10
+            wind:
+              direction: WNW
+              magnitude: 10.4
+            keywords:
         - title: Tour 4 - Strategy and Tips
           url: https://youtu.be/abUjsc5SYvg
           metadata:
@@ -208,6 +488,10 @@ holes:
               direction: NE
               magnitude: 11.3
             keywords:
+      - name: Jesse Both
+        resources:
+        - title: Rookie Guide - Spring Major 2019
+          url: https://youtu.be/o-Zds6AT8i4
     aliases:
     overlays:
   - id: 0a16e868-16e8-46c2-9296-f247d6958180
@@ -229,6 +513,90 @@ holes:
           url: https://youtu.be/MZsJ-OSqIcc
       - name: Zachary Jones
         resources:
+        - title: Spring Major 2019 - Rookie
+          url: https://youtu.be/c_pKQacnDEw
+          metadata:
+            tournament: Spring Major 2019
+            level: Rookie
+            ball: Marlin
+            teePosition: 1
+            clubs:
+              - name: Backbone
+                level: 9
+            wind:
+              direction: NW
+              magnitude: 5.1
+            keywords:
+        - title: Spring Major 2019 - Pro
+          url: https://youtu.be/LkML3CL4Zyc
+          metadata:
+            tournament: Spring Major 2019
+            level: Pro
+            ball: Navigator
+            teePosition: 2
+            clubs:
+              - name: Guardian
+                level: 2
+            wind:
+              direction: ENE
+              magnitude: 6.7
+            keywords:
+        - title: Spring Major 2019 - Expert
+          url: https://youtu.be/GucLqDGvyRM
+          metadata:
+            tournament: Spring Major 2019
+            level: Expert
+            ball: King Maker
+            teePosition: 2
+            clubs:
+              - name: Sniper
+                level: 10
+            wind:
+              direction: SW
+              magnitude: 7.8
+            keywords:
+        - title: Spring Major 2019 - Expert
+          url: https://youtu.be/XXJSiWQIbH4
+          metadata:
+            tournament: Spring Major 2019
+            level: Expert
+            ball: King Maker
+            teePosition: 2
+            clubs:
+              - name: Guardian
+                level: 7
+            wind:
+              direction: SW
+              magnitude: 8.7
+            keywords:
+        - title: Spring Major 2019 - Master
+          url: https://youtu.be/7B7PoaBwL5g
+          metadata:
+            tournament: Spring Major 2019
+            level: Master
+            ball: King Maker
+            teePosition: 3
+            clubs:
+              - name: Sniper
+                level: 10
+            wind:
+              direction: ESE
+              magnitude: 12.3
+            keywords:
+        - title: Spring Major 2019 - Master
+          url: https://youtu.be/1AswZVLPjuQ
+          metadata:
+            tournament: Spring Major 2019
+            level: Master
+            ball: King Maker
+            teePosition: 3
+            clubs:
+              - name: Sniper
+                level: 10
+            wind:
+              direction: ESE
+              magnitude: 10.9
+            keywords:
         - title: Tour 4 - Strategy and Tips
           url: https://youtu.be/DeBfC5b1PDA
           metadata:
@@ -281,6 +649,10 @@ holes:
               direction: WSW
               magnitude: 11.7
             keywords:
+      - name: Jesse Both
+        resources:
+        - title: Rookie Guide - Spring Major 2019
+          url: https://youtu.be/LUpyIifBSoI
     aliases:
     overlays:
   - id: c6e4e084-1cbd-4c5a-b40d-8f52e9758295
@@ -302,6 +674,102 @@ holes:
           url: https://youtu.be/HAgiqRTWroU
       - name: Zachary Jones
         resources:
+        - title: Spring Major 2019 - Rookie
+          url: https://youtu.be/2U4RdzLDLcs
+          metadata:
+            tournament: Spring Major 2019
+            level: Rookie
+            ball: Katana
+            teePosition: 1
+            clubs:
+              - name: Quarterback
+                level: 8
+              - name: Malibu
+                level: 6
+            wind:
+              direction: NNW
+              magnitude: 3.6
+            keywords:
+        - title: Spring Major 2019 - Pro
+          url: https://youtu.be/kA-7BPQfQ-A
+          metadata:
+            tournament: Spring Major 2019
+            level: Pro
+            ball: Navigator
+            teePosition: 2
+            clubs:
+              - name: Quarterback
+                level: 6
+              - name: Backbone
+                level: 7
+            wind:
+              direction: NNE
+              magnitude: 7.2
+            keywords:
+        - title: Spring Major 2019 - Expert
+          url: https://youtu.be/ZS9G_r6ugsw
+          metadata:
+            tournament: Spring Major 2019
+            level: Expert
+            ball: King Maker
+            teePosition: 2
+            clubs:
+              - name: Apocalypse
+                level: 4
+              - name: Thorn
+                level: 7
+            wind:
+              direction: NNE
+              magnitude: 8.8
+            keywords:
+        - title: Spring Major 2019 - Expert
+          url: https://youtu.be/D91MtkmGdEQ
+          metadata:
+            tournament: Spring Major 2019
+            level: Expert
+            ball: Berserker
+            teePosition: 2
+            clubs:
+              - name: Apocalypse
+                level: 6
+              - name: Malibu
+                level: 7
+            wind:
+              direction: NNE
+              magnitude: 10.3
+            keywords:
+        - title: Spring Major 2019 - Master
+          url: https://youtu.be/bi04lpi5jgg
+          metadata:
+            tournament: Spring Major 2019
+            level: Master
+            ball: Berserker
+            teePosition: 3
+            clubs:
+              - name: Thor's Hammer
+                level: 7
+              - name: Malibu
+                level: 8
+            wind:
+              direction: N
+              magnitude: 14.8
+            keywords:
+        - title: Spring Major 2019 - Master
+          url: https://youtu.be/ng0Cxzy1piY
+          metadata:
+            tournament: Spring Major 2019
+            level: Master
+            ball: Berserker
+            teePosition: 3
+            clubs:
+              - name: Thor's Hammer
+                level: 7
+              - name: Nirvana
+                level: 8
+            wind:
+              direction: N
+              magnitude: 16.0
+            keywords:
         - title: Tour 4 - Strategy and Tips
           url: https://youtu.be/Fs0ud1vlBIw
           metadata:
@@ -379,6 +847,12 @@ holes:
               direction: NW
               magnitude: 15.1
             keywords:
+      - name: Jesse Both
+        resources:
+        - title: Rookie Guide - Spring Major 2019
+          url: https://youtu.be/n9r_Y6vHcDI
+        - title: Rookie Guide - Spring Major 2019
+          url: https://youtu.be/ekeWO40y1rw
     aliases:
     overlays:
   - id: fa1647b8-c532-4c1d-ab43-2cd9cbb0c1f6
@@ -400,6 +874,104 @@ holes:
           url: https://youtu.be/q7M_DrYzUIo
       - name: Zachary Jones
         resources:
+        - title: Spring Major 2019 - Rookie
+          url: https://youtu.be/zhH2uYFkyu8
+          metadata:
+            tournament: Spring Major 2019
+            level: Rookie
+            ball: Titan
+            teePosition: 1
+            clubs:
+              - name: Extra Mile
+                level: 6
+              - name: Guardian
+                level: 4
+            wind:
+              direction: NNE
+              magnitude: 3.6
+            keywords:
+        - title: Spring Major 2019 - Pro
+          url: https://youtu.be/qbz1eM6nkrk
+          metadata:
+            tournament: Spring Major 2019
+            level: Pro
+            ball: Titan
+            teePosition: 2
+            clubs:
+              - name: Extra Mile
+                level: 4
+              - name: Guardian
+                level: 2
+            wind:
+              direction: NNW
+              magnitude: 5.3
+            keywords:
+        - title: Spring Major 2019 - Expert
+          url: https://youtu.be/or4jifa4aBw
+          metadata:
+            tournament: Spring Major 2019
+            level: Expert
+            ball: King Maker
+            teePosition: 2
+            clubs:
+              - name: Apocalypse
+                level: 4
+              - name: Sniper
+                level: 10
+              - name: Nirvana
+                level: 6
+            wind:
+              direction: NW
+              magnitude: 8.7
+            keywords:
+        - title: Spring Major 2019 - Expert
+          url: https://youtu.be/IjOaKCxYE0A
+          metadata:
+            tournament: Spring Major 2019
+            level: Expert
+            ball: Berserker
+            teePosition: 2
+            clubs:
+              - name: Apocalypse
+                level: 6
+              - name: B52
+                level: 5
+            wind:
+              direction: NW
+              magnitude: 11.9
+            keywords:
+        - title: Spring Major 2019 - Master
+          url: https://youtu.be/0b3WjThrQlk
+          metadata:
+            tournament: Spring Major 2019
+            level: Master
+            ball: King Maker
+            teePosition: 3
+            clubs:
+              - name: Apocalypse
+                level: 7
+              - name: Sniper
+                level: 10
+            wind:
+              direction: E
+              magnitude: 11.4
+            keywords:
+        - title: Spring Major 2019 - Master
+          url: https://youtu.be/oQLgsV2SnNU
+          metadata:
+            tournament: Spring Major 2019
+            level: Master
+            ball: Dead
+            teePosition: 3
+            clubs:
+              - name: Apocalypse
+                level: 6
+              - name: Sniper
+                level: 10
+            wind:
+              direction: E
+              magnitude: 11.1
+            keywords:
         - title: Tour 4 - Strategy and Tips
           url: https://youtu.be/c3x7OxaZqcU
           metadata:
@@ -468,6 +1040,102 @@ holes:
           url: https://youtu.be/cV6Z20TyYMY
       - name: Zachary Jones
         resources:
+        - title: Spring Major 2019 - Rookie
+          url: https://youtu.be/6rRrAymE4os
+          metadata:
+            tournament: Spring Major 2019
+            level: Rookie
+            ball: Marlin
+            teePosition: 1
+            clubs:
+              - name: Quarterback
+                level: 8
+              - name: Sniper
+                level: 5
+            wind:
+              direction: NE
+              magnitude: 4.4
+            keywords:
+        - title: Spring Major 2019 - Pro
+          url: https://youtu.be/EZziN3DBVvE
+          metadata:
+            tournament: Spring Major 2019
+            level: Pro
+            ball: Navigator
+            teePosition: 2
+            clubs:
+              - name: Quarterback
+                level: 6
+              - name: Guardian
+                level: 2
+            wind:
+              direction: WNW
+              magnitude: 6.8
+            keywords:
+        - title: Spring Major 2019 - Expert
+          url: https://youtu.be/M0lcD6aIbcA
+          metadata:
+            tournament: Spring Major 2019
+            level: Expert
+            ball: King Maker
+            teePosition: 2
+            clubs:
+              - name: Quarterback
+                level: 10
+              - name: Sniper
+                level: 10
+            wind:
+              direction: SW
+              magnitude: 7.9
+            keywords:
+        - title: Spring Major 2019 - Expert
+          url: https://youtu.be/U6EcySot-N4
+          metadata:
+            tournament: Spring Major 2019
+            level: Expert
+            ball: King Maker
+            teePosition: 2
+            clubs:
+              - name: Apocalypse
+                level: 6
+              - name: Hornet
+                level: 8
+            wind:
+              direction: WSW
+              magnitude: 8.2
+            keywords:
+        - title: Spring Major 2019 - Master
+          url: https://youtu.be/PXrOcBbiUE8
+          metadata:
+            tournament: Spring Major 2019
+            level: Master
+            ball: King Maker
+            teePosition: 3
+            clubs:
+              - name: Apocalypse
+                level: 7
+              - name: Sniper
+                level: 10
+            wind:
+              direction: WSW
+              magnitude: 10.4
+            keywords:
+        - title: Spring Major 2019 - Master
+          url: https://youtu.be/sJW470Joemo
+          metadata:
+            tournament: Spring Major 2019
+            level: Master
+            ball: Berserker
+            teePosition: 3
+            clubs:
+              - name: Apocalypse
+                level: 6
+              - name: Hornet
+                level: 8
+            wind:
+              direction: W
+              magnitude: 14.8
+            keywords:
         - title: Tour 4 - Strategy and Tips
           url: https://youtu.be/oF9p1oOZNDM
           metadata:
@@ -541,6 +1209,10 @@ holes:
               direction: NW
               magnitude: 12.3
             keywords:
+      - name: Jesse Both
+        resources:
+        - title: Rookie Guide - Spring Major 2019
+          url: https://youtu.be/JfCcpMrmYwY
     aliases:
     overlays:
   - id: 42370cfc-fa99-4a64-b673-64d140821cb7
@@ -562,6 +1234,90 @@ holes:
           url: https://youtu.be/2VvyDgmpmVY
       - name: Zachary Jones
         resources:
+        - title: Spring Major 2019 - Rookie
+          url: https://youtu.be/I0t2DfatUOA
+          metadata:
+            tournament: Spring Major 2019
+            level: Rookie
+            ball: Marlin
+            teePosition: 1
+            clubs:
+              - name: Backbone
+                level: 9
+            wind:
+              direction: N
+              magnitude: 5.1
+            keywords:
+        - title: Spring Major 2019 - Pro
+          url: https://youtu.be/CKjk-gwCtpQ
+          metadata:
+            tournament: Spring Major 2019
+            level: Pro
+            ball: Navigator
+            teePosition: 2
+            clubs:
+              - name: Guardian
+                level: 2
+            wind:
+              direction: NW
+              magnitude: 7.3
+            keywords:
+        - title: Spring Major 2019 - Expert
+          url: https://youtu.be/Nel1rTsD28w
+          metadata:
+            tournament: Spring Major 2019
+            level: Expert
+            ball: King Maker
+            teePosition: 2
+            clubs:
+              - name: Sniper
+                level: 10
+            wind:
+              direction: SW
+              magnitude: 7.4
+            keywords:
+        - title: Spring Major 2019 - Expert
+          url: https://youtu.be/KHTsdmX67qQ
+          metadata:
+            tournament: Spring Major 2019
+            level: Expert
+            ball: King Maker
+            teePosition: 2
+            clubs:
+              - name: Sniper
+                level: 10
+            wind:
+              direction: SW
+              magnitude: 8.7
+            keywords:
+        - title: Spring Major 2019 - Master
+          url: https://youtu.be/ecVQCT2Qkzs
+          metadata:
+            tournament: Spring Major 2019
+            level: Master
+            ball: King Maker
+            teePosition: 3
+            clubs:
+              - name: Sniper
+                level: 10
+            wind:
+              direction: N
+              magnitude: 12.0
+            keywords:
+        - title: Spring Major 2019 - Master
+          url: https://youtu.be/ntmxuBETBHw
+          metadata:
+            tournament: Spring Major 2019
+            level: Master
+            ball: Turkey
+            teePosition: 3
+            clubs:
+              - name: Sniper
+                level: 10
+            wind:
+              direction: N
+              magnitude: 7.2
+            keywords:
         - title: Tour 4 - Strategy and Tips
           url: https://youtu.be/pxSJ6qLpZOs
           metadata:
@@ -575,6 +1331,10 @@ holes:
               direction: NW
               magnitude: 5.4
             keywords:
+      - name: Jesse Both
+        resources:
+        - title: Rookie Guide - Spring Major 2019
+          url: https://youtu.be/GNn80WQJ6xw
     aliases:
     overlays:
   - id: eed54e8e-e583-4084-9fb4-d4cb1e32defb
@@ -596,6 +1356,104 @@ holes:
           url: https://youtu.be/aVK5zSbzVhM
       - name: Zachary Jones
         resources:
+        - title: Spring Major 2019 - Rookie
+          url: https://youtu.be/eaXS1zHcXT4
+          metadata:
+            tournament: Spring Major 2019
+            level: Rookie
+            ball: Titan
+            teePosition: 1
+            clubs:
+              - name: Quarterback
+                level: 8
+              - name: Guardian
+                level: 4
+            wind:
+              direction: N
+              magnitude: 3.3
+            keywords:
+        - title: Spring Major 2019 - Pro
+          url: https://youtu.be/Mkqr30L1uRc
+          metadata:
+            tournament: Spring Major 2019
+            level: Pro
+            ball: Titan
+            teePosition: 2
+            clubs:
+              - name: Quarterback
+                level: 6
+              - name: Malibu
+                level: 5
+              - name: Off Roader
+                level: 2
+            wind:
+              direction: NE
+              magnitude: 6.9
+            keywords:
+        - title: Spring Major 2019 - Expert
+          url: https://youtu.be/N6asbV2AC30
+          metadata:
+            tournament: Spring Major 2019
+            level: Expert
+            ball: King Maker
+            teePosition: 2
+            clubs:
+              - name: Quarterback
+                level: 10
+              - name: Sniper
+                level: 10
+            wind:
+              direction: NW
+              magnitude: 7.6
+            keywords:
+        - title: Spring Major 2019 - Expert
+          url: https://youtu.be/cUaYObMteFs
+          metadata:
+            tournament: Spring Major 2019
+            level: Expert
+            ball: Berserker
+            teePosition: 2
+            clubs:
+              - name: Apocalypse
+                level: 6
+              - name: Nirvana
+                level: 7
+            wind:
+              direction: NW
+              magnitude: 10.8
+            keywords:
+        - title: Spring Major 2019 - Master
+          url: https://youtu.be/EtUDj19_SHM
+          metadata:
+            tournament: Spring Major 2019
+            level: Master
+            ball: King Maker
+            teePosition: 3
+            clubs:
+              - name: Apocalypse
+                level: 7
+              - name: Sniper
+                level: 10
+            wind:
+              direction: ENE
+              magnitude: 12.3
+            keywords:
+        - title: Spring Major 2019 - Master
+          url: https://youtu.be/hd5hpJaevfg
+          metadata:
+            tournament: Spring Major 2019
+            level: Master
+            ball: King Maker
+            teePosition: 3
+            clubs:
+              - name: Apocalypse
+                level: 6
+              - name: Sniper
+                level: 10
+            wind:
+              direction: ENE
+              magnitude: 11.9
+            keywords:
         - title: Tour 4 - Strategy and Tips
           url: https://youtu.be/gmtuC12_mBA
           metadata:
@@ -654,5 +1512,9 @@ holes:
               direction: NNE
               magnitude: 16.2
             keywords:
+      - name: Jesse Both
+        resources:
+        - title: Rookie Guide - Spring Major 2019
+          url: https://youtu.be/b-4eCs_ioLk
     aliases:
     overlays:
