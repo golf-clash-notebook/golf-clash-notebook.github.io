@@ -1,0 +1,22 @@
+tournamentName: Skyline Cup
+date: '2019-05-27'
+resourceCreators:
+holes:
+  - number: 1
+    id: 996a923a-517a-4e18-8868-0ab66807884b
+  - number: 2
+    id: dad86483-0418-4578-ae29-a5a2b2810648
+  - number: 3
+    id: 426860dc-c5e0-4f21-8803-d5d33264eba6
+  - number: 4
+    id: 1066ae31-3c4b-4a6b-ac26-ecc58322ad5e
+  - number: 5
+    id: 0ea2798b-b8c9-42e9-9322-fdc5c16853b8
+  - number: 6
+    id: 06c3aa56-5bd2-45dc-bb0f-37985aff93ad
+  - number: 7
+    id: f8596eb9-9b31-46c8-824d-da908b6ec621
+  - number: 8
+    id: 16fb8928-e633-4973-b861-ab45323ebcdf
+  - number: 9
+    id: 17727cf4-ffbf-43e9-a0db-5cebcc570496
