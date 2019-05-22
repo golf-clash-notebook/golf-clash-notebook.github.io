@@ -679,3 +679,11 @@ page_gen:
     extra:
       title-prefix: 'Spring Major 2019 - Hole '
       tournamentName: 'Spring Major 2019'
+  - index_files: true
+    data: 'tournaments.SkylineCup.holes'
+    template: '_includes/tournaments/hole-template.liquid'
+    name: 'number'
+    dir: 'tournaments/SkylineCup'
+    extra:
+      title-prefix: 'Skyline Cup - Hole '
+      tournamentName: 'Skyline Cup'

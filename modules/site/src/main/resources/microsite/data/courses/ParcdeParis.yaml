@@ -459,6 +459,7 @@ holes:
             magnitude: 1.1
           keywords:
   - id: 17727cf4-ffbf-43e9-a0db-5cebcc570496
+    current-tournament: true
     course: Parc de Paris
     number: 3
     par: 5
@@ -1254,6 +1255,7 @@ holes:
             magnitude: 9.1
           keywords:
   - id: 996a923a-517a-4e18-8868-0ab66807884b
+    current-tournament: true
     course: Parc de Paris
     number: 7
     par: 4
@@ -1428,6 +1430,7 @@ holes:
             magnitude: 8.4
           keywords:
   - id: dad86483-0418-4578-ae29-a5a2b2810648
+    current-tournament: true
     course: Parc de Paris
     number: 8
     par: 3

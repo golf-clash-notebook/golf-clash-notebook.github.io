@@ -3,6 +3,7 @@ courseName: City Park
 skinned: false
 holes:
   - id: f8596eb9-9b31-46c8-824d-da908b6ec621
+    current-tournament: true
     course: City Park
     number: 1
     par: 3
@@ -236,6 +237,7 @@ holes:
     aliases:
       - 2cb5ab94-1384-4df1-8de6-f8a85b40b9f9
   - id: 16fb8928-e633-4973-b861-ab45323ebcdf
+    current-tournament: true
     course: City Park
     number: 2
     par: 4
@@ -2406,6 +2408,7 @@ holes:
     aliases:
       - af4e56bd-11c9-481b-ab5a-3e83c1def286
   - id: 06c3aa56-5bd2-45dc-bb0f-37985aff93ad
+    current-tournament: true
     course: City Park
     number: 9
     par: 5

@@ -2,7 +2,6 @@ courseName: Koh Hong Resort
 skinned: false
 holes:
   - id: 6f0a835d-95ce-4a3a-8282-51ec94de07ad
-    current-tournament: true
     course: Koh Hong Resort
     number: 1
     par: 4
@@ -183,7 +182,6 @@ holes:
     aliases:
     overlays:
   - id: 79b32807-da11-4dd9-b774-df050fd22f49
-    current-tournament: true
     course: Koh Hong Resort
     number: 2
     par: 3
@@ -314,7 +312,6 @@ holes:
     aliases:
     overlays:
   - id: a61e24d2-7c56-49f2-b95b-fbaa8ef47b10
-    current-tournament: true
     course: Koh Hong Resort
     number: 3
     par: 5
@@ -495,7 +492,6 @@ holes:
     aliases:
     overlays:
   - id: 0a16e868-16e8-46c2-9296-f247d6958180
-    current-tournament: true
     course: Koh Hong Resort
     number: 4
     par: 3
@@ -656,7 +652,6 @@ holes:
     aliases:
     overlays:
   - id: c6e4e084-1cbd-4c5a-b40d-8f52e9758295
-    current-tournament: true
     course: Koh Hong Resort
     number: 5
     par: 4
@@ -856,7 +851,6 @@ holes:
     aliases:
     overlays:
   - id: fa1647b8-c532-4c1d-ab43-2cd9cbb0c1f6
-    current-tournament: true
     course: Koh Hong Resort
     number: 6
     par: 5
@@ -1022,7 +1016,6 @@ holes:
     aliases:
     overlays:
   - id: 49e6232e-b37f-422c-952b-5dbf6233a43b
-    current-tournament: true
     course: Koh Hong Resort
     number: 7
     par: 4
@@ -1216,7 +1209,6 @@ holes:
     aliases:
     overlays:
   - id: 42370cfc-fa99-4a64-b673-64d140821cb7
-    current-tournament: true
     course: Koh Hong Resort
     number: 8
     par: 3
@@ -1338,7 +1330,6 @@ holes:
     aliases:
     overlays:
   - id: eed54e8e-e583-4084-9fb4-d4cb1e32defb
-    current-tournament: true
     course: Koh Hong Resort
     number: 9
     par: 5
