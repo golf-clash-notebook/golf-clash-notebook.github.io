@@ -28,7 +28,7 @@ package page
 object tournaments {
 
   val init = () => {
-    hole.init()
+    map.init()
   }
 
 }
