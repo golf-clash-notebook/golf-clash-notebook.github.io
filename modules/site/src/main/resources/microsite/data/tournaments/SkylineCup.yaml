@@ -1,6 +1,32 @@
 tournamentName: Skyline Cup
 date: '2019-05-27'
 resourceCreators:
+  - name: Golf Clash Tommy
+    resources:
+    - title: Rookie Playthrough - Tournament Wind
+      url: https://youtu.be/sgjEmSxfveQ
+    - title: Pro Playthrough - Tournament Wind
+      url: https://youtu.be/rH3JjWtPLHk
+    - title: Expert Playthrough - Tournament Wind
+      url: https://youtu.be/H68wiIZGly4
+    - title: Master Playthrough - Tournament Wind
+      url: https://youtu.be/KFdMNfFpR08
+    - title: Rookie Guide
+      url: https://youtu.be/uMCYxlrLKYM
+    - title: Pro / Expert Guide
+      url: https://youtu.be/axTp1bhWyiM
+    - title: Text Guides
+      url: https://imgur.com/gallery/ybyJ1d9
+  - name: Jesse Both
+    resources:
+    - title: Rookie Playthrough - Tournament Wind
+      url: https://youtu.be/pig3DyHvrRs
+    - title: Pro Playthrough - Tournament Wind
+      url: https://youtu.be/myZ6XhugYlU
+    - title: Rookie Guide
+      url: https://youtu.be/QY3EaxWFAUk
+    - title: Pro / Expert Guide
+      url: https://youtu.be/oDjrXJaP1kg
 holes:
   - number: 1
     id: 996a923a-517a-4e18-8868-0ab66807884b

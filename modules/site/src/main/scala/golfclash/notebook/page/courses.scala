@@ -28,7 +28,7 @@ package page
 object courses {
 
   val init = () => {
-    map.init()
+    holemap.init()
   }
 
 }

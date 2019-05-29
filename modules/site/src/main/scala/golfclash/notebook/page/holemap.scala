@@ -34,7 +34,7 @@ import golfclash.notebook.core._
 import markedjs._
 import monix.execution.Scheduler.Implicits.global
 
-object map {
+object holemap {
 
   var PageHoleData    = none[HoleData]
   var CurrentHoleNote = none[HoleNote]

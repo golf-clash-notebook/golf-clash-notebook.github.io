@@ -1,0 +1,10 @@
+name: Skyline
+windResistance: 4
+sideSpin: 1
+power: 3
+cost: n/a
+description: >
+  This ball was available during the <a href="/tournaments/SkylineCup/">Skyline Cup</a> tournament
+  as part of a cash package. Duplicate of the Bunny and Mummy and a poor mans version of the
+  Season 2 and Vintage given the poor OP needle speed.
+needleSpeed: 0.750
