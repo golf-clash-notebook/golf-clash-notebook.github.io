@@ -67,6 +67,10 @@ holes:
     resourceCreators:
       - name: Golf Clash Tommy
         resources:
+        - title: Skyline Cup - Rookie Guide
+          url: https://youtu.be/50k6QU5iBWg
+        - title: Skyline Cup - Pro / Expert Guide
+          url: https://youtu.be/uOqOxPEIA9A
         - title: Festive Cup - Rookie
           url: https://youtu.be/BmdJSKPGYdo
         - title: Festive Cup - Pro & Expert
@@ -79,6 +83,90 @@ holes:
           url: https://i.imgur.com/hhQUdui.png
       - name: Zachary Jones
         resources:
+        - title: Skyline Cup - Rookie
+          url: https://youtu.be/EsatuiHb1kA
+          metadata:
+            tournament: Skyline Cup
+            level: Rookie
+            ball: Navigator
+            teePosition: 1
+            clubs:
+              - name: Saturn
+                level: 8
+            wind:
+              direction: N
+              magnitude: 3.9
+            keywords:
+        - title: Skyline Cup - Pro
+          url: https://youtu.be/XVA-nOYCfNU
+          metadata:
+            tournament: Skyline Cup
+            level: Pro
+            ball: Navigator
+            teePosition: 2
+            clubs:
+              - name: Backbone
+                level: 9
+            wind:
+              direction: NNE
+              magnitude: 5.2
+            keywords:
+        - title: Skyline Cup - Expert
+          url: https://youtu.be/7BruL2MICRw
+          metadata:
+            tournament: Skyline Cup
+            level: Expert
+            ball: King Maker
+            teePosition: 2
+            clubs:
+              - name: Backbone
+                level: 10
+            wind:
+              direction: SW
+              magnitude: 7.2
+            keywords:
+        - title: Skyline Cup - Expert
+          url: https://youtu.be/zjngVQL4HOQ
+          metadata:
+            tournament: Skyline Cup
+            level: Expert
+            ball: King Maker
+            teePosition: 2
+            clubs:
+              - name: B52
+                level: 7
+            wind:
+              direction: SW
+              magnitude: 7.6
+            keywords:
+        - title: Skyline Cup - Master
+          url: https://youtu.be/KnVSbMfruR8
+          metadata:
+            tournament: Skyline Cup
+            level: Master
+            ball: King Maker
+            teePosition: 3
+            clubs:
+              - name: Sniper
+                level: 10
+            wind:
+              direction: S
+              magnitude: 10.8
+            keywords:
+        - title: Skyline Cup - Master
+          url: https://youtu.be/aDw39ZjuZTU
+          metadata:
+            tournament: Skyline Cup
+            level: Master
+            ball: King Maker
+            teePosition: 3
+            clubs:
+              - name: Sniper
+                level: 10
+            wind:
+              direction: S
+              magnitude: 10.4
+            keywords:
         - title: General Instruction - 3rd Tee
           url: https://youtu.be/fx9p7qjp1Ek
           metadata:
@@ -234,6 +322,10 @@ holes:
               direction: NW
               magnitude: 6.3
             keywords:
+      - name: Jesse Both
+        resources:
+        - title: Skyline Cup - Rookie Guide
+          url: https://youtu.be/_bVgOUNALW8
     aliases:
       - 2cb5ab94-1384-4df1-8de6-f8a85b40b9f9
   - id: 16fb8928-e633-4973-b861-ab45323ebcdf
@@ -347,6 +439,10 @@ holes:
     resourceCreators:
       - name: Golf Clash Tommy
         resources:
+        - title: Skyline Cup - Rookie Guide
+          url: https://youtu.be/_ZYfLg5Xbsc
+        - title: Skyline Cup - Pro / Expert Guide
+          url: https://youtu.be/1ozkJX8RZeA
         - title: Festive Cup - Rookie
           url: https://youtu.be/w0lSuaWb-lI
         - title: Festive Cup - Pro & Expert
@@ -359,6 +455,102 @@ holes:
           url: https://i.imgur.com/JeehCzC.png
       - name: Zachary Jones
         resources:
+        - title: Skyline Cup - Rookie
+          url: https://youtu.be/x9FR8DJH4bQ
+          metadata:
+            tournament: Skyline Cup
+            level: Rookie
+            ball: Titan
+            teePosition: 1
+            clubs:
+              - name: Quarterback
+                level: 8
+              - name: Guardian
+                level: 4
+            wind:
+              direction: NNW
+              magnitude: 2.3
+            keywords:
+        - title: Skyline Cup - Pro
+          url: https://youtu.be/TZp0B8CL8Hw
+          metadata:
+            tournament: Skyline Cup
+            level: Pro
+            ball: Titan
+            teePosition: 2
+            clubs:
+              - name: Quarterback
+                level: 9
+              - name: Sniper
+                level: 9
+            wind:
+              direction: NW
+              magnitude: 6.3
+            keywords:
+        - title: Skyline Cup - Expert
+          url: https://youtu.be/4rKqXWx3y2g
+          metadata:
+            tournament: Skyline Cup
+            level: Expert
+            ball: King Maker
+            teePosition: 2
+            clubs:
+              - name: Quarterback
+                level: 10
+              - name: Sniper
+                level: 10
+            wind:
+              direction: NE
+              magnitude: 7.5
+            keywords:
+        - title: Skyline Cup - Expert
+          url: https://youtu.be/dlCMFZmbsV4
+          metadata:
+            tournament: Skyline Cup
+            level: Expert
+            ball: Snow Globe
+            teePosition: 2
+            clubs:
+              - name: Apocalypse
+                level: 7
+              - name: Nirvana
+                level: 8
+            wind:
+              direction: NE
+              magnitude: 12.4
+            keywords:
+        - title: Skyline Cup - Master
+          url: https://youtu.be/Dkaz1HwsSTI
+          metadata:
+            tournament: Skyline Cup
+            level: Master
+            ball: King Maker
+            teePosition: 3
+            clubs:
+              - name: Apocalypse
+                level: 6
+              - name: Sniper
+                level: 10
+            wind:
+              direction: E
+              magnitude: 12.2
+            keywords:
+        - title: Skyline Cup - Master
+          url: https://youtu.be/5ptAgH5s2pg
+          metadata:
+            tournament: Skyline Cup
+            level: Master
+            ball: King Maker
+            teePosition: 3
+            clubs:
+              - name: Thor's Hammer
+                level: 7
+              - name: Sniper
+                level: 10
+            wind:
+              direction: E
+              magnitude: 11.9
+            keywords:
         - title: Festive Cup - Rookie
           url: https://youtu.be/PkUhVGxPyuI
           metadata:
@@ -532,6 +724,10 @@ holes:
               direction: NNE
               magnitude: 9.8
             keywords:
+      - name: Jesse Both
+        resources:
+        - title: Skyline Cup - Rookie Guide
+          url: https://youtu.be/6D_TcdgfUq4
     aliases:
       - 59c09a8a-33b2-4870-8483-3e3d45eab4ba
   - id: 42b1a784-4b07-48c0-af08-0adb081a5d1d
@@ -2493,6 +2689,10 @@ holes:
     resourceCreators:
       - name: Golf Clash Tommy
         resources:
+        - title: Skyline Cup - Rookie Guide
+          url: https://youtu.be/qtArxtkkK2s
+        - title: Skyline Cup - Pro / Expert Guide
+          url: https://youtu.be/1SCcMc_fi3M
         - title: Festive Cup - Rookie
           url: https://youtu.be/kkwMlHusFQg
         - title: Festive Cup - Pro & Expert
@@ -2509,6 +2709,104 @@ holes:
           url: https://i.imgur.com/l0TG4ew.png
       - name: Zachary Jones
         resources:
+        - title: Skyline Cup - Rookie
+          url: https://youtu.be/e8SWCEk1AnY
+          metadata:
+            tournament: Skyline Cup
+            level: Rookie
+            ball: Titan
+            teePosition: 1
+            clubs:
+              - name: Quarterback
+                level: 8
+              - name: Guardian
+                level: 4
+            wind:
+              direction: NE
+              magnitude: 3.5
+            keywords:
+        - title: Skyline Cup - Pro
+          url: https://youtu.be/ocSo-2OPxUw
+          metadata:
+            tournament: Skyline Cup
+            level: Pro
+            ball: Titan
+            teePosition: 2
+            clubs:
+              - name: Quarterback
+                level: 9
+              - name: Sniper
+                level: 9
+            wind:
+              direction: NNW
+              magnitude: 7.5
+            keywords:
+        - title: Skyline Cup - Expert
+          url: https://youtu.be/167tOLaMqR8
+          metadata:
+            tournament: Skyline Cup
+            level: Expert
+            ball: King Maker
+            teePosition: 2
+            clubs:
+              - name: Quarterback
+                level: 10
+              - name: Sniper
+                level: 10
+            wind:
+              direction: N
+              magnitude: 8.1
+            keywords:
+        - title: Skyline Cup - Expert
+          url: https://youtu.be/WiD5vH6L0Ic
+          metadata:
+            tournament: Skyline Cup
+            level: Expert
+            ball: Turkey
+            teePosition: 2
+            clubs:
+              - name: Quarterback
+                level: 10
+              - name: Sniper
+                level: 10
+            wind:
+              direction: N
+              magnitude: 5.8
+            keywords:
+        - title: Skyline Cup - Master
+          url: https://youtu.be/eduCb3qVYLo
+          metadata:
+            tournament: Skyline Cup
+            level: Master
+            ball: King Maker
+            teePosition: 3
+            clubs:
+              - name: Apocalypse
+                level: 6
+              - name: Nirvana
+                level: 8
+              - name: Spitfire
+                level: 6
+            wind:
+              direction: ENE
+              magnitude: 10.5
+            keywords:
+        - title: Skyline Cup - Master
+          url: https://youtu.be/GX3KjgSUI9M
+          metadata:
+            tournament: Skyline Cup
+            level: Master
+            ball: King Maker
+            teePosition: 3
+            clubs:
+              - name: Apocalypse
+                level: 7
+              - name: Sniper
+                level: 10
+            wind:
+              direction: ENE
+              magnitude: 10.5
+            keywords:
         - title: Festive Cup - Rookie
           url: https://youtu.be/TPOXEo0HZ5Y
           metadata:
@@ -2869,5 +3167,9 @@ holes:
               direction: NNW
               magnitude: 7.6
             keywords:
+      - name: Jesse Both
+        resources:
+        - title: Skyline Cup - Rookie Guide
+          url: https://youtu.be/D5BO7tA4SO8
     aliases:
       - 02e3949a-abdb-41b1-b6f0-87e28045c307
