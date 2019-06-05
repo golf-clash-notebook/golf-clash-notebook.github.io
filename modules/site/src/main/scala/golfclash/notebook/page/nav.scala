@@ -163,7 +163,7 @@ object nav {
         val elementLeft =
           jQuery(element).offset().asInstanceOf[js.Dynamic].left.asInstanceOf[Double]
 
-        jQuery("ul.horizontalNav").scrollLeft((elementLeft - navWidth / 2).toInt)
+        jQuery("ul.horizontalNav").scrollLeft((elementLeft - navWidth / 2))
 
       }
     }
@@ -185,6 +185,6 @@ object nav {
     }
   }
 
-  var lastScrollTop = 0;
+  var lastScrollTop = 0d
 
 }

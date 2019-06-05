@@ -124,33 +124,33 @@ object shotoverpower {
   def initReticleImage(reticleNum: Int): Unit = {
     dom.document
       .getElementById(s"club${reticleNum}-reticle-image")
-      .addEventListener("mousedown", reticleMouseDragStarted(reticleNum), false)
+      .addEventListener("mousedown", reticleMouseDragStarted(reticleNum)(_), false)
     dom.document
       .getElementById(s"club${reticleNum}-reticle-image")
-      .addEventListener("mousemove", reticleMouseDragged(reticleNum), false)
+      .addEventListener("mousemove", reticleMouseDragged(reticleNum)(_), false)
     dom.document
       .getElementById(s"club${reticleNum}-reticle-image")
-      .addEventListener("mouseup", reticleMouseDragEnded(reticleNum), false)
+      .addEventListener("mouseup", reticleMouseDragEnded(reticleNum)(_), false)
     dom.document
       .getElementById("club-op-plot")
-      .addEventListener("mouseleave", reticleMouseDragEnded(reticleNum), false)
+      .addEventListener("mouseleave", reticleMouseDragEnded(reticleNum)(_), false)
 
     // TODO...
     dom.document
       .getElementById(s"club${reticleNum}-reticle-image")
-      .addEventListener("touchstart", reticleTouchStarted(reticleNum), false)
+      .addEventListener("touchstart", reticleTouchStarted(reticleNum)(_), false)
     dom.document
       .getElementById(s"club${reticleNum}-reticle-image")
-      .addEventListener("touchmove", reticleTouchMoved(reticleNum), false)
+      .addEventListener("touchmove", reticleTouchMoved(reticleNum)(_), false)
     dom.document
       .getElementById(s"club${reticleNum}-reticle-image")
-      .addEventListener("touchend", reticleTouchEnded(reticleNum), false)
+      .addEventListener("touchend", reticleTouchEnded(reticleNum)(_), false)
     dom.document
       .getElementById("club-op-plot")
-      .addEventListener("touchleave", reticleTouchEnded(reticleNum), false)
+      .addEventListener("touchleave", reticleTouchEnded(reticleNum)(_), false)
     dom.document
       .getElementById(s"club${reticleNum}-reticle-image")
-      .addEventListener("touchcancel", reticleTouchEnded(reticleNum), false)
+      .addEventListener("touchcancel", reticleTouchEnded(reticleNum)(_), false)
   }
 
   def reticleMouseDragStarted(reticleNum: Int)(mouseEvent: MouseEvent): Unit = {
