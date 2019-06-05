@@ -2,6 +2,7 @@ courseName: Juniper Point
 skinned: false
 holes:
   - id: f73bea1d-3683-48f8-92e8-12abddd88d16
+    current-tournament: true
     course: Juniper Point
     number: 1
     par: 4
@@ -321,6 +322,7 @@ holes:
               <circle cx="182" cy="266" r="6" fill="white" class="guide-point" data-guide-segment="1" />
               <circle cx="157" cy="112" r="6" fill="white" class="guide-point" data-guide-segment="2" />
   - id: 48316f6b-6037-4b43-8eff-7d4c345a0929
+    current-tournament: true
     course: Juniper Point
     number: 2
     par: 3
@@ -741,6 +743,7 @@ holes:
               <circle cx="230" cy="747" r="6" fill="black" class="guide-point" data-guide-segment="0" />
               <circle cx="240" cy="200" r="6" fill="black" class="guide-point" data-guide-segment="1" />
   - id: b31d9248-cdb3-4549-933a-9d596a7d81ee
+    current-tournament: true
     course: Juniper Point
     number: 3
     par: 5
@@ -1069,6 +1072,7 @@ holes:
               <circle cx="195" cy="382" r="6" fill="white" class="guide-point" data-guide-segment="2" />
               <circle cx="263" cy="137" r="6" fill="white" class="guide-point" data-guide-segment="3" />
   - id: c35b816e-75dd-4cda-83df-a4b6639d54f3
+    current-tournament: true
     course: Juniper Point
     number: 4
     par: 3
@@ -1301,6 +1305,7 @@ holes:
               <circle cx="217" cy="224" r="6" fill="white" class="guide-point" data-guide-segment="1" />
               <circle cx="201" cy="166" r="6" fill="white" class="guide-point" data-guide-segment="2" />
   - id: c9d5cbe5-262e-49cb-a6f1-48e40918502a
+    current-tournament: true
     course: Juniper Point
     number: 5
     par: 5
@@ -1638,6 +1643,7 @@ holes:
               <circle cx="259" cy="269" r="6" fill="blue" class="guide-point" data-guide-segment="1" />
               <circle cx="212" cy="129" r="6" fill="blue" class="guide-point" data-guide-segment="2" />
   - id: 8f0fb665-4802-4f8f-a823-35b3cae6f26c
+    current-tournament: true
     course: Juniper Point
     number: 6
     par: 4
@@ -1888,6 +1894,7 @@ holes:
               <circle cx="168" cy="356" r="6" fill="yellow" class="guide-point" data-guide-segment="1" />
               <circle cx="203" cy="89" r="6" fill="yellow" class="guide-point" data-guide-segment="2" />
   - id: 7777d535-cb89-4d83-b8a7-831cc61fbc66
+    current-tournament: true
     course: Juniper Point
     number: 7
     par: 3
@@ -2207,6 +2214,7 @@ holes:
               <circle cx="141" cy="688" r="6" fill="black" class="guide-point" data-guide-segment="0" />
               <circle cx="143" cy="184" r="6" fill="black" class="guide-point" data-guide-segment="1" />
   - id: 833ca5f4-813c-4b4c-8194-fd508a6611c6
+    current-tournament: true
     course: Juniper Point
     number: 8
     par: 4
@@ -2568,6 +2576,7 @@ holes:
               <circle cx="248" cy="130" r="6" fill="white" class="guide-point" data-guide-segment="2" />
               <circle cx="129" cy="105" r="6" fill="white" class="guide-point" data-guide-segment="3" />
   - id: 84427923-664c-4701-a1f5-58108b952647
+    current-tournament: true
     course: Juniper Point
     number: 9
     par: 5

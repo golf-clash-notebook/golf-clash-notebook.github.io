@@ -687,3 +687,11 @@ page_gen:
     extra:
       title-prefix: 'Skyline Cup - Hole '
       tournamentName: 'Skyline Cup'
+  - index_files: true
+    data: 'tournaments.AmericanaClassic.holes'
+    template: '_includes/tournaments/hole-template.liquid'
+    name: 'number'
+    dir: 'tournaments/AmericanaClassic'
+    extra:
+      title-prefix: 'Americana Classic - Hole '
+      tournamentName: 'Americana Classic'
