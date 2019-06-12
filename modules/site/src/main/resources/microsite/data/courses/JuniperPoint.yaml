@@ -68,6 +68,10 @@ holes:
     resourceCreators:
       - name: Golf Clash Tommy
         resources:
+        - title: Americana Classic - Rookie Guide
+          url: https://youtu.be/TkM0MMzi1AE
+        - title: Americana Classic - Pro / Expert Guide
+          url: https://youtu.be/lw4Xzn1RFzY
         - title: Community Cup - Rookie Guide
           url: https://youtu.be/cuYx0eRca18
         - title: Rookie Guide
@@ -78,6 +82,102 @@ holes:
           url: https://i.imgur.com/HuKrFpa.png
       - name: Zachary Jones
         resources:
+        - title: Americana Classic - Rookie
+          url: https://youtu.be/gXy953Ux-iU
+          metadata:
+            tournament: Americana Classic
+            level: Rookie
+            ball: Quasar
+            teePosition: 1
+            clubs:
+              - name: Extra Mile
+                level: 6
+              - name: Skewer
+                level: 6
+            wind:
+              direction: NW
+              magnitude: 3.3
+            keywords:
+        - title: Americana Classic - Pro
+          url: https://youtu.be/vsd81CpVdMk
+          metadata:
+            tournament: Americana Classic
+            level: Pro
+            ball: Titan
+            teePosition: 2
+            clubs:
+              - name: Extra Mile
+                level: 6
+              - name: EndBringer
+                level: 5
+            wind:
+              direction: NNE
+              magnitude: 6.8
+            keywords:
+        - title: Americana Classic - Expert
+          url: https://youtu.be/7ah2gWliVm4
+          metadata:
+            tournament: Americana Classic
+            level: Expert
+            ball: King Maker
+            teePosition: 2
+            clubs:
+              - name: Apocalypse
+                level: 6
+              - name: Nirvana
+                level: 7
+            wind:
+              direction: NE
+              magnitude: 8.9
+            keywords:
+        - title: Americana Classic - Expert
+          url: https://youtu.be/DF8lhwe9e7A
+          metadata:
+            tournament: Americana Classic
+            level: Expert
+            ball: King Maker
+            teePosition: 2
+            clubs:
+              - name: Apocalypse
+                level: 4
+              - name: EndBringer
+                level: 4
+            wind:
+              direction: NE
+              magnitude: 8.5
+            keywords:
+        - title: Americana Classic - Master
+          url: https://youtu.be/9y1VrCVetCw
+          metadata:
+            tournament: Americana Classic
+            level: Master
+            ball: King Maker
+            teePosition: 3
+            clubs:
+              - name: Apocalypse
+                level: 6
+              - name: B52
+                level: 6
+            wind:
+              direction: ESE
+              magnitude: 12.3
+            keywords:
+        - title: Americana Classic - Master
+          url: https://youtu.be/35KPKBjyBfk
+          metadata:
+            tournament: Skyline Cup
+            level: Master
+            ball: King Maker
+            teePosition: 3
+            clubs:
+              - name: Apocalypse
+                level: 4
+              - name: Sniper
+                level: 10
+            wind:
+              direction: ESE
+              magnitude: 11.4
+            keywords:
         - title: Community Cup - Rookie
           url: https://youtu.be/UDKi8c9JRPw
           metadata:
@@ -261,66 +361,6 @@ holes:
         - title: Easter Links - Pro
           url: https://youtu.be/zMLkC2AKp2w
     overlays:
-      size: [395, 863]
-      guides:
-      - name: Black Path
-        text: >
-          Without tailwind, this is the only way to play the hole. Layup with the drive. The key
-          will be your second shot into the green. With your long iron, aim a little more left of
-          the pin then you normally would, as the ball will fall down to the left. Use 4-6 bars of
-          backspin and use the slope on the green to let it fall down to the hole. Also have in
-          mind that with a downhill chip around the green, the ball will be affected more by the
-          wind.
-        levels:
-          - name: Rookie
-            svg:
-              <path d="M 118 690 L 247 277" stroke="black" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="0" />
-              <path d="M 247 277 L 165 116" stroke="black" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="1" />
-              <circle cx="118" cy="690" r="6" fill="black" class="guide-point" data-guide-segment="0" />
-              <circle cx="247" cy="277" r="6" fill="black" class="guide-point" data-guide-segment="1" />
-              <circle cx="165" cy="116" r="6" fill="black" class="guide-point" data-guide-segment="2" />
-          - name: Pro
-            svg:
-              <path d="M 100 744 L 247 277" stroke="black" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="0" />
-              <path d="M 247 277 L 165 116" stroke="black" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="1" />
-              <circle cx="100" cy="744" r="6" fill="black" class="guide-point" data-guide-segment="0" />
-              <circle cx="247" cy="277" r="6" fill="black" class="guide-point" data-guide-segment="1" />
-              <circle cx="165" cy="116" r="6" fill="black" class="guide-point" data-guide-segment="2" />
-          - name: Masters
-            svg:
-              <path d="M 82 797 L 247 277" stroke="black" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="0" />
-              <path d="M 247 277 L 165 116" stroke="black" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="1" />
-              <circle cx="82" cy="797" r="6" fill="black" class="guide-point" data-guide-segment="0" />
-              <circle cx="247" cy="277" r="6" fill="black" class="guide-point" data-guide-segment="1" />
-              <circle cx="165" cy="116" r="6" fill="black" class="guide-point" data-guide-segment="2" />
-      - name: White Path
-        text: >
-          With tailwind, you should get aggressive and go for the green. From the first and second
-          tees you can use a hook shot or a regular drive with full left spin and left curl. Use 5
-          bars of topspin for your drive since a tailwind will give your ball a big boost, and can
-          go over the green with too much topspin.
-        levels:
-          - name: Rookie
-            svg:
-              <path d="M 118 690 C 200 435 200 435 182 266" stroke="white" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="0" />
-              <path d="M 182 266 L 157 112" stroke="white" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="1" />
-              <circle cx="118" cy="690" r="6" fill="white" class="guide-point" data-guide-segment="0" />
-              <circle cx="182" cy="266" r="6" fill="white" class="guide-point" data-guide-segment="1" />
-              <circle cx="157" cy="112" r="6" fill="white" class="guide-point" data-guide-segment="2" />
-          - name: Pro
-            svg:
-              <path d="M 100 744 C 200 435 200 435 182 266" stroke="white" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="0" />
-              <path d="M 182 266 L 157 112" stroke="white" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="1" />
-              <circle cx="100" cy="744" r="6" fill="white" class="guide-point" data-guide-segment="0" />
-              <circle cx="182" cy="266" r="6" fill="white" class="guide-point" data-guide-segment="1" />
-              <circle cx="157" cy="112" r="6" fill="white" class="guide-point" data-guide-segment="2" />
-          - name: Masters
-            svg:
-              <path d="M 82 797 C 200 435 200 435 182 266" stroke="white" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="0" />
-              <path d="M 182 266 L 157 112" stroke="white" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="1" />
-              <circle cx="82" cy="797" r="6" fill="white" class="guide-point" data-guide-segment="0" />
-              <circle cx="182" cy="266" r="6" fill="white" class="guide-point" data-guide-segment="1" />
-              <circle cx="157" cy="112" r="6" fill="white" class="guide-point" data-guide-segment="2" />
   - id: 48316f6b-6037-4b43-8eff-7d4c345a0929
     current-tournament: true
     course: Juniper Point
@@ -397,6 +437,10 @@ holes:
     resourceCreators:
       - name: Golf Clash Tommy
         resources:
+        - title: Americana Classic - Rookie Guide
+          url: https://youtu.be/6qT9Hch44fI
+        - title: Americana Classic - Pro / Expert Guide
+          url: https://youtu.be/5PUy-qjoLB4
         - title: Community Cup - Rookie Guide
           url: https://youtu.be/wRs2hM01RtA
         - title: Pro & Expert Guide - Gridiron
@@ -411,6 +455,90 @@ holes:
           url: https://i.imgur.com/50Nv0bc.png
       - name: Zachary Jones
         resources:
+        - title: Americana Classic - Rookie
+          url: https://youtu.be/k5GixlJ3d8w
+          metadata:
+            tournament: Americana Classic
+            level: Rookie
+            ball: Navigator
+            teePosition: 1
+            clubs:
+              - name: Backbone
+                level: 9
+            wind:
+              direction: W
+              magnitude: 3.1
+            keywords:
+        - title: Americana Classic - Pro
+          url: https://youtu.be/WPXnCQdxg9M
+          metadata:
+            tournament: Americana Classic
+            level: Pro
+            ball: Navigator
+            teePosition: 2
+            clubs:
+              - name: Sniper
+                level: 9
+            wind:
+              direction: ENE
+              magnitude: 7.6
+            keywords:
+        - title: Americana Classic - Expert
+          url: https://youtu.be/qmf7wXw2xxw
+          metadata:
+            tournament: Americana Classic
+            level: Expert
+            ball: King Maker
+            teePosition: 2
+            clubs:
+              - name: Goliath
+                level: 8
+            wind:
+              direction: N
+              magnitude: 7.7
+            keywords:
+        - title: Americana Classic - Expert
+          url: https://youtu.be/C92YjA9MmPE
+          metadata:
+            tournament: Americana Classic
+            level: Expert
+            ball: King Maker
+            teePosition: 2
+            clubs:
+              - name: B52
+                level: 5
+            wind:
+              direction: N
+              magnitude: 7.8
+            keywords:
+        - title: Americana Classic - Master
+          url: https://youtu.be/YJ4Xwo22NdY
+          metadata:
+            tournament: Americana Classic
+            level: Master
+            ball: Oceania
+            teePosition: 3
+            clubs:
+              - name: Sniper
+                level: 10
+            wind:
+              direction: SW
+              magnitude: 8.4
+            keywords:
+        - title: Americana Classic - Master
+          url: https://youtu.be/jwYISUX50x4
+          metadata:
+            tournament: Americana Classic
+            level: Master
+            ball: King Maker
+            teePosition: 3
+            clubs:
+              - name: Sniper
+                level: 10
+            wind:
+              direction: SW
+              magnitude: 10.7
+            keywords:
         - title: Community Cup - Rookie
           url: https://youtu.be/tSHxtIuGA2k
           metadata:
@@ -718,30 +846,6 @@ holes:
         - title: Easter Links - Pro
           url: https://youtu.be/pTWo6KQfAzc
     overlays:
-      size: [446, 843]
-      guides:
-      - name: Black Path
-        text: >
-          A hole where you NEED to give yourself a chance at the hole in one. From the first tee,
-          use a long iron with plenty of backspin. Land your first bounce directly on the green and
-          aim slightly above the pin. From the second tee, use Guardian with max backspin. Aim just
-          after the pin and let the ball slide down to the hole.
-        levels:
-          - name: Rookie
-            svg:
-              <path d="M 234 577 L 240 200" stroke="black" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="0" />
-              <circle cx="234" cy="577" r="6" fill="black" class="guide-point" data-guide-segment="0" />
-              <circle cx="240" cy="200" r="6" fill="black" class="guide-point" data-guide-segment="1" />
-          - name: Pro
-            svg:
-              <path d="M 232 660 L 240 200" stroke="black" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="0" />
-              <circle cx="232" cy="660" r="6" fill="black" class="guide-point" data-guide-segment="0" />
-              <circle cx="240" cy="200" r="6" fill="black" class="guide-point" data-guide-segment="1" />
-          - name: Masters
-            svg:
-              <path d="M 230 747 L 240 200" stroke="black" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="0" />
-              <circle cx="230" cy="747" r="6" fill="black" class="guide-point" data-guide-segment="0" />
-              <circle cx="240" cy="200" r="6" fill="black" class="guide-point" data-guide-segment="1" />
   - id: b31d9248-cdb3-4549-933a-9d596a7d81ee
     current-tournament: true
     course: Juniper Point
@@ -811,6 +915,10 @@ holes:
     resourceCreators:
       - name: Golf Clash Tommy
         resources:
+        - title: Americana Classic - Rookie Guide
+          url: https://youtu.be/rfdKD2JHZcA
+        - title: Americana Classic - Pro / Expert Guide
+          url: https://youtu.be/oFImYsi9Htc
         - title: Community Cup - Rookie Guide
           url: https://youtu.be/pltzw573Lf4
         - title: Rookie Guide
@@ -821,6 +929,102 @@ holes:
           url: https://i.imgur.com/xwm2DLs.png
       - name: Zachary Jones
         resources:
+        - title: Americana Classic - Rookie
+          url: https://youtu.be/j-p4-VH8uxk
+          metadata:
+            tournament: Americana Classic
+            level: Rookie
+            ball: Titan
+            teePosition: 1
+            clubs:
+              - name: Quarterback
+                level: 8
+              - name: Guardian
+                level: 4
+            wind:
+              direction: N
+              magnitude: 2.7
+            keywords:
+        - title: Americana Classic - Pro
+          url: https://youtu.be/LorneCfXDX4
+          metadata:
+            tournament: Americana Classic
+            level: Pro
+            ball: Titan
+            teePosition: 2
+            clubs:
+              - name: Quarterback
+                level: 9
+              - name: Sniper
+                level: 9
+            wind:
+              direction: NNW
+              magnitude: 6.8
+            keywords:
+        - title: Americana Classic - Expert
+          url: https://youtu.be/emet51ArmW8
+          metadata:
+            tournament: Americana Classic
+            level: Expert
+            ball: King Maker
+            teePosition: 2
+            clubs:
+              - name: Apocalypse
+                level: 6
+              - name: Thorn
+                level: 8
+            wind:
+              direction: NNE
+              magnitude: 7.5
+            keywords:
+        - title: Americana Classic - Expert
+          url: https://youtu.be/OlU8S7OqyIc
+          metadata:
+            tournament: Americana Classic
+            level: Expert
+            ball: Titan
+            teePosition: 2
+            clubs:
+              - name: Apocalypse
+                level: 4
+              - name: Hornet
+                level: 6
+            wind:
+              direction: NNE
+              magnitude: 9.0
+            keywords:
+        - title: Americana Classic - Master
+          url: https://youtu.be/ujdLJfC_C7s
+          metadata:
+            tournament: Americana Classic
+            level: Master
+            ball: Gridiron
+            teePosition: 3
+            clubs:
+              - name: Apocalypse
+                level: 6
+              - name: Spitfire
+                level: 6
+            wind:
+              direction: NE
+              magnitude: 13.6
+            keywords:
+        - title: Americana Classic - Master
+          url: https://youtu.be/RSf-kiTOOpM
+          metadata:
+            tournament: Americana Classic
+            level: Master
+            ball: King Maker
+            teePosition: 3
+            clubs:
+              - name: Apocalypse
+                level: 4
+              - name: Sniper
+                level: 10
+            wind:
+              direction: ENE
+              magnitude: 11.2
+            keywords:
         - title: Community Cup - Rookie
           url: https://youtu.be/rIDvBl-7auc
           metadata:
@@ -1006,71 +1210,6 @@ holes:
         - title: Easter Links - Pro
           url: https://youtu.be/DObhHEcM60g
     overlays:
-      size: [449, 1085]
-      guides:
-      - name: Black Path
-        text: >
-          The most common way to play the hole. Use the driver with the most length and use a lot
-          of curl to leave yourself with a short iron or wedge for your second shot. If you don't
-          have a lot of curl on your driver, put your drive just in front of the second bunker on
-          the left. The trees will be a little more in play for your second shot, but still a good
-          chance at the albatross.
-        levels:
-          - name: Rookie
-            svg:
-              <path d="M 191 838 C 142 500 142 500 263 290" stroke="black" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="0" />
-              <path d="M 263 290 L 272 138" stroke="black" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="1" />
-              <circle cx="191" cy="838" r="6" fill="black" class="guide-point" data-guide-segment="0" />
-              <circle cx="263" cy="290" r="6" fill="black" class="guide-point" data-guide-segment="1" />
-              <circle cx="272" cy="138" r="6" fill="black" class="guide-point" data-guide-segment="2" />
-          - name: Pro
-            svg:
-              <path d="M 184 887 C 142 500 142 500 263 290" stroke="black" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="0" />
-              <path d="M 263 290 L 272 138" stroke="black" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="1" />
-              <circle cx="184" cy="887" r="6" fill="black" class="guide-point" data-guide-segment="0" />
-              <circle cx="263" cy="290" r="6" fill="black" class="guide-point" data-guide-segment="1" />
-              <circle cx="272" cy="138" r="6" fill="black" class="guide-point" data-guide-segment="2" />
-          - name: Masters
-            svg:
-              <path d="M 176 940 C 142 500 142 500 263 290" stroke="black" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="0" />
-              <path d="M 263 290 L 272 138" stroke="black" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="1" />
-              <circle cx="176" cy="940" r="6" fill="black" class="guide-point" data-guide-segment="0" />
-              <circle cx="263" cy="290" r="6" fill="black" class="guide-point" data-guide-segment="1" />
-              <circle cx="272" cy="138" r="6" fill="black" class="guide-point" data-guide-segment="2" />
-      - name: White Path
-        text: >
-          This is a more conservative approach and is more common playing from the 1st or 3rd tees.
-          Bounce over the bunker with max topspin and you'll have a wood into the green for your
-          second shot. If you're facing headwind, you'll need a wood with plenty of distance to
-          reach the green.
-        levels:
-          - name: Rookie
-            svg:
-              <path d="M 191 838 L 191 537" stroke="white" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="0" />
-              <path d="M 191 537 L 195 382" stroke="white" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="1" />
-              <path d="M 195 382 L 263 137" stroke="white" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="2" />
-              <circle cx="191" cy="838" r="6" fill="white" class="guide-point" data-guide-segment="0" />
-              <circle cx="191" cy="537" r="6" fill="white" class="guide-point" data-guide-segment="1" />
-              <circle cx="195" cy="382" r="6" fill="white" class="guide-point" data-guide-segment="2" />
-              <circle cx="263" cy="137" r="6" fill="white" class="guide-point" data-guide-segment="3" />
-          - name: Pro
-            svg:
-              <path d="M 184 887 L 195 382" stroke="white" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="0" />
-              <path d="M 191 537 L 195 382" stroke="white" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="1" />
-              <path d="M 195 382 L 263 137" stroke="white" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="2" />
-              <circle cx="184" cy="887" r="6" fill="white" class="guide-point" data-guide-segment="0" />
-              <circle cx="191" cy="537" r="6" fill="white" class="guide-point" data-guide-segment="1" />
-              <circle cx="195" cy="382" r="6" fill="white" class="guide-point" data-guide-segment="2" />
-              <circle cx="263" cy="137" r="6" fill="white" class="guide-point" data-guide-segment="3" />
-          - name: Masters
-            svg:
-              <path d="M 176 940 L 195 382" stroke="white" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="0" />
-              <path d="M 191 537 L 195 382" stroke="white" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="1" />
-              <path d="M 195 382 L 263 137" stroke="white" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="2" />
-              <circle cx="176" cy="940" r="6" fill="white" class="guide-point" data-guide-segment="0" />
-              <circle cx="191" cy="537" r="6" fill="white" class="guide-point" data-guide-segment="1" />
-              <circle cx="195" cy="382" r="6" fill="white" class="guide-point" data-guide-segment="2" />
-              <circle cx="263" cy="137" r="6" fill="white" class="guide-point" data-guide-segment="3" />
   - id: c35b816e-75dd-4cda-83df-a4b6639d54f3
     current-tournament: true
     course: Juniper Point
@@ -1150,6 +1289,10 @@ holes:
     resourceCreators:
       - name: Golf Clash Tommy
         resources:
+        - title: Americana Classic - Rookie Guide
+          url: https://youtu.be/n4FfbOkwxI4
+        - title: Americana Classic - Pro / Expert Guide
+          url: https://youtu.be/DLPS5s1zDHQ
         - title: Rookie Guide
           url: https://youtu.be/AeRTFY2-1xU
         - title: Pro / Expert Guide
@@ -1158,6 +1301,90 @@ holes:
           url: https://i.imgur.com/hqBhiMY.png
       - name: Zachary Jones
         resources:
+        - title: Americana Classic - Rookie
+          url: https://youtu.be/Rn-NeQKTjPI
+          metadata:
+            tournament: Americana Classic
+            level: Rookie
+            ball: Quasar
+            teePosition: 1
+            clubs:
+              - name: Guardian
+                level: 4
+            wind:
+              direction: WSW
+              magnitude: 3.1
+            keywords:
+        - title: Americana Classic - Pro
+          url: https://youtu.be/T4jsDPyocLA
+          metadata:
+            tournament: Americana Classic
+            level: Pro
+            ball: Titan
+            teePosition: 2
+            clubs:
+              - name: Sniper
+                level: 9
+            wind:
+              direction: SE
+              magnitude: 7.3
+            keywords:
+        - title: Americana Classic - Expert
+          url: https://youtu.be/KvfHVaFXEY0
+          metadata:
+            tournament: Americana Classic
+            level: Expert
+            ball: King Maker
+            teePosition: 2
+            clubs:
+              - name: Sniper
+                level: 10
+            wind:
+              direction: NW
+              magnitude: 8.3
+            keywords:
+        - title: Americana Classic - Expert
+          url: https://youtu.be/CxQUhkhVaYs
+          metadata:
+            tournament: Americana Classic
+            level: Expert
+            ball: King Maker
+            teePosition: 2
+            clubs:
+              - name: Sniper
+                level: 10
+            wind:
+              direction: NW
+              magnitude: 8.0
+            keywords:
+        - title: Americana Classic - Master
+          url: https://youtu.be/OCmMZGdvOzg
+          metadata:
+            tournament: Americana Classic
+            level: Master
+            ball: Oceania
+            teePosition: 3
+            clubs:
+              - name: Sniper
+                level: 10
+            wind:
+              direction: NNE
+              magnitude: 8.0
+            keywords:
+        - title: Americana Classic - Master
+          url: https://youtu.be/PcrFcfxsFyg
+          metadata:
+            tournament: Americana Classic
+            level: Master
+            ball: King Maker
+            teePosition: 3
+            clubs:
+              - name: Sniper
+                level: 10
+            wind:
+              direction: NNE
+              magnitude: 12.3
+            keywords:
         - title: Tour 7 - Shootout - Wind Pointed at 1130
           url: https://youtu.be/JeAvydqqnn0
           metadata:
@@ -1251,59 +1478,6 @@ holes:
         - title: Easter Links - Pro
           url: https://youtu.be/X6OsTCzIPa8
     overlays:
-      size: [389, 814]
-      guides:
-      - name: Black Path
-        text: >
-          This is a deceptively tough par 3. The reason is that the bounces you'll get are very
-          irregular and can send your tee shot in all kinds of directions. Try not to aim in the
-          front of the fairway because it's the worst place. Use 2-3 bars of backspin depending on
-          the wind. The entire hole is uphill so keep that in mind. If you want to take the safe
-          way with the risk of the bounce, this is the way to go.
-        levels:
-          - name: Rookie
-            svg:
-              <path d="M 199 536 L 178 218" stroke="black" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="0" />
-              <circle cx="199" cy="536" r="6" fill="black" class="guide-point" data-guide-segment="0" />
-              <circle cx="178" cy="218" r="6" fill="black" class="guide-point" data-guide-segment="1" />
-          - name: Pro
-            svg:
-              <path d="M 195 608 L 178 218" stroke="black" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="0" />
-              <circle cx="195" cy="608" r="6" fill="black" class="guide-point" data-guide-segment="0" />
-              <circle cx="178" cy="218" r="6" fill="black" class="guide-point" data-guide-segment="1" />
-          - name: Masters
-            svg:
-              <path d="M 192 683 L 178 218" stroke="black" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="0" />
-              <circle cx="192" cy="683" r="6" fill="black" class="guide-point" data-guide-segment="0" />
-              <circle cx="178" cy="218" r="6" fill="black" class="guide-point" data-guide-segment="1" />
-      - name: White Path
-        text: >
-          This is the preferred approach. Use 4 bars of backspin with sidewind and tailwind. With
-          headwind, use 3.5 bars. This landing area is flatter and will give you a better bounce to
-          the pin. The fairway spot is small and not easy to hit, but can lead to a better result
-          if you pull it off. With a right to left wind, use 1 bar of sidespin to counter.
-        levels:
-          - name: Rookie
-            svg:
-              <path d="M 199 536 L 217 224" stroke="white" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="0" />
-              <path d="M 217 224 L 201 166" stroke="white" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="1" />
-              <circle cx="199" cy="536" r="6" fill="white" class="guide-point" data-guide-segment="0" />
-              <circle cx="217" cy="224" r="6" fill="white" class="guide-point" data-guide-segment="1" />
-              <circle cx="201" cy="166" r="6" fill="white" class="guide-point" data-guide-segment="2" />
-          - name: Pro
-            svg:
-              <path d="M 195 608 L 217 224" stroke="white" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="0" />
-              <path d="M 217 224 L 201 166" stroke="white" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="1" />
-              <circle cx="195" cy="608" r="6" fill="white" class="guide-point" data-guide-segment="0" />
-              <circle cx="217" cy="224" r="6" fill="white" class="guide-point" data-guide-segment="1" />
-              <circle cx="201" cy="166" r="6" fill="white" class="guide-point" data-guide-segment="2" />
-          - name: Masters
-            svg:
-              <path d="M 192 683 L 217 224" stroke="white" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="0" />
-              <path d="M 217 224 L 201 166" stroke="white" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="1" />
-              <circle cx="192" cy="683" r="6" fill="white" class="guide-point" data-guide-segment="0" />
-              <circle cx="217" cy="224" r="6" fill="white" class="guide-point" data-guide-segment="1" />
-              <circle cx="201" cy="166" r="6" fill="white" class="guide-point" data-guide-segment="2" />
   - id: c9d5cbe5-262e-49cb-a6f1-48e40918502a
     current-tournament: true
     course: Juniper Point
@@ -1373,6 +1547,10 @@ holes:
     resourceCreators:
       - name: Golf Clash Tommy
         resources:
+        - title: Americana Classic - Rookie Guide
+          url: https://youtu.be/Z1MSy59N8mg
+        - title: Americana Classic - Pro / Expert Guide
+          url: https://youtu.be/bwAdPkwXyzM
         - title: Rookie Guide - Gridiron
           url: https://youtu.be/qrvFIkwXKFg
         - title: Pro & Expert Guide - Gridiron
@@ -1385,6 +1563,102 @@ holes:
           url: https://i.imgur.com/M0dy267.png
       - name: Zachary Jones
         resources:
+        - title: Americana Classic - Rookie
+          url: https://youtu.be/B0QtmfGAz-0
+          metadata:
+            tournament: Americana Classic
+            level: Rookie
+            ball: Titan
+            teePosition: 1
+            clubs:
+              - name: Quarterback
+                level: 8
+              - name: Guardian
+                level: 4
+            wind:
+              direction: NNW
+              magnitude: 4.5
+            keywords:
+        - title: Americana Classic - Pro
+          url: https://youtu.be/n5M2kOkv7_U
+          metadata:
+            tournament: Americana Classic
+            level: Pro
+            ball: Titan
+            teePosition: 2
+            clubs:
+              - name: Quarterback
+                level: 9
+              - name: Sniper
+                level: 9
+            wind:
+              direction: N
+              magnitude: 5.8
+            keywords:
+        - title: Americana Classic - Expert
+          url: https://youtu.be/eqxByJwPXKI
+          metadata:
+            tournament: Americana Classic
+            level: Expert
+            ball: King Maker
+            teePosition: 2
+            clubs:
+              - name: Apocalypse
+                level: 6
+              - name: Sniper
+                level: 10
+            wind:
+              direction: NNW
+              magnitude: 7.1
+            keywords:
+        - title: Americana Classic - Expert
+          url: https://youtu.be/UM_VAmq5Les
+          metadata:
+            tournament: Americana Classic
+            level: Expert
+            ball: King Maker
+            teePosition: 2
+            clubs:
+              - name: Rock
+                level: 7
+              - name: Sniper
+                level: 10
+            wind:
+              direction: NNW
+              magnitude: 8.0
+            keywords:
+        - title: Americana Classic - Master
+          url: https://youtu.be/_Hn2_WuKST8
+          metadata:
+            tournament: Americana Classic
+            level: Master
+            ball: King Maker
+            teePosition: 3
+            clubs:
+              - name: Apocalypse
+                level: 6
+              - name: Sniper
+                level: 10
+            wind:
+              direction: NW
+              magnitude: 11.0
+            keywords:
+        - title: Americana Classic - Master
+          url: https://youtu.be/r-nXO_uonGk
+          metadata:
+            tournament: Americana Classic
+            level: Master
+            ball: King Maker
+            teePosition: 3
+            clubs:
+              - name: Apocalypse
+                level: 4
+              - name: Sniper
+                level: 10
+            wind:
+              direction: NW
+              magnitude: 11.6
+            keywords:
         - title: Gridiron - Rookie
           url: https://youtu.be/ZT0RSFrrsTo
           metadata:
@@ -1558,90 +1832,6 @@ holes:
         - title: Easter Links - Pro
           url: https://youtu.be/eZn-UXh0vYM
     overlays:
-      size: [384, 1038]
-      guides:
-      - name: Black Path
-        text: >
-          This path shows two variations. With headwind, put your drive as close to the end of the
-          first fairway as possible. From there, play a wood with plenty of distance, bouncing over
-          the next patch of rough and leave yourself with a wedge for the eagle. If you get
-          sidewind though, you can overpower your shot with max topspin and bounce over to the next
-          fairway. The second shot will be either a wood or long iron.
-        levels:
-          - name: Rookie
-            svg:
-              <path d="M 198 842 L 227 473" stroke="black" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="0" />
-              <path d="M 227 473 L 238 305" stroke="black" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="1" />
-              <path d="M 238 305 L 208 133" stroke="black" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="2" />
-              <circle cx="198" cy="842" r="6" fill="black" class="guide-point" data-guide-segment="0" />
-              <circle cx="227" cy="473" r="6" fill="black" class="guide-point" data-guide-segment="1" />
-              <circle cx="238" cy="305" r="6" fill="black" class="guide-point" data-guide-segment="2" />
-              <circle cx="208" cy="133" r="6" fill="black" class="guide-point" data-guide-segment="3" />
-          - name: Pro
-            svg:
-              <path d="M 198 893 L 227 473" stroke="black" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="0" />
-              <path d="M 227 473 L 238 305" stroke="black" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="1" />
-              <path d="M 238 305 L 208 133" stroke="black" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="2" />
-              <circle cx="198" cy="893" r="6" fill="black" class="guide-point" data-guide-segment="0" />
-              <circle cx="227" cy="473" r="6" fill="black" class="guide-point" data-guide-segment="1" />
-              <circle cx="238" cy="305" r="6" fill="black" class="guide-point" data-guide-segment="2" />
-              <circle cx="208" cy="133" r="6" fill="black" class="guide-point" data-guide-segment="3" />
-          - name: Masters
-            svg:
-              <path d="M 198 945 L 227 473" stroke="black" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="0" />
-              <path d="M 227 473 L 238 305" stroke="black" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="1" />
-              <path d="M 238 305 L 208 133" stroke="black" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="2" />
-              <circle cx="198" cy="945" r="6" fill="black" class="guide-point" data-guide-segment="0" />
-              <circle cx="227" cy="473" r="6" fill="black" class="guide-point" data-guide-segment="1" />
-              <circle cx="238" cy="305" r="6" fill="black" class="guide-point" data-guide-segment="2" />
-              <circle cx="208" cy="133" r="6" fill="black" class="guide-point" data-guide-segment="3" />
-      - name: White Path
-        text: >
-          With sidewind or tailwind, you can bounce your drive over to the island on the left. The
-          island is shaped like a bowl so it will keep the ball in play quite easily. For the
-          second shot, you'll need a wood with a lot of distance to carry the rough and get to the
-          green in two.
-        levels:
-          - name: Rookie
-            svg:
-              <path d="M 198 842 L 144 487" stroke="white" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="0" />
-              <path d="M 144 487 L 106 376" stroke="white" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="1" />
-              <path d="M 106 376 L 197 135" stroke="white" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="2" />
-              <circle cx="198" cy="842" r="6" fill="white" class="guide-point" data-guide-segment="0" />
-              <circle cx="144" cy="487" r="6" fill="white" class="guide-point" data-guide-segment="1" />
-              <circle cx="106" cy="376" r="6" fill="white" class="guide-point" data-guide-segment="2" />
-              <circle cx="197" cy="135" r="6" fill="white" class="guide-point" data-guide-segment="3" />
-          - name: Pro
-            svg:
-              <path d="M 198 893 L 144 487" stroke="white" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="0" />
-              <path d="M 144 487 L 106 376" stroke="white" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="1" />
-              <path d="M 106 376 L 197 135" stroke="white" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="2" />
-              <circle cx="198" cy="893" r="6" fill="white" class="guide-point" data-guide-segment="0" />
-              <circle cx="144" cy="487" r="6" fill="white" class="guide-point" data-guide-segment="1" />
-              <circle cx="106" cy="376" r="6" fill="white" class="guide-point" data-guide-segment="2" />
-              <circle cx="197" cy="135" r="6" fill="white" class="guide-point" data-guide-segment="3" />
-          - name: Masters
-            svg:
-              <path d="M 198 945 L 144 487" stroke="white" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="0" />
-              <path d="M 144 487 L 106 376" stroke="white" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="1" />
-              <path d="M 106 376 L 197 135" stroke="white" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="2" />
-              <circle cx="198" cy="945" r="6" fill="white" class="guide-point" data-guide-segment="0" />
-              <circle cx="144" cy="487" r="6" fill="white" class="guide-point" data-guide-segment="1" />
-              <circle cx="106" cy="376" r="6" fill="white" class="guide-point" data-guide-segment="2" />
-              <circle cx="197" cy="135" r="6" fill="white" class="guide-point" data-guide-segment="3" />
-      - name: Blue Path
-        text: >
-          With tailwind you can go directly to the second fairway with topspin and leave yourself
-          with a long iron to the green. You'll need to use a Berserker or Snow Globe to pull this
-          shot off.
-        levels:
-          - name: Rookie
-            svg:
-              <path d="M 198 842 L 259 269" stroke="blue" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="0" />
-              <path d="M 259 269 L 212 129" stroke="blue" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="1" />
-              <circle cx="198" cy="842" r="6" fill="blue" class="guide-point" data-guide-segment="0" />
-              <circle cx="259" cy="269" r="6" fill="blue" class="guide-point" data-guide-segment="1" />
-              <circle cx="212" cy="129" r="6" fill="blue" class="guide-point" data-guide-segment="2" />
   - id: 8f0fb665-4802-4f8f-a823-35b3cae6f26c
     current-tournament: true
     course: Juniper Point
@@ -1710,6 +1900,10 @@ holes:
     resourceCreators:
       - name: Golf Clash Tommy
         resources:
+        - title: Americana Classic - Rookie Guide
+          url: https://youtu.be/6Imiil_ZA5g
+        - title: Americana Classic - Pro / Expert Guide
+          url: https://youtu.be/bj80QWQ1Sps
         - title: Rookie Guide
           url: https://youtu.be/nl88aJNj9Yg
         - title: Pro / Expert Guide
@@ -1718,6 +1912,102 @@ holes:
           url: https://i.imgur.com/cfUw2IH.png
       - name: Zachary Jones
         resources:
+        - title: Americana Classic - Rookie
+          url: https://youtu.be/f1YldXr3H8U
+          metadata:
+            tournament: Americana Classic
+            level: Rookie
+            ball: Titan
+            teePosition: 1
+            clubs:
+              - name: Quarterback
+                level: 8
+              - name: Hornet
+                level: 4
+            wind:
+              direction: NNE
+              magnitude: 3.1
+            keywords:
+        - title: Americana Classic - Pro
+          url: https://youtu.be/9oEzR4wdjWE
+          metadata:
+            tournament: Americana Classic
+            level: Pro
+            ball: Titan
+            teePosition: 2
+            clubs:
+              - name: Quarterback
+                level: 9
+              - name: Thorn
+                level: 6
+            wind:
+              direction: NNE
+              magnitude: 6.6
+            keywords:
+        - title: Americana Classic - Expert
+          url: https://youtu.be/mqYE-R_stBg
+          metadata:
+            tournament: Americana Classic
+            level: Expert
+            ball: King Maker
+            teePosition: 2
+            clubs:
+              - name: Apocalypse
+                level: 6
+              - name: Thorn
+                level: 8
+            wind:
+              direction: WNW
+              magnitude: 7.2
+            keywords:
+        - title: Americana Classic - Expert
+          url: https://youtu.be/dGkmeMP9YKQ
+          metadata:
+            tournament: Americana Classic
+            level: Expert
+            ball: King Maker
+            teePosition: 2
+            clubs:
+              - name: Apocalypse
+                level: 4
+              - name: Hornet
+                level: 6
+            wind:
+              direction: WNW
+              magnitude: 8.7
+            keywords:
+        - title: Americana Classic - Master
+          url: https://youtu.be/L7Cxh8S5kfY
+          metadata:
+            tournament: Americana Classic
+            level: Master
+            ball: Berserker
+            teePosition: 3
+            clubs:
+              - name: Apocalypse
+                level: 6
+              - name: EndBringer
+                level: 6
+            wind:
+              direction: NE
+              magnitude: 13.8
+            keywords:
+        - title: Americana Classic - Master
+          url: https://youtu.be/cIiMYyqp9Ls
+          metadata:
+            tournament: Americana Classic
+            level: Master
+            ball: King Maker
+            teePosition: 3
+            clubs:
+              - name: Apocalypse
+                level: 4
+              - name: Hornet
+                level: 6
+            wind:
+              direction: NE
+              magnitude: 10.4
+            keywords:
         - title: Tour 7 - Layup Shot
           url: https://youtu.be/5YZr87XRtd0
           metadata:
@@ -1807,92 +2097,6 @@ holes:
         - title: Easter Links - Pro
           url: https://youtu.be/mVd_x2Gzy_0
     overlays:
-      size: [391, 839]
-      guides:
-      - name: Black Path
-        text: >
-          This hole is as tricky as it seems. <strong> It's a BIG NO-NO to be among the trees on
-          the left side.</strong> They will keep you from reaching the green in 2. Use the topspin
-          on your drive and thread it through left gap. The second shot will be uphill and so won't
-          be as affected by the wind as much. From the front tee, use the Quarterback to give
-          yourself more control with accuracy and ball guide.
-        levels:
-          - name: Rookie
-            svg:
-              <path d="M 152 639 L 157 249" stroke="black" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="0" />
-              <path d="M 157 249 L 157 131" stroke="black" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="1" />
-              <circle cx="152" cy="639" r="6" fill="black" class="guide-point" data-guide-segment="0" />
-              <circle cx="157" cy="249" r="6" fill="black" class="guide-point" data-guide-segment="1" />
-              <circle cx="157" cy="131" r="6" fill="black" class="guide-point" data-guide-segment="2" />
-          - name: Pro
-            svg:
-              <path d="M 150 690 L 157 249" stroke="black" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="0" />
-              <path d="M 157 249 L 157 131" stroke="black" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="1" />
-              <circle cx="150" cy="690" r="6" fill="black" class="guide-point" data-guide-segment="0" />
-              <circle cx="157" cy="249" r="6" fill="black" class="guide-point" data-guide-segment="1" />
-              <circle cx="157" cy="131" r="6" fill="black" class="guide-point" data-guide-segment="2" />
-          - name: Masters
-            svg:
-              <path d="M 149 743 L 157 249" stroke="black" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="0" />
-              <path d="M 157 249 L 157 131" stroke="black" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="1" />
-              <circle cx="149" cy="743" r="6" fill="black" class="guide-point" data-guide-segment="0" />
-              <circle cx="157" cy="249" r="6" fill="black" class="guide-point" data-guide-segment="1" />
-              <circle cx="157" cy="131" r="6" fill="black" class="guide-point" data-guide-segment="2" />
-      - name: White Path
-        text: >
-          This is an uncommon way to approach the hole but with a right to left wind, this can be a
-          better play. Don't use too much topspin or you may run into the trees on the right. Use a
-          ball with plenty of sidespin to get your ball to roll out to the left. This will leave
-          you with a wedge into the green.
-        levels:
-          - name: Rookie
-            svg:
-              <path d="M 152 639 L 217 240" stroke="white" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="0" />
-              <path d="M 217 240 C 224 190 224 190 205 141" stroke="white" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="1" />
-              <circle cx="152" cy="639" r="6" fill="white" class="guide-point" data-guide-segment="0" />
-              <circle cx="217" cy="240" r="6" fill="white" class="guide-point" data-guide-segment="1" />
-              <circle cx="205" cy="141" r="6" fill="white" class="guide-point" data-guide-segment="2" />
-          - name: Pro
-            svg:
-              <path d="M 150 690 L 217 240" stroke="white" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="0" />
-              <path d="M 217 240 C 224 190 224 190 205 141" stroke="white" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="1" />
-              <circle cx="150" cy="690" r="6" fill="white" class="guide-point" data-guide-segment="0" />
-              <circle cx="217" cy="240" r="6" fill="white" class="guide-point" data-guide-segment="1" />
-              <circle cx="205" cy="141" r="6" fill="white" class="guide-point" data-guide-segment="2" />
-          - name: Masters
-            svg:
-              <path d="M 149 743 L 217 240" stroke="white" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="0" />
-              <path d="M 217 240 C 224 190 224 190 205 141" stroke="white" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="1" />
-              <circle cx="149" cy="743" r="6" fill="white" class="guide-point" data-guide-segment="0" />
-              <circle cx="217" cy="240" r="6" fill="white" class="guide-point" data-guide-segment="1" />
-              <circle cx="205" cy="141" r="6" fill="white" class="guide-point" data-guide-segment="2" />
-      - name: Yellow Path
-        text: >
-          If you get headwind you can play your teeshot short and go into the green with a wood. Be
-          sure not to place your drive too far up and close to the trees or you won't be able to
-          clear them on your second shot.
-        levels:
-          - name: Rookie
-            svg:
-              <path d="M 152 639 L 168 356" stroke="yellow" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="0" />
-              <path d="M 168 356 C 164 203 164 203 203 89" stroke="yellow" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="1" />
-              <circle cx="152" cy="639" r="6" fill="yellow" class="guide-point" data-guide-segment="0" />
-              <circle cx="168" cy="356" r="6" fill="yellow" class="guide-point" data-guide-segment="1" />
-              <circle cx="203" cy="89" r="6" fill="yellow" class="guide-point" data-guide-segment="2" />
-          - name: Pro
-            svg:
-              <path d="M 150 690 L 168 356" stroke="yellow" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="0" />
-              <path d="M 168 356 C 164 203 164 203 203 89" stroke="yellow" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="1" />
-              <circle cx="150" cy="690" r="6" fill="yellow" class="guide-point" data-guide-segment="0" />
-              <circle cx="168" cy="356" r="6" fill="yellow" class="guide-point" data-guide-segment="1" />
-              <circle cx="203" cy="89" r="6" fill="yellow" class="guide-point" data-guide-segment="2" />
-          - name: Masters
-            svg:
-              <path d="M 149 743 L 168 356" stroke="yellow" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="0" />
-              <path d="M 168 356 C 164 203 164 203 203 89" stroke="yellow" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="1" />
-              <circle cx="149" cy="743" r="6" fill="yellow" class="guide-point" data-guide-segment="0" />
-              <circle cx="168" cy="356" r="6" fill="yellow" class="guide-point" data-guide-segment="1" />
-              <circle cx="203" cy="89" r="6" fill="yellow" class="guide-point" data-guide-segment="2" />
   - id: 7777d535-cb89-4d83-b8a7-831cc61fbc66
     current-tournament: true
     course: Juniper Point
@@ -1967,6 +2171,10 @@ holes:
     resourceCreators:
       - name: Golf Clash Tommy
         resources:
+        - title: Americana Classic - Rookie Guide
+          url: https://youtu.be/uf5JTkmhliU
+        - title: Americana Classic - Pro / Expert Guide
+          url: https://youtu.be/KLN0kbWvQDU
         - title: Rookie Guide - Gridiron
           url: https://youtu.be/7KyjrVP56Uk
         - title: Pro & Expert Guide - Gridiron
@@ -1979,6 +2187,90 @@ holes:
           url: https://i.imgur.com/MzaPHgq.png
       - name: Zachary Jones
         resources:
+        - title: Americana Classic - Rookie
+          url: https://youtu.be/vM7YznJQ4Ow
+          metadata:
+            tournament: Americana Classic
+            level: Rookie
+            ball: Quasar
+            teePosition: 1
+            clubs:
+              - name: Guardian
+                level: 4
+            wind:
+              direction: N
+              magnitude: 4.7
+            keywords:
+        - title: Americana Classic - Pro
+          url: https://youtu.be/nrQidY9tRMM
+          metadata:
+            tournament: Americana Classic
+            level: Pro
+            ball: Navigator
+            teePosition: 2
+            clubs:
+              - name: Quarterback
+                level: 9
+            wind:
+              direction: ENE
+              magnitude: 6.4
+            keywords:
+        - title: Americana Classic - Expert
+          url: https://youtu.be/FFEoJ_9R8vs
+          metadata:
+            tournament: Americana Classic
+            level: Expert
+            ball: King Maker
+            teePosition: 2
+            clubs:
+              - name: Quarterback
+                level: 10
+            wind:
+              direction: ENE
+              magnitude: 8.3
+            keywords:
+        - title: Americana Classic - Expert
+          url: https://youtu.be/ixtVaWLKPJw
+          metadata:
+            tournament: Americana Classic
+            level: Expert
+            ball: King Maker
+            teePosition: 2
+            clubs:
+              - name: Quarterback
+                level: 10
+            wind:
+              direction: ENE
+              magnitude: 8.6
+            keywords:
+        - title: Americana Classic - Master
+          url: https://youtu.be/2lFRPx21Jl4
+          metadata:
+            tournament: Americana Classic
+            level: Master
+            ball: Oceania
+            teePosition: 3
+            clubs:
+              - name: Rock
+                level: 8
+            wind:
+              direction: WNW
+              magnitude: 8.5
+            keywords:
+        - title: Americana Classic - Master
+          url: https://youtu.be/7-Qr8YZkr9s
+          metadata:
+            tournament: Americana Classic
+            level: Master
+            ball: King Maker
+            teePosition: 3
+            clubs:
+              - name: Quarterback
+                level: 10
+            wind:
+              direction: WNW
+              magnitude: 10.8
+            keywords:
         - title: Gridiron - Rookie
           url: https://youtu.be/GJGz2aK8n3s
           metadata:
@@ -2188,31 +2480,6 @@ holes:
         - title: Easter Links - Pro
           url: https://youtu.be/mw78vQ9ZwxA
     overlays:
-      size: [285, 802]
-      guides:
-      - name: Black Path
-        text: >
-          There is only one way to play this hole. From the second and third tees, you'll be
-          hitting your driver and from the first tee, you'll be using a wood. Aim in the middle of
-          the fairway with 2 bars of backspin. The further back you aim, the less backspin you'll
-          need. With cross wind, you'll need to use some side spin to counter the bounce. With too
-          much backspin, you'll end up short with a very tough putt or wedge shot.
-        levels:
-          - name: Rookie
-            svg:
-              <path d="M 130 549 L 143 184" stroke="black" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="0" />
-              <circle cx="130" cy="549" r="6" fill="black" class="guide-point" data-guide-segment="0" />
-              <circle cx="143" cy="184" r="6" fill="black" class="guide-point" data-guide-segment="1" />
-          - name: Pro
-            svg:
-              <path d="M 135 617 L 143 184" stroke="black" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="0" />
-              <circle cx="135" cy="617" r="6" fill="black" class="guide-point" data-guide-segment="0" />
-              <circle cx="143" cy="184" r="6" fill="black" class="guide-point" data-guide-segment="1" />
-          - name: Masters
-            svg:
-              <path d="M 141 688 L 143 184" stroke="black" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="0" />
-              <circle cx="141" cy="688" r="6" fill="black" class="guide-point" data-guide-segment="0" />
-              <circle cx="143" cy="184" r="6" fill="black" class="guide-point" data-guide-segment="1" />
   - id: 833ca5f4-813c-4b4c-8194-fd508a6611c6
     current-tournament: true
     course: Juniper Point
@@ -2319,6 +2586,10 @@ holes:
     resourceCreators:
       - name: Golf Clash Tommy
         resources:
+        - title: Americana Classic - Rookie Guide
+          url: https://youtu.be/KuHZXwQIDi4
+        - title: Americana Classic - Pro / Expert Guide
+          url: https://youtu.be/9HzSoOUjvsg
         - title: Rookie Guide - Gridiron
           url: https://youtu.be/pBCgoJNRuDM
         - title: Pro & Expert Guide - Gridiron
@@ -2331,6 +2602,102 @@ holes:
           url: https://i.imgur.com/WCTFGh7.png
       - name: Zachary Jones
         resources:
+        - title: Americana Classic - Rookie
+          url: https://youtu.be/_aRW8ZAj7SE
+          metadata:
+            tournament: Americana Classic
+            level: Rookie
+            ball: Titan
+            teePosition: 1
+            clubs:
+              - name: Extra Mile
+                level: 6
+              - name: Nirvana
+                level: 1
+            wind:
+              direction: NE
+              magnitude: 2.2
+            keywords:
+        - title: Americana Classic - Pro
+          url: https://youtu.be/tUKTtqeunFE
+          metadata:
+            tournament: Americana Classic
+            level: Pro
+            ball: Berserker
+            teePosition: 2
+            clubs:
+              - name: Extra Mile
+                level: 6
+              - name: EndBringer
+                level: 5
+            wind:
+              direction: NNW
+              magnitude: 8.5
+            keywords:
+        - title: Americana Classic - Expert
+          url: https://youtu.be/a1LczOnoAGI
+          metadata:
+            tournament: Americana Classic
+            level: Expert
+            ball: King Maker
+            teePosition: 2
+            clubs:
+              - name: Apocalypse
+                level: 6
+              - name: Nirvana
+                level: 7
+            wind:
+              direction: NE
+              magnitude: 8.7
+            keywords:
+        - title: Americana Classic - Expert
+          url: https://youtu.be/Q_14kQCEd6M
+          metadata:
+            tournament: Americana Classic
+            level: Expert
+            ball: King Maker
+            teePosition: 2
+            clubs:
+              - name: Apocalypse
+                level: 4
+              - name: EndBringer
+                level: 4
+            wind:
+              direction: NE
+              magnitude: 7.3
+            keywords:
+        - title: Americana Classic - Master
+          url: https://youtu.be/W3xLlEtw01Q
+          metadata:
+            tournament: Americana Classic
+            level: Master
+            ball: Berserker
+            teePosition: 3
+            clubs:
+              - name: Apocalypse
+                level: 6
+              - name: Spitfire
+                level: 6
+            wind:
+              direction: N
+              magnitude: 13.8
+            keywords:
+        - title: Americana Classic - Master
+          url: https://youtu.be/qIqHHZqviB8
+          metadata:
+            tournament: Americana Classic
+            level: Master
+            ball: King Maker
+            teePosition: 3
+            clubs:
+              - name: Apocalypse
+                level: 4
+              - name: Spitfire
+                level: 5
+            wind:
+              direction: N
+              magnitude: 10.9
+            keywords:
         - title: Gridiron - Rookie
           url: https://youtu.be/CiClkdSjcmY
           metadata:
@@ -2502,79 +2869,6 @@ holes:
         - title: Easter Links - Pro
           url: https://youtu.be/PUHuKG0ge6I
     overlays:
-      size: [449, 877]
-      guides:
-      - name: Black Path
-        text: >
-          This is a short but fun par 4 that will push you to the limit. The black path is an
-          aggressive line and can potentially get you to the green in 1. You need a perfect bounce
-          with at least 5 bars of topspin on the first fairway platform. The second bounce needs to
-          be just before the green side bunker. If the ball lands in the rough just before the
-          green, it will roll out nicely and leave you with a short putt for eagle. But this is
-          definitely a HARD shot to pull off.
-        levels:
-          - name: Rookie
-            svg:
-              <path d="M 203 656 L 135 258" stroke="black" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="0" />
-              <path d="M 135 258 L 116 165" stroke="black" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="1" />
-              <path d="M 116 165 L 115 127" stroke="black" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="2" />
-              <circle cx="203" cy="656" r="6" fill="black" class="guide-point" data-guide-segment="0" />
-              <circle cx="135" cy="258" r="6" fill="black" class="guide-point" data-guide-segment="1" />
-              <circle cx="116" cy="165" r="6" fill="black" class="guide-point" data-guide-segment="2" />
-              <circle cx="115" cy="127" r="6" fill="black" class="guide-point" data-guide-segment="3" />
-          - name: Pro
-            svg:
-              <path d="M 197 708 L 135 258" stroke="black" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="0" />
-              <path d="M 135 258 L 116 165" stroke="black" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="1" />
-              <path d="M 116 165 L 115 127" stroke="black" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="2" />
-              <circle cx="197" cy="708" r="6" fill="black" class="guide-point" data-guide-segment="0" />
-              <circle cx="135" cy="258" r="6" fill="black" class="guide-point" data-guide-segment="1" />
-              <circle cx="116" cy="165" r="6" fill="black" class="guide-point" data-guide-segment="2" />
-              <circle cx="115" cy="127" r="6" fill="black" class="guide-point" data-guide-segment="3" />
-          - name: Masters
-            svg:
-              <path d="M 191 762 L 135 258" stroke="black" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="0" />
-              <path d="M 135 258 L 116 165" stroke="black" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="1" />
-              <path d="M 116 165 L 115 127" stroke="black" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="2" />
-              <circle cx="191" cy="762" r="6" fill="black" class="guide-point" data-guide-segment="0" />
-              <circle cx="135" cy="258" r="6" fill="black" class="guide-point" data-guide-segment="1" />
-              <circle cx="116" cy="165" r="6" fill="black" class="guide-point" data-guide-segment="2" />
-              <circle cx="115" cy="127" r="6" fill="black" class="guide-point" data-guide-segment="3" />
-      - name: White Path
-        text: >
-          This is the safer way to the play the hole. Play your drive out as far as possible and
-          get as close to the rough as possible. From there, you'll have either a long or short
-          iron to the green. Be sure to put clubs in your bag with a lot of backspin since the
-          green is very shallow coming in from this angle. That also applies to the sand wedge and
-          rough iron as well.
-        levels:
-          - name: Rookie
-            svg:
-              <path d="M 203 656 C 294 390 294 390 276 237" stroke="white" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="0" />
-              <path d="M 276 237 L 248 130" stroke="white" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="1" />
-              <path d="M 248 130 L 129 105" stroke="white" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="2" />
-              <circle cx="203" cy="656" r="6" fill="white" class="guide-point" data-guide-segment="0" />
-              <circle cx="276" cy="237" r="6" fill="white" class="guide-point" data-guide-segment="1" />
-              <circle cx="248" cy="130" r="6" fill="white" class="guide-point" data-guide-segment="2" />
-              <circle cx="129" cy="105" r="6" fill="white" class="guide-point" data-guide-segment="3" />
-          - name: Pro
-            svg:
-              <path d="M 197 708 C 294 390 294 390 276 237" stroke="white" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="0" />
-              <path d="M 276 237 L 248 130" stroke="white" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="1" />
-              <path d="M 248 130 L 129 105" stroke="white" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="2" />
-              <circle cx="197" cy="708" r="6" fill="white" class="guide-point" data-guide-segment="0" />
-              <circle cx="276" cy="237" r="6" fill="white" class="guide-point" data-guide-segment="1" />
-              <circle cx="248" cy="130" r="6" fill="white" class="guide-point" data-guide-segment="2" />
-              <circle cx="129" cy="105" r="6" fill="white" class="guide-point" data-guide-segment="3" />
-          - name: Masters
-            svg:
-              <path d="M 191 762 C 294 390 294 390 276 237" stroke="white" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="0" />
-              <path d="M 276 237 L 248 130" stroke="white" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="1" />
-              <path d="M 248 130 L 129 105" stroke="white" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="2" />
-              <circle cx="191" cy="762" r="6" fill="white" class="guide-point" data-guide-segment="0" />
-              <circle cx="276" cy="237" r="6" fill="white" class="guide-point" data-guide-segment="1" />
-              <circle cx="248" cy="130" r="6" fill="white" class="guide-point" data-guide-segment="2" />
-              <circle cx="129" cy="105" r="6" fill="white" class="guide-point" data-guide-segment="3" />
   - id: 84427923-664c-4701-a1f5-58108b952647
     current-tournament: true
     course: Juniper Point
@@ -2673,6 +2967,10 @@ holes:
     resourceCreators:
       - name: Golf Clash Tommy
         resources:
+        - title: Americana Classic - Rookie Guide
+          url: https://youtu.be/gOTsVmJllDo
+        - title: Americana Classic - Pro / Expert Guide
+          url: https://youtu.be/PXI71bHxxJs
         - title: Rookie Guide
           url: https://youtu.be/I-ZA7NeRf-0
         - title: Pro / Expert Guide
@@ -2681,6 +2979,106 @@ holes:
           url: https://i.imgur.com/wryHVcT.png
       - name: Zachary Jones
         resources:
+        - title: Americana Classic - Rookie
+          url: https://youtu.be/hCi440YPhzg
+          metadata:
+            tournament: Americana Classic
+            level: Rookie
+            ball: Titan
+            teePosition: 1
+            clubs:
+              - name: Extra Mile
+                level: 6
+              - name: Guardian
+                level: 4
+              - name: Malibu
+                level: 6
+            wind:
+              direction: NNW
+              magnitude: 2.2
+            keywords:
+        - title: Americana Classic - Pro
+          url: https://youtu.be/le0xkuQYk9M
+          metadata:
+            tournament: Americana Classic
+            level: Pro
+            ball: Titan
+            teePosition: 2
+            clubs:
+              - name: Extra Mile
+                level: 6
+              - name: Sniper
+                level: 9
+              - name: Malibu
+                level: 7
+            wind:
+              direction: N
+              magnitude: 5.2
+            keywords:
+        - title: Americana Classic - Expert
+          url: https://youtu.be/9b4gmqDgihc
+          metadata:
+            tournament: Americana Classic
+            level: Expert
+            ball: Berserker
+            teePosition: 2
+            clubs:
+              - name: Apocalypse
+                level: 6
+              - name: Sniper
+                level: 10
+            wind:
+              direction: N
+              magnitude: 10.9
+            keywords:
+        - title: Americana Classic - Expert
+          url: https://youtu.be/3jHPdZNpOeM
+          metadata:
+            tournament: Americana Classic
+            level: Expert
+            ball: King Maker
+            teePosition: 2
+            clubs:
+              - name: Apocalypse
+                level: 4
+              - name: Nirvana
+                level: 6
+            wind:
+              direction: N
+              magnitude: 8.6
+            keywords:
+        - title: Americana Classic - Master
+          url: https://youtu.be/auIgHIhosUY
+          metadata:
+            tournament: Americana Classic
+            level: Master
+            ball: Firework
+            teePosition: 3
+            clubs:
+              - name: Apocalypse
+                level: 6
+              - name: Nirvana
+                level: 8
+            wind:
+              direction: NW
+              magnitude: 13.5
+            keywords:
+        - title: Americana Classic - Master
+          url: https://youtu.be/mraPEaLSASQ
+          metadata:
+            tournament: Americana Classic
+            level: Master
+            ball: King Maker
+            teePosition: 3
+            clubs:
+              - name: Apocalypse
+                level: 4
+              - name: Spitfire
+                level: 5
+            wind:
+              direction: NW
+              magnitude: 10.4
+            keywords:
         - title: Tour 7 - Tips and Strategy Using 2nd Fairway Drive
           url: https://youtu.be/t89xP2UIsQ8
           metadata:
@@ -2786,88 +3184,3 @@ holes:
         - title: Easter Links - Pro
           url: https://youtu.be/pI3b2dZeEyY
     overlays:
-      size: [450, 1008]
-      guides:
-      - name: Black Path
-        text: >
-          This is a tough par 5 where you can't afford to go into the rough with your drive. Use
-          the max amount of curl with your driver combined with left side spin. Bounce up as close
-          to the end of the fairway as possible. From there, you'll need a wood with a lot of
-          distance. The fairway leading to the green is very small and you'll need to just let the
-          ball roll onto the green. Don't use too much right spin which can land you in the bunker
-          as the fairway does slope a little to the right. The green is shaped like a bowl so you
-          can come in a little hot and it will still funnel towards the hole.
-        levels:
-          - name: Rookie
-            svg:
-              <path d="M 221 798 C 331 611 331 611 275 464" stroke="black" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="0" />
-              <path d="M 275 464 L 250 403" stroke="black" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="1" />
-              <path d="M 250 403 L 132 153" stroke="black" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="2" />
-              <path d="M 132 153 L 112 120" stroke="black" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="3" />
-              <circle cx="221" cy="798" r="6" fill="black" class="guide-point" data-guide-segment="0" />
-              <circle cx="275" cy="464" r="6" fill="black" class="guide-point" data-guide-segment="1" />
-              <circle cx="250" cy="403" r="6" fill="black" class="guide-point" data-guide-segment="2" />
-              <circle cx="132" cy="153" r="6" fill="black" class="guide-point" data-guide-segment="3" />
-              <circle cx="112" cy="120" r="6" fill="black" class="guide-point" data-guide-segment="4" />
-          - name: Pro
-            svg:
-              <path d="M 214 849 C 331 611 331 611 275 464" stroke="black" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="0" />
-              <path d="M 275 464 L 250 403" stroke="black" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="1" />
-              <path d="M 250 403 L 132 153" stroke="black" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="2" />
-              <path d="M 132 153 L 112 120" stroke="black" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="3" />
-              <circle cx="214" cy="849" r="6" fill="black" class="guide-point" data-guide-segment="0" />
-              <circle cx="275" cy="464" r="6" fill="black" class="guide-point" data-guide-segment="1" />
-              <circle cx="250" cy="403" r="6" fill="black" class="guide-point" data-guide-segment="2" />
-              <circle cx="132" cy="153" r="6" fill="black" class="guide-point" data-guide-segment="3" />
-              <circle cx="112" cy="120" r="6" fill="black" class="guide-point" data-guide-segment="4" />
-          - name: Masters
-            svg:
-              <path d="M 207 900 C 331 611 331 611 275 464" stroke="black" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="0" />
-              <path d="M 275 464 L 250 403" stroke="black" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="1" />
-              <path d="M 250 403 L 132 153" stroke="black" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="2" />
-              <path d="M 132 153 L 112 120" stroke="black" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="3" />
-              <circle cx="207" cy="900" r="6" fill="black" class="guide-point" data-guide-segment="0" />
-              <circle cx="275" cy="464" r="6" fill="black" class="guide-point" data-guide-segment="1" />
-              <circle cx="250" cy="403" r="6" fill="black" class="guide-point" data-guide-segment="2" />
-              <circle cx="132" cy="153" r="6" fill="black" class="guide-point" data-guide-segment="3" />
-              <circle cx="112" cy="120" r="6" fill="black" class="guide-point" data-guide-segment="4" />
-      - name: White Path
-        text: >
-          With tailwind you can try to get your drive over to the second fairway. Use 1 bar of
-          backspin and land nicely for a shorter wood shot to the green. From this position you'll
-          be able to use whichever wood you want but Guardian will make it easy to stick it on the
-          green and get the putt for eagle.
-        levels:
-          - name: Rookie
-            svg:
-              <path d="M 221 798 L 240 414" stroke="white" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="0" />
-              <path d="M 240 414 L 242 313" stroke="white" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="1" />
-              <path d="M 242 313 L 138 150" stroke="white" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="2" />
-              <path d="M 138 150 L 120 117" stroke="white" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="3" />
-              <circle cx="221" cy="798" r="6" fill="white" class="guide-point" data-guide-segment="0" />
-              <circle cx="240" cy="414" r="6" fill="white" class="guide-point" data-guide-segment="1" />
-              <circle cx="242" cy="313" r="6" fill="white" class="guide-point" data-guide-segment="2" />
-              <circle cx="138" cy="150" r="6" fill="white" class="guide-point" data-guide-segment="3" />
-              <circle cx="120" cy="117" r="6" fill="white" class="guide-point" data-guide-segment="4" />
-          - name: Pro
-            svg:
-              <path d="M 214 849 L 240 414" stroke="white" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="0" />
-              <path d="M 240 414 L 242 313" stroke="white" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="1" />
-              <path d="M 242 313 L 138 150" stroke="white" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="2" />
-              <path d="M 138 150 L 120 117" stroke="white" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="3" />
-              <circle cx="214" cy="849" r="6" fill="white" class="guide-point" data-guide-segment="0" />
-              <circle cx="240" cy="414" r="6" fill="white" class="guide-point" data-guide-segment="1" />
-              <circle cx="242" cy="313" r="6" fill="white" class="guide-point" data-guide-segment="2" />
-              <circle cx="138" cy="150" r="6" fill="white" class="guide-point" data-guide-segment="3" />
-              <circle cx="120" cy="117" r="6" fill="white" class="guide-point" data-guide-segment="4" />
-          - name: Masters
-            svg:
-              <path d="M 207 900 L 240 414" stroke="white" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="0" />
-              <path d="M 240 414 L 242 313" stroke="white" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="1" />
-              <path d="M 242 313 L 138 150" stroke="white" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="2" />
-              <path d="M 138 150 L 120 117" stroke="white" fill="transparent" stroke-width="3" class="guide-path" data-guide-segment="3" />
-              <circle cx="207" cy="900" r="6" fill="white" class="guide-point" data-guide-segment="0" />
-              <circle cx="240" cy="414" r="6" fill="white" class="guide-point" data-guide-segment="1" />
-              <circle cx="242" cy="313" r="6" fill="white" class="guide-point" data-guide-segment="2" />
-              <circle cx="138" cy="150" r="6" fill="white" class="guide-point" data-guide-segment="3" />
-              <circle cx="120" cy="117" r="6" fill="white" class="guide-point" data-guide-segment="4" />
