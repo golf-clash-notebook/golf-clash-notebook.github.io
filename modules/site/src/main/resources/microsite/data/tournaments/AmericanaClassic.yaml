@@ -1,6 +1,26 @@
 tournamentName: Americana Classic
 date: '2019-06-10'
 resourceCreators:
+  - name: Golf Clash Tommy
+    resources:
+    - title: Rookie Playthrough - Tournament Wind
+      url: https://youtu.be/tTiMNwzxLvg
+    - title: Pro Playthrough - Tournament Wind
+      url: https://youtu.be/0kVvjkVUJkY
+    - title: Expert Playthrough - Tournament Wind
+      url: https://youtu.be/2AeJt8zV0so
+    - title: Master Playthrough - Tournament Wind
+      url: https://youtu.be/MTv6ZEsFVEw
+    - title: Rookie Guide
+      url: https://youtu.be/wL6z6ZZUoRQ
+    - title: Pro / Expert Guide
+      url: https://youtu.be/_d7V2N6cSgo
+    - title: Text Guides
+      url: https://imgur.com/a/JZveJ2u
+  - name: Jesse Both
+    resources:
+    - title: Rookie Guide
+      url: https://youtu.be/I_04j-OjaL0
 holes:
   - number: 1
     id: f73bea1d-3683-48f8-92e8-12abddd88d16
