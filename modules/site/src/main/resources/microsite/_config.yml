@@ -695,3 +695,11 @@ page_gen:
     extra:
       title-prefix: 'Americana Classic - Hole '
       tournamentName: 'Americana Classic'
+  - index_files: true
+    data: 'tournaments.FujiOpen.holes'
+    template: '_includes/tournaments/hole-template.liquid'
+    name: 'number'
+    dir: 'tournaments/FujiOpen'
+    extra:
+      title-prefix: 'Fuji Open - Hole '
+      tournamentName: 'Fuji Open'

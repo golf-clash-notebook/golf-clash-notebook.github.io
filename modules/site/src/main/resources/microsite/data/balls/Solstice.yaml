@@ -1,0 +1,9 @@
+name: Solstice
+windResistance: 4
+sideSpin: 2
+power: 2
+cost: n/a
+description: >
+  A ball that was for sale during the <a href="/tournaments/FujiOpen/">Fuji Open</a>
+  tournament. Duplicate of Pines ball.
+needleSpeed: 0.833
