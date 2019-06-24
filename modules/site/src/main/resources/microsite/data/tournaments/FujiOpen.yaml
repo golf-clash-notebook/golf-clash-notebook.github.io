@@ -1,0 +1,22 @@
+tournamentName: Fuji Open
+date: '2019-06-24'
+resourceCreators:
+holes:
+  - number: 1
+    id: cee9be91-e83d-4724-8218-4f9db92c6be2
+  - number: 2
+    id: 361c1105-b234-4760-887b-5f0f516807ed
+  - number: 3
+    id: 607ca95c-57f4-4f6c-9836-3b63d14effff
+  - number: 4
+    id: 3e3986fa-be14-4521-932c-dc005a19549a
+  - number: 5
+    id: f75f7893-e55e-4d43-8c67-769fa499827b
+  - number: 6
+    id: 3af2f2c8-9548-41ce-9f04-be46b432d324
+  - number: 7
+    id: 855c43fb-cf83-4d15-8d1e-c868cbc64b63
+  - number: 8
+    id: ee1e67ec-30e7-4605-99cd-0c1b709c1035
+  - number: 9
+    id: d8d0764c-8275-4bdf-9f02-09d3c5edbe90

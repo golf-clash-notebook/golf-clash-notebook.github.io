@@ -2,7 +2,6 @@ courseName: Juniper Point
 skinned: false
 holes:
   - id: f73bea1d-3683-48f8-92e8-12abddd88d16
-    current-tournament: true
     course: Juniper Point
     number: 1
     par: 4
@@ -165,7 +164,7 @@ holes:
         - title: Americana Classic - Master
           url: https://youtu.be/35KPKBjyBfk
           metadata:
-            tournament: Skyline Cup
+            tournament: Americana Classic
             level: Master
             ball: King Maker
             teePosition: 3
@@ -362,7 +361,6 @@ holes:
           url: https://youtu.be/zMLkC2AKp2w
     overlays:
   - id: 48316f6b-6037-4b43-8eff-7d4c345a0929
-    current-tournament: true
     course: Juniper Point
     number: 2
     par: 3
@@ -847,7 +845,6 @@ holes:
           url: https://youtu.be/pTWo6KQfAzc
     overlays:
   - id: b31d9248-cdb3-4549-933a-9d596a7d81ee
-    current-tournament: true
     course: Juniper Point
     number: 3
     par: 5
@@ -1211,7 +1208,6 @@ holes:
           url: https://youtu.be/DObhHEcM60g
     overlays:
   - id: c35b816e-75dd-4cda-83df-a4b6639d54f3
-    current-tournament: true
     course: Juniper Point
     number: 4
     par: 3
@@ -1479,7 +1475,6 @@ holes:
           url: https://youtu.be/X6OsTCzIPa8
     overlays:
   - id: c9d5cbe5-262e-49cb-a6f1-48e40918502a
-    current-tournament: true
     course: Juniper Point
     number: 5
     par: 5
@@ -1833,7 +1828,6 @@ holes:
           url: https://youtu.be/eZn-UXh0vYM
     overlays:
   - id: 8f0fb665-4802-4f8f-a823-35b3cae6f26c
-    current-tournament: true
     course: Juniper Point
     number: 6
     par: 4
@@ -2098,7 +2092,6 @@ holes:
           url: https://youtu.be/mVd_x2Gzy_0
     overlays:
   - id: 7777d535-cb89-4d83-b8a7-831cc61fbc66
-    current-tournament: true
     course: Juniper Point
     number: 7
     par: 3
@@ -2481,7 +2474,6 @@ holes:
           url: https://youtu.be/mw78vQ9ZwxA
     overlays:
   - id: 833ca5f4-813c-4b4c-8194-fd508a6611c6
-    current-tournament: true
     course: Juniper Point
     number: 8
     par: 4
@@ -2870,7 +2862,6 @@ holes:
           url: https://youtu.be/PUHuKG0ge6I
     overlays:
   - id: 84427923-664c-4701-a1f5-58108b952647
-    current-tournament: true
     course: Juniper Point
     number: 9
     par: 5
