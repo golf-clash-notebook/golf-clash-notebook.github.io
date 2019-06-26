@@ -12,10 +12,10 @@ val CatsEffectV      = "1.3.1"
 val CirceV           = "0.11.1"
 val MonixV           = "3.0.0-RC1"
 val ScalaCheckV      = "1.14.0"
-val ScalaTagsV       = "0.6.8"
+val ScalaTagsV       = "0.7.0"
 val ScalaTestV       = "3.0.8"
 val ScalaJSJqueryV   = "0.9.5"
-val ScalaJavaTimeV   = "2.0.0-RC2"
+val ScalaJavaTimeV   = "2.0.0-RC3"
 val ScalaJavaTimeTzV = s"${ScalaJavaTimeV}_2019a"
 ////////////////////////////////////////////////////////////////////////////////
 
