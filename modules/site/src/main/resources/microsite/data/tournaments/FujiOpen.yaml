@@ -1,6 +1,30 @@
 tournamentName: Fuji Open
 date: '2019-06-24'
 resourceCreators:
+  - name: Golf Clash Tommy
+    resources:
+    - title: Rookie Playthrough - Tournament Wind
+      url: https://youtu.be/twjsZpStY8s
+    - title: Pro Playthrough - Tournament Wind
+      url: https://youtu.be/wAbSuf-_nrc
+    - title: Expert Playthrough - Tournament Wind
+      url: https://youtu.be/EkIgQeGITfc
+    - title: Master Playthrough - Tournament Wind
+      url: https://youtu.be/7MGuHkqS2Sk
+    - title: Rookie Guide
+      url: https://youtu.be/rVpfQ5YL3nA
+    - title: Pro / Expert Guide
+      url: https://youtu.be/6d-64MWIDsM
+    - title: Text Guides
+      url: https://imgur.com/a/1EXb9Hm
+  - name: Jesse Both
+    resources:
+    - title: Rookie Guide - Tournament Wind
+      url: https://youtu.be/O5Mcwla82NM
+    - title: Rookie Guide
+      url: https://youtu.be/ma0oMN-0D3k
+    - title: Pro / Expert Guide
+      url: https://youtu.be/q0DlaIVcmQc
 holes:
   - number: 1
     id: cee9be91-e83d-4724-8218-4f9db92c6be2

@@ -90,6 +90,10 @@ holes:
     resourceCreators:
       - name: Golf Clash Tommy
         resources:
+        - title: Fuji Open - Rookie Guide
+          url: https://youtu.be/-L5CDsVGFTM
+        - title: Fuji Open - Pro & Expert Guide
+          url: https://youtu.be/NHGhkv-SbHg
         - title: Tour 10 Guide
           url: https://youtu.be/4O2V1Ygo0tQ
         - title: Rookie Guide
@@ -100,6 +104,102 @@ holes:
           url: https://i.imgur.com/2oXqL5o.png
       - name: Zachary Jones
         resources:
+        - title: Fuji Open - Rookie
+          url: https://youtu.be/nzch4FjJ81c
+          metadata:
+            tournament: Fuji Open
+            level: Rookie
+            ball: Titan
+            teePosition: 1
+            clubs:
+              - name: Quarterback
+                level: 8
+              - name: Hornet
+                level: 4
+            wind:
+              direction: N
+              magnitude: 2.2
+            keywords:
+        - title: Fuji Open - Pro
+          url: https://youtu.be/hiWXr2PEnqE
+          metadata:
+            tournament: Fuji Open
+            level: Pro
+            ball: Origin
+            teePosition: 2
+            clubs:
+              - name: Quarterback
+                level: 8
+              - name: Thorn
+                level: 5
+            wind:
+              direction: NW
+              magnitude: 5.9
+            keywords:
+        - title: Fuji Open - Expert
+          url: https://youtu.be/2cdOc96W1tU
+          metadata:
+            tournament: Fuji Open
+            level: Expert
+            ball: King Maker
+            teePosition: 2
+            clubs:
+              - name: Extra Mile
+                level: 6
+              - name: Hornet
+                level: 6
+            wind:
+              direction: WNW
+              magnitude: 8.0
+            keywords:
+        - title: Fuji Open - Expert
+          url: https://youtu.be/uD25BEUhF8I
+          metadata:
+            tournament: Fuji Open
+            level: Expert
+            ball: King Maker
+            teePosition: 2
+            clubs:
+              - name: Apocalypse
+                level: 6
+              - name: Thorn
+                level: 8
+            wind:
+              direction: WNW
+              magnitude: 7.1
+            keywords:
+        - title: Fuji Open - Master
+          url: https://youtu.be/ndcJ_Yqk_eU
+          metadata:
+            tournament: Fuji Open
+            level: Master
+            ball: Snow Globe
+            teePosition: 3
+            clubs:
+              - name: Apocalypse
+                level: 6
+              - name: Spitfire
+                level: 6
+            wind:
+              direction: N
+              magnitude: 17.0
+            keywords:
+        - title: Fuji Open - Master
+          url: https://youtu.be/6TtwyVqyauc
+          metadata:
+            tournament: Fuji Open
+            level: Master
+            ball: Berserker
+            teePosition: 3
+            clubs:
+              - name: Apocalypse
+                level: 4
+              - name: Thorn
+                level: 7
+            wind:
+              direction: N
+              magnitude: 13.6
+            keywords:
         - title: Tour 10 - Strategy and Tips
           url: https://youtu.be/xZZShTQ8yI4
           metadata:
@@ -1006,6 +1106,10 @@ holes:
     resourceCreators:
       - name: Golf Clash Tommy
         resources:
+        - title: Fuji Open - Rookie Guide
+          url: https://youtu.be/zn5ULzMfU4k
+        - title: Fuji Open - Pro & Expert Guide
+          url: https://youtu.be/ZYgaMWWVoRw
         - title: Rookie Guide
           url: https://youtu.be/_sinWpR41kY
         - title: Pro / Expert Guide
@@ -1020,6 +1124,90 @@ holes:
             published: 1541706202000
             generalInstruction: true
             teePosition: 2
+        - title: Fuji Open - Rookie
+          url: https://youtu.be/mMvzlX-fxz8
+          metadata:
+            tournament: Fuji Open
+            level: Rookie
+            ball: Navigator
+            teePosition: 1
+            clubs:
+              - name: Backbone
+                level: 9
+            wind:
+              direction: SW
+              magnitude: 3.3
+            keywords:
+        - title: Fuji Open - Pro
+          url: https://youtu.be/J6_UcqDVBHM
+          metadata:
+            tournament: Fuji Open
+            level: Pro
+            ball: Titan
+            teePosition: 2
+            clubs:
+              - name: Backbone
+                level: 8
+            wind:
+              direction: WNW
+              magnitude: 5.3
+            keywords:
+        - title: Fuji Open - Expert
+          url: https://youtu.be/CtkDk4KrbOk
+          metadata:
+            tournament: Fuji Open
+            level: Expert
+            ball: King Maker
+            teePosition: 2
+            clubs:
+              - name: Backbone
+                level: 9
+            wind:
+              direction: NE
+              magnitude: 8.9
+            keywords:
+        - title: Fuji Open - Expert
+          url: https://youtu.be/puS7op0hIIM
+          metadata:
+            tournament: Fuji Open
+            level: Expert
+            ball: King Maker
+            teePosition: 2
+            clubs:
+              - name: Sniper
+                level: 10
+            wind:
+              direction: NE
+              magnitude: 7.4
+            keywords:
+        - title: Fuji Open - Master
+          url: https://youtu.be/fMegkoTSUHM
+          metadata:
+            tournament: Fuji Open
+            level: Master
+            ball: Bandera
+            teePosition: 3
+            clubs:
+              - name: Sniper
+                level: 10
+            wind:
+              direction: ENE
+              magnitude: 7.6
+            keywords:
+        - title: Fuji Open - Master
+          url: https://youtu.be/WoWSZxlKCc0
+          metadata:
+            tournament: Fuji Open
+            level: Master
+            ball: King Maker
+            teePosition: 3
+            clubs:
+              - name: Sniper
+                level: 10
+            wind:
+              direction: ENE
+              magnitude: 12.0
+            keywords:
         - title: Tour 8 Shootout - Wind Pointed at 7 O`clock
           url: https://youtu.be/V1cJAYgkbrE
           metadata:
@@ -1242,6 +1430,10 @@ holes:
     resourceCreators:
       - name: Golf Clash Tommy
         resources:
+        - title: Fuji Open - Rookie Guide
+          url: https://youtu.be/c4L6TygJFEs
+        - title: Fuji Open - Pro & Expert Guide
+          url: https://youtu.be/CEgK0iz-0u8
         - title: Tour 10 Guide
           url: https://youtu.be/r_FEMyNu_Og
         - title: Pro / Expert Guide
@@ -1250,6 +1442,102 @@ holes:
           url: https://i.imgur.com/wLtM7ml.png
       - name: Zachary Jones
         resources:
+        - title: Fuji Open - Rookie
+          url: https://youtu.be/-SR1BWwW3qQ
+          metadata:
+            tournament: Fuji Open
+            level: Rookie
+            ball: Titan
+            teePosition: 1
+            clubs:
+              - name: Quarterback
+                level: 8
+              - name: Backbone
+                level: 9
+            wind:
+              direction: NNW
+              magnitude: 3.1
+            keywords:
+        - title: Fuji Open - Pro
+          url: https://youtu.be/YZZxkM_WTk4
+          metadata:
+            tournament: Fuji Open
+            level: Pro
+            ball: Titan
+            teePosition: 2
+            clubs:
+              - name: Quarterback
+                level: 8
+              - name: Sniper
+                level: 8
+            wind:
+              direction: ENE
+              magnitude: 7.1
+            keywords:
+        - title: Fuji Open - Expert
+          url: https://youtu.be/dgm7z15fdn8
+          metadata:
+            tournament: Fuji Open
+            level: Expert
+            ball: King Maker
+            teePosition: 2
+            clubs:
+              - name: Extra Mile
+                level: 6
+              - name: Backbone
+                level: 9
+            wind:
+              direction: WNW
+              magnitude: 7.7
+            keywords:
+        - title: Fuji Open - Expert
+          url: https://youtu.be/ACxiP7lAq6g
+          metadata:
+            tournament: Fuji Open
+            level: Expert
+            ball: King Maker
+            teePosition: 2
+            clubs:
+              - name: Apocalypse
+                level: 6
+              - name: B52
+                level: 5
+            wind:
+              direction: WNW
+              magnitude: 7.6
+            keywords:
+        - title: Fuji Open - Master
+          url: https://youtu.be/yyb7zJz3bmY
+          metadata:
+            tournament: Fuji Open
+            level: Master
+            ball: Dead
+            teePosition: 3
+            clubs:
+              - name: Apocalypse
+                level: 6
+              - name: Sniper
+                level: 10
+            wind:
+              direction: SW
+              magnitude: 12.3
+            keywords:
+        - title: Fuji Open - Master
+          url: https://youtu.be/S6AXJQCDfOc
+          metadata:
+            tournament: Fuji Open
+            level: Master
+            ball: King Maker
+            teePosition: 3
+            clubs:
+              - name: Apocalypse
+                level: 4
+              - name: Nirvana
+                level: 7
+            wind:
+              direction: SW
+              magnitude: 11.7
+            keywords:
         - title: Tour 8 - Strategy and Tips
           url: https://youtu.be/BjS2vYET9eE
           metadata:
@@ -1714,6 +2002,10 @@ holes:
     resourceCreators:
       - name: Golf Clash Tommy
         resources:
+        - title: Fuji Open - Rookie Guide
+          url: https://youtu.be/kE8UNIWvKoc
+        - title: Fuji Open - Pro & Expert Guide
+          url: https://youtu.be/hBOydTJF6I4
         - title: Rookie Guide
           url: https://youtu.be/9tmpDTU1e7I
         - title: Pro / Expert Guide
@@ -1722,6 +2014,102 @@ holes:
           url: https://i.imgur.com/GIVxVd7.png
       - name: Zachary Jones
         resources:
+        - title: Fuji Open - Rookie
+          url: https://youtu.be/4Z4jcga8Gb8
+          metadata:
+            tournament: Fuji Open
+            level: Rookie
+            ball: Titan
+            teePosition: 1
+            clubs:
+              - name: Extra Mile
+                level: 6
+              - name: Thorn
+                level: 5
+            wind:
+              direction: NW
+              magnitude: 4.5
+            keywords:
+        - title: Fuji Open - Pro
+          url: https://youtu.be/Oreh8F8UIvo
+          metadata:
+            tournament: Fuji Open
+            level: Pro
+            ball: Titan
+            teePosition: 2
+            clubs:
+              - name: Extra Mile
+                level: 6
+              - name: Thorn
+                level: 6
+            wind:
+              direction: NNE
+              magnitude: 6.1
+            keywords:
+        - title: Fuji Open - Expert
+          url: https://youtu.be/5ezEnwIRM6Y
+          metadata:
+            tournament: Fuji Open
+            level: Expert
+            ball: King Maker
+            teePosition: 2
+            clubs:
+              - name: Extra Mile
+                level: 6
+              - name: Nirvana
+                level: 5
+            wind:
+              direction: WSW
+              magnitude: 7.1
+            keywords:
+        - title: Fuji Open - Expert
+          url: https://youtu.be/6wqtYWSoDXs
+          metadata:
+            tournament: Fuji Open
+            level: Expert
+            ball: Jewel
+            teePosition: 2
+            clubs:
+              - name: Apocalypse
+                level: 6
+              - name: Thorn
+                level: 8
+            wind:
+              direction: WSW
+              magnitude: 6.1
+            keywords:
+        - title: Fuji Open - Master
+          url: https://youtu.be/y_1FPiapENw
+          metadata:
+            tournament: Fuji Open
+            level: Master
+            ball: King Maker
+            teePosition: 3
+            clubs:
+              - name: Apocalypse
+                level: 6
+              - name: Sniper
+                level: 10
+            wind:
+              direction: ESE
+              magnitude: 10.4
+            keywords:
+        - title: Fuji Open - Master
+          url: https://youtu.be/iT0BaUJ6APU
+          metadata:
+            tournament: Fuji Open
+            level: Master
+            ball: King Maker
+            teePosition: 3
+            clubs:
+              - name: Apocalypse
+                level: 4
+              - name: Sniper
+                level: 10
+            wind:
+              direction: ESE
+              magnitude: 11.7
+            keywords:
         - title: Tour 8 - 3 O`clock Wind
           url: https://youtu.be/8eOxzKWnlAk
           metadata:
