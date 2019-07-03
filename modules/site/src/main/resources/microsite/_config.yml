@@ -703,3 +703,11 @@ page_gen:
     extra:
       title-prefix: 'Fuji Open - Hole '
       tournamentName: 'Fuji Open'
+  - index_files: true
+    data: 'tournaments.ClifftopLinks.holes'
+    template: '_includes/tournaments/hole-template.liquid'
+    name: 'number'
+    dir: 'tournaments/ClifftopLinks'
+    extra:
+      title-prefix: 'Clifftop Links - Hole '
+      tournamentName: 'Clifftop Links'

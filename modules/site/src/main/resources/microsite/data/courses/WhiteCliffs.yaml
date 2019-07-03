@@ -2,6 +2,7 @@ courseName: White Cliffs
 skinned: false
 holes:
   - id: db2b4ebf-4f71-487b-a292-569f3d717f3f
+    current-tournament: true
     course: White Cliffs
     number: 1
     par: 4
@@ -300,6 +301,7 @@ holes:
     aliases:
     overlays:
   - id: 75800208-34bd-4886-933e-fdcc8583b741
+    current-tournament: true
     course: White Cliffs
     number: 2
     par: 3
@@ -463,6 +465,7 @@ holes:
     aliases:
     overlays:
   - id: daa8c5bc-93ca-491b-a8fd-8c99779362fc
+    current-tournament: true
     course: White Cliffs
     number: 3
     par: 5
@@ -1055,6 +1058,7 @@ holes:
     aliases:
     overlays:
   - id: 06657752-4139-4ed6-9615-e90d3a67916d
+    current-tournament: true
     course: White Cliffs
     number: 6
     par: 4
@@ -1320,6 +1324,7 @@ holes:
     aliases:
     overlays:
   - id: d96b6599-681d-40a2-8903-56274e692965
+    current-tournament: true
     course: White Cliffs
     number: 7
     par: 3
