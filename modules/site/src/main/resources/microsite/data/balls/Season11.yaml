@@ -5,4 +5,4 @@ power: 5
 cost: n/a
 description: >
   Go long or go home. Pure tailwind situation here.
-needleSpeed: -1
+needleSpeed: 0.833
