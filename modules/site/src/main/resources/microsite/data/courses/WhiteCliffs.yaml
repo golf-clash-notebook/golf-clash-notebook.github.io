@@ -168,10 +168,110 @@ holes:
     resourceCreators:
     - name: Golf Clash Tommy
       resources:
+      - title: Clifftop Links - Rookie Guide
+        url: https://youtu.be/_bMiwiVrrPA
+      - title: Clifftop Links - Pro / Expert Guide
+        url: https://youtu.be/oUAeETxJ_mk
       - title: South Coast - Rookie Guide
         url: https://youtu.be/cPLSeCbv_fY
     - name: Zachary Jones
       resources:
+      - title: Clifftop Links - Rookie
+        url: https://youtu.be/vQHazBqjyDk
+        metadata:
+          tournament: Clifftop Links
+          level: Rookie
+          ball: Katana
+          teePosition: 1
+          clubs:
+            - name: Quarterback
+              level: 8
+            - name: Hornet
+              level: 4
+          wind:
+            direction: NE
+            magnitude: 2.4
+          keywords:
+      - title: Clifftop Links - Pro
+        url: https://youtu.be/5wbOh7aXoMY
+        metadata:
+          tournament: Clifftop Links
+          level: Pro
+          ball: Katana
+          teePosition: 2
+          clubs:
+            - name: Quarterback
+              level: 8
+            - name: Thorn
+              level: 6
+          wind:
+            direction:  NW
+            magnitude: 7.2
+          keywords:
+      - title: Clifftop Links - Expert
+        url: https://youtu.be/59rJOlLGxGc
+        metadata:
+          tournament: Clifftop Links
+          level: Expert
+          ball: King Maker
+          teePosition: 2
+          clubs:
+            - name: Quarterback
+              level: 9
+            - name: Nirvana
+              level: 5
+          wind:
+            direction: NNE
+            magnitude: 7.8
+          keywords:
+      - title: Clifftop Links - Expert
+        url: https://youtu.be/7NT_F7-2sYU
+        metadata:
+          tournament: Clifftop Links
+          level: Expert
+          ball: King Maker
+          teePosition: 2
+          clubs:
+            - name: Apocalypse
+              level: 6
+            - name: Thorn
+              level: 8
+          wind:
+            direction: NNW
+            magnitude: 8.6
+          keywords:
+      - title: Clifftop Links - Master
+        url: https://youtu.be/UElbAZ16vrk
+        metadata:
+          tournament: Clifftop Links
+          level: Master
+          ball: Bunny
+          teePosition: 3
+          clubs:
+            - name: Apocalypse
+              level: 6
+            - name: Thorn
+              level: 8
+          wind:
+            direction: WNW
+            magnitude: 10.0
+          keywords:
+      - title: Clifftop Links - Master
+        url: https://youtu.be/gtgdnVkeXZY
+        metadata:
+          tournament: Clifftop Links
+          level: Master
+          ball: King Maker
+          teePosition: 3
+          clubs:
+            - name: Apocalypse
+              level: 4
+            - name: Thorn
+              level: 7
+          wind:
+            direction: WNW
+            magnitude: 11.5
+          keywords:
       - title: South Coast - Rookie
         url: https://youtu.be/ArtNRCoP_XE
         metadata:
@@ -374,10 +474,98 @@ holes:
     resourceCreators:
     - name: Golf Clash Tommy
       resources:
+      - title: Clifftop Links - Rookie Guide
+        url: https://youtu.be/WJ4KHFV3rI4
+      - title: Clifftop Links - Pro / Expert Guide
+        url: https://youtu.be/KOB9y_RsxE4
       - title: South Coast - Rookie Guide
         url: https://youtu.be/aq-4FisI2m8
     - name: Zachary Jones
       resources:
+      - title: Clifftop Links - Rookie
+        url: https://youtu.be/jvUSRhfgG_Y
+        metadata:
+          tournament: Clifftop Links
+          level: Rookie
+          ball: Quasar
+          teePosition: 1
+          clubs:
+            - name: Guardian
+              level: 4
+          wind:
+            direction: N
+            magnitude: 3.6
+          keywords:
+      - title: Clifftop Links - Pro
+        url: https://youtu.be/lXEoQGGfqdE
+        metadata:
+          tournament: Clifftop Links
+          level: Pro
+          ball: Quasar
+          teePosition: 2
+          clubs:
+            - name: Quarterback
+              level: 8
+          wind:
+            direction: ESE
+            magnitude: 6.0
+          keywords:
+      - title: Clifftop Links - Expert
+        url: https://youtu.be/rQYy--GYLr8
+        metadata:
+          tournament: Clifftop Links
+          level: Expert
+          ball: King Maker
+          teePosition: 2
+          clubs:
+            - name: Quarterback
+              level: 9
+          wind:
+            direction: ENE
+            magnitude: 9.0
+          keywords:
+      - title: Clifftop Links - Expert
+        url: https://youtu.be/S4fLqu_lpCE
+        metadata:
+          tournament: Clifftop Links
+          level: Expert
+          ball: King Maker
+          teePosition: 2
+          clubs:
+            - name: Quarterback
+              level: 10
+          wind:
+            direction: ENE
+            magnitude: 7.6
+          keywords:
+      - title: Clifftop Links - Master
+        url: https://youtu.be/_S24_cPSipg
+        metadata:
+          tournament: Clifftop Links
+          level: Master
+          ball: Oceania
+          teePosition: 3
+          clubs:
+            - name: Quarterback
+              level: 10
+          wind:
+            direction: ESE
+            magnitude: 8.0
+          keywords:
+      - title: Clifftop Links - Master
+        url: https://youtu.be/QyY2VksvTq4
+        metadata:
+          tournament: Clifftop Links
+          level: Master
+          ball: King Maker
+          teePosition: 3
+          clubs:
+            - name: Quarterback
+              level: 10
+          wind:
+            direction: ESE
+            magnitude: 11.8
+          keywords:
       - title: South Coast - Rookie
         url: https://youtu.be/-xSJGaNiAVU
         metadata:
@@ -554,10 +742,110 @@ holes:
     resourceCreators:
     - name: Golf Clash Tommy
       resources:
+      - title: Clifftop Links - Rookie Guide
+        url: https://youtu.be/Klf30FuCH-o
+      - title: Clifftop Links - Pro / Expert Guide
+        url: https://youtu.be/ytwMMkgVqvs
       - title: South Coast - Rookie Guide
         url: https://youtu.be/NthV9jfiY6A
     - name: Zachary Jones
       resources:
+      - title: Clifftop Links - Rookie
+        url: https://youtu.be/wSJSCZRDe9E
+        metadata:
+          tournament: Clifftop Links
+          level: Rookie
+          ball: Titan
+          teePosition: 1
+          clubs:
+            - name: Quarterback
+              level: 8
+            - name: Guardian
+              level: 4
+          wind:
+            direction: NNW
+            magnitude: 2.8
+          keywords:
+      - title: Clifftop Links - Pro
+        url: https://youtu.be/FfjqQWCq2dM
+        metadata:
+          tournament: Clifftop Links
+          level: Pro
+          ball: Titan
+          teePosition: 2
+          clubs:
+            - name: Thor's Hammer
+              level: 4
+            - name: Sniper
+              level: 8
+          wind:
+            direction: WNW
+            magnitude: 7.2
+          keywords:
+      - title: Clifftop Links - Expert
+        url: https://youtu.be/KZ2E3SK4vcc
+        metadata:
+          tournament: Clifftop Links
+          level: Expert
+          ball: King Maker
+          teePosition: 2
+          clubs:
+            - name: Extra Mile
+              level: 6
+            - name: Sniper
+              level: 9
+          wind:
+            direction: ENE
+            magnitude: 8.3
+          keywords:
+      - title: Clifftop Links - Expert
+        url: https://youtu.be/C7f_UUA5SX4
+        metadata:
+          tournament: Clifftop Links
+          level: Expert
+          ball: King Maker
+          teePosition: 2
+          clubs:
+            - name: Apocalypse
+              level: 6
+            - name: Sniper
+              level: 10
+          wind:
+            direction: ENE
+            magnitude: 9.1
+          keywords:
+      - title: Clifftop Links - Master
+        url: https://youtu.be/ZeqDYuW-8_I
+        metadata:
+          tournament: Clifftop Links
+          level: Master
+          ball: Royal
+          teePosition: 3
+          clubs:
+            - name: Apocalypse
+              level: 6
+            - name: Sniper
+              level: 10
+          wind:
+            direction: ESE
+            magnitude: 12.3
+          keywords:
+      - title: Clifftop Links - Master
+        url: https://youtu.be/Wzttb_plBOA
+        metadata:
+          tournament: Clifftop Links
+          level: Master
+          ball: King Maker
+          teePosition: 3
+          clubs:
+            - name: Apocalypse
+              level: 4
+            - name: Sniper
+              level: 10
+          wind:
+            direction: ESE
+            magnitude: 12.3
+          keywords:
       - title: South Coast - Rookie
         url: https://youtu.be/WHeDscXBP-w
         metadata:
@@ -1185,10 +1473,110 @@ holes:
     resourceCreators:
     - name: Golf Clash Tommy
       resources:
+      - title: Clifftop Links - Rookie Guide
+        url: https://youtu.be/W_c4WDJNQMo
+      - title: Clifftop Links - Pro / Expert Guide
+        url: https://youtu.be/EwWY90rlkKA
       - title: South Coast - Rookie Guide
         url: https://youtu.be/b0NelUjtEpA
     - name: Zachary Jones
       resources:
+      - title: Clifftop Links - Rookie
+        url: https://youtu.be/NDx04hUyix0
+        metadata:
+          tournament: Clifftop Links
+          level: Rookie
+          ball: Titan
+          teePosition: 1
+          clubs:
+            - name: Quarterback
+              level: 8
+            - name: Malibu
+              level: 6
+          wind:
+            direction: NE
+            magnitude: 3.8
+          keywords:
+      - title: Clifftop Links - Pro
+        url: https://youtu.be/HC8LRAphINA
+        metadata:
+          tournament: Clifftop Links
+          level: Pro
+          ball: Titan
+          teePosition: 2
+          clubs:
+            - name: Thor's Hammer
+              level: 4
+            - name: Malibu
+              level: 6
+          wind:
+            direction: N
+            magnitude: 5.3
+          keywords:
+      - title: Clifftop Links - Expert
+        url: https://youtu.be/A8MUn8s6eqM
+        metadata:
+          tournament: Clifftop Links
+          level: Expert
+          ball: King Maker
+          teePosition: 2
+          clubs:
+            - name: Quarterback
+              level: 9
+            - name: Thorn
+              level: 6
+          wind:
+            direction: NW
+            magnitude: 8.1
+          keywords:
+      - title: Clifftop Links - Expert
+        url: https://youtu.be/pylsLWbuGec
+        metadata:
+          tournament: Clifftop Links
+          level: Expert
+          ball: King Maker
+          teePosition: 2
+          clubs:
+            - name: Apocalypse
+              level: 6
+            - name: Thorn
+              level: 8
+          wind:
+            direction: NW
+            magnitude: 7.8
+          keywords:
+      - title: Clifftop Links - Master
+        url: https://youtu.be/7QU0UH3-6HQ
+        metadata:
+          tournament: Clifftop Links
+          level: Master
+          ball: Jewel
+          teePosition: 3
+          clubs:
+            - name: Apocalypse
+              level: 6
+            - name: Nirvana
+              level: 8
+          wind:
+            direction: ESE
+            magnitude: 9.6
+          keywords:
+      - title: Clifftop Links - Master
+        url: https://youtu.be/h_HuFoBMpxg
+        metadata:
+          tournament: Clifftop Links
+          level: Master
+          ball: King Maker
+          teePosition: 3
+          clubs:
+            - name: Apocalypse
+              level: 4
+            - name: B52
+              level: 5
+          wind:
+            direction: ESE
+            magnitude: 10.4
+          keywords:
       - title: South Coast - Rookie
         url: https://youtu.be/4bVSvbiaGaY
         metadata:
@@ -1395,10 +1783,102 @@ holes:
     resourceCreators:
     - name: Golf Clash Tommy
       resources:
+      - title: Clifftop Links - Rookie Guide
+        url: https://youtu.be/8baFt7v7-6w
+      - title: Clifftop Links - Pro / Expert Guide
+        url: https://youtu.be/gKdYN9K37w4
       - title: South Coast - Rookie Guide
         url: https://youtu.be/072v-BJUiGw
     - name: Zachary Jones
       resources:
+      - title: Clifftop Links - Rookie
+        url: https://youtu.be/h63Kdm89sqA
+        metadata:
+          tournament: Clifftop Links
+          level: Rookie
+          ball: Quasar
+          teePosition: 1
+          clubs:
+            - name: Guardian
+              level: 4
+          wind:
+            direction: NW
+            magnitude: 3.6
+          keywords:
+      - title: Clifftop Links - Pro
+        url: https://youtu.be/SbSxo2aiwjk
+        metadata:
+          tournament: Clifftop Links
+          level: Pro
+          ball: Quasar
+          teePosition: 2
+          clubs:
+            - name: Sniper
+              level: 8
+          wind:
+            direction: NE
+            magnitude: 6.0
+          keywords:
+      - title: Clifftop Links - Expert
+        url: https://youtu.be/Z_z5xtRHV4g
+        metadata:
+          tournament: Clifftop Links
+          level: Expert
+          ball: King Maker
+          teePosition: 2
+          clubs:
+            - name: Quarterback
+              level: 9
+            - name: Malibu
+              level: 7
+          wind:
+            direction: WSW
+            magnitude: 8.7
+          keywords:
+      - title: Clifftop Links - Expert
+        url: https://youtu.be/R4Z_3mY8mk4
+        metadata:
+          tournament: Clifftop Links
+          level: Expert
+          ball: King Maker
+          teePosition: 2
+          clubs:
+            - name: Quarterback
+              level: 10
+            - name: Spitfire
+              level: 5
+          wind:
+            direction: WSW
+            magnitude: 8.8
+          keywords:
+      - title: Clifftop Links - Master
+        url: https://youtu.be/SaW73Q92cTQ
+        metadata:
+          tournament: Clifftop Links
+          level: Master
+          ball: Oceania
+          teePosition: 3
+          clubs:
+            - name: Quarterback
+              level: 10
+          wind:
+            direction: N
+            magnitude: 8.1
+          keywords:
+      - title: Clifftop Links - Master
+        url: https://youtu.be/3oSHiwDqq0Y
+        metadata:
+          tournament: Clifftop Links
+          level: Master
+          ball: King Maker
+          teePosition: 3
+          clubs:
+            - name: Quarterback
+              level: 10
+          wind:
+            direction: N
+            magnitude: 11.3
+          keywords:
       - title: South Coast - Rookie
         url: https://youtu.be/SHtxV0pT4fI
         metadata:
