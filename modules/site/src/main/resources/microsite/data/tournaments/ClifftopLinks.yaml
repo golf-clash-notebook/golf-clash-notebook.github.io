@@ -1,6 +1,30 @@
 tournamentName: Clifftop Links
 date: '2019-07-08'
 resourceCreators:
+  - name: Golf Clash Tommy
+    resources:
+    - title: Rookie Playthrough - Tournament Wind
+      url: https://youtu.be/NbkQCgkQDsc
+    - title: Pro Playthrough - Tournament Wind
+      url: https://youtu.be/MX1BYDIRORg
+    - title: Expert Playthrough - Tournament Wind
+      url: https://youtu.be/fcGpUiRf-Fs
+    - title: Master Playthrough - Tournament Wind
+      url: https://youtu.be/SdCwgy3BX90
+    - title: Rookie Guide
+      url: https://youtu.be/dS-zsym9CGg
+    - title: Pro / Expert Guide
+      url: https://youtu.be/uxe9dRmxIZk
+    - title: Text Guides
+      url: https://imgur.com/a/XHmJKuR
+  - name: Jesse Both
+    resources:
+    - title: Rookie Playthrough
+      url: https://youtu.be/lRlxtUWrdxo
+    - title: Pro Playthrough
+      url: https://youtu.be/MAMxS82by18
+    - title: Rookie Guide
+      url: https://youtu.be/VaEtipx_f40
 holes:
   - number: 1
     id: 06657752-4139-4ed6-9615-e90d3a67916d
