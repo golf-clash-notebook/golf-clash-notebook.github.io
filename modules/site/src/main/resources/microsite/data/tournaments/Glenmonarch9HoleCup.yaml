@@ -1,0 +1,30 @@
+tournamentName: Glenmonarch 9 Hole Cup
+date: '2019-07-18'
+resourceCreators:
+  - name: Golf Clash Tommy
+    resources:
+    - title: Rookie Guide
+      url: https://youtu.be/BGGlpg7JiLA
+    - title: Pro / Expert Guide
+      url: https://youtu.be/s77oevi7obw
+    - title: Text Guides
+      url: https://imgur.com/a/MC7wqqm
+holes:
+  - number: 1
+    id: 956ca238-06a7-4aed-bd87-54b0f7638384
+  - number: 2
+    id: 32438d22-96fb-40af-9625-8491bfdfac2b
+  - number: 3
+    id: 15bc87ac-1b7f-4a74-8e88-8ac5c8492afc
+  - number: 4
+    id: 3bf723fa-a6dc-4c9f-bb7c-840379a8e7c1
+  - number: 5
+    id: ea520478-83be-438b-b043-a78dc8b5ad6d
+  - number: 6
+    id: d880d1a0-1742-4356-aab1-0aed6a81ff61
+  - number: 7
+    id: bbd7910c-52a4-44fe-93b9-bcea4676d02f
+  - number: 8
+    id: 982bb7ec-be4f-4400-a040-a21f816aacee
+  - number: 9
+    id: 929ce86e-c9e1-4065-bd31-2d09609fda26

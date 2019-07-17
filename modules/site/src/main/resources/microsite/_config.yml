@@ -711,3 +711,11 @@ page_gen:
     extra:
       title-prefix: 'Clifftop Links - Hole '
       tournamentName: 'Clifftop Links'
+  - index_files: true
+    data: 'tournaments.Glenmonarch9HoleCup.holes'
+    template: '_includes/tournaments/hole-template.liquid'
+    name: 'number'
+    dir: 'tournaments/Glenmonarch9HoleCup'
+    extra:
+      title-prefix: 'Glenmonarch 9 Hole Cup - Hole '
+      tournamentName: 'Glenmonarch 9 Hole Cup'
