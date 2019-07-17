@@ -7,7 +7,7 @@ scala:
 - 2.12.8
 
 jdk:
-- oraclejdk8
+- openjdk8
 
 before_cache:
 - du -h -d 1 $HOME/.ivy2/
