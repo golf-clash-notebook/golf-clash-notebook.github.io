@@ -1,0 +1,9 @@
+name: The Open
+windResistance: 3
+sideSpin: 2
+power: 4
+cost: n/a
+description: >
+  Duplicate of the Pudding ball. Pretty good stats but the poor needle speed should be a red
+  flag if you've already got some Dead or Royal balls hanging round.
+needleSpeed: 0.750
