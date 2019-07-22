@@ -65,6 +65,13 @@ page_gen:
   ##### Course Holes #####
 
   - index_files: true
+    data: 'courses.AcaciaReserve.holes'
+    template: '_includes/courses/hole-template.liquid'
+    name: 'number'
+    dir: 'courses/AcaciaReserve'
+    extra:
+      title-prefix: 'Acacia Reserve - Hole '
+  - index_files: true
     data: 'courses.Christmas.holes'
     template: '_includes/courses/hole-template.liquid'
     name: 'number'
@@ -719,3 +726,11 @@ page_gen:
     extra:
       title-prefix: 'Glenmonarch 9 Hole Cup - Hole '
       tournamentName: 'Glenmonarch 9 Hole Cup'
+  - index_files: true
+    data: 'tournaments.SummerMajor2019.holes'
+    template: '_includes/tournaments/hole-template.liquid'
+    name: 'number'
+    dir: 'tournaments/SummerMajor2019'
+    extra:
+      title-prefix: 'Summer Major 2019 - Hole '
+      tournamentName: 'Summer Major 2019'

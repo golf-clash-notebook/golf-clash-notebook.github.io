@@ -1,0 +1,102 @@
+courseName: Acacia Reserve
+skinned: false
+holes:
+  - id: ef8cb099-222e-4ef4-bb34-e8632f62df7a
+    course: Acacia Reserve
+    number: 1
+    par: 4
+    replayName: "4"
+    description: >
+      Help Wanted
+    clubRecommendations:
+    clubSuggestions:
+    resourceCreators:
+    aliases:
+  - id: a236e983-69a4-4cf1-b4ca-b62fdb36b6d4
+    course: Acacia Reserve
+    number: 2
+    par: 5
+    replayName:  "5"
+    description: >
+      Help Wanted
+    clubRecommendations:
+    clubSuggestions:
+    resourceCreators:
+    aliases:
+  - id: 525f8b83-498d-4bf3-9f1a-8de2cd689818
+    course: Acacia Reserve
+    number: 3
+    par: 3
+    replayName:  "3C"
+    description: >
+      Help Wanted
+    clubRecommendations:
+    clubSuggestions:
+    resourceCreators:
+    aliases:
+  - id: 716ed009-438e-47fc-980c-c6e311ab07fc
+    course: Acacia Reserve
+    number: 4
+    par: 4
+    replayName:  "4B"
+    description: >
+      Help Wanted
+    clubRecommendations:
+    clubSuggestions:
+    resourceCreators:
+    aliases:
+  - id: 973f0127-24dd-4843-8d95-88e39466366f
+    course: Acacia Reserve
+    number: 5
+    par: 3
+    replayName:  "3"
+    description: >
+      Help Wanted
+    clubRecommendations:
+    clubSuggestions:
+    resourceCreators:
+    aliases:
+  - id: 99ab1fac-c2ab-4e14-ba5f-a5d3293a3d92
+    course: Acacia Reserve
+    number: 6
+    par: 5
+    replayName: "5C"
+    description: >
+      Help Wanted
+    clubRecommendations:
+    clubSuggestions:
+    resourceCreators:
+    aliases:
+  - id: 24025ffd-bcc0-45c1-a855-4a0bb0bc4316
+    course: Acacia Reserve
+    number: 7
+    par: 3
+    replayName:  "3B"
+    description: >
+      Help Wanted
+    clubRecommendations:
+    clubSuggestions:
+    resourceCreators:
+    aliases:
+  - id: 0a8485d0-215f-4564-9db9-c2d3e2bc51a3
+    course: Acacia Reserve
+    number: 8
+    par: 4
+    replayName:  "4c"
+    description: >
+      Help Wanted
+    clubRecommendations:
+    clubSuggestions:
+    resourceCreators:
+    aliases:
+  - id: 299cfea0-a479-4a44-bfb8-2335d2f72d48
+    course: Acacia Reserve
+    number: 9
+    par: 5
+    replayName: "5B"
+    description: >
+      Help Wanted
+    clubRecommendations:
+    clubSuggestions:
+    resourceCreators:
+    aliases:
