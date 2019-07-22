@@ -1,0 +1,22 @@
+tournamentName: Summer Major 2019
+date: '2019-07-22'
+resourceCreators:
+holes:
+  - number: 1
+    id: ef8cb099-222e-4ef4-bb34-e8632f62df7a
+  - number: 2
+    id: a236e983-69a4-4cf1-b4ca-b62fdb36b6d4
+  - number: 3
+    id: 525f8b83-498d-4bf3-9f1a-8de2cd689818
+  - number: 4
+    id: 716ed009-438e-47fc-980c-c6e311ab07fc
+  - number: 5
+    id: 973f0127-24dd-4843-8d95-88e39466366f
+  - number: 6
+    id: 99ab1fac-c2ab-4e14-ba5f-a5d3293a3d92
+  - number: 7
+    id: 24025ffd-bcc0-45c1-a855-4a0bb0bc4316
+  - number: 8
+    id: 0a8485d0-215f-4564-9db9-c2d3e2bc51a3
+  - number: 9
+    id: 299cfea0-a479-4a44-bfb8-2335d2f72d48
