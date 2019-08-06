@@ -2,6 +2,7 @@ courseName: Greenoch Point
 skinned: false
 holes:
   - id: 747aa53b-baa8-4b00-9062-124a689bda07
+    current-tournament: true
     course: Greenoch Point
     number: 1
     par: 3
@@ -1145,6 +1146,7 @@ holes:
               <circle cx="252" cy="755" r="6" fill="white" class="guide-point" data-guide-segment="0" />
               <circle cx="286" cy="237" r="6" fill="white" class="guide-point" data-guide-segment="1" />
   - id: 6ea3d593-3acb-4552-821b-b784c19e0672
+    current-tournament: true
     course: Greenoch Point
     number: 4
     par: 4
@@ -1979,6 +1981,7 @@ holes:
               <circle cx="424" cy="926" r="6" fill="black" class="guide-point" data-guide-segment="0" />
               <circle cx="187" cy="218" r="6" fill="black" class="guide-point" data-guide-segment="1" />
   - id: d77beb00-9da0-48f3-9c4e-3754ed7bdd16
+    current-tournament: true
     course: Greenoch Point
     number: 6
     par: 5
@@ -2811,6 +2814,7 @@ holes:
               <circle cx="272" cy="280" r="6" fill="red" class="guide-point" data-guide-segment="1" />
               <circle cx="399" cy="93" r="6" fill="red" class="guide-point" data-guide-segment="2" />
   - id: 5d5a7c43-779c-41f5-ac7a-c282e5fec23b
+    current-tournament: true
     course: Greenoch Point
     number: 8
     par: 4
