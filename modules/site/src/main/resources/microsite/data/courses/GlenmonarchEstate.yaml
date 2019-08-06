@@ -2,7 +2,6 @@ courseName: Glenmonarch Estate
 skinned: false
 holes:
   - id: 32438d22-96fb-40af-9625-8491bfdfac2b
-    current-tournament: true
     course: Glenmonarch Estate
     number: 1
     par: 3
@@ -377,7 +376,6 @@ holes:
               <circle cx="159" cy="727" r="6" fill="black" class="guide-point" data-guide-segment="0" />
               <circle cx="154" cy="167" r="6" fill="black" class="guide-point" data-guide-segment="1" />
   - id: 956ca238-06a7-4aed-bd87-54b0f7638384
-    current-tournament: true
     course: Glenmonarch Estate
     number: 2
     par: 4
@@ -620,7 +618,6 @@ holes:
               <circle cx="143" cy="221" r="6" fill="white" class="guide-point" data-guide-segment="1" />
               <circle cx="151" cy="80" r="6" fill="white" class="guide-point" data-guide-segment="2" />
   - id: d880d1a0-1742-4356-aab1-0aed6a81ff61
-    current-tournament: true
     course: Glenmonarch Estate
     number: 3
     par: 5
@@ -957,7 +954,6 @@ holes:
               <circle cx="295" cy="296" r="6" fill="white" class="guide-point" data-guide-segment="2" />
               <circle cx="352" cy="112" r="6" fill="white" class="guide-point" data-guide-segment="3" />
   - id: 982bb7ec-be4f-4400-a040-a21f816aacee
-    current-tournament: true
     course: Glenmonarch Estate
     number: 4
     par: 4
@@ -1158,7 +1154,6 @@ holes:
               <circle cx="282" cy="232" r="6" fill="white" class="guide-point" data-guide-segment="1" />
               <circle cx="239" cy="135" r="6" fill="white" class="guide-point" data-guide-segment="2" />
   - id: 3bf723fa-a6dc-4c9f-bb7c-840379a8e7c1
-    current-tournament: true
     course: Glenmonarch Estate
     number: 5
     par: 3
@@ -1397,7 +1392,6 @@ holes:
               <circle cx="165" cy="733" r="6" fill="white" class="guide-point" data-guide-segment="0" />
               <circle cx="172" cy="176" r="6" fill="white" class="guide-point" data-guide-segment="1" />
   - id: bbd7910c-52a4-44fe-93b9-bcea4676d02f
-    current-tournament: true
     course: Glenmonarch Estate
     number: 6
     par: 3
@@ -1661,7 +1655,6 @@ holes:
               <circle cx="140" cy="725" r="6" fill="white" class="guide-point" data-guide-segment="0" />
               <circle cx="127" cy="146" r="6" fill="white" class="guide-point" data-guide-segment="1" />
   - id: ea520478-83be-438b-b043-a78dc8b5ad6d
-    current-tournament: true
     course: Glenmonarch Estate
     number: 7
     par: 4
@@ -2069,7 +2062,6 @@ holes:
               <circle cx="255" cy="213" r="6" fill="white" class="guide-point" data-guide-segment="1" />
               <circle cx="200" cy="106" r="6" fill="white" class="guide-point" data-guide-segment="2" />
   - id: 929ce86e-c9e1-4065-bd31-2d09609fda26
-    current-tournament: true
     course: Glenmonarch Estate
     number: 8
     par: 5
@@ -2482,7 +2474,6 @@ holes:
               <circle cx="226" cy="134" r="6" fill="white" class="guide-point" data-guide-segment="3" />
               <circle cx="186" cy="87" r="6" fill="white" class="guide-point" data-guide-segment="4" />
   - id: 15bc87ac-1b7f-4a74-8e88-8ac5c8492afc
-    current-tournament: true
     course: Glenmonarch Estate
     number: 9
     par: 5

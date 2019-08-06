@@ -1,0 +1,22 @@
+tournamentName: Great Outdoors
+date: '2019-08-05'
+resourceCreators:
+holes:
+  - number: 1
+    id: c4ce699f-6d34-45f4-b0a3-81895d284ec4
+  - number: 2
+    id: 623c30b7-7b34-42a2-ac29-b4d197ae2a62
+  - number: 3
+    id: d77beb00-9da0-48f3-9c4e-3754ed7bdd16
+  - number: 4
+    id: 747aa53b-baa8-4b00-9062-124a689bda07
+  - number: 5
+    id: 6ea3d593-3acb-4552-821b-b784c19e0672
+  - number: 6
+    id: d3446381-26b2-4d3d-a797-4e2de9dbc5a4
+  - number: 7
+    id: 476346b5-ce2c-4417-a06c-0de2338da828
+  - number: 8
+    id: 5d5a7c43-779c-41f5-ac7a-c282e5fec23b
+  - number: 9
+    id: 4649f12d-9709-4179-92c3-c5152ac0c111

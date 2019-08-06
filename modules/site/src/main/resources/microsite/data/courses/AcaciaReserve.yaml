@@ -11,6 +11,78 @@ holes:
     clubRecommendations:
     clubSuggestions:
     resourceCreators:
+      - name: Golf Clash Tommy
+        resources:
+        - title: Summer Major 2019 - Rookie Guide
+          url: https://youtu.be/hw_e2GYvN7o
+        - title: Summer Major 2019 - Pro / Expert Guide
+          url: https://youtu.be/Iwx523GW5cY
+      - name: Zachary Jones
+        resources:
+        - title: Summer Major 2019 - Rookie
+          url: https://youtu.be/fM3t_p47r9U
+          metadata:
+            tournament: Summer Major 2019
+            level: Rookie
+            ball: Navigator
+            teePosition: 1
+            clubs:
+              - name: Quarterback
+                level: 8
+              - name: Backbone
+                level: 9
+            wind:
+              direction: NNW
+              magnitude: 2.6
+            keywords:
+        - title: Summer Major 2019 - Pro
+          url: https://youtu.be/MqyfnH7cQrw
+          metadata:
+            tournament: Summer Major 2019
+            level: Pro
+            ball: Titan
+            teePosition: 2
+            clubs:
+              - name: Thor's Hammer
+                level: 4
+              - name: Backbone
+                level: 8
+            wind:
+              direction: NE
+              magnitude: 6.9
+            keywords:
+        - title: Summer Major 2019 - Expert
+          url: https://youtu.be/AvydBFyGVxQ
+          metadata:
+            tournament: Summer Major 2019
+            level: Expert
+            ball: King Maker
+            teePosition: 2
+            clubs:
+              - name: Apocalypse
+                level: 4
+              - name: Thorn
+                level: 7
+            wind:
+              direction: WNW
+              magnitude: 8.3
+            keywords:
+        - title: Summer Major 2019 - Master
+          url: https://youtu.be/98dSNmwVrKk
+          metadata:
+            tournament: Summer Major 2019
+            level: Master
+            ball: King Maker
+            teePosition: 3
+            clubs:
+              - name: Apocalypse
+                level: 6
+              - name: Sniper
+                level: 10
+            wind:
+              direction: E
+              magnitude: 11.7
+            keywords:
     aliases:
   - id: a236e983-69a4-4cf1-b4ca-b62fdb36b6d4
     course: Acacia Reserve
@@ -22,6 +94,78 @@ holes:
     clubRecommendations:
     clubSuggestions:
     resourceCreators:
+      - name: Golf Clash Tommy
+        resources:
+        - title: Summer Major 2019 - Rookie Guide
+          url: https://youtu.be/l_NAdzlFnBk
+        - title: Summer Major 2019 - Pro / Expert Guide
+          url: https://youtu.be/K80hrQHX00g
+      - name: Zachary Jones
+        resources:
+        - title: Summer Major 2019 - Rookie
+          url: https://youtu.be/6NibM23l9WU
+          metadata:
+            tournament: Summer Major 2019
+            level: Rookie
+            ball: Titan
+            teePosition: 1
+            clubs:
+              - name: Extra Mile
+                level: 6
+              - name: Viper
+                level: 8
+            wind:
+              direction: NNE
+              magnitude: 3.9
+            keywords:
+        - title: Summer Major 2019 - Pro
+          url: https://youtu.be/9j3gaPXoNas
+          metadata:
+            tournament: Summer Major 2019
+            level: Pro
+            ball: Titan
+            teePosition: 2
+            clubs:
+              - name: Thor's Hammer
+                level: 4
+              - name: Viper
+                level: 8
+            wind:
+              direction: NW
+              magnitude: 7.1
+            keywords:
+        - title: Summer Major 2019 - Expert
+          url: https://youtu.be/t0U3ZhsShqA
+          metadata:
+            tournament: Summer Major 2019
+            level: Expert
+            ball: Berserker
+            teePosition: 2
+            clubs:
+              - name: Apocalypse
+                level: 4
+              - name: Spitfire
+                level: 5
+            wind:
+              direction: NE
+              magnitude: 10.1
+            keywords:
+        - title: Summer Major 2019 - Master
+          url: https://youtu.be/AsqsSyOSJU4
+          metadata:
+            tournament: Summer Major 2019
+            level: Master
+            ball: King Maker
+            teePosition: 3
+            clubs:
+              - name: Apocalypse
+                level: 6
+              - name: Sniper
+                level: 10
+            wind:
+              direction: W
+              magnitude: 10.4
+            keywords:
     aliases:
   - id: 525f8b83-498d-4bf3-9f1a-8de2cd689818
     course: Acacia Reserve
@@ -33,6 +177,70 @@ holes:
     clubRecommendations:
     clubSuggestions:
     resourceCreators:
+      - name: Golf Clash Tommy
+        resources:
+        - title: Summer Major 2019 - Rookie Guide
+          url: https://youtu.be/HH2QFDgtfvs
+        - title: Summer Major 2019 - Pro / Expert Guide
+          url: https://youtu.be/mlniybk8_io
+      - name: Zachary Jones
+        resources:
+        - title: Summer Major 2019 - Rookie
+          url: https://youtu.be/ZVBsKYff3nU
+          metadata:
+            tournament: Summer Major 2019
+            level: Rookie
+            ball: Katana
+            teePosition: 1
+            clubs:
+              - name: Viper
+                level: 8
+            wind:
+              direction: NE
+              magnitude: 3.8
+            keywords:
+        - title: Summer Major 2019 - Pro
+          url: https://youtu.be/wrUSbxqfOqY
+          metadata:
+            tournament: Summer Major 2019
+            level: Pro
+            ball: Katana
+            teePosition: 2
+            clubs:
+              - name: Quarterback
+                level: 8
+            wind:
+              direction: SW
+              magnitude: 6.1
+            keywords:
+        - title: Summer Major 2019 - Expert
+          url: https://youtu.be/fVOz3O5AlTg
+          metadata:
+            tournament: Summer Major 2019
+            level: Expert
+            ball: King Maker
+            teePosition: 2
+            clubs:
+              - name: Sniper
+                level: 10
+            wind:
+              direction: ESE
+              magnitude: 8.2
+            keywords:
+        - title: Summer Major 2019 - Master
+          url: https://youtu.be/4FwmB_E8spk
+          metadata:
+            tournament: Summer Major 2019
+            level: Master
+            ball: Oceania
+            teePosition: 3
+            clubs:
+              - name: Quarterback
+                level: 10
+            wind:
+              direction: NNE
+              magnitude: 8.2
+            keywords:
     aliases:
   - id: 716ed009-438e-47fc-980c-c6e311ab07fc
     course: Acacia Reserve
@@ -44,6 +252,78 @@ holes:
     clubRecommendations:
     clubSuggestions:
     resourceCreators:
+      - name: Golf Clash Tommy
+        resources:
+        - title: Summer Major 2019 - Rookie Guide
+          url: https://youtu.be/bcBE5XD8FUs
+        - title: Summer Major 2019 - Pro / Expert Guide
+          url: https://youtu.be/rtI8WkMVbfE
+      - name: Zachary Jones
+        resources:
+        - title: Summer Major 2019 - Rookie
+          url: https://youtu.be/Gg4JHBtlvFQ
+          metadata:
+            tournament: Summer Major 2019
+            level: Rookie
+            ball: Titan
+            teePosition: 1
+            clubs:
+              - name: Extra Mile
+                level: 6
+              - name: Thorn
+                level: 5
+            wind:
+              direction: NW
+              magnitude: 4.1
+            keywords:
+        - title: Summer Major 2019 - Pro
+          url: https://youtu.be/y0uv--Zdvr4
+          metadata:
+            tournament: Summer Major 2019
+            level: Pro
+            ball: Katana
+            teePosition: 2
+            clubs:
+              - name: Quarterback
+                level: 8
+              - name: Backbone
+                level: 8
+            wind:
+              direction: ENE
+              magnitude: 6.6
+            keywords:
+        - title: Summer Major 2019 - Expert
+          url: https://youtu.be/kvWsr7xAVTA
+          metadata:
+            tournament: Summer Major 2019
+            level: Expert
+            ball: King Maker
+            teePosition: 2
+            clubs:
+              - name: Apocalypse
+                level: 4
+              - name: Goliath
+                level: 8
+            wind:
+              direction: SW
+              magnitude: 7.1
+            keywords:
+        - title: Summer Major 2019 - Master
+          url: https://youtu.be/QzSlCI2qB8s
+          metadata:
+            tournament: Summer Major 2019
+            level: Master
+            ball: King Maker
+            teePosition: 3
+            clubs:
+              - name: Apocalypse
+                level: 6
+              - name: B52
+                level: 6
+            wind:
+              direction: ESE
+              magnitude: 12.1
+            keywords:
     aliases:
   - id: 973f0127-24dd-4843-8d95-88e39466366f
     course: Acacia Reserve
@@ -55,6 +335,70 @@ holes:
     clubRecommendations:
     clubSuggestions:
     resourceCreators:
+      - name: Golf Clash Tommy
+        resources:
+        - title: Summer Major 2019 - Rookie Guide
+          url: https://youtu.be/7TRUYAySVM0
+        - title: Summer Major 2019 - Pro / Expert Guide
+          url: https://youtu.be/XAJ5zVg6Y6s
+      - name: Zachary Jones
+        resources:
+        - title: Summer Major 2019 - Rookie
+          url: https://youtu.be/q1M8PqHqJj8
+          metadata:
+            tournament: Summer Major 2019
+            level: Rookie
+            ball: Navigator
+            teePosition: 1
+            clubs:
+              - name: Backbone
+                level: 9
+            wind:
+              direction: NNE
+              magnitude: 3.7
+            keywords:
+        - title: Summer Major 2019 - Pro
+          url: https://youtu.be/8_pPHbHnzzo
+          metadata:
+            tournament: Summer Major 2019
+            level: Pro
+            ball: Katana
+            teePosition: 2
+            clubs:
+              - name: Sniper
+                level: 8
+            wind:
+              direction: NW
+              magnitude: 6.5
+            keywords:
+        - title: Summer Major 2019 - Expert
+          url: https://youtu.be/48RrAv1fL7E
+          metadata:
+            tournament: Summer Major 2019
+            level: Expert
+            ball: King Maker
+            teePosition: 2
+            clubs:
+              - name: Sniper
+                level: 10
+            wind:
+              direction: S
+              magnitude: 8.4
+            keywords:
+        - title: Summer Major 2019 - Master
+          url: https://youtu.be/NkYUoq0Ri_M
+          metadata:
+            tournament: Summer Major 2019
+            level: Master
+            ball: Oceania
+            teePosition: 3
+            clubs:
+              - name: Quarterback
+                level: 10
+            wind:
+              direction: NE
+              magnitude: 8.5
+            keywords:
     aliases:
   - id: 99ab1fac-c2ab-4e14-ba5f-a5d3293a3d92
     course: Acacia Reserve
@@ -66,6 +410,78 @@ holes:
     clubRecommendations:
     clubSuggestions:
     resourceCreators:
+      - name: Golf Clash Tommy
+        resources:
+        - title: Summer Major 2019 - Rookie Guide
+          url: https://youtu.be/-AqwgD31Zdo
+        - title: Summer Major 2019 - Pro / Expert Guide
+          url: https://youtu.be/_4AnW7xrqWc
+      - name: Zachary Jones
+        resources:
+        - title: Summer Major 2019 - Rookie
+          url: https://youtu.be/pc6t2icjBsQ
+          metadata:
+            tournament: Summer Major 2019
+            level: Rookie
+            ball: Titan
+            teePosition: 1
+            clubs:
+              - name: Extra Mile
+                level: 6
+              - name: Skewer
+                level: 6
+            wind:
+              direction: N
+              magnitude: 2.9
+            keywords:
+        - title: Summer Major 2019 - Pro
+          url: https://youtu.be/4yFMuOA29_s
+          metadata:
+            tournament: Summer Major 2019
+            level: Pro
+            ball: Berserker
+            teePosition: 2
+            clubs:
+              - name: Thor's Hammer
+                level: 4
+              - name: Backbone
+                level: 8
+            wind:
+              direction: NNE
+              magnitude: 6.0
+            keywords:
+        - title: Summer Major 2019 - Expert
+          url: https://youtu.be/gVGjVZOuEzo
+          metadata:
+            tournament: Summer Major 2019
+            level: Expert
+            ball: King Maker
+            teePosition: 2
+            clubs:
+              - name: Apocalypse
+                level: 4
+              - name: Sniper
+                level: 10
+            wind:
+              direction: WSW
+              magnitude: 8.5
+            keywords:
+        - title: Summer Major 2019 - Master
+          url: https://youtu.be/k3AAIfdOXUw
+          metadata:
+            tournament: Summer Major 2019
+            level: Master
+            ball: King Maker
+            teePosition: 3
+            clubs:
+              - name: Apocalypse
+                level: 6
+              - name: Sniper
+                level: 10
+            wind:
+              direction: WNW
+              magnitude: 11.5
+            keywords:
     aliases:
   - id: 24025ffd-bcc0-45c1-a855-4a0bb0bc4316
     course: Acacia Reserve
@@ -77,6 +493,70 @@ holes:
     clubRecommendations:
     clubSuggestions:
     resourceCreators:
+      - name: Golf Clash Tommy
+        resources:
+        - title: Summer Major 2019 - Rookie Guide
+          url: https://youtu.be/vx5WVJqwYJo
+        - title: Summer Major 2019 - Pro / Expert Guide
+          url: https://youtu.be/y03tfdJ3CmY
+      - name: Zachary Jones
+        resources:
+        - title: Summer Major 2019 - Rookie
+          url: https://youtu.be/6rCvEYOBeQ4
+          metadata:
+            tournament: Summer Major 2019
+            level: Rookie
+            ball: Navigator
+            teePosition: 1
+            clubs:
+              - name: Backbone
+                level: 9
+            wind:
+              direction: WSW
+              magnitude: 2.2
+            keywords:
+        - title: Summer Major 2019 - Pro
+          url: https://youtu.be/SDckPSsjAzg
+          metadata:
+            tournament: Summer Major 2019
+            level: Pro
+            ball: Navigator
+            teePosition: 2
+            clubs:
+              - name: Sniper
+                level: 8
+            wind:
+              direction: ESE
+              magnitude: 6.7
+            keywords:
+        - title: Summer Major 2019 - Expert
+          url: https://youtu.be/jx-TA1txflo
+          metadata:
+            tournament: Summer Major 2019
+            level: Expert
+            ball: King Maker
+            teePosition: 2
+            clubs:
+              - name: Sniper
+                level: 10
+            wind:
+              direction: NNE
+              magnitude: 7.1
+            keywords:
+        - title: Summer Major 2019 - Master
+          url: https://youtu.be/IyuhEkSSyZg
+          metadata:
+            tournament: Summer Major 2019
+            level: Master
+            ball: Oceania
+            teePosition: 3
+            clubs:
+              - name: Quarterback
+                level: 10
+            wind:
+              direction: E
+              magnitude: 8.3
+            keywords:
     aliases:
   - id: 0a8485d0-215f-4564-9db9-c2d3e2bc51a3
     course: Acacia Reserve
@@ -88,6 +568,78 @@ holes:
     clubRecommendations:
     clubSuggestions:
     resourceCreators:
+      - name: Golf Clash Tommy
+        resources:
+        - title: Summer Major 2019 - Rookie Guide
+          url: https://youtu.be/blkRGMxFbaI
+        - title: Summer Major 2019 - Pro / Expert Guide
+          url: https://youtu.be/55uUQg4hlPc
+      - name: Zachary Jones
+        resources:
+        - title: Summer Major 2019 - Rookie
+          url: https://youtu.be/9OBJejvhIf4
+          metadata:
+            tournament: Summer Major 2019
+            level: Rookie
+            ball: Titan
+            teePosition: 1
+            clubs:
+              - name: Extra Mile
+                level: 6
+              - name: Malibu
+                level: 6
+            wind:
+              direction: ENE
+              magnitude: 2.4
+            keywords:
+        - title: Summer Major 2019 - Pro
+          url: https://youtu.be/XNHyKGMe_Ws
+          metadata:
+            tournament: Summer Major 2019
+            level: Pro
+            ball: Berserker
+            teePosition: 2
+            clubs:
+              - name: Thor's Hammer
+                level: 4
+              - name: Nirvana
+                level: 5
+            wind:
+              direction: NW
+              magnitude: 6.0
+            keywords:
+        - title: Summer Major 2019 - Expert
+          url: https://youtu.be/iU4uBVAonnE
+          metadata:
+            tournament: Summer Major 2019
+            level: Expert
+            ball: King Maker
+            teePosition: 2
+            clubs:
+              - name: Apocalypse
+                level: 4
+              - name: Thorn
+                level: 7
+            wind:
+              direction: ESE
+              magnitude: 8.8
+            keywords:
+        - title: Summer Major 2019 - Master
+          url: https://youtu.be/NJmiF-MFu_k
+          metadata:
+            tournament: Summer Major 2019
+            level: Master
+            ball: Berserker
+            teePosition: 3
+            clubs:
+              - name: Apocalypse
+                level: 6
+              - name: EndBringer
+                level: 7
+            wind:
+              direction: WNW
+              magnitude: 15.4
+            keywords:
     aliases:
   - id: 299cfea0-a479-4a44-bfb8-2335d2f72d48
     course: Acacia Reserve
@@ -99,4 +651,76 @@ holes:
     clubRecommendations:
     clubSuggestions:
     resourceCreators:
+      - name: Golf Clash Tommy
+        resources:
+        - title: Summer Major 2019 - Rookie Guide
+          url: https://youtu.be/4wmYArDTxiY
+        - title: Summer Major 2019 - Pro / Expert Guide
+          url: https://youtu.be/0p3NNyRPdyk
+      - name: Zachary Jones
+        resources:
+        - title: Summer Major 2019 - Rookie
+          url: https://youtu.be/YX5xfZGuQv8
+          metadata:
+            tournament: Summer Major 2019
+            level: Rookie
+            ball: Titan
+            teePosition: 1
+            clubs:
+              - name: Extra Mile
+                level: 6
+              - name: Viper
+                level: 8
+            wind:
+              direction: N
+              magnitude: 3.2
+            keywords:
+        - title: Summer Major 2019 - Pro
+          url: https://youtu.be/aS9yv9jFSXE
+          metadata:
+            tournament: Summer Major 2019
+            level: Pro
+            ball: Titan
+            teePosition: 2
+            clubs:
+              - name: Thor's Hammer
+                level: 4
+              - name: Sniper
+                level: 8
+            wind:
+              direction: NNE
+              magnitude: 6.7
+            keywords:
+        - title: Summer Major 2019 - Expert
+          url: https://youtu.be/xk562apE5jA
+          metadata:
+            tournament: Summer Major 2019
+            level: Expert
+            ball: King Maker
+            teePosition: 2
+            clubs:
+              - name: Apocalypse
+                level: 4
+              - name: Sniper
+                level: 10
+            wind:
+              direction: NW
+              magnitude: 7.4
+            keywords:
+        - title: Summer Major 2019 - Master
+          url: https://youtu.be/Jlh_fjqRnb4
+          metadata:
+            tournament: Summer Major 2019
+            level: Master
+            ball: Berserker
+            teePosition: 3
+            clubs:
+              - name: Apocalypse
+                level: 6
+              - name: Nirvana
+                level: 8
+            wind:
+              direction: ENE
+              magnitude: 15.8
+            keywords:
     aliases:

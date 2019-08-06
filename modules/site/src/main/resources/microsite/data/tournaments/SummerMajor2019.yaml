@@ -1,6 +1,22 @@
 tournamentName: Summer Major 2019
 date: '2019-07-22'
 resourceCreators:
+  - name: Golf Clash Tommy
+    resources:
+    - title: Rookie Playthrough - Tournament Wind
+      url: https://youtu.be/T7CZ8YTjc_A
+    - title: Pro Playthrough - Tournament Wind
+      url: https://youtu.be/hvnlqt57MBk
+    - title: Expert Playthrough - Tournament Wind
+      url: https://youtu.be/F5YjP5Xkvlk
+    - title: Master Playthrough - Tournament Wind
+      url: https://youtu.be/rsG-ZxOnTcw
+    - title: Rookie Guide
+      url: https://youtu.be/lYJWuBGwMHQ
+    - title: Pro / Expert Guide
+      url: https://youtu.be/5z-QUkl6bhk
+    - title: Text Guides
+      url: https://imgur.com/a/6cvTuF7
 holes:
   - number: 1
     id: ef8cb099-222e-4ef4-bb34-e8632f62df7a
