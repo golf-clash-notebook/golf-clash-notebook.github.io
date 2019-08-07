@@ -1,6 +1,32 @@
 tournamentName: Great Outdoors
 date: '2019-08-05'
 resourceCreators:
+  - name: Golf Clash Tommy
+    resources:
+    - title: Rookie Playthrough - Tournament Wind
+      url: https://youtu.be/2JkMfv3RvXU
+    - title: Pro Playthrough - Tournament Wind
+      url: https://youtu.be/1jZUoqPEBhY
+    - title: Expert Playthrough - Tournament Wind
+      url: https://youtu.be/L2H9Fs5UWr8
+    - title: Master Playthrough - Tournament Wind
+      url: https://youtu.be/37qQCWkfn2Q
+    - title: Rookie Guide
+      url: https://youtu.be/b7tzjxKYM0g
+    - title: Pro / Expert Guide
+      url: https://youtu.be/EbEPME7zWig
+    - title: Text Guides
+      url: https://imgur.com/gallery/sDcIV9G
+  - name: Jesse Both
+    resources:
+    - title: Rookie Playthrough
+      url: https://youtu.be/8_a4WXRKtxs
+    - title: Pro Playthrough
+      url: https://youtu.be/PCPszMZ8CaA
+    - title: Pro / Expert Guide
+      url: https://youtu.be/XkeL4gL7Wfk
+    - title: Rookie Guide
+      url: https://youtu.be/4MWChaH08VE
 holes:
   - number: 1
     id: c4ce699f-6d34-45f4-b0a3-81895d284ec4
