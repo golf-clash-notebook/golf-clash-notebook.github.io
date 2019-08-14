@@ -283,6 +283,7 @@ holes:
               magnitude: 6.1
             keywords:
   - id: 30c5bcbe-882f-4383-9ab3-6446d9c35dae
+    current-tournament: true
     course: Porthello Cove
     number: 2
     par: 3
@@ -565,6 +566,7 @@ holes:
         - title: 2nd Anniversary - Rookie Guide
           url: https://youtu.be/y21VwOu3Arg
   - id: 493200bc-0d35-4ab3-9188-820c71f1c607
+    current-tournament: true
     course: Porthello Cove
     number: 3
     par: 5
@@ -829,6 +831,7 @@ holes:
               magnitude: 4.6
             keywords:
   - id: b4271a50-93a9-4ae2-a932-459c8b6b48f2
+    current-tournament: true
     course: Porthello Cove
     number: 4
     par: 4
@@ -1414,6 +1417,7 @@ holes:
               magnitude: 1.7
             keywords:
   - id: de271ab9-1675-4cd9-ac00-59901f7d7437
+    current-tournament: true
     course: Porthello Cove
     number: 6
     par: 3
@@ -1663,6 +1667,7 @@ holes:
               magnitude: 1.6
             keywords:
   - id: 73479ded-888f-40bc-a1a4-2e10b7853a31
+    current-tournament: true
     course: Porthello Cove
     number: 7
     par: 4
