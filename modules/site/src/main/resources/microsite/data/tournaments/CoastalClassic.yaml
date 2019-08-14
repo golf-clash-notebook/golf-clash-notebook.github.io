@@ -1,0 +1,21 @@
+tournamentName: Coastal Classic
+date: '2019-08-19'
+holes:
+  - number: 1
+    id: c6dee008-9374-4e0f-8ae5-d7b456a1e970
+  - number: 2
+    id: 33ef32c9-c4f7-4b76-a1b2-308087d173d6
+  - number: 3
+    id: de271ab9-1675-4cd9-ac00-59901f7d7437
+  - number: 4
+    id: 73479ded-888f-40bc-a1a4-2e10b7853a31
+  - number: 5
+    id: 1ac9e3f4-edfc-4c57-9635-5986e37c695b
+  - number: 6
+    id: 47f0b5ec-1aea-4429-aee3-805c23fa6bda
+  - number: 7
+    id: 30c5bcbe-882f-4383-9ab3-6446d9c35dae
+  - number: 8
+    id: b4271a50-93a9-4ae2-a932-459c8b6b48f2
+  - number: 9
+    id: 493200bc-0d35-4ab3-9188-820c71f1c607

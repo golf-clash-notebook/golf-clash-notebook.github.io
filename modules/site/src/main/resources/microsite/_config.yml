@@ -742,3 +742,11 @@ page_gen:
     extra:
       title-prefix: 'Great Outdoors - Hole '
       tournamentName: 'Great Outdoors'
+  - index_files: true
+    data: 'tournaments.CoastalClassic.holes'
+    template: '_includes/tournaments/hole-template.liquid'
+    name: 'number'
+    dir: 'tournaments/CoastalClassic'
+    extra:
+      title-prefix: 'Coastal Classic - Hole '
+      tournamentName: 'Coastal Classic'

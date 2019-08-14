@@ -2,7 +2,6 @@ courseName: Eagle Peak
 skinned: false
 holes:
   - id: c4ce699f-6d34-45f4-b0a3-81895d284ec4
-    current-tournament: true
     course: Eagle Peak
     number: 1
     par: 4
@@ -534,7 +533,6 @@ holes:
         - title: 2nd Anniversary - Rookie Guide
           url: https://youtu.be/4JGRIiopq-0
   - id: 623c30b7-7b34-42a2-ac29-b4d197ae2a62
-    current-tournament: true
     course: Eagle Peak
     number: 2
     par: 3
@@ -1176,7 +1174,6 @@ holes:
               magnitude: 4.0
             keywords:
   - id: 476346b5-ce2c-4417-a06c-0de2338da828
-    current-tournament: true
     course: Eagle Peak
     number: 4
     par: 3
@@ -1731,7 +1728,6 @@ holes:
               magnitude: 8.1
             keywords:
   - id: d3446381-26b2-4d3d-a797-4e2de9dbc5a4
-    current-tournament: true
     course: Eagle Peak
     number: 6
     par: 5
@@ -2662,7 +2658,6 @@ holes:
             keywords:
               - Power Slice
   - id: 4649f12d-9709-4179-92c3-c5152ac0c111
-    current-tournament: true
     course: Eagle Peak
     number: 9
     par: 5
