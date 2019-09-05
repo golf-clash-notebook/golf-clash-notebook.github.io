@@ -266,7 +266,7 @@ page_gen:
     name: 'number'
     dir: 'courses/WinterOlympics'
     extra:
-      title-prefix: 'Winter WinterOlympics - Hole '
+      title-prefix: 'Winter Olympics - Hole '
 
   ##### Tournament Holes #####
 
