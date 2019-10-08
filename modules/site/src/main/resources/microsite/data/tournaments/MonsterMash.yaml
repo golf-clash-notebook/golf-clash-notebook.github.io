@@ -1,0 +1,24 @@
+tournamentName: Monster Mash
+date: '2019-10-14'
+resourceCreators:
+  - name: Golf Clash Tommy
+  - name: Jesse Both
+holes:
+  - number: 1
+    id: 403da63f-9e6f-4a4a-b17d-cc5cacce7bcb
+  - number: 2
+    id: 5bc210d8-de10-4786-ad3f-75367f76a15d
+  - number: 3
+    id: ceec18c9-cda1-436d-bdb1-1f2454b46436
+  - number: 4
+    id: 78852573-8b79-49e7-999a-e7a20b220baf
+  - number: 5
+    id: a427fbaf-3e27-411a-8a51-3a5bd53e2605
+  - number: 6
+    id: f30c2f43-c8dc-4762-bc7b-77b6d196d0e2
+  - number: 7
+    id: 278a348f-a5c8-4106-811c-f051bb9b6371
+  - number: 8
+    id: 1658565e-d219-4a46-844c-97c7f98e66b4
+  - number: 9
+    id: 7d665400-73e6-4716-9655-63f8fe8b8956

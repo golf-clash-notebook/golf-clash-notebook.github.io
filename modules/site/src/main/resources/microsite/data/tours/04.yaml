@@ -2,7 +2,8 @@ number: 4
 tourName: 6 Star Hotel
 courses:
   - name: The Milano
-  - name: Acacia Reserve
+  - name: The Oasis
+  - name: Sunshine Glades
 description: >
   Help Wanted
 resources:
