@@ -1,0 +1,46 @@
+tournamentName: City Of Light
+date: '2019-09-16'
+resourceCreators:
+  - name: Golf Clash Tommy
+    resources:
+    - title: Rookie Playthrough
+      url: https://youtu.be/DYX_o0h9pQw
+    - title: Pro Playthrough
+      url: https://youtu.be/gL3dHdpuwLg
+    - title: Expert Playthrough
+      url: https://youtu.be/KK5o8H923F8
+    - title: Master Playthrough
+      url: https://youtu.be/WOuKMmXcREU
+    - title: Text Guide
+      url: https://imgur.com/a/gUbvp7q
+  - name: Jesse Both
+    resources:
+    - title: Rookie Playthrough
+      url: https://youtu.be/1OKkUi4bFbY
+    - title: Pro Playthrough
+      url: https://youtu.be/Z-YyrQ5Q3i4
+    - title: Rookie Guide
+      url: https://youtu.be/nDGIDwN2FAA
+    - title: Pro / Expert Guide
+      url: https://youtu.be/XZG2Pt9VDSQ
+    - title: Tournament Overview
+      url: https://youtu.be/tEu5TuB7dXA
+holes:
+  - number: 1
+    id: 04a2e328-2680-46d9-8ea5-3429128c9dc6
+  - number: 2
+    id: 636bce10-6193-4793-b3db-994fe6a39dbf
+  - number: 3
+    id: 17727cf4-ffbf-43e9-a0db-5cebcc570496
+  - number: 4
+    id: 2ecd58d4-d052-4516-9799-bac5b8dde3bc
+  - number: 5
+    id: 2b26deed-d658-427a-8472-4443e0ee863b
+  - number: 6
+    id: 88e55ba8-9cc9-41e7-a648-2cb8ed29185d
+  - number: 7
+    id: 996a923a-517a-4e18-8868-0ab66807884b
+  - number: 8
+    id: dad86483-0418-4578-ae29-a5a2b2810648
+  - number: 9
+    id: 3d6bf850-7dde-47a5-a572-0253ef035e95
