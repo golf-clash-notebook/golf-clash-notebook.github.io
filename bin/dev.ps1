@@ -6,7 +6,9 @@ $composefile='docker/docker-compose.yml'
 $service='gcn_web'
 
 If ($cmd -eq 'bash') {
-  docker-compose -f $composefile run -p 4000:4000 --rm $service /bin/bash
+  docker-compose -f $composefile run --rm $service /bin/bash
+} elseif ($cmd -eq 'publish') {
+  docker-compose -f $composefile run --rm $service sbt site/makeMicrosite
 } elseif ($cmd -eq 'build') {
   docker-compose -f $composefile build
 } elseif ($cmd -eq 'up') {

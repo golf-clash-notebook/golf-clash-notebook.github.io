@@ -5,7 +5,10 @@ SERVICE=gcn_web
 
 case "$1" in
   bash)
-    docker-compose run -p 4000:4000 --rm $SERVICE /bin/bash
+    docker-compose run --rm $SERVICE /bin/bash
+    ;;
+  publish)
+    docker-compose run --rm $SERVICE sbt site/makeMicrosite
     ;;
   build)
     docker-compose build
