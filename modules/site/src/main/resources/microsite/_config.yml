@@ -750,3 +750,19 @@ page_gen:
     extra:
       title-prefix: 'Coastal Classic - Hole '
       tournamentName: 'Coastal Classic'
+  - index_files: true
+    data: 'tournaments.CityOfLight.holes'
+    template: '_includes/tournaments/hole-template.liquid'
+    name: 'number'
+    dir: 'tournaments/CityOfLight'
+    extra:
+      title-prefix: 'City of Light - Hole '
+      tournamentName: 'City Of Light'
+  - index_files: true
+    data: 'tournaments.SilverState.holes'
+    template: '_includes/tournaments/hole-template.liquid'
+    name: 'number'
+    dir: 'tournaments/SilverState'
+    extra:
+      title-prefix: 'Silver State - Hole '
+      tournamentName: 'Silver State'

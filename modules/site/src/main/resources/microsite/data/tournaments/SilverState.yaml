@@ -1,0 +1,48 @@
+tournamentName: Silver State
+date: '2019-09-30'
+resourceCreators:
+  - name: Golf Clash Tommy
+    resources:
+    - title: Rookie Playthrough
+      url: hhttps://youtu.be/MIRtgV8vak0
+    - title: Pro Playthrough
+      url: https://youtu.be/7oVKqb15gy4
+    - title: Expert Playthrough
+      url: https://youtu.be/Hhb6AJoXX5w
+    - title: Master Playthrough
+      url: https://youtu.be/cisbd4wPnG0
+    - title: Text Guide
+      url: https://imgur.com/a/PtiYTu7
+  - name: Jesse Both
+    resources:
+    - title: Rookie Playthrough
+      url: https://youtu.be/zpBrP33NPzo
+    - title: Pro Playthrough
+      url: https://youtu.be/Rs7oevtoI3E
+    - title: Expert Playthrough
+      url: https://youtu.be/xqOVhptMSIk
+    - title: Rookie Guide
+      url: https://youtu.be/w4d7VyWc5hw
+    - title: Pro / Expert Guide
+      url: https://youtu.be/WjoXXQCW560
+    - title: Tournament Overview
+      url: https://youtu.be/jY-leDcjFVQ
+holes:
+  - number: 1
+    id: 03464ae3-a556-49ee-8526-b8b6d57450ab
+  - number: 2
+    id: bc96ba70-b8b9-468b-8a7f-fc4fc134826b
+  - number: 3
+    id: 81c04a24-b874-4b97-aeec-fa237bee470b
+  - number: 4
+    id: 330d44fa-7e2d-4fda-bdb5-f96fa9c0258f
+  - number: 5
+    id: 343f3420-ee65-4e36-8d9b-51879943062d
+  - number: 6
+    id: e11ff12d-d182-4e81-85b1-a63fa49fe1cc
+  - number: 7
+    id: 751e265c-e5f5-4156-a482-f5fb73938f2a
+  - number: 8
+    id: 2c9f5304-fca6-4bd1-91dc-e61bd032da92
+  - number: 9
+    id: e848d24c-b050-49da-a898-83bee9ef0e97
