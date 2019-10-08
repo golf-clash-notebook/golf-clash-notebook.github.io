@@ -5,7 +5,7 @@ services:
     build:
       context: ../
     entrypoint: /var/www/app/docker/entrypoint.sh
-    command: bash -c 'bundle exec jekyll serve --host=0.0.0.0 -s ../modules/site/target/site'
+    command: bash -c 'bundle exec jekyll serve --host=0.0.0.0 -s modules/site/target/site'
     container_name: 'gcn_web'
     # hostname: 'gcn_web'
     ports:
