@@ -1,0 +1,44 @@
+tournamentName: Celtic Cup
+date: '2019-09-02'
+resourceCreators:
+  - name: Golf Clash Tommy
+    resources:
+    - title: Rookie Playthrough
+      url: https://youtu.be/DQ163W7cP3A
+    - title: Pro Playthrough
+      url: https://youtu.be/kPceHFTl_L0
+    - title: Expert Playthrough
+      url: https://youtu.be/CNAlYxlkDTc
+    - title: Master Playthrough
+      url: https://youtu.be/QkVdjKy3xVo
+    - title: Text Guide
+      url: https://imgur.com/a/Fee1ykb
+  - name: Jesse Both
+    resources:
+    - title: Rookie Playthrough
+      url: https://youtu.be/jgl7qGC1UVY
+    - title: Pro Playthrough
+      url: https://youtu.be/DsQSPDEiHcw
+    - title: Expert Playthrough
+      url: https://youtu.be/Q-NXmCYtWzQ
+    - title: Tournament Overview
+      url: https://youtu.be/ySJ031aiTZE
+holes:
+  - number: 1
+    id: e9d88d48-361e-41d2-bd48-0bf29109c130
+  - number: 2
+    id: f9ebdfa5-7910-487e-acd5-2984ef177e9d
+  - number: 3
+    id: f224b796-c80b-44b9-b399-858f3d57ace6
+  - number: 4
+    id: 0f57509f-ff1d-41fe-b4c4-3291d2f7f540
+  - number: 5
+    id: e067e33a-b6e1-441d-bebb-d4cdee71422c
+  - number: 6
+    id: 285ee143-e776-4440-bb3b-658ba17a03a7
+  - number: 7
+    id: 0c051fa0-93b8-4f50-b573-cdbf584d93aa
+  - number: 8
+    id: 88e4eb01-6c36-4460-93f3-278345647032
+  - number: 9
+    id: cd33a986-429f-4810-a789-83be08aaf5d6

@@ -267,6 +267,13 @@ page_gen:
     dir: 'courses/WinterOlympics'
     extra:
       title-prefix: 'Winter Olympics - Hole '
+  - index_files: true
+    data: 'courses.DrumoreLinks.holes'
+    template: '_includes/courses/hole-template.liquid'
+    name: 'number'
+    dir: 'courses/DrumoreLinks'
+    extra:
+      title-prefix: 'Drumore Links - Hole '
 
   ##### Tournament Holes #####
 
@@ -750,6 +757,14 @@ page_gen:
     extra:
       title-prefix: 'Coastal Classic - Hole '
       tournamentName: 'Coastal Classic'
+  - index_files: true
+    data: 'tournaments.CelticCup.holes'
+    template: '_includes/tournaments/hole-template.liquid'
+    name: 'number'
+    dir: 'tournaments/CelticCup'
+    extra:
+      title-prefix: 'Celtic Cup - Hole '
+      tournamentName: 'Celtic Cup'
   - index_files: true
     data: 'tournaments.CityOfLight.holes'
     template: '_includes/tournaments/hole-template.liquid'
