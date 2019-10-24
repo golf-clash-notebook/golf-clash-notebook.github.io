@@ -7,7 +7,6 @@ services:
     entrypoint: /var/www/app/docker/entrypoint.sh
     command: bash -c 'bundle exec jekyll serve --host=0.0.0.0 -s modules/site/target/site'
     container_name: 'gcn_web'
-    # hostname: 'gcn_web'
     ports:
       - 4000:4000
     volumes:
@@ -23,7 +22,6 @@ services:
   gcn_bundle:
     image: busybox
     container_name: 'gcn_bundle'
-    # hostname: 'gcn_bundle'
     volumes:
       - gcn_bundle:/bundle
 
