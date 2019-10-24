@@ -1,4 +1,4 @@
-FROM aptible/ruby:2.4-ubuntu-16.04
+FROM ruby:2.6.5
 
 LABEL app-name="golfclashnotebook"
 

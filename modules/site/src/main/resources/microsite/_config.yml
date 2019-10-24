@@ -781,3 +781,11 @@ page_gen:
     extra:
       title-prefix: 'Silver State - Hole '
       tournamentName: 'Silver State'
+  - index_files: true
+    data: 'tournaments.MonsterMarsh.holes'
+    template: '_includes/tournaments/hole-template.liquid'
+    name: 'number'
+    dir: 'tournaments/MonsterMarsh'
+    extra:
+      title-prefix: 'Monster Marsh - Hole '
+      tournamentName: 'Monster Marsh'
