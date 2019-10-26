@@ -20,3 +20,5 @@ project/target
 *.sublime*
 .vscode
 
+.env
+.DS_Store

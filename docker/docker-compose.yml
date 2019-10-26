@@ -1,0 +1,50 @@
+version: '3.7'
+
+services:
+  gcn_web:
+    build:
+      context: ../
+    entrypoint: /var/www/app/docker/entrypoint.sh
+    command: bash -c 'bundle exec jekyll serve --host=0.0.0.0 -s modules/site/target/site'
+    container_name: 'gcn_web'
+    ports:
+      - 4000:4000
+    volumes:
+      - ../:/var/www/app
+      - gcn_bundle:/bundle
+      - gcn_sbt_cache:/root/.sbt2
+      - gcn_ivy2_cache:/root/.ivy2
+      - gcn_coursier_cache:/root/.coursier
+    env_file: ../.env
+    environment:
+      BUNDLE_PATH: /bundle
+
+  gcn_bundle:
+    image: busybox
+    container_name: 'gcn_bundle'
+    volumes:
+      - gcn_bundle:/bundle
+
+  gcn_sbt_cache:
+    image: busybox
+    container_name: 'gcn_sbt_cache'
+    volumes:
+      - gcn_sbt_cache:/root/.sbt
+
+  gcn_ivy2_cache:
+    image: busybox
+    container_name: 'gcn_ivy2_cache'
+    volumes:
+      - gcn_ivy2_cache:/root/.ivy2
+
+  gcn_coursier_cache:
+    image: busybox
+    container_name: 'gcn_coursier_cache'
+    volumes:
+      - gcn_coursier_cache:/root/.coursier
+
+volumes:
+  gcn_bundle:
+  gcn_sbt_cache:
+  gcn_ivy2_cache:
+  gcn_coursier_cache:
