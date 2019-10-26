@@ -1,8 +1,6 @@
 tournamentName: Monster Marsh
 date: '2019-10-14'
 resourceCreators:
-  - name: Golf Clash Tommy
-  - name: Jesse Both
 holes:
   - number: 1
     id: 403da63f-9e6f-4a4a-b17d-cc5cacce7bcb
