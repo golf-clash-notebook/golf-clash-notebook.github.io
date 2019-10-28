@@ -53,28 +53,28 @@ Two helper scripts are available in the `/bin` folder, `dev` for linux environme
 bin/dev build
 ```
 
-### Run the web container and start bash shell
-
-```
-bin/dev bash
-```
-
 ### Run the web container and start the Jekyll server
 
 ```
 bin/dev up
 ```
 
+### Run the web container and generate the Microsite
+
+```
+bin/dev publish
+```
+
+### Run the web container and start bash shell
+
+```
+bin/dev bash
+```
+
 ### Enter the running web container from a new terminal
 
 ```
 bin/dev enter
-```
-
-### Shortcut for `site/makeMicroSite` to regen after a change
-
-```
-bin/dev make
 ```
 
 ### Run the Jekyll server from within the container
