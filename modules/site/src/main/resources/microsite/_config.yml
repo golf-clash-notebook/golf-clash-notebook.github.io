@@ -274,6 +274,13 @@ page_gen:
     dir: 'courses/DrumoreLinks'
     extra:
       title-prefix: 'Drumore Links - Hole '
+  - index_files: true
+    data: 'courses.DreadedDunes.holes'
+    template: '_includes/courses/hole-template.liquid'
+    name: 'number'
+    dir: 'courses/DreadedDunes'
+    extra:
+      title-prefix: 'Dreaded Dunes - Hole '
 
   ##### Tournament Holes #####
 
@@ -789,3 +796,19 @@ page_gen:
     extra:
       title-prefix: 'Monster Marsh - Hole '
       tournamentName: 'Monster Marsh'
+  - index_files: true
+    data: 'tournaments.DreadedDunes.holes'
+    template: '_includes/tournaments/hole-template.liquid'
+    name: 'number'
+    dir: 'tournaments/DreadedDunes'
+    extra:
+      title-prefix: 'Dreaded Dunes - Hole '
+      tournamentName: 'Dreaded Dunes'
+  - index_files: true
+    data: 'tournaments.EastCoast.holes'
+    template: '_includes/tournaments/hole-template.liquid'
+    name: 'number'
+    dir: 'tournaments/EastCoast'
+    extra:
+      title-prefix: 'East Coast - Hole '
+      tournamentName: 'East Coast'

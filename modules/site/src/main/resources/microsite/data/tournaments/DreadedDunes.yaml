@@ -1,0 +1,36 @@
+tournamentName: Dreaded Dunes
+date: '2019-10-28'
+resourceCreators:
+  - name: Golf Clash Tommy
+    resources:
+    - title: Rookie Playthrough
+      url: https://youtu.be/TLRC129BOXk
+    - title: Pro Playthrough
+      url: https://youtu.be/wio8XOLUF90
+    - title: Expert Playthrough
+      url: https://youtu.be/J6Hr1e7qJUE
+    - title: Text Guide
+      url: https://imgur.com/a/GCdqZ8t
+  - name: Jesse Both
+    resources:
+    - title: Tournament Overview
+      url: https://youtu.be/iYTxRvFN3LA
+holes:
+  - number: 1
+    id: cb27f4ce-4697-40b7-84b0-3ef608d9fd6a
+  - number: 2
+    id: 1ec42c7b-8454-463f-af67-d8b9fb49d220
+  - number: 3
+    id: 0ffd03bd-d92e-4989-9157-f09c0ba45d00
+  - number: 4
+    id: af01117e-00fd-4201-a37f-dd453a4cb15a
+  - number: 5
+    id: 043e5e17-ac45-49d4-8c68-3fb0aaa4bf52
+  - number: 6
+    id: afb1d793-b9c4-4d61-8b8e-d7dd05daf61c
+  - number: 7
+    id: 50100635-7e30-45da-a95b-eb3c1796b495
+  - number: 8
+    id: 9a8e84ab-870d-49ea-afc3-cb8daeeeebf1
+  - number: 9
+    id: 8fb976b7-4a35-4618-914b-1809f34c735c

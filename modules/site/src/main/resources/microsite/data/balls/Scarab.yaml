@@ -1,0 +1,9 @@
+name: Scarab
+windResistance: 4
+sideSpin: 2
+power: 2
+cost: n/a
+description: >
+  High wind resistance and moderate extra power and sidespin.
+  **UNCONFIRMED NEEDLE SPEED**
+needleSpeed: 0.750
