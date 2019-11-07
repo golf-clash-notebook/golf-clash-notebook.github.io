@@ -804,3 +804,11 @@ page_gen:
     extra:
       title-prefix: 'Dreaded Dunes - Hole '
       tournamentName: 'Dreaded Dunes'
+  - index_files: true
+    data: 'tournaments.EastCoast.holes'
+    template: '_includes/tournaments/hole-template.liquid'
+    name: 'number'
+    dir: 'tournaments/EastCoast'
+    extra:
+      title-prefix: 'East Coast - Hole '
+      tournamentName: 'East Coast'

@@ -1,0 +1,21 @@
+tournamentName: East Coast
+date: '2019-11-11'
+holes:
+  - number: 1
+    id: 6981cb76-96b7-4704-bf2d-9cff4254681d
+  - number: 2
+    id: 8b2a0801-dd19-4d25-a7e1-d7503c8fc7ae
+  - number: 3
+    id: 42b1a784-4b07-48c0-af08-0adb081a5d1d
+  - number: 4
+    id: 712d5ce0-7104-4c8b-a1dc-ce2a4e00d65c
+  - number: 5
+    id: f8596eb9-9b31-46c8-824d-da908b6ec621
+  - number: 6
+    id: b52a8bb1-2cb2-4de9-8e82-a02d180d7d54
+  - number: 7
+    id: da61ce03-5e0f-47ed-844c-f5a98c55f846
+  - number: 8
+    id: 16fb8928-e633-4973-b861-ab45323ebcdf
+  - number: 9
+    id: 06c3aa56-5bd2-45dc-bb0f-37985aff93ad
