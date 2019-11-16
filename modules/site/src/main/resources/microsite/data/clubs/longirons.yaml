@@ -20,12 +20,12 @@
     The lack of distance means that by the time you manage to max it and make it a mediocre club,
     you will definitely have better option available. The only time you should be playing with the
     Grim Reaper is if your only other option is the Beginner Long Iron.
-  power:     [115, 115, 115, 115, 115, 116, 116]
+  power:     [125, 125, 125, 125, 125, 126, 126]
   accuracy:  [ 30,  30,  42,  60,  60,  60,  81]
   topspin:   [  0,  12,  12,  12,  12,  12,  28]
   backspin:  [ 40,  40,  58,  70,  83, 100, 100]
   curl:      [ 60,  66,  66,  72,  91,  91,  98]
-  ballguide: [2.0, 2.6, 2.8, 2.8, 3.0, 3.4, 3.4]
+  ballguide: [2.4, 3.0, 3.2, 3.2, 3.4, 3.8, 3.8]
 - id: 080553ad-16b8-44ff-a00b-b43014173ce8
   name: The Backbone
   category: LongIrons
@@ -99,11 +99,11 @@
     measure up to what you'll probably have available once you unlock it. Chances are you won't
     really use this one since it's a rare and will take a bit of time to become relevant.
   power:     [122, 122, 122, 122, 122, 126, 126, 126]
-  accuracy:  [ 73,  73,  73,  73,  90,  90,  90,  90]
-  topspin:   [  0,  18,  18,  18,  18,  18,  18,  18]
-  backspin:  [ 20,  20,  36,  36,  36,  36,  36,  55]
-  curl:      [ 45,  45,  45,  62,  62,  62,  62,  62]
-  ballguide: [3.0, 3.0, 3.0, 3.0, 3.0, 3.0, 3.6, 3.6]
+  accuracy:  [ 73,  73,  73,  73,  90,  90,  90, 100]
+  topspin:   [  0,  18,  18,  18,  18,  18,  18,  46]
+  backspin:  [ 20,  20,  36,  36,  36,  36,  36,  64]
+  curl:      [ 45,  45,  45,  62,  62,  62,  62, 100]
+  ballguide: [3.0, 3.0, 3.0, 3.0, 3.0, 3.0, 3.6, 4.4]
 - id: 4624292f-f30e-4dfd-9b57-0effaa644b83
   name: The Tsunami
   category: LongIrons

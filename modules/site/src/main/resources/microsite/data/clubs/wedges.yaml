@@ -38,9 +38,9 @@
     it stops at the cup and you can avoid having to make any big adjustments for the wind. The
     accuracy is pretty low though so you'll still need to hit perfect shots to make it work.
   power:     [ 35,  35,  37,  37,  37,  38,  38]
-  accuracy:  [ 30,  30,  39,  39,  44,  44,  61]
+  accuracy:  [ 39,  39,  48,  48,  53,  53,  70]
   topspin:   [ 72,  72,  72,  81, 100, 100, 100]
-  backspin:  [  5,  15,  15,  15,  27,  45,  51]
+  backspin:  [ 15,  25,  25,  25,  37,  55,  61]
   curl:      [ 20,  29,  29,  61,  61,  83,  83]
   ballguide: [3.2, 3.6, 3.8, 4.1, 4.1, 4.1, 4.5]
 - id: 297ad32b-4d67-42ad-bdb0-eaf8fbfc0e6c
@@ -52,11 +52,11 @@
     Arguably the worst club in the game. Not the worst wedge...the worst club. So if you were
     thinking about using this club, save yourself some agony and don't.
   power:     [ 39,  41,  41,  42,  42,  44,  45]
-  accuracy:  [  0,   0,   9,   9,  25,  25,  41]
-  topspin:   [ 10,  10,  10,  27,  27,  37,  37]
+  accuracy:  [ 45,  45,  54,  54,  70,  70,  86]
+  topspin:   [ 20,  20,  20,  37,  37,  47,  47]
   backspin:  [ 79,  79,  95,  95, 100, 100, 100]
   curl:      [ 64,  83,  83,  83, 100, 100, 100]
-  ballguide: [1.9, 2.1, 2.2, 2.7, 2.7, 3.3, 3.6]
+  ballguide: [2.2, 2.4, 2.5, 3.0, 3.0, 3.6, 3.9]
 - id: 23e3d2e9-a24b-46e7-9279-2a7903f45bf0
   name: The DownInOne
   category: Wedges
