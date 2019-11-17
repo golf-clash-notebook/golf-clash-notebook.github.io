@@ -53,7 +53,7 @@
     thinking about using this club, save yourself some agony and don't.
   power:     [ 39,  41,  41,  42,  42,  44,  45]
   accuracy:  [ 45,  45,  54,  54,  70,  70,  86]
-  topspin:   [ 20,  20,  20,  37,  37,  47,  47]
+  topspin:   [ 30,  30,  30,  47,  47,  57,  57]
   backspin:  [ 79,  79,  95,  95, 100, 100, 100]
   curl:      [ 64,  83,  83,  83, 100, 100, 100]
   ballguide: [2.2, 2.4, 2.5, 3.0, 3.0, 3.6, 3.9]
