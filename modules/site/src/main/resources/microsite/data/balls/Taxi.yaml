@@ -1,0 +1,10 @@
+name: Taxi
+windResistance: 2
+sideSpin: 3
+power: 4
+cost: n/a
+description: >
+  First introduced just before the Fall Major of 2019. The Taxi is a 
+  Fireworks ball without all the ... fireworks. Which is to say, no cool
+  animations.
+needleSpeed: 1.20

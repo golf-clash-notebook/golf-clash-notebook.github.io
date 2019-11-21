@@ -804,3 +804,19 @@ page_gen:
     extra:
       title-prefix: 'Dreaded Dunes - Hole '
       tournamentName: 'Dreaded Dunes'
+  - index_files: true
+    data: 'tournaments.EastCoast.holes'
+    template: '_includes/tournaments/hole-template.liquid'
+    name: 'number'
+    dir: 'tournaments/EastCoast'
+    extra:
+      title-prefix: 'East Coast - Hole '
+      tournamentName: 'East Coast'
+  - index_files: true
+    data: 'tournaments.FallMajor2019.holes'
+    template: '_includes/tournaments/hole-template.liquid'
+    name: 'number'
+    dir: 'tournaments/FallMajor2019'
+    extra:
+      title-prefix: 'Fall Major 2019 - Hole '
+      tournamentName: 'Fall Major 2019'
