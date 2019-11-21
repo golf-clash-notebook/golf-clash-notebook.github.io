@@ -37,12 +37,12 @@
     guide, which are pretty effective when used together. Max your topspin and line up your shot so
     it stops at the cup and you can avoid having to make any big adjustments for the wind. The
     accuracy is pretty low though so you'll still need to hit perfect shots to make it work.
-  power:     [ 35,  35,  37,  37,  37,  38,  38]
-  accuracy:  [ 39,  39,  48,  48,  53,  53,  70]
-  topspin:   [ 72,  72,  72,  81, 100, 100, 100]
-  backspin:  [ 15,  25,  25,  25,  37,  55,  61]
-  curl:      [ 20,  29,  29,  61,  61,  83,  83]
-  ballguide: [3.2, 3.6, 3.8, 4.1, 4.1, 4.1, 4.5]
+  power:     [ 35,  35,  37,  37,  37,  38,  38, 39]
+  accuracy:  [ 39,  39,  48,  48,  53,  53,  70, 90]
+  topspin:   [ 72,  72,  72,  81, 100, 100, 100, 100]
+  backspin:  [ 15,  25,  25,  25,  37,  55,  61, 75]
+  curl:      [ 20,  29,  29,  61,  61,  83,  83, 85]
+  ballguide: [3.2, 3.6, 3.8, 4.1, 4.1, 4.1, 4.5, 4.5]
 - id: 297ad32b-4d67-42ad-bdb0-eaf8fbfc0e6c
   name: The Boomerang
   category: Wedges
@@ -51,12 +51,12 @@
   description: >
     Arguably the worst club in the game. Not the worst wedge...the worst club. So if you were
     thinking about using this club, save yourself some agony and don't.
-  power:     [ 39,  41,  41,  42,  42,  44,  45]
-  accuracy:  [ 45,  45,  54,  54,  70,  70,  86]
-  topspin:   [ 30,  30,  30,  47,  47,  57,  57]
-  backspin:  [ 79,  79,  95,  95, 100, 100, 100]
-  curl:      [ 64,  83,  83,  83, 100, 100, 100]
-  ballguide: [2.2, 2.4, 2.5, 3.0, 3.0, 3.6, 3.9]
+  power:     [ 39,  41,  41,  42,  42,  44,  45, 45]
+  accuracy:  [ 45,  45,  54,  54,  70,  70,  86, 98]
+  topspin:   [ 30,  30,  30,  47,  47,  57,  57, 60]
+  backspin:  [ 79,  79,  95,  95, 100, 100, 100, 100]
+  curl:      [ 64,  83,  83,  83, 100, 100, 100, 100]
+  ballguide: [2.2, 2.4, 2.5, 3.0, 3.0, 3.6, 3.9, 4.2]
 - id: 23e3d2e9-a24b-46e7-9279-2a7903f45bf0
   name: The DownInOne
   category: Wedges
@@ -67,12 +67,12 @@
     It <em>could</em> be useful for a situational tournament hole where you <strong>know</strong>
     where you might miss the green and dunking is the best option. Outside of that very rare case,
     this one can be ignored.
-  power:     [ 41,  43,  44,  44,  44,  44,  44,  44]
-  accuracy:  [ 80,  80,  89,  89, 100, 100, 100, 100]
-  topspin:   [  0,  15,  15,  39,  55,  63,  89, 100]
-  backspin:  [  0,   0,  15,  15,  20,  36,  47,  64]
-  curl:      [ 45,  54,  54,  64,  64,  84,  84,  94]
-  ballguide: [1.0, 1.0, 1.0, 1.3, 1.3, 1.3, 1.5, 1.5]
+  power:     [ 41,  43,  44,  44,  44,  44,  44,  44, 45]
+  accuracy:  [ 80,  80,  89,  89, 100, 100, 100, 100, 100]
+  topspin:   [  0,  15,  15,  39,  55,  63,  89, 100, 100]
+  backspin:  [  0,   0,  15,  15,  20,  36,  47,  64, 100]
+  curl:      [ 45,  54,  54,  64,  64,  84,  84,  94, 100]
+  ballguide: [1.0, 1.0, 1.0, 1.3, 1.3, 1.3, 1.5, 1.5, 1.5]
 - id: 6943e11b-22d8-48f2-963c-03a8f92c15ab
   name: The Skewer
   category: Wedges
@@ -101,12 +101,12 @@
     downside this club has is the amount of spin it has (at least until you hit level 6 & 7). So
     if you prefer the bump and run, go with The Rapier and if you'd rather float it in with deadly
     precision, The Endbringer is for you.
-  power:     [ 39,  41,  41,  43,  43,  44,  44]
-  accuracy:  [ 70,  70,  79,  79,  95,  95, 100]
-  topspin:   [ 30,  30,  38,  38,  56,  56,  85]
-  backspin:  [ 20,  25,  25,  36,  36,  54,  54]
-  curl:      [ 17,  45,  45,  56,  56,  79, 100]
-  ballguide: [3.6, 3.6, 4.0, 4.0, 4.2, 4.2, 4.2]
+  power:     [ 39,  41,  41,  43,  43,  44,  44, 44]
+  accuracy:  [ 70,  70,  79,  79,  95,  95, 100, 100]
+  topspin:   [ 30,  30,  38,  38,  56,  56,  85, 100]
+  backspin:  [ 20,  25,  25,  36,  36,  54,  54, 65]
+  curl:      [ 17,  45,  45,  56,  56,  79, 100, 100]
+  ballguide: [3.6, 3.6, 4.0, 4.0, 4.2, 4.2, 4.2, 4.3]
 - id: 8e7a4667-ba23-415a-853c-ec0fa474c70f
   name: The Rapier
   category: Wedges
@@ -116,12 +116,12 @@
     Between The Endbringer and Rapier you have two very good clubs that will net you a lot of
     chip ins. If you're not using one of the two (save a maxed out Firefly), chances are you're
     using the wrong club. Use this club to stay under the wind and run the shot in for your eagle.
-  power:     [ 38,  38,  38,  38,  40,  40,  42,  42]
-  accuracy:  [ 45,  54,  58,  58,  63,  72,  87,  87]
-  topspin:   [ 49,  71,  71,  87,  87,  95,  95, 100]
-  backspin:  [ 60,  60,  70,  75,  75,  91,  91, 100]
-  curl:      [ 50,  50,  50,  79,  79,  79,  79,  79]
-  ballguide: [2.7, 2.8, 3.2, 3.2, 3.6, 3.6, 3.7, 4.2]
+  power:     [ 38,  38,  38,  38,  40,  40,  42,  42, 42]
+  accuracy:  [ 45,  54,  58,  58,  63,  72,  87,  87, 95]
+  topspin:   [ 49,  71,  71,  87,  87,  95,  95, 100, 100]
+  backspin:  [ 60,  60,  70,  75,  75,  91,  91, 100, 100]
+  curl:      [ 50,  50,  50,  79,  79,  79,  79,  79, 100]
+  ballguide: [2.7, 2.8, 3.2, 3.2, 3.6, 3.6, 3.7, 4.2, 4.2]
 - id: a5351dd9-63d3-45d6-a019-42aca9fde628
   name: Golden Wedge
   category: Wedges
