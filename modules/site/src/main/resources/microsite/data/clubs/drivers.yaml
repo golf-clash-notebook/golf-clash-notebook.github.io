@@ -56,11 +56,11 @@
     in a tournament where there's a wide open fairway. The accuracy is awful and the carry distance
     makes it unusable for plenty of holes. Stash this one away and give your Extra Mile a hug.
   power:     [205, 209, 209, 217, 217, 219, 225]
-  accuracy:  [  0,   0,  15,  15,  24,  41,  41]
+  accuracy:  [ 10,  10,  25,  25,  34,  51,  51]
   topspin:   [100, 100, 100, 100, 100, 100, 100]
   backspin:  [  0,   0,  10,  10,  43,  43,  54]
   curl:      [ 33,  38,  54,  65,  65,  83,  83]
-  ballguide: [1.2, 1.9, 1.9, 2.2, 2.7, 2.7, 3.6]
+  ballguide: [1.6, 2.3, 2.3, 2.6, 3.1, 3.1, 4.0]
 - id: f9864188-8806-40e8-9193-37f5cf42a201
   name: The Quarterback
   category: Drivers
@@ -87,7 +87,7 @@
     This is a similar club to The Quarterback but with even less spin. You'll get a little more
     distance and ball guide which can be helpful for precision drives in some tournament holes. For
     the most part though, this one probably won't see any action in your day to day.
-  power:     [210, 210, 210, 217, 217, 221, 221, 226]
+  power:     [215, 215, 215, 222, 222, 226, 226, 231]
   accuracy:  [ 65,  65,  86,  86,  94,  94, 100, 100]
   topspin:   [  0,  10,  10,  10,  20,  25,  42,  47]
   backspin:  [  0,   0,   9,  28,  28,  59,  59,  59]
