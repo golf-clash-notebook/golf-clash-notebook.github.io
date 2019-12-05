@@ -20,12 +20,12 @@
     Not a great club to start and because it's an epic, it's more than likely you'll never want to
     play this one. And by the time you manage to max it out, there will be a lot of other clubs
     that will be better.
-  power:     [ 84,  84,  95,  95, 103, 103, 108]
-  accuracy:  [ 25,  39,  39,  47,  47,  47,  66]
-  topspin:   [ 15,  21,  21,  39,  39,  52,  52]
-  backspin:  [ 55,  55,  55,  68,  68,  68,  91]
-  curl:      [ 35,  35,  51,  51,  78,  88,  88]
-  ballguide: [2.0, 2.6, 2.8, 2.8, 3.0, 3.6, 3.6]
+  power:     [ 84,  84,  95,  95, 103, 103, 108, 116]
+  accuracy:  [ 25,  39,  39,  47,  47,  47,  66,  68]
+  topspin:   [ 15,  21,  21,  39,  39,  52,  52,  75]
+  backspin:  [ 55,  55,  55,  68,  68,  68,  91,  91]
+  curl:      [ 35,  35,  51,  51,  78,  88,  88,  93]
+  ballguide: [2.0, 2.6, 2.8, 2.8, 3.0, 3.6, 3.6, 4.0]
 - id: 0118f351-74ef-4a6d-b457-0e6896dd51b7
   name: The Desert Storm
   category: SandWedges
@@ -51,12 +51,12 @@
     95% of your games. The distance isn't great but the accuracy makes it very good at getting you
     out of trouble around the green and the ball guide is hard to argue with. Lack of spin can be
     frustrating at times but overall you'll like it more than you hate it.
-  power:     [ 84,  84,  94,  94, 101, 101, 109, 109]
-  accuracy:  [ 60,  81,  81,  88,  88,  96,  96, 100]
-  topspin:   [  0,  11,  11,  11,  28,  28,  28,  28]
-  backspin:  [  0,   0,  12,  12,  18,  31,  52,  52]
-  curl:      [ 10,  10,  18,  41,  41,  41,  50,  76]
-  ballguide: [2.9, 3.1, 3.1, 3.5, 3.5, 4.0, 4.0, 4.5]
+  power:     [ 84,  84,  94,  94, 101, 101, 109, 109, 109]
+  accuracy:  [ 60,  81,  81,  88,  88,  96,  96, 100, 100]
+  topspin:   [  0,  11,  11,  11,  28,  28,  28,  28,  30]
+  backspin:  [  0,   0,  12,  12,  18,  31,  52,  52,  60]
+  curl:      [ 10,  10,  18,  41,  41,  41,  50,  76,  80]
+  ballguide: [2.9, 3.1, 3.1, 3.5, 3.5, 4.0, 4.0, 4.5, 4.5]
 - id: fec82921-1521-457e-8695-02bc11f0e694
   name: The Sahara
   category: SandWedges
@@ -66,12 +66,12 @@
     Given how fast the needle moves when you're in the sand, accuracy is a real import stat. The
     Sahara has very little of it so this is not a popular club. The distance looks nice but more
     often than not, you'll want the accuracy instead.
-  power:     [ 96,  96, 107, 107, 115, 115, 120]
-  accuracy:  [ 15,  15,  15,  31,  31,  57,  57]
-  topspin:   [ 70,  81,  81,  81, 100, 100, 100]
-  backspin:  [ 42,  42,  42,  62,  62,  77,  77]
-  curl:      [ 60,  83,  92,  92,  92,  92, 100]
-  ballguide: [2.3, 2.5, 2.9, 3.1, 3.3, 3.5, 4.2]
+  power:     [ 96,  96, 107, 107, 115, 115, 120, 120]
+  accuracy:  [ 15,  15,  15,  31,  31,  57,  57,  75]
+  topspin:   [ 70,  81,  81,  81, 100, 100, 100, 100]
+  backspin:  [ 42,  42,  42,  62,  62,  77,  77,  82]
+  curl:      [ 60,  83,  92,  92,  92,  92, 100, 100]
+  ballguide: [2.3, 2.5, 2.9, 3.1, 3.3, 3.5, 4.2, 4.5]
 - id: d0265b86-39e9-4d65-b682-d500e807b7d2
   name: The Sand Lizard
   category: SandWedges
@@ -96,12 +96,12 @@
     Not a good choice. Even maxed out, this epic only sports accuracy of 69. At that point your
     Malibu will almost certainly be a better club. Back spin is not useful for a sand wedge so
     unlock it and move along.
-  power:     [ 80,  80,  80,  91,  91,  91,  98,  98]
-  accuracy:  [ 10,  10,  17,  24,  47,  62,  62,  79]
-  topspin:   [  0,  16,  27,  27,  33,  39,  45,  63]
-  backspin:  [100, 100, 100, 100, 100, 100, 100, 100]
-  curl:      [ 47,  62,  62,  78,  78, 100, 100, 100]
-  ballguide: [2.7, 2.8, 3.4, 3.4, 3.8, 3.8, 4.4, 4.6]
+  power:     [ 80,  80,  80,  91,  91,  91,  98,  98, 112]
+  accuracy:  [ 10,  10,  17,  24,  47,  62,  62,  79,  90]
+  topspin:   [  0,  16,  27,  27,  33,  39,  45,  63,  70]
+  backspin:  [100, 100, 100, 100, 100, 100, 100, 100, 100]
+  curl:      [ 47,  62,  62,  78,  78, 100, 100, 100, 100]
+  ballguide: [2.7, 2.8, 3.4, 3.4, 3.8, 3.8, 4.4, 4.6, 4.7]
 - id: 903b7e49-662c-497a-83cc-eb86649862de
   name: Spitfire
   category: SandWedges
@@ -112,9 +112,9 @@
     game. Until then, it will be a situational comparison between it and The Malibu as to which is
     better. Come tournament time, when a long hole has lots of bunker trouble along the fairway, it
     may be worth packing this club so you can still reach the green if you find the trap.
-  power:     [120, 120, 120, 120, 120, 120, 120]
-  accuracy:  [ 50,  50,  65,  65,  90, 100, 100]
-  topspin:   [ 70,  70,  88,  88,  94,  94, 100]
-  backspin:  [  0,   6,   6,  20,  20,  42,  57]
-  curl:      [ 50,  66,  66,  91,  91, 100, 100]
-  ballguide: [2.3, 2.9, 3.1, 3.3, 3.7, 3.7, 4.4]
+  power:     [120, 120, 120, 120, 120, 120, 120, 120]
+  accuracy:  [ 50,  50,  65,  65,  90, 100, 100, 100]
+  topspin:   [ 70,  70,  88,  88,  94,  94, 100, 100]
+  backspin:  [  0,   6,   6,  20,  20,  42,  57,  65]
+  curl:      [ 50,  66,  66,  91,  91, 100, 100, 100]
+  ballguide: [2.3, 2.9, 3.1, 3.3, 3.7, 3.7, 4.4, 4.5]
