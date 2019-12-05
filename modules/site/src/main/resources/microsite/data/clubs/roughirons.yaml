@@ -101,7 +101,7 @@
     option when you need to go deep. Unfortunately the accuracy can bite you in a green side
     situation.
   power:     [121, 131, 135, 135, 135, 135, 135, 135]
-  accuracy:  [ 25,  25,  40,  40,  65,  74,  92,  92]
+  accuracy:  [ 25,  25,  40,  40,  65,  74,  92, 100]
   topspin:   [ 75,  86,  86,  92, 100, 100, 100, 100]
   backspin:  [ 60,  60,  79,  79,  86, 100, 100, 100]
   curl:      [ 64,  64,  64,  80,  80,  80, 100, 100]
