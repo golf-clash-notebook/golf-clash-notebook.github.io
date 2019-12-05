@@ -20,12 +20,12 @@
     The Roughcutter is an okay way to start your long lived affair with the rough. While it really
     lacks distance, the accuracy is good enough to get you where you need to be and knock in a few
     shots around the green.
-  power:     [ 75,  78,  78,  88,  88,  92,  92, 103]
-  accuracy:  [ 70,  70,  84,  84, 100, 100, 100, 100]
-  topspin:   [  0,  11,  11,  16,  16,  34,  34,  47]
-  backspin:  [  0,   0,   0,   0,   6,   6,  20,  20]
-  curl:      [ 15,  15,  36,  36,  51,  51,  59,  59]
-  ballguide: [1.3, 1.9, 2.0, 2.4, 2.4, 2.8, 3.4, 3.6]
+  power:     [ 75,  78,  78,  88,  88,  92,  92, 103, 112]
+  accuracy:  [ 70,  70,  84,  84, 100, 100, 100, 100, 100]
+  topspin:   [  0,  11,  11,  16,  16,  34,  34,  47,  65]
+  backspin:  [  0,   0,   0,   0,   6,   6,  20,  20,  30]
+  curl:      [ 15,  15,  36,  36,  51,  51,  59,  59,  70]
+  ballguide: [1.3, 1.9, 2.0, 2.4, 2.4, 2.8, 3.4, 3.6, 3.6]
 - id: 19baa92d-125c-4837-aa4b-6b33fc82eb6f
   name: The Junglist
   category: RoughIrons
@@ -36,12 +36,12 @@
     can quickly end up in the rough for your next shot too if you're not careful. Chances are that
     by the time you unlock this club, your Roughcutter will already be a few levels up and a better
     option.
-  power:     [ 97, 107, 107, 111, 111, 123, 123]
-  accuracy:  [ 20,  20,  35,  35,  35,  44,  71]
-  topspin:   [ 60,  60,  60,  60,  79,  79,  79]
-  backspin:  [ 30,  30,  36,  50,  57,  57,  72]
-  curl:      [ 60,  67,  90,  90, 100, 100, 100]
-  ballguide: [2.0, 2.4, 2.4, 3.0, 3.0, 3.4, 3.7]
+  power:     [ 97, 107, 107, 111, 111, 123, 123, 124]
+  accuracy:  [ 20,  20,  35,  35,  35,  44,  71,  80]
+  topspin:   [ 60,  60,  60,  60,  79,  79,  79, 100]
+  backspin:  [ 30,  30,  36,  50,  57,  57,  72,  95]
+  curl:      [ 60,  67,  90,  90, 100, 100, 100, 100]
+  ballguide: [2.0, 2.4, 2.4, 3.0, 3.0, 3.4, 3.7, 3.8]
 - id: db327b65-9f5c-4ad9-80f3-2ca867380527
   name: The Machete
   category: RoughIrons
@@ -68,12 +68,12 @@
     Roughcutter, you get a lot more distance at the cost of accuracy with a nice bump in ball guide,
     which may be all you need to get a few more chip ins. Definitely depends on how far along you
     are in the game whether this club will be useful to you.
-  power:     [108, 111, 111, 115, 127, 131, 131]
-  accuracy:  [ 40,  40,  63,  79,  79,  96,  96]
-  topspin:   [ 30,  47,  47,  47,  47,  47,  68]
-  backspin:  [ 45,  45,  58,  58,  72,  72,  87]
-  curl:      [ 30,  30,  30,  54,  54,  54,  54]
-  ballguide: [2.9, 3.2, 3.4, 3.4, 3.6, 4.3, 4.5]
+  power:     [108, 111, 111, 115, 127, 131, 131, 133]
+  accuracy:  [ 40,  40,  63,  79,  79,  96,  96,  98]
+  topspin:   [ 30,  47,  47,  47,  47,  47,  68,  85]
+  backspin:  [ 45,  45,  58,  58,  72,  72,  87,  90]
+  curl:      [ 30,  30,  30,  54,  54,  54,  54,  65]
+  ballguide: [2.9, 3.2, 3.4, 3.4, 3.6, 4.3, 4.5, 4.6]
 - id: 5b0b8e3c-eac0-486b-be54-3a7a7d32f3c1
   name: The Razor
   category: RoughIrons
@@ -84,12 +84,12 @@
     those two components, you have all you need to knock it in the hole from the rough. Just be
     aware of the limited spin you get early on. This is definitely a good choice at least until you
     can get The Nirvana.
-  power:     [ 97, 104, 104, 107, 107, 111, 121, 129]
-  accuracy:  [100, 100, 100, 100, 100, 100, 100, 100]
-  topspin:   [  0,   0,  11,  11,  28,  28,  34,  53]
-  backspin:  [ 10,  28,  28,  40,  46,  66,  66,  73]
-  curl:      [  0,   0,   7,  29,  44,  44,  60,  60]
-  ballguide: [3.1, 3.3, 3.8, 3.8, 3.8, 4.2, 4.2, 4.2]
+  power:     [ 97, 104, 104, 107, 107, 111, 121, 129, 131]
+  accuracy:  [100, 100, 100, 100, 100, 100, 100, 100, 100]
+  topspin:   [  0,   0,  11,  11,  28,  28,  34,  53,  55]
+  backspin:  [ 10,  28,  28,  40,  46,  66,  66,  73,  85]
+  curl:      [  0,   0,   7,  29,  44,  44,  60,  60,  70]
+  ballguide: [3.1, 3.3, 3.8, 3.8, 3.8, 4.2, 4.2, 4.2, 4.2]
 - id: 894145ab-d321-45a4-94b2-2490a140d249
   name: The Amazon
   category: RoughIrons
@@ -100,12 +100,12 @@
     You'll have plenty of distance from the start and the top spin gives it an edge over any other
     option when you need to go deep. Unfortunately the accuracy can bite you in a green side
     situation.
-  power:     [121, 131, 135, 135, 135, 135, 135]
-  accuracy:  [ 25,  25,  40,  40,  65,  74,  92]
-  topspin:   [ 75,  86,  86,  92, 100, 100, 100]
-  backspin:  [ 60,  60,  79,  79,  86, 100, 100]
-  curl:      [ 64,  64,  64,  80,  80,  80, 100]
-  ballguide: [1.0, 1.2, 1.2, 1.8, 1.8, 2.2, 2.5]
+  power:     [121, 131, 135, 135, 135, 135, 135, 135]
+  accuracy:  [ 25,  25,  40,  40,  65,  74,  92,  92]
+  topspin:   [ 75,  86,  86,  92, 100, 100, 100, 100]
+  backspin:  [ 60,  60,  79,  79,  86, 100, 100, 100]
+  curl:      [ 64,  64,  64,  80,  80,  80, 100, 100]
+  ballguide: [1.0, 1.2, 1.2, 1.8, 1.8, 2.2, 2.5, 3.0]
 - id: 07fd10d8-198c-4c9e-bfd0-cbef5647be70
   name: Nirvana
   category: RoughIrons
@@ -115,9 +115,9 @@
     This is the rough iron that you should be aiming to get and build up. At level 4, there's a good
     chance it'll be the best all around choice. At level 5, you'll get another big bump and it
     becomes a great club for going deep and taking on precision shots near the green.
-  power:     [112, 112, 112, 123, 123, 129, 129, 135]
-  accuracy:  [ 60,  60,  74,  74,  97,  97, 100, 100]
-  topspin:   [ 20,  36,  36,  42,  42,  59,  59,  59]
-  backspin:  [ 20,  20,  38,  38,  44,  44,  58,  65]
-  curl:      [ 40,  40,  40,  55,  55,  62,  62,  87]
-  ballguide: [2.9, 3.3, 3.5, 3.5, 3.9, 3.9, 4.5, 4.5]
+  power:     [112, 112, 112, 123, 123, 129, 129, 135, 135]
+  accuracy:  [ 60,  60,  74,  74,  97,  97, 100, 100, 100]
+  topspin:   [ 20,  36,  36,  42,  42,  59,  59,  59,  60]
+  backspin:  [ 20,  20,  38,  38,  44,  44,  58,  65,  70]
+  curl:      [ 40,  40,  40,  55,  55,  62,  62,  87,  98]
+  ballguide: [2.9, 3.3, 3.5, 3.5, 3.9, 3.9, 4.5, 4.5, 4.5]
