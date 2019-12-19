@@ -84,7 +84,7 @@
     a judgement call and your style of play that will decide if/when you switch from the Firefly.
     You'll get more accuracy and backspin with The Skewer but take a hit with the top spin and
     ball guide.
-  power:     [ 36,  36,  39,  39,  39,  39,  40,  42,  42,  42]
+  power:     [ 36,  36,  38,  39,  39,  39,  40,  42,  42,  42]
   accuracy:  [ 25,  29,  29,  41,  41,  50,  50,  58,  58,  71]
   topspin:   [ 25,  25,  25,  32,  32,  39,  39,  39,  62,  62]
   backspin:  [ 40,  49,  54,  54,  68,  68,  77,  77,  87,  87]
