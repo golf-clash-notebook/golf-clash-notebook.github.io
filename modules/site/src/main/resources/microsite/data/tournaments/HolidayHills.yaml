@@ -1,0 +1,22 @@
+tournamentName: Holiday Hills
+date: '2019-12-09'
+resourceCreators:
+holes:
+  - number: 1
+    id: 44801eb7-ea18-4361-b640-0b8009f6dfe1
+  - number: 2
+    id: a66b939d-cc14-4be4-833f-d97345d85690
+  - number: 3
+    id: 5d5a7c43-779c-41f5-ac7a-c282e5fec23b
+  - number: 4
+    id: 747aa53b-baa8-4b00-9062-124a689bda07
+  - number: 5
+    id: 6ea3d593-3acb-4552-821b-b784c19e0672
+  - number: 6
+    id: d77beb00-9da0-48f3-9c4e-3754ed7bdd16
+  - number: 7
+    id: 1934ced5-431b-40b5-81aa-1679803cf8a4
+  - number: 8
+    id: 92955dbf-72aa-4d34-af81-fc7c01635e83
+  - number: 9
+    id: e1bba1d6-c361-40fe-95ba-ece967a4a7fe

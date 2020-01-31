@@ -1,0 +1,22 @@
+tournamentName: Winter Major 2020
+date: '2020-02-17'
+resourceCreators:
+holes:
+  - number: 1
+    id: 891abee8-03ba-474a-8f41-fb866b65d3cd
+  - number: 2
+    id: b95a21e2-93df-4feb-9e4c-4d71cd158fe9
+  - number: 3
+    id: 20f0243c-7cc6-4813-8748-5f519b62ecf4
+  - number: 4
+    id: 1d9848d3-bb2b-45b5-bc8c-23d16a09786b
+  - number: 5
+    id: 800da01f-e698-42a5-90fe-8ec5a46ce0ed
+  - number: 6
+    id: 484fce1e-4653-4d66-896d-95a83ce26586
+  - number: 7
+    id: c1341293-bf24-4a03-ad83-0562c20e46bd
+  - number: 8
+    id: be228551-67e6-40d7-a599-8736193af98e
+  - number: 9
+    id: 483a64ef-89d1-4171-b454-905cc0ec1436

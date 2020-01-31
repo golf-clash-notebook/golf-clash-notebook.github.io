@@ -1,0 +1,93 @@
+courseName: Grunberg Slopes
+skinned: false
+holes:
+  - id: d8443f5d-dc77-4581-9be2-1f5e5d2708d1
+    course: Grunberg Slopes
+    number: 1
+    par: 4
+    replayName: "4"
+    description: >
+      Help Wanted
+    clubRecommendations:
+    clubSuggestions:
+    resourceCreators:
+  - id: d5801768-577e-4603-8194-79544024b2b4
+    course: Grunberg Slopes
+    number: 2
+    par: 5
+    replayName:  "5"
+    description: >
+      Help Wanted
+    clubRecommendations:
+    clubSuggestions:
+    resourceCreators:
+  - id: 837f52cf-9104-4d5c-99db-e60af59322ad
+    course: Grunberg Slopes
+    number: 3
+    par: 3
+    replayName:  "3"
+    description: >
+      Help Wanted
+    clubRecommendations:
+    clubSuggestions:
+    resourceCreators:
+  - id: 19a4a8a7-44be-469e-8e42-6a26c622552e
+    course: Grunberg Slopes
+    number: 4
+    par: 4
+    replayName:  "4B"
+    description: >
+      Help Wanted
+    clubRecommendations:
+    clubSuggestions:
+    resourceCreators:
+  - id: 6bde72b7-2339-45ae-a293-4a1db76820eb
+    course: Grunberg Slopes
+    number: 5
+    par: 3
+    replayName:  "3B"
+    description: >
+      Help Wanted
+    clubRecommendations:
+    clubSuggestions:
+    resourceCreators:
+  - id: f4c98a38-7311-4984-9ed2-6be9d8cd968a
+    course: Grunberg Slopes
+    number: 6
+    par: 5
+    replayName: "5B"
+    description: >
+      Help Wanted
+    clubRecommendations:
+    clubSuggestions:
+    resourceCreators:
+  - id: 04ae52b5-75f1-458f-a04e-41832b1adcde
+    course: Grunberg Slopes
+    number: 7
+    par: 3
+    replayName:  "3C"
+    description: >
+      Help Wanted
+    clubRecommendations:
+    clubSuggestions:
+    resourceCreators:
+  - id: ce744f8a-8314-4c82-9b91-522d2d929246
+    course: Grunberg Slopes
+    number: 8
+    par: 4
+    replayName:  "4C"
+    description: >
+      Help Wanted
+    clubRecommendations:
+    clubSuggestions:
+    resourceCreators:
+  - id: f5fc0a96-771a-4f01-836e-f244f609eaec
+    course: Grunberg Slopes
+    number: 9
+    par: 5
+    replayName: "5C"
+    description: >
+      Help Wanted
+    clubRecommendations:
+    clubSuggestions:
+    resourceCreators:

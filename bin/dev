@@ -22,9 +22,6 @@ case "$1" in
   enter)
     docker exec -it `docker ps | grep docker_$SERVICE | cut -f1 -d' '` /bin/bash
     ;;
-  make)
-    site/makeMicrosite
-    ;;
   server)
     bundle exec jekyll serve --host=0.0.0.0 -s modules/site/target/site
     ;;

@@ -76,9 +76,3 @@ bin/dev bash
 ```
 bin/dev enter
 ```
-
-### Run the Jekyll server from within the container
-
-```
-bin/dev server
-```
