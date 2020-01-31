@@ -1,0 +1,22 @@
+tournamentName: 3rd Anniversary
+date: '2020-01-20'
+resourceCreators:
+holes:
+  - number: 1
+    id: 8b2a0801-dd19-4d25-a7e1-d7503c8fc7ae
+  - number: 2
+    id: 6981cb76-96b7-4704-bf2d-9cff4254681d
+  - number: 3
+    id: a0d9b22c-70e6-43c4-8022-27387295e9c1
+  - number: 4
+    id: b4271a50-93a9-4ae2-a932-459c8b6b48f2
+  - number: 5
+    id: f8a2b943-a658-44ea-a7d9-1857f1232b0f
+  - number: 6
+    id: beee4898-f498-40ff-90c0-cbab8132b044
+  - number: 7
+    id: 0c051fa0-93b8-4f50-b573-cdbf584d93aa
+  - number: 8
+    id: e067e33a-b6e1-441d-bebb-d4cdee71422c
+  - number: 9
+    id: cd33a986-429f-4810-a789-83be08aaf5d6

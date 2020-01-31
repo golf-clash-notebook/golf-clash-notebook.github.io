@@ -1,0 +1,93 @@
+courseName: Shiruba Springs
+skinned: false
+holes:
+  - id: 891abee8-03ba-474a-8f41-fb866b65d3cd
+    course: Shiruba Springs
+    number: 1
+    par: 4
+    replayName: "4"
+    description: >
+      Help Wanted
+    clubRecommendations:
+    clubSuggestions:
+    resourceCreators:
+  - id: b95a21e2-93df-4feb-9e4c-4d71cd158fe9
+    course: Shiruba Springs
+    number: 2
+    par: 3
+    replayName:  "3"
+    description: >
+      Help Wanted
+    clubRecommendations:
+    clubSuggestions:
+    resourceCreators:
+  - id: 20f0243c-7cc6-4813-8748-5f519b62ecf4
+    course: Shiruba Springs
+    number: 3
+    par: 5
+    replayName:  "5"
+    description: >
+      Help Wanted
+    clubRecommendations:
+    clubSuggestions:
+    resourceCreators:
+  - id: 1d9848d3-bb2b-45b5-bc8c-23d16a09786b
+    course: Shiruba Springs
+    number: 4
+    par: 3
+    replayName:  "3B"
+    description: >
+      Help Wanted
+    clubRecommendations:
+    clubSuggestions:
+    resourceCreators:
+  - id: 800da01f-e698-42a5-90fe-8ec5a46ce0ed
+    course: Shiruba Springs
+    number: 5
+    par: 4
+    replayName:  "4B"
+    description: >
+      Help Wanted
+    clubRecommendations:
+    clubSuggestions:
+    resourceCreators:
+  - id: 484fce1e-4653-4d66-896d-95a83ce26586
+    course: Shiruba Springs
+    number: 6
+    par: 5
+    replayName: "5B"
+    description: >
+      Help Wanted
+    clubRecommendations:
+    clubSuggestions:
+    resourceCreators:
+  - id: c1341293-bf24-4a03-ad83-0562c20e46bd
+    course: Shiruba Springs
+    number: 7
+    par: 4
+    replayName:  "4C"
+    description: >
+      Help Wanted
+    clubRecommendations:
+    clubSuggestions:
+    resourceCreators:
+  - id: be228551-67e6-40d7-a599-8736193af98e
+    course: Shiruba Springs
+    number: 8
+    par: 3
+    replayName:  "3C"
+    description: >
+      Help Wanted
+    clubRecommendations:
+    clubSuggestions:
+    resourceCreators:
+  - id: 483a64ef-89d1-4171-b454-905cc0ec1436
+    course: Shiruba Springs
+    number: 9
+    par: 5
+    replayName: "5C"
+    description: >
+      Help Wanted
+    clubRecommendations:
+    clubSuggestions:
+    resourceCreators:

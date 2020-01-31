@@ -1,0 +1,22 @@
+tournamentName: Pacific Cup
+date: '2020-01-06'
+resourceCreators:
+holes:
+  - number: 1
+    id: 833ca5f4-813c-4b4c-8194-fd508a6611c6
+  - number: 2
+    id: eed54e8e-e583-4084-9fb4-d4cb1e32defb
+  - number: 3
+    id: 0a16e868-16e8-46c2-9296-f247d6958180
+  - number: 4
+    id: 4497006f-c69a-4cfe-a9c4-3524b8d714dd
+  - number: 5
+    id: 2fc4b78d-d347-4708-86f3-c79eb1d5a331
+  - number: 6
+    id: 607ca95c-57f4-4f6c-9836-3b63d14effff
+  - number: 7
+    id: 3e3986fa-be14-4521-932c-dc005a19549a
+  - number: 8
+    id: 7777d535-cb89-4d83-b8a7-831cc61fbc66
+  - number: 9
+    id: 426860dc-c5e0-4f21-8803-d5d33264eba6
