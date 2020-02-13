@@ -1,0 +1,66 @@
+courseName: Shiruba Springs
+skinned: false
+holes:
+  - id: 19285dfc-145f-432b-a438-726d416b05b5
+    course: Shiruba Springs
+    number: 1
+    par: 4
+    replayName: "4"
+    description: >
+      Help Wanted
+  - id: 9c44e460-bfc9-4564-822e-d201b6341ddd
+    course: Shiruba Springs
+    number: 2
+    par: 3
+    replayName: "3"
+    description: >
+      Help Wanted
+  - id: 33beffeb-4211-44db-821c-cfbe6475e6ac
+    course: Shiruba Springs
+    number: 3
+    par: 5
+    replayName: "5"
+    description: >
+      Help Wanted
+  - id: ebf46898-2c44-4186-b21f-27fd4d80b2d3
+    course: Shiruba Springs
+    number: 4
+    par: 3
+    replayName: "3B"
+    description: >
+      Help Wanted
+  - id: af694cc4-835f-4d9a-86f1-c5ffaa65a3c3
+    course: Shiruba Springs
+    number: 5
+    par: 4
+    replayName: "4B"
+    description: >
+      Help Wanted
+  - id: 9c44e460-bfc9-4564-822e-d201b6341ddd
+    course: Shiruba Springs
+    number: 6
+    par: 5
+    replayName: "5B"
+    description: >
+      Help Wanted
+  - id: b0a50a3f-e3bb-4c02-af40-5ce2eaf9a548
+    course: Shiruba Springs
+    number: 7
+    par: 4
+    replayName: "4C"
+    description: >
+      Help Wanted
+  - id: 05d55a89-8bb6-4996-99d3-b4d958a932ed
+    course: Shiruba Springs
+    number: 8
+    par: 3
+    replayName: "3C"
+    description: >
+      Help Wanted
+  - id: eb6b32b0-5dae-4499-af3d-e035e29a30d1
+    course: Shiruba Springs
+    number: 9
+    par: 5
+    replayName: "5C"
+    description: >
+      Help Wanted

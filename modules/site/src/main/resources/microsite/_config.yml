@@ -281,6 +281,13 @@ page_gen:
     dir: 'courses/DreadedDunes'
     extra:
       title-prefix: 'Dreaded Dunes - Hole '
+  - index_files: true
+    data: 'courses.ShirubaSprings.holes'
+    template: '_includes/courses/hole-template.liquid'
+    name: 'number'
+    dir: 'courses/ShirubaSprings'
+    extra:
+      title-prefix: 'Shiruba Springs - Hole '
 
   ##### Tournament Holes #####
 
@@ -820,3 +827,11 @@ page_gen:
     extra:
       title-prefix: 'Fall Major 2019 - Hole '
       tournamentName: 'Fall Major 2019'
+  - index_files: true
+    data: 'tournaments.WinterMajor2020.holes'
+    template: '_includes/tournaments/hole-template.liquid'
+    name: 'number'
+    dir: 'tournaments/WinterMajor2020'
+    extra:
+      title-prefix: 'Winter Major 2020 - Hole '
+      tournamentName: 'Winter Major 2020'
