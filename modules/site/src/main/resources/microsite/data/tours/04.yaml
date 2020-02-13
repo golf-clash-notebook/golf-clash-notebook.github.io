@@ -2,8 +2,7 @@ number: 4
 tourName: 6 Star Hotel
 courses:
   - name: The Milano
-  - name: The Oasis
-  - name: Sunshine Glades
+  - name: Parc de Paris
 description: >
   Help Wanted
 resources:
