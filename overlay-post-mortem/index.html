@@ -1,0 +1,2973 @@
+<!doctype html>
+<html lang="en" dir="ltr">
+
+  <head>
+
+    
+      <title>Overlay Post Mortem - Golf Clash Notebook</title>
+    
+
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="golf-clash-notebook">
+    <meta name="theme-color" content="#4caf50"/>
+
+    <meta name="description" content="An Open Source Guide to Mastering Golf Clash">
+
+    <meta property="og:image" content="https://golfclashnotebook.io/img/twitter/summary-large.png">
+    <meta property="og:title" content="Golf Clash Notebook">
+    <meta property="og:site_name" content="Golf Clash Notebook">
+    <meta property="og:url" content="https://golfclashnotebook.io">
+    <meta property="og:type" content="website">
+    <meta property="og:description" content="An Open Source Guide to Mastering Golf Clash">
+
+    <link rel="icon" type="image/png" href="/img/favicon.png">
+
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Golf Clash Notebook">
+    <meta name="twitter:image" content="https://golfclashnotebook.io/img/twitter/summary-144.png">
+    <meta name="twitter:description" content="An Open Source Guide to Mastering Golf Clash">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-slider/10.0.0/css/bootstrap-slider.min.css">
+
+    <!-- Our styles -->
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/gcn-styles.css">
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Mono">
+
+    <!-- Structured data - Google Search -->
+    <script type="application/ld+json">
+    {
+      "@context": "http://schema.org",
+      "@type": "Organization",
+      "url": "https://golfclashnotebook.io/",
+      "name": "Golf Clash Notebook",
+      "logo": "https://golfclashnotebook.io/img/favicon.png"
+    }
+    </script>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-110417967-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-110417967-1');
+    </script>
+
+  </head>
+
+  <body>
+
+    
+      <header id="site-header">
+  <div class="navbar-wrapper">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-6 col-xs-3">
+          <a href="/" class="brand">
+            <div class="icon-wrapper"><span>Golf Clash Notebook</span></div>
+          </a>
+        </div>
+        <div class="col-sm-6 col-xs-9">
+          <ul class="nav navbar-nav navbar-right text-right">
+            <li id="login-btn" class="hidden">
+              <a role="button" class="nav-link" data-toggle="modal" data-target="#sign-in-modal">
+                <i class="fas fa-sign-in-alt text-extra-large"></i>
+                <span>Sign In</span>
+              </a>
+            </li>
+            <li id="logged-in-menu" class="dropdown hidden">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                <img id="username-photo-img" class="img-circle hidden">
+                <span id="username-menu-item">User</span>
+                <i class="fas fa-caret-down"></i>
+              </a>
+              <ul class="dropdown-menu">
+                <li role="separator" class="divider"></li>
+                <li>
+                  <a id="logout-btn" role="button" class="nav-link">
+                    <i class="fas fa-sign-out-alt text-extra-large"></i>
+                    <span>Sign Out</span>
+                  </a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="jumbotron">
+    <div class="container"></div>
+  </div>
+  <!-- Affix wrapper to avoid Bootstrap affix flickering -->
+  <div id="nav-affix-wrapper">
+    <div id="nav-container">
+      <button type="button" class="btn btn-link nav-scroll nav-scroll-left">
+        <i class="fas fa-chevron-left" aria-hidden="true"></i>
+      </button>
+      <ul class="horizontalNav">
+
+        
+
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+            <li>
+              <a class="" href="/">Home</a>
+            </li>
+          
+        
+          
+            <li>
+              <a class="" href="/tournaments/">Tournaments</a>
+            </li>
+          
+        
+          
+            <li>
+              <a class="" href="/tours/">Tours</a>
+            </li>
+          
+        
+          
+            <li>
+              <a class="" href="/courses/">Courses</a>
+            </li>
+          
+        
+          
+            <li>
+              <a class="" href="/clubs/">Clubs</a>
+            </li>
+          
+        
+          
+            <li>
+              <a class="" href="/balls/">Balls</a>
+            </li>
+          
+        
+          
+            <li>
+              <a class="" href="/chests/">Chests</a>
+            </li>
+          
+        
+          
+            <li>
+              <a class="" href="/divisions/">Divisions</a>
+            </li>
+          
+        
+          
+            <li>
+              <a class="" href="/wind/">Wind</a>
+            </li>
+          
+        
+          
+            <li>
+              <a class="" href="/tools/">Tools</a>
+            </li>
+          
+        
+          
+            <li>
+              <a class="" href="/powerslice/">Power Slice</a>
+            </li>
+          
+        
+          
+            <li>
+              <a class="" href="/faq/">FAQ</a>
+            </li>
+          
+        
+          
+            <li>
+              <a class="" href="/resources/">Resources</a>
+            </li>
+          
+        
+          
+            <li>
+              <a class="" href="/contributing/">Contributing</a>
+            </li>
+          
+        
+
+      </ul>
+      <button type="button" class="btn btn-link nav-scroll nav-scroll-right">
+        <i class="fas fa-chevron-right" aria-hidden="true"></i>
+      </button>
+    </div>
+  </div>
+</header>
+
+    
+
+    <main id="site-main">
+      <section class="use">
+        <div class="container">
+          <div id="content">
+            <h2 id="gcn-overlay-post-mortem">GCN Overlay Post Mortem</h2>
+<h5 id="27-apr-2019">27 APR 2019</h5>
+
+<p>I think an explanation is warranted for the overlay feature removal. I’ve seen a bit of false
+information and/or speculation being spread around the online community so this is my attempt to
+give you some facts on what happened and why it happened.</p>
+
+<h3 id="the-die-is-cast">The Die is Cast</h3>
+
+<p>Early this year, we were engaged by Playdemic [PD], the creators/maintainers of Golf Clash, to start
+a discussion on removing overlay capabilities from our Android and iOS apps in order to create a
+‘Safe and Fair’ gaming environment as they envisioned it. While we were not thrilled with the
+direction PD was choosing to steer the game, we were willing to work with them, as requested,
+to help provide input to arrive at the best possible solution for everyone involved, given the
+underlying goals set in place.</p>
+
+<p>Over the next few months, we exchanged dozens of emails ironing out specifics (or at least as
+specific as was allowed), on what capabilities were to be removed and the time frame for all of
+this to occur. After some back and forth, we reached an agreement on what the next few weeks
+leading up to the ban would/should look like.</p>
+
+<h3 id="rollout-fubar">Rollout FUBAR</h3>
+
+<p>This past week (22 APR through 26 APR), has seen that plan executed on our part, and subsequently
+burned to the ground by Playdemic. Bear in mind, this was an almost impossible situation to come
+out clean on the other end given perfect conditions, but the series of events that have unfolded
+have turned it into an exercise in futility.</p>
+
+<p>As a bit of background, here’s chronological list of relevant events.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Date</th>
+      <th>Event</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>31 JAN</td>
+      <td>Initial e-mail received about upcoming overlay ban.</td>
+    </tr>
+    <tr>
+      <td>07 MAR</td>
+      <td>Teleconference call w/ PD to discuss changes/timeline.</td>
+    </tr>
+    <tr>
+      <td>07 MAR</td>
+      <td>PD gives the OK to disclose details on the ban publicly.</td>
+    </tr>
+    <tr>
+      <td>07 MAR</td>
+      <td>Dedicated e-mail chain to maintain contact about upcoming changes/requirements.</td>
+    </tr>
+    <tr>
+      <td>07 MAR</td>
+      <td>April 8th deadline is requested by PD.</td>
+    </tr>
+    <tr>
+      <td>07 MAR</td>
+      <td><strong>PD confirms they’ve reached out to all other 3rd party app developers to plan for April 8th deadline and that ‘everyone has received our proposed changed extremely well.’.</strong></td>
+    </tr>
+    <tr>
+      <td>08 MAR</td>
+      <td>Request for ruling on iOS multitasking is sent to PD.</td>
+    </tr>
+    <tr>
+      <td>13 MAR</td>
+      <td><strong>PD decides that iOS widget/multitasking capabilities are to be removed.</strong></td>
+    </tr>
+    <tr>
+      <td>28 MAR</td>
+      <td>PD moves deadline to April 22nd to accommodate other developer(s).</td>
+    </tr>
+    <tr>
+      <td>10 APR</td>
+      <td>PD receives a GCN iOS test build with requested changes in place.</td>
+    </tr>
+    <tr>
+      <td>10 APR</td>
+      <td>PD receives a GCN Android test build with requested changes in place.</td>
+    </tr>
+    <tr>
+      <td>16 APR</td>
+      <td><strong>PD confirms iOS build meets requirements for April 22nd deadline.</strong></td>
+    </tr>
+    <tr>
+      <td>22 APR</td>
+      <td>Android/iOS builds are released to the public.</td>
+    </tr>
+    <tr>
+      <td>23 APR</td>
+      <td><strong>PD notifies us that they are still in discussions with other developers who are not currently required to make changes for the agreed upon April 22nd deadline.</strong></td>
+    </tr>
+    <tr>
+      <td>26 APR</td>
+      <td><strong>PD notifies us they’re reconsidering their stance on iOS multitasking features.</strong></td>
+    </tr>
+    <tr>
+      <td>29 APR</td>
+      <td>PD reconfirms that iOS multitasking will not be allowed.</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><br /></p>
+
+<blockquote>
+  <p><sup>The long gap from 31 JAN until 7 MAR saw multiple email exchanges and a few requests from PD to postpone the meeting.</sup></p>
+</blockquote>
+
+<blockquote>
+  <p><sup>I’ve added emphasis to the events that are most important as I see them.</sup></p>
+</blockquote>
+
+<h3 id="deadlines-and-moving-targets">Deadlines and Moving Targets</h3>
+
+<p>Long story short, we were led to believe for the better part of 2 months that all developers were
+contacted, and either on board with the new requirements, or willing to have their app become
+non-functional in some capacity once the April 22nd deadline came. As it turns out, this was not
+the case at all.</p>
+
+<p>The primary issue here, if it’s not already clear, is the timing of the last 3 events in the above
+list. We were notified <strong><em>AFTER</em></strong> we complied with the agreed upon deadline that the deadline had
+been moved. <strong>I’ll say it again, we were told AFTER the deadline had come and gone, that the agreed
+upon deadline was no longer valid.</strong> PD has privately expressed remorse for their role in the
+situation and gratitude for our willingness to work with them which is all well and good, but I
+would trade them both for clarity and accountability.</p>
+
+<p>On top of this, 3 days later we were told that the requirements of the overlay ban could
+now potentially be changed. For anyone in the software, construction or any industry where you
+build anything according to specifications and deadlines, imagine for a second what the
+repercussions might be if this happened in your job.</p>
+
+<p>We are now being told that PD is now reconsidering the ban on iOS multitasking capabilities due to
+the ease of which Android users can use 3rd party apps to allow split views. <strong>I raised this EXACT
+point in our teleconference on 7 MAR. PD acknowledged this point. PD deliberated on this point. PD
+then ruled that multitasking would not be allowed.</strong> For reasons I can’t even fathom, this point is
+now up in the air yet again. I’ve already responded to PD, trying to reason with them that the
+‘ease’ they refer to is entirely dependant on the device manufactuer, OS version event the country
+where you live. Legislating each and every one of these variable is a very slippery slope that
+will only further complicate an already complicated situation. Regardless of the outcome, either
+the requirements will stay as we were initially told, or the requirements will need to change on
+the Android side.</p>
+
+<p>This line of work is not unlike most others. It demands requirements, specificity and precision to
+do well. Without those, you get botched releases, regressions, lost data or worse. This type of
+scenario is one that I work hard to avoid both in this project and my full time job. While some
+level of this chaos was probably inevitable, it has been exacerbated to such a degree by
+carelessness and miscommunication that I’m actually skeptical if it can or will ever be fixed. The
+fact that this situation was allowed to happen is staggering.</p>
+
+<h3 id="a-rock-and-a-hard-place">A Rock and A Hard Place</h3>
+
+<p>Another outcome of this boondoggle is that Android app updates have now been flagged by Google for
+an unrelated reason that has previously been dealt with in the past. I can only guess that this is
+somehow related to the epic flood of 1 star reviews due to the overlay removal. I’m working to
+resolve the issue but even if I wanted to restore the overlay functionality today, I couldn’t
+because I’m waiting on clarification from Google. So now the store listing has screenshots of the
+old functionality that doesn’t presently exist, and I can’t update the information to accurately
+reflect the current capabilities of the app. However, thank you for the outpour of support from
+the community in sharing your views on the app. I would never ask anyone to do that, but it’s
+certainly appreciated.</p>
+
+<p>As for my future in terms of Golf Clash Notebook, the app, overlays, etc. I’m not confident
+on how any of this turns out. We’ll continue working with Playdemic so they can get the game and
+the apps to a state where they want it, although I’m no longer sure what that that vision is. I
+hope to share some new information on this in the coming week(s).</p>
+
+<p>As for the website/app, I’ll continue making the typical content updates for tournaments and
+courses for the near future out of a sense of obligation to those people who use the app for the
+content organization/search. I make no promises for my involvement in the community for the long
+term. Ultimately at this point, I’ve lost interest in the game for a number or reasons and that
+interest has always the #1 driving factor in building all the things that I have over the past
+year and a half. The amount of nonsense being inflicted simply isn’t worth enduring any longer.</p>
+
+<p>I will try to answer any questions in the Golf Clash Notebook Facebook page post that this is
+linked to. I will also update this post with any new information and necessary clarifications.</p>
+
+<p>Best of luck to you all.</p>
+
+          </div>
+        </div>
+      </section>
+    </main>
+
+    
+      <footer id="site-footer">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-6">
+        <div class="text-small">
+          <a href="/terms/">Terms</a> | <a href="/privacy/">Privacy</a>
+        </div>
+      </div>
+      <div class="col-xs-6">
+        <div class="text-right">
+          <a href="https://itunes.apple.com/app/notebook-for-golf-clash/id1448143628?ls=1&mt=8" target="_blank" rel="noopener">
+            <i class="fab fa-app-store-ios fa-lg"></i>
+          </a>
+          <a href="https://play.google.com/store/apps/details?id=org.golfclash.notebook" target="_blank" rel="noopener">
+            <i class="fab fa-google-play fa-lg"></i>
+          </a>
+          <a href="https://twitter.com/gc_notebook" target="_blank" rel="noopener">
+            <i class="fab fa-twitter fa-lg"></i>
+          </a>
+          <a href="https://www.facebook.com/groups/GCNotebook/" target="_blank" rel="noopener">
+            <i class="fab fa-facebook fa-lg"></i>
+          </a>
+          <!--
+          <a href="https://www.reddit.com/r/GolfClashNotebook/" target="_blank" rel="noopener">
+            <i class="fab fa-reddit-alien fa-lg"></i>
+          </a>
+          -->
+          <a href="https://github.com/golf-clash-notebook/golf-clash-notebook.github.io/" target="_blank" rel="noopener">
+            <i class="fab fa-github fa-lg"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+    
+
+    <div id="sign-in-modal" class="modal fade" tabindex="-1" role="dialog">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-body">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <i class="fas fa-times"></i>
+        </button>
+        <h3 class="text-center">Choose your Sign In Method</h3>
+        <br>
+        <p class="text-center">
+          <a id="login-via-facebook" class="btn btn-default btn-login margin-8" href="#" role="button">
+            <i class="fab fa-facebook fa-3x text-facebook img-center"></i>
+            <span class="text-tiny text-semi-muted">Facebook</span>
+          </a>
+          <a id="login-via-google" class="btn btn-default btn-login margin-8" href="#" role="button">
+            <i class="fab fa-google fa-3x text-google img-center"></i>
+            <span class="text-tiny text-semi-muted">Google</span>
+          </a>
+          <a id="login-via-twitter" class="btn btn-default btn-login margin-8" href="#" role="button">
+            <i class="fab fa-twitter fa-3x text-twitter img-center"></i>
+            <span class="text-tiny text-semi-muted">Twitter</span>
+          </a>
+        </p>
+        <div id="sign-in-error-alert" class="alert alert-danger hidden text-center" role="alert"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+    <script src="https://www.gstatic.com/firebasejs/4.11.0/firebase.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/4.11.0/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/4.11.0/firebase-firestore.js"></script>
+    <script src="https://apis.google.com/js/api.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/all.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/marked/0.3.19/marked.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.matchHeight/0.7.2/jquery.matchHeight-min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.touch/1.1.0/jquery.touch.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-slider/10.0.2/bootstrap-slider.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/1.3.5/jspdf.min.js"></script>
+
+    <script src="/js/golf-clash-notebook-site.js"></script>
+
+  </body>
+
+</html>

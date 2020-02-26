@@ -1,0 +1,263 @@
+[
+  
+    {"name":"Royal","windResistance":3,"sideSpin":2,"power":4,"cost":"n/a","description":"Long live the King! Playdemic decided to bring back the Dead Ball reincarnate and give you a fighting chance against the competition. Hopefully you stocked up on this one during the <a href=\"/tournaments/RoyalOpen/\">Royal Open</a> and dropped a little dough on the cash offer. If not don't worry, it probably wouldn't have done you much good anyway...\n","needleSpeed":0.833},
+  
+    {"name":"Turkey","windResistance":5,"sideSpin":1,"power":2,"cost":"n/a","description":"Same stats as the Bauble, these were available in a cash package during the <a href=\"/tournaments/Thanksgiving/\">Thanksgiving</a> tournament. Another max wind resistance ball that are really handy to have in supply come tournament time. They can really ease the pain of that bogey you pulled out of your hat on the last par 5.\n","needleSpeed":0.7},
+  
+    {"name":"Eye","windResistance":5,"sideSpin":2,"power":1,"cost":"n/a","description":"A ball from the <a href=\"/tournaments/HauntedHills/\">Haunted Hills</a> tournament with maxed wind resistance that you should primarily use on par 3's. Just a small bump in power means you'll need to use it with the right club since you won't be able to stretch a long iron into a hole built for a wood. And after you miss that wide open green with a Marlin come tournament time, I'll be waiting to tell you \"Eye told you so\".\n","needleSpeed":0.75},
+  
+    {"name":"Easter","windResistance":2,"sideSpin":3,"power":2,"cost":"n/a","description":"This is a reskinned Katana so it's a pretty decent ball that you should probably save for situational holes where side spin is a must. Despite it's egg like appearance, it doesn't crack as easily as you do on the last hole of a tournament with a 15 foot putt to bring home the gold.\n","needleSpeed":0.833},
+  
+    {"name":"Stallion","windResistance":1,"sideSpin":3,"power":4,"cost":"n/a","description":"Another Blue Marble that come close to being a Berzerker. Just like you're close to being adequate at this game.\n","needleSpeed":0.833},
+  
+    {"name":"Cobra","windResistance":4,"sideSpin":1,"power":3,"cost":"n/a","description":"Bunny, Mummy, Skyline...now Cobra. In the words of Simon Cowell, \"It's a no from me.\"\n","needleSpeed":0.75},
+  
+    {"name":"Ski","windResistance":4,"sideSpin":3,"power":2,"cost":"n/a","description":"Just another ball, yo\n","needleSpeed":1.2},
+  
+    {"name":"Season 8","windResistance":3,"sideSpin":3,"power":3,"cost":"n/a","description":"Kinda like a King Maker...only worse if you wanna OP.\n","needleSpeed":0.75},
+  
+    {"name":"Season 6","windResistance":1,"sideSpin":3,"power":4,"cost":"n/a","description":"Not the greatest ball but it serves its purpose in some tailwind situations. Shares the same stats as the Blue Marble, Gingerbread among others but this guy isn't equipped with the best OP needle speed. With you're timing though, who knows? Maybe it'll turn those 'Slices' & 'Hooks' into 'Goods'.\n","needleSpeed":0.75},
+  
+    {"name":"Tennis","windResistance":1,"sideSpin":3,"power":4,"cost":"n/a","description":"Same visible stats as a Blue Marble among others. I like big drives and I cannot lie. **UNCONFIRMED NEEDLE SPEED**\n","needleSpeed":0.75},
+  
+    {"name":"Basketball","windResistance":2,"sideSpin":2,"power":4,"cost":"n/a","description":"This one sports the same stats as the Shell ball (with a slower OP needle speed) so it's a slightly better Titan best used for downwind shots where you push your drive up towards the green. And like a basketball, you can watch it bounce off the rim of the cup for yet another disappointing tournament finish.\n","needleSpeed":0.833},
+  
+    {"name":"King Maker X","windResistance":3,"sideSpin":3,"power":4,"cost":"n/a","description":"Finally a ball that may be able to stop your unintentional trophy dump in T10! This is unquestionably the best all around ball in the game so hopefully you stocked up while they were available in the shop during the <a href=\"/tournaments/FallMajor2018/\">Fall Major</a> tournament.\n","needleSpeed":0.867},
+  
+    {"name":"Liberty","windResistance":0,"sideSpin":2,"power":5,"cost":"n/a","description":"Same visible stats as a Fusion, Ghost and Turbo balls. Bomb it down the fairway bitches.\n","needleSpeed":0.833},
+  
+    {"name":"Titan","windResistance":2,"sideSpin":2,"power":3,"cost":20,"description":"This is a great ball to have in large quantity for higher tours (think 9, 10, 11) and tournaments when every shot counts. They're often awarded to top Rookie finishers in tournaments. The extra power makes a lot of challenging holes from the back tees much easier to handle and while they're expensive, you can occasionally get some in the shop if you manage your gems. In a perfect world, you'll load up on these from your first few Rookie tournaments and ride them all way to rock bottom during your next full tilt clash session.\n","needleSpeed":0.833},
+  
+    {"name":"Gear","windResistance":2,"sideSpin":1,"power":5,"cost":"n/a","description":"This ball was featured during the <a href=\"/tournaments/LaborDay2018/\">Labor Day (2018)</a> tournament. While you may not be able to pound this one down the fairway quite as far as a Globe or Berserker, it offers you a much easier 2nd shot with the extra wind resistance it offers. Wind resistance isn't really your biggest problem though is it, Mr. Great Ball?\n","needleSpeed":0.75},
+  
+    {"name":"King Maker","windResistance":3,"sideSpin":3,"power":3,"cost":72.2,"description":"One of the best balls in the game, and also the most expensive in terms of gems. Many tournaments will give them out in Pro, Expert and Masters (at least to those who finish close to the top) but you'll also get one every once in a while in a chest. They're way too expensive to use gems on in the shop though. You're best off stashing these until you hit the upper tours (10, 11) and higher level tournaments. Until then you can watch it spin in the shop while it taunts you about how you don't deserve it.\n","needleSpeed":0.867},
+  
+    {"name":"Season 15","windResistance":2,"sideSpin":2,"power":4,"cost":"n/a","description":"Call it what you want... Shell, Season 5, Endzone, Basketball, Americana. I mean, PD can only spin the stats on balls so many ways, so if things start feeling repetitive there's not much we can do. **UNCONFIRMED NEEDLE SPEED**\n","needleSpeed":0.75},
+  
+    {"name":"Athlete","windResistance":3,"sideSpin":2,"power":4,"cost":"n/a","description":"Call it Dead, Royal, Pudding, Athlete - what you've got here is  arguably the best general purpose ball in the game. It ticks all the right boxes and doesn't have any real weaknesses. Happy hunting with this bad boy. **UNCONFIRMED NEEDLE SPEED**\n","needleSpeed":0.75},
+  
+    {"name":"Raptor","windResistance":4,"sideSpin":2,"power":2,"cost":"n/a","description":"Use this friendly, but bitey, guy on tournament Par 3s or maybe on a 4/5 with a stiff headwind. You may have picked these up during the <a href=\"/tournaments/2ndAnniversary/\">2nd Anniversary</a> tournament, or maybe you were still weeping from the train wreck in the Winter Slopes tournament.\n","needleSpeed":0.75},
+  
+    {"name":"Season 13","windResistance":3,"sideSpin":1,"power":4,"cost":"n/a","description":"The seasion 1 ball returns. Only lacking in side spin, this ball can be used in virtually any situation very effectively. By your opponent....not you. **UNCONFIRMED NEEDLE SPEED**\n","needleSpeed":0.75},
+  
+    {"name":"Gyro","windResistance":3,"sideSpin":3,"power":3,"cost":"n/a","description":"This one was offered during the <a href=\"/tournaments/SkylineCup/\">Skyline Cup</a>. It brings back memories of the <a href=\"https://youtu.be/Ec4jGEgzkJs?t=34\">reviews that Spinal Taps 'Shark Sandwich' album received</a>.\n","needleSpeed":0.833},
+  
+    {"name":"Snow Globe 2019","windResistance":0,"sideSpin":3,"power":5,"cost":"n/a","description":"The updated 2019 version.\n","needleSpeed":1.2},
+  
+    {"name":"UFC","windResistance":3,"sideSpin":2,"power":4,"cost":"n/a","description":"Just another ball, yo.\n","needleSpeed":1.2},
+  
+    {"name":"Katana","windResistance":2,"sideSpin":3,"power":2,"cost":20,"description":"I used to be in the 'Titan is way better boat', but the value of the extra side spin you get with a Katana can't be understated. Once you get to the higher tours like 10 & 11, side spin is critical on certain shootouts and if your opponent has less, you'll have a definite advantage. If you're willing to spend money in the game, the 'Fail to Qualify' tournament offers give you a nice way to stock up on these. And who are we kidding, you always fail to qualify!\n","needleSpeed":0.833},
+  
+    {"name":"Spider","windResistance":4,"sideSpin":2,"power":1,"cost":"n/a","description":"This ball was available for purchase during the <a href=\"/tournaments/PlatinumResorts/\">Platinum Resorts</a> tournament. Although there are better options, the Spider ball is a decent choice to pull out for a tournament par 3, to help you get that HIO to turn your 98th place finish into 83rd.\n","needleSpeed":0.833},
+  
+    {"name":"Paris","windResistance":1,"sideSpin":3,"power":4,"cost":"n/a","description":"Same visible stats as a Blue Marble among others. I like big drives and I cannot lie. **UNCONFIRMED NEEDLE SPEED**\n","needleSpeed":0.75},
+  
+    {"name":"Pumpkin","windResistance":3,"sideSpin":3,"power":3,"cost":"n/a","description":"This is a reskinned King Maker which makes it a really good ball for pretty much any situation. It was awarded to Pro, Expert and Masters top finishers in the <a href=\"/tournaments/HauntedHills/\">Haunted Hills</a> tournament. When your opponent breaks one out, it's just another reminder of how much better they did in that tournament than you.\n","needleSpeed":0.833},
+  
+    {"name":"Pines","windResistance":4,"sideSpin":2,"power":2,"cost":"n/a","description":"A ball that was for sale during the <a href=\"/tournaments/SouthernPines9HoleCup/\">Southern Pine 9 Hole Cup</a> tournament. This one is the same class as the Hat Trick and Raptor balls, but has a better OP needle speed so if you're in the market for a 4/2/2 ball this is a good option.\n","needleSpeed":0.833},
+  
+    {"name":"Superstar","windResistance":4,"sideSpin":2,"power":3,"cost":"n/a","description":"SUPERSTAR! **UNCONFIRMED NEEDLE SPEED**\n","needleSpeed":0.75},
+  
+    {"name":"Origin","windResistance":1,"sideSpin":3,"power":4,"cost":"n/a","description":"Available during the <a href=\"/tournaments/OriginLinks/\">Origin Links</a> tournament, these leather bound beauties have the same stats as the Blue Marble ball. This makes it a good tailwind ball if you don't have the Berserker to spare or maybe don't need it. The epitome of 'Old School', they should suit your outdated and underperforming game just fine.\n","needleSpeed":0.7},
+  
+    {"name":"Jewel","windResistance":4,"sideSpin":0,"power":4,"cost":"n/a","description":"You would've found this one during the <a href=\"/tournaments/DesertOpen/\">Desert Open</a> tournament. It's got a great wind resistance / power combination but the lack of side spin is a serious limitation on this one so be prepared to use some curl. But it may be enough to tip the scales in your favor in a stiff headwind. Actually who are we kidding, you'll still find a way to mess it up!\n","needleSpeed":0.833},
+  
+    {"name":"Golden","windResistance":0,"sideSpin":2,"power":1,"cost":"n/a","description":"This is the ball you'll be forced to use during the Golden shot mini-game that pops up every few weeks. And it will become your favorite excuse when your shot stops 0.01 yards short of the outside ring.\n","needleSpeed":0.7},
+  
+    {"name":"Daruma","windResistance":5,"sideSpin":3,"power":1,"cost":"n/a","description":"For those blustery days. **UNCONFIRMED NEEDLE SPEED**\n","needleSpeed":0.75},
+  
+    {"name":"Season 7","windResistance":2,"sideSpin":3,"power":4,"cost":"n/a","description":"A ball that was for sale during the <a href=\"/tournaments/SouthCoast/\">South Coast</a> tournament. It's a spin off of the Fireworks ball. A poor spin off as it's needle speed is jacked up which will take your poor timing to a whole new level!\n","needleSpeed":0.75},
+  
+    {"name":"Pine Cone","windResistance":4,"sideSpin":2,"power":3,"cost":"n/a","description":"First introduced just before the Fall Major of 2019, the 9 point pine cone ball is the first 4-2-3 ball ever put into the game. It is an odd-shaped ball, which  some people say makes them hard to center.\n","needleSpeed":1.2},
+  
+    {"name":"Roulette","windResistance":2,"sideSpin":3,"power":4,"cost":"n/a","description":"The Roulette ball has the exact same stats as the Snowman Ball. They were offered for purchase during the <a href=\"/tournaments/VegasSundown/\">Vegas Sundown</a> tournament. They can be handy in tailwind situations when you need a little boost to reach a distant fairway but still want some decent wind resistance for your second shot. With your short game though, don't expect these to change your luck for the hole out.\n","needleSpeed":0.7},
+  
+    {"name":"The Open","windResistance":3,"sideSpin":2,"power":4,"cost":"n/a","description":"Duplicate of the Pudding ball. Pretty good stats but the poor needle speed should be a red flag if you've already got some Dead or Royal balls hanging round.\n","needleSpeed":0.75},
+  
+    {"name":"Season 19","windResistance":5,"sideSpin":2,"power":2,"cost":"n/a","description":"Just another Season Ball, yo. **UNCONFIRMED NEEDLE SPEED**\n","needleSpeed":0.75},
+  
+    {"name":"Season 17","windResistance":3,"sideSpin":2,"power":4,"cost":"n/a","description":"Just another Season Ball, yo.\n","needleSpeed":1.2},
+  
+    {"name":"Lucky Pig","windResistance":3,"sideSpin":1,"power":4,"cost":"n/a","description":"A Season 1 ball replica, this ball packs a good punch even in a stiff headwind. It was offered during the <a href=\"/tournaments/Gridiron/\">Gridiron</a> tournament. Best part is, this ball gives you a 2nd chance at your broken New Year's resolution to not blow up a weekend round.\n","needleSpeed":0.833},
+  
+    {"name":"Turbo","windResistance":0,"sideSpin":2,"power":5,"cost":"n/a","description":"This is the next best thing to a Snow Globe, just lacking that extra side spin. They were offered for purchase during the <a href=\"/tournaments/VegasSundown/\">Vegas Sundown</a> tournament. Obviously suited for tailwind situations, save these balls for tournaments even if you can't save yourself out of the sand.\n","needleSpeed":0.615},
+  
+    {"name":"Serpent","windResistance":2,"sideSpin":3,"power":4,"cost":"n/a","description":"One of the coolest looking animated balls in the game, this 9 pointer gives you that  extra umph you need to get over the water and rough on those tricky long tee shots, with a solid bit of sidespin and decent wind resistance thrown in for good measure. **UNCONFIRMED NEEDLE SPEED**\n","needleSpeed":0.75},
+  
+    {"name":"Anubis","windResistance":1,"sideSpin":3,"power":5,"cost":"n/a","description":"Like a Berserker with just a little more shimmy in the chassis. **UNCONFIRMED NEEDLE SPEED**\n","needleSpeed":0.75},
+  
+    {"name":"Cheetah","windResistance":4,"sideSpin":3,"power":1,"cost":"n/a","description":"Same visible stats as a Popcorn ball. Typically best used on tournament par 3's. **UNCONFIRMED NEEDLE SPEED**\n","needleSpeed":0.75},
+  
+    [{"title":"Zachary Jones Ball Guide","url":"https://youtu.be/Eeeg5544afs"},{"title":"Golf Clash Tommy Ball Guide","url":"https://youtu.be/rpmNuIriqbk"}],
+  
+    {"name":"Champions Gold","windResistance":3,"sideSpin":3,"power":4,"cost":"n/a","description":"This one (and a few variants for lower places) are awarded to the top finishers in the Champions 100 division. No flaws in the one if you manage to get your hands on it. It may cost you a few 100 King Makers to grind enough to get them, but you be the judge if the juice is worth the squeeze.\n","needleSpeed":0.867},
+  
+    {"name":"Americana","windResistance":2,"sideSpin":2,"power":4,"cost":"n/a","description":"A duplicate of the Basketball. Best used for longer tournament holes where the extra wind resistance from a Berserker will pay dividends on your approach.\n","needleSpeed":0.833},
+  
+    {"name":"Gridiron","windResistance":2,"sideSpin":1,"power":5,"cost":"n/a","description":"These were offered during the <a href=\"/tournaments/Gridiron/\">Gridiron</a> tournament. While this shares the same face value stats as the Autumn and Gear balls, it's OP needle needle speed is superior to both so since this is a long distance ball, it's a force to be reckoned with. And I reckon it'll leave a bad taste in your mouth when you make a par while using it.\n","needleSpeed":0.833},
+  
+    {"name":"Shamrock","windResistance":3,"sideSpin":3,"power":3,"cost":"n/a","description":"The Shamrock ball is a slightly worse Kingmaker, only due to the fact that it's max OP needle speed is slightly faster. It was offered as part of a cash package during the <a href=\"/tournaments/VintageOpen/\">Vintage Open</a> tournament. Maybe if you picked some up they'll lend you enough luck to avoid the naked flapping banner.\n","needleSpeed":0.833},
+  
+    {"name":"Touchdown 2020","windResistance":3,"sideSpin":2,"power":4,"cost":"n/a","description":"These were part of a cash package around the Touchdown tournament in 2020. **UNCONFIRMED NEEDLE SPEED**\n","needleSpeed":0.75},
+  
+    {"name":"Snow Globe","windResistance":0,"sideSpin":3,"power":5,"cost":"n/a","description":"Reminiscent of a runaway train, it's a similar animal as the Berserker, minus the wind resistance, because wind resistance is for suckers. This will most definitely set some new long drive records, but I'm getting popcorn for the show coming in your ensuing shootout when you get stuck with a 25 MPH side wind.\n","needleSpeed":0.867},
+  
+    {"name":"Bauble","windResistance":5,"sideSpin":1,"power":2,"cost":"n/a","description":"Another ball that works really well for Par 3's. It was part of a winter time cash package and also awarded during the <a href=\"/tournaments/WinterLinks/\">Winter Links</a> tournament. The key stat is obviously the wind resistance but the bump in power is nice for longer par 3's where you want to use a long iron instead of a wood. And most importantly, the animation looks awesome as it screams through the air and plugs into that greenside bunker.\n","needleSpeed":0.75},
+  
+    {"name":"EndZone","windResistance":2,"sideSpin":2,"power":4,"cost":"n/a","description":"This one sports the same stats as the Shell ball so it's a slightly better Titan best used for downwind shots where you push your drive up towards the green. And like a basketball, you can watch it bounce off the rim of the cup for yet another disappointing tournament finish. **UNCONFIRMED NEEDLE SPEED**\n","needleSpeed":0.75},
+  
+    {"name":"Wavebreaker","windResistance":5,"sideSpin":2,"power":1,"cost":"n/a","description":"This ball was featured during the <a href=\"/tournaments/AmericanaClassic/\">Americana Classic</a> tournament. Reskinned 5/2/1 ball. On one hand, it's got the best OP needle speed of the crop, but on the other hand, it's a wind 5 ball so you probably won't be using that feature much. There are many like this ball, but this one is mine.\n","needleSpeed":0.833},
+  
+    {"name":"Season 3","windResistance":4,"sideSpin":3,"power":1,"cost":"n/a","description":"This ball was featured during the <a href=\"/tournaments/FestiveCup/\">Festive Cup</a> tournament. It's another ball designed for tournament Par 3's where side spin is at a premium. It may not have a lot of power, but there are plenty of Par 3 situations where it's preferable to have less power so don't under estimate the value here. Also never under estimate your own ability to clip the rough and give away that shot at a banner.\n","needleSpeed":0.75},
+  
+    {"name":"Shell","windResistance":2,"sideSpin":2,"power":4,"cost":"n/a","description":"Offered during the <a href=\"/tournaments/SummerMajor2018/\">Summer Major 2018</a> tournament, this little guy offers a pretty good punch off the tee with a good tailwind and still gives you a decent amount of wind resistance for your eagle chance, or in your case, a bunker shot to save par.\n","needleSpeed":0.75},
+  
+    {"name":"Prestige","windResistance":1,"sideSpin":3,"power":4,"cost":"n/a","description":"This (worldwide) ball was available for purchase during the <a href=\"/tournaments/PlatinumResorts/\">Platinum Resorts</a> tournament. Same stats as the Origin Ball, but a slower needle speed on full overpowered shots makes this one a slightly better option for downwind tee shots if you're low on Berserkers. It'll make those long seconds shots you buried in the sand a little more managable too.\n","needleSpeed":0.833},
+  
+    {"name":"Santa","windResistance":5,"sideSpin":3,"power":0,"cost":"n/a","description":"Just your run of the mill, maxed out wind resistance ball that was awarded to top Rookie finishers during the <a href=\"/tournaments/Christmas/\">Christmas</a> tournament, and showed up as a prize for the Golden Shot around that time. Aside from the wind resistance, not a lot to get excited about...kind of like your short game.\n","needleSpeed":0.75},
+  
+    {"name":"Blue Marble","windResistance":1,"sideSpin":3,"power":4,"cost":"n/a","description":"This ball was available during the <a href=\"/tournaments/EarthDay/\">Earth Day</a> tournament as part of a cash package. It's a bit of a nerfed Berserker but still useful in tailwaind situations. If you look closely, you can see some of the clouds moving on the ball. Do you see it? Good! Now you've wasted a good 5 seconds that you could've used to hit a quality golf shot.\n","needleSpeed":0.833},
+  
+    {"name":"Season 16","windResistance":2,"sideSpin":2,"power":4,"cost":"n/a","description":"Season 15 redux. **UNCONFIRMED NEEDLE SPEED**\n","needleSpeed":1.2},
+  
+    {"name":"Navigator","windResistance":2,"sideSpin":1,"power":1,"cost":6.7,"description":"This is an affordable ball and a workhorse that you should ride through tours 7, 8 and 9 since you can finance them with the gems you get in chests. It's got enough wind resistance to make the wind in those tours manageable and the small power boost will come in handy on many holes. You'll often want to switch between Navigator and Quasar depending on the wind but both are good choices...unlike your decision to overpower that drive and let it sail right into the heavy stuff.\n","needleSpeed":0.75},
+  
+    {"name":"Cyber","windResistance":4,"sideSpin":2,"power":4,"cost":"n/a","description":"Just another ball, yo.\n","needleSpeed":1.33},
+  
+    {"name":"Scarab","windResistance":4,"sideSpin":2,"power":2,"cost":"n/a","description":"High wind resistance and moderate extra power and sidespin. **UNCONFIRMED NEEDLE SPEED**\n","needleSpeed":0.75},
+  
+    {"name":"Bunny","windResistance":4,"sideSpin":1,"power":3,"cost":"n/a","description":"This ball was available during the <a href=\"/tournaments/EasterLinks/\">Easter Links</a> tournament as part of a cash package. It boasts the same stats as the Mummy ball so it's best used in a stiff headwind to get your moneys worth. Pull it out in the tournament on a par 3 and watch as it hops into the hole. Not the regulation hole, the shootout hole. Because you need a little more aggravation in your life.\n","needleSpeed":0.75},
+  
+    {"name":"Season 14","windResistance":2,"sideSpin":1,"power":5,"cost":"n/a","description":"It's an Easter Egg ball, only shaped, you know, like an actual ball this time, so no annoying misses due to your failure to line it up in the center of the  reticle. **UNCONFIRMED NEEDLE SPEED**\n","needleSpeed":0.75},
+  
+    {"name":"Season 4","windResistance":5,"sideSpin":3,"power":0,"cost":"n/a","description":"Another solid tournament Par 3 ball that will give you max control to hit the HIO. This is a VERY useful ball that can be crucial when you need the power 0 to get the club you want in range for your tee shot. You seem like a basic ball kinda person though...amirite?\n","needleSpeed":0.75},
+  
+    {"name":"Season 1","windResistance":3,"sideSpin":1,"power":4,"cost":"n/a","description":"This ball was featured during the <a href=\"/tournaments/MetroOpen/\">Metro Open</a> tournament. Only lacking in side spin, this ball can be used in virtually any situation very effectively. By your opponent....not you.\n","needleSpeed":0.833},
+  
+    {"name":"Forester","windResistance":2,"sideSpin":1,"power":5,"cost":"n/a","description":"Autumn ball reincarnate built for long drives.\n","needleSpeed":0.833},
+  
+    {"name":"Season 9","windResistance":4,"sideSpin":3,"power":1,"cost":"n/a","description":"Shares the same stats as the Voyager among others but boasts the best OP needle speed out of them all. So there's that......which is nice.\n","needleSpeed":0.833},
+  
+    {"name":"Oceania","windResistance":5,"sideSpin":3,"power":0,"cost":"n/a","description":"This ball was featured during the <a href=\"/tournaments/ClubOceania/\">Club Oceania</a> tournament. It's a fantastic ball when it comes to tournament Par 3's. Tons of wind resistance and all the side spin you need to work the ball in towards the pin. The only excuse you have for not making the HIO now, is you.\n","needleSpeed":0.833},
+  
+    {"name":"Bauble 2019","windResistance":5,"sideSpin":1,"power":2,"cost":"n/a","description":"The updated 2019 version.\n","needleSpeed":1.2},
+  
+    {"name":"Gingerbread","windResistance":1,"sideSpin":3,"power":4,"cost":"n/a","description":"A ball that was for sale during the <a href=\"/tournaments/FestiveCup/\">Festive Cup</a> tournament. It's an exact clone of the Prestige ball. So use it in tailwind situations or when you're on tilt from the par you made on your last tournament hole.\n","needleSpeed":0.833},
+  
+    {"name":"Quasar","windResistance":1,"sideSpin":2,"power":1,"cost":6.7,"description":"This is a ball that you can fund with your daily flow of gems from your chests once you get to the Tour 7 area. It's a similar ball to the Navigator and is usually the other option you can use on those early Pro Series tours depending on what the wind is doing. If you've got tail wind and it's a long hole, Quasar is often a better choice than the Navigator. It just swaps wind resistance for side spin. Now swap out your sloth-like reflexes and you'll be all set!\n","needleSpeed":0.75},
+  
+    {"name":"Firework","windResistance":2,"sideSpin":3,"power":4,"cost":"n/a","description":"A ball that was for sale during the <a href=\"/tournaments/ChristmasLinks/\">Christmas Links</a> tournament. It's a replica of the Snowman ball so it's good for tailwind situations and with the attractive OP needle speed, it shouldn't be too difficult to keep it in the fairway trying to smash it as far as possible...but then again maybe not.\n","needleSpeed":0.833},
+  
+    {"name":"Skyline","windResistance":4,"sideSpin":1,"power":3,"cost":"n/a","description":"This ball was available during the <a href=\"/tournaments/SkylineCup/\">Skyline Cup</a> tournament as part of a cash package. Duplicate of the Bunny and Mummy and a poor mans version of the Season 2 and Vintage given the poor OP needle speed.\n","needleSpeed":0.75},
+  
+    {"name":"Mummy","windResistance":4,"sideSpin":1,"power":3,"cost":"n/a","description":"A really great ball that is perfect for head wind situations. It was awarded at the Rookie level during the <a href=\"/tournaments/CreepyCliffs/\">Creepy Cliffs</a> tournament and part of a cash package around the same time. Good for just about any situation, but you won't be able to take advantage of any tail wind, just like you couldn't take advantage of the sliced drive your opponent hit last game.\n","needleSpeed":0.75},
+  
+    {"name":"Movie","windResistance":4,"sideSpin":3,"power":2,"cost":"n/a","description":"Part of a cash package during the <a href=\"/tournaments/Hollywood/\">Hollywood</a> tournament, this one is best used against some headwind or a decent option for a tournament par 3 if you're out of level 5 wind wind resistance balls. Lights...camera...FRINGE GLITCH!!\n","needleSpeed":0.867},
+  
+    {"name":"Berserker","windResistance":1,"sideSpin":2,"power":5,"cost":"n/a","description":"This beast is tailor made for long par 4's and 5's with a tail wind. It can absolutely turn birdies into easy eagles, and eagles into chip in albotrosses. Unfortunately, you'll only find them in large quantities as prizes in Masters tournaments or part of expensive Black Friday cash offers. On the bright side, they show up as prizes in the Golden shot from time to time.\n","needleSpeed":0.833},
+  
+    {"name":"Centurion","windResistance":4,"sideSpin":3,"power":3,"cost":"n/a","description":"This ball was awarded only to those players who were in a clan to make the initial Top 100. This is an excellent ball with a fantastic OP needle speed. Let's just hope you were one of the lucky ones to get it.\n","needleSpeed":0.867},
+  
+    {"name":"Snowman","windResistance":2,"sideSpin":3,"power":4,"cost":"n/a","description":"This was the Pro, Expert and Masters ball prize in the <a href=\"/tournaments/WinterLinks/\">Winter Links</a> tournament. It's got a simliar spirit as the Berserker but tamed down a bit which makes it perfect for people like yourself who can't control their drives. You'll ideally play this one on holes with the wind behind you.\n","needleSpeed":0.833},
+  
+    {"name":"Season 5","windResistance":2,"sideSpin":2,"power":4,"cost":"n/a","description":"This is a clone of the Shell ball. Ideal for tailwind situations where the green isn't reachable off the tee. The OP needle speed isn't great so take that into consideration, but your cat like reflexes should be enough to compensate for that...\n","needleSpeed":0.75},
+  
+    {"name":"Season 11","windResistance":5,"sideSpin":3,"power":0,"cost":"n/a","description":"Another Santa skin that's perfect for tournament par 3s.\n","needleSpeed":0.833},
+  
+    {"name":"Hat Trick","windResistance":4,"sideSpin":2,"power":2,"cost":"n/a","description":"During the <a href=\"/tournaments/FootballFever/\">Football Fever</a> tournament, these were offered as part of a cash package. They are a decent choice for a tournament Par 3 with the added wind resistance and a slight boost in power. And it also has a fitting name to describe the 3 putt you somehow managed to pull off against all odds!\n","needleSpeed":0.75},
+  
+    {"name":"Season 2","windResistance":4,"sideSpin":1,"power":3,"cost":"n/a","description":"This ball was featured during the <a href=\"/tournaments/Mountain/\">Mountain</a> tournament. This is a solid ball for tournament Par 3's and you want to stretch your wood to reach from those second or third tees where the Power 3 can be handy. It's also a good option for holes with a stiff headwind. Now go out there and get that par!\n","needleSpeed":0.833},
+  
+    {"name":"Easter Egg","windResistance":2,"sideSpin":1,"power":5,"cost":"n/a","description":"Same stats, including OP needle speed. as Grid Iron ball.\n","needleSpeed":0.833},
+  
+    {"name":"Third Anniversary","windResistance":3,"sideSpin":3,"power":3,"cost":"n/a","description":"Another reskinned King Maker to celebrate the 3rd Anniversary of Golf Clash. And to think, after all that time, we're all still great balling chips that will haunt our dreams until the 4th Anniversary of Golf Clash. **UNCONFIRMED NEEDLE SPEED**\n","needleSpeed":0.75},
+  
+    {"name":"Solstice","windResistance":4,"sideSpin":2,"power":2,"cost":"n/a","description":"A ball that was for sale during the <a href=\"/tournaments/FujiOpen/\">Fuji Open</a> tournament. Duplicate of Pines ball.\n","needleSpeed":0.833},
+  
+    {"name":"Stealth","windResistance":3,"sideSpin":1,"power":5,"cost":"n/a","description":"Just another ball, yo\n","needleSpeed":1.2},
+  
+    {"name":"Aurora","windResistance":5,"sideSpin":2,"power":2,"cost":"n/a","description":"Just another ball, yo.\n","needleSpeed":1.2},
+  
+    {"name":"Season 10","windResistance":4,"sideSpin":1,"power":4,"cost":"n/a","description":"A very good ball that provides a strong advantage in headwind. One of the best around.\n","needleSpeed":0.833},
+  
+    {"name":"Present","windResistance":2,"sideSpin":1,"power":5,"cost":"n/a","description":"Just another ball, yo.\n","needleSpeed":1.2},
+  
+    {"name":"Season 12","windResistance":3,"sideSpin":3,"power":3,"cost":"n/a","description":"Like a King Maker...only worse. \"Riggs...I'm gettin` too old for this shit\".\n","needleSpeed":0.833},
+  
+    {"name":"Rugby","windResistance":5,"sideSpin":1,"power":2,"cost":"n/a","description":"Another Bauble ball that works really well for Par 3's. The key stat is obviously the wind resistance but the bump in power is nice for longer par 3's where you want to use a long iron instead of a wood. **UNCONFIRMED NEEDLE SPEED**\n","needleSpeed":0.75},
+  
+    {"name":"Popcorn","windResistance":4,"sideSpin":3,"power":1,"cost":"n/a","description":"This is a very solid headwind or tournament Par 3 ball. It's an exact copy of the Voyager ball. Only weakness is the OP needle speed but for a Par 3 that won't matter much. It also won't matter much because you're known around these parts as 'Great Ball McOops'.\n","needleSpeed":0.75},
+  
+    {"name":"Feather","windResistance":5,"sideSpin":3,"power":1,"cost":"n/a","description":"Just another ball, yo.\n","needleSpeed":1.33},
+  
+    {"name":"Labor Day","windResistance":3,"sideSpin":1,"power":3,"cost":"n/a","description":"This was part of a cash package offer during the <a href=\"/tournaments/LaborDay/\">Labor Day</a> tournament. It's a very capable ball that excels in head winds and also excels at judging your 'Great' chip as it lips out of the cup.\n","needleSpeed":0.833},
+  
+    {"name":"Carnival","windResistance":5,"sideSpin":2,"power":1,"cost":"n/a","description":"This ball was available for purchase during the <a href=\"/tournaments/CommunityCup/\">Community Cup</a> tournament. It's a duplicate of the Bandera Ball which makes it an excellent choice for tournament Par 3s. No doubt it'll help you save par on the Meadow Castle Par 3.\n","needleSpeed":0.75},
+  
+    {"name":"Pacific","windResistance":1,"sideSpin":3,"power":5,"cost":"n/a","description":"Just another ball, yo.\n","needleSpeed":1.2},
+  
+    {"name":"Voyager","windResistance":4,"sideSpin":3,"power":1,"cost":"n/a","description":"This ball was featured during the <a href=\"/tournaments/Voyager/\">Voyager</a> tournament. It's a very solid option for tournament Par 3's and Par 4's where the extra wind resistance will be huge on your approach shot. The side spin shouldn't be overlooked either. Your failed attempt to drop your eagle pitch should be overlooked though.\n","needleSpeed":0.75},
+  
+    {"name":"Ghost","windResistance":0,"sideSpin":2,"power":5,"cost":"n/a","description":"This ball was available for purchase during the <a href=\"/tournaments/PlatinumResorts/\">Platinum Resorts</a> tournament. It's a tailwind only ball so save them up for those situations where you can green it from the tee or at least get close. Watch it disappear over the horizon just like any chance you have at medaling in the upcoming tournament.\n","needleSpeed":0.75},
+  
+    {"name":"Dead","windResistance":3,"sideSpin":2,"power":4,"cost":"n/a","description":"Arguably the best general purpose ball in the game. It was awarded to Pro, Expert and Masters top finishers in the <a href=\"/tournaments/CreepyCliffs/\">Creepy Cliffs</a> tournament. It ticks all the right boxes and doesn't have any real weaknesses (except the lag on your phone that pushes it into the drink). Happy hunting with this bad boy.\n","needleSpeed":0.867},
+  
+    {"name":"Autumn","windResistance":2,"sideSpin":1,"power":5,"cost":"n/a","description":"The Autumn ball is geared towards downwind tournament shots where you'll still need to pull off a 2nd shot that will benefit from the extra wind resistance you'll get over using a Berserker. These were first offered during the <a href=\"/tournaments/FallMajor2018/\">Fall Major (2018)</a> tournament.\n","needleSpeed":0.75},
+  
+    {"name":"Touchdown","windResistance":1,"sideSpin":3,"power":3,"cost":"n/a","description":"These were part of a cash package around September of 2017 as well as the Touchdown tournament in early 2018. It's built for tailwind situations when you don't have a Berserker to spare. If you still have one, save it for tournaments so you can miss the weekend round by 1 stroke instead of 2.\n","needleSpeed":0.75},
+  
+    {"name":"Aero","windResistance":5,"sideSpin":1,"power":2,"cost":"n/a","description":"Another great tournament Par 3 ball with a useful 2nd shot kicker if you choose to use it that way. This aerodynamic little thing was originally available during the <a href=\"/tournaments/SouthCoast/\">South Coast</a> tournament. Use that little extra bit of power to your advantage. Hopefully it'll compensate for your other shortcomings...or maybe not.\n","needleSpeed":0.75},
+  
+    {"name":"Bandera","windResistance":5,"sideSpin":2,"power":1,"cost":"n/a","description":"This ball was available for purchase during the <a href=\"/tournaments/CincoDeMayo/\">Cinco de Mayo</a> tournament. Same stats as an Eye Ball, so pull this wind resistance ball out on Par 3s. It will absolutely give you a great chance at leaving the ball hanging on the rim of the cup.\n","needleSpeed":0.75},
+  
+    {"name":"Basic","windResistance":0,"sideSpin":0,"power":0,"cost":0,"description":"If it's free, it's for me! This is the ball you should be using for <em>at least</em> the first 4 tours and ideally until Tour 7 unless you're really running into problems. With the basic ball, what you see is what you get, and that's not much but we love it because it's simple, reliable and always willing to be our friend in spite of how bad we played in the Christmas tournament.\n","needleSpeed":0.7},
+  
+    {"name":"Anniversary","windResistance":3,"sideSpin":3,"power":3,"cost":"n/a","description":"Another reskinned King Maker to celebrate the 2nd Anniversary of Golf Clash. And to think, after all that time, we're all still great balling chips that will haunt our dreams until the 3rd Anniversary of Golf Clash.\n","needleSpeed":0.833},
+  
+    {"name":"Burns","windResistance":5,"sideSpin":1,"power":3,"cost":"n/a","description":"Just another ball, yo.\n","needleSpeed":1.2},
+  
+    {"name":"Firework","windResistance":2,"sideSpin":3,"power":4,"cost":"n/a","description":"The updated 2020 version.\n","needleSpeed":1.2},
+  
+    {"name":"Rival","windResistance":3,"sideSpin":3,"power":3,"cost":"n/a","description":"This reskinned King Maker commemorates yet another tragic collapse of the Americans on European soil. It's likely the European team were using these all around great balls to get a leg up on the Marlins sported by the American team. Rest assured, the U.S. will be bringing Royal balls in 2020.\n","needleSpeed":0.833},
+  
+    {"name":"Ichiban","windResistance":3,"sideSpin":3,"power":3,"cost":"n/a","description":"Another day, another King Maker. Carry on. **UNCONFIRMED NEEDLE SPEED**\n","needleSpeed":0.833},
+  
+    {"name":"Patriot","windResistance":3,"sideSpin":1,"power":3,"cost":"n/a","description":"This was part a cash package during the <a href=\"/tournaments/4thOfJuly/\">4th of July</a> tournament. It's identical to the Labor Day ball, which is enough to say it's a really good ball if you have it, and more than enough of an advantage for your opponent to put you down.\n","needleSpeed":0.833},
+  
+    {"name":"Striker","windResistance":3,"sideSpin":3,"power":3,"cost":"n/a","description":"This is nothing more than a skinner Kingmaker, which makes it nothing more than a great ball for virtually any situation. It was offered as part of a cash package during the <a href=\"/tournaments/VegasSundown/\">Vegas Sundown</a> tournament, and when you come up against one of these ball, my money is the other guy.\n","needleSpeed":0.75},
+  
+    {"name":"Season 18","windResistance":3,"sideSpin":1,"power":5,"cost":"n/a","description":"Just another Season Ball, yo. **UNCONFIRMED NEEDLE SPEED**\n","needleSpeed":0.75},
+  
+    {"name":"Marlin","windResistance":1,"sideSpin":1,"power":0,"cost":2.8,"description":"This is a dirt cheap ball that you may want to break out in Tours 5 and 6 if you run into a vicious losing streak and need a leg up or if you're facing a stiff headwind that will make it impossible to reach the green in 2. The side spin it gives you can also be the difference on the Tour 6 Southern Pines shootouts when you're working with a driver that lacks curl (e.g. EM5). You'll typically see <a href=\"https://i.imgur.com/JNhU5Tt.gif\" target=\"_blank\" rel=\"noopener\">Oprah</a> shelling these things out in pin chests like they were cars.\n","needleSpeed":0.7},
+  
+    {"name":"Werewolf","windResistance":4,"sideSpin":1,"power":4,"cost":"n/a","description":"Windy out there? Werewolf don't care. Need a little extra juice to get to that  second fairway out there and leave yourself with a short iron to the pin? Werewolf  there for you. Trying to get around a big dog leg left? Werewolf hope you know how to use curl. **UNCONFIRMED NEEDLE SPEED**\n","needleSpeed":0.75},
+  
+    {"name":"Vintage","windResistance":4,"sideSpin":1,"power":3,"cost":"n/a","description":"This ball was featured during the <a href=\"/tournaments/VintageOpen/\">Vintage Open</a> tournament. It's a duplicate of the Season 2 ball. Save this one for some tournament holes with stiff headwinds or maybe a Par 3 where the power will come in handy. Just don't ask it to turn around that trainwreck of a front 9 you just got through.\n","needleSpeed":0.833},
+  
+    {"name":"Crescent","windResistance":3,"sideSpin":1,"power":4,"cost":"n/a","description":"Lucky Pig. No better and no worse. Built for head winds.\n","needleSpeed":0.833},
+  
+    {"name":"Rudolph","windResistance":3,"sideSpin":3,"power":3,"cost":"n/a","description":"A ball that was for sale during the <a href=\"/tournaments/ChristmasLinks/\">Christmas Links</a> tournament. Nothing really special here since it's just a reskinned King Maker with a worse OP needle speed but if you're the collecting type, pull the trigger.\n","needleSpeed":0.833},
+  
+    {"name":"Pot O Gold","windResistance":3,"sideSpin":3,"power":2,"cost":"n/a","description":"This is pretty much a dressed up Katana with a bump in wind resistance. While this may not make it into the hall of fame it does make it a good ball for higher tour play, and it will definitely bring enough luck for your opponent to put their shot inside of yours on the shootout and make you run for that 3 stake special.\n","needleSpeed":0.833},
+  
+    {"name":"Fusion","windResistance":0,"sideSpin":2,"power":5,"cost":"n/a","description":"If you're feeling jilted by going up against opponents with Snow Globes, the Fusion ball should help you compensate. They were offered for purchase during the <a href=\"/tournaments/VintageOpen/\">Vintage Open</a> tournament. It lacks a little spin and the OP needle speed is a little higher but this should take away all your possible excuses for missing out on the albatross.\n","needleSpeed":0.833},
+  
+    {"name":"Pudding","windResistance":3,"sideSpin":2,"power":4,"cost":"n/a","description":"If you picked this ball up during the <a href=\"/tournaments/ChristmasLinks/\">Christmas Links</a> tournament, and you still had Dead or Royal balls hanging around, you may have made a mistake since this is a ball with the same stats but a worse OP need speed. But then again, you've made plenty of other poor decisions in your Golf Clash career haven't you?\n","needleSpeed":0.75},
+  
+    {"name":"Three Point","windResistance":5,"sideSpin":1,"power":3,"cost":"n/a","description":"Offered during the East Coast tournament, this 9 point ball adds some power to balls like the Endzone, Bauble and Turkey for just an extra bit of oomph in those high-wind situations. No other ball gives you this much power with top-level wind resistance. For now, at least. **UNCONFIRMED NEEDLE SPEED**\n","needleSpeed":0.75},
+  
+    {"name":"Zenith","windResistance":5,"sideSpin":3,"power":0,"cost":"n/a","description":"Kinda like the Oceania...only worse if you wanna OP.\n","needleSpeed":0.75},
+  
+    {"name":"Taxi","windResistance":2,"sideSpin":3,"power":4,"cost":"n/a","description":"First introduced just before the Fall Major of 2019. The Taxi is a  Fireworks ball without all the ... fireworks. Which is to say, no cool animations.\n","needleSpeed":1.2},
+  
+    {"name":"Reef","windResistance":3,"sideSpin":0,"power":5,"cost":"n/a","description":"A big power 5 ball with solid wind resistance and not one bit of sidespin. Got a long straight drive? This is your ball. **UNCONFIRMED NEEDLE SPEED**\n","needleSpeed":0.75},
+  
+    {"name":"Harvest","windResistance":2,"sideSpin":3,"power":3,"cost":"n/a","description":"The Harvest ball is an exact duplicate of the Country ball. So while it's a decent ball, there are many situations where you'll have better options. The design is very well done, just don't expect to harvest too many albatrosses with Sniper that can only seem to land great balls.\n","needleSpeed":0.833},
+  
+    {"name":"Country","windResistance":2,"sideSpin":3,"power":3,"cost":"n/a","description":"There were 17 of these gems offered right around the <a href=\"/tournaments/FootballFever/\">Football Fever</a> tournament. While they are really good balls, they may be a bit expensive (500 gems per pack) for what they really are. But if you have them, they combine the best attributes of the Katana and Titan. Hopefully your country was available so you can let your opponent know which country has the worst Golf Clash players!\n","needleSpeed":0.833},
+  
+    {"name":"Rose","windResistance":2,"sideSpin":2,"power":5,"cost":"n/a","description":"A rose by any other name is... just a rose. It's the only 2-2-5 ball in the game. For now. **UNCONFIRMED NEEDLE SPEED**\n","needleSpeed":0.75},
+  
+    {"name":"Luchador","windResistance":1,"sideSpin":2,"power":5,"cost":"n/a","description":"Exactly the same as a Berserker. Use it to bomb it off the tee...or don't. You do you.\n","needleSpeed":0.833}
+  
+]

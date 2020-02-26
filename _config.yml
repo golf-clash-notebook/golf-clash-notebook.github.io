@@ -1,0 +1,866 @@
+name: Golf Clash Notebook
+baseurl: ''
+description: An Open Source Guide to Mastering Golf Clash
+highlighter: rouge
+docs: true
+collections:
+  tut:
+    output: true
+sass:
+  load_paths:
+  - _sass
+  - css
+  style: compressed
+version: 0.1.0-SNAPSHOT
+org: Golf Clash Notebook
+page_gen-dirs: true
+page_gen:
+- name: courseName
+  data: courses
+  dir: courses
+  template: _includes/courses/individual-template.liquid
+  index_files: true
+- name: courseName
+  data: courses
+  dir: courses/notesheets
+  extra:
+    title-suffix: ' Notesheet'
+  template: _includes/courses/notes-template.liquid
+  index_files: true
+- name: number
+  data: tours
+  dir: tours
+  extra:
+    title-prefix: 'Tour '
+  template: _includes/tours/individual-template.liquid
+  index_files: true
+- name: tournamentName
+  data: tournaments
+  dir: tournaments
+  extra:
+    title-suffix: ' Tournament'
+  template: _includes/tournaments/individual-template.liquid
+  index_files: true
+- name: tournamentName
+  data: tournaments
+  dir: tournaments/notesheets
+  extra:
+    title-suffix: ' Tournament Notesheet'
+  template: _includes/tournaments/notes-template.liquid
+  index_files: true
+- name: number
+  data: courses.AcaciaReserve.holes
+  dir: courses/AcaciaReserve
+  extra:
+    title-prefix: 'Acacia Reserve - Hole '
+  template: _includes/courses/hole-template.liquid
+  index_files: true
+- name: number
+  data: courses.Christmas.holes
+  dir: courses/Christmas
+  extra:
+    title-prefix: 'Christmas - Hole '
+  template: _includes/courses/hole-template.liquid
+  index_files: true
+- name: number
+  data: courses.CityPark.holes
+  dir: courses/CityPark
+  extra:
+    title-prefix: 'City Park - Hole '
+  template: _includes/courses/hole-template.liquid
+  index_files: true
+- name: number
+  data: courses.CreepyCliffs.holes
+  dir: courses/CreepyCliffs
+  extra:
+    title-prefix: 'Creepy Cliffs - Hole '
+  template: _includes/courses/hole-template.liquid
+  index_files: true
+- name: number
+  data: courses.GlenmonarchEstate.holes
+  dir: courses/GlenmonarchEstate
+  extra:
+    title-prefix: 'Glenmonarch Estate - Hole '
+  template: _includes/courses/hole-template.liquid
+  index_files: true
+- name: number
+  data: courses.EaglePeak.holes
+  dir: courses/EaglePeak
+  extra:
+    title-prefix: 'Eagle Peak - Hole '
+  template: _includes/courses/hole-template.liquid
+  index_files: true
+- name: number
+  data: courses.GhostlyGlades.holes
+  dir: courses/GhostlyGlades
+  extra:
+    title-prefix: 'Ghostly Glades - Hole '
+  template: _includes/courses/hole-template.liquid
+  index_files: true
+- name: number
+  data: courses.GokashoBay.holes
+  dir: courses/GokashoBay
+  extra:
+    title-prefix: 'Gokasho Bay - Hole '
+  template: _includes/courses/hole-template.liquid
+  index_files: true
+- name: number
+  data: courses.GreenochPoint.holes
+  dir: courses/GreenochPoint
+  extra:
+    title-prefix: 'Greenoch Point - Hole '
+  template: _includes/courses/hole-template.liquid
+  index_files: true
+- name: number
+  data: courses.HauntedHills.holes
+  dir: courses/HauntedHills
+  extra:
+    title-prefix: 'Haunted Hills - Hole '
+  template: _includes/courses/hole-template.liquid
+  index_files: true
+- name: number
+  data: courses.JuniperPoint.holes
+  dir: courses/JuniperPoint
+  extra:
+    title-prefix: 'Juniper Point - Hole '
+  template: _includes/courses/hole-template.liquid
+  index_files: true
+- name: number
+  data: courses.KohHongResort.holes
+  dir: courses/KohHongResort
+  extra:
+    title-prefix: 'Koh Hong Resort - Hole '
+  template: _includes/courses/hole-template.liquid
+  index_files: true
+- name: number
+  data: courses.MapleBay.holes
+  dir: courses/MapleBay
+  extra:
+    title-prefix: 'Maple Bay - Hole '
+  template: _includes/courses/hole-template.liquid
+  index_files: true
+- name: number
+  data: courses.MeadowCastle.holes
+  dir: courses/MeadowCastle
+  extra:
+    title-prefix: 'Meadow Castle - Hole '
+  template: _includes/courses/hole-template.liquid
+  index_files: true
+- name: number
+  data: courses.NamhaeCliffs.holes
+  dir: courses/NamhaeCliffs
+  extra:
+    title-prefix: 'Namhae Cliffs - Hole '
+  template: _includes/courses/hole-template.liquid
+  index_files: true
+- name: number
+  data: courses.NordicFjords.holes
+  dir: courses/NordicFjords
+  extra:
+    title-prefix: 'Nordic Fjords - Hole '
+  template: _includes/courses/hole-template.liquid
+  index_files: true
+- name: number
+  data: courses.SakuraHills.holes
+  dir: courses/SakuraHills
+  extra:
+    title-prefix: 'Sakura Hills - Hole '
+  template: _includes/courses/hole-template.liquid
+  index_files: true
+- name: number
+  data: courses.ParcdeParis.holes
+  dir: courses/ParcdeParis
+  extra:
+    title-prefix: 'Parc de Paris - Hole '
+  template: _includes/courses/hole-template.liquid
+  index_files: true
+- name: number
+  data: courses.SantaVentura.holes
+  dir: courses/SantaVentura
+  extra:
+    title-prefix: 'Santa Ventura - Hole '
+  template: _includes/courses/hole-template.liquid
+  index_files: true
+- name: number
+  data: courses.SouthernPines.holes
+  dir: courses/SouthernPines
+  extra:
+    title-prefix: 'Southern Pines - Hole '
+  template: _includes/courses/hole-template.liquid
+  index_files: true
+- name: number
+  data: courses.SunshineGlades.holes
+  dir: courses/SunshineGlades
+  extra:
+    title-prefix: 'Sunshine Glades - Hole '
+  template: _includes/courses/hole-template.liquid
+  index_files: true
+- name: number
+  data: courses.TheMilano.holes
+  dir: courses/TheMilano
+  extra:
+    title-prefix: 'The Milano - Hole '
+  template: _includes/courses/hole-template.liquid
+  index_files: true
+- name: number
+  data: courses.TheOasis.holes
+  dir: courses/TheOasis
+  extra:
+    title-prefix: 'The Oasis - Hole '
+  template: _includes/courses/hole-template.liquid
+  index_files: true
+- name: number
+  data: courses.PorthelloCove.holes
+  dir: courses/PorthelloCove
+  extra:
+    title-prefix: 'Porthello Cove - Hole '
+  template: _includes/courses/hole-template.liquid
+  index_files: true
+- name: number
+  data: courses.Touchdown.holes
+  dir: courses/Touchdown
+  extra:
+    title-prefix: 'Touchdown - Hole '
+  template: _includes/courses/hole-template.liquid
+  index_files: true
+- name: number
+  data: courses.VineyardAcres.holes
+  dir: courses/VineyardAcres
+  extra:
+    title-prefix: 'Vineyard Acres - Hole '
+  template: _includes/courses/hole-template.liquid
+  index_files: true
+- name: number
+  data: courses.WhiteCliffs.holes
+  dir: courses/WhiteCliffs
+  extra:
+    title-prefix: 'White Cliffs - Hole '
+  template: _includes/courses/hole-template.liquid
+  index_files: true
+- name: number
+  data: courses.WinterLinks.holes
+  dir: courses/WinterLinks
+  extra:
+    title-prefix: 'Winter Links - Hole '
+  template: _includes/courses/hole-template.liquid
+  index_files: true
+- name: number
+  data: courses.WinterOlympics.holes
+  dir: courses/WinterOlympics
+  extra:
+    title-prefix: 'Winter Olympics - Hole '
+  template: _includes/courses/hole-template.liquid
+  index_files: true
+- name: number
+  data: courses.DrumoreLinks.holes
+  dir: courses/DrumoreLinks
+  extra:
+    title-prefix: 'Drumore Links - Hole '
+  template: _includes/courses/hole-template.liquid
+  index_files: true
+- name: number
+  data: courses.DreadedDunes.holes
+  dir: courses/DreadedDunes
+  extra:
+    title-prefix: 'Dreaded Dunes - Hole '
+  template: _includes/courses/hole-template.liquid
+  index_files: true
+- name: number
+  data: courses.GrunbergSlopes.holes
+  dir: courses/GrunbergSlopes
+  extra:
+    title-prefix: 'Grunberg Slopes - Hole '
+  template: _includes/courses/hole-template.liquid
+  index_files: true
+- name: number
+  data: courses.ShirubaSprings.holes
+  dir: courses/ShirubaSprings
+  extra:
+    title-prefix: 'Shiruba Springs - Hole '
+  template: _includes/courses/hole-template.liquid
+  index_files: true
+- name: number
+  data: tournaments.USChampions.holes
+  dir: tournaments/USChampions
+  extra:
+    tournamentName: US Champions
+    title-prefix: 'US Champions Tournament - Hole '
+  template: _includes/tournaments/hole-template.liquid
+  index_files: true
+- name: number
+  data: tournaments.AsiaPacific.holes
+  dir: tournaments/AsiaPacific
+  extra:
+    tournamentName: Asia Pacific
+    title-prefix: 'Asia Pacific Tournament - Hole '
+  template: _includes/tournaments/hole-template.liquid
+  index_files: true
+- name: number
+  data: tournaments.WestCoast.holes
+  dir: tournaments/WestCoast
+  extra:
+    tournamentName: West Coast
+    title-prefix: 'West Coast Tournament - Hole '
+  template: _includes/tournaments/hole-template.liquid
+  index_files: true
+- name: number
+  data: tournaments.4thOfJuly.holes
+  dir: tournaments/4thOfJuly
+  extra:
+    tournamentName: 4th Of July
+    title-prefix: '4th Of July Tournament - Hole '
+  template: _includes/tournaments/hole-template.liquid
+  index_files: true
+- name: number
+  data: tournaments.UKChampions.holes
+  dir: tournaments/UKChampions
+  extra:
+    tournamentName: UK Champions
+    title-prefix: 'UK Champions Tournament - Hole '
+  template: _includes/tournaments/hole-template.liquid
+  index_files: true
+- name: number
+  data: tournaments.SunshineOpen.holes
+  dir: tournaments/SunshineOpen
+  extra:
+    tournamentName: Sunshine Open
+    title-prefix: 'Sunshine Open Tournament - Hole '
+  template: _includes/tournaments/hole-template.liquid
+  index_files: true
+- name: number
+  data: tournaments.SakuraClassic.holes
+  dir: tournaments/SakuraClassic
+  extra:
+    tournamentName: Sakura Classic
+    title-prefix: 'Sakura Classic Tournament - Hole '
+  template: _includes/tournaments/hole-template.liquid
+  index_files: true
+- name: number
+  data: tournaments.LaborDay.holes
+  dir: tournaments/LaborDay
+  extra:
+    tournamentName: Labor Day
+    title-prefix: 'Labor Day Tournament - Hole '
+  template: _includes/tournaments/hole-template.liquid
+  index_files: true
+- name: number
+  data: tournaments.WineValley.holes
+  dir: tournaments/WineValley
+  extra:
+    tournamentName: Wine Valley
+    title-prefix: 'Wine Valley Tournament - Hole '
+  template: _includes/tournaments/hole-template.liquid
+  index_files: true
+- name: number
+  data: tournaments.HauntedHills.holes
+  dir: tournaments/HauntedHills
+  extra:
+    tournamentName: Haunted Hills
+    title-prefix: 'Haunted Hills Tournament - Hole '
+  template: _includes/tournaments/hole-template.liquid
+  index_files: true
+- name: number
+  data: tournaments.CreepyCliffs.holes
+  dir: tournaments/CreepyCliffs
+  extra:
+    tournamentName: Creepy Cliffs
+    title-prefix: 'Creepy Cliffs Tournament - Hole '
+  template: _includes/tournaments/hole-template.liquid
+  index_files: true
+- name: number
+  data: tournaments.CaliforniaClassic.holes
+  dir: tournaments/CaliforniaClassic
+  extra:
+    tournamentName: California Classic
+    title-prefix: 'California Classic Tournament - Hole '
+  template: _includes/tournaments/hole-template.liquid
+  index_files: true
+- name: number
+  data: tournaments.Thanksgiving.holes
+  dir: tournaments/Thanksgiving
+  extra:
+    tournamentName: Thanksgiving
+    title-prefix: 'Thanksgiving Tournament - Hole '
+  template: _includes/tournaments/hole-template.liquid
+  index_files: true
+- name: number
+  data: tournaments.WinterLinks.holes
+  dir: tournaments/WinterLinks
+  extra:
+    tournamentName: Winter Links
+    title-prefix: 'Winter Links Tournament - Hole '
+  template: _includes/tournaments/hole-template.liquid
+  index_files: true
+- name: number
+  data: tournaments.Christmas.holes
+  dir: tournaments/Christmas
+  extra:
+    tournamentName: Christmas
+    title-prefix: 'Christmas Tournament - Hole '
+  template: _includes/tournaments/hole-template.liquid
+  index_files: true
+- name: number
+  data: tournaments.1YearAnniversary.holes
+  dir: tournaments/1YearAnniversary
+  extra:
+    tournamentName: 1 Year Anniversary
+    title-prefix: '1 Year Anniversary Tournament - Hole '
+  template: _includes/tournaments/hole-template.liquid
+  index_files: true
+- name: number
+  data: tournaments.Touchdown.holes
+  dir: tournaments/Touchdown
+  extra:
+    tournamentName: Touchdown
+    title-prefix: 'Touchdown Tournament - Hole '
+  template: _includes/tournaments/hole-template.liquid
+  index_files: true
+- name: number
+  data: tournaments.WinterGames.holes
+  dir: tournaments/WinterGames
+  extra:
+    tournamentName: Winter Games
+    title-prefix: 'Winter Games Tournament - Hole '
+  template: _includes/tournaments/hole-template.liquid
+  index_files: true
+- name: number
+  data: tournaments.Hollywood.holes
+  dir: tournaments/Hollywood
+  extra:
+    tournamentName: Hollywood
+    title-prefix: 'Hollywood Tournament - Hole '
+  template: _includes/tournaments/hole-template.liquid
+  index_files: true
+- name: number
+  data: tournaments.StPatricks.holes
+  dir: tournaments/StPatricks
+  extra:
+    tournamentName: St. Patrick's
+    title-prefix: 'St. Patrick''s Tournament - Hole '
+  template: _includes/tournaments/hole-template.liquid
+  index_files: true
+- name: number
+  data: tournaments.EasterLinks.holes
+  dir: tournaments/EasterLinks
+  extra:
+    tournamentName: Easter Links
+    title-prefix: 'Easter Links Tournament - Hole '
+  template: _includes/tournaments/hole-template.liquid
+  index_files: true
+- name: number
+  data: tournaments.SpringMajor2018.holes
+  dir: tournaments/SpringMajor2018
+  extra:
+    tournamentName: Spring Major 2018
+    title-prefix: 'Spring Major 2018 Tournament - Hole '
+  template: _includes/tournaments/hole-template.liquid
+  index_files: true
+- name: number
+  data: tournaments.EarthDay.holes
+  dir: tournaments/EarthDay
+  extra:
+    tournamentName: Earth Day
+    title-prefix: 'Earth Day Tournament - Hole '
+  template: _includes/tournaments/hole-template.liquid
+  index_files: true
+- name: number
+  data: tournaments.CincoDeMayo.holes
+  dir: tournaments/CincoDeMayo
+  extra:
+    tournamentName: Cinco De Mayo
+    title-prefix: 'Cinco De Mayo Tournament - Hole '
+  template: _includes/tournaments/hole-template.liquid
+  index_files: true
+- name: number
+  data: tournaments.RoyalOpen.holes
+  dir: tournaments/RoyalOpen
+  extra:
+    tournamentName: Royal Open
+    title-prefix: 'Royal Open Tournament - Hole '
+  template: _includes/tournaments/hole-template.liquid
+  index_files: true
+- name: number
+  data: tournaments.VegasSundown.holes
+  dir: tournaments/VegasSundown
+  extra:
+    tournamentName: Vegas Sundown
+    title-prefix: 'Vegas Sundown Tournament - Hole '
+  template: _includes/tournaments/hole-template.liquid
+  index_files: true
+- name: number
+  data: tournaments.NewYorkClassic.holes
+  dir: tournaments/NewYorkClassic
+  extra:
+    tournamentName: New York Classic
+    title-prefix: 'New York Classic Tournament - Hole '
+  template: _includes/tournaments/hole-template.liquid
+  index_files: true
+- name: number
+  data: tournaments.FootballFever.holes
+  dir: tournaments/FootballFever
+  extra:
+    tournamentName: Football Fever
+    title-prefix: 'Football Fever Tournament - Hole '
+  template: _includes/tournaments/hole-template.liquid
+  index_files: true
+- name: number
+  data: tournaments.DesertOpen.holes
+  dir: tournaments/DesertOpen
+  extra:
+    tournamentName: Desert Open
+    title-prefix: 'Desert Open Tournament - Hole '
+  template: _includes/tournaments/hole-template.liquid
+  index_files: true
+- name: number
+  data: tournaments.OriginLinks.holes
+  dir: tournaments/OriginLinks
+  extra:
+    tournamentName: Origin Links
+    title-prefix: 'Origin Links Tournament - Hole '
+  template: _includes/tournaments/hole-template.liquid
+  index_files: true
+- name: number
+  data: tournaments.ClubOceania.holes
+  dir: tournaments/ClubOceania
+  extra:
+    tournamentName: Club Oceania
+    title-prefix: 'Club Oceania Tournament - Hole '
+  template: _includes/tournaments/hole-template.liquid
+  index_files: true
+- name: number
+  data: tournaments.SummerMajor2018.holes
+  dir: tournaments/SummerMajor2018
+  extra:
+    tournamentName: Summer Major 2018
+    title-prefix: 'Summer Major 2018 Tournament - Hole '
+  template: _includes/tournaments/hole-template.liquid
+  index_files: true
+- name: number
+  data: tournaments.LaborDay2018.holes
+  dir: tournaments/LaborDay2018
+  extra:
+    tournamentName: Labor Day 2018
+    title-prefix: 'Labor Day 2018 Tournament - Hole '
+  template: _includes/tournaments/hole-template.liquid
+  index_files: true
+- name: number
+  data: tournaments.Voyager.holes
+  dir: tournaments/Voyager
+  extra:
+    tournamentName: Voyager
+    title-prefix: 'Voyager Tournament - Hole '
+  template: _includes/tournaments/hole-template.liquid
+  index_files: true
+- name: number
+  data: tournaments.MetroOpen.holes
+  dir: tournaments/MetroOpen
+  extra:
+    tournamentName: Metro Open
+    title-prefix: 'Metro Open Tournament - Hole '
+  template: _includes/tournaments/hole-template.liquid
+  index_files: true
+- name: number
+  data: tournaments.PlatinumResorts.holes
+  dir: tournaments/PlatinumResorts
+  extra:
+    tournamentName: Platinum Resorts
+    title-prefix: 'Platinum Resorts Tournament - Hole '
+  template: _includes/tournaments/hole-template.liquid
+  index_files: true
+- name: number
+  data: tournaments.GhostlyGlades.holes
+  dir: tournaments/GhostlyGlades
+  extra:
+    tournamentName: Ghostly Glades
+    title-prefix: 'Ghostly Glades Tournament - Hole '
+  template: _includes/tournaments/hole-template.liquid
+  index_files: true
+- name: number
+  data: tournaments.Mountain.holes
+  dir: tournaments/Mountain
+  extra:
+    tournamentName: Mountain
+    title-prefix: 'Mountain Tournament - Hole '
+  template: _includes/tournaments/hole-template.liquid
+  index_files: true
+- name: number
+  data: tournaments.FallMajor2018.holes
+  dir: tournaments/FallMajor2018
+  extra:
+    tournamentName: Fall Major 2018
+    title-prefix: 'Fall Major 2018 Tournament - Hole '
+  template: _includes/tournaments/hole-template.liquid
+  index_files: true
+- name: number
+  data: tournaments.FestiveCup.holes
+  dir: tournaments/FestiveCup
+  extra:
+    tournamentName: Festive Cup
+    title-prefix: 'Festive Cup Tournament - Hole '
+  template: _includes/tournaments/hole-template.liquid
+  index_files: true
+- name: number
+  data: tournaments.ChristmasLinks.holes
+  dir: tournaments/ChristmasLinks
+  extra:
+    tournamentName: Christmas Links
+    title-prefix: 'Christmas Links Tournament - Hole '
+  template: _includes/tournaments/hole-template.liquid
+  index_files: true
+- name: number
+  data: tournaments.WinterSlopes.holes
+  dir: tournaments/WinterSlopes
+  extra:
+    tournamentName: Winter Slopes
+    title-prefix: 'Winter Slopes Tournament - Hole '
+  template: _includes/tournaments/hole-template.liquid
+  index_files: true
+- name: number
+  data: tournaments.2ndAnniversary.holes
+  dir: tournaments/2ndAnniversary
+  extra:
+    tournamentName: 2nd Anniversary
+    title-prefix: '2nd Anniversary Tournament - Hole '
+  template: _includes/tournaments/hole-template.liquid
+  index_files: true
+- name: number
+  data: tournaments.Gridiron.holes
+  dir: tournaments/Gridiron
+  extra:
+    tournamentName: Gridiron
+    title-prefix: 'Gridiron Tournament - Hole '
+  template: _includes/tournaments/hole-template.liquid
+  index_files: true
+- name: number
+  data: tournaments.WinterMajor2019.holes
+  dir: tournaments/WinterMajor2019
+  extra:
+    tournamentName: Winter Major 2019
+    title-prefix: 'Winter Major 2019 Tournament - Hole '
+  template: _includes/tournaments/hole-template.liquid
+  index_files: true
+- name: number
+  data: tournaments.CommunityCup.holes
+  dir: tournaments/CommunityCup
+  extra:
+    tournamentName: Community Cup
+    title-prefix: 'Community Cup Tournament - Hole '
+  template: _includes/tournaments/hole-template.liquid
+  index_files: true
+- name: number
+  data: tournaments.VintageOpen.holes
+  dir: tournaments/VintageOpen
+  extra:
+    tournamentName: Vintage Open
+    title-prefix: 'Vintage Open Tournament - Hole '
+  template: _includes/tournaments/hole-template.liquid
+  index_files: true
+- name: number
+  data: tournaments.SouthCoast.holes
+  dir: tournaments/SouthCoast
+  extra:
+    tournamentName: South Coast
+    title-prefix: 'South Coast Tournament - Hole '
+  template: _includes/tournaments/hole-template.liquid
+  index_files: true
+- name: number
+  data: tournaments.SouthernPines9HoleCup.holes
+  dir: tournaments/SouthernPines9HoleCup
+  extra:
+    tournamentName: Southern Pines 9 Hole Cup
+    title-prefix: 'Southern Pines 9 Hole Cup Tournament - Hole '
+  template: _includes/tournaments/hole-template.liquid
+  index_files: true
+- name: number
+  data: tournaments.EasterOpen.holes
+  dir: tournaments/EasterOpen
+  extra:
+    tournamentName: Easter Open
+    title-prefix: 'Easter Open Tournament - Hole '
+  template: _includes/tournaments/hole-template.liquid
+  index_files: true
+- name: number
+  data: tournaments.TropicKings.holes
+  dir: tournaments/TropicKings
+  extra:
+    tournamentName: Tropic Kings
+    title-prefix: 'Tropic Kings Tournament - Hole '
+  template: _includes/tournaments/hole-template.liquid
+  index_files: true
+- name: number
+  data: tournaments.SpringMajor2019.holes
+  dir: tournaments/SpringMajor2019
+  extra:
+    tournamentName: Spring Major 2019
+    title-prefix: 'Spring Major 2019 - Hole '
+  template: _includes/tournaments/hole-template.liquid
+  index_files: true
+- name: number
+  data: tournaments.SkylineCup.holes
+  dir: tournaments/SkylineCup
+  extra:
+    tournamentName: Skyline Cup
+    title-prefix: 'Skyline Cup - Hole '
+  template: _includes/tournaments/hole-template.liquid
+  index_files: true
+- name: number
+  data: tournaments.AmericanaClassic.holes
+  dir: tournaments/AmericanaClassic
+  extra:
+    tournamentName: Americana Classic
+    title-prefix: 'Americana Classic - Hole '
+  template: _includes/tournaments/hole-template.liquid
+  index_files: true
+- name: number
+  data: tournaments.FujiOpen.holes
+  dir: tournaments/FujiOpen
+  extra:
+    tournamentName: Fuji Open
+    title-prefix: 'Fuji Open - Hole '
+  template: _includes/tournaments/hole-template.liquid
+  index_files: true
+- name: number
+  data: tournaments.ClifftopLinks.holes
+  dir: tournaments/ClifftopLinks
+  extra:
+    tournamentName: Clifftop Links
+    title-prefix: 'Clifftop Links - Hole '
+  template: _includes/tournaments/hole-template.liquid
+  index_files: true
+- name: number
+  data: tournaments.Glenmonarch9HoleCup.holes
+  dir: tournaments/Glenmonarch9HoleCup
+  extra:
+    tournamentName: Glenmonarch 9 Hole Cup
+    title-prefix: 'Glenmonarch 9 Hole Cup - Hole '
+  template: _includes/tournaments/hole-template.liquid
+  index_files: true
+- name: number
+  data: tournaments.SummerMajor2019.holes
+  dir: tournaments/SummerMajor2019
+  extra:
+    tournamentName: Summer Major 2019
+    title-prefix: 'Summer Major 2019 - Hole '
+  template: _includes/tournaments/hole-template.liquid
+  index_files: true
+- name: number
+  data: tournaments.GreatOutdoors.holes
+  dir: tournaments/GreatOutdoors
+  extra:
+    tournamentName: Great Outdoors
+    title-prefix: 'Great Outdoors - Hole '
+  template: _includes/tournaments/hole-template.liquid
+  index_files: true
+- name: number
+  data: tournaments.CoastalClassic.holes
+  dir: tournaments/CoastalClassic
+  extra:
+    tournamentName: Coastal Classic
+    title-prefix: 'Coastal Classic - Hole '
+  template: _includes/tournaments/hole-template.liquid
+  index_files: true
+- name: number
+  data: tournaments.CelticCup.holes
+  dir: tournaments/CelticCup
+  extra:
+    tournamentName: Celtic Cup
+    title-prefix: 'Celtic Cup - Hole '
+  template: _includes/tournaments/hole-template.liquid
+  index_files: true
+- name: number
+  data: tournaments.CityOfLight.holes
+  dir: tournaments/CityOfLight
+  extra:
+    tournamentName: City Of Light
+    title-prefix: 'City of Light - Hole '
+  template: _includes/tournaments/hole-template.liquid
+  index_files: true
+- name: number
+  data: tournaments.SilverState.holes
+  dir: tournaments/SilverState
+  extra:
+    tournamentName: Silver State
+    title-prefix: 'Silver State - Hole '
+  template: _includes/tournaments/hole-template.liquid
+  index_files: true
+- name: number
+  data: tournaments.MonsterMarsh.holes
+  dir: tournaments/MonsterMarsh
+  extra:
+    tournamentName: Monster Marsh
+    title-prefix: 'Monster Marsh - Hole '
+  template: _includes/tournaments/hole-template.liquid
+  index_files: true
+- name: number
+  data: tournaments.DreadedDunes.holes
+  dir: tournaments/DreadedDunes
+  extra:
+    tournamentName: Dreaded Dunes
+    title-prefix: 'Dreaded Dunes - Hole '
+  template: _includes/tournaments/hole-template.liquid
+  index_files: true
+- name: number
+  data: tournaments.EastCoast.holes
+  dir: tournaments/EastCoast
+  extra:
+    tournamentName: East Coast
+    title-prefix: 'East Coast - Hole '
+  template: _includes/tournaments/hole-template.liquid
+  index_files: true
+- name: number
+  data: tournaments.FallMajor2019.holes
+  dir: tournaments/FallMajor2019
+  extra:
+    tournamentName: Fall Major 2019
+    title-prefix: 'Fall Major 2019 - Hole '
+  template: _includes/tournaments/hole-template.liquid
+  index_files: true
+- name: number
+  data: tournaments.HolidayHills.holes
+  dir: tournaments/HolidayHills
+  extra:
+    tournamentName: Holiday Hills
+    title-prefix: 'Holiday Hills - Hole '
+  template: _includes/tournaments/hole-template.liquid
+  index_files: true
+- name: number
+  data: tournaments.Christmas2019.holes
+  dir: tournaments/Christmas2019
+  extra:
+    tournamentName: Christmas 2019
+    title-prefix: 'Christmas 2019 - Hole '
+  template: _includes/tournaments/hole-template.liquid
+  index_files: true
+- name: number
+  data: tournaments.PacificCup.holes
+  dir: tournaments/PacificCup
+  extra:
+    tournamentName: Pacific Cup
+    title-prefix: 'Pacific Cup - Hole '
+  template: _includes/tournaments/hole-template.liquid
+  index_files: true
+- name: number
+  data: tournaments.3rdAnniversary.holes
+  dir: tournaments/3rdAnniversary
+  extra:
+    tournamentName: 3rd Anniversary
+    title-prefix: '3rd Anniversary - Hole '
+  template: _includes/tournaments/hole-template.liquid
+  index_files: true
+- name: number
+  data: tournaments.Touchdown2020.holes
+  dir: tournaments/Touchdown2020
+  extra:
+    tournamentName: Touchdown2020
+    title-prefix: 'Touchdown2020 - Hole '
+  template: _includes/tournaments/hole-template.liquid
+  index_files: true
+- name: number
+  data: tournaments.WinterMajor2020.holes
+  dir: tournaments/WinterMajor2020
+  extra:
+    tournamentName: Winter Major 2020
+    title-prefix: 'Winter Major 2020 - Hole '
+  template: _includes/tournaments/hole-template.liquid
+  index_files: true
+markdown: kramdown
