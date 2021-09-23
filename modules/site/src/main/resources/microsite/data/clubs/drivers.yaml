@@ -143,3 +143,55 @@
   backspin:  [ 50]
   curl:      [ 60]
   ballguide: [2.1]
+- id: 4e8a966e-b8d9-4a7c-9a98-bbe6290ba3db
+  name: Fixed Driver Rookie
+  category: Drivers
+  tour: 0
+  type: Fixed
+  description: >
+    Fixed Driver for Rookie Division. Only used in those strange fixed club tournaments.
+  power:     [200]
+  accuracy:  [ 70]
+  topspin:   [ 50]
+  backspin:  [ 50]
+  curl:      [ 80]
+  ballguide: [2.7]
+- id: 3daa19d8-afda-4491-a567-6426e15a7a5e
+  name: Fixed Driver Pro
+  category: Drivers
+  tour: 0
+  type: Fixed
+  description: >
+    Fixed Driver for Pro Division. Only used in those strange fixed club tournaments.
+  power:     [220]
+  accuracy:  [ 60]
+  topspin:   [ 50]
+  backspin:  [ 50]
+  curl:      [ 80]
+  ballguide: [2.6]
+- id: 421c519b-586b-4410-b9e6-3e31cf4b1705
+  name: Fixed Driver Expert
+  category: Drivers
+  tour: 0
+  type: Fixed
+  description: >
+    Fixed Driver for Expert Division. Only used in those strange fixed club tournaments.
+  power:     [220]
+  accuracy:  [ 50]
+  topspin:   [ 50]
+  backspin:  [ 50]
+  curl:      [ 80]
+  ballguide: [2.5]
+- id: 7dfbf189-6325-48dc-9790-c679c5708f00
+  name: Fixed Driver Master
+  category: Drivers
+  tour: 0
+  type: Fixed
+  description: >
+    Fixed Driver for Master Division. Only used in those strange fixed club tournaments.
+  power:     [235]
+  accuracy:  [ 40]
+  topspin:   [ 50]
+  backspin:  [ 50]
+  curl:      [ 80]
+  ballguide: [2.4]

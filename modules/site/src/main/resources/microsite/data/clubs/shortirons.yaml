@@ -137,3 +137,55 @@
   backspin:  [ 50]
   curl:      [ 30]
   ballguide: [1.7]
+- id: 1e57bb25-0f4b-49f6-bec5-992888e4ecfc
+  name: Fixed Short Iron Rookie
+  category: ShortIrons
+  tour: 0
+  type: Fixed
+  description: >
+    Fixed Short Iron for Rookie Division. Only used in those strange fixed club tournaments.
+  power:     [ 87]
+  accuracy:  [ 70]
+  topspin:   [ 50]
+  backspin:  [ 50]
+  curl:      [ 80]
+  ballguide: [2.7]
+- id: 939e6eab-b418-4f63-b29c-acc525b52a03
+  name: Fixed Short Iron Pro
+  category: ShortIrons
+  tour: 0
+  type: Fixed
+  description: >
+    Fixed Short Iron for Pro Division. Only used in those strange fixed club tournaments.
+  power:     [ 87]
+  accuracy:  [ 60]
+  topspin:   [ 50]
+  backspin:  [ 50]
+  curl:      [ 80]
+  ballguide: [2.6]
+- id: d03d93b8-3018-4514-83c2-64e95818cbf3
+  name: Fixed Short Iron Expert
+  category: ShortIrons
+  tour: 0
+  type: Fixed
+  description: >
+    Fixed Short Iron for Expert Division. Only used in those strange fixed club tournaments.
+  power:     [ 87]
+  accuracy:  [ 50]
+  topspin:   [ 50]
+  backspin:  [ 50]
+  curl:      [ 80]
+  ballguide: [2.5]
+- id: cdde4d11-7e94-4d83-b5ca-76ecf1c658bf
+  name: Fixed Short Iron Master
+  category: ShortIrons
+  tour: 0
+  type: Fixed
+  description: >
+    Fixed Short Iron for Master Division. Only used in those strange fixed club tournaments.
+  power:     [ 87]
+  accuracy:  [ 40]
+  topspin:   [ 50]
+  backspin:  [ 50]
+  curl:      [ 80]
+  ballguide: [2.4]

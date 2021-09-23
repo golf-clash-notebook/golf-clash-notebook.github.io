@@ -40,13 +40,14 @@
 }
 
 #nav-affix-wrapper {
-  height: 42px;
+  height: 48px;
 }
 
 #nav-container {
   display: flex;
   justify-content: center;
   z-index: 1000;
+  padding-top: 8px;
 
   > ul.horizontalNav {
     box-sizing: border-box;

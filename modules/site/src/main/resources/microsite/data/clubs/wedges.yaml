@@ -136,3 +136,55 @@
   backspin:  [ 20]
   curl:      [ 20]
   ballguide: [1.7]
+- id: 53ecdb25-3cd2-4c45-b12c-c6e2f22b9577
+  name: Fixed Wedge Rookie
+  category: Wedges
+  tour: 0
+  type: Fixed
+  description: >
+    Fixed Wedge for Rookie Division. Only used in those strange fixed club tournaments.
+  power:     [ 43]
+  accuracy:  [ 70]
+  topspin:   [ 50]
+  backspin:  [ 50]
+  curl:      [ 80]
+  ballguide: [2.7]
+- id: 8bf7683d-5c2e-40c1-a59a-339ebc81eee9
+  name: Fixed Wedge Pro
+  category: Wedges
+  tour: 0
+  type: Fixed
+  description: >
+    Fixed Wedge for Pro Division. Only used in those strange fixed club tournaments.
+  power:     [ 43]
+  accuracy:  [ 60]
+  topspin:   [ 50]
+  backspin:  [ 50]
+  curl:      [ 80]
+  ballguide: [2.6]
+- id: 4ddf11fd-d012-4a09-b4c6-5579cf39ce46
+  name: Fixed Wedge Expert
+  category: Wedges
+  tour: 0
+  type: Fixed
+  description: >
+    Fixed Wedge for Expert Division. Only used in those strange fixed club tournaments.
+  power:     [ 43]
+  accuracy:  [ 50]
+  topspin:   [ 50]
+  backspin:  [ 50]
+  curl:      [ 80]
+  ballguide: [2.5]
+- id: 1233953a-b5b9-4234-ada7-dc24c9682993
+  name: Fixed Wedge Master
+  category: Wedges
+  tour: 0
+  type: Fixed
+  description: >
+    Fixed Wedge for Master Division. Only used in those strange fixed club tournaments.
+  power:     [ 43]
+  accuracy:  [ 40]
+  topspin:   [ 50]
+  backspin:  [ 50]
+  curl:      [ 80]
+  ballguide: [2.4]

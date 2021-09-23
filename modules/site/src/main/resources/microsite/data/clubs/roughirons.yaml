@@ -121,3 +121,55 @@
   backspin:  [ 20,  20,  38,  38,  44,  44,  58,  65,  70]
   curl:      [ 40,  40,  40,  55,  55,  62,  62,  87,  98]
   ballguide: [2.9, 3.3, 3.5, 3.5, 3.9, 3.9, 4.5, 4.5, 4.5]
+- id: 1f75f159-b1b9-4b07-bd55-602fee5df75e
+  name: Fixed Rough Iron Rookie
+  category: RoughIrons
+  tour: 0
+  type: Fixed
+  description: >
+    Fixed Rough Iron for Rookie Division. Only used in those strange fixed club tournaments.
+  power:     [120]
+  accuracy:  [ 70]
+  topspin:   [ 50]
+  backspin:  [ 50]
+  curl:      [ 80]
+  ballguide: [2.0]
+- id: 3812350e-efae-42af-bcb9-bd7a60c2a0d1
+  name: Fixed Rough Iron Pro
+  category: RoughIrons
+  tour: 0
+  type: Fixed
+  description: >
+    Fixed Rough Iron for Pro Division. Only used in those strange fixed club tournaments.
+  power:     [120]
+  accuracy:  [ 60]
+  topspin:   [ 50]
+  backspin:  [ 50]
+  curl:      [ 80]
+  ballguide: [1.9]
+- id: 2d7c8608-50b6-48d3-86a8-a07fcc8d0275
+  name: Fixed Rough Iron Expert
+  category: RoughIrons
+  tour: 0
+  type: Fixed
+  description: >
+    Fixed Rough Iron for Expert Division. Only used in those strange fixed club tournaments.
+  power:     [120]
+  accuracy:  [ 50]
+  topspin:   [ 50]
+  backspin:  [ 50]
+  curl:      [ 80]
+  ballguide: [1.8]
+- id: 5468c410-3e29-4c5c-b459-7b8177427d01
+  name: Fixed Rough Iron Master
+  category: RoughIrons
+  tour: 0
+  type: Fixed
+  description: >
+    Fixed Rough Iron for Master Division. Only used in those strange fixed club tournaments.
+  power:     [120]
+  accuracy:  [ 40]
+  topspin:   [ 50]
+  backspin:  [ 50]
+  curl:      [ 80]
+  ballguide: [1.7]
