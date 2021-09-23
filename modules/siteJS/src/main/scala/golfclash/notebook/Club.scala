@@ -34,18 +34,18 @@ import monix.eval.Task
 import monix.execution.Scheduler.Implicits.global
 
 case class Club(
-  id: String,
-  name: String,
-  category: String,
-  tour: Int,
-  `type`: String,
-  description: String,
-  power: List[Int],
-  accuracy: List[Int],
-  topspin: List[Int],
-  backspin: List[Int],
-  curl: List[Int],
-  ballguide: List[Double]
+    id: String,
+    name: String,
+    category: String,
+    tour: Int,
+    `type`: String,
+    description: String,
+    power: List[Int],
+    accuracy: List[Int],
+    topspin: List[Int],
+    backspin: List[Int],
+    curl: List[Int],
+    ballguide: List[Double]
 ) {
 
   val clubCategory: Option[Club.Category] = Club.Category.fromString(category)

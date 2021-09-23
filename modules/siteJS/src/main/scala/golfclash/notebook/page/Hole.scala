@@ -41,12 +41,12 @@ object Course {
 }
 
 case class Hole(
-  id: String,
-  course: String,
-  number: Int,
-  par: Int,
-  replayName: String,
-  description: String
+    id: String,
+    course: String,
+    number: Int,
+    par: Int,
+    replayName: String,
+    description: String
 )
 
 case class HoleRating(holeId: String, rating: Double)

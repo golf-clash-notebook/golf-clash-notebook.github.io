@@ -3,4 +3,4 @@
 source 'https://rubygems.org'
 
 # Middleman Gems
-gem 'jekyll', '3.8.5'
+gem 'jekyll', '4.2.0'

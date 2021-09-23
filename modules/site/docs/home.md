@@ -44,12 +44,6 @@ position: 0
 </div>
 
 <div class="row">
-  <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 col-sm-12">
-    {% include schedule/stream-schedule.liquid %}
-  </div>
-</div>
-
-<div class="row">
 
   <div class="col-xs-12">
     <hr class="hr-text text-large" data-content="Features">

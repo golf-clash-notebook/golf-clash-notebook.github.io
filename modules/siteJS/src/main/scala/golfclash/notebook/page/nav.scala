@@ -155,7 +155,7 @@ object nav {
       }
 
     jQuery("ul.horizontalNav li a").each { element =>
-      if (jQuery(element).text.toLowerCase == currentSection) {
+      if (jQuery(element).text().toLowerCase == currentSection) {
 
         jQuery(element).addClass("active")
 

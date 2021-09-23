@@ -28,17 +28,17 @@ object core {
 
   case class HoleData(id: String, aliases: List[String])
   case class HoleNote(
-    id: Option[String],
-    userId: String,
-    holeId: String,
-    category: String,
-    content: String
+      id: Option[String],
+      userId: String,
+      holeId: String,
+      category: String,
+      content: String
   )
 
   case class ClubRatings(clubId: String, levelRatings: List[Double])
   case class HoleClubRatings(
-    holeId: String,
-    ratings: Map[String, List[Double]]
+      holeId: String,
+      ratings: Map[String, List[Double]]
   ) {
     def update(club: Club, level: Int, rating: Double): HoleClubRatings = {
       val newRatings =

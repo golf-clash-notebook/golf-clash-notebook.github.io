@@ -24,8 +24,7 @@
 
 package golfclash.notebook
 
-/**
-  * The meat of the wind calculation. If you're here to understand how this calculation is done
+/** The meat of the wind calculation. If you're here to understand how this calculation is done
   * check out the [[windPerRing]] function. The last parameter, 'power' is typically the output of
   * either {min|mid|max}Power functions.
   */
@@ -48,7 +47,9 @@ object wind {
   }
 
   def windPerRing(club: Club, level: Int, power: Double): Double = {
-    (1d + ((100d - club.accuracy(level - 1)) * 0.02)) * windCategoryMultiplier(club.clubCategory) / power * ruleBasedCorrection(
+    (1d + ((100d - club.accuracy(level - 1)) * 0.02)) * windCategoryMultiplier(
+      club.clubCategory
+    ) / power * ruleBasedCorrection(
       club,
       level
     )
@@ -98,9 +99,11 @@ object wind {
   }
 
   def ruleBasedCorrection(club: Club, level: Int): Double = {
-    if ((club.name
-          .toLowerCase()
-          .contains("b52") || club.name.toLowerCase().contains("grizzly")) && level >= 5) {
+    if (
+      (club.name
+        .toLowerCase()
+        .contains("b52") || club.name.toLowerCase().contains("grizzly")) && level >= 5
+    ) {
       0.9
     } else {
       1.0

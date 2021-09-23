@@ -24,7 +24,7 @@
 
 package golfclash.notebook
 
-import scala.concurrent.{ Promise => ScalaPromise }
+import scala.concurrent.{Promise => ScalaPromise}
 
 import java.time._
 
@@ -248,7 +248,10 @@ object store {
             if (docSnapshot.exists) {
               promise.success(decodeJs[Schedule](docSnapshot.data()).toOption)
             } else {
-              fresh().flatMap(store).map(schedule => promise.success(Some(schedule))).runAsync
+              fresh()
+                .flatMap(store)
+                .map(schedule => promise.success(Some(schedule)))
+                .runAsyncAndForget
             }
           },
           error => promise.success(None)

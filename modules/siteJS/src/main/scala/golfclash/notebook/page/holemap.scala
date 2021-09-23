@@ -106,15 +106,15 @@ object holemap {
           val maxLength       = lengths.foldLeft(0)(_.max(_))
           val annotationDelay = pathLengthToDuration(maxLength)
 
-          jQuery(".guide-image-annotation").each(
-            (ix, element) => initGuideImageAnnotation(element, annotationDelay + (ix * 0.25))
+          jQuery(".guide-image-annotation").each((ix, element) =>
+            initGuideImageAnnotation(element, annotationDelay + (ix * 0.25))
           )
 
         }
       }
     } else {
-      jQuery(".guide-image-annotation").each(
-        (ix, element) => initGuideImageAnnotation(element, 0.25 + (ix * 0.25))
+      jQuery(".guide-image-annotation").each((ix, element) =>
+        initGuideImageAnnotation(element, 0.25 + (ix * 0.25))
       )
     }
   }
@@ -126,7 +126,7 @@ object holemap {
   def guideLength(level: String, guideNum: Int): Int = {
     jQuery(s".$level-guide-overlay:eq($guideNum) > .guide-path")
       .map(_.asInstanceOf[js.Dynamic].getTotalLength())
-      .toArray
+      .toArray()
       .map(_.asInstanceOf[Double])
       .foldLeft(0)(_ + _.toInt)
   }
@@ -134,7 +134,7 @@ object holemap {
   def segmentLength(level: String, guideNum: Int, segmentNum: Int): List[Int] = {
     jQuery(s".$level-guide-overlay:eq($guideNum) > .guide-path[data-guide-segment='$segmentNum']")
       .map(_.asInstanceOf[js.Dynamic].getTotalLength())
-      .toArray
+      .toArray()
       .map(_.asInstanceOf[Double].toInt)
       .toList
     // .foldLeft(0)((max, segLength) => max.max(segLength.toInt))
@@ -188,9 +188,11 @@ object holemap {
     val annotationLineAnimationDuration   = 0.5
     val annotationCircleAnimationDuration = 0.5
 
-    val annotationImageAnimationDelay  = delay
-    val annotationLineAnimationDelay   = annotationImageAnimationDelay + annotationImageAnimationDuration
-    val annotationCircleAnimationDelay = annotationLineAnimationDelay + annotationLineAnimationDuration
+    val annotationImageAnimationDelay = delay
+    val annotationLineAnimationDelay =
+      annotationImageAnimationDelay + annotationImageAnimationDuration
+    val annotationCircleAnimationDelay =
+      annotationLineAnimationDelay + annotationLineAnimationDuration
 
     val jqAnnotation = jQuery(annotation)
 
@@ -239,7 +241,7 @@ object holemap {
             (data.id :: data.aliases)
               .traverse(holeId => store.notes.holeNotesForUser(user, holeId))
               .map(_.flatten.foreach(addNote))
-              .runAsync
+              .runAsyncAndForget
           }
 
           jQuery("#user-notes").removeClass("hidden")
@@ -282,7 +284,7 @@ object holemap {
     jQuery("#note-save-btn").click { () =>
       CurrentHoleNote match {
         case Some(noteToUpdate) => {
-          noteFromForm.map { newNote =>
+          noteFromForm().map { newNote =>
             store.notes
               .updateNote(
                 noteToUpdate.copy(
@@ -293,17 +295,17 @@ object holemap {
               .map { updatedNote =>
                 updateNote(updatedNote)
               }
-              .runAsync
+              .runAsyncAndForget
           }
         }
         case None => {
-          noteFromForm.map { newNote =>
+          noteFromForm().map { newNote =>
             store.notes
               .saveNote(newNote)
               .map { savedNote =>
                 addNote(savedNote)
               }
-              .runAsync
+              .runAsyncAndForget
           }
         }
       }
@@ -331,9 +333,9 @@ object holemap {
   def editNote(note: HoleNote) = {
     CurrentHoleNote = Some(note)
 
-    jQuery("#noteId").`val`(note.id.getOrElse(""))
-    jQuery("#noteCategory").`val`(note.category)
-    jQuery("#noteContents").`val`(note.content)
+    jQuery("#noteId").value(note.id.getOrElse(""))
+    jQuery("#noteCategory").value(note.category)
+    jQuery("#noteContents").value(note.content)
     jQuery("#hole-note-edit-modal").asInstanceOf[js.Dynamic].modal("show")
   }
 
@@ -349,7 +351,7 @@ object holemap {
   def confirmDeleteNote(note: HoleNote) = {
     note.id.map { id =>
       CurrentHoleNote = Some(note)
-      jQuery("#deleteNoteId").`val`(id)
+      jQuery("#deleteNoteId").value(id)
       jQuery("#hole-note-confirm-delete-modal").asInstanceOf[js.Dynamic].modal("show")
     }
   }
@@ -363,14 +365,14 @@ object holemap {
           jQuery("#hole-note-confirm-delete-modal").asInstanceOf[js.Dynamic].modal("hide")
           CurrentHoleNote = None
         }
-        .runAsync
+        .runAsyncAndForget
     }
   }
 
   def clearNoteForm(): Unit = {
-    jQuery("#noteId").`val`("")
-    jQuery("#noteCategory").`val`("general")
-    jQuery("#noteContents").`val`("")
+    jQuery("#noteId").value("")
+    jQuery("#noteCategory").value("general")
+    jQuery("#noteContents").value("")
     ()
   }
 
@@ -379,16 +381,18 @@ object holemap {
       user     <- auth.CurrentUser()
       holeData <- PageHoleData
     } yield {
-      val id       = Some(jQuery("#noteId").`val`.asInstanceOf[String]).filter(_.nonEmpty)
-      val category = jQuery("#noteCategory").`val`.asInstanceOf[String]
-      val content  = jQuery("#noteContents").`val`.asInstanceOf[String]
+      val id       = Some(jQuery("#noteId").value().asInstanceOf[String]).filter(_.nonEmpty)
+      val category = jQuery("#noteCategory").value().asInstanceOf[String]
+      val content  = jQuery("#noteContents").value().asInstanceOf[String]
       HoleNote(id, user.uid, holeData.id, category, content)
     }
   }
 
   def sortNoteElements() = {
     val sortedElements =
-      jQuery(".gcn-hole-note").toArray.toList
+      jQuery(".gcn-hole-note")
+        .toArray()
+        .toList
         .sortWith { (noteElementA, noteElementB) =>
           val categoryA = jQuery(noteElementA).data("note-category").asInstanceOf[String]
           val categoryB = jQuery(noteElementB).data("note-category").asInstanceOf[String]

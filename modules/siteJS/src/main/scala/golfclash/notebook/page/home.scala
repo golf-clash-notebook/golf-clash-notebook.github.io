@@ -55,45 +55,44 @@ object home {
       .map { maybeSchedule =>
         maybeSchedule match {
           case Some(schedule) => {
-            schedule.channelStreams.foreach {
-              case (channelId, streamList) =>
-                jQuery(s""".stream-item[data-channel-id="${channelId}"]""").map { e: Element =>
-                  val streamItem = jQuery(e)
+            schedule.channelStreams.foreach { case (channelId, streamList) =>
+              jQuery(s""".stream-item[data-channel-id="${channelId}"]""").map { e: Element =>
+                val streamItem = jQuery(e)
 
-                  if (streamList.nonEmpty) {
-                    streamItem.find(".stream-schedule").empty()
-                    streamList
-                      .sortWith {
-                        case (_: LiveStream, _) => false
-                        case (_, _: LiveStream) => true
-                        case _                  => false
-                      }
-                      .take(3)
-                      .foreach { stream =>
-                        streamItem
-                          .find(".stream-schedule")
-                          .append(createStreamItem(stream).render)
-                      }
-                  } else {
-                    streamItem
-                      .find(".stream-schedule")
-                      .empty()
-                      .append(
-                        div(cls := "stream-schedule-item")(
-                          div(cls := "stream-schedule-item-title")(""),
-                          div(cls := "stream-schedule-item-time text-danger")("Offline")
-                        ).render
-                      )
-                  }
-
-                  streamItem.find(".stream-updating-spinner").addClass("hidden")
+                if (streamList.nonEmpty) {
+                  streamItem.find(".stream-schedule").empty()
+                  streamList
+                    .sortWith {
+                      case (_: LiveStream, _) => false
+                      case (_, _: LiveStream) => true
+                      case _                  => false
+                    }
+                    .take(3)
+                    .foreach { stream =>
+                      streamItem
+                        .find(".stream-schedule")
+                        .append(createStreamItem(stream).render)
+                    }
+                } else {
+                  streamItem
+                    .find(".stream-schedule")
+                    .empty()
+                    .append(
+                      div(cls := "stream-schedule-item")(
+                        div(cls := "stream-schedule-item-title")(""),
+                        div(cls := "stream-schedule-item-time text-danger")("Offline")
+                      ).render
+                    )
                 }
+
+                streamItem.find(".stream-updating-spinner").addClass("hidden")
+              }
             }
           }
           case None => ()
         }
       }
-      .runAsync
+      .runAsyncAndForget
 
   }
 

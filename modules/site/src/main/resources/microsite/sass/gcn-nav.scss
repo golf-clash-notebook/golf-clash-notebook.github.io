@@ -40,7 +40,7 @@
 }
 
 #nav-affix-wrapper {
-  height: 48px;
+  height: 42px;
 }
 
 #nav-container {
@@ -70,9 +70,11 @@ ul.horizontalNav {
   li {
     display: inline-block;
     float: none;
+    padding: 2px;
 
     a {
       color: #fff;
+      padding-bottom: 2px;
     }
   }
 

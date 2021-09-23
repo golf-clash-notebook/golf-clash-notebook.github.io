@@ -38,8 +38,8 @@ object Firebase extends js.Object {
   def firestore(): firebase.firestore.Firestore                                  = js.native
 
   def initializeApp(
-    options: FirebaseConfig,
-    name: js.UndefOr[String] = js.undefined
+      options: FirebaseConfig,
+      name: js.UndefOr[String] = js.undefined
   ): firebase.app.App = js.native
 
 }
@@ -56,12 +56,12 @@ trait FirebaseConfig extends js.Object {
 
 object FirebaseConfig {
   def apply(
-    apiKey: String,
-    authDomain: js.UndefOr[String] = js.undefined,
-    databaseURL: js.UndefOr[String] = js.undefined,
-    projectId: js.UndefOr[String] = js.undefined,
-    storageBucket: js.UndefOr[String] = js.undefined,
-    messagingSenderId: js.UndefOr[String] = js.undefined
+      apiKey: String,
+      authDomain: js.UndefOr[String] = js.undefined,
+      databaseURL: js.UndefOr[String] = js.undefined,
+      projectId: js.UndefOr[String] = js.undefined,
+      storageBucket: js.UndefOr[String] = js.undefined,
+      messagingSenderId: js.UndefOr[String] = js.undefined
   ): FirebaseConfig =
     js.Dynamic
       .literal(
@@ -87,8 +87,8 @@ trait FirebaseError extends js.Object {
 trait Thenable[T, E] extends js.Object {
   def `catch`[U](onReject: js.Function1[E, U]): js.Dynamic = js.native
   def `then`[U](
-    onResolve: js.Function1[T, U],
-    onReject: js.Function1[E, U]
+      onResolve: js.Function1[T, U],
+      onReject: js.Function1[E, U]
   ): firebase.Thenable[U, E] =
     js.native
 }

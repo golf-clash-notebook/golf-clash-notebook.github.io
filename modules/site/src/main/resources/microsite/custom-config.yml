@@ -1,10 +1,4 @@
 
-sass:
-  style: compressed
-  load_paths:
-    - _sass
-    - css
-
 page_gen-dirs: true
 
 page_gen:

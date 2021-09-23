@@ -42,7 +42,7 @@ object GolfClashNotebookApp {
     // For gathering current hole ratings...
     // Firebase.initializeApp(configForMode(Prod))
     // import monix.execution.Scheduler.Implicits.global
-    // util.printRatingsYamlFromStore().runAsync
+    // util.printRatingsYamlFromStore().runAsyncAndForget
 
     jQuery(dom.document).ready { () =>
       common.init()

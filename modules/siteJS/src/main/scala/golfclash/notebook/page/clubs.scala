@@ -92,7 +92,7 @@ object clubs {
 
       }
 
-    }.runAsync
+    }.runAsyncAndForget
   }
 
   def createWindChartModal(chartId: String, club: Club) = {
@@ -127,7 +127,7 @@ object clubs {
       tag => _,
       _
     }
-    import scalatags.JsDom.svgTags.{ tag => _, _ }
+    import scalatags.JsDom.svgTags.{tag => _, _}
 
     val clubPower   = wind.maxPower(club, 1, wind.Power0)
     val windPerRing = wind.windPerRing(club, 1, clubPower)

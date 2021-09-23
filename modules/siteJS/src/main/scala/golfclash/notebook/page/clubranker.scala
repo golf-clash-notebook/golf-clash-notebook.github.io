@@ -38,25 +38,25 @@ object clubranker {
   case class RankedClub(clubLevel: ClubLevel, score: Double, tier: Int = 1)
 
   case class ClubLevel(
-    name: String,
-    category: String,
-    level: Int,
-    tour: Int,
-    power: Int,
-    accuracy: Int,
-    topspin: Int,
-    backspin: Int,
-    curl: Int,
-    ballguide: Double
+      name: String,
+      category: String,
+      level: Int,
+      tour: Int,
+      power: Int,
+      accuracy: Int,
+      topspin: Int,
+      backspin: Int,
+      curl: Int,
+      ballguide: Double
   )
 
   case class ClubRankWeights(
-    rawPower: Double,
-    rawAccuracy: Double,
-    rawTopspin: Double,
-    rawBackspin: Double,
-    rawCurl: Double,
-    rawBallguide: Double
+      rawPower: Double,
+      rawAccuracy: Double,
+      rawTopspin: Double,
+      rawBackspin: Double,
+      rawCurl: Double,
+      rawBallguide: Double
   ) {
 
     val total = (rawPower + rawAccuracy + rawTopspin + rawBackspin + rawCurl + rawBallguide).max(1)
@@ -79,9 +79,12 @@ object clubranker {
 
     List(powerSlider, accuracySlider, topSpinSlider, backSpinSlider, curlSlider, ballGuideSlider)
       .foreach { slider =>
-        slider.on("change", { () =>
-          updateRankings()
-        })
+        slider.on(
+          "change",
+          { () =>
+            updateRankings()
+          }
+        )
       }
 
     applyCategoryPreset(CategoryWeightPresets(Club.Category.Drivers))
@@ -90,27 +93,18 @@ object clubranker {
 
   def updateRankings(): Unit = {
     for {
-      clubCategory <- selectedClubCategory
+      clubCategory <- selectedClubCategory()
       clubLevelsT  <- ClubLevels.get(clubCategory)
     } {
-      clubLevelsT
-        .map { clubLevels =>
-          showRankings(rank(clubLevels, currentWeights()))
-        }
-        .runAsync
-        .onComplete {
-          case scala.util.Success(_) => ()
-          case scala.util.Failure(ex) => {
-            println("Failed to initialize club ranker: " + ex)
-            ex.printStackTrace()
-          }
-        }
+      clubLevelsT.map { clubLevels =>
+        showRankings(rank(clubLevels, currentWeights()))
+      }.runAsyncAndForget
     }
   }
 
   def applyCategoryPreset(): Unit = {
     for {
-      clubCategory <- selectedClubCategory
+      clubCategory <- selectedClubCategory()
       preset       <- CategoryWeightPresets.get(clubCategory)
     } {
       applyCategoryPreset(preset)
@@ -197,16 +191,15 @@ object clubranker {
   def assignTiers(rankedClubs: List[RankedClub]): List[RankedClub] = {
     rankedClubs
       .sortBy(-_.score)
-      .scanLeft(none[RankedClub]) {
-        case (lastClubOpt, currentClub) =>
-          lastClubOpt match {
-            case None => currentClub.copy(tier = 1).some
-            case Some(lastClub) => {
-              val scoreRatio  = 1 - ((lastClub.score - currentClub.score) / currentClub.score)
-              val currentTier = if (scoreRatio < 0.97) lastClub.tier + 1 else lastClub.tier
-              currentClub.copy(tier = currentTier.min(10)).some
-            }
+      .scanLeft(none[RankedClub]) { case (lastClubOpt, currentClub) =>
+        lastClubOpt match {
+          case None => currentClub.copy(tier = 1).some
+          case Some(lastClub) => {
+            val scoreRatio  = 1 - ((lastClub.score - currentClub.score) / currentClub.score)
+            val currentTier = if (scoreRatio < 0.97) lastClub.tier + 1 else lastClub.tier
+            currentClub.copy(tier = currentTier.min(10)).some
           }
+        }
       }
       .flatten
   }

@@ -43,10 +43,10 @@ object holeranker {
   val init = () => {
 
     jQuery("#skip-scenario-btn").click { () =>
-      generateNewScenario.runAsync
+      generateNewScenario().runAsyncAndForget
     }
 
-    generateNewScenario().runAsync
+    generateNewScenario().runAsyncAndForget
   }
 
   def generateNewScenario(): Task[Unit] = {
@@ -71,9 +71,12 @@ object holeranker {
     div(cls := "col-md-4 col-xs-6 scenario-option text-center", data("mh") := "hole-option")(
       div(cls := "text-large text-semi-muted")(s"${hole.course}"),
       div(cls := "text-small text-semi-muted")(s"Hole ${hole.number} - Par ${hole.par}"),
-      img(src := imgPath, onclick := { () =>
-        scenarioDecided(scenario, hole)
-      })
+      img(
+        src := imgPath,
+        onclick := { () =>
+          scenarioDecided(scenario, hole)
+        }
+      )
     )
   }
 
@@ -101,7 +104,7 @@ object holeranker {
     } yield {
       jQuery("#busy-spinner").addClass("hidden")
       jQuery("#skip-scenario-btn").css("visibility", "visible")
-    }).runAsync
+    }).runAsyncAndForget
   }
 
   def randomScenario: Task[Scenario] = {

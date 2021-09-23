@@ -31,8 +31,8 @@ import scala.util.Try
 import monix.eval.Task
 import monix.execution.Scheduler.Implicits.global
 import org.scalajs.dom
-import org.scalajs.dom.raw.{ SVGPoint, SVGSVGElement }
-import org.scalajs.dom.{ MouseEvent, TouchEvent }
+import org.scalajs.dom.raw.{SVGPoint, SVGSVGElement}
+import org.scalajs.dom.{MouseEvent, TouchEvent}
 import org.scalajs.jquery.jQuery
 
 object shotoverpower {
@@ -61,7 +61,7 @@ object shotoverpower {
 
     jQuery("#op-club-category-select").change { () =>
       Club.Category
-        .fromString(jQuery(s"#op-club-category-select").`val`.asInstanceOf[String])
+        .fromString(jQuery(s"#op-club-category-select").value().asInstanceOf[String])
         .foreach(categorySelected)
     }
 
@@ -79,7 +79,7 @@ object shotoverpower {
     }
 
     jQuery(s"#club${clubNum}-select").change { () =>
-      val clubId = jQuery(s"#club${clubNum}-select").`val`.asInstanceOf[String]
+      val clubId = jQuery(s"#club${clubNum}-select").value().asInstanceOf[String]
       clubs.find(_.id == clubId) match {
         case Some(club) => clubSelected(clubNum, club)
         case None       => println("oops...")
@@ -103,7 +103,7 @@ object shotoverpower {
       initClubControls(0, categoryClubs)
       initClubControls(1, categoryClubs)
       resetReticles()
-    }.runAsync
+    }.runAsyncAndForget
     ()
   }
 
@@ -255,17 +255,17 @@ object shotoverpower {
 
   def currentClub(clubNum: Int): Task[Option[Club]] = {
     Club.All.map { allClubsList =>
-      val clubId = jQuery(s"#club${clubNum}-select").`val`.asInstanceOf[String]
+      val clubId = jQuery(s"#club${clubNum}-select").value().asInstanceOf[String]
       allClubsList.find(_.id == clubId)
     }
   }
 
   def currentClubLevel(clubNum: Int): Task[Option[Int]] =
-    Task(Try(jQuery(s"#club${clubNum}-level-select").`val`.asInstanceOf[String].toInt).toOption)
+    Task(Try(jQuery(s"#club${clubNum}-level-select").value().asInstanceOf[String].toInt).toOption)
 
   def currentBallPower(clubNum: Int): Task[Option[wind.WindMode]] =
     Task(
-      Try(jQuery(s"#club${clubNum}-ball-power-select").`val`.asInstanceOf[String].toInt).toOption
+      Try(jQuery(s"#club${clubNum}-ball-power-select").value().asInstanceOf[String].toInt).toOption
         .map {
           case 0 => wind.Power0
           case 1 => wind.Power1
@@ -302,9 +302,10 @@ object shotoverpower {
         val clubMaxOpRings = overpower.rings(club, clubLevel, clubBallPower.powerCoefficient)
         val clubMaxOpYards = overpower.yards(club, clubLevel, clubBallPower.powerCoefficient)
 
-        val shotOpRings  = clubMaxOpRings * opPercentage
-        val shotOpYards  = clubMaxOpYards * opPercentage
-        val shotDistance = (club.power(clubLevel - 1) * clubBallPower.powerCoefficient) + shotOpYards
+        val shotOpRings = clubMaxOpRings * opPercentage
+        val shotOpYards = clubMaxOpYards * opPercentage
+        val shotDistance =
+          (club.power(clubLevel - 1) * clubBallPower.powerCoefficient) + shotOpYards
 
         jQuery(s"#club${clubNum}-distance").text(f"$shotDistance%.1f yards")
 
@@ -325,7 +326,7 @@ object shotoverpower {
 
       }
 
-    }).runAsync
+    }).runAsyncAndForget
 
     ()
   }

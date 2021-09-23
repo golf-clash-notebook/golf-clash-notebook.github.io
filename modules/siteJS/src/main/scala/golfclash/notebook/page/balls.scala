@@ -66,16 +66,15 @@ object balls {
   def assignTiers(rankedBalls: List[RankedBall]): List[RankedBall] = {
     rankedBalls
       .sortBy(-_.score)
-      .scanLeft(none[RankedBall]) {
-        case (lastBallOpt, currentBall) =>
-          lastBallOpt match {
-            case None => currentBall.copy(tier = 1).some
-            case Some(lastBall) => {
-              val scoreRatio  = 1 - ((lastBall.score - currentBall.score) / currentBall.score)
-              val currentTier = if (scoreRatio < 0.98) lastBall.tier + 1 else lastBall.tier
-              currentBall.copy(tier = currentTier.min(10)).some
-            }
+      .scanLeft(none[RankedBall]) { case (lastBallOpt, currentBall) =>
+        lastBallOpt match {
+          case None => currentBall.copy(tier = 1).some
+          case Some(lastBall) => {
+            val scoreRatio  = 1 - ((lastBall.score - currentBall.score) / currentBall.score)
+            val currentTier = if (scoreRatio < 0.98) lastBall.tier + 1 else lastBall.tier
+            currentBall.copy(tier = currentTier.min(10)).some
           }
+        }
       }
       .flatten
   }
@@ -113,7 +112,7 @@ object balls {
 
         Ball(name, windResistance, sideSpin, power, needleSpeed)
       }
-      .toArray
+      .toArray()
       .map(_.asInstanceOf[Ball])
       .toList
       .sortBy(_.name)
@@ -149,9 +148,9 @@ object balls {
   }
 
   def updateBallElements(
-    rankedBalls: List[RankedBall],
-    elementId: Ball => String,
-    replacementSelector: Int => String
+      rankedBalls: List[RankedBall],
+      elementId: Ball => String,
+      replacementSelector: Int => String
   ): Unit = {
 
     val ballElements = rankedBalls.map { rankedBall =>
@@ -164,9 +163,8 @@ object balls {
       newCard
     }
 
-    ballElements.zipWithIndex.foreach {
-      case (ballCard, ix) =>
-        jQuery(replacementSelector(ix)).replaceWith(ballCard)
+    ballElements.zipWithIndex.foreach { case (ballCard, ix) =>
+      jQuery(replacementSelector(ix)).replaceWith(ballCard)
     }
   }
 
