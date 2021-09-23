@@ -1,5 +1,6 @@
 
 modules/site/src/main/resources/microsite/js/golf-clash-notebook-site.*
+modules/siteJS/src/main/resources/microsite/js/golf-clash-notebook-site.*
 
 ### Scala ###
 *.class
@@ -15,9 +16,13 @@ local.sbt
 target/
 project/project
 project/target
+project/metals.sbt
 
 ### Editor Specific ###
 *.sublime*
+.bloop
+.bsp
+.metals
 .vscode
 
 .env

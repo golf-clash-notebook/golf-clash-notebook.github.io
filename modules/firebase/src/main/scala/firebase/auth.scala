@@ -54,8 +54,8 @@ object auth {
     // checkActionCode(code) returns firebase.Promise containing non-null firebase.auth.ActionCodeInfo
     def confirmPasswordReset(code: String, newPassword: String): Promise[Unit, Error] = js.native
     def createUserAndRetrieveDataWithEmailAndPassword(
-      email: String,
-      password: String
+        email: String,
+        password: String
     ): Promise[UserCredential, Error] =
       js.native
     def createUserWithEmailAndPassword(email: String, password: String): Promise[User, Error] =
@@ -63,26 +63,26 @@ object auth {
     def fetchProvidersForEmail(email: String): Promise[js.Array[String], Error] = js.native
     def getRedirectResult(): Promise[UserCredential, Error]                     = js.native
     def onAuthStateChanged(
-      nextOrObserver: js.Function1[js.UndefOr[User], Unit],
-      error: js.UndefOr[js.Function1[Error, Unit]] = js.undefined,
-      completed: js.UndefOr[js.Function0[Unit]] = js.undefined
+        nextOrObserver: js.Function1[js.UndefOr[User], Unit],
+        error: js.UndefOr[js.Function1[Error, Unit]] = js.undefined,
+        completed: js.UndefOr[js.Function0[Unit]] = js.undefined
     ): js.Function0[Unit] = js.native
     // onIdTokenChanged(nextOrObserver, error, completed) returns function()
     def sendPasswordResetEmail(
-      email: String,
-      actionCodeSettings: js.UndefOr[ActionCodeSettings]
+        email: String,
+        actionCodeSettings: js.UndefOr[ActionCodeSettings]
     ): Promise[Unit, Error] =
       js.native
     def setPersistence(persistence: String): Promise[Unit, Error] = js.native
     def signInAndRetrieveDataWithCredential(
-      credential: AuthCredential
+        credential: AuthCredential
     ): Promise[UserCredential, Error] =
       js.native
     def signInAndRetrieveDataWithCustomToken(token: String): Promise[UserCredential, Error] =
       js.native
     def signInAndRetrieveDataWithEmailAndPassword(
-      email: String,
-      password: String
+        email: String,
+        password: String
     ): Promise[UserCredential, Error] =
       js.native
     // signInAnonymously() returns firebase.Promise containing non-null firebase.User
@@ -122,8 +122,8 @@ object auth {
   class OAuthProvider(providerId: String) extends AuthProvider {
     def addScope(scope: String): OAuthProvider = js.native
     def credential(
-      idToken: js.UndefOr[String] = js.undefined,
-      accessToken: js.UndefOr[String] = js.undefined
+        idToken: js.UndefOr[String] = js.undefined,
+        accessToken: js.UndefOr[String] = js.undefined
     ): OAuthCredential =
       js.native
     def setCustomParameters(customOAuthParameters: js.Object): OAuthProvider = js.native
@@ -160,8 +160,8 @@ object auth {
   object GoogleAuthProvider extends js.Object {
     def PROVIDER_ID: String = js.native
     def credential(
-      idToken: js.UndefOr[String] = js.undefined,
-      accessToken: js.UndefOr[String] = js.undefined
+        idToken: js.UndefOr[String] = js.undefined,
+        accessToken: js.UndefOr[String] = js.undefined
     ): OAuthCredential =
       js.native
   }
@@ -175,8 +175,8 @@ object auth {
   object TwitterAuthProvider extends js.Object {
     def PROVIDER_ID: String = js.native
     def credential(
-      idToken: js.UndefOr[String] = js.undefined,
-      accessToken: js.UndefOr[String] = js.undefined
+        idToken: js.UndefOr[String] = js.undefined,
+        accessToken: js.UndefOr[String] = js.undefined
     ): OAuthCredential =
       js.native
   }
@@ -232,14 +232,14 @@ object auth {
     def getIdToken(forceRefresh: js.UndefOr[Boolean] = js.undefined): Promise[String, Error] =
       js.native
     def linkAndRetrieveDataWithCredential(
-      credential: AuthCredential
+        credential: AuthCredential
     ): Promise[UserCredential, Error]                                        = js.native
     def linkWithCredential(credential: AuthCredential): Promise[User, Error] = js.native
     // linkWithPhoneNumber(phoneNumber, applicationVerifier) returns firebase.Promise containing non-null firebase.auth.ConfirmationResult
     def linkWithPopup(provider: OAuthProvider): Promise[UserCredential, Error] = js.native
     def linkWithRedirect(provider: OAuthProvider): Promise[Unit, Error]        = js.native
     def reauthenticateAndRetrieveDataWithCredential(
-      credential: AuthCredential
+        credential: AuthCredential
     ): Promise[UserCredential, Error]                                                  = js.native
     def reauthenticateWithCredential(credential: AuthCredential): Promise[Unit, Error] = js.native
     // reauthenticateWithPhoneNumber(phoneNumber, applicationVerifier) returns firebase.Promise containing non-null firebase.auth.ConfirmationResult
@@ -247,7 +247,7 @@ object auth {
     def reauthenticateWithRedirect(provider: OAuthProvider): Promise[Unit, Error]        = js.native
     def reload(): Promise[Unit, Error]                                                   = js.native
     def sendEmailVerification(
-      actionCodeSettings: js.UndefOr[ActionCodeSettings] = js.undefined
+        actionCodeSettings: js.UndefOr[ActionCodeSettings] = js.undefined
     ): Promise[Unit, Error] =
       js.native
     def toJSON(): js.Object                                       = js.native

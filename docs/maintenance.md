@@ -3,8 +3,8 @@
 
 *Prerequisites*
 1. JDK 8+
-1. Ruby (I use 2.4.5)
-1. Jekyll (I use 3.8.5)
+1. Ruby (I use 2.6.5)
+1. Jekyll 4+ (I use 4.2.0)
 1. Some kind of simple HTTP server such as Jekyll or Python's SimpleHTTPServer
 
 *Building*

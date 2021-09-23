@@ -118,3 +118,55 @@
   backspin:  [  0,   6,   6,  20,  20,  42,  57,  65]
   curl:      [ 50,  66,  66,  91,  91, 100, 100, 100]
   ballguide: [2.3, 2.9, 3.1, 3.3, 3.7, 3.7, 4.4, 4.5]
+- id: 1230c61c-ef95-46e4-950a-d30d2dc9de6b
+  name: Fixed Sand Wedge Rookie
+  category: SandWedges
+  tour: 0
+  type: Fixed
+  description: >
+    Fixed Sand Wedge for Rookie Division. Only used in those strange fixed club tournaments.
+  power:     [104]
+  accuracy:  [ 70]
+  topspin:   [ 50]
+  backspin:  [ 50]
+  curl:      [ 80]
+  ballguide: [2.0]
+- id: 03087446-34b4-4b25-ae27-b9e7bea8668f
+  name: Fixed Sand Wedge Pro
+  category: SandWedges
+  tour: 0
+  type: Fixed
+  description: >
+    Fixed Sand Wedge for Pro Division. Only used in those strange fixed club tournaments.
+  power:     [104]
+  accuracy:  [ 60]
+  topspin:   [ 50]
+  backspin:  [ 50]
+  curl:      [ 80]
+  ballguide: [1.9]
+- id: 435a268e-377c-47c8-911a-da593437c126
+  name: Fixed Sand Wedge Expert
+  category: SandWedges
+  tour: 0
+  type: Fixed
+  description: >
+    Fixed Sand Wedge for Expert Division. Only used in those strange fixed club tournaments.
+  power:     [104]
+  accuracy:  [ 50]
+  topspin:   [ 50]
+  backspin:  [ 50]
+  curl:      [ 80]
+  ballguide: [1.8]
+- id: 59b42d5e-f8c2-49f9-8914-b73aecec3f49
+  name: Fixed Sand Wedge Master
+  category: SandWedges
+  tour: 0
+  type: Fixed
+  description: >
+    Fixed Sand Wedge for Master Division. Only used in those strange fixed club tournaments.
+  power:     [104]
+  accuracy:  [ 40]
+  topspin:   [ 50]
+  backspin:  [ 50]
+  curl:      [ 80]
+  ballguide: [1.7]

@@ -56,8 +56,8 @@ object firestore {
     def get(): Promise[DocumentSnapshot, FirestoreError]        = js.native
     // onSnapshot(optionsOrObserverOrOnNext, observerOrOnNextOrOnError, onError)
     def set(
-      data: js.Any,
-      options: js.UndefOr[js.Object] = js.undefined
+        data: js.Any,
+        options: js.UndefOr[js.Object] = js.undefined
     ): Promise[Unit, FirestoreError] =
       js.native
     def update(var_args: js.Any): Promise[Unit, FirestoreError] = js.native
@@ -65,7 +65,7 @@ object firestore {
 
   @js.native
   trait DocumentSnapshot extends js.Object {
-    def data(): js.Any                                         = js.native
+    def data(): js.Any = js.native
     def get(fieldPath: String | FieldPath): js.UndefOr[js.Any] = js.native
 
     def exists: Boolean
@@ -107,17 +107,17 @@ object firestore {
   trait Query extends js.Object {
     def firestore: Firestore = js.native
 
-    def endAt(snapshotOrVarArgs: DocumentSnapshot | js.Any*): Query     = js.native
+    def endAt(snapshotOrVarArgs: DocumentSnapshot | js.Any*): Query = js.native
     def endBefore(snapshotOrVarArgs: DocumentSnapshot | js.Any*): Query = js.native
-    def get(): Promise[QuerySnapshot, FirestoreError]                   = js.native
-    def limit(limit: Int): Query                                        = js.native
+    def get(): Promise[QuerySnapshot, FirestoreError] = js.native
+    def limit(limit: Int): Query                      = js.native
     // onSnapshot(optionsOrObserverOrOnNext, observerOrOnNextOrOnError, onError, onCompletion)
     def orderBy(
-      fieldPath: String | FieldPath,
-      directionStr: js.UndefOr[String] = js.undefined
-    ): Query                                                                      = js.native
-    def startAfter(snapshotOrVarArgs: DocumentSnapshot | js.Any*): Query          = js.native
-    def startAt(snapshotOrVarArgs: DocumentSnapshot | js.Any*): Query             = js.native
+        fieldPath: String | FieldPath,
+        directionStr: js.UndefOr[String] = js.undefined
+    ): Query = js.native
+    def startAfter(snapshotOrVarArgs: DocumentSnapshot | js.Any*): Query = js.native
+    def startAt(snapshotOrVarArgs: DocumentSnapshot | js.Any*): Query = js.native
     def where(fieldPath: String | FieldPath, opStr: String, value: js.Any): Query = js.native
   }
 
@@ -131,8 +131,8 @@ object firestore {
     def size: Int                            = js.native
 
     def forEach(
-      callback: js.Function1[DocumentSnapshot, Unit],
-      thisArg: js.UndefOr[js.Any] = js.undefined
+        callback: js.Function1[DocumentSnapshot, Unit],
+        thisArg: js.UndefOr[js.Any] = js.undefined
     ): Unit =
       js.native
   }
@@ -151,9 +151,9 @@ object firestore {
     def delete(documentRef: DocumentReference): Transaction                            = js.native
     def get(documentRef: DocumentReference): Promise[DocumentSnapshot, FirestoreError] = js.native
     def set(
-      documentRef: DocumentReference,
-      data: js.Any,
-      options: js.UndefOr[js.Object] = js.undefined
+        documentRef: DocumentReference,
+        data: js.Any,
+        options: js.UndefOr[js.Object] = js.undefined
     ): Transaction                                                               = js.native
     def update(documentRef: DocumentReference, var_args: js.Object): Transaction = js.native
   }
@@ -163,9 +163,9 @@ object firestore {
     def commit(): Promise[Unit, FirestoreError]            = js.native
     def delete(documentRef: DocumentReference): WriteBatch = js.native
     def set(
-      documentRef: DocumentReference,
-      data: js.Any,
-      options: js.UndefOr[js.Object] = js.undefined
+        documentRef: DocumentReference,
+        data: js.Any,
+        options: js.UndefOr[js.Object] = js.undefined
     ): WriteBatch                                                               = js.native
     def update(documentRef: DocumentReference, var_args: js.Object): WriteBatch = js.native
   }

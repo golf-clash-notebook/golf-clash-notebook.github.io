@@ -137,3 +137,55 @@
   backspin:  [ 50]
   curl:      [ 40]
   ballguide: [2.1]
+- id: 63f72df8-6ffd-4e14-9c0a-8e515b209619
+  name: Fixed Long Iron Rookie
+  category: LongIrons
+  tour: 0
+  type: Fixed
+  description: >
+    Fixed Long Iron for Rookie Division. Only used in those strange fixed club tournaments.
+  power:     [131]
+  accuracy:  [ 70]
+  topspin:   [ 50]
+  backspin:  [ 50]
+  curl:      [ 80]
+  ballguide: [2.7]
+- id: b7c7b788-2bf5-47e4-88d7-204952a7b3f0
+  name: Fixed Long Iron Pro
+  category: LongIrons
+  tour: 0
+  type: Fixed
+  description: >
+    Fixed Long Iron for Pro Division. Only used in those strange fixed club tournaments.
+  power:     [131]
+  accuracy:  [ 60]
+  topspin:   [ 50]
+  backspin:  [ 50]
+  curl:      [ 80]
+  ballguide: [2.6]
+- id: 2a02dcd6-6adb-43be-a002-a747f147e179
+  name: Fixed Long Iron Expert
+  category: LongIrons
+  tour: 0
+  type: Fixed
+  description: >
+    Fixed Long Iron for Expert Division. Only used in those strange fixed club tournaments.
+  power:     [131]
+  accuracy:  [ 50]
+  topspin:   [ 50]
+  backspin:  [ 50]
+  curl:      [ 80]
+  ballguide: [2.5]
+- id: 4617d7d0-661a-4d39-9adf-d2878c5dd065
+  name: Fixed Long Iron Master
+  category: LongIrons
+  tour: 0
+  type: Fixed
+  description: >
+    Fixed Long Iron for Master Division. Only used in those strange fixed club tournaments.
+  power:     [131]
+  accuracy:  [ 40]
+  topspin:   [ 50]
+  backspin:  [ 50]
+  curl:      [ 80]
+  ballguide: [2.4]

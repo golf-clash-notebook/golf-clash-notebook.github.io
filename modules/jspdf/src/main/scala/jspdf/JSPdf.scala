@@ -55,53 +55,53 @@ class JSPdf(options: js.UndefOr[js.Object] = js.undefined) extends js.Object {
     js.native
 
   def ellipse(
-    x: Double,
-    y: Double,
-    rx: Double,
-    ry: Double,
-    style: js.UndefOr[String] = js.undefined
+      x: Double,
+      y: Double,
+      rx: Double,
+      ry: Double,
+      style: js.UndefOr[String] = js.undefined
   ): JSPdf = js.native
 
   def line(
-    x0: Double,
-    y0: Double,
-    x1: Double,
-    y1: Double,
-    style: js.UndefOr[String] = js.undefined
+      x0: Double,
+      y0: Double,
+      x1: Double,
+      y1: Double,
+      style: js.UndefOr[String] = js.undefined
   ): JSPdf = js.native
 
   def rect(
-    x: Double,
-    y: Double,
-    w: Double,
-    h: Double,
-    style: js.UndefOr[String] = js.undefined
+      x: Double,
+      y: Double,
+      w: Double,
+      h: Double,
+      style: js.UndefOr[String] = js.undefined
   ): JSPdf = js.native
 
   def roundedRect(
-    x: Double,
-    y: Double,
-    w: Double,
-    h: Double,
-    rx: Double,
-    ry: Double,
-    style: js.UndefOr[String] = js.undefined
+      x: Double,
+      y: Double,
+      w: Double,
+      h: Double,
+      rx: Double,
+      ry: Double,
+      style: js.UndefOr[String] = js.undefined
   ): JSPdf = js.native
 
   def save(filename: String): JSPdf = js.native
 
   def setDrawColor(
-    ch1: Double | String,
-    ch2: js.UndefOr[Double | String] = js.undefined,
-    ch3: js.UndefOr[Double | String] = js.undefined,
-    ch4: js.UndefOr[Double | String] = js.undefined
+      ch1: Double | String,
+      ch2: js.UndefOr[Double | String] = js.undefined,
+      ch3: js.UndefOr[Double | String] = js.undefined,
+      ch4: js.UndefOr[Double | String] = js.undefined
   ): JSPdf = js.native
 
   def setFillColor(
-    ch1: Double | String,
-    ch2: js.UndefOr[Double | String] = js.undefined,
-    ch3: js.UndefOr[Double | String] = js.undefined,
-    ch4: js.UndefOr[Double | String] = js.undefined
+      ch1: Double | String,
+      ch2: js.UndefOr[Double | String] = js.undefined,
+      ch3: js.UndefOr[Double | String] = js.undefined,
+      ch4: js.UndefOr[Double | String] = js.undefined
   ): JSPdf = js.native
 
   def setFont(fontName: String, fontStyle: String): JSPdf = js.native
@@ -115,16 +115,16 @@ class JSPdf(options: js.UndefOr[js.Object] = js.undefined) extends js.Object {
   def setPage(pageNum: Int): Unit = js.native
 
   def setTextColor(
-    ch1: Double | String,
-    ch2: js.UndefOr[Double | String] = js.undefined,
-    ch3: js.UndefOr[Double | String] = js.undefined
+      ch1: Double | String,
+      ch2: js.UndefOr[Double | String] = js.undefined,
+      ch3: js.UndefOr[Double | String] = js.undefined
   ): JSPdf = js.native
 
   def text(
-    text: String,
-    x: Double,
-    y: Double,
-    flags: js.UndefOr[js.Any | String] = js.undefined
+      text: String,
+      x: Double,
+      y: Double,
+      flags: js.UndefOr[js.Any | String] = js.undefined
   ): JSPdf =
     js.native
 }

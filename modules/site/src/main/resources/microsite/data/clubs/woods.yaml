@@ -139,3 +139,55 @@
   backspin:  [ 50]
   curl:      [ 60]
   ballguide: [2.1]
+- id: acb3a1ba-ffc5-4219-904c-6e5016f590d7
+  name: Fixed Wood Rookie
+  category: Woods
+  tour: 0
+  type: Fixed
+  description: >
+    Fixed Wood for Rookie Division. Only used in those strange fixed club tournaments.
+  power:     [176]
+  accuracy:  [ 70]
+  topspin:   [ 50]
+  backspin:  [ 50]
+  curl:      [ 80]
+  ballguide: [2.7]
+- id: 92edddfc-ea7a-405d-92a5-8fa2a34dc63c
+  name: Fixed Wood Pro
+  category: Woods
+  tour: 0
+  type: Fixed
+  description: >
+    Fixed Wood for Pro Division. Only used in those strange fixed club tournaments.
+  power:     [176]
+  accuracy:  [ 60]
+  topspin:   [ 50]
+  backspin:  [ 50]
+  curl:      [ 80]
+  ballguide: [2.6]
+- id: b13f57b5-80a4-40de-aaa8-772aea12a71f
+  name: Fixed Wood Expert
+  category: Woods
+  tour: 0
+  type: Fixed
+  description: >
+    Fixed Wood for Expert Division. Only used in those strange fixed club tournaments.
+  power:     [176]
+  accuracy:  [ 50]
+  topspin:   [ 50]
+  backspin:  [ 50]
+  curl:      [ 80]
+  ballguide: [2.5]
+- id: 1dd71ea7-2796-4e90-a5fd-2f92bda4352e
+  name: Fixed Wood Master
+  category: Woods
+  tour: 0
+  type: Fixed
+  description: >
+    Fixed Wood for Master Division. Only used in those strange fixed club tournaments.
+  power:     [176]
+  accuracy:  [ 40]
+  topspin:   [ 50]
+  backspin:  [ 50]
+  curl:      [ 80]
+  ballguide: [2.4]
